@@ -142,8 +142,7 @@ You are free to use, modify, and distribute the code with proper attribution.
 ### 📚 Educational Content License (CC BY-NC 4.0)
 
 All educational content in this repository — including vocabulary lists, translations, grammar explanations, exercises, and phrasal verb collections — is licensed under:  
-**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**  
-🔗 [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+*Creative Commons Attribution 4.0 International (CC BY 4.0)**  
 
 **You are free to:**
 
