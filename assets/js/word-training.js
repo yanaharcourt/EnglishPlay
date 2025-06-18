@@ -1122,3 +1122,1388 @@ document.querySelector('.study-button').addEventListener('click', function() {
 
     wordTraining.initialize(selectedWordsCount);
 });
+
+
+/* ============================================
+statistic cards
+============================================ */
+document.addEventListener('DOMContentLoaded', function () {
+    function updateStatistics() {
+        // Получаем все слова из словаря
+        const dictionary = JSON.parse(localStorage.getItem('dictionary') || '[]');
+        const wordStats = JSON.parse(localStorage.getItem('wordStats') || '{}');
+
+        // Подсчитываем количество слов
+        const totalWords = dictionary.length; // Общее количество слов
+        const wordsLearned = dictionary.filter(word => {
+            const stats = wordStats[word.text] || { successfulAttempts: 0 };
+            return stats.successfulAttempts >= 1;
+        }).length;
+
+        // Слова на изучении = общее количество - изученные
+        const wordsStudying = totalWords - wordsLearned;
+
+        // Обновляем отображение на странице
+        document.getElementById('words-studying').textContent = wordsStudying;
+        document.getElementById('words-learned').textContent = wordsLearned;
+
+        // Вычисляем средний темп
+        const now = new Date();
+        const startDate = new Date(localStorage.getItem('studyStartDate') || now);
+        const daysStudying = Math.max(1, Math.ceil((now - startDate) / (1000 * 60 * 60 * 24)));
+        const averagePace = Math.round(wordsLearned / daysStudying);
+
+        // Обновляем средний темп и рекорд
+        document.getElementById('average-pace').textContent = averagePace;
+        document.getElementById('daily-record').textContent =
+            localStorage.getItem('dailyRecord') || '0';
+        const streak = localStorage.getItem('dailyStreak') || '0';
+        document.getElementById('daily-record').textContent = streak;
+
+        // Проверяем и обновляем streak при загрузке
+        const lastActiveDate = localStorage.getItem('lastActiveDate');
+        if (lastActiveDate) {
+            const lastDate = new Date(lastActiveDate);
+            const currentDate = new Date();
+            const diffTime = Math.abs(currentDate - lastDate);
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+            if (diffDays > 1) {
+                localStorage.setItem('dailyStreak', '0');
+                document.getElementById('daily-record').textContent = '0';
+            }
+        }
+        // Выводим в консоль для отладки
+        console.log('Dictionary:', dictionary);
+        console.log('Word Stats:', wordStats);
+        console.log('Total words:', totalWords);
+        console.log('Words studying:', wordsStudying);
+        console.log('Words learned:', wordsLearned);
+    }
+
+    // Функция для обновления прогресса после тренировки
+    function
+
+        updateTrainingStats(correctAnswers, totalQuestions, selectedWords) {
+        const wordStats = JSON.parse(localStorage.getItem('wordStats') || '{}');
+        const successRate = correctAnswers / totalQuestions;
+        const today = new Date().toDateString();
+
+        // Получаем текущий streak и последний день активности
+        let streak = parseInt(localStorage.getItem('dailyStreak') || '0');
+        let lastActiveDate = localStorage.getItem('lastActiveDate');
+
+        if (successRate >= 0.7) {
+            selectedWords.forEach(word => {
+                if (!wordStats[word.text]) {
+                    wordStats[word.text] = {
+                        successfulAttempts: 0,
+                        learnedDate: null
+                    };
+                }
+                if (wordStats[word.text].successfulAttempts === 0) {
+                    wordStats[word.text].successfulAttempts = 1;
+                    wordStats[word.text].learnedDate = today;
+                }
+            });
+
+            // Обновляем streak
+            if (!lastActiveDate) {
+                streak = 1;
+            } else {
+                const lastDate = new Date(lastActiveDate);
+                const currentDate = new Date();
+                const diffTime = Math.abs(currentDate - lastDate);
+                const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+                if (diffDays === 0) {
+                    // Сегодня уже занимались, streak не меняется
+                } else if (diffDays === 1) {
+                    streak += 1;
+                } else {
+                    streak = 1;
+                }
+            }
+
+            localStorage.setItem('dailyStreak', streak.toString());
+            localStorage.setItem('lastActiveDate', today);
+            localStorage.setItem('wordStats', JSON.stringify(wordStats));
+
+            const dailyRecordElement = document.getElementById('daily-record');
+            if (dailyRecordElement) {
+                dailyRecordElement.textContent = streak;
+            }
+
+            updateStatistics();
+        }
+    }
+
+    // Инициализация
+    if (!localStorage.getItem('studyStartDate')) {
+        localStorage.setItem('studyStartDate', new Date().toISOString());
+    }
+
+    // Обновляем статистику при загрузке
+    updateStatistics();
+
+    // Делаем функции доступными глобально
+    window.updateStatistics = updateStatistics;
+    window.updateTrainingStats = updateTrainingStats;
+});
+
+// Модифицируем метод showCompletionModal
+WordTraining.prototype.showCompletionModal = function () {
+    const modal = document.createElement('div');
+    // ... существующий код создания модального окна ...
+
+    // Добавляем обновление статистики
+    const totalQuestions = this.activeModesSequence.reduce((total, mode) => {
+        if (mode === 'translation' || mode === 'matching' || mode === 'spelling') {
+            return total + this.selectedWords.length;
+        }
+        return total;
+    }, 0);
+
+    window.updateTrainingStats(this.totalCorrectAnswers, totalQuestions, this.selectedWords);
+};
+
+
+/* ============================================
+на изучении / изучено фильтры
+============================================ */
+document.addEventListener('DOMContentLoaded', function () {
+    const switcherBtns = document.querySelectorAll('.switcher-btn');
+    const switcherBar = document.querySelector('.switcher-bar');
+
+    function updateSwitcherBar(button) {
+        const buttonRect = button.getBoundingClientRect();
+        const parentRect = button.parentElement.getBoundingClientRect();
+        const offset = buttonRect.left - parentRect.left;
+        switcherBar.style.width = `${buttonRect.width}px`;
+        switcherBar.style.transform = `translateX(${offset}px)`;
+    }
+
+    function filterWords() {
+        const activeFilter = document.querySelector('.switcher-btn.active').dataset.filter;
+        const dictionary = JSON.parse(localStorage.getItem('dictionary') || '[]');
+        const wordStats = JSON.parse(localStorage.getItem('wordStats') || '{}');
+
+        const filteredWords = dictionary.filter(word => {
+            const stats = wordStats[word.text] || { successfulAttempts: 0 };
+            if (activeFilter === 'studying') {
+                return stats.successfulAttempts < 1;
+            } else {
+                return stats.successfulAttempts >= 1;
+            }
+        });
+
+        const wordsContainer = document.getElementById('wordsContainer');
+        if (wordsContainer && typeof renderWords === 'function') {
+            renderWords(filteredWords);
+        }
+    }
+
+    switcherBtns.forEach(btn => {
+        btn.addEventListener('click', function () {
+            switcherBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            updateSwitcherBar(this);
+            filterWords();
+        });
+    });
+
+    const studyingBtn = document.querySelector('.switcher-btn[data-filter="studying"]');
+    if (studyingBtn) {
+        switcherBtns.forEach(b => b.classList.remove('active'));
+        studyingBtn.classList.add('active');
+        updateSwitcherBar(studyingBtn);
+        filterWords();
+    }
+
+    window.addEventListener('storage', filterWords);
+});
+
+/* ============================================
+чекбокс для последующего изучения слов
+============================================ */
+document.addEventListener('DOMContentLoaded', function () {
+
+    // функции кнопки добавить в изученное, вернуть на изучение, удалить:
+    function updateBatchActionsVisibility() {
+        const checkedBoxes = document.querySelectorAll('.word-checkbox:checked:not(.select-all-checkbox)');
+        const batchActions = document.getElementById('batch-actions');
+        const markLearnedBtn = document.getElementById('batchActionMarkLearned');
+        const currentTab = document.querySelector('.switcher-btn.active').dataset.filter;
+
+        if (checkedBoxes.length > 0) {
+            batchActions.style.display = 'block';
+            // Меняем текст кнопки в зависимости от вкладки
+            if (currentTab === 'studying') {
+                markLearnedBtn.textContent = 'Отметить как изученное';
+            } else {
+                markLearnedBtn.textContent = 'Вернуть на изучение';
+            }
+        } else {
+            batchActions.style.display = 'none';
+        }
+    }
+
+    // Добавьте обработчики для новых кнопок
+    document.getElementById('batchActionBack').addEventListener('click', function () {
+        document.querySelectorAll('.word-checkbox:checked').forEach(checkbox => {
+            checkbox.checked = false;
+            checkbox.dispatchEvent(new Event('change'));
+        });
+    });
+
+    document.getElementById('batchActionMarkLearned').addEventListener('click', function () {
+        const checkedBoxes = document.querySelectorAll('.word-checkbox:checked:not(.select-all-checkbox)');
+        const currentTab = document.querySelector('.switcher-btn.active').dataset.filter;
+        const wordStats = JSON.parse(localStorage.getItem('wordStats') || '{}');
+
+        checkedBoxes.forEach(checkbox => {
+            const wordText = checkbox.dataset.word;
+            if (!wordStats[wordText]) {
+                wordStats[wordText] = { successfulAttempts: 0 };
+            }
+            wordStats[wordText].successfulAttempts = currentTab === 'studying' ? 1 : 0;
+        });
+
+        localStorage.setItem('wordStats', JSON.stringify(wordStats));
+        window.dispatchEvent(new Event('storage'));
+        updateStatistics();
+    });
+
+    document.getElementById('batchActionDelete').addEventListener('click', function () {
+        if (confirm('Вы уверены, что хотите удалить выбранные слова?')) {
+            const checkedBoxes = document.querySelectorAll('.word-checkbox:checked:not(.select-all-checkbox)');
+            const words = loadWords();
+            const updatedWords = words.filter(word =>
+                !Array.from(checkedBoxes).some(checkbox =>
+                    checkbox.dataset.word === word.text
+                )
+            );
+            localStorage.setItem('dictionary', JSON.stringify(updatedWords));
+            renderWords(updatedWords);
+            updateStatistics();
+        }
+    });
+
+    // Обновите обработчик изменения чекбоксов
+    document.addEventListener('change', function (e) {
+        if (e.target.classList.contains('word-checkbox')) {
+            updateBatchActionsVisibility();
+        }
+    });
+
+    // Добавьте обработчик для переключения вкладок
+    document.querySelectorAll('.switcher-btn').forEach(btn => {
+        btn.addEventListener('click', updateBatchActionsVisibility);
+    });
+});
+document.addEventListener('DOMContentLoaded', function () {
+    let selectedWords = new Set();
+
+    // Функция добавления чекбоксов к существующим словам
+    function addCheckboxesToWords() {
+        // Для grid view
+        document.querySelectorAll('.word-card .word-header').forEach(header => {
+            if (!header.querySelector('.word-checkbox')) {
+                const wordText = header.querySelector('h3').textContent;
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.className = 'word-checkbox';
+                checkbox.dataset.word = wordText;
+                // Вставляем чекбокс в начало div с действиями
+                const actionsDiv = header.querySelector('.word-actions');
+                actionsDiv.insertBefore(checkbox, actionsDiv.firstChild);
+            }
+        });
+
+        // Для list view
+        document.querySelectorAll('.list-item').forEach(item => {
+            if (!item.querySelector('.word-checkbox')) {
+                const wordText = item.querySelector('strong').textContent;
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.className = 'word-checkbox';
+                checkbox.dataset.word = wordText;
+                item.querySelector('.word-info').insertBefore(checkbox, item.querySelector('strong'));
+            }
+        });
+
+        // Для table view
+        const table = document.querySelector('.words-table');
+        if (table) {
+            // Добавление заголовков для чекбоксов, если его нет
+            const headerRow = table.querySelector('thead tr');
+            if (headerRow && !headerRow.querySelector('th:first-child').textContent.includes('Select')) {
+                const selectTh = document.createElement('th');
+                selectTh.style.width = '50px';
+                selectTh.textContent = 'Select';
+                headerRow.insertBefore(selectTh, headerRow.firstChild);
+            }
+
+            // Добавляем чекбоксы в строки таблицы
+            table.querySelectorAll('tbody tr').forEach(row => {
+                if (!row.querySelector('.word-checkbox')) {
+                    const wordText = row.cells[0].textContent;
+                    const checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.className = 'word-checkbox';
+                    checkbox.dataset.word = wordText;
+                    const newCell = row.insertCell(0);
+                    newCell.style.textAlign = 'center';
+                    newCell.appendChild(checkbox);
+                }
+            });
+        }
+
+        // Добавляем обработчики для всех чекбоксов
+        document.querySelectorAll('.word-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', function () {
+                const word = this.dataset.word;
+                if (this.checked) {
+                    selectedWords.add(word);
+                } else {
+                    selectedWords.delete(word);
+                }
+                updateStudyButton();
+            });
+        });
+    }
+
+    // Функция обновления кнопки изучения
+    function updateStudyButton() {
+        const studyButton = document.querySelector('.study-button');
+        if (selectedWords.size > 0) {
+            studyButton.classList.add('active');
+            studyButton.textContent = `Учить слова (${selectedWords.size})`;
+        } else {
+            studyButton.classList.remove('active');
+            studyButton.textContent = 'Учить слова';
+        }
+    }
+
+    // Обработчик для кнопки "Учить слова"
+    document.querySelector('.study-button').addEventListener('click', () => {
+        if (selectedWords.size > 0) {
+            const selectedWordsArray = Array.from(selectedWords);
+            const words = JSON.parse(localStorage.getItem('dictionary') || '[]');
+            const wordsForStudy = words.filter(word => selectedWordsArray.includes(word.text));
+            localStorage.setItem('wordsForStudy', JSON.stringify(wordsForStudy));
+            console.log('Selected words for study:', wordsForStudy);
+        }
+    });
+
+    // Запускаем наблюдатель за изменениями в DOM
+    const wordsContainer = document.getElementById('wordsContainer');
+    if (wordsContainer) {
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                if (mutation.addedNodes.length > 0) {
+                    setTimeout(addCheckboxesToWords, 100);
+                }
+            });
+        });
+
+        observer.observe(wordsContainer, {
+            childList: true,
+            subtree: true
+        });
+    }
+
+    // Инициализация чекбоксов при загрузке страницы
+    setTimeout(addCheckboxesToWords, 500);
+
+    // Добавляем обработчики для кнопок переключения вида
+    document.querySelectorAll('.view-button').forEach(button => {
+        button.addEventListener('click', () => {
+            setTimeout(addCheckboxesToWords, 300);
+        });
+    });
+});
+
+/* ============================================
+Скрытие определенных функций
+============================================ */
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleCheckboxes = document.querySelectorAll('.filter-checkbox');
+
+    // Функция для обновления элементов DOM
+    function updateElements() {
+        toggleCheckboxes.forEach(checkbox => {
+            const targetClass = checkbox.dataset.target;
+            const isVisible = checkbox.checked;
+            const elements = document.querySelectorAll(targetClass);
+
+            elements.forEach(element => {
+                if (element) {
+                    element.style.display = isVisible ? '' : 'none';
+                }
+            });
+        });
+    }
+
+    // Функция модификации списочного представления
+    function modifyListView() {
+        const listItems = document.querySelectorAll('.list-item');
+
+        listItems.forEach(item => {
+            const wordInfo = item.querySelector('.word-info');
+            if (!wordInfo) return;
+
+            // Получаем текущий текст
+            const strongElement = wordInfo.querySelector('strong');
+            const wordText = strongElement ? strongElement.textContent : '';
+            const wordTranslation = wordInfo.textContent.split('-')[1]?.trim() || '';
+
+            // Получаем слово из словаря
+            const dictionary = JSON.parse(localStorage.getItem('dictionary') || '[]');
+            const word = dictionary.find(w => w.text === wordText);
+
+            if (!word) return;
+
+            wordInfo.innerHTML = `
+                                    <strong>${wordText}</strong>
+                                    <span class="word-phonetics">${word.phonetics || ''}</span>
+                                    <span class="word-translation"> - ${wordTranslation}</span>
+                                    ${word.type ? `<span class="word-type">(${word.type})</span>` : ''}
+                                    ${word.example ? `<span class="word-example">"${word.example}"</span>` : ''}
+                                    ${word.synonyms && word.synonyms.length > 0 ? `<span class="word-synonyms">Synonyms: ${word.synonyms.join(', ')}</span>` : ''}
+                                `;
+        });
+
+        // После модификации применяем текущие настройки видимости
+        updateElements();
+    }
+
+    // Обработчик переключения вида
+    document.querySelectorAll('.view-button').forEach(button => {
+        button.addEventListener('click', function () {
+            // Даем время на отрисовку нового вида
+            setTimeout(() => {
+                if (this.dataset.view === 'list') {
+                    modifyListView();
+                }
+                updateElements();
+            }, 100);
+        });
+    });
+
+    // Обработчик изменения чекбоксов
+    toggleCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+            const targetClass = this.dataset.target;
+            const isVisible = this.checked;
+            const labelText = this.nextElementSibling;
+
+            // Обновляем текст метки
+            if (isVisible) {
+                labelText.textContent = `Скрыть ${labelText.textContent.replace('Показать ', '')}`;
+                this.style.backgroundColor = '#39A275';
+            } else {
+                labelText.textContent = `Показать ${labelText.textContent.replace('Скрыть ', '')}`;
+                this.style.backgroundColor = 'transparent';
+            }
+
+            updateElements();
+        });
+
+        // Инициализация цвета чекбокса
+        if (checkbox.checked) {
+            checkbox.style.backgroundColor = '#39A275';
+        }
+    });
+
+    // Также нужно модифицировать функцию renderList в основном скрипте
+    const originalRenderList = window.renderList;
+    if (originalRenderList) {
+        window.renderList = function (words) {
+            originalRenderList(words);
+            modifyListView();
+        };
+    }
+});
+
+/* ============================================
+word-count
+============================================ */
+window.addEventListener('load', function () {
+    function updateWordCount() {
+        const countElement = document.querySelector('.word-count');
+        if (!countElement) return;
+
+        try {
+            const dictionary = localStorage.getItem('dictionary');
+            const words = dictionary ? JSON.parse(dictionary) : [];
+            const wordStats = JSON.parse(localStorage.getItem('wordStats') || '{}');
+            const currentFilter = document.getElementById('filterSelect').value;
+            const studyFilter = document.querySelector('.switcher-btn.active').dataset.filter;
+
+            let filteredWords = words.filter(word => word && word.text && word.translation);
+
+            // Apply favorites filter if active
+            if (currentFilter === 'favorites') {
+                filteredWords = filteredWords.filter(word => word.favorite);
+            }
+
+            // Apply study/learned filter
+            filteredWords = filteredWords.filter(word => {
+                const stats = wordStats[word.text] || { successfulAttempts: 0 };
+                return studyFilter === 'studying'
+                    ? stats.successfulAttempts < 1
+                    : stats.successfulAttempts >= 1;
+            });
+
+            const wordCount = filteredWords.length;
+            countElement.textContent = `${wordCount} word${wordCount !== 1 ? 's' : ''}`;
+        } catch (error) {
+            console.error('Error updating word count:', error);
+            countElement.textContent = '0 words';
+        }
+    }
+
+    // Select All functionality
+    const selectAllCheckbox = document.querySelector('.select-all-checkbox');
+    if (selectAllCheckbox) {
+        selectAllCheckbox.addEventListener('change', function () {
+            const wordCheckboxes = document.querySelectorAll('.word-checkbox:not(.select-all-checkbox)');
+            wordCheckboxes.forEach(checkbox => {
+                checkbox.checked = this.checked;
+
+                // Trigger change event to update UI
+                const event = new Event('change', { bubbles: true });
+                checkbox.dispatchEvent(event);
+            });
+        });
+    }
+
+    window.addEventListener('storage', updateWordCount);
+
+    const observer = new MutationObserver(updateWordCount);
+    const wordsContainer = document.getElementById('wordsContainer');
+    if (wordsContainer) {
+        observer.observe(wordsContainer, {
+            childList: true,
+            subtree: true
+        });
+    }
+
+    const filterSelect = document.getElementById('filterSelect');
+    if (filterSelect) {
+        filterSelect.addEventListener('change', updateWordCount);
+    }
+    const studyButtons = document.querySelectorAll('.switcher-btn');
+    studyButtons.forEach(button => {
+        button.addEventListener('click', updateWordCount);
+    });
+
+    updateWordCount();
+
+    const originalAddWord = window.addWord;
+    if (typeof originalAddWord === 'function') {
+        window.addWord = async function () {
+            await originalAddWord.apply(this, arguments);
+            updateWordCount();
+        };
+    }
+});
+
+/* ============================================
+Доп окно для изучени слов
+============================================ */
+document.addEventListener('DOMContentLoaded', function () {
+    const wordInput = document.querySelector('.word-input');
+    const addButton = document.querySelector('.add-button');
+    const wordsContainer = document.getElementById('wordsContainer');
+    let currentView = 'grid';
+
+    // Создаем элемент для уведомлений
+    const notification = document.createElement('div');
+    notification.style.cssText = `
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    padding: 15px 25px;
+                    border-radius: 8px;
+                    color: white;
+                    font-weight: 500;
+                    display: none;
+                    z-index: 1000;
+                `;
+    document.body.appendChild(notification);
+
+    // Функция показа уведомления
+    function showNotification(message, isSuccess = true) {
+        notification.textContent = message;
+        notification.style.backgroundColor = isSuccess ? '#39A275' : '#dc3545';
+        notification.style.display = 'block';
+
+        setTimeout(() => {
+            notification.style.display = 'none';
+        }, 3000);
+    }
+
+    // Функция добавления слова
+    async function addWord() {
+        const word = wordInput.value.trim();
+        if (!word) return;
+
+        addButton.disabled = true;
+        wordInput.disabled = true;
+
+        try {
+            // Проверяем существующие слова
+            const words = loadWords();
+            if (words.some(w => w.text.toLowerCase() === word.toLowerCase())) {
+                showNotification('Это слово уже есть в словаре', false);
+                return;
+            }
+
+            // Получаем данные из всех API параллельно
+            const [translationResponse, dictionaryResponse] = await Promise.all([
+                // MyMemory API для перевода
+                fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|ru`),
+
+                // Free Dictionary API
+                fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`)
+            ]);
+
+            const translationData = await translationResponse.json();
+            const translation = translationData.responseData.translatedText;
+
+            const dictionaryData = await dictionaryResponse.json();
+
+            let partOfSpeech = 'word';
+            let example = '';
+            let definition = '';
+            let phonetics = '';
+            let synonyms = [];
+            let antonyms = [];
+
+            // Обработка данных из Free Dictionary API
+            if (Array.isArray(dictionaryData) && dictionaryData.length > 0) {
+                const entry = dictionaryData[0];
+
+                // Получаем фонетическую транскрипцию
+                if (!word.phonetics) {
+                    phonetics =
+                        entry.phonetic ||
+                        (entry.phonetics && entry.phonetics.find(p => p.text)?.text) ||
+                        '';
+
+                    if (phonetics) {
+                        word.phonetics = phonetics;
+                        updated = true;
+                    }
+                }
+
+                if (entry.meanings && entry.meanings.length > 0) {
+                    // Ищем первый пример использования среди всех значений
+                    let foundExample = false;
+                    let foundPartOfSpeech = '';
+
+                    // Проходим по всем значениям слова
+                    for (const meaning of entry.meanings) {
+                        // Собираем синонимы и антонимы
+                        if (meaning.synonyms) {
+                            synonyms = [...new Set([...synonyms, ...meaning.synonyms])];
+                        }
+                        if (meaning.antonyms) {
+                            antonyms = [...new Set([...antonyms, ...meaning.antonyms])];
+                        }
+
+                        if (meaning.definitions && meaning.definitions.length > 0) {
+                            // Если еще не нашли пример, ищем его
+                            if (!foundExample) {
+                                const definitionWithExample = meaning.definitions.find(def => def.example);
+                                if (definitionWithExample) {
+                                    example = definitionWithExample.example;
+                                    definition = definitionWithExample.definition;
+                                    foundExample = true;
+                                    // Если нашли пример, используем часть речи из этого значения
+                                    foundPartOfSpeech = meaning.partOfSpeech;
+                                }
+                            }
+
+                            // Если все еще нет определения, берем первое
+                            if (!definition) {
+                                definition = meaning.definitions[0].definition;
+                            }
+                        }
+                    }
+
+                    // Устанавливаем часть речи
+                    partOfSpeech = foundPartOfSpeech || entry.meanings[0].partOfSpeech || 'word';
+                }
+            }
+
+            // Если API не вернул часть речи, попробуем определить по окончанию слова
+            if (partOfSpeech === 'word') {
+                if (word.endsWith('ly')) partOfSpeech = 'adverb';
+                else if (word.endsWith('ing')) partOfSpeech = 'verb';
+                else if (word.endsWith('ed')) partOfSpeech = 'verb';
+                else if (word.endsWith('tion')) partOfSpeech = 'noun';
+                else if (word.endsWith('ness')) partOfSpeech = 'noun';
+                else if (word.endsWith('ful')) partOfSpeech = 'adjective';
+            }
+
+            // Создаем новое слово
+            const capitalizeFirstLetter = (str) => {
+                if (!str) return str;
+                return str.charAt(0).toUpperCase() + str.slice(1);
+            };
+            const getFullPartOfSpeech = (abbr) => {
+                const partsOfSpeech = {
+                    'noun': 'Noun',
+                    'verb': 'Verb',
+                    'adj': 'Adjective',
+                    'adv': 'Adverb',
+                    'adjective': 'Adjective',
+                    'adverb': 'Adverb',
+                    'pronoun': 'Pronoun',
+                    'preposition': 'Preposition',
+                    'conjunction': 'Conjunction',
+                    'interjection': 'Interjection',
+                    'word': 'Word'
+                };
+                return partsOfSpeech[abbr.toLowerCase()] || capitalizeFirstLetter(abbr);
+            };
+
+            // Создаем новое слово
+            const newWord = {
+                text: capitalizeFirstLetter(word),
+                translation: capitalizeFirstLetter(translation),
+                type: getFullPartOfSpeech(partOfSpeech),
+                phonetics: phonetics || '',
+                example: example,
+                definition: definition,
+                synonyms: synonyms.slice(0, 5),
+                antonyms: antonyms.slice(0, 5),
+                dateAdded: Date.now(),
+                favorite: false
+            };
+
+            // Добавляем слово в словарь
+            words.push(newWord);
+            localStorage.setItem('dictionary', JSON.stringify(words));
+
+            // Очищаем поле ввода и обновляем отображение
+            wordInput.value = '';
+            renderWords(words);
+
+            // Показываем уведомление об успехе
+            showNotification('Слово успешно добавлено!');
+
+        } catch (error) {
+            console.error('Error adding word:', error);
+            showNotification('Произошла ошибка при добавлении слова', false);
+        } finally {
+            addButton.disabled = false;
+            wordInput.disabled = false;
+        }
+    }
+
+    // Функция загрузки слов
+    function loadWords() {
+        try {
+            const data = localStorage.getItem('dictionary');
+            return data ? JSON.parse(data) : [];
+        } catch (error) {
+            console.error('Error loading dictionary:', error);
+            return [];
+        }
+    }
+
+    // Вспомогательные функции
+    function pronounceWord(word) {
+        if (!word) return;
+        const utterance = new SpeechSynthesisUtterance(word);
+        utterance.lang = 'en-US';
+        window.speechSynthesis.speak(utterance);
+    }
+    function toggleFavorite(word) {
+        if (!word || !word.text) return;
+
+        // Загружаем слова из localStorage
+        const words = loadWords();
+        const wordToUpdate = words.find(w => w.text.toLowerCase() === word.text.toLowerCase());
+
+        if (wordToUpdate) {
+            // Переключаем статус избранного
+            wordToUpdate.favorite = !wordToUpdate.favorite;
+
+            // Сохраняем изменения в localStorage
+            localStorage.setItem('dictionary', JSON.stringify(words));
+
+            const selectors = {
+                grid: '.word-card',
+                list: '.list-item',
+                table: 'tr',
+            };
+
+            const activeFilter = document.getElementById('filterSelect').value;
+
+            if (activeFilter === 'favorites' && !wordToUpdate.favorite) {
+                // Если активен фильтр "Избранное" и слово удаляется из избранного,
+                // плавно скрываем элемент и удаляем его
+                Object.entries(selectors).forEach(([view, selector]) => {
+                    const elements = document.querySelectorAll(selector);
+                    elements.forEach(element => {
+                        const wordElement =
+                            view === 'table'
+                                ? element.querySelector('td:first-of-type')
+                                : element.querySelector('h3, strong');
+
+                        if (
+                            wordElement &&
+                            wordElement.textContent.toLowerCase() === word.text.toLowerCase()
+                        ) {
+                            element.style.transition = 'opacity 0.3s ease';
+                            element.style.opacity = '0';
+                            setTimeout(() => {
+                                element.remove();
+                            }, 300);
+                        }
+                    });
+                });
+            } else {
+                // Обновление состояние кнопки
+                Object.entries(selectors).forEach(([view, selector]) => {
+                    const elements = document.querySelectorAll(selector);
+                    elements.forEach(element => {
+                        const wordElement =
+                            view === 'table'
+                                ? element.querySelector('td:first-of-type')
+                                : element.querySelector('h3, strong');
+
+                        if (
+                            wordElement &&
+                            wordElement.textContent.toLowerCase() === word.text.toLowerCase()
+                        ) {
+                            const favoriteButton = element.querySelector(
+                                '.action-button.favorite'
+                            );
+                            if (favoriteButton) {
+                                if (wordToUpdate.favorite) {
+                                    favoriteButton.classList.add('active');
+                                } else {
+                                    favoriteButton.classList.remove('active');
+                                }
+                            }
+                        }
+                    });
+                });
+            }
+        }
+    }
+
+    function deleteWord(word) {
+        if (!word || !word.text) return;
+        if (confirm(`Are you sure you want to delete "${word.text}"?`)) {
+            const words = loadWords().filter(w =>
+                w.text.toLowerCase() !== word.text.toLowerCase()
+            );
+            localStorage.setItem('dictionary', JSON.stringify(words));
+            renderWords(words);
+        }
+    }
+
+    window.renderWords = function (wordsToRender = loadWords()) {
+        if (!wordsContainer) return;
+
+        // Проверяем активный фильтр
+        const activeFilter = document.querySelector('.switcher-btn.active').dataset.filter;
+        const wordStats = JSON.parse(localStorage.getItem('wordStats') || '{}');
+
+        // Фильтруем слова
+        const validWords = wordsToRender.filter(word => {
+            if (!word || !word.text || !word.translation) return false;
+            const stats = wordStats[word.text] || { successfulAttempts: 0 };
+            return activeFilter === 'studying' ? stats.successfulAttempts < 1 : stats.successfulAttempts >= 1;
+        });
+
+        wordsContainer.innerHTML = '';
+
+        if (validWords.length === 0) {
+            wordsContainer.innerHTML = `
+                            <div class="empty-state">
+                                <p>No words found.</p>
+                            </div>
+                        `;
+            return;
+        }
+
+        switch (currentView) {
+            case 'grid': renderGrid(validWords); break;
+            case 'list': renderList(validWords); break;
+            case 'table': renderTable(validWords); break;
+        }
+    }
+
+    function renderGrid(words) {
+        wordsContainer.className = 'words-grid';
+        words.forEach(word => {
+            if (!word || !word.text || !word.translation) return;
+
+            const card = document.createElement('div');
+            card.className = 'word-card';
+
+            card.innerHTML = `
+                            <div class="word-header">
+                                <div class="word-info">
+                                    <h3>${word.text}</h3>
+                                    ${word.phonetics ? `<div class="word-phonetics">${word.phonetics}</div>` : ''}
+                                    <p class="word-translation">${word.translation}</p>
+                                </div>
+                                <div class="word-actions">
+                                    <button class="action-button pronounce" title="Pronounce">🔊</button>
+                                    <button class="action-button favorite ${word.favorite ? 'active' : ''}" title="Favorite">★</button>
+                                    <button class="action-button delete" title="Delete">✖</button>
+                                </div>
+                            </div>
+                            ${word.type ? `<div class="word-type">${word.type}</div>` : ''}
+                            ${word.example ? `<div class="word-example">"${word.example}"</div>` : ''}
+                            ${word.synonyms && word.synonyms.length > 0 ? `
+                                <div class="word-synonyms">
+                                    Synonyms: ${word.synonyms.join(', ')}
+                                </div>
+                            ` : ''}
+                        `;
+
+            card.querySelector('.pronounce').addEventListener('click', () => pronounceWord(word.text));
+            card.querySelector('.favorite').addEventListener('click', () => toggleFavorite(word));
+            card.querySelector('.delete').addEventListener('click', () => deleteWord(word));
+
+            wordsContainer.appendChild(card);
+        });
+    }
+
+    function renderList(words) {
+        wordsContainer.className = 'words-list';
+        words.forEach(word => {
+            if (!word || !word.text || !word.translation) return;
+
+            const listItem = document.createElement('div');
+            listItem.className = 'list-item';
+
+
+            listItem.innerHTML = `
+                            <div class="word-info">
+                                <strong>${word.text}</strong>
+                                ${word.phonetics ? `<span class="word-phonetics">${word.phonetics}</span>` : ''}
+                                ${word.translation ? `<span class="word-translation"> - ${word.translation}</span>` : ''}
+                                ${word.type ? `<span class="word-type">(${word.type})</span>` : ''}
+                                ${word.example ? `<span class="word-example">"${word.example}"</span>` : ''}
+                                ${word.synonyms && word.synonyms.length > 0 ? `
+                                    <span class="word-synonyms">Synonyms: ${word.synonyms.join(', ')}</span>
+                                ` : ''}
+                            </div>
+                            <div class="word-actions">
+                                <button class="action-button pronounce" title="Pronounce">🔊</button>
+                                <button class="action-button favorite ${word.favorite ? 'active' : ''}" title="Favorite">★</button>
+                                <button class="action-button delete" title="Delete">✖</button>
+                            </div>
+                        `;
+
+            // Добавляем обработчики событий
+            listItem.querySelector('.pronounce').addEventListener('click', () => pronounceWord(word.text));
+            listItem.querySelector('.favorite').addEventListener('click', () => toggleFavorite(word));
+            listItem.querySelector('.delete').addEventListener('click', () => deleteWord(word));
+
+            wordsContainer.appendChild(listItem);
+        });
+
+        // После рендеринга применяем текущие настройки видимости
+        const checkboxes = document.querySelectorAll('.filter-checkbox');
+        checkboxes.forEach(checkbox => {
+            const targetClass = checkbox.dataset.target;
+            const isVisible = checkbox.checked;
+            const elements = document.querySelectorAll(targetClass);
+            elements.forEach(element => {
+                if (element) {
+                    element.style.display = isVisible ? '' : 'none';
+                }
+            });
+        });
+    }
+
+    /* отличная логика скрытия  */
+    function renderTable(words) {
+        // Не очищаем полностью className
+        if (wordsContainer.classList.contains('words-grid')) {
+            wordsContainer.classList.remove('words-grid');
+        }
+        if (wordsContainer.classList.contains('words-list')) {
+            wordsContainer.classList.remove('words-list');
+        }
+
+        const table = document.createElement('table');
+        table.className = 'words-table';
+
+        // Очищаем содержимое контейнера, сохраняя классы
+        while (wordsContainer.firstChild) {
+            wordsContainer.removeChild(wordsContainer.firstChild);
+        }
+
+        table.innerHTML = `
+                        <thead>
+                            <tr>
+                                <th>Word</th>
+                                <th class="word-translation">Translation</th>
+                                <th class="word-type">Type</th>
+                                <th class="word-phonetics">Phonetics</th>
+                                <th class="word-synonyms">Synonyms</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${words.map(word => `
+                                <tr data-word="${word.text}">
+                                    <td>${word.text}</td>
+                                    <td class="word-translation">${word.translation || '-'}</td>
+                                    <td class="word-type">${word.type || '-'}</td>
+                                    <td class="word-phonetics">${word.phonetics || '-'}</td>
+                                    <td class="word-synonyms">${word.synonyms && word.synonyms.length > 0 ? word.synonyms.join(', ') : '-'}</td>
+                                    <td class="table-actions">
+                                        <button class="action-button pronounce" title="Pronounce">🔊</button>
+                                        <button class="action-button favorite ${word.favorite ? 'active' : ''}" title="Favorite">★</button>
+                                        <button class="action-button delete" title="Delete">✖</button>
+                                    </td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    `;
+
+        wordsContainer.appendChild(table);
+
+        // Add styles to maintain table structure
+        table.addEventListener('click', function (event) {
+            const target = event.target;
+            if (!target.classList.contains('action-button')) return;
+
+            const row = target.closest('tr');
+            if (!row) return;
+
+            const wordText = row.dataset.word;
+            const word = words.find(w => w.text === wordText);
+
+            if (!word) return;
+
+            if (target.classList.contains('pronounce')) {
+                pronounceWord(word.text);
+            }
+            else if (target.classList.contains('favorite')) {
+                const isInFavorites = document.getElementById('filterSelect').value === 'favorites';
+
+                toggleFavorite(word);
+                target.classList.toggle('active');
+
+                if (isInFavorites && !target.classList.contains('active')) {
+                    row.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                    row.style.opacity = '0';
+                    row.style.transform = 'translateX(20px)';
+
+                    setTimeout(() => {
+                        row.remove();
+                        if (table.querySelectorAll('tbody tr').length === 0) {
+                            wordsContainer.innerHTML = `
+                                            <div class="empty-state">
+                                                <p>No favorite words found</p>
+                                            </div>
+                                        `;
+                        }
+                    }, 300);
+                }
+            }
+            else if (target.classList.contains('delete')) {
+                const isInFavorites = document.getElementById('filterSelect').value === 'favorites';
+
+                // Анимация удаления
+                row.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                row.style.opacity = '0';
+                row.style.transform = 'translateX(20px)';
+
+                setTimeout(() => {
+                    deleteWord(word);
+                    // Не вызываем renderWords() напрямую
+                    // Вместо этого запускаем фильтрацию заново
+                    if (isInFavorites) {
+                        const select = document.getElementById('filterSelect');
+                        // Это вызовет событие change, которое обновит отображение
+                        select.dispatchEvent(new Event('change'));
+                    }
+                }, 300);
+            }
+        });
+
+        document.head.appendChild(style);
+
+        // Apply current visibility settings
+        const checkboxes = document.querySelectorAll('.filter-checkbox');
+        checkboxes.forEach(checkbox => {
+            const targetClass = checkbox.dataset.target;
+            const isVisible = checkbox.checked;
+            updateColumnVisibility(targetClass, isVisible);
+        });
+
+        // Add button handlers
+        const rows = table.querySelectorAll('tbody tr');
+        rows.forEach(row => {
+            const wordText = row.dataset.word;
+            const word = words.find(w => w.text === wordText);
+
+            if (word) {
+                const pronounceBtn = row.querySelector('.pronounce');
+                const favoriteBtn = row.querySelector('.favorite');
+                const deleteBtn = row.querySelector('.delete');
+
+                if (pronounceBtn) {
+                    pronounceBtn.addEventListener('click', () => pronounceWord(word.text));
+                }
+
+                if (favoriteBtn) {
+                    favoriteBtn.addEventListener('click', () => {
+                        const isInFavorites = document.getElementById('filterSelect').value === 'favorites';
+
+                        toggleFavorite(word);
+                        favoriteBtn.classList.toggle('active');
+
+                        if (isInFavorites && !favoriteBtn.classList.contains('active')) {
+                            row.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                            row.style.opacity = '0';
+                            row.style.transform = 'translateX(20px)';
+
+                            setTimeout(() => {
+                                row.remove();
+                                if (table.querySelectorAll('tbody tr').length === 0) {
+                                    wordsContainer.innerHTML = `
+                                                    <div class="empty-state">
+                                                        <p>No favorite words found</p>
+                                                    </div>
+                                                `;
+                                }
+                            }, 300);
+                        }
+                    });
+                }
+
+                if (deleteBtn) {
+                    deleteBtn.addEventListener('click', () => deleteWord(word));
+                }
+            }
+        });
+    }
+
+    // Add event listeners for checkboxes
+    document.querySelectorAll('.filter-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+            const targetClass = this.dataset.target;
+            const isVisible = this.checked;
+            updateColumnVisibility(targetClass, isVisible);
+        });
+    });
+
+    // Добавляем обработчики событий
+    addButton.addEventListener('click', addWord);
+    wordInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') addWord();
+    });
+
+    // Обработчики для фильтров и поиска
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('input', function () {
+        const searchTerm = this.value.toLowerCase();
+        const words = loadWords();
+        const filteredWords = words.filter(word =>
+            word && word.text && word.translation &&
+            (word.text.toLowerCase().includes(searchTerm) ||
+                word.translation.toLowerCase().includes(searchTerm))
+        );
+        renderWords(filteredWords);
+    });
+
+    const filterSelect = document.getElementById('filterSelect');
+    filterSelect.addEventListener('change', function () {
+        // Store current filter value
+        const currentFilter = this.value;
+
+        // Get and filter words
+        const words = loadWords();
+        const filteredWords = currentFilter === 'favorites'
+            ? words.filter(word => word && word.favorite)
+            : words;
+
+        // Render filtered words
+        renderWords(filteredWords);
+    });
+
+    const sortSelect = document.getElementById('sortSelect');
+    sortSelect.addEventListener('change', function () {
+        const words = loadWords();
+        if (this.value === 'alphabetical') {
+            words.sort((a, b) => a.text.localeCompare(b.text));
+        } else {
+            words.sort((a, b) => b.dateAdded - a.dateAdded);
+        }
+        renderWords(words);
+    });
+
+    document.querySelectorAll('.view-button').forEach(button => {
+        button.addEventListener('click', function () {
+            // Get current filter state
+            const currentFilter = document.getElementById('filterSelect').value;
+
+            // Update view buttons UI
+            document.querySelectorAll('.view-button').forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+
+            // Update current view
+            currentView = this.dataset.view;
+
+            // Get words and apply current filter
+            const words = loadWords();
+            const filteredWords = currentFilter === 'favorites'
+                ? words.filter(word => word && word.favorite)
+                : words;
+
+            // Render with current filter applied
+            renderWords(filteredWords);
+        });
+    });
+
+    // Обработчик для кнопки обновления слов
+    const updateButton = document.getElementById('updateWordsButton');
+    if (updateButton) {
+        updateButton.addEventListener('click', async (e) => {
+            e.preventDefault();
+            updateButton.disabled = true;
+            updateButton.textContent = 'Обновление...';
+
+            const capitalizeFirstLetter = (str) => {
+                if (!str) return str;
+                return str.charAt(0).toUpperCase() + str.slice(1);
+            };
+
+            try {
+                const words = loadWords();
+                let updatedCount = 0;
+                const totalWords = words.length;
+
+                showNotification(`Starting update of ${totalWords} words...`);
+
+                for (let word of words) {
+                    if (!word.definition || !word.phonetics || !word.example ||
+                        !word.synonyms || !word.antonyms) {
+                        try {
+                            // Сначала пробуем получить всю фразу
+                            let response = await fetch(
+                                `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word.text)}`
+                            );
+
+                            // Если фраза не найдена, пробуем первое слово
+                            if (!response.ok) {
+                                const firstWord = word.text.split(' ')[0];
+                                response = await fetch(
+                                    `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(firstWord)}`
+                                );
+                            }
+
+                            if (!response.ok) {
+                                console.log(`Skipping word "${word.text}" - Could not find in dictionary`);
+                                continue;
+                            }
+
+                            const dictionaryData = await response.json();
+
+                            if (Array.isArray(dictionaryData) && dictionaryData.length > 0) {
+                                const entry = dictionaryData[0];
+                                let updated = false;
+
+                                if (!word.phonetics) {
+                                    phonetics =
+                                        entry.phonetic ||
+                                        (entry.phonetics && entry.phonetics.find(p => p.text)?.text) ||
+                                        '';
+
+                                    if (phonetics) {
+                                        word.phonetics = phonetics;
+                                        updated = true;
+                                    }
+                                }
+                                phonetics =
+                                    entry.phonetic ||
+                                    (entry.phonetics && entry.phonetics[0]?.text) ||
+                                    '';
+
+                                if (entry.meanings && entry.meanings.length > 0) {
+                                    if (!word.definition) {
+                                        const firstDefinition = entry.meanings[0].definitions[0];
+                                        if (firstDefinition && firstDefinition.definition) {
+                                            word.definition = firstDefinition.definition;
+                                            updated = true;
+                                        }
+                                    }
+
+                                    if (!word.example) {
+                                        for (const meaning of entry.meanings) {
+                                            const definitionWithExample = meaning.definitions?.find(def => def.example);
+                                            if (definitionWithExample) {
+                                                word.example = definitionWithExample.example;
+                                                updated = true;
+                                                break;
+                                            }
+                                        }
+                                    }
+
+                                }
+                                if (updated) {
+                                    // Применяем капитализацию к существующим полям
+                                    word.text = capitalizeFirstLetter(word.text);
+                                    word.translation = capitalizeFirstLetter(word.translation);
+                                    if (word.type) {
+                                        word.type = getFullPartOfSpeech(word.type);
+                                    }
+
+                                    updatedCount++;
+                                    // Сохраняем после каждого обновленного слова
+                                    localStorage.setItem('dictionary', JSON.stringify(words));
+                                    renderWords(words);
+                                    showNotification(`Updated ${updatedCount} out of ${totalWords} words...`);
+                                }
+
+                                /* if (updated) {
+                                    updatedCount++;
+                                    // Сохраняем после каждого обновленного слова
+                                    localStorage.setItem('dictionary', JSON.stringify(words));
+                                    renderWords(words);
+                                    showNotification(`Updated ${updatedCount} out of ${totalWords} words...`);
+                                } */
+                            }
+                        } catch (error) {
+                            console.error(`Error updating word ${word.text}:`, error);
+                        }
+                        // Пауза между запросами
+                        await new Promise(resolve => setTimeout(resolve, 1500));
+                    }
+                }
+
+                if (updatedCount > 0) {
+                    showNotification(`Completed! Updated ${updatedCount} words!`);
+                } else {
+                    showNotification('No words needed updating!');
+                }
+            } catch (error) {
+                console.error('Error during update:', error);
+                showNotification('An error occurred during update', false);
+            } finally {
+                updateButton.disabled = false;
+                updateButton.textContent = 'Обновить';
+            }
+        });
+    }
+
+    // Инициализация
+    renderWords();
+});
