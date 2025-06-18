@@ -9,153 +9,15 @@ window.grammarExercises = window.grammarExercises || {};
 window.grammarExercises['to-be'] = window.grammarExercises['to-be'] || {};
 
 /* ============================================
-Page 1: Basic age expressions
+Page 1: Introducing yourself with age
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page1'] = {
-    // Multiple Choice exercises only
+    title: "Introducing yourself with age",
     multipleChoice: [
         {
-            question: "Choose the correct form of the verb 'to be' for age:",
-            questionRu: "Выберите правильную форму глагола 'to be' для возраста:",
-            sentence: "I ___ 25 years old.",
-            options: [
-                "am", // Correct answer first
-                "is",
-                "are",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! We use 'am' with 'I' when talking about age.",
-            correctFeedbackRu: "Правильно! Мы используем 'am' с 'I' когда говорим о возрасте.",
-            incorrectFeedback: "Incorrect. With 'I', we use 'am' for expressing age.",
-            incorrectFeedbackRu: "Неправильно. С 'I' мы используем 'am' для выражения возраста."
-        },
-        {
-            question: "Select the correct sentence about age:",
-            questionRu: "Выберите правильное предложение о возрасте:",
-            options: [
-                "She is 30 years old.",
-                "She am 30 years old.",
-                "She are 30 years old.",
-                "She be 30 years old."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is 30 years old' is the proper form.",
-            correctFeedbackRu: "Правильно! 'She is 30 years old' - это правильная форма.",
-            incorrectFeedback: "Incorrect. Remember that we use 'is' with 'she' when talking about age.",
-            incorrectFeedbackRu: "Неправильно. Помните, что мы используем 'is' с 'she' когда говорим о возрасте."
-        },
-        {
-            question: "Choose the correct form of 'to be' for the sentence about age:",
-            questionRu: "Выберите правильную форму 'to be' для предложения о возрасте:",
-            sentence: "They ___ 18 years old.",
-            options: [
-                "are",
-                "am",
-                "is",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! We use 'are' with plural subjects like 'they' when talking about age.",
-            correctFeedbackRu: "Правильно! Мы используем 'are' с подлежащими во множественном числе, как 'they', когда говорим о возрасте.",
-            incorrectFeedback: "Incorrect. With plural subjects like 'they', we use 'are' to express age.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими во множественном числе, как 'they', мы используем 'are' для выражения возраста."
-        },
-        {
-            question: "Which of these sentences about age is correct?",
-            questionRu: "Какое из этих предложений о возрасте правильное?",
-            options: [
-                "He is 40 years old.",
-                "He are 40 years old.",
-                "He am 40 years old.",
-                "He be 40 years old."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'He is 40 years old' is the proper form.",
-            correctFeedbackRu: "Правильно! 'He is 40 years old' - это правильная форма.",
-            incorrectFeedback: "Incorrect. Remember to use 'is' with third person singular (he) when talking about age.",
-            incorrectFeedbackRu: "Неправильно. Помните, что нужно использовать 'is' с третьим лицом единственного числа (he) когда говорим о возрасте."
-        },
-        {
-            question: "Choose the sentence with the correct form of 'to be' for age:",
-            questionRu: "Выберите предложение с правильной формой глагола 'to be' для возраста:",
-            options: [
-                "The child is 5 years old.",
-                "The child am 5 years old.",
-                "The child are 5 years old.",
-                "The child be 5 years old."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! We use 'is' with singular nouns like 'the child' when expressing age.",
-            correctFeedbackRu: "Правильно! Мы используем 'is' с существительными в единственном числе, такими как 'the child', при выражении возраста.",
-            incorrectFeedback: "Incorrect. 'The child' is a singular noun and takes 'is' when talking about age.",
-            incorrectFeedbackRu: "Неправильно. 'The child' - это существительное в единственном числе, которое требует 'is' при разговоре о возрасте."
-        },
-        {
-            question: "Select the correct age expression:",
-            questionRu: "Выберите правильное выражение возраста:",
-            options: [
-                "You are twenty-two years old.",
-                "You am twenty-two years old.",
-                "You is twenty-two years old.",
-                "You be twenty-two years old."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'You are twenty-two years old' is the proper form.",
-            correctFeedbackRu: "Правильно! 'You are twenty-two years old' - это правильная форма.",
-            incorrectFeedback: "Incorrect. The correct form is 'You are' when expressing age.",
-            incorrectFeedbackRu: "Неправильно. Правильная форма - 'You are' при выражении возраста."
-        },
-        {
-            question: "Which sentence uses the correct form of 'to be' for age?",
-            questionRu: "В каком предложении используется правильная форма 'to be' для возраста?",
-            options: [
-                "We are in our thirties.",
-                "We am in our thirties.",
-                "We is in our thirties.",
-                "We be in our thirties."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! We use 'are' with the subject 'we' when talking about age.",
-            correctFeedbackRu: "Правильно! Мы используем 'are' с подлежащим 'we' когда говорим о возрасте.",
-            incorrectFeedback: "Incorrect. With 'we', you need to use 'are' when expressing age.",
-            incorrectFeedbackRu: "Неправильно. С 'we' вам нужно использовать 'are' при выражении возраста."
-        },
-        {
-            question: "Choose the correct form for an age question:",
-            questionRu: "Выберите правильную форму для вопроса о возрасте:",
-            sentence: "___ you fifteen years old?",
-            options: [
-                "Are",
-                "Am",
-                "Is",
-                "Be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! We use 'Are' with 'you' in questions about age.",
-            correctFeedbackRu: "Правильно! Мы используем 'Are' с 'you' в вопросах о возрасте.",
-            incorrectFeedback: "Incorrect. The correct form for 'you' is 'Are you fifteen years old?'",
-            incorrectFeedbackRu: "Неправильно. Правильная форма для 'you' - это 'Are you fifteen years old?'"
-        },
-        {
-            question: "Select the correct sentence about age:",
-            questionRu: "Выберите правильное предложение о возрасте:",
-            options: [
-                "My parents are fifty years old.",
-                "My parents is fifty years old.",
-                "My parents am fifty years old.",
-                "My parents be fifty years old."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'Parents' is plural so we use 'are' when expressing age.",
-            correctFeedbackRu: "Правильно! 'Parents' - множественное число, поэтому мы используем 'are' при выражении возраста.",
-            incorrectFeedback: "Incorrect. 'Parents' is plural, so we need to use 'are' when talking about age.",
-            incorrectFeedbackRu: "Неправильно. 'Parents' - множественное число, поэтому нам нужно использовать 'are' при разговоре о возрасте."
-        },
-        {
-            question: "Choose the correct form of 'to be' for the age expression:",
-            questionRu: "Выберите правильную форму 'to be' для выражения возраста:",
-            sentence: "I ___ almost thirty years old.",
+            question: "Choose the correct form to introduce your age:",
+            questionRu: "Выберите правильную форму для представления своего возраста:",
+            sentence: "Hi, I ___ 22 years old.",
             options: [
                 "am",
                 "is",
@@ -163,23 +25,163 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page1'] = {
                 "be"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! With 'I', we use 'am' in age expressions.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' в выражениях возраста.",
-            incorrectFeedback: "Incorrect. With 'I', we use 'am' when talking about age.",
-            incorrectFeedbackRu: "Неправильно. С 'I' мы используем 'am' когда говорим о возрасте."
+            correctFeedback: "Correct! When introducing your own age, always use 'I am'.",
+            correctFeedbackRu: "Правильно! При представлении своего возраста всегда используйте 'I am'.",
+            incorrectFeedback: "Incorrect. For your own age, use 'I am' followed by the number.",
+            incorrectFeedbackRu: "Неправильно. Для своего возраста используйте 'I am' с числом."
+        },
+        {
+            question: "Select the best way to ask someone's age politely:",
+            questionRu: "Выберите лучший способ вежливо спросить чей-то возраст:",
+            options: [
+                "How old are you?",
+                "How old is you?",
+                "How old am you?",
+                "How old be you?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'How old are you?' is the standard polite way to ask about age.",
+            correctFeedbackRu: "Отлично! 'How old are you?' - стандартный вежливый способ спросить о возрасте.",
+            incorrectFeedback: "Incorrect. The correct question is 'How old are you?'",
+            incorrectFeedbackRu: "Неправильно. Правильный вопрос: 'How old are you?'"
+        },
+        {
+            question: "Choose the correct response about someone else's age:",
+            questionRu: "Выберите правильный ответ о чьем-то возрасте:",
+            sentence: "My brother ___ 15 years old.",
+            options: [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! Use 'is' when talking about another person's age.",
+            correctFeedbackRu: "Правильно! Используйте 'is' когда говорите о возрасте другого человека.",
+            incorrectFeedback: "Incorrect. With 'my brother' (he), we use 'is'.",
+            incorrectFeedbackRu: "Неправильно. С 'my brother' (он) мы используем 'is'."
+        },
+        {
+            question: "Select the correct sentence about twins:",
+            questionRu: "Выберите правильное предложение о близнецах:",
+            options: [
+                "The twins are both 16 years old.",
+                "The twins is both 16 years old.",
+                "The twins am both 16 years old.",
+                "The twins be both 16 years old."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Twins' is plural, so we use 'are'.",
+            correctFeedbackRu: "Отлично! 'Twins' - множественное число, поэтому используем 'are'.",
+            incorrectFeedback: "Incorrect. 'Twins' is plural, so we need 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Twins' - множественное число, нужно 'are'."
+        },
+        {
+            question: "Choose the right form to talk about your friend's age:",
+            questionRu: "Выберите правильную форму для рассказа о возрасте друга:",
+            sentence: "My best friend ___ almost 20 years old.",
+            options: [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'My best friend' is third person singular, so use 'is'.",
+            correctFeedbackRu: "Отлично! 'My best friend' - третье лицо единственного числа, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'My best friend' requires 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'My best friend' требует 'is'."
+        },
+        {
+            question: "Select the correct way to talk about your age range:",
+            questionRu: "Выберите правильный способ рассказать о своей возрастной группе:",
+            options: [
+                "I am in my twenties.",
+                "I is in my twenties.",
+                "I are in my twenties.",
+                "I be in my twenties."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'I am in my twenties' is perfect for age ranges.",
+            correctFeedbackRu: "Правильно! 'I am in my twenties' идеально для возрастных диапазонов.",
+            incorrectFeedback: "Incorrect. Always use 'I am' when talking about yourself.",
+            incorrectFeedbackRu: "Неправильно. Всегда используйте 'I am' когда говорите о себе."
+        },
+        {
+            question: "Choose the correct form for talking about elderly people:",
+            questionRu: "Выберите правильную форму для разговора о пожилых людях:",
+            sentence: "My grandparents ___ in their eighties.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Grandparents' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Grandparents' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Grandparents' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Grandparents' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the best way to describe a baby's age:",
+            questionRu: "Выберите лучший способ описать возраст малыша:",
+            options: [
+                "The baby is 6 months old.",
+                "The baby are 6 months old.",
+                "The baby am 6 months old.",
+                "The baby be 6 months old."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! For babies, we still use 'is' even with months.",
+            correctFeedbackRu: "Отлично! Для малышей мы все еще используем 'is' даже с месяцами.",
+            incorrectFeedback: "Incorrect. 'The baby' is singular, so use 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'The baby' - единственное число, используйте 'is'."
+        },
+        {
+            question: "Choose the correct way to express uncertainty about age:",
+            questionRu: "Выберите правильный способ выразить неуверенность в возрасте:",
+            sentence: "I think she ___ about 25 years old.",
+            options: [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! Even with 'about' or 'around', use 'is' with 'she'.",
+            correctFeedbackRu: "Правильно! Даже с 'about' или 'around' используйте 'is' с 'she'.",
+            incorrectFeedback: "Incorrect. 'She' always takes 'is', even with approximations.",
+            incorrectFeedbackRu: "Неправильно. 'She' всегда требует 'is', даже с приблизительными значениями."
+        },
+        {
+            question: "Select the right form for a group of people:",
+            questionRu: "Выберите правильную форму для группы людей:",
+            options: [
+                "All my classmates are 18 years old.",
+                "All my classmates is 18 years old.",
+                "All my classmates am 18 years old.",
+                "All my classmates be 18 years old."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Classmates' is plural, so we use 'are'.",
+            correctFeedbackRu: "Отлично! 'Classmates' - множественное число, поэтому используем 'are'.",
+            incorrectFeedback: "Incorrect. 'Classmates' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Classmates' - множественное число и требует 'are'."
         }
     ]
 };
 
 /* ============================================
-Page 2: Using "to be" with nationalities
+Page 2: Talking about nationalities and origins  
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page2'] = {
+    title: "Talking about nationalities and origins",
     multipleChoice: [
         {
-            question: "Choose the correct form of 'to be':",
-            questionRu: "Выберите правильную форму глагола 'to be':",
-            sentence: "I ___ American.",
+            question: "Choose the correct way to state your nationality:",
+            questionRu: "Выберите правильный способ указать свою национальность:",
+            sentence: "I ___ Russian.",
             options: [
                 "am",
                 "is",
@@ -187,137 +189,107 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page2'] = {
                 "be"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! With 'I', we use 'am' when talking about nationality.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' когда говорим о национальности.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' when expressing nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' при выражении национальности."
+            correctFeedback: "Perfect! Use 'I am' when stating your own nationality.",
+            correctFeedbackRu: "Отлично! Используйте 'I am' при указании своей национальности.",
+            incorrectFeedback: "Incorrect. For your own nationality, always use 'I am'.",
+            incorrectFeedbackRu: "Неправильно. Для своей национальности всегда используйте 'I am'."
         },
         {
-            question: "Select the correct sentence about nationality:",
-            questionRu: "Выберите правильное предложение о национальности:",
+            question: "Select the correct sentence about origin:",
+            questionRu: "Выберите правильное предложение о происхождении:",
             options: [
-                "She is French.",
-                "She am French.",
-                "She are French.",
-                "She be French."
+                "My teacher is from Brazil.",
+                "My teacher are from Brazil.",
+                "My teacher am from Brazil.",
+                "My teacher be from Brazil."
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'She is French' is the proper form for expressing nationality.",
-            correctFeedbackRu: "Правильно! 'She is French' - это правильная форма для выражения национальности.",
-            incorrectFeedback: "Incorrect. Remember that we use 'is' with 'she' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. Помните, что мы используем 'is' с 'she' когда говорим о национальности."
+            correctFeedback: "Correct! 'My teacher' is singular, so use 'is from'.",
+            correctFeedbackRu: "Правильно! 'My teacher' - единственное число, используйте 'is from'.",
+            incorrectFeedback: "Incorrect. With 'my teacher', we use 'is from'.",
+            incorrectFeedbackRu: "Неправильно. С 'my teacher' мы используем 'is from'."
         },
         {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "They ___ Spanish.",
+            question: "Choose the right form for multiple nationalities:",
+            questionRu: "Выберите правильную форму для множественных национальностей:",
+            sentence: "We ___ all European.",
             options: [
                 "are",
-                "am",
                 "is",
+                "am",
                 "be"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! We use 'are' with plural subjects like 'they' when talking about nationality.",
-            correctFeedbackRu: "Правильно! Мы используем 'are' с подлежащими во множественном числе, такими как 'they', когда говорим о национальности.",
-            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' when expressing nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' при выражении национальности."
+            correctFeedback: "Excellent! 'We' always takes 'are' for nationalities.",
+            correctFeedbackRu: "Отлично! 'We' всегда требует 'are' для национальностей.",
+            incorrectFeedback: "Incorrect. 'We' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'We' - множественное число и требует 'are'."
         },
         {
-            question: "Which sentence is correct?",
-            questionRu: "Какое предложение правильное?",
+            question: "Select the best way to describe someone's origin:",
+            questionRu: "Выберите лучший способ описать чье-то происхождение:",
             options: [
-                "He is Japanese.",
-                "He are Japanese.",
-                "He am Japanese.",
-                "He be Japanese."
+                "She is originally from Japan.",
+                "She are originally from Japan.",
+                "She am originally from Japan.",
+                "She be originally from Japan."
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'He is Japanese' is the proper form for expressing nationality.",
-            correctFeedbackRu: "Правильно! 'He is Japanese' - это правильная форма для выражения национальности.",
-            incorrectFeedback: "Incorrect. Remember to use 'is' with 'he' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. Помните, что нужно использовать 'is' с 'he' когда говорим о национальности."
+            correctFeedback: "Perfect! 'Originally from' shows where someone was born.",
+            correctFeedbackRu: "Отлично! 'Originally from' показывает, где кто-то родился.",
+            incorrectFeedback: "Incorrect. 'She' requires 'is' even with 'originally'.",
+            incorrectFeedbackRu: "Неправильно. 'She' требует 'is' даже с 'originally'."
         },
         {
-            question: "Choose the sentence with the correct form of 'to be':",
-            questionRu: "Выберите предложение с правильной формой глагола 'to be':",
-            options: [
-                "The students are Chinese.",
-                "The students am Chinese.",
-                "The students is Chinese.",
-                "The students be Chinese."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! We use 'are' with plural nouns like 'students' when expressing nationality.",
-            correctFeedbackRu: "Правильно! Мы используем 'are' с существительными во множественном числе, такими как 'students', при выражении национальности.",
-            incorrectFeedback: "Incorrect. 'The students' is plural and takes 'are' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. 'The students' - множественное число и требует 'are' при разговоре о национальности."
-        },
-        {
-            question: "Select the correct nationality statement:",
-            questionRu: "Выберите правильное утверждение о национальности:",
-            options: [
-                "You are German.",
-                "You am German.",
-                "You is German.",
-                "You be German."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'You are German' is the proper form for expressing nationality.",
-            correctFeedbackRu: "Правильно! 'You are German' - это правильная форма для выражения национальности.",
-            incorrectFeedback: "Incorrect. The correct form is 'You are' when expressing nationality.",
-            incorrectFeedbackRu: "Неправильно. Правильная форма - 'You are' при выражении национальности."
-        },
-        {
-            question: "Which sentence uses the correct form of 'to be'?",
-            questionRu: "В каком предложении используется правильная форма 'to be'?",
-            options: [
-                "We are Italian.",
-                "We am Italian.",
-                "We is Italian.",
-                "We be Italian."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! We use 'are' with the subject 'we' when talking about nationality.",
-            correctFeedbackRu: "Правильно! Мы используем 'are' с подлежащим 'we' когда говорим о национальности.",
-            incorrectFeedback: "Incorrect. With 'we', you need to use 'are' when expressing nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'we' вам нужно использовать 'are' при выражении национальности."
-        },
-        {
-            question: "Choose the correct form for a nationality question:",
+            question: "Choose the correct form for asking about nationality:",
             questionRu: "Выберите правильную форму для вопроса о национальности:",
-            sentence: "___ she Brazilian?",
             options: [
-                "Is",
-                "Am",
-                "Are",
-                "Be"
+                "What nationality are you?",
+                "What nationality is you?",
+                "What nationality am you?",
+                "What nationality be you?"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! We use 'Is' with 'she' in questions about nationality.",
-            correctFeedbackRu: "Правильно! Мы используем 'Is' с 'she' в вопросах о национальности.",
-            incorrectFeedback: "Incorrect. The correct form for 'she' is 'Is she Brazilian?'",
-            incorrectFeedbackRu: "Неправильно. Правильная форма для 'she' - это 'Is she Brazilian?'"
+            correctFeedback: "Correct! 'What nationality are you?' is the standard question.",
+            correctFeedbackRu: "Правильно! 'What nationality are you?' - стандартный вопрос.",
+            incorrectFeedback: "Incorrect. The proper question is 'What nationality are you?'",
+            incorrectFeedbackRu: "Неправильно. Правильный вопрос: 'What nationality are you?'"
         },
         {
-            question: "Select the correct sentence about nationality:",
-            questionRu: "Выберите правильное предложение о национальности:",
+            question: "Select the right way to talk about mixed heritage:",
+            questionRu: "Выберите правильный способ рассказать о смешанном происхождении:",
+            sentence: "He ___ half Korean and half American.",
             options: [
-                "My friends are Russian.",
-                "My friends is Russian.",
-                "My friends am Russian.",
-                "My friends be Russian."
+                "is",
+                "am",
+                "are",
+                "be"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'Friends' is plural so we use 'are' when expressing nationality.",
-            correctFeedbackRu: "Правильно! 'Friends' - множественное число, поэтому мы используем 'are' при выражении национальности.",
-            incorrectFeedback: "Incorrect. 'Friends' is plural, so we need to use 'are' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. 'Friends' - множественное число, поэтому нам нужно использовать 'are' при разговоре о национальности."
+            correctFeedback: "Excellent! Use 'is' for mixed heritage descriptions.",
+            correctFeedbackRu: "Отлично! Используйте 'is' для описания смешанного происхождения.",
+            incorrectFeedback: "Incorrect. 'He' always takes 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'He' всегда требует 'is'."
         },
         {
-            question: "Choose the correct form of 'to be' for the nationality expression:",
-            questionRu: "Выберите правильную форму 'to be' для выражения национальности:",
-            sentence: "I ___ Canadian.",
+            question: "Choose the correct form for a group from different countries:",
+            questionRu: "Выберите правильную форму для группы из разных стран:",
+            options: [
+                "The students are from various countries.",
+                "The students is from various countries.",
+                "The students am from various countries.",
+                "The students be from various countries."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Students' is plural, so use 'are from'.",
+            correctFeedbackRu: "Отлично! 'Students' - множественное число, используйте 'are from'.",
+            incorrectFeedback: "Incorrect. 'Students' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Students' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the best way to describe citizenship:",
+            questionRu: "Выберите лучший способ описать гражданство:",
+            sentence: "I ___ a British citizen.",
             options: [
                 "am",
                 "is",
@@ -325,23 +297,55 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page2'] = {
                 "be"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! With 'I', we use 'am' in nationality expressions.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' в выражениях национальности.",
-            incorrectFeedback: "Incorrect. With 'I', we use 'am' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'I' мы используем 'am' когда говорим о национальности."
+            correctFeedback: "Correct! 'I am a [nationality] citizen' is the proper form.",
+            correctFeedbackRu: "Правильно! 'I am a [национальность] citizen' - правильная форма.",
+            incorrectFeedback: "Incorrect. Use 'I am' for stating citizenship.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'I am' для указания гражданства."
+        },
+        {
+            question: "Choose the right form for describing where people come from:",
+            questionRu: "Выберите правильную форму для описания откуда люди:",
+            options: [
+                "My neighbors are from different continents.",
+                "My neighbors is from different continents.",
+                "My neighbors am from different continents.",
+                "My neighbors be from different continents."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Neighbors' is plural, so use 'are from'.",
+            correctFeedbackRu: "Отлично! 'Neighbors' - множественное число, используйте 'are from'.",
+            incorrectFeedback: "Incorrect. 'Neighbors' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Neighbors' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the correct way to express dual nationality:",
+            questionRu: "Выберите правильный способ выразить двойное гражданство:",
+            sentence: "She ___ both Canadian and French.",
+            options: [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! Even with dual nationality, 'she' takes 'is'.",
+            correctFeedbackRu: "Отлично! Даже с двойным гражданством, 'she' требует 'is'.",
+            incorrectFeedback: "Incorrect. 'She' always requires 'is', even with multiple nationalities.",
+            incorrectFeedbackRu: "Неправильно. 'She' всегда требует 'is', даже с множественными национальностями."
         }
     ]
 };
 
 /* ============================================
-Page 3: Using "to be" with both age and nationality
+Page 3: Combining age and nationality information
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page3'] = {
+    title: "Combining age and nationality information",
     multipleChoice: [
         {
-            question: "Choose the correct form of 'to be':",
-            questionRu: "Выберите правильную форму глагола 'to be':",
-            sentence: "I ___ 32 years old and I ___ Australian.",
+            question: "Choose the correct forms for complete self-introduction:",
+            questionRu: "Выберите правильные формы для полного самопредставления:",
+            sentence: "I ___ 26 years old and I ___ Italian.",
             options: [
                 "am, am",
                 "is, am",
@@ -349,137 +353,1192 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page3'] = {
                 "are, am"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! With 'I', we use 'am' for both age and nationality.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' и для возраста, и для национальности.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for both age and nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' и для возраста, и для национальности."
+            correctFeedback: "Perfect! Both parts of your introduction use 'I am'.",
+            correctFeedbackRu: "Отлично! Обе части вашего представления используют 'I am'.",
+            incorrectFeedback: "Incorrect. Both age and nationality with 'I' require 'am'.",
+            incorrectFeedbackRu: "Неправильно. И возраст, и национальность с 'I' требуют 'am'."
         },
         {
-            question: "Select the correct sentence combining age and nationality:",
-            questionRu: "Выберите правильное предложение, сочетающее возраст и национальность:",
+            question: "Select the best complete description of someone:",
+            questionRu: "Выберите лучшее полное описание кого-то:",
             options: [
-                "She is 25 years old and she is Mexican.",
-                "She am 25 years old and she am Mexican.",
-                "She are 25 years old and she are Mexican.",
-                "She is 25 years old and she am Mexican."
+                "My roommate is 23 years old and she is Chinese.",
+                "My roommate are 23 years old and she are Chinese.",
+                "My roommate am 23 years old and she am Chinese.",
+                "My roommate is 23 years old and she are Chinese."
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'She is' is used for both age and nationality.",
-            correctFeedbackRu: "Правильно! 'She is' используется и для возраста, и для национальности.",
-            incorrectFeedback: "Incorrect. Remember that we use 'is' with 'she' for both age and nationality.",
-            incorrectFeedbackRu: "Неправильно. Помните, что мы используем 'is' с 'she' и для возраста, и для национальности."
+            correctFeedback: "Excellent! Both sentences correctly use 'is' for third person singular.",
+            correctFeedbackRu: "Отлично! Оба предложения правильно используют 'is' для третьего лица единственного числа.",
+            incorrectFeedback: "Incorrect. Both 'my roommate' and 'she' need 'is'.",
+            incorrectFeedbackRu: "Неправильно. И 'my roommate', и 'she' требуют 'is'."
         },
         {
-            question: "Complete the sentence with the correct forms of 'to be':",
-            questionRu: "Заполните предложение правильными формами глагола 'to be':",
-            sentence: "They ___ 40 years old and they ___ British.",
+            question: "Choose the right way to describe a couple:",
+            questionRu: "Выберите правильный способ описать пару:",
+            sentence: "They ___ both 28 years old and they ___ from Sweden.",
             options: [
                 "are, are",
-                "am, are",
-                "is, are",
+                "is, is",
+                "am, am",
                 "are, is"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! With 'they', we use 'are' for both age and nationality.",
-            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' и для возраста, и для национальности.",
-            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for both age and nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' и для возраста, и для национальности."
+            correctFeedback: "Perfect! 'They' always takes 'are' for both age and origin.",
+            correctFeedbackRu: "Отлично! 'They' всегда требует 'are' и для возраста, и для происхождения.",
+            incorrectFeedback: "Incorrect. 'They' is plural and needs 'are' in both cases.",
+            incorrectFeedbackRu: "Неправильно. 'They' - множественное число и требует 'are' в обоих случаях."
         },
         {
-            question: "Which sentence is correct?",
-            questionRu: "Какое предложение правильное?",
+            question: "Select the correct description with additional details:",
+            questionRu: "Выберите правильное описание с дополнительными деталями:",
             options: [
-                "He is Indian and he is 28 years old.",
-                "He are Indian and he are 28 years old.",
-                "He am Indian and he am 28 years old.",
-                "He is Indian and he are 28 years old."
+                "He is 35, originally Spanish, but now American.",
+                "He are 35, originally Spanish, but now American.",
+                "He am 35, originally Spanish, but now American.",
+                "He be 35, originally Spanish, but now American."
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'He is' is used for both nationality and age.",
-            correctFeedbackRu: "Правильно! 'He is' используется и для национальности, и для возраста.",
-            incorrectFeedback: "Incorrect. Remember to use 'is' with 'he' for both nationality and age.",
-            incorrectFeedbackRu: "Неправильно. Помните, что нужно использовать 'is' с 'he' и для национальности, и для возраста."
+            correctFeedback: "Excellent! Complex descriptions still follow basic 'to be' rules.",
+            correctFeedbackRu: "Отлично! Сложные описания все еще следуют основным правилам глагола 'to be'.",
+            incorrectFeedback: "Incorrect. 'He' always requires 'is' regardless of complexity.",
+            incorrectFeedbackRu: "Неправильно. 'He' всегда требует 'is' независимо от сложности."
         },
         {
-            question: "Choose the sentence with the correct forms of 'to be':",
-            questionRu: "Выберите предложение с правильными формами глагола 'to be':",
+            question: "Choose the best way to introduce family members:",
+            questionRu: "Выберите лучший способ представить членов семьи:",
+            sentence: "My parents ___ in their fifties and they ___ Lebanese.",
             options: [
-                "The children are Korean and they are 10 years old.",
-                "The children is Korean and they is 10 years old.",
-                "The children are Korean and they is 10 years old.",
-                "The children is Korean and they are 10 years old."
+                "are, are",
+                "is, are",
+                "are, is",
+                "am, are"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! We use 'are' with plural nouns like 'children' for both nationality and age.",
-            correctFeedbackRu: "Правильно! Мы используем 'are' с существительными во множественном числе, такими как 'children', и для национальности, и для возраста.",
-            incorrectFeedback: "Incorrect. 'The children' is plural and takes 'are' for both nationality and age.",
-            incorrectFeedbackRu: "Неправильно. 'The children' - множественное число и требует 'are' и для национальности, и для возраста."
+            correctFeedback: "Perfect! 'Parents' is plural, so both verbs are 'are'.",
+            correctFeedbackRu: "Отлично! 'Parents' - множественное число, поэтому оба глагола 'are'.",
+            incorrectFeedback: "Incorrect. 'Parents' is plural and needs 'are' twice.",
+            incorrectFeedbackRu: "Неправильно. 'Parents' - множественное число и требует 'are' дважды."
         },
         {
-            question: "Select the correct combined statement:",
-            questionRu: "Выберите правильное комбинированное утверждение:",
+            question: "Select the correct way to compare ages and backgrounds:",
+            questionRu: "Выберите правильный способ сравнить возраст и происхождение:",
             options: [
-                "You are American and you are 19 years old.",
-                "You am American and you am 19 years old.",
-                "You is American and you is 19 years old.",
-                "You are American and you is 19 years old."
+                "I am older than her, but we are both Polish.",
+                "I are older than her, but we are both Polish.",
+                "I am older than her, but we is both Polish.",
+                "I am older than her, but we am both Polish."
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'You are' is the proper form for both nationality and age.",
-            correctFeedbackRu: "Правильно! 'You are' - это правильная форма и для национальности, и для возраста.",
-            incorrectFeedback: "Incorrect. The correct form is 'You are' for both nationality and age.",
-            incorrectFeedbackRu: "Неправильно. Правильная форма - 'You are' и для национальности, и для возраста."
+            correctFeedback: "Excellent! 'I am' for yourself, 'we are' for the group.",
+            correctFeedbackRu: "Отлично! 'I am' для себя, 'we are' для группы.",
+            incorrectFeedback: "Incorrect. Use 'I am' and 'we are' for these subjects.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'I am' и 'we are' для этих подлежащих."
         },
         {
-            question: "Which sentence uses the correct forms of 'to be'?",
-            questionRu: "В каком предложении используются правильные формы 'to be'?",
+            question: "Choose the right form for professional introduction:",
+            questionRu: "Выберите правильную форму для профессионального представления:",
+            sentence: "The new manager ___ 42 years old and she ___ Australian.",
             options: [
-                "We are Polish and we are in our twenties.",
-                "We am Polish and we am in our twenties.",
-                "We is Polish and we is in our twenties.",
-                "We are Polish and we is in our twenties."
+                "is, is",
+                "are, is",
+                "is, are",
+                "am, is"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! We use 'are' with the subject 'we' for both nationality and age.",
-            correctFeedbackRu: "Правильно! Мы используем 'are' с подлежащим 'we' и для национальности, и для возраста.",
-            incorrectFeedback: "Incorrect. With 'we', you need to use 'are' for both nationality and age.",
-            incorrectFeedbackRu: "Неправильно. С 'we' вам нужно использовать 'are' и для национальности, и для возраста."
+            correctFeedback: "Perfect! Both references to the same person use 'is'.",
+            correctFeedbackRu: "Отлично! Оба упоминания одного и того же человека используют 'is'.",
+            incorrectFeedback: "Incorrect. Both 'manager' and 'she' are singular and need 'is'.",
+            incorrectFeedbackRu: "Неправильно. И 'manager', и 'she' - единственное число и требуют 'is'."
         },
         {
-            question: "Choose the correct form for a combined question:",
-            questionRu: "Выберите правильную форму для комбинированного вопроса:",
-            sentence: "___ she Brazilian and ___ she 35 years old?",
+            question: "Select the best way to describe international colleagues:",
+            questionRu: "Выберите лучший способ описать международных коллег:",
             options: [
-                "Is, is",
-                "Am, am",
-                "Are, are",
-                "Is, are"
+                "Our team members are all different ages and nationalities.",
+                "Our team members is all different ages and nationalities.",
+                "Our team members am all different ages and nationalities.",
+                "Our team members be all different ages and nationalities."
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! We use 'Is' with 'she' in questions about both nationality and age.",
-            correctFeedbackRu: "Правильно! Мы используем 'Is' с 'she' в вопросах и о национальности, и о возрасте.",
-            incorrectFeedback: "Incorrect. The correct form for 'she' is 'Is' for both nationality and age questions.",
-            incorrectFeedbackRu: "Неправильно. Правильная форма для 'she' - это 'Is' для вопросов и о национальности, и о возрасте."
+            correctFeedback: "Excellent! 'Team members' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Team members' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Team members' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Team members' - множественное число и требует 'are'."
         },
         {
-            question: "Select the correct sentence combining nationality and age:",
-            questionRu: "Выберите правильное предложение, сочетающее национальность и возраст:",
+            question: "Choose the correct way to ask about both age and origin:",
+            questionRu: "Выберите правильный способ спросить и о возрасте, и о происхождении:",
             options: [
-                "My parents are German and they are 55 years old.",
-                "My parents is German and they is 55 years old.",
-                "My parents are German and they is 55 years old.",
-                "My parents is German and they are 55 years old."
+                "How old are you and where are you from?",
+                "How old is you and where is you from?",
+                "How old are you and where is you from?",
+                "How old is you and where are you from?"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'Parents' is plural so we use 'are' for both nationality and age.",
-            correctFeedbackRu: "Правильно! 'Parents' - множественное число, поэтому мы используем 'are' и для национальности, и для возраста.",
-            incorrectFeedback: "Incorrect. 'Parents' is plural, so we need to use 'are' for both nationality and age.",
-            incorrectFeedbackRu: "Неправильно. 'Parents' - множественное число, поэтому нам нужно использовать 'are' и для национальности, и для возраста."
+            correctFeedback: "Perfect! Both questions correctly use 'are you'.",
+            correctFeedbackRu: "Отлично! Оба вопроса правильно используют 'are you'.",
+            incorrectFeedback: "Incorrect. Both questions should use 'are you'.",
+            incorrectFeedbackRu: "Неправильно. Оба вопроса должны использовать 'are you'."
         },
         {
-            question: "Choose the correct form of 'to be' for the combined expression:",
-            questionRu: "Выберите правильную форму 'to be' для комбинированного выражения:",
-            sentence: "I ___ Chinese and I ___ 22 years old.",
+            question: "Select the best complete introduction with multiple details:",
+            questionRu: "Выберите лучшее полное представление с множественными деталями:",
+            options: [
+                "I am 30, originally from Mexico, but now I am Canadian too.",
+                "I are 30, originally from Mexico, but now I are Canadian too.",
+                "I am 30, originally from Mexico, but now I is Canadian too.",
+                "I is 30, originally from Mexico, but now I am Canadian too."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! All references to yourself correctly use 'I am'.",
+            correctFeedbackRu: "Отлично! Все упоминания о себе правильно используют 'I am'.",
+            incorrectFeedback: "Incorrect. All instances with 'I' should use 'am'.",
+            incorrectFeedbackRu: "Неправильно. Все случаи с 'I' должны использовать 'am'."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Questions and negative forms with age and nationality
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page4'] = {
+    title: "Questions and negative forms with age and nationality",
+    multipleChoice: [
+        {
+            question: "Choose the correct negative form about age:",
+            questionRu: "Выберите правильную отрицательную форму о возрасте:",
+            options: [
+                "I am not 25 years old.",
+                "I not am 25 years old.",
+                "I am no 25 years old.",
+                "I don't am 25 years old."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! The negative form is 'am not' after the subject.",
+            correctFeedbackRu: "Отлично! Отрицательная форма - 'am not' после подлежащего.",
+            incorrectFeedback: "Incorrect. The proper negative is 'I am not'.",
+            incorrectFeedbackRu: "Неправильно. Правильное отрицание - 'I am not'."
+        },
+        {
+            question: "Select the correct question about someone's nationality:",
+            questionRu: "Выберите правильный вопрос о чьей-то национальности:",
+            options: [
+                "Is she German?",
+                "Are she German?",
+                "Am she German?",
+                "Be she German?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! Questions with 'she' start with 'Is she...?'",
+            correctFeedbackRu: "Правильно! Вопросы с 'she' начинаются с 'Is she...?'",
+            incorrectFeedback: "Incorrect. Questions about 'she' begin with 'Is she'.",
+            incorrectFeedbackRu: "Неправильно. Вопросы о 'she' начинаются с 'Is she'."
+        },
+        {
+            question: "Choose the right negative sentence about nationality:",
+            questionRu: "Выберите правильное отрицательное предложение о национальности:",
+            options: [
+                "He is not French, he is Belgian.",
+                "He not is French, he is Belgian.",
+                "He no is French, he is Belgian.",
+                "He don't is French, he is Belgian."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! Use 'is not' to make negative statements about nationality.",
+            correctFeedbackRu: "Отлично! Используйте 'is not' для отрицательных утверждений о национальности.",
+            incorrectFeedback: "Incorrect. The proper negative form is 'is not'.",
+            incorrectFeedbackRu: "Неправильно. Правильная отрицательная форма - 'is not'."
+        },
+        {
+            question: "Select the correct question about age:",
+            questionRu: "Выберите правильный вопрос о возрасте:",
+            options: [
+                "Are they teenagers?",
+                "Is they teenagers?",
+                "Am they teenagers?",
+                "Be they teenagers?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! Questions with 'they' start with 'Are they...?'",
+            correctFeedbackRu: "Отлично! Вопросы с 'they' начинаются с 'Are they...?'",
+            incorrectFeedback: "Incorrect. Questions about 'they' begin with 'Are they'.",
+            incorrectFeedbackRu: "Неправильно. Вопросы о 'they' начинаются с 'Are they'."
+        },
+        {
+            question: "Choose the correct negative about origin:",
+            questionRu: "Выберите правильное отрицание о происхождении:",
+            sentence: "We ___ from the same country.",
+            options: [
+                "are not",
+                "not are",
+                "no are",
+                "don't are"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! The negative form with 'we' is 'are not'.",
+            correctFeedbackRu: "Правильно! Отрицательная форма с 'we' - это 'are not'.",
+            incorrectFeedback: "Incorrect. Use 'are not' for negative statements with 'we'.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'are not' для отрицательных утверждений с 'we'."
+        },
+        {
+            question: "Select the best yes/no question about both age and nationality:",
+            questionRu: "Выберите лучший вопрос да/нет о возрасте и национальности:",
+            options: [
+                "Is your sister 20 and Korean?",
+                "Are your sister 20 and Korean?",
+                "Am your sister 20 and Korean?",
+                "Be your sister 20 and Korean?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Your sister' is singular, so use 'Is'.",
+            correctFeedbackRu: "Отлично! 'Your sister' - единственное число, поэтому используйте 'Is'.",
+            incorrectFeedback: "Incorrect. 'Your sister' requires 'Is' at the beginning.",
+            incorrectFeedbackRu: "Неправильно. 'Your sister' требует 'Is' в начале."
+        },
+        {
+            question: "Choose the correct short negative answer:",
+            questionRu: "Выберите правильный краткий отрицательный ответ:",
+            sentence: "Are you 18? No, ___.",
+            options: [
+                "I'm not",
+                "I not",
+                "I no",
+                "I don't"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! Short negative answers use 'I'm not' (I am not).",
+            correctFeedbackRu: "Отлично! Краткие отрицательные ответы используют 'I'm not' (I am not).",
+            incorrectFeedback: "Incorrect. The proper short answer is 'I'm not'.",
+            incorrectFeedbackRu: "Неправильно. Правильный краткий ответ - 'I'm not'."
+        },
+        {
+            question: "Select the correct question about multiple people:",
+            questionRu: "Выберите правильный вопрос о нескольких людях:",
+            options: [
+                "Are your parents from India?",
+                "Is your parents from India?",
+                "Am your parents from India?",
+                "Be your parents from India?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Parents' is plural, so questions start with 'Are'.",
+            correctFeedbackRu: "Правильно! 'Parents' - множественное число, вопросы начинаются с 'Are'.",
+            incorrectFeedback: "Incorrect. 'Parents' is plural and needs 'Are' in questions.",
+            incorrectFeedbackRu: "Неправильно. 'Parents' - множественное число и требует 'Are' в вопросах."
+        },
+        {
+            question: "Choose the right negative form with contractions:",
+            questionRu: "Выберите правильную отрицательную форму с сокращениями:",
+            options: [
+                "She isn't 30, she's actually 25.",
+                "She not is 30, she's actually 25.",
+                "She no is 30, she's actually 25.",
+                "She doesn't is 30, she's actually 25."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Isn't' is the contraction of 'is not'.",
+            correctFeedbackRu: "Отлично! 'Isn't' - это сокращение от 'is not'.",
+            incorrectFeedback: "Incorrect. Use 'isn't' as the contraction for 'is not'.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'isn't' как сокращение для 'is not'."
+        },
+        {
+            question: "Select the correct question word order:",
+            questionRu: "Выберите правильный порядок слов в вопросе:",
+            options: [
+                "Where are you originally from?",
+                "Where you are originally from?",
+                "Originally where are you from?",
+                "From where originally are you?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! Question words come first, then the verb, then the subject.",
+            correctFeedbackRu: "Отлично! Вопросительные слова идут первыми, затем глагол, затем подлежащее.",
+            incorrectFeedback: "Incorrect. The correct order is: Where + are + you + originally from?",
+            incorrectFeedbackRu: "Неправильно. Правильный порядок: Where + are + you + originally from?"
+        },
+        {
+            question: "Choose the best negative response to a complex question:",
+            questionRu: "Выберите лучший отрицательный ответ на сложный вопрос:",
+            options: [
+                "No, they aren't both 30 and Spanish.",
+                "No, they not are both 30 and Spanish.",
+                "No, they no are both 30 and Spanish.",
+                "No, they don't are both 30 and Spanish."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Aren't' is the contraction for 'are not'.",
+            correctFeedbackRu: "Отлично! 'Aren't' - это сокращение от 'are not'.",
+            incorrectFeedback: "Incorrect. Use 'aren't' for negative answers with 'they'.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'aren't' для отрицательных ответов с 'they'."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Simple age comparisons and family members
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page5'] = {
+    title: "Simple age comparisons and family members",
+    multipleChoice: [
+        {
+            question: "Choose the correct form to compare ages:",
+            questionRu: "Выберите правильную форму для сравнения возрастов:",
+            sentence: "My sister ___ younger than me.",
+            options: [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'My sister' is third person singular, so use 'is'.",
+            correctFeedbackRu: "Правильно! 'My sister' - третье лицо единственного числа, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'My sister' requires 'is' for comparisons.",
+            incorrectFeedbackRu: "Неправильно. 'My sister' требует 'is' для сравнений."
+        },
+        {
+            question: "Select the correct sentence about family age:",
+            questionRu: "Выберите правильное предложение о возрасте в семье:",
+            options: [
+                "Our children are 5 and 8 years old.",
+                "Our children is 5 and 8 years old.",
+                "Our children am 5 and 8 years old.",
+                "Our children be 5 and 8 years old."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Children' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Children' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Children' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Children' - множественное число и требует 'are'."
+        },
+        {
+            question: "Choose the right form for describing your age relationship:",
+            questionRu: "Выберите правильную форму для описания возрастных отношений:",
+            sentence: "I ___ the oldest in my family.",
+            options: [
+                "am",
+                "is",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! Use 'I am' when describing your position in the family.",
+            correctFeedbackRu: "Отлично! Используйте 'I am' при описании своего положения в семье.",
+            incorrectFeedback: "Incorrect. 'I' always takes 'am'.",
+            incorrectFeedbackRu: "Неправильно. 'I' всегда требует 'am'."
+        },
+        {
+            question: "Select the correct way to talk about grandparents:",
+            questionRu: "Выберите правильный способ говорить о дедушках и бабушках:",
+            options: [
+                "My grandmother is 75 years old.",
+                "My grandmother are 75 years old.",
+                "My grandmother am 75 years old.",
+                "My grandmother be 75 years old."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Grandmother' is singular, so use 'is'.",
+            correctFeedbackRu: "Правильно! 'Grandmother' - единственное число, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'Grandmother' is singular and needs 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'Grandmother' - единственное число и требует 'is'."
+        },
+        {
+            question: "Choose the correct form for describing twins:",
+            questionRu: "Выберите правильную форму для описания близнецов:",
+            sentence: "The twins ___ exactly the same age.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Twins' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Twins' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Twins' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Twins' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the best way to describe a young family member:",
+            questionRu: "Выберите лучший способ описать молодого члена семьи:",
+            options: [
+                "My little brother is only 3 years old.",
+                "My little brother are only 3 years old.",
+                "My little brother am only 3 years old.",
+                "My little brother be only 3 years old."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! Even with 'little' and 'only', use 'is' with singular subjects.",
+            correctFeedbackRu: "Отлично! Даже с 'little' и 'only' используйте 'is' с подлежащими в единственном числе.",
+            incorrectFeedback: "Incorrect. 'My little brother' is singular and needs 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'My little brother' - единственное число и требует 'is'."
+        },
+        {
+            question: "Choose the right form for talking about age difference:",
+            questionRu: "Выберите правильную форму для разговора о разнице в возрасте:",
+            sentence: "We ___ 10 years apart in age.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'We' always takes 'are'.",
+            correctFeedbackRu: "Правильно! 'We' всегда требует 'are'.",
+            incorrectFeedback: "Incorrect. 'We' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'We' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the correct sentence about a relative's age:",
+            questionRu: "Выберите правильное предложение о возрасте родственника:",
+            options: [
+                "My uncle is in his forties.",
+                "My uncle are in his forties.",
+                "My uncle am in his forties.",
+                "My uncle be in his forties."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Uncle' is singular, so use 'is'.",
+            correctFeedbackRu: "Отлично! 'Uncle' - единственное число, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'Uncle' is singular and requires 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'Uncle' - единственное число и требует 'is'."
+        },
+        {
+            question: "Choose the best way to describe family age range:",
+            questionRu: "Выберите лучший способ описать возрастной диапазон семьи:",
+            sentence: "All my cousins ___ teenagers.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Cousins' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Cousins' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Cousins' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Cousins' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the correct way to talk about being the same age:",
+            questionRu: "Выберите правильный способ сказать об одинаковом возрасте:",
+            options: [
+                "My friend and I are the same age.",
+                "My friend and I is the same age.",
+                "My friend and I am the same age.",
+                "My friend and I be the same age."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'My friend and I' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'My friend and I' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'My friend and I' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'My friend and I' - множественное число и требует 'are'."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Countries, cities and where people live
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page6'] = {
+    title: "Countries, cities and where people live",
+    multipleChoice: [
+        {
+            question: "Choose the correct way to say where you live:",
+            questionRu: "Выберите правильный способ сказать, где вы живете:",
+            sentence: "I ___ from Tokyo, Japan.",
+            options: [
+                "am",
+                "is",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! Use 'I am from' to say where you come from.",
+            correctFeedbackRu: "Правильно! Используйте 'I am from' чтобы сказать откуда вы.",
+            incorrectFeedback: "Incorrect. 'I' requires 'am' when talking about origin.",
+            incorrectFeedbackRu: "Неправильно. 'I' требует 'am' при разговоре о происхождении."
+        },
+        {
+            question: "Select the correct sentence about living in a city:",
+            questionRu: "Выберите правильное предложение о жизни в городе:",
+            options: [
+                "She is from London, England.",
+                "She are from London, England.",
+                "She am from London, England.",
+                "She be from London, England."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'She is from' is correct for third person singular.",
+            correctFeedbackRu: "Отлично! 'She is from' правильно для третьего лица единственного числа.",
+            incorrectFeedback: "Incorrect. 'She' always takes 'is' when talking about origin.",
+            incorrectFeedbackRu: "Неправильно. 'She' всегда требует 'is' при разговоре о происхождении."
+        },
+        {
+            question: "Choose the right form for describing where friends are from:",
+            questionRu: "Выберите правильную форму для описания откуда друзья:",
+            sentence: "My friends ___ from different countries.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Friends' is plural, so use 'are from'.",
+            correctFeedbackRu: "Отлично! 'Friends' - множественное число, используйте 'are from'.",
+            incorrectFeedback: "Incorrect. 'Friends' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Friends' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the correct way to ask about someone's home country:",
+            questionRu: "Выберите правильный способ спросить о родной стране:",
+            options: [
+                "Where is he from?",
+                "Where are he from?",
+                "Where am he from?",
+                "Where be he from?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! Questions about 'he' start with 'Where is he from?'",
+            correctFeedbackRu: "Правильно! Вопросы о 'he' начинаются с 'Where is he from?'",
+            incorrectFeedback: "Incorrect. Questions about 'he' use 'Where is he from?'",
+            incorrectFeedbackRu: "Неправильно. Вопросы о 'he' используют 'Where is he from?'"
+        },
+        {
+            question: "Choose the best way to describe your family's origin:",
+            questionRu: "Выберите лучший способ описать происхождение вашей семьи:",
+            sentence: "We ___ all from small towns.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'We' always takes 'are'.",
+            correctFeedbackRu: "Отлично! 'We' всегда требует 'are'.",
+            incorrectFeedback: "Incorrect. 'We' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'We' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the correct sentence about living in different places:",
+            questionRu: "Выберите правильное предложение о жизни в разных местах:",
+            options: [
+                "He is originally from Paris but now he lives in New York.",
+                "He are originally from Paris but now he lives in New York.",
+                "He am originally from Paris but now he lives in New York.",
+                "He be originally from Paris but now he lives in New York."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'He is originally from' shows where someone was born.",
+            correctFeedbackRu: "Отлично! 'He is originally from' показывает где кто-то родился.",
+            incorrectFeedback: "Incorrect. 'He' requires 'is' even with 'originally'.",
+            incorrectFeedbackRu: "Неправильно. 'He' требует 'is' даже с 'originally'."
+        },
+        {
+            question: "Choose the right form to describe a group's origins:",
+            questionRu: "Выберите правильную форму для описания происхождения группы:",
+            sentence: "The students ___ from Europe and Asia.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Students' is plural, so use 'are from'.",
+            correctFeedbackRu: "Правильно! 'Students' - множественное число, используйте 'are from'.",
+            incorrectFeedback: "Incorrect. 'Students' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Students' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the best way to talk about your hometown:",
+            questionRu: "Выберите лучший способ рассказать о родном городе:",
+            options: [
+                "I am from a small village in the mountains.",
+                "I are from a small village in the mountains.",
+                "I is from a small village in the mountains.",
+                "I be from a small village in the mountains."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'I am from' is correct for describing your hometown.",
+            correctFeedbackRu: "Отлично! 'I am from' правильно для описания родного города.",
+            incorrectFeedback: "Incorrect. Always use 'I am from' when talking about your origin.",
+            incorrectFeedbackRu: "Неправильно. Всегда используйте 'I am from' при разговоре о происхождении."
+        },
+        {
+            question: "Choose the correct way to describe where your teacher is from:",
+            questionRu: "Выберите правильный способ описать откуда ваш учитель:",
+            sentence: "Our teacher ___ from Canada.",
+            options: [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Teacher' is singular, so use 'is from'.",
+            correctFeedbackRu: "Отлично! 'Teacher' - единственное число, используйте 'is from'.",
+            incorrectFeedback: "Incorrect. 'Teacher' is singular and requires 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'Teacher' - единственное число и требует 'is'."
+        },
+        {
+            question: "Select the right form for asking about multiple people:",
+            questionRu: "Выберите правильную форму для вопроса о нескольких людях:",
+            options: [
+                "Where are your parents from?",
+                "Where is your parents from?",
+                "Where am your parents from?",
+                "Where be your parents from?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Parents' is plural, so questions start with 'Where are'.",
+            correctFeedbackRu: "Отлично! 'Parents' - множественное число, вопросы начинаются с 'Where are'.",
+            incorrectFeedback: "Incorrect. 'Parents' is plural and needs 'Where are' in questions.",
+            incorrectFeedbackRu: "Неправильно. 'Parents' - множественное число и требует 'Where are' в вопросах."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Mixed practice with age, nationality and basic information
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page7'] = {
+    title: "Mixed practice with age, nationality and basic information",
+    multipleChoice: [
+        {
+            question: "Choose the correct forms for a complete introduction:",
+            questionRu: "Выберите правильные формы для полного представления:",
+            sentence: "Hi! I ___ Maria, I ___ 24, and I ___ from Spain.",
+            options: [
+                "am, am, am",
+                "is, am, am",
+                "am, is, am",
+                "am, am, is"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! All three parts use 'I am' for name, age, and origin.",
+            correctFeedbackRu: "Отлично! Все три части используют 'I am' для имени, возраста и происхождения.",
+            incorrectFeedback: "Incorrect. All three statements about yourself need 'am'.",
+            incorrectFeedbackRu: "Неправильно. Все три утверждения о себе требуют 'am'."
+        },
+        {
+            question: "Select the correct way to introduce someone else:",
+            questionRu: "Выберите правильный способ представить кого-то еще:",
+            options: [
+                "This is John, he is 19, and he is American.",
+                "This are John, he are 19, and he are American.",
+                "This am John, he am 19, and he am American.",
+                "This is John, he are 19, and he is American."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! All references to 'John/he' correctly use 'is'.",
+            correctFeedbackRu: "Отлично! Все упоминания 'John/he' правильно используют 'is'.",
+            incorrectFeedback: "Incorrect. 'This is' and 'he is' are correct for introductions.",
+            incorrectFeedbackRu: "Неправильно. 'This is' и 'he is' правильны для представлений."
+        },
+        {
+            question: "Choose the right forms for describing a couple:",
+            questionRu: "Выберите правильные формы для описания пары:",
+            sentence: "They ___ both 27 years old and they ___ from different countries.",
+            options: [
+                "are, are",
+                "is, is",
+                "am, am",
+                "are, is"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'They' requires 'are' for both age and origin.",
+            correctFeedbackRu: "Отлично! 'They' требует 'are' и для возраста, и для происхождения.",
+            incorrectFeedback: "Incorrect. 'They' is plural and needs 'are' in both cases.",
+            incorrectFeedbackRu: "Неправильно. 'They' - множественное число и требует 'are' в обоих случаях."
+        },
+        {
+            question: "Select the best way to ask for basic information:",
+            questionRu: "Выберите лучший способ спросить основную информацию:",
+            options: [
+                "What is your name and how old are you?",
+                "What are your name and how old are you?",
+                "What is your name and how old is you?",
+                "What are your name and how old is you?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'What is your name' and 'how old are you' are both right.",
+            correctFeedbackRu: "Правильно! 'What is your name' и 'how old are you' оба правильны.",
+            incorrectFeedback: "Incorrect. Use 'What is your name' and 'how old are you'.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'What is your name' и 'how old are you'."
+        },
+        {
+            question: "Choose the correct negative forms:",
+            questionRu: "Выберите правильные отрицательные формы:",
+            sentence: "She ___ not 25, she ___ not French.",
+            options: [
+                "is, is",
+                "are, are",
+                "am, am",
+                "is, are"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! Both negative statements about 'she' use 'is not'.",
+            correctFeedbackRu: "Отлично! Оба отрицательных утверждения о 'she' используют 'is not'.",
+            incorrectFeedback: "Incorrect. 'She' requires 'is not' for both age and nationality.",
+            incorrectFeedbackRu: "Неправильно. 'She' требует 'is not' и для возраста, и для национальности."
+        },
+        {
+            question: "Select the right way to describe your family background:",
+            questionRu: "Выберите правильный способ описать семейное происхождение:",
+            options: [
+                "We are all from the same city but different ages.",
+                "We is all from the same city but different ages.",
+                "We am all from the same city but different ages.",
+                "We be all from the same city but different ages."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'We are' is correct for family descriptions.",
+            correctFeedbackRu: "Отлично! 'We are' правильно для описания семьи.",
+            incorrectFeedback: "Incorrect. 'We' always takes 'are' in descriptions.",
+            incorrectFeedbackRu: "Неправильно. 'We' всегда требует 'are' в описаниях."
+        },
+        {
+            question: "Choose the best short answer to a question:",
+            questionRu: "Выберите лучший краткий ответ на вопрос:",
+            sentence: "Are you and your sister from Italy? Yes, ___.",
+            options: [
+                "we are",
+                "we is",
+                "we am",
+                "we be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! Short positive answers with 'we' use 'we are'.",
+            correctFeedbackRu: "Отлично! Краткие положительные ответы с 'we' используют 'we are'.",
+            incorrectFeedback: "Incorrect. The proper short answer is 'we are'.",
+            incorrectFeedbackRu: "Неправильно. Правильный краткий ответ - 'we are'."
+        },
+        {
+            question: "Select the correct way to describe age and profession:",
+            questionRu: "Выберите правильный способ описать возраст и профессию:",
+            sentence: "My doctor ___ 45 years old and she ___ very experienced.",
+            options: [
+                "is, is",
+                "are, are",
+                "am, am",
+                "is, are"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! Both descriptions of 'doctor/she' use 'is'.",
+            correctFeedbackRu: "Отлично! Оба описания 'doctor/she' используют 'is'.",
+            incorrectFeedback: "Incorrect. Both 'doctor' and 'she' are singular and need 'is'.",
+            incorrectFeedbackRu: "Неправильно. И 'doctor', и 'she' - единственное число и требуют 'is'."
+        },
+        {
+            question: "Choose the right forms for talking about classmates:",
+            questionRu: "Выберите правильные формы для разговора об одноклассниках:",
+            sentence: "My classmates ___ from many countries and they ___ all friendly.",
+            options: [
+                "are, are",
+                "is, is",
+                "am, am",
+                "are, is"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Classmates' and 'they' both require 'are'.",
+            correctFeedbackRu: "Отлично! 'Classmates' и 'they' оба требуют 'are'.",
+            incorrectFeedback: "Incorrect. Both 'classmates' and 'they' are plural and need 'are'.",
+            incorrectFeedbackRu: "Неправильно. И 'classmates', и 'they' - множественное число и требуют 'are'."
+        },
+        {
+            question: "Select the best complete response to introduction questions:",
+            questionRu: "Выберите лучший полный ответ на вопросы представления:",
+            options: [
+                "I am Sarah, I am 22 years old, and I am from Australia.",
+                "I are Sarah, I are 22 years old, and I are from Australia.",
+                "I is Sarah, I is 22 years old, and I is from Australia.",
+                "I am Sarah, I is 22 years old, and I are from Australia."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! All three parts correctly use 'I am' for complete introduction.",
+            correctFeedbackRu: "Отлично! Все три части правильно используют 'I am' для полного представления.",
+            incorrectFeedback: "Incorrect. All statements about yourself should use 'I am'.",
+            incorrectFeedbackRu: "Неправильно. Все утверждения о себе должны использовать 'I am'."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Describing groups and communities
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page8'] = {
+    title: "Describing groups and communities",
+    multipleChoice: [
+        {
+            question: "Choose the correct form to describe your class:",
+            questionRu: "Выберите правильную форму для описания вашего класса:",
+            sentence: "Most students in our class ___ between 18 and 22 years old.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Students' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Students' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Students' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Students' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the best way to describe your neighborhood:",
+            questionRu: "Выберите лучший способ описать ваш район:",
+            options: [
+                "The people in my neighborhood are from many different countries.",
+                "The people in my neighborhood is from many different countries.",
+                "The people in my neighborhood am from many different countries.",
+                "The people in my neighborhood be from many different countries."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'People' is plural, so use 'are from'.",
+            correctFeedbackRu: "Отлично! 'People' - множественное число, используйте 'are from'.",
+            incorrectFeedback: "Incorrect. 'People' is always plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'People' всегда множественное число и требует 'are'."
+        },
+        {
+            question: "Choose the right form for describing a sports team:",
+            questionRu: "Выберите правильную форму для описания спортивной команды:",
+            sentence: "Our football team captain ___ 21 years old.",
+            options: [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Captain' is singular, so use 'is'.",
+            correctFeedbackRu: "Правильно! 'Captain' - единственное число, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'Captain' is singular and requires 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'Captain' - единственное число и требует 'is'."
+        },
+        {
+            question: "Select the correct way to describe club members:",
+            questionRu: "Выберите правильный способ описать членов клуба:",
+            options: [
+                "All the club members are young adults.",
+                "All the club members is young adults.",
+                "All the club members am young adults.",
+                "All the club members be young adults."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Members' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Members' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Members' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Members' - множественное число и требует 'are'."
+        },
+        {
+            question: "Choose the best form for describing your workplace:",
+            questionRu: "Выберите лучшую форму для описания вашего рабочего места:",
+            sentence: "My boss ___ very young - she ___ only 28.",
+            options: [
+                "is, is",
+                "are, are",
+                "am, am",
+                "is, are"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! Both 'boss' and 'she' are singular and use 'is'.",
+            correctFeedbackRu: "Отлично! И 'boss', и 'she' - единственное число и используют 'is'.",
+            incorrectFeedback: "Incorrect. Both 'boss' and 'she' are singular and need 'is'.",
+            incorrectFeedbackRu: "Неправильно. И 'boss', и 'she' - единственное число и требуют 'is'."
+        },
+        {
+            question: "Select the right way to talk about your community:",
+            questionRu: "Выберите правильный способ рассказать о вашем сообществе:",
+            sentence: "The families on our street ___ from different cultures.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Families' is plural, so use 'are from'.",
+            correctFeedbackRu: "Отлично! 'Families' - множественное число, используйте 'are from'.",
+            incorrectFeedback: "Incorrect. 'Families' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Families' - множественное число и требует 'are'."
+        },
+        {
+            question: "Choose the correct form for describing age groups:",
+            questionRu: "Выберите правильную форму для описания возрастных групп:",
+            options: [
+                "Most teenagers in our town are between 13 and 19 years old.",
+                "Most teenagers in our town is between 13 and 19 years old.",
+                "Most teenagers in our town am between 13 and 19 years old.",
+                "Most teenagers in our town be between 13 and 19 years old."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Teenagers' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Teenagers' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Teenagers' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Teenagers' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the best way to describe a group leader:",
+            questionRu: "Выберите лучший способ описать лидера группы:",
+            sentence: "The group leader ___ 30 years old and very experienced.",
+            options: [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Leader' is singular, so use 'is'.",
+            correctFeedbackRu: "Правильно! 'Leader' - единственное число, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'Leader' is singular and requires 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'Leader' - единственное число и требует 'is'."
+        },
+        {
+            question: "Choose the right form for describing international groups:",
+            questionRu: "Выберите правильную форму для описания международных групп:",
+            sentence: "The volunteers ___ from 15 different countries.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Volunteers' is plural, so use 'are from'.",
+            correctFeedbackRu: "Отлично! 'Volunteers' - множественное число, используйте 'are from'.",
+            incorrectFeedback: "Incorrect. 'Volunteers' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Volunteers' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the correct way to describe your study group:",
+            questionRu: "Выберите правильный способ описать вашу учебную группу:",
+            options: [
+                "Everyone in our study group is about 20 years old.",
+                "Everyone in our study group are about 20 years old.",
+                "Everyone in our study group am about 20 years old.",
+                "Everyone in our study group be about 20 years old."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Everyone' is singular, so use 'is'.",
+            correctFeedbackRu: "Отлично! 'Everyone' - единственное число, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'Everyone' is singular and requires 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'Everyone' - единственное число и требует 'is'."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Professional and social contexts
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page9'] = {
+    title: "Professional and social contexts",
+    multipleChoice: [
+        {
+            question: "Choose the correct form for workplace introductions:",
+            questionRu: "Выберите правильную форму для представления на работе:",
+            sentence: "The new employee ___ 26 years old and she ___ from Germany.",
+            options: [
+                "is, is",
+                "are, are",
+                "am, am",
+                "is, are"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! Both descriptions of the same person use 'is'.",
+            correctFeedbackRu: "Отлично! Оба описания одного и того же человека используют 'is'.",
+            incorrectFeedback: "Incorrect. Both 'employee' and 'she' are singular and need 'is'.",
+            incorrectFeedbackRu: "Неправильно. И 'employee', и 'she' - единственное число и требуют 'is'."
+        },
+        {
+            question: "Select the best way to describe your colleagues:",
+            questionRu: "Выберите лучший способ описать ваших коллег:",
+            options: [
+                "My colleagues are all professionals in their thirties.",
+                "My colleagues is all professionals in their thirties.",
+                "My colleagues am all professionals in their thirties.",
+                "My colleagues be all professionals in their thirties."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Colleagues' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Colleagues' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Colleagues' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Colleagues' - множественное число и требует 'are'."
+        },
+        {
+            question: "Choose the right form for describing a meeting:",
+            questionRu: "Выберите правильную форму для описания встречи:",
+            sentence: "The meeting participants ___ from different departments.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Participants' is plural, so use 'are from'.",
+            correctFeedbackRu: "Правильно! 'Participants' - множественное число, используйте 'are from'.",
+            incorrectFeedback: "Incorrect. 'Participants' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Participants' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the correct way to ask about work experience:",
+            questionRu: "Выберите правильный способ спросить о рабочем опыте:",
+            options: [
+                "How old is the company director?",
+                "How old are the company director?",
+                "How old am the company director?",
+                "How old be the company director?"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! Questions about 'director' start with 'How old is'.",
+            correctFeedbackRu: "Отлично! Вопросы о 'director' начинаются с 'How old is'.",
+            incorrectFeedback: "Incorrect. 'Director' is singular, so use 'How old is'.",
+            incorrectFeedbackRu: "Неправильно. 'Director' - единственное число, используйте 'How old is'."
+        },
+        {
+            question: "Choose the best form for describing a conference:",
+            questionRu: "Выберите лучшую форму для описания конференции:",
+            sentence: "All the speakers ___ experts and they ___ very knowledgeable.",
+            options: [
+                "are, are",
+                "is, is",
+                "am, am",
+                "are, is"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! Both 'speakers' and 'they' are plural and use 'are'.",
+            correctFeedbackRu: "Отлично! И 'speakers', и 'they' - множественное число и используют 'are'.",
+            incorrectFeedback: "Incorrect. Both 'speakers' and 'they' are plural and need 'are'.",
+            incorrectFeedbackRu: "Неправильно. И 'speakers', и 'they' - множественное число и требуют 'are'."
+        },
+        {
+            question: "Select the right way to describe professional background:",
+            questionRu: "Выберите правильный способ описать профессиональное происхождение:",
+            sentence: "Our CEO ___ originally from Japan but now she lives in New York.",
+            options: [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'CEO' is singular, so use 'is originally from'.",
+            correctFeedbackRu: "Отлично! 'CEO' - единственное число, используйте 'is originally from'.",
+            incorrectFeedback: "Incorrect. 'CEO' is singular and requires 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'CEO' - единственное число и требует 'is'."
+        },
+        {
+            question: "Choose the correct form for describing client information:",
+            questionRu: "Выберите правильную форму для описания информации о клиенте:",
+            options: [
+                "The client is 45 years old and very successful in business.",
+                "The client are 45 years old and very successful in business.",
+                "The client am 45 years old and very successful in business.",
+                "The client be 45 years old and very successful in business."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Client' is singular, so use 'is'.",
+            correctFeedbackRu: "Правильно! 'Client' - единственное число, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'Client' is singular and needs 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'Client' - единственное число и требует 'is'."
+        },
+        {
+            question: "Select the best way to describe team diversity:",
+            questionRu: "Выберите лучший способ описать разнообразие команды:",
+            sentence: "Our project team members ___ from five different continents.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Members' is plural, so use 'are from'.",
+            correctFeedbackRu: "Отлично! 'Members' - множественное число, используйте 'are from'.",
+            incorrectFeedback: "Incorrect. 'Members' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Members' - множественное число и требует 'are'."
+        },
+        {
+            question: "Choose the right form for describing business partners:",
+            questionRu: "Выберите правильную форму для описания деловых партнеров:",
+            sentence: "Both business partners ___ in their fifties and very experienced.",
+            options: [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Partners' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Partners' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Partners' is plural and needs 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Partners' - множественное число и требует 'are'."
+        },
+        {
+            question: "Select the correct way to introduce a guest speaker:",
+            questionRu: "Выберите правильный способ представить приглашенного докладчика:",
+            options: [
+                "Today's guest speaker is 38 years old and originally from France.",
+                "Today's guest speaker are 38 years old and originally from France.",
+                "Today's guest speaker am 38 years old and originally from France.",
+                "Today's guest speaker be 38 years old and originally from France."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Speaker' is singular, so use 'is'.",
+            correctFeedbackRu: "Отлично! 'Speaker' - единственное число, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'Speaker' is singular and requires 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'Speaker' - единственное число и требует 'is'."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Advanced combinations and real-life scenarios
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page10'] = {
+    title: "Advanced combinations and real-life scenarios",
+    multipleChoice: [
+        {
+            question: "Choose the correct forms for a complex introduction:",
+            questionRu: "Выберите правильные формы для сложного представления:",
+            sentence: "This ___ my grandmother, she ___ 78 years old, and she ___ originally from Poland.",
+            options: [
+                "is, is, is",
+                "are, are, are",
+                "am, am, am",
+                "is, are, is"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! All three statements about grandmother use 'is'.",
+            correctFeedbackRu: "Отлично! Все три утверждения о бабушке используют 'is'.",
+            incorrectFeedback: "Incorrect. All references to grandmother need 'is'.",
+            incorrectFeedbackRu: "Неправильно. Все упоминания бабушки требуют 'is'."
+        },
+        {
+            question: "Select the best way to correct wrong information:",
+            questionRu: "Выберите лучший способ исправить неверную информацию:",
+            options: [
+                "No, they are not both 25 - one is 25 and one is 27.",
+                "No, they not are both 25 - one is 25 and one is 27.",
+                "No, they no are both 25 - one is 25 and one is 27.",
+                "No, they don't are both 25 - one is 25 and one is 27."
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Are not' is the correct negative form with 'they'.",
+            correctFeedbackRu: "Отлично! 'Are not' - правильная отрицательная форма с 'they'.",
+            incorrectFeedback: "Incorrect. Use 'are not' for negative statements with 'they'.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'are not' для отрицательных утверждений с 'they'."
+        },
+        {
+            question: "Choose the right forms for describing cultural background:",
+            questionRu: "Выберите правильные формы для описания культурного происхождения:",
+            sentence: "I ___ half Japanese and half Brazilian, so I ___ familiar with both cultures.",
             options: [
                 "am, am",
                 "is, is",
@@ -487,1129 +1546,119 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page3'] = {
                 "am, is"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! With 'I', we use 'am' for both nationality and age expressions.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' и для выражений национальности, и для выражений возраста.",
-            incorrectFeedback: "Incorrect. With 'I', we use 'am' for both nationality and age.",
-            incorrectFeedbackRu: "Неправильно. С 'I' мы используем 'am' и для национальности, и для возраста."
-        }
-    ]
-};
-
-/* ============================================
-Page 4: Using "to be" with different age groups
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page4'] = {
-    multipleChoice: [
-        {
-            question: "Choose the correct form of 'to be' for the age expression:",
-            questionRu: "Выберите правильную форму глагола 'to be' для выражения возраста:",
-            sentence: "My baby brother ___ one year old.",
-            options: [
-                "is",
-                "am",
-                "are",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With singular subjects like 'baby brother', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в единственном числе, как 'baby brother', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With singular subjects like 'baby brother', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе, как 'baby brother', нужно использовать 'is'."
+            correctFeedback: "Perfect! Both statements about yourself use 'I am'.",
+            correctFeedbackRu: "Отлично! Оба утверждения о себе используют 'I am'.",
+            incorrectFeedback: "Incorrect. Both statements with 'I' need 'am'.",
+            incorrectFeedbackRu: "Неправильно. Оба утверждения с 'I' требуют 'am'."
         },
         {
-            question: "Choose the correct age expression:",
-            questionRu: "Выберите правильное выражение возраста:",
+            question: "Select the correct way to describe age-related characteristics:",
+            questionRu: "Выберите правильный способ описать возрастные характеристики:",
             options: [
-                "The twins are five years old.",
-                "The twins is five years old.",
-                "The twins am five years old.",
-                "The twins be five years old."
+                "Young people today are very tech-savvy and globally minded.",
+                "Young people today is very tech-savvy and globally minded.",
+                "Young people today am very tech-savvy and globally minded.",
+                "Young people today be very tech-savvy and globally minded."
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'The twins are five years old' is the proper form. Use 'are' with plural subjects.",
-            correctFeedbackRu: "Правильно! 'The twins are five years old' - это правильная форма. Используйте 'are' с подлежащими во множественном числе.",
-            incorrectFeedback: "Incorrect. With plural subjects like 'twins', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими во множественном числе, как 'twins', нужно использовать 'are'."
+            correctFeedback: "Excellent! 'Young people' is plural, so use 'are'.",
+            correctFeedbackRu: "Отлично! 'Young people' - множественное число, используйте 'are'.",
+            incorrectFeedback: "Incorrect. 'Young people' is plural and requires 'are'.",
+            incorrectFeedbackRu: "Неправильно. 'Young people' - множественное число и требует 'are'."
         },
         {
-            question: "Choose the correct sentence about age:",
-            questionRu: "Выберите правильное предложение о возрасте:",
+            question: "Choose the best form for comparing generations:",
+            questionRu: "Выберите лучшую форму для сравнения поколений:",
+            sentence: "My parents ___ from the baby boomer generation and I ___ from generation Z.",
             options: [
-                "How old are you?",
-                "How old is you?",
-                "How old am you?",
-                "How old you are?"
+                "are, am",
+                "is, is",
+                "are, are",
+                "is, am"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'How old are you?' is the proper form to ask about age.",
-            correctFeedbackRu: "Правильно! 'How old are you?' - это правильная форма вопроса о возрасте.",
-            incorrectFeedback: "Incorrect. To ask about age, use 'How old are you?'",
-            incorrectFeedbackRu: "Неправильно. Чтобы спросить о возрасте, используйте 'How old are you?'"
+            correctFeedback: "Perfect! 'Parents' is plural (are) and 'I' is singular (am).",
+            correctFeedbackRu: "Отлично! 'Parents' - множественное число (are), а 'I' - единственное число (am).",
+            incorrectFeedback: "Incorrect. 'Parents' needs 'are' and 'I' needs 'am'.",
+            incorrectFeedbackRu: "Неправильно. 'Parents' требует 'are', а 'I' требует 'am'."
         },
         {
-            question: "Select the correct response to the question 'How old are you?'",
-            questionRu: "Выберите правильный ответ на вопрос 'How old are you?'",
+            question: "Select the right way to ask about someone's background:",
+            questionRu: "Выберите правильный способ спросить о чьем-то происхождении:",
             options: [
-                "I am twenty-one years old.",
-                "I is twenty-one years old.",
-                "I are twenty-one years old.",
-                "I have twenty-one years."
+                "Where are you originally from and how long have you been here?",
+                "Where is you originally from and how long have you been here?",
+                "Where am you originally from and how long have you been here?",
+                "Where be you originally from and how long have you been here?"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'I am twenty-one years old' is the proper response.",
-            correctFeedbackRu: "Правильно! 'I am twenty-one years old' - это правильный ответ.",
-            incorrectFeedback: "Incorrect. The correct response is 'I am twenty-one years old.'",
-            incorrectFeedbackRu: "Неправильно. Правильный ответ - 'I am twenty-one years old.'"
+            correctFeedback: "Correct! Questions to 'you' use 'Where are you'.",
+            correctFeedbackRu: "Правильно! Вопросы к 'you' используют 'Where are you'.",
+            incorrectFeedback: "Incorrect. Questions to 'you' start with 'Where are you'.",
+            incorrectFeedbackRu: "Неправильно. Вопросы к 'you' начинаются с 'Where are you'."
         },
         {
-            question: "Choose the correct form of 'to be' for the age expression:",
-            questionRu: "Выберите правильную форму глагола 'to be' для выражения возраста:",
-            sentence: "My grandparents ___ in their seventies.",
+            question: "Choose the correct forms for describing a multicultural event:",
+            questionRu: "Выберите правильные формы для описания мультикультурного мероприятия:",
+            sentence: "The festival organizers ___ from 20 different countries and they ___ all volunteers.",
             options: [
-                "are",
-                "am",
-                "is",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With plural subjects like 'grandparents', we use 'are'.",
-            correctFeedbackRu: "Правильно! С подлежащими во множественном числе, как 'grandparents', мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With plural subjects like 'grandparents', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими во множественном числе, как 'grandparents', нужно использовать 'are'."
-        },
-        {
-            question: "Select the correct age expression:",
-            questionRu: "Выберите правильное выражение возраста:",
-            options: [
-                "He is eighteen years old.",
-                "He have eighteen years.",
-                "He has eighteen years.",
-                "He has eighteen years old."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'He is eighteen years old' is the proper form in English.",
-            correctFeedbackRu: "Правильно! 'He is eighteen years old' - это правильная форма в английском языке.",
-            incorrectFeedback: "Incorrect. In English, we say 'He is eighteen years old'.",
-            incorrectFeedbackRu: "Неправильно. В английском мы говорим 'He is eighteen years old'."
-        },
-        {
-            question: "Choose the correct sentence about age:",
-            questionRu: "Выберите правильное предложение о возрасте:",
-            options: [
-                "The child is too young for this movie.",
-                "The child am too young for this movie.",
-                "The child are too young for this movie.",
-                "The child be too young for this movie."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'The child is too young for this movie' is the proper form.",
-            correctFeedbackRu: "Правильно! 'The child is too young for this movie' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With singular subjects like 'child', we use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе, как 'child', мы используем 'is'."
-        },
-        {
-            question: "Select the correct question about age:",
-            questionRu: "Выберите правильный вопрос о возрасте:",
-            options: [
-                "How old is your sister?",
-                "How old are your sister?",
-                "How old am your sister?",
-                "How old your sister is?"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'How old is your sister?' is the proper form to ask about someone else's age.",
-            correctFeedbackRu: "Правильно! 'How old is your sister?' - это правильная форма вопроса о возрасте другого человека.",
-            incorrectFeedback: "Incorrect. To ask about someone else's age, use 'How old is your sister?'",
-            incorrectFeedbackRu: "Неправильно. Чтобы спросить о возрасте другого человека, используйте 'How old is your sister?'"
-        },
-        {
-            question: "Choose the correct age expression:",
-            questionRu: "Выберите правильное выражение возраста:",
-            options: [
-                "They are the same age.",
-                "They is the same age.",
-                "They am the same age.",
-                "They have the same age."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'They are the same age' is the proper form.",
-            correctFeedbackRu: "Правильно! 'They are the same age' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'they', we use 'are' in expressions about age.",
-            incorrectFeedbackRu: "Неправильно. С 'they' мы используем 'are' в выражениях о возрасте."
-        },
-        {
-            question: "Select the correct sentence using 'to be' with age:",
-            questionRu: "Выберите правильное предложение с использованием 'to be' с возрастом:",
-            options: [
-                "I am older than my brother.",
-                "I is older than my brother.",
-                "I are older than my brother.",
-                "I have more age than my brother."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'I am older than my brother' is the proper form for age comparison.",
-            correctFeedbackRu: "Правильно! 'I am older than my brother' - это правильная форма для сравнения возраста.",
-            incorrectFeedback: "Incorrect. For age comparison with 'I', use 'I am older than...'",
-            incorrectFeedbackRu: "Неправильно. Для сравнения возраста с 'I' используйте 'I am older than...'"
-        }
-    ]
-};
-
-/* ============================================
-Page 5: Using "to be" with nationalities
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page5'] = {
-    multipleChoice: [
-        {
-            question: "Choose the correct form of 'to be' with nationality:",
-            questionRu: "Выберите правильную форму глагола 'to be' с национальностью:",
-            sentence: "She ___ Italian.",
-            options: [
-                "is",
-                "am",
-                "are",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With third person singular subjects like 'she', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в третьем лице единственного числа, как 'she', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'she', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is'."
-        },
-        {
-            question: "Select the correct sentence about nationality:",
-            questionRu: "Выберите правильное предложение о национальности:",
-            options: [
-                "We are Canadian.",
-                "We is Canadian.",
-                "We am Canadian.",
-                "We be Canadian."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'We are Canadian' is the proper form.",
-            correctFeedbackRu: "Правильно! 'We are Canadian' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'we', we use 'are' for nationalities.",
-            incorrectFeedbackRu: "Неправильно. С 'we' мы используем 'are' для национальностей."
-        },
-        {
-            question: "Choose the correct form of 'to be' with nationality:",
-            questionRu: "Выберите правильную форму глагола 'to be' с национальностью:",
-            sentence: "They ___ Mexican.",
-            options: [
-                "are",
-                "am",
-                "is",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With plural subjects like 'they', we use 'are'.",
-            correctFeedbackRu: "Правильно! С подлежащими во множественном числе, как 'they', мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With 'they', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are'."
-        },
-        {
-            question: "Select the correct statement about nationality:",
-            questionRu: "Выберите правильное утверждение о национальности:",
-            options: [
-                "I am Chinese.",
-                "I is Chinese.",
-                "I are Chinese.",
-                "I be Chinese."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'I am Chinese' is the proper form.",
-            correctFeedbackRu: "Правильно! 'I am Chinese' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'I', we use 'am' for nationalities.",
-            incorrectFeedbackRu: "Неправильно. С 'I' мы используем 'am' для национальностей."
-        },
-        {
-            question: "Choose the correct form of 'to be' with nationalities:",
-            questionRu: "Выберите правильную форму глагола 'to be' с национальностями:",
-            sentence: "My parents ___ Irish.",
-            options: [
-                "are",
-                "am",
-                "is",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With plural subjects like 'parents', we use 'are'.",
-            correctFeedbackRu: "Правильно! С подлежащими во множественном числе, как 'parents', мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With 'parents', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С 'parents' нужно использовать 'are'."
-        },
-        {
-            question: "Select the correct sentence about nationality:",
-            questionRu: "Выберите правильное предложение о национальности:",
-            options: [
-                "He is German.",
-                "He are German.",
-                "He am German.",
-                "He have German nationality."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'He is German' is the proper form.",
-            correctFeedbackRu: "Правильно! 'He is German' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'he', we use 'is' for nationalities.",
-            incorrectFeedbackRu: "Неправильно. С 'he' мы используем 'is' для национальностей."
-        },
-        {
-            question: "Choose the correct question about nationality:",
-            questionRu: "Выберите правильный вопрос о национальности:",
-            options: [
-                "Are they Spanish?",
-                "Is they Spanish?",
-                "Am they Spanish?",
-                "They are Spanish?"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'Are they Spanish?' is the proper form for a question about nationality with 'they'.",
-            correctFeedbackRu: "Правильно! 'Are they Spanish?' - это правильная форма вопроса о национальности с 'they'.",
-            incorrectFeedback: "Incorrect. For questions with 'they', use 'Are they...?'",
-            incorrectFeedbackRu: "Неправильно. Для вопросов с 'they' используйте 'Are they...?'"
-        },
-        {
-            question: "Select the correct negative sentence about nationality:",
-            questionRu: "Выберите правильное отрицательное предложение о национальности:",
-            options: [
-                "She is not Korean.",
-                "She am not Korean.",
-                "She are not Korean.",
-                "She not is Korean."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is not Korean' is the proper negative form.",
-            correctFeedbackRu: "Правильно! 'She is not Korean' - это правильная отрицательная форма.",
-            incorrectFeedback: "Incorrect. With 'she', we use 'is not' in negatives.",
-            incorrectFeedbackRu: "Неправильно. С 'she' мы используем 'is not' в отрицаниях."
-        },
-        {
-            question: "Choose the correct sentence using 'to be' with nationality:",
-            questionRu: "Выберите правильное предложение с использованием 'to be' с национальностью:",
-            options: [
-                "You are Swedish.",
-                "You is Swedish.",
-                "You am Swedish.",
-                "You be Swedish."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'You are Swedish' is the proper form.",
-            correctFeedbackRu: "Правильно! 'You are Swedish' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'you', we use 'are' for nationalities.",
-            incorrectFeedbackRu: "Неправильно. С 'you' мы используем 'are' для национальностей."
-        },
-        {
-            question: "Select the correct sentence using 'to be' with nationality:",
-            questionRu: "Выберите правильное предложение с использованием 'to be' с национальностью:",
-            options: [
-                "The students are from different countries.",
-                "The students is from different countries.",
-                "The students am from different countries.",
-                "The students be from different countries."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'The students are from different countries' is the proper form.",
-            correctFeedbackRu: "Правильно! 'The students are from different countries' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With plural subjects like 'students', we use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими во множественном числе, как 'students', мы используем 'are'."
-        }
-    ]
-};
-
-/* ============================================
-Page 6: Using "to be" with both age and nationality
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page6'] = {
-    multipleChoice: [
-        {
-            question: "Choose the correct forms of 'to be':",
-            questionRu: "Выберите правильные формы глагола 'to be':",
-            sentence: "I ___ 29 years old and I ___ Australian.",
-            options: [
+                "are, are",
+                "is, is",
                 "am, am",
-                "is, am",
-                "am, is",
-                "are, am"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With 'I', we use 'am' for both age and nationality.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' и для возраста, и для национальности.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for both age and nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' и для возраста, и для национальности."
-        },
-        {
-            question: "Select the correct sentence combining age and nationality:",
-            questionRu: "Выберите правильное предложение, сочетающее возраст и национальность:",
-            options: [
-                "She is 30 years old and she is British.",
-                "She am 30 years old and she am British.",
-                "She are 30 years old and she are British.",
-                "She is 30 years old and she am British."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is 30 years old and she is British' is the proper form.",
-            correctFeedbackRu: "Правильно! 'She is 30 years old and she is British' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'she', we use 'is' for both age and nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'she' мы используем 'is' и для возраста, и для национальности."
-        },
-        {
-            question: "Choose the correct forms of 'to be':",
-            questionRu: "Выберите правильные формы глагола 'to be':",
-            sentence: "They ___ 25 years old and they ___ Spanish.",
-            options: [
-                "are, are",
-                "am, are",
-                "is, are",
                 "are, is"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! With 'they', we use 'are' for both age and nationality.",
-            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' и для возраста, и для национальности.",
-            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for both age and nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' и для возраста, и для национальности."
+            correctFeedback: "Excellent! Both 'organizers' and 'they' are plural and use 'are'.",
+            correctFeedbackRu: "Отлично! И 'organizers', и 'they' - множественное число и используют 'are'.",
+            incorrectFeedback: "Incorrect. Both 'organizers' and 'they' are plural and need 'are'.",
+            incorrectFeedbackRu: "Неправильно. И 'organizers', и 'they' - множественное число и требуют 'are'."
         },
         {
-            question: "Select the correct sentence about age and nationality:",
-            questionRu: "Выберите правильное предложение о возрасте и национальности:",
+            question: "Select the best way to describe life experience:",
+            questionRu: "Выберите лучший способ описать жизненный опыт:",
+            sentence: "At 50, he ___ very wise and experienced in international business.",
             options: [
-                "My friend is 22 and he is Japanese.",
-                "My friend are 22 and he are Japanese.",
-                "My friend is 22 and he are Japanese.",
-                "My friend are 22 and he is Japanese."
+                "is",
+                "am",
+                "are",
+                "be"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'My friend is 22 and he is Japanese' is the proper form.",
-            correctFeedbackRu: "Правильно! 'My friend is 22 and he is Japanese' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With singular subjects like 'my friend' and 'he', we use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе, как 'my friend' и 'he', мы используем 'is'."
+            correctFeedback: "Perfect! 'He' is singular, so use 'is'.",
+            correctFeedbackRu: "Отлично! 'He' - единственное число, используйте 'is'.",
+            incorrectFeedback: "Incorrect. 'He' is singular and requires 'is'.",
+            incorrectFeedbackRu: "Неправильно. 'He' - единственное число и требует 'is'."
         },
         {
-            question: "Choose the correct forms of 'to be':",
-            questionRu: "Выберите правильные формы глагола 'to be':",
-            sentence: "You ___ 40 years old and you ___ Indian.",
+            question: "Choose the right forms for describing global connections:",
+            questionRu: "Выберите правильные формы для описания глобальных связей:",
+            sentence: "We ___ all connected through social media, even though we ___ from different continents.",
             options: [
                 "are, are",
-                "am, are",
-                "is, are",
+                "is, is",
+                "am, am",
                 "are, is"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! With 'you', we use 'are' for both age and nationality.",
-            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' и для возраста, и для национальности.",
-            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' for both age and nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' и для возраста, и для национальности."
+            correctFeedback: "Excellent! Both uses of 'we' require 'are'.",
+            correctFeedbackRu: "Отлично! Оба использования 'we' требуют 'are'.",
+            incorrectFeedback: "Incorrect. 'We' is plural and needs 'are' in both cases.",
+            incorrectFeedbackRu: "Неправильно. 'We' - множественное число и требует 'are' в обоих случаях."
         },
         {
-            question: "Select the correct question combining age and nationality:",
-            questionRu: "Выберите правильный вопрос, сочетающий возраст и национальность:",
+            question: "Select the best complete summary using all learned structures:",
+            questionRu: "Выберите лучшее полное резюме, используя все изученные структуры:",
             options: [
-                "Is she 35 and is she American?",
-                "Is she 35 and are she American?",
-                "Are she 35 and is she American?",
-                "Are she 35 and are she American?"
+                "I am 25, originally from Mexico, but now I live in Canada and I am learning English.",
+                "I are 25, originally from Mexico, but now I live in Canada and I are learning English.",
+                "I is 25, originally from Mexico, but now I live in Canada and I is learning English.",
+                "I am 25, originally from Mexico, but now I live in Canada and I are learning English."
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'Is she 35 and is she American?' is the proper form.",
-            correctFeedbackRu: "Правильно! 'Is she 35 and is she American?' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'she', we use 'is' for both questions about age and nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'she' мы используем 'is' для обоих вопросов о возрасте и национальности."
-        },
-        {
-            question: "Choose the correct combined sentence:",
-            questionRu: "Выберите правильное комбинированное предложение:",
-            options: [
-                "We are in our thirties and we are Russian.",
-                "We am in our thirties and we am Russian.",
-                "We is in our thirties and we is Russian.",
-                "We are in our thirties and we is Russian."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'We are in our thirties and we are Russian' is the proper form.",
-            correctFeedbackRu: "Правильно! 'We are in our thirties and we are Russian' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'we', we use 'are' for both age decades and nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'we' мы используем 'are' и для возрастных десятилетий, и для национальности."
-        },
-        {
-            question: "Select the correct negative sentence about age and nationality:",
-            questionRu: "Выберите правильное отрицательное предложение о возрасте и национальности:",
-            options: [
-                "He is not 50 years old and he is not English.",
-                "He am not 50 years old and he am not English.",
-                "He are not 50 years old and he are not English.",
-                "He not is 50 years old and he not is English."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'He is not 50 years old and he is not English' is the proper negative form.",
-            correctFeedbackRu: "Правильно! 'He is not 50 years old and he is not English' - это правильная отрицательная форма.",
-            incorrectFeedback: "Incorrect. With 'he', we use 'is not' for both negations.",
-            incorrectFeedbackRu: "Неправильно. С 'he' мы используем 'is not' для обоих отрицаний."
-        },
-        {
-            question: "Choose the correct contracted forms in this sentence:",
-            questionRu: "Выберите правильные сокращенные формы в этом предложении:",
-            options: [
-                "She's 27 years old and she's Portuguese.",
-                "She's 27 years old and she'r Portuguese.",
-                "She'r 27 years old and she's Portuguese.",
-                "She'r 27 years old and she'r Portuguese."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She's 27 years old and she's Portuguese' uses the correct contractions for 'She is'.",
-            correctFeedbackRu: "Правильно! 'She's 27 years old and she's Portuguese' использует правильные сокращения для 'She is'.",
-            incorrectFeedback: "Incorrect. The correct contractions for 'She is' are 'She's' in both cases.",
-            incorrectFeedbackRu: "Неправильно. Правильные сокращения для 'She is' - это 'She's' в обоих случаях."
-        },
-        {
-            question: "Select the correct sentence about age and nationality:",
-            questionRu: "Выберите правильное предложение о возрасте и национальности:",
-            options: [
-                "They are teenagers and they are Turkish.",
-                "They is teenagers and they is Turkish.",
-                "They are teenagers and they is Turkish.",
-                "They is teenagers and they are Turkish."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'They are teenagers and they are Turkish' is the proper form.",
-            correctFeedbackRu: "Правильно! 'They are teenagers and they are Turkish' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'they', we use 'are' for both describing age groups and nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'they' мы используем 'are' и для описания возрастных групп, и для национальности."
-        }
-    ]
-};
-
-/* ============================================
-Page 7: Personal information with "to be"
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page7'] = {
-    multipleChoice: [
-        {
-            question: "Choose the correct form of 'to be' for personal information:",
-            questionRu: "Выберите правильную форму глагола 'to be' для личной информации:",
-            sentence: "My name ___ Sarah.",
-            options: [
-                "is",
-                "am",
-                "are",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With singular subjects like 'name', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в единственном числе, как 'name', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'name', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'name' нужно использовать 'is'."
-        },
-        {
-            question: "Select the correct personal information combination:",
-            questionRu: "Выберите правильную комбинацию личной информации:",
-            options: [
-                "I am Peter. I am 34 years old. I am Australian.",
-                "I am Peter. I is 34 years old. I am Australian.",
-                "I am Peter. I am 34 years old. I is Australian.",
-                "I is Peter. I am 34 years old. I am Australian."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'I am Peter. I am 34 years old. I am Australian.' uses 'am' correctly throughout.",
-            correctFeedbackRu: "Правильно! 'I am Peter. I am 34 years old. I am Australian.' использует 'am' правильно везде.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' in all three statements.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' во всех трех утверждениях."
-        },
-        {
-            question: "Choose the correct form of 'to be' for personal information:",
-            questionRu: "Выберите правильную форму глагола 'to be' для личной информации:",
-            sentence: "My telephone number ___ 555-7890.",
-            options: [
-                "is",
-                "am",
-                "are",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With singular subjects like 'telephone number', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в единственном числе, как 'telephone number', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'telephone number', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'telephone number' нужно использовать 'is'."
-        },
-        {
-            question: "Select the correct personal information:",
-            questionRu: "Выберите правильную личную информацию:",
-            options: [
-                "She is twenty-six years old.",
-                "She has twenty-six years.",
-                "She have twenty-six years old.",
-                "She is twenty-six years."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is twenty-six years old' is the proper form in English.",
-            correctFeedbackRu: "Правильно! 'She is twenty-six years old' - это правильная форма в английском языке.",
-            incorrectFeedback: "Incorrect. In English, we say 'She is twenty-six years old'.",
-            incorrectFeedbackRu: "Неправильно. В английском мы говорим 'She is twenty-six years old'."
-        },
-        {
-            question: "Choose the correct forms for these personal details:",
-            questionRu: "Выберите правильные формы для этих личных данных:",
-            options: [
-                "Her name is Anna. She is German. She is 28 years old.",
-                "Her name is Anna. She am German. She is 28 years old.",
-                "Her name are Anna. She is German. She is 28 years old.",
-                "Her name is Anna. She is German. She are 28 years old."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'Her name is Anna. She is German. She is 28 years old.' uses 'is' correctly throughout.",
-            correctFeedbackRu: "Правильно! 'Her name is Anna. She is German. She is 28 years old.' использует 'is' правильно везде.",
-            incorrectFeedback: "Incorrect. With singular subjects like 'name' and 'she', we need to use 'is' in all statements.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе, как 'name' и 'she', нужно использовать 'is' во всех утверждениях."
-        },
-        {
-            question: "Select the correct question about personal information:",
-            questionRu: "Выберите правильный вопрос о личной информации:",
-            options: [
-                "What is your nationality?",
-                "What are your nationality?",
-                "What am your nationality?",
-                "What your nationality is?"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'What is your nationality?' is the proper question form.",
-            correctFeedbackRu: "Правильно! 'What is your nationality?' - это правильная форма вопроса.",
-            incorrectFeedback: "Incorrect. The correct question form is 'What is your nationality?'",
-            incorrectFeedbackRu: "Неправильно. Правильная форма вопроса - 'What is your nationality?'"
-        },
-        {
-            question: "Choose the correct form of 'to be' for personal information:",
-            questionRu: "Выберите правильную форму глагола 'to be' для личной информации:",
-            sentence: "Their names ___ Tom and Sarah.",
-            options: [
-                "are",
-                "am",
-                "is",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With plural subjects like 'names', we use 'are'.",
-            correctFeedbackRu: "Правильно! С подлежащими во множественном числе, как 'names', мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With 'names', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С 'names' нужно использовать 'are'."
-        },
-        {
-            question: "Select the correct personal introduction:",
-            questionRu: "Выберите правильное личное представление:",
-            options: [
-                "Hello! I am Carlos. I am from Mexico. I am twenty years old.",
-                "Hello! I is Carlos. I am from Mexico. I am twenty years old.",
-                "Hello! I am Carlos. I is from Mexico. I am twenty years old.",
-                "Hello! I am Carlos. I am from Mexico. I is twenty years old."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'Hello! I am Carlos. I am from Mexico. I am twenty years old.' uses 'am' correctly throughout.",
-            correctFeedbackRu: "Правильно! 'Hello! I am Carlos. I am from Mexico. I am twenty years old.' использует 'am' правильно везде.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' in all statements.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' во всех утверждениях."
-        },
-        {
-            question: "Choose the correct form of 'to be' for personal information:",
-            questionRu: "Выберите правильную форму глагола 'to be' для личной информации:",
-            sentence: "Our address ___ 123 Main Street.",
-            options: [
-                "is",
-                "am",
-                "are",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! With singular subjects like 'address', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в единственном числе, как 'address', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'address', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'address' нужно использовать 'is'."
-        },
-        {
-            question: "Select the correct personal information form:",
-            questionRu: "Выберите правильную форму личной информации:",
-            options: [
-                "We are from Canada. We are Canadian.",
-                "We are from Canada. We is Canadian.",
-                "We is from Canada. We are Canadian.",
-                "We is from Canada. We is Canadian."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'We are from Canada. We are Canadian.' uses 'are' correctly throughout.",
-            correctFeedbackRu: "Правильно! 'We are from Canada. We are Canadian.' использует 'are' правильно везде.",
-            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' in both statements.",
-            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' в обоих утверждениях."
-        }
-    ]
-};
-
-/* ============================================
-Page 8: Talking about age in different ways
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page8'] = {
-    multipleChoice: [
-        {
-            question: "Choose the correct expression for age decades:",
-            questionRu: "Выберите правильное выражение для возрастных десятилетий:",
-            options: [
-                "She is in her twenties.",
-                "She has her twenties.",
-                "She is on her twenties.",
-                "She has twenties years."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is in her twenties' is the proper form for age decades.",
-            correctFeedbackRu: "Правильно! 'She is in her twenties' - это правильная форма для возрастных десятилетий.",
-            incorrectFeedback: "Incorrect. To express age decades, we say 'She is in her twenties'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения возрастных десятилетий мы говорим 'She is in her twenties'."
-        },
-        {
-            question: "Select the correct age expression:",
-            questionRu: "Выберите правильное выражение возраста:",
-            options: [
-                "They are under 30.",
-                "They are below 30.",
-                "They have under 30.",
-                "They are less than 30 years."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'They are under 30' is the proper form.",
-            correctFeedbackRu: "Правильно! 'They are under 30' - это правильная форма.",
-            incorrectFeedback: "Incorrect. To express being younger than a certain age, we say 'They are under 30'.",
-            incorrectFeedbackRu: "Неправильно. Чтобы выразить, что они моложе определенного возраста, мы говорим 'They are under 30'."
-        },
-        {
-            question: "Choose the correct age expression:",
-            questionRu: "Выберите правильное выражение возраста:",
-            options: [
-                "He is over sixty.",
-                "He has over sixty.",
-                "He is above sixty years.",
-                "He has more than sixty."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'He is over sixty' is the proper form.",
-            correctFeedbackRu: "Правильно! 'He is over sixty' - это правильная форма.",
-            incorrectFeedback: "Incorrect. To express being older than a certain age, we say 'He is over sixty'.",
-            incorrectFeedbackRu: "Неправильно. Чтобы выразить, что он старше определенного возраста, мы говорим 'He is over sixty'."
-        },
-        {
-            question: "Select the correct expression for an approximate age:",
-            questionRu: "Выберите правильное выражение для приблизительного возраста:",
-            options: [
-                "She is about forty years old.",
-                "She is around forty years.",
-                "She has approximately forty years.",
-                "She is almost forty years."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is about forty years old' is the proper form for approximate age.",
-            correctFeedbackRu: "Правильно! 'She is about forty years old' - это правильная форма для приблизительного возраста.",
-            incorrectFeedback: "Incorrect. For approximate age, we say 'She is about forty years old'.",
-            incorrectFeedbackRu: "Неправильно. Для приблизительного возраста мы говорим 'She is about forty years old'."
-        },
-        {
-            question: "Choose the correct age comparison:",
-            questionRu: "Выберите правильное сравнение возраста:",
-            options: [
-                "I am older than my sister.",
-                "I am more old than my sister.",
-                "I have more age than my sister.",
-                "I am elder than my sister."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'I am older than my sister' is the proper form for age comparison.",
-            correctFeedbackRu: "Правильно! 'I am older than my sister' - это правильная форма для сравнения возраста.",
-            incorrectFeedback: "Incorrect. For age comparison, we say 'I am older than my sister'.",
-            incorrectFeedbackRu: "Неправильно. Для сравнения возраста мы говорим 'I am older than my sister'."
-        },
-        {
-            question: "Select the correct sentence about age milestones:",
-            questionRu: "Выберите правильное предложение о возрастных рубежах:",
-            options: [
-                "She is turning thirty next month.",
-                "She will have thirty next month.",
-                "She becomes thirty next month.",
-                "She is getting thirty years next month."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is turning thirty next month' is the proper form.",
-            correctFeedbackRu: "Правильно! 'She is turning thirty next month' - это правильная форма.",
-            incorrectFeedback: "Incorrect. For upcoming age milestones, we say 'She is turning thirty next month'.",
-            incorrectFeedbackRu: "Неправильно. Для предстоящих возрастных рубежей мы говорим 'She is turning thirty next month'."
-        },
-        {
-            question: "Choose the correct question about age range:",
-            questionRu: "Выберите правильный вопрос о возрастном диапазоне:",
-            options: [
-                "What age group are you in?",
-                "Which age group you are?",
-                "What is your age group?",
-                "Which group of age are you?"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'What age group are you in?' is the proper question form.",
-            correctFeedbackRu: "Правильно! 'What age group are you in?' - это правильная форма вопроса.",
-            incorrectFeedback: "Incorrect. The correct question form is 'What age group are you in?'",
-            incorrectFeedbackRu: "Неправильно. Правильная форма вопроса - 'What age group are you in?'"
-        },
-        {
-            question: "Select the correct age expression:",
-            questionRu: "Выберите правильное выражение возраста:",
-            options: [
-                "The children are between 5 and 10 years old.",
-                "The children have between 5 and 10 years.",
-                "The children are from 5 to 10 years.",
-                "The children have from 5 to 10 years old."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'The children are between 5 and 10 years old' is the proper form.",
-            correctFeedbackRu: "Правильно! 'The children are between 5 and 10 years old' - это правильная форма.",
-            incorrectFeedback: "Incorrect. For age ranges, we say 'The children are between 5 and 10 years old'.",
-            incorrectFeedbackRu: "Неправильно. Для возрастных диапазонов мы говорим 'The children are between 5 and 10 years old'."
-        },
-        {
-            question: "Choose the correct expression about exact age:",
-            questionRu: "Выберите правильное выражение о точном возрасте:",
-            options: [
-                "He is exactly 42 years old.",
-                "He has exactly 42 years.",
-                "He is precise 42 years old.",
-                "He has exactly 42 years of age."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'He is exactly 42 years old' is the proper form.",
-            correctFeedbackRu: "Правильно! 'He is exactly 42 years old' - это правильная форма.",
-            incorrectFeedback: "Incorrect. For exact age, we say 'He is exactly 42 years old'.",
-            incorrectFeedbackRu: "Неправильно. Для точного возраста мы говорим 'He is exactly 42 years old'."
-        },
-        {
-            question: "Select the correct sentence about same age:",
-            questionRu: "Выберите правильное предложение об одинаковом возрасте:",
-            options: [
-                "We are the same age.",
-                "We have the same age.",
-                "We are of equal age.",
-                "We have equal years."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'We are the same age' is the proper form.",
-            correctFeedbackRu: "Правильно! 'We are the same age' - это правильная форма.",
-            incorrectFeedback: "Incorrect. To express having the same age, we say 'We are the same age'.",
-            incorrectFeedbackRu: "Неправильно. Чтобы выразить одинаковый возраст, мы говорим 'We are the same age'."
-        }
-    ]
-};
-
-/* ============================================
-Page 9: Nationality and origin expressions
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page9'] = {
-    multipleChoice: [
-        {
-            question: "Choose the correct expression about nationality:",
-            questionRu: "Выберите правильное выражение о национальности:",
-            options: [
-                "He is Brazilian.",
-                "He has Brazilian nationality.",
-                "He comes from Brazilian.",
-                "He belongs to Brazilian."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'He is Brazilian' is the proper form for expressing nationality.",
-            correctFeedbackRu: "Правильно! 'He is Brazilian' - это правильная форма для выражения национальности.",
-            incorrectFeedback: "Incorrect. To express nationality, we say 'He is Brazilian'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения национальности мы говорим 'He is Brazilian'."
-        },
-        {
-            question: "Select the correct sentence about origin:",
-            questionRu: "Выберите правильное предложение о происхождении:",
-            options: [
-                "She is from Argentina.",
-                "She comes of Argentina.",
-                "She belongs from Argentina.",
-                "She has origin in Argentina."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is from Argentina' is the proper form for expressing origin.",
-            correctFeedbackRu: "Правильно! 'She is from Argentina' - это правильная форма для выражения происхождения.",
-            incorrectFeedback: "Incorrect. To express country of origin, we say 'She is from Argentina'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения страны происхождения мы говорим 'She is from Argentina'."
-        },
-        {
-            question: "Choose the correct nationality question:",
-            questionRu: "Выберите правильный вопрос о национальности:",
-            options: [
-                "What nationality are you?",
-                "Which nationality do you have?",
-                "What is the nationality of you?",
-                "Which is your nationality?"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'What nationality are you?' is the proper question form.",
-            correctFeedbackRu: "Правильно! 'What nationality are you?' - это правильная форма вопроса.",
-            incorrectFeedback: "Incorrect. To ask about nationality, we say 'What nationality are you?'",
-            incorrectFeedbackRu: "Неправильно. Чтобы спросить о национальности, мы говорим 'What nationality are you?'"
-        },
-        {
-            question: "Select the correct origin question:",
-            questionRu: "Выберите правильный вопрос о происхождении:",
-            options: [
-                "Where are you from?",
-                "From where are you?",
-                "Where do you come of?",
-                "Where is your origin?"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'Where are you from?' is the proper question form for asking about origin.",
-            correctFeedbackRu: "Правильно! 'Where are you from?' - это правильная форма вопроса о происхождении.",
-            incorrectFeedback: "Incorrect. To ask about origin, we say 'Where are you from?'",
-            incorrectFeedbackRu: "Неправильно. Чтобы спросить о происхождении, мы говорим 'Where are you from?'"
-        },
-        {
-            question: "Choose the correct dual nationality expression:",
-            questionRu: "Выберите правильное выражение о двойной национальности:",
-            options: [
-                "She is Canadian and American.",
-                "She is Canadian-American.",
-                "She has Canadian and American nationalities.",
-                "She belongs to Canada and America."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is Canadian and American' is the proper form for expressing dual nationality.",
-            correctFeedbackRu: "Правильно! 'She is Canadian and American' - это правильная форма для выражения двойной национальности.",
-            incorrectFeedback: "Incorrect. To express dual nationality, we say 'She is Canadian and American'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения двойной национальности мы говорим 'She is Canadian and American'."
-        },
-        {
-            question: "Select the correct expression about national identity:",
-            questionRu: "Выберите правильное выражение о национальной идентичности:",
-            options: [
-                "They are originally from Mexico.",
-                "They have Mexican origins.",
-                "They come originally of Mexico.",
-                "They originally belong from Mexico."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'They are originally from Mexico' is the proper form.",
-            correctFeedbackRu: "Правильно! 'They are originally from Mexico' - это правильная форма.",
-            incorrectFeedback: "Incorrect. To express original nationality, we say 'They are originally from Mexico'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения исходной национальности мы говорим 'They are originally from Mexico'."
-        },
-        {
-            question: "Choose the correct citizenship expression:",
-            questionRu: "Выберите правильное выражение о гражданстве:",
-            options: [
-                "I am a British citizen.",
-                "I have a British citizenship.",
-                "I possess British citizenship.",
-                "I belong to British citizenship."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'I am a British citizen' is the proper form.",
-            correctFeedbackRu: "Правильно! 'I am a British citizen' - это правильная форма.",
-            incorrectFeedback: "Incorrect. To express citizenship, we say 'I am a British citizen'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения гражданства мы говорим 'I am a British citizen'."
-        },
-        {
-            question: "Select the correct sentence about ethnicity:",
-            questionRu: "Выберите правильное предложение об этнической принадлежности:",
-            options: [
-                "She is of Korean descent.",
-                "She has Korean descent.",
-                "She comes from Korean descent.",
-                "She descends of Korean."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is of Korean descent' is the proper form.",
-            correctFeedbackRu: "Правильно! 'She is of Korean descent' - это правильная форма.",
-            incorrectFeedback: "Incorrect. To express ethnicity or descent, we say 'She is of Korean descent'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения этнической принадлежности или происхождения мы говорим 'She is of Korean descent'."
-        },
-        {
-            question: "Choose the correct expression about living abroad:",
-            questionRu: "Выберите правильное выражение о проживании за границей:",
-            options: [
-                "He is originally Turkish but he lives in Germany now.",
-                "He has Turkish origin but he is living in Germany now.",
-                "He comes of Turkey but he lives in Germany now.",
-                "He belongs from Turkey but he is in Germany now."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'He is originally Turkish but he lives in Germany now' is the proper form.",
-            correctFeedbackRu: "Правильно! 'He is originally Turkish but he lives in Germany now' - это правильная форма.",
-            incorrectFeedback: "Incorrect. To express nationality with current residence, we say 'He is originally Turkish but he lives in Germany now'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения национальности с текущим местом жительства мы говорим 'He is originally Turkish but he lives in Germany now'."
-        },
-        {
-            question: "Select the correct nationality adjective:",
-            questionRu: "Выберите правильное прилагательное национальности:",
-            options: [
-                "She is Dutch. She is from the Netherlands.",
-                "She is Netherlands. She is from the Dutch.",
-                "She is Netherlandian. She is from the Netherlands.",
-                "She is Hollandian. She is from the Netherlands."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'She is Dutch. She is from the Netherlands.' uses the correct nationality adjective.",
-            correctFeedbackRu: "Правильно! 'She is Dutch. She is from the Netherlands.' использует правильное прилагательное национальности.",
-            incorrectFeedback: "Incorrect. The correct nationality adjective is 'Dutch' for people from the Netherlands.",
-            incorrectFeedbackRu: "Неправильно. Правильное прилагательное национальности - 'Dutch' для людей из Нидерландов."
-        }
-    ]
-};
-
-/* ============================================
-Page 10: Using 'to be' with ages and nationalities (Talking about yourself)
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page10'] = {
-    multipleChoice: [
-        {
-            question: "Choose the correct form of 'to be' for talking about yourself:",
-            questionRu: "Выберите правильную форму глагола 'to be' для рассказа о себе:",
-            sentence: "I ___ 28 years old.",
-            options: [
-                "am",
-                "is",
-                "are",
-                "be"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! When talking about your own age, use 'I am' followed by the age and 'years old'.",
-            correctFeedbackRu: "Правильно! Когда вы говорите о своем возрасте, используйте 'I am', затем возраст и 'years old'.",
-            incorrectFeedback: "Incorrect. When talking about your own age, always use 'I am'.",
-            incorrectFeedbackRu: "Неправильно. Когда вы говорите о своем возрасте, всегда используйте 'I am'."
-        },
-        {
-            question: "Select the correct sentence for introducing yourself with nationality:",
-            questionRu: "Выберите правильное предложение для представления себя с указанием национальности:",
-            options: [
-                "I am Spanish.",
-                "I is Spanish.",
-                "I are Spanish.",
-                "I be Spanish."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! Use 'I am' followed by your nationality to introduce yourself.",
-            correctFeedbackRu: "Правильно! Используйте 'I am' с последующим указанием вашей национальности для представления себя.",
-            incorrectFeedback: "Incorrect. When stating your nationality, always use 'I am' followed by the nationality.",
-            incorrectFeedbackRu: "Неправильно. При указании вашей национальности всегда используйте 'I am' с последующей национальностью."
-        },
-        {
-            question: "Choose the correct form for introducing both your age and nationality:",
-            questionRu: "Выберите правильную форму для представления своего возраста и национальности:",
-            options: [
-                "I am 32 years old and I am Russian.",
-                "I am 32 years old and I is Russian.",
-                "I is 32 years old and I am Russian.",
-                "I are 32 years old and I am Russian."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! Use 'I am' consistently for both age and nationality statements.",
-            correctFeedbackRu: "Правильно! Последовательно используйте 'I am' и для возраста, и для национальности.",
-            incorrectFeedback: "Incorrect. When talking about yourself, always use 'I am' for both age and nationality.",
-            incorrectFeedbackRu: "Неправильно. Когда вы говорите о себе, всегда используйте 'I am' и для возраста, и для национальности."
-        },
-        {
-            question: "Which expression is correct for telling your age in decades?",
-            questionRu: "Какое выражение правильно для указания вашего возраста по десятилетиям?",
-            options: [
-                "I am in my twenties.",
-                "I am on my twenties.",
-                "I have twenties.",
-                "I am twenties."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! Use 'I am in my twenties/thirties/forties' to express your age by decade.",
-            correctFeedbackRu: "Правильно! Используйте 'I am in my twenties/thirties/forties' чтобы выразить ваш возраст по десятилетиям.",
-            incorrectFeedback: "Incorrect. To express age by decade, use 'I am in my + decade'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения возраста по десятилетиям используйте 'I am in my + десятилетие'."
-        },
-        {
-            question: "Select the correct expression for introducing yourself with age:",
-            questionRu: "Выберите правильное выражение для представления себя с указанием возраста:",
-            options: [
-                "My name is John and I am 25 years old.",
-                "My name is John and I is 25 years old.",
-                "My name is John and I are 25 years old.",
-                "My name is John and I have 25 years."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! Use 'I am' when talking about your age in a self-introduction.",
-            correctFeedbackRu: "Правильно! Используйте 'I am' при указании своего возраста в самопредставлении.",
-            incorrectFeedback: "Incorrect. When introducing yourself with your age, use 'I am' followed by the age and 'years old'.",
-            incorrectFeedbackRu: "Неправильно. При представлении себя с указанием возраста, используйте 'I am', за которым следует возраст и 'years old'."
-        },
-        {
-            question: "Choose the correct question to ask someone's age politely:",
-            questionRu: "Выберите правильный вопрос, чтобы вежливо узнать чей-то возраст:",
-            options: [
-                "How old are you?",
-                "How old is you?",
-                "How old am you?",
-                "What age have you?"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! 'How old are you?' is the proper way to ask about someone's age.",
-            correctFeedbackRu: "Правильно! 'How old are you?' - это правильный способ спросить о чьем-то возрасте.",
-            incorrectFeedback: "Incorrect. To ask about someone's age, use 'How old are you?'",
-            incorrectFeedbackRu: "Неправильно. Чтобы спросить о чьем-то возрасте, используйте 'How old are you?'"
-        },
-        {
-            question: "Select the correct sentence for describing your place of origin:",
-            questionRu: "Выберите правильное предложение для описания места вашего происхождения:",
-            options: [
-                "I am from Italy.",
-                "I is from Italy.",
-                "I are from Italy.",
-                "I have from Italy."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! Use 'I am from' followed by your country to express your origin.",
-            correctFeedbackRu: "Правильно! Используйте 'I am from' с последующим указанием вашей страны для выражения вашего происхождения.",
-            incorrectFeedback: "Incorrect. When stating your place of origin, use 'I am from' followed by the country or place.",
-            incorrectFeedbackRu: "Неправильно. При указании места вашего происхождения, используйте 'I am from' с последующим указанием страны или места."
-        },
-        {
-            question: "Choose the correct form for personal information:",
-            questionRu: "Выберите правильную форму для личной информации:",
-            options: [
-                "I am 30 years old and I am a doctor.",
-                "I am 30 years old and I is a doctor.",
-                "I is 30 years old and I am a doctor.",
-                "I is 30 years old and I is a doctor."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! Use 'I am' consistently for both age and profession in personal information.",
-            correctFeedbackRu: "Правильно! Последовательно используйте 'I am' и для возраста, и для профессии в личной информации.",
-            incorrectFeedback: "Incorrect. For personal information statements, use 'I am' consistently for age and profession.",
-            incorrectFeedbackRu: "Неправильно. Для утверждений с личной информацией последовательно используйте 'I am' для возраста и профессии."
-        },
-        {
-            question: "Select the correct expression for an exact age:",
-            questionRu: "Выберите правильное выражение для точного возраста:",
-            options: [
-                "I am exactly 42 years old.",
-                "I have exactly 42 years.",
-                "I have 42 years of age.",
-                "I am with 42 years."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! Use 'I am exactly' followed by the age and 'years old' to express an exact age.",
-            correctFeedbackRu: "Правильно! Используйте 'I am exactly' с последующим указанием возраста и 'years old' для выражения точного возраста.",
-            incorrectFeedback: "Incorrect. To state an exact age, use 'I am exactly' followed by the age and 'years old'.",
-            incorrectFeedbackRu: "Неправильно. Чтобы указать точный возраст, используйте 'I am exactly' с последующим указанием возраста и 'years old'."
-        },
-        {
-            question: "Choose the correct statement about both nationality and origin:",
-            questionRu: "Выберите правильное утверждение о национальности и происхождении:",
-            options: [
-                "I am American. I am from New York.",
-                "I am American. I is from New York.",
-                "I is American. I am from New York.",
-                "I is American. I is from New York."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Correct! Use 'I am' consistently for both nationality and place of origin.",
-            correctFeedbackRu: "Правильно! Последовательно используйте 'I am' и для национальности, и для места происхождения.",
-            incorrectFeedback: "Incorrect. When stating both nationality and origin, use 'I am' consistently in both parts.",
-            incorrectFeedbackRu: "Неправильно. При указании и национальности, и происхождения, последовательно используйте 'I am' в обеих частях."
+            correctFeedback: "Perfect! This sentence combines age, nationality, current location, and activity - all using correct 'I am' forms!",
+            correctFeedbackRu: "Отлично! Это предложение сочетает возраст, национальность, текущее местоположение и деятельность - все с правильными формами 'I am'!",
+            incorrectFeedback: "Incorrect. All statements about yourself should consistently use 'I am'.",
+            incorrectFeedbackRu: "Неправильно. Все утверждения о себе должны последовательно использовать 'I am'."
         }
     ]
 };
@@ -1623,261 +1672,156 @@ console.log("'to be' exercises data loaded successfully!");
 /* ===========================Fill in the Gaps Exercises========================== */
 
 /* ============================================
-Page 1: Basic age expressions
+Page 1: Basic personal information with age
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page1'] = {
+    title: "Basic personal information with age",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "I ____ 32 years old.",
+            sentence: "My sister ____ 17 years old.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'sister', we use 'is' for age statements.",
+            correctFeedbackRu: "Правильно! С 'sister' мы используем 'is' для утверждений о возрасте.",
+            incorrectFeedback: "Incorrect. With 'sister', we need to use 'is' for age.",
+            incorrectFeedbackRu: "Неправильно. С 'sister' нужно использовать 'is' для возраста."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "I ____ 24 years old today.",
             correctAnswer: "am",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'I', we use 'am' when expressing age.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' при выражении возраста.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' when talking about age.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' при разговоре о возрасте."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "She ____ Russian.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'she', we use 'is' to express nationality.",
-            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' для выражения национальности.",
-            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' при разговоре о национальности."
+            correctFeedback: "Correct! With 'I', we always use 'am' for age.",
+            correctFeedbackRu: "Правильно! С 'I' мы всегда используем 'am' для возраста.",
+            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для утверждений о возрасте."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "They ____ Japanese.",
+            sentence: "My parents ____ in their fifties.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'they', we use 'are' when expressing nationality.",
-            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' при выражении национальности.",
-            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' при разговоре о национальности."
+            correctFeedback: "Correct! With 'parents' (plural), we use 'are' for age descriptions.",
+            correctFeedbackRu: "Правильно! С 'parents' (множественное число) мы используем 'are' для описания возраста.",
+            incorrectFeedback: "Incorrect. With 'parents', we need to use 'are' for age.",
+            incorrectFeedbackRu: "Неправильно. С 'parents' нужно использовать 'are' для возраста."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My grandmother ____ 70 years old.",
+            sentence: "He ____ almost 30 years old.",
             correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With singular nouns like 'grandmother', we use 'is' to express age.",
-            correctFeedbackRu: "Правильно! С существительными в единственном числе, как 'grandmother', мы используем 'is' для выражения возраста.",
-            incorrectFeedback: "Incorrect. With singular nouns like 'grandmother', we need to use 'is' when talking about age.",
-            incorrectFeedbackRu: "Неправильно. С существительными в единственном числе, как 'grandmother', нужно использовать 'is' при разговоре о возрасте."
+            correctFeedback: "Correct! With 'he', we use 'is' even with words like 'almost'.",
+            correctFeedbackRu: "Правильно! С 'he' мы используем 'is' даже со словами как 'almost'.",
+            incorrectFeedback: "Incorrect. With 'he', we need to use 'is' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'he' нужно использовать 'is' для утверждений о возрасте."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "We ____ both Italian.",
+            sentence: "You ____ very young!",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'we', we use 'are' when expressing nationality.",
-            correctFeedbackRu: "Правильно! С 'we' мы используем 'are' при выражении национальности.",
-            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' при разговоре о национальности."
+            correctFeedback: "Correct! With 'you', we use 'are' for age descriptions.",
+            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' для описания возраста.",
+            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' for age comments.",
+            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' для комментариев о возрасте."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "You ____ 20 years old, right?",
-            correctAnswer: "are",
+            sentence: "The baby ____ only 6 months old.",
+            correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'you', we use 'are' when expressing age.",
-            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' при выражении возраста.",
-            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' when talking about age.",
-            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' при разговоре о возрасте."
+            correctFeedback: "Correct! With 'baby' (singular), we use 'is' for age.",
+            correctFeedbackRu: "Правильно! С 'baby' (единственное число) мы используем 'is' для возраста.",
+            incorrectFeedback: "Incorrect. With 'baby', we need to use 'is' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'baby' нужно использовать 'is' для утверждений о возрасте."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "He ____ German.",
-            correctAnswer: "is",
+            sentence: "We ____ all teenagers.",
+            correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'he', we use 'is' to express nationality.",
-            correctFeedbackRu: "Правильно! С 'he' мы используем 'is' для выражения национальности.",
-            incorrectFeedback: "Incorrect. With 'he', we need to use 'is' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'he' нужно использовать 'is' при разговоре о национальности."
+            correctFeedback: "Correct! With 'we', we use 'are' for group age descriptions.",
+            correctFeedbackRu: "Правильно! С 'we' мы используем 'are' для описания возраста группы.",
+            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' для утверждений о возрасте."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My parents ____ both 45 years old.",
-            correctAnswer: "are",
+            sentence: "My brother ____ 21 today.",
+            correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural nouns like 'parents', we use 'are' to express age.",
-            correctFeedbackRu: "Правильно! С существительными во множественном числе, как 'parents', мы используем 'are' для выражения возраста.",
-            incorrectFeedback: "Incorrect. With plural nouns like 'parents', we need to use 'are' when talking about age.",
-            incorrectFeedbackRu: "Неправильно. С существительными во множественном числе, как 'parents', нужно использовать 'are' при разговоре о возрасте."
+            correctFeedback: "Correct! With 'brother', we use 'is' for age statements.",
+            correctFeedbackRu: "Правильно! С 'brother' мы используем 'is' для утверждений о возрасте.",
+            incorrectFeedback: "Incorrect. With 'brother', we need to use 'is' for age.",
+            incorrectFeedbackRu: "Неправильно. С 'brother' нужно использовать 'is' для возраста."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "How old ____ your brother?",
-            correctAnswer: "is",
+            sentence: "They ____ both 19 years old.",
+            correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! In questions about age with singular nouns like 'brother', we use 'is'.",
-            correctFeedbackRu: "Правильно! В вопросах о возрасте с существительными в единственном числе, как 'brother', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. In questions about age with singular nouns like 'brother', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. В вопросах о возрасте с существительными в единственном числе, как 'brother', нужно использовать 'is'."
+            correctFeedback: "Correct! With 'they', we use 'are' even when talking about the same age.",
+            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' даже при разговоре об одинаковом возрасте.",
+            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' для утверждений о возрасте."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "The students ____ from different countries.",
-            correctAnswer: "are",
+            sentence: "My grandmother ____ 85 years old.",
+            correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural nouns like 'students', we use 'are' to express origin.",
-            correctFeedbackRu: "Правильно! С существительными во множественном числе, как 'students', мы используем 'are' для выражения происхождения.",
-            incorrectFeedback: "Incorrect. With plural nouns like 'students', we need to use 'are' when talking about origin.",
-            incorrectFeedbackRu: "Неправильно. С существительными во множественном числе, как 'students', нужно использовать 'are' при разговоре о происхождении."
+            correctFeedback: "Correct! With 'grandmother', we use 'is' for age statements.",
+            correctFeedbackRu: "Правильно! С 'grandmother' мы используем 'is' для утверждений о возрасте.",
+            incorrectFeedback: "Incorrect. With 'grandmother', we need to use 'is' for age.",
+            incorrectFeedbackRu: "Неправильно. С 'grandmother' нужно использовать 'is' для возраста."
         }
     ]
 };
 
 /* ============================================
-Page 2: Nationalities with to be
+Page 2: Nationalities and countries of origin
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page2'] = {
+    title: "Nationalities and countries of origin",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "I ____ American.",
+            sentence: "My friend ____ from Italy.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'friend' (singular), we use 'is' for origin.",
+            correctFeedbackRu: "Правильно! С 'friend' (единственное число) мы используем 'is' для происхождения.",
+            incorrectFeedback: "Incorrect. With 'friend', we need to use 'is' when talking about origin.",
+            incorrectFeedbackRu: "Неправильно. С 'friend' нужно использовать 'is' при разговоре о происхождении."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "I ____ Brazilian.",
             correctAnswer: "am",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'I', we use 'am' when expressing nationality.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' при выражении национальности.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' при разговоре о национальности."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "She ____ British.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'she', we use 'is' to express nationality.",
-            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' для выражения национальности.",
-            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' при разговоре о национальности."
+            correctFeedback: "Correct! With 'I', we use 'am' for nationality.",
+            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' для национальности.",
+            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for nationality.",
+            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для национальности."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "They ____ French.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'they', we use 'are' when expressing nationality.",
-            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' при выражении национальности.",
-            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' при разговоре о национальности."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My wife ____ Spanish.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With singular nouns like 'wife', we use 'is' to express nationality.",
-            correctFeedbackRu: "Правильно! С существительными в единственном числе, как 'wife', мы используем 'is' для выражения национальности.",
-            incorrectFeedback: "Incorrect. With singular nouns like 'wife', we need to use 'is' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С существительными в единственном числе, как 'wife', нужно использовать 'is' при разговоре о национальности."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "We ____ Canadian.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'we', we use 'are' when expressing nationality.",
-            correctFeedbackRu: "Правильно! С 'we' мы используем 'are' при выражении национальности.",
-            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' при разговоре о национальности."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "You ____ Italian, right?",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'you', we use 'are' when expressing nationality.",
-            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' при выражении национальности.",
-            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' при разговоре о национальности."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "The student ____ Chinese.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With singular nouns like 'student', we use 'is' to express nationality.",
-            correctFeedbackRu: "Правильно! С существительными в единственном числе, как 'student', мы используем 'is' для выражения национальности.",
-            incorrectFeedback: "Incorrect. With singular nouns like 'student', we need to use 'is' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С существительными в единственном числе, как 'student', нужно использовать 'is' при разговоре о национальности."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My parents ____ Mexican.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural nouns like 'parents', we use 'are' to express nationality.",
-            correctFeedbackRu: "Правильно! С существительными во множественном числе, как 'parents', мы используем 'are' для выражения национальности.",
-            incorrectFeedback: "Incorrect. With plural nouns like 'parents', we need to use 'are' when talking about nationality.",
-            incorrectFeedbackRu: "Неправильно. С существительными во множественном числе, как 'parents', нужно использовать 'are' при разговоре о национальности."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "____ your friend Russian?",
-            correctAnswer: "Is",
-            options: ["Am", "Is", "Are", "Be"],
-            correctFeedback: "Correct! In questions about nationality with singular nouns like 'friend', we use 'Is'.",
-            correctFeedbackRu: "Правильно! В вопросах о национальности с существительными в единственном числе, как 'friend', мы используем 'Is'.",
-            incorrectFeedback: "Incorrect. In questions about nationality with singular nouns like 'friend', we need to use 'Is'.",
-            incorrectFeedbackRu: "Неправильно. В вопросах о национальности с существительными в единственном числе, как 'friend', нужно использовать 'Is'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "____ they Japanese?",
-            correctAnswer: "Are",
-            options: ["Am", "Is", "Are", "Be"],
-            correctFeedback: "Correct! In questions about nationality with 'they', we use 'Are'.",
-            correctFeedbackRu: "Правильно! В вопросах о национальности с 'they' мы используем 'Are'.",
-            incorrectFeedback: "Incorrect. In questions about nationality with 'they', we need to use 'Are'.",
-            incorrectFeedbackRu: "Неправильно. В вопросах о национальности с 'they' нужно использовать 'Are'."
-        }
-    ]
-};
-
-/* ============================================
-Page 3: Combined age and nationality statements
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page3'] = {
-    fillGaps: [
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "I ____ 30 years old.",
-            correctAnswer: "am",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'I', we use 'am' for age statements.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' для утверждений о возрасте.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for age.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для возраста."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "She ____ French.",
+            sentence: "She ____ Canadian.",
             correctAnswer: "is",
             options: ["am", "is", "are", "be"],
             correctFeedback: "Correct! With 'she', we use 'is' for nationality.",
@@ -1886,317 +1830,59 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page3'] 
             incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' для национальности."
         },
         {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "They ____ 45 years old.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'they', we use 'are' for age statements.",
-            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' для утверждений о возрасте.",
-            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for age.",
-            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' для возраста."
-        },
-        {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My grandfather ____ 80 years old.",
+            sentence: "We ____ from Mexico.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'we', we use 'are' for origin.",
+            correctFeedbackRu: "Правильно! С 'we' мы используем 'are' для происхождения.",
+            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' when talking about origin.",
+            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' при разговоре о происхождении."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "He ____ Korean.",
             correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With singular nouns like 'grandfather', we use 'is' for age.",
-            correctFeedbackRu: "Правильно! С существительными в единственном числе, как 'grandfather', мы используем 'is' для возраста.",
-            incorrectFeedback: "Incorrect. With singular nouns like 'grandfather', we need to use 'is' for age.",
-            incorrectFeedbackRu: "Неправильно. С существительными в единственном числе, как 'grandfather', нужно использовать 'is' для возраста."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "We ____ both 22 years old.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'we', we use 'are' for age statements.",
-            correctFeedbackRu: "Правильно! С 'we' мы используем 'are' для утверждений о возрасте.",
-            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' for age.",
-            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' для возраста."
+            correctFeedback: "Correct! With 'he', we use 'is' for nationality.",
+            correctFeedbackRu: "Правильно! С 'he' мы используем 'is' для национальности.",
+            incorrectFeedback: "Incorrect. With 'he', we need to use 'is' for nationality.",
+            incorrectFeedbackRu: "Неправильно. С 'he' нужно использовать 'is' для национальности."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "You ____ Japanese.",
+            sentence: "You ____ from Germany, right?",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'you', we use 'are' for nationality.",
-            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' для национальности.",
-            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' for nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' для национальности."
+            correctFeedback: "Correct! With 'you', we use 'are' for origin questions.",
+            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' для вопросов о происхождении.",
+            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' when asking about origin.",
+            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' при вопросах о происхождении."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "The twins ____ 16 years old.",
+            sentence: "They ____ all Spanish.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural nouns like 'twins', we use 'are' for age.",
-            correctFeedbackRu: "Правильно! С существительными во множественном числе, как 'twins', мы используем 'are' для возраста.",
-            incorrectFeedback: "Incorrect. With plural nouns like 'twins', we need to use 'are' for age.",
-            incorrectFeedbackRu: "Неправильно. С существительными во множественном числе, как 'twins', нужно использовать 'are' для возраста."
+            correctFeedback: "Correct! With 'they', we use 'are' for nationality.",
+            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' для национальности.",
+            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for nationality.",
+            incorrectFeedbackRu: "Неправильно. С 'they' нужно используют 'are' для национальности."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My cousin ____ Brazilian.",
+            sentence: "My teacher ____ from Australia.",
             correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With singular nouns like 'cousin', we use 'is' for nationality.",
-            correctFeedbackRu: "Правильно! С существительными в единственном числе, как 'cousin', мы используем 'is' для национальности.",
-            incorrectFeedback: "Incorrect. With singular nouns like 'cousin', we need to use 'is' for nationality.",
-            incorrectFeedbackRu: "Неправильно. С существительными в единственном числе, как 'cousin', нужно использовать 'is' для национальности."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "How old ____ your friend?",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! In questions about age with singular nouns like 'friend', we use 'is'.",
-            correctFeedbackRu: "Правильно! В вопросах о возрасте с существительными в единственном числе, как 'friend', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. In questions about age with singular nouns like 'friend', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. В вопросах о возрасте с существительными в единственном числе, как 'friend', нужно использовать 'is'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "How old ____ they?",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! In questions about age with 'they', we use 'are'.",
-            correctFeedbackRu: "Правильно! В вопросах о возрасте с 'they' мы используем 'are'.",
-            incorrectFeedback: "Incorrect. In questions about age with 'they', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. В вопросах о возрасте с 'they' нужно использовать 'are'."
-        }
-    ]
-};
-
-/* ============================================
-Page 4: Using 'to be' with different age groups
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page4'] = {
-    fillGaps: [
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "My baby brother ____ one year old.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With singular subjects like 'baby brother', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в единственном числе, как 'baby brother', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With singular subjects like 'baby brother', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе, как 'baby brother', нужно использовать 'is'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "The twins ____ five years old.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural subjects like 'twins', we use 'are'.",
-            correctFeedbackRu: "Правильно! С подлежащими во множественном числе, как 'twins', мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With plural subjects like 'twins', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими во множественном числе, как 'twins', нужно использовать 'are'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "How old ____ you?",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'How old are you?' is the proper form to ask about age.",
-            correctFeedbackRu: "Правильно! 'How old are you?' - это правильная форма вопроса о возрасте.",
-            incorrectFeedback: "Incorrect. To ask about age, use 'How old are you?'",
-            incorrectFeedbackRu: "Неправильно. Чтобы спросить о возрасте, используйте 'How old are you?'"
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "I ____ twenty-one years old.",
-            correctAnswer: "am",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'I am twenty-one years old' is the proper response.",
-            correctFeedbackRu: "Правильно! 'I am twenty-one years old' - это правильный ответ.",
-            incorrectFeedback: "Incorrect. The correct response is 'I am twenty-one years old.'",
-            incorrectFeedbackRu: "Неправильно. Правильный ответ - 'I am twenty-one years old.'"
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "My grandparents ____ in their seventies.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural subjects like 'grandparents', we use 'are'.",
-            correctFeedbackRu: "Правильно! С подлежащими во множественном числе, как 'grandparents', мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With plural subjects like 'grandparents', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими во множественном числе, как 'grandparents', нужно использовать 'are'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "He ____ eighteen years old.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'He is eighteen years old' is the proper form in English.",
-            correctFeedbackRu: "Правильно! 'He is eighteen years old' - это правильная форма в английском языке.",
-            incorrectFeedback: "Incorrect. In English, we say 'He is eighteen years old'.",
-            incorrectFeedbackRu: "Неправильно. В английском мы говорим 'He is eighteen years old'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "The child ____ too young for this movie.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'The child is too young for this movie' is the proper form.",
-            correctFeedbackRu: "Правильно! 'The child is too young for this movie' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With singular subjects like 'child', we use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе, как 'child', мы используем 'is'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "How old ____ your sister?",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'How old is your sister?' is the proper form to ask about someone else's age.",
-            correctFeedbackRu: "Правильно! 'How old is your sister?' - это правильная форма вопроса о возрасте другого человека.",
-            incorrectFeedback: "Incorrect. To ask about someone else's age, use 'How old is your sister?'",
-            incorrectFeedbackRu: "Неправильно. Чтобы спросить о возрасте другого человека, используйте 'How old is your sister?'"
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "They ____ the same age.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'They are the same age' is the proper form.",
-            correctFeedbackRu: "Правильно! 'They are the same age' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'they', we use 'are' in expressions about age.",
-            incorrectFeedbackRu: "Неправильно. С 'they' мы используем 'are' в выражениях о возрасте."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "I ____ older than my brother.",
-            correctAnswer: "am",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'I am older than my brother' is the proper form for age comparison.",
-            correctFeedbackRu: "Правильно! 'I am older than my brother' - это правильная форма для сравнения возраста.",
-            incorrectFeedback: "Incorrect. For age comparison with 'I', use 'I am older than...'",
-            incorrectFeedbackRu: "Неправильно. Для сравнения возраста с 'I' используйте 'I am older than...'"
-        }
-    ]
-};
-
-/* ============================================
-Page 5: Using 'to be' with nationalities 
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page5'] = {
-    fillGaps: [
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "She ____ Italian.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With third person singular subjects like 'she', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в третьем лице единственного числа, как 'she', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'she', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "We ____ Canadian.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'We are Canadian' is the proper form.",
-            correctFeedbackRu: "Правильно! 'We are Canadian' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'we', we use 'are' for nationalities.",
-            incorrectFeedbackRu: "Неправильно. С 'we' мы используем 'are' для национальностей."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "They ____ Mexican.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural subjects like 'they', we use 'are'.",
-            correctFeedbackRu: "Правильно! С подлежащими во множественном числе, как 'they', мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With 'they', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "I ____ Chinese.",
-            correctAnswer: "am",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'I am Chinese' is the proper form.",
-            correctFeedbackRu: "Правильно! 'I am Chinese' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'I', we use 'am' for nationalities.",
-            incorrectFeedbackRu: "Неправильно. С 'I' мы используем 'am' для национальностей."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My parents ____ Irish.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural subjects like 'parents', we use 'are'.",
-            correctFeedbackRu: "Правильно! С подлежащими во множественном числе, как 'parents', мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With 'parents', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С 'parents' нужно использовать 'are'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "He ____ German.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'He is German' is the proper form.",
-            correctFeedbackRu: "Правильно! 'He is German' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'he', we use 'is' for nationalities.",
-            incorrectFeedbackRu: "Неправильно. С 'he' мы используем 'is' для национальностей."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "____ they Spanish?",
-            correctAnswer: "Are",
-            options: ["Am", "Is", "Are", "Be"],
-            correctFeedback: "Correct! 'Are they Spanish?' is the proper form for a question about nationality with 'they'.",
-            correctFeedbackRu: "Правильно! 'Are they Spanish?' - это правильная форма вопроса о национальности с 'they'.",
-            incorrectFeedback: "Incorrect. For questions with 'they', use 'Are they...?'",
-            incorrectFeedbackRu: "Неправильно. Для вопросов с 'they' используйте 'Are they...?'"
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "She ____ not Korean.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'She is not Korean' is the proper negative form.",
-            correctFeedbackRu: "Правильно! 'She is not Korean' - это правильная отрицательная форма.",
-            incorrectFeedback: "Incorrect. With 'she', we use 'is not' in negatives.",
-            incorrectFeedbackRu: "Неправильно. С 'she' мы используем 'is not' в отрицаниях."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "You ____ Swedish.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'You are Swedish' is the proper form.",
-            correctFeedbackRu: "Правильно! 'You are Swedish' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'you', we use 'are' for nationalities.",
-            incorrectFeedbackRu: "Неправильно. С 'you' мы используем 'are' для национальностей."
+            correctFeedback: "Correct! With 'teacher' (singular), we use 'is' for origin.",
+            correctFeedbackRu: "Правильно! С 'teacher' (единственное число) мы используем 'is' для происхождения.",
+            incorrectFeedback: "Incorrect. With 'teacher', we need to use 'is' when talking about origin.",
+            incorrectFeedbackRu: "Неправильно. С 'teacher' нужно использовать 'is' при разговоре о происхождении."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2204,608 +1890,976 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page5'] 
             sentence: "The students ____ from different countries.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'The students are from different countries' is the proper form.",
-            correctFeedbackRu: "Правильно! 'The students are from different countries' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With plural subjects like 'students', we use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими во множественном числе, как 'students', мы используем 'are'."
+            correctFeedback: "Correct! With 'students' (plural), we use 'are' for origin.",
+            correctFeedbackRu: "Правильно! С 'students' (множественное число) мы используем 'are' для происхождения.",
+            incorrectFeedback: "Incorrect. With 'students', we need to use 'are' when talking about origin.",
+            incorrectFeedbackRu: "Неправильно. С 'students' нужно использовать 'are' при разговоре о происхождении."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "She ____ originally from China.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'she', we use 'is' even with 'originally'.",
+            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' даже с 'originally'.",
+            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' for origin statements.",
+            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' для утверждений о происхождении."
         }
     ]
 };
 
 /* ============================================
-Page 6: Using 'to be' with both age and nationality
+Page 3: Combining age and nationality information
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page6'] = {
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page3'] = {
+    title: "Combining age and nationality information",
     fillGaps: [
         {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "I ____ 29 years old.",
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "I ____ 26 and I ____ Polish.",
             correctAnswer: "am",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'I', we use 'am' for age statements.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' для утверждений о возрасте.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for age.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для возраста."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "She ____ 30 years old.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'She is 30 years old' is the proper form.",
-            correctFeedbackRu: "Правильно! 'She is 30 years old' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'she', we use 'is' for age statements.",
-            incorrectFeedbackRu: "Неправильно. С 'she' мы используем 'is' для утверждений о возрасте."
+            correctFeedback: "Correct! Both parts use 'am' because the subject is 'I'.",
+            correctFeedbackRu: "Правильно! Обе части используют 'am', потому что подлежащее 'I'.",
+            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for both age and nationality.",
+            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' и для возраста, и для национальности."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "They ____ 25 years old.",
-            correctAnswer: "are",
+            sentence: "My cousin ____ 23 years old and she ____ Turkish.",
+            correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'they', we use 'are' for age statements.",
-            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' для утверждений о возрасте.",
-            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for age.",
-            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' для возраста."
+            correctFeedback: "Correct! Both 'cousin' and 'she' use 'is'.",
+            correctFeedbackRu: "Правильно! И 'cousin', и 'she' используют 'is'.",
+            incorrectFeedback: "Incorrect. Both 'cousin' and 'she' are singular and need 'is'.",
+            incorrectFeedbackRu: "Неправильно. И 'cousin', и 'she' - единственное число и требуют 'is'."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "My friend ____ 22 years old.",
-            correctAnswer: "is",
+            sentence: "They ____ both 20 and they ____ from Japan.",
+            correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'My friend is 22 years old' is the proper form.",
-            correctFeedbackRu: "Правильно! 'My friend is 22 years old' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With singular subjects like 'my friend', we use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе, как 'my friend', мы используем 'is'."
+            correctFeedback: "Correct! Both parts use 'are' because the subject is 'they'.",
+            correctFeedbackRu: "Правильно! Обе части используют 'are', потому что подлежащее 'they'.",
+            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for both age and origin.",
+            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' и для возраста, и для происхождения."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "You ____ 40 years old.",
-            correctAnswer: "are",
+            sentence: "He ____ 35 years old and originally from Russia.",
+            correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'you', we use 'are' for age statements.",
-            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' для утверждений о возрасте.",
-            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' for age.",
-            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' для возраста."
+            correctFeedback: "Correct! With 'he', we use 'is' for combined age and origin information.",
+            correctFeedbackRu: "Правильно! С 'he' мы используем 'is' для комбинированной информации о возрасте и происхождении.",
+            incorrectFeedback: "Incorrect. With 'he', we need to use 'is' for combined statements.",
+            incorrectFeedbackRu: "Неправильно. С 'he' нужно использовать 'is' для комбинированных утверждений."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "____ she 35 years old?",
+            sentence: "You ____ 22 and you ____ Vietnamese, right?",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! Both parts use 'are' when asking about 'you'.",
+            correctFeedbackRu: "Правильно! Обе части используют 'are' при вопросе о 'you'.",
+            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' for both age and nationality questions.",
+            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' и для вопросов о возрасте, и для национальности."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "We ____ all in our twenties and we ____ international students.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! Both parts use 'are' because the subject is 'we'.",
+            correctFeedbackRu: "Правильно! Обе части используют 'are', потому что подлежащее 'we'.",
+            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' for both age and description.",
+            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' и для возраста, и для описания."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "The new student ____ 18 and she ____ from Brazil.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! Both 'student' and 'she' are singular and use 'is'.",
+            correctFeedbackRu: "Правильно! И 'student', и 'she' - единственное число и используют 'is'.",
+            incorrectFeedback: "Incorrect. Both 'student' and 'she' are singular and need 'is'.",
+            incorrectFeedbackRu: "Неправильно. И 'student', и 'she' - единственное число и требуют 'is'."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "My neighbors ____ young and they ____ from different countries.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! Both 'neighbors' and 'they' are plural and use 'are'.",
+            correctFeedbackRu: "Правильно! И 'neighbors', и 'they' - множественное число и используют 'are'.",
+            incorrectFeedback: "Incorrect. Both 'neighbors' and 'they' are plural and need 'are'.",
+            incorrectFeedbackRu: "Неправильно. И 'neighbors', и 'they' - множественное число и требуют 'are'."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My father ____ 55 years old and he ____ Greek.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! Both 'father' and 'he' are singular and use 'is'.",
+            correctFeedbackRu: "Правильно! И 'father', и 'he' - единственное число и используют 'is'.",
+            incorrectFeedback: "Incorrect. Both 'father' and 'he' are singular and need 'is'.",
+            incorrectFeedbackRu: "Неправильно. И 'father', и 'he' - единственное число и требуют 'is'."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The twins ____ 16 and they ____ both from Sweden.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! Both 'twins' and 'they' are plural and use 'are'.",
+            correctFeedbackRu: "Правильно! И 'twins', и 'they' - множественное число и используют 'are'.",
+            incorrectFeedback: "Incorrect. Both 'twins' and 'they' are plural and need 'are'.",
+            incorrectFeedbackRu: "Неправильно. И 'twins', и 'they' - множественное число и требуют 'are'."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Questions and negative forms
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page4'] = {
+    title: "Questions and negative forms",
+    fillGaps: [
+        {
+            question: "Complete the question with the correct form of 'to be':",
+            questionRu: "Заполните вопрос правильной формой глагола 'to be':",
+            sentence: "____ you 18 years old?",
+            correctAnswer: "Are",
+            options: ["Am", "Is", "Are", "Be"],
+            correctFeedback: "Correct! Questions with 'you' start with 'Are'.",
+            correctFeedbackRu: "Правильно! Вопросы с 'you' начинаются с 'Are'.",
+            incorrectFeedback: "Incorrect. Questions about 'you' should start with 'Are'.",
+            incorrectFeedbackRu: "Неправильно. Вопросы о 'you' должны начинаться с 'Are'."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "She ____ not from England.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! Negative sentences with 'she' use 'is not'.",
+            correctFeedbackRu: "Правильно! Отрицательные предложения с 'she' используют 'is not'.",
+            incorrectFeedback: "Incorrect. With 'she', we use 'is not' for negative statements.",
+            incorrectFeedbackRu: "Неправильно. С 'she' мы используем 'is not' для отрицательных утверждений."
+        },
+        {
+            question: "Complete the question with the correct form of 'to be':",
+            questionRu: "Заполните вопрос правильной формой глагола 'to be':",
+            sentence: "____ he Italian?",
             correctAnswer: "Is",
             options: ["Am", "Is", "Are", "Be"],
-            correctFeedback: "Correct! 'Is she 35 years old?' is the proper question form.",
-            correctFeedbackRu: "Правильно! 'Is she 35 years old?' - это правильная форма вопроса.",
-            incorrectFeedback: "Incorrect. With 'she', we use 'Is' for questions about age.",
-            incorrectFeedbackRu: "Неправильно. С 'she' мы используем 'Is' для вопросов о возрасте."
+            correctFeedback: "Correct! Questions with 'he' start with 'Is'.",
+            correctFeedbackRu: "Правильно! Вопросы с 'he' начинаются с 'Is'.",
+            incorrectFeedback: "Incorrect. Questions about 'he' should start with 'Is'.",
+            incorrectFeedbackRu: "Неправильно. Вопросы о 'he' должны начинаться с 'Is'."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "We ____ in our thirties.",
-            correctAnswer: "are",
+            sentence: "I ____ not 25 years old.",
+            correctAnswer: "am",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'We are in our thirties' is the proper form.",
-            correctFeedbackRu: "Правильно! 'We are in our thirties' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'we', we use 'are' for age decades.",
-            incorrectFeedbackRu: "Неправильно. С 'we' мы используем 'are' для возрастных десятилетий."
+            correctFeedback: "Correct! Negative sentences with 'I' use 'am not'.",
+            correctFeedbackRu: "Правильно! Отрицательные предложения с 'I' используют 'am not'.",
+            incorrectFeedback: "Incorrect. With 'I', we use 'am not' for negative statements.",
+            incorrectFeedbackRu: "Неправильно. С 'I' мы используем 'am not' для отрицательных утверждений."
         },
         {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "He ____ not 50 years old.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'He is not 50 years old' is the proper negative form.",
-            correctFeedbackRu: "Правильно! 'He is not 50 years old' - это правильная отрицательная форма.",
-            incorrectFeedback: "Incorrect. With 'he', we use 'is not' for negations.",
-            incorrectFeedbackRu: "Неправильно. С 'he' мы используем 'is not' для отрицаний."
+            question: "Complete the question with the correct form of 'to be':",
+            questionRu: "Заполните вопрос правильной формой глагола 'to be':",
+            sentence: "____ they from France?",
+            correctAnswer: "Are",
+            options: ["Am", "Is", "Are", "Be"],
+            correctFeedback: "Correct! Questions with 'they' start with 'Are'.",
+            correctFeedbackRu: "Правильно! Вопросы с 'they' начинаются с 'Are'.",
+            incorrectFeedback: "Incorrect. Questions about 'they' should start with 'Are'.",
+            incorrectFeedbackRu: "Неправильно. Вопросы о 'they' должны начинаться с 'Are'."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "She ____ Portuguese.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'She is Portuguese' uses the correct form for nationality.",
-            correctFeedbackRu: "Правильно! 'She is Portuguese' использует правильную форму для национальности.",
-            incorrectFeedback: "Incorrect. With 'she', we use 'is' for nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'she' мы используем 'is' для национальности."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "They ____ teenagers.",
+            sentence: "We ____ not teenagers anymore.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'They are teenagers' is the proper form.",
-            correctFeedbackRu: "Правильно! 'They are teenagers' - это правильная форма.",
-            incorrectFeedback: "Incorrect. With 'they', we use 'are' for describing age groups.",
-            incorrectFeedbackRu: "Неправильно. С 'they' мы используем 'are' для описания возрастных групп."
+            correctFeedback: "Correct! Negative sentences with 'we' use 'are not'.",
+            correctFeedbackRu: "Правильно! Отрицательные предложения с 'we' используют 'are not'.",
+            incorrectFeedback: "Incorrect. With 'we', we use 'are not' for negative statements.",
+            incorrectFeedbackRu: "Неправильно. С 'we' мы используем 'are not' для отрицательных утверждений."
+        },
+        {
+            question: "Complete the question with the correct form of 'to be':",
+            questionRu: "Заполните вопрос правильной формой глагола 'to be':",
+            sentence: "____ she 30 years old?",
+            correctAnswer: "Is",
+            options: ["Am", "Is", "Are", "Be"],
+            correctFeedback: "Correct! Questions with 'she' start with 'Is'.",
+            correctFeedbackRu: "Правильно! Вопросы с 'she' начинаются с 'Is'.",
+            incorrectFeedback: "Incorrect. Questions about 'she' should start with 'Is'.",
+            incorrectFeedbackRu: "Неправильно. Вопросы о 'she' должны начинаться с 'Is'."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "He ____ not from Spain.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! Negative sentences with 'he' use 'is not'.",
+            correctFeedbackRu: "Правильно! Отрицательные предложения с 'he' используют 'is not'.",
+            incorrectFeedback: "Incorrect. With 'he', we use 'is not' for negative statements.",
+            incorrectFeedbackRu: "Неправильно. С 'he' мы используем 'is not' для отрицательных утверждений."
+        },
+        {
+            question: "Complete the question with the correct form of 'to be':",
+            questionRu: "Заполните вопрос правильной формой глагола 'to be':",
+            sentence: "____ your parents young?",
+            correctAnswer: "Are",
+            options: ["Am", "Is", "Are", "Be"],
+            correctFeedback: "Correct! Questions with 'parents' (plural) start with 'Are'.",
+            correctFeedbackRu: "Правильно! Вопросы с 'parents' (множественное число) начинаются с 'Are'.",
+            incorrectFeedback: "Incorrect. Questions about 'parents' should start with 'Are'.",
+            incorrectFeedbackRu: "Неправильно. Вопросы о 'parents' должны начинаться с 'Are'."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "They ____ not from the same country.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! Negative sentences with 'they' use 'are not'.",
+            correctFeedbackRu: "Правильно! Отрицательные предложения с 'they' используют 'are not'.",
+            incorrectFeedback: "Incorrect. With 'they', we use 'are not' for negative statements.",
+            incorrectFeedbackRu: "Неправильно. С 'they' мы используем 'are not' для отрицательных утверждений."
         }
     ]
 };
 
 /* ============================================
-Page 7: Personal information with "to be"
+Page 5: Family members and relationships
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page5'] = {
+    title: "Family members and relationships",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My uncle ____ 45 years old.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'uncle' (singular), we use 'is' for age.",
+            correctFeedbackRu: "Правильно! С 'uncle' (единственное число) мы используем 'is' для возраста.",
+            incorrectFeedback: "Incorrect. With 'uncle', we need to use 'is' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'uncle' нужно использовать 'is' для утверждений о возрасте."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "My cousins ____ all from Canada.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'cousins' (plural), we use 'are' for origin.",
+            correctFeedbackRu: "Правильно! С 'cousins' (множественное число) мы используем 'are' для происхождения.",
+            incorrectFeedback: "Incorrect. With 'cousins', we need to use 'are' for origin statements.",
+            incorrectFeedbackRu: "Неправильно. С 'cousins' нужно использовать 'are' для утверждений о происхождении."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My aunt ____ Portuguese.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'aunt' (singular), we use 'is' for nationality.",
+            correctFeedbackRu: "Правильно! С 'aunt' (единственное число) мы используем 'is' для национальности.",
+            incorrectFeedback: "Incorrect. With 'aunt', we need to use 'is' for nationality.",
+            incorrectFeedbackRu: "Неправильно. С 'aunt' нужно использовать 'is' для национальности."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "My grandparents ____ in their eighties.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'grandparents' (plural), we use 'are' for age.",
+            correctFeedbackRu: "Правильно! С 'grandparents' (множественное число) мы используем 'are' для возраста.",
+            incorrectFeedback: "Incorrect. With 'grandparents', we need to use 'are' for age descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'grandparents' нужно использовать 'are' для описания возраста."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My nephew ____ only 8 years old.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'nephew' (singular), we use 'is' for age.",
+            correctFeedbackRu: "Правильно! С 'nephew' (единственное число) мы используем 'is' для возраста.",
+            incorrectFeedback: "Incorrect. With 'nephew', we need to use 'is' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'nephew' нужно использовать 'is' для утверждений о возрасте."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "My nieces ____ both American.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'nieces' (plural), we use 'are' for nationality.",
+            correctFeedbackRu: "Правильно! С 'nieces' (множественное число) мы используем 'are' для национальности.",
+            incorrectFeedback: "Incorrect. With 'nieces', we need to use 'are' for nationality.",
+            incorrectFeedbackRu: "Неправильно. С 'nieces' нужно использовать 'are' для национальности."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My stepfather ____ from Ireland.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'stepfather' (singular), we use 'is' for origin.",
+            correctFeedbackRu: "Правильно! С 'stepfather' (единственное число) мы используем 'is' для происхождения.",
+            incorrectFeedback: "Incorrect. With 'stepfather', we need to use 'is' for origin statements.",
+            incorrectFeedbackRu: "Неправильно. С 'stepfather' нужно использовать 'is' для утверждений о происхождении."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "My siblings ____ all adults now.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'siblings' (plural), we use 'are' for age descriptions.",
+            correctFeedbackRu: "Правильно! С 'siblings' (множественное число) мы используем 'are' для описания возраста.",
+            incorrectFeedback: "Incorrect. With 'siblings', we need to use 'are' for age descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'siblings' нужно использовать 'are' для описания возраста."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My mother-in-law ____ 58 years old.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'mother-in-law' (singular), we use 'is' for age.",
+            correctFeedbackRu: "Правильно! С 'mother-in-law' (единственное число) мы используем 'is' для возраста.",
+            incorrectFeedback: "Incorrect. With 'mother-in-law', we need to use 'is' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'mother-in-law' нужно использовать 'is' для утверждений о возрасте."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "My in-laws ____ from different countries.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'in-laws' (plural), we use 'are' for origin.",
+            correctFeedbackRu: "Правильно! С 'in-laws' (множественное число) мы используем 'are' для происхождения.",
+            incorrectFeedback: "Incorrect. With 'in-laws', we need to use 'are' for origin statements.",
+            incorrectFeedbackRu: "Неправильно. С 'in-laws' нужно использовать 'are' для утверждений о происхождении."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Professional and social contexts
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page6'] = {
+    title: "Professional and social contexts",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My boss ____ 40 years old.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'boss' (singular), we use 'is' for age.",
+            correctFeedbackRu: "Правильно! С 'boss' (единственное число) мы используем 'is' для возраста.",
+            incorrectFeedback: "Incorrect. With 'boss', we need to use 'is' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'boss' нужно использовать 'is' для утверждений о возрасте."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "My colleagues ____ from many different countries.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'colleagues' (plural), we use 'are' for origin.",
+            correctFeedbackRu: "Правильно! С 'colleagues' (множественное число) мы используем 'are' для происхождения.",
+            incorrectFeedback: "Incorrect. With 'colleagues', we need to use 'are' for origin statements.",
+            incorrectFeedbackRu: "Неправильно. С 'colleagues' нужно использовать 'are' для утверждений о происхождении."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "The manager ____ Canadian.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'manager' (singular), we use 'is' for nationality.",
+            correctFeedbackRu: "Правильно! С 'manager' (единственное число) мы используем 'is' для национальности.",
+            incorrectFeedback: "Incorrect. With 'manager', we need to use 'is' for nationality.",
+            incorrectFeedbackRu: "Неправильно. С 'manager' нужно использовать 'is' для национальности."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The employees ____ all in their twenties.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'employees' (plural), we use 'are' for age descriptions.",
+            correctFeedbackRu: "Правильно! С 'employees' (множественное число) мы используем 'are' для описания возраста.",
+            incorrectFeedback: "Incorrect. With 'employees', we need to use 'are' for age descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'employees' нужно использовать 'are' для описания возраста."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "The director ____ from Germany.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'director' (singular), we use 'is' for origin.",
+            correctFeedbackRu: "Правильно! С 'director' (единственное число) мы используем 'is' для происхождения.",
+            incorrectFeedback: "Incorrect. With 'director', we need to use 'is' for origin statements.",
+            incorrectFeedbackRu: "Неправильно. С 'director' нужно использовать 'is' для утверждений о происхождении."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "My classmates ____ 19 years old.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'classmates' (plural), we use 'are' for age.",
+            correctFeedbackRu: "Правильно! С 'classmates' (множественное число) мы используем 'are' для возраста.",
+            incorrectFeedback: "Incorrect. With 'classmates', we need to use 'are' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'classmates' нужно использовать 'are' для утверждений о возрасте."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "The secretary ____ 29 and very efficient.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'secretary' (singular), we use 'is' for age and description.",
+            correctFeedbackRu: "Правильно! С 'secretary' (единственное число) мы используем 'is' для возраста и описания.",
+            incorrectFeedback: "Incorrect. With 'secretary', we need to use 'is' for combined statements.",
+            incorrectFeedbackRu: "Неправильно. С 'secretary' нужно использовать 'is' для комбинированных утверждений."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The team members ____ from different backgrounds.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'team members' (plural), we use 'are' for background descriptions.",
+            correctFeedbackRu: "Правильно! С 'team members' (множественное число) мы используем 'are' для описания происхождения.",
+            incorrectFeedback: "Incorrect. With 'team members', we need to use 'are' for background descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'team members' нужно использовать 'are' для описания происхождения."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "The client ____ 50 years old and very demanding.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'client' (singular), we use 'is' for age and characteristics.",
+            correctFeedbackRu: "Правильно! С 'client' (единственное число) мы используем 'is' для возраста и характеристик.",
+            incorrectFeedback: "Incorrect. With 'client', we need to use 'is' for descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'client' нужно использовать 'is' для описаний."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The interns ____ all university students.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'interns' (plural), we use 'are' for descriptions.",
+            correctFeedbackRu: "Правильно! С 'interns' (множественное число) мы используем 'are' для описаний.",
+            incorrectFeedback: "Incorrect. With 'interns', we need to use 'are' for descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'interns' нужно использовать 'are' для описаний."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Age ranges and approximate ages
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page7'] = {
+    title: "Age ranges and approximate ages",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "My name ____ Sarah.",
+            sentence: "She ____ about 35 years old.",
             correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With singular subjects like 'name', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в единственном числе, как 'name', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'name', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'name' нужно использовать 'is'."
+            correctFeedback: "Correct! With 'she', we use 'is' even with approximate ages.",
+            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' даже с приблизительным возрастом.",
+            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' for approximate ages.",
+            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' для приблизительного возраста."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "I ____ Peter.",
+            sentence: "I ____ around 25 years old.",
             correctAnswer: "am",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'I am Peter' uses 'am' correctly for self-introduction.",
-            correctFeedbackRu: "Правильно! 'I am Peter' правильно использует 'am' для самопредставления.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for names.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для имен."
+            correctFeedback: "Correct! With 'I', we use 'am' for approximate age statements.",
+            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' для приблизительных утверждений о возрасте.",
+            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for age expressions.",
+            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для выражения возраста."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "My telephone number ____ 555-7890.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With singular subjects like 'telephone number', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в единственном числе, как 'telephone number', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'telephone number', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'telephone number' нужно использовать 'is'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "She ____ twenty-six years old.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'She is twenty-six years old' is the proper form in English.",
-            correctFeedbackRu: "Правильно! 'She is twenty-six years old' - это правильная форма в английском языке.",
-            incorrectFeedback: "Incorrect. In English, we say 'She is twenty-six years old'.",
-            incorrectFeedbackRu: "Неправильно. В английском мы говорим 'She is twenty-six years old'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "Her name ____ Anna.",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'Her name is Anna' uses 'is' correctly with singular subjects.",
-            correctFeedbackRu: "Правильно! 'Her name is Anna' правильно использует 'is' с подлежащими в единственном числе.",
-            incorrectFeedback: "Incorrect. With singular subjects like 'name', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе, как 'name', нужно использовать 'is'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "What ____ your nationality?",
-            correctAnswer: "is",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'What is your nationality?' is the proper question form.",
-            correctFeedbackRu: "Правильно! 'What is your nationality?' - это правильная форма вопроса.",
-            incorrectFeedback: "Incorrect. The correct question form is 'What is your nationality?'",
-            incorrectFeedbackRu: "Неправильно. Правильная форма вопроса - 'What is your nationality?'"
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "Their names ____ Tom and Sarah.",
+            sentence: "They ____ in their early twenties.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural subjects like 'names', we use 'are'.",
-            correctFeedbackRu: "Правильно! С подлежащими во множественном числе, как 'names', мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With 'names', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С 'names' нужно использовать 'are'."
+            correctFeedback: "Correct! With 'they', we use 'are' for age range descriptions.",
+            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' для описания возрастного диапазона.",
+            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for age ranges.",
+            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' для возрастных диапазонов."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "Hello! I ____ Carlos.",
-            correctAnswer: "am",
+            sentence: "He ____ somewhere between 40 and 45.",
+            correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'Hello! I am Carlos' uses 'am' correctly for self-introduction.",
-            correctFeedbackRu: "Правильно! 'Hello! I am Carlos' правильно использует 'am' для самопредставления.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for introductions.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для представлений."
+            correctFeedback: "Correct! With 'he', we use 'is' for age range estimates.",
+            correctFeedbackRu: "Правильно! С 'he' мы используем 'is' для оценки возрастного диапазона.",
+            incorrectFeedback: "Incorrect. With 'he', we need to use 'is' for age estimates.",
+            incorrectFeedbackRu: "Неправильно. С 'he' нужно использовать 'is' для оценки возраста."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "Our address ____ 123 Main Street.",
-            correctAnswer: "is",
+            sentence: "We ____ all in our late teens.",
+            correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With singular subjects like 'address', we use 'is'.",
-            correctFeedbackRu: "Правильно! С подлежащими в единственном числе, как 'address', мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'address', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'address' нужно использовать 'is'."
+            correctFeedback: "Correct! With 'we', we use 'are' for group age descriptions.",
+            correctFeedbackRu: "Правильно! С 'we' мы используем 'are' для описания возраста группы.",
+            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' for group age ranges.",
+            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' для возрастных диапазонов группы."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "We ____ from Canada.",
+            sentence: "You ____ probably in your thirties.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! 'We are from Canada' uses 'are' correctly with plural subjects.",
-            correctFeedbackRu: "Правильно! 'We are from Canada' правильно использует 'are' с подлежащими во множественном числе.",
-            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' for origin statements.",
-            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' для утверждений о происхождении."
+            correctFeedback: "Correct! With 'you', we use 'are' for age guesses.",
+            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' для предположений о возрасте.",
+            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' for age assumptions.",
+            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' для предположений о возрасте."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My neighbor ____ roughly 60 years old.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'neighbor' (singular), we use 'is' for rough age estimates.",
+            correctFeedbackRu: "Правильно! С 'neighbor' (единственное число) мы используем 'is' для приблизительной оценки возраста.",
+            incorrectFeedback: "Incorrect. With 'neighbor', we need to use 'is' for age estimates.",
+            incorrectFeedbackRu: "Неправильно. С 'neighbor' нужно использовать 'is' для оценки возраста."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The children ____ between 8 and 12 years old.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'children' (plural), we use 'are' for age ranges.",
+            correctFeedbackRu: "Правильно! С 'children' (множественное число) мы используем 'are' для возрастных диапазонов.",
+            incorrectFeedback: "Incorrect. With 'children', we need to use 'are' for age ranges.",
+            incorrectFeedbackRu: "Неправильно. С 'children' нужно использовать 'are' для возрастных диапазонов."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "She ____ nearly 50 years old.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'she', we use 'is' even with words like 'nearly'.",
+            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' даже со словами как 'nearly'.",
+            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' for approximate ages.",
+            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' для приблизительного возраста."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The teenagers ____ all around 16 or 17.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'teenagers' (plural), we use 'are' for approximate ages.",
+            correctFeedbackRu: "Правильно! С 'teenagers' (множественное число) мы используем 'are' для приблизительного возраста.",
+            incorrectFeedback: "Incorrect. With 'teenagers', we need to use 'are' for age descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'teenagers' нужно использовать 'are' для описания возраста."
         }
     ]
 };
 
 /* ============================================
-Page 8: Talking about yourself with ages
+Page 8: Mixed nationalities and cultural backgrounds
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page8'] = {
+    title: "Mixed nationalities and cultural backgrounds",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "I ____ twenty-five years old.",
+            sentence: "I ____ half Japanese and half American.",
             correctAnswer: "am",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! When talking about your own age, use 'I am' followed by the age and 'years old'.",
-            correctFeedbackRu: "Правильно! Когда вы говорите о своем возрасте, используйте 'I am', затем возраст и 'years old'.",
-            incorrectFeedback: "Incorrect. When talking about your own age, always use 'I am'.",
-            incorrectFeedbackRu: "Неправильно. Когда вы говорите о своем возрасте, всегда используйте 'I am'."
+            correctFeedback: "Correct! With 'I', we use 'am' for mixed heritage descriptions.",
+            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' для описания смешанного происхождения.",
+            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for heritage statements.",
+            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для утверждений о происхождении."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "Hi, my name is John and I ____ 30 years old.",
-            correctAnswer: "am",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! In self-introductions, use 'I am' for your age.",
-            correctFeedbackRu: "Правильно! В самопредставлении используйте 'I am' для вашего возраста.",
-            incorrectFeedback: "Incorrect. In self-introductions, the correct form is 'I am' for your age.",
-            incorrectFeedbackRu: "Неправильно. В самопредставлении правильная форма - 'I am' для вашего возраста."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "In our passports, we ____ both 42 years old.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'we', use 'are' for age statements.",
-            correctFeedbackRu: "Правильно! С 'we' используйте 'are' для утверждений о возрасте.",
-            incorrectFeedback: "Incorrect. With 'we', you need to use 'are' in age statements.",
-            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' в утверждениях о возрасте."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "How old ____ you?",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! When asking someone about their age, use 'are' with 'you'.",
-            correctFeedbackRu: "Правильно! Когда вы спрашиваете кого-то о его возрасте, используйте 'are' с 'you'.",
-            incorrectFeedback: "Incorrect. When asking someone about their age, the correct form is 'are' with 'you'.",
-            incorrectFeedbackRu: "Неправильно. Когда вы спрашиваете кого-то о его возрасте, правильная форма - 'are' с 'you'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "I ____ in my twenties.",
-            correctAnswer: "am",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'I am' when expressing your age by decade.",
-            correctFeedbackRu: "Правильно! Используйте 'I am' при выражении вашего возраста по десятилетиям.",
-            incorrectFeedback: "Incorrect. For expressing age by decade, use 'I am'.",
-            incorrectFeedbackRu: "Неправильно. Для выражения возраста по десятилетиям используйте 'I am'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My birthday ____ next week.",
+            sentence: "She ____ originally from India but now Australian.",
             correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'is' with singular nouns like 'birthday'.",
-            correctFeedbackRu: "Правильно! Используйте 'is' с существительными в единственном числе, как 'birthday'.",
-            incorrectFeedback: "Incorrect. With singular nouns like 'birthday', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С существительными в единственном числе, как 'birthday', нужно использовать 'is'."
+            correctFeedback: "Correct! With 'she', we use 'is' for dual nationality descriptions.",
+            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' для описания двойного гражданства.",
+            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' for nationality changes.",
+            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' для изменений гражданства."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "You ____ too young to watch this movie.",
+            sentence: "They ____ all multicultural.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'are' with 'you' when commenting on someone's age.",
-            correctFeedbackRu: "Правильно! Используйте 'are' с 'you' при комментировании чьего-либо возраста.",
-            incorrectFeedback: "Incorrect. With 'you', use 'are' when commenting on age.",
-            incorrectFeedbackRu: "Неправильно. С 'you' используйте 'are' при комментировании возраста."
+            correctFeedback: "Correct! With 'they', we use 'are' for cultural descriptions.",
+            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' для культурных описаний.",
+            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for cultural statements.",
+            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' для культурных утверждений."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "I ____ older than my sister by two years.",
-            correctAnswer: "am",
+            sentence: "He ____ both British and Nigerian.",
+            correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'I am' when comparing your age with others.",
-            correctFeedbackRu: "Правильно! Используйте 'I am' при сравнении своего возраста с другими.",
-            incorrectFeedback: "Incorrect. For age comparisons with 'I', use 'am'.",
-            incorrectFeedbackRu: "Неправильно. Для сравнений возраста с 'I' используйте 'am'."
+            correctFeedback: "Correct! With 'he', we use 'is' for dual nationality.",
+            correctFeedbackRu: "Правильно! С 'he' мы используем 'is' для двойного гражданства.",
+            incorrectFeedback: "Incorrect. With 'he', we need to use 'is' for multiple nationalities.",
+            incorrectFeedbackRu: "Неправильно. С 'he' нужно использовать 'is' для множественных национальностей."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "We ____ the same age as our classmates.",
+            sentence: "We ____ from mixed cultural backgrounds.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'we are' when talking about your age in relation to others.",
-            correctFeedbackRu: "Правильно! Используйте 'we are' при разговоре о вашем возрасте по отношению к другим.",
-            incorrectFeedback: "Incorrect. With 'we', use 'are' when discussing age relationships.",
-            incorrectFeedbackRu: "Неправильно. С 'we' используйте 'are' при обсуждении возрастных отношений."
+            correctFeedback: "Correct! With 'we', we use 'are' for background descriptions.",
+            correctFeedbackRu: "Правильно! С 'we' мы используем 'are' для описания происхождения.",
+            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' for cultural backgrounds.",
+            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' для культурного происхождения."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "How old do you think I ____?",
-            correctAnswer: "am",
+            sentence: "You ____ part French, part Italian, right?",
+            correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! In questions about your own age, use 'I am'.",
-            correctFeedbackRu: "Правильно! В вопросах о вашем собственном возрасте используйте 'I am'.",
-            incorrectFeedback: "Incorrect. In questions about your own age, the correct form is 'I am'.",
-            incorrectFeedbackRu: "Неправильно. В вопросах о вашем собственном возрасте правильная форма - 'I am'."
+            correctFeedback: "Correct! With 'you', we use 'are' for heritage questions.",
+            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' для вопросов о происхождении.",
+            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' for heritage questions.",
+            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' для вопросов о происхождении."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My friend ____ ethnically Korean but born in America.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'friend' (singular), we use 'is' for ethnic descriptions.",
+            correctFeedbackRu: "Правильно! С 'friend' (единственное число) мы используем 'is' для этнических описаний.",
+            incorrectFeedback: "Incorrect. With 'friend', we need to use 'is' for ethnic identity.",
+            incorrectFeedbackRu: "Неправильно. С 'friend' нужно использовать 'is' для этнической принадлежности."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The students ____ from diverse ethnic groups.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'students' (plural), we use 'are' for diversity descriptions.",
+            correctFeedbackRu: "Правильно! С 'students' (множественное число) мы используем 'are' для описания разнообразия.",
+            incorrectFeedback: "Incorrect. With 'students', we need to use 'are' for group descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'students' нужно использовать 'are' для описания группы."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "She ____ culturally Chinese but legally Canadian.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'she', we use 'is' for complex identity descriptions.",
+            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' для сложных описаний идентичности.",
+            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' for identity statements.",
+            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' для утверждений об идентичности."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The community members ____ from various ethnic origins.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'community members' (plural), we use 'are' for origin descriptions.",
+            correctFeedbackRu: "Правильно! С 'community members' (множественное число) мы используем 'are' для описания происхождения.",
+            incorrectFeedback: "Incorrect. With 'community members', we need to use 'are' for origin statements.",
+            incorrectFeedbackRu: "Неправильно. С 'community members' нужно использовать 'are' для утверждений о происхождении."
         }
     ]
 };
 
 /* ============================================
-Page 9: Talking about yourself with nationality
+Page 9: Advanced age and life stage descriptions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page9'] = {
+    title: "Advanced age and life stage descriptions",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "I ____ from Spain.",
+            sentence: "I ____ at the age when people start thinking about career changes.",
             correctAnswer: "am",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! When talking about your own country, use 'I am from'.",
-            correctFeedbackRu: "Правильно! Когда вы говорите о своей стране, используйте 'I am from'.",
-            incorrectFeedback: "Incorrect. When talking about your country of origin, always use 'I am from'.",
-            incorrectFeedbackRu: "Неправильно. Когда вы говорите о стране происхождения, всегда используйте 'I am from'."
+            correctFeedback: "Correct! With 'I', we use 'am' for life stage descriptions.",
+            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' для описания жизненных этапов.",
+            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for life stage statements.",
+            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для утверждений о жизненных этапах."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "Hello, I ____ Russian.",
-            correctAnswer: "am",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'I am' when stating your nationality.",
-            correctFeedbackRu: "Правильно! Используйте 'I am' при указании вашей национальности.",
-            incorrectFeedback: "Incorrect. With 'I', use 'am' when stating your nationality.",
-            incorrectFeedbackRu: "Неправильно. С 'I' используйте 'am' при указании вашей национальности."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "We ____ Italian.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'we are' for nationality statements about groups.",
-            correctFeedbackRu: "Правильно! Используйте 'we are' для утверждений о национальности групп.",
-            incorrectFeedback: "Incorrect. With 'we', use 'are' for nationality statements.",
-            incorrectFeedbackRu: "Неправильно. С 'we' используйте 'are' для утверждений о национальности."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "What nationality ____ you?",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! When asking about nationality, use 'are' with 'you'.",
-            correctFeedbackRu: "Правильно! При вопросе о национальности используйте 'are' с 'you'.",
-            incorrectFeedback: "Incorrect. In questions about nationality with 'you', use 'are'.",
-            incorrectFeedbackRu: "Неправильно. В вопросах о национальности с 'you' используйте 'are'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "My passport shows that I ____ Canadian.",
-            correctAnswer: "am",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'I am' when referring to your nationality in documents.",
-            correctFeedbackRu: "Правильно! Используйте 'I am' при указании вашей национальности в документах.",
-            incorrectFeedback: "Incorrect. When referring to your nationality, use 'I am'.",
-            incorrectFeedbackRu: "Неправильно. При указании вашей национальности используйте 'I am'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My parents ____ from Mexico.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'are' with 'parents' (plural) for origin statements.",
-            correctFeedbackRu: "Правильно! Используйте 'are' с 'parents' (множественное число) для утверждений о происхождении.",
-            incorrectFeedback: "Incorrect. With 'parents', use 'are' for origin statements.",
-            incorrectFeedbackRu: "Неправильно. С 'parents' используйте 'are' для утверждений о происхождении."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "My mother ____ French.",
+            sentence: "She ____ old enough to vote but not old enough to drink.",
             correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'is' with singular subjects like 'mother'.",
-            correctFeedbackRu: "Правильно! Используйте 'is' с подлежащими в единственном числе, как 'mother'.",
-            incorrectFeedback: "Incorrect. With singular subjects like 'mother', use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе, как 'mother', используйте 'is'."
-        },
-        {
-            question: "Fill in the blank with the correct form of 'to be':",
-            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "You ____ British, aren't you?",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'are' with 'you' when confirming someone's nationality.",
-            correctFeedbackRu: "Правильно! Используйте 'are' с 'you' при подтверждении чьей-либо национальности.",
-            incorrectFeedback: "Incorrect. In tag questions about nationality with 'you', use 'are'.",
-            incorrectFeedbackRu: "Неправильно. В разделительных вопросах о национальности с 'you' используйте 'are'."
+            correctFeedback: "Correct! With 'she', we use 'is' for age-related capabilities.",
+            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' для возрастных возможностей.",
+            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' for age comparisons.",
+            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' для возрастных сравнений."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "We ____ not from the same country.",
+            sentence: "They ____ at retirement age.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'we are not' or 'we aren't' in negative statements.",
-            correctFeedbackRu: "Правильно! Используйте 'we are not' или 'we aren't' в отрицательных утверждениях.",
-            incorrectFeedback: "Incorrect. In negative statements with 'we', use 'are not' or 'aren't'.",
-            incorrectFeedbackRu: "Неправильно. В отрицательных утверждениях с 'we' используйте 'are not' или 'aren't'."
+            correctFeedback: "Correct! With 'they', we use 'are' for life stage descriptions.",
+            correctFeedbackRu: "Правильно! С 'they' мы используем 'are' для описания жизненных этапов.",
+            incorrectFeedback: "Incorrect. With 'they', we need to use 'are' for age stages.",
+            incorrectFeedbackRu: "Неправильно. С 'they' нужно использовать 'are' для возрастных этапов."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "I ____ proud to be Japanese.",
-            correctAnswer: "am",
+            sentence: "He ____ too young to understand these problems.",
+            correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! Use 'I am' when expressing feelings about your nationality.",
-            correctFeedbackRu: "Правильно! Используйте 'I am' при выражении чувств о вашей национальности.",
-            incorrectFeedback: "Incorrect. When expressing feelings with 'I', use 'am'.",
-            incorrectFeedbackRu: "Неправильно. При выражении чувств с 'I' используйте 'am'."
+            correctFeedback: "Correct! With 'he', we use 'is' for age-related understanding.",
+            correctFeedbackRu: "Правильно! С 'he' мы используем 'is' для возрастного понимания.",
+            incorrectFeedback: "Incorrect. With 'he', we need to use 'is' for age limitations.",
+            incorrectFeedbackRu: "Неправильно. С 'he' нужно использовать 'is' для возрастных ограничений."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "We ____ all at different life stages.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'we', we use 'are' for group life stage descriptions.",
+            correctFeedbackRu: "Правильно! С 'we' мы используем 'are' для описания жизненных этапов группы.",
+            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' for group descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' для групповых описаний."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "You ____ mature for your age.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'you', we use 'are' for maturity descriptions.",
+            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' для описания зрелости.",
+            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' for maturity statements.",
+            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' для утверждений о зрелости."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "My grandfather ____ wise beyond his years.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'grandfather' (singular), we use 'is' for wisdom descriptions.",
+            correctFeedbackRu: "Правильно! С 'grandfather' (единственное число) мы используем 'is' для описания мудрости.",
+            incorrectFeedback: "Incorrect. With 'grandfather', we need to use 'is' for character descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'grandfather' нужно использовать 'is' для описания характера."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The elderly residents ____ all over 80 years old.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'residents' (plural), we use 'are' for age descriptions.",
+            correctFeedbackRu: "Правильно! С 'residents' (множественное число) мы используем 'are' для описания возраста.",
+            incorrectFeedback: "Incorrect. With 'residents', we need to use 'are' for age statements.",
+            incorrectFeedbackRu: "Неправильно. С 'residents' нужно использовать 'are' для утверждений о возрасте."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "She ____ young at heart despite being 70.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'she', we use 'is' for personality descriptions related to age.",
+            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' для описания личности, связанной с возрастом.",
+            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' for character statements.",
+            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' для утверждений о характере."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "The middle-aged professionals ____ all experienced in their fields.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'professionals' (plural), we use 'are' for experience descriptions.",
+            correctFeedbackRu: "Правильно! С 'professionals' (множественное число) мы используем 'are' для описания опыта.",
+            incorrectFeedback: "Incorrect. With 'professionals', we need to use 'are' for group descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'professionals' нужно использовать 'are' для групповых описаний."
         }
     ]
 };
 
 /* ============================================
-Page 10: Review of all 'to be' affirmative forms
+Page 10: Complex real-life scenarios and review
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page10'] = {
+    title: "Complex real-life scenarios and review",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "I ____ happy today.",
+            sentence: "The international conference delegates ____ from 50 different countries.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'delegates' (plural), we use 'are' for origin descriptions.",
+            correctFeedbackRu: "Правильно! С 'delegates' (множественное число) мы используем 'are' для описания происхождения.",
+            incorrectFeedback: "Incorrect. With 'delegates', we need to use 'are' for group origin.",
+            incorrectFeedbackRu: "Неправильно. С 'delegates' нужно использовать 'are' для происхождения группы."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "I ____ proud to represent my country at this young age.",
             correctAnswer: "am",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'I', we use 'am'.",
-            correctFeedbackRu: "Правильно! С 'I' мы используем 'am'.",
-            incorrectFeedback: "Incorrect. With 'I', we need to use 'am'.",
-            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am'."
+            correctFeedback: "Correct! With 'I', we use 'am' for emotional statements about age.",
+            correctFeedbackRu: "Правильно! С 'I' мы используем 'am' для эмоциональных утверждений о возрасте.",
+            incorrectFeedback: "Incorrect. With 'I', we need to use 'am' for personal statements.",
+            incorrectFeedbackRu: "Неправильно. С 'I' нужно использовать 'am' для личных утверждений."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "The ambassador ____ 55 years old and very diplomatic.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'ambassador' (singular), we use 'is' for combined age and character.",
+            correctFeedbackRu: "Правильно! С 'ambassador' (единственное число) мы используем 'is' для комбинированного возраста и характера.",
+            incorrectFeedback: "Incorrect. With 'ambassador', we need to use 'is' for descriptions.",
+            incorrectFeedbackRu: "Неправильно. С 'ambassador' нужно использовать 'is' для описаний."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "She ____ my sister.",
-            correctAnswer: "is",
+            sentence: "We ____ all global citizens in today's world.",
+            correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'she', we use 'is'.",
-            correctFeedbackRu: "Правильно! С 'she' мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'she', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is'."
+            correctFeedback: "Correct! With 'we', we use 'are' for collective identity statements.",
+            correctFeedbackRu: "Правильно! С 'we' мы используем 'are' для утверждений о коллективной идентичности.",
+            incorrectFeedback: "Incorrect. With 'we', we need to use 'are' for group identity.",
+            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are' для групповой идентичности."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "We ____ friends.",
+            sentence: "You ____ never too old to learn about other cultures.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'we', we use 'are'.",
-            correctFeedbackRu: "Правильно! С 'we' мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With 'we', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С 'we' нужно использовать 'are'."
-        },
-        {
-            question: "Fill in the blank with the correct contraction:",
-            questionRu: "Заполните пропуск правильным сокращением:",
-            sentence: "She ____ a doctor.",
-            correctAnswer: "She's",
-            options: ["She'm", "She's", "She're", "Shes"],
-            correctFeedback: "Correct! 'She's' is the contraction of 'She is'.",
-            correctFeedbackRu: "Правильно! 'She's' - это сокращение от 'She is'.",
-            incorrectFeedback: "Incorrect. 'She's' is the contraction of 'She is'.",
-            incorrectFeedbackRu: "Неправильно. 'She's' - это сокращение от 'She is'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "There ____ five people in the room.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With plural nouns like 'five people', we use 'there are'.",
-            correctFeedbackRu: "Правильно! С существительными во множественном числе, как 'five people', мы используем 'there are'.",
-            incorrectFeedback: "Incorrect. With plural nouns like 'five people', we need to use 'there are'.",
-            incorrectFeedbackRu: "Неправильно. С существительными во множественном числе, как 'five people', нужно использовать 'there are'."
+            correctFeedback: "Correct! With 'you', we use 'are' for age-related advice.",
+            correctFeedbackRu: "Правильно! С 'you' мы используем 'are' для советов, связанных с возрастом.",
+            incorrectFeedback: "Incorrect. With 'you', we need to use 'are' for general statements.",
+            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are' для общих утверждений."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "You ____ my friend.",
-            correctAnswer: "are",
-            options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'you', we use 'are'.",
-            correctFeedbackRu: "Правильно! С 'you' мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With 'you', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С 'you' нужно использовать 'are'."
-        },
-        {
-            question: "Complete the sentence with the correct form of 'to be':",
-            questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "It ____ hot today.",
+            sentence: "The elderly gentleman ____ 89 and still learning new languages.",
             correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'it', we use 'is'.",
-            correctFeedbackRu: "Правильно! С 'it' мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'it', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'it' нужно использовать 'is'."
-        },
-        {
-            question: "Fill in the blank with the correct contraction:",
-            questionRu: "Заполните пропуск правильным сокращением:",
-            sentence: "I ____ from America.",
-            correctAnswer: "I'm",
-            options: ["I'm", "I's", "I're", "Im"],
-            correctFeedback: "Correct! 'I'm' is the contraction of 'I am'.",
-            correctFeedbackRu: "Правильно! 'I'm' - это сокращение от 'I am'.",
-            incorrectFeedback: "Incorrect. 'I'm' is the contraction of 'I am'.",
-            incorrectFeedbackRu: "Неправильно. 'I'm' - это сокращение от 'I am'."
+            correctFeedback: "Correct! With 'gentleman' (singular), we use 'is' for age and activity descriptions.",
+            correctFeedbackRu: "Правильно! С 'gentleman' (единственное число) мы используем 'is' для описания возраста и деятельности.",
+            incorrectFeedback: "Incorrect. With 'gentleman', we need to use 'is' for combined statements.",
+            incorrectFeedbackRu: "Неправильно. С 'gentleman' нужно использовать 'is' для комбинированных утверждений."
         },
         {
             question: "Complete the sentence with the correct form of 'to be':",
             questionRu: "Заполните предложение правильной формой глагола 'to be':",
-            sentence: "The cats ____ black.",
+            sentence: "The exchange students ____ all between 20 and 25 years old.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'cats' (plural noun), we use 'are'.",
-            correctFeedbackRu: "Правильно! С 'cats' (существительное во множественном числе) мы используем 'are'.",
-            incorrectFeedback: "Incorrect. With 'cats', we need to use 'are'.",
-            incorrectFeedbackRu: "Неправильно. С 'cats' нужно использовать 'are'."
+            correctFeedback: "Correct! With 'students' (plural), we use 'are' for age range descriptions.",
+            correctFeedbackRu: "Правильно! С 'students' (множественное число) мы используем 'are' для описания возрастного диапазона.",
+            incorrectFeedback: "Incorrect. With 'students', we need to use 'are' for group age ranges.",
+            incorrectFeedbackRu: "Неправильно. С 'students' нужно использовать 'are' для возрастных диапазонов группы."
         },
         {
             question: "Fill in the blank with the correct form of 'to be':",
             questionRu: "Заполните пропуск правильной формой глагола 'to be':",
-            sentence: "My name ____ John.",
+            sentence: "She ____ multilingual and multicultural at the same time.",
             correctAnswer: "is",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Correct! With 'name' (singular noun), we use 'is'.",
-            correctFeedbackRu: "Правильно! С 'name' (существительное в единственном числе) мы используем 'is'.",
-            incorrectFeedback: "Incorrect. With 'name', we need to use 'is'.",
-            incorrectFeedbackRu: "Неправильно. С 'name' нужно использовать 'is'."
+            correctFeedback: "Correct! With 'she', we use 'is' for multiple characteristic descriptions.",
+            correctFeedbackRu: "Правильно! С 'she' мы используем 'is' для описания множественных характеристик.",
+            incorrectFeedback: "Incorrect. With 'she', we need to use 'is' for multiple traits.",
+            incorrectFeedbackRu: "Неправильно. С 'she' нужно использовать 'is' для множественных черт."
+        },
+        {
+            question: "Complete the sentence with the correct form of 'to be':",
+            questionRu: "Заполните предложение правильной формой глагола 'to be':",
+            sentence: "The generation gap ____ smaller when people understand each other's cultures.",
+            correctAnswer: "is",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Correct! With 'gap' (singular), we use 'is' for abstract concept descriptions.",
+            correctFeedbackRu: "Правильно! С 'gap' (единственное число) мы используем 'is' для описания абстрактных концепций.",
+            incorrectFeedback: "Incorrect. With 'gap', we need to use 'is' for abstract concepts.",
+            incorrectFeedbackRu: "Неправильно. С 'gap' нужно использовать 'is' для абстрактных концепций."
+        },
+        {
+            question: "Fill in the blank with the correct form of 'to be':",
+            questionRu: "Заполните пропуск правильной формой глагола 'to be':",
+            sentence: "All the participants ____ ready to share their stories about age and culture.",
+            correctAnswer: "are",
+            options: ["am", "is", "are", "be"],
+            correctFeedback: "Perfect! With 'participants' (plural), we use 'are' for readiness statements. You've completed all Fill in the Gaps exercises!",
+            correctFeedbackRu: "Отлично! С 'participants' (множественное число) мы используем 'are' для утверждений о готовности. Вы завершили все упражнения Fill in the Gaps!",
+            incorrectFeedback: "Incorrect. With 'participants', we need to use 'are' for group readiness.",
+            incorrectFeedbackRu: "Неправильно. С 'participants' нужно использовать 'are' для готовности группы."
         }
     ]
 };
-
-/* ============================================
-Console log to confirm data loading
-============================================ */
-console.log("'to be' exercises data loaded successfully!");
 
 /* ============================================
 Console log to confirm data loading
@@ -2815,452 +2869,342 @@ console.log("Verb 'to be' Fill in the Gaps exercises data loaded successfully!")
 /* =============================================================================== */
 /* =========================Sentence Building Exercises=========================== */
 
-// Initialize grammar exercises object if it doesn't exist
-window.grammarExercises = window.grammarExercises || {};
-
-// Initialize topic hierarchy
-window.grammarExercises['to-be'] = window.grammarExercises['to-be'] || {};
-
 /* ============================================
-Page 1: Basic subject + be + complement
+Page 1: Basic introductions with age
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page1'] = {
+    title: "Basic introductions with age",
     sentenceBuilding: [
         {
-            question: "Form a correct sentence about your age:",
-            questionRu: "Составьте правильное предложение о своем возрасте:",
-            words: ["I", "am", "22", "years", "old"],
-            correctAnswer: "I am 22 years old.",
-            correctFeedback: "Excellent! 'I am 22 years old' is the correct way to express your age.",
-            correctFeedbackRu: "Отлично! 'I am 22 years old' - правильный способ выразить свой возраст.",
-            incorrectFeedback: "Remember: I + am + age + years old.",
-            incorrectFeedbackRu: "Помните: I + am + возраст + years old."
+            question: "Form a sentence about your sister's age:",
+            questionRu: "Составьте предложение о возрасте вашей сестры:",
+            words: ["My", "sister", "is", "20", "years", "old"],
+            correctAnswer: "My sister is 20 years old.",
+            correctFeedback: "Excellent! 'My sister is 20 years old' correctly describes her age.",
+            correctFeedbackRu: "Отлично! 'My sister is 20 years old' правильно описывает её возраст.",
+            incorrectFeedback: "Remember: My sister + is + age + years old.",
+            incorrectFeedbackRu: "Помните: My sister + is + возраст + years old."
         },
         {
-            question: "Create a sentence about your name:",
-            questionRu: "Составьте предложение о своем имени:",
-            words: ["my", "name", "is", "Sarah"],
-            correctAnswer: "My name is Sarah.",
-            correctFeedback: "Perfect! 'My name is Sarah' is the correct way to introduce yourself.",
-            correctFeedbackRu: "Идеально! 'My name is Sarah' - правильный способ представиться.",
-            incorrectFeedback: "Remember: My + name + is + [your name].",
-            incorrectFeedbackRu: "Помните: My + name + is + [ваше имя]."
+            question: "Create a sentence about your brother:",
+            questionRu: "Составьте предложение о вашем брате:",
+            words: ["My", "brother", "is", "15", "years", "old"],
+            correctAnswer: "My brother is 15 years old.",
+            correctFeedback: "Perfect! 'My brother is 15 years old' is the correct way to state his age.",
+            correctFeedbackRu: "Идеально! 'My brother is 15 years old' - правильный способ указать его возраст.",
+            incorrectFeedback: "Use: My brother + is + age + years old.",
+            incorrectFeedbackRu: "Используйте: My brother + is + возраст + years old."
         },
+        {
+            question: "Form a sentence about your age today:",
+            questionRu: "Составьте предложение о своем возрасте сегодня:",
+            words: ["I", "am", "18", "years", "old", "today"],
+            correctAnswer: "I am 18 years old today.",
+            correctFeedback: "Great! 'I am 18 years old today' shows it's your birthday or current age.",
+            correctFeedbackRu: "Отлично! 'I am 18 years old today' показывает, что сегодня ваш день рождения или текущий возраст.",
+            incorrectFeedback: "Remember: I + am + age + years old + today.",
+            incorrectFeedbackRu: "Помните: I + am + возраст + years old + today."
+        },
+        {
+            question: "Create a sentence about your friend's age:",
+            questionRu: "Составьте предложение о возрасте вашего друга:",
+            words: ["My", "friend", "is", "23", "years", "old"],
+            correctAnswer: "My friend is 23 years old.",
+            correctFeedback: "Excellent! 'My friend is 23 years old' correctly states their age.",
+            correctFeedbackRu: "Отлично! 'My friend is 23 years old' правильно указывает их возраст.",
+            incorrectFeedback: "Follow: My friend + is + age + years old.",
+            incorrectFeedbackRu: "Следуйте: My friend + is + возраст + years old."
+        },
+        {
+            question: "Form a sentence about your parents' age:",
+            questionRu: "Составьте предложение о возрасте ваших родителей:",
+            words: ["My", "parents", "are", "45", "years", "old"],
+            correctAnswer: "My parents are 45 years old.",
+            correctFeedback: "Perfect! 'My parents are 45 years old' uses 'are' for plural subjects.",
+            correctFeedbackRu: "Идеально! 'My parents are 45 years old' использует 'are' для подлежащих во множественном числе.",
+            incorrectFeedback: "Remember: My parents + are + age + years old.",
+            incorrectFeedbackRu: "Помните: My parents + are + возраст + years old."
+        },
+        {
+            question: "Create a sentence about your teacher:",
+            questionRu: "Составьте предложение о вашем учителе:",
+            words: ["My", "teacher", "is", "35", "years", "old"],
+            correctAnswer: "My teacher is 35 years old.",
+            correctFeedback: "Great! 'My teacher is 35 years old' correctly describes their age.",
+            correctFeedbackRu: "Отлично! 'My teacher is 35 years old' правильно описывает их возраст.",
+            incorrectFeedback: "Use: My teacher + is + age + years old.",
+            incorrectFeedbackRu: "Используйте: My teacher + is + возраст + years old."
+        },
+        {
+            question: "Form a sentence about your grandmother:",
+            questionRu: "Составьте предложение о вашей бабушке:",
+            words: ["My", "grandmother", "is", "70", "years", "old"],
+            correctAnswer: "My grandmother is 70 years old.",
+            correctFeedback: "Excellent! 'My grandmother is 70 years old' properly states her age.",
+            correctFeedbackRu: "Отлично! 'My grandmother is 70 years old' правильно указывает её возраст.",
+            incorrectFeedback: "Follow: My grandmother + is + age + years old.",
+            incorrectFeedbackRu: "Следуйте: My grandmother + is + возраст + years old."
+        },
+        {
+            question: "Create a sentence about your classmates:",
+            questionRu: "Составьте предложение о ваших одноклассниках:",
+            words: ["My", "classmates", "are", "17", "years", "old"],
+            correctAnswer: "My classmates are 17 years old.",
+            correctFeedback: "Perfect! 'My classmates are 17 years old' uses 'are' for multiple people.",
+            correctFeedbackRu: "Идеально! 'My classmates are 17 years old' использует 'are' для нескольких людей.",
+            incorrectFeedback: "Remember: My classmates + are + age + years old.",
+            incorrectFeedbackRu: "Помните: My classmates + are + возраст + years old."
+        },
+        {
+            question: "Form a sentence about your cousin:",
+            questionRu: "Составьте предложение о вашем двоюродном брате/сестре:",
+            words: ["My", "cousin", "is", "12", "years", "old"],
+            correctAnswer: "My cousin is 12 years old.",
+            correctFeedback: "Great! 'My cousin is 12 years old' correctly expresses their age.",
+            correctFeedbackRu: "Отлично! 'My cousin is 12 years old' правильно выражает их возраст.",
+            incorrectFeedback: "Use: My cousin + is + age + years old.",
+            incorrectFeedbackRu: "Используйте: My cousin + is + возраст + years old."
+        },
+        {
+            question: "Create a sentence about your neighbors:",
+            questionRu: "Составьте предложение о ваших соседях:",
+            words: ["My", "neighbors", "are", "50", "years", "old"],
+            correctAnswer: "My neighbors are 50 years old.",
+            correctFeedback: "Excellent! 'My neighbors are 50 years old' uses 'are' for plural subjects.",
+            correctFeedbackRu: "Отлично! 'My neighbors are 50 years old' использует 'are' для подлежащих во множественном числе.",
+            incorrectFeedback: "Remember: My neighbors + are + age + years old.",
+            incorrectFeedbackRu: "Помните: My neighbors + are + возраст + years old."
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Basic nationality statements
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page2'] = {
+    title: "Basic nationality statements",
+    sentenceBuilding: [
         {
             question: "Form a sentence about your nationality:",
-            questionRu: "Составьте предложение о своей национальности:",
-            words: ["I", "am", "American"],
-            correctAnswer: "I am American.",
-            correctFeedback: "Great! 'I am American' is the correct way to state your nationality.",
-            correctFeedbackRu: "Отлично! 'I am American' - правильный способ указать свою национальность.",
+            questionRu: "Составьте предложение о вашей национальности:",
+            words: ["I", "am", "Chinese"],
+            correctAnswer: "I am Chinese.",
+            correctFeedback: "Perfect! 'I am Chinese' correctly states your nationality.",
+            correctFeedbackRu: "Идеально! 'I am Chinese' правильно указывает вашу национальность.",
             incorrectFeedback: "Remember: I + am + nationality.",
             incorrectFeedbackRu: "Помните: I + am + национальность."
         },
         {
-            question: "Create a sentence about where you're from:",
-            questionRu: "Составьте предложение о том, откуда вы:",
-            words: ["I", "am", "from", "Canada"],
-            correctAnswer: "I am from Canada.",
-            correctFeedback: "Excellent! 'I am from Canada' correctly expresses your origin.",
-            correctFeedbackRu: "Отлично! 'I am from Canada' правильно выражает ваше происхождение.",
-            incorrectFeedback: "Remember: I + am + from + country/place.",
-            incorrectFeedbackRu: "Помните: I + am + from + страна/место."
+            question: "Create a sentence about your friend's nationality:",
+            questionRu: "Составьте предложение о национальности вашего друга:",
+            words: ["My", "friend", "is", "Russian"],
+            correctAnswer: "My friend is Russian.",
+            correctFeedback: "Excellent! 'My friend is Russian' properly describes their nationality.",
+            correctFeedbackRu: "Отлично! 'My friend is Russian' правильно описывает их национальность.",
+            incorrectFeedback: "Use: My friend + is + nationality.",
+            incorrectFeedbackRu: "Используйте: My friend + is + национальность."
         },
         {
-            question: "Form a sentence combining age and nationality:",
-            questionRu: "Составьте предложение, сочетающее возраст и национальность:",
-            words: ["I", "am", "25", "and", "I", "am", "British"],
-            correctAnswer: "I am 25 and I am British.",
-            correctFeedback: "Perfect! You correctly combined age and nationality information.",
-            correctFeedbackRu: "Идеально! Вы правильно объединили информацию о возрасте и национальности.",
-            incorrectFeedback: "Remember: I am [age] and I am [nationality].",
-            incorrectFeedbackRu: "Помните: I am [возраст] and I am [национальность]."
+            question: "Form a sentence about your teacher's origin:",
+            questionRu: "Составьте предложение о происхождении вашего учителя:",
+            words: ["My", "teacher", "is", "from", "England"],
+            correctAnswer: "My teacher is from England.",
+            correctFeedback: "Great! 'My teacher is from England' shows where they come from.",
+            correctFeedbackRu: "Отлично! 'My teacher is from England' показывает откуда они родом.",
+            incorrectFeedback: "Follow: My teacher + is + from + country.",
+            incorrectFeedbackRu: "Следуйте: My teacher + is + from + страна."
         },
         {
-            question: "Create a sentence about your age decade:",
-            questionRu: "Составьте предложение о возрастном десятилетии:",
-            words: ["I", "am", "in", "my", "twenties"],
-            correctAnswer: "I am in my twenties.",
-            correctFeedback: "Great! 'I am in my twenties' is the correct way to express age by decade.",
-            correctFeedbackRu: "Отлично! 'I am in my twenties' - правильный способ выразить возраст по десятилетиям.",
-            incorrectFeedback: "Remember: I am in my + [decade].",
-            incorrectFeedbackRu: "Помните: I am in my + [десятилетие]."
+            question: "Create a sentence about your origin:",
+            questionRu: "Составьте предложение о вашем происхождении:",
+            words: ["I", "am", "from", "Mexico"],
+            correctAnswer: "I am from Mexico.",
+            correctFeedback: "Perfect! 'I am from Mexico' correctly states where you're from.",
+            correctFeedbackRu: "Идеально! 'I am from Mexico' правильно указывает откуда вы родом.",
+            incorrectFeedback: "Remember: I + am + from + country.",
+            incorrectFeedbackRu: "Помните: I + am + from + страна."
         },
         {
-            question: "Form a complete self-introduction:",
-            questionRu: "Составьте полное самопредставление:",
-            words: ["Hi", "I", "am", "John", "and", "I", "am", "30", "years", "old"],
-            correctAnswer: "Hi, I am John and I am 30 years old.",
-            correctFeedback: "Excellent! This is a perfect self-introduction with name and age.",
-            correctFeedbackRu: "Отлично! Это идеальное самопредставление с именем и возрастом.",
-            incorrectFeedback: "Remember: Hi, I am [name] and I am [age] years old.",
-            incorrectFeedbackRu: "Помните: Hi, I am [имя] and I am [возраст] years old."
+            question: "Form a sentence about your sister's nationality:",
+            questionRu: "Составьте предложение о национальности вашей сестры:",
+            words: ["My", "sister", "is", "Indian"],
+            correctAnswer: "My sister is Indian.",
+            correctFeedback: "Excellent! 'My sister is Indian' properly states her nationality.",
+            correctFeedbackRu: "Отлично! 'My sister is Indian' правильно указывает её национальность.",
+            incorrectFeedback: "Use: My sister + is + nationality.",
+            incorrectFeedbackRu: "Используйте: My sister + is + национальность."
         },
         {
-            question: "Create a sentence about exact age:",
-            questionRu: "Составьте предложение о точном возрасте:",
-            words: ["I", "am", "exactly", "27", "years", "old"],
-            correctAnswer: "I am exactly 27 years old.",
-            correctFeedback: "Perfect! 'Exactly' emphasizes the precise age.",
-            correctFeedbackRu: "Идеально! 'Exactly' подчеркивает точный возраст.",
-            incorrectFeedback: "Remember: I am exactly + age + years old.",
-            incorrectFeedbackRu: "Помните: I am exactly + возраст + years old."
+            question: "Create a sentence about your parents' origin:",
+            questionRu: "Составьте предложение о происхождении ваших родителей:",
+            words: ["My", "parents", "are", "from", "Korea"],
+            correctAnswer: "My parents are from Korea.",
+            correctFeedback: "Great! 'My parents are from Korea' uses 'are' for plural subjects.",
+            correctFeedbackRu: "Отлично! 'My parents are from Korea' использует 'are' для подлежащих во множественном числе.",
+            incorrectFeedback: "Remember: My parents + are + from + country.",
+            incorrectFeedbackRu: "Помните: My parents + are + from + страна."
         },
         {
-            question: "Form a sentence about being proud of nationality:",
-            questionRu: "Составьте предложение о гордости за национальность:",
-            words: ["I", "am", "proud", "to", "be", "Italian"],
-            correctAnswer: "I am proud to be Italian.",
-            correctFeedback: "Great! This expresses pride in your nationality.",
-            correctFeedbackRu: "Отлично! Это выражает гордость за вашу национальность.",
-            incorrectFeedback: "Remember: I am proud to be + nationality.",
-            incorrectFeedbackRu: "Помните: I am proud to be + национальность."
+            question: "Form a sentence about your brother's nationality:",
+            questionRu: "Составьте предложение о национальности вашего брата:",
+            words: ["My", "brother", "is", "German"],
+            correctAnswer: "My brother is German.",
+            correctFeedback: "Perfect! 'My brother is German' correctly describes his nationality.",
+            correctFeedbackRu: "Идеально! 'My brother is German' правильно описывает его национальность.",
+            incorrectFeedback: "Follow: My brother + is + nationality.",
+            incorrectFeedbackRu: "Следуйте: My brother + is + национальность."
         },
         {
-            question: "Create a complete personal introduction:",
-            questionRu: "Составьте полное личное представление:",
-            words: ["Hello", "I", "am", "Maria", "I", "am", "from", "Spain", "and", "I", "am", "24"],
-            correctAnswer: "Hello, I am Maria, I am from Spain and I am 24.",
-            correctFeedback: "Excellent! This is a complete introduction with name, origin, and age.",
-            correctFeedbackRu: "Отлично! Это полное представление с именем, происхождением и возрастом.",
-            incorrectFeedback: "Remember: Hello, I am [name], I am from [country] and I am [age].",
-            incorrectFeedbackRu: "Помните: Hello, I am [имя], I am from [страна] and I am [возраст]."
+            question: "Create a sentence about your classmates' origin:",
+            questionRu: "Составьте предложение о происхождении ваших одноклассников:",
+            words: ["My", "classmates", "are", "from", "different", "countries"],
+            correctAnswer: "My classmates are from different countries.",
+            correctFeedback: "Excellent! 'My classmates are from different countries' shows diversity.",
+            correctFeedbackRu: "Отлично! 'My classmates are from different countries' показывает разнообразие.",
+            incorrectFeedback: "Use: My classmates + are + from + different countries.",
+            incorrectFeedbackRu: "Используйте: My classmates + are + from + different countries."
+        },
+        {
+            question: "Form a sentence about your grandmother's origin:",
+            questionRu: "Составьте предложение о происхождении вашей бабушки:",
+            words: ["My", "grandmother", "is", "from", "Italy"],
+            correctAnswer: "My grandmother is from Italy.",
+            correctFeedback: "Great! 'My grandmother is from Italy' properly states her origin.",
+            correctFeedbackRu: "Отлично! 'My grandmother is from Italy' правильно указывает её происхождение.",
+            incorrectFeedback: "Remember: My grandmother + is + from + country.",
+            incorrectFeedbackRu: "Помните: My grandmother + is + from + страна."
+        },
+        {
+            question: "Create a sentence about your family's nationality:",
+            questionRu: "Составьте предложение о национальности вашей семьи:",
+            words: ["We", "are", "all", "Brazilian"],
+            correctAnswer: "We are all Brazilian.",
+            correctFeedback: "Perfect! 'We are all Brazilian' shows the family's shared nationality.",
+            correctFeedbackRu: "Идеально! 'We are all Brazilian' показывает общую национальность семьи.",
+            incorrectFeedback: "Follow: We + are + all + nationality.",
+            incorrectFeedbackRu: "Следуйте: We + are + all + национальность."
         }
     ]
 };
 
 /* ============================================
-Page 2: Names, professions, and descriptions
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page2'] = {
-    sentenceBuilding: [
-        {
-            question: "Form a sentence about someone's age:",
-            questionRu: "Составьте предложение о чьем-то возрасте:",
-            words: ["She", "is", "27", "years", "old"],
-            correctAnswer: "She is 27 years old.",
-            correctFeedback: "Excellent! 'She is 27 years old' is correct for talking about someone else's age.",
-            correctFeedbackRu: "Отлично! 'She is 27 years old' правильно для разговора о чужом возрасте.",
-            incorrectFeedback: "Remember: She + is + age + years old.",
-            incorrectFeedbackRu: "Помните: She + is + возраст + years old."
-        },
-        {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["He", "is", "French"],
-            correctAnswer: "He is French.",
-            correctFeedback: "Perfect! 'He is French' correctly states his nationality.",
-            correctFeedbackRu: "Идеально! 'He is French' правильно указывает его национальность.",
-            incorrectFeedback: "Use: He + is + nationality.",
-            incorrectFeedbackRu: "Используйте: He + is + национальность."
-        },
-        {
-            question: "Form a sentence about age:",
-            questionRu: "Составьте предложение о возрасте:",
-            words: ["He", "is", "35", "years", "old"],
-            correctAnswer: "He is 35 years old.",
-            correctFeedback: "Great! 'He is 35 years old' is the correct form.",
-            correctFeedbackRu: "Отлично! 'He is 35 years old' - правильная форма.",
-            incorrectFeedback: "Follow this pattern: He + is + age + years old.",
-            incorrectFeedbackRu: "Следуйте этой схеме: He + is + возраст + years old."
-        },
-        {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["She", "is", "Italian"],
-            correctAnswer: "She is Italian.",
-            correctFeedback: "Excellent! 'She is Italian' expresses her nationality correctly.",
-            correctFeedbackRu: "Отлично! 'She is Italian' правильно выражает её национальность.",
-            incorrectFeedback: "Remember: She + is + nationality.",
-            incorrectFeedbackRu: "Помните: She + is + национальность."
-        },
-        {
-            question: "Form a sentence about age:",
-            questionRu: "Составьте предложение о возрасте:",
-            words: ["She", "is", "21", "years", "old"],
-            correctAnswer: "She is 21 years old.",
-            correctFeedback: "Perfect! 'She is 21 years old' is completely right.",
-            correctFeedbackRu: "Идеально! 'She is 21 years old' совершенно правильно.",
-            incorrectFeedback: "Use this structure: She + is + number + years old.",
-            incorrectFeedbackRu: "Используйте эту структуру: She + is + число + years old."
-        },
-        {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["He", "is", "Spanish"],
-            correctAnswer: "He is Spanish.",
-            correctFeedback: "Great job! 'He is Spanish' correctly states his nationality.",
-            correctFeedbackRu: "Отличная работа! 'He is Spanish' правильно указывает его национальность.",
-            incorrectFeedback: "Follow: He + is + nationality.",
-            incorrectFeedbackRu: "Следуйте: He + is + национальность."
-        },
-        {
-            question: "Form a sentence about age:",
-            questionRu: "Составьте предложение о возрасте:",
-            words: ["He", "is", "19", "years", "old"],
-            correctAnswer: "He is 19 years old.",
-            correctFeedback: "Excellent! 'He is 19 years old' is the correct way to express his age.",
-            correctFeedbackRu: "Отлично! 'He is 19 years old' - правильный способ выразить его возраст.",
-            incorrectFeedback: "Remember the order: He + is + age + years old.",
-            incorrectFeedbackRu: "Помните порядок: He + is + возраст + years old."
-        },
-        {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["She", "is", "German"],
-            correctAnswer: "She is German.",
-            correctFeedback: "Perfect! 'She is German' is the right form for nationality.",
-            correctFeedbackRu: "Идеально! 'She is German' - правильная форма для национальности.",
-            incorrectFeedback: "Use: She + is + nationality.",
-            incorrectFeedbackRu: "Используйте: She + is + национальность."
-        },
-        {
-            question: "Form a sentence about age:",
-            questionRu: "Составьте предложение о возрасте:",
-            words: ["She", "is", "40", "years", "old"],
-            correctAnswer: "She is 40 years old.",
-            correctFeedback: "Great! 'She is 40 years old' expresses her age perfectly.",
-            correctFeedbackRu: "Отлично! 'She is 40 years old' идеально выражает её возраст.",
-            incorrectFeedback: "Check the pattern: She + is + age + years old.",
-            incorrectFeedbackRu: "Проверьте схему: She + is + возраст + years old."
-        },
-        {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["He", "is", "Japanese"],
-            correctAnswer: "He is Japanese.",
-            correctFeedback: "Excellent! 'He is Japanese' correctly describes his nationality.",
-            correctFeedbackRu: "Отлично! 'He is Japanese' правильно описывает его национальность.",
-            incorrectFeedback: "Remember: He + is + nationality.",
-            incorrectFeedbackRu: "Помните: He + is + национальность."
-        }
-    ]
-};
-
-/* ============================================
-Page 3: Personal information with to be
+Page 3: Combining age and nationality information
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page3'] = {
+    title: "Combining age and nationality information",
     sentenceBuilding: [
         {
-            question: "Form a sentence about plural subjects and age:",
-            questionRu: "Составьте предложение о подлежащих во множественном числе и возрасте:",
-            words: ["We", "are", "25", "years", "old"],
-            correctAnswer: "We are 25 years old.",
-            correctFeedback: "Perfect! 'We are 25 years old' is correct for plural subjects.",
-            correctFeedbackRu: "Идеально! 'We are 25 years old' правильно для подлежащих во множественном числе.",
-            incorrectFeedback: "Remember: We + are + age + years old.",
-            incorrectFeedbackRu: "Помните: We + are + возраст + years old."
+            question: "Form a sentence with age and nationality about yourself:",
+            questionRu: "Составьте предложение с возрастом и национальностью о себе:",
+            words: ["I", "am", "19", "and", "I", "am", "Canadian"],
+            correctAnswer: "I am 19 and I am Canadian.",
+            correctFeedback: "Excellent! 'I am 19 and I am Canadian' combines both pieces of information.",
+            correctFeedbackRu: "Отлично! 'I am 19 and I am Canadian' объединяет обе части информации.",
+            incorrectFeedback: "Remember: I am + age + and I am + nationality.",
+            incorrectFeedbackRu: "Помните: I am + возраст + and I am + национальность."
         },
         {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["You", "are", "Brazilian"],
-            correctAnswer: "You are Brazilian.",
-            correctFeedback: "Excellent! 'You are Brazilian' correctly states nationality.",
-            correctFeedbackRu: "Отлично! 'You are Brazilian' правильно указывает национальность.",
-            incorrectFeedback: "Use: You + are + nationality.",
-            incorrectFeedbackRu: "Используйте: You + are + национальность."
+            question: "Create a sentence about your friend with age and origin:",
+            questionRu: "Составьте предложение о вашем друге с возрастом и происхождением:",
+            words: ["My", "friend", "is", "22", "and", "she", "is", "from", "Japan"],
+            correctAnswer: "My friend is 22 and she is from Japan.",
+            correctFeedback: "Perfect! This sentence gives complete information about your friend.",
+            correctFeedbackRu: "Идеально! Это предложение дает полную информацию о вашем друге.",
+            incorrectFeedback: "Use: My friend is + age + and she is from + country.",
+            incorrectFeedbackRu: "Используйте: My friend is + возраст + and she is from + страна."
         },
         {
-            question: "Form a sentence about age:",
-            questionRu: "Составьте предложение о возрасте:",
-            words: ["They", "are", "30", "years", "old"],
-            correctAnswer: "They are 30 years old.",
-            correctFeedback: "Great! 'They are 30 years old' is the correct plural form.",
-            correctFeedbackRu: "Отлично! 'They are 30 years old' - правильная форма множественного числа.",
-            incorrectFeedback: "Follow: They + are + age + years old.",
-            incorrectFeedbackRu: "Следуйте: They + are + возраст + years old."
+            question: "Form a sentence about your brother with age and nationality:",
+            questionRu: "Составьте предложение о вашем брате с возрастом и национальностью:",
+            words: ["My", "brother", "is", "16", "and", "he", "is", "Australian"],
+            correctAnswer: "My brother is 16 and he is Australian.",
+            correctFeedback: "Great! This combines age and nationality information perfectly.",
+            correctFeedbackRu: "Отлично! Это идеально сочетает информацию о возрасте и национальности.",
+            incorrectFeedback: "Follow: My brother is + age + and he is + nationality.",
+            incorrectFeedbackRu: "Следуйте: My brother is + возраст + and he is + национальность."
         },
         {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["We", "are", "Mexican"],
-            correctAnswer: "We are Mexican.",
-            correctFeedback: "Perfect! 'We are Mexican' expresses our nationality correctly.",
-            correctFeedbackRu: "Идеально! 'We are Mexican' правильно выражает нашу национальность.",
-            incorrectFeedback: "Remember: We + are + nationality.",
-            incorrectFeedbackRu: "Помните: We + are + национальность."
+            question: "Create a sentence about your sister with age and origin:",
+            questionRu: "Составьте предложение о вашей сестре с возрастом и происхождением:",
+            words: ["My", "sister", "is", "25", "and", "she", "is", "from", "France"],
+            correctAnswer: "My sister is 25 and she is from France.",
+            correctFeedback: "Excellent! This provides complete information about your sister.",
+            correctFeedbackRu: "Отлично! Это предоставляет полную информацию о вашей сестре.",
+            incorrectFeedback: "Remember: My sister is + age + and she is from + country.",
+            incorrectFeedbackRu: "Помните: My sister is + возраст + and she is from + страна."
         },
         {
-            question: "Form a sentence about age:",
-            questionRu: "Составьте предложение о возрасте:",
-            words: ["You", "are", "22", "years", "old"],
-            correctAnswer: "You are 22 years old.",
-            correctFeedback: "Excellent! 'You are 22 years old' is the right way to address someone's age.",
-            correctFeedbackRu: "Отлично! 'You are 22 years old' - правильный способ обратиться к чьему-то возрасту.",
-            incorrectFeedback: "Use this pattern: You + are + age + years old.",
-            incorrectFeedbackRu: "Используйте эту схему: You + are + возраст + years old."
+            question: "Form a sentence about your parents with age and nationality:",
+            questionRu: "Составьте предложение о ваших родителях с возрастом и национальностью:",
+            words: ["My", "parents", "are", "48", "and", "they", "are", "Turkish"],
+            correctAnswer: "My parents are 48 and they are Turkish.",
+            correctFeedback: "Perfect! This sentence correctly uses 'are' for plural subjects.",
+            correctFeedbackRu: "Идеально! Это предложение правильно использует 'are' для подлежащих во множественном числе.",
+            incorrectFeedback: "Use: My parents are + age + and they are + nationality.",
+            incorrectFeedbackRu: "Используйте: My parents are + возраст + and they are + национальность."
         },
         {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["They", "are", "Chinese"],
-            correctAnswer: "They are Chinese.",
-            correctFeedback: "Great job! 'They are Chinese' correctly describes their nationality.",
-            correctFeedbackRu: "Отличная работа! 'They are Chinese' правильно описывает их национальность.",
-            incorrectFeedback: "Follow: They + are + nationality.",
-            incorrectFeedbackRu: "Следуйте: They + are + национальность."
+            question: "Create a sentence about your teacher with age and origin:",
+            questionRu: "Составьте предложение о вашем учителе с возрастом и происхождением:",
+            words: ["My", "teacher", "is", "33", "and", "she", "is", "from", "Spain"],
+            correctAnswer: "My teacher is 33 and she is from Spain.",
+            correctFeedback: "Great! This gives complete information about your teacher.",
+            correctFeedbackRu: "Отлично! Это дает полную информацию о вашем учителе.",
+            incorrectFeedback: "Follow: My teacher is + age + and she is from + country.",
+            incorrectFeedbackRu: "Следуйте: My teacher is + возраст + and she is from + страна."
         },
         {
-            question: "Form a sentence about age:",
-            questionRu: "Составьте предложение о возрасте:",
-            words: ["We", "are", "28", "years", "old"],
-            correctAnswer: "We are 28 years old.",
-            correctFeedback: "Perfect! 'We are 28 years old' expresses our age correctly.",
-            correctFeedbackRu: "Идеально! 'We are 28 years old' правильно выражает наш возраст.",
-            incorrectFeedback: "Remember the structure: We + are + age + years old.",
-            incorrectFeedbackRu: "Помните структуру: We + are + возраст + years old."
+            question: "Form a sentence about your cousin with age and nationality:",
+            questionRu: "Составьте предложение о вашем двоюродном брате/сестре с возрастом и национальностью:",
+            words: ["My", "cousin", "is", "14", "and", "he", "is", "Greek"],
+            correctAnswer: "My cousin is 14 and he is Greek.",
+            correctFeedback: "Excellent! This combines age and nationality information well.",
+            correctFeedbackRu: "Отлично! Это хорошо сочетает информацию о возрасте и национальности.",
+            incorrectFeedback: "Remember: My cousin is + age + and he is + nationality.",
+            incorrectFeedbackRu: "Помните: My cousin is + возраст + and he is + национальность."
         },
         {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["You", "are", "Korean"],
-            correctAnswer: "You are Korean.",
-            correctFeedback: "Excellent! 'You are Korean' is the correct form for addressing nationality.",
-            correctFeedbackRu: "Отлично! 'You are Korean' - правильная форма для обращения к национальности.",
-            incorrectFeedback: "Use: You + are + nationality.",
-            incorrectFeedbackRu: "Используйте: You + are + национальность."
+            question: "Create a sentence about your grandparents with age and origin:",
+            questionRu: "Составьте предложение о ваших дедушке и бабушке с возрастом и происхождением:",
+            words: ["My", "grandparents", "are", "75", "and", "they", "are", "from", "Poland"],
+            correctAnswer: "My grandparents are 75 and they are from Poland.",
+            correctFeedback: "Perfect! This uses 'are' correctly for plural subjects.",
+            correctFeedbackRu: "Идеально! Это правильно использует 'are' для подлежащих во множественном числе.",
+            incorrectFeedback: "Use: My grandparents are + age + and they are from + country.",
+            incorrectFeedbackRu: "Используйте: My grandparents are + возраст + and they are from + страна."
         },
         {
-            question: "Form a sentence about age:",
-            questionRu: "Составьте предложение о возрасте:",
-            words: ["They", "are", "35", "years", "old"],
-            correctAnswer: "They are 35 years old.",
-            correctFeedback: "Great! 'They are 35 years old' is perfectly correct for plural subjects.",
-            correctFeedbackRu: "Отлично! 'They are 35 years old' совершенно правильно для подлежащих во множественном числе.",
-            incorrectFeedback: "Check this pattern: They + are + age + years old.",
-            incorrectFeedbackRu: "Проверьте эту схему: They + are + возраст + years old."
+            question: "Form a sentence about your neighbor with age and nationality:",
+            questionRu: "Составьте предложение о вашем соседе с возрастом и национальностью:",
+            words: ["My", "neighbor", "is", "41", "and", "he", "is", "Egyptian"],
+            correctAnswer: "My neighbor is 41 and he is Egyptian.",
+            correctFeedback: "Great! This provides complete information about your neighbor.",
+            correctFeedbackRu: "Отлично! Это предоставляет полную информацию о вашем соседе.",
+            incorrectFeedback: "Follow: My neighbor is + age + and he is + nationality.",
+            incorrectFeedbackRu: "Следуйте: My neighbor is + возраст + and he is + национальность."
         },
         {
-            question: "Form a sentence about nationality:",
-            questionRu: "Составьте предложение о национальности:",
-            words: ["We", "are", "Indian"],
-            correctAnswer: "We are Indian.",
-            correctFeedback: "Perfect! 'We are Indian' correctly states our nationality.",
-            correctFeedbackRu: "Идеально! 'We are Indian' правильно указывает нашу национальность.",
-            incorrectFeedback: "Remember: We + are + nationality.",
-            incorrectFeedbackRu: "Помните: We + are + национальность."
+            question: "Create a sentence about yourself with detailed information:",
+            questionRu: "Составьте предложение о себе с подробной информацией:",
+            words: ["I", "am", "21", "years", "old", "and", "I", "am", "from", "Thailand"],
+            correctAnswer: "I am 21 years old and I am from Thailand.",
+            correctFeedback: "Excellent! This is a complete self-introduction with age and origin.",
+            correctFeedbackRu: "Отлично! Это полное самопредставление с возрастом и происхождением.",
+            incorrectFeedback: "Remember: I am + age + years old + and I am from + country.",
+            incorrectFeedbackRu: "Помните: I am + возраст + years old + and I am from + страна."
         }
     ]
 };
 
 /* ============================================
-Page 4: Nationalities and languages
+Page 4: Questions and negative forms
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page4'] = {
+    title: "Questions and negative forms",
     sentenceBuilding: [
         {
-            question: "Form a sentence with a name and age:",
-            questionRu: "Составьте предложение с именем и возрастом:",
-            words: ["My", "name", "is", "John", "and", "I", "am", "24", "years", "old"],
-            correctAnswer: "My name is John and I am 24 years old.",
-            correctFeedback: "Excellent! This sentence combines name and age information perfectly.",
-            correctFeedbackRu: "Отлично! Это предложение идеально сочетает информацию об имени и возрасте.",
-            incorrectFeedback: "Remember: My name is [name] and I am [age] years old.",
-            incorrectFeedbackRu: "Помните: My name is [имя] and I am [возраст] years old."
-        },
-        {
-            question: "Form a sentence about someone with name and nationality:",
-            questionRu: "Составьте предложение о ком-то с именем и национальностью:",
-            words: ["Her", "name", "is", "Maria", "and", "she", "is", "Spanish"],
-            correctAnswer: "Her name is Maria and she is Spanish.",
-            correctFeedback: "Perfect! This combines name and nationality information correctly.",
-            correctFeedbackRu: "Идеально! Это правильно сочетает информацию об имени и национальности.",
-            incorrectFeedback: "Use: Her name is [name] and she is [nationality].",
-            incorrectFeedbackRu: "Используйте: Her name is [имя] and she is [национальность]."
-        },
-        {
-            question: "Form a sentence about yourself with age and nationality:",
-            questionRu: "Составьте предложение о себе с возрастом и национальностью:",
-            words: ["I", "am", "26", "years", "old", "and", "I", "am", "American"],
-            correctAnswer: "I am 26 years old and I am American.",
-            correctFeedback: "Great! This sentence perfectly combines age and nationality.",
-            correctFeedbackRu: "Отлично! Это предложение идеально сочетает возраст и национальность.",
-            incorrectFeedback: "Remember: I am [age] years old and I am [nationality].",
-            incorrectFeedbackRu: "Помните: I am [возраст] years old and I am [национальность]."
-        },
-        {
-            question: "Form a sentence with name and nationality:",
-            questionRu: "Составьте предложение с именем и национальностью:",
-            words: ["His", "name", "is", "Pierre", "and", "he", "is", "French"],
-            correctAnswer: "His name is Pierre and he is French.",
-            correctFeedback: "Excellent! This correctly states both name and nationality.",
-            correctFeedbackRu: "Отлично! Это правильно указывает и имя, и национальность.",
-            incorrectFeedback: "Follow: His name is [name] and he is [nationality].",
-            incorrectFeedbackRu: "Следуйте: His name is [имя] and he is [национальность]."
-        },
-        {
-            question: "Form a sentence about age and nationality:",
-            questionRu: "Составьте предложение о возрасте и национальности:",
-            words: ["She", "is", "29", "years", "old", "and", "she", "is", "Italian"],
-            correctAnswer: "She is 29 years old and she is Italian.",
-            correctFeedback: "Perfect! This combines age and nationality information beautifully.",
-            correctFeedbackRu: "Идеально! Это прекрасно сочетает информацию о возрасте и национальности.",
-            incorrectFeedback: "Use: She is [age] years old and she is [nationality].",
-            incorrectFeedbackRu: "Используйте: She is [возраст] years old and she is [национальность]."
-        },
-        {
-            question: "Form a sentence with name and age:",
-            questionRu: "Составьте предложение с именем и возрастом:",
-            words: ["My", "name", "is", "Sarah", "and", "I", "am", "31", "years", "old"],
-            correctAnswer: "My name is Sarah and I am 31 years old.",
-            correctFeedback: "Great job! This introduction sentence is perfectly formed.",
-            correctFeedbackRu: "Отличная работа! Это представительное предложение идеально сформировано.",
-            incorrectFeedback: "Remember the pattern: My name is [name] and I am [age] years old.",
-            incorrectFeedbackRu: "Помните схему: My name is [имя] and I am [возраст] years old."
-        },
-        {
-            question: "Form a sentence about someone with age and nationality:",
-            questionRu: "Составьте предложение о ком-то с возрастом и национальностью:",
-            words: ["He", "is", "33", "years", "old", "and", "he", "is", "German"],
-            correctAnswer: "He is 33 years old and he is German.",
-            correctFeedback: "Excellent! This describes both his age and nationality correctly.",
-            correctFeedbackRu: "Отлично! Это правильно описывает и его возраст, и национальность.",
-            incorrectFeedback: "Follow: He is [age] years old and he is [nationality].",
-            incorrectFeedbackRu: "Следуйте: He is [возраст] years old and he is [национальность]."
-        },
-        {
-            question: "Form a sentence with name and nationality:",
-            questionRu: "Составьте предложение с именем и национальностью:",
-            words: ["Her", "name", "is", "Yuki", "and", "she", "is", "Japanese"],
-            correctAnswer: "Her name is Yuki and she is Japanese.",
-            correctFeedback: "Perfect! This introduces someone with both name and nationality.",
-            correctFeedbackRu: "Идеально! Это представляет кого-то с именем и национальностью.",
-            incorrectFeedback: "Use: Her name is [name] and she is [nationality].",
-            incorrectFeedbackRu: "Используйте: Her name is [имя] and she is [национальность]."
-        },
-        {
-            question: "Form a sentence about yourself:",
-            questionRu: "Составьте предложение о себе:",
-            words: ["I", "am", "27", "years", "old", "and", "I", "am", "Canadian"],
-            correctAnswer: "I am 27 years old and I am Canadian.",
-            correctFeedback: "Great! This is a perfect self-introduction with age and nationality.",
-            correctFeedbackRu: "Отлично! Это идеальное самопредставление с возрастом и национальностью.",
-            incorrectFeedback: "Remember: I am [age] years old and I am [nationality].",
-            incorrectFeedbackRu: "Помните: I am [возраст] years old and I am [национальность]."
-        },
-        {
-            question: "Form a sentence with name and age:",
-            questionRu: "Составьте предложение с именем и возрастом:",
-            words: ["His", "name", "is", "David", "and", "he", "is", "28", "years", "old"],
-            correctAnswer: "His name is David and he is 28 years old.",
-            correctFeedback: "Excellent! This perfectly introduces someone with name and age.",
-            correctFeedbackRu: "Отлично! Это идеально представляет кого-то с именем и возрастом.",
-            incorrectFeedback: "Follow: His name is [name] and he is [age] years old.",
-            incorrectFeedbackRu: "Следуйте: His name is [имя] and he is [возраст] years old."
-        }
-    ]
-};
-
-/* ============================================
-Page 5: Questions with "to be" about age and nationality
-============================================ */
-window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page5'] = {
-    sentenceBuilding: [
-        {
-            question: "Form a question about age:",
-            questionRu: "Составьте вопрос о возрасте:",
+            question: "Form a question about someone's age:",
+            questionRu: "Составьте вопрос о чьем-то возрасте:",
             words: ["How", "old", "are", "you"],
             correctAnswer: "How old are you?",
             correctFeedback: "Perfect! 'How old are you?' is the standard way to ask about age.",
@@ -3269,634 +3213,748 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
             incorrectFeedbackRu: "Помните: How old + are + you + ?"
         },
         {
-            question: "Form a question about nationality:",
+            question: "Create a question about nationality:",
             questionRu: "Составьте вопрос о национальности:",
-            words: ["What", "nationality", "are", "you"],
-            correctAnswer: "What nationality are you?",
-            correctFeedback: "Excellent! 'What nationality are you?' is the correct question form.",
-            correctFeedbackRu: "Отлично! 'What nationality are you?' - правильная форма вопроса.",
-            incorrectFeedback: "Use: What nationality + are + you + ?",
-            incorrectFeedbackRu: "Используйте: What nationality + are + you + ?"
-        },
-        {
-            question: "Form a question about someone's age:",
-            questionRu: "Составьте вопрос о чьем-то возрасте:",
-            words: ["How", "old", "is", "she"],
-            correctAnswer: "How old is she?",
-            correctFeedback: "Great! 'How old is she?' is the correct way to ask about someone else's age.",
-            correctFeedbackRu: "Отлично! 'How old is she?' - правильный способ спросить о чужом возрасте.",
-            incorrectFeedback: "Remember: How old + is + she + ?",
-            incorrectFeedbackRu: "Помните: How old + is + she + ?"
-        },
-        {
-            question: "Form a question about nationality:",
-            questionRu: "Составьте вопрос о национальности:",
-            words: ["Are", "you", "American"],
-            correctAnswer: "Are you American?",
-            correctFeedback: "Perfect! 'Are you American?' is a direct way to ask about nationality.",
-            correctFeedbackRu: "Идеально! 'Are you American?' - прямой способ спросить о национальности.",
+            words: ["Are", "you", "Korean"],
+            correctAnswer: "Are you Korean?",
+            correctFeedback: "Excellent! 'Are you Korean?' is a proper yes/no question about nationality.",
+            correctFeedbackRu: "Отлично! 'Are you Korean?' - правильный вопрос да/нет о национальности.",
             incorrectFeedback: "Use: Are + you + nationality + ?",
             incorrectFeedbackRu: "Используйте: Are + you + национальность + ?"
         },
         {
-            question: "Form a question about someone's nationality:",
-            questionRu: "Составьте вопрос о чьей-то национальности:",
-            words: ["Is", "he", "British"],
-            correctAnswer: "Is he British?",
-            correctFeedback: "Excellent! 'Is he British?' correctly asks about his nationality.",
-            correctFeedbackRu: "Отлично! 'Is he British?' правильно спрашивает о его национальности.",
-            incorrectFeedback: "Follow: Is + he + nationality + ?",
-            incorrectFeedbackRu: "Следуйте: Is + he + национальность + ?"
+            question: "Form a negative sentence about age:",
+            questionRu: "Составьте отрицательное предложение о возрасте:",
+            words: ["I", "am", "not", "30", "years", "old"],
+            correctAnswer: "I am not 30 years old.",
+            correctFeedback: "Great! 'I am not 30 years old' correctly negates the age statement.",
+            correctFeedbackRu: "Отлично! 'I am not 30 years old' правильно отрицает утверждение о возрасте.",
+            incorrectFeedback: "Remember: I + am + not + age + years old.",
+            incorrectFeedbackRu: "Помните: I + am + not + возраст + years old."
         },
         {
-            question: "Form a question about age:",
-            questionRu: "Составьте вопрос о возрасте:",
-            words: ["How", "old", "is", "your", "brother"],
-            correctAnswer: "How old is your brother?",
-            correctFeedback: "Great! 'How old is your brother?' asks about a family member's age.",
-            correctFeedbackRu: "Отлично! 'How old is your brother?' спрашивает о возрасте члена семьи.",
-            incorrectFeedback: "Remember: How old + is + your brother + ?",
-            incorrectFeedbackRu: "Помните: How old + is + your brother + ?"
+            question: "Create a question about origin:",
+            questionRu: "Составьте вопрос о происхождении:",
+            words: ["Is", "she", "from", "Brazil"],
+            correctAnswer: "Is she from Brazil?",
+            correctFeedback: "Perfect! 'Is she from Brazil?' asks about someone's country of origin.",
+            correctFeedbackRu: "Идеально! 'Is she from Brazil?' спрашивает о стране происхождения.",
+            incorrectFeedback: "Follow: Is + she + from + country + ?",
+            incorrectFeedbackRu: "Следуйте: Is + she + from + страна + ?"
         },
         {
-            question: "Form a question about nationality:",
-            questionRu: "Составьте вопрос о национальности:",
-            words: ["Are", "they", "Chinese"],
-            correctAnswer: "Are they Chinese?",
-            correctFeedback: "Perfect! 'Are they Chinese?' asks about multiple people's nationality.",
-            correctFeedbackRu: "Идеально! 'Are they Chinese?' спрашивает о национальности нескольких людей.",
-            incorrectFeedback: "Use: Are + they + nationality + ?",
-            incorrectFeedbackRu: "Используйте: Are + they + национальность + ?"
+            question: "Form a negative sentence about nationality:",
+            questionRu: "Составьте отрицательное предложение о национальности:",
+            words: ["He", "is", "not", "American"],
+            correctAnswer: "He is not American.",
+            correctFeedback: "Excellent! 'He is not American' correctly negates nationality.",
+            correctFeedbackRu: "Отлично! 'He is not American' правильно отрицает национальность.",
+            incorrectFeedback: "Use: He + is + not + nationality.",
+            incorrectFeedbackRu: "Используйте: He + is + not + национальность."
         },
         {
-            question: "Form a question about age:",
-            questionRu: "Составьте вопрос о возрасте:",
-            words: ["How", "old", "are", "your", "parents"],
-            correctAnswer: "How old are your parents?",
-            correctFeedback: "Excellent! 'How old are your parents?' asks about parents' age.",
-            correctFeedbackRu: "Отлично! 'How old are your parents?' спрашивает о возрасте родителей.",
-            incorrectFeedback: "Follow: How old + are + your parents + ?",
-            incorrectFeedbackRu: "Следуйте: How old + are + your parents + ?"
+            question: "Create a question about someone's age:",
+            questionRu: "Составьте вопрос о чьем-то возрасте:",
+            words: ["Is", "your", "sister", "18", "years", "old"],
+            correctAnswer: "Is your sister 18 years old?",
+            correctFeedback: "Great! This asks about a specific person's specific age.",
+            correctFeedbackRu: "Отлично! Это спрашивает о конкретном возрасте конкретного человека.",
+            incorrectFeedback: "Remember: Is + your sister + age + years old + ?",
+            incorrectFeedbackRu: "Помните: Is + your sister + возраст + years old + ?"
         },
         {
-            question: "Form a question about nationality:",
-            questionRu: "Составьте вопрос о национальности:",
-            words: ["Is", "your", "friend", "Italian"],
-            correctAnswer: "Is your friend Italian?",
-            correctFeedback: "Great! 'Is your friend Italian?' asks about a friend's nationality.",
-            correctFeedbackRu: "Отлично! 'Is your friend Italian?' спрашивает о национальности друга.",
-            incorrectFeedback: "Remember: Is + your friend + nationality + ?",
-            incorrectFeedbackRu: "Помните: Is + your friend + национальность + ?"
+            question: "Form a negative sentence about origin:",
+            questionRu: "Составьте отрицательное предложение о происхождении:",
+            words: ["We", "are", "not", "from", "China"],
+            correctAnswer: "We are not from China.",
+            correctFeedback: "Perfect! 'We are not from China' negates the origin statement.",
+            correctFeedbackRu: "Идеально! 'We are not from China' отрицает утверждение о происхождении.",
+            incorrectFeedback: "Follow: We + are + not + from + country.",
+            incorrectFeedbackRu: "Следуйте: We + are + not + from + страна."
         },
         {
-            question: "Form a question about age:",
-            questionRu: "Составьте вопрос о возрасте:",
-            words: ["How", "old", "is", "he"],
-            correctAnswer: "How old is he?",
-            correctFeedback: "Perfect! 'How old is he?' is the simple way to ask about a man's age.",
-            correctFeedbackRu: "Идеально! 'How old is he?' - простой способ спросить о возрасте мужчины.",
-            incorrectFeedback: "Use: How old + is + he + ?",
-            incorrectFeedbackRu: "Используйте: How old + is + he + ?"
+            question: "Create a question about multiple people:",
+            questionRu: "Составьте вопрос о нескольких людях:",
+            words: ["Are", "they", "from", "the", "same", "country"],
+            correctAnswer: "Are they from the same country?",
+            correctFeedback: "Excellent! This asks about the origin of multiple people.",
+            correctFeedbackRu: "Отлично! Это спрашивает о происхождении нескольких людей.",
+            incorrectFeedback: "Use: Are + they + from + the same country + ?",
+            incorrectFeedbackRu: "Используйте: Are + they + from + the same country + ?"
+        },
+        {
+            question: "Form a negative sentence with contractions:",
+            questionRu: "Составьте отрицательное предложение с сокращениями:",
+            words: ["She", "isn't", "25", "years", "old"],
+            correctAnswer: "She isn't 25 years old.",
+            correctFeedback: "Great! 'She isn't 25 years old' uses the contraction form.",
+            correctFeedbackRu: "Отлично! 'She isn't 25 years old' использует сокращенную форму.",
+            incorrectFeedback: "Remember: She + isn't + age + years old.",
+            incorrectFeedbackRu: "Помните: She + isn't + возраст + years old."
+        },
+        {
+            question: "Create a question about age range:",
+            questionRu: "Составьте вопрос о возрастном диапазоне:",
+            words: ["Are", "you", "both", "teenagers"],
+            correctAnswer: "Are you both teenagers?",
+            correctFeedback: "Perfect! This asks about the age group of two people.",
+            correctFeedbackRu: "Идеально! Это спрашивает о возрастной группе двух людей.",
+            incorrectFeedback: "Follow: Are + you + both + age group + ?",
+            incorrectFeedbackRu: "Следуйте: Are + you + both + возрастная группа + ?"
         }
     ]
 };
 
 /* ============================================
-Page 6: Negative sentences with "to be" about age and nationality
+Page 5: Family relationships and descriptions
+============================================ */
+window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page5'] = {
+    title: "Family relationships and descriptions",
+    sentenceBuilding: [
+        {
+            question: "Form a sentence about your uncle:",
+            questionRu: "Составьте предложение о вашем дяде:",
+            words: ["My", "uncle", "is", "42", "and", "very", "kind"],
+            correctAnswer: "My uncle is 42 and very kind.",
+            correctFeedback: "Excellent! This combines age with a personality description.",
+            correctFeedbackRu: "Отлично! Это сочетает возраст с описанием личности.",
+            incorrectFeedback: "Remember: My uncle + is + age + and + adjective.",
+            incorrectFeedbackRu: "Помните: My uncle + is + возраст + and + прилагательное."
+        },
+        {
+            question: "Create a sentence about your aunt and nationality:",
+            questionRu: "Составьте предложение о вашей тете и национальности:",
+            words: ["My", "aunt", "is", "Swedish", "and", "35", "years", "old"],
+            correctAnswer: "My aunt is Swedish and 35 years old.",
+            correctFeedback: "Perfect! This combines nationality and age information.",
+            correctFeedbackRu: "Идеально! Это сочетает информацию о национальности и возрасте.",
+            incorrectFeedback: "Use: My aunt + is + nationality + and + age + years old.",
+            incorrectFeedbackRu: "Используйте: My aunt + is + национальность + and + возраст + years old."
+        },
+        {
+            question: "Form a sentence about your cousins:",
+            questionRu: "Составьте предложение о ваших двоюродных братьях/сестрах:",
+            words: ["My", "cousins", "are", "twins", "and", "they", "are", "20"],
+            correctAnswer: "My cousins are twins and they are 20.",
+            correctFeedback: "Great! This describes both the relationship and age.",
+            correctFeedbackRu: "Отлично! Это описывает и отношения, и возраст.",
+            incorrectFeedback: "Follow: My cousins + are + relationship + and + they are + age.",
+            incorrectFeedbackRu: "Следуйте: My cousins + are + отношение + and + they are + возраст."
+        },
+        {
+            question: "Create a sentence about your nephew:",
+            questionRu: "Составьте предложение о вашем племяннике:",
+            words: ["My", "nephew", "is", "only", "5", "years", "old"],
+            correctAnswer: "My nephew is only 5 years old.",
+            correctFeedback: "Excellent! 'Only' emphasizes how young he is.",
+            correctFeedbackRu: "Отлично! 'Only' подчеркивает, как он мал.",
+            incorrectFeedback: "Remember: My nephew + is + only + age + years old.",
+            incorrectFeedbackRu: "Помните: My nephew + is + only + возраст + years old."
+        },
+        {
+            question: "Form a sentence about your niece and origin:",
+            questionRu: "Составьте предложение о вашей племяннице и происхождении:",
+            words: ["My", "niece", "is", "from", "Canada", "and", "she", "is", "8"],
+            correctAnswer: "My niece is from Canada and she is 8.",
+            correctFeedback: "Perfect! This gives both origin and age information.",
+            correctFeedbackRu: "Идеально! Это дает информацию и о происхождении, и о возрасте.",
+            incorrectFeedback: "Use: My niece + is + from + country + and + she is + age.",
+            incorrectFeedbackRu: "Используйте: My niece + is + from + страна + and + she is + возраст."
+        },
+        {
+            question: "Create a sentence about your grandfather:",
+            questionRu: "Составьте предложение о вашем дедушке:",
+            words: ["My", "grandfather", "is", "78", "and", "still", "active"],
+            correctAnswer: "My grandfather is 78 and still active.",
+            correctFeedback: "Great! This shows age with a positive characteristic.",
+            correctFeedbackRu: "Отлично! Это показывает возраст с положительной характеристикой.",
+            incorrectFeedback: "Follow: My grandfather + is + age + and + still + adjective.",
+            incorrectFeedbackRu: "Следуйте: My grandfather + is + возраст + and + still + прилагательное."
+        },
+        {
+            question: "Form a sentence about your stepmother:",
+            questionRu: "Составьте предложение о вашей мачехе:",
+            words: ["My", "stepmother", "is", "Irish", "and", "very", "friendly"],
+            correctAnswer: "My stepmother is Irish and very friendly.",
+            correctFeedback: "Excellent! This combines nationality with personality.",
+            correctFeedbackRu: "Отлично! Это сочетает национальность с личностными качествами.",
+            incorrectFeedback: "Remember: My stepmother + is + nationality + and + very + adjective.",
+            incorrectFeedbackRu: "Помните: My stepmother + is + национальность + and + very + прилагательное."
+        },
+        {
+            question: "Create a sentence about your siblings:",
+            questionRu: "Составьте предложение о ваших братьях и сестрах:",
+            words: ["My", "siblings", "are", "all", "adults", "now"],
+            correctAnswer: "My siblings are all adults now.",
+            correctFeedback: "Perfect! This describes the life stage of multiple family members.",
+            correctFeedbackRu: "Идеально! Это описывает жизненный этап нескольких членов семьи.",
+            incorrectFeedback: "Use: My siblings + are + all + life stage + now.",
+            incorrectFeedbackRu: "Используйте: My siblings + are + all + жизненный этап + now."
+        },
+        {
+            question: "Form a sentence about your in-laws:",
+            questionRu: "Составьте предложение о ваших родственниках со стороны супруга:",
+            words: ["My", "in-laws", "are", "from", "different", "backgrounds"],
+            correctAnswer: "My in-laws are from different backgrounds.",
+            correctFeedback: "Great! This describes diversity in extended family.",
+            correctFeedbackRu: "Отлично! Это описывает разнообразие в расширенной семье.",
+            incorrectFeedback: "Follow: My in-laws + are + from + different + backgrounds.",
+            incorrectFeedbackRu: "Следуйте: My in-laws + are + from + different + backgrounds."
+        },
+        {
+            question: "Create a sentence about age comparison in family:",
+            questionRu: "Составьте предложение о сравнении возраста в семье:",
+            words: ["I", "am", "older", "than", "my", "sister"],
+            correctAnswer: "I am older than my sister.",
+            correctFeedback: "Excellent! This compares ages within the family.",
+            correctFeedbackRu: "Отлично! Это сравнивает возраста в семье.",
+            incorrectFeedback: "Remember: I + am + older than + family member.",
+            incorrectFeedbackRu: "Помните: I + am + older than + член семьи."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Professional and educational contexts
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page6'] = {
+    title: "Professional and educational contexts",
     sentenceBuilding: [
         {
-            question: "Form a negative sentence about age:",
-            questionRu: "Составьте отрицательное предложение о возрасте:",
-            words: ["I", "am", "not", "25", "years", "old"],
-            correctAnswer: "I am not 25 years old.",
-            correctFeedback: "Perfect! 'I am not 25 years old' correctly negates age information.",
-            correctFeedbackRu: "Идеально! 'I am not 25 years old' правильно отрицает информацию о возрасте.",
-            incorrectFeedback: "Remember: I + am not + age + years old.",
-            incorrectFeedbackRu: "Помните: I + am not + возраст + years old."
+            question: "Form a sentence about your boss:",
+            questionRu: "Составьте предложение о вашем начальнике:",
+            words: ["My", "boss", "is", "45", "and", "very", "experienced"],
+            correctAnswer: "My boss is 45 and very experienced.",
+            correctFeedback: "Excellent! This combines age with professional qualities.",
+            correctFeedbackRu: "Отлично! Это сочетает возраст с профессиональными качествами.",
+            incorrectFeedback: "Remember: My boss + is + age + and + very + adjective.",
+            incorrectFeedbackRu: "Помните: My boss + is + возраст + and + very + прилагательное."
         },
         {
-            question: "Form a negative sentence about nationality:",
-            questionRu: "Составьте отрицательное предложение о национальности:",
-            words: ["She", "is", "not", "American"],
-            correctAnswer: "She is not American.",
-            correctFeedback: "Excellent! 'She is not American' correctly states what nationality she isn't.",
-            correctFeedbackRu: "Отлично! 'She is not American' правильно указывает, какой национальности она не является.",
-            incorrectFeedback: "Use: She + is not + nationality.",
-            incorrectFeedbackRu: "Используйте: She + is not + национальность."
+            question: "Create a sentence about your colleagues:",
+            questionRu: "Составьте предложение о ваших коллегах:",
+            words: ["My", "colleagues", "are", "from", "many", "different", "countries"],
+            correctAnswer: "My colleagues are from many different countries.",
+            correctFeedback: "Perfect! This describes workplace diversity.",
+            correctFeedbackRu: "Идеально! Это описывает разнообразие на рабочем месте.",
+            incorrectFeedback: "Use: My colleagues + are + from + many different countries.",
+            incorrectFeedbackRu: "Используйте: My colleagues + are + from + many different countries."
         },
         {
-            question: "Form a negative sentence about age:",
-            questionRu: "Составьте отрицательное предложение о возрасте:",
-            words: ["He", "is", "not", "30", "years", "old"],
-            correctAnswer: "He is not 30 years old.",
-            correctFeedback: "Great! 'He is not 30 years old' negates his age correctly.",
-            correctFeedbackRu: "Отлично! 'He is not 30 years old' правильно отрицает его возраст.",
-            incorrectFeedback: "Follow: He + is not + age + years old.",
-            incorrectFeedbackRu: "Следуйте: He + is not + возраст + years old."
+            question: "Form a sentence about your manager and nationality:",
+            questionRu: "Составьте предложение о вашем менеджере и национальности:",
+            words: ["Our", "manager", "is", "Indian", "and", "speaks", "three", "languages"],
+            correctAnswer: "Our manager is Indian and speaks three languages.",
+            correctFeedback: "Great! This combines nationality with language skills.",
+            correctFeedbackRu: "Отлично! Это сочетает национальность с языковыми навыками.",
+            incorrectFeedback: "Follow: Our manager + is + nationality + and + speaks + languages.",
+            incorrectFeedbackRu: "Следуйте: Our manager + is + национальность + and + speaks + языки."
         },
         {
-            question: "Form a negative sentence about nationality:",
-            questionRu: "Составьте отрицательное предложение о национальности:",
-            words: ["We", "are", "not", "French"],
-            correctAnswer: "We are not French.",
-            correctFeedback: "Perfect! 'We are not French' correctly negates nationality for plural subjects.",
-            correctFeedbackRu: "Идеально! 'We are not French' правильно отрицает национальность для подлежащих во множественном числе.",
-            incorrectFeedback: "Remember: We + are not + nationality.",
-            incorrectFeedbackRu: "Помните: We + are not + национальность."
+            question: "Create a sentence about your professor:",
+            questionRu: "Составьте предложение о вашем профессоре:",
+            words: ["My", "professor", "is", "60", "and", "still", "teaching"],
+            correctAnswer: "My professor is 60 and still teaching.",
+            correctFeedback: "Excellent! This shows continued professional activity with age.",
+            correctFeedbackRu: "Отлично! Это показывает продолжающуюся профессиональную деятельность с возрастом.",
+            incorrectFeedback: "Remember: My professor + is + age + and + still + activity.",
+            incorrectFeedbackRu: "Помните: My professor + is + возраст + and + still + деятельность."
         },
         {
-            question: "Form a negative sentence about age:",
-            questionRu: "Составьте отрицательное предложение о возрасте:",
-            words: ["They", "are", "not", "18", "years", "old"],
-            correctAnswer: "They are not 18 years old.",
-            correctFeedback: "Excellent! 'They are not 18 years old' correctly negates their age.",
-            correctFeedbackRu: "Отлично! 'They are not 18 years old' правильно отрицает их возраст.",
-            incorrectFeedback: "Use: They + are not + age + years old.",
-            incorrectFeedbackRu: "Используйте: They + are not + возраст + years old."
+            question: "Form a sentence about your study group:",
+            questionRu: "Составьте предложение о вашей учебной группе:",
+            words: ["Our", "study", "group", "members", "are", "all", "international", "students"],
+            correctAnswer: "Our study group members are all international students.",
+            correctFeedback: "Perfect! This describes the composition of your study group.",
+            correctFeedbackRu: "Идеально! Это описывает состав вашей учебной группы.",
+            incorrectFeedback: "Use: Our study group members + are + all + type of students.",
+            incorrectFeedbackRu: "Используйте: Our study group members + are + all + тип студентов."
         },
         {
-            question: "Form a negative sentence about nationality:",
-            questionRu: "Составьте отрицательное предложение о национальности:",
-            words: ["You", "are", "not", "German"],
-            correctAnswer: "You are not German.",
-            correctFeedback: "Great! 'You are not German' correctly negates nationality.",
-            correctFeedbackRu: "Отлично! 'You are not German' правильно отрицает национальность.",
-            incorrectFeedback: "Follow: You + are not + nationality.",
-            incorrectFeedbackRu: "Следуйте: You + are not + национальность."
+            question: "Create a sentence about your supervisor and origin:",
+            questionRu: "Составьте предложение о вашем руководителе и происхождении:",
+            words: ["My", "supervisor", "is", "from", "Germany", "and", "very", "organized"],
+            correctAnswer: "My supervisor is from Germany and very organized.",
+            correctFeedback: "Great! This combines origin with work characteristics.",
+            correctFeedbackRu: "Отлично! Это сочетает происхождение с рабочими характеристиками.",
+            incorrectFeedback: "Follow: My supervisor + is + from + country + and + very + adjective.",
+            incorrectFeedbackRu: "Следуйте: My supervisor + is + from + страна + and + very + прилагательное."
         },
         {
-            question: "Form a negative sentence about age:",
-            questionRu: "Составьте отрицательное предложение о возрасте:",
-            words: ["I", "am", "not", "40", "years", "old"],
-            correctAnswer: "I am not 40 years old.",
-            correctFeedback: "Perfect! 'I am not 40 years old' is the correct negative form.",
-            correctFeedbackRu: "Идеально! 'I am not 40 years old' - правильная отрицательная форма.",
-            incorrectFeedback: "Remember: I + am not + age + years old.",
-            incorrectFeedbackRu: "Помните: I + am not + возраст + years old."
+            question: "Form a sentence about your department:",
+            questionRu: "Составьте предложение о вашем отделе:",
+            words: ["The", "people", "in", "my", "department", "are", "mostly", "young", "professionals"],
+            correctAnswer: "The people in my department are mostly young professionals.",
+            correctFeedback: "Excellent! This describes the age and professional status of your colleagues.",
+            correctFeedbackRu: "Отлично! Это описывает возраст и профессиональный статус ваших коллег.",
+            incorrectFeedback: "Remember: The people in my department + are + mostly + description.",
+            incorrectFeedbackRu: "Помните: The people in my department + are + mostly + описание."
         },
         {
-            question: "Form a negative sentence about nationality:",
-            questionRu: "Составьте отрицательное предложение о национальности:",
-            words: ["He", "is", "not", "Spanish"],
-            correctAnswer: "He is not Spanish.",
-            correctFeedback: "Excellent! 'He is not Spanish' correctly states what he isn't.",
-            correctFeedbackRu: "Отлично! 'He is not Spanish' правильно указывает, кем он не является.",
-            incorrectFeedback: "Use: He + is not + nationality.",
-            incorrectFeedbackRu: "Используйте: He + is not + национальность."
+            question: "Create a sentence about your client:",
+            questionRu: "Составьте предложение о вашем клиенте:",
+            words: ["Our", "main", "client", "is", "Japanese", "and", "very", "punctual"],
+            correctAnswer: "Our main client is Japanese and very punctual.",
+            correctFeedback: "Perfect! This links nationality with business characteristics.",
+            correctFeedbackRu: "Идеально! Это связывает национальность с деловыми характеристиками.",
+            incorrectFeedback: "Use: Our main client + is + nationality + and + very + adjective.",
+            incorrectFeedbackRu: "Используйте: Our main client + is + национальность + and + very + прилагательное."
         },
         {
-            question: "Form a negative sentence about age:",
-            questionRu: "Составьте отрицательное предложение о возрасте:",
-            words: ["She", "is", "not", "22", "years", "old"],
-            correctAnswer: "She is not 22 years old.",
-            correctFeedback: "Great! 'She is not 22 years old' negates her age properly.",
-            correctFeedbackRu: "Отлично! 'She is not 22 years old' правильно отрицает её возраст.",
-            incorrectFeedback: "Follow: She + is not + age + years old.",
-            incorrectFeedbackRu: "Следуйте: She + is not + возраст + years old."
+            question: "Form a sentence about your team:",
+            questionRu: "Составьте предложение о вашей команде:",
+            words: ["Our", "team", "is", "small", "but", "very", "efficient"],
+            correctAnswer: "Our team is small but very efficient.",
+            correctFeedback: "Great! This contrasts size with performance quality.",
+            correctFeedbackRu: "Отлично! Это противопоставляет размер с качеством работы.",
+            incorrectFeedback: "Follow: Our team + is + size + but + very + adjective.",
+            incorrectFeedbackRu: "Следуйте: Our team + is + размер + but + very + прилагательное."
         },
         {
-            question: "Form a negative sentence about nationality:",
-            questionRu: "Составьте отрицательное предложение о национальности:",
-            words: ["They", "are", "not", "Japanese"],
-            correctAnswer: "They are not Japanese.",
-            correctFeedback: "Perfect! 'They are not Japanese' correctly negates their nationality.",
-            correctFeedbackRu: "Идеально! 'They are not Japanese' правильно отрицает их национальность.",
-            incorrectFeedback: "Remember: They + are not + nationality.",
-            incorrectFeedbackRu: "Помните: They + are not + национальность."
+            question: "Create a sentence about your workplace diversity:",
+            questionRu: "Составьте предложение о разнообразии на вашем рабочем месте:",
+            words: ["We", "are", "all", "from", "different", "cultural", "backgrounds"],
+            correctAnswer: "We are all from different cultural backgrounds.",
+            correctFeedback: "Excellent! This emphasizes workplace cultural diversity.",
+            correctFeedbackRu: "Отлично! Это подчеркивает культурное разнообразие на рабочем месте.",
+            incorrectFeedback: "Remember: We + are + all + from + different cultural backgrounds.",
+            incorrectFeedbackRu: "Помните: We + are + all + from + different cultural backgrounds."
         }
     ]
 };
 
 /* ============================================
-Page 7: "Where are you from?" sentences and responses
+Page 7: Age ranges and life stages
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page7'] = {
+    title: "Age ranges and life stages",
     sentenceBuilding: [
         {
-            question: "Form a question about origin:",
-            questionRu: "Составьте вопрос о происхождении:",
-            words: ["Where", "are", "you", "from"],
-            correctAnswer: "Where are you from?",
-            correctFeedback: "Perfect! 'Where are you from?' is the standard way to ask about someone's origin.",
-            correctFeedbackRu: "Идеально! 'Where are you from?' - стандартный способ спросить о чьем-то происхождении.",
-            incorrectFeedback: "Remember: Where + are + you + from + ?",
-            incorrectFeedbackRu: "Помните: Where + are + you + from + ?"
+            question: "Form a sentence about being in your twenties:",
+            questionRu: "Составьте предложение о том, что вам двадцать с чем-то лет:",
+            words: ["I", "am", "in", "my", "mid-twenties"],
+            correctAnswer: "I am in my mid-twenties.",
+            correctFeedback: "Excellent! 'I am in my mid-twenties' describes your age range perfectly.",
+            correctFeedbackRu: "Отлично! 'I am in my mid-twenties' отлично описывает ваш возрастной диапазон.",
+            incorrectFeedback: "Remember: I + am + in my + age range.",
+            incorrectFeedbackRu: "Помните: I + am + in my + возрастной диапазон."
         },
         {
-            question: "Form a response about your origin:",
-            questionRu: "Составьте ответ о своем происхождении:",
-            words: ["I", "am", "from", "Canada"],
-            correctAnswer: "I am from Canada.",
-            correctFeedback: "Excellent! 'I am from Canada' is the correct way to state your origin.",
-            correctFeedbackRu: "Отлично! 'I am from Canada' - правильный способ указать свое происхождение.",
-            incorrectFeedback: "Use: I + am from + country.",
-            incorrectFeedbackRu: "Используйте: I + am from + страна."
+            question: "Create a sentence about someone being young:",
+            questionRu: "Составьте предложение о том, что кто-то молод:",
+            words: ["She", "is", "too", "young", "to", "drive"],
+            correctAnswer: "She is too young to drive.",
+            correctFeedback: "Perfect! This connects age with capability restrictions.",
+            correctFeedbackRu: "Идеально! Это связывает возраст с ограничениями способностей.",
+            incorrectFeedback: "Use: She + is + too young + to + activity.",
+            incorrectFeedbackRu: "Используйте: She + is + too young + to + деятельность."
         },
         {
-            question: "Form a question about someone's origin:",
-            questionRu: "Составьте вопрос о чьем-то происхождении:",
-            words: ["Where", "is", "she", "from"],
-            correctAnswer: "Where is she from?",
-            correctFeedback: "Great! 'Where is she from?' asks about her place of origin.",
-            correctFeedbackRu: "Отлично! 'Where is she from?' спрашивает о месте её происхождения.",
-            incorrectFeedback: "Follow: Where + is + she + from + ?",
-            incorrectFeedbackRu: "Следуйте: Where + is + she + from + ?"
+            question: "Form a sentence about elderly people:",
+            questionRu: "Составьте предложение о пожилых людях:",
+            words: ["My", "grandparents", "are", "in", "their", "eighties"],
+            correctAnswer: "My grandparents are in their eighties.",
+            correctFeedback: "Great! This describes elderly people using decade references.",
+            correctFeedbackRu: "Отлично! Это описывает пожилых людей, используя ссылки на десятилетия.",
+            incorrectFeedback: "Follow: My grandparents + are + in their + decade.",
+            incorrectFeedbackRu: "Следуйте: My grandparents + are + in their + десятилетие."
         },
         {
-            question: "Form a response about someone's origin:",
-            questionRu: "Составьте ответ о чьем-то происхождении:",
-            words: ["He", "is", "from", "Brazil"],
-            correctAnswer: "He is from Brazil.",
-            correctFeedback: "Perfect! 'He is from Brazil' correctly states his country of origin.",
-            correctFeedbackRu: "Идеально! 'He is from Brazil' правильно указывает его страну происхождения.",
-            incorrectFeedback: "Remember: He + is from + country.",
-            incorrectFeedbackRu: "Помните: He + is from + страна."
+            question: "Create a sentence about being old enough:",
+            questionRu: "Составьте предложение о том, что достаточно взрослый:",
+            words: ["He", "is", "old", "enough", "to", "vote"],
+            correctAnswer: "He is old enough to vote.",
+            correctFeedback: "Excellent! This shows age-related rights and responsibilities.",
+            correctFeedbackRu: "Отлично! Это показывает права и обязанности, связанные с возрастом.",
+            incorrectFeedback: "Remember: He + is + old enough + to + activity.",
+            incorrectFeedbackRu: "Помните: He + is + old enough + to + деятельность."
         },
         {
-            question: "Form a response about origin:",
-            questionRu: "Составьте ответ о происхождении:",
-            words: ["We", "are", "from", "Australia"],
-            correctAnswer: "We are from Australia.",
-            correctFeedback: "Excellent! 'We are from Australia' states where you all come from.",
-            correctFeedbackRu: "Отлично! 'We are from Australia' указывает, откуда вы все родом.",
-            incorrectFeedback: "Use: We + are from + country.",
-            incorrectFeedbackRu: "Используйте: We + are from + страна."
+            question: "Form a sentence about approximate age:",
+            questionRu: "Составьте предложение о приблизительном возрасте:",
+            words: ["She", "is", "around", "50", "years", "old"],
+            correctAnswer: "She is around 50 years old.",
+            correctFeedback: "Perfect! 'Around' shows you're giving an approximate age.",
+            correctFeedbackRu: "Идеально! 'Around' показывает, что вы даете приблизительный возраст.",
+            incorrectFeedback: "Use: She + is + around + age + years old.",
+            incorrectFeedbackRu: "Используйте: She + is + around + возраст + years old."
         },
         {
-            question: "Form a question about multiple people's origin:",
-            questionRu: "Составьте вопрос о происхождении нескольких людей:",
-            words: ["Where", "are", "they", "from"],
-            correctAnswer: "Where are they from?",
-            correctFeedback: "Great! 'Where are they from?' asks about multiple people's origin.",
-            correctFeedbackRu: "Отлично! 'Where are they from?' спрашивает о происхождении нескольких людей.",
-            incorrectFeedback: "Follow: Where + are + they + from + ?",
-            incorrectFeedbackRu: "Следуйте: Where + are + they + from + ?"
+            question: "Create a sentence about being the same age:",
+            questionRu: "Составьте предложение об одинаковом возрасте:",
+            words: ["We", "are", "the", "same", "age"],
+            correctAnswer: "We are the same age.",
+            correctFeedback: "Great! This compares ages showing they are equal.",
+            correctFeedbackRu: "Отлично! Это сравнивает возраста, показывая, что они равны.",
+            incorrectFeedback: "Follow: We + are + the same age.",
+            incorrectFeedbackRu: "Следуйте: We + are + the same age."
         },
         {
-            question: "Form a response about multiple people's origin:",
-            questionRu: "Составьте ответ о происхождении нескольких людей:",
-            words: ["They", "are", "from", "Japan"],
-            correctAnswer: "They are from Japan.",
-            correctFeedback: "Perfect! 'They are from Japan' tells us their country of origin.",
-            correctFeedbackRu: "Идеально! 'They are from Japan' сообщает нам их страну происхождения.",
-            incorrectFeedback: "Remember: They + are from + country.",
-            incorrectFeedbackRu: "Помните: They + are from + страна."
+            question: "Form a sentence about being middle-aged:",
+            questionRu: "Составьте предложение о среднем возрасте:",
+            words: ["My", "parents", "are", "middle-aged", "but", "very", "active"],
+            correctAnswer: "My parents are middle-aged but very active.",
+            correctFeedback: "Excellent! This contrasts age category with energy level.",
+            correctFeedbackRu: "Отлично! Это противопоставляет возрастную категорию с уровнем энергии.",
+            incorrectFeedback: "Remember: My parents + are + age category + but + very + adjective.",
+            incorrectFeedbackRu: "Помните: My parents + are + возрастная категория + but + very + прилагательное."
         },
         {
-            question: "Form a response about your origin:",
-            questionRu: "Составьте ответ о своем происхождении:",
-            words: ["I", "am", "from", "Mexico"],
-            correctAnswer: "I am from Mexico.",
-            correctFeedback: "Excellent! 'I am from Mexico' clearly states your place of origin.",
-            correctFeedbackRu: "Отлично! 'I am from Mexico' четко указывает место вашего происхождения.",
-            incorrectFeedback: "Use: I + am from + country.",
-            incorrectFeedbackRu: "Используйте: I + am from + страна."
+            question: "Create a sentence about age difference:",
+            questionRu: "Составьте предложение о разнице в возрасте:",
+            words: ["I", "am", "three", "years", "younger", "than", "him"],
+            correctAnswer: "I am three years younger than him.",
+            correctFeedback: "Perfect! This gives a specific age difference comparison.",
+            correctFeedbackRu: "Идеально! Это дает конкретное сравнение разности возрастов.",
+            incorrectFeedback: "Use: I + am + number + years + younger/older + than + person.",
+            incorrectFeedbackRu: "Используйте: I + am + число + years + younger/older + than + человек."
         },
         {
-            question: "Form a response about someone's origin:",
-            questionRu: "Составьте ответ о чьем-то происхождении:",
-            words: ["She", "is", "from", "Russia"],
-            correctAnswer: "She is from Russia.",
-            correctFeedback: "Great! 'She is from Russia' indicates her country of origin.",
-            correctFeedbackRu: "Отлично! 'She is from Russia' указывает её страну происхождения.",
-            incorrectFeedback: "Follow: She + is from + country.",
-            incorrectFeedbackRu: "Следуйте: She + is from + страна."
+            question: "Form a sentence about retirement age:",
+            questionRu: "Составьте предложение о пенсионном возрасте:",
+            words: ["He", "is", "close", "to", "retirement", "age"],
+            correctAnswer: "He is close to retirement age.",
+            correctFeedback: "Great! This describes approaching a life milestone.",
+            correctFeedbackRu: "Отлично! Это описывает приближение к жизненной вехе.",
+            incorrectFeedback: "Follow: He + is + close to + life stage.",
+            incorrectFeedbackRu: "Следуйте: He + is + close to + жизненный этап."
         },
         {
-            question: "Form a response about origin:",
-            questionRu: "Составьте ответ о происхождении:",
-            words: ["You", "are", "from", "England"],
-            correctAnswer: "You are from England.",
-            correctFeedback: "Perfect! 'You are from England' states where the person is from.",
-            correctFeedbackRu: "Идеально! 'You are from England' указывает, откуда этот человек.",
-            incorrectFeedback: "Remember: You + are from + country.",
-            incorrectFeedbackRu: "Помните: You + are from + страна."
+            question: "Create a sentence about teenage years:",
+            questionRu: "Составьте предложение о подростковых годах:",
+            words: ["They", "are", "both", "still", "in", "their", "teens"],
+            correctAnswer: "They are both still in their teens.",
+            correctFeedback: "Excellent! This describes the teenage life stage for multiple people.",
+            correctFeedbackRu: "Отлично! Это описывает подростковый этап жизни для нескольких людей.",
+            incorrectFeedback: "Remember: They + are + both + still + in their teens.",
+            incorrectFeedbackRu: "Помните: They + are + both + still + in their teens."
         }
     ]
 };
 
 /* ============================================
-Page 8: Contractions with "to be" in age and nationality contexts
+Page 8: Cultural backgrounds and mixed heritage
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page8'] = {
+    title: "Cultural backgrounds and mixed heritage",
     sentenceBuilding: [
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["I'm", "25", "years", "old"],
-            correctAnswer: "I'm 25 years old.",
-            correctFeedback: "Perfect! 'I'm 25 years old' uses the contraction 'I'm' (I am) correctly.",
-            correctFeedbackRu: "Идеально! 'I'm 25 years old' правильно использует сокращение 'I'm' (I am).",
-            incorrectFeedback: "Remember: I'm = I am, so I'm + age + years old.",
-            incorrectFeedbackRu: "Помните: I'm = I am, поэтому I'm + возраст + years old."
+            question: "Form a sentence about mixed heritage:",
+            questionRu: "Составьте предложение о смешанном происхождении:",
+            words: ["I", "am", "half", "Chinese", "and", "half", "British"],
+            correctAnswer: "I am half Chinese and half British.",
+            correctFeedback: "Excellent! This describes dual heritage perfectly.",
+            correctFeedbackRu: "Отлично! Это прекрасно описывает двойное происхождение.",
+            incorrectFeedback: "Remember: I + am + half + nationality + and + half + nationality.",
+            incorrectFeedbackRu: "Помните: I + am + half + национальность + and + half + национальность."
         },
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["She's", "French"],
-            correctAnswer: "She's French.",
-            correctFeedback: "Excellent! 'She's French' uses the contraction 'She's' (She is) perfectly.",
-            correctFeedbackRu: "Отлично! 'She's French' идеально использует сокращение 'She's' (She is).",
-            incorrectFeedback: "Use: She's = She is, so She's + nationality.",
-            incorrectFeedbackRu: "Используйте: She's = She is, поэтому She's + национальность."
+            question: "Create a sentence about original nationality:",
+            questionRu: "Составьте предложение об изначальной национальности:",
+            words: ["She", "is", "originally", "from", "Vietnam", "but", "now", "American"],
+            correctAnswer: "She is originally from Vietnam but now American.",
+            correctFeedback: "Perfect! This shows nationality change over time.",
+            correctFeedbackRu: "Идеально! Это показывает изменение национальности со временем.",
+            incorrectFeedback: "Use: She + is + originally from + country + but now + nationality.",
+            incorrectFeedbackRu: "Используйте: She + is + originally from + страна + but now + национальность."
         },
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["He's", "30", "years", "old"],
-            correctAnswer: "He's 30 years old.",
-            correctFeedback: "Great! 'He's 30 years old' correctly uses the contraction 'He's' (He is).",
-            correctFeedbackRu: "Отлично! 'He's 30 years old' правильно использует сокращение 'He's' (He is).",
-            incorrectFeedback: "Follow: He's = He is, so He's + age + years old.",
-            incorrectFeedbackRu: "Следуйте: He's = He is, поэтому He's + возраст + years old."
+            question: "Form a sentence about cultural identity:",
+            questionRu: "Составьте предложение о культурной идентичности:",
+            words: ["We", "are", "culturally", "diverse", "but", "united"],
+            correctAnswer: "We are culturally diverse but united.",
+            correctFeedback: "Great! This contrasts diversity with unity.",
+            correctFeedbackRu: "Отлично! Это противопоставляет разнообразие с единством.",
+            incorrectFeedback: "Follow: We + are + culturally + adjective + but + adjective.",
+            incorrectFeedbackRu: "Следуйте: We + are + culturally + прилагательное + but + прилагательное."
         },
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["We're", "Italian"],
-            correctAnswer: "We're Italian.",
-            correctFeedback: "Perfect! 'We're Italian' uses the contraction 'We're' (We are) correctly.",
-            correctFeedbackRu: "Идеально! 'We're Italian' правильно использует сокращение 'We're' (We are).",
-            incorrectFeedback: "Remember: We're = We are, so We're + nationality.",
-            incorrectFeedbackRu: "Помните: We're = We are, поэтому We're + национальность."
+            question: "Create a sentence about being multicultural:",
+            questionRu: "Составьте предложение о мультикультурности:",
+            words: ["My", "family", "is", "very", "multicultural", "and", "international"],
+            correctAnswer: "My family is very multicultural and international.",
+            correctFeedback: "Excellent! This emphasizes cultural diversity within family.",
+            correctFeedbackRu: "Отлично! Это подчеркивает культурное разнообразие в семье.",
+            incorrectFeedback: "Remember: My family + is + very + adjective + and + adjective.",
+            incorrectFeedbackRu: "Помните: My family + is + very + прилагательное + and + прилагательное."
         },
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["You're", "22", "years", "old"],
-            correctAnswer: "You're 22 years old.",
-            correctFeedback: "Excellent! 'You're 22 years old' uses the contraction 'You're' (You are) perfectly.",
-            correctFeedbackRu: "Отлично! 'You're 22 years old' идеально использует сокращение 'You're' (You are).",
-            incorrectFeedback: "Use: You're = You are, so You're + age + years old.",
-            incorrectFeedbackRu: "Используйте: You're = You are, поэтому You're + возраст + years old."
+            question: "Form a sentence about ethnic background:",
+            questionRu: "Составьте предложение об этническом происхождении:",
+            words: ["He", "is", "ethnically", "Korean", "but", "born", "in", "Australia"],
+            correctAnswer: "He is ethnically Korean but born in Australia.",
+            correctFeedback: "Perfect! This distinguishes ethnic heritage from birthplace.",
+            correctFeedbackRu: "Идеально! Это различает этническое происхождение от места рождения.",
+            incorrectFeedback: "Use: He + is + ethnically + nationality + but + born in + country.",
+            incorrectFeedbackRu: "Используйте: He + is + ethnically + национальность + but + born in + страна."
         },
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["They're", "Spanish"],
-            correctAnswer: "They're Spanish.",
-            correctFeedback: "Great! 'They're Spanish' correctly uses the contraction 'They're' (They are).",
-            correctFeedbackRu: "Отлично! 'They're Spanish' правильно использует сокращение 'They're' (They are).",
-            incorrectFeedback: "Follow: They're = They are, so They're + nationality.",
-            incorrectFeedbackRu: "Следуйте: They're = They are, поэтому They're + национальность."
+            question: "Create a sentence about language heritage:",
+            questionRu: "Составьте предложение о языковом наследии:",
+            words: ["She", "is", "bilingual", "and", "proud", "of", "both", "cultures"],
+            correctAnswer: "She is bilingual and proud of both cultures.",
+            correctFeedback: "Great! This connects language ability with cultural pride.",
+            correctFeedbackRu: "Отлично! Это связывает языковые способности с культурной гордостью.",
+            incorrectFeedback: "Follow: She + is + language ability + and + proud of + cultures.",
+            incorrectFeedbackRu: "Следуйте: She + is + языковая способность + and + proud of + культуры."
         },
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["I'm", "from", "Germany"],
-            correctAnswer: "I'm from Germany.",
-            correctFeedback: "Perfect! 'I'm from Germany' uses contractions to state origin naturally.",
-            correctFeedbackRu: "Идеально! 'I'm from Germany' использует сокращения для естественного указания происхождения.",
-            incorrectFeedback: "Remember: I'm = I am, so I'm from + country.",
-            incorrectFeedbackRu: "Помните: I'm = I am, поэтому I'm from + страна."
+            question: "Form a sentence about citizenship:",
+            questionRu: "Составьте предложение о гражданстве:",
+            words: ["I", "am", "a", "dual", "citizen", "of", "Canada", "and", "Ireland"],
+            correctAnswer: "I am a dual citizen of Canada and Ireland.",
+            correctFeedback: "Excellent! This describes legal nationality status.",
+            correctFeedbackRu: "Отлично! Это описывает правовой статус гражданства.",
+            incorrectFeedback: "Remember: I + am + a dual citizen + of + country + and + country.",
+            incorrectFeedbackRu: "Помните: I + am + a dual citizen + of + страна + and + страна."
         },
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["She's", "28", "years", "old"],
-            correctAnswer: "She's 28 years old.",
-            correctFeedback: "Excellent! 'She's 28 years old' perfectly combines contractions with age.",
-            correctFeedbackRu: "Отлично! 'She's 28 years old' идеально сочетает сокращения с возрастом.",
-            incorrectFeedback: "Use: She's = She is, so She's + age + years old.",
-            incorrectFeedbackRu: "Используйте: She's = She is, поэтому She's + возраст + years old."
+            question: "Create a sentence about international background:",
+            questionRu: "Составьте предложение о международном происхождении:",
+            words: ["Our", "children", "are", "truly", "global", "citizens"],
+            correctAnswer: "Our children are truly global citizens.",
+            correctFeedback: "Perfect! This describes modern international identity.",
+            correctFeedbackRu: "Идеально! Это описывает современную международную идентичность.",
+            incorrectFeedback: "Use: Our children + are + truly + type of citizens.",
+            incorrectFeedbackRu: "Используйте: Our children + are + truly + тип граждан."
         },
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["He's", "from", "China"],
-            correctAnswer: "He's from China.",
-            correctFeedback: "Great! 'He's from China' uses contractions to express origin smoothly.",
-            correctFeedbackRu: "Отлично! 'He's from China' использует сокращения для плавного выражения происхождения.",
-            incorrectFeedback: "Follow: He's = He is, so He's from + country.",
-            incorrectFeedbackRu: "Следуйте: He's = He is, поэтому He's from + страна."
+            question: "Form a sentence about cultural connection:",
+            questionRu: "Составьте предложение о культурной связи:",
+            words: ["We", "are", "still", "connected", "to", "our", "roots"],
+            correctAnswer: "We are still connected to our roots.",
+            correctFeedback: "Great! This shows maintaining cultural heritage.",
+            correctFeedbackRu: "Отлично! Это показывает сохранение культурного наследия.",
+            incorrectFeedback: "Follow: We + are + still + connected to + our roots.",
+            incorrectFeedbackRu: "Следуйте: We + are + still + connected to + our roots."
         },
         {
-            question: "Form a sentence using contractions:",
-            questionRu: "Составьте предложение, используя сокращения:",
-            words: ["We're", "35", "years", "old"],
-            correctAnswer: "We're 35 years old.",
-            correctFeedback: "Perfect! 'We're 35 years old' correctly uses contractions for plural subjects.",
-            correctFeedbackRu: "Идеально! 'We're 35 years old' правильно использует сокращения для подлежащих во множественном числе.",
-            incorrectFeedback: "Remember: We're = We are, so We're + age + years old.",
-            incorrectFeedbackRu: "Помните: We're = We are, поэтому We're + возраст + years old."
+            question: "Create a sentence about immigration background:",
+            questionRu: "Составьте предложение об иммиграционном происхождении:",
+            words: ["My", "parents", "are", "first-generation", "immigrants", "from", "Pakistan"],
+            correctAnswer: "My parents are first-generation immigrants from Pakistan.",
+            correctFeedback: "Excellent! This describes immigration generation and origin.",
+            correctFeedbackRu: "Отлично! Это описывает поколение иммигрантов и происхождение.",
+            incorrectFeedback: "Remember: My parents + are + generation + immigrants + from + country.",
+            incorrectFeedbackRu: "Помните: My parents + are + поколение + immigrants + from + страна."
         }
     ]
 };
 
 /* ============================================
-Page 9: Age decades and approximate ages
+Page 9: Complex descriptions and social contexts
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page9'] = {
+    title: "Complex descriptions and social contexts",
     sentenceBuilding: [
         {
-            question: "Form a sentence about age decades:",
-            questionRu: "Составьте предложение о возрастных десятилетиях:",
-            words: ["I", "am", "in", "my", "twenties"],
-            correctAnswer: "I am in my twenties.",
-            correctFeedback: "Perfect! 'I am in my twenties' is the correct way to express age by decade.",
-            correctFeedbackRu: "Идеально! 'I am in my twenties' - правильный способ выразить возраст по десятилетиям.",
-            incorrectFeedback: "Remember: I am in my + decade (twenties, thirties, etc.).",
-            incorrectFeedbackRu: "Помните: I am in my + десятилетие (twenties, thirties и т.д.)."
+            question: "Form a sentence about generation differences:",
+            questionRu: "Составьте предложение о различиях поколений:",
+            words: ["We", "are", "from", "different", "generations", "but", "understand", "each", "other"],
+            correctAnswer: "We are from different generations but understand each other.",
+            correctFeedback: "Excellent! This bridges generational gaps with understanding.",
+            correctFeedbackRu: "Отлично! Это преодолевает разрыв поколений через понимание.",
+            incorrectFeedback: "Remember: We + are + from different generations + but + understand each other.",
+            incorrectFeedbackRu: "Помните: We + are + from different generations + but + understand each other."
         },
         {
-            question: "Form a sentence about someone's age decade:",
-            questionRu: "Составьте предложение о возрастном десятилетии кого-то:",
-            words: ["She", "is", "in", "her", "thirties"],
-            correctAnswer: "She is in her thirties.",
-            correctFeedback: "Excellent! 'She is in her thirties' correctly expresses her age range.",
-            correctFeedbackRu: "Отлично! 'She is in her thirties' правильно выражает её возрастной диапазон.",
-            incorrectFeedback: "Use: She is in her + decade.",
-            incorrectFeedbackRu: "Используйте: She is in her + десятилетие."
+            question: "Create a sentence about age and wisdom:",
+            questionRu: "Составьте предложение о возрасте и мудрости:",
+            words: ["He", "is", "young", "but", "very", "wise", "for", "his", "age"],
+            correctAnswer: "He is young but very wise for his age.",
+            correctFeedback: "Perfect! This contrasts chronological age with maturity.",
+            correctFeedbackRu: "Идеально! Это противопоставляет хронологический возраст с зрелостью.",
+            incorrectFeedback: "Use: He + is + young + but + very wise + for his age.",
+            incorrectFeedbackRu: "Используйте: He + is + young + but + very wise + for his age."
         },
         {
-            question: "Form a sentence about age decades:",
-            questionRu: "Составьте предложение о возрастных десятилетиях:",
-            words: ["He", "is", "in", "his", "forties"],
-            correctAnswer: "He is in his forties.",
-            correctFeedback: "Great! 'He is in his forties' shows his age range perfectly.",
-            correctFeedbackRu: "Отлично! 'He is in his forties' идеально показывает его возрастной диапазон.",
-            incorrectFeedback: "Follow: He is in his + decade.",
-            incorrectFeedbackRu: "Следуйте: He is in his + десятилетие."
+            question: "Form a sentence about community diversity:",
+            questionRu: "Составьте предложение о разнообразии сообщества:",
+            words: ["Our", "neighborhood", "is", "home", "to", "people", "from", "many", "nations"],
+            correctAnswer: "Our neighborhood is home to people from many nations.",
+            correctFeedback: "Great! This describes multicultural community composition.",
+            correctFeedbackRu: "Отлично! Это описывает состав мультикультурного сообщества.",
+            incorrectFeedback: "Follow: Our neighborhood + is + home to + people from many nations.",
+            incorrectFeedbackRu: "Следуйте: Our neighborhood + is + home to + people from many nations."
         },
         {
-            question: "Form a sentence about approximate age:",
-            questionRu: "Составьте предложение о приблизительном возрасте:",
-            words: ["I", "am", "about", "25", "years", "old"],
-            correctAnswer: "I am about 25 years old.",
-            correctFeedback: "Perfect! 'I am about 25 years old' expresses approximate age correctly.",
-            correctFeedbackRu: "Идеально! 'I am about 25 years old' правильно выражает приблизительный возраст.",
-            incorrectFeedback: "Remember: I am about + age + years old.",
-            incorrectFeedbackRu: "Помните: I am about + возраст + years old."
+            question: "Create a sentence about age and technology:",
+            questionRu: "Составьте предложение о возрасте и технологиях:",
+            words: ["She", "is", "70", "but", "very", "good", "with", "technology"],
+            correctAnswer: "She is 70 but very good with technology.",
+            correctFeedback: "Excellent! This challenges age stereotypes about technology.",
+            correctFeedbackRu: "Отлично! Это бросает вызов возрастным стереотипам о технологиях.",
+            incorrectFeedback: "Remember: She + is + age + but + very good with + skill.",
+            incorrectFeedbackRu: "Помните: She + is + возраст + but + very good with + навык."
         },
         {
-            question: "Form a sentence about age decades:",
-            questionRu: "Составьте предложение о возрастных десятилетиях:",
-            words: ["We", "are", "in", "our", "fifties"],
-            correctAnswer: "We are in our fifties.",
-            correctFeedback: "Excellent! 'We are in our fifties' correctly expresses your age range as a group.",
-            correctFeedbackRu: "Отлично! 'We are in our fifties' правильно выражает ваш возрастной диапазон как группы.",
-            incorrectFeedback: "Use: We are in our + decade.",
-            incorrectFeedbackRu: "Используйте: We are in our + десятилетие."
+            question: "Form a sentence about educational background:",
+            questionRu: "Составьте предложение об образовательном происхождении:",
+            words: ["The", "students", "are", "from", "different", "educational", "systems"],
+            correctAnswer: "The students are from different educational systems.",
+            correctFeedback: "Perfect! This describes educational diversity in a group.",
+            correctFeedbackRu: "Идеально! Это описывает образовательное разнообразие в группе.",
+            incorrectFeedback: "Use: The students + are + from + different educational systems.",
+            incorrectFeedbackRu: "Используйте: The students + are + from + different educational systems."
         },
         {
-            question: "Form a sentence about approximate age:",
-            questionRu: "Составьте предложение о приблизительном возрасте:",
-            words: ["She", "is", "around", "30", "years", "old"],
-            correctAnswer: "She is around 30 years old.",
-            correctFeedback: "Great! 'She is around 30 years old' expresses her approximate age nicely.",
-            correctFeedbackRu: "Отлично! 'She is around 30 years old' хорошо выражает её приблизительный возраст.",
-            incorrectFeedback: "Follow: She is around + age + years old.",
-            incorrectFeedbackRu: "Следуйте: She is around + возраст + years old."
+            question: "Create a sentence about age and career:",
+            questionRu: "Составьте предложение о возрасте и карьере:",
+            words: ["I", "am", "35", "and", "starting", "a", "new", "career"],
+            correctAnswer: "I am 35 and starting a new career.",
+            correctFeedback: "Great! This shows career changes are possible at any age.",
+            correctFeedbackRu: "Отлично! Это показывает, что смена карьеры возможна в любом возрасте.",
+            incorrectFeedback: "Follow: I + am + age + and + starting + new activity.",
+            incorrectFeedbackRu: "Следуйте: I + am + возраст + and + starting + новая деятельность."
         },
         {
-            question: "Form a sentence about age decades:",
-            questionRu: "Составьте предложение о возрастных десятилетиях:",
-            words: ["They", "are", "in", "their", "sixties"],
-            correctAnswer: "They are in their sixties.",
-            correctFeedback: "Perfect! 'They are in their sixties' shows their age range clearly.",
-            correctFeedbackRu: "Идеально! 'They are in their sixties' четко показывает их возрастной диапазон.",
-            incorrectFeedback: "Remember: They are in their + decade.",
-            incorrectFeedbackRu: "Помните: They are in their + десятилетие."
+            question: "Form a sentence about social inclusion:",
+            questionRu: "Составьте предложение о социальной интеграции:",
+            words: ["Everyone", "is", "welcome", "here", "regardless", "of", "age", "or", "background"],
+            correctAnswer: "Everyone is welcome here regardless of age or background.",
+            correctFeedback: "Excellent! This promotes inclusive community values.",
+            correctFeedbackRu: "Отлично! Это продвигает инклюзивные ценности сообщества.",
+            incorrectFeedback: "Remember: Everyone + is + welcome + regardless of + factors.",
+            incorrectFeedbackRu: "Помните: Everyone + is + welcome + regardless of + факторы."
         },
         {
-            question: "Form a sentence about approximate age:",
-            questionRu: "Составьте предложение о приблизительном возрасте:",
-            words: ["He", "is", "almost", "40", "years", "old"],
-            correctAnswer: "He is almost 40 years old.",
-            correctFeedback: "Excellent! 'He is almost 40 years old' shows he's close to that age.",
-            correctFeedbackRu: "Отлично! 'He is almost 40 years old' показывает, что он близок к этому возрасту.",
-            incorrectFeedback: "Use: He is almost + age + years old.",
-            incorrectFeedbackRu: "Используйте: He is almost + возраст + years old."
+            question: "Create a sentence about cultural adaptation:",
+            questionRu: "Составьте предложение о культурной адаптации:",
+            words: ["We", "are", "slowly", "adapting", "to", "the", "local", "culture"],
+            correctAnswer: "We are slowly adapting to the local culture.",
+            correctFeedback: "Perfect! This describes the gradual process of cultural integration.",
+            correctFeedbackRu: "Идеально! Это описывает постепенный процесс культурной интеграции.",
+            incorrectFeedback: "Use: We + are + slowly + adapting to + the local culture.",
+            incorrectFeedbackRu: "Используйте: We + are + slowly + adapting to + the local culture."
         },
         {
-            question: "Form a sentence about young age:",
-            questionRu: "Составьте предложение о молодом возрасте:",
-            words: ["I", "am", "in", "my", "early", "twenties"],
-            correctAnswer: "I am in my early twenties.",
-            correctFeedback: "Great! 'I am in my early twenties' specifies the beginning of that decade.",
-            correctFeedbackRu: "Отлично! 'I am in my early twenties' указывает на начало этого десятилетия.",
-            incorrectFeedback: "Follow: I am in my early + decade.",
-            incorrectFeedbackRu: "Следуйте: I am in my early + десятилетие."
+            question: "Form a sentence about age and learning:",
+            questionRu: "Составьте предложение о возрасте и обучении:",
+            words: ["They", "are", "never", "too", "old", "to", "learn", "something", "new"],
+            correctAnswer: "They are never too old to learn something new.",
+            correctFeedback: "Great! This promotes lifelong learning regardless of age.",
+            correctFeedbackRu: "Отлично! Это продвигает обучение на протяжении всей жизни независимо от возраста.",
+            incorrectFeedback: "Follow: They + are + never too old + to + learn something new.",
+            incorrectFeedbackRu: "Следуйте: They + are + never too old + to + learn something new."
         },
         {
-            question: "Form a sentence about later age in decade:",
-            questionRu: "Составьте предложение о более позднем возрасте в десятилетии:",
-            words: ["She", "is", "in", "her", "late", "thirties"],
-            correctAnswer: "She is in her late thirties.",
-            correctFeedback: "Perfect! 'She is in her late thirties' shows she's near the end of that decade.",
-            correctFeedbackRu: "Идеально! 'She is in her late thirties' показывает, что она близка к концу этого десятилетия.",
-            incorrectFeedback: "Remember: She is in her late + decade.",
-            incorrectFeedbackRu: "Помните: She is in her late + десятилетие."
+            question: "Create a sentence about global connections:",
+            questionRu: "Составьте предложение о глобальных связях:",
+            words: ["We", "are", "all", "connected", "in", "this", "global", "world"],
+            correctAnswer: "We are all connected in this global world.",
+            correctFeedback: "Excellent! This emphasizes global unity and interconnectedness.",
+            correctFeedbackRu: "Отлично! Это подчеркивает глобальное единство и взаимосвязанность.",
+            incorrectFeedback: "Remember: We + are + all + connected + in this global world.",
+            incorrectFeedbackRu: "Помните: We + are + all + connected + in this global world."
         }
     ]
 };
 
 /* ============================================
-Page 10: Complex sentences with multiple information
+Page 10: Complete introductions and real-life scenarios
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page10'] = {
+    title: "Complete introductions and real-life scenarios",
     sentenceBuilding: [
         {
-            question: "Form a complete introduction sentence:",
-            questionRu: "Составьте полное представительное предложение:",
-            words: ["Hi", "I", "am", "Lisa", "I", "am", "26", "years", "old", "and", "I", "am", "from", "Sweden"],
-            correctAnswer: "Hi, I am Lisa, I am 26 years old and I am from Sweden.",
-            correctFeedback: "Perfect! This is a complete self-introduction with name, age, and origin.",
-            correctFeedbackRu: "Идеально! Это полное самопредставление с именем, возрастом и происхождением.",
-            incorrectFeedback: "Remember: Hi, I am [name], I am [age] years old and I am from [country].",
-            incorrectFeedbackRu: "Помните: Hi, I am [имя], I am [возраст] years old and I am from [страна]."
+            question: "Form a complete self-introduction with all details:",
+            questionRu: "Составьте полное самопредставление со всеми деталями:",
+            words: ["Hello", "I", "am", "Maria", "I", "am", "28", "and", "I", "am", "from", "Argentina"],
+            correctAnswer: "Hello, I am Maria, I am 28 and I am from Argentina.",
+            correctFeedback: "Excellent! This is a perfect complete introduction with name, age, and origin.",
+            correctFeedbackRu: "Отлично! Это идеальное полное представление с именем, возрастом и происхождением.",
+            incorrectFeedback: "Remember: Hello, I am + name, I am + age + and I am from + country.",
+            incorrectFeedbackRu: "Помните: Hello, I am + имя, I am + возраст + and I am from + страна."
         },
         {
-            question: "Form a sentence about someone with multiple details:",
-            questionRu: "Составьте предложение о ком-то с несколькими деталями:",
-            words: ["My", "friend", "Sarah", "is", "29", "years", "old", "and", "she", "is", "Canadian"],
-            correctAnswer: "My friend Sarah is 29 years old and she is Canadian.",
-            correctFeedback: "Excellent! This sentence includes relationship, name, age, and nationality.",
-            correctFeedbackRu: "Отлично! Это предложение включает отношение, имя, возраст и национальность.",
-            incorrectFeedback: "Use: My friend [name] is [age] years old and she is [nationality].",
-            incorrectFeedbackRu: "Используйте: My friend [имя] is [возраст] years old and she is [национальность]."
+            question: "Create a sentence introducing someone else completely:",
+            questionRu: "Составьте предложение, полностью представляющее кого-то другого:",
+            words: ["This", "is", "my", "friend", "Alex", "he", "is", "31", "and", "very", "talented"],
+            correctAnswer: "This is my friend Alex, he is 31 and very talented.",
+            correctFeedback: "Perfect! This introduces someone with relationship, name, age, and qualities.",
+            correctFeedbackRu: "Идеально! Это представляет кого-то с отношением, именем, возрастом и качествами.",
+            incorrectFeedback: "Use: This is my + relationship + name, he is + age + and + adjective.",
+            incorrectFeedbackRu: "Используйте: This is my + отношение + имя, he is + возраст + and + прилагательное."
         },
         {
-            question: "Form a sentence about family members:",
-            questionRu: "Составьте предложение о членах семьи:",
-            words: ["My", "parents", "are", "in", "their", "fifties", "and", "they", "are", "Italian"],
-            correctAnswer: "My parents are in their fifties and they are Italian.",
-            correctFeedback: "Great! This describes family members with age range and nationality.",
-            correctFeedbackRu: "Отлично! Это описывает членов семьи с возрастным диапазоном и национальностью.",
-            incorrectFeedback: "Follow: My parents are in their [decade] and they are [nationality].",
-            incorrectFeedbackRu: "Следуйте: My parents are in their [десятилетие] and they are [национальность]."
+            question: "Form a sentence about family diversity:",
+            questionRu: "Составьте предложение о семейном разнообразии:",
+            words: ["We", "are", "a", "family", "of", "four", "from", "three", "different", "countries"],
+            correctAnswer: "We are a family of four from three different countries.",
+            correctFeedback: "Great! This describes complex modern family composition.",
+            correctFeedbackRu: "Отлично! Это описывает сложный состав современной семьи.",
+            incorrectFeedback: "Follow: We + are + a family of + number + from + different countries.",
+            incorrectFeedbackRu: "Следуйте: We + are + a family of + число + from + different countries."
         },
         {
-            question: "Form a question with multiple parts:",
-            questionRu: "Составьте вопрос с несколькими частями:",
-            words: ["How", "old", "are", "you", "and", "where", "are", "you", "from"],
-            correctAnswer: "How old are you and where are you from?",
-            correctFeedback: "Perfect! This asks about both age and origin in one question.",
-            correctFeedbackRu: "Идеально! Это спрашивает и о возрасте, и о происхождении в одном вопросе.",
-            incorrectFeedback: "Remember: How old are you and where are you from?",
-            incorrectFeedbackRu: "Помните: How old are you and where are you from?"
+            question: "Create a sentence about workplace introduction:",
+            questionRu: "Составьте предложение о представлении на рабочем месте:",
+            words: ["I", "am", "the", "new", "manager", "and", "I", "am", "excited", "to", "work", "here"],
+            correctAnswer: "I am the new manager and I am excited to work here.",
+            correctFeedback: "Excellent! This combines professional role with personal feelings.",
+            correctFeedbackRu: "Отлично! Это сочетает профессиональную роль с личными чувствами.",
+            incorrectFeedback: "Remember: I am + the + position + and I am + feeling + to + activity.",
+            incorrectFeedbackRu: "Помните: I am + the + должность + and I am + чувство + to + деятельность."
         },
         {
-            question: "Form a complex response:",
-            questionRu: "Составьте сложный ответ:",
-            words: ["I", "am", "32", "years", "old", "I", "am", "American", "and", "I", "am", "from", "New", "York"],
-            correctAnswer: "I am 32 years old, I am American and I am from New York.",
-            correctFeedback: "Excellent! This gives complete personal information in one sentence.",
-            correctFeedbackRu: "Отлично! Это дает полную личную информацию в одном предложении.",
-            incorrectFeedback: "Use: I am [age] years old, I am [nationality] and I am from [place].",
-            incorrectFeedbackRu: "Используйте: I am [возраст] years old, I am [национальность] and I am from [место]."
+            question: "Form a sentence about international friendship:",
+            questionRu: "Составьте предложение о международной дружбе:",
+            words: ["My", "best", "friends", "are", "from", "five", "different", "continents"],
+            correctAnswer: "My best friends are from five different continents.",
+            correctFeedback: "Perfect! This shows global connections and friendships.",
+            correctFeedbackRu: "Идеально! Это показывает глобальные связи и дружбу.",
+            incorrectFeedback: "Use: My best friends + are + from + number + different continents.",
+            incorrectFeedbackRu: "Используйте: My best friends + are + from + число + different continents."
         },
         {
-            question: "Form a sentence about siblings:",
-            questionRu: "Составьте предложение о братьях и сестрах:",
-            words: ["My", "brother", "is", "25", "years", "old", "and", "my", "sister", "is", "22", "years", "old"],
-            correctAnswer: "My brother is 25 years old and my sister is 22 years old.",
-            correctFeedback: "Great! This compares the ages of two family members clearly.",
-            correctFeedbackRu: "Отлично! Это четко сравнивает возраст двух членов семьи.",
-            incorrectFeedback: "Follow: My brother is [age] years old and my sister is [age] years old.",
-            incorrectFeedbackRu: "Следуйте: My brother is [возраст] years old and my sister is [возраст] years old."
+            question: "Create a sentence about age and aspirations:",
+            questionRu: "Составьте предложение о возрасте и стремлениях:",
+            words: ["At", "22", "I", "am", "ready", "to", "change", "the", "world"],
+            correctAnswer: "At 22, I am ready to change the world.",
+            correctFeedback: "Great! This connects age with ambitious goals.",
+            correctFeedbackRu: "Отлично! Это связывает возраст с амбициозными целями.",
+            incorrectFeedback: "Follow: At + age, I am + ready to + goal.",
+            incorrectFeedbackRu: "Следуйте: At + возраст, I am + ready to + цель."
         },
         {
-            question: "Form a sentence about classmates:",
-            questionRu: "Составьте предложение об одноклассниках:",
-            words: ["We", "are", "all", "in", "our", "twenties", "and", "we", "are", "from", "different", "countries"],
-            correctAnswer: "We are all in our twenties and we are from different countries.",
-            correctFeedback: "Perfect! This describes a group's age range and diverse origins.",
-            correctFeedbackRu: "Идеально! Это описывает возрастной диапазон группы и разнообразное происхождение.",
-            incorrectFeedback: "Remember: We are all in our [decade] and we are from different countries.",
-            incorrectFeedbackRu: "Помните: We are all in our [десятилетие] and we are from different countries."
+            question: "Form a sentence about community belonging:",
+            questionRu: "Составьте предложение о принадлежности к сообществу:",
+            words: ["We", "are", "proud", "members", "of", "this", "diverse", "community"],
+            correctAnswer: "We are proud members of this diverse community.",
+            correctFeedback: "Excellent! This expresses community pride and belonging.",
+            correctFeedbackRu: "Отлично! Это выражает гордость за сообщество и принадлежность к нему.",
+            incorrectFeedback: "Remember: We + are + proud members + of + this + type of community.",
+            incorrectFeedbackRu: "Помните: We + are + proud members + of + this + тип сообщества."
         },
         {
-            question: "Form a negative sentence with multiple information:",
-            questionRu: "Составьте отрицательное предложение с несколькими сведениями:",
-            words: ["She", "is", "not", "30", "years", "old", "and", "she", "is", "not", "French"],
-            correctAnswer: "She is not 30 years old and she is not French.",
-            correctFeedback: "Excellent! This negates both age and nationality information.",
-            correctFeedbackRu: "Отлично! Это отрицает информацию и о возрасте, и о национальности.",
-            incorrectFeedback: "Use: She is not [age] years old and she is not [nationality].",
-            incorrectFeedbackRu: "Используйте: She is not [возраст] years old and she is not [национальность]."
+            question: "Create a sentence about age and experience:",
+            questionRu: "Составьте предложение о возрасте и опыте:",
+            words: ["She", "is", "only", "25", "but", "already", "very", "experienced"],
+            correctAnswer: "She is only 25 but already very experienced.",
+            correctFeedback: "Perfect! This contrasts young age with advanced experience.",
+            correctFeedbackRu: "Идеально! Это противопоставляет молодой возраст с богатым опытом.",
+            incorrectFeedback: "Use: She + is + only + age + but + already + very + adjective.",
+            incorrectFeedbackRu: "Используйте: She + is + only + возраст + but + already + very + прилагательное."
         },
         {
-            question: "Form a sentence about age comparison:",
-            questionRu: "Составьте предложение о сравнении возраста:",
-            words: ["I", "am", "older", "than", "my", "brother", "but", "I", "am", "younger", "than", "my", "sister"],
-            correctAnswer: "I am older than my brother but I am younger than my sister.",
-            correctFeedback: "Great! This compares your age to multiple family members.",
-            correctFeedbackRu: "Отлично! Это сравнивает ваш возраст с несколькими членами семьи.",
-            incorrectFeedback: "Follow: I am older than [person] but I am younger than [person].",
-            incorrectFeedbackRu: "Следуйте: I am older than [человек] but I am younger than [человек]."
+            question: "Form a sentence about universal human connection:",
+            questionRu: "Составьте предложение о всеобщей человеческой связи:",
+            words: ["Despite", "our", "differences", "we", "are", "all", "human", "beings"],
+            correctAnswer: "Despite our differences, we are all human beings.",
+            correctFeedback: "Great! This emphasizes unity despite diversity.",
+            correctFeedbackRu: "Отлично! Это подчеркивает единство несмотря на разнообразие.",
+            incorrectFeedback: "Follow: Despite + our differences, we + are + all + human beings.",
+            incorrectFeedbackRu: "Следуйте: Despite + our differences, we + are + all + human beings."
         },
         {
-            question: "Form a complete introduction for someone else:",
-            questionRu: "Составьте полное представление для кого-то другого:",
-            words: ["This", "is", "my", "teacher", "Mr", "Smith", "he", "is", "45", "years", "old", "and", "he", "is", "British"],
-            correctAnswer: "This is my teacher Mr. Smith, he is 45 years old and he is British.",
-            correctFeedback: "Perfect! This is a complete introduction including relationship, name, age, and nationality.",
-            correctFeedbackRu: "Идеально! Это полное представление, включающее отношение, имя, возраст и национальность.",
-            incorrectFeedback: "Remember: This is my [relationship] [name], he is [age] years old and he is [nationality].",
-            incorrectFeedbackRu: "Помните: This is my [отношение] [имя], he is [возраст] years old and he is [национальность]."
+            question: "Create a final sentence celebrating diversity and unity:",
+            questionRu: "Составьте финальное предложение, празднующее разнообразие и единство:",
+            words: ["Together", "we", "are", "stronger", "regardless", "of", "our", "ages", "or", "origins"],
+            correctAnswer: "Together, we are stronger regardless of our ages or origins.",
+            correctFeedback: "Excellent! This is a perfect conclusion celebrating unity in diversity. You've completed all 10 pages of Sentence Building exercises!",
+            correctFeedbackRu: "Отлично! Это идеальное заключение, празднующее единство в разнообразии. Вы завершили все 10 страниц упражнений Sentence Building!",
+            incorrectFeedback: "Remember: Together, we + are + stronger + regardless of + our differences.",
+            incorrectFeedbackRu: "Помните: Together, we + are + stronger + regardless of + our differences."
         }
     ]
 };
