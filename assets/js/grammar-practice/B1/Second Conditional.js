@@ -2897,7 +2897,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "won", "the", "lottery", "I", "would", "buy", "a", "beautiful", "house"],
+            words: ["If", "I", "won", "the", "lottery,", "I", "would", "buy", "a", "beautiful", "house"],
             correctAnswer: "If I won the lottery, I would buy a beautiful house.",
             correctFeedback: "Perfect! 'If I won the lottery, I would buy a beautiful house' - classic financial dream with Second Conditional!",
             correctFeedbackRu: "Идеально! 'If I won the lottery, I would buy a beautiful house' - классическая финансовая мечта со вторым условным!",
@@ -2907,7 +2907,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "lived", "in", "Paris", "she", "would", "visit", "museums", "every", "weekend"],
+            words: ["If", "she", "lived", "in", "Paris,", "she", "would", "visit", "museums", "every", "weekend"],
             correctAnswer: "If she lived in Paris, she would visit museums every weekend.",
             correctFeedback: "Excellent! 'If she lived in Paris, she would visit museums every weekend' - cultural lifestyle dream!",
             correctFeedbackRu: "Отлично! 'If she lived in Paris, she would visit museums every weekend' - мечта о культурном образе жизни!",
@@ -2917,7 +2917,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "had", "more", "time", "we", "would", "travel", "around", "the", "world"],
+            words: ["If", "we", "had", "more", "time,", "we", "would", "travel", "around", "the", "world"],
             correctAnswer: "If we had more time, we would travel around the world.",
             correctFeedback: "Great! 'If we had more time, we would travel around the world' - time and travel dream!",
             correctFeedbackRu: "Отлично! 'If we had more time, we would travel around the world' - мечта о времени и путешествиях!",
@@ -2927,7 +2927,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "were", "taller", "he", "would", "play", "professional", "basketball"],
+            words: ["If", "he", "were", "taller,", "he", "would", "play", "professional", "basketball"],
             correctAnswer: "If he were taller, he would play professional basketball.",
             correctFeedback: "Perfect! 'If he were taller, he would play professional basketball' - physical attribute dream!",
             correctFeedbackRu: "Идеально! 'If he were taller, he would play professional basketball' - мечта о физических данных!",
@@ -2937,7 +2937,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "owned", "a", "restaurant", "they", "would", "serve", "delicious", "food"],
+            words: ["If", "they", "owned", "a", "restaurant,", "they", "would", "serve", "delicious", "food"],
             correctAnswer: "If they owned a restaurant, they would serve delicious food.",
             correctFeedback: "Excellent! 'If they owned a restaurant, they would serve delicious food' - business ownership dream!",
             correctFeedbackRu: "Отлично! 'If they owned a restaurant, they would serve delicious food' - мечта о владении бизнесом!",
@@ -2947,7 +2947,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "could", "fly", "I", "would", "never", "take", "airplanes"],
+            words: ["If", "I", "could", "fly,", "I", "would", "never", "take", "airplanes"],
             correctAnswer: "If I could fly, I would never take airplanes.",
             correctFeedback: "Great! 'If I could fly, I would never take airplanes' - supernatural ability wish!",
             correctFeedbackRu: "Отлично! 'If I could fly, I would never take airplanes' - желание сверхъестественной способности!",
@@ -2957,7 +2957,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "spoke", "five", "languages", "she", "would", "work", "as", "a", "translator"],
+            words: ["If", "she", "spoke", "five", "languages,", "she", "would", "work", "as", "a", "translator"],
             correctAnswer: "If she spoke five languages, she would work as a translator.",
             correctFeedback: "Perfect! 'If she spoke five languages, she would work as a translator' - language skill career dream!",
             correctFeedbackRu: "Идеально! 'If she spoke five languages, she would work as a translator' - карьерная мечта о языковых навыках!",
@@ -2967,7 +2967,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "lived", "by", "the", "ocean", "we", "would", "swim", "every", "day"],
+            words: ["If", "we", "lived", "by", "the", "ocean,", "we", "would", "swim", "every", "day"],
             correctAnswer: "If we lived by the ocean, we would swim every day.",
             correctFeedback: "Excellent! 'If we lived by the ocean, we would swim every day' - coastal lifestyle dream!",
             correctFeedbackRu: "Отлично! 'If we lived by the ocean, we would swim every day' - мечта о прибрежном образе жизни!",
@@ -2977,7 +2977,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "were", "younger", "he", "would", "learn", "to", "skateboard"],
+            words: ["If", "he", "were", "younger,", "he", "would", "learn", "to", "skateboard"],
             correctAnswer: "If he were younger, he would learn to skateboard.",
             correctFeedback: "Great! 'If he were younger, he would learn to skateboard' - age-related activity wish!",
             correctFeedbackRu: "Отлично! 'If he were younger, he would learn to skateboard' - желание заниматься деятельностью определенного возраста!",
@@ -2987,7 +2987,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "had", "a", "garden", "I", "would", "grow", "my", "own", "vegetables"],
+            words: ["If", "I", "had", "a", "garden,", "I", "would", "grow", "my", "own", "vegetables"],
             correctAnswer: "If I had a garden, I would grow my own vegetables.",
             correctFeedback: "Perfect! 'If I had a garden, I would grow my own vegetables' - gardening and self-sufficiency dream!",
             correctFeedbackRu: "Идеально! 'If I had a garden, I would grow my own vegetables' - мечта о садоводстве и самообеспечении!",
@@ -3005,7 +3005,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "you", "I", "would", "take", "that", "job", "offer"],
+            words: ["If", "I", "were", "you,", "I", "would", "take", "that", "job", "offer"],
             correctAnswer: "If I were you, I would take that job offer.",
             correctFeedback: "Perfect! 'If I were you, I would take that job offer' - classic advice structure!",
             correctFeedbackRu: "Идеально! 'If I were you, I would take that job offer' - классическая структура совета!",
@@ -3015,7 +3015,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "in", "your", "position", "I", "would", "study", "harder"],
+            words: ["If", "I", "were", "in", "your", "position,", "I", "would", "study", "harder"],
             correctAnswer: "If I were in your position, I would study harder.",
             correctFeedback: "Excellent! 'If I were in your position, I would study harder' - academic advice!",
             correctFeedbackRu: "Отлично! 'If I were in your position, I would study harder' - академический совет!",
@@ -3025,7 +3025,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "you", "I", "would", "save", "money", "every", "month"],
+            words: ["If", "I", "were", "you,", "I", "would", "save", "money", "every", "month"],
             correctAnswer: "If I were you, I would save money every month.",
             correctFeedback: "Great! 'If I were you, I would save money every month' - financial advice!",
             correctFeedbackRu: "Отлично! 'If I were you, I would save money every month' - финансовый совет!",
@@ -3035,7 +3035,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "in", "your", "shoes", "I", "would", "apologize", "immediately"],
+            words: ["If", "I", "were", "in", "your", "shoes,", "I", "would", "apologize", "immediately"],
             correctAnswer: "If I were in your shoes, I would apologize immediately.",
             correctFeedback: "Perfect! 'If I were in your shoes, I would apologize immediately' - relationship advice!",
             correctFeedbackRu: "Идеально! 'If I were in your shoes, I would apologize immediately' - совет об отношениях!",
@@ -3045,7 +3045,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "you", "I", "would", "exercise", "more", "regularly"],
+            words: ["If", "I", "were", "you,", "I", "would", "exercise", "more", "regularly"],
             correctAnswer: "If I were you, I would exercise more regularly.",
             correctFeedback: "Excellent! 'If I were you, I would exercise more regularly' - health advice!",
             correctFeedbackRu: "Отлично! 'If I were you, I would exercise more regularly' - совет о здоровье!",
@@ -3055,7 +3055,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "in", "your", "place", "I", "would", "learn", "a", "new", "skill"],
+            words: ["If", "I", "were", "in", "your", "place,", "I", "would", "learn", "a", "new", "skill"],
             correctAnswer: "If I were in your place, I would learn a new skill.",
             correctFeedback: "Great! 'If I were in your place, I would learn a new skill' - personal development advice!",
             correctFeedbackRu: "Отлично! 'If I were in your place, I would learn a new skill' - совет по личностному развитию!",
@@ -3065,7 +3065,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "you", "I", "would", "call", "the", "doctor", "today"],
+            words: ["If", "I", "were", "you,", "I", "would", "call", "the", "doctor", "today"],
             correctAnswer: "If I were you, I would call the doctor today.",
             correctFeedback: "Perfect! 'If I were you, I would call the doctor today' - medical advice!",
             correctFeedbackRu: "Идеально! 'If I were you, I would call the doctor today' - медицинский совет!",
@@ -3075,7 +3075,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "in", "your", "situation", "I", "would", "talk", "to", "my", "boss"],
+            words: ["If", "I", "were", "in", "your", "situation,", "I", "would", "talk", "to", "my", "boss"],
             correctAnswer: "If I were in your situation, I would talk to my boss.",
             correctFeedback: "Excellent! 'If I were in your situation, I would talk to my boss' - workplace advice!",
             correctFeedbackRu: "Отлично! 'If I were in your situation, I would talk to my boss' - совет по работе!",
@@ -3085,7 +3085,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "you", "I", "would", "book", "those", "tickets", "now"],
+            words: ["If", "I", "were", "you,", "I", "would", "book", "those", "tickets", "now"],
             correctAnswer: "If I were you, I would book those tickets now.",
             correctFeedback: "Great! 'If I were you, I would book those tickets now' - travel planning advice!",
             correctFeedbackRu: "Отлично! 'If I were you, I would book those tickets now' - совет по планированию путешествий!",
@@ -3095,7 +3095,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
-            words: ["If", "I", "were", "in", "your", "position", "I", "would", "ask", "for", "help"],
+            words: ["If", "I", "were", "in", "your", "position,", "I", "would", "ask", "for", "help"],
             correctAnswer: "If I were in your position, I would ask for help.",
             correctFeedback: "Perfect! 'If I were in your position, I would ask for help' - practical support advice!",
             correctFeedbackRu: "Идеально! 'If I were in your position, I would ask for help' - практический совет о поддержке!",
@@ -3113,7 +3113,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "changed", "careers", "she", "would", "become", "a", "teacher"],
+            words: ["If", "she", "changed", "careers,", "she", "would", "become", "a", "teacher"],
             correctAnswer: "If she changed careers, she would become a teacher.",
             correctFeedback: "Perfect! 'If she changed careers, she would become a teacher' - career change aspiration!",
             correctFeedbackRu: "Идеально! 'If she changed careers, she would become a teacher' - стремление к смене карьеры!",
@@ -3123,7 +3123,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "moved", "to", "the", "countryside", "he", "would", "feel", "more", "peaceful"],
+            words: ["If", "he", "moved", "to", "the", "countryside,", "he", "would", "feel", "more", "peaceful"],
             correctAnswer: "If he moved to the countryside, he would feel more peaceful.",
             correctFeedback: "Excellent! 'If he moved to the countryside, he would feel more peaceful' - lifestyle change for peace!",
             correctFeedbackRu: "Отлично! 'If he moved to the countryside, he would feel more peaceful' - изменение образа жизни ради мира!",
@@ -3133,7 +3133,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "started", "our", "own", "business", "we", "would", "be", "our", "own", "bosses"],
+            words: ["If", "we", "started", "our", "own", "business,", "we", "would", "be", "our", "own", "bosses"],
             correctAnswer: "If we started our own business, we would be our own bosses.",
             correctFeedback: "Great! 'If we started our own business, we would be our own bosses' - entrepreneurial independence!",
             correctFeedbackRu: "Отлично! 'If we started our own business, we would be our own bosses' - предпринимательская независимость!",
@@ -3143,7 +3143,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "went", "back", "to", "school", "I", "would", "study", "psychology"],
+            words: ["If", "I", "went", "back", "to", "school,", "I", "would", "study", "psychology"],
             correctAnswer: "If I went back to school, I would study psychology.",
             correctFeedback: "Perfect! 'If I went back to school, I would study psychology' - educational return aspiration!",
             correctFeedbackRu: "Идеально! 'If I went back to school, I would study psychology' - стремление вернуться к образованию!",
@@ -3153,7 +3153,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "retired", "early", "they", "would", "travel", "more", "often"],
+            words: ["If", "they", "retired", "early,", "they", "would", "travel", "more", "often"],
             correctAnswer: "If they retired early, they would travel more often.",
             correctFeedback: "Excellent! 'If they retired early, they would travel more often' - retirement lifestyle dream!",
             correctFeedbackRu: "Отлично! 'If they retired early, they would travel more often' - мечта об образе жизни на пенсии!",
@@ -3163,7 +3163,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "worked", "from", "home", "she", "would", "spend", "more", "time", "with", "family"],
+            words: ["If", "she", "worked", "from", "home,", "she", "would", "spend", "more", "time", "with", "family"],
             correctAnswer: "If she worked from home, she would spend more time with family.",
             correctFeedback: "Great! 'If she worked from home, she would spend more time with family' - work-life balance wish!",
             correctFeedbackRu: "Отлично! 'If she worked from home, she would spend more time with family' - желание баланса между работой и жизнью!",
@@ -3173,7 +3173,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "learned", "to", "cook", "he", "would", "eat", "healthier", "meals"],
+            words: ["If", "he", "learned", "to", "cook,", "he", "would", "eat", "healthier", "meals"],
             correctAnswer: "If he learned to cook, he would eat healthier meals.",
             correctFeedback: "Perfect! 'If he learned to cook, he would eat healthier meals' - skill development for health!",
             correctFeedbackRu: "Идеально! 'If he learned to cook, he would eat healthier meals' - развитие навыков для здоровья!",
@@ -3183,7 +3183,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "bought", "a", "bigger", "house", "we", "would", "have", "more", "space"],
+            words: ["If", "we", "bought", "a", "bigger", "house,", "we", "would", "have", "more", "space"],
             correctAnswer: "If we bought a bigger house, we would have more space.",
             correctFeedback: "Excellent! 'If we bought a bigger house, we would have more space' - housing upgrade dream!",
             correctFeedbackRu: "Отлично! 'If we bought a bigger house, we would have more space' - мечта об улучшении жилья!",
@@ -3193,7 +3193,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "took", "art", "classes", "I", "would", "improve", "my", "drawing", "skills"],
+            words: ["If", "I", "took", "art", "classes,", "I", "would", "improve", "my", "drawing", "skills"],
             correctAnswer: "If I took art classes, I would improve my drawing skills.",
             correctFeedback: "Great! 'If I took art classes, I would improve my drawing skills' - creative skill development!",
             correctFeedbackRu: "Отлично! 'If I took art classes, I would improve my drawing skills' - развитие творческих навыков!",
@@ -3203,7 +3203,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "sold", "their", "car", "they", "would", "save", "money", "on", "gas"],
+            words: ["If", "they", "sold", "their", "car,", "they", "would", "save", "money", "on", "gas"],
             correctAnswer: "If they sold their car, they would save money on gas.",
             correctFeedback: "Perfect! 'If they sold their car, they would save money on gas' - financial lifestyle change!",
             correctFeedbackRu: "Идеально! 'If they sold their car, they would save money on gas' - финансовое изменение образа жизни!",
@@ -3221,7 +3221,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "talked", "more", "often", "our", "friendship", "would", "be", "stronger"],
+            words: ["If", "we", "talked", "more", "often,", "our", "friendship", "would", "be", "stronger"],
             correctAnswer: "If we talked more often, our friendship would be stronger.",
             correctFeedback: "Perfect! 'If we talked more often, our friendship would be stronger' - friendship improvement!",
             correctFeedbackRu: "Идеально! 'If we talked more often, our friendship would be stronger' - улучшение дружбы!",
@@ -3231,7 +3231,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "were", "more", "confident", "she", "would", "make", "new", "friends", "easily"],
+            words: ["If", "she", "were", "more", "confident,", "she", "would", "make", "new", "friends", "easily"],
             correctAnswer: "If she were more confident, she would make new friends easily.",
             correctFeedback: "Excellent! 'If she were more confident, she would make new friends easily' - social confidence wish!",
             correctFeedbackRu: "Отлично! 'If she were more confident, she would make new friends easily' - желание социальной уверенности!",
@@ -3241,7 +3241,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "joined", "a", "club", "he", "would", "meet", "people", "with", "similar", "interests"],
+            words: ["If", "he", "joined", "a", "club,", "he", "would", "meet", "people", "with", "similar", "interests"],
             correctAnswer: "If he joined a club, he would meet people with similar interests.",
             correctFeedback: "Great! 'If he joined a club, he would meet people with similar interests' - social connection strategy!",
             correctFeedbackRu: "Отлично! 'If he joined a club, he would meet people with similar interests' - стратегия социальных связей!",
@@ -3251,7 +3251,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "were", "more", "outgoing", "I", "would", "enjoy", "parties", "more"],
+            words: ["If", "I", "were", "more", "outgoing,", "I", "would", "enjoy", "parties", "more"],
             correctAnswer: "If I were more outgoing, I would enjoy parties more.",
             correctFeedback: "Perfect! 'If I were more outgoing, I would enjoy parties more' - personality change wish!",
             correctFeedbackRu: "Идеально! 'If I were more outgoing, I would enjoy parties more' - желание изменения личности!",
@@ -3261,7 +3261,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "lived", "closer", "to", "us", "we", "would", "see", "them", "every", "weekend"],
+            words: ["If", "they", "lived", "closer", "to", "us,", "we", "would", "see", "them", "every", "weekend"],
             correctAnswer: "If they lived closer to us, we would see them every weekend.",
             correctFeedback: "Excellent! 'If they lived closer to us, we would see them every weekend' - geographic friendship wish!",
             correctFeedbackRu: "Отлично! 'If they lived closer to us, we would see them every weekend' - географическое желание дружбы!",
@@ -3271,7 +3271,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "had", "dinner", "together", "every", "night", "our", "family", "would", "be", "closer"],
+            words: ["If", "we", "had", "dinner", "together", "every", "night,", "our", "family", "would", "be", "closer"],
             correctAnswer: "If we had dinner together every night, our family would be closer.",
             correctFeedback: "Great! 'If we had dinner together every night, our family would be closer' - family bonding wish!",
             correctFeedbackRu: "Отлично! 'If we had dinner together every night, our family would be closer' - желание семейного единения!",
@@ -3281,7 +3281,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "shared", "her", "problems", "with", "me", "I", "would", "help", "her"],
+            words: ["If", "she", "shared", "her", "problems", "with", "me,", "I", "would", "help", "her"],
             correctAnswer: "If she shared her problems with me, I would help her.",
             correctFeedback: "Perfect! 'If she shared her problems with me, I would help her' - supportive friendship offer!",
             correctFeedbackRu: "Идеально! 'If she shared her problems with me, I would help her' - предложение поддерживающей дружбы!",
@@ -3291,7 +3291,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "apologized", "for", "his", "mistake", "their", "relationship", "would", "improve"],
+            words: ["If", "he", "apologized", "for", "his", "mistake,", "their", "relationship", "would", "improve"],
             correctAnswer: "If he apologized for his mistake, their relationship would improve.",
             correctFeedback: "Excellent! 'If he apologized for his mistake, their relationship would improve' - relationship repair scenario!",
             correctFeedbackRu: "Отлично! 'If he apologized for his mistake, their relationship would improve' - сценарий восстановления отношений!",
@@ -3301,7 +3301,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "called", "my", "old", "friends", "we", "would", "reconnect", "again"],
+            words: ["If", "I", "called", "my", "old", "friends,", "we", "would", "reconnect", "again"],
             correctAnswer: "If I called my old friends, we would reconnect again.",
             correctFeedback: "Great! 'If I called my old friends, we would reconnect again' - friendship renewal intention!",
             correctFeedbackRu: "Отлично! 'If I called my old friends, we would reconnect again' - намерение возобновления дружбы!",
@@ -3311,7 +3311,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "organized", "family", "gatherings", "more", "often", "everyone", "would", "feel", "more", "connected"],
+            words: ["If", "we", "organized", "family", "gatherings", "more", "often,", "everyone", "would", "feel", "more", "connected"],
             correctAnswer: "If we organized family gatherings more often, everyone would feel more connected.",
             correctFeedback: "Perfect! 'If we organized family gatherings more often, everyone would feel more connected' - family unity initiative!",
             correctFeedbackRu: "Идеально! 'If we organized family gatherings more often, everyone would feel more connected' - инициатива семейного единства!",
@@ -3320,6 +3320,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
         }
     ]
 };
+
 /* ============================================
 Page 5: Health and Wellness
 ============================================ */
@@ -3328,7 +3329,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "exercised", "every", "day", "I", "would", "feel", "much", "stronger"],
+            words: ["If", "I", "exercised", "every", "day,", "I", "would", "feel", "much", "stronger"],
             correctAnswer: "If I exercised every day, I would feel much stronger.",
             correctFeedback: "Perfect! 'If I exercised every day, I would feel much stronger' - fitness motivation!",
             correctFeedbackRu: "Идеально! 'If I exercised every day, I would feel much stronger' - мотивация к фитнесу!",
@@ -3338,7 +3339,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "ate", "more", "vegetables", "she", "would", "have", "better", "health"],
+            words: ["If", "she", "ate", "more", "vegetables,", "she", "would", "have", "better", "health"],
             correctAnswer: "If she ate more vegetables, she would have better health.",
             correctFeedback: "Excellent! 'If she ate more vegetables, she would have better health' - nutrition awareness!",
             correctFeedbackRu: "Отлично! 'If she ate more vegetables, she would have better health' - осознание питания!",
@@ -3348,7 +3349,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "slept", "eight", "hours", "every", "night", "we", "would", "feel", "more", "energetic"],
+            words: ["If", "we", "slept", "eight", "hours", "every", "night,", "we", "would", "feel", "more", "energetic"],
             correctAnswer: "If we slept eight hours every night, we would feel more energetic.",
             correctFeedback: "Great! 'If we slept eight hours every night, we would feel more energetic' - sleep hygiene importance!",
             correctFeedbackRu: "Отлично! 'If we slept eight hours every night, we would feel more energetic' - важность гигиены сна!",
@@ -3358,7 +3359,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "quit", "smoking", "his", "breathing", "would", "improve", "dramatically"],
+            words: ["If", "he", "quit", "smoking,", "his", "breathing", "would", "improve", "dramatically"],
             correctAnswer: "If he quit smoking, his breathing would improve dramatically.",
             correctFeedback: "Perfect! 'If he quit smoking, his breathing would improve dramatically' - health improvement motivation!",
             correctFeedbackRu: "Идеально! 'If he quit smoking, his breathing would improve dramatically' - мотивация к улучшению здоровья!",
@@ -3368,7 +3369,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "drank", "more", "water", "they", "would", "feel", "less", "tired"],
+            words: ["If", "they", "drank", "more", "water,", "they", "would", "feel", "less", "tired"],
             correctAnswer: "If they drank more water, they would feel less tired.",
             correctFeedback: "Excellent! 'If they drank more water, they would feel less tired' - hydration benefits!",
             correctFeedbackRu: "Отлично! 'If they drank more water, they would feel less tired' - преимущества гидратации!",
@@ -3378,7 +3379,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "meditated", "regularly", "I", "would", "reduce", "my", "stress", "levels"],
+            words: ["If", "I", "meditated", "regularly,", "I", "would", "reduce", "my", "stress", "levels"],
             correctAnswer: "If I meditated regularly, I would reduce my stress levels.",
             correctFeedback: "Great! 'If I meditated regularly, I would reduce my stress levels' - mindfulness practice!",
             correctFeedbackRu: "Отлично! 'If I meditated regularly, I would reduce my stress levels' - практика осознанности!",
@@ -3388,7 +3389,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "walked", "to", "work", "every", "day", "she", "would", "be", "more", "active"],
+            words: ["If", "she", "walked", "to", "work", "every", "day,", "she", "would", "be", "more", "active"],
             correctAnswer: "If she walked to work every day, she would be more active.",
             correctFeedback: "Perfect! 'If she walked to work every day, she would be more active' - daily activity integration!",
             correctFeedbackRu: "Идеально! 'If she walked to work every day, she would be more active' - интеграция ежедневной активности!",
@@ -3398,7 +3399,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "avoided", "processed", "food", "we", "would", "lose", "weight", "naturally"],
+            words: ["If", "we", "avoided", "processed", "food,", "we", "would", "lose", "weight", "naturally"],
             correctAnswer: "If we avoided processed food, we would lose weight naturally.",
             correctFeedback: "Excellent! 'If we avoided processed food, we would lose weight naturally' - healthy eating habits!",
             correctFeedbackRu: "Отлично! 'If we avoided processed food, we would lose weight naturally' - здоровые пищевые привычки!",
@@ -3408,7 +3409,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "stretched", "before", "exercising", "he", "would", "prevent", "muscle", "injuries"],
+            words: ["If", "he", "stretched", "before", "exercising,", "he", "would", "prevent", "muscle", "injuries"],
             correctAnswer: "If he stretched before exercising, he would prevent muscle injuries.",
             correctFeedback: "Great! 'If he stretched before exercising, he would prevent muscle injuries' - injury prevention wisdom!",
             correctFeedbackRu: "Отлично! 'If he stretched before exercising, he would prevent muscle injuries' - мудрость предотвращения травм!",
@@ -3418,7 +3419,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "took", "vitamins", "daily", "I", "would", "boost", "my", "immune", "system"],
+            words: ["If", "I", "took", "vitamins", "daily,", "I", "would", "boost", "my", "immune", "system"],
             correctAnswer: "If I took vitamins daily, I would boost my immune system.",
             correctFeedback: "Perfect! 'If I took vitamins daily, I would boost my immune system' - wellness supplement strategy!",
             correctFeedbackRu: "Идеально! 'If I took vitamins daily, I would boost my immune system' - стратегия оздоровительных добавок!",
@@ -3436,7 +3437,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "studied", "abroad", "I", "would", "learn", "about", "different", "cultures"],
+            words: ["If", "I", "studied", "abroad,", "I", "would", "learn", "about", "different", "cultures"],
             correctAnswer: "If I studied abroad, I would learn about different cultures.",
             correctFeedback: "Perfect! 'If I studied abroad, I would learn about different cultures' - international education dream!",
             correctFeedbackRu: "Идеально! 'If I studied abroad, I would learn about different cultures' - мечта о международном образовании!",
@@ -3446,7 +3447,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "read", "more", "books", "she", "would", "expand", "her", "vocabulary"],
+            words: ["If", "she", "read", "more", "books,", "she", "would", "expand", "her", "vocabulary"],
             correctAnswer: "If she read more books, she would expand her vocabulary.",
             correctFeedback: "Excellent! 'If she read more books, she would expand her vocabulary' - reading benefits!",
             correctFeedbackRu: "Отлично! 'If she read more books, she would expand her vocabulary' - преимущества чтения!",
@@ -3456,7 +3457,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "practiced", "speaking", "English", "daily", "we", "would", "become", "fluent", "faster"],
+            words: ["If", "we", "practiced", "speaking", "English", "daily,", "we", "would", "become", "fluent", "faster"],
             correctAnswer: "If we practiced speaking English daily, we would become fluent faster.",
             correctFeedback: "Great! 'If we practiced speaking English daily, we would become fluent faster' - language learning strategy!",
             correctFeedbackRu: "Отлично! 'If we practiced speaking English daily, we would become fluent faster' - стратегия изучения языка!",
@@ -3466,7 +3467,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "attended", "online", "courses", "he", "would", "gain", "new", "skills"],
+            words: ["If", "he", "attended", "online", "courses,", "he", "would", "gain", "new", "skills"],
             correctAnswer: "If he attended online courses, he would gain new skills.",
             correctFeedback: "Perfect! 'If he attended online courses, he would gain new skills' - digital learning opportunity!",
             correctFeedbackRu: "Идеально! 'If he attended online courses, he would gain new skills' - возможность цифрового обучения!",
@@ -3476,7 +3477,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "joined", "a", "study", "group", "they", "would", "understand", "concepts", "better"],
+            words: ["If", "they", "joined", "a", "study", "group,", "they", "would", "understand", "concepts", "better"],
             correctAnswer: "If they joined a study group, they would understand concepts better.",
             correctFeedback: "Excellent! 'If they joined a study group, they would understand concepts better' - collaborative learning!",
             correctFeedbackRu: "Отлично! 'If they joined a study group, they would understand concepts better' - совместное обучение!",
@@ -3486,7 +3487,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "took", "notes", "by", "hand", "I", "would", "remember", "information", "better"],
+            words: ["If", "I", "took", "notes", "by", "hand,", "I", "would", "remember", "information", "better"],
             correctAnswer: "If I took notes by hand, I would remember information better.",
             correctFeedback: "Great! 'If I took notes by hand, I would remember information better' - effective study technique!",
             correctFeedbackRu: "Отлично! 'If I took notes by hand, I would remember information better' - эффективная техника изучения!",
@@ -3496,7 +3497,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "asked", "questions", "in", "class", "she", "would", "clarify", "her", "doubts"],
+            words: ["If", "she", "asked", "questions", "in", "class,", "she", "would", "clarify", "her", "doubts"],
             correctAnswer: "If she asked questions in class, she would clarify her doubts.",
             correctFeedback: "Perfect! 'If she asked questions in class, she would clarify her doubts' - active learning approach!",
             correctFeedbackRu: "Идеально! 'If she asked questions in class, she would clarify her doubts' - активный подход к обучению!",
@@ -3506,7 +3507,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "reviewed", "lessons", "regularly", "we", "would", "perform", "better", "on", "exams"],
+            words: ["If", "we", "reviewed", "lessons", "regularly,", "we", "would", "perform", "better", "on", "exams"],
             correctAnswer: "If we reviewed lessons regularly, we would perform better on exams.",
             correctFeedback: "Excellent! 'If we reviewed lessons regularly, we would perform better on exams' - consistent study habits!",
             correctFeedbackRu: "Отлично! 'If we reviewed lessons regularly, we would perform better on exams' - последовательные учебные привычки!",
@@ -3516,7 +3517,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "watched", "educational", "documentaries", "he", "would", "broaden", "his", "knowledge"],
+            words: ["If", "he", "watched", "educational", "documentaries,", "he", "would", "broaden", "his", "knowledge"],
             correctAnswer: "If he watched educational documentaries, he would broaden his knowledge.",
             correctFeedback: "Great! 'If he watched educational documentaries, he would broaden his knowledge' - informal learning method!",
             correctFeedbackRu: "Отлично! 'If he watched educational documentaries, he would broaden his knowledge' - неформальный метод обучения!",
@@ -3526,7 +3527,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "learned", "a", "musical", "instrument", "I", "would", "develop", "my", "creativity"],
+            words: ["If", "I", "learned", "a", "musical", "instrument,", "I", "would", "develop", "my", "creativity"],
             correctAnswer: "If I learned a musical instrument, I would develop my creativity.",
             correctFeedback: "Perfect! 'If I learned a musical instrument, I would develop my creativity' - creative skill development!",
             correctFeedbackRu: "Идеально! 'If I learned a musical instrument, I would develop my creativity' - развитие творческих навыков!",
@@ -3544,7 +3545,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "had", "a", "smartphone", "I", "would", "stay", "connected", "with", "friends"],
+            words: ["If", "I", "had", "a", "smartphone,", "I", "would", "stay", "connected", "with", "friends"],
             correctAnswer: "If I had a smartphone, I would stay connected with friends.",
             correctFeedback: "Perfect! 'If I had a smartphone, I would stay connected with friends' - technology for social connection!",
             correctFeedbackRu: "Идеально! 'If I had a smartphone, I would stay connected with friends' - технологии для социальных связей!",
@@ -3554,7 +3555,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "used", "social", "media", "less", "she", "would", "focus", "better", "on", "work"],
+            words: ["If", "she", "used", "social", "media", "less,", "she", "would", "focus", "better", "on", "work"],
             correctAnswer: "If she used social media less, she would focus better on work.",
             correctFeedback: "Excellent! 'If she used social media less, she would focus better on work' - digital detox benefits!",
             correctFeedbackRu: "Отлично! 'If she used social media less, she would focus better on work' - преимущества цифрового детокса!",
@@ -3564,7 +3565,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "bought", "an", "electric", "car", "we", "would", "help", "the", "environment"],
+            words: ["If", "we", "bought", "an", "electric", "car,", "we", "would", "help", "the", "environment"],
             correctAnswer: "If we bought an electric car, we would help the environment.",
             correctFeedback: "Great! 'If we bought an electric car, we would help the environment' - eco-friendly technology choice!",
             correctFeedbackRu: "Отлично! 'If we bought an electric car, we would help the environment' - экологически чистый технологический выбор!",
@@ -3574,7 +3575,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "learned", "to", "code", "he", "would", "create", "his", "own", "apps"],
+            words: ["If", "he", "learned", "to", "code,", "he", "would", "create", "his", "own", "apps"],
             correctAnswer: "If he learned to code, he would create his own apps.",
             correctFeedback: "Perfect! 'If he learned to code, he would create his own apps' - programming skill aspiration!",
             correctFeedbackRu: "Идеально! 'If he learned to code, he would create his own apps' - стремление к навыкам программирования!",
@@ -3584,7 +3585,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "installed", "smart", "home", "devices", "they", "would", "save", "energy"],
+            words: ["If", "they", "installed", "smart", "home", "devices,", "they", "would", "save", "energy"],
             correctAnswer: "If they installed smart home devices, they would save energy.",
             correctFeedback: "Excellent! 'If they installed smart home devices, they would save energy' - smart technology efficiency!",
             correctFeedbackRu: "Отлично! 'If they installed smart home devices, they would save energy' - эффективность умных технологий!",
@@ -3594,7 +3595,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "backed", "up", "my", "files", "regularly", "I", "would", "never", "lose", "important", "data"],
+            words: ["If", "I", "backed", "up", "my", "files", "regularly,", "I", "would", "never", "lose", "important", "data"],
             correctAnswer: "If I backed up my files regularly, I would never lose important data.",
             correctFeedback: "Great! 'If I backed up my files regularly, I would never lose important data' - data protection wisdom!",
             correctFeedbackRu: "Отлично! 'If I backed up my files regularly, I would never lose important data' - мудрость защиты данных!",
@@ -3604,7 +3605,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "upgraded", "her", "computer", "she", "would", "work", "more", "efficiently"],
+            words: ["If", "she", "upgraded", "her", "computer,", "she", "would", "work", "more", "efficiently"],
             correctAnswer: "If she upgraded her computer, she would work more efficiently.",
             correctFeedback: "Perfect! 'If she upgraded her computer, she would work more efficiently' - technology productivity boost!",
             correctFeedbackRu: "Идеально! 'If she upgraded her computer, she would work more efficiently' - повышение продуктивности технологий!",
@@ -3614,7 +3615,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "used", "video", "calls", "for", "meetings", "we", "would", "save", "travel", "time"],
+            words: ["If", "we", "used", "video", "calls", "for", "meetings,", "we", "would", "save", "travel", "time"],
             correctAnswer: "If we used video calls for meetings, we would save travel time.",
             correctFeedback: "Excellent! 'If we used video calls for meetings, we would save travel time' - remote work efficiency!",
             correctFeedbackRu: "Отлично! 'If we used video calls for meetings, we would save travel time' - эффективность удаленной работы!",
@@ -3624,7 +3625,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "protected", "his", "passwords", "better", "he", "would", "avoid", "cyber", "attacks"],
+            words: ["If", "he", "protected", "his", "passwords", "better,", "he", "would", "avoid", "cyber", "attacks"],
             correctAnswer: "If he protected his passwords better, he would avoid cyber attacks.",
             correctFeedback: "Great! 'If he protected his passwords better, he would avoid cyber attacks' - cybersecurity awareness!",
             correctFeedbackRu: "Отлично! 'If he protected his passwords better, he would avoid cyber attacks' - осведомленность о кибербезопасности!",
@@ -3634,7 +3635,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "organized", "my", "digital", "photos", "I", "would", "find", "memories", "easily"],
+            words: ["If", "I", "organized", "my", "digital", "photos,", "I", "would", "find", "memories", "easily"],
             correctAnswer: "If I organized my digital photos, I would find memories easily.",
             correctFeedback: "Perfect! 'If I organized my digital photos, I would find memories easily' - digital organization benefits!",
             correctFeedbackRu: "Идеально! 'If I organized my digital photos, I would find memories easily' - преимущества цифровой организации!",
@@ -3643,6 +3644,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
         }
     ]
 };
+
 /* ============================================
 Page 8: Hobbies and Entertainment
 ============================================ */
@@ -3651,7 +3653,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "had", "more", "free", "time", "I", "would", "read", "novels", "every", "weekend"],
+            words: ["If", "I", "had", "more", "free", "time,", "I", "would", "read", "novels", "every", "weekend"],
             correctAnswer: "If I had more free time, I would read novels every weekend.",
             correctFeedback: "Perfect! 'If I had more free time, I would read novels every weekend' - reading hobby aspiration!",
             correctFeedbackRu: "Идеально! 'If I had more free time, I would read novels every weekend' - стремление к чтению как хобби!",
@@ -3661,7 +3663,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "knew", "how", "to", "dance", "she", "would", "join", "the", "salsa", "club"],
+            words: ["If", "she", "knew", "how", "to", "dance,", "she", "would", "join", "the", "salsa", "club"],
             correctAnswer: "If she knew how to dance, she would join the salsa club.",
             correctFeedback: "Excellent! 'If she knew how to dance, she would join the salsa club' - dance skill wish!",
             correctFeedbackRu: "Отлично! 'If she knew how to dance, she would join the salsa club' - желание танцевальных навыков!",
@@ -3671,7 +3673,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "owned", "a", "boat", "we", "would", "go", "fishing", "every", "summer"],
+            words: ["If", "we", "owned", "a", "boat,", "we", "would", "go", "fishing", "every", "summer"],
             correctAnswer: "If we owned a boat, we would go fishing every summer.",
             correctFeedback: "Great! 'If we owned a boat, we would go fishing every summer' - water recreation dream!",
             correctFeedbackRu: "Отлично! 'If we owned a boat, we would go fishing every summer' - мечта о водном отдыхе!",
@@ -3681,7 +3683,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "played", "guitar", "well", "he", "would", "perform", "at", "local", "cafes"],
+            words: ["If", "he", "played", "guitar", "well,", "he", "would", "perform", "at", "local", "cafes"],
             correctAnswer: "If he played guitar well, he would perform at local cafes.",
             correctFeedback: "Perfect! 'If he played guitar well, he would perform at local cafes' - musical performance aspiration!",
             correctFeedbackRu: "Идеально! 'If he played guitar well, he would perform at local cafes' - стремление к музыкальным выступлениям!",
@@ -3691,7 +3693,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "had", "a", "bigger", "garden", "they", "would", "grow", "beautiful", "flowers"],
+            words: ["If", "they", "had", "a", "bigger", "garden,", "they", "would", "grow", "beautiful", "flowers"],
             correctAnswer: "If they had a bigger garden, they would grow beautiful flowers.",
             correctFeedback: "Excellent! 'If they had a bigger garden, they would grow beautiful flowers' - gardening hobby dream!",
             correctFeedbackRu: "Отлично! 'If they had a bigger garden, they would grow beautiful flowers' - мечта о садоводческом хобби!",
@@ -3701,7 +3703,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "collected", "vintage", "records", "I", "would", "listen", "to", "classic", "music"],
+            words: ["If", "I", "collected", "vintage", "records,", "I", "would", "listen", "to", "classic", "music"],
             correctAnswer: "If I collected vintage records, I would listen to classic music.",
             correctFeedback: "Great! 'If I collected vintage records, I would listen to classic music' - collector hobby interest!",
             correctFeedbackRu: "Отлично! 'If I collected vintage records, I would listen to classic music' - интерес к коллекционерскому хобби!",
@@ -3711,7 +3713,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "watched", "fewer", "TV", "shows", "she", "would", "have", "time", "for", "painting"],
+            words: ["If", "she", "watched", "fewer", "TV", "shows,", "she", "would", "have", "time", "for", "painting"],
             correctAnswer: "If she watched fewer TV shows, she would have time for painting.",
             correctFeedback: "Perfect! 'If she watched fewer TV shows, she would have time for painting' - time management for creativity!",
             correctFeedbackRu: "Идеально! 'If she watched fewer TV shows, she would have time for painting' - управление временем для творчества!",
@@ -3721,7 +3723,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "joined", "a", "hiking", "club", "we", "would", "explore", "mountain", "trails"],
+            words: ["If", "we", "joined", "a", "hiking", "club,", "we", "would", "explore", "mountain", "trails"],
             correctAnswer: "If we joined a hiking club, we would explore mountain trails.",
             correctFeedback: "Excellent! 'If we joined a hiking club, we would explore mountain trails' - outdoor adventure hobby!",
             correctFeedbackRu: "Отлично! 'If we joined a hiking club, we would explore mountain trails' - хобби приключений на природе!",
@@ -3731,7 +3733,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "learned", "photography", "he", "would", "capture", "amazing", "nature", "scenes"],
+            words: ["If", "he", "learned", "photography,", "he", "would", "capture", "amazing", "nature", "scenes"],
             correctAnswer: "If he learned photography, he would capture amazing nature scenes.",
             correctFeedback: "Great! 'If he learned photography, he would capture amazing nature scenes' - creative skill development!",
             correctFeedbackRu: "Отлично! 'If he learned photography, he would capture amazing nature scenes' - развитие творческих навыков!",
@@ -3741,7 +3743,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "started", "a", "book", "club", "I", "would", "discuss", "stories", "with", "friends"],
+            words: ["If", "I", "started", "a", "book", "club,", "I", "would", "discuss", "stories", "with", "friends"],
             correctAnswer: "If I started a book club, I would discuss stories with friends.",
             correctFeedback: "Perfect! 'If I started a book club, I would discuss stories with friends' - social reading initiative!",
             correctFeedbackRu: "Идеально! 'If I started a book club, I would discuss stories with friends' - инициатива социального чтения!",
@@ -3759,7 +3761,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "recycled", "more", "plastic", "we", "would", "reduce", "ocean", "pollution"],
+            words: ["If", "we", "recycled", "more", "plastic,", "we", "would", "reduce", "ocean", "pollution"],
             correctAnswer: "If we recycled more plastic, we would reduce ocean pollution.",
             correctFeedback: "Perfect! 'If we recycled more plastic, we would reduce ocean pollution' - environmental responsibility!",
             correctFeedbackRu: "Идеально! 'If we recycled more plastic, we would reduce ocean pollution' - экологическая ответственность!",
@@ -3769,7 +3771,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "volunteered", "at", "the", "animal", "shelter", "she", "would", "help", "homeless", "pets"],
+            words: ["If", "she", "volunteered", "at", "the", "animal", "shelter,", "she", "would", "help", "homeless", "pets"],
             correctAnswer: "If she volunteered at the animal shelter, she would help homeless pets.",
             correctFeedback: "Excellent! 'If she volunteered at the animal shelter, she would help homeless pets' - community service aspiration!",
             correctFeedbackRu: "Отлично! 'If she volunteered at the animal shelter, she would help homeless pets' - стремление к общественной службе!",
@@ -3779,7 +3781,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "planted", "trees", "in", "their", "neighborhood", "they", "would", "improve", "air", "quality"],
+            words: ["If", "they", "planted", "trees", "in", "their", "neighborhood,", "they", "would", "improve", "air", "quality"],
             correctAnswer: "If they planted trees in their neighborhood, they would improve air quality.",
             correctFeedback: "Great! 'If they planted trees in their neighborhood, they would improve air quality' - local environmental action!",
             correctFeedbackRu: "Отлично! 'If they planted trees in their neighborhood, they would improve air quality' - местные экологические действия!",
@@ -3789,7 +3791,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "organized", "community", "clean-up", "events", "he", "would", "make", "the", "area", "beautiful"],
+            words: ["If", "he", "organized", "community", "clean-up", "events,", "he", "would", "make", "the", "area", "beautiful"],
             correctAnswer: "If he organized community clean-up events, he would make the area beautiful.",
             correctFeedback: "Perfect! 'If he organized community clean-up events, he would make the area beautiful' - civic engagement!",
             correctFeedbackRu: "Идеально! 'If he organized community clean-up events, he would make the area beautiful' - гражданское участие!",
@@ -3799,7 +3801,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "used", "public", "transportation", "more", "we", "would", "decrease", "traffic", "congestion"],
+            words: ["If", "we", "used", "public", "transportation", "more,", "we", "would", "decrease", "traffic", "congestion"],
             correctAnswer: "If we used public transportation more, we would decrease traffic congestion.",
             correctFeedback: "Excellent! 'If we used public transportation more, we would decrease traffic congestion' - sustainable mobility!",
             correctFeedbackRu: "Отлично! 'If we used public transportation more, we would decrease traffic congestion' - устойчивая мобильность!",
@@ -3809,7 +3811,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "started", "a", "neighborhood", "garden", "I", "would", "bring", "people", "together"],
+            words: ["If", "I", "started", "a", "neighborhood", "garden,", "I", "would", "bring", "people", "together"],
             correctAnswer: "If I started a neighborhood garden, I would bring people together.",
             correctFeedback: "Great! 'If I started a neighborhood garden, I would bring people together' - community building through gardening!",
             correctFeedbackRu: "Отлично! 'If I started a neighborhood garden, I would bring people together' - создание сообщества через садоводство!",
@@ -3819,7 +3821,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "donated", "clothes", "to", "charity", "she", "would", "help", "families", "in", "need"],
+            words: ["If", "she", "donated", "clothes", "to", "charity,", "she", "would", "help", "families", "in", "need"],
             correctAnswer: "If she donated clothes to charity, she would help families in need.",
             correctFeedback: "Perfect! 'If she donated clothes to charity, she would help families in need' - charitable giving intention!",
             correctFeedbackRu: "Идеально! 'If she donated clothes to charity, she would help families in need' - намерение благотворительного пожертвования!",
@@ -3829,7 +3831,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "supported", "local", "businesses", "we", "would", "strengthen", "our", "economy"],
+            words: ["If", "we", "supported", "local", "businesses,", "we", "would", "strengthen", "our", "economy"],
             correctAnswer: "If we supported local businesses, we would strengthen our economy.",
             correctFeedback: "Excellent! 'If we supported local businesses, we would strengthen our economy' - economic community support!",
             correctFeedbackRu: "Отлично! 'If we supported local businesses, we would strengthen our economy' - экономическая поддержка сообщества!",
@@ -3839,7 +3841,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "taught", "children", "about", "recycling", "he", "would", "create", "environmental", "awareness"],
+            words: ["If", "he", "taught", "children", "about", "recycling,", "he", "would", "create", "environmental", "awareness"],
             correctAnswer: "If he taught children about recycling, he would create environmental awareness.",
             correctFeedback: "Great! 'If he taught children about recycling, he would create environmental awareness' - education for sustainability!",
             correctFeedbackRu: "Отлично! 'If he taught children about recycling, he would create environmental awareness' - образование для устойчивости!",
@@ -3849,7 +3851,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "organized", "food", "drives", "I", "would", "fight", "hunger", "in", "my", "community"],
+            words: ["If", "I", "organized", "food", "drives,", "I", "would", "fight", "hunger", "in", "my", "community"],
             correctAnswer: "If I organized food drives, I would fight hunger in my community.",
             correctFeedback: "Perfect! 'If I organized food drives, I would fight hunger in my community' - social justice action!",
             correctFeedbackRu: "Идеально! 'If I organized food drives, I would fight hunger in my community' - действие за социальную справедливость!",
@@ -3867,7 +3869,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "overcame", "my", "fears", "I", "would", "achieve", "my", "biggest", "dreams"],
+            words: ["If", "I", "overcame", "my", "fears,", "I", "would", "achieve", "my", "biggest", "dreams"],
             correctAnswer: "If I overcame my fears, I would achieve my biggest dreams.",
             correctFeedback: "Perfect! 'If I overcame my fears, I would achieve my biggest dreams' - personal courage and growth!",
             correctFeedbackRu: "Идеально! 'If I overcame my fears, I would achieve my biggest dreams' - личная смелость и рост!",
@@ -3877,7 +3879,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "believed", "in", "herself", "more", "she", "would", "apply", "for", "leadership", "roles"],
+            words: ["If", "she", "believed", "in", "herself", "more,", "she", "would", "apply", "for", "leadership", "roles"],
             correctAnswer: "If she believed in herself more, she would apply for leadership roles.",
             correctFeedback: "Excellent! 'If she believed in herself more, she would apply for leadership roles' - self-confidence development!",
             correctFeedbackRu: "Отлично! 'If she believed in herself more, she would apply for leadership roles' - развитие уверенности в себе!",
@@ -3887,7 +3889,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "set", "clear", "goals", "we", "would", "make", "progress", "faster"],
+            words: ["If", "we", "set", "clear", "goals,", "we", "would", "make", "progress", "faster"],
             correctAnswer: "If we set clear goals, we would make progress faster.",
             correctFeedback: "Great! 'If we set clear goals, we would make progress faster' - goal-setting importance!",
             correctFeedbackRu: "Отлично! 'If we set clear goals, we would make progress faster' - важность постановки целей!",
@@ -3897,7 +3899,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "developed", "better", "habits", "he", "would", "transform", "his", "entire", "life"],
+            words: ["If", "he", "developed", "better", "habits,", "he", "would", "transform", "his", "entire", "life"],
             correctAnswer: "If he developed better habits, he would transform his entire life.",
             correctFeedback: "Perfect! 'If he developed better habits, he would transform his entire life' - habit formation power!",
             correctFeedbackRu: "Идеально! 'If he developed better habits, he would transform his entire life' - сила формирования привычек!",
@@ -3907,7 +3909,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "they", "embraced", "change", "more", "easily", "they", "would", "adapt", "to", "new", "situations"],
+            words: ["If", "they", "embraced", "change", "more", "easily,", "they", "would", "adapt", "to", "new", "situations"],
             correctAnswer: "If they embraced change more easily, they would adapt to new situations.",
             correctFeedback: "Excellent! 'If they embraced change more easily, they would adapt to new situations' - adaptability skill!",
             correctFeedbackRu: "Отлично! 'If they embraced change more easily, they would adapt to new situations' - навык адаптивности!",
@@ -3917,7 +3919,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "practiced", "mindfulness", "daily", "I", "would", "live", "more", "peacefully"],
+            words: ["If", "I", "practiced", "mindfulness", "daily,", "I", "would", "live", "more", "peacefully"],
             correctAnswer: "If I practiced mindfulness daily, I would live more peacefully.",
             correctFeedback: "Great! 'If I practiced mindfulness daily, I would live more peacefully' - mental wellness practice!",
             correctFeedbackRu: "Отлично! 'If I practiced mindfulness daily, I would live more peacefully' - практика психического благополучия!",
@@ -3927,7 +3929,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "she", "took", "more", "risks", "she", "would", "discover", "new", "opportunities"],
+            words: ["If", "she", "took", "more", "risks,", "she", "would", "discover", "new", "opportunities"],
             correctAnswer: "If she took more risks, she would discover new opportunities.",
             correctFeedback: "Perfect! 'If she took more risks, she would discover new opportunities' - courage for growth!",
             correctFeedbackRu: "Идеально! 'If she took more risks, she would discover new opportunities' - смелость для роста!",
@@ -3937,7 +3939,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "we", "focused", "on", "solutions", "instead", "of", "problems", "we", "would", "feel", "more", "optimistic"],
+            words: ["If", "we", "focused", "on", "solutions", "instead", "of", "problems,", "we", "would", "feel", "more", "optimistic"],
             correctAnswer: "If we focused on solutions instead of problems, we would feel more optimistic.",
             correctFeedback: "Excellent! 'If we focused on solutions instead of problems, we would feel more optimistic' - positive mindset shift!",
             correctFeedbackRu: "Отлично! 'If we focused on solutions instead of problems, we would feel more optimistic' - сдвиг к позитивному мышлению!",
@@ -3947,7 +3949,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "he", "surrounded", "himself", "with", "positive", "people", "he", "would", "become", "more", "motivated"],
+            words: ["If", "he", "surrounded", "himself", "with", "positive", "people,", "he", "would", "become", "more", "motivated"],
             correctAnswer: "If he surrounded himself with positive people, he would become more motivated.",
             correctFeedback: "Great! 'If he surrounded himself with positive people, he would become more motivated' - environment influence!",
             correctFeedbackRu: "Отлично! 'If he surrounded himself with positive people, he would become more motivated' - влияние окружения!",
@@ -3957,7 +3959,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = 
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
-            words: ["If", "I", "invested", "time", "in", "personal", "development", "I", "would", "unlock", "my", "potential"],
+            words: ["If", "I", "invested", "time", "in", "personal", "development,", "I", "would", "unlock", "my", "potential"],
             correctAnswer: "If I invested time in personal development, I would unlock my potential.",
             correctFeedback: "Perfect! 'If I invested time in personal development, I would unlock my potential' - self-improvement commitment! You've completed all Second Conditional Sentence Building exercises!",
             correctFeedbackRu: "Идеально! 'If I invested time in personal development, I would unlock my potential' - приверженность самосовершенствованию! Вы завершили все упражнения Sentence Building на Second Conditional!",

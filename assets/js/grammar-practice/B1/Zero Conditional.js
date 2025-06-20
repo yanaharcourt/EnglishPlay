@@ -2895,7 +2895,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "forget", "your", "phone", "charger", "the", "battery", "dies"],
+            words: ["If", "you", "forget", "your", "phone", "charger,", "the", "battery", "dies"],
             correctAnswer: "If you forget your phone charger, the battery dies.",
             correctFeedback: "Excellent! 'If you forget your phone charger, the battery dies' - perfect everyday technology fact!",
             correctFeedbackRu: "Отлично! 'If you forget your phone charger, the battery dies' - идеальный повседневный технологический факт!",
@@ -2905,7 +2905,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "drink", "coffee", "late", "I", "can't", "sleep"],
+            words: ["When", "I", "drink", "coffee", "late,", "I", "can't", "sleep"],
             correctAnswer: "When I drink coffee late, I can't sleep.",
             correctFeedback: "Perfect! 'When I drink coffee late, I can't sleep' - common personal experience!",
             correctFeedbackRu: "Идеально! 'When I drink coffee late, I can't sleep' - обычный личный опыт!",
@@ -2915,7 +2915,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "leave", "milk", "out", "it", "goes", "bad"],
+            words: ["If", "you", "leave", "milk", "out,", "it", "goes", "bad"],
             correctAnswer: "If you leave milk out, it goes bad.",
             correctFeedback: "Great! 'If you leave milk out, it goes bad' - practical kitchen knowledge!",
             correctFeedbackRu: "Отлично! 'If you leave milk out, it goes bad' - практические кухонные знания!",
@@ -2925,7 +2925,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эди слова:",
-            words: ["When", "it", "rains", "people", "use", "umbrellas"],
+            words: ["When", "it", "rains,", "people", "use", "umbrellas"],
             correctAnswer: "When it rains, people use umbrellas.",
             correctFeedback: "Excellent! 'When it rains, people use umbrellas' - universal weather behavior!",
             correctFeedbackRu: "Отлично! 'When it rains, people use umbrellas' - универсальное поведение при погоде!",
@@ -2935,7 +2935,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "I", "eat", "too", "much", "I", "feel", "sick"],
+            words: ["If", "I", "eat", "too", "much,", "I", "feel", "sick"],
             correctAnswer: "If I eat too much, I feel sick.",
             correctFeedback: "Perfect! 'If I eat too much, I feel sick' - relatable personal experience!",
             correctFeedbackRu: "Идеально! 'If I eat too much, I feel sick' - понятный личный опыт!",
@@ -2945,7 +2945,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "press", "the", "wrong", "button", "the", "elevator", "stops"],
+            words: ["When", "you", "press", "the", "wrong", "button,", "the", "elevator", "stops"],
             correctAnswer: "When you press the wrong button, the elevator stops.",
             correctFeedback: "Great! 'When you press the wrong button, the elevator stops' - everyday building experience!",
             correctFeedbackRu: "Отлично! 'When you press the wrong button, the elevator stops' - повседневный опыт в здании!",
@@ -2955,7 +2955,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "don't", "water", "plants", "they", "die"],
+            words: ["If", "you", "don't", "water", "plants,", "they", "die"],
             correctAnswer: "If you don't water plants, they die.",
             correctFeedback: "Excellent! 'If you don't water plants, they die' - basic gardening fact!",
             correctFeedbackRu: "Отлично! 'If you don't water plants, they die' - основной факт садоводства!",
@@ -2965,7 +2965,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "watch", "scary", "movies", "I", "get", "nightmares"],
+            words: ["When", "I", "watch", "scary", "movies,", "I", "get", "nightmares"],
             correctAnswer: "When I watch scary movies, I get nightmares.",
             correctFeedback: "Perfect! 'When I watch scary movies, I get nightmares' - common personal reaction!",
             correctFeedbackRu: "Идеально! 'When I watch scary movies, I get nightmares' - обычная личная реакция!",
@@ -2975,7 +2975,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "leave", "food", "on", "the", "counter", "flies", "come"],
+            words: ["If", "you", "leave", "food", "on", "the", "counter,", "flies", "come"],
             correctAnswer: "If you leave food on the counter, flies come.",
             correctFeedback: "Great! 'If you leave food on the counter, flies come' - household reality!",
             correctFeedbackRu: "Отлично! 'If you leave food on the counter, flies come' - домашняя реальность!",
@@ -2985,7 +2985,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "forget", "your", "keys", "you", "get", "locked", "out"],
+            words: ["When", "you", "forget", "your", "keys,", "you", "get", "locked", "out"],
             correctAnswer: "When you forget your keys, you get locked out.",
             correctFeedback: "Excellent! 'When you forget your keys, you get locked out' - frustrating but common experience!",
             correctFeedbackRu: "Отлично! 'When you forget your keys, you get locked out' - раздражающий, но обычный опыт!",
@@ -3003,7 +3003,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "arrive", "late", "to", "work", "your", "boss", "gets", "angry"],
+            words: ["If", "you", "arrive", "late", "to", "work,", "your", "boss", "gets", "angry"],
             correctAnswer: "If you arrive late to work, your boss gets angry.",
             correctFeedback: "Excellent! 'If you arrive late to work, your boss gets angry' - workplace reality!",
             correctFeedbackRu: "Отлично! 'If you arrive late to work, your boss gets angry' - реальность рабочего места!",
@@ -3013,7 +3013,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "work", "from", "home", "I", "save", "money", "on", "transport"],
+            words: ["When", "I", "work", "from", "home,", "I", "save", "money", "on", "transport"],
             correctAnswer: "When I work from home, I save money on transport.",
             correctFeedback: "Perfect! 'When I work from home, I save money on transport' - modern work benefit!",
             correctFeedbackRu: "Идеально! 'When I work from home, I save money on transport' - преимущество современной работы!",
@@ -3023,7 +3023,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "gossip", "about", "colleagues", "people", "lose", "trust"],
+            words: ["If", "you", "gossip", "about", "colleagues,", "people", "lose", "trust"],
             correctAnswer: "If you gossip about colleagues, people lose trust.",
             correctFeedback: "Great! 'If you gossip about colleagues, people lose trust' - workplace social dynamics!",
             correctFeedbackRu: "Отлично! 'If you gossip about colleagues, people lose trust' - социальная динамика на рабочем месте!",
@@ -3033,7 +3033,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "help", "others", "they", "remember", "your", "kindness"],
+            words: ["When", "you", "help", "others,", "they", "remember", "your", "kindness"],
             correctAnswer: "When you help others, they remember your kindness.",
             correctFeedback: "Excellent! 'When you help others, they remember your kindness' - beautiful human truth!",
             correctFeedbackRu: "Отлично! 'When you help others, they remember your kindness' - прекрасная человеческая истина!",
@@ -3043,7 +3043,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "I", "skip", "lunch", "I", "get", "cranky"],
+            words: ["If", "I", "skip", "lunch,", "I", "get", "cranky"],
             correctAnswer: "If I skip lunch, I get cranky.",
             correctFeedback: "Perfect! 'If I skip lunch, I get cranky' - relatable daily experience!",
             correctFeedbackRu: "Идеально! 'If I skip lunch, I get cranky' - понятный ежедневный опыт!",
@@ -3053,7 +3053,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "smile", "at", "strangers", "they", "usually", "smile", "back"],
+            words: ["When", "you", "smile", "at", "strangers,", "they", "usually", "smile", "back"],
             correctAnswer: "When you smile at strangers, they usually smile back.",
             correctFeedback: "Great! 'When you smile at strangers, they usually smile back' - social psychology in action!",
             correctFeedbackRu: "Отлично! 'When you smile at strangers, they usually smile back' - социальная психология в действии!",
@@ -3063,7 +3063,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "check", "social", "media", "constantly", "you", "feel", "anxious"],
+            words: ["If", "you", "check", "social", "media", "constantly,", "you", "feel", "anxious"],
             correctAnswer: "If you check social media constantly, you feel anxious.",
             correctFeedback: "Excellent! 'If you check social media constantly, you feel anxious' - modern digital reality!",
             correctFeedbackRu: "Отлично! 'If you check social media constantly, you feel anxious' - современная цифровая реальность!",
@@ -3073,7 +3073,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "meet", "new", "people", "I", "feel", "nervous"],
+            words: ["When", "I", "meet", "new", "people,", "I", "feel", "nervous"],
             correctAnswer: "When I meet new people, I feel nervous.",
             correctFeedback: "Perfect! 'When I meet new people, I feel nervous' - common social anxiety!",
             correctFeedbackRu: "Идеально! 'When I meet new people, I feel nervous' - обычное социальное беспокойство!",
@@ -3083,7 +3083,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "complain", "all", "the", "time", "people", "avoid", "you"],
+            words: ["If", "you", "complain", "all", "the", "time,", "people", "avoid", "you"],
             correctAnswer: "If you complain all the time, people avoid you.",
             correctFeedback: "Great! 'If you complain all the time, people avoid you' - harsh but true social fact!",
             correctFeedbackRu: "Отлично! 'If you complain all the time, people avoid you' - суровый, но правдивый социальный факт!",
@@ -3093,7 +3093,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "listen", "to", "others", "they", "appreciate", "you", "more"],
+            words: ["When", "you", "listen", "to", "others,", "they", "appreciate", "you", "more"],
             correctAnswer: "When you listen to others, they appreciate you more.",
             correctFeedback: "Excellent! 'When you listen to others, they appreciate you more' - valuable relationship advice!",
             correctFeedbackRu: "Отлично! 'When you listen to others, they appreciate you more' - ценный совет для отношений!",
@@ -3111,7 +3111,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "stay", "up", "late", "you", "feel", "tired", "tomorrow"],
+            words: ["If", "you", "stay", "up", "late,", "you", "feel", "tired", "tomorrow"],
             correctAnswer: "If you stay up late, you feel tired tomorrow.",
             correctFeedback: "Excellent! 'If you stay up late, you feel tired tomorrow' - sleep hygiene reality!",
             correctFeedbackRu: "Отлично! 'If you stay up late, you feel tired tomorrow' - реальность гигиены сна!",
@@ -3121,7 +3121,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "exercise", "regularly", "I", "sleep", "better"],
+            words: ["When", "I", "exercise", "regularly,", "I", "sleep", "better"],
             correctAnswer: "When I exercise regularly, I sleep better.",
             correctFeedback: "Perfect! 'When I exercise regularly, I sleep better' - proven health benefit!",
             correctFeedbackRu: "Идеально! 'When I exercise regularly, I sleep better' - доказанная польза для здоровья!",
@@ -3131,7 +3131,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "eat", "junk", "food", "your", "skin", "breaks", "out"],
+            words: ["If", "you", "eat", "junk", "food,", "your", "skin", "breaks", "out"],
             correctAnswer: "If you eat junk food, your skin breaks out.",
             correctFeedback: "Great! 'If you eat junk food, your skin breaks out' - diet and skin connection!",
             correctFeedbackRu: "Отлично! 'If you eat junk food, your skin breaks out' - связь диеты и кожи!",
@@ -3141,7 +3141,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "sit", "all", "day", "your", "back", "hurts"],
+            words: ["When", "you", "sit", "all", "day,", "your", "back", "hurts"],
             correctAnswer: "When you sit all day, your back hurts.",
             correctFeedback: "Excellent! 'When you sit all day, your back hurts' - modern office worker reality!",
             correctFeedbackRu: "Отлично! 'When you sit all day, your back hurts' - реальность современного офисного работника!",
@@ -3151,7 +3151,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "I", "skip", "breakfast", "I", "get", "headaches"],
+            words: ["If", "I", "skip", "breakfast,", "I", "get", "headaches"],
             correctAnswer: "If I skip breakfast, I get headaches.",
             correctFeedback: "Perfect! 'If I skip breakfast, I get headaches' - importance of morning nutrition!",
             correctFeedbackRu: "Идеально! 'If I skip breakfast, I get headaches' - важность утреннего питания!",
@@ -3161,7 +3161,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "drink", "enough", "water", "your", "energy", "improves"],
+            words: ["When", "you", "drink", "enough", "water,", "your", "energy", "improves"],
             correctAnswer: "When you drink enough water, your energy improves.",
             correctFeedback: "Great! 'When you drink enough water, your energy improves' - hydration benefits!",
             correctFeedbackRu: "Отлично! 'When you drink enough water, your energy improves' - преимущества гидратации!",
@@ -3171,7 +3171,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "stress", "too", "much", "your", "hair", "falls", "out"],
+            words: ["If", "you", "stress", "too", "much,", "your", "hair", "falls", "out"],
             correctAnswer: "If you stress too much, your hair falls out.",
             correctFeedback: "Excellent! 'If you stress too much, your hair falls out' - stress and physical health!",
             correctFeedbackRu: "Отлично! 'If you stress too much, your hair falls out' - стресс и физическое здоровье!",
@@ -3181,7 +3181,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "meditate", "daily", "I", "feel", "calmer"],
+            words: ["When", "I", "meditate", "daily,", "I", "feel", "calmer"],
             correctAnswer: "When I meditate daily, I feel calmer.",
             correctFeedback: "Perfect! 'When I meditate daily, I feel calmer' - mindfulness benefits!",
             correctFeedbackRu: "Идеально! 'When I meditate daily, I feel calmer' - преимущества осознанности!",
@@ -3191,7 +3191,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "smoke", "cigarettes", "you", "damage", "your", "lungs"],
+            words: ["If", "you", "smoke", "cigarettes,", "you", "damage", "your", "lungs"],
             correctAnswer: "If you smoke cigarettes, you damage your lungs.",
             correctFeedback: "Great! 'If you smoke cigarettes, you damage your lungs' - important health warning!",
             correctFeedbackRu: "Отлично! 'If you smoke cigarettes, you damage your lungs' - важное предупреждение о здоровье!",
@@ -3201,7 +3201,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "get", "enough", "vitamin", "D", "your", "mood", "lifts"],
+            words: ["When", "you", "get", "enough", "vitamin", "D,", "your", "mood", "lifts"],
             correctAnswer: "When you get enough vitamin D, your mood lifts.",
             correctFeedback: "Excellent! 'When you get enough vitamin D, your mood lifts' - sunshine and mental health connection!",
             correctFeedbackRu: "Отлично! 'When you get enough vitamin D, your mood lifts' - связь солнечного света и психического здоровья!",
@@ -3219,7 +3219,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "spend", "more", "than", "you", "earn", "you", "get", "into", "debt"],
+            words: ["If", "you", "spend", "more", "than", "you", "earn,", "you", "get", "into", "debt"],
             correctAnswer: "If you spend more than you earn, you get into debt.",
             correctFeedback: "Excellent! 'If you spend more than you earn, you get into debt' - fundamental financial rule!",
             correctFeedbackRu: "Отлично! 'If you spend more than you earn, you get into debt' - основное правило финансов!",
@@ -3229,7 +3229,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "go", "grocery", "shopping", "hungry", "I", "buy", "too", "much"],
+            words: ["When", "I", "go", "grocery", "shopping", "hungry,", "I", "buy", "too", "much"],
             correctAnswer: "When I go grocery shopping hungry, I buy too much.",
             correctFeedback: "Perfect! 'When I go grocery shopping hungry, I buy too much' - classic shopping mistake!",
             correctFeedbackRu: "Идеально! 'When I go grocery shopping hungry, I buy too much' - классическая ошибка покупок!",
@@ -3239,7 +3239,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "compare", "prices", "online", "you", "save", "money"],
+            words: ["If", "you", "compare", "prices", "online,", "you", "save", "money"],
             correctAnswer: "If you compare prices online, you save money.",
             correctFeedback: "Great! 'If you compare prices online, you save money' - smart shopping tip!",
             correctFeedbackRu: "Отлично! 'If you compare prices online, you save money' - умный совет по покупкам!",
@@ -3249,7 +3249,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "stores", "have", "sales", "people", "buy", "things", "they", "don't", "need"],
+            words: ["When", "stores", "have", "sales,", "people", "buy", "things", "they", "don't", "need"],
             correctAnswer: "When stores have sales, people buy things they don't need.",
             correctFeedback: "Excellent! 'When stores have sales, people buy things they don't need' - retail psychology!",
             correctFeedbackRu: "Отлично! 'When stores have sales, people buy things they don't need' - психология розничной торговли!",
@@ -3259,7 +3259,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "use", "credit", "cards", "carelessly", "debt", "accumulates", "quickly"],
+            words: ["If", "you", "use", "credit", "cards", "carelessly,", "debt", "accumulates", "quickly"],
             correctAnswer: "If you use credit cards carelessly, debt accumulates quickly.",
             correctFeedback: "Perfect! 'If you use credit cards carelessly, debt accumulates quickly' - important financial warning!",
             correctFeedbackRu: "Идеально! 'If you use credit cards carelessly, debt accumulates quickly' - важное финансовое предупреждение!",
@@ -3269,7 +3269,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "buy", "cheap", "clothes", "they", "wear", "out", "fast"],
+            words: ["When", "you", "buy", "cheap", "clothes,", "they", "wear", "out", "fast"],
             correctAnswer: "When you buy cheap clothes, they wear out fast.",
             correctFeedback: "Great! 'When you buy cheap clothes, they wear out fast' - quality vs price reality!",
             correctFeedbackRu: "Отлично! 'When you buy cheap clothes, they wear out fast' - реальность качества против цены!",
@@ -3279,7 +3279,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "save", "money", "regularly", "you", "build", "financial", "security"],
+            words: ["If", "you", "save", "money", "regularly,", "you", "build", "financial", "security"],
             correctAnswer: "If you save money regularly, you build financial security.",
             correctFeedback: "Excellent! 'If you save money regularly, you build financial security' - wealth building principle!",
             correctFeedbackRu: "Отлично! 'If you save money regularly, you build financial security' - принцип накопления богатства!",
@@ -3289,7 +3289,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "see", "expensive", "brands", "I", "feel", "tempted", "to", "buy"],
+            words: ["When", "I", "see", "expensive", "brands,", "I", "feel", "tempted", "to", "buy"],
             correctAnswer: "When I see expensive brands, I feel tempted to buy.",
             correctFeedback: "Perfect! 'When I see expensive brands, I feel tempted to buy' - marketing psychology in action!",
             correctFeedbackRu: "Идеально! 'When I see expensive brands, I feel tempted to buy' - психология маркетинга в действии!",
@@ -3299,7 +3299,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "don't", "budget", "your", "money", "disappears", "mysteriously"],
+            words: ["If", "you", "don't", "budget,", "your", "money", "disappears", "mysteriously"],
             correctAnswer: "If you don't budget, your money disappears mysteriously.",
             correctFeedback: "Great! 'If you don't budget, your money disappears mysteriously' - personal finance reality!",
             correctFeedbackRu: "Отлично! 'If you don't budget, your money disappears mysteriously' - реальность личных финансов!",
@@ -3309,7 +3309,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "pay", "with", "cash", "you", "spend", "less", "money"],
+            words: ["When", "you", "pay", "with", "cash,", "you", "spend", "less", "money"],
             correctAnswer: "When you pay with cash, you spend less money.",
             correctFeedback: "Excellent! 'When you pay with cash, you spend less money' - psychological spending effect!",
             correctFeedbackRu: "Отлично! 'When you pay with cash, you spend less money' - психологический эффект трат!",
@@ -3327,7 +3327,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "drive", "during", "rush", "hour", "traffic", "is", "terrible"],
+            words: ["If", "you", "drive", "during", "rush", "hour,", "traffic", "is", "terrible"],
             correctAnswer: "If you drive during rush hour, traffic is terrible.",
             correctFeedback: "Excellent! 'If you drive during rush hour, traffic is terrible' - urban commuting reality!",
             correctFeedbackRu: "Отлично! 'If you drive during rush hour, traffic is terrible' - реальность городских поездок!",
@@ -3337,7 +3337,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "take", "public", "transport", "I", "save", "on", "parking", "fees"],
+            words: ["When", "I", "take", "public", "transport,", "I", "save", "on", "parking", "fees"],
             correctAnswer: "When I take public transport, I save on parking fees.",
             correctFeedback: "Perfect! 'When I take public transport, I save on parking fees' - practical city living!",
             correctFeedbackRu: "Идеально! 'When I take public transport, I save on parking fees' - практическая городская жизнь!",
@@ -3347,7 +3347,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "don't", "wear", "a", "helmet", "cycling", "becomes", "dangerous"],
+            words: ["If", "you", "don't", "wear", "a", "helmet,", "cycling", "becomes", "dangerous"],
             correctAnswer: "If you don't wear a helmet, cycling becomes dangerous.",
             correctFeedback: "Great! 'If you don't wear a helmet, cycling becomes dangerous' - important safety reminder!",
             correctFeedbackRu: "Отлично! 'If you don't wear a helmet, cycling becomes dangerous' - важное напоминание о безопасности!",
@@ -3357,7 +3357,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "it", "snows", "flights", "get", "cancelled"],
+            words: ["When", "it", "snows,", "flights", "get", "cancelled"],
             correctAnswer: "When it snows, flights get cancelled.",
             correctFeedback: "Excellent! 'When it snows, flights get cancelled' - weather impact on travel!",
             correctFeedbackRu: "Отлично! 'When it snows, flights get cancelled' - влияние погоды на путешествия!",
@@ -3367,7 +3367,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "speed", "on", "the", "highway", "police", "stop", "you"],
+            words: ["If", "you", "speed", "on", "the", "highway,", "police", "stop", "you"],
             correctAnswer: "If you speed on the highway, police stop you.",
             correctFeedback: "Perfect! 'If you speed on the highway, police stop you' - traffic law enforcement!",
             correctFeedbackRu: "Идеально! 'If you speed on the highway, police stop you' - соблюдение правил дорожного движения!",
@@ -3377,7 +3377,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "walk", "instead", "of", "driving", "you", "get", "exercise"],
+            words: ["When", "you", "walk", "instead", "of", "driving,", "you", "get", "exercise"],
             correctAnswer: "When you walk instead of driving, you get exercise.",
             correctFeedback: "Great! 'When you walk instead of driving, you get exercise' - healthy transportation choice!",
             correctFeedbackRu: "Отлично! 'When you walk instead of driving, you get exercise' - здоровый выбор транспорта!",
@@ -3387,7 +3387,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "don't", "validate", "your", "ticket", "you", "get", "fined"],
+            words: ["If", "you", "don't", "validate", "your", "ticket,", "you", "get", "fined"],
             correctAnswer: "If you don't validate your ticket, you get fined.",
             correctFeedback: "Excellent! 'If you don't validate your ticket, you get fined' - public transport rules!",
             correctFeedbackRu: "Отлично! 'If you don't validate your ticket, you get fined' - правила общественного транспорта!",
@@ -3397,7 +3397,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "use", "GPS", "I", "never", "get", "lost"],
+            words: ["When", "I", "use", "GPS,", "I", "never", "get", "lost"],
             correctAnswer: "When I use GPS, I never get lost.",
             correctFeedback: "Perfect! 'When I use GPS, I never get lost' - modern navigation convenience!",
             correctFeedbackRu: "Идеально! 'When I use GPS, I never get lost' - удобство современной навигации!",
@@ -3407,7 +3407,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "park", "illegally", "your", "car", "gets", "towed"],
+            words: ["If", "you", "park", "illegally,", "your", "car", "gets", "towed"],
             correctAnswer: "If you park illegally, your car gets towed.",
             correctFeedback: "Great! 'If you park illegally, your car gets towed' - parking enforcement reality!",
             correctFeedbackRu: "Отлично! 'If you park illegally, your car gets towed' - реальность контроля парковки!",
@@ -3417,7 +3417,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "travel", "by", "plane", "you", "arrive", "faster"],
+            words: ["When", "you", "travel", "by", "plane,", "you", "arrive", "faster"],
             correctAnswer: "When you travel by plane, you arrive faster.",
             correctFeedback: "Excellent! 'When you travel by plane, you arrive faster' - efficiency of air travel!",
             correctFeedbackRu: "Отлично! 'When you travel by plane, you arrive faster' - эффективность авиаперелетов!",
@@ -3435,7 +3435,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "don't", "call", "your", "parents", "they", "worry", "about", "you"],
+            words: ["If", "you", "don't", "call", "your", "parents,", "they", "worry", "about", "you"],
             correctAnswer: "If you don't call your parents, they worry about you.",
             correctFeedback: "Excellent! 'If you don't call your parents, they worry about you' - universal family truth!",
             correctFeedbackRu: "Отлично! 'If you don't call your parents, they worry about you' - универсальная семейная истина!",
@@ -3445,7 +3445,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "couples", "don't", "communicate", "relationships", "deteriorate"],
+            words: ["When", "couples", "don't", "communicate,", "relationships", "deteriorate"],
             correctAnswer: "When couples don't communicate, relationships deteriorate.",
             correctFeedback: "Perfect! 'When couples don't communicate, relationships deteriorate' - relationship psychology!",
             correctFeedbackRu: "Идеально! 'When couples don't communicate, relationships deteriorate' - психология отношений!",
@@ -3455,7 +3455,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "spend", "quality", "time", "with", "kids", "they", "behave", "better"],
+            words: ["If", "you", "spend", "quality", "time", "with", "kids,", "they", "behave", "better"],
             correctAnswer: "If you spend quality time with kids, they behave better.",
             correctFeedback: "Great! 'If you spend quality time with kids, they behave better' - parenting wisdom!",
             correctFeedbackRu: "Отлично! 'If you spend quality time with kids, they behave better' - мудрость воспитания!",
@@ -3465,7 +3465,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "argue", "with", "my", "siblings", "mom", "gets", "upset"],
+            words: ["When", "I", "argue", "with", "my", "siblings,", "mom", "gets", "upset"],
             correctAnswer: "When I argue with my siblings, mom gets upset.",
             correctFeedback: "Excellent! 'When I argue with my siblings, mom gets upset' - family dynamics reality!",
             correctFeedbackRu: "Отлично! 'When I argue with my siblings, mom gets upset' - реальность семейной динамики!",
@@ -3475,7 +3475,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "remember", "anniversaries", "your", "partner", "feels", "loved"],
+            words: ["If", "you", "remember", "anniversaries,", "your", "partner", "feels", "loved"],
             correctAnswer: "If you remember anniversaries, your partner feels loved.",
             correctFeedback: "Perfect! 'If you remember anniversaries, your partner feels loved' - relationship maintenance!",
             correctFeedbackRu: "Идеально! 'If you remember anniversaries, your partner feels loved' - поддержание отношений!",
@@ -3485,7 +3485,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "grandparents", "visit", "children", "get", "spoiled"],
+            words: ["When", "grandparents", "visit,", "children", "get", "spoiled"],
             correctAnswer: "When grandparents visit, children get spoiled.",
             correctFeedback: "Great! 'When grandparents visit, children get spoiled' - classic family pattern!",
             correctFeedbackRu: "Отлично! 'When grandparents visit, children get spoiled' - классическая семейная модель!",
@@ -3495,7 +3495,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "keep", "secrets", "from", "friends", "trust", "breaks", "down"],
+            words: ["If", "you", "keep", "secrets", "from", "friends,", "trust", "breaks", "down"],
             correctAnswer: "If you keep secrets from friends, trust breaks down.",
             correctFeedback: "Excellent! 'If you keep secrets from friends, trust breaks down' - friendship principle!",
             correctFeedbackRu: "Отлично! 'If you keep secrets from friends, trust breaks down' - принцип дружбы!",
@@ -3505,7 +3505,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "live", "with", "roommates", "compromise", "becomes", "necessary"],
+            words: ["When", "you", "live", "with", "roommates,", "compromise", "becomes", "necessary"],
             correctAnswer: "When you live with roommates, compromise becomes necessary.",
             correctFeedback: "Perfect! 'When you live with roommates, compromise becomes necessary' - shared living reality!",
             correctFeedbackRu: "Идеально! 'When you live with roommates, compromise becomes necessary' - реальность совместного проживания!",
@@ -3515,7 +3515,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "break", "promises", "people", "stop", "trusting", "you"],
+            words: ["If", "you", "break", "promises,", "people", "stop", "trusting", "you"],
             correctAnswer: "If you break promises, people stop trusting you.",
             correctFeedback: "Great! 'If you break promises, people stop trusting you' - integrity and relationships!",
             correctFeedbackRu: "Отлично! 'If you break promises, people stop trusting you' - честность и отношения!",
@@ -3525,7 +3525,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "families", "eat", "dinner", "together", "bonds", "strengthen"],
+            words: ["When", "families", "eat", "dinner", "together,", "bonds", "strengthen"],
             correctAnswer: "When families eat dinner together, bonds strengthen.",
             correctFeedback: "Excellent! 'When families eat dinner together, bonds strengthen' - family bonding importance!",
             correctFeedbackRu: "Отлично! 'When families eat dinner together, bonds strengthen' - важность семейного сплочения!",
@@ -3543,7 +3543,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "overcook", "pasta", "it", "becomes", "mushy"],
+            words: ["If", "you", "overcook", "pasta,", "it", "becomes", "mushy"],
             correctAnswer: "If you overcook pasta, it becomes mushy.",
             correctFeedback: "Excellent! 'If you overcook pasta, it becomes mushy' - classic cooking mistake!",
             correctFeedbackRu: "Отлично! 'If you overcook pasta, it becomes mushy' - классическая кулинарная ошибка!",
@@ -3553,7 +3553,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "cook", "without", "a", "recipe", "dishes", "turn", "out", "strange"],
+            words: ["When", "I", "cook", "without", "a", "recipe,", "dishes", "turn", "out", "strange"],
             correctAnswer: "When I cook without a recipe, dishes turn out strange.",
             correctFeedback: "Perfect! 'When I cook without a recipe, dishes turn out strange' - cooking adventure reality!",
             correctFeedbackRu: "Идеально! 'When I cook without a recipe, dishes turn out strange' - реальность кулинарных приключений!",
@@ -3563,7 +3563,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "leave", "bread", "out", "too", "long", "it", "gets", "stale"],
+            words: ["If", "you", "leave", "bread", "out", "too", "long,", "it", "gets", "stale"],
             correctAnswer: "If you leave bread out too long, it gets stale.",
             correctFeedback: "Great! 'If you leave bread out too long, it gets stale' - food storage basics!",
             correctFeedbackRu: "Отлично! 'If you leave bread out too long, it gets stale' - основы хранения продуктов!",
@@ -3573,7 +3573,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "add", "too", "much", "salt", "food", "becomes", "inedible"],
+            words: ["When", "you", "add", "too", "much", "salt,", "food", "becomes", "inedible"],
             correctAnswer: "When you add too much salt, food becomes inedible.",
             correctFeedback: "Excellent! 'When you add too much salt, food becomes inedible' - seasoning disaster!",
             correctFeedbackRu: "Отлично! 'When you add too much salt, food becomes inedible' - катастрофа с приправами!",
@@ -3583,7 +3583,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "don't", "preheat", "the", "oven", "baking", "fails"],
+            words: ["If", "you", "don't", "preheat", "the", "oven,", "baking", "fails"],
             correctAnswer: "If you don't preheat the oven, baking fails.",
             correctFeedback: "Perfect! 'If you don't preheat the oven, baking fails' - essential baking rule!",
             correctFeedbackRu: "Идеально! 'If you don't preheat the oven, baking fails' - основное правило выпечки!",
@@ -3593,7 +3593,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "smell", "something", "burning", "I", "rush", "to", "the", "kitchen"],
+            words: ["When", "I", "smell", "something", "burning,", "I", "rush", "to", "the", "kitchen"],
             correctAnswer: "When I smell something burning, I rush to the kitchen.",
             correctFeedback: "Great! 'When I smell something burning, I rush to the kitchen' - kitchen emergency response!",
             correctFeedbackRu: "Отлично! 'When I smell something burning, I rush to the kitchen' - реакция на кухонную аварию!",
@@ -3603,7 +3603,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "eat", "spicy", "food", "your", "nose", "runs"],
+            words: ["If", "you", "eat", "spicy", "food,", "your", "nose", "runs"],
             correctAnswer: "If you eat spicy food, your nose runs.",
             correctFeedback: "Excellent! 'If you eat spicy food, your nose runs' - universal spicy food reaction!",
             correctFeedbackRu: "Отлично! 'If you eat spicy food, your nose runs' - универсальная реакция на острую пищу!",
@@ -3613,7 +3613,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "order", "takeout", "too", "often", "you", "gain", "weight"],
+            words: ["When", "you", "order", "takeout", "too", "often,", "you", "gain", "weight"],
             correctAnswer: "When you order takeout too often, you gain weight.",
             correctFeedback: "Perfect! 'When you order takeout too often, you gain weight' - modern eating habits consequence!",
             correctFeedbackRu: "Идеально! 'When you order takeout too often, you gain weight' - последствие современных пищевых привычек!",
@@ -3623,7 +3623,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "don't", "wash", "vegetables", "you", "risk", "getting", "sick"],
+            words: ["If", "you", "don't", "wash", "vegetables,", "you", "risk", "getting", "sick"],
             correctAnswer: "If you don't wash vegetables, you risk getting sick.",
             correctFeedback: "Great! 'If you don't wash vegetables, you risk getting sick' - food safety principle!",
             correctFeedbackRu: "Отлично! 'If you don't wash vegetables, you risk getting sick' - принцип безопасности пищи!",
@@ -3633,7 +3633,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "cook", "at", "home", "you", "save", "money", "and", "eat", "healthier"],
+            words: ["When", "you", "cook", "at", "home,", "you", "save", "money", "and", "eat", "healthier"],
             correctAnswer: "When you cook at home, you save money and eat healthier.",
             correctFeedback: "Excellent! 'When you cook at home, you save money and eat healthier' - home cooking benefits!",
             correctFeedbackRu: "Отлично! 'When you cook at home, you save money and eat healthier' - преимущества домашней готовки!",
@@ -3651,7 +3651,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "it", "rains", "heavily", "streets", "flood", "quickly"],
+            words: ["If", "it", "rains", "heavily,", "streets", "flood", "quickly"],
             correctAnswer: "If it rains heavily, streets flood quickly.",
             correctFeedback: "Excellent! 'If it rains heavily, streets flood quickly' - urban weather consequence!",
             correctFeedbackRu: "Отлично! 'If it rains heavily, streets flood quickly' - городское погодное последствие!",
@@ -3661,7 +3661,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "winter", "arrives", "I", "get", "seasonal", "depression"],
+            words: ["When", "winter", "arrives,", "I", "get", "seasonal", "depression"],
             correctAnswer: "When winter arrives, I get seasonal depression.",
             correctFeedback: "Perfect! 'When winter arrives, I get seasonal depression' - seasonal affective disorder reality!",
             correctFeedbackRu: "Идеально! 'When winter arrives, I get seasonal depression' - реальность сезонного аффективного расстройства!",
@@ -3671,7 +3671,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "the", "temperature", "drops", "suddenly", "people", "catch", "colds"],
+            words: ["If", "the", "temperature", "drops", "suddenly,", "people", "catch", "colds"],
             correctAnswer: "If the temperature drops suddenly, people catch colds.",
             correctFeedback: "Great! 'If the temperature drops suddenly, people catch colds' - weather and health connection!",
             correctFeedbackRu: "Отлично! 'If the temperature drops suddenly, people catch colds' - связь погоды и здоровья!",
@@ -3681,7 +3681,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "it's", "sunny", "outside", "my", "mood", "improves"],
+            words: ["When", "it's", "sunny", "outside,", "my", "mood", "improves"],
             correctAnswer: "When it's sunny outside, my mood improves.",
             correctFeedback: "Excellent! 'When it's sunny outside, my mood improves' - sunshine psychology effect!",
             correctFeedbackRu: "Отлично! 'When it's sunny outside, my mood improves' - психологический эффект солнечного света!",
@@ -3691,7 +3691,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "don't", "dress", "warmly", "you", "get", "hypothermia"],
+            words: ["If", "you", "don't", "dress", "warmly,", "you", "get", "hypothermia"],
             correctAnswer: "If you don't dress warmly, you get hypothermia.",
             correctFeedback: "Perfect! 'If you don't dress warmly, you get hypothermia' - winter safety warning!",
             correctFeedbackRu: "Идеально! 'If you don't dress warmly, you get hypothermia' - предупреждение о зимней безопасности!",
@@ -3701,7 +3701,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "humidity", "is", "high", "hair", "gets", "frizzy"],
+            words: ["When", "humidity", "is", "high,", "hair", "gets", "frizzy"],
             correctAnswer: "When humidity is high, hair gets frizzy.",
             correctFeedback: "Great! 'When humidity is high, hair gets frizzy' - universal hair struggle!",
             correctFeedbackRu: "Отлично! 'When humidity is high, hair gets frizzy' - универсальная проблема с волосами!",
@@ -3711,7 +3711,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "there's", "a", "thunderstorm", "my", "dog", "hides", "under", "the", "bed"],
+            words: ["If", "there's", "a", "thunderstorm,", "my", "dog", "hides", "under", "the", "bed"],
             correctAnswer: "If there's a thunderstorm, my dog hides under the bed.",
             correctFeedback: "Excellent! 'If there's a thunderstorm, my dog hides under the bed' - pet weather anxiety!",
             correctFeedbackRu: "Отлично! 'If there's a thunderstorm, my dog hides under the bed' - погодная тревожность у питомцев!",
@@ -3721,7 +3721,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "spring", "comes", "people", "start", "exercising", "outdoors"],
+            words: ["When", "spring", "comes,", "people", "start", "exercising", "outdoors"],
             correctAnswer: "When spring comes, people start exercising outdoors.",
             correctFeedback: "Perfect! 'When spring comes, people start exercising outdoors' - seasonal fitness motivation!",
             correctFeedbackRu: "Идеально! 'When spring comes, people start exercising outdoors' - сезонная мотивация к фитнесу!",
@@ -3731,7 +3731,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "it", "snows", "overnight", "schools", "get", "cancelled"],
+            words: ["If", "it", "snows", "overnight,", "schools", "get", "cancelled"],
             correctAnswer: "If it snows overnight, schools get cancelled.",
             correctFeedback: "Great! 'If it snows overnight, schools get cancelled' - snow day reality!",
             correctFeedbackRu: "Отлично! 'If it snows overnight, schools get cancelled' - реальность снежных дней!",
@@ -3741,7 +3741,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "the", "weather", "gets", "hot", "ice", "cream", "sales", "increase"],
+            words: ["When", "the", "weather", "gets", "hot,", "ice", "cream", "sales", "increase"],
             correctAnswer: "When the weather gets hot, ice cream sales increase.",
             correctFeedback: "Excellent! 'When the weather gets hot, ice cream sales increase' - seasonal business pattern!",
             correctFeedbackRu: "Отлично! 'When the weather gets hot, ice cream sales increase' - сезонная бизнес-модель!",
@@ -3759,7 +3759,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "binge-watch", "TV", "shows", "you", "lose", "track", "of", "time"],
+            words: ["If", "you", "binge-watch", "TV", "shows,", "you", "lose", "track", "of", "time"],
             correctAnswer: "If you binge-watch TV shows, you lose track of time.",
             correctFeedback: "Excellent! 'If you binge-watch TV shows, you lose track of time' - modern entertainment reality!",
             correctFeedbackRu: "Отлично! 'If you binge-watch TV shows, you lose track of time' - реальность современных развлечений!",
@@ -3769,7 +3769,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "play", "video", "games", "all", "night", "I", "feel", "exhausted"],
+            words: ["When", "I", "play", "video", "games", "all", "night,", "I", "feel", "exhausted"],
             correctAnswer: "When I play video games all night, I feel exhausted.",
             correctFeedback: "Perfect! 'When I play video games all night, I feel exhausted' - gaming consequence!",
             correctFeedbackRu: "Идеально! 'When I play video games all night, I feel exhausted' - последствие игр!",
@@ -3779,7 +3779,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "go", "to", "concerts", "regularly", "your", "hearing", "suffers"],
+            words: ["If", "you", "go", "to", "concerts", "regularly,", "your", "hearing", "suffers"],
             correctAnswer: "If you go to concerts regularly, your hearing suffers.",
             correctFeedback: "Great! 'If you go to concerts regularly, your hearing suffers' - loud music health warning!",
             correctFeedbackRu: "Отлично! 'If you go to concerts regularly, your hearing suffers' - предупреждение о здоровье от громкой музыки!",
@@ -3789,7 +3789,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "read", "books", "before", "bed", "you", "sleep", "better"],
+            words: ["When", "you", "read", "books", "before", "bed,", "you", "sleep", "better"],
             correctAnswer: "When you read books before bed, you sleep better.",
             correctFeedback: "Excellent! 'When you read books before bed, you sleep better' - healthy bedtime routine!",
             correctFeedbackRu: "Отлично! 'When you read books before bed, you sleep better' - здоровая вечерняя рутина!",
@@ -3799,7 +3799,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "scroll", "social", "media", "endlessly", "you", "feel", "depressed"],
+            words: ["If", "you", "scroll", "social", "media", "endlessly,", "you", "feel", "depressed"],
             correctAnswer: "If you scroll social media endlessly, you feel depressed.",
             correctFeedback: "Perfect! 'If you scroll social media endlessly, you feel depressed' - digital wellness warning!",
             correctFeedbackRu: "Идеально! 'If you scroll social media endlessly, you feel depressed' - предупреждение о цифровом благополучии!",
@@ -3809,7 +3809,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "exercise", "regularly", "endorphins", "make", "you", "happy"],
+            words: ["When", "you", "exercise", "regularly,", "endorphins", "make", "you", "happy"],
             correctAnswer: "When you exercise regularly, endorphins make you happy.",
             correctFeedback: "Great! 'When you exercise regularly, endorphins make you happy' - exercise science fact!",
             correctFeedbackRu: "Отлично! 'When you exercise regularly, endorphins make you happy' - научный факт об упражнениях!",
@@ -3819,7 +3819,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "attend", "live", "sports", "events", "the", "energy", "is", "contagious"],
+            words: ["If", "you", "attend", "live", "sports", "events,", "the", "energy", "is", "contagious"],
             correctAnswer: "If you attend live sports events, the energy is contagious.",
             correctFeedback: "Excellent! 'If you attend live sports events, the energy is contagious' - crowd psychology!",
             correctFeedbackRu: "Отлично! 'If you attend live sports events, the energy is contagious' - психология толпы!",
@@ -3829,7 +3829,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "watch", "horror", "movies", "alone", "every", "sound", "scares", "you"],
+            words: ["When", "you", "watch", "horror", "movies", "alone,", "every", "sound", "scares", "you"],
             correctAnswer: "When you watch horror movies alone, every sound scares you.",
             correctFeedback: "Perfect! 'When you watch horror movies alone, every sound scares you' - horror movie psychology!",
             correctFeedbackRu: "Идеально! 'When you watch horror movies alone, every sound scares you' - психология фильмов ужасов!",
@@ -3839,7 +3839,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "learn", "a", "musical", "instrument", "your", "brain", "develops", "differently"],
+            words: ["If", "you", "learn", "a", "musical", "instrument,", "your", "brain", "develops", "differently"],
             correctAnswer: "If you learn a musical instrument, your brain develops differently.",
             correctFeedback: "Great! 'If you learn a musical instrument, your brain develops differently' - neuroscience of music!",
             correctFeedbackRu: "Отлично! 'If you learn a musical instrument, your brain develops differently' - нейронаука музыки!",
@@ -3849,7 +3849,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "dance", "with", "others", "social", "bonds", "strengthen"],
+            words: ["When", "you", "dance", "with", "others,", "social", "bonds", "strengthen"],
             correctAnswer: "When you dance with others, social bonds strengthen.",
             correctFeedback: "Excellent! 'When you dance with others, social bonds strengthen' - dance as social connection!",
             correctFeedbackRu: "Отлично! 'When you dance with others, social bonds strengthen' - танец как социальная связь!",
@@ -3867,7 +3867,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "study", "without", "breaks", "your", "concentration", "decreases"],
+            words: ["If", "you", "study", "without", "breaks,", "your", "concentration", "decreases"],
             correctAnswer: "If you study without breaks, your concentration decreases.",
             correctFeedback: "Excellent! 'If you study without breaks, your concentration decreases' - learning psychology fact!",
             correctFeedbackRu: "Отлично! 'If you study without breaks, your concentration decreases' - факт психологии обучения!",
@@ -3877,7 +3877,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "I", "procrastinate", "on", "assignments", "stress", "levels", "increase"],
+            words: ["When", "I", "procrastinate", "on", "assignments,", "stress", "levels", "increase"],
             correctAnswer: "When I procrastinate on assignments, stress levels increase.",
             correctFeedback: "Perfect! 'When I procrastinate on assignments, stress levels increase' - student reality!",
             correctFeedbackRu: "Идеально! 'When I procrastinate on assignments, stress levels increase' - реальность студента!",
@@ -3887,7 +3887,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "review", "notes", "regularly", "information", "sticks", "better"],
+            words: ["If", "you", "review", "notes", "regularly,", "information", "sticks", "better"],
             correctAnswer: "If you review notes regularly, information sticks better.",
             correctFeedback: "Great! 'If you review notes regularly, information sticks better' - memory retention principle!",
             correctFeedbackRu: "Отлично! 'If you review notes regularly, information sticks better' - принцип запоминания!",
@@ -3897,7 +3897,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "study", "in", "groups", "you", "learn", "from", "different", "perspectives"],
+            words: ["When", "you", "study", "in", "groups,", "you", "learn", "from", "different", "perspectives"],
             correctAnswer: "When you study in groups, you learn from different perspectives.",
             correctFeedback: "Excellent! 'When you study in groups, you learn from different perspectives' - collaborative learning benefit!",
             correctFeedbackRu: "Отлично! 'When you study in groups, you learn from different perspectives' - преимущество совместного обучения!",
@@ -3907,7 +3907,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "cram", "the", "night", "before", "exams", "you", "forget", "everything"],
+            words: ["If", "you", "cram", "the", "night", "before", "exams,", "you", "forget", "everything"],
             correctAnswer: "If you cram the night before exams, you forget everything.",
             correctFeedback: "Perfect! 'If you cram the night before exams, you forget everything' - poor study strategy consequence!",
             correctFeedbackRu: "Идеально! 'If you cram the night before exams, you forget everything' - последствие плохой стратегии обучения!",
@@ -3917,7 +3917,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "use", "flashcards", "memorization", "becomes", "easier"],
+            words: ["When", "you", "use", "flashcards,", "memorization", "becomes", "easier"],
             correctAnswer: "When you use flashcards, memorization becomes easier.",
             correctFeedback: "Great! 'When you use flashcards, memorization becomes easier' - effective study tool!",
             correctFeedbackRu: "Отлично! 'When you use flashcards, memorization becomes easier' - эффективный учебный инструмент!",
@@ -3927,7 +3927,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "study", "while", "listening", "to", "music", "focus", "suffers"],
+            words: ["If", "you", "study", "while", "listening", "to", "music,", "focus", "suffers"],
             correctAnswer: "If you study while listening to music, focus suffers.",
             correctFeedback: "Excellent! 'If you study while listening to music, focus suffers' - multitasking myth exposed!",
             correctFeedbackRu: "Отлично! 'If you study while listening to music, focus suffers' - разоблачение мифа о многозадачности!",
@@ -3937,7 +3937,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "explain", "concepts", "to", "others", "your", "understanding", "deepens"],
+            words: ["When", "you", "explain", "concepts", "to", "others,", "your", "understanding", "deepens"],
             correctAnswer: "When you explain concepts to others, your understanding deepens.",
             correctFeedback: "Perfect! 'When you explain concepts to others, your understanding deepens' - teaching effect!",
             correctFeedbackRu: "Идеально! 'When you explain concepts to others, your understanding deepens' - эффект обучения!",
@@ -3947,7 +3947,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["If", "you", "skip", "classes", "regularly", "grades", "drop", "significantly"],
+            words: ["If", "you", "skip", "classes", "regularly,", "grades", "drop", "significantly"],
             correctAnswer: "If you skip classes regularly, grades drop significantly.",
             correctFeedback: "Great! 'If you skip classes regularly, grades drop significantly' - academic attendance consequence!",
             correctFeedbackRu: "Отлично! 'If you skip classes regularly, grades drop significantly' - последствие пропуска занятий!",
@@ -3957,7 +3957,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
-            words: ["When", "you", "create", "mind", "maps", "complex", "information", "becomes", "clearer"],
+            words: ["When", "you", "create", "mind", "maps,", "complex", "information", "becomes", "clearer"],
             correctAnswer: "When you create mind maps, complex information becomes clearer.",
             correctFeedback: "Excellent! 'When you create mind maps, complex information becomes clearer' - visual learning power! You've completed all 10 pages of Zero Conditional Sentence Building exercises!",
             correctFeedbackRu: "Отлично! 'When you create mind maps, complex information becomes clearer' - сила визуального обучения! Вы завершили все 10 страниц упражнений Sentence Building на Zero Conditional!",

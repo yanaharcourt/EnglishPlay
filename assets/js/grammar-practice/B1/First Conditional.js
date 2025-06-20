@@ -1697,6 +1697,7 @@ console.log("===== ALL FIRST CONDITIONAL MULTIPLE CHOICE EXERCISES COMPLETED ===
 
 /* =============================================================================== */
 /* ===========================Fill in the Gaps Exercises========================== */
+
 /* ============================================
 Page 1: First Conditional - Everyday Situations and Decisions
 ============================================ */
@@ -2893,7 +2894,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "update", "your", "resume", "you", "will", "attract", "better", "job", "offers"],
+            words: ["If", "you", "update", "your", "resume,", "you", "will", "attract", "better", "job", "offers"],
             correctAnswer: "If you update your resume, you will attract better job offers.",
             correctFeedback: "Excellent! 'If you update your resume, you will attract better job offers' - perfect career advice!",
             correctFeedbackRu: "Отлично! 'If you update your resume, you will attract better job offers' - идеальный карьерный совет!",
@@ -2903,7 +2904,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "completes", "the", "certification", "course", "her", "salary", "will", "increase"],
+            words: ["If", "she", "completes", "the", "certification", "course,", "her", "salary", "will", "increase"],
             correctAnswer: "If she completes the certification course, her salary will increase.",
             correctFeedback: "Perfect! 'If she completes the certification course, her salary will increase' - education pays off!",
             correctFeedbackRu: "Идеально! 'If she completes the certification course, her salary will increase' - образование окупается!",
@@ -2913,7 +2914,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "network", "at", "conferences", "they", "will", "find", "new", "business", "partners"],
+            words: ["If", "they", "network", "at", "conferences,", "they", "will", "find", "new", "business", "partners"],
             correctAnswer: "If they network at conferences, they will find new business partners.",
             correctFeedback: "Great! 'If they network at conferences, they will find new business partners' - networking strategy!",
             correctFeedbackRu: "Отлично! 'If they network at conferences, they will find new business partners' - стратегия нетворкинга!",
@@ -2923,7 +2924,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "present", "my", "ideas", "clearly", "the", "team", "will", "support", "the", "project"],
+            words: ["If", "I", "present", "my", "ideas", "clearly,", "the", "team", "will", "support", "the", "project"],
             correctAnswer: "If I present my ideas clearly, the team will support the project.",
             correctFeedback: "Excellent! 'If I present my ideas clearly, the team will support the project' - presentation skills matter!",
             correctFeedbackRu: "Отлично! 'If I present my ideas clearly, the team will support the project' - навыки презентации важны!",
@@ -2933,7 +2934,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "launch", "the", "product", "next", "month", "we", "will", "beat", "our", "competitors"],
+            words: ["If", "we", "launch", "the", "product", "next", "month,", "we", "will", "beat", "our", "competitors"],
             correctAnswer: "If we launch the product next month, we will beat our competitors.",
             correctFeedback: "Perfect! 'If we launch the product next month, we will beat our competitors' - timing is crucial!",
             correctFeedbackRu: "Идеально! 'If we launch the product next month, we will beat our competitors' - время решает все!",
@@ -2943,7 +2944,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "masters", "digital", "marketing", "skills", "he", "will", "become", "more", "valuable"],
+            words: ["If", "he", "masters", "digital", "marketing", "skills,", "he", "will", "become", "more", "valuable"],
             correctAnswer: "If he masters digital marketing skills, he will become more valuable.",
             correctFeedback: "Great! 'If he masters digital marketing skills, he will become more valuable' - skill development strategy!",
             correctFeedbackRu: "Отлично! 'If he masters digital marketing skills, he will become more valuable' - стратегия развития навыков!",
@@ -2953,7 +2954,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "volunteer", "for", "leadership", "roles", "you", "will", "develop", "management", "experience"],
+            words: ["If", "you", "volunteer", "for", "leadership", "roles,", "you", "will", "develop", "management", "experience"],
             correctAnswer: "If you volunteer for leadership roles, you will develop management experience.",
             correctFeedback: "Excellent! 'If you volunteer for leadership roles, you will develop management experience' - leadership development!",
             correctFeedbackRu: "Отлично! 'If you volunteer for leadership roles, you will develop management experience' - развитие лидерства!",
@@ -2963,7 +2964,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "builds", "a", "strong", "personal", "brand", "clients", "will", "trust", "her", "more"],
+            words: ["If", "she", "builds", "a", "strong", "personal", "brand,", "clients", "will", "trust", "her", "more"],
             correctAnswer: "If she builds a strong personal brand, clients will trust her more.",
             correctFeedback: "Perfect! 'If she builds a strong personal brand, clients will trust her more' - branding power!",
             correctFeedbackRu: "Идеально! 'If she builds a strong personal brand, clients will trust her more' - сила брендинга!",
@@ -2973,7 +2974,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "invest", "in", "employee", "training", "productivity", "will", "improve", "significantly"],
+            words: ["If", "they", "invest", "in", "employee", "training,", "productivity", "will", "improve", "significantly"],
             correctAnswer: "If they invest in employee training, productivity will improve significantly.",
             correctFeedback: "Great! 'If they invest in employee training, productivity will improve significantly' - HR wisdom!",
             correctFeedbackRu: "Отлично! 'If they invest in employee training, productivity will improve significantly' - мудрость HR!",
@@ -2983,7 +2984,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "negotiate", "my", "contract", "carefully", "I", "will", "get", "better", "working", "conditions"],
+            words: ["If", "I", "negotiate", "my", "contract", "carefully,", "I", "will", "get", "better", "working", "conditions"],
             correctAnswer: "If I negotiate my contract carefully, I will get better working conditions.",
             correctFeedback: "Excellent! 'If I negotiate my contract carefully, I will get better working conditions' - negotiation skills matter!",
             correctFeedbackRu: "Отлично! 'If I negotiate my contract carefully, I will get better working conditions' - навыки переговоров важны!",
@@ -3001,7 +3002,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "students", "participate", "actively", "in", "discussions", "they", "will", "understand", "concepts", "better"],
+            words: ["If", "students", "participate", "actively", "in", "discussions,", "they", "will", "understand", "concepts", "better"],
             correctAnswer: "If students participate actively in discussions, they will understand concepts better.",
             correctFeedback: "Excellent! 'If students participate actively in discussions, they will understand concepts better' - active learning works!",
             correctFeedbackRu: "Отлично! 'If students participate actively in discussions, they will understand concepts better' - активное обучение работает!",
@@ -3011,7 +3012,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "create", "mind", "maps", "for", "each", "chapter", "you", "will", "remember", "information", "longer"],
+            words: ["If", "you", "create", "mind", "maps", "for", "each", "chapter,", "you", "will", "remember", "information", "longer"],
             correctAnswer: "If you create mind maps for each chapter, you will remember information longer.",
             correctFeedback: "Perfect! 'If you create mind maps for each chapter, you will remember information longer' - visual learning technique!",
             correctFeedbackRu: "Идеально! 'If you create mind maps for each chapter, you will remember information longer' - техника визуального обучения!",
@@ -3021,7 +3022,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "joins", "the", "study", "group", "her", "grades", "will", "improve", "dramatically"],
+            words: ["If", "she", "joins", "the", "study", "group,", "her", "grades", "will", "improve", "dramatically"],
             correctAnswer: "If she joins the study group, her grades will improve dramatically.",
             correctFeedback: "Great! 'If she joins the study group, her grades will improve dramatically' - collaborative learning power!",
             correctFeedbackRu: "Отлично! 'If she joins the study group, her grades will improve dramatically' - сила совместного обучения!",
@@ -3031,7 +3032,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "use", "interactive", "learning", "apps", "we", "will", "master", "languages", "faster"],
+            words: ["If", "we", "use", "interactive", "learning", "apps,", "we", "will", "master", "languages", "faster"],
             correctAnswer: "If we use interactive learning apps, we will master languages faster.",
             correctFeedback: "Excellent! 'If we use interactive learning apps, we will master languages faster' - technology in education!",
             correctFeedbackRu: "Отлично! 'If we use interactive learning apps, we will master languages faster' - технологии в образовании!",
@@ -3041,7 +3042,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "takes", "detailed", "notes", "during", "lectures", "he", "will", "pass", "all", "exams"],
+            words: ["If", "he", "takes", "detailed", "notes", "during", "lectures,", "he", "will", "pass", "all", "exams"],
             correctAnswer: "If he takes detailed notes during lectures, he will pass all exams.",
             correctFeedback: "Perfect! 'If he takes detailed notes during lectures, he will pass all exams' - note-taking strategy!",
             correctFeedbackRu: "Идеально! 'If he takes detailed notes during lectures, he will pass all exams' - стратегия конспектирования!",
@@ -3051,7 +3052,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "practice", "presentation", "skills", "regularly", "they", "will", "become", "confident", "speakers"],
+            words: ["If", "they", "practice", "presentation", "skills", "regularly,", "they", "will", "become", "confident", "speakers"],
             correctAnswer: "If they practice presentation skills regularly, they will become confident speakers.",
             correctFeedback: "Great! 'If they practice presentation skills regularly, they will become confident speakers' - public speaking development!",
             correctFeedbackRu: "Отлично! 'If they practice presentation skills regularly, they will become confident speakers' - развитие навыков публичных выступлений!",
@@ -3061,7 +3062,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "schedule", "regular", "review", "sessions", "you", "will", "retain", "knowledge", "effectively"],
+            words: ["If", "you", "schedule", "regular", "review", "sessions,", "you", "will", "retain", "knowledge", "effectively"],
             correctAnswer: "If you schedule regular review sessions, you will retain knowledge effectively.",
             correctFeedback: "Excellent! 'If you schedule regular review sessions, you will retain knowledge effectively' - spaced repetition works!",
             correctFeedbackRu: "Отлично! 'If you schedule regular review sessions, you will retain knowledge effectively' - интервальное повторение работает!",
@@ -3071,7 +3072,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "applies", "for", "scholarships", "early", "she", "will", "receive", "financial", "aid"],
+            words: ["If", "she", "applies", "for", "scholarships", "early,", "she", "will", "receive", "financial", "aid"],
             correctAnswer: "If she applies for scholarships early, she will receive financial aid.",
             correctFeedback: "Perfect! 'If she applies for scholarships early, she will receive financial aid' - scholarship strategy!",
             correctFeedbackRu: "Идеально! 'If she applies for scholarships early, she will receive financial aid' - стратегия получения стипендий!",
@@ -3081,7 +3082,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "connect", "theory", "with", "practical", "examples", "I", "will", "understand", "subjects", "deeply"],
+            words: ["If", "I", "connect", "theory", "with", "practical", "examples,", "I", "will", "understand", "subjects", "deeply"],
             correctAnswer: "If I connect theory with practical examples, I will understand subjects deeply.",
             correctFeedback: "Great! 'If I connect theory with practical examples, I will understand subjects deeply' - applied learning approach!",
             correctFeedbackRu: "Отлично! 'If I connect theory with practical examples, I will understand subjects deeply' - подход прикладного обучения!",
@@ -3091,7 +3092,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "form", "international", "study", "partnerships", "we", "will", "gain", "global", "perspectives"],
+            words: ["If", "we", "form", "international", "study", "partnerships,", "we", "will", "gain", "global", "perspectives"],
             correctAnswer: "If we form international study partnerships, we will gain global perspectives.",
             correctFeedback: "Excellent! 'If we form international study partnerships, we will gain global perspectives' - international education value!",
             correctFeedbackRu: "Отлично! 'If we form international study partnerships, we will gain global perspectives' - ценность международного образования!",
@@ -3109,7 +3110,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "drink", "eight", "glasses", "of", "water", "daily", "your", "skin", "will", "look", "healthier"],
+            words: ["If", "you", "drink", "eight", "glasses", "of", "water", "daily,", "your", "skin", "will", "look", "healthier"],
             correctAnswer: "If you drink eight glasses of water daily, your skin will look healthier.",
             correctFeedback: "Excellent! 'If you drink eight glasses of water daily, your skin will look healthier' - hydration benefits!",
             correctFeedbackRu: "Отлично! 'If you drink eight glasses of water daily, your skin will look healthier' - польза гидратации!",
@@ -3119,7 +3120,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "practices", "meditation", "every", "morning", "her", "stress", "levels", "will", "decrease"],
+            words: ["If", "she", "practices", "meditation", "every", "morning,", "her", "stress", "levels", "will", "decrease"],
             correctAnswer: "If she practices meditation every morning, her stress levels will decrease.",
             correctFeedback: "Perfect! 'If she practices meditation every morning, her stress levels will decrease' - mindfulness power!",
             correctFeedbackRu: "Идеально! 'If she practices meditation every morning, her stress levels will decrease' - сила осознанности!",
@@ -3129,7 +3130,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "follow", "a", "balanced", "diet", "plan", "they", "will", "lose", "weight", "safely"],
+            words: ["If", "they", "follow", "a", "balanced", "diet", "plan,", "they", "will", "lose", "weight", "safely"],
             correctAnswer: "If they follow a balanced diet plan, they will lose weight safely.",
             correctFeedback: "Great! 'If they follow a balanced diet plan, they will lose weight safely' - sustainable weight loss!",
             correctFeedbackRu: "Отлично! 'If they follow a balanced diet plan, they will lose weight safely' - устойчивое похудение!",
@@ -3139,7 +3140,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "gets", "seven", "hours", "of", "sleep", "nightly", "his", "concentration", "will", "improve"],
+            words: ["If", "he", "gets", "seven", "hours", "of", "sleep", "nightly,", "his", "concentration", "will", "improve"],
             correctAnswer: "If he gets seven hours of sleep nightly, his concentration will improve.",
             correctFeedback: "Excellent! 'If he gets seven hours of sleep nightly, his concentration will improve' - sleep importance!",
             correctFeedbackRu: "Отлично! 'If he gets seven hours of sleep nightly, his concentration will improve' - важность сна!",
@@ -3149,7 +3150,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "exercise", "together", "as", "a", "family", "we", "will", "strengthen", "our", "bonds"],
+            words: ["If", "we", "exercise", "together", "as", "a", "family,", "we", "will", "strengthen", "our", "bonds"],
             correctAnswer: "If we exercise together as a family, we will strengthen our bonds.",
             correctFeedback: "Perfect! 'If we exercise together as a family, we will strengthen our bonds' - family fitness benefits!",
             correctFeedbackRu: "Идеально! 'If we exercise together as a family, we will strengthen our bonds' - польза семейного фитнеса!",
@@ -3159,7 +3160,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "limit", "screen", "time", "before", "bed", "you", "will", "sleep", "more", "peacefully"],
+            words: ["If", "you", "limit", "screen", "time", "before", "bed,", "you", "will", "sleep", "more", "peacefully"],
             correctAnswer: "If you limit screen time before bed, you will sleep more peacefully.",
             correctFeedback: "Great! 'If you limit screen time before bed, you will sleep more peacefully' - digital wellness!",
             correctFeedbackRu: "Отлично! 'If you limit screen time before bed, you will sleep more peacefully' - цифровое благополучие!",
@@ -3169,7 +3170,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "tracks", "her", "daily", "steps", "with", "an", "app", "she", "will", "stay", "motivated"],
+            words: ["If", "she", "tracks", "her", "daily", "steps", "with", "an", "app,", "she", "will", "stay", "motivated"],
             correctAnswer: "If she tracks her daily steps with an app, she will stay motivated.",
             correctFeedback: "Excellent! 'If she tracks her daily steps with an app, she will stay motivated' - fitness tracking motivation!",
             correctFeedbackRu: "Отлично! 'If she tracks her daily steps with an app, she will stay motivated' - мотивация отслеживания фитнеса!",
@@ -3179,7 +3180,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "prepare", "healthy", "meals", "in", "advance", "I", "will", "avoid", "fast", "food", "temptations"],
+            words: ["If", "I", "prepare", "healthy", "meals", "in", "advance,", "I", "will", "avoid", "fast", "food", "temptations"],
             correctAnswer: "If I prepare healthy meals in advance, I will avoid fast food temptations.",
             correctFeedback: "Perfect! 'If I prepare healthy meals in advance, I will avoid fast food temptations' - meal prep wisdom!",
             correctFeedbackRu: "Идеально! 'If I prepare healthy meals in advance, I will avoid fast food temptations' - мудрость приготовления еды заранее!",
@@ -3189,7 +3190,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "join", "a", "local", "sports", "club", "they", "will", "make", "new", "friends"],
+            words: ["If", "they", "join", "a", "local", "sports", "club,", "they", "will", "make", "new", "friends"],
             correctAnswer: "If they join a local sports club, they will make new friends.",
             correctFeedback: "Great! 'If they join a local sports club, they will make new friends' - social fitness benefits!",
             correctFeedbackRu: "Отлично! 'If they join a local sports club, they will make new friends' - социальные преимущества фитнеса!",
@@ -3199,7 +3200,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "schedule", "regular", "health", "checkups", "we", "will", "prevent", "serious", "illnesses"],
+            words: ["If", "we", "schedule", "regular", "health", "checkups,", "we", "will", "prevent", "serious", "illnesses"],
             correctAnswer: "If we schedule regular health checkups, we will prevent serious illnesses.",
             correctFeedback: "Excellent! 'If we schedule regular health checkups, we will prevent serious illnesses' - preventive healthcare!",
             correctFeedbackRu: "Отлично! 'If we schedule regular health checkups, we will prevent serious illnesses' - профилактическое здравоохранение!",
@@ -3217,7 +3218,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "companies", "invest", "in", "artificial", "intelligence", "they", "will", "automate", "complex", "processes"],
+            words: ["If", "companies", "invest", "in", "artificial", "intelligence,", "they", "will", "automate", "complex", "processes"],
             correctAnswer: "If companies invest in artificial intelligence, they will automate complex processes.",
             correctFeedback: "Excellent! 'If companies invest in artificial intelligence, they will automate complex processes' - AI transformation!",
             correctFeedbackRu: "Отлично! 'If companies invest in artificial intelligence, they will automate complex processes' - трансформация ИИ!",
@@ -3227,7 +3228,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "upgrade", "to", "5G", "technology", "your", "internet", "speed", "will", "increase", "dramatically"],
+            words: ["If", "you", "upgrade", "to", "5G", "technology,", "your", "internet", "speed", "will", "increase", "dramatically"],
             correctAnswer: "If you upgrade to 5G technology, your internet speed will increase dramatically.",
             correctFeedback: "Perfect! 'If you upgrade to 5G technology, your internet speed will increase dramatically' - connectivity revolution!",
             correctFeedbackRu: "Идеально! 'If you upgrade to 5G technology, your internet speed will increase dramatically' - революция связи!",
@@ -3237,7 +3238,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "learns", "coding", "languages", "early", "she", "will", "have", "better", "career", "opportunities"],
+            words: ["If", "she", "learns", "coding", "languages", "early,", "she", "will", "have", "better", "career", "opportunities"],
             correctAnswer: "If she learns coding languages early, she will have better career opportunities.",
             correctFeedback: "Great! 'If she learns coding languages early, she will have better career opportunities' - programming skills value!",
             correctFeedbackRu: "Отлично! 'If she learns coding languages early, she will have better career opportunities' - ценность навыков программирования!",
@@ -3247,7 +3248,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "implement", "blockchain", "security", "systems", "we", "will", "protect", "customer", "data", "better"],
+            words: ["If", "we", "implement", "blockchain", "security", "systems,", "we", "will", "protect", "customer", "data", "better"],
             correctAnswer: "If we implement blockchain security systems, we will protect customer data better.",
             correctFeedback: "Excellent! 'If we implement blockchain security systems, we will protect customer data better' - cybersecurity advancement!",
             correctFeedbackRu: "Отлично! 'If we implement blockchain security systems, we will protect customer data better' - продвижение кибербезопасности!",
@@ -3257,7 +3258,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "develop", "virtual", "reality", "training", "programs", "employees", "will", "learn", "skills", "faster"],
+            words: ["If", "they", "develop", "virtual", "reality", "training", "programs,", "employees", "will", "learn", "skills", "faster"],
             correctAnswer: "If they develop virtual reality training programs, employees will learn skills faster.",
             correctFeedback: "Perfect! 'If they develop virtual reality training programs, employees will learn skills faster' - VR learning revolution!",
             correctFeedbackRu: "Идеально! 'If they develop virtual reality training programs, employees will learn skills faster' - революция обучения VR!",
@@ -3267,7 +3268,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "creates", "mobile", "apps", "for", "small", "businesses", "he", "will", "build", "a", "profitable", "startup"],
+            words: ["If", "he", "creates", "mobile", "apps", "for", "small", "businesses,", "he", "will", "build", "a", "profitable", "startup"],
             correctAnswer: "If he creates mobile apps for small businesses, he will build a profitable startup.",
             correctFeedback: "Great! 'If he creates mobile apps for small businesses, he will build a profitable startup' - entrepreneurship in tech!",
             correctFeedbackRu: "Отлично! 'If he creates mobile apps for small businesses, he will build a profitable startup' - предпринимательство в технологиях!",
@@ -3277,7 +3278,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "embrace", "cloud", "computing", "solutions", "your", "business", "will", "become", "more", "flexible"],
+            words: ["If", "you", "embrace", "cloud", "computing", "solutions,", "your", "business", "will", "become", "more", "flexible"],
             correctAnswer: "If you embrace cloud computing solutions, your business will become more flexible.",
             correctFeedback: "Excellent! 'If you embrace cloud computing solutions, your business will become more flexible' - cloud transformation benefits!",
             correctFeedbackRu: "Отлично! 'If you embrace cloud computing solutions, your business will become more flexible' - преимущества облачной трансформации!",
@@ -3287,7 +3288,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "integrates", "IoT", "devices", "into", "her", "home", "she", "will", "save", "energy", "costs"],
+            words: ["If", "she", "integrates", "IoT", "devices", "into", "her", "home,", "she", "will", "save", "energy", "costs"],
             correctAnswer: "If she integrates IoT devices into her home, she will save energy costs.",
             correctFeedback: "Perfect! 'If she integrates IoT devices into her home, she will save energy costs' - smart home efficiency!",
             correctFeedbackRu: "Идеально! 'If she integrates IoT devices into her home, she will save energy costs' - эффективность умного дома!",
@@ -3297,7 +3298,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "use", "machine", "learning", "algorithms", "I", "will", "predict", "market", "trends", "accurately"],
+            words: ["If", "I", "use", "machine", "learning", "algorithms,", "I", "will", "predict", "market", "trends", "accurately"],
             correctAnswer: "If I use machine learning algorithms, I will predict market trends accurately.",
             correctFeedback: "Great! 'If I use machine learning algorithms, I will predict market trends accurately' - AI-powered analytics!",
             correctFeedbackRu: "Отлично! 'If I use machine learning algorithms, I will predict market trends accurately' - аналитика на основе ИИ!",
@@ -3307,7 +3308,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "adopt", "renewable", "energy", "technologies", "we", "will", "reduce", "our", "carbon", "footprint"],
+            words: ["If", "we", "adopt", "renewable", "energy", "technologies,", "we", "will", "reduce", "our", "carbon", "footprint"],
             correctAnswer: "If we adopt renewable energy technologies, we will reduce our carbon footprint.",
             correctFeedback: "Excellent! 'If we adopt renewable energy technologies, we will reduce our carbon footprint' - sustainable tech future! You've completed Pages 1-4 of First Conditional Sentence Building exercises!",
             correctFeedbackRu: "Отлично! 'If we adopt renewable energy technologies, we will reduce our carbon footprint' - устойчивое технологическое будущее! Вы завершили страницы 1-4 упражнений Sentence Building на First Conditional!",
@@ -3325,7 +3326,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "book", "flights", "three", "months", "ahead", "we", "will", "pay", "lower", "prices"],
+            words: ["If", "we", "book", "flights", "three", "months", "ahead,", "we", "will", "pay", "lower", "prices"],
             correctAnswer: "If we book flights three months ahead, we will pay lower prices.",
             correctFeedback: "Excellent! 'If we book flights three months ahead, we will pay lower prices' - smart travel planning!",
             correctFeedbackRu: "Отлично! 'If we book flights three months ahead, we will pay lower prices' - умное планирование путешествий!",
@@ -3335,7 +3336,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "pack", "light", "for", "your", "trip", "you", "will", "move", "around", "more", "easily"],
+            words: ["If", "you", "pack", "light", "for", "your", "trip,", "you", "will", "move", "around", "more", "easily"],
             correctAnswer: "If you pack light for your trip, you will move around more easily.",
             correctFeedback: "Perfect! 'If you pack light for your trip, you will move around more easily' - backpacker wisdom!",
             correctFeedbackRu: "Идеально! 'If you pack light for your trip, you will move around more easily' - мудрость бэкпекера!",
@@ -3345,7 +3346,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "explores", "local", "markets", "abroad", "she", "will", "discover", "authentic", "cuisine"],
+            words: ["If", "she", "explores", "local", "markets", "abroad,", "she", "will", "discover", "authentic", "cuisine"],
             correctAnswer: "If she explores local markets abroad, she will discover authentic cuisine.",
             correctFeedback: "Great! 'If she explores local markets abroad, she will discover authentic cuisine' - cultural food exploration!",
             correctFeedbackRu: "Отлично! 'If she explores local markets abroad, she will discover authentic cuisine' - исследование культурной кухни!",
@@ -3355,7 +3356,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "choose", "eco-friendly", "accommodations", "they", "will", "reduce", "their", "environmental", "impact"],
+            words: ["If", "they", "choose", "eco-friendly", "accommodations,", "they", "will", "reduce", "their", "environmental", "impact"],
             correctAnswer: "If they choose eco-friendly accommodations, they will reduce their environmental impact.",
             correctFeedback: "Excellent! 'If they choose eco-friendly accommodations, they will reduce their environmental impact' - sustainable tourism!",
             correctFeedbackRu: "Отлично! 'If they choose eco-friendly accommodations, they will reduce their environmental impact' - устойчивый туризм!",
@@ -3365,7 +3366,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "learn", "basic", "phrases", "in", "the", "local", "language", "I", "will", "connect", "better", "with", "locals"],
+            words: ["If", "I", "learn", "basic", "phrases", "in", "the", "local", "language,", "I", "will", "connect", "better", "with", "locals"],
             correctAnswer: "If I learn basic phrases in the local language, I will connect better with locals.",
             correctFeedback: "Perfect! 'If I learn basic phrases in the local language, I will connect better with locals' - language bridge building!",
             correctFeedbackRu: "Идеально! 'If I learn basic phrases in the local language, I will connect better with locals' - построение языковых мостов!",
@@ -3375,7 +3376,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "documents", "his", "journey", "with", "photos", "he", "will", "preserve", "precious", "memories"],
+            words: ["If", "he", "documents", "his", "journey", "with", "photos,", "he", "will", "preserve", "precious", "memories"],
             correctAnswer: "If he documents his journey with photos, he will preserve precious memories.",
             correctFeedback: "Great! 'If he documents his journey with photos, he will preserve precious memories' - travel photography value!",
             correctFeedbackRu: "Отлично! 'If he documents his journey with photos, he will preserve precious memories' - ценность фотографии в путешествиях!",
@@ -3385,7 +3386,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "travel", "during", "off-peak", "seasons", "we", "will", "avoid", "crowded", "tourist", "attractions"],
+            words: ["If", "we", "travel", "during", "off-peak", "seasons,", "we", "will", "avoid", "crowded", "tourist", "attractions"],
             correctAnswer: "If we travel during off-peak seasons, we will avoid crowded tourist attractions.",
             correctFeedback: "Excellent! 'If we travel during off-peak seasons, we will avoid crowded tourist attractions' - timing strategy!",
             correctFeedbackRu: "Отлично! 'If we travel during off-peak seasons, we will avoid crowded tourist attractions' - стратегия времени!",
@@ -3395,7 +3396,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "research", "cultural", "customs", "beforehand", "you", "will", "show", "respect", "to", "local", "traditions"],
+            words: ["If", "you", "research", "cultural", "customs", "beforehand,", "you", "will", "show", "respect", "to", "local", "traditions"],
             correctAnswer: "If you research cultural customs beforehand, you will show respect to local traditions.",
             correctFeedback: "Perfect! 'If you research cultural customs beforehand, you will show respect to local traditions' - cultural sensitivity!",
             correctFeedbackRu: "Идеально! 'If you research cultural customs beforehand, you will show respect to local traditions' - культурная чувствительность!",
@@ -3405,7 +3406,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "tries", "adventure", "sports", "while", "traveling", "she", "will", "push", "her", "comfort", "zone"],
+            words: ["If", "she", "tries", "adventure", "sports", "while", "traveling,", "she", "will", "push", "her", "comfort", "zone"],
             correctAnswer: "If she tries adventure sports while traveling, she will push her comfort zone.",
             correctFeedback: "Great! 'If she tries adventure sports while traveling, she will push her comfort zone' - personal growth through adventure!",
             correctFeedbackRu: "Отлично! 'If she tries adventure sports while traveling, she will push her comfort zone' - личностный рост через приключения!",
@@ -3415,7 +3416,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "volunteer", "while", "abroad", "they", "will", "give", "back", "to", "the", "communities", "they", "visit"],
+            words: ["If", "they", "volunteer", "while", "abroad,", "they", "will", "give", "back", "to", "the", "communities", "they", "visit"],
             correctAnswer: "If they volunteer while abroad, they will give back to the communities they visit.",
             correctFeedback: "Excellent! 'If they volunteer while abroad, they will give back to the communities they visit' - responsible tourism!",
             correctFeedbackRu: "Отлично! 'If they volunteer while abroad, they will give back to the communities they visit' - ответственный туризм!",
@@ -3433,7 +3434,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "cities", "plant", "more", "trees", "in", "urban", "areas", "air", "quality", "will", "improve", "significantly"],
+            words: ["If", "cities", "plant", "more", "trees", "in", "urban", "areas,", "air", "quality", "will", "improve", "significantly"],
             correctAnswer: "If cities plant more trees in urban areas, air quality will improve significantly.",
             correctFeedback: "Excellent! 'If cities plant more trees in urban areas, air quality will improve significantly' - urban environmental action!",
             correctFeedbackRu: "Отлично! 'If cities plant more trees in urban areas, air quality will improve significantly' - городские экологические действия!",
@@ -3443,7 +3444,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "switch", "to", "renewable", "energy", "sources", "you", "will", "decrease", "your", "carbon", "emissions"],
+            words: ["If", "you", "switch", "to", "renewable", "energy", "sources,", "you", "will", "decrease", "your", "carbon", "emissions"],
             correctAnswer: "If you switch to renewable energy sources, you will decrease your carbon emissions.",
             correctFeedback: "Perfect! 'If you switch to renewable energy sources, you will decrease your carbon emissions' - clean energy benefits!",
             correctFeedbackRu: "Идеально! 'If you switch to renewable energy sources, you will decrease your carbon emissions' - преимущества чистой энергии!",
@@ -3453,7 +3454,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "people", "reduce", "plastic", "consumption", "daily", "ocean", "pollution", "will", "decline", "dramatically"],
+            words: ["If", "people", "reduce", "plastic", "consumption", "daily,", "ocean", "pollution", "will", "decline", "dramatically"],
             correctAnswer: "If people reduce plastic consumption daily, ocean pollution will decline dramatically.",
             correctFeedback: "Great! 'If people reduce plastic consumption daily, ocean pollution will decline dramatically' - marine conservation action!",
             correctFeedbackRu: "Отлично! 'If people reduce plastic consumption daily, ocean pollution will decline dramatically' - действия по сохранению морской среды!",
@@ -3463,7 +3464,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "composts", "organic", "waste", "at", "home", "she", "will", "create", "nutrient-rich", "soil"],
+            words: ["If", "she", "composts", "organic", "waste", "at", "home,", "she", "will", "create", "nutrient-rich", "soil"],
             correctAnswer: "If she composts organic waste at home, she will create nutrient-rich soil.",
             correctFeedback: "Excellent! 'If she composts organic waste at home, she will create nutrient-rich soil' - circular economy in action!",
             correctFeedbackRu: "Отлично! 'If she composts organic waste at home, she will create nutrient-rich soil' - циркулярная экономика в действии!",
@@ -3473,7 +3474,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "companies", "implement", "zero-waste", "policies", "they", "will", "minimize", "their", "environmental", "footprint"],
+            words: ["If", "companies", "implement", "zero-waste", "policies,", "they", "will", "minimize", "their", "environmental", "footprint"],
             correctAnswer: "If companies implement zero-waste policies, they will minimize their environmental footprint.",
             correctFeedback: "Perfect! 'If companies implement zero-waste policies, they will minimize their environmental footprint' - corporate sustainability!",
             correctFeedbackRu: "Идеально! 'If companies implement zero-waste policies, they will minimize their environmental footprint' - корпоративная устойчивость!",
@@ -3483,7 +3484,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "protect", "endangered", "species", "habitats", "we", "will", "preserve", "biodiversity", "for", "future", "generations"],
+            words: ["If", "we", "protect", "endangered", "species", "habitats,", "we", "will", "preserve", "biodiversity", "for", "future", "generations"],
             correctAnswer: "If we protect endangered species habitats, we will preserve biodiversity for future generations.",
             correctFeedback: "Great! 'If we protect endangered species habitats, we will preserve biodiversity for future generations' - conservation legacy!",
             correctFeedbackRu: "Отлично! 'If we protect endangered species habitats, we will preserve biodiversity for future generations' - наследие сохранения!",
@@ -3493,7 +3494,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "cycles", "to", "work", "instead", "of", "driving", "he", "will", "reduce", "air", "pollution"],
+            words: ["If", "he", "cycles", "to", "work", "instead", "of", "driving,", "he", "will", "reduce", "air", "pollution"],
             correctAnswer: "If he cycles to work instead of driving, he will reduce air pollution.",
             correctFeedback: "Excellent! 'If he cycles to work instead of driving, he will reduce air pollution' - sustainable commuting choice!",
             correctFeedbackRu: "Отлично! 'If he cycles to work instead of driving, he will reduce air pollution' - устойчивый выбор для поездок на работу!",
@@ -3503,7 +3504,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "buy", "products", "with", "minimal", "packaging", "I", "will", "generate", "less", "waste"],
+            words: ["If", "I", "buy", "products", "with", "minimal", "packaging,", "I", "will", "generate", "less", "waste"],
             correctAnswer: "If I buy products with minimal packaging, I will generate less waste.",
             correctFeedback: "Perfect! 'If I buy products with minimal packaging, I will generate less waste' - conscious consumer choice!",
             correctFeedbackRu: "Идеально! 'If I buy products with minimal packaging, I will generate less waste' - осознанный выбор потребителя!",
@@ -3513,7 +3514,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "install", "solar", "panels", "on", "their", "roof", "they", "will", "generate", "clean", "electricity"],
+            words: ["If", "they", "install", "solar", "panels", "on", "their", "roof,", "they", "will", "generate", "clean", "electricity"],
             correctAnswer: "If they install solar panels on their roof, they will generate clean electricity.",
             correctFeedback: "Great! 'If they install solar panels on their roof, they will generate clean electricity' - home renewable energy!",
             correctFeedbackRu: "Отлично! 'If they install solar panels on their roof, they will generate clean electricity' - домашняя возобновляемая энергия!",
@@ -3523,7 +3524,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "governments", "invest", "in", "public", "transportation", "systems", "cities", "will", "have", "cleaner", "air"],
+            words: ["If", "governments", "invest", "in", "public", "transportation", "systems,", "cities", "will", "have", "cleaner", "air"],
             correctAnswer: "If governments invest in public transportation systems, cities will have cleaner air.",
             correctFeedback: "Excellent! 'If governments invest in public transportation systems, cities will have cleaner air' - policy for environmental health!",
             correctFeedbackRu: "Отлично! 'If governments invest in public transportation systems, cities will have cleaner air' - политика для экологического здоровья!",
@@ -3541,7 +3542,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "create", "a", "monthly", "budget", "plan", "you", "will", "control", "your", "spending", "habits"],
+            words: ["If", "you", "create", "a", "monthly", "budget", "plan,", "you", "will", "control", "your", "spending", "habits"],
             correctAnswer: "If you create a monthly budget plan, you will control your spending habits.",
             correctFeedback: "Excellent! 'If you create a monthly budget plan, you will control your spending habits' - financial discipline foundation!",
             correctFeedbackRu: "Отлично! 'If you create a monthly budget plan, you will control your spending habits' - основа финансовой дисциплины!",
@@ -3551,7 +3552,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "invests", "in", "index", "funds", "regularly", "she", "will", "build", "long-term", "wealth"],
+            words: ["If", "she", "invests", "in", "index", "funds", "regularly,", "she", "will", "build", "long-term", "wealth"],
             correctAnswer: "If she invests in index funds regularly, she will build long-term wealth.",
             correctFeedback: "Perfect! 'If she invests in index funds regularly, she will build long-term wealth' - smart investment strategy!",
             correctFeedbackRu: "Идеально! 'If she invests in index funds regularly, she will build long-term wealth' - умная инвестиционная стратегия!",
@@ -3561,7 +3562,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "pay", "off", "high-interest", "debt", "first", "they", "will", "save", "money", "on", "interest", "payments"],
+            words: ["If", "they", "pay", "off", "high-interest", "debt", "first,", "they", "will", "save", "money", "on", "interest", "payments"],
             correctAnswer: "If they pay off high-interest debt first, they will save money on interest payments.",
             correctFeedback: "Great! 'If they pay off high-interest debt first, they will save money on interest payments' - debt management wisdom!",
             correctFeedbackRu: "Отлично! 'If they pay off high-interest debt first, they will save money on interest payments' - мудрость управления долгами!",
@@ -3571,7 +3572,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "tracks", "his", "expenses", "with", "an", "app", "he", "will", "identify", "unnecessary", "purchases"],
+            words: ["If", "he", "tracks", "his", "expenses", "with", "an", "app,", "he", "will", "identify", "unnecessary", "purchases"],
             correctAnswer: "If he tracks his expenses with an app, he will identify unnecessary purchases.",
             correctFeedback: "Excellent! 'If he tracks his expenses with an app, he will identify unnecessary purchases' - digital money management!",
             correctFeedbackRu: "Отлично! 'If he tracks his expenses with an app, he will identify unnecessary purchases' - цифровое управление деньгами!",
@@ -3581,7 +3582,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "negotiate", "better", "rates", "with", "service", "providers", "we", "will", "reduce", "monthly", "bills"],
+            words: ["If", "we", "negotiate", "better", "rates", "with", "service", "providers,", "we", "will", "reduce", "monthly", "bills"],
             correctAnswer: "If we negotiate better rates with service providers, we will reduce monthly bills.",
             correctFeedback: "Perfect! 'If we negotiate better rates with service providers, we will reduce monthly bills' - cost-cutting strategy!",
             correctFeedbackRu: "Идеально! 'If we negotiate better rates with service providers, we will reduce monthly bills' - стратегия сокращения расходов!",
@@ -3591,7 +3592,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "automate", "your", "savings", "transfers", "you", "will", "build", "an", "emergency", "fund", "effortlessly"],
+            words: ["If", "you", "automate", "your", "savings", "transfers,", "you", "will", "build", "an", "emergency", "fund", "effortlessly"],
             correctAnswer: "If you automate your savings transfers, you will build an emergency fund effortlessly.",
             correctFeedback: "Great! 'If you automate your savings transfers, you will build an emergency fund effortlessly' - hands-off saving approach!",
             correctFeedbackRu: "Отлично! 'If you automate your savings transfers, you will build an emergency fund effortlessly' - автоматический подход к сбережениям!",
@@ -3601,7 +3602,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "compares", "prices", "before", "making", "purchases", "she", "will", "find", "the", "best", "deals"],
+            words: ["If", "she", "compares", "prices", "before", "making", "purchases,", "she", "will", "find", "the", "best", "deals"],
             correctAnswer: "If she compares prices before making purchases, she will find the best deals.",
             correctFeedback: "Excellent! 'If she compares prices before making purchases, she will find the best deals' - smart shopping habits!",
             correctFeedbackRu: "Отлично! 'If she compares prices before making purchases, she will find the best deals' - умные покупательские привычки!",
@@ -3611,7 +3612,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "diversify", "my", "investment", "portfolio", "I", "will", "minimize", "financial", "risks"],
+            words: ["If", "I", "diversify", "my", "investment", "portfolio,", "I", "will", "minimize", "financial", "risks"],
             correctAnswer: "If I diversify my investment portfolio, I will minimize financial risks.",
             correctFeedback: "Perfect! 'If I diversify my investment portfolio, I will minimize financial risks' - risk management principle!",
             correctFeedbackRu: "Идеально! 'If I diversify my investment portfolio, I will minimize financial risks' - принцип управления рисками!",
@@ -3621,7 +3622,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "start", "a", "side", "business", "from", "home", "they", "will", "create", "additional", "income", "streams"],
+            words: ["If", "they", "start", "a", "side", "business", "from", "home,", "they", "will", "create", "additional", "income", "streams"],
             correctAnswer: "If they start a side business from home, they will create additional income streams.",
             correctFeedback: "Great! 'If they start a side business from home, they will create additional income streams' - entrepreneurial income diversification!",
             correctFeedbackRu: "Отлично! 'If they start a side business from home, they will create additional income streams' - предпринимательская диверсификация доходов!",
@@ -3631,7 +3632,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "educate", "ourselves", "about", "financial", "literacy", "we", "will", "make", "smarter", "money", "decisions"],
+            words: ["If", "we", "educate", "ourselves", "about", "financial", "literacy,", "we", "will", "make", "smarter", "money", "decisions"],
             correctAnswer: "If we educate ourselves about financial literacy, we will make smarter money decisions.",
             correctFeedback: "Excellent! 'If we educate ourselves about financial literacy, we will make smarter money decisions' - knowledge-based financial empowerment! You've completed Pages 5-7 of First Conditional Sentence Building exercises!",
             correctFeedbackRu: "Отлично! 'If we educate ourselves about financial literacy, we will make smarter money decisions' - финансовое расширение возможностей на основе знаний! Вы завершили страницы 5-7 упражнений Sentence Building на First Conditional!",
@@ -3640,6 +3641,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
         }
     ]
 };
+
 /* ============================================
 Page 8: First Conditional - Social Media and Digital Communication
 ============================================ */
@@ -3648,7 +3650,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "post", "content", "consistently", "on", "social", "media", "your", "followers", "will", "grow", "organically"],
+            words: ["If", "you", "post", "content", "consistently", "on", "social", "media,", "your", "followers", "will", "grow", "organically"],
             correctAnswer: "If you post content consistently on social media, your followers will grow organically.",
             correctFeedback: "Excellent! 'If you post content consistently on social media, your followers will grow organically' - social media growth strategy!",
             correctFeedbackRu: "Отлично! 'If you post content consistently on social media, your followers will grow organically' - стратегия роста в социальных сетях!",
@@ -3658,7 +3660,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "engages", "with", "her", "audience", "through", "live", "streams", "she", "will", "build", "stronger", "connections"],
+            words: ["If", "she", "engages", "with", "her", "audience", "through", "live", "streams,", "she", "will", "build", "stronger", "connections"],
             correctAnswer: "If she engages with her audience through live streams, she will build stronger connections.",
             correctFeedback: "Perfect! 'If she engages with her audience through live streams, she will build stronger connections' - authentic digital engagement!",
             correctFeedbackRu: "Идеально! 'If she engages with her audience through live streams, she will build stronger connections' - аутентичное цифровое взаимодействие!",
@@ -3668,7 +3670,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "collaborate", "with", "influencers", "in", "their", "niche", "they", "will", "reach", "new", "target", "audiences"],
+            words: ["If", "they", "collaborate", "with", "influencers", "in", "their", "niche,", "they", "will", "reach", "new", "target", "audiences"],
             correctAnswer: "If they collaborate with influencers in their niche, they will reach new target audiences.",
             correctFeedback: "Great! 'If they collaborate with influencers in their niche, they will reach new target audiences' - influencer marketing strategy!",
             correctFeedbackRu: "Отлично! 'If they collaborate with influencers in their niche, they will reach new target audiences' - стратегия инфлюенсер-маркетинга!",
@@ -3678,7 +3680,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "creates", "viral", "video", "content", "about", "trending", "topics", "he", "will", "gain", "massive", "exposure"],
+            words: ["If", "he", "creates", "viral", "video", "content", "about", "trending", "topics,", "he", "will", "gain", "massive", "exposure"],
             correctAnswer: "If he creates viral video content about trending topics, he will gain massive exposure.",
             correctFeedback: "Excellent! 'If he creates viral video content about trending topics, he will gain massive exposure' - viral content strategy!",
             correctFeedbackRu: "Отлично! 'If he creates viral video content about trending topics, he will gain massive exposure' - стратегия вирусного контента!",
@@ -3688,7 +3690,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "respond", "quickly", "to", "customer", "messages", "online", "we", "will", "improve", "our", "brand", "reputation"],
+            words: ["If", "we", "respond", "quickly", "to", "customer", "messages", "online,", "we", "will", "improve", "our", "brand", "reputation"],
             correctAnswer: "If we respond quickly to customer messages online, we will improve our brand reputation.",
             correctFeedback: "Perfect! 'If we respond quickly to customer messages online, we will improve our brand reputation' - customer service excellence!",
             correctFeedbackRu: "Идеально! 'If we respond quickly to customer messages online, we will improve our brand reputation' - превосходное обслуживание клиентов!",
@@ -3698,7 +3700,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "use", "relevant", "hashtags", "strategically", "you", "will", "increase", "your", "content", "visibility"],
+            words: ["If", "you", "use", "relevant", "hashtags", "strategically,", "you", "will", "increase", "your", "content", "visibility"],
             correctAnswer: "If you use relevant hashtags strategically, you will increase your content visibility.",
             correctFeedback: "Great! 'If you use relevant hashtags strategically, you will increase your content visibility' - hashtag optimization power!",
             correctFeedbackRu: "Отлично! 'If you use relevant hashtags strategically, you will increase your content visibility' - сила оптимизации хештегов!",
@@ -3708,7 +3710,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "analyzes", "her", "social", "media", "metrics", "regularly", "she", "will", "optimize", "her", "content", "strategy"],
+            words: ["If", "she", "analyzes", "her", "social", "media", "metrics", "regularly,", "she", "will", "optimize", "her", "content", "strategy"],
             correctAnswer: "If she analyzes her social media metrics regularly, she will optimize her content strategy.",
             correctFeedback: "Excellent! 'If she analyzes her social media metrics regularly, she will optimize her content strategy' - data-driven social media!",
             correctFeedbackRu: "Отлично! 'If she analyzes her social media metrics regularly, she will optimize her content strategy' - социальные сети на основе данных!",
@@ -3718,7 +3720,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "share", "behind-the-scenes", "content", "with", "my", "audience", "I", "will", "humanize", "my", "brand"],
+            words: ["If", "I", "share", "behind-the-scenes", "content", "with", "my", "audience,", "I", "will", "humanize", "my", "brand"],
             correctAnswer: "If I share behind-the-scenes content with my audience, I will humanize my brand.",
             correctFeedback: "Perfect! 'If I share behind-the-scenes content with my audience, I will humanize my brand' - authentic brand storytelling!",
             correctFeedbackRu: "Идеально! 'If I share behind-the-scenes content with my audience, I will humanize my brand' - аутентичное повествование о бренде!",
@@ -3728,7 +3730,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "run", "targeted", "advertising", "campaigns", "online", "they", "will", "convert", "more", "leads", "into", "customers"],
+            words: ["If", "they", "run", "targeted", "advertising", "campaigns", "online,", "they", "will", "convert", "more", "leads", "into", "customers"],
             correctAnswer: "If they run targeted advertising campaigns online, they will convert more leads into customers.",
             correctFeedback: "Great! 'If they run targeted advertising campaigns online, they will convert more leads into customers' - digital advertising ROI!",
             correctFeedbackRu: "Отлично! 'If they run targeted advertising campaigns online, they will convert more leads into customers' - ROI цифровой рекламы!",
@@ -3738,7 +3740,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "monitor", "our", "online", "reputation", "actively", "we", "will", "address", "negative", "feedback", "promptly"],
+            words: ["If", "we", "monitor", "our", "online", "reputation", "actively,", "we", "will", "address", "negative", "feedback", "promptly"],
             correctAnswer: "If we monitor our online reputation actively, we will address negative feedback promptly.",
             correctFeedback: "Excellent! 'If we monitor our online reputation actively, we will address negative feedback promptly' - proactive reputation management!",
             correctFeedbackRu: "Отлично! 'If we monitor our online reputation actively, we will address negative feedback promptly' - проактивное управление репутацией!",
@@ -3756,7 +3758,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "practice", "drawing", "sketches", "daily", "your", "artistic", "skills", "will", "develop", "rapidly"],
+            words: ["If", "you", "practice", "drawing", "sketches", "daily,", "your", "artistic", "skills", "will", "develop", "rapidly"],
             correctAnswer: "If you practice drawing sketches daily, your artistic skills will develop rapidly.",
             correctFeedback: "Excellent! 'If you practice drawing sketches daily, your artistic skills will develop rapidly' - consistent art practice benefits!",
             correctFeedbackRu: "Отлично! 'If you practice drawing sketches daily, your artistic skills will develop rapidly' - преимущества постоянной художественной практики!",
@@ -3766,7 +3768,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "experiments", "with", "different", "painting", "techniques", "she", "will", "discover", "her", "unique", "artistic", "style"],
+            words: ["If", "she", "experiments", "with", "different", "painting", "techniques,", "she", "will", "discover", "her", "unique", "artistic", "style"],
             correctAnswer: "If she experiments with different painting techniques, she will discover her unique artistic style.",
             correctFeedback: "Perfect! 'If she experiments with different painting techniques, she will discover her unique artistic style' - artistic exploration journey!",
             correctFeedbackRu: "Идеально! 'If she experiments with different painting techniques, she will discover her unique artistic style' - путешествие художественных исследований!",
@@ -3776,7 +3778,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "join", "a", "local", "pottery", "workshop", "they", "will", "learn", "traditional", "crafting", "methods"],
+            words: ["If", "they", "join", "a", "local", "pottery", "workshop,", "they", "will", "learn", "traditional", "crafting", "methods"],
             correctAnswer: "If they join a local pottery workshop, they will learn traditional crafting methods.",
             correctFeedback: "Great! 'If they join a local pottery workshop, they will learn traditional crafting methods' - hands-on creative learning!",
             correctFeedbackRu: "Отлично! 'If they join a local pottery workshop, they will learn traditional crafting methods' - практическое творческое обучение!",
@@ -3786,7 +3788,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "composes", "original", "music", "with", "digital", "software", "he", "will", "express", "his", "creativity", "through", "sound"],
+            words: ["If", "he", "composes", "original", "music", "with", "digital", "software,", "he", "will", "express", "his", "creativity", "through", "sound"],
             correctAnswer: "If he composes original music with digital software, he will express his creativity through sound.",
             correctFeedback: "Excellent! 'If he composes original music with digital software, he will express his creativity through sound' - digital music creation!",
             correctFeedbackRu: "Отлично! 'If he composes original music with digital software, he will express his creativity through sound' - цифровое создание музыки!",
@@ -3796,7 +3798,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "write", "poetry", "about", "our", "personal", "experiences", "we", "will", "process", "emotions", "more", "deeply"],
+            words: ["If", "we", "write", "poetry", "about", "our", "personal", "experiences,", "we", "will", "process", "emotions", "more", "deeply"],
             correctAnswer: "If we write poetry about our personal experiences, we will process emotions more deeply.",
             correctFeedback: "Perfect! 'If we write poetry about our personal experiences, we will process emotions more deeply' - therapeutic creative writing!",
             correctFeedbackRu: "Идеально! 'If we write poetry about our personal experiences, we will process emotions more deeply' - терапевтическое творческое письмо!",
@@ -3806,7 +3808,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "attend", "theater", "performances", "regularly", "you", "will", "appreciate", "dramatic", "arts", "more", "profoundly"],
+            words: ["If", "you", "attend", "theater", "performances", "regularly,", "you", "will", "appreciate", "dramatic", "arts", "more", "profoundly"],
             correctAnswer: "If you attend theater performances regularly, you will appreciate dramatic arts more profoundly.",
             correctFeedback: "Great! 'If you attend theater performances regularly, you will appreciate dramatic arts more profoundly' - cultural enrichment through theater!",
             correctFeedbackRu: "Отлично! 'If you attend theater performances regularly, you will appreciate dramatic arts more profoundly' - культурное обогащение через театр!",
@@ -3816,7 +3818,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "learns", "calligraphy", "with", "traditional", "brushes", "she", "will", "develop", "patience", "and", "precision"],
+            words: ["If", "she", "learns", "calligraphy", "with", "traditional", "brushes,", "she", "will", "develop", "patience", "and", "precision"],
             correctAnswer: "If she learns calligraphy with traditional brushes, she will develop patience and precision.",
             correctFeedback: "Excellent! 'If she learns calligraphy with traditional brushes, she will develop patience and precision' - mindful artistic practice!",
             correctFeedbackRu: "Отлично! 'If she learns calligraphy with traditional brushes, she will develop patience and precision' - осознанная художественная практика!",
@@ -3826,7 +3828,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "photograph", "nature", "landscapes", "during", "golden", "hour", "I", "will", "capture", "stunning", "natural", "beauty"],
+            words: ["If", "I", "photograph", "nature", "landscapes", "during", "golden", "hour,", "I", "will", "capture", "stunning", "natural", "beauty"],
             correctAnswer: "If I photograph nature landscapes during golden hour, I will capture stunning natural beauty.",
             correctFeedback: "Perfect! 'If I photograph nature landscapes during golden hour, I will capture stunning natural beauty' - photography timing mastery!",
             correctFeedbackRu: "Идеально! 'If I photograph nature landscapes during golden hour, I will capture stunning natural beauty' - мастерство времени в фотографии!",
@@ -3836,7 +3838,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "collaborate", "on", "creative", "projects", "with", "other", "artists", "they", "will", "learn", "from", "diverse", "perspectives"],
+            words: ["If", "they", "collaborate", "on", "creative", "projects", "with", "other", "artists,", "they", "will", "learn", "from", "diverse", "perspectives"],
             correctAnswer: "If they collaborate on creative projects with other artists, they will learn from diverse perspectives.",
             correctFeedback: "Great! 'If they collaborate on creative projects with other artists, they will learn from diverse perspectives' - artistic community building!",
             correctFeedbackRu: "Отлично! 'If they collaborate on creative projects with other artists, they will learn from diverse perspectives' - создание художественного сообщества!",
@@ -3846,7 +3848,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "display", "our", "artwork", "in", "local", "galleries", "we", "will", "share", "our", "vision", "with", "the", "community"],
+            words: ["If", "we", "display", "our", "artwork", "in", "local", "galleries,", "we", "will", "share", "our", "vision", "with", "the", "community"],
             correctAnswer: "If we display our artwork in local galleries, we will share our vision with the community.",
             correctFeedback: "Excellent! 'If we display our artwork in local galleries, we will share our vision with the community' - art as community connection!",
             correctFeedbackRu: "Отлично! 'If we display our artwork in local galleries, we will share our vision with the community' - искусство как связь с сообществом!",
@@ -3864,7 +3866,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "train", "consistently", "for", "a", "marathon", "you", "will", "build", "incredible", "endurance", "levels"],
+            words: ["If", "you", "train", "consistently", "for", "a", "marathon,", "you", "will", "build", "incredible", "endurance", "levels"],
             correctAnswer: "If you train consistently for a marathon, you will build incredible endurance levels.",
             correctFeedback: "Excellent! 'If you train consistently for a marathon, you will build incredible endurance levels' - endurance sport dedication!",
             correctFeedbackRu: "Отлично! 'If you train consistently for a marathon, you will build incredible endurance levels' - преданность спорту на выносливость!",
@@ -3874,7 +3876,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "practices", "yoga", "poses", "every", "morning", "she", "will", "improve", "her", "flexibility", "and", "balance"],
+            words: ["If", "she", "practices", "yoga", "poses", "every", "morning,", "she", "will", "improve", "her", "flexibility", "and", "balance"],
             correctAnswer: "If she practices yoga poses every morning, she will improve her flexibility and balance.",
             correctFeedback: "Perfect! 'If she practices yoga poses every morning, she will improve her flexibility and balance' - mind-body wellness practice!",
             correctFeedbackRu: "Идеально! 'If she practices yoga poses every morning, she will improve her flexibility and balance' - практика благополучия разума и тела!",
@@ -3884,7 +3886,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "compete", "in", "team", "sports", "regularly", "they", "will", "develop", "strong", "collaboration", "skills"],
+            words: ["If", "they", "compete", "in", "team", "sports", "regularly,", "they", "will", "develop", "strong", "collaboration", "skills"],
             correctAnswer: "If they compete in team sports regularly, they will develop strong collaboration skills.",
             correctFeedback: "Great! 'If they compete in team sports regularly, they will develop strong collaboration skills' - teamwork through athletics!",
             correctFeedbackRu: "Отлично! 'If they compete in team sports regularly, they will develop strong collaboration skills' - командная работа через спорт!",
@@ -3894,7 +3896,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "he", "learns", "rock", "climbing", "techniques", "safely", "he", "will", "conquer", "challenging", "mountain", "routes"],
+            words: ["If", "he", "learns", "rock", "climbing", "techniques", "safely,", "he", "will", "conquer", "challenging", "mountain", "routes"],
             correctAnswer: "If he learns rock climbing techniques safely, he will conquer challenging mountain routes.",
             correctFeedback: "Excellent! 'If he learns rock climbing techniques safely, he will conquer challenging mountain routes' - adventure sport progression!",
             correctFeedbackRu: "Отлично! 'If he learns rock climbing techniques safely, he will conquer challenging mountain routes' - прогресс в экстремальном спорте!",
@@ -3904,7 +3906,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "join", "swimming", "classes", "at", "the", "community", "pool", "we", "will", "strengthen", "our", "cardiovascular", "health"],
+            words: ["If", "we", "join", "swimming", "classes", "at", "the", "community", "pool,", "we", "will", "strengthen", "our", "cardiovascular", "health"],
             correctAnswer: "If we join swimming classes at the community pool, we will strengthen our cardiovascular health.",
             correctFeedback: "Perfect! 'If we join swimming classes at the community pool, we will strengthen our cardiovascular health' - aquatic fitness benefits!",
             correctFeedbackRu: "Идеально! 'If we join swimming classes at the community pool, we will strengthen our cardiovascular health' - преимущества водного фитнеса!",
@@ -3914,7 +3916,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "you", "cycle", "through", "scenic", "mountain", "trails", "you", "will", "combine", "fitness", "with", "nature", "appreciation"],
+            words: ["If", "you", "cycle", "through", "scenic", "mountain", "trails,", "you", "will", "combine", "fitness", "with", "nature", "appreciation"],
             correctAnswer: "If you cycle through scenic mountain trails, you will combine fitness with nature appreciation.",
             correctFeedback: "Great! 'If you cycle through scenic mountain trails, you will combine fitness with nature appreciation' - outdoor exercise harmony!",
             correctFeedbackRu: "Отлично! 'If you cycle through scenic mountain trails, you will combine fitness with nature appreciation' - гармония упражнений на свежем воздухе!",
@@ -3924,7 +3926,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "she", "masters", "martial", "arts", "discipline", "patiently", "she", "will", "gain", "self-confidence", "and", "mental", "focus"],
+            words: ["If", "she", "masters", "martial", "arts", "discipline", "patiently,", "she", "will", "gain", "self-confidence", "and", "mental", "focus"],
             correctAnswer: "If she masters martial arts discipline patiently, she will gain self-confidence and mental focus.",
             correctFeedback: "Excellent! 'If she masters martial arts discipline patiently, she will gain self-confidence and mental focus' - martial arts character development!",
             correctFeedbackRu: "Отлично! 'If she masters martial arts discipline patiently, she will gain self-confidence and mental focus' - развитие характера через боевые искусства!",
@@ -3934,7 +3936,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "I", "participate", "in", "dance", "competitions", "regularly", "I", "will", "express", "myself", "through", "rhythmic", "movement"],
+            words: ["If", "I", "participate", "in", "dance", "competitions", "regularly,", "I", "will", "express", "myself", "through", "rhythmic", "movement"],
             correctAnswer: "If I participate in dance competitions regularly, I will express myself through rhythmic movement.",
             correctFeedback: "Perfect! 'If I participate in dance competitions regularly, I will express myself through rhythmic movement' - artistic athletic expression!",
             correctFeedbackRu: "Идеально! 'If I participate in dance competitions regularly, I will express myself through rhythmic movement' - художественное спортивное выражение!",
@@ -3944,7 +3946,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "they", "organize", "weekend", "hiking", "adventures", "with", "friends", "they", "will", "create", "lasting", "outdoor", "memories"],
+            words: ["If", "they", "organize", "weekend", "hiking", "adventures", "with", "friends,", "they", "will", "create", "lasting", "outdoor", "memories"],
             correctAnswer: "If they organize weekend hiking adventures with friends, they will create lasting outdoor memories.",
             correctFeedback: "Great! 'If they organize weekend hiking adventures with friends, they will create lasting outdoor memories' - social fitness bonding!",
             correctFeedbackRu: "Отлично! 'If they organize weekend hiking adventures with friends, they will create lasting outdoor memories' - социальная связь через фитнес!",
@@ -3954,7 +3956,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
-            words: ["If", "we", "challenge", "ourselves", "with", "extreme", "sports", "adventures", "we", "will", "push", "beyond", "our", "perceived", "limitations"],
+            words: ["If", "we", "challenge", "ourselves", "with", "extreme", "sports", "adventures,", "we", "will", "push", "beyond", "our", "perceived", "limitations"],
             correctAnswer: "If we challenge ourselves with extreme sports adventures, we will push beyond our perceived limitations.",
             correctFeedback: "Excellent! 'If we challenge ourselves with extreme sports adventures, we will push beyond our perceived limitations' - extreme sports personal growth! You've completed all Pages 1-10 of First Conditional Sentence Building exercises!",
             correctFeedbackRu: "Отлично! 'If we challenge ourselves with extreme sports adventures, we will push beyond our perceived limitations' - личностный рост через экстремальные виды спорта! Вы завершили все страницы 1-10 упражнений Sentence Building на First Conditional!",
