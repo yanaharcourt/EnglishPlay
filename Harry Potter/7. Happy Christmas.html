@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ep3-Wingardium Leviosa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/episode-styles.css"> 
+    <!-- <link rel="stylesheet" href="../assets/css/styles.css"> -->
+</head>
+<body>
+    <!-- --------------------------------------------------------------
+    # Курсор
+    ---------------------------------------------------------------->
+    <div class="js-cursor-init">
+        <div class="cursor-circle">
+            <div class="circle_wrap"></div>
+            <div class="scroll_cursor_txt">
+                <span class="text">Scroll</span>
+            </div>
+            <div class="view_more_cursor">
+                <span class="text">View</span>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------
+    # NAVIGATION MENU
+    ---------------------------------------------------------------->
+    <div class="left-nav">
+        <a href="../index.html" class="logo-container">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-default">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-hover">
+        </a>
+    
+        <div class="burger-lines">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+    
+        <div class="explore-text">EXPLORE</div>
+    
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="../index.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Home.svg"
+                            alt="Home" class="nav-icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../my-words.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/My%20Words.svg"
+                            alt="My Words" class="nav-icon">
+                        <span>My Words</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Phrasal Verbs.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Phrasal%20verbs.svg"
+                            alt="Phrasal Verbs" class="nav-icon">
+                        <span>Phrasal Verbs</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Grammar Practice.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Grammar%20practice.svg"
+                            alt="Grammar Practice" class="nav-icon">
+                        <span>Grammar Practice</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="content-grid">
+            <!-- Left Column - Scrollable Content -->
+            <div class="content-left">
+                <!-- Description Section (Always Open) -->
+                <section class="content-section description-section">
+                    <h2>Description</h2>
+                    <div class="section-content">
+                        <p>On Christmas morning, Ron excitedly wakes Harry with festive cheer, and they exchange holiday greetings. Ron shows off a jumper knitted by his mum and points out that Harry has gifts too. To Harry's surprise, he discovers his first-ever Christmas presents, including a mysterious Invisibility Cloak left to him as a legacy. Together, they test its magical properties, marvelling at its rarity and uniqueness, though the identity of the giver remains a mystery.</p>
+                    </div>
+                </section>
+                <!-- Background Section -->
+                <section class="content-section">
+                    <div class="section-header" data-section="background">
+                        <h2>Background</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="background" style="display: none;">
+                        <div class="character-grid">
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Harry.jpg" alt="Harry Potter">
+                                </div>
+                                <h3 class="character-name">Harry Potter</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Ron Weasley.jpg" alt="Ron Weasley">
+                                </div>
+                                <h3 class="character-name">Ron Weasley</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Vocabulary Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="vocabulary">
+                        <h2>Vocabulary</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="vocabulary" style="display: none;">
+                        
+                        <div class="vocabulary-hint">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="vocabulary-list">
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Интересоваться, удивляться">Wonder</span>
+                                            <span class="transcription">/ˈwʌndər/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb/Noun]</span>
+                                        </div>
+                                        <span class="definition">To feel amazement or admiration; a feeling of surprise and admiration.</span>
+                                        <div class="synonyms">
+                                            Synonyms: marvel, astonishment, amazement
+                                        </div>
+                                        <div class="example">
+                                            Example: The children watched in wonder as the magician performed tricks.
+                                        </div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Редкий">Rare</span>
+                                            <span class="transcription">/reər/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        <span class="definition">Not common; occurring infrequently; unusually good or remarkable.</span>
+                                        <div class="synonyms">
+                                            Synonyms: uncommon, scarce, unusual, exceptional
+                                        </div>
+                                        <div class="example">
+                                            Example: It's rare to see this type of bird in this area.
+                                        </div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Невидимый">Invisible</span>
+                                            <span class="transcription">/ɪnˈvɪzəbl/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        <span class="definition">Unable to be seen; not visible to the eye.</span>
+                                        <div class="synonyms">
+                                            Synonyms: unseen, imperceptible, hidden, concealed
+                                        </div>
+                                        <div class="example">
+                                            Example: The stars became invisible as clouds covered the night sky.
+                                        </div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Владение">Possession</span>
+                                            <span class="transcription">/pəˈzeʃn/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">The state of having, owning, or controlling something.</span>
+                                        <div class="synonyms">
+                                            Synonyms: ownership, property, belongings, assets
+                                        </div>
+                                        <div class="example">
+                                            Example: The ancient book came into his possession through inheritance.
+                                        </div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Мантия, плащ">Cloak</span>
+                                            <span class="transcription">/kləʊk/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">A loose outer garment, such as a cape.</span>
+                                        <div class="synonyms">
+                                            Synonyms: Robe, wrap
+                                        </div>
+                                        <div class="example">
+                                            Example: The mysterious figure wore a dark cloak that concealed their face.
+                                        </div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                          
+                        <!-- <div class="type-hints">
+                            <span class="hint-item">[n] - noun</span>
+                            <span class="hint-item">[v] - verb</span>
+                            <span class="hint-item">[phv] - phrasal verb</span>
+                            <span class="hint-item">[adj] - adjective</span>
+                            <span class="hint-item">[exp] - expression</span>
+                        </div> -->
+                        <!-- More vocabulary items -->
+                      </div>
+                      <div class="dictionary-popup" style="display: none;">
+                        <div class="popup-content">
+                          <h3>Added to Dictionary!</h3>
+                          <p>You can find this word in your personal dictionary</p>
+                          <button class="close-popup">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Video Script Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="script">
+                        <h2>Script</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="script" style="display: none;">
+                        <div class="script-info">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="script-list">
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Harry wake up! Come on Harry, wake up!</span>
+                                    <span class="translation">Гарри, проснись! Давай, Гарри, просыпайся!</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Happy Christmas, Harry.</span>
+                                    <span class="translation">Счастливого Рождества, Гарри.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Happy Christmas, Ron.</span>
+                                    <span class="translation">Счастливого Рождества, Рон.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">В британском английском говорят "Happy Christmas", в то время как в американском английском чаще используют "Merry Christmas".</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">What are you wearing?</span>
+                                    <span class="translation">Что на тебе надето?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Oh, my mum made it.</span>
+                                    <span class="translation">О, это мама связала.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">Обратите внимание на использование "mum" вместо "mom" - это типичное британское написание и произношение.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Looks like you've got one too.</span>
+                                    <span class="translation">Похоже, ты тоже получил (подарок).</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I've got presents?</span>
+                                    <span class="translation">Я получил подарки?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">В британском английском конструкция "have got" используется чаще, чем просто "have" для выражения обладания.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Yeah! There they are.</span>
+                                    <span class="translation">Да! Вон они.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Your father left this in my possession before he died. It is time it was returned to you. Use it well.</span>
+                                    <span class="translation">Твой отец оставил это мне на хранение перед смертью. Пришло время вернуть это тебе. Используй его с умом.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">What is it?</span>
+                                    <span class="translation">Что это?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Some kind of cloak.</span>
+                                    <span class="translation">Какой-то плащ.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Well, let's see then. Put it on.</span>
+                                    <span class="translation">Ну, давай посмотрим. Надень его.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Woah.</span>
+                                    <span class="translation">Вау.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">My body's gone!</span>
+                                    <span class="translation">Моё тело исчезло!</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I know what that is.</span>
+                                    <span class="translation">Я знаю, что это такое.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">That's an invisibility cloak.</span>
+                                    <span class="translation">Это плащ-невидимка.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I'm invisible?</span>
+                                    <span class="translation">Я невидимый?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Really rare.</span>
+                                    <span class="translation">Очень редкая вещь.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">Здесь используется эллипсис - пропуск слов, которые подразумеваются из контекста. Полное предложение было бы "It is really rare."</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I wonder who gave it to you.</span>
+                                    <span class="translation">Интересно, кто тебе его дал.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">There was no name.</span>
+                                    <span class="translation">Имени не было.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">It just said 'use it well'.</span>
+                                    <span class="translation">Там было только написано 'используй его с умом'.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- --------------------------------------------------------------
+                # Grammar Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="grammar">
+                        <h2>Grammar Focus</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="grammar" style="display: none;">
+                        <div class="grammar-container">
+                            <!-- Новая секция с герундием -->
+                            <div class="theory-section">
+                                <h3>Gerunds for Actions as Nouns (Герундий как существительное)</h3>
+                                <div class="theory-explanation">
+                                    <p>Герундий — это форма глагола с окончанием <strong>-ing</strong>, которая используется как существительное. Это значит, что герундий может выполнять функции подлежащего, дополнения или объекта в предложении.</p>
+                                </div>
+                        
+                                <div class="rules-section">
+                                    <h4>Различия между Gerund и Present Continuous</h4>
+                                    <div class="rule-item">
+                                        <div class="rule-title">Gerund:</div>
+                                        <div class="rule-example">- Выполняет роль существительного</div>
+                                        <div class="rule-example">- Обозначает действие как процесс или концепцию</div>
+                                        <div class="rule-example">- Не имеет временного контекста</div>
+                                        <div class="rule-example">Пример: <em>Swimming is fun.</em> — Плавание весело</div>
+                                        <div class="rule-example">Пример: <em>He enjoys reading books.</em> — Он любит читать книги</div>
+                                    </div>
+                        
+                                    <div class="rule-item">
+                                        <div class="rule-title">Present Continuous:</div>
+                                        <div class="rule-example">- Используется для описания действий, происходящих сейчас</div>
+                                        <div class="rule-example">- Указывает на временный характер действия</div>
+                                        <div class="rule-example">Пример: <em>He is swimming.</em> — Он сейчас плавает</div>
+                                        <div class="rule-example">Пример: <em>They are working on a project.</em> — Они работают над проектом</div>
+                                    </div>
+                                </div>
+                        
+                                <div class="practice-section">
+                                    <h4>Практическое упражнение</h4>
+                                    <p>Вставьте подходящую форму герундия в предложения:</p><br>
+                                    <div class="practice-items">
+                                        <div class="practice-item">
+                                            <div class="question">Harry is good at ___ the Invisibility Cloak. (use) <input type="text" class="tag-input" data-correct="using"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">Ron suggested ___ it on. (try) <input type="text" class="tag-input" data-correct="trying"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">___ in the library requires silence. (study) <input type="text" class="tag-input" data-correct="Studying"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">They enjoy ___ Quidditch together. (play) <input type="text" class="tag-input" data-correct="playing"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">___ spells requires practice. (master) <input type="text" class="tag-input" data-correct="Mastering"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">She keeps ___ about the upcoming exam. (worry) <input type="text" class="tag-input" data-correct="worrying"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">___ in class is not allowed. (talk) <input type="text" class="tag-input" data-correct="Talking"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">He considered ___ the Quidditch team. (join) <input type="text" class="tag-input" data-correct="joining"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">___ homework early helps reduce stress. (finish) <input type="text" class="tag-input" data-correct="Finishing"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">She avoided ___ about the incident. (talk) <input type="text" class="tag-input" data-correct="talking"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Questions Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="questions">
+                        <h2>Questions</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="questions" style="display: none;">
+                        <div class="questions-list">
+                            <div class="question-item">
+                                <p class="question-text">1. What does Ron give Harry when he wakes him up?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A cheerful greeting</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A mysterious cloak</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A knitted jumper</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">2. What does Ron's mum make for him?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A knitted jumper</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A Christmas cake</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A scarf</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">3. How does Harry feel when he discovers his presents?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Surprised</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Sad</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Angry</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">4. What does Harry receive as an inheritance?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">An Invisibility Cloak</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A magical wand</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A golden key</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">5. What happens when Harry puts on the cloak?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">His body disappears</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He starts flying</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He becomes stronger</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">6. What does Ron say about the cloak?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">It is really rare</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">It is very old</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">It is cursed</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">7. Who left the cloak for Harry?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">His father</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Dumbledore</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A secret admirer</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">8. What instructions are included with the cloak?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">"Use it well"</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">"Handle with care"</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">"Keep it hidden"</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">9. What time of year does this scene take place?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Christmas</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Halloween</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Summer</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">10. Why does Harry find this Christmas special?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He receives his first Christmas presents</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He spends it with his parents</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He visits a magical location</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sorting Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="sorting">
+                        <h2>Sorting</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sorting" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите реплики в правильном порядке.</p>
+                            <p>Drag and drop the dialogues to arrange them in the correct order.</p>
+                        </div>
+                        <div class="dialogue-container">
+                            <div class="dialogue-list" data-dialogues='[
+                                { "id": 1, "text": "Come on Harry, wake up!" },
+
+                                { "id": 2, "text": "Happy Christmas, Harry." },
+
+                                { "id": 3, "text": "Happy Christmas, Ron." },
+
+                                { "id": 4, "text": "What are you wearing?" },
+
+                                { "id": 5, "text": "Oh, my mum made it." },
+
+                                { "id": 6, "text": "Looks like you&#39;ve got one too." },
+
+                                { "id": 7, "text": "I&#39;ve got presents?" }
+                            ]'>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- --------------------------------------------------------------
+                # Make a Match Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="make-a-match">
+                        <h2>Make a Match</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="make-a-match" style="display: none;">
+                        <div class="match-instructions">
+                            <p>Соотнесите слово/выражение с его переводом.</p>
+                            <p>Match the word/expression with its translation.</p>
+                        </div>
+                        <div class="match-container">
+                            <div class="match-column" id="wordsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Wonder</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Rare</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Invisible</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Possession</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Cloak</span>
+                                </div>
+                            </div>
+                            
+                            <div class="match-column" id="translationsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Интересоваться, удивляться</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Редкий</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Невидимый</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Владение</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Мантия, плащ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sentence Building 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="sentence-building">
+                        <h2>Sentence Building</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sentence-building" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите слова в правильном порядке</p>
+                            <p>Arrange the words in the correct order</p>
+                        </div>
+                        <div class="sentences-container" data-sentences='[
+                          {"words": ["Harry", "on", "wakes", "Christmas", "Ron", "up", "morning."], 
+                          "correct": "Ron wakes Harry up on Christmas morning."},
+                          
+                          {"words": ["his", "Christmas", "first", "Harry", "gifts.", "discovered"], 
+                          "correct": "Harry discovered his first Christmas gifts."},
+
+                          {"words": ["off", "mum.", "a", "Ron", "jumper", "by", "knitted", "his", "showed"], 
+                          "correct": "Ron showed off a jumper knitted by his mum."},
+
+                          {"words": ["left", "him", "gift", "The", "inheritance.", "an", "as", "was", "to"], 
+                          "correct": "The gift was left to him as an inheritance."},
+
+                          {"words": ["got", "a", "Harry", "Invisibility", "mysterious", "Cloak."], 
+                          "correct": "Harry got a mysterious Invisibility Cloak."},
+                          
+                          {"words": ["They", "out.", "marvelling", "it", "were", "while", "at", "testing", "rarity", "its"], 
+                          "correct": "They were marvelling at its rarity while testing it out."}
+                        ]'></div>
+
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Fill in the Blank 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="fill-in-blanks">
+                        <h2>Fill in the Blanks</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="fill-in-blanks" style="display: none;">
+                        <div class="fill-blanks-list">
+                            <div class="fill-blank-item" data-correct="woke">
+                                <div class="sentence">
+                                    <p>Ron <span class="blank">______</span> Harry up with a cheerful greeting on Christmas morning.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="woke">woke</button>
+                                    <button class="option" data-value="wakes">wakes</button>
+                                    <button class="option" data-value="wake">wake</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="exchanged">
+                                <div class="sentence">
+                                    <p>They <span class="blank">______</span> festive wishes before opening their presents.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="exchanged">exchanged</button>
+                                    <button class="option" data-value="exchange">exchange</button>
+                                    <button class="option" data-value="exchanges">exchanges</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="knitted">
+                                <div class="sentence">
+                                    <p>The jumper <span class="blank">______</span> by Ron's mum is very colourful.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="knitted">knitted</button>
+                                    <button class="option" data-value="knit">knit</button>
+                                    <button class="option" data-value="knits">knits</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="discovered">
+                                <div class="sentence">
+                                    <p>Harry <span class="blank">______</span> his first Christmas gifts, including a mysterious Invisibility Cloak.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="discovered">discovered</button>
+                                    <button class="option" data-value="discover">discover</button>
+                                    <button class="option" data-value="discovers">discovers</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="was left">
+                                <div class="sentence">
+                                    <p>The Invisibility Cloak <span class="blank">______</span> to Harry as an inheritance by someone he didn't know.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="was left">was left</button>
+                                    <button class="option" data-value="is left">is left</button>
+                                    <button class="option" data-value="left">left</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="tested">
+                                <div class="sentence">
+                                    <p>Ron and Harry <span class="blank">______</span> the cloak to see if it really worked.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="tested">tested</button>
+                                    <button class="option" data-value="test">test</button>
+                                    <button class="option" data-value="tests">tests</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="remains">
+                                <div class="sentence">
+                                    <p>The name of the giver <span class="blank">______</span> unknown, even though Harry used the cloak.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="remains">remains</button>
+                                    <button class="option" data-value="remained">remained</button>
+                                    <button class="option" data-value="remain">remain</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="made">
+                                <div class="sentence">
+                                    <p>The jumper Ron is wearing is very colourful because his mum <span class="blank">______</span> it herself.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="made">made</button>
+                                    <button class="option" data-value="make">make</button>
+                                    <button class="option" data-value="makes">makes</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="marveled">
+                                <div class="sentence">
+                                    <p>The cloak is so rare that Ron <span class="blank">______</span> at its uniqueness.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="marveled">marveled</button>
+                                    <button class="option" data-value="marvel">marvel</button>
+                                    <button class="option" data-value="marvels">marvels</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Discussion 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="discussion">
+                        <h2>Discussion</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="discussion" style="display: none;">
+                        <div class="discussion-list">
+                            <div class="discussion-item">
+                                <span class="question-number">1</span>
+                                <div class="question-container">
+                                    <p class="question-text">What do you think makes Christmas morning special for people? Do you have any similar traditions?</p>
+                                    <p class="question-translation">Как вы думаете, что делает рождественское утро особенным для людей? Есть ли у вас похожие традиции?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">2</span>
+                                <div class="question-container">
+                                    <p class="question-text">Why do you think Harry is so surprised to receive presents? What does this tell us about his past experiences?</p>
+                                    <p class="question-translation">Почему, по вашему мнению, Гарри так удивлен получению подарков? О чём это говорит нам о его прошлом опыте?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">3</span>
+                                <div class="question-container">
+                                    <p class="question-text">How do you feel about the idea of receiving a mysterious gift without knowing who it's from? Would you be excited or suspicious?</p>
+                                    <p class="question-translation">Как вы относитесь к идее получения загадочного подарка, не зная, от кого он? Были бы вы взволнованы или подозрительны?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">4</span>
+                                <div class="question-container">
+                                    <p class="question-text">What do you think the Invisibility Cloak represents in the story? What would you do if you had such a gift?</p>
+                                    <p class="question-translation">Как вы думаете, что символизирует Мантия-невидимка в истории? Что бы вы делали, если бы у вас был такой подарок?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">5</span>
+                                <div class="question-container">
+                                    <p class="question-text">Do you think it's important to know who gave you a gift, or is the thought behind the gift more important?</p>
+                                    <p class="question-translation">Как вы считаете, важно ли знать, кто подарил вам подарок, или важнее мысль, стоящая за подарком?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">6</span>
+                                <div class="question-container">
+                                    <p class="question-text">How does the idea of being "invisible" play into Harry's character development in the story? What could it symbolise about his life or challenges?</p>
+                                    <p class="question-translation">Как идея "невидимости" влияет на развитие характера Гарри в истории? Что это может символизировать в его жизни или испытаниях?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">7</span>
+                                <div class="question-container">
+                                    <p class="question-text">If you had an Invisibility Cloak, what situations would you use it for? Would it change your behaviour or actions?</p>
+                                    <p class="question-translation">Если бы у вас была Мантия-невидимка, в каких ситуациях вы бы её использовали? Изменило бы это ваше поведение или действия?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">8</span>
+                                <div class="question-container">
+                                    <p class="question-text">Do you think Christmas gifts should be practical or personal? What makes a gift meaningful to you?</p>
+                                    <p class="question-translation">Как вы думаете, рождественские подарки должны быть практичными или личными? Что делает подарок значимым для вас?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">9</span>
+                                <div class="question-container">
+                                    <p class="question-text">How do you interpret Ron's excitement about the Invisibility Cloak? What does this tell us about their friendship?</p>
+                                    <p class="question-translation">Как вы интерпретируете восторг Рона по поводу Мантии-невидимки? О чём это говорит нам об их дружбе?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">10</span>
+                                <div class="question-container">
+                                    <p class="question-text">What role do mystery and surprise play in stories or celebrations? How do they affect your experience of an event like Christmas?</p>
+                                    <p class="question-translation">Какую роль играют тайна и сюрприз в историях или праздниках? Как они влияют на ваше восприятие такого события, как Рождество?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column - Fixed Video -->
+            <div class="content-right">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/GoNQmdjAV9k"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <!-- Footer Navigation -->
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../my-words.html">My Words</a></li>
+                        <li><a href="../Phrasal Verbs.html">Phrasal Verbs</a></li>
+                        <li><a href="../Grammar-practice.html">Grammar Practice</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2025 EnglishPlay. All rights reserved.
+                </div>
+                <div class="footer-copyright">
+                    hello.englishplay@gmail.com
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+    
+            <!-- Large Text at the Bottom -->
+            <h2 class="footer-large-text">
+                <span class="footer-large-text">EnglishPlay</span>
+            </h2>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/episodes.js"></script>
+</body>
+</html>

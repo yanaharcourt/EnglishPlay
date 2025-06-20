@@ -1,0 +1,1944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2. Coco Beginning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/episode-styles.css"> 
+    <!-- <link rel="stylesheet" href="../assets/css/styles.css"> -->
+</head>
+<body>
+    <!-- --------------------------------------------------------------
+    # CURSOR
+    ---------------------------------------------------------------->
+    <div class="js-cursor-init">
+        <div class="cursor-circle">
+            <div class="circle_wrap"></div>
+            <div class="scroll_cursor_txt">
+                <span class="text">Scroll</span>
+            </div>
+            <div class="view_more_cursor">
+                <span class="text">View</span>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------
+    # NAVIGATION MENU
+    ---------------------------------------------------------------->
+    <div class="left-nav">
+        <a href="../index.html" class="logo-container">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-default">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-hover">
+        </a>
+    
+        <div class="burger-lines">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+    
+        <div class="explore-text">EXPLORE</div>
+    
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="../index.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Home.svg"
+                            alt="Home" class="nav-icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../my-words.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/My%20Words.svg"
+                            alt="My Words" class="nav-icon">
+                        <span>My Words</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Phrasal Verbs.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Phrasal%20verbs.svg"
+                            alt="Phrasal Verbs" class="nav-icon">
+                        <span>Phrasal Verbs</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Grammar Practice.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Grammar%20practice.svg"
+                            alt="Grammar Practice" class="nav-icon">
+                        <span>Grammar Practice</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="content-grid">
+            <!-- Left Column - Scrollable Content -->
+            <div class="content-left">
+                <!-- Description Section (Always Open) -->
+                <section class="content-section description-section">
+                    <h2>Description</h2>
+                    <div class="section-content">
+                        <p>Miguel admires Ernesto de la Cruz and dreams of becoming a musician like him, despite his family's ban on music. A street performer encourages him to follow his passion and join the talent show for Día de Muertos. But their chat is cut short when Miguel’s strict grandmother shows up and drags him home.</p>
+                    </div>
+                </section>
+                <!-- Background Section -->
+                <section class="content-section">
+                    <div class="section-header" data-section="background">
+                        <h2>Background</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="background" style="display: none;">
+                        <div class="character-grid">
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/a9e65ac5745d4b8be8007d786d2fd7c0a41fc16a/assets/img/Coco/Miguel.jpg"
+                                        alt="Miguel">
+                                </div>
+                                <h3 class="character-name">Miguel</h3>
+                            </div>
+                            
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/a9e65ac5745d4b8be8007d786d2fd7c0a41fc16a/assets/img/Coco/grandma.jpg"
+                                        alt="Abuelita">
+                                </div>
+                                <h3 class="character-name">Abuelita</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Vocabulary Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="vocabulary">
+                        <h2>Vocabulary</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="vocabulary" style="display: none;">
+                        
+                        <div class="vocabulary-hint">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="vocabulary-list">
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Площадь">Plaza</span>
+                                            <span class="transcription">/ˈplɑːzə/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">A public square or open space in a city or town, especially in Spanish-speaking
+                                            countries</span>
+                                        <div class="synonyms">Synonyms: square, marketplace, courtyard, forum</div>
+                                        <div class="example">Example: "Right here in this very plaza, the young Ernesto de la Cruz took his first
+                                            steps toward becoming the most beloved singer."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Обожаемый">Beloved</span>
+                                            <span class="transcription">/bɪˈlʌvɪd/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        <span class="definition">Greatly loved; dear to the heart</span>
+                                        <div class="synonyms">Synonyms: adored, cherished, treasured, revered</div>
+                                        <div class="example">Example: "Ernesto de la Cruz took his first steps toward becoming the most beloved
+                                            singer in Mexican history."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Никто">Nobody</span>
+                                            <span class="transcription">/ˈnoʊbədi/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">A person of no importance or authority</span>
+                                        <div class="synonyms">Synonyms: unknown, unimportant person, insignificant individual</div>
+                                        <div class="example">Example: "He started out a nobody from Santa Cecilia, like me."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Влюбиться">Fall in love with</span>
+                                            <span class="transcription">/fɔːl ɪn lʌv wɪð/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Phrasal verb]</span>
+                                        </div>
+                                        <span class="definition">To be attracted to someone or something and develop strong feelings of
+                                            affection</span>
+                                        <div class="synonyms">Synonyms: become enamored with, be infatuated with, adore</div>
+                                        <div class="example">Example: "When he played music, he made people fall in love with him."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Снимать(ся) в фильмах">Star in movies</span>
+                                            <span class="transcription">/stɑːr ɪn ˈmuːviz/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Phrase]</span>
+                                        </div>
+                                        <span class="definition">To play a leading role in films</span>
+                                        <div class="synonyms">Synonyms: act in films, feature in movies, be a lead actor</div>
+                                        <div class="example">Example: "He starred in movies. He had the coolest guitar!"</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Попрощаться">Say goodbye</span>
+                                            <span class="transcription">/seɪ ɡʊdˈbaɪ/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Phrase]</span>
+                                        </div>
+                                        <span class="definition">To bid farewell; to part from someone</span>
+                                        <div class="synonyms">Synonyms: farewell, adieu, bid farewell, take leave</div>
+                                        <div class="example">Example: "But my all-time favorite, it's... I have to say goodbye."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Раздавленный">Crushed</span>
+                                            <span class="transcription">/krʌʃt/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb, past tense]</span>
+                                        </div>
+                                        <span class="definition">To be compressed with force so severely that it breaks or loses its shape</span>
+                                        <div class="synonyms">Synonyms: squashed, flattened, compressed, smashed</div>
+                                        <div class="example">Example: "Until 1942. When he was crushed by a giant bell."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Связанный, имеющий связь">Connected</span>
+                                            <span class="transcription">/kəˈnektɪd/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        <span class="definition">Joined or linked together; having a relationship or association</span>
+                                        <div class="synonyms">Synonyms: linked, related, associated, joined</div>
+                                        <div class="example">Example: "Sometimes I look at De La Cruz and I get this feeling. Like, we're connected
+                                            somehow."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Чистка обуви">Shoeshine</span>
+                                            <span class="transcription">/ˈʃuːʃaɪn/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">The act of polishing shoes; also refers to the polish itself</span>
+                                        <div class="synonyms">Synonyms: shoe polish, boot polish, shoe cleaning</div>
+                                        <div class="example">Example: "I asked for a shoeshine, not your life story."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Воспользоваться моментом">Seize your moment</span>
+                                            <span class="transcription">/siːz jʊər ˈməʊmənt/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Phrase]</span>
+                                        </div>
+                                        <span class="definition">To take advantage of an opportunity when it presents itself; to act decisively at
+                                            the right time</span>
+                                        <div class="synonyms">Synonyms: carpe diem, take your chance, make the most of an opportunity</div>
+                                        <div class="example">Example: "What did De La Cruz always say? Seize your moment?"</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Бабушка">Abuelita</span>
+                                            <span class="transcription">/ɑːbweˈliːtə/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">Spanish term for grandmother, often used as a term of endearment</span>
+                                        <div class="synonyms">Synonyms: grandma, granny, nana (English equivalents)</div>
+                                        <div class="example">Example: "Miguel! Abuelita! What are you doing here?"</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Маленький ангелочек">Angelito querido</span>
+                                            <span class="transcription">/ɑːnheˈliːto keˈriːdo/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Phrase]</span>
+                                        </div>
+                                        <span class="definition">Spanish term of endearment meaning "dear little angel"</span>
+                                        <div class="synonyms">Synonyms: little darling, sweet angel, precious one</div>
+                                        <div class="example">Example: "My grandson is a sweet little angelito querido cielito."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Бедняжка">Pobrecito</span>
+                                            <span class="transcription">/poːbreˈsiːtoʊ/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z" />
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">Spanish term expressing sympathy, meaning "poor little one"</span>
+                                        <div class="synonyms">Synonyms: poor thing, poor dear, poor little one</div>
+                                        <div class="example">Example: "Ay, pobrecito. ¿Estás bien, mijo?"</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                        <!-- <div class="type-hints">
+                            <span class="hint-item">[n] - noun</span>
+                            <span class="hint-item">[v] - verb</span>
+                            <span class="hint-item">[phv] - phrasal verb</span>
+                            <span class="hint-item">[adj] - adjective</span>
+                            <span class="hint-item">[exp] - expression</span>
+                        </div> -->
+
+                      </div>
+                        <div class="dictionary-popup" style="display: none;">
+                            <div class="popup-content">
+                                <h3>Added to Dictionary!</h3>
+                                <p>You can find this word in your personal dictionary</p>
+                                <button class="close-popup">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Video Script Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="script">
+                        <h2>Script</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="script" style="display: none;">
+                        <div class="script-info">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="script-list">
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">It is Ernesto de la Cruz, the greatest musician of all time.</span>
+                                    <span class="translation">Это Эрнесто де ла Круз, величайший музыкант всех времен.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Tour Guide:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Right here in this very plaza, the young Ernesto de la Cruz took his first steps toward
+                                        becoming the most beloved singer in Mexican history.</span>
+                                    <span class="translation">Именно на этой площади молодой Эрнесто де ла Круз сделал свои первые шаги к тому,
+                                        чтобы стать самым любимым певцом в истории Мексики.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">He started out towing nobody from Santa Cecilia, like me.</span>
+                                    <span class="translation">Он начинал никем из Санта-Сесилии, как я.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">But when he played music, he made people fall in love with him.</span>
+                                    <span class="translation">Но когда он играл музыку, он заставлял людей влюбляться в него.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">He starred in movies. He had the coolest guitar! He could fly!</span>
+                                    <span class="translation">Он снимался в фильмах. У него была самая классная гитара! Он мог летать!</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">And he wrote the best songs! But my all-time favorite, it's... I have to say
+                                        goodbye.</span>
+                                    <span class="translation">И он писал лучшие песни! Но моя самая любимая, это... Я должен попрощаться.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ernesto:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Remember me! Don't let it make you cry. For even if I'm far away, I hold you in my
+                                        heart.</span>
+                                    <span class="translation">Помни меня! Не позволяй этому заставить тебя плакать. Ведь даже если я далеко, я храню
+                                        тебя в своём сердце.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ernesto:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I sing a secret song to you Each night we are apart. Remember me!</span>
+                                    <span class="translation">Я пою тебе тайную песню каждую ночь, когда мы в разлуке. Помни меня!</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ernesto:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Though I have to travel far, Remember me!</span>
+                                    <span class="translation">Хоть я должен уехать далеко, помни меня!</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ernesto:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Each time you hear a sad guitar, Know that I'm with you The only way that I can be.</span>
+                                    <span class="translation">Каждый раз, когда ты слышишь грустную гитару, знай, что я с тобой, единственным
+                                        способом, которым я могу быть.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ernesto:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Until you're in my arms again.</span>
+                                    <span class="translation">Пока ты снова не окажешься в моих объятиях.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">He lived the kind of life you dream about.</span>
+                                    <span class="translation">Он жил той жизнью, о которой мечтаешь.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Until 1942. When he was crushed by a giant bell.</span>
+                                    <span class="translation">До 1942 года. Когда его раздавил гигантский колокол.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I want to be just like him.</span>
+                                    <span class="translation">Я хочу быть точно как он.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Sometimes I look at De La Cruz and I get this feeling.</span>
+                                    <span class="translation">Иногда я смотрю на Де Ла Круза и испытываю это чувство.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Like, we're connected somehow. Like, if he could play music, maybe someday I could
+                                        too.</span>
+                                    <span class="translation">Как будто мы как-то связаны. Как будто если он мог играть музыку, может быть,
+                                        когда-нибудь и я смогу.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">If it wasn't for my family.</span>
+                                    <span class="translation">Если бы не моя семья.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"If it wasn't for my family" - подразумевается, что семья Мигеля является препятствием для
+                                        его музыкальных стремлений.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Ay, ay, ay, muchacho. Huh? I asked for a shoeshine, not your life story.</span>
+                                    <span class="translation">Ай, ай, ай, мучачо. А? Я просил почистить обувь, а не рассказывать историю твоей
+                                        жизни.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"Muchacho" - испанское слово, означающее "парень, юноша".</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Oh, yeah. Sorry. I just can't really talk about any of this at home, so...</span>
+                                    <span class="translation">О, да. Извини. Я просто не могу говорить об этом дома, так что...</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Look, if I were you, I'd march right up to my family and say, hey, I'm a musician. Deal
+                                        with it.</span>
+                                    <span class="translation">Слушай, на твоём месте я бы прямо подошёл к своей семье и сказал: эй, я музыкант.
+                                        Смиритесь с этим.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"Deal with it" - распространённое выражение, означающее "смирись с этим, принимай как
+                                        есть".</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I could never say that.</span>
+                                    <span class="translation">Я бы никогда не смог такое сказать.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">You are a musician, no?</span>
+                                    <span class="translation">Ты музыкант, разве нет?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I don't know. I mean, I only really play for myself.</span>
+                                    <span class="translation">Я не знаю. В смысле, я играю только для себя.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Ah, did De La Cruz become the world's best musician by hiding his sweet, sweet
+                                        skills?</span>
+                                    <span class="translation">А, разве Де Ла Круз стал лучшим музыкантом в мире, скрывая свои сладкие, сладкие
+                                        навыки?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"sweet skills" - разговорное выражение, означающее "отличные навыки, таланты".</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">No! He walked out onto that plaza and he played out loud.</span>
+                                    <span class="translation">Нет! Он вышел на эту площадь и играл во весь голос.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Ah, mira, mira, they're setting up for tonight. The music competition for Dia de
+                                        Muertos.</span>
+                                    <span class="translation">А, смотри, смотри, они готовятся к сегодняшнему вечеру. Музыкальный конкурс на День
+                                        Мёртвых.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"mira, mira" - испанское выражение, означающее "смотри, смотри".</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"Dia de Muertos" - День Мёртвых, важный мексиканский праздник, посвящённый памяти умерших
+                                        родственников.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">You want to be like your hero? You should sign up.</span>
+                                    <span class="translation">Хочешь быть как твой герой? Тебе стоит записаться.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Uh-uh. My family would freak.</span>
+                                    <span class="translation">Э-э, нет. Моя семья с ума сойдёт.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"would freak" - разговорное выражение, означающее "сильно разозлиться, запаниковать или
+                                        расстроиться".</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Look, if you're too scared, then, well, have fun making shoes.</span>
+                                    <span class="translation">Слушай, если ты слишком напуган, тогда, что ж, развлекайся, делая обувь.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Come on, what did De La Cruz always say?</span>
+                                    <span class="translation">Давай, что всегда говорил Де Ла Круз?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Seize your moment?</span>
+                                    <span class="translation">Лови свой момент?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"Seize your moment" - мотивационная фраза, означающая "воспользуйся своим шансом, не упусти
+                                        возможность".</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Show me what you got, muchacho. I'll be your first audience.</span>
+                                    <span class="translation">Покажи, на что ты способен, мучачо. Я буду твоей первой публикой.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Abuelita:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Miguel!</span>
+                                    <span class="translation">Мигель!</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Abuelita!</span>
+                                    <span class="translation">Абуэлита!</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"Abuelita" - ласковое обращение к бабушке на испанском языке, уменьшительно-ласкательная
+                                        форма от "abuela" (бабушка).</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Abuelita:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">What are you doing here? You leave my grandson alone.</span>
+                                    <span class="translation">Что ты здесь делаешь? Оставь моего внука в покое.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Singer:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Doña, please. I was just getting a shine.</span>
+                                    <span class="translation">Донья, пожалуйста. Я просто чистил обувь.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"Doña" - уважительное обращение к женщине в испаноязычных странах.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"getting a shine" - разговорное выражение, означающее "чистить обувь".</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Abuelita:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I know your tricks, mariachi. What did he say to you?</span>
+                                    <span class="translation">Я знаю твои уловки, мариачи. Что он тебе сказал?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"mariachi" - традиционный мексиканский музыкант, здесь используется как обращение к
+                                        уличному певцу.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Miguel:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">He was just showing me his guitar.</span>
+                                    <span class="translation">Он просто показывал мне свою гитару.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Grandpa:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Shame on you.</span>
+                                    <span class="translation">Стыдно тебе.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Abuelita:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">My grandson is a sweet little angelito querido cielito.</span>
+                                    <span class="translation">Мой внук - сладкий маленький ангелочек, дорогое небесное создание.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"angelito querido cielito" - ласковые испанские слова: "angelito" (маленький ангел),
+                                        "querido" (дорогой), "cielito" (небесное создание).</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Abuelita:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">He wants no part of your music, mariachi.</span>
+                                    <span class="translation">Ему не нужна твоя музыка, мариачи.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Abuelita:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">You keep away from him. Ay, pobrecito. ¿Estás bien, mijo?</span>
+                                    <span class="translation">Держись от него подальше. Ай, бедняжка. Ты в порядке, сынок?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"pobrecito" - ласковое испанское слово, означающее "бедняжка".</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">"¿Estás bien, mijo?" - испанская фраза, означающая "Ты в порядке, сынок?". "Mijo" -
+                                        сокращение от "mi hijo" (мой сын).</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Abuelita:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">You know better than to be here in this place.</span>
+                                    <span class="translation">Ты же знаешь, что тебе не следует находиться в этом месте.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Abuelita:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">You will come home. Now.</span>
+                                    <span class="translation">Ты пойдёшь домой. Сейчас же.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- --------------------------------------------------------------
+                # Grammar Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="grammar">
+                        <h2>Grammar Focus</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="grammar" style="display: none;">
+                        <div class="grammar-container">
+                            <div class="theory-section">
+                                <h3>Inversion in English</h3>
+                                <div class="theory-explanation">
+                                    <p>Инверсия (Inversion) – это грамматическая конструкция, при которой происходит изменение обычного порядка
+                                        слов в предложении. В английском языке стандартный порядок слов: подлежащее-сказуемое-дополнение. При
+                                        инверсии этот порядок меняется, чаще всего сказуемое или его часть выходит на первое место перед
+                                        подлежащим.</p>
+                                </div>
+                        
+                                <div class="rules-section">
+                                    <h4>Основные типы инверсии</h4>
+                                    <div class="rule-item">
+                                        <div class="rule-title">Полная инверсия</div>
+                                        <div class="rule-example">Form: Verb + Subject</div>
+                                        <div class="rule-example">There <strong>stands</strong> the old castle. (Там стоит старый замок)</div>
+                                        <div class="rule-example">Into the room <strong>walked</strong> my father. (В комнату вошел мой отец)
+                                        </div>
+                                    </div>
+                                    <div class="rule-item">
+                                        <div class="rule-title">Частичная инверсия</div>
+                                        <div class="rule-example">Form: Auxiliary Verb + Subject + Main Verb</div>
+                                        <div class="rule-example">Never <strong>have I seen</strong> such a beautiful sunset. (Никогда я не
+                                            видел такого прекрасного заката)</div>
+                                        <div class="rule-example">Rarely <strong>do they visit</strong> their relatives. (Редко они навещают
+                                            своих родственников)</div>
+                                    </div>
+                                    <div class="rule-item">
+                                        <div class="rule-title">Вопросительная инверсия</div>
+                                        <div class="rule-example">Form: Auxiliary/Modal/Be + Subject + Main Verb</div>
+                                        <div class="rule-example"><strong>Do you</strong> understand this rule? (Вы понимаете это правило?)
+                                        </div>
+                                        <div class="rule-example"><strong>Can she</strong> swim? (Она умеет плавать?)</div>
+                                    </div>
+                                    <div class="rule-item">
+                                        <div class="rule-title">Условная инверсия</div>
+                                        <div class="rule-example">Form: Had/Were/Should + Subject (вместо if)</div>
+                                        <div class="rule-example"><strong>Had I known</strong> about the problem, I would have helped. (Если бы
+                                            я знал о проблеме, я бы помог)</div>
+                                        <div class="rule-example"><strong>Were she</strong> here, she would agree with me. (Если бы она была
+                                            здесь, она бы согласилась со мной)</div>
+                                    </div>
+                                </div>
+                        
+                                <h4>Когда используется инверсия</h4>
+                                <div class="rule-item">
+                                    <div class="rule-title">1. После отрицательных или ограничительных выражений:</div>
+                                    <div class="rule-example">• <strong>Never</strong> before had he felt so happy. (Никогда прежде он не
+                                        чувствовал себя таким счастливым)</div>
+                                    <div class="rule-example">• <strong>Hardly</strong> had she finished speaking when the phone rang. (Едва она
+                                        закончила говорить, как зазвонил телефон)</div>
+                                    <div class="rule-example">• <strong>Not only</strong> did she pass the exam, but she also got the highest
+                                        score. (Она не только сдала экзамен, но и получила наивысший балл)</div>
+                                </div>
+                        
+                                <div class="rule-item">
+                                    <div class="rule-title">2. После наречий места (для эмфазы):</div>
+                                    <div class="rule-example">• <strong>Here</strong> comes the bus! (Вот идет автобус!)</div>
+                                    <div class="rule-example">• <strong>There</strong> goes our last chance. (Вот уходит наш последний шанс)
+                                    </div>
+                                    <div class="rule-example">• <strong>Away</strong> went the ball into the bushes. (И улетел мяч в кусты)
+                                    </div>
+                                </div>
+                        
+                                <div class="rule-item">
+                                    <div class="rule-title">3. В условных предложениях (вместо if):</div>
+                                    <div class="rule-example">• <strong>Should</strong> you change your mind, please let me know. (Если вы
+                                        передумаете, дайте мне знать)</div>
+                                    <div class="rule-example">• <strong>Had</strong> I realized the danger, I would have been more careful.
+                                        (Если бы я осознал опасность, я был бы более осторожен)</div>
+                                    <div class="rule-example">• <strong>Were</strong> I you, I wouldn't do that. (На вашем месте я бы этого не
+                                        делал)</div>
+                                </div>
+                        
+                                <div class="rule-item">
+                                    <div class="rule-title">4. После выражений с so и such:</div>
+                                    <div class="rule-example">• <strong>So</strong> beautiful was the sunset that everyone stopped to admire it.
+                                        (Настолько красивым был закат, что все остановились, чтобы полюбоваться им)</div>
+                                    <div class="rule-example">• <strong>Such</strong> was his influence that nobody dared to contradict him.
+                                        (Таково было его влияние, что никто не осмеливался ему противоречить)</div>
+                                </div>
+                        
+                                <h4>Примеры в контексте</h4>
+                                <div class="rule-item">
+                                    <div class="rule-example">
+                                        <strong>Стандартный порядок:</strong><br>
+                                        I have never seen such a beautiful garden before.<br>
+                                        (Я никогда раньше не видел такого красивого сада.)
+                                    </div><br>
+                                    <div class="rule-example">
+                                        <strong>С инверсией:</strong><br>
+                                        Never before <strong>have I seen</strong> such a beautiful garden.<br>
+                                        (Никогда прежде я не видел такого красивого сада.)
+                                    </div>
+                                </div>
+                                <div class="rule-item">
+                                    <div class="rule-example">
+                                        <strong>Стандартный порядок:</strong><br>
+                                        If you should need any help, just call me.<br>
+                                        (Если вам понадобится помощь, просто позвоните мне.)
+                                    </div><br>
+                                    <div class="rule-example">
+                                        <strong>С инверсией:</strong><br>
+                                        <strong>Should you need</strong> any help, just call me.<br>
+                                        (Если вам понадобится помощь, просто позвоните мне.)
+                                    </div>
+                                </div>
+                        
+                                <h4>Дополнительные примеры</h4>
+                                <div class="rule-item">
+                                    <div class="rule-example">
+                                        Only after completing all his assignments <strong>did he realize</strong> how tired he was.
+                                        (Только после выполнения всех заданий он осознал, насколько устал.)
+                                    </div><br>
+                                    <div class="rule-example">
+                                        Seldom <strong>have I met</strong> someone so talented and modest at the same time.
+                                        (Редко я встречал кого-то столь талантливого и одновременно скромного.)
+                                    </div><br>
+                                    <div class="rule-example">
+                                        Not until the last minute <strong>did they tell</strong> us about the change in plans.
+                                        (Только в последний момент они сообщили нам об изменении планов.)
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="practice-section">
+                                <h4>Практическое упражнение</h4>
+                                <p>Используйте инверсию в следующих предложениях. Выберите правильный вариант из предложенных.</p><br>
+                                <div class="practice-items">
+                                    <div class="question-item">
+                                        <p class="question-text">1. If I had known about the problem, I would have solved it earlier.</p><br>
+                                        <div class="answers-list">
+                                            <label class="answer-container">
+                                                <input type="radio" name="question1" value="1">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Had I known about the problem, I would have solved it earlier.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question1" value="2">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Known had I about the problem, I would have solved it earlier.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question1" value="3">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">If I had known about the problem, I would have solved it earlier.</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="question-item">
+                                        <p class="question-text">2. I have never seen such a beautiful painting before.</p><br>
+                                        <div class="answers-list">
+                                            <label class="answer-container">
+                                                <input type="radio" name="question2" value="1">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Never have I seen such a beautiful painting before.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question2" value="2">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Never I have seen such a beautiful painting before.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question2" value="3">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Such a beautiful painting never I have seen before.</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="question-item">
+                                        <p class="question-text">3. She had hardly finished speaking when the phone rang.</p><br>
+                                        <div class="answers-list">
+                                            <label class="answer-container">
+                                                <input type="radio" name="question3" value="1">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Hardly had she finished speaking when the phone rang.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question3" value="2">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Hardly she had finished speaking when the phone rang.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question3" value="3">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Hardly had speaking finished when the phone rang.</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="question-item">
+                                        <p class="question-text">4. We will go to the beach only if the weather is good.</p><br>
+                                        <div class="answers-list">
+                                            <label class="answer-container">
+                                                <input type="radio" name="question4" value="1">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Only if the weather is good will we go to the beach.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question4" value="2">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Only if is the weather good will we go to the beach.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question4" value="3">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">Only if the weather is good, then we go to the beach.</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="question-item">
+                                        <p class="question-text">5. The situation was so complicated that we couldn't find a solution.</p><br>
+                                        <div class="answers-list">
+                                            <label class="answer-container">
+                                                <input type="radio" name="question5" value="1">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">So complicated was the situation that we couldn't find a solution.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question5" value="2">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">So was complicated the situation that we couldn't find a solution.</span>
+                                            </label>
+                                            <label class="answer-container">
+                                                <input type="radio" name="question5" value="3">
+                                                <span class="checkmark"></span>
+                                                <span class="answer-text">So the situation was complicated that we couldn't find a solution.</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Questions Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="questions">
+                        <h2>Questions</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="questions" style="display: none;">
+                        <div class="questions-list">
+                            
+                            <div class="question-item">
+                                <p class="question-text">1. Who is the greatest musician of all time according to Miguel?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Ernesto de la Cruz</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Miguel</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Abuelita</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">2. What happened to Ernesto de la Cruz in 1942?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He was crushed by a giant bell</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He became the world's best musician</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He retired from music</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">3. Why does Miguel feel connected to Ernesto de la Cruz?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Because they both want to be musicians</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Because they both come from Santa Cecilia</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Because they both have the same guitar</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">4. What advice does the singer give to Miguel?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">To march up to his family and say he's a musician</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">To keep his music hidden from his family</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">To quit playing music</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">5. How does Abuelita react when she sees Miguel with the singer?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">She scolds the singer and takes Miguel away</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">She encourages Miguel to pursue his music</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">She ignores the situation</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="question-item">
+                                <p class="question-text">6. What does the singer suggest Miguel should do at the music competition?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Sign up for the competition and show his talent</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Stay away from the competition and focus on his family</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Forget about music and choose another career</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">7. What is the singer's reaction when Miguel says his family would freak out?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He encourages Miguel to face his fears and pursue his passion</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He agrees and suggests Miguel to keep playing for himself</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He tells Miguel to stay away from the music competition</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">8. Why does Miguel feel conflicted about being a musician?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Because his family does not approve of music</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Because he doesn't believe in his own talent</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Because he is afraid of failure</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">9. How does Abuelita view Miguel's interest in music?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">She disapproves of it and wants him to focus on other things</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">She supports him but thinks he should be more practical</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">She is indifferent to his interest in music</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">10. What is the main message that the singer tries to convey to Miguel?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">To follow his passion and not let fear hold him back</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">To respect his family's wishes and avoid conflict</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">To hide his musical talent until he's more confident</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sorting Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="sorting">
+                        <h2>Sorting</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sorting" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите реплики в правильном порядке.</p>
+                            <p>Drag and drop the dialogues to arrange them in the correct order.</p>
+                        </div>
+                        <div class="dialogue-container">
+                            <div class="dialogue-list" data-dialogues='[
+                                {"id": 1, "text": "It is Ernesto de la Cruz, the greatest musician of all time."},
+
+                                {"id": 2, "text": "He started out towing nobody from Santa Cecilia, like me."}, 
+
+                                {"id": 3, "text": "But when he played music, he made people fall in love with him." }, 
+                                
+                                {"id": 4, "text": "He starred in movies. He had the coolest guitar!" }, 
+
+                                {"id": 5, "text" : "And he wrote the best songs!" } ]'>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Make a Match Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="make-a-match">
+                        <h2>Make a Match</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="make-a-match" style="display: none;">
+                        <div class="match-instructions">
+                            <p>Соотнесите слово/выражение с его переводом.</p>
+                            <p>Match the word/expression with its translation.</p>
+                        </div>
+                        <div class="match-container">
+                            <div class="match-column" id="wordsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Beloved</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Shoeshine</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Freak out</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Hide</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Seize your moment</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="6">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Deal with it</span>
+                                </div>
+                            </div>
+                        
+                            <div class="match-column" id="translationsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Обожаемый</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Чистка обуви</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Паниковать</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Прятать(ся)</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Лови момент</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="6">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Смирись с этим</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sentence Building 
+                ---------------------------------------------------------------->
+                
+                <section class="content-section">
+                    <div class="section-header" data-section="sentence-building">
+                        <h2>Sentence Building</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sentence-building" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите слова в правильном порядке</p>
+                            <p>Arrange the words in the correct order</p>
+                        </div>
+                        <div class="sentences-container" data-sentences='[
+                          {"words": ["He", "could", "fly!"], "correct": "He could fly!"},
+                          {"words": ["I", "want", "to", "be", "like", "him."], "correct": "I want to be like him."},
+                          {"words": ["You", "are", "a", "musician,", "no?"], "correct": "You are a musician, no?"},
+                          {"words": ["I", "don&#39;t", "know."], "correct": "I don&#39;t know."},
+                          {"words": ["Show", "me", "what", "you", "got."], "correct": "Show me what you got."},
+                          {"words": ["I", "want", "to", "be", "just", "like", "him."], "correct": "I want to be just like him."},
+                          {"words": ["You", "will", "come", "home."], "correct": "You will come home."},
+                          {"words": ["He", "had", "the", "coolest", "guitar!"], "correct": "He had the coolest guitar!"},
+                          {"words": ["Deal", "with", "it."], "correct": "Deal with it."},
+                          {"words": ["Come", "on,", "what", "did", "De", "La", "Cruz", "always", "say?"], "correct": "Come on, what did De La Cruz always say?"}
+                        ]'></div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Fill in the Blank 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="fill-in-blanks">
+                        <h2>Fill in the Blanks</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="fill-in-blanks" style="display: none;">
+                        <div class="fill-blanks-list">
+                            <div class="fill-blank-item" data-correct="greatest">
+                                <div class="sentence">
+                                    <p>It is Ernesto de la Cruz, the <span class="blank">______</span> musician of all time.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="greatest">greatest</button>
+                                    <button class="option" data-value="famous">famous</button>
+                                    <button class="option" data-value="richest">richest</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="loved">
+                                <div class="sentence">
+                                    <p>But when he played music, he made people fall in <span class="blank">______</span> with him.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="loved">love</button>
+                                    <button class="option" data-value="dance">dance</button>
+                                    <button class="option" data-value="sing">sing</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="Remember">
+                                <div class="sentence">
+                                    <p>"<span class="blank">______</span> me! Don't let it make you cry."</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="Remember">Remember</button>
+                                    <button class="option" data-value="Think of">Think of</button>
+                                    <button class="option" data-value="Miss">Miss</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="heart">
+                                <div class="sentence">
+                                    <p>"For even if I'm far away, I hold you in my <span class="blank">______</span>."</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="heart">heart</button>
+                                    <button class="option" data-value="mind">mind</button>
+                                    <button class="option" data-value="memory">memory</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="crushed">
+                                <div class="sentence">
+                                    <p>Until 1942. When he was <span class="blank">______</span> by a giant bell.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="crushed">crushed</button>
+                                    <button class="option" data-value="killed">killed</button>
+                                    <button class="option" data-value="hit">hit</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="connected">
+                                <div class="sentence">
+                                    <p>Sometimes I look at De La Cruz and I get this feeling. Like, we're <span
+                                            class="blank">______</span> somehow.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="connected">connected</button>
+                                    <button class="option" data-value="similar">similar</button>
+                                    <button class="option" data-value="related">related</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="family">
+                                <div class="sentence">
+                                    <p>If it wasn't for my <span class="blank">______</span>.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="family">family</button>
+                                    <button class="option" data-value="parents">parents</button>
+                                    <button class="option" data-value="grandmother">grandmother</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="shoeshine">
+                                <div class="sentence">
+                                    <p>I asked for a <span class="blank">______</span>, not your life story.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="shoeshine">shoeshine</button>
+                                    <button class="option" data-value="song">song</button>
+                                    <button class="option" data-value="conversation">conversation</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="musician">
+                                <div class="sentence">
+                                    <p>You are a <span class="blank">______</span>, no?</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="musician">musician</button>
+                                    <button class="option" data-value="singer">singer</button>
+                                    <button class="option" data-value="child">child</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="moment">
+                                <div class="sentence">
+                                    <p>Seize your <span class="blank">______</span>?</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="moment">moment</button>
+                                    <button class="option" data-value="chance">chance</button>
+                                    <button class="option" data-value="opportunity">opportunity</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="freak">
+                                <div class="sentence">
+                                    <p>Uh-uh. My family would <span class="blank">______</span>.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="freak">freak</button>
+                                    <button class="option" data-value="worry">worry</button>
+                                    <button class="option" data-value="disapprove">disapprove</button>
+                                </div>
+                            </div>
+                
+                            <div class="fill-blank-item" data-correct="competition">
+                                <div class="sentence">
+                                    <p>Ah, mira, mira, they're setting up for tonight. The music <span class="blank">______</span> for
+                                        Dia de Muertos.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="competition">competition</button>
+                                    <button class="option" data-value="festival">festival</button>
+                                    <button class="option" data-value="celebration">celebration</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Discussion 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="discussion">
+                        <h2>Discussion</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="discussion" style="display: none;">
+                        <div class="discussion-list">
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">1</span>
+                                <div class="question-container">
+                                    <p class="question-text">How do family traditions sometimes conflict with our personal dreams and aspirations?
+                                        Have you ever experienced this type of conflict?</p>
+                                    <p class="question-translation">Как семейные традиции иногда конфликтуют с нашими личными мечтами и
+                                        стремлениями? Сталкивались ли вы когда-нибудь с таким конфликтом?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">2</span>
+                                <div class="question-container">
+                                    <p class="question-text">Miguel says "Sometimes I look at De La Cruz and I get this feeling...like, we're
+                                        connected somehow." Why do you think people often feel connected to their heroes or role models?</p>
+                                    <p class="question-translation">Мигель говорит: "Иногда я смотрю на Де Ла Круса и чувствую... будто мы как-то
+                                        связаны". Почему, по-вашему мнению, люди часто чувствуют связь со своими героями или образцами для
+                                        подражания?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">3</span>
+                                <div class="question-container">
+                                    <p class="question-text">What does the phrase "Seize your moment" mean to you? Can you think of a time when you
+                                        seized (or missed) an important moment in your life?</p>
+                                    <p class="question-translation">Что для вас означает фраза "Лови свой момент"? Можете ли вы вспомнить случай,
+                                        когда вы поймали (или упустили) важный момент в своей жизни?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">4</span>
+                                <div class="question-container">
+                                    <p class="question-text">Miguel hides his passion for music from his family. Have you ever hidden something you
+                                        love from others out of fear of their reaction? How did it make you feel?</p>
+                                    <p class="question-translation">Мигель скрывает свою страсть к музыке от своей семьи. Приходилось ли вам
+                                        когда-нибудь скрывать что-то, что вы любите, из-за страха реакции окружающих? Какие чувства это у вас
+                                        вызывало?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">5</span>
+                                <div class="question-container">
+                                    <p class="question-text">The mariachi singer tells Miguel, "If I were you, I'd march right up to my family and
+                                        say, 'Hey, I'm a musician. Deal with it.'" Is honesty always the best approach in family conflicts? Why or
+                                        why not?</p>
+                                    <p class="question-translation">Певец-мариачи говорит Мигелю: "На твоем месте я бы подошел прямо к своей семье и
+                                        сказал: 'Эй, я музыкант. Смиритесь с этим'". Всегда ли честность - лучший подход в семейных конфликтах?
+                                        Почему да или почему нет?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">6</span>
+                                <div class="question-container">
+                                    <p class="question-text">Miguel's grandmother is very protective of him. How can family protection sometimes
+                                        become overprotection? Where would you draw the line?</p>
+                                    <p class="question-translation">Бабушка Мигеля очень оберегает его. Как семейная защита иногда может
+                                        превратиться в чрезмерную опеку? Где бы вы провели границу?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">7</span>
+                                <div class="question-container">
+                                    <p class="question-text">What does it mean to truly follow in someone's footsteps? Is Miguel right to want to be
+                                        "just like" his hero, or should he find his own path?</p>
+                                    <p class="question-translation">Что значит по-настоящему идти по чьим-то стопам? Прав ли Мигель, желая быть
+                                        "точно таким же", как его герой, или он должен найти свой собственный путь?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">8</span>
+                                <div class="question-container">
+                                    <p class="question-text">The phrase "Remember me" is important in this story. What role does memory play in how
+                                        we honor those who came before us? How do you remember important people in your life?</p>
+                                    <p class="question-translation">Фраза "Помни меня" важна в этой истории. Какую роль играет память в том, как мы
+                                        чтим тех, кто был до нас? Как вы вспоминаете важных людей в своей жизни?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">9</span>
+                                <div class="question-container">
+                                    <p class="question-text">Miguel says, "If it wasn't for my family..." suggesting they are holding him back. Have
+                                        you ever felt limited by your circumstances or the people around you? How did you respond?</p>
+                                    <p class="question-translation">Мигель говорит: "Если бы не моя семья...", намекая, что они его сдерживают.
+                                        Чувствовали ли вы когда-нибудь, что ваши обстоятельства или окружающие люди ограничивают вас? Как вы на это
+                                        реагировали?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">10</span>
+                                <div class="question-container">
+                                    <p class="question-text">The singer asks, "Did De La Cruz become the world's best musician by hiding his sweet,
+                                        sweet skills?" When is it important to display your talents publicly versus keeping them private?</p>
+                                    <p class="question-translation">Певец спрашивает: "Разве Де Ла Крус стал лучшим музыкантом в мире, скрывая свои
+                                        прекрасные навыки?" Когда важно демонстрировать свои таланты публично, а когда лучше держать их в тайне?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+
+            <!-- Right Column - Fixed Video -->
+            <div class="content-right">
+                <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/F_zAMjsXXtY" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <!-- Footer Navigation -->
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../my-words.html">My Words</a></li>
+                        <li><a href="../Phrasal Verbs.html">Phrasal Verbs</a></li>
+                        <li><a href="../Grammar-practice.html">Grammar Practice</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2025 EnglishPlay. All rights reserved.
+                </div>
+                <div class="footer-copyright">
+                    hello.englishplay@gmail.com
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+    
+            <!-- Large Text at the Bottom -->
+            <h2 class="footer-large-text">
+                <span class="footer-large-text">EnglishPlay</span>
+            </h2>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/episodes.js"></script>
+</body>
+</html>

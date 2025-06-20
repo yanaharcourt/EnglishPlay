@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ep3-Wingardium Leviosa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/episode-styles.css"> 
+    <!-- <link rel="stylesheet" href="../assets/css/styles.css"> -->
+</head>
+<body>
+    <!-- --------------------------------------------------------------
+    # Курсор
+    ---------------------------------------------------------------->
+    <div class="js-cursor-init">
+        <div class="cursor-circle">
+            <div class="circle_wrap"></div>
+            <div class="scroll_cursor_txt">
+                <span class="text">Scroll</span>
+            </div>
+            <div class="view_more_cursor">
+                <span class="text">View</span>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------
+    # NAVIGATION MENU
+    ---------------------------------------------------------------->
+    <div class="left-nav">
+        <a href="../index.html" class="logo-container">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-default">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-hover">
+        </a>
+    
+        <div class="burger-lines">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+    
+        <div class="explore-text">EXPLORE</div>
+    
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="../index.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Home.svg"
+                            alt="Home" class="nav-icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../my-words.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/My%20Words.svg"
+                            alt="My Words" class="nav-icon">
+                        <span>My Words</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Phrasal Verbs.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Phrasal%20verbs.svg"
+                            alt="Phrasal Verbs" class="nav-icon">
+                        <span>Phrasal Verbs</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Grammar Practice.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Grammar%20practice.svg"
+                            alt="Grammar Practice" class="nav-icon">
+                        <span>Grammar Practice</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="content-grid">
+            <!-- Left Column - Scrollable Content -->
+            <div class="content-left">
+                <!-- Description Section (Always Open) -->
+                <section class="content-section description-section">
+                    <h2>Description</h2>
+                    <div class="section-content">
+                        <p>In this episode, Harry, Hermione, and Ron discuss the strange events happening at Hogwarts. Harry notices his scar burning more intensely than usual and suspects that danger is approaching. As they try to piece things together, they recall Hagrid and his fascination with dragons. Harry connects this to the mysterious stranger who gave Hagrid the dragon egg.</p>
+                    </div>
+                </section>
+                <!-- Background Section -->
+                <section class="content-section">
+                    <div class="section-header" data-section="background">
+                        <h2>Background</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="background" style="display: none;">
+                        <div class="character-grid">
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Harry.jpg" alt="Harry Potter">
+                                </div>
+                                <h3 class="character-name">Harry Potter</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Hermione Granger.jpeg" alt="Hermione Grange">
+                                </div>
+                                <h3 class="character-name">Hermione Granger</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Ron Weasley.jpg" alt="Ron Weasley">
+                                </div>
+                                <h3 class="character-name">Ron Weasley</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Rubeus Hagrid.jpg" alt="Rubeus Hagrid">
+                                </div>
+                                <h3 class="character-name">Rubeus Hagrid</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Fluffy.jpg" alt="Fluffy">
+                                </div>
+                                <h3 class="character-name">Fluffy</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Vocabulary Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="vocabulary">
+                        <h2>Vocabulary</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="vocabulary" style="display: none;">
+                        
+                        <div class="vocabulary-hint">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="vocabulary-list">
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Ужасный">Frightful</span>
+                                            <span class="transcription">/ˈfraɪtfʊl/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        <span class="definition">Extremely bad, unpleasant, or shocking.</span>
+                                        <div class="synonyms">Synonyms: terrifying, dreadful, horrible</div>
+                                        <div class="example">Example: The exams at Hogwarts were said to be frightful.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Странный, необычный">Odd</span>
+                                            <span class="transcription">/ɒd/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        <span class="definition">Unusual or strange; different from what is expected.</span>
+                                        <div class="synonyms">Synonyms: strange, peculiar, weird</div>
+                                        <div class="example">Example: Don't you think it's a bit odd that someone had a dragon egg?</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Бродить, блуждать">Wander</span>
+                                            <span class="transcription">/ˈwɒndə/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb]</span>
+                                        </div>
+                                        <span class="definition">To move or walk around without a clear purpose or direction.</span>
+                                        <div class="synonyms">Synonyms: roam, stroll, drift</div>
+                                        <div class="example">Example: How many people wander around with dragon eggs in their pockets?</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Существо, создание">Creature</span>
+                                            <span class="transcription">/ˈkriːtʃə/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">A living being, usually an animal or imaginary being.</span>
+                                        <div class="synonyms">Synonyms: being, animal, organism</div>
+                                        <div class="example">Example: Hagrid takes care of magical creatures at Hogwarts.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Присматривать, заботиться">Look after</span>
+                                            <span class="transcription">/lʊk ˈɑːftə/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Phrasal Verb]</span>
+                                        </div>
+                                        <span class="definition">To take care of someone or something.</span>
+                                        <div class="synonyms">Synonyms: care for, tend to, watch over</div>
+                                        <div class="example">Example: Hagrid looks after all sorts of magical beasts.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Натолкнуться, встретить">Come across</span>
+                                            <span class="transcription">/kʌm əˈkrɒs/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Phrasal Verb]</span>
+                                        </div>
+                                        <span class="definition">To find something or meet someone by chance.</span>
+                                        <div class="synonyms">Synonyms: encounter, stumble upon, discover</div>
+                                        <div class="example">Example: You don't often come across a three-headed dog.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Зверь, чудовище">Beast</span>
+                                            <span class="transcription">/biːst/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">A large, dangerous, or mythical animal.</span>
+                                        <div class="synonyms">Synonyms: monster, creature, brute</div>
+                                        <div class="example">Example: Hagrid believes any beast can be calmed if you know how.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Успокаивать">Calm</span>
+                                            <span class="transcription">/kɑːm/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb]</span>
+                                        </div>
+                                        <span class="definition">To make someone or something peaceful or quiet.</span>
+                                        <div class="synonyms">Synonyms: soothe, pacify, relax</div>
+                                        <div class="example">Example: Playing music can calm Fluffy, the three-headed dog.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Успокаивать, смягчать">Soothe</span>
+                                            <span class="transcription">/suːð/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb]</span>
+                                        </div>
+                                        <span class="definition">To gently calm or reduce discomfort or pain.</span>
+                                        <div class="synonyms">Synonyms: ease, comfort, relieve</div>
+                                        <div class="example">Example: Soft music can soothe a restless beast.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                          
+                        <!-- <div class="type-hints">
+                            <span class="hint-item">[n] - noun</span>
+                            <span class="hint-item">[v] - verb</span>
+                            <span class="hint-item">[phv] - phrasal verb</span>
+                            <span class="hint-item">[adj] - adjective</span>
+                            <span class="hint-item">[exp] - expression</span>
+                        </div> -->
+                        
+                      </div>
+                      <div class="dictionary-popup" style="display: none;">
+                        <div class="popup-content">
+                          <h3>Added to Dictionary!</h3>
+                          <p>You can find this word in your personal dictionary</p>
+                          <button class="close-popup">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Video Script Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="script">
+                        <h2>Script</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="script" style="display: none;">
+                        <div class="script-info">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="script-list">
+                            <div class="script-item">
+                                <span class="character">Hermione:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I’d (= I would) always heard Hogwarts' end of the year exams were frightful, but I found that rather enjoyable.</span>
+                                    <span class="translation">Я постоянно слышала, что экзамены в конце учебного года в Хогвартсе ужасные (страшные), но я нашла их скорее приятными.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Speak for yourself.</span>
+                                    <span class="translation">Говори за себя.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Ron: </span>
+                                <div class="phrase-container">
+                                    <span class="phrase">All right there, Harry?</span>
+                                    <span class="translation">Всё в порядке, Гарри?</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">My scar. It keeps burning.</span>
+                                    <span class="translation">Мой шрам. Он продолжает гореть (жечься).</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hermione:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">It’s (= it has) happened before. </span>
+                                    <span class="translation">Это случалось раньше.</span>
+                                </div>
+                            </div>
+
+                            <!-- <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">Everyone переводится как "каждый" или "все", но чтобы передать смысл, нельзя всегда переводить дословно.
+                                    </span>
+                                </div>
+                            </div> -->
+
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase"> Not like this.</span>
+                                    <span class="translation">Не так (как в этот раз).</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Perhaps, you should see the nurse.</span>
+                                    <span class="translation">Наверное, тебе стоит пойти к медсестре.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I think it's a warning.</span>
+                                    <span class="translation">Я думаю, это предупреждение.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">It means danger's (= is) coming.</span>
+                                    <span class="translation">Это значит, приближается опасность.</span>
+                                </div>
+                            </div>
+
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Of course!</span>
+                                    <span class="translation">Конечно!</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hermione:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">What is it?</span>
+                                    <span class="translation">Что?</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Don't you think it's a bit odd that what Hagrid want more than anything is a dragon...</span>
+                                    <span class="translation">Вам не кажется немного странным, что Хагрид больше всего на свете хочет дракона...</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">...and a stranger turns up who just happens to have one?</span>
+                                    <span class="translation">...и появляется незнакомец, у которого он случайно есть?</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I mean, how many people wander around with dragon eggs in their pockets?</span>
+                                    <span class="translation">Я имею в виду, сколько людей бродит вокруг с драконьими яйцами в карманах?</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Why didn't I see it before?</span>
+                                    <span class="translation"> Почему я этого раньше не понял (не увидел)?</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Hagrid, who gave you the dragon egg? What did he look like?</span>
+                                    <span class="translation">Хагрид, кто дал тебе драконье яйцо? Как он выглядел?</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hagrid:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I don't know, I never saw his face. He kept his hood up.</span>
+                                    <span class="translation">Я не знаю, я не видел его лица. Он не снимал капюшона.</span>
+                                </div>
+                            </div>
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">(kept up — держал надетым)
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">Never в этой фразе не будет переводиться как "никогда", а скорее как "так и не...", например, "я его так и не увидел" — "I never saw it"
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry: </span>
+                                <div class="phrase-container">
+                                    <span class="phrase">The stranger, though, you and he must have talked.</span>
+                                    <span class="translation">Этот незнакомец, ты и он, должно быть, поговорили.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hagrid:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Well, he wanted to know what sort of creatures I looked after.</span>
+                                    <span class="translation">Ну, он хотел знать, за какими существами я ухаживал.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hagrid:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I told him. I said: "After Fluffy, a dragon's gonna (= going to) be no problem.</span>
+                                    <span class="translation">Я рассказал ему. Я сказал: "После Пушка, дракон не будет проблемой".</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">And did he seem interested in Fluffy?</span>
+                                    <span class="translation"> И он казался заинтересованным Пушком?</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hagrid:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Well, of course he was interested in Fluffy.</span>
+                                    <span class="translation"> Ну, конечно, ему был интересен Пушок.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hagrid:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">How often do you come across at three-headed dog, even if you're in the trade?</span>
+                                    <span class="translation">Как часто вы сталкиваетесь с трехголовой собакой, даже если вы занимаетесь торговлей?</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hagrid:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">But I told him. I said, "The trick with any beast is to know how to calm him."</span>
+                                    <span class="translation">Но я сказал ему. Я сказал: "Хитрость с любым зверем в том, чтобы знать, как его успокоить".</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hagrid:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Take Fluffy, for example. Just play him a bit of music and he falls straight to sleep.</span>
+                                    <span class="translation">Взять Пушка, к примеру. Просто сыграй ему немного музыки и он сразу же уснёт.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hagrid:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I shouldn't have told you that. </span>
+                                    <span class="translation">Мне не следовало вам это говорить.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hagrid:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Where are you going? Wait! </span>
+                                    <span class="translation">Куда вы собрались? Подождите!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- --------------------------------------------------------------
+                # Grammar Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="grammar">
+                        <h2>Grammar Focus</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="grammar" style="display: none;">
+                        <div class="grammar-container">
+                            <div class="theory-section">
+                                <h3>Past Simple</h3>
+                                <div class="theory-explanation">
+                                    <p>Past Simple (простое прошедшее время) используется для описания действий, которые произошли в определенный момент в прошлом. В диалоге это время часто используется персонажами для рассказа о недавних событиях и прошлом опыте.</p>
+                                </div>
+                    
+                                <div class="rules-section">
+                                    <h4>Правило</h4>
+                                    <div class="rule-item">
+                                        <div class="rule-title">Утвердительная форма</div>
+                                        <div class="rule-example">Подлежащее + глагол в прошедшем времени (V2)</div>
+                                        <div class="rule-example">Правильные глаголы: want → wanted</div>
+                                        <div class="rule-example">Неправильные глаголы: tell → told</div><br>
+                                        <div class="rule-example">I <strong>told</strong> him about the creatures.</div>
+                                        <div class="rule-example">It <strong>happened</strong> before.</div>
+                                    </div>
+                    
+                                    <div class="rule-item">
+                                        <div class="rule-title">Отрицательная форма</div>
+                                        <div class="rule-example">Подлежащее + did not/didn't + глагол (V1)</div><br>
+                                        <div class="rule-example">I <strong>didn't see</strong> his face.</div>
+                                        <div class="rule-example">I <strong>didn't understand</strong> it before.</div>
+                                    </div>
+                    
+                                    <div class="rule-item">
+                                        <div class="rule-title">Вопросительная форма</div>
+                                        <div class="rule-example">Did + подлежащее + глагол (V1)</div><br>
+                                        <div class="rule-example"><strong>Did</strong> he seem interested in Fluffy?</div>
+                                        <div class="rule-example">Why <strong>didn't</strong> I see it before?</div>
+                                    </div>
+                                </div>
+                    
+                                <div class="examples-section">
+                                    <h4>Примеры из текста</h4>
+                                    <div class="example-item">
+                                        <div class="example-text">I never saw his face. He kept his hood up.</div>
+                                        <div class="example-explanation">Я не видел его лица. Он не снимал капюшона.</div>
+                                    </div>
+                                    <div class="example-item">
+                                        <div class="example-text">I told him. I said: "After Fluffy, a dragon's gonna be no problem."</div>
+                                        <div class="example-explanation">Я рассказал ему. Я сказал: "После Пушка, дракон не будет проблемой".</div>
+                                    </div>
+                                    <div class="example-item">
+                                        <div class="example-text">It happened before.</div>
+                                        <div class="example-explanation">Это случалось раньше.</div>
+                                    </div>
+                                </div>
+                    
+                                <div class="practice-section">
+                                    <h4>Практическое упражнение</h4>
+                                    <p>Поставьте глагол в правильную форму Past Simple.</p><br>
+                                    <div class="practice-items">
+                                        <div class="practice-item">
+                                            <div class="question">Hagrid (tell) <input type="text" class="tag-input" data-correct="told"> the stranger about Fluffy.</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">The stranger (want) <input type="text" class="tag-input" data-correct="wanted"> to know about the creatures.</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">(do) <input type="text" class="tag-input" data-correct="Did"> he seem interested in Fluffy?</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">I (not/see) <input type="text" class="tag-input" data-correct="didn't see"> his face under the hood.</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">It (happen) <input type="text" class="tag-input" data-correct="happened"> before with Harry's scar.</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Questions Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="questions">
+                        <h2>Questions</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="questions" style="display: none;">
+                        <div class="questions-list">
+                            <div class="question-item">
+                                <p class="question-text">1. How did Hermione find the end of year exams at Hogwarts?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Rather enjoyable</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Very difficult</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Frightful</span>
+                                    </label>
+                                </div>
+                            </div>
+                    
+                            <div class="question-item">
+                                <p class="question-text">2. What was happening to Harry's scar?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">It keeps burning</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">It was itching</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">It was hurting</span>
+                                    </label>
+                                </div>
+                            </div>
+                    
+                            <div class="question-item">
+                                <p class="question-text">3. What did Harry think his scar burning meant?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Danger's coming</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He was sick</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He needed rest</span>
+                                    </label>
+                                </div>
+                            </div>
+                    
+                            <div class="question-item">
+                                <p class="question-text">4. What did Hagrid want more than anything?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A dragon</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A pet</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">An egg</span>
+                                    </label>
+                                </div>
+                            </div>
+                    
+                            <div class="question-item">
+                                <p class="question-text">5. Why couldn't Hagrid describe the stranger who gave him the dragon egg?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He kept his hood up</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">It was dark</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He forgot</span>
+                                    </label>
+                                </div>
+                            </div>
+                    
+                            <div class="question-item">
+                                <p class="question-text">6. What was the three-headed dog's name?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Fluffy</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Fang</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Spike</span>
+                                    </label>
+                                </div>
+                            </div>
+                    
+                            <div class="question-item">
+                                <p class="question-text">7. What was the trick to calming Fluffy?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Play him music</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Give him food</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Pet him</span>
+                                    </label>
+                                </div>
+                            </div>
+                    
+                            <div class="question-item">
+                                <p class="question-text">8. What did Ron suggest Harry should do about his scar?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">See the nurse</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Ignore it</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Tell Dumbledore</span>
+                                    </label>
+                                </div>
+                            </div>
+                    
+                            <div class="question-item">
+                                <p class="question-text">9. What happens to Fluffy when you play him music?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He falls straight to sleep</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He starts dancing</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He becomes calm</span>
+                                    </label>
+                                </div>
+                            </div>
+                    
+                            <div class="question-item">
+                                <p class="question-text">10. What did Hagrid say after revealing the secret about Fluffy?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">I shouldn't have told you that</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Don't tell anyone</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Keep it secret</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sorting Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="sorting">
+                        <h2>Sorting</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sorting" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите реплики в правильном порядке.</p>
+                            <p>Drag and drop the dialogues to arrange them in the correct order.</p>
+                        </div>
+                        <div class="dialogue-container">
+                            <div class="dialogue-list" data-dialogues='[
+                                { "id": 1, "text": "I always heard Hogwarts&#39; end of the year exams were frightful, but I found that rather enjoyable" },
+                                
+                                { "id": 2, "text": "All right there, Harry?" },
+
+                                { "id": 3, "text": "My scar keeps burning. It&#39;s not like this before" },
+
+                                { "id": 4, "text": "I think it&#39;s a warning. It means danger&#39;s coming" },
+                                
+                                { "id": 5, "text": "Don&#39;t you think it&#39;s a bit odd that what Hagrid wants more than anything is a dragon" },
+
+                                { "id": 6, "text": "I don&#39;t know, I never saw his face. He kept his hood up" },
+
+                                { "id": 7, "text": "The trick with any beast is to know how to calm him" },
+
+                                { "id": 8, "text": "Take Fluffy, for example. Just play him a bit of music and he falls straight to sleep" }
+                            ]'>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Make a Match Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="make-a-match">
+                        <h2>Make a Match</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="make-a-match" style="display: none;">
+                        <div class="match-instructions">
+                            <p>Соотнесите слово/выражение с его переводом.</p>
+                            <p>Match the word/expression with its translation.</p>
+                        </div>
+                        <div class="match-container">
+                            <div class="match-column" id="wordsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Frightful</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Odd</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Wander</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Creature</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Look after</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="6">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Come across</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="7">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Beast</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="8">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Calm</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="9">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Care</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="10">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Strange</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="11">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Roam</span>
+                                </div>
+                            </div>
+                            <div class="match-column" id="translationsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Ужасный, пугающий</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Странный, необычный</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Бродить, блуждать</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Существо, создание</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Присматривать, заботиться</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="6">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Натолкнуться, встретить</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="7">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Зверь, чудовище</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="8">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Успокаивать, усмирять</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="9">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Забота, уход</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="10">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Странный, чужой</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="11">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Бродить, скитаться</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sentence Building 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="sentence-building">
+                        <h2>Sentence Building</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sentence-building" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите слова в правильном порядке</p>
+                            <p>Arrange the words in the correct order</p>
+                        </div>
+                        <div class="sentences-container" data-sentences='[
+                          {"words": ["you", "the", "see", "should", "nurse.", "Perhaps,"], 
+                          "correct": "Perhaps, you should see the nurse."},
+                          
+                          {"words": ["a", "warning.", "I", "think", "it&#39;s"], 
+                          "correct" : "I think it&#39;s a warning." }, 
+                          
+                          {"words":["danger&#39;s", "It" , "coming." , "means" ], 
+                          "correct" : "It means danger&#39;s coming." }, 
+                          
+                          {"words": ["Of", "course!" ], 
+                          "correct" : "Of course!" }, 
+                          
+                          {"words": ["What", "it?" , "is" ], 
+                          "correct" : "What is it?" } ]'>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Fill in the Blank 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="fill-in-blanks">
+                        <h2>Fill in the Blanks</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="fill-in-blanks" style="display: none;">
+                        <div class="fill-blanks-list">
+                            <div class="fill-blank-item" data-correct="warning">
+                                <div class="sentence">
+                                    <p>I think it's a <span class="blank">______</span>.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="warning">warning</button>
+                                    <button class="option" data-value="message">message</button>
+                                    <button class="option" data-value="dream">dream</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="danger's">
+                                <div class="sentence">
+                                    <p>It means <span class="blank">______</span> coming.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="danger's">danger's</button>
+                                    <button class="option" data-value="someone's">someone's</button>
+                                    <button class="option" data-value="Voldemort's">Voldemort's</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="Perhaps">
+                                <div class="sentence">
+                                    <p><span class="blank">______</span>, you should see the nurse.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="Perhaps">Perhaps</button>
+                                    <button class="option" data-value="Surely">Surely</button>
+                                    <button class="option" data-value="Really">Really</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="face">
+                                <div class="sentence">
+                                    <p>I never saw his <span class="blank">______</span>.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="face">face</button>
+                                    <button class="option" data-value="hands">hands</button>
+                                    <button class="option" data-value="wand">wand</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="music">
+                                <div class="sentence">
+                                    <p>Just play him a bit of <span class="blank">______</span> and he falls straight to sleep.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="music">music</button>
+                                    <button class="option" data-value="magic">magic</button>
+                                    <button class="option" data-value="light">light</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="nurse">
+                                <div class="sentence">
+                                    <p>You should see the <span class="blank">______</span>.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="nurse">nurse</button>
+                                    <button class="option" data-value="teacher">teacher</button>
+                                    <button class="option" data-value="headmaster">headmaster</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="hood">
+                                <div class="sentence">
+                                    <p>He kept his <span class="blank">______</span> up.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="hood">hood</button>
+                                    <button class="option" data-value="head">head</button>
+                                    <button class="option" data-value="voice">voice</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="Fluffy">
+                                <div class="sentence">
+                                    <p>After <span class="blank">______</span>, a dragon's gonna be no problem.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="Fluffy">Fluffy</button>
+                                    <button class="option" data-value="Norbert">Norbert</button>
+                                    <button class="option" data-value="Aragog">Aragog</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="dog">
+                                <div class="sentence">
+                                    <p>How often do you come across a three-headed <span class="blank">______</span>?</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="dog">dog</button>
+                                    <button class="option" data-value="dragon">dragon</button>
+                                    <button class="option" data-value="beast">beast</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="trick">
+                                <div class="sentence">
+                                    <p>The <span class="blank">______</span> with any beast is to know how to calm him.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="trick">trick</button>
+                                    <button class="option" data-value="problem">problem</button>
+                                    <button class="option" data-value="challenge">challenge</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Discussion 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="discussion">
+                        <h2>Discussion</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="discussion" style="display: none;">
+                        <div class="discussion-list">
+                            <div class="discussion-item">
+                                <span class="question-number">1</span>
+                                <div class="question-container">
+                                    <p class="question-text">Why does Harry think his scar is burning as a warning?</p>
+                                    <p class="question-translation">Почему Гарри считает, что его шрам жжёт как предупреждение?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">2</span>
+                                <div class="question-container">
+                                    <p class="question-text">What does Ron mean by “Speak for yourself”?</p>
+                                    <p class="question-translation">Что Рон имеет в виду, когда говорит «Говори за себя»?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">3</span>
+                                <div class="question-container">
+                                    <p class="question-text">Do you think Hagrid was too trusting when he spoke to the stranger?</p>
+                                    <p class="question-translation">Как вы думаете, Хагрид слишком доверчив, раз рассказал всё незнакомцу?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">4</span>
+                                <div class="question-container">
+                                    <p class="question-text">Why is the information about Fluffy so dangerous?</p>
+                                    <p class="question-translation">Почему информация о Пушке такая опасная?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">5</span>
+                                <div class="question-container">
+                                    <p class="question-text">What would you do if you suspected someone was hiding something important?</p>
+                                    <p class="question-translation">Что бы вы сделали, если бы подозревали, что кто-то что-то скрывает?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">6</span>
+                                <div class="question-container">
+                                    <p class="question-text">Why do you think Harry didn’t realize the truth about the dragon egg earlier?</p>
+                                    <p class="question-translation">Почему, по вашему мнению, Гарри раньше не понял правду о драконьем яйце?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">7</span>
+                                <div class="question-container">
+                                    <p class="question-text">Do you agree with Hermione that exams can be enjoyable?</p>
+                                    <p class="question-translation">Согласны ли вы с Гермионой, что экзамены могут быть приятными?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">8</span>
+                                <div class="question-container">
+                                    <p class="question-text">How would you react if your friend told you they were in danger?</p>
+                                    <p class="question-translation">Как бы вы отреагировали, если бы друг сказал вам, что ему что-то угрожает?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">9</span>
+                                <div class="question-container">
+                                    <p class="question-text">Do you think the trio is ready to face the danger ahead? Why or why not?</p>
+                                    <p class="question-translation">Как вы думаете, троица готова к предстоящей опасности? Почему да или нет?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">10</span>
+                                <div class="question-container">
+                                    <p class="question-text">What would you do if you had to get past a magical creature like Fluffy?</p>
+                                    <p class="question-translation">Что бы вы сделали, если бы вам нужно было пройти мимо волшебного существа, как
+                                        Пушок?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+
+            <!-- Right Column - Fixed Video -->
+            <div class="content-right">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/JKKyHHAJKNc"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <!-- Footer Navigation -->
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../my-words.html">My Words</a></li>
+                        <li><a href="../Phrasal Verbs.html">Phrasal Verbs</a></li>
+                        <li><a href="../Grammar-practice.html">Grammar Practice</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2025 EnglishPlay. All rights reserved.
+                </div>
+                <div class="footer-copyright">
+                    hello.englishplay@gmail.com
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+    
+            <!-- Large Text at the Bottom -->
+            <h2 class="footer-large-text">
+                <span class="footer-large-text">EnglishPlay</span>
+            </h2>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/episodes.js"></script>
+
+</body>
+</html>

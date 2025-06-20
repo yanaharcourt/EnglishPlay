@@ -2209,7 +2209,7 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
     dropdownContainer.style.cssText = `
         position: relative;
         display: inline-block;
-        min-width: 110px;
+        min-width: 180px;
     `;
 
     // Create selected display field

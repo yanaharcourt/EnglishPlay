@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- --------------------------------------------------------------
+    # CURSOR
+    ---------------------------------------------------------------->
+    <div class="js-cursor-init">
+        <div class="cursor-circle">
+            <div class="circle_wrap"></div>
+            <div class="scroll_cursor_txt">
+                <span class="text">Scroll</span>
+            </div>
+            <div class="inner-circle"></div>
+            <div class="view_more_cursor">
+                <span class="text">View</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="left-nav">
+        <a href="index.html" class="logo-container">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-default">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-hover">
+        </a>
+    
+        <div class="burger-lines">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+    
+        <div class="explore-text">EXPLORE</div>
+    
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Home.svg"
+                            alt="Home" class="nav-icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="my-words.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/My%20Words.svg"
+                            alt="My Words" class="nav-icon">
+                        <span>My Words</span>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="Phrasal Verbs.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Phrasal%20verbs.svg"
+                            alt="Phrasal Verbs" class="nav-icon">
+                        <span>Phrasal Verbs</span>
+                    </a>
+                </li>
+        
+                <!-- <li>
+                    <a href="Idioms.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Idioms.svg"
+                            alt="Idioms" class="nav-icon">
+                        <span>Idioms</span>
+                    </a>
+                </li> -->
+        
+                <li>
+                    <a href="Grammar-practice.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Grammar%20practice.svg"
+                            alt="Grammar Practice" class="nav-icon">
+                        <span>Grammar Practice</span>
+                    </a>
+                </li>
+        
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <section class="hero">
+            <h1>Learn <span style="font-style: italic;">English </span> Through the Magic of Cinema</h1>
+            <p class="tagline">Improve your English skills with your favorite movies and TV shows</p>
+        </section>
+
+        <div class="container">
+                <div class="selectors">
+                    <div class="selector">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 18v-6"></path>
+                                <path d="M8 18v-1"></path>
+                                <path d="M16 18v-3"></path>
+                                <path d="M19 9a7 7 0 0 0-14 0"></path>
+                                <path d="M17 13a7 7 0 0 0-10 0"></path>
+                            </svg>
+                            Choose Accent
+                        </h2>
+                        <div class="accent-options">
+                            <button class="accent-btn active">All accents</button>
+                            <button class="accent-btn active">American</button>
+                            <button class="accent-btn">British</button>
+                            <!-- <button class="accent-btn">Australian</button>
+                            <button class="accent-btn">Canadian</button>
+                            <button class="accent-btn">Irish</button> -->
+                        </div>
+                    </div>
+                
+                    <div class="selector">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                                <path d="M2 12h20"></path>
+                            </svg>
+                            Select Level
+                        </h2>
+                        <div class="level-options">
+                            <button class="level-btn">All levels</button>
+                            <button class="level-btn">A1</button>
+                            <button class="level-btn">A2</button>
+                            <button class="level-btn active">B1</button>
+                            <button class="level-btn">B2</button>
+                            <button class="level-btn">C1</button>
+                            <button class="level-btn">C2</button>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- --------------------------------------------------------------
+            # CAROUSEL
+            ---------------------------------------------------------------->
+            <section class="carousel-section">
+                <h2 class="section-title">Movies</h2>
+            
+                <div class="movie-carousel-wrapper">
+                    <div class="movie-carousel">
+                        <div class="movie-card active" data-index="0" data-movie-id="harry-potter-1" data-accents="British" data-levels="A2,B1">
+                            <img class="movie-card-image"
+                                src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Carousel/Harry%20Potter%20and%20Philosopher%20Stone.jpg"
+                                alt="Harry Potter 1">
+                            <div class="movie-card-content">
+                                <h3 class="movie-card-title">Harry Potter and Philosopher Stone</h3>
+                                <p class="movie-card-description">The first film in the Harry Potter series based on J.K. Rowling's
+                                    novel, featuring Harry's first year at Hogwarts School of Witchcraft and Wizardry.</p><br>
+                                <div class="movie-meta">
+                                    <span class="movie-accent">British</span>
+                                    <span class="movie-levels">A2,B1</span>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="movie-card" data-index="1" data-movie-id="harry-potter-2">
+                            <img class="movie-card-image"
+                                src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Carousel/Harry%20Potter%20and%20Chamber%20of%20Secrets.jpg"
+                                alt="Harry Potter 2">
+                            <div class="movie-card-content">
+                                <h3 class="movie-card-title">Harry Potter and Chamber of Secrets</h3>
+                                <p class="movie-card-description">Harry's second year at Hogwarts where he discovers an ancient
+                                    chamber beneath the school and the monster within.</p><br>
+                                    <div class="movie-meta">
+                                        <span class="movie-accent">British</span>
+                                        <span class="movie-levels">A2, B1</span>
+                                    </div>
+                            </div>
+                        </div>
+            
+                        <!-- <div class="movie-card" data-index="2" data-movie-id="harry-potter-3">
+                            <img class="movie-card-image"
+                                src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Carousel/Harry%20Potter%20Prisoner%20of%20Azkaban.jpg"
+                                alt="Harry Potter 3">
+                            <div class="movie-card-content">
+                                <h3 class="movie-card-title">Harry Potter and Prisoner of Azkaban</h3>
+                                <p class="movie-card-description">In his third year at Hogwarts, Harry learns more about his past
+                                    while a convicted murderer is on the loose.</p>
+                            </div>
+                        </div> -->
+                        <div class="movie-card" data-index="2" data-movie-id="Coco">
+                            <img class="movie-card-image"
+                                src="assets/img/Coco/Coco.jpeg"
+                                alt="Coco">
+                            <div class="movie-card-content">
+                                <h3 class="movie-card-title">Coco</h3>
+                                <p class="movie-card-description">Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his
+                                great-great-grandfather, a legendary singer.</p>
+                                <div class="movie-meta">
+                                    <span class="movie-accent">American</span>
+                                    <span class="movie-levels">B1,B2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <button class="carousel-button prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+            
+                    <button class="carousel-button next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            
+                <div class="carousel-dots">
+                    <div class="carousel-dot active" data-index="0"></div>
+                    <div class="carousel-dot" data-index="1"></div>
+                    <div class="carousel-dot" data-index="2"></div>
+                </div>
+            </section>
+
+            <!-- --------------------------------------------------------------
+            # EPISODES
+            ---------------------------------------------------------------->
+            <section class="episodes-section">
+                <div class="episodes-header">
+                    <h2 class="episodes-title">Episodes</h2>
+                </div>
+                <div class="episodes-grid">
+                    <!-------------------------------------------------------------
+                    # Harry Potter 1 (and Philosopher Stone)
+                    -------------------------------------------------------------->
+                    <a href="Harry Potter/1. Dudley's birthday.html" class="episode-card" data-movie-id="harry-potter-1">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#1. Dudley's birthday</h3>
+                                    <div class="episode-meta">
+                                        <span>A2,B1</span>
+                                        <span>Grammar: Tag Questions</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 2:30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            
+                    <a href="Harry Potter/2. A First Encounter.html" class="episode-card" data-movie-id="harry-potter-1">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#2. A First Encounter</h3>
+                                    <div class="episode-meta">
+                                        <!-- <span>2024</span> -->
+                                        <span>A2,B1</span>
+                                        <span>Grammar: Have got</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 3:43</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Harry Potter/3. Draco Malfoy Introduces Himself To Harry.html" class="episode-card" data-movie-id="harry-potter-1">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#3.Draco Malfoy Introduces Himself To Harry</h3>
+                                    <div class="episode-meta">
+                                        <span>A2,B1</span>
+                                        <span>Grammar: Modal Verbs</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 0:55</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Harry Potter/4. Nearly Headless Nick.html" class="episode-card" data-movie-id="harry-potter-1">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#4. Nearly Headless Nick</h3>
+                                    <div class="episode-meta">
+                                        <span>A2,B1</span>
+                                        <span>Grammar: Passive Voice</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 2:09</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Harry Potter/5. Wingardium Leviosa.html" class="episode-card" data-movie-id="harry-potter-1">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#5. Wingardium Leviosa</h3>
+                                    <div class="episode-meta">
+                                        <span>A2,B1</span>
+                                        <span>Grammar: Present Simple</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 1:37</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="Harry Potter/6. Who Gave You the Dragon Egg.html" class="episode-card" data-movie-id="harry-potter-1">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#6. Who Gave You the Dragon Egg?</h3>
+                                    <div class="episode-meta">
+                                        <span>A2,B1</span>
+                                        <span>Grammar: Past Simple</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 3:15</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Harry Potter/7. Happy Christmas.html" class="episode-card" data-movie-id="harry-potter-1">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#7. Happy Christmas</h3>
+                                    <div class="episode-meta">
+                                        <span>A2,B1</span>
+                                        <span>Grammar: Gerunds </span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 2:04</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Harry Potter/8.  Harry, Ron and Hermione Play Wizard Chess.html" class="episode-card" data-movie-id="harry-potter-1">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#8.  Harry, Ron and Hermione Play Wizard Chess</h3>
+                                    <div class="episode-meta">
+                                        <span>A2,B1</span>
+                                        <span>Grammar: Imperatives</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 1:46</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-------------------------------------------------------------
+                    # Harry Potter 2 (Harry Potter and Chamber of Secrets)
+                    -------------------------------------------------------------->
+                    <a href="Harry Potter/1. Dudley's birthday.html" class="episode-card" data-movie-id="harry-potter-2">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#1. Dobby's warning</h3>
+                                    <div class="episode-meta">
+                                        <span>Level 1</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 3:40</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            
+                    <a href="/episodes/harry-potter-2/episode-2" class="episode-card" data-movie-id="harry-potter-2">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#2. Lucius</h3>
+                                    <div class="episode-meta">
+                                        <span>Level 4</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 3:55</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/episodes/harry-potter-2/episode-2" class="episode-card" data-movie-id="harry-potter-2">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#3. The Chamber's legend</h3>
+                                    <div class="episode-meta">
+                                        <span>Level 4</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 3:55</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/episodes/harry-potter-2/episode-2" class="episode-card" data-movie-id="harry-potter-2">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#4. Fawkes</h3>
+                                    <div class="episode-meta">
+                                        <span>Level 4</span>
+                                        <span class="language-tag british">British</span>
+                                        <span>Time: 3:55</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-------------------------------------------------------------
+                    # Coco
+                    -------------------------------------------------------------->
+                    <a href="Coco/1. Coco Beginning.html" class="episode-card" data-movie-id="Coco">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#1. Beginning1</h3>
+                                    <div class="episode-meta">
+                                        <span>B1,B2</span>
+                                        <span>Grammar: Narrative Tenses</span>
+                                        <span class="language-tag American">American</span>
+                                        <span>Time: 4:09</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Coco/2. Coco Beginning.html" class="episode-card" data-movie-id="Coco">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#2. Beginning2</h3>
+                                    <div class="episode-meta">
+                                        <span>B1,B2</span>
+                                        <span>Grammar: Inversion</span>
+                                        <span class="language-tag American">American</span>
+                                        <span>Time: 3:45</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="Coco/3. Coco Miguel Plays the Guitar.html" class="episode-card" data-movie-id="Coco">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#3. Miguel Plays the Guitar</h3>
+                                    <div class="episode-meta">
+                                        <span>B1,B2</span>
+                                        <span>Grammar: Modal Verbs</span>
+                                        <span class="language-tag American">American</span>
+                                        <span>Time: 4:38</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Coco/4.The Truth About Héctor And Ernesto.html" class="episode-card" data-movie-id="Coco">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#4.The Truth About Héctor And Ernesto </h3>
+                                    <div class="episode-meta">
+                                        <span>B1,B2</span>
+                                        <span>Grammar: Second Condition</span>
+                                        <span class="language-tag American">American</span>
+                                        <span>Time: 4:43</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Coco/5.Miguel And His Ancestors Fight For Hector.html" class="episode-card" data-movie-id="Coco">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#5.Miguel And His Ancestors Fight For Hector (part 1) </h3>
+                                    <div class="episode-meta">
+                                        <span>B1,B2</span>
+                                        <span>Grammar: Reported Speech</span>
+                                        <span class="language-tag American">American</span>
+                                        <span>Time: 4:43</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Coco/6.Miguel And His Ancestors Fight For Hector part 2.html" class="episode-card" data-movie-id="Coco">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#6.Miguel And His Ancestors Fight For Hector (part 2) </h3>
+                                    <div class="episode-meta">
+                                        <span>B1,B2</span>
+                                        <span>Grammar: Zero Conditional</span>
+                                        <span class="language-tag American">American</span>
+                                        <span>Time: 4:42</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Coco/7. Miguel Makes Grandma Coco Remember Her Father.html" class="episode-card" data-movie-id="Coco">
+                        <div class="episode-info">
+                            <div class="episode-header">
+                                <div class="play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="episode-details">
+                                    <h3 class="episode-title">#7 Miguel Makes Grandma Coco Remember Her Father</h3>
+                                    <div class="episode-meta">
+                                        <span>B1,B2</span>
+                                        <span>Grammar: First Conditional</span>
+                                        <span class="language-tag American">American</span>
+                                        <span>Time: 4:42</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <!-- Footer Navigation -->
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="my-words.html">My Words</a></li>
+                        <li><a href="Phrasal Verbs.html">Phrasal Verbs</a></li>
+                        <li><a href="Grammar-practice.html">Grammar Practice</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2025 EnglishPlay. All rights reserved.
+                </div>
+                <div class="footer-copyright">
+                    hello.englishplay@gmail.com
+                </div>
+                <div class="footer-legal">
+                    <a href="./Legal/privacy policy.html">Privacy Policy</a>
+                    <a href="./Legal/terms-of-use.html">Terms</a>
+                    <a href="./Legal/cookie.html">Cookies</a>
+                </div>
+            </div>
+    
+            <!-- Large Text at the Bottom -->
+            <h2 class="footer-large-text">
+                <span class="word primary">EnglishPlay</span>
+            </h2>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

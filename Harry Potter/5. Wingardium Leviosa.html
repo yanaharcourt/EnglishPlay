@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ep3-Wingardium Leviosa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/episode-styles.css"> 
+    <!-- <link rel="stylesheet" href="../assets/css/styles.css"> -->
+</head>
+<body>
+    <!-- --------------------------------------------------------------
+    # Курсор
+    ---------------------------------------------------------------->
+    <div class="js-cursor-init">
+        <div class="cursor-circle">
+            <div class="circle_wrap"></div>
+            <div class="scroll_cursor_txt">
+                <span class="text">Scroll</span>
+            </div>
+            <div class="view_more_cursor">
+                <span class="text">View</span>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------
+    # NAVIGATION MENU
+    ---------------------------------------------------------------->
+    <div class="left-nav">
+        <a href="../index.html" class="logo-container">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-default">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-hover">
+        </a>
+    
+        <div class="burger-lines">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+    
+        <div class="explore-text">EXPLORE</div>
+    
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="../index.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Home.svg"
+                            alt="Home" class="nav-icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../my-words.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/My%20Words.svg"
+                            alt="My Words" class="nav-icon">
+                        <span>My Words</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Phrasal Verbs.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Phrasal%20verbs.svg"
+                            alt="Phrasal Verbs" class="nav-icon">
+                        <span>Phrasal Verbs</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Grammar Practice.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Grammar%20practice.svg"
+                            alt="Grammar Practice" class="nav-icon">
+                        <span>Grammar Practice</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="content-grid">
+            <div class="content-left">
+                <section class="content-section description-section">
+                    <h2>Description</h2>
+                    <div class="section-content">
+                        <p>In Professor Flitwick's class, students learn levitation, a fundamental skill for wizardry. Hermione corrects Ron's
+                        incorrect pronunciation of the spell, "Wingardium Leviosa," earning praise from Professor Flitwick. Hermione
+                        successfully performs the spell herself, earning praise from the entire class. Harry humorously suggests they need
+                        another feather, illustrating classroom dynamics and teaching viewers about spell-casting in a magical world.</p>
+                    </div>
+                </section>
+                <!-- Background Section -->
+                <section class="content-section">
+                    <div class="section-header" data-section="background">
+                        <h2>Background</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="background" style="display: none;">
+                        <div class="character-grid">
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Harry.jpg" alt="Harry Potter">
+                                </div>
+                                <h3 class="character-name">Harry Potter</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Hermione Granger.jpeg" alt="Ron Weasley">
+                                </div>
+                                <h3 class="character-name">Hermione Granger</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Ron Weasley.jpg" alt="Hermione Granger">
+                                </div>
+                                <h3 class="character-name">Ron Weasley</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Professor Flitwick.jpg" alt="Hermione Granger">
+                                </div>
+                                <h3 class="character-name">Professor Flitwick</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Vocabulary Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="vocabulary">
+                        <h2>Vocabulary</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="vocabulary" style="display: none;">
+                        <div class="vocabulary-hint">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="vocabulary-list">
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Левитация">Levitation</span>
+                                            <span class="transcription">/ˌlevɪˈteɪʃən/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">The action of making something rise and float in the air.</span>
+                                        <div class="synonyms">Synonyms: floating, hovering, suspension</div>
+                                        <div class="example">Example: One of a wizard's most rudimentary skills is levitation.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Базовый, элементарный">Rudimentary</span>
+                                            <span class="transcription">/ˌruːdɪˈmentri/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        <span class="definition">Basic, elementary, or fundamental.</span>
+                                        <div class="synonyms">Synonyms: basic, elementary, fundamental, essential</div>
+                                        <div class="example">Example: Levitation is a rudimentary skill for wizards.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Произносить чётко">Enunciate</span>
+                                            <span class="transcription">/ɪˈnʌnsɪeɪt/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb]</span>
+                                        </div>
+                                        <span class="definition">To pronounce words clearly and distinctly.</span>
+                                        <div class="synonyms">Synonyms: articulate, pronounce, speak clearly</div>
+                                        <div class="example">Example: "Oh, and enunciate - Wingardium Leviosa."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Взмах, рассекать воздух">Swish</span>
+                                            <span class="transcription">/swɪʃ/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb/Noun]</span>
+                                        </div>
+                                        <span class="definition">A quick movement through the air, producing a hissing sound.</span>
+                                        <div class="synonyms">Synonyms: whoosh, sweep, sway</div>
+                                        <div class="example">Example: The swish and flick movement is essential for this spell.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Щелчок">Flick</span>
+                                            <span class="transcription">/flɪk/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb/Noun]</span>
+                                        </div>
+                                        <span class="definition">A quick, light movement or stroke.</span>
+                                        <div class="synonyms">Synonyms: snap, jerk, wave</div>
+                                        <div class="example">Example: A quick flick of the wand completed the spell.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Запястье">Wrist</span>
+                                            <span class="transcription">/rɪst/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">The joint connecting the hand with the forearm.</span>
+                                        <div class="synonyms">Synonyms: carpus</div>
+                                        <div class="example">Example: Don't forget the nice wrist movement we've been practicing.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Превосходно">Splendid</span>
+                                            <span class="transcription">/ˈsplendɪd/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        <span class="definition">Magnificent; excellent; brilliant.</span>
+                                        <div class="synonyms">Synonyms: excellent, wonderful, brilliant, fantastic</div>
+                                        <div class="example">Example: "Splendid!" exclaimed Professor Flitwick.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Произносить">Pronounce</span>
+                                            <span class="transcription">/prəˈnaʊns/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb]</span>
+                                        </div>
+                                        <span class="definition">To make the sound of a word in a particular way.</span>
+                                        <div class="synonyms">Synonyms: say, articulate, enunciate</div>
+                                        <div class="example">Example: You need to pronounce it correctly for the spell to work.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Перо">Feather</span>
+                                            <span class="transcription">/ˈfeðər/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">One of the light, flat growths that cover a bird's body.</span>
+                                        <div class="synonyms">Synonyms: plume, quill</div>
+                                        <div class="example">Example: Do you have your feathers? Good.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Практиковать">Practice</span>
+                                            <span class="transcription">/ˈpræktɪs/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Verb]</span>
+                                        </div>
+                                        <span class="definition">To perform an activity repeatedly in order to improve.</span>
+                                        <div class="synonyms">Synonyms: rehearse, train, exercise</div>
+                                        <div class="example">Example: We've been practicing the wrist movement.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Движение">Movement</span>
+                                            <span class="transcription">/ˈmuːvmənt/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        <span class="definition">An act of changing position or going from one place to another.</span>
+                                        <div class="synonyms">Synonyms: motion, action, gesture</div>
+                                        <div class="example">Example: The wrist movement is crucial for this spell.</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="умный">Clever</span>
+                                            <span class="transcription">/ˈklevər/</span>
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        <span class="definition">Quick to understand, learn, and devise or apply ideas.</span>
+                                        <div class="synonyms">Synonyms: intelligent, smart, bright</div>
+                                        <div class="example">Example: "You do it then, if you're so clever."</div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                
+                        <!-- <div class="type-hints">
+                            <span class="hint-item">[n] - noun</span>
+                            <span class="hint-item">[v] - verb</span>
+                            <span class="hint-item">[phv] - phrasal verb</span>
+                            <span class="hint-item">[adj] - adjective</span>
+                            <span class="hint-item">[exp] - expression</span>
+                        </div> -->
+
+                      </div>
+                      <div class="dictionary-popup" style="display: none;">
+                        <div class="popup-content">
+                          <h3>Added to Dictionary!</h3>
+                          <p>You can find this word in your personal dictionary</p>
+                          <button class="close-popup">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Video Script Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="script">
+                        <h2>Script</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="script" style="display: none;">
+                        <div class="script-info">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="script-list">
+                            <div class="script-item">
+                                <span class="character">Professor Flitwick:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">One of a wizard's most rudimentary skills is levitation.</span>
+                                    <span class="translation">Одним из самых элементарных навыков волшебника является левитация.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Professor Flitwick:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">What the ability to make objects fly.</span>
+                                    <span class="translation">Это способность заставлять предметы летать.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Professor Flitwick:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Do you have your feathers? Good.</span>
+                                    <span class="translation">У вас есть перья? Хорошо.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Professor Flitwick:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Now, don't forget the nice wrist movement we've been practicing.</span>
+                                    <span class="translation">Теперь, не забывайте о прекрасном движении запястьем, которое мы отрабатывали.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Professor Flitwick:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">The swish and flick. Everyone.</span>
+                                    <span class="translation">Рассечь воздух и взмахнуть. Все вместе.</span>
+                                </div>
+                            </div>
+
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">Everyone переводится как "каждый" или "все", но чтобы передать смысл, нельзя всегда переводить дословно.
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="script-item">
+                                <span class="character">Professor Flitwick:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Good. Oh, and enunciate. Wingardium Leviosa.</span>
+                                    <span class="translation">Хорошо. О, и четко проговаривайте. Вингардиум Левиоса.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Professor Flitwick:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Off you go, then.</span>
+                                    <span class="translation">Тогда начинайте.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Everyone:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Wingardium Leviosa</span>
+                                    <span class="translation">Вингардиум Левиоса</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Hermione:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">No, stop, stop, stop. You're going to take someone's eye out.</span>
+                                    <span class="translation">Нет, стоп, стоп, стоп. Ты выткнешь кому-нибудь глаз.</span>
+                                </div>
+                            </div>
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">Фраза "take someone's eye out" в предложении используется в переносном смысле и означает «выколи кому-нибудь глаз». Это выражение часто используется для предупреждения, что кто-то делает что-то неосторожно или опасно и может случайно травмировать окружающих. В данном случае подразумевается, что неаккуратное взмахивание палочкой может привести к несчастному случаю.
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="script-item">
+                                <span class="character">Hermione:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Besides, you're (= you are) saying it wrong. It's Leviosa, not Leviosar.</span>
+                                    <span class="translation">Кроме того, ты говоришь неправильно. Левиóса, не Левиосá.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">You do it then, if you're so clever. Go on, go on. </span>
+                                    <span class="translation">Тогда ты делай, если ты такая умная. Давай, давай.</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Professor Flitwick:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Oh, well done! See here, everyone, Miss Granger's (=Granger has) done it! </span>
+                                    <span class="translation">О, отлично! Смотрите сюда, все, мисс Грейнджер сделала это!</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Professor Flitwick:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Splendid!</span>
+                                    <span class="translation">Великолепно!</span>
+                                </div>
+                            </div>
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I think we're going to need another feather here, Professor.</span>
+                                    <span class="translation">Я думаю, нам тут понадобится ещё одно перо, Профессор.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- --------------------------------------------------------------
+                # Grammar Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="grammar">
+                        <h2>Grammar Focus</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="grammar" style="display: none;">
+                        <div class="grammar-container">
+                            <div class="theory-section">
+                                <h3>Present Simple</h3>
+                                <div class="theory-explanation">
+                                    <p>Present Simple (настоящее простое время) используется для описания регулярных действий, фактов, общих истин и способностей. В диалоге урока заклинаний это время используется для описания базовых умений волшебников и инструкций по выполнению заклинания.</p>
+                                </div>
+                
+                                <!-- Rules -->
+                                <div class="rules-section">
+                                    <h4>Правило</h4>
+                                    <div class="rule-item">
+                                        <div class="rule-title">Утвердительная форма</div>
+                                        <div class="rule-example">I/You/We/They + глагол</div>
+                                        <div class="rule-example">He/She/It + глагол + s/es</div><br>
+                                        <div class="rule-example">I <strong>think</strong> we need another feather.</div>
+                                        <div class="rule-example">She <strong>says</strong> it wrong.</div>
+                                    </div>
+                
+                                    <div class="rule-item">
+                                        <div class="rule-title">Отрицательная форма</div>
+                                        <div class="rule-example">I/You/We/They + don't + глагол</div>
+                                        <div class="rule-example">He/She/It + doesn't + глагол</div><br>
+                                        <div class="rule-example">You <strong>don't</strong> forget the movement.</div>
+                                        <div class="rule-example">He <strong>doesn't</strong> have his wand.</div>
+                                    </div>
+                
+                                    <div class="rule-item">
+                                        <div class="rule-title">Вопросительная форма</div>
+                                        <div class="rule-example">Do + I/you/we/they + глагол</div>
+                                        <div class="rule-example">Does + he/she/it + глагол</div><br>
+                                        <div class="rule-example"><strong>Do</strong> you have your feathers?</div>
+                                        <div class="rule-example"><strong>Does</strong> she know the spell?</div>
+                                    </div>
+                                </div>
+                
+                                <!-- Examples -->
+                                <div class="examples-section">
+                                    <h4>Примеры из текста</h4>
+                                    <div class="example-item">
+                                        <div class="example-text">A wizard's most rudimentary skills is levitation.</div>
+                                        <div class="example-explanation">Одним из самых элементарных навыков волшебника является левитация.</div>
+                                    </div>
+                                    <div class="example-item">
+                                        <div class="example-text">I think we need another feather.</div>
+                                        <div class="example-explanation">Я думаю, нам нужно другое перо.</div>
+                                    </div>
+                                    <div class="example-item">
+                                        <div class="example-text">Do you have your feathers?</div>
+                                        <div class="example-explanation">У вас есть перья?</div>
+                                    </div>
+                                </div>
+                
+                                <!-- Practice -->
+                                <div class="practice-section">
+                                    <h4>Практическое упражнение</h4>
+                                    <p>Поставьте глагол в правильную форму Present Simple.</p>
+                                    <div class="practice-items">
+                                        <div class="practice-item">
+                                            <div class="question">The spell (work) <input type="text" class="tag-input" data-correct="works"> perfectly.</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">We (practice) <input type="text" class="tag-input" data-correct="practice"> magic every day.</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">(do) <input type="text" class="tag-input" data-correct="Do"> you remember the movement?</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">Hermione (not/make) <input type="text" class="tag-input" data-correct="doesn't make"> mistakes.</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">Professor Flitwick (teach) <input type="text" class="tag-input" data-correct="teaches"> us levitation.</div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Questions Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="questions">
+                        <h2>Questions</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="questions" style="display: none;">
+                        <div class="questions-list">
+                            <div class="question-item">
+                                <p class="question-text">1. What skill is Professor Flitwick teaching?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Levitation</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Invisibility</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Transfiguration</span>
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="question-item">
+                                <p class="question-text">2. What phrase does Professor Flitwick emphasize while teaching the spell?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Swish and flick</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Swish and tap</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Flick and shake</span>
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="question-item">
+                                <p class="question-text">3. Which spell is used to make objects fly?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Wingardium Leviosa</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Expelliarmus</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Accio</span>
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="question-item">
+                                <p class="question-text">4. What does Hermione correct Ron about?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The pronunciation of "Leviosa"</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The wrist movement</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The type of spell</span>
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="question-item">
+                                <p class="question-text">5. How does Hermione say the spell correctly?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Leviosa</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Leviosar</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Levio-sa</span>
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="question-item">
+                                <p class="question-text">6. What does Ron accuse Hermione of being?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Clever</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Bossy</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Wrong</span>
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="question-item">
+                                <p class="question-text">7. What does Hermione warn Ron about?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Taking someone's eye out</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Taking someone's book</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Taking someone's wand</span>
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="question-item">
+                                <p class="question-text">8. What does Professor Flitwick say when Hermione succeeds?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Splendid!</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Wonderful!</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Fantastic!</span>
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="question-item">
+                                <p class="question-text">9. What does Harry say they need after Hermione casts the spell?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Another feather</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Another wand</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Another spell</span>
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="question-item">
+                                <p class="question-text">10. What movement does Professor Flitwick tell the class to use?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A swish and flick</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A spin and flick</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A wave and tap</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sorting Section
+                ---------------------------------------------------------------->
+                
+                <section class="content-section">
+                    <div class="section-header" data-section="sorting">
+                        <h2>Sorting</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sorting" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите реплики в правильном порядке.</p>
+                            <p>Drag and drop the dialogues to arrange them in the correct order.</p>
+                        </div>
+                        <div class="dialogue-container">
+                            <div class="dialogue-list" data-dialogues='[
+                                {"id": 1, "text": "One of a wizard&#39;s most rudimentary skills is levitation."},
+
+                                {"id": 2, "text": "Do you have your feathers? Good."},
+
+                                {"id": 3, "text": "Now, don&#39;t forget the nice wrist movement we&#39;ve been practicing."},
+
+                                {"id": 4, "text": "The swish and flick. Everyone."},
+
+                                {"id": 5, "text": "No, stop, stop, stop. You&#39;re going to take someone&#39;s eye out."},
+
+                                {"id": 6, "text": "Besides, you&#39;re saying it wrong. It&#39;s Leviosa, not Leviosar."},
+
+                                {"id": 7, "text": "You do it then, if you&#39;re so clever. Go on, go on."},
+                                
+                                {"id": 8, "text": "Oh, well done! See here, everyone, Miss Granger&#39;s done it!"}
+                            ]'>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Make a Match Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="make-a-match">
+                        <h2>Make a Match</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="make-a-match" style="display: none;">
+                        <div class="match-instructions">
+                            <p>Соотнесите слово/выражение с его переводом.</p>
+                            <p>Match the word/expression with its translation.</p>
+                        </div>
+                        <div class="match-container">
+                            <div class="match-column" id="wordsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Levitation</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Rudimentary</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Enunciate</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Swish</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Flick</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="6">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Feather</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="7">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Splendid</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="8">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Wrist</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="9">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Done </span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="10">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Clever</span>
+                                </div>
+                            </div>
+                            <div class="match-column" id="translationsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Левитация</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Элементарный</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Чётко произносить</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Взмах</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Щелчок</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="6">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Перо</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="7">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Великолепно</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="8">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Запястье</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="9">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Готово</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="10">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Умный</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sentence Building 
+                ---------------------------------------------------------------->
+                
+                <section class="content-section">
+                    <div class="section-header" data-section="sentence-building">
+                        <h2>Sentence Building</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sentence-building" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите слова в правильном порядке</p>
+                            <p>Arrange the words in the correct order</p>
+                        </div>
+                        <div class="sentences-container" data-sentences='[
+                          {"words": ["Have", "you", "got", "your", "feather", "ready?"], 
+                          "correct": "Have you got your feather ready?"},
+
+                          {"words": ["You", "are", "going", "to", "take", "someone&#39;s", "eye", "out."], 
+                          "correct": "You are going to take someone&#39;s eye out."},
+
+                          {"words": ["You", "are", "saying", "it", "wrong."],
+                          "correct": "You are saying it wrong."},
+
+                          {"words": ["It&#39;s", "Leviosa,", "not", "Leviosar."], "correct": "It&#39;s Leviosa, not Leviosar."},
+
+                          {"words": ["If", "you", "are", "so", "clever,", "do", "it."], 
+                          "correct": "If you are so clever, do it."},
+                          
+                          {"words": ["Don&#39;t", "forget", "the", "swish", "and", "flick."], "correct": "Don&#39;t forget the swish and flick."},
+
+                          {"words": ["Miss", "Granger", "has", "done", "it", "well!"], 
+                          "correct": "Miss Granger has done it well!"},
+
+                          {"words": ["We", "need", "another", "feather", "here."], "correct": "We need another feather here."}
+                        ]'></div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Fill in the Blank 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="fill-in-blanks">
+                        <h2>Fill in the Blanks</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="fill-in-blanks" style="display: none;">
+                        <div class="fill-blanks-list">
+                            <div class="fill-blank-item" data-correct="rudimentary">
+                                <div class="sentence">
+                                    <p>One of a wizard's most <span class="blank">______</span> skills is levitation.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="rudimentary">rudimentary</button>
+                                    <button class="option" data-value="advanced">advanced</button>
+                                    <button class="option" data-value="difficult">difficult</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="wrist">
+                                <div class="sentence">
+                                    <p>Don't forget the nice <span class="blank">______</span> movement we've been practicing.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="wrist">wrist</button>
+                                    <button class="option" data-value="hand">hand</button>
+                                    <button class="option" data-value="arm">arm</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="swish and flick">
+                                <div class="sentence">
+                                    <p>The <span class="blank">______</span>. Everyone.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="swish and flick">swish and flick</button>
+                                    <button class="option" data-value="wave and tap">wave and tap</button>
+                                    <button class="option" data-value="point and swing">point and swing</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="enunciate">
+                                <div class="sentence">
+                                    <p>Good. Oh, and <span class="blank">______</span> - Wingardium Leviosa.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="enunciate">enunciate</button>
+                                    <button class="option" data-value="whisper">whisper</button>
+                                    <button class="option" data-value="shout">shout</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="eye">
+                                <div class="sentence">
+                                    <p>You're going to take someone's <span class="blank">______</span> out.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="eye">eye</button>
+                                    <button class="option" data-value="wand">wand</button>
+                                    <button class="option" data-value="feather">feather</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="saying">
+                                <div class="sentence">
+                                    <p>Besides, you're <span class="blank">______</span> it wrong.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="saying">saying</button>
+                                    <button class="option" data-value="doing">doing</button>
+                                    <button class="option" data-value="moving">moving</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="clever">
+                                <div class="sentence">
+                                    <p>You do it then, if you're so <span class="blank">______</span>.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="clever">clever</button>
+                                    <button class="option" data-value="smart">smart</button>
+                                    <button class="option" data-value="good">good</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="done">
+                                <div class="sentence">
+                                    <p>Oh, well <span class="blank">______</span>! See here, everyone!</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="done">done</button>
+                                    <button class="option" data-value="tried">tried</button>
+                                    <button class="option" data-value="practiced">practiced</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="Splendid">
+                                <div class="sentence">
+                                    <p>"<span class="blank">______</span>!" said Professor Flitwick after Hermione's success.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="Splendid">Splendid</button>
+                                    <button class="option" data-value="Good">Good</button>
+                                    <button class="option" data-value="Perfect">Perfect</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="another">
+                                <div class="sentence">
+                                    <p>I think we're going to need <span class="blank">______</span> feather here, Professor.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="another">another</button>
+                                    <button class="option" data-value="new">new</button>
+                                    <button class="option" data-value="different">different</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Discussion 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="discussion">
+                        <h2>Discussion</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="discussion" style="display: none;">
+                        <div class="discussion-list">
+                            <div class="discussion-item">
+                                <span class="question-number">1</span>
+                                <div class="question-container">
+                                    <p class="question-text">Why do you think Professor Flitwick starts with levitation as one of the first spells to teach?</p>
+                                    <p class="question-translation">Почему, по вашему мнению, профессор Флитвик начинает обучение именно с заклинания левитации?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">2</span>
+                                <div class="question-container">
+                                    <p class="question-text">How does Hermione's approach to learning differ from her classmates? Is her way more effective?</p>
+                                    <p class="question-translation">Чем подход Гермионы к обучению отличается от подхода ее одноклассников? Является ли ее способ более эффективным?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">3</span>
+                                <div class="question-container">
+                                    <p class="question-text">What role does proper pronunciation play in spell-casting? Why is it so important?</p>
+                                    <p class="question-translation">Какую роль играет правильное произношение в произнесении заклинаний? Почему это так важно?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">4</span>
+                                <div class="question-container">
+                                    <p class="question-text">How do you think magical education differs from regular education? What similarities can you find?</p>
+                                    <p class="question-translation">Как вы думаете, чем магическое образование отличается от обычного? Какие сходства вы можете найти?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">5</span>
+                                <div class="question-container">
+                                    <p class="question-text">Why do you think Professor Flitwick emphasizes the importance of wrist movement in spellcasting?</p>
+                                    <p class="question-translation">Почему, по вашему мнению, профессор Флитвик подчеркивает важность движения запястьем при произнесении заклинаний?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">6</span>
+                                <div class="question-container">
+                                    <p class="question-text">How does the interaction between Ron and Hermione reflect their different approaches to learning?</p>
+                                    <p class="question-translation">Как взаимодействие между Роном и Гермионой отражает их разные подходы к обучению?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">7</span>
+                                <div class="question-container">
+                                    <p class="question-text">What does Professor Flitwick's teaching style tell us about effective ways to learn new skills?</p>
+                                    <p class="question-translation">О каких эффективных способах обучения новым навыкам говорит стиль преподавания профессора Флитвика?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">8</span>
+                                <div class="question-container">
+                                    <p class="question-text">Why do you think some students succeed more quickly than others in learning the levitation spell?</p>
+                                    <p class="question-translation">Почему, по вашему мнению, некоторые ученики быстрее осваивают заклинание левитации, чем другие?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">9</span>
+                                <div class="question-container">
+                                    <p class="question-text">How important is practice and repetition in learning new skills, whether magical or not?</p>
+                                    <p class="question-translation">Насколько важны практика и повторение при изучении новых навыков, магических или нет?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">10</span>
+                                <div class="question-container">
+                                    <p class="question-text">What does this scene tell us about the importance of precision and attention to detail in magic?</p>
+                                    <p class="question-translation">О чем говорит эта сцена относительно важности точности и внимания к деталям в магии?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column - Fixed Video -->
+            <div class="content-right">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/qWkKxbmWsIk"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <!-- Footer Navigation -->
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../my-words.html">My Words</a></li>
+                        <li><a href="../Phrasal Verbs.html">Phrasal Verbs</a></li>
+                        <li><a href="../Grammar-practice.html">Grammar Practice</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2025 EnglishPlay. All rights reserved.
+                </div>
+                <div class="footer-copyright">
+                    hello.englishplay@gmail.com
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+    
+            <!-- Large Text at the Bottom -->
+            <h2 class="footer-large-text">
+                <span class="footer-large-text">EnglishPlay</span>
+            </h2>
+        </div>
+    </footer>
+
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/episodes.js"></script>
+</body>
+</html>

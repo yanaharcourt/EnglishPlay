@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Practice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/grammar-practice.css">
+</head>
+
+<body>
+    <!-- --------------------------------------------------------------
+    # CURSOR
+    ---------------------------------------------------------------->
+    <div class="js-cursor-init">
+        <div class="cursor-circle">
+            <div class="circle_wrap"></div>
+            <div class="scroll_cursor_txt">
+                <span class="text">Scroll</span>
+            </div>
+            <div class="inner-circle"></div>
+            <div class="view_more_cursor">
+                <span class="text">View</span>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------
+    # NAVIGATION MENU
+    ---------------------------------------------------------------->
+    <div class="left-nav">
+        <a href="index.html" class="logo-container">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-default">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-hover">
+        </a>
+
+        <div class="burger-lines">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+
+        <div class="explore-text">EXPLORE</div>
+
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="./index.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Home.svg"
+                            alt="Home" class="nav-icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./my-words.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/My%20Words.svg"
+                            alt="My Words" class="nav-icon">
+                        <span>My Words</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./Phrasal Verbs.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Phrasal%20verbs.svg"
+                            alt="Phrasal Verbs" class="nav-icon">
+                        <span>Phrasal Verbs</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./Grammar-practice.html" class="nav-button active">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Grammar%20practice.svg"
+                            alt="Grammar Practice" class="nav-icon">
+                        <span>Grammar Practice</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------
+    # MAIN CONTENT
+    ---------------------------------------------------------------->
+    <section class="hero">
+        <h1>Master <span style="font-style: italic;">English Grammar</span> Naturally</h1>
+        <p class="tagline">Interactive exercises to practice and perfect your grammar skills at any level</p>
+    </section>
+
+    <div class="container">
+        <div class="grammar-container">
+            <div class="filters-container">
+                <!-- <div class="audience-toggle">
+                    <a class="audience-btn active" data-audience="adults" href="Grammar-practice.html">Adults</a>
+                    <a class="audience-btn" data-audience="children" href="Grammar-practice-kids.html">Children</a>
+                </div> -->
+
+                <div class="level-filters">
+                    <h3>Grammar Level</h3>
+                    <div class="level-buttons">
+                        <button class="level-btn active" data-level="all">All Levels</button>
+                        <button class="level-btn" data-level="a1">A1</button>
+                        <button class="level-btn" data-level="a2">A2</button>
+                        <button class="level-btn" data-level="b1">B1</button>
+                        <button class="level-btn" data-level="b2">B2</button>
+                        <button class="level-btn" data-level="c1">C1</button>
+                        <button class="level-btn" data-level="c2">C2</button>
+                    </div>
+                </div>
+
+                <div class="topic-filters">
+                    <h3>Grammar Topics</h3>
+                    <div class="topic-list">
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="to-be">
+                            <span>To be</span>
+                        </label>
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="tenses">
+                            <span>Tenses</span>
+                        </label>
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="modals">
+                            <span>Modal Verbs</span>
+                        </label>
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="conditionals">
+                            <span>Conditionals</span>
+                        </label>
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="passive">
+                            <span>Passive Voice</span>
+                        </label>
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="reported">
+                            <span>Reported Speech</span>
+                        </label>
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="articles">
+                            <span>Articles</span>
+                        </label>
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="prepositions">
+                            <span>Prepositions</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grammar Content -->
+            <div class="grammar-content">
+                <div class="search-container">
+                    <input type="text" id="grammarSearch" class="search-input" placeholder="Search grammar topic...">
+                </div>
+
+                <div class="grammar-topics">
+                    <!-- "To Be" -->
+                    <div class="grammar-category" data-topic="to-be">
+                        <div class="category-header">
+                            <h2>Verb "to be"</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content active">
+                            <!-- "To Be" with names -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="to-be" data-subtopic="to-be-with-names">
+                                <div class="card-header">
+                                    <h3>"To Be" with names</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/To-be-with-names.js" class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/To-be-with-names.js" class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/To-be-with-names.js" class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- "To be" with ages and nationalities -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="to-be" data-topic-name="to-be-with-ages-and-nationalities">
+                                <div class="card-header">
+                                    <h3>"To Be" with ages and nationalities</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/Verb-to-be-with-ages-and-nationalities.js" class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/Verb-to-be-with-ages-and-nationalities.js" class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/Verb-to-be-with-ages-and-nationalities.js" class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- "To be" with jobs -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic-name="to-be-with-jobs">
+                                <div class="card-header">
+                                    <h3>"To be" with jobs</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/To-be-with-jobs.js" class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/To-be-with-jobs.js" class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/To-be-with-jobs.js" class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Negatives with "to be"  -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="to-be" data-topic-name="negatives-with-to-be">
+                                <div class="card-header">
+                                    <h3>Negatives with "To Be" </h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/Negatives-with-to-be.js" class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/Negatives-with-to-be.js" class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="file:///Users/yana/Desktop/my Desktop/EnglishPlay_online/assets/js/grammar-practice /A1/Negatives-with-to-be.js" class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tenses -->
+                    <div class="grammar-category" data-topic="tenses">
+                        <div class="category-header">
+                            <h2>Tenses</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Present Simple Daily Routine -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-simple-daily-routines-page1">
+                                <div class="card-header">
+                                    <h3>Present Simple Daily Routine</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-daily-routine.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-daily-routine.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-daily-routine.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                            <!-- Present Simple Third Person Singular -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-simple-third-person-singular-page1">
+                                <div class="card-header">
+                                    <h3>Present Simple Third Person Singular</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-third-person-singular.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-third-person-singular.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-third-person-singular.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                            <!-- Present Simple - Negatives: don't/doesn't + base verb -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-simple-negatives-page1">
+                                <div class="card-header">
+                                    <h3>Present Simple Negatives (don't/doesn't)</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-negatives.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-negatives.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-negatives.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                            <!-- Present Simple - Time Expressions-->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-simple-time-expressions-page1">
+                                <div class="card-header">
+                                    <h3>Present Simple - Time Expressions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-time-expressions.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-time-expressions.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-time-expressions.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                            <!-- Present Continuous - Current actions-->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-continuous-current-actions-page1">
+                                <div class="card-header">
+                                    <h3>Present Continuous - Current Actions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-current-actions.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-current-actions.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-current-actions.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                            <!-- Present Continuous - Temporary situations-->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-continuous-temporary-situations-page1">
+                                <div class="card-header">
+                                    <h3>Present Continuous - Temporary situations</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-temporary-situations.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-temporary-situations.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-temporary-situations.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conditionals -->
+                    <div class="grammar-category" data-topic="conditionals">
+                        <div class="category-header">
+                            <h2>Conditionals</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Zero Conditional - Things that are always true -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Zero Conditional</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Zero Conditional.js" class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Zero Conditional.js" class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Zero Conditional.js" class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                    
+                            <!-- First Conditional - Real or Possible Future -->
+                            <div class="grammar-card" data-level="a2 b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>First Conditional</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/First Conditional.js" class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/First Conditional.js" class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/First Conditional.js" class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Second Conditional - Hypothetical Present or Future-->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Second Conditional</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Second Conditional.js" class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Second Conditional.js" class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Second Conditional.js" class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============================================================
+    # FOOTER
+    ===============================================================-->
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="my-words.html">My Words</a></li>
+                        <li><a href="Phrasal Verbs.html">Phrasal Verbs</a></li>
+                        <li><a href="Grammar-practice.html">Grammar Practice</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2025 EnglishPlay. All rights reserved.
+                </div>
+                <div class="footer-copyright">
+                    hello.englishplay@gmail.com
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+    
+            <h2 class="footer-large-text">
+                <span class="word primary">EnglishPlay</span>
+            </h2>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/grammar-practice.js"></script>
+    <!-- ========================A1======================== -->
+    <!-- ========================To Be======================== -->
+    <script src="./assets/js/grammar-practice /A1/To-be-with-names.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Verb-to-be-with-ages-and-nationalities.js"></script>
+    <script src="./assets/js/grammar-practice /A1/To-be-with-jobs.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Negatives-with-to-be.js"></script>
+    
+    <!-- ========================Tenses======================== -->
+    <script src="./assets/js/grammar-practice /A1/Present-simple-daily-routine.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Present-simple-third-person-singular.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Present-simple-negatives.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Present-simple-time-expressions.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Present-continuous-current-actions.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Present-continuous-temporary-situations.js"></script>
+
+    <!-- ========================B1======================== -->
+    <!-- ========================Conditionals======================== -->
+    <script src="./assets/js/grammar-practice /B1/Zero Conditional.js"></script>
+    <script src="./assets/js/grammar-practice /B1/First Conditional.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Second Conditional.js"></script>
+
+
+</body>
+
+</html>

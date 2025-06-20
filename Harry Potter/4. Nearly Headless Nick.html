@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ep4-Nearly Headless Nick</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/episode-styles.css"> 
+    <!-- <link rel="stylesheet" href="../assets/css/styles.css"> -->
+</head>
+<body>
+    <!-- --------------------------------------------------------------
+    # Курсор
+    ---------------------------------------------------------------->
+    <div class="js-cursor-init">
+        <div class="cursor-circle">
+            <div class="circle_wrap"></div>
+            <div class="scroll_cursor_txt">
+                <span class="text">Scroll</span>
+            </div>
+            <div class="view_more_cursor">
+                <span class="text">View</span>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------
+    # NAVIGATION MENU
+    ---------------------------------------------------------------->
+    <div class="left-nav">
+        <a href="../index.html" class="logo-container">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-default">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-hover">
+        </a>
+    
+        <div class="burger-lines">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+    
+        <div class="explore-text">EXPLORE</div>
+    
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="../index.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Home.svg"
+                            alt="Home" class="nav-icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../my-words.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/My%20Words.svg"
+                            alt="My Words" class="nav-icon">
+                        <span>My Words</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Phrasal Verbs.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Phrasal%20verbs.svg"
+                            alt="Phrasal Verbs" class="nav-icon">
+                        <span>Phrasal Verbs</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Grammar Practice.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Grammar%20practice.svg"
+                            alt="Grammar Practice" class="nav-icon">
+                        <span>Grammar Practice</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="content-grid">
+            <div class="content-left">
+                <section class="content-section description-section">
+                    <h2>Description</h2>
+                    <div class="section-content">
+                        <p>The scene takes place during a feast at Hogwarts. New students, including Harry Potter, meet the ghost Nearly Headless Nick, learn about Professor Snape, and Seamus Finnigan shares about his half-blood origin. The episode shows the students' first impressions of the magical world of Hogwarts.</p>
+                    </div>
+                </section>
+                <section class="content-section">
+                    <div class="section-header" data-section="background">
+                        <h2>Background</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="background" style="display: none;">
+                        <div class="character-grid">
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Harry.jpg" alt="Harry Potter">
+                                </div>
+                                <h3 class="character-name">Harry Potter</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Ron Weasley.jpg" alt="Ron Weasley">
+                                </div>
+                                <h3 class="character-name">Ron</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Hermione Granger.jpeg" alt="Hermione Granger">
+                                </div>
+                                <h3 class="character-name">Hermione</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Seamus Finnigan.webp" alt="Seamus Finnigan">
+                                </div>
+                                <h3 class="character-name">Seamus</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Percy Weasley.jpg" alt="Percy Weasley">
+                                </div>
+                                <h3 class="character-name">Percy Weasley</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Sir Nicholas.jpg" alt="Sir Nicholas">
+                                </div>
+                                <h3 class="character-name">Sir Nicholas</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Vocabulary Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="vocabulary">
+                        <h2>Vocabulary</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="vocabulary" style="display: none;">
+                        
+                        <div class="vocabulary-hint">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="vocabulary-list">
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                   <input type="checkbox" hidden>
+                                   <span class="checkmark"></span>
+                                   <div class="vocab-text">
+                                     <div class="word-line">
+                                       <span class="word" data-translation="Мрачный">Dismal</span>
+                                       <span class="transcription">/ˈdɪzməl/</span>
+                                       <button class="play-audio" aria-label="Listen to pronunciation">
+                                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                           <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                           <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                           <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                         </svg>
+                                       </button>
+                                       <span class="type">[Adjective]</span>
+                                     </div>
+                                     <span class="definition">Gloomy, depressing, or dreary</span>
+                                     <div class="synonyms">Synonyms: gloomy, miserable, depressing, bleak</div>
+                                     <div class="example">Example: The weather was dismal all week.</div>
+                                   </div>
+                                   <button class="add-to-dictionary">Add to Dictionary</button>
+                                 </label>
+                            </div>
+                               
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                   <input type="checkbox" hidden>
+                                   <span class="checkmark"></span>
+                                   <div class="vocab-text">
+                                     <div class="word-line">
+                                       <span class="word" data-translation="Желать">Fancy</span>
+                                       <span class="transcription">/ˈfænsi/</span>
+                                       <button class="play-audio" aria-label="Listen to pronunciation">
+                                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                           <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                           <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                           <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                         </svg>
+                                       </button>
+                                       <span class="type">[Verb]</span>
+                                     </div>
+                                     <span class="definition">To want or desire something</span>
+                                     <div class="synonyms">Synonyms: want, desire, prefer, wish for</div>
+                                     <div class="example">Example: He fancies becoming a teacher.</div>
+                                   </div>
+                                   <button class="add-to-dictionary">Add to Dictionary</button>
+                                 </label>
+                            </div>
+                               
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                   <input type="checkbox" hidden>
+                                   <span class="checkmark"></span>
+                                   <div class="vocab-text">
+                                     <div class="word-line">
+                                       <span class="word" data-translation="Магл">Muggle</span>
+                                       <span class="transcription">/ˈmʌɡəl/</span>
+                                       <button class="play-audio" aria-label="Listen to pronunciation">
+                                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                           <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                           <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                           <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                         </svg>
+                                       </button>
+                                       <span class="type">[Noun]</span>
+                                     </div>
+                                     <span class="definition">(In Harry Potter) A person who lacks magical abilities</span>
+                                     <div class="synonyms">Synonyms: non-magical person, ordinary person</div>
+                                     <div class="example">Example: Her parents are muggles who don't understand magic.</div>
+                                   </div>
+                                   <button class="add-to-dictionary">Add to Dictionary</button>
+                                 </label>
+                            </div>
+                               
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                   <input type="checkbox" hidden>
+                                   <span class="checkmark"></span>
+                                   <div class="vocab-text">
+                                     <div class="word-line">
+                                       <span class="word" data-translation="Почти">Nearly</span>
+                                       <span class="transcription">/ˈnɪəli/</span>
+                                       <button class="play-audio" aria-label="Listen to pronunciation">
+                                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                           <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                           <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                           <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                         </svg>
+                                       </button>
+                                       <span class="type">[Adverb]</span>
+                                     </div>
+                                     <span class="definition">Almost, but not completely</span>
+                                     <div class="synonyms">Synonyms: almost, practically, virtually</div>
+                                     <div class="example">Example: She's nearly finished her homework.</div>
+                                   </div>
+                                   <button class="add-to-dictionary">Add to Dictionary</button>
+                                 </label>
+                            </div>
+                            
+                          
+                        <!-- <div class="type-hints">
+                            <span class="hint-item">[n] - noun</span>
+                            <span class="hint-item">[v] - verb</span>
+                            <span class="hint-item">[phv] - phrasal verb</span>
+                            <span class="hint-item">[adj] - adjective</span>
+                            <span class="hint-item">[exp] - expression</span>
+                        </div> -->
+                        
+                      </div>
+                        <div class="dictionary-popup" style="display: none;">
+                            <div class="popup-content">
+                                <h3>Added to Dictionary!</h3>
+                                <p>You can find this word in your personal dictionary</p>
+                                <button class="close-popup">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Video Script Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="script">
+                        <h2>Script</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="script" style="display: none;">
+                        <div class="script-info">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="script-list">
+                            <div class="script-item">
+                                <span class="character">Albus Dumbledore:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Let the feast... begin.</span>
+                                  <span class="translation">Пусть пир... начнется.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Seamus Finnigan:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">I'm half and half. Me dad's a muggle, mam's a witch.</span>
+                                  <span class="translation">Я помесь. Мой папа магл, мама колдунья.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                  <span class="phrase">"half and half" - выражение, означающее "наполовину один, наполовину другой". В данном контексте - наполовину волшебник, наполовину обычный человек.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                  <span class="phrase">"muggle" - термин из вселенной Гарри Поттера, обозначающий человека без магических способностей, обычного человека.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Seamus Finnigan:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Bit of a nasty shock for him when he found out.</span>
+                                  <span class="translation">Для него это был неприятный шок, когда он узнал.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                  <span class="phrase">"found out" - фразовый глагол, означающий "узнать, обнаружить (особенно что-то неожиданное)".</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Harry Potter:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Say, Percy? Who's that teacher talking to Professor Quirrell?</span>
+                                  <span class="translation">Скажи, Перси? Кто тот учитель, который разговаривает с профессором Квирреллом?</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Percy Weasley:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Oh, that's Professor Snape, head of Slytherin House.</span>
+                                  <span class="translation">О, это профессор Снейп, глава факультета Слизерин.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Harry Potter:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">What's he teach?</span>
+                                  <span class="translation">Что он преподает?</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Percy Weasley:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Potions. But everyone knows it's the Dark Arts he fancies.</span>
+                                  <span class="translation">Зелья. Но все знают, что на самом деле его интересует Защита от Темных Искусств.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                  <span class="phrase">"fancies" - от глагола "fancy", в этом контексте означает "желать, стремиться к чему-то". Более разговорная форма.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Percy Weasley:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">He's been after Quirrell's job for years.</span>
+                                  <span class="translation">Он годами добивается должности Квиррелла.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                  <span class="phrase">"be after" - идиоматическое выражение, означающее "стремиться получить что-то, добиваться чего-то". Например: "He's been after that job for years" - "Он годами добивался этой должности".</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Sir Nicholas:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Hello! How are you? Welcome to Gryffindor.</span>
+                                  <span class="translation">Здравствуйте! Как дела? Добро пожаловать в Гриффиндор.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Student:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">It's the Bloody Baron.</span>
+                                  <span class="translation">Это Кровавый Барон.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Percy Weasley:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Hello Sir Nicholas. Have a nice summer?</span>
+                                  <span class="translation">Здравствуйте, сэр Николас. Хорошо провели лето?</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Sir Nicholas:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Dismal, once again. My request to join the headless hunt has been denied.</span>
+                                  <span class="translation">Уныло, как всегда. Мою просьбу присоединиться к охоте безголовых снова отклонили.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                  <span class="phrase">"Dismal" - прилагательное, означающее "мрачный, унылый, безрадостный".</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                  <span class="phrase">Суффикс "-less" - используется для образования прилагательных и означает отсутствие чего-либо:
+                                    * headless = without a head (без головы)
+                                    * hopeless = without hope (безнадежный)
+                                    * homeless = without a home (бездомный)
+                                  </span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Ron Weasley:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">I know you! You're Nearly Headless Nick!</span>
+                                  <span class="translation">Я знаю вас! Вы Почти Безголовый Ник!</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Sir Nicholas:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">I prefer Sir Nicholas, if you don't mind.</span>
+                                  <span class="translation">Я предпочитаю сэр Николас, если вы не возражаете.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                  <span class="phrase">"if you don't mind" - вежливое выражение, означающее "если вы не возражаете". Часто используется при выражении предпочтения или просьбы.</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Hermione:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Nearly headless? How can you be nearly headless?</span>
+                                  <span class="translation">Почти безголовый? Как можно быть почти безголовым?</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                  <span class="phrase">"nearly" - наречие, означающее "почти, практически". В данном контексте создает комический эффект: "почти безголовый" - состояние между "с головой" и "без головы".</span>
+                                </div>
+                            </div>
+                              
+                            <div class="script-item">
+                                <span class="character">Sir Nicholas:</span>
+                                <div class="phrase-container">
+                                  <span class="phrase">Like this.</span>
+                                  <span class="translation">Вот так.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- --------------------------------------------------------------
+                # Grammar Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="grammar">
+                        <h2>Grammar Focus</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="grammar" style="display: none;">
+                        <div class="grammar-container">
+                            <div class="theory-section">
+                                <h3>Passive Voice (Basic)</h3>
+                                <div class="theory-explanation">
+                                    <p>Пассивный залог используется, когда важнее объект действия, а не тот, кто его совершает, или когда исполнитель действия неизвестен или неважен.</p>
+                                </div>
+                        
+                                <div class="rules-section">
+                                    <h4>Основное правило</h4>
+                                    <div class="rule-item">
+                                        <div class="rule-title">Form: be (в нужном времени) + Past Participle (3-я форма глагола)</div>
+                                        <div class="rule-example">Present Simple Passive: <strong>am/is/are</strong> + Past Participle</div>
+                                        <div class="rule-example">Past Simple Passive: <strong>was/were</strong> + Past Participle</div>
+                                        <div class="rule-example">Present Perfect Passive: <strong>has/have been</strong> + Past Participle</div>
+                                    </div>
+                                </div>
+
+                                <h4>Как используется</h4>
+                                <div class="rule-item">
+                                    <div class="rule-title">1. Когда исполнитель действия неизвестен:</div>
+                                    <div class="rule-example">The window <strong>was broken</strong>. (Окно было разбито)</div>
+                                    
+                                    <div class="rule-title">2. Когда важен результат, а не исполнитель:</div>
+                                    <div class="rule-example">The homework <strong>has been completed</strong>. (Домашняя работа выполнена)</div>
+                                    
+                                    <div class="rule-title">3. В официальных документах и новостях:</div>
+                                    <div class="rule-example">The new law <strong>was passed</strong> yesterday. (Новый закон был принят вчера)</div>
+                                </div>
+
+                                <h4>Примеры из текста</h4>
+                                <div class="rule-item">
+                                    <div class="rule-example">
+                                        "My request <strong>has been denied</strong>" (Present Perfect Passive)<br>
+                                        Активный залог: They denied my request<br>
+                                        Пассивный залог: My request has been denied
+                                    </div>
+                                </div>
+
+                                <h4>Дополнительные примеры</h4>
+                                <div class="rule-item">
+                                    <div class="rule-example">
+                                        Active: Students write tests.<br>
+                                        Passive: Tests <strong>are written</strong> by students.
+                                    </div>
+                                    <div class="rule-example">
+                                        Active: Someone stole my wand.<br>
+                                        Passive: My wand <strong>was stolen</strong>.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="practice-section">
+                                <h4>Практическое упражнение</h4>
+                                <p>Дополните предложения правильной формой слова «have got».</p><br>
+                                <div class="practice-items">
+                                    <div class="practice-item">
+                                        <div class="question">The castle _______ (guard) by powerful spells.</div>
+                                        <input type="text" class="tag-input" data-correct="is guarded">
+                                        <button class="check-button">Проверить</button>
+                                        <div class="result"></div>
+                                    </div>
+                                    <div class="practice-item">
+                                        <div class="question">Many spells _______ (teach) at Hogwarts.</div>
+                                        <input type="text" class="tag-input" data-correct="are taught">
+                                        <button class="check-button">Проверить</button>
+                                        <div class="result"></div>
+                                    </div>
+                                    <div class="practice-item">
+                                        <div class="question">The Quidditch match _______ (cancel) because of the rain.</div>
+                                        <input type="text" class="tag-input" data-correct="was cancelled">
+                                        <button class="check-button">Проверить</button>
+                                        <div class="result"></div>
+                                    </div>
+                                    <div class="practice-item">
+                                        <div class="question">Their homework _______ (check) by Professor McGonagall.</div>
+                                        <input type="text" class="tag-input" data-correct="has been checked">
+                                        <button class="check-button">Проверить</button>
+                                        <div class="result"></div>
+                                    </div>
+                                    <div class="practice-item">
+                                        <div class="question">The new broomsticks _______ (deliver) to the school yesterday.</div>
+                                        <input type="text" class="tag-input" data-correct="were delivered">
+                                        <button class="check-button">Проверить</button>
+                                        <div class="result"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Questions Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="questions">
+                        <h2>Questions</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="questions" style="display: none;">
+                        <div class="questions-list">
+                            
+                            <div class="question-item">
+                                <p class="question-text">1. Who reveals that they are half-muggle and half-wizard?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Seamus Finnigan</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Harry Potter</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Percy Weasley</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">2. What position does Professor Snape hold?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Head of Slytherin House</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Head of Gryffindor House</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Headmaster of Hogwarts</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">3. What subject does Professor Snape teach?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Potions</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Dark Arts</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">History of Magic</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">4. Why is Sir Nicholas unhappy about his summer?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">His request to join the headless hunt was denied</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He couldn't attend the feast</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He lost his way in the castle</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">5. What does Percy tell Harry about Professor Snape's ambitions?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He wants Quirrell's job</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He wants to be headmaster</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He wants to leave Hogwarts</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">6. How does Ron address the ghost?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Nearly Headless Nick</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Sir Nicholas</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The Bloody Baron</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">7. What was the reaction of Seamus's father when he discovered about magic?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">It was a nasty shock</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He was delighted</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">He didn't believe it</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">8. Who starts the feast?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Albus Dumbledore</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Minerva McGonagall</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Professor Snape</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">9. How does Sir Nicholas prefer to be addressed?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Sir Nicholas</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Nick</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Nearly Headless</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">10. Who points out Professor Snape to Harry?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Percy Weasley</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Ron Weasley</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Hermione Granger</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sorting Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="sorting">
+                        <h2>Sorting</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sorting" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите реплики в правильном порядке.</p>
+                            <p>Drag and drop the dialogues to arrange them in the correct order.</p>
+                        </div>
+                        <div class="dialogue-container">
+                            <div class="dialogue-list" data-dialogues='[
+                                { "id": 1, "text": "Your attention please." },
+
+                                { "id": 2, "text": "Let the feast... begin." },
+
+                                { "id": 3, "text": "I&#39;m half and half. Me dad&#39;s a muggle, mam&#39;s a witch." },
+
+                                { "id": 4, "text": "Bit of a nasty shock for him when he found out." },
+
+                                { "id": 5, "text": "Say, Percy? Who&#39;s that teacher talking to Professor Quirrell?" },
+
+                                { "id": 6, "text": "Oh, that&#39;s Professor Snape, head of Slytherin House." },
+
+                                { "id": 7, "text": "What&#39;s he teach?" }
+                            ]'>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Make a Match Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="make-a-match">
+                        <h2>Make a Match</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="make-a-match" style="display: none;">
+                        <div class="match-instructions">
+                            <p>Соотнесите слово/выражение с его переводом.</p>
+                            <p>Match the word/expression with its translation.</p>
+                        </div>
+                        <div class="match-container">
+                            <div class="match-column" id="wordsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Dismal</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Fancy</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Muggle</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Nearly</span>
+                                </div>
+                            </div>
+                            <div class="match-column" id="translationsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Мрачный, угрюмый</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Желать, хотеть</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Человек без магических способностей</span>
+                                </div>
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Почти, практически</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sentence Building 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="sentence-building">
+                        <h2>Sentence Building</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sentence-building" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите слова в правильном порядке</p>
+                            <p>Arrange the words in the correct order</p>
+                        </div>
+                        <div class="sentences-container" data-sentences='[
+                          {
+                            "words": ["I&#39;m", "half", "and", "half,", "my", "dad&#39;s", "a", "muggle."],
+                            "correct": "I&#39;m half and half, my dad&#39;s a muggle." }, 
+
+                            { "words" : ["Who&#39;s", "that" , "teacher" , "talking", "to" , "Professor" , "Quirrell?" ],
+                            "correct" : "Who&#39;s that teacher talking to Professor Quirrell?&quot; }, 
+
+                            { "words":["That&#39;s", "Professor" , "Snape," , "head" , "of" , "Slytherin" , "House." ], 
+                            "correct": "That&#39;s Professor Snape, head of Slythrin House." }, 
+
+                            { "words" : ["He&#39;s", "been" , "after" , "Quirrell&#39;s", "job" , "for" , "years." ], 
+                            "correct" : "He&#39;s been after Quirrell&#39;s job for years." }, 
+
+                            { "words" : ["My", "request", "to" , "join" , "the" , "headless" , "hunt" , "has" , "been" , "denied." ], "correct": "My request to join the headless hunt has been denied." }, 
+
+                            { "words" : ["I", "prefer" , "Sir" , "Nicholas," , "if", "you" , "don&#39;t" , "mind." ], 
+                            "correct" : "I prefer Sir Nicholas, if you don&#39;t mind.&quot; }, 
+
+                            { "words":["How", "can" , "you" , "be" , "nearly" , "headless?" ], 
+                            "correct" : "How can you be nearly headless?" }, 
+                            
+                            { "words" :["But", "everyone" , "knows" , "it&#39;s" , "the" , "Dark" , "Arts" , "he" , "fancies." ], 
+                            "correct": "But everyone knows it&#39;s the Dark Arts he fancies." }, 
+                            
+                            { "words" : ["Have", "a" , "nice" , "summer," , "Sir", "Nicholas." ], 
+                            "correct" : "Have a nice summer, Sir Nicholas." }, 
+                            
+                            { "words" : ["Bit", "of" , "a" , "nasty" , "shock"
+                            , "for" , "him" , "when" , "found" , "out." ],
+                            "correct" : "Bit of a nasty shock for him when found out." } ]'>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Fill in the Blank 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="fill-in-blanks">
+                        <h2>Fill in the Blanks</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="fill-in-blanks" style="display: none;">
+                        <div class="fill-blanks-list">
+                            
+                            <div class="fill-blank-item" data-correct="please">
+                                <div class="sentence">
+                                   <p>Your attention <span class="blank">______</span>.</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="please">please</button>
+                                   <button class="option" data-value="now">now</button>
+                                   <button class="option" data-value="here">here</button>
+                                </div>
+                            </div>
+                               
+                            <div class="fill-blank-item" data-correct="muggle">
+                                <div class="sentence">
+                                   <p>I'm half and half. Me dad's a <span class="blank">______</span>, mam's a witch.</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="muggle">muggle</button>
+                                   <button class="option" data-value="wizard">wizard</button>
+                                   <button class="option" data-value="human">human</button>
+                                </div>
+                            </div>
+                               
+                            <div class="fill-blank-item" data-correct="shock">
+                                <div class="sentence">
+                                   <p>Bit of a nasty <span class="blank">______</span> for him when he found out.</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="shock">shock</button>
+                                   <button class="option" data-value="surprise">surprise</button>
+                                   <button class="option" data-value="moment">moment</button>
+                                </div>
+                            </div>
+                               
+                            <div class="fill-blank-item" data-correct="Quirrell">
+                                <div class="sentence">
+                                   <p>Who's that teacher talking to Professor <span class="blank">______</span>?</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="Quirrell">Quirrell</button>
+                                   <button class="option" data-value="Snape">Snape</button>
+                                   <button class="option" data-value="McGonagall">McGonagall</button>
+                                </div>
+                            </div>
+                               
+                            <div class="fill-blank-item" data-correct="Slytherin">
+                                <div class="sentence">
+                                   <p>Oh, that's Professor Snape, head of <span class="blank">______</span> House.</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="Slytherin">Slytherin</button>
+                                   <button class="option" data-value="Gryffindor">Gryffindor</button>
+                                   <button class="option" data-value="Hufflepuff">Hufflepuff</button>
+                                </div>
+                            </div>
+                               
+                            <div class="fill-blank-item" data-correct="Dark">
+                                <div class="sentence">
+                                   <p>But everyone knows it's the <span class="blank">______</span> Arts he fancies.</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="Dark">Dark</button>
+                                   <button class="option" data-value="Black">Black</button>
+                                   <button class="option" data-value="Evil">Evil</button>
+                                </div>
+                            </div>
+                               
+                            <div class="fill-blank-item" data-correct="after">
+                                <div class="sentence">
+                                   <p>He's been <span class="blank">______</span> Quirrell's job for years.</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="after">after</button>
+                                   <button class="option" data-value="seeking">seeking</button>
+                                   <button class="option" data-value="wanting">wanting</button>
+                                </div>
+                            </div>
+                               
+                            <div class="fill-blank-item" data-correct="headless">
+                                <div class="sentence">
+                                   <p>My request to join the <span class="blank">______</span> hunt has been denied.</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="headless">headless</button>
+                                   <button class="option" data-value="ghost">ghost</button>
+                                   <button class="option" data-value="spirit">spirit</button>
+                                </div>
+                            </div>
+                               
+                            <div class="fill-blank-item" data-correct="prefer">
+                                <div class="sentence">
+                                   <p>I <span class="blank">______</span> Sir Nicholas, if you don't mind.</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="prefer">prefer</button>
+                                   <button class="option" data-value="like">like</button>
+                                   <button class="option" data-value="want">want</button>
+                                </div>
+                            </div>
+                               
+                            <div class="fill-blank-item" data-correct="nearly">
+                                <div class="sentence">
+                                   <p>How can you be <span class="blank">______</span> headless?</p>
+                                </div>
+                                <div class="options">
+                                   <button class="option" data-value="nearly">nearly</button>
+                                   <button class="option" data-value="almost">almost</button>
+                                   <button class="option" data-value="partially">partially</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Discussion 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="discussion">
+                        <h2>Discussion</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="discussion" style="display: none;">
+                        <div class="discussion-list">
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">1</span>
+                                <div class="question-container">
+                                    <p class="question-text">What challenges might Seamus's father have faced as a muggle married to a witch? How does this reflect real-world cross-cultural relationships?</p>
+                                    <p class="question-translation">С какими трудностями мог столкнуться отец Симуса как магл, женатый на ведьме? Как это отражает межкультурные отношения в реальном мире?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">2</span>
+                                <div class="question-container">
+                                    <p class="question-text">Why do you think Nearly Headless Nick prefers to be called 'Sir Nicholas'? How does this reflect the importance of titles and respect in both the magical and real world?</p>
+                                    <p class="question-translation">Почему, по вашему мнению, Почти Безголовый Ник предпочитает, чтобы его называли 'Сэр Николас'? Как это отражает важность титулов и уважения как в волшебном, так и в реальном мире?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">3</span>
+                                <div class="question-container">
+                                    <p class="question-text">Professor Snape is described as wanting Quirrell's job for years. How do workplace ambitions and career competition affect professional relationships? Is it always negative?</p>
+                                    <p class="question-translation">Говорится, что профессор Снейп годами хотел получить должность Квиррелла. Как карьерные амбиции и конкуренция влияют на профессиональные отношения? Всегда ли это негативно?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">4</span>
+                                <div class="question-container">
+                                    <p class="question-text">Seamus openly discusses being 'half and half.' How does this compare to how people discuss their mixed heritage in the real world? What challenges might they face?</p>
+                                    <p class="question-translation">Симус открыто обсуждает то, что он 'полукровка'. Как это соотносится с тем, как люди обсуждают свое смешанное происхождение в реальном мире? С какими проблемами они могут сталкиваться?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">5</span>
+                                <div class="question-container">
+                                    <p class="question-text">The scene shows different teaching positions at Hogwarts (Potions, Dark Arts). How does this specialized education system compare to real-world educational structures?</p>
+                                    <p class="question-translation">В сцене показаны различные преподавательские должности в Хогвартсе (Зелья, Защита от Темных Искусств). Как эта специализированная система образования сравнима с образовательными структурами реального мира?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">6</span>
+                                <div class="question-container">
+                                    <p class="question-text">The presence of house ghosts and their interactions with students shows a unique social structure. How do social hierarchies in schools affect student experiences?</p>
+                                    <p class="question-translation">Присутствие факультетских привидений и их взаимодействие со студентами показывает уникальную социальную структуру. Как социальная иерархия в школах влияет на опыт учащихся?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">7</span>
+                                <div class="question-container">
+                                    <p class="question-text">Harry's first impression of Snape is shaped by Percy's description. How do other people's opinions influence our initial judgments of others? Is this fair?</p>
+                                    <p class="question-translation">Первое впечатление Гарри о Снейпе формируется описанием Перси. Как мнения других людей влияют на наши первоначальные суждения о других? Справедливо ли это?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">8</span>
+                                <div class="question-container">
+                                    <p class="question-text">The headless hunt's denial of Nearly Headless Nick shows exclusivity based on specific criteria. How do exclusive groups or clubs impact society and individual self-worth?</p>
+                                    <p class="question-translation">Отказ Клуба Безголовых принять Почти Безголового Ника показывает избирательность, основанную на определенных критериях. Как эксклюзивные группы или клубы влияют на общество и самооценку отдельных людей?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">9</span>
+                                <div class="question-container">
+                                    <p class="question-text">How might muggle parents adapt to having their children attend a magical school? What parallels exist with parents sending children to schools in different cultures or countries?</p>
+                                    <p class="question-translation">Как родители-маглы могут адаптироваться к тому, что их дети посещают школу магии? Какие параллели существуют с родителями, отправляющими детей в школы в других культурах или странах?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">10</span>
+                                <div class="question-container">
+                                    <p class="question-text">The scene shows various levels of authority (teachers, prefects, ghosts). How do these different levels of authority influence student life? Compare this to real-world educational institutions.</p>
+                                    <p class="question-translation">В сцене показаны различные уровни власти (учителя, старосты, привидения). Как эти разные уровни власти влияют на студенческую жизнь? Сравните это с образовательными учреждениями реального мира.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+
+            <!-- Right Column - Fixed Video -->
+            <div class="content-right">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/siMnJYHrrSs?list=PLxDk3VcyNY6AsWH7ON92IWgm46nhlNvXF"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <!-- Footer Navigation -->
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../my-words.html">My Words</a></li>
+                        <li><a href="../Phrasal Verbs.html">Phrasal Verbs</a></li>
+                        <li><a href="../Grammar-practice.html">Grammar Practice</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2025 EnglishPlay. All rights reserved.
+                </div>
+                <div class="footer-copyright">
+                    hello.englishplay@gmail.com
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+    
+            <!-- Large Text at the Bottom -->
+            <h2 class="footer-large-text">
+                <span class="footer-large-text">EnglishPlay</span>
+            </h2>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/episodes.js"></script>
+</body>
+</html>

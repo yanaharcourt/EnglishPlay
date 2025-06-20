@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ep3-Wingardium Leviosa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/episode-styles.css"> 
+    <!-- <link rel="stylesheet" href="../assets/css/styles.css"> -->
+</head>
+<body>
+    <!-- --------------------------------------------------------------
+    # Курсор
+    ---------------------------------------------------------------->
+    <div class="js-cursor-init">
+        <div class="cursor-circle">
+            <div class="circle_wrap"></div>
+            <div class="scroll_cursor_txt">
+                <span class="text">Scroll</span>
+            </div>
+            <div class="view_more_cursor">
+                <span class="text">View</span>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------
+    # NAVIGATION MENU
+    ---------------------------------------------------------------->
+    <div class="left-nav">
+        <a href="../index.html" class="logo-container">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-default">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="Logo" class="logo-hover">
+        </a>
+    
+        <div class="burger-lines">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+    
+        <div class="explore-text">EXPLORE</div>
+    
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="../index.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Home.svg"
+                            alt="Home" class="nav-icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../my-words.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/My%20Words.svg"
+                            alt="My Words" class="nav-icon">
+                        <span>My Words</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Phrasal Verbs.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Phrasal%20verbs.svg"
+                            alt="Phrasal Verbs" class="nav-icon">
+                        <span>Phrasal Verbs</span>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="../Grammar Practice.html" class="nav-button">
+                        <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/862f6816409a075d3f96de0db94220390188e693/assets/img/Grammar%20practice.svg"
+                            alt="Grammar Practice" class="nav-icon">
+                        <span>Grammar Practice</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="content-grid">
+            <!-- Left Column - Scrollable Content -->
+            <div class="content-left">
+                <!-- Description Section (Always Open) -->
+                <section class="content-section description-section">
+                    <h2>Description</h2>
+                    <div class="section-content">
+                        <p>The characters Harry, Hermione, and Ron find themselves in a challenging situation: a room transformed into a giant chessboard. To proceed, they must play a life-sized game of chess, taking positions as chess pieces. Tension and strategy dominate the scene as they prepare to navigate this magical puzzle.</p>
+                    </div>
+                </section>
+                <!-- Background Section -->
+                <section class="content-section">
+                    <div class="section-header" data-section="background">
+                        <h2>Background</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="background" style="display: none;">
+                        <div class="character-grid">
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Harry.jpg" alt="Harry Potter">
+                                </div>
+                                <h3 class="character-name">Harry Potter</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Hermione Granger.jpeg" alt="Hermione Grange">
+                                </div>
+                                <h3 class="character-name">Hermione Granger</h3>
+                            </div>
+                            <div class="character-card">
+                                <div class="character-image">
+                                    <img src="../assets/img/Harry Potter/Ron Weasley.jpg" alt="Ron Weasley">
+                                </div>
+                                <h3 class="character-name">Ron Weasley</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Vocabulary Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="vocabulary">
+                        <h2>Vocabulary</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="vocabulary" style="display: none;">
+                        
+                        <div class="vocabulary-hint">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="vocabulary-list">
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Кладбище">Graveyard</span>
+                                            <span class="transcription">/ˈɡreɪvˌjɑːrd/</span>
+                                            
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        
+                                        <span class="definition">A place where dead people are buried.</span>
+                                        
+                                        <div class="synonyms">
+                                            Synonyms: cemetery, burial ground, churchyard
+                                        </div>
+                                        
+                                        <div class="example">
+                                            Example: They found themselves in an eerie graveyard at night.
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Слон (в шахматах), епископ">Bishop</span>
+                                            <span class="transcription">/ˈbɪʃ.əp/</span>
+                                            
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        
+                                        <span class="definition">A chess piece that moves diagonally; also a high-ranking member of the clergy in some Christian churches.</span>
+                                        
+                                        <div class="synonyms">
+                                            Synonyms: clergyman (non-chess context)
+                                        </div>
+                                        
+                                        <div class="example">
+                                            Example: Harry was instructed to stand on the bishop's square.
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Конь (в шахматах), рыцарь">Knight</span>
+                                            <span class="transcription">/naɪt/</span>
+                                            
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        
+                                        <span class="definition">A chess piece that moves in an L-shape; also a medieval warrior.</span>
+                                        
+                                        <div class="synonyms">
+                                            Synonyms: horseman, paladin
+                                        </div>
+                                        
+                                        <div class="example">
+                                            Example: Ron chose to play the role of the knight.
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Ладья (в шахматах), замок">Castle</span>
+                                            <span class="transcription">/ˈkæs.l̩/</span>
+                                            
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        
+                                        <span class="definition">A chess piece also called the rook; a large, fortified building or residence.</span>
+                                        
+                                        <div class="synonyms">
+                                            Synonyms: rook (in chess), fortress
+                                        </div>
+                                        
+                                        <div class="example">
+                                            Example: Hermione was positioned as the queenside castle.
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Квадрат, клетка">Square</span>
+                                            <span class="transcription">/skwɛr/</span>
+                                            
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            
+                                            <span class="type">[Noun]</span>
+                                        </div>
+                                        
+                                        <span class="definition">A shape with four equal sides; in chess, one of the 64 spaces on the board.</span>
+                                        
+                                        <div class="synonyms">
+                                            Synonyms: block, cell (in chess context)
+                                        </div>
+                                        
+                                        <div class="example">
+                                            Example: Harry stood on the bishop's square.
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                            
+                            <div class="vocab-item">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" hidden>
+                                    <span class="checkmark"></span>
+                                    
+                                    <div class="vocab-text">
+                                        <div class="word-line">
+                                            <span class="word" data-translation="Очевидный">Obvious</span>
+                                            <span class="transcription">/ˈɑːb.vi.əs/</span>
+                                            
+                                            <button class="play-audio" aria-label="Listen to pronunciation">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                                </svg>
+                                            </button>
+                                            
+                                            <span class="type">[Adjective]</span>
+                                        </div>
+                                        
+                                        <span class="definition">Easily perceived or understood; clear.</span>
+                                        
+                                        <div class="synonyms">
+                                            Synonyms: evident, clear, apparent
+                                        </div>
+                                    
+                                        <div class="example">
+                                            Example: It was obvious they had to play their way across the chessboard.
+                                        </div>
+                                    </div>
+                                    <button class="add-to-dictionary">Add to Dictionary</button>
+                                </label>
+                            </div>
+                          
+                        <!-- <div class="type-hints">
+                            <span class="hint-item">[n] - noun</span>
+                            <span class="hint-item">[v] - verb</span>
+                            <span class="hint-item">[phv] - phrasal verb</span>
+                            <span class="hint-item">[adj] - adjective</span>
+                            <span class="hint-item">[exp] - expression</span>
+                        </div> -->
+                        
+                      </div>
+                      <div class="dictionary-popup" style="display: none;">
+                        <div class="popup-content">
+                          <h3>Added to Dictionary!</h3>
+                          <p>You can find this word in your personal dictionary</p>
+                          <button class="close-popup">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Video Script Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="script">
+                        <h2>Script</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="script" style="display: none;">
+                        <div class="script-info">
+                            <div class="tooltip">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                                    <path d="M12 16V12M12 8H12.01"/>
+                                </svg>
+                                <span class="tooltip-text">Наведите на текст, чтобы увидеть перевод</span>
+                                <span class="tooltip-text">Hover over the text to see the translation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="script-list">
+                            <div class="script-item">
+                                <span class="character">Hermione:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">I don't like this. I don't like this at all.</span>
+                                    <span class="translation">Мне это не нравится. Мне это совсем не нравится.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Where are we? A graveyard?</span>
+                                    <span class="translation">Где мы? Кладбище?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">This is no graveyard,</span>
+                                    <span class="translation">Это не кладбище,</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">It's a chessboard.</span>
+                                    <span class="translation">Это шахматная доска.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Harry:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">There's the door!</span>
+                                    <span class="translation">Вот дверь!</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Hermione:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Now what do we do?</span>
+                                    <span class="translation">Что нам теперь делать?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">It's obvious, isn't it? We've got to play our way across the room.</span>
+                                    <span class="translation">Разве не очевидно? Мы должны пройти через комнату, играя в шахматы.</span>
+                                </div>
+                            </div>
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">Обратите внимание на использование "it's obvious" - это устойчивое выражение, которое часто используется для указания на очевидность ситуации.</span>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Alright, Harry, you take the empty bishop's square.</span>
+                                    <span class="translation">Хорошо, Гарри, ты займи пустое место слона.</span>
+                                </div>
+                            </div>
+                            <div class="script-note">
+                                <div class="phrase-container">
+                                    <span class="phrase">В шахматах фигуры на английском называются: bishop (слон), castle/rook (ладья), knight (конь). Queenside - это ферзевый фланг (левая сторона доски).</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Hermione, you'll be the queenside castle. As for me, I'll be a knight.</span>
+                                    <span class="translation">Гермиона, ты будешь ладьёй на ферзевом фланге. Что касается меня, я буду конём.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Hermione:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">What happens now?</span>
+                                    <span class="translation">Что теперь будет?</span>
+                                </div>
+                            </div>
+                            
+                            <div class="script-item">
+                                <span class="character">Ron:</span>
+                                <div class="phrase-container">
+                                    <span class="phrase">Well, white moves first, then... we play.</span>
+                                    <span class="translation">Что ж, белые ходят первыми, затем... мы играем.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- --------------------------------------------------------------
+                # Grammar Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="grammar">
+                        <h2>Grammar Focus</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="grammar" style="display: none;">
+                        <div class="grammar-container">
+                            <div class="theory-section">
+                                <h3>Imperatives (Повелительное наклонение)</h3>
+                                <div class="theory-explanation">
+                                    <p>Императивы (повелительное наклонение) используются для выражения команд, предложений, советов или запретов. В английском языке они часто встречаются в инструкциях, правилах игр и повседневном общении.</p>
+                                </div>
+                            
+                                <div class="rules-section">
+                                    <h4>Правило</h4>
+                                    <div class="rule-item">
+                                        <div class="rule-title">Утвердительная форма</div>
+                                        <div class="rule-example">Глагол в начальной форме (без to)</div>
+                                        <div class="rule-example">Подлежащее (you) опускается</div><br>
+                                        <div class="rule-example"><strong>Move</strong> forward!</div>
+                                        <div class="rule-example"><strong>Take</strong> your seat.</div>
+                                    </div>
+                            
+                                    <div class="rule-item">
+                                        <div class="rule-title">Отрицательная форма</div>
+                                        <div class="rule-example">Don't + глагол в начальной форме</div><br>
+                                        <div class="rule-example"><strong>Don't run</strong> in the corridors!</div>
+                                        <div class="rule-example"><strong>Don't touch</strong> the bishop!</div>
+                                    </div>
+                            
+                                    <div class="rule-item">
+                                        <div class="rule-title">Контекст использования</div>
+                                        <div class="rule-example">1. Игры и инструкции</div>
+                                        <div class="rule-example">2. Советы и предложения</div>
+                                        <div class="rule-example">3. Команды и запреты</div>
+                                    </div>
+                                </div>
+                            
+                                <div class="examples-section">
+                                    <h4>Примеры из текста</h4>
+                                    <div class="example-item">
+                                        <div class="example-text">Take the empty bishop's square.</div>
+                                        <div class="example-explanation">Займи пустую клетку слона.</div>
+                                    </div>
+                                    <div class="example-item">
+                                        <div class="example-text">Don't step on the wrong square!</div>
+                                        <div class="example-explanation">Не наступай на неправильную клетку!</div>
+                                    </div>
+                                    <div class="example-item">
+                                        <div class="example-text">Be careful when playing.</div>
+                                        <div class="example-explanation">Будь осторожен во время игры.</div>
+                                    </div>
+                                </div>
+                            
+                                <div class="practice-section">
+                                    <h4>Практическое упражнение</h4>
+                                    <p>Преобразуйте предложения в повелительное наклонение (императив).</p><br>
+                                    <div class="practice-items">
+                                        <div class="practice-item">
+                                            <div class="question">You should move the knight → (move) <input type="text" class="tag-input" data-correct="Move the knight"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">You shouldn't touch that piece → (don't) <input type="text" class="tag-input" data-correct="Don't touch that piece"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">You must be quiet → (be) <input type="text" class="tag-input" data-correct="Be quiet"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">You should not make noise → (don't) <input type="text" class="tag-input" data-correct="Don't make noise"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                        <div class="practice-item">
+                                            <div class="question">You must wait for your turn → (wait) <input type="text" class="tag-input" data-correct="Wait for your turn"></div>
+                                            <button class="check-button">Проверить</button>
+                                            <div class="result"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Questions Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="questions">
+                        <h2>Questions</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="questions" style="display: none;">
+                        <div class="questions-list">
+                            <div class="question-item">
+                                <p class="question-text">1. Where are the characters in this scene?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">On a chessboard</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">In a castle</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question1" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">In a forest</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">2. What do they need to do to get to the door?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Play their way across the chessboard</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Solve a riddle</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question2" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Find a hidden key</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">3. Who takes the empty bishop's square?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Harry</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Ron</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question3" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Hermione</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">4. What is Ron's role in the game?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A knight</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A bishop</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question4" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">A pawn</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">5. What does "white moves first" mean?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">White pieces make the first move in chess</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">White players start speaking first</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question5" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The white door will open first</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">6. What does Hermione say about the situation?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">"I don't like this at all."</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">"This is too easy."</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question6" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">"We should leave."</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">7. What is the purpose of the chess game?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">To cross the room</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">To entertain the players</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question7" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">To practice chess skills</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">8. Which side does Hermione take on the chessboard?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The queenside castle</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The center square</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question8" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The bishop's side</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">9. What happens after the white pieces move?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The characters begin to play</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The door opens</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question9" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">The game resets</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-item">
+                                <p class="question-text">10. What is the primary emotion the characters feel in this scene?</p><br>
+                                <div class="answers-list">
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="1">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Tension and determination</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="2">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Joy and excitement</span>
+                                    </label>
+                                    <label class="answer-container">
+                                        <input type="radio" name="question10" value="3">
+                                        <span class="checkmark"></span>
+                                        <span class="answer-text">Confusion and boredom</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sorting Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="sorting">
+                        <h2>Sorting</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sorting" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите реплики в правильном порядке.</p>
+                            <p>Drag and drop the dialogues to arrange them in the correct order.</p>
+                        </div>
+                        <div class="dialogue-container">
+                            <div class="dialogue-list" data-dialogues='[
+                                { "id": 1, "text": "Hermione: I always heard Hogwarts&#39; end of the year exams were frightful, but I found that rather enjoyable" },
+                                
+                                { "id": 2, "text": "Ron: All right there, Harry?" },
+
+                                { "id": 3, "text": "Harry: My scar keeps burning. It&#39;s not like this before" },
+
+                                { "id": 4, "text": "Harry: I think it&#39;s a warning. It means danger&#39;s coming" },
+
+                                { "id": 5, "text": "Harry: Don&#39;t you think it&#39;s a bit odd that what Hagrid wants more than anything is a dragon" },
+
+                                { "id": 6, "text": "Hagrid: I don&#39;t know, I never saw his face. He kept his hood up" }
+                            ]'>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- --------------------------------------------------------------
+                # Make a Match Section
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="make-a-match">
+                        <h2>Make a Match</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="make-a-match" style="display: none;">
+                        <div class="match-instructions">
+                            <p>Соотнесите слово/выражение с его переводом.</p>
+                            <p>Match the word/expression with its translation.</p>
+                        </div>
+                        <div class="match-container">
+                            <div class="match-column" id="wordsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Graveyard</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Bishop</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Knight</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Castle</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Square</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="6">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Obvious</span>
+                                </div>
+                            </div>
+                            
+                            <div class="match-column" id="translationsColumn">
+                                <div class="match-item" draggable="true" data-match="1">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Кладбище</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="2">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Слон (в шахматах), епископ</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="3">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Конь (в шахматах), рыцарь</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="4">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Ладья (в шахматах), замок</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="5">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Квадрат, клетка</span>
+                                </div>
+                                
+                                <div class="match-item" draggable="true" data-match="6">
+                                    <span class="drag-indicator">::</span>
+                                    <span class="match-text">Очевидный</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Sentence Building 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="sentence-building">
+                        <h2>Sentence Building</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="sentence-building" style="display: none;">
+                        <div class="sort-instructions">
+                            <p>Расположите слова в правильном порядке</p>
+                            <p>Arrange the words in the correct order</p>
+                        </div>
+                        <div class="sentences-container" data-sentences='[
+                          {"words": ["this", "I", "like", "at", "don&#39;t", "all."], 
+                          "correct": "I don&#39;t like this at all."},
+                          
+                          {"words": ["we?", "Where", "are"], 
+                          "correct": "Where are we?"},
+
+                          {"words": ["White", "first.", "moves"], 
+                          "correct": "White moves first."},
+
+                          {"words": ["We&#39;ve", "across", "our", "way", "got", "play", "to", "room.", "the"], 
+                          "correct": "We&#39;ve got to play our way across the room."},
+
+                          {"words": ["knight.", "I&#39;ll", "a", "be"], 
+                          "correct": "I&#39;ll be a knight."},
+
+                          {"words": ["castle.", "Hermione,", "you&#39;ll", "the", "queenside", "be"], 
+                          "correct": "Hermione, you&#39;ll be the queenside castle."},
+
+                          {"words": ["we", "do", "What", "now?", "do"], 
+                          "correct": "What do we do now?"},
+
+                          {"words": ["square.", "bishop&#39;s", "Take", "empty", "the"], 
+                          "correct": "Take the empty bishop&#39;s square."}
+                        ]'></div>
+                    </div>
+                </section>
+
+                <!-- --------------------------------------------------------------
+                # Fill in the Blank 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="fill-in-blanks">
+                        <h2>Fill in the Blanks</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="fill-in-blanks" style="display: none;">
+                        <div class="fill-blanks-list">
+                            <div class="fill-blank-item" data-correct="don't like">
+                                <div class="sentence">
+                                    <p>I <span class="blank">______</span> this at all.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="don't like">don't like</button>
+                                    <button class="option" data-value="like">like</button>
+                                    <button class="option" data-value="likes">likes</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="are">
+                                <div class="sentence">
+                                    <p>Where <span class="blank">______</span> we? A graveyard?</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="are">are</button>
+                                    <button class="option" data-value="be">be</button>
+                                    <button class="option" data-value="is">is</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="got to">
+                                <div class="sentence">
+                                    <p>We've <span class="blank">______</span> play our way across the room.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="got to">got to</button>
+                                    <button class="option" data-value="have to">have to</button>
+                                    <button class="option" data-value="must to">must to</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="moves">
+                                <div class="sentence">
+                                    <p>White <span class="blank">______</span> first, then... we play.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="moves">moves</button>
+                                    <button class="option" data-value="move">move</button>
+                                    <button class="option" data-value="moving">moving</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="take">
+                                <div class="sentence">
+                                    <p>Harry, you <span class="blank">______</span> the empty bishop's square.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="take">take</button>
+                                    <button class="option" data-value="took">took</button>
+                                    <button class="option" data-value="taken">taken</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="be">
+                                <div class="sentence">
+                                    <p>Hermione, you'll <span class="blank">______</span> the queenside castle for me.</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="be">be</button>
+                                    <button class="option" data-value="being">being</button>
+                                    <button class="option" data-value="been">been</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="What">
+                                <div class="sentence">
+                                    <p><span class="blank">______</span> do we do now?</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="What">What</button>
+                                    <button class="option" data-value="When">When</button>
+                                    <button class="option" data-value="Where">Where</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="do">
+                                <div class="sentence">
+                                    <p>What <span class="blank">______</span> you mean by 'play our way across'?</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="do">do</button>
+                                    <button class="option" data-value="did">did</button>
+                                    <button class="option" data-value="does">does</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="happens">
+                                <div class="sentence">
+                                    <p>What <span class="blank">______</span> now?</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="happens">happens</button>
+                                    <button class="option" data-value="happen">happen</button>
+                                    <button class="option" data-value="happened">happened</button>
+                                </div>
+                            </div>
+                            
+                            <div class="fill-blank-item" data-correct="am">
+                                <div class="sentence">
+                                    <p>I <span class="blank">______</span> confused. What's happening?</p>
+                                </div>
+                                <div class="options">
+                                    <button class="option" data-value="am">am</button>
+                                    <button class="option" data-value="is">is</button>
+                                    <button class="option" data-value="are">are</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- --------------------------------------------------------------
+                # Discussion 
+                ---------------------------------------------------------------->
+                <section class="content-section">
+                    <div class="section-header" data-section="discussion">
+                        <h2>Discussion</h2>
+                        <div class="arrow-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="section-content" id="discussion" style="display: none;">
+                        <div class="discussion-list">
+                            <div class="discussion-item">
+                                <span class="question-number">1</span>
+                                <div class="question-container">
+                                    <p class="question-text">What do you think about using a chessboard to move across the room? What does this tell us about the wizarding world's approach to challenges?</p>
+                                    <p class="question-translation">Что вы думаете об использовании шахматной доски для передвижения по комнате? О чём это говорит нам в отношении того, как волшебный мир подходит к испытаниям?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">2</span>
+                                <div class="question-container">
+                                    <p class="question-text">Hermione, usually the most knowledgeable, feels uncertain here while Ron takes the lead. How does this shift in roles affect their dynamic?</p>
+                                    <p class="question-translation">Гермиона, обычно самая знающая, здесь чувствует неуверенность, в то время как Рон берет на себя руководство. Как эта смена ролей влияет на их взаимодействие?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">3</span>
+                                <div class="question-container">
+                                    <p class="question-text">How does chess strategy in this scene mirror the way these characters approach real-life challenges?</p>
+                                    <p class="question-translation">Как шахматная стратегия в этой сцене отражает то, как эти персонажи подходят к реальным жизненным вызовам?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">4</span>
+                                <div class="question-container">
+                                    <p class="question-text">Why must they play the game to move forward? What does this tell us about facing challenges in life?</p>
+                                    <p class="question-translation">Почему им нужно сыграть в игру, чтобы двигаться дальше? О чем это говорит нам в отношении преодоления жизненных трудностей?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">5</span>
+                                <div class="question-container">
+                                    <p class="question-text">Each character takes a specific chess piece position. How do these roles reflect their personalities and strengths?</p>
+                                    <p class="question-translation">Каждый персонаж занимает определённую позицию шахматной фигуры. Как эти роли отражают их личности и сильные стороны?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">6</span>
+                                <div class="question-container">
+                                    <p class="question-text">How does trust play a role in this scene? What makes the characters willing to follow Ron's leadership?</p>
+                                    <p class="question-translation">Какую роль играет доверие в этой сцене? Что заставляет персонажей следовать руководству Рона?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">7</span>
+                                <div class="question-container">
+                                    <p class="question-text">What would you do in this dangerous situation? How do different approaches to problem-solving affect outcomes?</p>
+                                    <p class="question-translation">Что бы вы сделали в этой опасной ситуации? Как разные подходы к решению проблем влияют на результат?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">8</span>
+                                <div class="question-container">
+                                    <p class="question-text">How does this magical chess game challenge balance individual skill with teamwork?</p>
+                                    <p class="question-translation">Как это волшебное шахматное испытание уравновешивает индивидуальные навыки и командную работу?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">9</span>
+                                <div class="question-container">
+                                    <p class="question-text">What does this scene reveal about how friendship and trust can help overcome seemingly impossible challenges?</p>
+                                    <p class="question-translation">Что эта сцена показывает нам о том, как дружба и доверие могут помочь преодолеть казалось бы невозможные препятствия?</p>
+                                </div>
+                            </div>
+                            
+                            <div class="discussion-item">
+                                <span class="question-number">10</span>
+                                <div class="question-container">
+                                    <p class="question-text">How does this magical version of chess reflect larger themes about sacrifice and strategy in the story?</p>
+                                    <p class="question-translation">Как эта волшебная версия шахмат отражает более глобальные темы о жертвенности и стратегии в истории?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column - Fixed Video -->
+            <div class="content-right">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/tgBgHWyA4ZY"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <!-- Footer Navigation -->
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../my-words.html">My Words</a></li>
+                        <li><a href="../Phrasal Verbs.html">Phrasal Verbs</a></li>
+                        <li><a href="../Grammar-practice.html">Grammar Practice</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2025 EnglishPlay. All rights reserved.
+                </div>
+                <div class="footer-copyright">
+                    hello.englishplay@gmail.com
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+    
+            <!-- Large Text at the Bottom -->
+            <h2 class="footer-large-text">
+                <span class="footer-large-text">EnglishPlay</span>
+            </h2>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/episodes.js"></script>
+</body>
+</html>
