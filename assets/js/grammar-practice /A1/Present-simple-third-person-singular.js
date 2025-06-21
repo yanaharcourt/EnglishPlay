@@ -11,7 +11,7 @@ if (!window.grammarExercises.tenses) {
 Page 1: Basic Rules
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page1'] = {
-    title: "Basic Rules", multipleChoice: [
+    title: "Present Simple - Basic Rules", multipleChoice: [
         {
             question: "Choose the correct form for 'he':",
             questionRu: "Выберите правильную форму для 'he':",
@@ -179,7 +179,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page1'] 
 Page 2: Verbs ending in -s, -sh, -ch, -x, -z
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page2'] = {
-    title: "Verbs ending in -s, -sh, -ch, -x, -z", multipleChoice: [
+    title: "Present Simple - Verbs ending in -s, -sh, -ch, -x, -z", multipleChoice: [
         {
             question: "Choose the correct form for verbs ending in -s:",
             questionRu: "Выберите правильную форму для глаголов, оканчивающихся на -s:",
@@ -347,7 +347,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page2'] 
 Page 3: Verbs ending in consonant + y
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page3'] = {
-    title: "Verbs ending in consonant + y", multipleChoice: [
+    title: "Present Simple - Verbs ending in consonant + y", multipleChoice: [
         {
             question: "Choose the correct form for verbs ending in consonant + y:",
             questionRu: "Выберите правильную форму для глаголов, оканчивающихся на согласную + y:",
@@ -515,7 +515,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page3'] 
 Page 4: Daily Habits and Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page4'] = {
-    title: "Daily Habits and Routines", multipleChoice: [
+    title: "Present Simple - Daily Habits and Routines", multipleChoice: [
         {
             question: "Choose the correct form for daily habits:",
             questionRu: "Выберите правильную форму для ежедневных привычек:",
@@ -683,7 +683,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page4'] 
 Page 5: Work and Professional Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page5'] = {
-    title: "Work and Professional Activities", multipleChoice: [
+    title: "Present Simple - Work and Professional Activities", multipleChoice: [
         {
             question: "Choose the correct form for professional activities:",
             questionRu: "Выберите правильную форму для профессиональной деятельности:",
@@ -851,7 +851,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page5'] 
 Page 6: Hobbies and Free Time Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page6'] = {
-    title: "Hobbies and Free Time Activities", multipleChoice: [
+    title: "Present Simple - Hobbies and Free Time Activities", multipleChoice: [
         {
             question: "Choose the correct form for sports activities:",
             questionRu: "Выберите правильную форму для спортивных активностей:",
@@ -1019,7 +1019,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page6'] 
 Page 7: Family and Relationships
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page7'] = {
-    title: "Family and Relationships", multipleChoice: [
+    title: "Present Simple - Family and Relationships", multipleChoice: [
         {
             question: "Choose the correct form for family relationships:",
             questionRu: "Выберите правильную форму для семейных отношений:",
@@ -1187,7 +1187,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page7'] 
 Page 8: Technology and Modern Life
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page8'] = {
-    title: "Technology and Modern Life", multipleChoice: [
+    title: "Present Simple - Technology and Modern Life", multipleChoice: [
         {
             question: "Choose the correct form for social media:",
             questionRu: "Выберите правильную форму для социальных сетей:",
@@ -1355,7 +1355,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page8'] 
 Page 9: Travel and Transportation
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page9'] = {
-    title: "Travel and Transportation",  multipleChoice: [
+    title: "Present Simple - Travel and Transportation",  multipleChoice: [
         {
             question: "Choose the correct form for air travel:",
             questionRu: "Выберите правильную форму для авиаперелетов:",
@@ -1522,7 +1522,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page9'] 
 Page 10: Mixed Review and Complex Sentences
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-page10'] = {
-    title: "Mixed Review and Complex Sentences",  multipleChoice: [
+    title: "Present Simple - Mixed Review and Complex Sentences",  multipleChoice: [
         {
             question: "Choose the correct form for complex daily routine:",
             questionRu: "Выберите правильную форму для сложной ежедневной рутины:",
@@ -1700,7 +1700,7 @@ console.log("===== ALL 10 PAGES OF THIRD PERSON SINGULAR EXERCISES COMPLETE! ===
 Page 1: Basic Rules
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page1'] = {
-    title: "Basic Rules", fillGaps: [
+    title: "Present Simple - Basic Rules", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1818,7 +1818,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page
 Page 2: Verbs ending in -s, -sh, -ch, -x, -z
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page2'] = {
-    title: "Verbs ending in -s, -sh, -ch, -x, -z", fillGaps: [
+    title: "Present Simple - Verbs ending in -s, -sh, -ch, -x, -z", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1936,7 +1936,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page
 Page 3: Verbs ending in consonant + y
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page3'] = {
-    title: "Verbs ending in consonant + y",  fillGaps: [
+    title: "Present Simple - Verbs ending in consonant + y",  fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2054,7 +2054,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page
 Page 4: Daily Habits and Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page4'] = {
-    title: "Daily Habits and Routines",  fillGaps: [
+    title: "Present Simple - Daily Habits and Routines",  fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2172,7 +2172,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page
 Page 5: Work and Professional Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page5'] = {
-    title: "Work and Professional Activities",  fillGaps: [
+    title: "Present Simple - Work and Professional Activities",  fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2290,7 +2290,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page
 Page 6: Hobbies and Free Time Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page6'] = {
-    title: "Hobbies and Free Time Activities", fillGaps: [
+    title: "Present Simple - Hobbies and Free Time Activities", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2408,7 +2408,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page
 Page 7: Family and Relationships
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page7'] = {
-    title: "Family and Relationships", fillGaps: [
+    title: "Present Simple - Family and Relationships", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2526,7 +2526,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page
 Page 8: Technology and Modern Life
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page8'] = {
-    title: "Technology and Modern Life", fillGaps: [
+    title: "Present Simple - Technology and Modern Life", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2644,7 +2644,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page
 Page 9: Travel and Transportation
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page9'] = {
-    title: "Travel and Transportation", fillGaps: [
+    title: "Present Simple - Travel and Transportation", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2762,7 +2762,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page
 Page 10: Mixed Review
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-gap-page10'] = {
-    title: "Mixed Review",  fillGaps: [
+    title: "Present Simple - Mixed Review",  fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2889,7 +2889,7 @@ console.log("===== FILL IN THE GAPS: PAGES 1-10 LOADED =====");
 Page 1: Basic Rules
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page1'] = {
-    title: "Basic Rules", sentenceBuilding: [
+    title: "Present Simple - Basic Rules", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -2997,7 +2997,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 2: Verbs ending in -s, -sh, -ch, -x, -z
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page2'] = {
-    title: "Verbs ending in -s, -sh, -ch, -x, -z", sentenceBuilding: [
+    title: "Present Simple - Verbs ending in -s, -sh, -ch, -x, -z", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3105,7 +3105,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 3: Verbs ending in consonant + y
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page3'] = {
-    title: "Verbs ending in consonant + y", sentenceBuilding: [
+    title: "Present Simple - Verbs ending in consonant + y", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3213,7 +3213,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 4: Daily Habits and Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page4'] = {
-    title: "Daily Habits and Routines",  sentenceBuilding: [
+    title: "Present Simple - Daily Habits and Routines",  sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3321,7 +3321,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 5: Work and Professional Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page5'] = {
-    title: "Work and Professional Activities", sentenceBuilding: [
+    title: "Present Simple - Work and Professional Activities", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3429,7 +3429,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 6: Hobbies and Free Time Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page6'] = {
-    title: "Hobbies and Free Time Activities", sentenceBuilding: [
+    title: "Present Simple - Hobbies and Free Time Activities", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3537,7 +3537,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 7: Family and Relationships
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page7'] = {
-    title: "Family and Relationships", sentenceBuilding: [
+    title: "Present Simple - Family and Relationships", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3645,7 +3645,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 8: Technology and Modern Life
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page8'] = {
-    title: "Technology and Modern Life", sentenceBuilding: [
+    title: "Present Simple - Technology and Modern Life", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3753,7 +3753,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 9: Travel and Transportation
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page9'] = {
-    title: "Travel and Transportation", sentenceBuilding: [
+    title: "Present Simple - Travel and Transportation", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3861,7 +3861,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 10: Mixed Review
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page10'] = {
-    title: "Mixed Review", sentenceBuilding: [
+    title: "Present Simple - Mixed Review", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",

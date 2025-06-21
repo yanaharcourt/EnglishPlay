@@ -1,12 +1,12 @@
 /* =============================================================================== */
 /* =========================Multiple Choice Exercises============================= */
 window.grammarExercises = window.grammarExercises || {};
-window.grammarExercises['tenses'] = window.grammarExercises['tenses'] || {};
+window.grammarExercises['continuous-tenses'] = window.grammarExercises['continuous-tenses'] || {};
 
 /* ============================================
 Page 1: Work and Office Actions - I am working, She is typing, They are meeting
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page1'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page1'] = {
     title: "Work and Office Actions",
     multipleChoice: [
         {
@@ -175,7 +175,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-page1'] = 
 /* ============================================
 Page 2: Home and Family Activities - We are cooking, He is cleaning, She is helping
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page2'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page2'] = {
     title: "Home and Family Activities",
     multipleChoice: [
         {
@@ -344,7 +344,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-page2'] = 
 /* ============================================
 Page 3: Study and Learning Activities - I am studying, They are practicing, She is memorizing
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page3'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page3'] = {
     title: "Study and Learning Activities",
     multipleChoice: [
         {
@@ -513,7 +513,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-page3'] = 
 /* ============================================
 Page 4: Recreation and Entertainment - We are playing, He is watching, She is listening
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page4'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page4'] = {
     title: "Recreation and Entertainment",
     multipleChoice: [
         {
@@ -682,7 +682,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-page4'] = 
 /* ============================================
 Page 5: Travel and Transportation - I am driving, She is boarding, They are exploring
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page5'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page5'] = {
     title: "Travel and Transportation",
     multipleChoice: [
         {
@@ -851,7 +851,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-page5'] = 
 /* ============================================
 Page 6: Health and Fitness - We are exercising, He is stretching, She is running
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page6'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page6'] = {
     title: "Health and Fitness",
     multipleChoice: [
         {
@@ -1020,7 +1020,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-page6'] = 
 /* ============================================
 Page 7: Technology and Communication - I am texting, She is browsing, They are streaming
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page7'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page7'] = {
     title: "Technology and Communication",
     multipleChoice: [
         {
@@ -1189,7 +1189,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-page7'] = 
 /* ============================================
 Page 8: Weather and Nature - It is raining, The wind is blowing, Flowers are blooming
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page8'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page8'] = {
     title: "Weather and Nature",
     multipleChoice: [
         {
@@ -1358,7 +1358,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-page8'] = 
 /* ============================================
 Page 9: Shopping and Business - I am purchasing, She is negotiating, They are investing
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page9'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page9'] = {
     title: "Shopping and Business",
     multipleChoice: [
         {
@@ -1527,7 +1527,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-page9'] = 
 /* ============================================
 Page 10: Personal Care and Daily Maintenance - I am grooming, She is maintaining, They are organizing
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-page10'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-page10'] = {
     title: "Personal Care and Daily Maintenance",
     multipleChoice: [
         {
@@ -1705,7 +1705,7 @@ console.log("===== ALL PRESENT CONTINUOUS CURRENT ACTIONS EXERCISES PAGES 1-10 L
 /* ============================================
 Page 1: Professional Activities - Working, typing, calling, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page1'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page1'] = {
     title: "Professional Activities",
     fillGaps: [
         {
@@ -1824,7 +1824,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-gap-page1'
 /* ============================================
 Page 2: Household and Family Tasks - Cleaning, cooking, gardening, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page2'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page2'] = {
     title: "Household and Family Tasks",
     fillGaps: [
         {
@@ -1943,7 +1943,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-gap-page2'
 /* ============================================
 Page 3: Educational and Learning Activities - Studying, researching, practicing, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page3'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page3'] = {
     title: "Educational and Learning Activities",
     fillGaps: [
         {
@@ -2062,7 +2062,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-gap-page3'
 /* ============================================
 Page 4: Entertainment and Leisure Activities - Playing, watching, listening, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page4'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page4'] = {
     title: "Entertainment and Leisure Activities",
     fillGaps: [
         {
@@ -2181,7 +2181,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-gap-page4'
 /* ============================================
 Page 5: Travel and Transportation Activities - Driving, flying, exploring, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page5'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page5'] = {
     title: "Travel and Transportation Activities",
     fillGaps: [
         {
@@ -2300,7 +2300,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-gap-page5'
 /* ============================================
 Page 6: Health and Fitness Activities - Exercising, training, stretching, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page6'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page6'] = {
     title: "Health and Fitness Activities",
     fillGaps: [
         {
@@ -2419,7 +2419,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-gap-page6'
 /* ============================================
 Page 7: Technology and Communication Activities - Connecting, uploading, streaming, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page7'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page7'] = {
     title: "Technology and Communication Activities",
     fillGaps: [
         {
@@ -2538,7 +2538,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-gap-page7'
 /* ============================================
 Page 8: Weather and Natural Phenomena - Raining, blowing, changing, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page8'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page8'] = {
     title: "Weather and Natural Phenomena",
     fillGaps: [
         {
@@ -2657,7 +2657,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-gap-page8'
 /* ============================================
 Page 9: Business and Commerce Activities - Trading, negotiating, investing, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page9'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page9'] = {
     title: "Business and Commerce Activities",
     fillGaps: [
         {
@@ -2776,7 +2776,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-gap-page9'
 /* ============================================
 Page 10: Personal Development and Self-Care - Improving, nurturing, maintaining, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-gap-page10'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-gap-page10'] = {
     title: "Personal Development and Self-Care",
     fillGaps: [
         {
@@ -2904,7 +2904,7 @@ console.log("===== PRESENT CONTINUOUS FILL GAPS EXERCISES PAGES 1-10 LOADED ====
 /* ============================================
 Page 1: Workplace and Professional Tasks - Working, typing, calling, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page1'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page1'] = {
     title: "Workplace and Professional Tasks",
     sentenceBuilding: [
         {
@@ -3013,7 +3013,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
 /* ============================================
 Page 2: Home and Family Activities - Playing, watching, cooking, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page2'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page2'] = {
     title: "Home and Family Activities",
     sentenceBuilding: [
         {
@@ -3122,7 +3122,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
 /* ============================================
 Page 3: School and Learning Activities - Studying, writing, learning, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page3'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page3'] = {
     title: "School and Learning Activities",
     sentenceBuilding: [
         {
@@ -3231,7 +3231,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
 /* ============================================
 Page 4: Healthcare and Medical Services - Treating, diagnosing, caring, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page4'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page4'] = {
     title: "Healthcare and Medical Services",
     sentenceBuilding: [
         {
@@ -3340,7 +3340,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
 /* ============================================
 Page 5: Environmental and Conservation Work - Protecting, preserving, monitoring, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page5'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page5'] = {
     title: "Environmental and Conservation Work",
     sentenceBuilding: [
         {
@@ -3449,7 +3449,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
 /* ============================================
 Page 6: Community and Social Services - Volunteering, assisting, supporting, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page6'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page6'] = {
     title: "Community and Social Services",
     sentenceBuilding: [
         {
@@ -3558,7 +3558,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
 /* ============================================
 Page 7: Sports and Fitness Activities - Training, competing, exercising, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page7'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page7'] = {
     title: "Sports and Fitness Activities",
     sentenceBuilding: [
         {
@@ -3667,7 +3667,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
 /* ============================================
 Page 8: Food and Cooking Activities - Preparing, baking, serving, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page8'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page8'] = {
     title: "Food and Cooking Activities",
     sentenceBuilding: [
         {
@@ -3776,7 +3776,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
 /* ============================================
 Page 9: Entertainment and Media - Performing, broadcasting, filming, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page9'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page9'] = {
     title: "Entertainment and Media",
     sentenceBuilding: [
         {
@@ -3885,7 +3885,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
 /* ============================================
 Page 10: Daily Life and Personal Activities - Shopping, relaxing, traveling, etc.
 ============================================ */
-window.grammarExercises['tenses']['present-continuous-current-actions-sentence-page10'] = {
+window.grammarExercises['continuous-tenses']['present-continuous-current-actions-sentence-page10'] = {
     title: "Daily Life and Personal Activities",
     sentenceBuilding: [
         {

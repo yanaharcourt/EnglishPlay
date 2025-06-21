@@ -7,7 +7,7 @@ window.grammarExercises['tenses'] = window.grammarExercises['tenses'] || {};
 Page 1: Basic Negatives - I don't, You don't, We don't, They don't
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page1'] = {
-    title: "Basic Negatives - I, You, We, They",
+    title: "Present Simple Negatives - Basic Negatives - I, You, We, They",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -176,7 +176,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page1'] = {
 Page 2: Third Person Negatives - He doesn't, She doesn't, It doesn't
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page2'] = {
-    title: "Third Person Negatives - He, She, It",
+    title: "Present Simple Negatives - Third Person Negatives - He, She, It",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -345,7 +345,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page2'] = {
 Page 3: Mixed Personal Pronouns - Combining all forms
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page3'] = {
-    title: "Mixed Personal Pronouns",
+    title: "Present Simple Negatives - Mixed Personal Pronouns",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -514,7 +514,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page3'] = {
 Page 4: Daily Activities and Habits Negatives
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page4'] = {
-    title: "Daily Activities and Habits Negatives",
+    title: "Present Simple Negatives - Daily Activities and Habits Negatives",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -683,7 +683,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page4'] = {
 Page 5: Work and Professional Life Negatives
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page5'] = {
-    title: "Work and Professional Life Negatives",
+    title: "Present Simple Negatives - Work and Professional Life Negatives",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -852,7 +852,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page5'] = {
 Page 6: Hobbies, Interests and Lifestyle Negatives
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page6'] = {
-    title: "Hobbies, Interests and Lifestyle Negatives",
+    title: "Present Simple Negatives - Hobbies, Interests and Lifestyle Negatives",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -1021,7 +1021,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page6'] = {
 Page 7: Food, Health and Personal Choices Negatives
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page7'] = {
-    title: "Food, Health and Personal Choices Negatives",
+    title: "Present Simple Negatives - Food, Health and Personal Choices Negatives",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -1190,7 +1190,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page7'] = {
 Page 8: Technology, Shopping and Modern Life Negatives
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page8'] = {
-    title: "Technology, Shopping and Modern Life Negatives",
+    title: "Present Simple Negatives - Technology, Shopping and Modern Life Negatives",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -1359,7 +1359,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page8'] = {
 Page 9: Education, Learning and Communication Negatives
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page9'] = {
-    title: "Education, Learning and Communication Negatives",
+    title: "Present Simple Negatives - Education, Learning and Communication Negatives",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -1528,7 +1528,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page9'] = {
 Page 10: Environment, Travel and Future Plans Negatives
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-page10'] = {
-    title: "Environment, Travel and Future Plans Negatives",
+    title: "Present Simple Negatives - Environment, Travel and Future Plans Negatives",
     multipleChoice: [
         {
             question: "Choose the correct negative form:",
@@ -1707,7 +1707,7 @@ console.log("===== 10 PAGES OF NEGATIVES EXERCISES COMPLETE! =====");
 Page 1: Basic Negatives - I don't, You don't, We don't, They don't
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page1'] = {
-    title: "Basic Negatives - I, You, We, They",
+    title: "Present Simple Negatives - Basic Negatives - I, You, We, They",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -1826,7 +1826,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page1'] = {
 Page 2: Third Person Negatives - He doesn't, She doesn't, It doesn't
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page2'] = {
-    title: "Third Person Negatives - He, She, It",
+    title: "Present Simple Negatives - Third Person Negatives - He, She, It",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -1945,7 +1945,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page2'] = {
 Page 3: Mixed Personal Pronouns - Combining all forms
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page3'] = {
-    title: "Mixed Personal Pronouns",
+    title: "Present Simple Negatives - Mixed Personal Pronouns",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -2064,7 +2064,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page3'] = {
 Page 4: Daily Routines and Personal Habits Negatives
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page4'] = {
-    title: "Daily Routines and Personal Habits Negatives",
+    title: "Present Simple Negatives - Daily Routines and Personal Habits Negatives",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -2183,7 +2183,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page4'] = {
 Page 5: Work and Professional Life Negatives - Fill in the Gaps
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page5'] = {
-    title: "Work and Professional Life Negatives",
+    title: "Present Simple Negatives - Work and Professional Life Negatives",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -2302,7 +2302,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page5'] = {
 Page 6: Hobbies, Entertainment and Social Activities Negatives - Fill in the Gaps
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page6'] = {
-    title: "Hobbies, Entertainment and Social Activities Negatives",
+    title: "Present Simple Negatives - Hobbies, Entertainment and Social Activities Negatives",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -2421,7 +2421,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page6'] = {
 Page 7: Health, Lifestyle and Personal Choices Negatives - Fill in the Gaps
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page7'] = {
-    title: "Health, Lifestyle and Personal Choices Negatives",
+    title: "Present Simple Negatives - Health, Lifestyle and Personal Choices Negatives",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -2540,7 +2540,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page7'] = {
 Page 8: Technology, Digital Life and Communication Negatives - Fill in the Gaps
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page8'] = {
-    title: "Technology, Digital Life and Communication Negatives",
+    title: "Present Simple Negatives - Technology, Digital Life and Communication Negatives",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -2659,7 +2659,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page8'] = {
 Page 9: Learning, Education and Personal Development Negatives - Fill in the Gaps
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page9'] = {
-    title: "Learning, Education and Personal Development Negatives",
+    title: "Present Simple Negatives - Learning, Education and Personal Development Negatives",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -2778,7 +2778,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page9'] = {
 Page 10: Environment, Future Planning and Global Issues Negatives - Fill in the Gaps
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-gap-page10'] = {
-    title: "Environment, Future Planning and Global Issues Negatives",
+    title: "Present Simple Negatives - Environment, Future Planning and Global Issues Negatives",
     fillGaps: [
         {
             question: "Complete the sentence with the correct negative form:",
@@ -2907,7 +2907,7 @@ console.log("===== FILL IN THE GAPS: PAGES 1-10 LOADED =====");
 Page 1: Basic Negatives - I don't, You don't, We don't, They don't
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page1'] = {
-    title: "Basic Negatives - I, You, We, They",
+    title: "Present Simple Negatives - Basic Negatives - I, You, We, They",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
@@ -3016,7 +3016,7 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page1'] = {
 Page 2: Third Person Negatives - He doesn't, She doesn't, It doesn't
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page2'] = {
-    title: "Third Person Negatives - He, She, It",
+    title: "Present Simple Negatives - Third Person Negatives - He, She, It",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
@@ -3125,7 +3125,7 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page2'] = {
 Page 3: Mixed Personal Pronouns - Combining all forms
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page3'] = {
-    title: "Mixed Personal Pronouns",
+    title: "Present Simple Negatives - Mixed Personal Pronouns",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
@@ -3234,7 +3234,7 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page3'] = {
 Page 4: Habits, Routines and Lifestyle Negatives - Sentence Building
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page4'] = {
-    title: "Habits, Routines and Lifestyle Negatives",
+    title: "Present Simple Negatives - Habits, Routines and Lifestyle Negatives",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
@@ -3343,7 +3343,7 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page4'] = {
 Page 5: Work, Career and Professional Development Negatives - Sentence Building
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page5'] = {
-    title: "Work, Career and Professional Development Negatives",
+    title: "Present Simple Negatives - Work, Career and Professional Development Negatives",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
@@ -3452,7 +3452,7 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page5'] = {
 Page 6: Social Relationships and Communication Negatives - Sentence Building
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page6'] = {
-    title: "Social Relationships and Communication Negatives",
+    title: "Present Simple Negatives - Social Relationships and Communication Negatives",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
@@ -3561,7 +3561,7 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page6'] = {
 Page 7: Technology and Digital Life Negatives - Sentence Building
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page7'] = {
-    title: "Technology and Digital Life Negatives",
+    title: "Present Simple Negatives - Technology and Digital Life Negatives",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
@@ -3670,7 +3670,7 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page7'] = {
 Page 8: Health and Wellness Negatives - Sentence Building
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page8'] = {
-    title: "Health and Wellness Negatives",
+    title: "Present Simple Negatives - Health and Wellness Negatives",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
@@ -3779,7 +3779,7 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page8'] = {
 Page 9: Environmental and Lifestyle Negatives - Sentence Building
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page9'] = {
-    title: "Environmental and Lifestyle Negatives",
+    title: "Present Simple Negatives - Environmental and Lifestyle Negatives",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
@@ -3888,7 +3888,7 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page9'] = {
 Page 10: Final Mixed Review - All Pronouns and Advanced Topics
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page10'] = {
-    title: "Final Mixed Review - All Pronouns and Advanced Topics",
+    title: "Present Simple Negatives - Final Mixed Review",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",

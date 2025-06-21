@@ -7,7 +7,7 @@ window.grammarExercises['tenses'] = window.grammarExercises['tenses'] || {};
 Page 1: Always, Usually, Often - High Frequency Time Expressions  
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page1'] = {
-    title: "Always, Usually, Often - High Frequency", multipleChoice: [
+    title: "Present Simple - Always, Usually, Often - High Frequency", multipleChoice: [
         {
             question: "Choose the correct sentence with 'always':",
             questionRu: "Выберите правильное предложение с 'always':",
@@ -165,7 +165,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-page1'] = {
 Page 2: Sometimes, Rarely, Never - Lower Frequency Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page2'] = {
-    title: "Sometimes, Rarely, Never - Lower Frequency", multipleChoice: [
+    title: "Present Simple - Sometimes, Rarely, Never - Lower Frequency", multipleChoice: [
         {
             question: "Choose the correct sentence with 'sometimes':",
             questionRu: "Выберите правильное предложение с 'sometimes':",
@@ -323,7 +323,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-page2'] = {
 Page 3: Every day, Every week - Regular Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page3'] = {
-    title: "Every day, Every week - Regular Time Expressions", multipleChoice: [
+    title: "Present Simple - Every day, Every week - Regular Time Expressions", multipleChoice: [
         {
             question: "Choose the correct sentence with 'every day':",
             questionRu: "Выберите правильное предложение с 'every day':",
@@ -481,7 +481,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-page3'] = {
 Page 4: On Mondays, In the morning, At the weekend - Specific Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page4'] = {
-    title: "On Mondays, In the morning, At the weekend", multipleChoice: [
+    title: "Present Simple - On Mondays, In the morning, At the weekend", multipleChoice: [
         {
             question: "Choose the correct sentence with 'on Mondays':",
             questionRu: "Выберите правильное предложение с 'on Mondays':",
@@ -639,7 +639,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-page4'] = {
 Page 5: Mixed Frequency Adverbs - Advanced Combinations
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page5'] = {
-    title: "Mixed Frequency Adverbs - Advanced Combinations", multipleChoice: [
+    title: "Present Simple - Mixed Frequency Adverbs - Advanced Combinations", multipleChoice: [
         {
             question: "Choose the correct sentence with 'always':",
             questionRu: "Выберите правильное предложение с 'always':",
@@ -797,7 +797,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-page5'] = {
 Page 6: Complex Time Expressions - Days and Time Periods
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page6'] = {
-    title: "Complex Time Expressions - Days and Time Periods", multipleChoice: [
+    title: "Present Simple - Complex Time Expressions - Days and Time Periods", multipleChoice: [
         {
             question: "Choose the correct sentence with 'on weekdays':",
             questionRu: "Выберите правильное предложение с 'on weekdays':",
@@ -955,7 +955,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-page6'] = {
 Page 7: Advanced Time Combinations - Multiple Time References
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page7'] = {
-    title: "Advanced Time Combinations - Multiple Time References", multipleChoice: [
+    title: "Present Simple - Advanced Time Combinations - Multiple Time References", multipleChoice: [
         {
             question: "Choose the correct sentence with multiple time expressions:",
             questionRu: "Выберите правильное предложение с несколькими временными выражениями:",
@@ -1113,7 +1113,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-page7'] = {
 Page 8: Professional and Business Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page8'] = {
-    title: "Professional and Business Time Expressions", multipleChoice: [
+    title: "Present Simple - Professional and Business Time Expressions", multipleChoice: [
         {
             question: "Choose the correct sentence with 'every quarter':",
             questionRu: "Выберите правильное предложение с 'every quarter':",
@@ -1271,7 +1271,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-page8'] = {
 Page 9: Lifestyle and Personal Habits Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page9'] = {
-    title: "Lifestyle and Personal Habits Time Expressions", multipleChoice: [
+    title: "Present Simple - Lifestyle and Personal Habits Time Expressions", multipleChoice: [
         {
             question: "Choose the correct sentence with 'every summer':",
             questionRu: "Выберите правильное предложение с 'every summer':",
@@ -1429,7 +1429,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-page9'] = {
 Page 10: Mixed Advanced Time Expressions - Final Review
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-page10'] = {
-    title: "Mixed Advanced Time Expressions - Final Review", multipleChoice: [
+    title: "Present Simple - Mixed Advanced Time Expressions - Final Review", multipleChoice: [
         {
             question: "Choose the correct sentence with complex time combination:",
             questionRu: "Выберите правильное предложение со сложной временной комбинацией:",
@@ -1597,7 +1597,7 @@ console.log("===== MULTIPLE CHOICE EXERCISES: PAGES 1-10 COMPLETE! =====");
 Page 1: Always, Usually, Often - Basic Frequency Adverbs
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page1'] = {
-    title: "Always, Usually, Often - Basic Frequency", fillGaps: [
+    title: "Present Simple - Always, Usually, Often - Basic Frequency", fillGaps: [
         {
             question: "Complete the sentence with the correct frequency adverb:",
             questionRu: "Заполните предложение правильным наречием частоты:",
@@ -1715,7 +1715,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-gap-page1'] =
 Page 2: Sometimes, Rarely, Never - Lower Frequency Adverbs
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page2'] = {
-    title: "Sometimes, Rarely, Never - Lower Frequency", fillGaps: [
+    title: "Present Simple - Sometimes, Rarely, Never - Lower Frequency", fillGaps: [
         {
             question: "Complete the sentence with the correct frequency adverb:",
             questionRu: "Заполните предложение правильным наречием частоты:",
@@ -1833,7 +1833,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-gap-page2'] =
 Page 3: Every day, Every week - Regular Time Periods
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page3'] = {
-    title: "Every day, Every week - Regular Time Periods", fillGaps: [
+    title: "Present Simple - Every day, Every week - Regular Time Periods", fillGaps: [
         {
             question: "Complete the sentence with the correct time expression:",
             questionRu: "Заполните предложение правильным временным выражением:",
@@ -1951,7 +1951,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-gap-page3'] =
 Page 4: On Mondays, In the morning, At the weekend - Specific Time References (Complete)
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page4'] = {
-    title: "On Mondays, In the morning, At the weekend", fillGaps: [
+    title: "Present Simple - On Mondays, In the morning, At the weekend", fillGaps: [
         {
             question: "Complete the sentence with the correct time expression:",
             questionRu: "Заполните предложение правильным временным выражением:",
@@ -2069,7 +2069,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-gap-page4'] =
 Page 5: Mixed Frequency and Time Combinations - Intermediate Level
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page5'] = {
-    title: "Mixed Frequency and Time Combinations", fillGaps: [
+    title: "Present Simple - Mixed Frequency and Time Combinations", fillGaps: [
         {
             question: "Complete the sentence with the correct word:",
             questionRu: "Заполните предложение правильным словом:",
@@ -2187,7 +2187,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-gap-page5'] =
 Page 6: Advanced Time Expression Combinations - Complex Contexts
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page6'] = {
-    title: "Advanced Time Expression Combinations", fillGaps: [
+    title: "Present Simple - Advanced Time Expression Combinations", fillGaps: [
         {
             question: "Complete the sentence with the correct expression:",
             questionRu: "Заполните предложение правильным выражением:",
@@ -2305,7 +2305,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-gap-page6'] =
 Page 7: Professional and Business Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page7'] = {
-    title: "Professional and Business Time Expressions", fillGaps: [
+    title: "Present Simple - Professional and Business Time Expressions", fillGaps: [
         {
             question: "Complete the sentence with the correct expression:",
             questionRu: "Заполните предложение правильным выражением:",
@@ -2423,7 +2423,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-gap-page7'] =
 Page 8: Social and Cultural Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page8'] = {
-    title: "Social and Cultural Time Expressions", fillGaps: [
+    title: "Present Simple - Social and Cultural Time Expressions", fillGaps: [
         {
             question: "Complete the sentence with the correct expression:",
             questionRu: "Заполните предложение правильным выражением:",
@@ -2541,7 +2541,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-gap-page8'] =
 Page 9: Health and Lifestyle Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page9'] = {
-    title: "Health and Lifestyle Time Expressions", fillGaps: [
+    title: "Present Simple - Health and Lifestyle Time Expressions", fillGaps: [
         {
             question: "Complete the sentence with the correct expression:",
             questionRu: "Заполните предложение правильным выражением:",
@@ -2659,7 +2659,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-gap-page9'] =
 Page 10: Mixed Advanced Time Expressions - Final Review
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-gap-page10'] = {
-    title: "Mixed Advanced Time Expressions - Final Review", fillGaps: [
+    title: "Present Simple - Mixed Advanced Time Expressions - Final Review", fillGaps: [
         {
             question: "Complete the sentence with the correct expression:",
             questionRu: "Заполните предложение правильным выражением:",
@@ -2787,7 +2787,7 @@ console.log("===== FILL IN THE GAPS EXERCISES: PAGES 1-10 COMPLETE! =====");
 Page 1: Always, Usually, Often - Basic Frequency Patterns (Simplified A1)
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page1'] = {
-    title: "Always, Usually, Often - Basic Frequency", sentenceBuilding: [
+    title: "Present Simple - Always, Usually, Often - Basic Frequency", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -2895,7 +2895,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
 Page 2: Sometimes, Rarely, Never - Lower Frequency Patterns (Simplified A1)
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page2'] = {
-    title: "Sometimes, Rarely, Never - Lower Frequency", sentenceBuilding: [
+    title: "Present Simple - Sometimes, Rarely, Never - Lower Frequency", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3003,7 +3003,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
 Page 3: Every day, Every week - Regular Time Periods with Simple Actions (Simplified A1)
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page3'] = {
-    title: "Every day, Every week - Regular Time Periods", sentenceBuilding: [
+    title: "Present Simple - Every day, Every week - Regular Time Periods", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3111,7 +3111,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
 Page 4: On Mondays, In the morning, At the weekend - Specific Time Combinations
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page4'] = {
-    title: "On Mondays, In the morning, At the weekend", sentenceBuilding: [
+    title: "Present Simple - On Mondays, In the morning, At the weekend", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3219,7 +3219,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
 Page 5: Mixed Frequency and Time Expressions - Intermediate Combinations
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page5'] = {
-    title: "Mixed Frequency and Time Expressions", sentenceBuilding: [
+    title: "Present Simple - Mixed Frequency and Time Expressions", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3327,7 +3327,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
 Page 6: Professional and Daily Life Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page6'] = {
-    title: "Professional and Daily Life Time Expressions", sentenceBuilding: [
+    title: "Present Simple - Professional and Daily Life Time Expressions", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3435,7 +3435,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
 Page 7: Seasonal and Holiday Time Expressions - Simple A1 Level
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page7'] = {
-    title: "Seasonal and Holiday Time Expressions", sentenceBuilding: [
+    title: "Present Simple - Seasonal and Holiday Time Expressions", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3543,7 +3543,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
 Page 8: Health and Exercise Time Expressions - Simple A1 Level
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page8'] = {
-    title: "Health and Exercise Time Expressions", sentenceBuilding: [
+    title: "Present Simple - Health and Exercise Time Expressions", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3651,7 +3651,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
 Page 9: Social Activities and Family Time Expressions - Simple A1 Level
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page9'] = {
-    title: "Social Activities and Family Time Expressions", sentenceBuilding: [
+    title: "Present Simple - Social Activities and Family Time Expressions", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3759,7 +3759,7 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
 Page 10: Mixed Review - Simple A1 Level Time Expressions
 ============================================ */
 window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page10'] = {
-    title: "Mixed Review - Simple A1 Time Expressions", sentenceBuilding: [
+    title: "Present Simple - Mixed Review", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",

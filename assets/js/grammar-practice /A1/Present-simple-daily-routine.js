@@ -7,7 +7,7 @@ window.grammarExercises['tenses'] = window.grammarExercises['tenses'] || {};
 Page 1: Basic Daily Routines - I work, You study, We live
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page1'] = {
-    title: "Basic Daily Routines",  multipleChoice: [
+    title: "Present Simple - Basic Daily Routines",  multipleChoice: [
         {
             question: "Choose the correct form for daily work:",
             questionRu: "Выберите правильную форму для ежедневной работы:",
@@ -175,7 +175,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page1'] = {
 Page 2: Work and Study Routines - Daily activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page2'] = {
-    title: "Work and Study Routines", multipleChoice: [
+    title: "Present Simple - Work and Study Routines", multipleChoice: [
         {
             question: "Choose the correct form for office work:",
             questionRu: "Выберите правильную форму для офисной работы:",
@@ -343,7 +343,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page2'] = {
 Page 3: Home and Personal Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page3'] = {
-    title: "Home and Personal Routines", multipleChoice: [
+    title: "Present Simple - Home and Personal Routines", multipleChoice: [
         {
             question: "Choose the correct form for morning routine:",
             questionRu: "Выберите правильную форму для утренней рутины:",
@@ -510,7 +510,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page3'] = {
 Page 4: Mixed Daily Routines - Work, Study, and Life
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page4'] = {
-    title: "Mixed Daily Routines", multipleChoice: [
+    title: "Present Simple - Mixed Daily Routines", multipleChoice: [
         {
             question: "Choose the correct form for work-life balance:",
             questionRu: "Выберите правильную форму для баланса работы и жизни:",
@@ -678,7 +678,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page4'] = {
 Page 5: Professional and Social Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page5'] = {
-    title: "Professional and Social Routines",  multipleChoice: [
+    title: "Present Simple - Professional and Social Routines",  multipleChoice: [
         {
             question: "Choose the correct form for professional communication:",
             questionRu: "Выберите правильную форму для профессионального общения:",
@@ -846,7 +846,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page5'] = {
 Page 6: Health, Fitness, and Wellness Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page6'] = {
-    title: "Health, Fitness, and Wellness Routines",  multipleChoice: [
+    title: "Present Simple - Health, Fitness, and Wellness Routines",  multipleChoice: [
         {
             question: "Choose the correct form for fitness routine:",
             questionRu: "Выберите правильную форму для фитнес-рутины:",
@@ -1014,7 +1014,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page6'] = {
 Page 7: Technology and Modern Life Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page7'] = {
-    title: "Technology and Modern Life Routines",  multipleChoice: [
+    title: "Present Simple - Technology and Modern Life Routines",  multipleChoice: [
         {
             question: "Choose the correct form for digital routine:",
             questionRu: "Выберите правильную форму для цифровой рутины:",
@@ -1182,7 +1182,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page7'] = {
 Page 8: Travel, Transportation, and Mobility Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page8'] = {
-    title: "Travel, Transportation, and Mobility Routines", multipleChoice: [
+    title: "Present Simple - Travel, Transportation, and Mobility Routines", multipleChoice: [
         {
             question: "Choose the correct form for daily commute:",
             questionRu: "Выберите правильную форму для ежедневных поездок:",
@@ -1350,7 +1350,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page8'] = {
 Page 9: Food, Cooking, and Dining Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page9'] = {
-    title: "Food, Cooking, and Dining Routines", multipleChoice: [
+    title: "Present Simple - Food, Cooking, and Dining Routines", multipleChoice: [
         {
             question: "Choose the correct form for meal preparation:",
             questionRu: "Выберите правильную форму для приготовления пищи:",
@@ -1518,7 +1518,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page9'] = {
 Page 10: Hobbies, Entertainment, and Leisure Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-page10'] = {
-    title: "Hobbies, Entertainment, and Leisure Routines",  multipleChoice: [
+    title: "Present Simple - Hobbies, Entertainment, and Leisure Routines",  multipleChoice: [
         {
             question: "Choose the correct form for creative hobby:",
             questionRu: "Выберите правильную форму для творческого хобби:",
@@ -1696,7 +1696,7 @@ console.log("===== ALL 10 PAGES OF DAILY ROUTINES EXERCISES COMPLETE! =====");
 Page 1: Basic Daily Routines - Morning and Evening Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page1'] = {
-    title: "Morning and Evening Activities", fillGaps: [
+    title: "Present Simple - Morning and Evening Activities", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1814,7 +1814,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-gap-page1'] = {
 Page 2: Work and Study Routines - Professional Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page2'] = {
-    title: "Professional Activities", fillGaps: [
+    title: "Present Simple - Professional Activities", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1932,7 +1932,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-gap-page2'] = {
 Page 3: Health and Fitness Routines - Physical Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page3'] = {
-    title: "Physical Activities", fillGaps: [
+    title: "Present Simple - Physical Activities", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2050,7 +2050,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-gap-page3'] = {
 Page 4: Social and Leisure Activities - Entertainment and Hobbies
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page4'] = {
-    title: "Social and Leisure Activities", fillGaps: [
+    title: "Present Simple - Social and Leisure Activities", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2168,7 +2168,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-gap-page4'] = {
 Page 5: Digital and Technology Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page5'] = {
-    title: "Digital and Technology Routines", fillGaps: [
+    title: "Present Simple - Digital and Technology Routines", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2286,7 +2286,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-gap-page5'] = {
 Page 6: Transportation and Travel Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page6'] = {
-    title: "Transportation and Travel Routines", fillGaps: [
+    title: "Present Simple - Transportation and Travel Routines", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2404,7 +2404,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-gap-page6'] = {
 Page 7: Shopping and Consumer Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page7'] = {
-    title: "Shopping and Consumer Routines", fillGaps: [
+    title: "Present Simple - Shopping and Consumer Routines", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2522,7 +2522,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-gap-page7'] = {
 Page 8: Personal Care and Wellness Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page8'] = {
-    title: "Personal Care and Wellness Routines", fillGaps: [
+    title: "Present Simple - Personal Care and Wellness Routines", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2640,7 +2640,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-gap-page8'] = {
 Page 9: Communication and Social Connection Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page9'] = {
-    title: "Communication and Social Connection Routines", fillGaps: [
+    title: "Present Simple - Communication and Social Connection Routines", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2758,7 +2758,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-gap-page9'] = {
 Page 10: Learning and Personal Development Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-gap-page10'] = {
-    title: "Learning and Personal Development Routines", fillGaps: [
+    title: "Present Simple - Learning and Personal Development Routines", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2885,7 +2885,7 @@ console.log("===== FILL IN THE GAPS: PAGES 1-10 LOADED =====");
 Page 1: Basic Daily Routines - Morning Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page1'] = {
-    title: "Morning Activities", sentenceBuilding: [
+    title: "Present Simple - Morning Activities", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -2993,7 +2993,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page1'
 Page 2: Work and Professional Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page2'] = {
-    title: "Work and Professional Routines", sentenceBuilding: [
+    title: "Present Simple - Work and Professional Routines", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3101,7 +3101,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page2'
 Page 3: Study and Learning Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page3'] = {
-    title: "Study and Learning Routines", sentenceBuilding: [
+    title: "Present Simple - Study and Learning Routines", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3209,7 +3209,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page3'
 Page 4: Home and Family Life Routines 
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page4'] = {
-    title: "Home and Family Life Routines ", sentenceBuilding: [
+    title: "Present Simple - Home and Family Life Routines ", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3317,7 +3317,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page4'
 Page 5: Health and Wellness Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page5'] = {
-    title: "Health and Wellness Routines", sentenceBuilding: [
+    title: "Present Simple - Health and Wellness Routines", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3425,7 +3425,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page5'
 Page 6: Technology and Digital Life Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page6'] = {
-    title: "Technology and Digital Life Routines", sentenceBuilding: [
+    title: "Present Simple - Technology and Digital Life Routines", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3533,7 +3533,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page6'
 Page 7: Social and Community Engagement Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page7'] = {
-    title: "Social and Community Engagement Routines", sentenceBuilding: [
+    title: "Present Simple - Social and Community Engagement Routines", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3641,7 +3641,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page7'
 Page 8: Creative and Artistic Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page8'] = {
-    title: "Creative and Artistic Routines", sentenceBuilding: [
+    title: "Present Simple - Creative and Artistic Routines", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3749,7 +3749,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page8'
 Page 9: Financial and Economic Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page9'] = {
-    title: "Financial and Economic Routines", sentenceBuilding: [
+    title: "Present Simple - Financial and Economic Routines", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3857,7 +3857,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page9'
 Page 10: Environmental and Sustainability Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-daily-routines-sentence-page10'] = {
-    title: "Environmental and Sustainability Routines", sentenceBuilding: [
+    title: "Present Simple - Environmental and Sustainability Routines", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
