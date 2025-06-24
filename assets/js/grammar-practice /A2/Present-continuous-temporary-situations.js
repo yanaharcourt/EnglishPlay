@@ -1,13 +1,13 @@
 /* =============================================================================== */
 /* =========================Multiple Choice Exercises============================= */
 window.grammarExercises = window.grammarExercises || {};
-window.grammarExercises['continuous-tenses'] = window.grammarExercises['continuous-tenses'] || {};
+window.grammarExercises['tenses'] = window.grammarExercises['tenses'] || {};
 
 /* ============================================
 Page 1: Temporary Living and Daily Changes - I am staying, She is working, They are eating
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page1'] = {
-    title: "Temporary Living and Daily Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page1'] = {
+    title: "Present Continuous - Temporary Living and Daily Changes",
     multipleChoice: [
         {
             question: "Choose the correct form for temporary living:",
@@ -175,8 +175,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 2: Temporary Work and Study Situations - I am doing, She is taking, They are working
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page2'] = {
-    title: "Temporary Work and Study Situations",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page2'] = {
+    title: "Present Continuous - Temporary Work and Study Situations",
     multipleChoice: [
         {
             question: "Select the correct temporary job:",
@@ -344,8 +344,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 3: Temporary Personal and Social Changes - I am feeling, She is helping, They are visiting
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page3'] = {
-    title: "Temporary Personal and Social Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page3'] = {
+    title: "Present Continuous - Temporary Personal and Social Changes",
     multipleChoice: [
         {
             question: "Complete the correct temporary health routine:",
@@ -513,8 +513,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 4: Temporary Weather and Seasonal Changes - I am wearing, She is feeling, They are doing
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page4'] = {
-    title: "Temporary Weather and Seasonal Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page4'] = {
+    title: "Present Continuous - Temporary Weather and Seasonal Changes",
     multipleChoice: [
         {
             question: "Choose the correct temporary weather clothing:",
@@ -682,8 +682,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 5: Temporary Technology and Modern Life Changes - I am using, She is trying, They are switching
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page5'] = {
-    title: "Temporary Technology and Modern Life Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page5'] = {
+    title: "Present Continuous - Temporary Technology and Modern Life Changes",
     multipleChoice: [
         {
             question: "Choose the correct temporary technology use:",
@@ -852,8 +852,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 6: Temporary Health and Lifestyle Changes - I am eating, She is sleeping, They are exercising
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page6'] = {
-    title: "Temporary Health and Lifestyle Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page6'] = {
+    title: "Present Continuous - Temporary Health and Lifestyle Changes",
     multipleChoice: [
         {
             question: "Choose the correct temporary diet change:",
@@ -1021,8 +1021,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 7: Temporary Money and Shopping Changes - I am spending, She is saving, They are buying
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page7'] = {
-    title: "Temporary Money and Shopping Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page7'] = {
+    title: "Present Continuous - Temporary Money and Shopping Changes",
     multipleChoice: [
         {
             question: "Choose the correct temporary spending habit:",
@@ -1190,8 +1190,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 8: Temporary Travel and Transportation Changes - I am walking, She is driving, They are flying
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page8'] = {
-    title: "Temporary Travel and Transportation Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page8'] = {
+    title: "Present Continuous - Temporary Travel and Transportation Changes",
     multipleChoice: [
         {
             question: "Choose the correct temporary transport method:",
@@ -1359,8 +1359,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 9: Temporary Family and Relationship Changes - I am helping, She is visiting, They are calling
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page9'] = {
-    title: "Temporary Family and Relationship Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page9'] = {
+    title: "Present Continuous - Temporary Family and Relationship Changes",
     multipleChoice: [
         {
             question: "Choose the correct temporary family help:",
@@ -1528,8 +1528,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 10: Temporary Home and Neighborhood Changes - I am cleaning, She is fixing, They are moving
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-page10'] = {
-    title: "Temporary Home and Neighborhood Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-page10'] = {
+    title: "Present Continuous - Temporary Home and Neighborhood Changes",
     multipleChoice: [
         {
             question: "Choose the correct temporary home activity:",
@@ -1707,8 +1707,8 @@ console.log("===== Present Continuous Temporary Situations EXERCISES PAGES 1-10 
 /* ============================================
 Page 1: Temporary Daily Life Changes - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page1'] = {
-    title: "Temporary Daily Life Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page1'] = {
+    title: "Present Continuous - Temporary Daily Life Changes",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -1826,8 +1826,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 2: Temporary Work and Study Situations - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page2'] = {
-    title: "Temporary Work and Study Situations",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page2'] = {
+    title: "Present Continuous - Temporary Work and Study Situations",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -1945,8 +1945,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 3: Temporary Personal and Family Changes - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page3'] = {
-    title: "Temporary Personal and Family Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page3'] = {
+    title: "Present Continuous - Temporary Personal and Family Changes",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -2064,8 +2064,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 4: Temporary Weather and Seasonal Changes - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page4'] = {
-    title: "Temporary Weather and Seasonal Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page4'] = {
+    title: "Present Continuous - Temporary Weather and Seasonal Changes",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -2183,8 +2183,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 5: Temporary Technology and Modern Life - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page5'] = {
-    title: "Temporary Technology and Modern Life",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page5'] = {
+    title: "Present Continuous - Temporary Technology and Modern Life",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -2302,8 +2302,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 6: Temporary Health and Lifestyle Changes - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page6'] = {
-    title: "Temporary Health and Lifestyle Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page6'] = {
+    title: "Present Continuous - Temporary Health and Lifestyle Changes",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -2421,8 +2421,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 7: Temporary Money and Shopping Changes - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page7'] = {
-    title: "Temporary Money and Shopping Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page7'] = {
+    title: "Present Continuous - Temporary Money and Shopping Changes",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -2540,8 +2540,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 8: Temporary Travel and Transportation Changes - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page8'] = {
-    title: "Temporary Travel and Transportation Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page8'] = {
+    title: "Present Continuous - Temporary Travel and Transportation Changes",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -2659,8 +2659,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 9: Temporary Family and Relationship Changes - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page9'] = {
-    title: "Temporary Family and Relationship Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page9'] = {
+    title: "Present Continuous - Temporary Family and Relationship Changes",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -2778,8 +2778,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 10: Temporary Home and Neighborhood Changes - Fill in the Gaps
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-gap-page10'] = {
-    title: "Temporary Home and Neighborhood Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-gap-page10'] = {
+    title: "Present Continuous - Temporary Home and Neighborhood Changes",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
@@ -2908,8 +2908,8 @@ console.log("===== Present Continuous Temporary Situations FILL GAPS PAGES 1-10 
 /* ============================================
 Page 1: Temporary Living and Daily Changes - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page1'] = {
-    title: "Temporary Living and Daily Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page1'] = {
+    title: "Present Continuous - Temporary Living and Daily Changes",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",
@@ -3017,8 +3017,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 2: Temporary Work and Study Situations - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page2'] = {
-    title: "Temporary Work and Study Situations",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page2'] = {
+    title: "Present Continuous - Temporary Work and Study Situations",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",
@@ -3126,8 +3126,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 3: Temporary Personal and Family Changes - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page3'] = {
-    title: "Temporary Personal and Family Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page3'] = {
+    title: "Present Continuous - Temporary Personal and Family Changes",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",
@@ -3235,8 +3235,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 4: Temporary Weather and Seasonal Changes - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page4'] = {
-    title: "Temporary Weather and Seasonal Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page4'] = {
+    title: "Present Continuous - Temporary Weather and Seasonal Changes",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",
@@ -3344,8 +3344,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 5: Temporary Technology and Modern Life Changes - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page5'] = {
-    title: "Temporary Technology and Modern Life Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page5'] = {
+    title: "Present Continuous - Temporary Technology and Modern Life Changes",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",
@@ -3453,8 +3453,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 6: Temporary Health and Lifestyle Changes - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page6'] = {
-    title: "Temporary Health and Lifestyle Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page6'] = {
+    title: "Present Continuous - Temporary Health and Lifestyle Changes",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",
@@ -3562,8 +3562,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 7: Temporary Money and Shopping Changes - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page7'] = {
-    title: "Temporary Money and Shopping Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page7'] = {
+    title: "Present Continuous - Temporary Money and Shopping Changes",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",
@@ -3671,8 +3671,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 8: Temporary Travel and Transportation Changes - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page8'] = {
-    title: "Temporary Travel and Transportation Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page8'] = {
+    title: "Present Continuous - Temporary Travel and Transportation Changes",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",
@@ -3780,8 +3780,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 9: Temporary Family and Relationship Changes - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page9'] = {
-    title: "Temporary Family and Relationship Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page9'] = {
+    title: "Present Continuous - Temporary Family and Relationship Changes",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",
@@ -3889,8 +3889,8 @@ window.grammarExercises['continuous-tenses']['present-continuous-temporary-situa
 /* ============================================
 Page 10: Temporary Home and Neighborhood Changes - Sentence Building
 ============================================ */
-window.grammarExercises['continuous-tenses']['present-continuous-temporary-situations-sentence-page10'] = {
-    title: "Temporary Home and Neighborhood Changes",
+window.grammarExercises['tenses']['present-continuous-temporary-situations-sentence-page10'] = {
+    title: "Present Continuous - Temporary Home and Neighborhood Changes",
     sentenceBuilding: [
         {
             question: "Form a correct Present Continuous sentence using these words:",

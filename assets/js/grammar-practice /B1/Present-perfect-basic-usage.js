@@ -3,14 +3,14 @@
 if (!window.grammarExercises) {
     window.grammarExercises = {};
 }
-if (!window.grammarExercises['perfect-tenses']) {
-    window.grammarExercises['perfect-tenses'] = {};
+if (!window.grammarExercises['tenses']) {
+    window.grammarExercises['tenses'] = {};
 }
 
 /* ============================================
 Page 1: Life Experiences - General Past Events
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page1'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page1'] = {
     title: "Present Perfect - Life Experiences",
     multipleChoice: [
         {
@@ -179,7 +179,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page1'] =
 /* ============================================
 Page 2: Recent Past with "Just", "Already", "Yet"
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page2'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page2'] = {
     title: "Present Perfect - Recent Past with 'Just', 'Already', 'Yet'",
     multipleChoice: [
         {
@@ -348,7 +348,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page2'] =
 /* ============================================
 Page 3: Mixed Usage - Life Experiences and Recent Past
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page3'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page3'] = {
     title: "Present Perfect - Mixed Usage",
     multipleChoice: [
         {
@@ -517,7 +517,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page3'] =
 /* ============================================
 Page 4: Present Perfect with Time Expressions
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page4'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page4'] = {
     title: "Present Perfect - Time Expressions",
     multipleChoice: [
         {
@@ -686,7 +686,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page4'] =
 /* ============================================
 Page 5: Present Perfect vs Past Simple
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page5'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page5'] = {
     title: "Present Perfect vs Past Simple",
     multipleChoice: [
         {
@@ -855,7 +855,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page5'] =
 /* ============================================
 Page 6: Advanced Present Perfect Usage
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page6'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page6'] = {
     title: "Present Perfect - Advanced Present Perfect Usage",
     multipleChoice: [
         {
@@ -1024,7 +1024,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page6'] =
 /* ============================================
 Page 7: Present Perfect with Indefinite Time
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page7'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page7'] = {
     title: "Present Perfect - Indefinite Time",
     multipleChoice: [
         {
@@ -1193,7 +1193,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page7'] =
 /* ============================================
 Page 8: Present Perfect with Frequency Expressions
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page8'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page8'] = {
     title: "Present Perfect - Frequency Expressions",
     multipleChoice: [
         {
@@ -1362,7 +1362,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page8'] =
 /* ============================================
 Page 9: Present Perfect in News and Announcements
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page9'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page9'] = {
     title: "Present Perfect - News and Announcements",
     multipleChoice: [
         {
@@ -1531,7 +1531,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page9'] =
 /* ============================================
 Page 10: Present Perfect Review and Mixed Contexts
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-page10'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-page10'] = {
     title: "Present Perfect - Review and Mixed Contexts",
     multipleChoice: [
         {
@@ -1710,7 +1710,7 @@ console.log("===== ALL PRESENT PERFECT BASIC USAGE EXERCISES PAGES 1-10 LOADED =
 /* ============================================
 Page 1: Life Experiences and General Past Events
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page1'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-gap-page1'] = {
     title: "Present Perfect - Life Experiences and General Past Events",
     fillGaps: [
         {
@@ -1829,7 +1829,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page1
 /* ============================================
 Page 2: Recent Past with Signal Words
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page2'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-gap-page2'] = {
     title: "Present Perfect - Recent Past with Signal Words",
     fillGaps: [
         {
@@ -1948,7 +1948,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page2
 /* ============================================
 Page 3: Time Expressions and Duration
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page3'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-gap-page3'] = {
     title: "Present Perfect - Time Expressions and Duration",
     fillGaps: [
         {
@@ -2067,7 +2067,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page3
 /* ============================================
 Page 4: Present Results and Current Relevance
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page4'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-gap-page4'] = {
     title: "Present Perfect - Present Results and Current Relevance",
     fillGaps: [
         {
@@ -2305,7 +2305,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page5
 /* ============================================
 Page 6: Indefinite Past vs Specific Past Comparison
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page6'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-gap-page6'] = {
     title: "Present Perfect - Indefinite Past vs Specific Past Comparison",
     fillGaps: [
         {
@@ -2424,7 +2424,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page6
 /* ============================================
 Page 7: Recent Changes and Current States
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page7'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-gap-page7'] = {
     title: "Present Perfect - Recent Changes and Current States",
     fillGaps: [
         {
@@ -2543,7 +2543,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page7
 /* ============================================
 Page 8: News, Announcements and Discoveries
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page8'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-gap-page8'] = {
     title: "Present Perfect - News, Announcements and Discoveries",
     fillGaps: [
         {
@@ -2662,7 +2662,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page8
 /* ============================================
 Page 9: Achievements and Accomplishments
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page9'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-gap-page9'] = {
     title: "Present Perfect - Achievements and Accomplishments",
     fillGaps: [
         {
@@ -2781,7 +2781,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page9
 /* ============================================
 Page 10: Life Summary and Overall Experience
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-gap-page10'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-gap-page10'] = {
     title: "Present Perfect - Life Summary and Overall Experience",
     fillGaps: [
         {
@@ -2910,7 +2910,7 @@ console.log("===== ALL PRESENT PERFECT BASIC USAGE EXERCISES PAGES 1-10 LOADED =
 /* ============================================
 Page 1: Travel and Adventure Experiences
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page1'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page1'] = {
     title: "Present Perfect - Travel and Adventure Experiences",
     sentenceBuilding: [
         {
@@ -3019,7 +3019,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-
 /* ============================================
 Page 2: Professional Development and Career
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page2'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page2'] = {
     title: "Present Perfect - Professional Development and Career",
     sentenceBuilding: [
         {
@@ -3128,7 +3128,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-
 /* ============================================
 Page 3: Personal Growth and Learning
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page3'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page3'] = {
     title: "Present Perfect - Personal Growth and Learning",
     sentenceBuilding: [
         {
@@ -3237,7 +3237,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-
 /* ============================================
 Page 4: Creative Arts and Cultural Experiences
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page4'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page4'] = {
     title: "Present Perfect - Creative Arts and Cultural Experiences",
     sentenceBuilding: [
         {
@@ -3346,7 +3346,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-
 /* ============================================
 Page 5: Technology and Innovation Experiences
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page5'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page5'] = {
     title: "Present Perfect - Technology and Innovation Experiences",
     sentenceBuilding: [
         {
@@ -3455,7 +3455,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-
 /* ============================================
 Page 6: Community Service and Social Impact
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page6'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page6'] = {
     title: "Present Perfect - Community Service and Social Impact",
     sentenceBuilding: [
         {
@@ -3564,7 +3564,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-
 /* ============================================
 Page 7: Health and Wellness Achievements
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page7'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page7'] = {
     title: "Present Perfect - Health and Wellness Achievements",
     sentenceBuilding: [
         {
@@ -3673,7 +3673,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-
 /* ============================================
 Page 8: Environmental and Sustainability Actions
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page8'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page8'] = {
     title: "Present Perfect - Environmental and Sustainability Actions",
     sentenceBuilding: [
         {
@@ -3782,7 +3782,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-
 /* ============================================
 Page 9: Cultural Exchange and Global Connections
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page9'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page9'] = {
     title: "Present Perfect - Cultural Exchange and Global Connections",
     sentenceBuilding: [
         {
@@ -3891,7 +3891,7 @@ window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-
 /* ============================================
 Page 10: Life Legacy and Future Impact
 ============================================ */
-window.grammarExercises['perfect-tenses']['present-perfect-basic-usage-sentence-page10'] = {
+window.grammarExercises['tenses']['present-perfect-basic-usage-sentence-page10'] = {
     title: "Present Perfect - Life Legacy and Future Impact",
     sentenceBuilding: [
         {
