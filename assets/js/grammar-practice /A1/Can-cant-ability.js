@@ -1700,8 +1700,8 @@ window.grammarExercises['modals']['can-cant-ability-page10'] = {
 /* ============================================
 Console log to confirm data loading
 ============================================ */
-console.log("Can/Can't Ability Multiple Choice Pages 9-10 loaded successfully!");
-console.log("===== CAN/CAN'T ABILITY: PAGES 9-10 LOADED =====");
+console.log("Can/Can't Ability Multiple Choice Pages 1-10 loaded successfully!");
+console.log("===== CAN/CAN'T ABILITY: PAGES 1-10 LOADED =====");
 
 /* =============================================================================== */
 /* ===========================Fill in the Gaps Exercises========================== */
@@ -3233,7 +3233,770 @@ window.grammarExercises['modals']['can-cant-ability-sentence-page3'] = {
 };
 
 /* ============================================
+Page 4: Can/can't - Sentence Building - Sports and Physical Activities
+============================================ */
+window.grammarExercises['modals']['can-cant-ability-sentence-page4'] = {
+    title: "Can/can't - Sports and Physical Activities",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "can", "run", "five", "kilometers."],
+            correctAnswer: "She can run five kilometers.",
+            correctFeedback: "Perfect! 'She can run five kilometers.' is correct. Great use of 'can' with running ability!",
+            correctFeedbackRu: "Отлично! 'She can run five kilometers.' верно. Прекрасное использование 'can' со способностью бегать!",
+            incorrectFeedback: "Try again. Remember: She + can + verb + number + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + can + глагол + число + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "can't", "play", "basketball", "professionally."],
+            correctAnswer: "He can't play basketball professionally.",
+            correctFeedback: "Excellent! 'He can't play basketball professionally.' is correct. Perfect use of 'can't' with sport limitation!",
+            correctFeedbackRu: "Превосходно! 'He can't play basketball professionally.' верно. Идеальное использование 'can't' с ограничением в спорте!",
+            incorrectFeedback: "Try again. Remember: He + can't + verb + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + can't + глагол + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Swimmers", "can", "hold", "their", "breath", "underwater."],
+            correctAnswer: "Swimmers can hold their breath underwater.",
+            correctFeedback: "Great! 'Swimmers can hold their breath underwater.' is correct. Excellent use of 'can' with swimming skill!",
+            correctFeedbackRu: "Отлично! 'Swimmers can hold their breath underwater.' верно. Превосходное использование 'can' с плавательным навыком!",
+            incorrectFeedback: "Try again. Remember: Swimmers + can + verb + possessive + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Swimmers + can + глагол + притяжательное + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Young", "children", "can't", "lift", "heavy", "weights."],
+            correctAnswer: "Young children can't lift heavy weights.",
+            correctFeedback: "Perfect! 'Young children can't lift heavy weights.' is correct. Great use of 'can't' with age limitation!",
+            correctFeedbackRu: "Отлично! 'Young children can't lift heavy weights.' верно. Прекрасное использование 'can't' с возрастным ограничением!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Ice", "skaters", "can", "jump", "very", "high."],
+            correctAnswer: "Ice skaters can jump very high.",
+            correctFeedback: "Excellent! 'Ice skaters can jump very high.' is correct. Perfect use of 'can' with skating ability!",
+            correctFeedbackRu: "Превосходно! 'Ice skaters can jump very high.' верно. Идеальное использование 'can' со способностью к катанию!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + adverb + adjective + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + наречие + прилагательное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "can't", "play", "tennis", "in", "the", "rain."],
+            correctAnswer: "We can't play tennis in the rain.",
+            correctFeedback: "Great! 'We can't play tennis in the rain.' is correct. Excellent use of 'can't' with weather limitation!",
+            correctFeedbackRu: "Отлично! 'We can't play tennis in the rain.' верно. Превосходное использование 'can't' с погодным ограничением!",
+            incorrectFeedback: "Try again. Remember: We + can't + verb + noun + preposition + article + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + can't + глагол + существительное + предлог + артикль + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Athletes", "can", "train", "for", "many", "hours."],
+            correctAnswer: "Athletes can train for many hours.",
+            correctFeedback: "Perfect! 'Athletes can train for many hours.' is correct. Great use of 'can' with training endurance!",
+            correctFeedbackRu: "Отлично! 'Athletes can train for many hours.' верно. Прекрасное использование 'can' с тренировочной выносливостью!",
+            incorrectFeedback: "Try again. Remember: Athletes + can + verb + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Athletes + can + глагол + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "grandmother", "can't", "ride", "a", "bicycle."],
+            correctAnswer: "My grandmother can't ride a bicycle.",
+            correctFeedback: "Excellent! 'My grandmother can't ride a bicycle.' is correct. Perfect use of 'can't' with age limitation!",
+            correctFeedbackRu: "Превосходно! 'My grandmother can't ride a bicycle.' верно. Идеальное использование 'can't' с возрастным ограничением!",
+            incorrectFeedback: "Try again. Remember: My + noun + can't + verb + article + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: My + существительное + can't + глагол + артикль + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Football", "players", "can", "kick", "the", "ball", "far."],
+            correctAnswer: "Football players can kick the ball far.",
+            correctFeedback: "Great! 'Football players can kick the ball far.' is correct. Excellent use of 'can' with football skill!",
+            correctFeedbackRu: "Отлично! 'Football players can kick the ball far.' верно. Превосходное использование 'can' с футбольным навыком!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + article + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + артикль + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["People", "can't", "exercise", "with", "broken", "bones."],
+            correctAnswer: "People can't exercise with broken bones.",
+            correctFeedback: "Perfect! 'People can't exercise with broken bones.' is correct. Great use of 'can't' with injury limitation!",
+            correctFeedbackRu: "Отлично! 'People can't exercise with broken bones.' верно. Прекрасное использование 'can't' с ограничением из-за травмы!",
+            incorrectFeedback: "Try again. Remember: People + can't + verb + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: People + can't + глагол + предлог + прилагательное + существительное + ."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Can/can't - Sentence Building - Technology and Modern Life
+============================================ */
+window.grammarExercises['modals']['can-cant-ability-sentence-page5'] = {
+    title: "Can/can't - Technology and Modern Life",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Smartphones", "can", "take", "excellent", "photos."],
+            correctAnswer: "Smartphones can take excellent photos.",
+            correctFeedback: "Perfect! 'Smartphones can take excellent photos.' is correct. Great use of 'can' with technology capability!",
+            correctFeedbackRu: "Отлично! 'Smartphones can take excellent photos.' верно. Прекрасное использование 'can' с технологической возможностью!",
+            incorrectFeedback: "Try again. Remember: Smartphones + can + verb + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Smartphones + can + глагол + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "can't", "connect", "to", "the", "internet."],
+            correctAnswer: "I can't connect to the internet.",
+            correctFeedback: "Excellent! 'I can't connect to the internet.' is correct. Perfect use of 'can't' with technical problem!",
+            correctFeedbackRu: "Превосходно! 'I can't connect to the internet.' верно. Идеальное использование 'can't' с технической проблемой!",
+            incorrectFeedback: "Try again. Remember: I + can't + verb + preposition + article + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + can't + глагол + предлог + артикль + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["GPS", "devices", "can", "show", "exact", "locations."],
+            correctAnswer: "GPS devices can show exact locations.",
+            correctFeedback: "Great! 'GPS devices can show exact locations.' is correct. Excellent use of 'can' with navigation technology!",
+            correctFeedbackRu: "Отлично! 'GPS devices can show exact locations.' верно. Превосходное использование 'can' с навигационной технологией!",
+            incorrectFeedback: "Try again. Remember: GPS + noun + can + verb + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: GPS + существительное + can + глагол + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Old", "computers", "can't", "run", "new", "software."],
+            correctAnswer: "Old computers can't run new software.",
+            correctFeedback: "Perfect! 'Old computers can't run new software.' is correct. Great use of 'can't' with technology limitation!",
+            correctFeedbackRu: "Отлично! 'Old computers can't run new software.' верно. Прекрасное использование 'can't' с технологическим ограничением!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "can", "video", "chat", "with", "friends", "worldwide."],
+            correctAnswer: "We can video chat with friends worldwide.",
+            correctFeedback: "Excellent! 'We can video chat with friends worldwide.' is correct. Perfect use of 'can' with communication technology!",
+            correctFeedbackRu: "Превосходно! 'We can video chat with friends worldwide.' верно. Идеальное использование 'can' с коммуникационной технологией!",
+            incorrectFeedback: "Try again. Remember: We + can + adjective + verb + preposition + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + can + прилагательное + глагол + предлог + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Children", "can't", "buy", "things", "online", "alone."],
+            correctAnswer: "Children can't buy things online alone.",
+            correctFeedback: "Great! 'Children can't buy things online alone.' is correct. Excellent use of 'can't' with age restriction!",
+            correctFeedbackRu: "Отлично! 'Children can't buy things online alone.' верно. Превосходное использование 'can't' с возрастным ограничением!",
+            incorrectFeedback: "Try again. Remember: Children + can't + verb + noun + adverb + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Children + can't + глагол + существительное + наречие + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Electric", "cars", "can", "travel", "long", "distances."],
+            correctAnswer: "Electric cars can travel long distances.",
+            correctFeedback: "Perfect! 'Electric cars can travel long distances.' is correct. Great use of 'can' with modern transportation!",
+            correctFeedbackRu: "Отлично! 'Electric cars can travel long distances.' верно. Прекрасное использование 'can' с современным транспортом!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "can", "send", "messages", "by", "voice."],
+            correctAnswer: "She can send messages by voice.",
+            correctFeedback: "Excellent! 'She can send messages by voice.' is correct. Perfect use of 'can' with voice technology!",
+            correctFeedbackRu: "Превосходно! 'She can send messages by voice.' верно. Идеальное использование 'can' с голосовой технологией!",
+            incorrectFeedback: "Try again. Remember: She + can + verb + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + can + глагол + существительное + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["People", "can", "access", "banks", "from", "anywhere."],
+            correctAnswer: "People can access banks from anywhere.",
+            correctFeedback: "Great! 'People can access banks from anywhere.' is correct. Excellent use of 'can' with online banking!",
+            correctFeedbackRu: "Отлично! 'People can access banks from anywhere.' верно. Превосходное использование 'can' с онлайн-банкингом!",
+            incorrectFeedback: "Try again. Remember: People + can + verb + noun + preposition + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: People + can + глагол + существительное + предлог + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Basic", "phones", "can't", "access", "social", "media."],
+            correctAnswer: "Basic phones can't access social media.",
+            correctFeedback: "Perfect! 'Basic phones can't access social media.' is correct. Great use of 'can't' with device limitation!",
+            correctFeedbackRu: "Отлично! 'Basic phones can't access social media.' верно. Прекрасное использование 'can't' с ограничением устройства!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + прилагательное + существительное + ."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Can/can't - Sentence Building - Animals and Nature
+============================================ */
+window.grammarExercises['modals']['can-cant-ability-sentence-page6'] = {
+    title: "Can/can't - Animals and Nature",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Dolphins", "can", "jump", "out", "of", "water."],
+            correctAnswer: "Dolphins can jump out of water.",
+            correctFeedback: "Perfect! 'Dolphins can jump out of water.' is correct. Great use of 'can' with marine animal ability!",
+            correctFeedbackRu: "Отлично! 'Dolphins can jump out of water.' верно. Прекрасное использование 'can' со способностью морского животного!",
+            incorrectFeedback: "Try again. Remember: Dolphins + can + verb + preposition + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Dolphins + can + глагол + предлог + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Penguins", "can't", "fly", "like", "other", "birds."],
+            correctAnswer: "Penguins can't fly like other birds.",
+            correctFeedback: "Excellent! 'Penguins can't fly like other birds.' is correct. Perfect use of 'can't' with bird limitation!",
+            correctFeedbackRu: "Превосходно! 'Penguins can't fly like other birds.' верно. Идеальное использование 'can't' с ограничением птицы!",
+            incorrectFeedback: "Try again. Remember: Penguins + can't + verb + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Penguins + can't + глагол + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Elephants", "can", "remember", "things", "for", "years."],
+            correctAnswer: "Elephants can remember things for years.",
+            correctFeedback: "Great! 'Elephants can remember things for years.' is correct. Excellent use of 'can' with animal memory!",
+            correctFeedbackRu: "Отлично! 'Elephants can remember things for years.' верно. Превосходное использование 'can' с памятью животного!",
+            incorrectFeedback: "Try again. Remember: Elephants + can + verb + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Elephants + can + глагол + существительное + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Polar", "bears", "can't", "survive", "in", "hot", "climates."],
+            correctAnswer: "Polar bears can't survive in hot climates.",
+            correctFeedback: "Perfect! 'Polar bears can't survive in hot climates.' is correct. Great use of 'can't' with climate adaptation!",
+            correctFeedbackRu: "Отлично! 'Polar bears can't survive in hot climates.' верно. Прекрасное использование 'can't' с климатической адаптацией!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Bees", "can", "communicate", "through", "special", "dances."],
+            correctAnswer: "Bees can communicate through special dances.",
+            correctFeedback: "Excellent! 'Bees can communicate through special dances.' is correct. Perfect use of 'can' with animal communication!",
+            correctFeedbackRu: "Превосходно! 'Bees can communicate through special dances.' верно. Идеальное использование 'can' с общением животных!",
+            incorrectFeedback: "Try again. Remember: Bees + can + verb + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Bees + can + глагол + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Plants", "can't", "grow", "without", "sunlight."],
+            correctAnswer: "Plants can't grow without sunlight.",
+            correctFeedback: "Great! 'Plants can't grow without sunlight.' is correct. Excellent use of 'can't' with plant requirement!",
+            correctFeedbackRu: "Отлично! 'Plants can't grow without sunlight.' верно. Превосходное использование 'can't' с потребностью растений!",
+            incorrectFeedback: "Try again. Remember: Plants + can't + verb + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Plants + can't + глагол + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Owls", "can", "see", "clearly", "at", "night."],
+            correctAnswer: "Owls can see clearly at night.",
+            correctFeedback: "Perfect! 'Owls can see clearly at night.' is correct. Great use of 'can' with nocturnal vision!",
+            correctFeedbackRu: "Отлично! 'Owls can see clearly at night.' верно. Прекрасное использование 'can' с ночным зрением!",
+            incorrectFeedback: "Try again. Remember: Owls + can + verb + adverb + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Owls + can + глагол + наречие + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Goldfish", "can't", "live", "in", "dirty", "water."],
+            correctAnswer: "Goldfish can't live in dirty water.",
+            correctFeedback: "Excellent! 'Goldfish can't live in dirty water.' is correct. Perfect use of 'can't' with water quality requirement!",
+            correctFeedbackRu: "Превосходно! 'Goldfish can't live in dirty water.' верно. Идеальное использование 'can't' с требованием качества воды!",
+            incorrectFeedback: "Try again. Remember: Goldfish + can't + verb + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Goldfish + can't + глагол + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Spiders", "can", "create", "strong", "webs."],
+            correctAnswer: "Spiders can create strong webs.",
+            correctFeedback: "Great! 'Spiders can create strong webs.' is correct. Excellent use of 'can' with spider ability!",
+            correctFeedbackRu: "Отлично! 'Spiders can create strong webs.' верно. Превосходное использование 'can' со способностью пауков!",
+            incorrectFeedback: "Try again. Remember: Spiders + can + verb + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Spiders + can + глагол + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Desert", "animals", "can", "find", "water", "easily."],
+            correctAnswer: "Desert animals can find water easily.",
+            correctFeedback: "Perfect! 'Desert animals can find water easily.' is correct. Great use of 'can' with survival adaptation!",
+            correctFeedbackRu: "Отлично! 'Desert animals can find water easily.' верно. Прекрасное использование 'can' с адаптацией к выживанию!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + существительное + наречие + ."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Can/can't - Sentence Building - Travel and Transportation
+============================================ */
+window.grammarExercises['modals']['can-cant-ability-sentence-page7'] = {
+    title: "Can/can't - Travel and Transportation",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Airplanes", "can", "fly", "above", "the", "clouds."],
+            correctAnswer: "Airplanes can fly above the clouds.",
+            correctFeedback: "Perfect! 'Airplanes can fly above the clouds.' is correct. Great use of 'can' with aviation capability!",
+            correctFeedbackRu: "Отлично! 'Airplanes can fly above the clouds.' верно. Прекрасное использование 'can' с авиационной возможностью!",
+            incorrectFeedback: "Try again. Remember: Airplanes + can + verb + preposition + article + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Airplanes + can + глагол + предлог + артикль + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Tourists", "can't", "enter", "without", "valid", "passports."],
+            correctAnswer: "Tourists can't enter without valid passports.",
+            correctFeedback: "Excellent! 'Tourists can't enter without valid passports.' is correct. Perfect use of 'can't' with travel restriction!",
+            correctFeedbackRu: "Превосходно! 'Tourists can't enter without valid passports.' верно. Идеальное использование 'can't' с ограничением путешествий!",
+            incorrectFeedback: "Try again. Remember: Tourists + can't + verb + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Tourists + can't + глагол + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Fast", "trains", "can", "reach", "three", "hundred", "kilometers", "per", "hour."],
+            correctAnswer: "Fast trains can reach three hundred kilometers per hour.",
+            correctFeedback: "Great! 'Fast trains can reach three hundred kilometers per hour.' is correct. Excellent use of 'can' with speed capability!",
+            correctFeedbackRu: "Отлично! 'Fast trains can reach three hundred kilometers per hour.' верно. Превосходное использование 'can' со скоростной возможностью!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + number + number + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + число + число + существительное + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Small", "boats", "can't", "cross", "rough", "seas", "safely."],
+            correctAnswer: "Small boats can't cross rough seas safely.",
+            correctFeedback: "Perfect! 'Small boats can't cross rough seas safely.' is correct. Great use of 'can't' with marine safety limitation!",
+            correctFeedbackRu: "Отлично! 'Small boats can't cross rough seas safely.' верно. Прекрасное использование 'can't' с ограничением морской безопасности!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + adjective + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + прилагательное + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "can", "book", "hotels", "online", "instantly."],
+            correctAnswer: "We can book hotels online instantly.",
+            correctFeedback: "Excellent! 'We can book hotels online instantly.' is correct. Perfect use of 'can' with online booking capability!",
+            correctFeedbackRu: "Превосходно! 'We can book hotels online instantly.' верно. Идеальное использование 'can' с возможностью онлайн-бронирования!",
+            incorrectFeedback: "Try again. Remember: We + can + verb + noun + adverb + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + can + глагол + существительное + наречие + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Passengers", "can't", "bring", "large", "liquids", "on", "planes."],
+            correctAnswer: "Passengers can't bring large liquids on planes.",
+            correctFeedback: "Great! 'Passengers can't bring large liquids on planes.' is correct. Excellent use of 'can't' with airport security!",
+            correctFeedbackRu: "Отлично! 'Passengers can't bring large liquids on planes.' верно. Превосходное использование 'can't' с безопасностью аэропорта!",
+            incorrectFeedback: "Try again. Remember: Passengers + can't + verb + adjective + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Passengers + can't + глагол + прилагательное + существительное + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Helicopters", "can", "land", "anywhere", "they", "want."],
+            correctAnswer: "Helicopters can land anywhere they want.",
+            correctFeedback: "Perfect! 'Helicopters can land anywhere they want.' is correct. Great use of 'can' with helicopter flexibility!",
+            correctFeedbackRu: "Отлично! 'Helicopters can land anywhere they want.' верно. Прекрасное использование 'can' с гибкостью вертолёта!",
+            incorrectFeedback: "Try again. Remember: Helicopters + can + verb + adverb + pronoun + verb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Helicopters + can + глагол + наречие + местоимение + глагол + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "can't", "travel", "because", "her", "passport", "expired."],
+            correctAnswer: "She can't travel because her passport expired.",
+            correctFeedback: "Excellent! 'She can't travel because her passport expired.' is correct. Perfect use of 'can't' with document issue!",
+            correctFeedbackRu: "Превосходно! 'She can't travel because her passport expired.' верно. Идеальное использование 'can't' с проблемой документов!",
+            incorrectFeedback: "Try again. Remember: She + can't + verb + conjunction + possessive + noun + verb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + can't + глагол + союз + притяжательное + существительное + глагол + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Cruise", "ships", "can", "carry", "thousands", "of", "passengers."],
+            correctAnswer: "Cruise ships can carry thousands of passengers.",
+            correctFeedback: "Great! 'Cruise ships can carry thousands of passengers.' is correct. Excellent use of 'can' with ship capacity!",
+            correctFeedbackRu: "Отлично! 'Cruise ships can carry thousands of passengers.' верно. Превосходное использование 'can' с вместимостью корабля!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + существительное + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Bicycles", "can't", "use", "busy", "highways", "safely."],
+            correctAnswer: "Bicycles can't use busy highways safely.",
+            correctFeedback: "Perfect! 'Bicycles can't use busy highways safely.' is correct. Great use of 'can't' with traffic safety!",
+            correctFeedbackRu: "Отлично! 'Bicycles can't use busy highways safely.' верно. Прекрасное использование 'can't' с безопасностью движения!",
+            incorrectFeedback: "Try again. Remember: Bicycles + can't + verb + adjective + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Bicycles + can't + глагол + прилагательное + существительное + наречие + ."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Can/can't - Sentence Building - Food and Cooking
+============================================ */
+window.grammarExercises['modals']['can-cant-ability-sentence-page8'] = {
+    title: "Can/can't - Food and Cooking",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Professional", "bakers", "can", "make", "hundreds", "of", "cakes", "daily."],
+            correctAnswer: "Professional bakers can make hundreds of cakes daily.",
+            correctFeedback: "Perfect! 'Professional bakers can make hundreds of cakes daily.' is correct. Great use of 'can' with professional capacity!",
+            correctFeedbackRu: "Отлично! 'Professional bakers can make hundreds of cakes daily.' верно. Прекрасное использование 'can' с профессиональной производительностью!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + noun + preposition + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + существительное + предлог + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Young", "children", "can't", "handle", "hot", "stoves", "safely."],
+            correctAnswer: "Young children can't handle hot stoves safely.",
+            correctFeedback: "Excellent! 'Young children can't handle hot stoves safely.' is correct. Perfect use of 'can't' with kitchen safety!",
+            correctFeedbackRu: "Превосходно! 'Young children can't handle hot stoves safely.' верно. Идеальное использование 'can't' с кухонной безопасностью!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + adjective + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + прилагательное + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Food", "processors", "can", "chop", "vegetables", "very", "quickly."],
+            correctAnswer: "Food processors can chop vegetables very quickly.",
+            correctFeedback: "Great! 'Food processors can chop vegetables very quickly.' is correct. Excellent use of 'can' with kitchen appliance!",
+            correctFeedbackRu: "Отлично! 'Food processors can chop vegetables very quickly.' верно. Превосходное использование 'can' с кухонным прибором!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + noun + adverb + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + существительное + наречие + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Diabetic", "people", "can't", "eat", "unlimited", "sugar."],
+            correctAnswer: "Diabetic people can't eat unlimited sugar.",
+            correctFeedback: "Perfect! 'Diabetic people can't eat unlimited sugar.' is correct. Great use of 'can't' with dietary restriction!",
+            correctFeedbackRu: "Отлично! 'Diabetic people can't eat unlimited sugar.' верно. Прекрасное использование 'can't' с диетическим ограничением!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "can", "preserve", "food", "by", "freezing", "it."],
+            correctAnswer: "We can preserve food by freezing it.",
+            correctFeedback: "Excellent! 'We can preserve food by freezing it.' is correct. Perfect use of 'can' with preservation method!",
+            correctFeedbackRu: "Превосходно! 'We can preserve food by freezing it.' верно. Идеальное использование 'can' с методом сохранения!",
+            incorrectFeedback: "Try again. Remember: We + can + verb + noun + preposition + gerund + pronoun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + can + глагол + существительное + предлог + герундий + местоимение + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Restaurants", "can't", "serve", "food", "without", "health", "permits."],
+            correctAnswer: "Restaurants can't serve food without health permits.",
+            correctFeedback: "Great! 'Restaurants can't serve food without health permits.' is correct. Excellent use of 'can't' with legal requirement!",
+            correctFeedbackRu: "Отлично! 'Restaurants can't serve food without health permits.' верно. Превосходное использование 'can't' с юридическим требованием!",
+            incorrectFeedback: "Try again. Remember: Restaurants + can't + verb + noun + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Restaurants + can't + глагол + существительное + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Skilled", "chefs", "can", "prepare", "complex", "dishes", "perfectly."],
+            correctAnswer: "Skilled chefs can prepare complex dishes perfectly.",
+            correctFeedback: "Perfect! 'Skilled chefs can prepare complex dishes perfectly.' is correct. Great use of 'can' with culinary expertise!",
+            correctFeedbackRu: "Отлично! 'Skilled chefs can prepare complex dishes perfectly.' верно. Прекрасное использование 'can' с кулинарным мастерством!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + adjective + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + прилагательное + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "can't", "distinguish", "expensive", "wines", "from", "cheap", "ones."],
+            correctAnswer: "She can't distinguish expensive wines from cheap ones.",
+            correctFeedback: "Excellent! 'She can't distinguish expensive wines from cheap ones.' is correct. Perfect use of 'can't' with taste limitation!",
+            correctFeedbackRu: "Превосходно! 'She can't distinguish expensive wines from cheap ones.' верно. Идеальное использование 'can't' с ограничением вкуса!",
+            incorrectFeedback: "Try again. Remember: She + can't + verb + adjective + noun + preposition + adjective + pronoun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + can't + глагол + прилагательное + существительное + предлог + прилагательное + местоимение + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Modern", "refrigerators", "can", "keep", "food", "fresh", "for", "weeks."],
+            correctAnswer: "Modern refrigerators can keep food fresh for weeks.",
+            correctFeedback: "Great! 'Modern refrigerators can keep food fresh for weeks.' is correct. Excellent use of 'can' with appliance capability!",
+            correctFeedbackRu: "Отлично! 'Modern refrigerators can keep food fresh for weeks.' верно. Превосходное использование 'can' с возможностью прибора!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can + verb + noun + adjective + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can + глагол + существительное + прилагательное + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Vegetarians", "can't", "eat", "meat-based", "dishes", "at", "restaurants."],
+            correctAnswer: "Vegetarians can't eat meat-based dishes at restaurants.",
+            correctFeedback: "Perfect! 'Vegetarians can't eat meat-based dishes at restaurants.' is correct. Great use of 'can't' with dietary restriction!",
+            correctFeedbackRu: "Отлично! 'Vegetarians can't eat meat-based dishes at restaurants.' верно. Прекрасное использование 'can't' с диетическим ограничением!",
+            incorrectFeedback: "Try again. Remember: Vegetarians + can't + verb + hyphenated adjective + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Vegetarians + can't + глагол + составное прилагательное + существительное + предлог + существительное + ."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Can/can't - Sentence Building - Home and Family Life
+============================================ */
+window.grammarExercises['modals']['can-cant-ability-sentence-page9'] = {
+    title: "Can/can't - Home and Family Life",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "mother", "can", "sew", "beautiful", "dresses", "by", "hand."],
+            correctAnswer: "My mother can sew beautiful dresses by hand.",
+            correctFeedback: "Perfect! 'My mother can sew beautiful dresses by hand.' is correct. Great use of 'can' with sewing skill!",
+            correctFeedbackRu: "Отлично! 'My mother can sew beautiful dresses by hand.' верно. Прекрасное использование 'can' с навыком шитья!",
+            incorrectFeedback: "Try again. Remember: My + noun + can + verb + adjective + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: My + существительное + can + глагол + прилагательное + существительное + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Toddlers", "can't", "clean", "their", "rooms", "properly."],
+            correctAnswer: "Toddlers can't clean their rooms properly.",
+            correctFeedback: "Excellent! 'Toddlers can't clean their rooms properly.' is correct. Perfect use of 'can't' with age limitation!",
+            correctFeedbackRu: "Превосходно! 'Toddlers can't clean their rooms properly.' верно. Идеальное использование 'can't' с возрастным ограничением!",
+            incorrectFeedback: "Try again. Remember: Toddlers + can't + verb + possessive + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Toddlers + can't + глагол + притяжательное + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "can", "grow", "fresh", "vegetables", "in", "our", "garden."],
+            correctAnswer: "We can grow fresh vegetables in our garden.",
+            correctFeedback: "Great! 'We can grow fresh vegetables in our garden.' is correct. Excellent use of 'can' with gardening ability!",
+            correctFeedbackRu: "Отлично! 'We can grow fresh vegetables in our garden.' верно. Превосходное использование 'can' с садоводческой способностью!",
+            incorrectFeedback: "Try again. Remember: We + can + verb + adjective + noun + preposition + possessive + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + can + глагол + прилагательное + существительное + предлог + притяжательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Apartment", "dwellers", "can't", "keep", "large", "farm", "animals."],
+            correctAnswer: "Apartment dwellers can't keep large farm animals.",
+            correctFeedback: "Perfect! 'Apartment dwellers can't keep large farm animals.' is correct. Great use of 'can't' with space limitation!",
+            correctFeedbackRu: "Отлично! 'Apartment dwellers can't keep large farm animals.' верно. Прекрасное использование 'can't' с ограничением места!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + adjective + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + прилагательное + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "can", "organize", "birthday", "parties", "for", "twenty", "people."],
+            correctAnswer: "She can organize birthday parties for twenty people.",
+            correctFeedback: "Excellent! 'She can organize birthday parties for twenty people.' is correct. Perfect use of 'can' with organizing ability!",
+            correctFeedbackRu: "Превосходно! 'She can organize birthday parties for twenty people.' верно. Идеальное использование 'can' с организаторской способностью!",
+            incorrectFeedback: "Try again. Remember: She + can + verb + adjective + noun + preposition + number + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + can + глагол + прилагательное + существительное + предлог + число + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Teenagers", "can't", "stay", "out", "late", "on", "school", "nights."],
+            correctAnswer: "Teenagers can't stay out late on school nights.",
+            correctFeedback: "Great! 'Teenagers can't stay out late on school nights.' is correct. Excellent use of 'can't' with parental rule!",
+            correctFeedbackRu: "Отлично! 'Teenagers can't stay out late on school nights.' верно. Превосходное использование 'can't' с родительским правилом!",
+            incorrectFeedback: "Try again. Remember: Teenagers + can't + verb + adverb + adjective + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Teenagers + can't + глагол + наречие + прилагательное + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "father", "can", "repair", "broken", "furniture", "with", "his", "tools."],
+            correctAnswer: "My father can repair broken furniture with his tools.",
+            correctFeedback: "Perfect! 'My father can repair broken furniture with his tools.' is correct. Great use of 'can' with repair skill!",
+            correctFeedbackRu: "Отлично! 'My father can repair broken furniture with his tools.' верно. Прекрасное использование 'can' с навыком ремонта!",
+            incorrectFeedback: "Try again. Remember: My + noun + can + verb + adjective + noun + preposition + possessive + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: My + существительное + can + глагол + прилагательное + существительное + предлог + притяжательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Newborn", "babies", "can't", "sleep", "through", "the", "whole", "night."],
+            correctAnswer: "Newborn babies can't sleep through the whole night.",
+            correctFeedback: "Excellent! 'Newborn babies can't sleep through the whole night.' is correct. Perfect use of 'can't' with infant limitation!",
+            correctFeedbackRu: "Превосходно! 'Newborn babies can't sleep through the whole night.' верно. Идеальное использование 'can't' с ограничением младенца!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + preposition + article + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + предлог + артикль + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "can", "watch", "our", "favorite", "shows", "anytime", "now."],
+            correctAnswer: "We can watch our favorite shows anytime now.",
+            correctFeedback: "Great! 'We can watch our favorite shows anytime now.' is correct. Excellent use of 'can' with streaming capability!",
+            correctFeedbackRu: "Отлично! 'We can watch our favorite shows anytime now.' верно. Превосходное использование 'can' с возможностью стриминга!",
+            incorrectFeedback: "Try again. Remember: We + can + verb + possessive + adjective + noun + adverb + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + can + глагол + притяжательное + прилагательное + существительное + наречие + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Elderly", "grandparents", "can't", "play", "active", "games", "for", "hours."],
+            correctAnswer: "Elderly grandparents can't play active games for hours.",
+            correctFeedback: "Perfect! 'Elderly grandparents can't play active games for hours.' is correct. Great use of 'can't' with age limitation!",
+            correctFeedbackRu: "Отлично! 'Elderly grandparents can't play active games for hours.' верно. Прекрасное использование 'can't' с возрастным ограничением!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + adjective + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + прилагательное + существительное + предлог + существительное + ."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Can/can't - Sentence Building - Entertainment and Hobbies
+============================================ */
+window.grammarExercises['modals']['can-cant-ability-sentence-page10'] = {
+    title: "Can/can't - Entertainment and Hobbies",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Musicians", "can", "create", "beautiful", "melodies", "with", "different", "instruments."],
+            correctAnswer: "Musicians can create beautiful melodies with different instruments.",
+            correctFeedback: "Perfect! 'Musicians can create beautiful melodies with different instruments.' is correct. Great use of 'can' with musical ability!",
+            correctFeedbackRu: "Отлично! 'Musicians can create beautiful melodies with different instruments.' верно. Прекрасное использование 'can' с музыкальной способностью!",
+            incorrectFeedback: "Try again. Remember: Musicians + can + verb + adjective + noun + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Musicians + can + глагол + прилагательное + существительное + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["People", "can't", "watch", "movies", "in", "theaters", "without", "tickets."],
+            correctAnswer: "People can't watch movies in theaters without tickets.",
+            correctFeedback: "Excellent! 'People can't watch movies in theaters without tickets.' is correct. Perfect use of 'can't' with theater requirement!",
+            correctFeedbackRu: "Превосходно! 'People can't watch movies in theaters without tickets.' верно. Идеальное использование 'can't' с требованием кинотеатра!",
+            incorrectFeedback: "Try again. Remember: People + can't + verb + noun + preposition + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: People + can't + глагол + существительное + предлог + существительное + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Artists", "can", "paint", "realistic", "portraits", "after", "years", "of", "practice."],
+            correctAnswer: "Artists can paint realistic portraits after years of practice.",
+            correctFeedback: "Great! 'Artists can paint realistic portraits after years of practice.' is correct. Excellent use of 'can' with artistic skill!",
+            correctFeedbackRu: "Отлично! 'Artists can paint realistic portraits after years of practice.' верно. Превосходное использование 'can' с художественным навыком!",
+            incorrectFeedback: "Try again. Remember: Artists + can + verb + adjective + noun + preposition + noun + preposition + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Artists + can + глагол + прилагательное + существительное + предлог + существительное + предлог + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Young", "children", "can't", "understand", "complex", "movie", "plots."],
+            correctAnswer: "Young children can't understand complex movie plots.",
+            correctFeedback: "Perfect! 'Young children can't understand complex movie plots.' is correct. Great use of 'can't' with cognitive limitation!",
+            correctFeedbackRu: "Отлично! 'Young children can't understand complex movie plots.' верно. Прекрасное использование 'can't' с когнитивным ограничением!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + can't + verb + adjective + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + can't + глагол + прилагательное + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "can", "listen", "to", "thousands", "of", "songs", "instantly."],
+            correctAnswer: "We can listen to thousands of songs instantly.",
+            correctFeedback: "Excellent! 'We can listen to thousands of songs instantly.' is correct. Perfect use of 'can' with music streaming!",
+            correctFeedbackRu: "Превосходно! 'We can listen to thousands of songs instantly.' верно. Идеальное использование 'can' с музыкальным стримингом!",
+            incorrectFeedback: "Try again. Remember: We + can + verb + preposition + noun + preposition + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + can + глагол + предлог + существительное + предлог + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Photographers", "can't", "take", "professional", "pictures", "without", "expensive", "equipment."],
+            correctAnswer: "Photographers can't take professional pictures without expensive equipment.",
+            correctFeedback: "Great! 'Photographers can't take professional pictures without expensive equipment.' is correct. Excellent use of 'can't' with equipment requirement!",
+            correctFeedbackRu: "Отлично! 'Photographers can't take professional pictures without expensive equipment.' верно. Превосходное использование 'can't' с требованием оборудования!",
+            incorrectFeedback: "Try again. Remember: Photographers + can't + verb + adjective + noun + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Photographers + can't + глагол + прилагательное + существительное + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Board", "game", "players", "can", "enjoy", "entertaining", "evenings", "together."],
+            correctAnswer: "Board game players can enjoy entertaining evenings together.",
+            correctFeedback: "Perfect! 'Board game players can enjoy entertaining evenings together.' is correct. Great use of 'can' with gaming enjoyment!",
+            correctFeedbackRu: "Отлично! 'Board game players can enjoy entertaining evenings together.' верно. Прекрасное использование 'can' с игровым удовольствием!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + noun + can + verb + adjective + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + существительное + can + глагол + прилагательное + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "can't", "read", "books", "in", "complete", "darkness."],
+            correctAnswer: "She can't read books in complete darkness.",
+            correctFeedback: "Excellent! 'She can't read books in complete darkness.' is correct. Perfect use of 'can't' with vision limitation!",
+            correctFeedbackRu: "Превосходно! 'She can't read books in complete darkness.' верно. Идеальное использование 'can't' с ограничением зрения!",
+            incorrectFeedback: "Try again. Remember: She + can't + verb + noun + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + can't + глагол + существительное + предлог + прилагательное + существительное + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Video", "game", "players", "can", "compete", "with", "people", "worldwide."],
+            correctAnswer: "Video game players can compete with people worldwide.",
+            correctFeedback: "Great! 'Video game players can compete with people worldwide.' is correct. Excellent use of 'can' with online gaming!",
+            correctFeedbackRu: "Отлично! 'Video game players can compete with people worldwide.' верно. Превосходное использование 'can' с онлайн-играми!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + noun + can + verb + preposition + noun + adverb + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + существительное + can + глагол + предлог + существительное + наречие + ."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["People", "can't", "attend", "large", "concerts", "during", "pandemic", "restrictions."],
+            correctAnswer: "People can't attend large concerts during pandemic restrictions.",
+            correctFeedback: "Perfect! 'People can't attend large concerts during pandemic restrictions.' is correct. Great use of 'can't' with health restriction!",
+            correctFeedbackRu: "Отлично! 'People can't attend large concerts during pandemic restrictions.' верно. Прекрасное использование 'can't' с ограничением здравоохранения!",
+            incorrectFeedback: "Try again. Remember: People + can't + verb + adjective + noun + preposition + adjective + noun + .",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: People + can't + глагол + прилагательное + существительное + предлог + прилагательное + существительное + ."
+        }
+    ]
+};
+
+/* ============================================
 Console log to confirm data loading
 ============================================ */
-console.log("Can/Can't Ability Sentence Building Pages 1-3 loaded successfully!");
-console.log("===== CAN/CAN'T ABILITY SENTENCE BUILDING: PAGES 1-3 LOADED =====");
+console.log("Can/Can't Ability Sentence Building Pages 1-10 loaded successfully!");
+console.log("===== CAN/CAN'T ABILITY SENTENCE BUILDING: PAGES 1-10 LOADED =====");
