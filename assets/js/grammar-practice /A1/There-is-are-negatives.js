@@ -3561,3 +3561,439 @@ window.grammarExercises['articles']['there-is-are-negatives-sentence-page6'] = {
         }
     ]
 };
+
+/* ============================================
+Page 7: There is/are - Negatives with Sports and Activities
+============================================ */
+window.grammarExercises['articles']['there-is-are-negatives-sentence-page7'] = {
+    title: "There is/are - Negatives with Sports and Activities",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "pool", "at", "this", "hotel."],
+            correctAnswer: "There isn't a pool at this hotel.",
+            correctFeedback: "Perfect! 'There isn't a pool at this hotel.' is correct. Great use of hotel facilities vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a pool at this hotel.' верно. Прекрасное использование лексики гостиничных удобств!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + at + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + at + this + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "rackets", "in", "the", "bag."],
+            correctAnswer: "There aren't any rackets in the bag.",
+            correctFeedback: "Excellent! 'There aren't any rackets in the bag.' is correct. Perfect sports equipment vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any rackets in the bag.' верно. Идеальная лексика спортивного оборудования!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + in + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "stadium", "in", "our", "city."],
+            correctAnswer: "There isn't a stadium in our city.",
+            correctFeedback: "Great! 'There isn't a stadium in our city.' is correct. Excellent sports venues vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a stadium in our city.' верно. Превосходная лексика спортивных сооружений!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + in + our + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + in + our + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "helmets", "for", "the", "players."],
+            correctAnswer: "There aren't any helmets for the players.",
+            correctFeedback: "Perfect! 'There aren't any helmets for the players.' is correct. Great safety equipment vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any helmets for the players.' верно. Отличная лексика защитного снаряжения!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + for + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + for + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "coach", "for", "this", "team."],
+            correctAnswer: "There isn't a coach for this team.",
+            correctFeedback: "Excellent! 'There isn't a coach for this team.' is correct. Perfect team management vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a coach for this team.' верно. Идеальная лексика управления командой!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + for + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + for + this + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "spectators", "in", "the", "stands."],
+            correctAnswer: "There aren't any spectators in the stands.",
+            correctFeedback: "Great! 'There aren't any spectators in the stands.' is correct. Wonderful sports event vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any spectators in the stands.' верно. Замечательная лексика спортивных мероприятий!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + in + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "referee", "on", "the", "field."],
+            correctAnswer: "There isn't a referee on the field.",
+            correctFeedback: "Perfect! 'There isn't a referee on the field.' is correct. Great sports officials vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a referee on the field.' верно. Прекрасная лексика спортивных судей!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + on + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + on + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "medals", "for", "third", "place."],
+            correctAnswer: "There aren't any medals for third place.",
+            correctFeedback: "Excellent! 'There aren't any medals for third place.' is correct. Perfect competition awards vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any medals for third place.' верно. Идеальная лексика наград соревнований!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + for + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + for + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "scoreboard", "above", "the", "court."],
+            correctAnswer: "There isn't a scoreboard above the court.",
+            correctFeedback: "Great! 'There isn't a scoreboard above the court.' is correct. Excellent sports facility vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a scoreboard above the court.' верно. Превосходная лексика спортивных сооружений!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + above + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + above + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "uniforms", "in", "the", "locker."],
+            correctAnswer: "There aren't any uniforms in the locker.",
+            correctFeedback: "Perfect! 'There aren't any uniforms in the locker.' is correct. Great team clothing vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any uniforms in the locker.' верно. Отличная лексика командной одежды!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + in + the + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: There is/are - Negatives with Weather and Seasons
+============================================ */
+window.grammarExercises['articles']['there-is-are-negatives-sentence-page8'] = {
+    title: "There is/are - Negatives with Weather and Seasons",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "any", "sunshine", "today."],
+            correctAnswer: "There isn't any sunshine today.",
+            correctFeedback: "Perfect! 'There isn't any sunshine today.' is correct. Great use of weather vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't any sunshine today.' верно. Прекрасное использование погодной лексики!",
+            incorrectFeedback: "Try again. Remember: There isn't + any + uncountable noun + today.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + any + неисчисляемое существительное + today."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "umbrellas", "in", "the", "car."],
+            correctAnswer: "There aren't any umbrellas in the car.",
+            correctFeedback: "Excellent! 'There aren't any umbrellas in the car.' is correct. Perfect weather protection vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any umbrellas in the car.' верно. Идеальная лексика защиты от погоды!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + in + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "rainbow", "in", "the", "sky."],
+            correctAnswer: "There isn't a rainbow in the sky.",
+            correctFeedback: "Great! 'There isn't a rainbow in the sky.' is correct. Excellent weather phenomena vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a rainbow in the sky.' верно. Превосходная лексика погодных явлений!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + in + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "snowflakes", "falling", "down."],
+            correctAnswer: "There aren't any snowflakes falling down.",
+            correctFeedback: "Perfect! 'There aren't any snowflakes falling down.' is correct. Great winter weather vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any snowflakes falling down.' верно. Отличная лексика зимней погоды!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + falling + down.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + falling + down."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "any", "breeze", "this", "evening."],
+            correctAnswer: "There isn't any breeze this evening.",
+            correctFeedback: "Excellent! 'There isn't any breeze this evening.' is correct. Perfect atmospheric conditions vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't any breeze this evening.' верно. Идеальная лексика атмосферных условий!",
+            incorrectFeedback: "Try again. Remember: There isn't + any + uncountable noun + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + any + неисчисляемое существительное + this + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "weathermen", "on", "TV."],
+            correctAnswer: "There aren't any weathermen on TV.",
+            correctFeedback: "Great! 'There aren't any weathermen on TV.' is correct. Wonderful weather broadcasting vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any weathermen on TV.' верно. Замечательная лексика погодного вещания!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + on + TV.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + on + TV."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "thermometer", "outside", "the", "window."],
+            correctAnswer: "There isn't a thermometer outside the window.",
+            correctFeedback: "Perfect! 'There isn't a thermometer outside the window.' is correct. Great weather measurement vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a thermometer outside the window.' верно. Прекрасная лексика измерения погоды!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + outside + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + outside + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "jackets", "for", "cold", "weather."],
+            correctAnswer: "There aren't any jackets for cold weather.",
+            correctFeedback: "Excellent! 'There aren't any jackets for cold weather.' is correct. Perfect winter clothing vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any jackets for cold weather.' верно. Идеальная лексика зимней одежды!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + for + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + for + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "any", "humidity", "in", "the", "air."],
+            correctAnswer: "There isn't any humidity in the air.",
+            correctFeedback: "Great! 'There isn't any humidity in the air.' is correct. Excellent atmospheric science vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't any humidity in the air.' верно. Превосходная лексика атмосферных наук!",
+            incorrectFeedback: "Try again. Remember: There isn't + any + uncountable noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + any + неисчисляемое существительное + in + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "seasons", "like", "this", "one."],
+            correctAnswer: "There aren't any seasons like this one.",
+            correctFeedback: "Perfect! 'There aren't any seasons like this one.' is correct. Great seasonal comparison vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any seasons like this one.' верно. Отличная лексика сравнения времен года!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + like + this + one.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + like + this + one."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: There is/are - Negatives with Clothing and Personal Items
+============================================ */
+window.grammarExercises['articles']['there-is-are-negatives-sentence-page9'] = {
+    title: "There is/are - Negatives with Clothing and Personal Items",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "sweater", "in", "my", "closet."],
+            correctAnswer: "There isn't a sweater in my closet.",
+            correctFeedback: "Perfect! 'There isn't a sweater in my closet.' is correct. Great use of clothing vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a sweater in my closet.' верно. Прекрасное использование лексики одежды!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + in + my + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + in + my + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "bracelets", "on", "her", "wrist."],
+            correctAnswer: "There aren't any bracelets on her wrist.",
+            correctFeedback: "Excellent! 'There aren't any bracelets on her wrist.' is correct. Perfect jewelry vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any bracelets on her wrist.' верно. Идеальная лексика украшений!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + on + her + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + on + her + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "coat", "hanging", "on", "the", "hook."],
+            correctAnswer: "There isn't a coat hanging on the hook.",
+            correctFeedback: "Great! 'There isn't a coat hanging on the hook.' is correct. Excellent clothing storage vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a coat hanging on the hook.' верно. Превосходная лексика хранения одежды!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + noun + hanging + on + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное + hanging + on + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "slippers", "under", "the", "bed."],
+            correctAnswer: "There aren't any slippers under the bed.",
+            correctFeedback: "Perfect! 'There aren't any slippers under the bed.' is correct. Great footwear vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any slippers under the bed.' верно. Отличная лексика обуви!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + under + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + under + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "mirror", "in", "this", "dressing", "room."],
+            correctAnswer: "There isn't a mirror in this dressing room.",
+            correctFeedback: "Excellent! 'There isn't a mirror in this dressing room.' is correct. Perfect shopping vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a mirror in this dressing room.' верно. Идеальная лексика покупок!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + noun + in + this + compound noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное + in + this + составное существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "handbags", "in", "the", "store."],
+            correctAnswer: "There aren't any handbags in the store.",
+            correctFeedback: "Great! 'There aren't any handbags in the store.' is correct. Wonderful accessories vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any handbags in the store.' верно. Замечательная лексика аксессуаров!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + in + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "button", "on", "this", "shirt."],
+            correctAnswer: "There isn't a button on this shirt.",
+            correctFeedback: "Perfect! 'There isn't a button on this shirt.' is correct. Great clothing details vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a button on this shirt.' верно. Прекрасная лексика деталей одежды!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + on + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + on + this + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "pockets", "in", "these", "pants."],
+            correctAnswer: "There aren't any pockets in these pants.",
+            correctFeedback: "Excellent! 'There aren't any pockets in these pants.' is correct. Perfect clothing features vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any pockets in these pants.' верно. Идеальная лексика особенностей одежды!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + in + these + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + in + these + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "zipper", "on", "this", "jacket."],
+            correctAnswer: "There isn't a zipper on this jacket.",
+            correctFeedback: "Great! 'There isn't a zipper on this jacket.' is correct. Excellent clothing fasteners vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a zipper on this jacket.' верно. Превосходная лексика застежек одежды!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + singular noun + on + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + существительное в единственном числе + on + this + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "shoelaces", "in", "these", "shoes."],
+            correctAnswer: "There aren't any shoelaces in these shoes.",
+            correctFeedback: "Perfect! 'There aren't any shoelaces in these shoes.' is correct. Great shoe accessories vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any shoelaces in these shoes.' верно. Отличная лексика обувных аксессуаров!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + plural noun + in + these + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + существительное во множественном числе + in + these + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: There is/are - Negatives with Colors and Descriptions
+============================================ */
+window.grammarExercises['articles']['there-is-are-negatives-sentence-page10'] = {
+    title: "There is/are - Negatives with Colors and Descriptions",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "blue", "car", "in", "the", "parking", "lot."],
+            correctAnswer: "There isn't a blue car in the parking lot.",
+            correctFeedback: "Perfect! 'There isn't a blue car in the parking lot.' is correct. Great use of color and vehicle vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a blue car in the parking lot.' верно. Прекрасное использование цветов и транспортной лексики!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + adjective + noun + in + the + compound noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + прилагательное + существительное + in + the + составное существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "red", "flowers", "in", "the", "garden."],
+            correctAnswer: "There aren't any red flowers in the garden.",
+            correctFeedback: "Excellent! 'There aren't any red flowers in the garden.' is correct. Perfect color and nature vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any red flowers in the garden.' верно. Идеальная лексика цветов и природы!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + adjective + plural noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + прилагательное + существительное во множественном числе + in + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "large", "screen", "in", "this", "room."],
+            correctAnswer: "There isn't a large screen in this room.",
+            correctFeedback: "Great! 'There isn't a large screen in this room.' is correct. Excellent size and technology vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a large screen in this room.' верно. Превосходная лексика размеров и технологий!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + adjective + noun + in + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + прилагательное + существительное + in + this + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "small", "tables", "in", "the", "cafe."],
+            correctAnswer: "There aren't any small tables in the cafe.",
+            correctFeedback: "Perfect! 'There aren't any small tables in the cafe.' is correct. Great size and furniture vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any small tables in the cafe.' верно. Отличная лексика размеров и мебели!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + adjective + plural noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + прилагательное + существительное во множественном числе + in + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "green", "light", "at", "this", "intersection."],
+            correctAnswer: "There isn't a green light at this intersection.",
+            correctFeedback: "Excellent! 'There isn't a green light at this intersection.' is correct. Perfect traffic and color vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a green light at this intersection.' верно. Идеальная лексика дорожного движения и цветов!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + adjective + noun + at + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + прилагательное + существительное + at + this + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "old", "books", "on", "the", "shelf."],
+            correctAnswer: "There aren't any old books on the shelf.",
+            correctFeedback: "Great! 'There aren't any old books on the shelf.' is correct. Wonderful age and literature vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any old books on the shelf.' верно. Замечательная лексика возраста и литературы!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + adjective + plural noun + on + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + прилагательное + существительное во множественном числе + on + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "clean", "towel", "in", "the", "bathroom."],
+            correctAnswer: "There isn't a clean towel in the bathroom.",
+            correctFeedback: "Perfect! 'There isn't a clean towel in the bathroom.' is correct. Great cleanliness and bathroom vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a clean towel in the bathroom.' верно. Прекрасная лексика чистоты и ванной комнаты!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + adjective + noun + in + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + прилагательное + существительное + in + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "fresh", "vegetables", "at", "the", "market."],
+            correctAnswer: "There aren't any fresh vegetables at the market.",
+            correctFeedback: "Excellent! 'There aren't any fresh vegetables at the market.' is correct. Perfect freshness and food vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any fresh vegetables at the market.' верно. Идеальная лексика свежести и продуктов!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + adjective + plural noun + at + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + прилагательное + существительное во множественном числе + at + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "a", "comfortable", "chair", "in", "this", "office."],
+            correctAnswer: "There isn't a comfortable chair in this office.",
+            correctFeedback: "Great! 'There isn't a comfortable chair in this office.' is correct. Excellent comfort and furniture vocabulary!",
+            correctFeedbackRu: "Отлично! 'There isn't a comfortable chair in this office.' верно. Превосходная лексика комфорта и мебели!",
+            incorrectFeedback: "Try again. Remember: There isn't + a + adjective + noun + in + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There isn't + a + прилагательное + существительное + in + this + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "aren't", "any", "empty", "bottles", "in", "the", "recycling", "bin."],
+            correctAnswer: "There aren't any empty bottles in the recycling bin.",
+            correctFeedback: "Perfect! 'There aren't any empty bottles in the recycling bin.' is correct. Great environmental and descriptive vocabulary!",
+            correctFeedbackRu: "Отлично! 'There aren't any empty bottles in the recycling bin.' верно. Отличная экологическая и описательная лексика!",
+            incorrectFeedback: "Try again. Remember: There aren't + any + adjective + plural noun + in + the + compound noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There aren't + any + прилагательное + существительное во множественном числе + in + the + составное существительное."
+        }
+    ]
+};
