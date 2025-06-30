@@ -2651,3 +2651,1334 @@ window.grammarExercises['articles']['much-many-basics-gap-page8'] = {
         }
     ]
 };
+
+/* ============================================
+Page 9: Much/Many - Work and Technology (Fill Gaps)
+============================================ */
+window.grammarExercises['articles']['much-many-basics-gap-page9'] = {
+    title: "Much/Many - Work and Technology",
+    fillGaps: [
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "My job doesn't require ____ overtime during weekends.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Excellent! 'Much' is correct because overtime is uncountable.",
+            correctFeedbackRu: "Отлично! 'Much' правильно, потому что сверхурочная работа неисчисляемая.",
+            incorrectFeedback: "Try again! Use 'much' with overtime. Overtime is extra work time we measure in hours, not count individually.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' со сверхурочной работой. Сверхурочная работа - это дополнительное рабочее время, которое мы измеряем часами, а не считаем по отдельности."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "How ____ emails do you receive at work each day?",
+            correctAnswer: "many",
+            options: ["many", "much", "important", "urgent"],
+            correctFeedback: "Perfect! 'Many' is correct because emails are countable messages.",
+            correctFeedbackRu: "Идеально! 'Many' правильно, потому что электронные письма - исчисляемые сообщения.",
+            incorrectFeedback: "Try again! Use 'many' with emails. Emails are individual digital messages you can count in your inbox.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с электронными письмами. Электронные письма - это отдельные цифровые сообщения, которые можно посчитать в вашем почтовом ящике."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "This computer doesn't have ____ memory for large files.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Great! 'Much' is correct because memory is uncountable.",
+            correctFeedbackRu: "Отлично! 'Much' правильно, потому что память неисчисляемая.",
+            incorrectFeedback: "Try again! Use 'much' with memory. This computer is older and can't store many big photos or videos.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' с памятью. Этот компьютер старый и не может хранить много больших фотографий или видео."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "She attended ____ conferences this year for professional development.",
+            correctAnswer: "many",
+            options: ["many", "much", "a lot", "some"],
+            correctFeedback: "Excellent! 'Many' is correct because conferences are countable events.",
+            correctFeedbackRu: "Отлично! 'Many' правильно, потому что конференции - исчисляемые события.",
+            incorrectFeedback: "Try again! Use 'many' with conferences. Conferences are individual business events you can count throughout the year.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с конференциями. Конференции - это отдельные деловые события, которые можно посчитать в течение года."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "Remote work doesn't need ____ supervision from managers.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Correct! 'Much' is used with uncountable nouns like supervision.",
+            correctFeedbackRu: "Правильно! 'Much' используется с неисчисляемыми существительными, такими как надзор.",
+            incorrectFeedback: "Try again! Use 'much' with supervision. When you work from home, your boss doesn't need to watch you all the time.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' с надзором. Когда вы работаете дома, ваш начальник не должен следить за вами всё время."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "How ____ passwords do you use for different accounts?",
+            correctAnswer: "many",
+            options: ["many", "much", "strong", "secure"],
+            correctFeedback: "Perfect! 'Many' is correct because passwords are countable security codes.",
+            correctFeedbackRu: "Идеально! 'Many' правильно, потому что пароли - исчисляемые коды безопасности.",
+            incorrectFeedback: "Try again! Use 'many' with passwords. Passwords are individual security codes you can count for each website or app.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с паролями. Пароли - это отдельные коды безопасности, которые можно посчитать для каждого сайта или приложения."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "This project doesn't require ____ creativity from the team.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Great! 'Much' is correct because creativity is uncountable.",
+            correctFeedbackRu: "Отлично! 'Much' правильно, потому что креативность неисчисляемая.",
+            incorrectFeedback: "Try again! Use 'much' with creativity. This is a simple project - just follow the instructions and you're done!",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' с креативностью. Это простой проект - просто следуйте инструкциям и всё готово!"
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "Our office bought ____ new printers for different departments.",
+            correctAnswer: "many",
+            options: ["many", "much", "a lot", "some"],
+            correctFeedback: "Excellent! 'Many' is correct because printers are countable office machines.",
+            correctFeedbackRu: "Отлично! 'Many' правильно, потому что принтеры - исчисляемые офисные машины.",
+            incorrectFeedback: "Try again! Use 'many' with printers. Printers are individual office machines you can count in each department.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с принтерами. Принтеры - это отдельные офисные машины, которые можно посчитать в каждом отделе."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "Online learning doesn't provide ____ interaction with classmates.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Correct! 'Much' is used with uncountable nouns like interaction.",
+            correctFeedbackRu: "Правильно! 'Much' используется с неисчисляемыми существительными, такими как взаимодействие.",
+            incorrectFeedback: "Try again! Use 'much' with interaction. Interaction is communication and contact we have, measured as more or less, not counted.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' с взаимодействием. Взаимодействие - это общение и контакт, которые у нас есть, измеряемые как больше или меньше, а не считаемые."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "How ____ websites do you visit regularly for work research?",
+            correctAnswer: "many",
+            options: ["many", "much", "useful", "reliable"],
+            correctFeedback: "Perfect! 'Many' is correct because websites are countable internet pages.",
+            correctFeedbackRu: "Идеально! 'Many' правильно, потому что веб-сайты - исчисляемые интернет-страницы.",
+            incorrectFeedback: "Try again! Use 'many' with websites. Websites are individual internet addresses you can count in your bookmarks.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с веб-сайтами. Веб-сайты - это отдельные интернет-адреса, которые можно посчитать в ваших закладках."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Much/Many - Entertainment and Leisure (Fill Gaps)
+============================================ */
+window.grammarExercises['articles']['much-many-basics-gap-page10'] = {
+    title: "Much/Many - Entertainment and Leisure",
+    fillGaps: [
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "This puzzle doesn't require ____ patience to complete.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Excellent! 'Much' is correct because patience is uncountable.",
+            correctFeedbackRu: "Отлично! 'Much' правильно, потому что терпение неисчисляемое.",
+            incorrectFeedback: "Try again! Use 'much' with patience. Patience is the ability to wait calmly, measured as more or less, not counted.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' с терпением. Терпение - это способность спокойно ждать, измеряемая как больше или меньше, а не считаемая."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "How ____ board games do you own at home?",
+            correctAnswer: "many",
+            options: ["many", "much", "fun", "exciting"],
+            correctFeedback: "Perfect! 'Many' is correct because board games are countable entertainment items.",
+            correctFeedbackRu: "Идеально! 'Many' правильно, потому что настольные игры - исчисляемые развлекательные предметы.",
+            incorrectFeedback: "Try again! Use 'many' with board games. Board games are individual games you can count in your collection - Monopoly, Chess, Scrabble.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с настольными играми. Настольные игры - это отдельные игры, которые можно посчитать в вашей коллекции - Монополия, Шахматы, Эрудит."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "Reading doesn't cost ____ money if you use the library.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Great! 'Much' is correct because money is uncountable.",
+            correctFeedbackRu: "Отлично! 'Much' правильно, потому что деньги неисчисляемые.",
+            incorrectFeedback: "Try again! Use 'much' with money. Money is currency we measure in dollars or euros, not count individually.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' с деньгами. Деньги - это валюта, которую мы измеряем в долларах или евро, а не считаем по отдельности."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "She collected ____ stamps from different countries.",
+            correctAnswer: "many",
+            options: ["many", "much", "a lot", "some"],
+            correctFeedback: "Excellent! 'Many' is correct because stamps are countable collectible items.",
+            correctFeedbackRu: "Отлично! 'Many' правильно, потому что марки - исчисляемые коллекционные предметы.",
+            incorrectFeedback: "Try again! Use 'many' with stamps. Stamps are individual pieces of postal paper you can count in a collection.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с марками. Марки - это отдельные кусочки почтовой бумаги, которые можно посчитать в коллекции."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "Watching movies doesn't take ____ physical energy.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Correct! 'Much' is used with uncountable nouns like energy.",
+            correctFeedbackRu: "Правильно! 'Much' используется с неисчисляемыми существительными, такими как энергия.",
+            incorrectFeedback: "Try again! Use 'much' with energy. Energy is physical power we have, measured as high or low, not counted.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' с энергией. Энергия - это физическая сила, которая у нас есть, измеряемая как высокая или низкая, а не считаемая."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "How ____ channels does your TV subscription include?",
+            correctAnswer: "many",
+            options: ["many", "much", "interesting", "popular"],
+            correctFeedback: "Perfect! 'Many' is correct because channels are countable TV stations.",
+            correctFeedbackRu: "Идеально! 'Many' правильно, потому что каналы - исчисляемые телевизионные станции.",
+            incorrectFeedback: "Try again! Use 'many' with channels. Channels are individual TV stations you can count on your remote control.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с каналами. Каналы - это отдельные телевизионные станции, которые можно посчитать на вашем пульте."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "This hobby doesn't bring ____ stress to my life.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Great! 'Much' is correct because stress is uncountable.",
+            correctFeedbackRu: "Отлично! 'Much' правильно, потому что стресс неисчисляемый.",
+            incorrectFeedback: "Try again! Use 'much' with stress. Stress is mental pressure we feel, measured as high or low, not counted.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' со стрессом. Стресс - это психическое давление, которое мы чувствуем, измеряемое как высокое или низкое, а не считаемое."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "We took ____ photos during our weekend trip.",
+            correctAnswer: "many",
+            options: ["many", "much", "a lot", "some"],
+            correctFeedback: "Excellent! 'Many' is correct because photos are countable pictures.",
+            correctFeedbackRu: "Отлично! 'Many' правильно, потому что фотографии - исчисляемые изображения.",
+            incorrectFeedback: "Try again! Use 'many' with photos. Photos are individual pictures you can count on your camera or phone.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с фотографиями. Фотографии - это отдельные изображения, которые можно посчитать на вашей камере или телефоне."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "Gardening doesn't need ____ expensive equipment to start.",
+            correctAnswer: "much",
+            options: ["much", "many", "few", "little"],
+            correctFeedback: "Correct! 'Much' is used with uncountable nouns like equipment.",
+            correctFeedbackRu: "Правильно! 'Much' используется с неисчисляемыми существительными, такими как оборудование.",
+            incorrectFeedback: "Try again! Use 'much' with equipment. Equipment refers to tools and supplies as a group, not individual items.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'much' с оборудованием. Оборудование относится к инструментам и принадлежностям как к группе, а не к отдельным предметам."
+        },
+        {
+            question: "Complete the sentence with 'much' or 'many':",
+            questionRu: "Заполните предложение словом 'much' или 'many':",
+            sentence: "How ____ festivals do you attend in your city each year?",
+            correctAnswer: "many",
+            options: ["many", "much", "cultural", "musical"],
+            correctFeedback: "Perfect! 'Many' is correct because festivals are countable cultural events.",
+            correctFeedbackRu: "Идеально! 'Many' правильно, потому что фестивали - исчисляемые культурные события.",
+            incorrectFeedback: "Try again! Use 'many' with festivals. Festivals are individual cultural celebrations you can count throughout the year.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'many' с фестивалями. Фестивали - это отдельные культурные празднования, которые можно посчитать в течение года."
+        }
+    ]
+};
+
+/* =============================================================================== */
+/* =========================Sentence Building Exercises=========================== */
+
+/* ============================================
+Page 1: Much/Many - Basic Food and Drinks (Sentence Building)
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page1'] = {
+    title: "Much/Many - Basic Food and Drinks",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "don't", "drink", "much", "coffee."],
+            correctAnswer: "I don't drink much coffee.",
+            correctFeedback: "Perfect! 'I don't drink much coffee.' is correct. Great use of 'much' with uncountable coffee!",
+            correctFeedbackRu: "Отлично! 'I don't drink much coffee.' верно. Прекрасное использование 'much' с неисчисляемым кофе!",
+            incorrectFeedback: "Try again. Remember: I + don't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "bananas", "do", "you", "eat?"],
+            correctAnswer: "How many bananas do you eat?",
+            correctFeedback: "Excellent! 'How many bananas do you eat?' is correct. Perfect question with 'many' for countable bananas!",
+            correctFeedbackRu: "Отлично! 'How many bananas do you eat?' верно. Идеальный вопрос с 'many' для исчисляемых бананов!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + do + you + verb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + do + you + глагол + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "much", "sugar", "left."],
+            correctAnswer: "There isn't much sugar left.",
+            correctFeedback: "Great! 'There isn't much sugar left.' is correct. Excellent use of 'much' in negative sentences!",
+            correctFeedbackRu: "Отлично! 'There isn't much sugar left.' верно. Превосходное использование 'much' в отрицательных предложениях!",
+            incorrectFeedback: "Try again. Remember: There + isn't + much + uncountable noun + left.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + isn't + much + неисчисляемое существительное + left."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "bought", "many", "strawberries", "today."],
+            correctAnswer: "She bought many strawberries today.",
+            correctFeedback: "Perfect! 'She bought many strawberries today.' is correct. Great use of 'many' with countable strawberries!",
+            correctFeedbackRu: "Идеально! 'She bought many strawberries today.' верно. Отличное использование 'many' с исчисляемой клубникой!",
+            incorrectFeedback: "Try again. Remember: She + verb + many + countable noun + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол + many + исчисляемое существительное + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "don't", "need", "much", "rice", "tonight."],
+            correctAnswer: "We don't need much rice tonight.",
+            correctFeedback: "Excellent! 'We don't need much rice tonight.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'We don't need much rice tonight.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: We + don't + verb + much + uncountable noun + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + глагол + much + неисчисляемое существительное + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "eggs", "are", "in", "the", "basket?"],
+            correctAnswer: "How many eggs are in the basket?",
+            correctFeedback: "Great! 'How many eggs are in the basket?' is correct. Wonderful question about countable eggs!",
+            correctFeedbackRu: "Отлично! 'How many eggs are in the basket?' верно. Замечательный вопрос об исчисляемых яйцах!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + are + in + the + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + are + in + the + место + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "soup", "has", "much", "flavor."],
+            correctAnswer: "This soup has much flavor.",
+            correctFeedback: "Perfect! 'This soup has much flavor.' is correct. Excellent positive use of 'much' with uncountable flavor!",
+            correctFeedbackRu: "Идеально! 'This soup has much flavor.' верно. Превосходное положительное использование 'much' с неисчисляемым вкусом!",
+            incorrectFeedback: "Try again. Remember: This + noun + has + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + has + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "mother", "cooks", "many", "dishes", "well."],
+            correctAnswer: "My mother cooks many dishes well.",
+            correctFeedback: "Excellent! 'My mother cooks many dishes well.' is correct. Great sentence with 'many' for countable dishes!",
+            correctFeedbackRu: "Отлично! 'My mother cooks many dishes well.' верно. Отличное предложение с 'many' для исчисляемых блюд!",
+            incorrectFeedback: "Try again. Remember: My + person + verb + many + countable noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: My + человек + глагол + many + исчисляемое существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "much", "bread", "for", "breakfast."],
+            correctAnswer: "There isn't much bread for breakfast.",
+            correctFeedback: "Great! 'There isn't much bread for breakfast.' is correct. Perfect negative with 'much' and uncountable bread!",
+            correctFeedbackRu: "Отлично! 'There isn't much bread for breakfast.' верно. Идеальное отрицание с 'much' и неисчисляемым хлебом!",
+            incorrectFeedback: "Try again. Remember: There + isn't + much + uncountable noun + for + meal.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + isn't + much + неисчисляемое существительное + for + прием пищи."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "cookies", "did", "you", "bake?"],
+            correctAnswer: "How many cookies did you bake?",
+            correctFeedback: "Perfect! 'How many cookies did you bake?' is correct. Wonderful past question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many cookies did you bake?' верно. Замечательный вопрос в прошедшем времени с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + did + you + verb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + did + you + глагол + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Much/Many - Home and Family
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page2'] = {
+    title: "Much/Many - Home and Family",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "don't", "have", "much", "space", "here."],
+            correctAnswer: "We don't have much space here.",
+            correctFeedback: "Perfect! 'We don't have much space here.' is correct. Great negative sentence with 'much'!",
+            correctFeedbackRu: "Идеально! 'We don't have much space here.' верно. Отличное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: We + don't + have + much + uncountable noun + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + have + much + неисчисляемое существительное + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "windows", "does", "your", "house", "have?"],
+            correctAnswer: "How many windows does your house have?",
+            correctFeedback: "Excellent! 'How many windows does your house have?' is correct. Perfect question with 'many' for countable windows!",
+            correctFeedbackRu: "Отлично! 'How many windows does your house have?' верно. Идеальный вопрос с 'many' для исчисляемых окон!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + does + your + noun + have + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + does + your + существительное + have + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "much", "noise", "at", "night."],
+            correctAnswer: "There isn't much noise at night.",
+            correctFeedback: "Great! 'There isn't much noise at night.' is correct. Excellent use of 'much' with uncountable noise!",
+            correctFeedbackRu: "Отлично! 'There isn't much noise at night.' верно. Превосходное использование 'much' с неисчисляемым шумом!",
+            incorrectFeedback: "Try again. Remember: There + isn't + much + uncountable noun + at + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + isn't + much + неисчисляемое существительное + at + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "sister", "has", "many", "dolls", "upstairs."],
+            correctAnswer: "My sister has many dolls upstairs.",
+            correctFeedback: "Perfect! 'My sister has many dolls upstairs.' is correct. Great sentence with 'many' for countable dolls!",
+            correctFeedbackRu: "Идеально! 'My sister has many dolls upstairs.' верно. Отличное предложение с 'many' для исчисляемых кукол!",
+            incorrectFeedback: "Try again. Remember: My + person + has + many + countable noun + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: My + человек + has + many + исчисляемое существительное + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "room", "needs", "much", "cleaning", "today."],
+            correctAnswer: "This room needs much cleaning today.",
+            correctFeedback: "Excellent! 'This room needs much cleaning today.' is correct. Perfect use of 'much' with uncountable cleaning!",
+            correctFeedbackRu: "Отлично! 'This room needs much cleaning today.' верно. Идеальное использование 'much' с неисчисляемой уборкой!",
+            incorrectFeedback: "Try again. Remember: This + noun + needs + much + uncountable noun + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + needs + much + неисчисляемое существительное + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "people", "live", "in", "your", "neighborhood?"],
+            correctAnswer: "How many people live in your neighborhood?",
+            correctFeedback: "Great! 'How many people live in your neighborhood?' is correct. Wonderful question about countable people!",
+            correctFeedbackRu: "Отлично! 'How many people live in your neighborhood?' верно. Замечательный вопрос об исчисляемых людях!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + verb + in + your + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + глагол + in + your + место + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "don't", "watch", "much", "TV", "together."],
+            correctAnswer: "We don't watch much TV together.",
+            correctFeedback: "Perfect! 'We don't watch much TV together.' is correct. Excellent negative with 'much' and uncountable TV!",
+            correctFeedbackRu: "Идеально! 'We don't watch much TV together.' верно. Превосходное отрицание с 'much' и неисчисляемым ТВ!",
+            incorrectFeedback: "Try again. Remember: We + don't + verb + much + uncountable noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + глагол + much + неисчисляемое существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "are", "many", "photos", "on", "the", "wall."],
+            correctAnswer: "There are many photos on the wall.",
+            correctFeedback: "Excellent! 'There are many photos on the wall.' is correct. Great sentence with 'many' for countable photos!",
+            correctFeedbackRu: "Отлично! 'There are many photos on the wall.' верно. Отличное предложение с 'many' для исчисляемых фотографий!",
+            incorrectFeedback: "Try again. Remember: There + are + many + countable noun + on + the + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + are + many + исчисляемое существительное + on + the + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Our", "family", "doesn't", "need", "much", "help."],
+            correctAnswer: "Our family doesn't need much help.",
+            correctFeedback: "Great! 'Our family doesn't need much help.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'Our family doesn't need much help.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Our + noun + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Our + существительное + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "rooms", "are", "there", "downstairs?"],
+            correctAnswer: "How many rooms are there downstairs?",
+            correctFeedback: "Perfect! 'How many rooms are there downstairs?' is correct. Wonderful question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many rooms are there downstairs?' верно. Замечательный вопрос с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + are + there + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + are + there + место + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 3: Much/Many - School and Activities
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page3'] = {
+    title: "Much/Many - School and Activities",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Students", "don't", "get", "much", "free", "time."],
+            correctAnswer: "Students don't get much free time.",
+            correctFeedback: "Perfect! 'Students don't get much free time.' is correct. Great negative sentence with 'much'!",
+            correctFeedbackRu: "Идеально! 'Students don't get much free time.' верно. Отличное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Students + don't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Students + don't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "books", "do", "you", "read", "monthly?"],
+            correctAnswer: "How many books do you read monthly?",
+            correctFeedback: "Excellent! 'How many books do you read monthly?' is correct. Perfect question with 'many' for countable books!",
+            correctFeedbackRu: "Отлично! 'How many books do you read monthly?' верно. Идеальный вопрос с 'many' для исчисляемых книг!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + do + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + do + you + глагол + время + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "much", "homework", "this", "weekend."],
+            correctAnswer: "There isn't much homework this weekend.",
+            correctFeedback: "Great! 'There isn't much homework this weekend.' is correct. Excellent use of 'much' with uncountable homework!",
+            correctFeedbackRu: "Отлично! 'There isn't much homework this weekend.' верно. Превосходное использование 'much' с неисчисляемым домашним заданием!",
+            incorrectFeedback: "Try again. Remember: There + isn't + much + uncountable noun + this + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + isn't + much + неисчисляемое существительное + this + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "teacher", "gives", "many", "examples", "daily."],
+            correctAnswer: "My teacher gives many examples daily.",
+            correctFeedback: "Perfect! 'My teacher gives many examples daily.' is correct. Great sentence with 'many' for countable examples!",
+            correctFeedbackRu: "Идеально! 'My teacher gives many examples daily.' верно. Отличное предложение с 'many' для исчисляемых примеров!",
+            incorrectFeedback: "Try again. Remember: My + person + verb + many + countable noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: My + человек + глагол + many + исчисляемое существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Learning", "English", "requires", "much", "practice", "daily."],
+            correctAnswer: "Learning English requires much practice daily.",
+            correctFeedback: "Excellent! 'Learning English requires much practice daily.' is correct. Perfect use of 'much' with uncountable practice!",
+            correctFeedbackRu: "Отлично! 'Learning English requires much practice daily.' верно. Идеальное использование 'much' с неисчисляемой практикой!",
+            incorrectFeedback: "Try again. Remember: Learning + subject + verb + much + uncountable noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Learning + предмет + глагол + much + неисчисляемое существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "students", "are", "in", "your", "class?"],
+            correctAnswer: "How many students are in your class?",
+            correctFeedback: "Great! 'How many students are in your class?' is correct. Wonderful question about countable students!",
+            correctFeedbackRu: "Отлично! 'How many students are in your class?' верно. Замечательный вопрос об исчисляемых студентах!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + are + in + your + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + are + in + your + место + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "subject", "doesn't", "need", "much", "memorization."],
+            correctAnswer: "This subject doesn't need much memorization.",
+            correctFeedback: "Perfect! 'This subject doesn't need much memorization.' is correct. Excellent negative with 'much'!",
+            correctFeedbackRu: "Идеально! 'This subject doesn't need much memorization.' верно. Превосходное отрицание с 'much'!",
+            incorrectFeedback: "Try again. Remember: This + noun + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "many", "assignments", "this", "month."],
+            correctAnswer: "We have many assignments this month.",
+            correctFeedback: "Excellent! 'We have many assignments this month.' is correct. Great sentence with 'many' for countable assignments!",
+            correctFeedbackRu: "Отлично! 'We have many assignments this month.' верно. Отличное предложение с 'many' для исчисляемых заданий!",
+            incorrectFeedback: "Try again. Remember: We + have + many + countable noun + this + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + many + исчисляемое существительное + this + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Art", "class", "doesn't", "require", "much", "equipment."],
+            correctAnswer: "Art class doesn't require much equipment.",
+            correctFeedback: "Great! 'Art class doesn't require much equipment.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'Art class doesn't require much equipment.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Subject + class + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Предмет + class + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "tests", "did", "you", "take", "yesterday?"],
+            correctAnswer: "How many tests did you take yesterday?",
+            correctFeedback: "Perfect! 'How many tests did you take yesterday?' is correct. Wonderful past question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many tests did you take yesterday?' верно. Замечательный вопрос в прошедшем времени с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + did + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + did + you + глагол + время + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Much/Many - Shopping and Everyday Life
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page4'] = {
+    title: "Much/Many - Shopping and Everyday Life",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "don't", "spend", "much", "money", "shopping."],
+            correctAnswer: "I don't spend much money shopping.",
+            correctFeedback: "Perfect! 'I don't spend much money shopping.' is correct. Great negative sentence with 'much'!",
+            correctFeedbackRu: "Идеально! 'I don't spend much money shopping.' верно. Отличное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: I + don't + verb + much + uncountable noun + activity.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + глагол + much + неисчисляемое существительное + деятельность."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "stores", "are", "in", "this", "mall?"],
+            correctAnswer: "How many stores are in this mall?",
+            correctFeedback: "Excellent! 'How many stores are in this mall?' is correct. Perfect question with 'many' for countable stores!",
+            correctFeedbackRu: "Отлично! 'How many stores are in this mall?' верно. Идеальный вопрос с 'many' для исчисляемых магазинов!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + are + in + this + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + are + in + this + место + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "shop", "doesn't", "have", "much", "variety."],
+            correctAnswer: "This shop doesn't have much variety.",
+            correctFeedback: "Great! 'This shop doesn't have much variety.' is correct. Excellent use of 'much' with uncountable variety!",
+            correctFeedbackRu: "Отлично! 'This shop doesn't have much variety.' верно. Превосходное использование 'much' с неисчисляемым разнообразием!",
+            incorrectFeedback: "Try again. Remember: This + noun + doesn't + have + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + doesn't + have + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "bought", "many", "clothes", "on", "sale."],
+            correctAnswer: "She bought many clothes on sale.",
+            correctFeedback: "Perfect! 'She bought many clothes on sale.' is correct. Great sentence with 'many' for countable clothes!",
+            correctFeedbackRu: "Идеально! 'She bought many clothes on sale.' верно. Отличное предложение с 'many' для исчисляемой одежды!",
+            incorrectFeedback: "Try again. Remember: She + verb + many + countable noun + on + sale.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол + many + исчисляемое существительное + on + sale."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Online", "shopping", "saves", "much", "time", "daily."],
+            correctAnswer: "Online shopping saves much time daily.",
+            correctFeedback: "Excellent! 'Online shopping saves much time daily.' is correct. Perfect use of 'much' with uncountable time!",
+            correctFeedbackRu: "Отлично! 'Online shopping saves much time daily.' верно. Идеальное использование 'much' с неисчисляемым временем!",
+            incorrectFeedback: "Try again. Remember: Activity + verb + much + uncountable noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + глагол + much + неисчисляемое существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "items", "did", "you", "buy", "today?"],
+            correctAnswer: "How many items did you buy today?",
+            correctFeedback: "Great! 'How many items did you buy today?' is correct. Wonderful past question with 'many'!",
+            correctFeedbackRu: "Отлично! 'How many items did you buy today?' верно. Замечательный вопрос в прошедшем времени с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + did + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + did + you + глагол + время + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "don't", "need", "much", "cash", "anymore."],
+            correctAnswer: "We don't need much cash anymore.",
+            correctFeedback: "Perfect! 'We don't need much cash anymore.' is correct. Excellent negative with 'much' and uncountable cash!",
+            correctFeedbackRu: "Идеально! 'We don't need much cash anymore.' верно. Превосходное отрицание с 'much' и неисчисляемыми наличными!",
+            incorrectFeedback: "Try again. Remember: We + don't + verb + much + uncountable noun + anymore.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + глагол + much + неисчисляемое существительное + anymore."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "are", "many", "sales", "this", "weekend."],
+            correctAnswer: "There are many sales this weekend.",
+            correctFeedback: "Excellent! 'There are many sales this weekend.' is correct. Great sentence with 'many' for countable sales!",
+            correctFeedbackRu: "Отлично! 'There are many sales this weekend.' верно. Отличное предложение с 'many' для исчисляемых распродаж!",
+            incorrectFeedback: "Try again. Remember: There + are + many + countable noun + this + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + are + many + исчисляемое существительное + this + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "product", "doesn't", "require", "much", "maintenance."],
+            correctAnswer: "This product doesn't require much maintenance.",
+            correctFeedback: "Great! 'This product doesn't require much maintenance.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'This product doesn't require much maintenance.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: This + noun + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "coupons", "do", "you", "collect", "weekly?"],
+            correctAnswer: "How many coupons do you collect weekly?",
+            correctFeedback: "Perfect! 'How many coupons do you collect weekly?' is correct. Wonderful question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many coupons do you collect weekly?' верно. Замечательный вопрос с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + do + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + do + you + глагол + время + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Much/Many - Sports and Hobbies
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page5'] = {
+    title: "Much/Many - Sports and Hobbies",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Swimming", "doesn't", "require", "much", "equipment", "here."],
+            correctAnswer: "Swimming doesn't require much equipment here.",
+            correctFeedback: "Perfect! 'Swimming doesn't require much equipment here.' is correct. Great negative sentence with 'much'!",
+            correctFeedbackRu: "Идеально! 'Swimming doesn't require much equipment here.' верно. Отличное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Activity + doesn't + verb + much + uncountable noun + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + doesn't + глагол + much + неисчисляемое существительное + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "goals", "did", "your", "team", "score?"],
+            correctAnswer: "How many goals did your team score?",
+            correctFeedback: "Excellent! 'How many goals did your team score?' is correct. Perfect past question with 'many' for countable goals!",
+            correctFeedbackRu: "Отлично! 'How many goals did your team score?' верно. Идеальный вопрос в прошедшем времени с 'many' для исчисляемых голов!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + did + your + noun + verb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + did + your + существительное + глагол + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "hobby", "doesn't", "take", "much", "skill."],
+            correctAnswer: "This hobby doesn't take much skill.",
+            correctFeedback: "Great! 'This hobby doesn't take much skill.' is correct. Excellent use of 'much' with uncountable skill!",
+            correctFeedbackRu: "Отлично! 'This hobby doesn't take much skill.' верно. Превосходное использование 'much' с неисчисляемым навыком!",
+            incorrectFeedback: "Try again. Remember: This + noun + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "collects", "many", "baseball", "cards", "annually."],
+            correctAnswer: "She collects many baseball cards annually.",
+            correctFeedback: "Perfect! 'She collects many baseball cards annually.' is correct. Great sentence with 'many' for countable cards!",
+            correctFeedbackRu: "Идеально! 'She collects many baseball cards annually.' верно. Отличное предложение с 'many' для исчисляемых карточек!",
+            incorrectFeedback: "Try again. Remember: She + verb + many + countable noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол + many + исчисляемое существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Dancing", "brings", "much", "joy", "to", "people."],
+            correctAnswer: "Dancing brings much joy to people.",
+            correctFeedback: "Excellent! 'Dancing brings much joy to people.' is correct. Perfect use of 'much' with uncountable joy!",
+            correctFeedbackRu: "Отлично! 'Dancing brings much joy to people.' верно. Идеальное использование 'much' с неисчисляемой радостью!",
+            incorrectFeedback: "Try again. Remember: Activity + verb + much + uncountable noun + to + people.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + глагол + much + неисчисляемое существительное + to + people."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "races", "do", "you", "run", "yearly?"],
+            correctAnswer: "How many races do you run yearly?",
+            correctFeedback: "Great! 'How many races do you run yearly?' is correct. Wonderful question about countable races!",
+            correctFeedbackRu: "Отлично! 'How many races do you run yearly?' верно. Замечательный вопрос об исчисляемых забегах!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + do + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + do + you + глагол + время + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "don't", "need", "much", "strength", "today."],
+            correctAnswer: "We don't need much strength today.",
+            correctFeedback: "Perfect! 'We don't need much strength today.' is correct. Excellent negative with 'much' and uncountable strength!",
+            correctFeedbackRu: "Идеально! 'We don't need much strength today.' верно. Превосходное отрицание с 'much' и неисчисляемой силой!",
+            incorrectFeedback: "Try again. Remember: We + don't + verb + much + uncountable noun + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + глагол + much + неисчисляемое существительное + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "are", "many", "competitions", "this", "season."],
+            correctAnswer: "There are many competitions this season.",
+            correctFeedback: "Excellent! 'There are many competitions this season.' is correct. Great sentence with 'many' for countable competitions!",
+            correctFeedbackRu: "Отлично! 'There are many competitions this season.' верно. Отличное предложение с 'many' для исчисляемых соревнований!",
+            incorrectFeedback: "Try again. Remember: There + are + many + countable noun + this + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + are + many + исчисляемое существительное + this + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Photography", "doesn't", "need", "much", "space", "indoors."],
+            correctAnswer: "Photography doesn't need much space indoors.",
+            correctFeedback: "Great! 'Photography doesn't need much space indoors.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'Photography doesn't need much space indoors.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Activity + doesn't + verb + much + uncountable noun + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + doesn't + глагол + much + неисчисляемое существительное + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "prizes", "did", "you", "win", "recently?"],
+            correctAnswer: "How many prizes did you win recently?",
+            correctFeedback: "Perfect! 'How many prizes did you win recently?' is correct. Wonderful past question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many prizes did you win recently?' верно. Замечательный вопрос в прошедшем времени с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + did + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + did + you + глагол + время + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Much/Many - Weather and Nature
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page6'] = {
+    title: "Much/Many - Weather and Nature",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "desert", "doesn't", "get", "much", "rain."],
+            correctAnswer: "This desert doesn't get much rain.",
+            correctFeedback: "Perfect! 'This desert doesn't get much rain.' is correct. Great negative sentence with 'much'!",
+            correctFeedbackRu: "Идеально! 'This desert doesn't get much rain.' верно. Отличное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: This + place + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + место + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "seasons", "does", "your", "country", "have?"],
+            correctAnswer: "How many seasons does your country have?",
+            correctFeedback: "Excellent! 'How many seasons does your country have?' is correct. Perfect question with 'many' for countable seasons!",
+            correctFeedbackRu: "Отлично! 'How many seasons does your country have?' верно. Идеальный вопрос с 'many' для исчисляемых сезонов!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + does + your + noun + have + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + does + your + существительное + have + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "much", "wind", "this", "morning."],
+            correctAnswer: "There isn't much wind this morning.",
+            correctFeedback: "Great! 'There isn't much wind this morning.' is correct. Excellent use of 'much' with uncountable wind!",
+            correctFeedbackRu: "Отлично! 'There isn't much wind this morning.' верно. Превосходное использование 'much' с неисчисляемым ветром!",
+            incorrectFeedback: "Try again. Remember: There + isn't + much + uncountable noun + this + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + isn't + much + неисчисляемое существительное + this + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "saw", "many", "birds", "flying", "south."],
+            correctAnswer: "We saw many birds flying south.",
+            correctFeedback: "Perfect! 'We saw many birds flying south.' is correct. Great sentence with 'many' for countable birds!",
+            correctFeedbackRu: "Идеально! 'We saw many birds flying south.' верно. Отличное предложение с 'many' для исчисляемых птиц!",
+            incorrectFeedback: "Try again. Remember: We + verb + many + countable noun + verb + direction.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол + many + исчисляемое существительное + глагол + направление."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Growing", "plants", "needs", "much", "sunlight", "daily."],
+            correctAnswer: "Growing plants needs much sunlight daily.",
+            correctFeedback: "Excellent! 'Growing plants needs much sunlight daily.' is correct. Perfect use of 'much' with uncountable sunlight!",
+            correctFeedbackRu: "Отлично! 'Growing plants needs much sunlight daily.' верно. Идеальное использование 'much' с неисчисляемым солнечным светом!",
+            incorrectFeedback: "Try again. Remember: Activity + verb + much + uncountable noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + глагол + much + неисчисляемое существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "mountains", "can", "you", "see", "here?"],
+            correctAnswer: "How many mountains can you see here?",
+            correctFeedback: "Great! 'How many mountains can you see here?' is correct. Wonderful question about countable mountains!",
+            correctFeedbackRu: "Отлично! 'How many mountains can you see here?' верно. Замечательный вопрос об исчисляемых горах!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + can + you + verb + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + can + you + глагол + место + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "forest", "doesn't", "have", "much", "light."],
+            correctAnswer: "The forest doesn't have much light.",
+            correctFeedback: "Perfect! 'The forest doesn't have much light.' is correct. Excellent negative with 'much' and uncountable light!",
+            correctFeedbackRu: "Идеально! 'The forest doesn't have much light.' верно. Превосходное отрицание с 'much' и неисчисляемым светом!",
+            incorrectFeedback: "Try again. Remember: The + place + doesn't + have + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + место + doesn't + have + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "are", "many", "insects", "near", "the", "lake."],
+            correctAnswer: "There are many insects near the lake.",
+            correctFeedback: "Excellent! 'There are many insects near the lake.' is correct. Great sentence with 'many' for countable insects!",
+            correctFeedbackRu: "Отлично! 'There are many insects near the lake.' верно. Отличное предложение с 'many' для исчисляемых насекомых!",
+            incorrectFeedback: "Try again. Remember: There + are + many + countable noun + near + the + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + are + many + исчисляемое существительное + near + the + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Winter", "sports", "don't", "need", "much", "heat."],
+            correctAnswer: "Winter sports don't need much heat.",
+            correctFeedback: "Great! 'Winter sports don't need much heat.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'Winter sports don't need much heat.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Activity + don't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + don't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "clouds", "are", "in", "the", "sky?"],
+            correctAnswer: "How many clouds are in the sky?",
+            correctFeedback: "Perfect! 'How many clouds are in the sky?' is correct. Wonderful question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many clouds are in the sky?' верно. Замечательный вопрос с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + are + in + the + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + are + in + the + место + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Much/Many - Transportation and Travel
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page7'] = {
+    title: "Much/Many - Transportation and Travel",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "car", "doesn't", "use", "much", "fuel."],
+            correctAnswer: "This car doesn't use much fuel.",
+            correctFeedback: "Perfect! 'This car doesn't use much fuel.' is correct. Great negative sentence with 'much'!",
+            correctFeedbackRu: "Идеально! 'This car doesn't use much fuel.' верно. Отличное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: This + noun + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "flights", "are", "there", "daily?"],
+            correctAnswer: "How many flights are there daily?",
+            correctFeedback: "Excellent! 'How many flights are there daily?' is correct. Perfect question with 'many' for countable flights!",
+            correctFeedbackRu: "Отлично! 'How many flights are there daily?' верно. Идеальный вопрос с 'many' для исчисляемых рейсов!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + are + there + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + are + there + время + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Long", "trips", "don't", "give", "much", "comfort."],
+            correctAnswer: "Long trips don't give much comfort.",
+            correctFeedback: "Great! 'Long trips don't give much comfort.' is correct. Excellent use of 'much' with uncountable comfort!",
+            correctFeedbackRu: "Отлично! 'Long trips don't give much comfort.' верно. Превосходное использование 'much' с неисчисляемым комфортом!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + don't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + don't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "visited", "many", "museums", "last", "summer."],
+            correctAnswer: "We visited many museums last summer.",
+            correctFeedback: "Perfect! 'We visited many museums last summer.' is correct. Great past sentence with 'many' for countable museums!",
+            correctFeedbackRu: "Идеально! 'We visited many museums last summer.' верно. Отличное предложение в прошедшем времени с 'many' для исчисляемых музеев!",
+            incorrectFeedback: "Try again. Remember: We + verb + many + countable noun + last + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол + many + исчисляемое существительное + last + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Walking", "to", "work", "saves", "much", "money."],
+            correctAnswer: "Walking to work saves much money.",
+            correctFeedback: "Excellent! 'Walking to work saves much money.' is correct. Perfect use of 'much' with uncountable money!",
+            correctFeedbackRu: "Отлично! 'Walking to work saves much money.' верно. Идеальное использование 'much' с неисчисляемыми деньгами!",
+            incorrectFeedback: "Try again. Remember: Activity + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "languages", "do", "they", "speak", "there?"],
+            correctAnswer: "How many languages do they speak there?",
+            correctFeedback: "Great! 'How many languages do they speak there?' is correct. Wonderful question about countable languages!",
+            correctFeedbackRu: "Отлично! 'How many languages do they speak there?' верно. Замечательный вопрос об исчисляемых языках!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + do + they + verb + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + do + they + глагол + место + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "subway", "doesn't", "have", "much", "space."],
+            correctAnswer: "The subway doesn't have much space.",
+            correctFeedback: "Perfect! 'The subway doesn't have much space.' is correct. Excellent negative with 'much' and uncountable space!",
+            correctFeedbackRu: "Идеально! 'The subway doesn't have much space.' верно. Превосходное отрицание с 'much' и неисчисляемым пространством!",
+            incorrectFeedback: "Try again. Remember: The + noun + doesn't + have + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + существительное + doesn't + have + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "are", "many", "bridges", "in", "this", "city."],
+            correctAnswer: "There are many bridges in this city.",
+            correctFeedback: "Excellent! 'There are many bridges in this city.' is correct. Great sentence with 'many' for countable bridges!",
+            correctFeedbackRu: "Отлично! 'There are many bridges in this city.' верно. Отличное предложение с 'many' для исчисляемых мостов!",
+            incorrectFeedback: "Try again. Remember: There + are + many + countable noun + in + this + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + are + many + исчисляемое существительное + in + this + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Flying", "doesn't", "require", "much", "effort", "nowadays."],
+            correctAnswer: "Flying doesn't require much effort nowadays.",
+            correctFeedback: "Great! 'Flying doesn't require much effort nowadays.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'Flying doesn't require much effort nowadays.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Activity + doesn't + verb + much + uncountable noun + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + doesn't + глагол + much + неисчисляемое существительное + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "maps", "did", "you", "buy", "yesterday?"],
+            correctAnswer: "How many maps did you buy yesterday?",
+            correctFeedback: "Perfect! 'How many maps did you buy yesterday?' is correct. Wonderful past question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many maps did you buy yesterday?' верно. Замечательный вопрос в прошедшем времени с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + did + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + did + you + глагол + время + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Much/Many - Health and Body
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page8'] = {
+    title: "Much/Many - Health and Body",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Children", "need", "much", "sleep", "for", "growth."],
+            correctAnswer: "Children need much sleep for growth.",
+            correctFeedback: "Perfect! 'Children need much sleep for growth.' is correct. Great sentence with 'much' for uncountable sleep!",
+            correctFeedbackRu: "Идеально! 'Children need much sleep for growth.' верно. Отличное предложение с 'much' для неисчисляемого сна!",
+            incorrectFeedback: "Try again. Remember: Children + verb + much + uncountable noun + for + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Children + глагол + much + неисчисляемое существительное + for + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "hours", "do", "you", "exercise", "weekly?"],
+            correctAnswer: "How many hours do you exercise weekly?",
+            correctFeedback: "Excellent! 'How many hours do you exercise weekly?' is correct. Perfect question with 'many' for countable hours!",
+            correctFeedbackRu: "Отлично! 'How many hours do you exercise weekly?' верно. Идеальный вопрос с 'many' для исчисляемых часов!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + do + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + do + you + глагол + время + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "isn't", "much", "pain", "after", "treatment."],
+            correctAnswer: "There isn't much pain after treatment.",
+            correctFeedback: "Great! 'There isn't much pain after treatment.' is correct. Excellent use of 'much' with uncountable pain!",
+            correctFeedbackRu: "Отлично! 'There isn't much pain after treatment.' верно. Превосходное использование 'much' с неисчисляемой болью!",
+            incorrectFeedback: "Try again. Remember: There + isn't + much + uncountable noun + after + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + isn't + much + неисчисляемое существительное + after + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "takes", "many", "vitamins", "every", "morning."],
+            correctAnswer: "She takes many vitamins every morning.",
+            correctFeedback: "Perfect! 'She takes many vitamins every morning.' is correct. Great sentence with 'many' for countable vitamins!",
+            correctFeedbackRu: "Идеально! 'She takes many vitamins every morning.' верно. Отличное предложение с 'many' для исчисляемых витаминов!",
+            incorrectFeedback: "Try again. Remember: She + verb + many + countable noun + every + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол + many + исчисляемое существительное + every + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Jogging", "gives", "much", "energy", "to", "people."],
+            correctAnswer: "Jogging gives much energy to people.",
+            correctFeedback: "Excellent! 'Jogging gives much energy to people.' is correct. Perfect use of 'much' with uncountable energy!",
+            correctFeedbackRu: "Отлично! 'Jogging gives much energy to people.' верно. Идеальное использование 'much' с неисчисляемой энергией!",
+            incorrectFeedback: "Try again. Remember: Activity + verb + much + uncountable noun + to + people.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + глагол + much + неисчисляемое существительное + to + people."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "times", "did", "you", "visit", "the", "dentist?"],
+            correctAnswer: "How many times did you visit the dentist?",
+            correctFeedback: "Great! 'How many times did you visit the dentist?' is correct. Wonderful question about countable times!",
+            correctFeedbackRu: "Отлично! 'How many times did you visit the dentist?' верно. Замечательный вопрос об исчисляемых разах!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + did + you + verb + the + person + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + did + you + глагол + the + человек + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "don't", "have", "much", "stress", "here."],
+            correctAnswer: "We don't have much stress here.",
+            correctFeedback: "Perfect! 'We don't have much stress here.' is correct. Excellent negative with 'much' and uncountable stress!",
+            correctFeedbackRu: "Идеально! 'We don't have much stress here.' верно. Превосходное отрицание с 'much' и неисчисляемым стрессом!",
+            incorrectFeedback: "Try again. Remember: We + don't + have + much + uncountable noun + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + have + much + неисчисляемое существительное + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "are", "many", "exercises", "in", "this", "program."],
+            correctAnswer: "There are many exercises in this program.",
+            correctFeedback: "Excellent! 'There are many exercises in this program.' is correct. Great sentence with 'many' for countable exercises!",
+            correctFeedbackRu: "Отлично! 'There are many exercises in this program.' верно. Отличное предложение с 'many' для исчисляемых упражнений!",
+            incorrectFeedback: "Try again. Remember: There + are + many + countable noun + in + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + are + many + исчисляемое существительное + in + this + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Healthy", "eating", "doesn't", "cost", "much", "money."],
+            correctAnswer: "Healthy eating doesn't cost much money.",
+            correctFeedback: "Great! 'Healthy eating doesn't cost much money.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'Healthy eating doesn't cost much money.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Adjective + activity + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + деятельность + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "medicines", "are", "you", "taking", "now?"],
+            correctAnswer: "How many medicines are you taking now?",
+            correctFeedback: "Perfect! 'How many medicines are you taking now?' is correct. Wonderful present continuous question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many medicines are you taking now?' верно. Замечательный вопрос в настоящем длительном времени с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + are + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + are + you + глагол + время + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Much/Many - Work and Technology
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page9'] = {
+    title: "Much/Many - Work and Technology",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Remote", "work", "saves", "much", "time", "daily."],
+            correctAnswer: "Remote work saves much time daily.",
+            correctFeedback: "Perfect! 'Remote work saves much time daily.' is correct. Great sentence with 'much' for uncountable time!",
+            correctFeedbackRu: "Идеально! 'Remote work saves much time daily.' верно. Отличное предложение с 'much' для неисчисляемого времени!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + verb + much + uncountable noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + глагол + much + неисчисляемое существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "programs", "are", "on", "your", "computer?"],
+            correctAnswer: "How many programs are on your computer?",
+            correctFeedback: "Excellent! 'How many programs are on your computer?' is correct. Perfect question with 'many' for countable programs!",
+            correctFeedbackRu: "Отлично! 'How many programs are on your computer?' верно. Идеальный вопрос с 'many' для исчисляемых программ!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + are + on + your + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + are + on + your + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "job", "doesn't", "require", "much", "experience."],
+            correctAnswer: "This job doesn't require much experience.",
+            correctFeedback: "Great! 'This job doesn't require much experience.' is correct. Excellent use of 'much' with uncountable experience!",
+            correctFeedbackRu: "Отлично! 'This job doesn't require much experience.' верно. Превосходное использование 'much' с неисчисляемым опытом!",
+            incorrectFeedback: "Try again. Remember: This + noun + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "installed", "many", "applications", "this", "week."],
+            correctAnswer: "We installed many applications this week.",
+            correctFeedback: "Perfect! 'We installed many applications this week.' is correct. Great past sentence with 'many' for countable applications!",
+            correctFeedbackRu: "Идеально! 'We installed many applications this week.' верно. Отличное предложение в прошедшем времени с 'many' для исчисляемых приложений!",
+            incorrectFeedback: "Try again. Remember: We + verb + many + countable noun + this + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол + many + исчисляемое существительное + this + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Learning", "new", "skills", "takes", "much", "effort."],
+            correctAnswer: "Learning new skills takes much effort.",
+            correctFeedback: "Excellent! 'Learning new skills takes much effort.' is correct. Perfect use of 'much' with uncountable effort!",
+            correctFeedbackRu: "Отлично! 'Learning new skills takes much effort.' верно. Идеальное использование 'much' с неисчисляемым усилием!",
+            incorrectFeedback: "Try again. Remember: Learning + adjective + noun + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Learning + прилагательное + существительное + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "files", "did", "you", "delete", "yesterday?"],
+            correctAnswer: "How many files did you delete yesterday?",
+            correctFeedback: "Great! 'How many files did you delete yesterday?' is correct. Wonderful past question about countable files!",
+            correctFeedbackRu: "Отлично! 'How many files did you delete yesterday?' верно. Замечательный вопрос в прошедшем времени об исчисляемых файлах!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + did + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + did + you + глагол + время + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Online", "courses", "don't", "cost", "much", "money."],
+            correctAnswer: "Online courses don't cost much money.",
+            correctFeedback: "Perfect! 'Online courses don't cost much money.' is correct. Excellent negative with 'much' and uncountable money!",
+            correctFeedbackRu: "Идеально! 'Online courses don't cost much money.' верно. Превосходное отрицание с 'much' и неисчисляемыми деньгами!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + don't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + don't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "are", "many", "updates", "available", "now."],
+            correctAnswer: "There are many updates available now.",
+            correctFeedback: "Excellent! 'There are many updates available now.' is correct. Great sentence with 'many' for countable updates!",
+            correctFeedbackRu: "Отлично! 'There are many updates available now.' верно. Отличное предложение с 'many' для исчисляемых обновлений!",
+            incorrectFeedback: "Try again. Remember: There + are + many + countable noun + adjective + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + are + many + исчисляемое существительное + прилагательное + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Video", "calls", "don't", "need", "much", "preparation."],
+            correctAnswer: "Video calls don't need much preparation.",
+            correctFeedback: "Great! 'Video calls don't need much preparation.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'Video calls don't need much preparation.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + don't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + don't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "devices", "do", "you", "use", "daily?"],
+            correctAnswer: "How many devices do you use daily?",
+            correctFeedback: "Perfect! 'How many devices do you use daily?' is correct. Wonderful question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many devices do you use daily?' верно. Замечательный вопрос с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + do + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + do + you + глагол + время + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Much/Many - Entertainment and Leisure
+============================================ */
+window.grammarExercises['articles']['much-many-basics-sentence-page10'] = {
+    title: "Much/Many - Entertainment and Leisure",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Reading", "doesn't", "require", "much", "money", "monthly."],
+            correctAnswer: "Reading doesn't require much money monthly.",
+            correctFeedback: "Perfect! 'Reading doesn't require much money monthly.' is correct. Great negative sentence with 'much'!",
+            correctFeedbackRu: "Идеально! 'Reading doesn't require much money monthly.' верно. Отличное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Activity + doesn't + verb + much + uncountable noun + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + doesn't + глагол + much + неисчисляемое существительное + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "songs", "can", "you", "sing", "well?"],
+            correctAnswer: "How many songs can you sing well?",
+            correctFeedback: "Excellent! 'How many songs can you sing well?' is correct. Perfect question with 'many' for countable songs!",
+            correctFeedbackRu: "Отлично! 'How many songs can you sing well?' верно. Идеальный вопрос с 'many' для исчисляемых песен!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + can + you + verb + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + can + you + глагол + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "puzzle", "doesn't", "need", "much", "thinking."],
+            correctAnswer: "This puzzle doesn't need much thinking.",
+            correctFeedback: "Great! 'This puzzle doesn't need much thinking.' is correct. Excellent use of 'much' with uncountable thinking!",
+            correctFeedbackRu: "Отлично! 'This puzzle doesn't need much thinking.' верно. Превосходное использование 'much' с неисчисляемым размышлением!",
+            incorrectFeedback: "Try again. Remember: This + noun + doesn't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + doesn't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "watched", "many", "cartoons", "last", "weekend."],
+            correctAnswer: "We watched many cartoons last weekend.",
+            correctFeedback: "Perfect! 'We watched many cartoons last weekend.' is correct. Great past sentence with 'many' for countable cartoons!",
+            correctFeedbackRu: "Идеально! 'We watched many cartoons last weekend.' верно. Отличное предложение в прошедшем времени с 'many' для исчисляемых мультфильмов!",
+            incorrectFeedback: "Try again. Remember: We + verb + many + countable noun + last + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол + many + исчисляемое существительное + last + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Playing", "chess", "develops", "much", "concentration", "naturally."],
+            correctAnswer: "Playing chess develops much concentration naturally.",
+            correctFeedback: "Excellent! 'Playing chess develops much concentration naturally.' is correct. Perfect use of 'much' with uncountable concentration!",
+            correctFeedbackRu: "Отлично! 'Playing chess develops much concentration naturally.' верно. Идеальное использование 'much' с неисчисляемой концентрацией!",
+            incorrectFeedback: "Try again. Remember: Playing + noun + verb + much + uncountable noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Playing + существительное + глагол + much + неисчисляемое существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "hobbies", "do", "you", "have", "currently?"],
+            correctAnswer: "How many hobbies do you have currently?",
+            correctFeedback: "Great! 'How many hobbies do you have currently?' is correct. Wonderful question about countable hobbies!",
+            correctFeedbackRu: "Отлично! 'How many hobbies do you have currently?' верно. Замечательный вопрос об исчисляемых хобби!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + do + you + have + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + do + you + have + время + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Art", "galleries", "don't", "charge", "much", "entrance."],
+            correctAnswer: "Art galleries don't charge much entrance.",
+            correctFeedback: "Perfect! 'Art galleries don't charge much entrance.' is correct. Excellent negative with 'much' and uncountable entrance!",
+            correctFeedbackRu: "Идеально! 'Art galleries don't charge much entrance.' верно. Превосходное отрицание с 'much' и неисчисляемым входом!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + don't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + don't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "are", "many", "activities", "for", "children", "here."],
+            correctAnswer: "There are many activities for children here.",
+            correctFeedback: "Excellent! 'There are many activities for children here.' is correct. Great sentence with 'many' for countable activities!",
+            correctFeedbackRu: "Отлично! 'There are many activities for children here.' верно. Отличное предложение с 'many' для исчисляемых мероприятий!",
+            incorrectFeedback: "Try again. Remember: There + are + many + countable noun + for + people + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: There + are + many + исчисляемое существительное + for + люди + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Cooking", "shows", "don't", "provide", "much", "education."],
+            correctAnswer: "Cooking shows don't provide much education.",
+            correctFeedback: "Great! 'Cooking shows don't provide much education.' is correct. Perfect negative sentence with 'much'!",
+            correctFeedbackRu: "Отлично! 'Cooking shows don't provide much education.' верно. Идеальное отрицательное предложение с 'much'!",
+            incorrectFeedback: "Try again. Remember: Activity + noun + don't + verb + much + uncountable noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Деятельность + существительное + don't + глагол + much + неисчисляемое существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["How", "many", "parties", "did", "you", "attend", "recently?"],
+            correctAnswer: "How many parties did you attend recently?",
+            correctFeedback: "Perfect! 'How many parties did you attend recently?' is correct. Wonderful past question with 'many'!",
+            correctFeedbackRu: "Идеально! 'How many parties did you attend recently?' верно. Замечательный вопрос в прошедшем времени с 'many'!",
+            incorrectFeedback: "Try again. Remember: How + many + countable noun + did + you + verb + time + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: How + many + исчисляемое существительное + did + you + глагол + время + ?"
+        }
+    ]
+};
