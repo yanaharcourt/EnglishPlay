@@ -1938,6 +1938,2046 @@ window.grammarExercises['tenses']['present-perfect-vs-past-simple-gap-page2'] = 
     ]
 };
 
+/* ============================================
+Page 3: Present Perfect vs Past Simple - Fill in the Gaps - Achievements and Results
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-gap-page3'] = {
+    title: "Present Perfect vs Past Simple - Achievements and Results",
+    fillGaps: [
+        {
+            question: "Complete with the correct tense:",
+            questionRu: "Завершите правильным временем:",
+            sentence: "Look! Someone ____ my bicycle. I ____ it right here an hour ago.",
+            correctAnswer: "has stolen / left",
+            options: ["has stolen / left", "stole / have left", "has stolen / have left", "stole / left"],
+            correctFeedback: "Excellent! 'Has stolen' shows the current result, while 'left' describes the specific past action.",
+            correctFeedbackRu: "Отлично! 'Has stolen' показывает текущий результат, а 'left' описывает конкретное прошлое действие.",
+            incorrectFeedback: "Use 'has stolen' for the current situation, and 'left' for the specific action an hour ago.",
+            incorrectFeedbackRu: "Используйте 'has stolen' для текущей ситуации, и 'left' для конкретного действия час назад."
+        },
+        {
+            question: "Fill in the appropriate form:",
+            questionRu: "Заполните подходящей формой:",
+            sentence: "The price of food ____ dramatically this year. Last year, it ____ much more stable.",
+            correctAnswer: "has risen / was",
+            options: ["has risen / was", "rose / has been", "has risen / has been", "rose / was"],
+            correctFeedback: "Perfect! 'Has risen' for this year's ongoing change, and 'was' for last year's condition.",
+            correctFeedbackRu: "Отлично! 'Has risen' для продолжающегося изменения этого года, и 'was' для состояния прошлого года.",
+            incorrectFeedback: "Use 'has risen' for the ongoing change this year, and 'was' for how it was last year.",
+            incorrectFeedbackRu: "Используйте 'has risen' для продолжающегося изменения этого года, и 'was' для того, каким оно было в прошлом году."
+        },
+        {
+            question: "Choose the correct form:",
+            questionRu: "Выберите правильную форму:",
+            sentence: "I can't find my wallet anywhere. I ____ it somewhere, but I can't remember where I ____ it.",
+            correctAnswer: "have lost / put",
+            options: ["have lost / put", "lost / have put", "have lost / have put", "lost / put"],
+            correctFeedback: "Great! 'Have lost' shows the current problem, while 'put' refers to the specific past action.",
+            correctFeedbackRu: "Отлично! 'Have lost' показывает текущую проблему, а 'put' относится к конкретному прошлому действию.",
+            incorrectFeedback: "Use 'have lost' for the current situation, and 'put' for where you placed it in the past.",
+            incorrectFeedbackRu: "Используйте 'have lost' для текущей ситуации, и 'put' для того, где вы его положили в прошлом."
+        },
+        {
+            question: "Complete the sentence correctly:",
+            questionRu: "Завершите предложение правильно:",
+            sentence: "My sister ____ a lot of weight recently. She ____ a new diet program two months ago.",
+            correctAnswer: "has lost / started",
+            options: ["has lost / started", "lost / has started", "has lost / has started", "lost / started"],
+            correctFeedback: "Excellent! 'Has lost' shows the visible result now, while 'started' marks the specific beginning.",
+            correctFeedbackRu: "Отлично! 'Has lost' показывает видимый результат сейчас, а 'started' отмечает конкретное начало.",
+            incorrectFeedback: "Use 'has lost' for the current visible result, and 'started' for when she began two months ago.",
+            incorrectFeedbackRu: "Используйте 'has lost' для текущего видимого результата, и 'started' для того, когда она начала два месяца назад."
+        },
+        {
+            question: "Fill in with the correct tense:",
+            questionRu: "Заполните правильным временем:",
+            sentence: "The new shopping mall ____ many jobs to our town. It ____ six months ago.",
+            correctAnswer: "has brought / opened",
+            options: ["has brought / opened", "brought / has opened", "has brought / has opened", "brought / opened"],
+            correctFeedback: "Perfect! 'Has brought' shows the continuing benefit, while 'opened' marks the specific opening date.",
+            correctFeedbackRu: "Отлично! 'Has brought' показывает продолжающуюся пользу, а 'opened' отмечает конкретную дату открытия.",
+            incorrectFeedback: "Use 'has brought' for the ongoing benefit, and 'opened' for when it specifically opened.",
+            incorrectFeedbackRu: "Используйте 'has brought' для продолжающейся пользы, и 'opened' для того, когда он конкретно открылся."
+        },
+        {
+            question: "Choose the appropriate form:",
+            questionRu: "Выберите подходящую форму:",
+            sentence: "My computer ____ down twice today. The first time, it ____ while I was typing.",
+            correctAnswer: "has crashed / crashed",
+            options: ["has crashed / crashed", "crashed / has crashed", "has crashed / has crashed", "crashed / crashed"],
+            correctFeedback: "Great! 'Has crashed' for today's repeated problem, and 'crashed' for the specific first incident.",
+            correctFeedbackRu: "Отлично! 'Has crashed' для сегодняшней повторяющейся проблемы, и 'crashed' для конкретного первого инцидента.",
+            incorrectFeedback: "Use 'has crashed' for the repeated problem today, and 'crashed' for the specific first time.",
+            incorrectFeedbackRu: "Используйте 'has crashed' для повторяющейся проблемы сегодня, и 'crashed' для конкретного первого раза."
+        },
+        {
+            question: "Complete with the correct form:",
+            questionRu: "Завершите правильной формой:",
+            sentence: "This movie ____ very popular since its release. It ____ over $50 million in its opening weekend.",
+            correctAnswer: "has become / made",
+            options: ["has become / made", "became / has made", "has become / has made", "became / made"],
+            correctFeedback: "Excellent! 'Has become' for the continuing popularity, and 'made' for the specific weekend achievement.",
+            correctFeedbackRu: "Отлично! 'Has become' для продолжающейся популярности, и 'made' для конкретного достижения выходных.",
+            incorrectFeedback: "Use 'has become' for the ongoing success, and 'made' for the specific opening weekend result.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающегося успеха, и 'made' для конкретного результата первых выходных."
+        },
+        {
+            question: "Fill in the blank correctly:",
+            questionRu: "Заполните пропуск правильно:",
+            sentence: "I ____ my keys! I ____ them under the sofa cushions.",
+            correctAnswer: "have found / found",
+            options: ["have found / found", "found / have found", "have found / have found", "found / found"],
+            correctFeedback: "Perfect! 'Have found' announces the good news, while 'found' describes where you discovered them.",
+            correctFeedbackRu: "Отлично! 'Have found' объявляет хорошие новости, а 'found' описывает, где вы их обнаружили.",
+            incorrectFeedback: "Use 'have found' to announce the result, and 'found' to describe where you discovered them.",
+            incorrectFeedbackRu: "Используйте 'have found' чтобы объявить результат, и 'found' чтобы описать, где вы их обнаружили."
+        },
+        {
+            question: "Choose the correct tense:",
+            questionRu: "Выберите правильное время:",
+            sentence: "Social media ____ the way we communicate. Twenty years ago, people ____ letters regularly.",
+            correctAnswer: "has changed / wrote",
+            options: ["has changed / wrote", "changed / have written", "has changed / have written", "changed / wrote"],
+            correctFeedback: "Great! 'Has changed' for the transformation continuing today, and 'wrote' for what people did twenty years ago.",
+            correctFeedbackRu: "Отлично! 'Has changed' для трансформации, продолжающейся сегодня, и 'wrote' для того, что люди делали двадцать лет назад.",
+            incorrectFeedback: "Use 'has changed' for the ongoing transformation, and 'wrote' for what people did in the past.",
+            incorrectFeedbackRu: "Используйте 'has changed' для продолжающейся трансформации, и 'wrote' для того, что люди делали в прошлом."
+        },
+        {
+            question: "Complete with the appropriate tense:",
+            questionRu: "Завершите подходящим временем:",
+            sentence: "My English ____ a lot since I started watching movies without subtitles. I ____ this method six months ago.",
+            correctAnswer: "has improved / began",
+            options: ["has improved / began", "improved / have begun", "has improved / have begun", "improved / began"],
+            correctFeedback: "Excellent! 'Has improved' shows the ongoing progress, while 'began' marks when you started the method.",
+            correctFeedbackRu: "Отлично! 'Has improved' показывает продолжающийся прогресс, а 'began' отмечает, когда вы начали этот метод.",
+            incorrectFeedback: "Use 'has improved' for the ongoing progress, and 'began' for when you started the method six months ago.",
+            incorrectFeedbackRu: "Используйте 'has improved' для продолжающегося прогресса, и 'began' для того, когда вы начали метод шесть месяцев назад."
+        }
+    ]
+};
 
+/* ============================================
+Page 4: Present Perfect vs Past Simple - Fill in the Gaps - Travel and Adventures
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-gap-page4'] = {
+    title: "Present Perfect vs Past Simple - Travel and Adventures",
+    fillGaps: [
+        {
+            question: "Complete with the correct tense:",
+            questionRu: "Завершите правильным временем:",
+            sentence: "I ____ to fifteen countries so far. My most exciting trip ____ to Iceland last summer.",
+            correctAnswer: "have traveled / was",
+            options: ["have traveled / was", "traveled / has been", "have traveled / has been", "traveled / was"],
+            correctFeedback: "Excellent! 'Have traveled' for your total travel experience, while 'was' describes the specific trip to Iceland.",
+            correctFeedbackRu: "Отлично! 'Have traveled' для вашего общего опыта путешествий, а 'was' описывает конкретную поездку в Исландию.",
+            incorrectFeedback: "Use 'have traveled' for your general travel experience, and 'was' for the specific trip last summer.",
+            incorrectFeedbackRu: "Используйте 'have traveled' для вашего общего опыта путешествий, и 'was' для конкретной поездки прошлым летом."
+        },
+        {
+            question: "Fill in the appropriate form:",
+            questionRu: "Заполните подходящей формой:",
+            sentence: "My passport ____ expired, so I need to renew it. It ____ valid until last month.",
+            correctAnswer: "has / was",
+            options: ["has / was", "had / has been", "has / has been", "had / was"],
+            correctFeedback: "Perfect! 'Has expired' shows the current problem, while 'was' describes when it was valid in the past.",
+            correctFeedbackRu: "Отлично! 'Has expired' показывает текущую проблему, а 'was' описывает, когда он был действительным в прошлом.",
+            incorrectFeedback: "Use 'has expired' for the current situation, and 'was' for the period when it was valid.",
+            incorrectFeedbackRu: "Используйте 'has expired' для текущей ситуации, и 'was' для периода, когда он был действительным."
+        },
+        {
+            question: "Choose the correct form:",
+            questionRu: "Выберите правильную форму:",
+            sentence: "We ____ some delicious local food during our vacation. The best dish ____ at a tiny restaurant near the beach.",
+            correctAnswer: "tried / was",
+            options: ["tried / was", "have tried / was", "tried / has been", "have tried / has been"],
+            correctFeedback: "Great! Both actions happened during a finished vacation, so both use Past Simple.",
+            correctFeedbackRu: "Отлично! Оба действия произошли во время завершённого отпуска, поэтому оба используют Past Simple.",
+            incorrectFeedback: "Use Past Simple for both because they happened during a completed vacation in the past.",
+            incorrectFeedbackRu: "Используйте Past Simple для обоих, потому что они произошли во время завершённого отпуска в прошлом."
+        },
+        {
+            question: "Complete the sentence correctly:",
+            questionRu: "Завершите предложение правильно:",
+            sentence: "I ____ bungee jumping several times in my life. I ____ my first jump when I was eighteen.",
+            correctAnswer: "have been / did",
+            options: ["have been / did", "went / have done", "have been / have done", "went / did"],
+            correctFeedback: "Excellent! 'Have been' for general life experience, and 'did' for the specific first jump at eighteen.",
+            correctFeedbackRu: "Отлично! 'Have been' для общего жизненного опыта, и 'did' для конкретного первого прыжка в восемнадцать лет.",
+            incorrectFeedback: "Use 'have been' for your general experience, and 'did' for the specific first jump at age eighteen.",
+            incorrectFeedbackRu: "Используйте 'have been' для вашего общего опыта, и 'did' для конкретного первого прыжка в возрасте восемнадцать лет."
+        },
+        {
+            question: "Fill in with the correct tense:",
+            questionRu: "Заполните правильным временем:",
+            sentence: "The travel agency ____ us great deals recently. Last week, we ____ flights to Rome for half price.",
+            correctAnswer: "has offered / booked",
+            options: ["has offered / booked", "offered / have booked", "has offered / have booked", "offered / booked"],
+            correctFeedback: "Perfect! 'Has offered' for recent ongoing deals, and 'booked' for the specific purchase last week.",
+            correctFeedbackRu: "Отлично! 'Has offered' для недавних продолжающихся предложений, и 'booked' для конкретной покупки на прошлой неделе.",
+            incorrectFeedback: "Use 'has offered' for the recent deals, and 'booked' for what you did last week.",
+            incorrectFeedbackRu: "Используйте 'has offered' для недавних предложений, и 'booked' для того, что вы сделали на прошлой неделе."
+        },
+        {
+            question: "Choose the appropriate tense:",
+            questionRu: "Выберите подходящее время:",
+            sentence: "Adventure tourism ____ more popular in recent years. My grandfather ____ his first adventure trip at seventy.",
+            correctAnswer: "has become / took",
+            options: ["has become / took", "became / has taken", "has become / has taken", "became / took"],
+            correctFeedback: "Great! 'Has become' for the recent trend, while 'took' describes grandfather's specific trip at seventy.",
+            correctFeedbackRu: "Отлично! 'Has become' для недавней тенденции, а 'took' описывает конкретную поездку дедушки в семьдесят лет.",
+            incorrectFeedback: "Use 'has become' for the ongoing trend, and 'took' for the specific trip at age seventy.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающейся тенденции, и 'took' для конкретной поездки в возрасте семьдесят лет."
+        },
+        {
+            question: "Complete with the correct form:",
+            questionRu: "Завершите правильной формой:",
+            sentence: "I ____ camping three times this summer. The first trip, we ____ our tent during a thunderstorm.",
+            correctAnswer: "have been / pitched",
+            options: ["have been / pitched", "went / have pitched", "have been / have pitched", "went / pitched"],
+            correctFeedback: "Excellent! 'Have been' for this summer's activities, and 'pitched' for the specific tent setup during the storm.",
+            correctFeedbackRu: "Отлично! 'Have been' для летних активностей, и 'pitched' для конкретной установки палатки во время грозы.",
+            incorrectFeedback: "Use 'have been' for this summer's camping trips, and 'pitched' for the specific action during the storm.",
+            incorrectFeedbackRu: "Используйте 'have been' для походов этого лета, и 'pitched' для конкретного действия во время грозы."
+        },
+        {
+            question: "Fill in the blank correctly:",
+            questionRu: "Заполните пропуск правильно:",
+            sentence: "Hotel prices ____ much higher lately. During our last vacation, we ____ a fortune for accommodation.",
+            correctAnswer: "have become / paid",
+            options: ["have become / paid", "became / have paid", "have become / have paid", "became / paid"],
+            correctFeedback: "Perfect! 'Have become' for the recent price trend, and 'paid' for your specific last vacation expense.",
+            correctFeedbackRu: "Отлично! 'Have become' для недавней тенденции цен, и 'paid' для вашего конкретного расхода в последний отпуск.",
+            incorrectFeedback: "Use 'have become' for the recent price increase, and 'paid' for what you spent last vacation.",
+            incorrectFeedbackRu: "Используйте 'have become' для недавнего роста цен, и 'paid' для того, что вы потратили в последний отпуск."
+        },
+        {
+            question: "Choose the correct tense:",
+            questionRu: "Выберите правильное время:",
+            sentence: "I ____ many beautiful beaches around the world. The most spectacular one ____ in the Maldives.",
+            correctAnswer: "have visited / was",
+            options: ["have visited / was", "visited / has been", "have visited / has been", "visited / was"],
+            correctFeedback: "Great! 'Have visited' for your general beach experiences, while 'was' describes the location of the best one.",
+            correctFeedbackRu: "Отлично! 'Have visited' для ваших общих впечатлений от пляжей, а 'was' описывает местоположение лучшего из них.",
+            incorrectFeedback: "Use 'have visited' for your general experience, and 'was' to describe where the most spectacular beach was.",
+            incorrectFeedbackRu: "Используйте 'have visited' для вашего общего опыта, и 'was' чтобы описать, где был самый впечатляющий пляж."
+        },
+        {
+            question: "Complete with the appropriate form:",
+            questionRu: "Завершите подходящей формой:",
+            sentence: "Backpacking ____ very trendy among young people recently. I ____ my first backpacking trip when I was nineteen.",
+            correctAnswer: "has become / did",
+            options: ["has become / did", "became / have done", "has become / have done", "became / did"],
+            correctFeedback: "Excellent! 'Has become' for the recent trend, and 'did' for your specific first trip at nineteen.",
+            correctFeedbackRu: "Отлично! 'Has become' для недавней тенденции, и 'did' для вашей конкретной первой поездки в девятнадцать лет.",
+            incorrectFeedback: "Use 'has become' for the ongoing trend, and 'did' for your specific trip at age nineteen.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающейся тенденции, и 'did' для вашей конкретной поездки в возрасте девятнадцать лет."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Present Perfect vs Past Simple - Fill in the Gaps - Family and Relationships
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-gap-page5'] = {
+    title: "Present Perfect vs Past Simple - Family and Relationships",
+    fillGaps: [
+        {
+            question: "Fill in the correct form:",
+            questionRu: "Заполните правильной формой:",
+            sentence: "My brother ____ married two years ago, and he ____ extremely happy ever since.",
+            correctAnswer: "got / has been",
+            options: ["got / has been", "has got / was", "got / was", "has got / has been"],
+            correctFeedback: "Perfect! 'Got married' for the specific event two years ago, while 'has been' for the continuing happiness.",
+            correctFeedbackRu: "Отлично! 'Got married' для конкретного события два года назад, а 'has been' для продолжающегося счастья.",
+            incorrectFeedback: "Use 'got married' for the specific wedding event, and 'has been' for his continuing state of happiness.",
+            incorrectFeedbackRu: "Используйте 'got married' для конкретного события свадьбы, и 'has been' для его продолжающегося состояния счастья."
+        },
+        {
+            question: "Choose the appropriate tense:",
+            questionRu: "Выберите подходящее время:",
+            sentence: "I ____ my best friend in elementary school, and we ____ close for over fifteen years.",
+            correctAnswer: "met / have remained",
+            options: ["met / have remained", "have met / remained", "met / remained", "have met / have remained"],
+            correctFeedback: "Excellent! 'Met' for the specific meeting in elementary school, and 'have remained' for the continuing friendship.",
+            correctFeedbackRu: "Отлично! 'Met' для конкретной встречи в начальной школе, и 'have remained' для продолжающейся дружбы.",
+            incorrectFeedback: "Use 'met' for when you first met, and 'have remained' for the friendship that continues today.",
+            incorrectFeedbackRu: "Используйте 'met' для того, когда вы впервые встретились, и 'have remained' для дружбы, которая продолжается сегодня."
+        },
+        {
+            question: "Complete with the correct tense:",
+            questionRu: "Завершите правильным временем:",
+            sentence: "My parents ____ together for thirty-five years now. They ____ in love during their college years.",
+            correctAnswer: "have been / fell",
+            options: ["have been / fell", "were / have fallen", "have been / have fallen", "were / fell"],
+            correctFeedback: "Great! 'Have been' for the thirty-five year relationship, while 'fell' for when they first fell in love.",
+            correctFeedbackRu: "Отлично! 'Have been' для тридцатипятилетних отношений, а 'fell' для того, когда они впервые влюбились.",
+            incorrectFeedback: "Use 'have been' for their continuing relationship, and 'fell' for when they first fell in love in college.",
+            incorrectFeedbackRu: "Используйте 'have been' для их продолжающихся отношений, и 'fell' для того, когда они впервые влюбились в колледже."
+        },
+        {
+            question: "Fill in with the appropriate form:",
+            questionRu: "Заполните подходящей формой:",
+            sentence: "I ____ much more patient with my children since I read that parenting book. Before that, I ____ my temper easily.",
+            correctAnswer: "have become / lost",
+            options: ["have become / lost", "became / have lost", "have become / have lost", "became / lost"],
+            correctFeedback: "Perfect! 'Have become' for the ongoing improvement, while 'lost' describes the previous behavior pattern.",
+            correctFeedbackRu: "Отлично! 'Have become' для продолжающегося улучшения, а 'lost' описывает предыдущую модель поведения.",
+            incorrectFeedback: "Use 'have become' for the ongoing change, and 'lost' for what you used to do before.",
+            incorrectFeedbackRu: "Используйте 'have become' для продолжающегося изменения, и 'lost' для того, что вы раньше делали."
+        },
+        {
+            question: "Choose the correct form:",
+            questionRu: "Выберите правильную форму:",
+            sentence: "My grandmother ____ me wonderful stories when I was little. She ____ a huge influence on my love of books.",
+            correctAnswer: "told / has had",
+            options: ["told / has had", "has told / had", "told / had", "has told / has had"],
+            correctFeedback: "Excellent! 'Told' for the specific childhood period, and 'has had' for the continuing influence on your reading.",
+            correctFeedbackRu: "Отлично! 'Told' для конкретного детского периода, и 'has had' для продолжающегося влияния на ваше чтение.",
+            incorrectFeedback: "Use 'told' for what happened when you were little, and 'has had' for her continuing influence.",
+            incorrectFeedbackRu: "Используйте 'told' для того, что происходило, когда вы были маленькими, и 'has had' для её продолжающегося влияния."
+        },
+        {
+            question: "Complete the sentence correctly:",
+            questionRu: "Завершите предложение правильно:",
+            sentence: "My confidence ____ significantly since I started therapy. I ____ my first session eight months ago.",
+            correctAnswer: "has improved / had",
+            options: ["has improved / had", "improved / have had", "has improved / have had", "improved / had"],
+            correctFeedback: "Great! 'Has improved' for the ongoing confidence growth, while 'had' for the specific first session.",
+            correctFeedbackRu: "Отлично! 'Has improved' для продолжающегося роста уверенности, а 'had' для конкретной первой сессии.",
+            incorrectFeedback: "Use 'has improved' for the ongoing improvement, and 'had' for the specific session eight months ago.",
+            incorrectFeedbackRu: "Используйте 'has improved' для продолжающегося улучшения, и 'had' для конкретной сессии восемь месяцев назад."
+        },
+        {
+            question: "Fill in the appropriate tense:",
+            questionRu: "Заполните подходящим временем:",
+            sentence: "My cousin ____ his own business last year, and it ____ quite profitable so far.",
+            correctAnswer: "started / has been",
+            options: ["started / has been", "has started / was", "started / was", "has started / has been"],
+            correctFeedback: "Perfect! 'Started' for the specific business launch last year, while 'has been' for the continuing success.",
+            correctFeedbackRu: "Отлично! 'Started' для конкретного запуска бизнеса в прошлом году, а 'has been' для продолжающегося успеха.",
+            incorrectFeedback: "Use 'started' for the specific launch last year, and 'has been' for the continuing profitability.",
+            incorrectFeedbackRu: "Используйте 'started' для конкретного запуска в прошлом году, и 'has been' для продолжающейся прибыльности."
+        },
+        {
+            question: "Choose the correct tense:",
+            questionRu: "Выберите правильное время:",
+            sentence: "I ____ several mentors during my career. My first mentor ____ me when I was just starting out.",
+            correctAnswer: "have had / guided",
+            options: ["have had / guided", "had / has guided", "have had / has guided", "had / guided"],
+            correctFeedback: "Excellent! 'Have had' for your general career experience, and 'guided' for what your first mentor did.",
+            correctFeedbackRu: "Отлично! 'Have had' для вашего общего карьерного опыта, и 'guided' для того, что делал ваш первый наставник.",
+            incorrectFeedback: "Use 'have had' for your general experience with mentors, and 'guided' for what the first one did.",
+            incorrectFeedbackRu: "Используйте 'have had' для вашего общего опыта с наставниками, и 'guided' для того, что делал первый."
+        },
+        {
+            question: "Complete with the correct form:",
+            questionRu: "Завершите правильной формой:",
+            sentence: "Family traditions ____ very important to me since I became a father. When I was young, we ____ big celebrations every holiday.",
+            correctAnswer: "have become / had",
+            options: ["have become / had", "became / have had", "have become / have had", "became / had"],
+            correctFeedback: "Great! 'Have become' for the ongoing importance since becoming a father, while 'had' describes childhood traditions.",
+            correctFeedbackRu: "Отлично! 'Have become' для продолжающейся важности с момента становления отцом, а 'had' описывает детские традиции.",
+            incorrectFeedback: "Use 'have become' for the change since becoming a father, and 'had' for childhood celebrations.",
+            incorrectFeedbackRu: "Используйте 'have become' для изменения с момента становления отцом, и 'had' для детских празднований."
+        },
+        {
+            question: "Fill in the blank appropriately:",
+            questionRu: "Заполните пропуск подходящим образом:",
+            sentence: "I ____ much closer to my siblings since we all became adults. During our teenage years, we ____ constantly.",
+            correctAnswer: "have grown / argued",
+            options: ["have grown / argued", "grew / have argued", "have grown / have argued", "grew / argued"],
+            correctFeedback: "Perfect! 'Have grown' for the ongoing closeness since adulthood, while 'argued' describes the teenage behavior.",
+            correctFeedbackRu: "Отлично! 'Have grown' для продолжающейся близости с момента взрослости, а 'argued' описывает подростковое поведение.",
+            incorrectFeedback: "Use 'have grown' for the ongoing improvement in relationships, and 'argued' for teenage behavior.",
+            incorrectFeedbackRu: "Используйте 'have grown' для продолжающегося улучшения отношений, и 'argued' для подросткового поведения."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Present Perfect vs Past Simple - Fill in the Gaps - Health and Lifestyle
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-gap-page6'] = {
+    title: "Present Perfect vs Past Simple - Health and Lifestyle",
+    fillGaps: [
+        {
+            question: "Complete with the correct tense:",
+            questionRu: "Завершите правильным временем:",
+            sentence: "I ____ exercising regularly for the past eight months. I ____ my first gym session last January.",
+            correctAnswer: "have been / did",
+            options: ["have been / did", "was / have done", "have been / have done", "was / did"],
+            correctFeedback: "Excellent! 'Have been exercising' for the ongoing activity over eight months, while 'did' for the specific first session.",
+            correctFeedbackRu: "Отлично! 'Have been exercising' для продолжающейся активности в течение восьми месяцев, а 'did' для конкретной первой тренировки.",
+            incorrectFeedback: "Use 'have been' for the ongoing exercise routine, and 'did' for the specific first session in January.",
+            incorrectFeedbackRu: "Используйте 'have been' для продолжающегося режима упражнений, и 'did' для конкретной первой тренировки в январе."
+        },
+        {
+            question: "Fill in the appropriate form:",
+            questionRu: "Заполните подходящей формой:",
+            sentence: "My doctor ____ me to reduce stress lately. Yesterday, she ____ my blood pressure and said it was high.",
+            correctAnswer: "has been advising / checked",
+            options: ["has been advising / checked", "advised / has checked", "has been advising / has checked", "advised / checked"],
+            correctFeedback: "Perfect! 'Has been advising' for the ongoing medical advice, and 'checked' for yesterday's specific examination.",
+            correctFeedbackRu: "Отлично! 'Has been advising' для продолжающегося медицинского совета, и 'checked' для вчерашнего конкретного обследования.",
+            incorrectFeedback: "Use 'has been advising' for the ongoing advice, and 'checked' for what she did yesterday.",
+            incorrectFeedbackRu: "Используйте 'has been advising' для продолжающегося совета, и 'checked' для того, что она делала вчера."
+        },
+        {
+            question: "Choose the correct form:",
+            questionRu: "Выберите правильную форму:",
+            sentence: "I ____ twenty pounds since I changed my diet. The program ____ four months ago.",
+            correctAnswer: "have lost / started",
+            options: ["have lost / started", "lost / has started", "have lost / has started", "lost / started"],
+            correctFeedback: "Great! 'Have lost' for the ongoing weight loss results, while 'started' for when the program began.",
+            correctFeedbackRu: "Отлично! 'Have lost' для продолжающихся результатов потери веса, а 'started' для того, когда началась программа.",
+            incorrectFeedback: "Use 'have lost' for the current result, and 'started' for when the program began four months ago.",
+            incorrectFeedbackRu: "Используйте 'have lost' для текущего результата, и 'started' для того, когда программа началась четыре месяца назад."
+        },
+        {
+            question: "Complete the sentence correctly:",
+            questionRu: "Завершите предложение правильно:",
+            sentence: "My energy levels ____ dramatically since I improved my sleep habits. Last month, I ____ going to bed earlier.",
+            correctAnswer: "have increased / began",
+            options: ["have increased / began", "increased / have begun", "have increased / have begun", "increased / began"],
+            correctFeedback: "Excellent! 'Have increased' for the ongoing energy improvement, while 'began' for the specific habit change.",
+            correctFeedbackRu: "Отлично! 'Have increased' для продолжающегося улучшения энергии, а 'began' для конкретного изменения привычки.",
+            incorrectFeedback: "Use 'have increased' for the ongoing benefit, and 'began' for when you started the new habit.",
+            incorrectFeedbackRu: "Используйте 'have increased' для продолжающейся пользы, и 'began' для того, когда вы начали новую привычку."
+        },
+        {
+            question: "Fill in with the correct tense:",
+            questionRu: "Заполните правильным временем:",
+            sentence: "I ____ meditation twice a week for the past year. I ____ my first class because I was skeptical.",
+            correctAnswer: "have been practicing / almost skipped",
+            options: ["have been practicing / almost skipped", "practiced / have almost skipped", "have been practicing / have almost skipped", "practiced / almost skipped"],
+            correctFeedback: "Perfect! 'Have been practicing' for the ongoing meditation routine, and 'almost skipped' for the specific first class memory.",
+            correctFeedbackRu: "Отлично! 'Have been practicing' для продолжающейся рутины медитации, и 'almost skipped' для конкретного воспоминания о первом занятии.",
+            incorrectFeedback: "Use 'have been practicing' for the ongoing routine, and 'almost skipped' for your first class experience.",
+            incorrectFeedbackRu: "Используйте 'have been practicing' для продолжающейся рутины, и 'almost skipped' для вашего опыта первого занятия."
+        },
+        {
+            question: "Choose the appropriate tense:",
+            questionRu: "Выберите подходящее время:",
+            sentence: "My stress levels ____ much lower since I learned relaxation techniques. I ____ my first workshop two years ago.",
+            correctAnswer: "have been / attended",
+            options: ["have been / attended", "were / have attended", "have been / have attended", "were / attended"],
+            correctFeedback: "Great! 'Have been' for the ongoing low stress levels, while 'attended' for the specific workshop two years ago.",
+            correctFeedbackRu: "Отлично! 'Have been' для продолжающихся низких уровней стресса, а 'attended' для конкретного семинара два года назад.",
+            incorrectFeedback: "Use 'have been' for the ongoing improvement, and 'attended' for the specific workshop two years ago.",
+            incorrectFeedbackRu: "Используйте 'have been' для продолжающегося улучшения, и 'attended' для конкретного семинара два года назад."
+        },
+        {
+            question: "Complete with the correct form:",
+            questionRu: "Завершите правильной формой:",
+            sentence: "I ____ drinking soda completely. I ____ my last can about three months ago.",
+            correctAnswer: "have stopped / drank",
+            options: ["have stopped / drank", "stopped / have drunk", "have stopped / have drunk", "stopped / drank"],
+            correctFeedback: "Excellent! 'Have stopped' shows the current state of not drinking soda, while 'drank' refers to the last specific can.",
+            correctFeedbackRu: "Отлично! 'Have stopped' показывает текущее состояние не употребления газировки, а 'drank' относится к последней конкретной банке.",
+            incorrectFeedback: "Use 'have stopped' for your current state, and 'drank' for the specific last can three months ago.",
+            incorrectFeedbackRu: "Используйте 'have stopped' для вашего текущего состояния, и 'drank' для конкретной последней банки три месяца назад."
+        },
+        {
+            question: "Fill in the blank correctly:",
+            questionRu: "Заполните пропуск правильно:",
+            sentence: "My sleep quality ____ remarkably since I bought blackout curtains. The old curtains ____ too much light through.",
+            correctAnswer: "has improved / let",
+            options: ["has improved / let", "improved / have let", "has improved / have let", "improved / let"],
+            correctFeedback: "Perfect! 'Has improved' for the ongoing better sleep, and 'let' for what the old curtains did in the past.",
+            correctFeedbackRu: "Отлично! 'Has improved' для продолжающегося лучшего сна, и 'let' для того, что делали старые шторы в прошлом.",
+            incorrectFeedback: "Use 'has improved' for the ongoing improvement, and 'let' for what the old curtains used to do.",
+            incorrectFeedbackRu: "Используйте 'has improved' для продолжающегося улучшения, и 'let' для того, что раньше делали старые шторы."
+        },
+        {
+            question: "Choose the correct tense:",
+            questionRu: "Выберите правильное время:",
+            sentence: "I ____ much healthier since I started cooking at home. Before that, I ____ fast food almost daily.",
+            correctAnswer: "have felt / ate",
+            options: ["have felt / ate", "felt / have eaten", "have felt / have eaten", "felt / ate"],
+            correctFeedback: "Great! 'Have felt' for the ongoing health improvement, while 'ate' describes the previous eating pattern.",
+            correctFeedbackRu: "Отлично! 'Have felt' для продолжающегося улучшения здоровья, а 'ate' описывает предыдущую модель питания.",
+            incorrectFeedback: "Use 'have felt' for the ongoing improvement, and 'ate' for what you used to do before.",
+            incorrectFeedbackRu: "Используйте 'have felt' для продолжающегося улучшения, и 'ate' для того, что вы раньше делали."
+        },
+        {
+            question: "Complete with the appropriate form:",
+            questionRu: "Завершите подходящей формой:",
+            sentence: "My posture ____ much better since I started working from home. In the office, I ____ at an uncomfortable desk.",
+            correctAnswer: "has become / sat",
+            options: ["has become / sat", "became / have sat", "has become / have sat", "became / sat"],
+            correctFeedback: "Perfect! 'Has become' for the ongoing posture improvement, while 'sat' describes the previous office situation.",
+            correctFeedbackRu: "Отлично! 'Has become' для продолжающегося улучшения осанки, а 'sat' описывает предыдущую офисную ситуацию.",
+            incorrectFeedback: "Use 'has become' for the ongoing improvement, and 'sat' for what you did in the office.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающегося улучшения, и 'sat' для того, что вы делали в офисе."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Present Perfect vs Past Simple - Fill in the Gaps - Work and Career
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-gap-page7'] = {
+    title: "Present Perfect vs Past Simple - Work and Career",
+    fillGaps: [
+        {
+            question: "Complete with the correct tense:",
+            questionRu: "Завершите правильным временем:",
+            sentence: "I ____ for this company for five years now. I ____ the interview on a rainy Tuesday in 2019.",
+            correctAnswer: "have worked / had",
+            options: ["have worked / had", "worked / have had", "have worked / have had", "worked / had"],
+            correctFeedback: "Excellent! 'Have worked' for the continuing employment, while 'had' for the specific interview in 2019.",
+            correctFeedbackRu: "Отлично! 'Have worked' для продолжающейся работы, а 'had' для конкретного интервью в 2019 году.",
+            incorrectFeedback: "Use 'have worked' for the ongoing employment, and 'had' for the specific interview in 2019.",
+            incorrectFeedbackRu: "Используйте 'have worked' для продолжающейся работы, и 'had' для конкретного интервью в 2019 году."
+        },
+        {
+            question: "Fill in the appropriate form:",
+            questionRu: "Заполните подходящей формой:",
+            sentence: "My boss ____ very supportive lately. Last week, she ____ me a promotion.",
+            correctAnswer: "has been / offered",
+            options: ["has been / offered", "was / has offered", "has been / has offered", "was / offered"],
+            correctFeedback: "Perfect! 'Has been' for the recent ongoing support, and 'offered' for the specific promotion last week.",
+            correctFeedbackRu: "Отлично! 'Has been' для недавней продолжающейся поддержки, и 'offered' для конкретного повышения на прошлой неделе.",
+            incorrectFeedback: "Use 'has been' for the ongoing supportive behavior, and 'offered' for what she did last week.",
+            incorrectFeedbackRu: "Используйте 'has been' для продолжающегося поддерживающего поведения, и 'offered' для того, что она сделала на прошлой неделе."
+        },
+        {
+            question: "Choose the correct form:",
+            questionRu: "Выберите правильную форму:",
+            sentence: "The office atmosphere ____ much better since we hired the new manager. The previous manager ____ very strict policies.",
+            correctAnswer: "has become / enforced",
+            options: ["has become / enforced", "became / has enforced", "has become / has enforced", "became / enforced"],
+            correctFeedback: "Great! 'Has become' for the ongoing improvement, while 'enforced' describes what the previous manager did.",
+            correctFeedbackRu: "Отлично! 'Has become' для продолжающегося улучшения, а 'enforced' описывает то, что делал предыдущий менеджер.",
+            incorrectFeedback: "Use 'has become' for the ongoing improvement, and 'enforced' for the previous manager's actions.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающегося улучшения, и 'enforced' для действий предыдущего менеджера."
+        },
+        {
+            question: "Complete the sentence correctly:",
+            questionRu: "Завершите предложение правильно:",
+            sentence: "I ____ four different projects this month. I ____ the most challenging one yesterday.",
+            correctAnswer: "have completed / finished",
+            options: ["have completed / finished", "completed / have finished", "have completed / have finished", "completed / finished"],
+            correctFeedback: "Excellent! 'Have completed' for this month's total work, and 'finished' for the specific project yesterday.",
+            correctFeedbackRu: "Отлично! 'Have completed' для общей работы этого месяца, и 'finished' для конкретного проекта вчера.",
+            incorrectFeedback: "Use 'have completed' for the month's total, and 'finished' for the specific project yesterday.",
+            incorrectFeedbackRu: "Используйте 'have completed' для общего количества за месяц, и 'finished' для конкретного проекта вчера."
+        },
+        {
+            question: "Fill in with the correct tense:",
+            questionRu: "Заполните правильным временем:",
+            sentence: "My salary ____ twice since I started working here. The last raise ____ effect in January.",
+            correctAnswer: "has increased / took",
+            options: ["has increased / took", "increased / has taken", "has increased / has taken", "increased / took"],
+            correctFeedback: "Perfect! 'Has increased' for the ongoing salary improvements, and 'took effect' for when the last raise started.",
+            correctFeedbackRu: "Отлично! 'Has increased' для продолжающихся улучшений зарплаты, и 'took effect' для того, когда началось последнее повышение.",
+            incorrectFeedback: "Use 'has increased' for the ongoing improvements, and 'took effect' for when the raise started in January.",
+            incorrectFeedbackRu: "Используйте 'has increased' для продолжающихся улучшений, и 'took effect' для того, когда повышение началось в январе."
+        },
+        {
+            question: "Choose the appropriate tense:",
+            questionRu: "Выберите подходящее время:",
+            sentence: "Remote work ____ very popular recently. My company ____ this policy during the pandemic.",
+            correctAnswer: "has become / introduced",
+            options: ["has become / introduced", "became / has introduced", "has become / has introduced", "became / introduced"],
+            correctFeedback: "Great! 'Has become' for the recent trend, while 'introduced' for when your company started the policy.",
+            correctFeedbackRu: "Отлично! 'Has become' для недавней тенденции, а 'introduced' для того, когда ваша компания начала эту политику.",
+            incorrectFeedback: "Use 'has become' for the ongoing trend, and 'introduced' for when the policy was started.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающейся тенденции, и 'introduced' для того, когда политика была введена."
+        },
+        {
+            question: "Complete with the correct form:",
+            questionRu: "Завершите правильной формой:",
+            sentence: "I ____ several professional courses this year. I ____ the most useful one in March.",
+            correctAnswer: "have taken / attended",
+            options: ["have taken / attended", "took / have attended", "have taken / have attended", "took / attended"],
+            correctFeedback: "Excellent! 'Have taken' for this year's courses, and 'attended' for the specific course in March.",
+            correctFeedbackRu: "Отлично! 'Have taken' для курсов этого года, и 'attended' для конкретного курса в марте.",
+            incorrectFeedback: "Use 'have taken' for the year's total courses, and 'attended' for the specific one in March.",
+            incorrectFeedbackRu: "Используйте 'have taken' для общего количества курсов за год, и 'attended' для конкретного в марте."
+        },
+        {
+            question: "Fill in the blank correctly:",
+            questionRu: "Заполните пропуск правильно:",
+            sentence: "The new office building ____ our productivity significantly. We ____ to this location six months ago.",
+            correctAnswer: "has improved / moved",
+            options: ["has improved / moved", "improved / have moved", "has improved / have moved", "improved / moved"],
+            correctFeedback: "Perfect! 'Has improved' for the ongoing productivity benefit, and 'moved' for the specific relocation.",
+            correctFeedbackRu: "Отлично! 'Has improved' для продолжающейся пользы для продуктивности, и 'moved' для конкретного переезда.",
+            incorrectFeedback: "Use 'has improved' for the ongoing benefit, and 'moved' for the specific move six months ago.",
+            incorrectFeedbackRu: "Используйте 'has improved' для продолжающейся пользы, и 'moved' для конкретного переезда шесть месяцев назад."
+        },
+        {
+            question: "Choose the correct tense:",
+            questionRu: "Выберите правильное время:",
+            sentence: "My work-life balance ____ dramatically since I changed departments. In my previous role, I ____ overtime constantly.",
+            correctAnswer: "has improved / worked",
+            options: ["has improved / worked", "improved / have worked", "has improved / have worked", "improved / worked"],
+            correctFeedback: "Great! 'Has improved' for the ongoing better balance, while 'worked' describes the previous department routine.",
+            correctFeedbackRu: "Отлично! 'Has improved' для продолжающегося лучшего баланса, а 'worked' описывает рутину предыдущего отдела.",
+            incorrectFeedback: "Use 'has improved' for the ongoing improvement, and 'worked' for what you did in the previous role.",
+            incorrectFeedbackRu: "Используйте 'has improved' для продолжающегося улучшения, и 'worked' для того, что вы делали на предыдущей должности."
+        },
+        {
+            question: "Complete with the appropriate form:",
+            questionRu: "Завершите подходящей формой:",
+            sentence: "I ____ three important certifications since joining this field. I ____ my first certification exam five years ago.",
+            correctAnswer: "have earned / passed",
+            options: ["have earned / passed", "earned / have passed", "have earned / have passed", "earned / passed"],
+            correctFeedback: "Excellent! 'Have earned' for your ongoing professional achievements, and 'passed' for the specific first exam.",
+            correctFeedbackRu: "Отлично! 'Have earned' для ваших продолжающихся профессиональных достижений, и 'passed' для конкретного первого экзамена.",
+            incorrectFeedback: "Use 'have earned' for your general achievements in the field, and 'passed' for the specific exam five years ago.",
+            incorrectFeedbackRu: "Используйте 'have earned' для ваших общих достижений в области, и 'passed' для конкретного экзамена пять лет назад."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Present Perfect vs Past Simple - Fill in the Gaps - Education and Learning
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-gap-page8'] = {
+    title: "Present Perfect vs Past Simple - Education and Learning",
+    fillGaps: [
+        {
+            question: "Fill in the correct form:",
+            questionRu: "Заполните правильной формой:",
+            sentence: "I ____ Spanish for two years now. I ____ my first class at the community center in 2022.",
+            correctAnswer: "have been studying / took",
+            options: ["have been studying / took", "studied / have taken", "have been studying / have taken", "studied / took"],
+            correctFeedback: "Perfect! 'Have been studying' for the ongoing learning process, while 'took' for the specific first class in 2022.",
+            correctFeedbackRu: "Отлично! 'Have been studying' для продолжающегося процесса обучения, а 'took' для конкретного первого занятия в 2022 году.",
+            incorrectFeedback: "Use 'have been studying' for the ongoing study, and 'took' for the specific first class in 2022.",
+            incorrectFeedbackRu: "Используйте 'have been studying' для продолжающегося обучения, и 'took' для конкретного первого занятия в 2022 году."
+        },
+        {
+            question: "Choose the appropriate tense:",
+            questionRu: "Выберите подходящее время:",
+            sentence: "My son ____ excellent grades this semester. Last semester, he ____ some trouble with chemistry.",
+            correctAnswer: "has received / had",
+            options: ["has received / had", "received / has had", "has received / has had", "received / had"],
+            correctFeedback: "Excellent! 'Has received' for this semester's ongoing results, and 'had' for last semester's specific problems.",
+            correctFeedbackRu: "Отлично! 'Has received' для продолжающихся результатов этого семестра, и 'had' для конкретных проблем прошлого семестра.",
+            incorrectFeedback: "Use 'has received' for this semester's performance, and 'had' for the problems last semester.",
+            incorrectFeedbackRu: "Используйте 'has received' для успеваемости этого семестра, и 'had' для проблем прошлого семестра."
+        },
+        {
+            question: "Complete with the correct tense:",
+            questionRu: "Завершите правильным временем:",
+            sentence: "I ____ six online courses since the lockdown began. The first one ____ about digital photography.",
+            correctAnswer: "have completed / was",
+            options: ["have completed / was", "completed / has been", "have completed / has been", "completed / was"],
+            correctFeedback: "Great! 'Have completed' for courses since the lockdown, while 'was' describes what the first course was about.",
+            correctFeedbackRu: "Отлично! 'Have completed' для курсов с начала карантина, а 'was' описывает, о чём был первый курс.",
+            incorrectFeedback: "Use 'have completed' for courses since the lockdown, and 'was' to describe the first course topic.",
+            incorrectFeedbackRu: "Используйте 'have completed' для курсов с карантина, и 'was' чтобы описать тему первого курса."
+        },
+        {
+            question: "Fill in with the appropriate form:",
+            questionRu: "Заполните подходящей формой:",
+            sentence: "My writing skills ____ tremendously since I joined the writing workshop. I ____ my first short story there last month.",
+            correctAnswer: "have improved / wrote",
+            options: ["have improved / wrote", "improved / have written", "have improved / have written", "improved / wrote"],
+            correctFeedback: "Perfect! 'Have improved' for the ongoing skill development, while 'wrote' for the specific story last month.",
+            correctFeedbackRu: "Отлично! 'Have improved' для продолжающегося развития навыков, а 'wrote' для конкретного рассказа в прошлом месяце.",
+            incorrectFeedback: "Use 'have improved' for the ongoing improvement, and 'wrote' for the specific story last month.",
+            incorrectFeedbackRu: "Используйте 'have improved' для продолжающегося улучшения, и 'wrote' для конкретного рассказа в прошлом месяце."
+        },
+        {
+            question: "Choose the correct form:",
+            questionRu: "Выберите правильную форму:",
+            sentence: "I ____ many educational podcasts recently. The most fascinating one ____ about space exploration.",
+            correctAnswer: "have discovered / was",
+            options: ["have discovered / was", "discovered / has been", "have discovered / has been", "discovered / was"],
+            correctFeedback: "Excellent! 'Have discovered' for the recent podcast exploration, and 'was' for what the most fascinating one was about.",
+            correctFeedbackRu: "Отлично! 'Have discovered' для недавнего исследования подкастов, и 'was' для того, о чём был самый увлекательный.",
+            incorrectFeedback: "Use 'have discovered' for the recent exploration, and 'was' to describe the podcast topic.",
+            incorrectFeedbackRu: "Используйте 'have discovered' для недавнего исследования, и 'was' чтобы описать тему подкаста."
+        },
+        {
+            question: "Complete the sentence correctly:",
+            questionRu: "Завершите предложение правильно:",
+            sentence: "My daughter ____ a scholarship to study engineering. She ____ the application forms in September.",
+            correctAnswer: "has won / submitted",
+            options: ["has won / submitted", "won / has submitted", "has won / has submitted", "won / submitted"],
+            correctFeedback: "Great! 'Has won' announces the current achievement, while 'submitted' refers to the specific application date.",
+            correctFeedbackRu: "Отлично! 'Has won' объявляет о текущем достижении, а 'submitted' относится к конкретной дате подачи заявления.",
+            incorrectFeedback: "Use 'has won' for the current achievement, and 'submitted' for when she applied in September.",
+            incorrectFeedbackRu: "Используйте 'has won' для текущего достижения, и 'submitted' для того, когда она подавала заявление в сентябре."
+        },
+        {
+            question: "Fill in the appropriate tense:",
+            questionRu: "Заполните подходящим временем:",
+            sentence: "I ____ three professional certificates since I started my current job. My first certificate ____ me four months to complete.",
+            correctAnswer: "have earned / took",
+            options: ["have earned / took", "earned / has taken", "have earned / has taken", "earned / took"],
+            correctFeedback: "Perfect! 'Have earned' for ongoing professional development, while 'took' for the specific duration of the first certificate.",
+            correctFeedbackRu: "Отлично! 'Have earned' для продолжающегося профессионального развития, а 'took' для конкретной продолжительности первого сертификата.",
+            incorrectFeedback: "Use 'have earned' for the ongoing achievements, and 'took' for how long the first certificate required.",
+            incorrectFeedbackRu: "Используйте 'have earned' для продолжающихся достижений, и 'took' для того, сколько времени потребовал первый сертификат."
+        },
+        {
+            question: "Choose the correct tense:",
+            questionRu: "Выберите правильное время:",
+            sentence: "My memory ____ much sharper since I started doing brain exercises. I ____ the training program two months ago.",
+            correctAnswer: "has become / began",
+            options: ["has become / began", "became / have begun", "has become / have begun", "became / began"],
+            correctFeedback: "Excellent! 'Has become' for the ongoing mental improvement, and 'began' for the specific start of the program.",
+            correctFeedbackRu: "Отлично! 'Has become' для продолжающегося улучшения памяти, и 'began' для конкретного начала программы.",
+            incorrectFeedback: "Use 'has become' for the ongoing improvement, and 'began' for when you started the program.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающегося улучшения, и 'began' для того, когда вы начали программу."
+        },
+        {
+            question: "Complete with the correct form:",
+            questionRu: "Завершите правильной формой:",
+            sentence: "I ____ touch typing recently using online tutorials. The course ____ me three weeks to master.",
+            correctAnswer: "have learned / took",
+            options: ["have learned / took", "learned / has taken", "have learned / has taken", "learned / took"],
+            correctFeedback: "Great! 'Have learned' for the recently acquired skill, while 'took' for the specific duration of the course.",
+            correctFeedbackRu: "Отлично! 'Have learned' для недавно приобретённого навыка, а 'took' для конкретной продолжительности курса.",
+            incorrectFeedback: "Use 'have learned' for the skill you now possess, and 'took' for the course duration.",
+            incorrectFeedbackRu: "Используйте 'have learned' для навыка, которым вы теперь обладаете, и 'took' для продолжительности курса."
+        },
+        {
+            question: "Fill in the blank appropriately:",
+            questionRu: "Заполните пропуск подходящим образом:",
+            sentence: "My daughter ____ much more confident in mathematics since she got a new tutor. Her previous teacher ____ the concepts too quickly.",
+            correctAnswer: "has become / explained",
+            options: ["has become / explained", "became / has explained", "has become / has explained", "became / explained"],
+            correctFeedback: "Perfect! 'Has become' for the ongoing confidence improvement, while 'explained' describes how the previous teacher taught.",
+            correctFeedbackRu: "Отлично! 'Has become' для продолжающегося улучшения уверенности, а 'explained' описывает, как преподавал предыдущий учитель.",
+            incorrectFeedback: "Use 'has become' for the ongoing improvement, and 'explained' for how the previous teacher used to teach.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающегося улучшения, и 'explained' для того, как раньше преподавал предыдущий учитель."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Present Perfect vs Past Simple - Fill in the Gaps - Technology and Communication
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-gap-page9'] = {
+    title: "Present Perfect vs Past Simple - Technology and Communication",
+    fillGaps: [
+        {
+            question: "Complete with the correct tense:",
+            questionRu: "Завершите правильным временем:",
+            sentence: "Smartphones ____ the way we communicate dramatically. Before 2007, people ____ basic mobile phones for calls only.",
+            correctAnswer: "have changed / used",
+            options: ["have changed / used", "changed / have used", "have changed / have used", "changed / used"],
+            correctFeedback: "Excellent! 'Have changed' for the ongoing transformation, while 'used' describes what people did before 2007.",
+            correctFeedbackRu: "Отлично! 'Have changed' для продолжающейся трансформации, а 'used' описывает то, что люди делали до 2007 года.",
+            incorrectFeedback: "Use 'have changed' for the ongoing transformation, and 'used' for what people did before smartphones.",
+            incorrectFeedbackRu: "Используйте 'have changed' для продолжающейся трансформации, и 'used' для того, что люди делали до смартфонов."
+        },
+        {
+            question: "Fill in the appropriate form:",
+            questionRu: "Заполните подходящей формой:",
+            sentence: "I ____ my laptop three times this week. It ____ working properly on Monday morning.",
+            correctAnswer: "have restarted / stopped",
+            options: ["have restarted / stopped", "restarted / has stopped", "have restarted / has stopped", "restarted / stopped"],
+            correctFeedback: "Perfect! 'Have restarted' for this week's repeated action, and 'stopped' for the specific problem on Monday.",
+            correctFeedbackRu: "Отлично! 'Have restarted' для повторяющегося действия этой недели, и 'stopped' для конкретной проблемы в понедельник.",
+            incorrectFeedback: "Use 'have restarted' for the repeated action this week, and 'stopped' for what happened on Monday.",
+            incorrectFeedbackRu: "Используйте 'have restarted' для повторяющегося действия этой недели, и 'stopped' для того, что произошло в понедельник."
+        },
+        {
+            question: "Choose the correct form:",
+            questionRu: "Выберите правильную форму:",
+            sentence: "Social media platforms ____ much more sophisticated recently. When I ____ using Facebook, it was much simpler.",
+            correctAnswer: "have become / started",
+            options: ["have become / started", "became / have started", "have become / have started", "became / started"],
+            correctFeedback: "Great! 'Have become' for the ongoing sophistication, while 'started' refers to when you first began using Facebook.",
+            correctFeedbackRu: "Отлично! 'Have become' для продолжающегося усложнения, а 'started' относится к тому, когда вы впервые начали использовать Facebook.",
+            incorrectFeedback: "Use 'have become' for the ongoing development, and 'started' for when you first began using Facebook.",
+            incorrectFeedbackRu: "Используйте 'have become' для продолжающегося развития, и 'started' для того, когда вы впервые начали использовать Facebook."
+        },
+        {
+            question: "Complete the sentence correctly:",
+            questionRu: "Завершите предложение правильно:",
+            sentence: "Online shopping ____ extremely popular since the pandemic began. I ____ my first online purchase in 2020.",
+            correctAnswer: "has become / made",
+            options: ["has become / made", "became / have made", "has become / have made", "became / made"],
+            correctFeedback: "Excellent! 'Has become' for the ongoing popularity since the pandemic, and 'made' for your specific first purchase.",
+            correctFeedbackRu: "Отлично! 'Has become' для продолжающейся популярности с начала пандемии, и 'made' для вашей конкретной первой покупки.",
+            incorrectFeedback: "Use 'has become' for the ongoing trend since the pandemic, and 'made' for your first purchase in 2020.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающейся тенденции с пандемии, и 'made' для вашей первой покупки в 2020 году."
+        },
+        {
+            question: "Fill in with the correct tense:",
+            questionRu: "Заполните правильным временем:",
+            sentence: "I ____ coding for six months now. I ____ my first programming course at the local college last year.",
+            correctAnswer: "have been learning / took",
+            options: ["have been learning / took", "learned / have taken", "have been learning / have taken", "learned / took"],
+            correctFeedback: "Perfect! 'Have been learning' for the ongoing study, while 'took' for the specific course last year.",
+            correctFeedbackRu: "Отлично! 'Have been learning' для продолжающегося обучения, а 'took' для конкретного курса в прошлом году.",
+            incorrectFeedback: "Use 'have been learning' for the ongoing study, and 'took' for the specific course last year.",
+            incorrectFeedbackRu: "Используйте 'have been learning' для продолжающегося обучения, и 'took' для конкретного курса в прошлом году."
+        },
+        {
+            question: "Choose the appropriate tense:",
+            questionRu: "Выберите подходящее время:",
+            sentence: "Video calls ____ part of our daily routine since remote work became common. Before that, we ____ mainly emails and phone calls.",
+            correctAnswer: "have become / used",
+            options: ["have become / used", "became / have used", "have become / have used", "became / used"],
+            correctFeedback: "Great! 'Have become' for the ongoing change since remote work, while 'used' describes previous communication methods.",
+            correctFeedbackRu: "Отлично! 'Have become' для продолжающегося изменения с начала удалённой работы, а 'used' описывает предыдущие методы общения.",
+            incorrectFeedback: "Use 'have become' for the ongoing change, and 'used' for previous communication methods.",
+            incorrectFeedbackRu: "Используйте 'have become' для продолжающегося изменения, и 'used' для предыдущих методов общения."
+        },
+        {
+            question: "Complete with the correct form:",
+            questionRu: "Завершите правильной формой:",
+            sentence: "I ____ ten different apps on my phone this month. I ____ the most useful one last Tuesday.",
+            correctAnswer: "have downloaded / found",
+            options: ["have downloaded / found", "downloaded / have found", "have downloaded / have found", "downloaded / found"],
+            correctFeedback: "Excellent! 'Have downloaded' for this month's app installations, and 'found' for the specific discovery last Tuesday.",
+            correctFeedbackRu: "Отлично! 'Have downloaded' для установок приложений этого месяца, и 'found' для конкретного открытия в прошлый вторник.",
+            incorrectFeedback: "Use 'have downloaded' for this month's total, and 'found' for the specific discovery last Tuesday.",
+            incorrectFeedbackRu: "Используйте 'have downloaded' для общего количества за месяц, и 'found' для конкретного открытия в прошлый вторник."
+        },
+        {
+            question: "Fill in the blank correctly:",
+            questionRu: "Заполните пропуск правильно:",
+            sentence: "Cloud storage ____ file sharing much easier recently. Five years ago, we ____ USB drives to transfer documents.",
+            correctAnswer: "has made / used",
+            options: ["has made / used", "made / have used", "has made / have used", "made / used"],
+            correctFeedback: "Perfect! 'Has made' for the ongoing improvement in file sharing, while 'used' describes what we did five years ago.",
+            correctFeedbackRu: "Отлично! 'Has made' для продолжающегося улучшения обмена файлами, а 'used' описывает то, что мы делали пять лет назад.",
+            incorrectFeedback: "Use 'has made' for the ongoing improvement, and 'used' for what we did five years ago.",
+            incorrectFeedbackRu: "Используйте 'has made' для продолжающегося улучшения, и 'used' для того, что мы делали пять лет назад."
+        },
+        {
+            question: "Choose the correct tense:",
+            questionRu: "Выберите правильное время:",
+            sentence: "Artificial intelligence ____ incredible progress in recent years. The first AI chatbot ____ in the 1960s.",
+            correctAnswer: "has made / appeared",
+            options: ["has made / appeared", "made / has appeared", "has made / has appeared", "made / appeared"],
+            correctFeedback: "Great! 'Has made' for the ongoing progress in recent years, while 'appeared' for when the first chatbot was created.",
+            correctFeedbackRu: "Отлично! 'Has made' для продолжающегося прогресса в последние годы, а 'appeared' для того, когда был создан первый чат-бот.",
+            incorrectFeedback: "Use 'has made' for the ongoing recent progress, and 'appeared' for the historical first chatbot.",
+            incorrectFeedbackRu: "Используйте 'has made' для продолжающегося недавнего прогресса, и 'appeared' для исторического первого чат-бота."
+        },
+        {
+            question: "Complete with the appropriate form:",
+            questionRu: "Завершите подходящей формой:",
+            sentence: "My internet connection ____ much faster since I upgraded my plan. The old plan ____ only 10 megabits per second.",
+            correctAnswer: "has become / provided",
+            options: ["has become / provided", "became / has provided", "has become / has provided", "became / provided"],
+            correctFeedback: "Excellent! 'Has become' for the ongoing improvement since the upgrade, while 'provided' describes the old plan's speed.",
+            correctFeedbackRu: "Отлично! 'Has become' для продолжающегося улучшения с момента обновления, а 'provided' описывает скорость старого плана.",
+            incorrectFeedback: "Use 'has become' for the ongoing improvement, and 'provided' for what the old plan used to offer.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающегося улучшения, и 'provided' для того, что раньше предлагал старый план."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Present Perfect vs Past Simple - Fill in the Gaps - Entertainment and Hobbies
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-gap-page10'] = {
+    title: "Present Perfect vs Past Simple - Entertainment and Hobbies",
+    fillGaps: [
+        {
+            question: "Fill in the correct form:",
+            questionRu: "Заполните правильной формой:",
+            sentence: "I ____ playing guitar for three years now. I ____ my first lesson at a music school downtown.",
+            correctAnswer: "have been / took",
+            options: ["have been / took", "was / have taken", "have been / have taken", "was / took"],
+            correctFeedback: "Perfect! 'Have been playing' for the ongoing musical activity, while 'took' for the specific first lesson.",
+            correctFeedbackRu: "Отлично! 'Have been playing' для продолжающейся музыкальной деятельности, а 'took' для конкретного первого урока.",
+            incorrectFeedback: "Use 'have been' for the ongoing guitar playing, and 'took' for the specific first lesson.",
+            incorrectFeedbackRu: "Используйте 'have been' для продолжающейся игры на гитаре, и 'took' для конкретного первого урока."
+        },
+        {
+            question: "Choose the appropriate tense:",
+            questionRu: "Выберите подходящее время:",
+            sentence: "Streaming services ____ traditional television viewing significantly. Ten years ago, most people ____ cable TV exclusively.",
+            correctAnswer: "have changed / watched",
+            options: ["have changed / watched", "changed / have watched", "have changed / have watched", "changed / watched"],
+            correctFeedback: "Excellent! 'Have changed' for the ongoing transformation of viewing habits, while 'watched' describes past behavior.",
+            correctFeedbackRu: "Отлично! 'Have changed' для продолжающейся трансформации привычек просмотра, а 'watched' описывает прошлое поведение.",
+            incorrectFeedback: "Use 'have changed' for the ongoing transformation, and 'watched' for what people did ten years ago.",
+            incorrectFeedbackRu: "Используйте 'have changed' для продолжающейся трансформации, и 'watched' для того, что люди делали десять лет назад."
+        },
+        {
+            question: "Complete with the correct tense:",
+            questionRu: "Завершите правильным временем:",
+            sentence: "I ____ twelve books this year so far. I ____ the most exciting one during my summer vacation.",
+            correctAnswer: "have read / read",
+            options: ["have read / read", "read / have read", "have read / have read", "read / read"],
+            correctFeedback: "Great! 'Have read' for this year's total reading, while 'read' for the specific book during vacation.",
+            correctFeedbackRu: "Отлично! 'Have read' для общего количества прочитанного за год, а 'read' для конкретной книги во время отпуска.",
+            incorrectFeedback: "Use 'have read' for this year's total, and 'read' for the specific book during vacation.",
+            incorrectFeedbackRu: "Используйте 'have read' для общего количества за год, и 'read' для конкретной книги во время отпуска."
+        },
+        {
+            question: "Fill in with the appropriate form:",
+            questionRu: "Заполните подходящей формой:",
+            sentence: "Board games ____ very trendy among adults recently. My family ____ our first game night last weekend.",
+            correctAnswer: "have become / organized",
+            options: ["have become / organized", "became / have organized", "have become / have organized", "became / organized"],
+            correctFeedback: "Perfect! 'Have become' for the recent trend, while 'organized' for the specific game night last weekend.",
+            correctFeedbackRu: "Отлично! 'Have become' для недавней тенденции, а 'organized' для конкретного игрового вечера на прошлых выходных.",
+            incorrectFeedback: "Use 'have become' for the ongoing trend, and 'organized' for the specific event last weekend.",
+            incorrectFeedbackRu: "Используйте 'have become' для продолжающейся тенденции, и 'organized' для конкретного события на прошлых выходных."
+        },
+        {
+            question: "Choose the correct form:",
+            questionRu: "Выберите правильную форму:",
+            sentence: "I ____ gardening as a hobby since I moved to this house. I ____ my first vegetable garden in the spring.",
+            correctAnswer: "have enjoyed / planted",
+            options: ["have enjoyed / planted", "enjoyed / have planted", "have enjoyed / have planted", "enjoyed / planted"],
+            correctFeedback: "Excellent! 'Have enjoyed' for the ongoing hobby since moving, while 'planted' for the specific garden in spring.",
+            correctFeedbackRu: "Отлично! 'Have enjoyed' для продолжающегося хобби с момента переезда, а 'planted' для конкретного сада весной.",
+            incorrectFeedback: "Use 'have enjoyed' for the ongoing hobby since moving, and 'planted' for the specific garden in spring.",
+            incorrectFeedbackRu: "Используйте 'have enjoyed' для продолжающегося хобби с переезда, и 'planted' для конкретного сада весной."
+        },
+        {
+            question: "Complete the sentence correctly:",
+            questionRu: "Завершите предложение правильно:",
+            sentence: "My cooking skills ____ dramatically since I started watching cooking shows. I ____ my first complex recipe last month.",
+            correctAnswer: "have improved / attempted",
+            options: ["have improved / attempted", "improved / have attempted", "have improved / have attempted", "improved / attempted"],
+            correctFeedback: "Great! 'Have improved' for the ongoing skill development, while 'attempted' for the specific recipe last month.",
+            correctFeedbackRu: "Отлично! 'Have improved' для продолжающегося развития навыков, а 'attempted' для конкретного рецепта в прошлом месяце.",
+            incorrectFeedback: "Use 'have improved' for the ongoing improvement, and 'attempted' for the specific recipe last month.",
+            incorrectFeedbackRu: "Используйте 'have improved' для продолжающегося улучшения, и 'attempted' для конкретного рецепта в прошлом месяце."
+        },
+        {
+            question: "Fill in the appropriate tense:",
+            questionRu: "Заполните подходящим временем:",
+            sentence: "Photography ____ my main passion since I retired. I ____ my first professional camera two years ago.",
+            correctAnswer: "has become / bought",
+            options: ["has become / bought", "became / have bought", "has become / have bought", "became / bought"],
+            correctFeedback: "Perfect! 'Has become' for the ongoing passion since retirement, while 'bought' for the specific camera purchase.",
+            correctFeedbackRu: "Отлично! 'Has become' для продолжающейся страсти с момента выхода на пенсию, а 'bought' для конкретной покупки камеры.",
+            incorrectFeedback: "Use 'has become' for the ongoing passion since retirement, and 'bought' for the camera purchase two years ago.",
+            incorrectFeedbackRu: "Используйте 'has become' для продолжающейся страсти с пенсии, и 'bought' для покупки камеры два года назад."
+        },
+        {
+            question: "Choose the correct tense:",
+            questionRu: "Выберите правильное время:",
+            sentence: "I ____ several painting workshops this year. I ____ the most inspiring one in October.",
+            correctAnswer: "have attended / attended",
+            options: ["have attended / attended", "attended / have attended", "have attended / have attended", "attended / attended"],
+            correctFeedback: "Excellent! 'Have attended' for this year's workshops, and 'attended' for the specific inspiring one in October.",
+            correctFeedbackRu: "Отлично! 'Have attended' для семинаров этого года, и 'attended' для конкретного вдохновляющего в октябре.",
+            incorrectFeedback: "Use 'have attended' for this year's total workshops, and 'attended' for the specific one in October.",
+            incorrectFeedbackRu: "Используйте 'have attended' для общего количества семинаров за год, и 'attended' для конкретного в октябре."
+        },
+        {
+            question: "Complete with the correct form:",
+            questionRu: "Завершите правильной формой:",
+            sentence: "Podcasts ____ my favorite form of entertainment lately. I ____ listening to them during my morning commute last year.",
+            correctAnswer: "have become / started",
+            options: ["have become / started", "became / have started", "have become / have started", "became / started"],
+            correctFeedback: "Great! 'Have become' for the recent preference, while 'started' for when you began the habit last year.",
+            correctFeedbackRu: "Отлично! 'Have become' для недавнего предпочтения, а 'started' для того, когда вы начали эту привычку в прошлом году.",
+            incorrectFeedback: "Use 'have become' for the recent entertainment preference, and 'started' for when you began last year.",
+            incorrectFeedbackRu: "Используйте 'have become' для недавнего предпочтения в развлечениях, и 'started' для того, когда вы начали в прошлом году."
+        },
+        {
+            question: "Fill in the blank appropriately:",
+            questionRu: "Заполните пропуск подходящим образом:",
+            sentence: "I ____ collecting vintage coins since I was a teenager. My grandfather ____ me my first coin when I turned fifteen.",
+            correctAnswer: "have been / gave",
+            options: ["have been / gave", "was / has given", "have been / has given", "was / gave"],
+            correctFeedback: "Perfect! 'Have been collecting' for the lifelong hobby, while 'gave' for the specific gift when you turned fifteen.",
+            correctFeedbackRu: "Отлично! 'Have been collecting' для пожизненного хобби, а 'gave' для конкретного подарка, когда вам исполнилось пятнадцать.",
+            incorrectFeedback: "Use 'have been' for the ongoing hobby since teenage years, and 'gave' for the specific gift at fifteen.",
+            incorrectFeedbackRu: "Используйте 'have been' для продолжающегося хобби с подросткового возраста, и 'gave' для конкретного подарка в пятнадцать лет."
+        }
+    ]
+};
 /* =============================================================================== */
 /* =========================Sentence Building Exercises=========================== */
+
+/* ============================================
+Page 1: Present Perfect vs Past Simple - Life Experiences and Specific Events
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page1'] = {
+    title: "Present Perfect vs Past Simple - Life Experiences and Specific Events",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "visited", "Paris", "three", "times."],
+            correctAnswer: "I have visited Paris three times.",
+            correctFeedback: "Perfect! 'I have visited Paris three times.' is correct. Great use of Present Perfect for life experience!",
+            correctFeedbackRu: "Отлично! 'I have visited Paris three times.' верно. Прекрасное использование Present Perfect для жизненного опыта!",
+            incorrectFeedback: "Try again. Remember: I + have + past participle + object + number of times.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + причастие прошедшего времени + дополнение + количество раз."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "went", "to", "London", "last", "summer."],
+            correctAnswer: "She went to London last summer.",
+            correctFeedback: "Excellent! 'She went to London last summer.' is correct. Perfect use of Past Simple for a specific time!",
+            correctFeedbackRu: "Отлично! 'She went to London last summer.' верно. Идеальное использование Past Simple для конкретного времени!",
+            incorrectFeedback: "Try again. Remember: She + past verb + to + place + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + to + место + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "been", "to", "Italy?"],
+            correctAnswer: "Have you ever been to Italy?",
+            correctFeedback: "Great! 'Have you ever been to Italy?' is correct. Excellent question about life experience!",
+            correctFeedbackRu: "Отлично! 'Have you ever been to Italy?' верно. Превосходный вопрос о жизненном опыте!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + to + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + to + место + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "bought", "our", "first", "car", "in", "2020."],
+            correctAnswer: "We bought our first car in 2020.",
+            correctFeedback: "Perfect! 'We bought our first car in 2020.' is correct. Great use of Past Simple with a specific year!",
+            correctFeedbackRu: "Отлично! 'We bought our first car in 2020.' верно. Прекрасное использование Past Simple с конкретным годом!",
+            incorrectFeedback: "Try again. Remember: We + past verb + possessive + adjective + object + in + year.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол в прошедшем времени + притяжательное + прилагательное + дополнение + in + год."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "have", "lived", "here", "for", "ten", "years."],
+            correctAnswer: "They have lived here for ten years.",
+            correctFeedback: "Excellent! 'They have lived here for ten years.' is correct. Perfect use of Present Perfect with 'for'!",
+            correctFeedbackRu: "Отлично! 'They have lived here for ten years.' верно. Идеальное использование Present Perfect с 'for'!",
+            incorrectFeedback: "Try again. Remember: They + have + past participle + place + for + time period.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + have + причастие прошедшего времени + место + for + период времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "saw", "that", "movie", "yesterday."],
+            correctAnswer: "I saw that movie yesterday.",
+            correctFeedback: "Great! 'I saw that movie yesterday.' is correct. Excellent use of Past Simple for yesterday!",
+            correctFeedbackRu: "Отлично! 'I saw that movie yesterday.' верно. Превосходное использование Past Simple для вчера!",
+            incorrectFeedback: "Try again. Remember: I + past verb + demonstrative + object + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + указательное местоимение + дополнение + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "sister", "has", "just", "graduated", "from", "university."],
+            correctAnswer: "My sister has just graduated from university.",
+            correctFeedback: "Perfect! 'My sister has just graduated from university.' is correct. Great use of Present Perfect with 'just'!",
+            correctFeedbackRu: "Отлично! 'My sister has just graduated from university.' верно. Прекрасное использование Present Perfect с 'just'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + just + past participle + from + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + just + причастие прошедшего времени + from + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "started", "working", "there", "last", "month."],
+            correctAnswer: "He started working there last month.",
+            correctFeedback: "Excellent! 'He started working there last month.' is correct. Perfect use of Past Simple for last month!",
+            correctFeedbackRu: "Отлично! 'He started working there last month.' верно. Идеальное использование Past Simple для прошлого месяца!",
+            incorrectFeedback: "Try again. Remember: He + past verb + gerund + place + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + глагол в прошедшем времени + герундий + место + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "is", "the", "first", "time", "I", "have", "tried", "sushi."],
+            correctAnswer: "This is the first time I have tried sushi.",
+            correctFeedback: "Great! 'This is the first time I have tried sushi.' is correct. Excellent use of Present Perfect with 'first time'!",
+            correctFeedbackRu: "Отлично! 'This is the first time I have tried sushi.' верно. Превосходное использование Present Perfect с 'first time'!",
+            incorrectFeedback: "Try again. Remember: This + is + the + first + time + I + have + past participle + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + is + the + first + time + I + have + причастие прошедшего времени + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "met", "our", "neighbors", "when", "we", "moved", "in."],
+            correctAnswer: "We met our neighbors when we moved in.",
+            correctFeedback: "Perfect! 'We met our neighbors when we moved in.' is correct. Great use of Past Simple for completed actions!",
+            correctFeedbackRu: "Отлично! 'We met our neighbors when we moved in.' верно. Прекрасное использование Past Simple для завершённых действий!",
+            incorrectFeedback: "Try again. Remember: We + past verb + possessive + object + when + we + past verb + preposition.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол в прошедшем времени + притяжательное + дополнение + when + we + глагол в прошедшем времени + предлог."
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Present Perfect vs Past Simple - Recent Activities and Time References
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page2'] = {
+    title: "Present Perfect vs Past Simple - Recent Activities and Time References",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "already", "finished", "my", "homework."],
+            correctAnswer: "I have already finished my homework.",
+            correctFeedback: "Perfect! 'I have already finished my homework.' is correct. Great use of Present Perfect with 'already'!",
+            correctFeedbackRu: "Отлично! 'I have already finished my homework.' верно. Прекрасное использование Present Perfect с 'already'!",
+            incorrectFeedback: "Try again. Remember: I + have + already + past participle + possessive + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + already + причастие прошедшего времени + притяжательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "called", "me", "two", "hours", "ago."],
+            correctAnswer: "She called me two hours ago.",
+            correctFeedback: "Excellent! 'She called me two hours ago.' is correct. Perfect use of Past Simple with 'ago'!",
+            correctFeedbackRu: "Отлично! 'She called me two hours ago.' верно. Идеальное использование Past Simple с 'ago'!",
+            incorrectFeedback: "Try again. Remember: She + past verb + object + number + time unit + ago.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + дополнение + число + единица времени + ago."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "weather", "has", "been", "terrible", "this", "week."],
+            correctAnswer: "The weather has been terrible this week.",
+            correctFeedback: "Great! 'The weather has been terrible this week.' is correct. Excellent use of Present Perfect with 'this week'!",
+            correctFeedbackRu: "Отлично! 'The weather has been terrible this week.' верно. Превосходное использование Present Perfect с 'this week'!",
+            incorrectFeedback: "Try again. Remember: The + noun + has + been + adjective + this + time period.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + существительное + has + been + прилагательное + this + период времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "went", "to", "the", "gym", "this", "morning."],
+            correctAnswer: "I went to the gym this morning.",
+            correctFeedback: "Perfect! 'I went to the gym this morning.' is correct. Great use of Past Simple for this morning!",
+            correctFeedbackRu: "Отлично! 'I went to the gym this morning.' верно. Прекрасное использование Past Simple для этого утра!",
+            incorrectFeedback: "Try again. Remember: I + past verb + to + the + place + this + time of day.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + to + the + место + this + время дня."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "phone", "hasn't", "worked", "properly", "lately."],
+            correctAnswer: "My phone hasn't worked properly lately.",
+            correctFeedback: "Excellent! 'My phone hasn't worked properly lately.' is correct. Perfect use of Present Perfect negative with 'lately'!",
+            correctFeedbackRu: "Отлично! 'My phone hasn't worked properly lately.' верно. Идеальное использование отрицательного Present Perfect с 'lately'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + hasn't + past participle + adverb + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + hasn't + причастие прошедшего времени + наречие + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "had", "dinner", "at", "seven", "o'clock", "yesterday."],
+            correctAnswer: "We had dinner at seven o'clock yesterday.",
+            correctFeedback: "Great! 'We had dinner at seven o'clock yesterday.' is correct. Excellent use of Past Simple for a specific time!",
+            correctFeedbackRu: "Отлично! 'We had dinner at seven o'clock yesterday.' верно. Превосходное использование Past Simple для конкретного времени!",
+            incorrectFeedback: "Try again. Remember: We + past verb + object + at + time + yesterday.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол в прошедшем времени + дополнение + at + время + yesterday."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Traffic", "has", "been", "heavy", "all", "day", "today."],
+            correctAnswer: "Traffic has been heavy all day today.",
+            correctFeedback: "Perfect! 'Traffic has been heavy all day today.' is correct. Great use of Present Perfect for the ongoing day!",
+            correctFeedbackRu: "Отлично! 'Traffic has been heavy all day today.' верно. Прекрасное использование Present Perfect для продолжающегося дня!",
+            incorrectFeedback: "Try again. Remember: Noun + has + been + adjective + all + time period + today.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + has + been + прилагательное + all + период времени + today."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "bought", "a", "new", "laptop", "last", "Friday."],
+            correctAnswer: "He bought a new laptop last Friday.",
+            correctFeedback: "Excellent! 'He bought a new laptop last Friday.' is correct. Perfect use of Past Simple for last Friday!",
+            correctFeedbackRu: "Отлично! 'He bought a new laptop last Friday.' верно. Идеальное использование Past Simple для прошлой пятницы!",
+            incorrectFeedback: "Try again. Remember: He + past verb + article + adjective + object + last + day.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + глагол в прошедшем времени + артикль + прилагательное + дополнение + last + день."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "haven't", "seen", "John", "since", "last", "Christmas."],
+            correctAnswer: "I haven't seen John since last Christmas.",
+            correctFeedback: "Great! 'I haven't seen John since last Christmas.' is correct. Excellent use of Present Perfect with 'since'!",
+            correctFeedbackRu: "Отлично! 'I haven't seen John since last Christmas.' верно. Превосходное использование Present Perfect с 'since'!",
+            incorrectFeedback: "Try again. Remember: I + haven't + past participle + name + since + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + haven't + причастие прошедшего времени + имя + since + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "company", "announced", "new", "changes", "on", "Monday."],
+            correctAnswer: "The company announced new changes on Monday.",
+            correctFeedback: "Perfect! 'The company announced new changes on Monday.' is correct. Great use of Past Simple for a specific day!",
+            correctFeedbackRu: "Отлично! 'The company announced new changes on Monday.' верно. Прекрасное использование Past Simple для конкретного дня!",
+            incorrectFeedback: "Try again. Remember: The + noun + past verb + adjective + object + on + day.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + существительное + глагол в прошедшем времени + прилагательное + дополнение + on + день."
+        }
+    ]
+};
+
+/* ============================================
+Page 3: Present Perfect vs Past Simple - Achievements and Results
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page3'] = {
+    title: "Present Perfect vs Past Simple - Achievements and Results",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Someone", "has", "stolen", "my", "bicycle!"],
+            correctAnswer: "Someone has stolen my bicycle!",
+            correctFeedback: "Perfect! 'Someone has stolen my bicycle!' is correct. Great use of Present Perfect for a current result!",
+            correctFeedbackRu: "Отлично! 'Someone has stolen my bicycle!' верно. Прекрасное использование Present Perfect для текущего результата!",
+            incorrectFeedback: "Try again. Remember: Someone + has + past participle + possessive + object + !",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Someone + has + причастие прошедшего времени + притяжательное + дополнение + !"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "left", "my", "keys", "on", "the", "kitchen", "table."],
+            correctAnswer: "I left my keys on the kitchen table.",
+            correctFeedback: "Excellent! 'I left my keys on the kitchen table.' is correct. Perfect use of Past Simple for a specific past action!",
+            correctFeedbackRu: "Отлично! 'I left my keys on the kitchen table.' верно. Идеальное использование Past Simple для конкретного прошлого действия!",
+            incorrectFeedback: "Try again. Remember: I + past verb + possessive + object + on + the + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + притяжательное + дополнение + on + the + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "price", "of", "gas", "has", "increased", "dramatically", "this", "year."],
+            correctAnswer: "The price of gas has increased dramatically this year.",
+            correctFeedback: "Great! 'The price of gas has increased dramatically this year.' is correct. Excellent use of Present Perfect for this year!",
+            correctFeedbackRu: "Отлично! 'The price of gas has increased dramatically this year.' верно. Превосходное использование Present Perfect для этого года!",
+            incorrectFeedback: "Try again. Remember: The + noun + of + noun + has + past participle + adverb + this + time period.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + существительное + of + существительное + has + причастие прошедшего времени + наречие + this + период времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "sister", "lost", "weight", "when", "she", "started", "exercising."],
+            correctAnswer: "My sister lost weight when she started exercising.",
+            correctFeedback: "Perfect! 'My sister lost weight when she started exercising.' is correct. Great use of Past Simple for completed actions!",
+            correctFeedbackRu: "Отлично! 'My sister lost weight when she started exercising.' верно. Прекрасное использование Past Simple для завершённых действий!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + past verb + object + when + she + past verb + gerund.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + глагол в прошедшем времени + дополнение + when + she + глагол в прошедшем времени + герундий."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "new", "shopping", "center", "has", "brought", "many", "jobs", "to", "our", "town."],
+            correctAnswer: "The new shopping center has brought many jobs to our town.",
+            correctFeedback: "Excellent! 'The new shopping center has brought many jobs to our town.' is correct. Perfect use of Present Perfect for a continuing benefit!",
+            correctFeedbackRu: "Отлично! 'The new shopping center has brought many jobs to our town.' верно. Идеальное использование Present Perfect для продолжающейся пользы!",
+            incorrectFeedback: "Try again. Remember: The + adjective + noun + noun + has + past participle + adjective + object + to + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + прилагательное + существительное + существительное + has + причастие прошедшего времени + прилагательное + дополнение + to + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["It", "opened", "six", "months", "ago."],
+            correctAnswer: "It opened six months ago.",
+            correctFeedback: "Great! 'It opened six months ago.' is correct. Excellent use of Past Simple with a specific time reference!",
+            correctFeedbackRu: "Отлично! 'It opened six months ago.' верно. Превосходное использование Past Simple с конкретной временной привязкой!",
+            incorrectFeedback: "Try again. Remember: It + past verb + number + time unit + ago.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: It + глагол в прошедшем времени + число + единица времени + ago."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "found", "my", "wallet!", "It", "was", "under", "the", "sofa."],
+            correctAnswer: "I have found my wallet! It was under the sofa.",
+            correctFeedback: "Perfect! 'I have found my wallet! It was under the sofa.' is correct. Great combination of Present Perfect and Past Simple!",
+            correctFeedbackRu: "Отлично! 'I have found my wallet! It was under the sofa.' верно. Прекрасная комбинация Present Perfect и Past Simple!",
+            incorrectFeedback: "Try again. Remember: I + have + past participle + possessive + object + ! + It + was + preposition + the + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + причастие прошедшего времени + притяжательное + дополнение + ! + It + was + предлог + the + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "movie", "has", "become", "very", "popular", "since", "its", "release."],
+            correctAnswer: "This movie has become very popular since its release.",
+            correctFeedback: "Excellent! 'This movie has become very popular since its release.' is correct. Perfect use of Present Perfect with 'since'!",
+            correctFeedbackRu: "Отлично! 'This movie has become very popular since its release.' верно. Идеальное использование Present Perfect с 'since'!",
+            incorrectFeedback: "Try again. Remember: This + noun + has + past participle + adverb + adjective + since + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + существительное + has + причастие прошедшего времени + наречие + прилагательное + since + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["It", "made", "fifty", "million", "dollars", "in", "its", "first", "weekend."],
+            correctAnswer: "It made fifty million dollars in its first weekend.",
+            correctFeedback: "Great! 'It made fifty million dollars in its first weekend.' is correct. Excellent use of Past Simple for a specific time period!",
+            correctFeedbackRu: "Отлично! 'It made fifty million dollars in its first weekend.' верно. Превосходное использование Past Simple для конкретного периода времени!",
+            incorrectFeedback: "Try again. Remember: It + past verb + number + noun + noun + in + possessive + adjective + time period.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: It + глагол в прошедшем времени + число + существительное + существительное + in + притяжательное + прилагательное + период времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Social", "media", "has", "changed", "how", "we", "communicate", "with", "friends."],
+            correctAnswer: "Social media has changed how we communicate with friends.",
+            correctFeedback: "Perfect! 'Social media has changed how we communicate with friends.' is correct. Great use of Present Perfect for ongoing change!",
+            correctFeedbackRu: "Отлично! 'Social media has changed how we communicate with friends.' верно. Прекрасное использование Present Perfect для продолжающегося изменения!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + has + past participle + how + we + verb + with + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + has + причастие прошедшего времени + how + we + глагол + with + дополнение."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Present Perfect vs Past Simple - Work and Career Development
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page4'] = {
+    title: "Present Perfect vs Past Simple - Work and Career Development",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "worked", "for", "this", "company", "for", "five", "years."],
+            correctAnswer: "I have worked for this company for five years.",
+            correctFeedback: "Perfect! 'I have worked for this company for five years.' is correct. Great use of Present Perfect with 'for'!",
+            correctFeedbackRu: "Отлично! 'I have worked for this company for five years.' верно. Прекрасное использование Present Perfect с 'for'!",
+            incorrectFeedback: "Try again. Remember: I + have + past participle + for + this + noun + for + number + time period.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + причастие прошедшего времени + for + this + существительное + for + число + период времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "got", "promoted", "to", "manager", "last", "year."],
+            correctAnswer: "She got promoted to manager last year.",
+            correctFeedback: "Excellent! 'She got promoted to manager last year.' is correct. Perfect use of Past Simple for a specific time!",
+            correctFeedbackRu: "Отлично! 'She got promoted to manager last year.' верно. Идеальное использование Past Simple для конкретного времени!",
+            incorrectFeedback: "Try again. Remember: She + got + past participle + to + position + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + got + причастие прошедшего времени + to + должность + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "boss", "has", "been", "very", "supportive", "recently."],
+            correctAnswer: "My boss has been very supportive recently.",
+            correctFeedback: "Great! 'My boss has been very supportive recently.' is correct. Excellent use of Present Perfect with 'recently'!",
+            correctFeedbackRu: "Отлично! 'My boss has been very supportive recently.' верно. Превосходное использование Present Perfect с 'recently'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + been + adverb + adjective + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + been + наречие + прилагательное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "moved", "to", "a", "new", "office", "building", "in", "March."],
+            correctAnswer: "We moved to a new office building in March.",
+            correctFeedback: "Perfect! 'We moved to a new office building in March.' is correct. Great use of Past Simple for a specific month!",
+            correctFeedbackRu: "Отлично! 'We moved to a new office building in March.' верно. Прекрасное использование Past Simple для конкретного месяца!",
+            incorrectFeedback: "Try again. Remember: We + past verb + to + article + adjective + noun + noun + in + month.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол в прошедшем времени + to + артикль + прилагательное + существительное + существительное + in + месяц."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Remote", "work", "has", "become", "more", "popular", "since", "the", "pandemic."],
+            correctAnswer: "Remote work has become more popular since the pandemic.",
+            correctFeedback: "Excellent! 'Remote work has become more popular since the pandemic.' is correct. Perfect use of Present Perfect with 'since'!",
+            correctFeedbackRu: "Отлично! 'Remote work has become more popular since the pandemic.' верно. Идеальное использование Present Perfect с 'since'!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + has + past participle + more + adjective + since + the + event.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + has + причастие прошедшего времени + more + прилагательное + since + the + событие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "attended", "a", "conference", "in", "Berlin", "last", "month."],
+            correctAnswer: "He attended a conference in Berlin last month.",
+            correctFeedback: "Great! 'He attended a conference in Berlin last month.' is correct. Excellent use of Past Simple for last month!",
+            correctFeedbackRu: "Отлично! 'He attended a conference in Berlin last month.' верно. Превосходное использование Past Simple для прошлого месяца!",
+            incorrectFeedback: "Try again. Remember: He + past verb + article + noun + in + place + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + глагол в прошедшем времени + артикль + существительное + in + место + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "completed", "three", "projects", "this", "month."],
+            correctAnswer: "I have completed three projects this month.",
+            correctFeedback: "Perfect! 'I have completed three projects this month.' is correct. Great use of Present Perfect for this month!",
+            correctFeedbackRu: "Отлично! 'I have completed three projects this month.' верно. Прекрасное использование Present Perfect для этого месяца!",
+            incorrectFeedback: "Try again. Remember: I + have + past participle + number + object + this + time period.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + причастие прошедшего времени + число + дополнение + this + период времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "new", "manager", "introduced", "changes", "on", "his", "first", "day."],
+            correctAnswer: "The new manager introduced changes on his first day.",
+            correctFeedback: "Excellent! 'The new manager introduced changes on his first day.' is correct. Perfect use of Past Simple for a specific day!",
+            correctFeedbackRu: "Отлично! 'The new manager introduced changes on his first day.' верно. Идеальное использование Past Simple для конкретного дня!",
+            incorrectFeedback: "Try again. Remember: The + adjective + noun + past verb + object + on + possessive + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + прилагательное + существительное + глагол в прошедшем времени + дополнение + on + притяжательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "salary", "has", "increased", "twice", "since", "I", "started", "here."],
+            correctAnswer: "My salary has increased twice since I started here.",
+            correctFeedback: "Great! 'My salary has increased twice since I started here.' is correct. Excellent use of Present Perfect with 'since'!",
+            correctFeedbackRu: "Отлично! 'My salary has increased twice since I started here.' верно. Превосходное использование Present Perfect с 'since'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + past participle + frequency + since + I + past verb + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + причастие прошедшего времени + частота + since + I + глагол в прошедшем времени + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "learned", "new", "software", "skills", "during", "the", "training", "course."],
+            correctAnswer: "She learned new software skills during the training course.",
+            correctFeedback: "Perfect! 'She learned new software skills during the training course.' is correct. Great use of Past Simple for a completed course!",
+            correctFeedbackRu: "Отлично! 'She learned new software skills during the training course.' верно. Прекрасное использование Past Simple для завершённого курса!",
+            incorrectFeedback: "Try again. Remember: She + past verb + adjective + noun + object + during + the + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + прилагательное + существительное + дополнение + during + the + существительное + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Present Perfect vs Past Simple - Travel and Cultural Experiences
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page5'] = {
+    title: "Present Perfect vs Past Simple - Travel and Cultural Experiences",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "traveled", "to", "many", "countries", "in", "my", "life."],
+            correctAnswer: "I have traveled to many countries in my life.",
+            correctFeedback: "Perfect! 'I have traveled to many countries in my life.' is correct. Great use of Present Perfect for life experience!",
+            correctFeedbackRu: "Отлично! 'I have traveled to many countries in my life.' верно. Прекрасное использование Present Perfect для жизненного опыта!",
+            incorrectFeedback: "Try again. Remember: I + have + past participle + to + adjective + object + in + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + причастие прошедшего времени + to + прилагательное + дополнение + in + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "visited", "the", "Eiffel", "Tower", "during", "our", "trip", "to", "Paris."],
+            correctAnswer: "We visited the Eiffel Tower during our trip to Paris.",
+            correctFeedback: "Excellent! 'We visited the Eiffel Tower during our trip to Paris.' is correct. Perfect use of Past Simple for a completed trip!",
+            correctFeedbackRu: "Отлично! 'We visited the Eiffel Tower during our trip to Paris.' верно. Идеальное использование Past Simple для завершённой поездки!",
+            incorrectFeedback: "Try again. Remember: We + past verb + the + proper noun + during + possessive + noun + to + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол в прошедшем времени + the + имя собственное + during + притяжательное + существительное + to + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "passport", "has", "expired,", "so", "I", "can't", "travel", "abroad."],
+            correctAnswer: "My passport has expired, so I can't travel abroad.",
+            correctFeedback: "Great! 'My passport has expired, so I can't travel abroad.' is correct. Excellent use of Present Perfect for current situation!",
+            correctFeedbackRu: "Отлично! 'My passport has expired, so I can't travel abroad.' верно. Превосходное использование Present Perfect для текущей ситуации!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + past participle + , + so + I + can't + verb + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + причастие прошедшего времени + , + so + I + can't + глагол + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "tried", "delicious", "local", "food", "at", "the", "night", "market."],
+            correctAnswer: "We tried delicious local food at the night market.",
+            correctFeedback: "Perfect! 'We tried delicious local food at the night market.' is correct. Great use of Past Simple for a specific experience!",
+            correctFeedbackRu: "Отлично! 'We tried delicious local food at the night market.' верно. Прекрасное использование Past Simple для конкретного опыта!",
+            incorrectFeedback: "Try again. Remember: We + past verb + adjective + adjective + object + at + the + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол в прошедшем времени + прилагательное + прилагательное + дополнение + at + the + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Adventure", "tourism", "has", "grown", "in", "popularity", "recently."],
+            correctAnswer: "Adventure tourism has grown in popularity recently.",
+            correctFeedback: "Excellent! 'Adventure tourism has grown in popularity recently.' is correct. Perfect use of Present Perfect with 'recently'!",
+            correctFeedbackRu: "Отлично! 'Adventure tourism has grown in popularity recently.' верно. Идеальное использование Present Perfect с 'recently'!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + has + past participle + in + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + has + причастие прошедшего времени + in + существительное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "booked", "my", "flight", "tickets", "online", "yesterday."],
+            correctAnswer: "I booked my flight tickets online yesterday.",
+            correctFeedback: "Great! 'I booked my flight tickets online yesterday.' is correct. Excellent use of Past Simple for yesterday!",
+            correctFeedbackRu: "Отлично! 'I booked my flight tickets online yesterday.' верно. Превосходное использование Past Simple для вчера!",
+            incorrectFeedback: "Try again. Remember: I + past verb + possessive + noun + object + adverb + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + притяжательное + существительное + дополнение + наречие + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Hotel", "prices", "have", "become", "more", "expensive", "lately."],
+            correctAnswer: "Hotel prices have become more expensive lately.",
+            correctFeedback: "Perfect! 'Hotel prices have become more expensive lately.' is correct. Great use of Present Perfect with 'lately'!",
+            correctFeedbackRu: "Отлично! 'Hotel prices have become more expensive lately.' верно. Прекрасное использование Present Perfect с 'lately'!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have + past participle + more + adjective + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have + причастие прошедшего времени + more + прилагательное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "went", "backpacking", "through", "Southeast", "Asia", "after", "graduation."],
+            correctAnswer: "She went backpacking through Southeast Asia after graduation.",
+            correctFeedback: "Excellent! 'She went backpacking through Southeast Asia after graduation.' is correct. Perfect use of Past Simple for a completed journey!",
+            correctFeedbackRu: "Отлично! 'She went backpacking through Southeast Asia after graduation.' верно. Идеальное использование Past Simple для завершённого путешествия!",
+            incorrectFeedback: "Try again. Remember: She + past verb + gerund + through + proper noun + after + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + герундий + through + имя собственное + after + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "collected", "souvenirs", "from", "every", "country", "I've", "visited."],
+            correctAnswer: "I have collected souvenirs from every country I've visited.",
+            correctFeedback: "Great! 'I have collected souvenirs from every country I've visited.' is correct. Excellent use of Present Perfect for ongoing collection!",
+            correctFeedbackRu: "Отлично! 'I have collected souvenirs from every country I've visited.' верно. Превосходное использование Present Perfect для продолжающейся коллекции!",
+            incorrectFeedback: "Try again. Remember: I + have + past participle + object + from + adjective + noun + relative clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + причастие прошедшего времени + дополнение + from + прилагательное + существительное + относительное предложение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "travel", "agency", "offered", "us", "a", "great", "deal", "last", "week."],
+            correctAnswer: "The travel agency offered us a great deal last week.",
+            correctFeedback: "Perfect! 'The travel agency offered us a great deal last week.' is correct. Great use of Past Simple for last week!",
+            correctFeedbackRu: "Отлично! 'The travel agency offered us a great deal last week.' верно. Прекрасное использование Past Simple для прошлой недели!",
+            incorrectFeedback: "Try again. Remember: The + noun + noun + past verb + object + article + adjective + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + существительное + существительное + глагол в прошедшем времени + дополнение + артикль + прилагательное + существительное + временная привязка."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Present Perfect vs Past Simple - Technology and Modern Life 
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page6'] = {
+    title: "Present Perfect vs Past Simple - Technology and Modern Life",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Smartphones", "have", "changed", "the", "way", "we", "communicate."],
+            correctAnswer: "Smartphones have changed the way we communicate.",
+            correctFeedback: "Perfect! 'Smartphones have changed the way we communicate.' is correct. Great use of Present Perfect for ongoing change!",
+            correctFeedbackRu: "Отлично! 'Smartphones have changed the way we communicate.' верно. Прекрасное использование Present Perfect для продолжающегося изменения!",
+            incorrectFeedback: "Try again. Remember: Noun + have + past participle + the + noun + we + verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + have + причастие прошедшего времени + the + существительное + we + глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "bought", "my", "first", "smartphone", "in", "2015."],
+            correctAnswer: "I bought my first smartphone in 2015.",
+            correctFeedback: "Excellent! 'I bought my first smartphone in 2015.' is correct. Perfect use of Past Simple for a specific year!",
+            correctFeedbackRu: "Отлично! 'I bought my first smartphone in 2015.' верно. Идеальное использование Past Simple для конкретного года!",
+            incorrectFeedback: "Try again. Remember: I + past verb + possessive + adjective + object + in + year.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + притяжательное + прилагательное + дополнение + in + год."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Online", "shopping", "has", "become", "extremely", "popular", "recently."],
+            correctAnswer: "Online shopping has become extremely popular recently.",
+            correctFeedback: "Great! 'Online shopping has become extremely popular recently.' is correct. Excellent use of Present Perfect with 'recently'!",
+            correctFeedbackRu: "Отлично! 'Online shopping has become extremely popular recently.' верно. Превосходное использование Present Perfect с 'recently'!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + has + past participle + adverb + adjective + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + has + причастие прошедшего времени + наречие + прилагательное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "downloaded", "ten", "new", "apps", "on", "her", "phone", "yesterday."],
+            correctAnswer: "She downloaded ten new apps on her phone yesterday.",
+            correctFeedback: "Perfect! 'She downloaded ten new apps on her phone yesterday.' is correct. Great use of Past Simple for yesterday!",
+            correctFeedbackRu: "Отлично! 'She downloaded ten new apps on her phone yesterday.' верно. Прекрасное использование Past Simple для вчера!",
+            incorrectFeedback: "Try again. Remember: She + past verb + number + adjective + object + on + possessive + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + число + прилагательное + дополнение + on + притяжательное + существительное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Video", "calls", "have", "replaced", "many", "face-to-face", "meetings."],
+            correctAnswer: "Video calls have replaced many face-to-face meetings.",
+            correctFeedback: "Excellent! 'Video calls have replaced many face-to-face meetings.' is correct. Perfect use of Present Perfect for ongoing replacement!",
+            correctFeedbackRu: "Отлично! 'Video calls have replaced many face-to-face meetings.' верно. Идеальное использование Present Perfect для продолжающейся замены!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have + past participle + adjective + compound adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have + причастие прошедшего времени + прилагательное + составное прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "laptop", "crashed", "during", "an", "important", "presentation", "last", "week."],
+            correctAnswer: "My laptop crashed during an important presentation last week.",
+            correctFeedback: "Great! 'My laptop crashed during an important presentation last week.' is correct. Excellent use of Past Simple for last week!",
+            correctFeedbackRu: "Отлично! 'My laptop crashed during an important presentation last week.' верно. Превосходное использование Past Simple для прошлой недели!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + past verb + during + article + adjective + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + глагол в прошедшем времени + during + артикль + прилагательное + существительное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Social", "media", "platforms", "have", "evolved", "significantly", "over", "the", "years."],
+            correctAnswer: "Social media platforms have evolved significantly over the years.",
+            correctFeedback: "Perfect! 'Social media platforms have evolved significantly over the years.' is correct. Great use of Present Perfect for evolution over time!",
+            correctFeedbackRu: "Отлично! 'Social media platforms have evolved significantly over the years.' верно. Прекрасное использование Present Perfect для эволюции со временем!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + noun + have + past participle + adverb + over + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + существительное + have + причастие прошедшего времени + наречие + over + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "started", "learning", "coding", "when", "he", "was", "in", "college."],
+            correctAnswer: "He started learning coding when he was in college.",
+            correctFeedback: "Excellent! 'He started learning coding when he was in college.' is correct. Perfect use of Past Simple for a specific period!",
+            correctFeedbackRu: "Отлично! 'He started learning coding when he was in college.' верно. Идеальное использование Past Simple для конкретного периода!",
+            incorrectFeedback: "Try again. Remember: He + past verb + gerund + object + when + he + was + in + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + глагол в прошедшем времени + герундий + дополнение + when + he + was + in + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Cloud", "storage", "has", "made", "file", "sharing", "much", "easier."],
+            correctAnswer: "Cloud storage has made file sharing much easier.",
+            correctFeedback: "Great! 'Cloud storage has made file sharing much easier.' is correct. Excellent use of Present Perfect for ongoing improvement!",
+            correctFeedbackRu: "Отлично! 'Cloud storage has made file sharing much easier.' верно. Превосходное использование Present Perfect для продолжающегося улучшения!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + has + past participle + noun + gerund + adverb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + has + причастие прошедшего времени + существительное + герундий + наречие + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "used", "to", "send", "letters", "before", "email", "was", "invented."],
+            correctAnswer: "We used to send letters before email was invented.",
+            correctFeedback: "Perfect! 'We used to send letters before email was invented.' is correct. Great use of Past Simple for old habits and inventions!",
+            correctFeedbackRu: "Отлично! 'We used to send letters before email was invented.' верно. Прекрасное использование Past Simple для старых привычек и изобретений!",
+            incorrectFeedback: "Try again. Remember: We + used to + verb + object + before + noun + was + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + used to + глагол + дополнение + before + существительное + was + причастие прошедшего времени."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Present Perfect vs Past Simple - Health and Personal Development
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page7'] = {
+    title: "Present Perfect vs Past Simple - Health and Personal Development",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "been", "exercising", "regularly", "for", "six", "months."],
+            correctAnswer: "I have been exercising regularly for six months.",
+            correctFeedback: "Perfect! 'I have been exercising regularly for six months.' is correct. Great use of Present Perfect Continuous with 'for'!",
+            correctFeedbackRu: "Отлично! 'I have been exercising regularly for six months.' верно. Прекрасное использование Present Perfect Continuous с 'for'!",
+            incorrectFeedback: "Try again. Remember: I + have + been + gerund + adverb + for + number + time period.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + been + герундий + наречие + for + число + период времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "started", "her", "fitness", "journey", "last", "January."],
+            correctAnswer: "She started her fitness journey last January.",
+            correctFeedback: "Excellent! 'She started her fitness journey last January.' is correct. Perfect use of Past Simple for a specific month!",
+            correctFeedbackRu: "Отлично! 'She started her fitness journey last January.' верно. Идеальное использование Past Simple для конкретного месяца!",
+            incorrectFeedback: "Try again. Remember: She + past verb + possessive + noun + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + притяжательное + существительное + существительное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "energy", "levels", "have", "improved", "dramatically", "since", "I", "changed", "my", "diet."],
+            correctAnswer: "My energy levels have improved dramatically since I changed my diet.",
+            correctFeedback: "Great! 'My energy levels have improved dramatically since I changed my diet.' is correct. Excellent use of Present Perfect with 'since'!",
+            correctFeedbackRu: "Отлично! 'My energy levels have improved dramatically since I changed my diet.' верно. Превосходное использование Present Perfect с 'since'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + noun + have + past participle + adverb + since + I + past verb + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + существительное + have + причастие прошедшего времени + наречие + since + I + глагол в прошедшем времени + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "quit", "smoking", "two", "years", "ago."],
+            correctAnswer: "I quit smoking two years ago.",
+            correctFeedback: "Perfect! 'I quit smoking two years ago.' is correct. Great use of Past Simple with 'ago'!",
+            correctFeedbackRu: "Отлично! 'I quit smoking two years ago.' верно. Прекрасное использование Past Simple с 'ago'!",
+            incorrectFeedback: "Try again. Remember: I + past verb + gerund + number + time unit + ago.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + герундий + число + единица времени + ago."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "doctor", "has", "recommended", "meditation", "for", "stress", "relief."],
+            correctAnswer: "My doctor has recommended meditation for stress relief.",
+            correctFeedback: "Excellent! 'My doctor has recommended meditation for stress relief.' is correct. Perfect use of Present Perfect for recent advice!",
+            correctFeedbackRu: "Отлично! 'My doctor has recommended meditation for stress relief.' верно. Идеальное использование Present Perfect для недавнего совета!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + past participle + object + for + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + причастие прошедшего времени + дополнение + for + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "lost", "fifteen", "pounds", "during", "his", "summer", "training."],
+            correctAnswer: "He lost fifteen pounds during his summer training.",
+            correctFeedback: "Great! 'He lost fifteen pounds during his summer training.' is correct. Excellent use of Past Simple for a completed period!",
+            correctFeedbackRu: "Отлично! 'He lost fifteen pounds during his summer training.' верно. Превосходное использование Past Simple для завершённого периода!",
+            incorrectFeedback: "Try again. Remember: He + past verb + number + noun + during + possessive + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + глагол в прошедшем времени + число + существительное + during + притяжательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Sleep", "quality", "has", "become", "a", "major", "health", "concern", "recently."],
+            correctAnswer: "Sleep quality has become a major health concern recently.",
+            correctFeedback: "Perfect! 'Sleep quality has become a major health concern recently.' is correct. Great use of Present Perfect with 'recently'!",
+            correctFeedbackRu: "Отлично! 'Sleep quality has become a major health concern recently.' верно. Прекрасное использование Present Perfect с 'recently'!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + has + past participle + article + adjective + noun + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + has + причастие прошедшего времени + артикль + прилагательное + существительное + существительное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "joined", "a", "yoga", "class", "three", "months", "ago."],
+            correctAnswer: "I joined a yoga class three months ago.",
+            correctFeedback: "Excellent! 'I joined a yoga class three months ago.' is correct. Perfect use of Past Simple with a specific time reference!",
+            correctFeedbackRu: "Отлично! 'I joined a yoga class three months ago.' верно. Идеальное использование Past Simple с конкретной временной привязкой!",
+            incorrectFeedback: "Try again. Remember: I + past verb + article + noun + noun + number + time unit + ago.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + артикль + существительное + существительное + число + единица времени + ago."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Mental", "health", "awareness", "has", "increased", "significantly", "in", "recent", "years."],
+            correctAnswer: "Mental health awareness has increased significantly in recent years.",
+            correctFeedback: "Great! 'Mental health awareness has increased significantly in recent years.' is correct. Excellent use of Present Perfect for ongoing change!",
+            correctFeedbackRu: "Отлично! 'Mental health awareness has increased significantly in recent years.' верно. Превосходное использование Present Perfect для продолжающегося изменения!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + noun + has + past participle + adverb + in + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + существительное + has + причастие прошедшего времени + наречие + in + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "completed", "her", "first", "marathon", "last", "October."],
+            correctAnswer: "She completed her first marathon last October.",
+            correctFeedback: "Perfect! 'She completed her first marathon last October.' is correct. Great use of Past Simple for a specific achievement!",
+            correctFeedbackRu: "Отлично! 'She completed her first marathon last October.' верно. Прекрасное использование Past Simple для конкретного достижения!",
+            incorrectFeedback: "Try again. Remember: She + past verb + possessive + adjective + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + притяжательное + прилагательное + существительное + временная привязка."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Present Perfect vs Past Simple - Education and Learning Experiences
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page8'] = {
+    title: "Present Perfect vs Past Simple - Education and Learning Experiences",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "been", "studying", "German", "for", "two", "years", "now."],
+            correctAnswer: "I have been studying German for two years now.",
+            correctFeedback: "Perfect! 'I have been studying German for two years now.' is correct. Great use of Present Perfect Continuous with 'for'!",
+            correctFeedbackRu: "Отлично! 'I have been studying German for two years now.' верно. Прекрасное использование Present Perfect Continuous с 'for'!",
+            incorrectFeedback: "Try again. Remember: I + have + been + gerund + object + for + number + time period + now.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + been + герундий + дополнение + for + число + период времени + now."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "daughter", "graduated", "from", "high", "school", "in", "June."],
+            correctAnswer: "My daughter graduated from high school in June.",
+            correctFeedback: "Excellent! 'My daughter graduated from high school in June.' is correct. Perfect use of Past Simple for a specific month!",
+            correctFeedbackRu: "Отлично! 'My daughter graduated from high school in June.' верно. Идеальное использование Past Simple для конкретного месяца!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + past verb + from + adjective + noun + in + month.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + глагол в прошедшем времени + from + прилагательное + существительное + in + месяц."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Online", "education", "has", "transformed", "how", "students", "learn."],
+            correctAnswer: "Online education has transformed how students learn.",
+            correctFeedback: "Great! 'Online education has transformed how students learn.' is correct. Excellent use of Present Perfect for ongoing transformation!",
+            correctFeedbackRu: "Отлично! 'Online education has transformed how students learn.' верно. Превосходное использование Present Perfect для продолжающейся трансформации!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + has + past participle + how + noun + verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + has + причастие прошедшего времени + how + существительное + глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "earned", "his", "master's", "degree", "while", "working", "full-time."],
+            correctAnswer: "He earned his master's degree while working full-time.",
+            correctFeedback: "Perfect! 'He earned his master's degree while working full-time.' is correct. Great use of Past Simple for a completed achievement!",
+            correctFeedbackRu: "Отлично! 'He earned his master's degree while working full-time.' верно. Прекрасное использование Past Simple для завершённого достижения!",
+            incorrectFeedback: "Try again. Remember: He + past verb + possessive + noun + noun + while + gerund + compound adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + глагол в прошедшем времени + притяжательное + существительное + существительное + while + герундий + составное прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "writing", "skills", "have", "improved", "since", "I", "started", "blogging."],
+            correctAnswer: "My writing skills have improved since I started blogging.",
+            correctFeedback: "Excellent! 'My writing skills have improved since I started blogging.' is correct. Perfect use of Present Perfect with 'since'!",
+            correctFeedbackRu: "Отлично! 'My writing skills have improved since I started blogging.' верно. Идеальное использование Present Perfect с 'since'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + noun + have + past participle + since + I + past verb + gerund.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + существительное + have + причастие прошедшего времени + since + I + глагол в прошедшем времени + герундий."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "won", "a", "scholarship", "to", "study", "abroad", "last", "year."],
+            correctAnswer: "She won a scholarship to study abroad last year.",
+            correctFeedback: "Great! 'She won a scholarship to study abroad last year.' is correct. Excellent use of Past Simple for last year!",
+            correctFeedbackRu: "Отлично! 'She won a scholarship to study abroad last year.' верно. Превосходное использование Past Simple для прошлого года!",
+            incorrectFeedback: "Try again. Remember: She + past verb + article + noun + to + verb + adverb + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + артикль + существительное + to + глагол + наречие + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "taken", "several", "professional", "courses", "this", "year."],
+            correctAnswer: "I have taken several professional courses this year.",
+            correctFeedback: "Perfect! 'I have taken several professional courses this year.' is correct. Great use of Present Perfect for this year!",
+            correctFeedbackRu: "Отлично! 'I have taken several professional courses this year.' верно. Прекрасное использование Present Perfect для этого года!",
+            incorrectFeedback: "Try again. Remember: I + have + past participle + adjective + adjective + object + this + time period.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + причастие прошедшего времени + прилагательное + прилагательное + дополнение + this + период времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "professor", "explained", "the", "concept", "clearly", "during", "yesterday's", "lecture."],
+            correctAnswer: "The professor explained the concept clearly during yesterday's lecture.",
+            correctFeedback: "Excellent! 'The professor explained the concept clearly during yesterday's lecture.' is correct. Perfect use of Past Simple for yesterday!",
+            correctFeedbackRu: "Отлично! 'The professor explained the concept clearly during yesterday's lecture.' верно. Идеальное использование Past Simple для вчера!",
+            incorrectFeedback: "Try again. Remember: The + noun + past verb + the + object + adverb + during + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + существительное + глагол в прошедшем времени + the + дополнение + наречие + during + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Educational", "technology", "has", "made", "learning", "more", "accessible", "worldwide."],
+            correctAnswer: "Educational technology has made learning more accessible worldwide.",
+            correctFeedback: "Great! 'Educational technology has made learning more accessible worldwide.' is correct. Excellent use of Present Perfect for ongoing impact!",
+            correctFeedbackRu: "Отлично! 'Educational technology has made learning more accessible worldwide.' верно. Превосходное использование Present Perfect для продолжающегося воздействия!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + has + past participle + object + more + adjective + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + has + причастие прошедшего времени + дополнение + more + прилагательное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "son", "learned", "to", "read", "when", "he", "was", "five", "years", "old."],
+            correctAnswer: "My son learned to read when he was five years old.",
+            correctFeedback: "Perfect! 'My son learned to read when he was five years old.' is correct. Great use of Past Simple for a specific age!",
+            correctFeedbackRu: "Отлично! 'My son learned to read when he was five years old.' верно. Прекрасное использование Past Simple для конкретного возраста!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + past verb + to + verb + when + he + was + number + noun + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + глагол в прошедшем времени + to + глагол + when + he + was + число + существительное + прилагательное."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Present Perfect vs Past Simple - Sentence Building - Family and Social Relationships
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page9'] = {
+    title: "Present Perfect vs Past Simple - Family and Social Relationships",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "parents", "have", "been", "married", "for", "thirty", "years."],
+            correctAnswer: "My parents have been married for thirty years.",
+            correctFeedback: "Perfect! 'My parents have been married for thirty years.' is correct. Great use of Present Perfect with 'for' to show continuing relationship!",
+            correctFeedbackRu: "Отлично! 'My parents have been married for thirty years.' верно. Прекрасное использование Present Perfect с 'for' для показа продолжающихся отношений!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + have + been + past participle + for + number + time period.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + have + been + причастие прошедшего времени + for + число + период времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "met", "my", "best", "friend", "in", "elementary", "school."],
+            correctAnswer: "I met my best friend in elementary school.",
+            correctFeedback: "Excellent! 'I met my best friend in elementary school.' is correct. Perfect use of Past Simple for when the friendship began!",
+            correctFeedbackRu: "Отлично! 'I met my best friend in elementary school.' верно. Идеальное использование Past Simple для начала дружбы!",
+            incorrectFeedback: "Try again. Remember: I + past verb + possessive + adjective + noun + in + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + притяжательное + прилагательное + существительное + in + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "stayed", "in", "touch", "since", "high", "school."],
+            correctAnswer: "We have stayed in touch since high school.",
+            correctFeedback: "Great! 'We have stayed in touch since high school.' is correct. Excellent use of Present Perfect with 'since' for continuing friendship!",
+            correctFeedbackRu: "Отлично! 'We have stayed in touch since high school.' верно. Превосходное использование Present Perfect с 'since' для продолжающейся дружбы!",
+            incorrectFeedback: "Try again. Remember: We + have + past participle + in + noun + since + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + причастие прошедшего времени + in + существительное + since + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "brother", "got", "engaged", "to", "his", "girlfriend", "last", "Christmas."],
+            correctAnswer: "My brother got engaged to his girlfriend last Christmas.",
+            correctFeedback: "Perfect! 'My brother got engaged to his girlfriend last Christmas.' is correct. Great use of Past Simple for a specific holiday!",
+            correctFeedbackRu: "Отлично! 'My brother got engaged to his girlfriend last Christmas.' верно. Прекрасное использование Past Simple для конкретного праздника!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + got + past participle + to + possessive + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + got + причастие прошедшего времени + to + притяжательное + существительное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Family", "traditions", "have", "become", "very", "important", "to", "me", "recently."],
+            correctAnswer: "Family traditions have become very important to me recently.",
+            correctFeedback: "Excellent! 'Family traditions have become very important to me recently.' is correct. Perfect use of Present Perfect with 'recently'!",
+            correctFeedbackRu: "Отлично! 'Family traditions have become very important to me recently.' верно. Идеальное использование Present Perfect с 'recently'!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have + past participle + adverb + adjective + to + pronoun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have + причастие прошедшего времени + наречие + прилагательное + to + местоимение + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "moved", "in", "with", "her", "partner", "six", "months", "ago."],
+            correctAnswer: "She moved in with her partner six months ago.",
+            correctFeedback: "Great! 'She moved in with her partner six months ago.' is correct. Excellent use of Past Simple with 'ago'!",
+            correctFeedbackRu: "Отлично! 'She moved in with her partner six months ago.' верно. Превосходное использование Past Simple с 'ago'!",
+            incorrectFeedback: "Try again. Remember: She + past verb + preposition + with + possessive + noun + number + time unit + ago.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + предлог + with + притяжательное + существительное + число + единица времени + ago."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "grown", "much", "closer", "to", "my", "siblings", "over", "the", "years."],
+            correctAnswer: "I have grown much closer to my siblings over the years.",
+            correctFeedback: "Perfect! 'I have grown much closer to my siblings over the years.' is correct. Great use of Present Perfect for gradual change!",
+            correctFeedbackRu: "Отлично! 'I have grown much closer to my siblings over the years.' верно. Прекрасное использование Present Perfect для постепенного изменения!",
+            incorrectFeedback: "Try again. Remember: I + have + past participle + adverb + adjective + to + possessive + noun + over + the + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + причастие прошедшего времени + наречие + прилагательное + to + притяжательное + существительное + over + the + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "grandmother", "told", "me", "stories", "about", "her", "childhood", "every", "evening."],
+            correctAnswer: "My grandmother told me stories about her childhood every evening.",
+            correctFeedback: "Excellent! 'My grandmother told me stories about her childhood every evening.' is correct. Perfect use of Past Simple for repeated past actions!",
+            correctFeedbackRu: "Отлично! 'My grandmother told me stories about her childhood every evening.' верно. Идеальное использование Past Simple для повторяющихся прошлых действий!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + past verb + pronoun + object + about + possessive + noun + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + глагол в прошедшем времени + местоимение + дополнение + about + притяжательное + существительное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Social", "media", "has", "changed", "how", "families", "communicate", "with", "each", "other."],
+            correctAnswer: "Social media has changed how families communicate with each other.",
+            correctFeedback: "Great! 'Social media has changed how families communicate with each other.' is correct. Excellent use of Present Perfect for ongoing transformation!",
+            correctFeedbackRu: "Отлично! 'Social media has changed how families communicate with each other.' верно. Превосходное использование Present Perfect для продолжающейся трансформации!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + has + past participle + how + noun + verb + with + each other.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + has + причастие прошедшего времени + how + существительное + глагол + with + each other."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "celebrated", "our", "anniversary", "at", "the", "restaurant", "where", "we", "first", "met."],
+            correctAnswer: "We celebrated our anniversary at the restaurant where we first met.",
+            correctFeedback: "Perfect! 'We celebrated our anniversary at the restaurant where we first met.' is correct. Great use of Past Simple for a completed celebration!",
+            correctFeedbackRu: "Отлично! 'We celebrated our anniversary at the restaurant where we first met.' верно. Прекрасное использование Past Simple для завершённого празднования!",
+            incorrectFeedback: "Try again. Remember: We + past verb + possessive + noun + at + the + noun + where + we + adverb + past verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол в прошедшем времени + притяжательное + существительное + at + the + существительное + where + we + наречие + глагол в прошедшем времени."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Present Perfect vs Past Simple - Sentence Building - Entertainment and Cultural Activities
+============================================ */
+window.grammarExercises['tenses']['present-perfect-vs-past-simple-sentence-page10'] = {
+    title: "Present Perfect vs Past Simple - Entertainment and Cultural Activities",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "been", "playing", "piano", "since", "I", "was", "seven."],
+            correctAnswer: "I have been playing piano since I was seven.",
+            correctFeedback: "Perfect! 'I have been playing piano since I was seven.' is correct. Great use of Present Perfect Continuous with 'since'!",
+            correctFeedbackRu: "Отлично! 'I have been playing piano since I was seven.' верно. Прекрасное использование Present Perfect Continuous с 'since'!",
+            incorrectFeedback: "Try again. Remember: I + have + been + gerund + object + since + I + was + number.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + been + герундий + дополнение + since + I + was + число."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "went", "to", "a", "concert", "at", "the", "opera", "house", "last", "weekend."],
+            correctAnswer: "We went to a concert at the opera house last weekend.",
+            correctFeedback: "Excellent! 'We went to a concert at the opera house last weekend.' is correct. Perfect use of Past Simple for last weekend!",
+            correctFeedbackRu: "Отлично! 'We went to a concert at the opera house last weekend.' верно. Идеальное использование Past Simple для прошлых выходных!",
+            incorrectFeedback: "Try again. Remember: We + past verb + to + article + noun + at + the + noun + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол в прошедшем времени + to + артикль + существительное + at + the + существительное + существительное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Streaming", "services", "have", "revolutionized", "the", "entertainment", "industry."],
+            correctAnswer: "Streaming services have revolutionized the entertainment industry.",
+            correctFeedback: "Great! 'Streaming services have revolutionized the entertainment industry.' is correct. Excellent use of Present Perfect for ongoing transformation!",
+            correctFeedbackRu: "Отлично! 'Streaming services have revolutionized the entertainment industry.' верно. Превосходное использование Present Perfect для продолжающейся трансформации!",
+            incorrectFeedback: "Try again. Remember: Gerund + noun + have + past participle + the + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Герундий + существительное + have + причастие прошедшего времени + the + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "started", "collecting", "vintage", "records", "when", "she", "was", "a", "teenager."],
+            correctAnswer: "She started collecting vintage records when she was a teenager.",
+            correctFeedback: "Perfect! 'She started collecting vintage records when she was a teenager.' is correct. Great use of Past Simple for when the hobby began!",
+            correctFeedbackRu: "Отлично! 'She started collecting vintage records when she was a teenager.' верно. Прекрасное использование Past Simple для начала хобби!",
+            incorrectFeedback: "Try again. Remember: She + past verb + gerund + adjective + object + when + she + was + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + глагол в прошедшем времени + герундий + прилагательное + дополнение + when + she + was + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Board", "games", "have", "become", "popular", "among", "adults", "recently."],
+            correctAnswer: "Board games have become popular among adults recently.",
+            correctFeedback: "Excellent! 'Board games have become popular among adults recently.' is correct. Perfect use of Present Perfect with 'recently'!",
+            correctFeedbackRu: "Отлично! 'Board games have become popular among adults recently.' верно. Идеальное использование Present Perfect с 'recently'!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have + past participle + adjective + among + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have + причастие прошедшего времени + прилагательное + among + существительное + временная привязка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "read", "fifteen", "books", "during", "my", "summer", "vacation."],
+            correctAnswer: "I read fifteen books during my summer vacation.",
+            correctFeedback: "Great! 'I read fifteen books during my summer vacation.' is correct. Excellent use of Past Simple for a completed vacation period!",
+            correctFeedbackRu: "Отлично! 'I read fifteen books during my summer vacation.' верно. Превосходное использование Past Simple для завершённого периода отпуска!",
+            incorrectFeedback: "Try again. Remember: I + past verb + number + object + during + possessive + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + число + дополнение + during + притяжательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "cooking", "skills", "have", "improved", "since", "I", "started", "watching", "cooking", "shows."],
+            correctAnswer: "My cooking skills have improved since I started watching cooking shows.",
+            correctFeedback: "Perfect! 'My cooking skills have improved since I started watching cooking shows.' is correct. Great use of Present Perfect with 'since'!",
+            correctFeedbackRu: "Отлично! 'My cooking skills have improved since I started watching cooking shows.' верно. Прекрасное использование Present Perfect с 'since'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + noun + have + past participle + since + I + past verb + gerund + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + существительное + have + причастие прошедшего времени + since + I + глагол в прошедшем времени + герундий + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "performed", "in", "his", "first", "theater", "production", "in", "high", "school."],
+            correctAnswer: "He performed in his first theater production in high school.",
+            correctFeedback: "Excellent! 'He performed in his first theater production in high school.' is correct. Perfect use of Past Simple for a school period!",
+            correctFeedbackRu: "Отлично! 'He performed in his first theater production in high school.' верно. Идеальное использование Past Simple для школьного периода!",
+            incorrectFeedback: "Try again. Remember: He + past verb + in + possessive + adjective + noun + noun + in + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + глагол в прошедшем времени + in + притяжательное + прилагательное + существительное + существительное + in + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Photography", "has", "been", "my", "main", "hobby", "for", "the", "past", "five", "years."],
+            correctAnswer: "Photography has been my main hobby for the past five years.",
+            correctFeedback: "Great! 'Photography has been my main hobby for the past five years.' is correct. Excellent use of Present Perfect with 'for'!",
+            correctFeedbackRu: "Отлично! 'Photography has been my main hobby for the past five years.' верно. Превосходное использование Present Perfect с 'for'!",
+            incorrectFeedback: "Try again. Remember: Noun + has + been + possessive + adjective + noun + for + the + adjective + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + has + been + притяжательное + прилагательное + существительное + for + the + прилагательное + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "attended", "a", "cultural", "festival", "in", "the", "city", "center", "yesterday."],
+            correctAnswer: "We attended a cultural festival in the city center yesterday.",
+            correctFeedback: "Perfect! 'We attended a cultural festival in the city center yesterday.' is correct. Great use of Past Simple for yesterday's event!",
+            correctFeedbackRu: "Отлично! 'We attended a cultural festival in the city center yesterday.' верно. Прекрасное использование Past Simple для вчерашнего события!",
+            incorrectFeedback: "Try again. Remember: We + past verb + article + adjective + noun + in + the + noun + noun + time reference.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + глагол в прошедшем времени + артикль + прилагательное + существительное + in + the + существительное + существительное + временная привязка."
+        }
+    ]
+};
