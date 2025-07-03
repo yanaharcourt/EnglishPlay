@@ -445,7 +445,7 @@ window.grammarExercises['tenses']['present-perfect-time-markers-page3'] = {
             correctFeedback: "Perfect! 'Yet' is used in negative sentences for expected actions.",
             correctFeedbackRu: "Отлично! 'Yet' используется в отрицательных предложениях для ожидаемых действий.",
             incorrectFeedback: "Try again! **'Yet' is perfect for negative sentences.** When you haven't done something you should do (like calling parents), 'yet' shows it's expected to happen. 'Already' is for positive statements, 'since' is for starting points, and 'for' is for time periods.",
-            incorrectFeedbackRu: "Попробуйте ещё раз! **'Yet' идеально для отрицательных предложений.** Когда вы не сделали что-то, что должны делать (как звонить родителям), 'yet' показывает, что это ожидается произойти. 'Already' для положительных утверждений, 'since' для отправных точек, а 'for' для периодов времени."
+            incorrectFeedbackRu: "Попробуйте ещё раз! **'Yet' идеально для отрицательных предложений.** Когда вы не сделали что-то, что должны делать (как позвонить родителям), 'yet' показывает, что вы собираетесь позвонить. 'Already' для положительных утверждений, 'since' для отправных точек, а 'for' для периодов времени."
         },
         {
             question: "Choose the best option:",
@@ -1649,18 +1649,18 @@ window.grammarExercises['tenses']['present-perfect-time-markers-page10'] = {
         {
             question: "Select the correct time marker:",
             questionRu: "Выберите правильный временной маркер:",
-            sentence: "The weather forecast hasn't been accurate _____.",
+            sentence: "The students haven't received their final grades _____.",
             options: [
-                "lately",
+                "yet",
                 "already",
                 "since",
                 "for"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Lately' means 'recently' and works perfectly here.",
-            correctFeedbackRu: "Отлично! 'Lately' означает 'в последнее время' и идеально работает здесь.",
-            incorrectFeedback: "Almost! **'Lately' is perfect for recent time periods.** When weather forecasts haven't been accurate lately, it means in recent days or weeks. 'Already' is for positive statements, 'since' needs a specific starting point, and 'for' needs a specific time period.",
-            incorrectFeedbackRu: "Почти! **'Lately' идеально для недавних периодов времени.** Когда прогнозы погоды не были точными lately, это означает в последние дни или недели. 'Already' для положительных утверждений, 'since' нужна конкретная отправная точка, а 'for' нужен конкретный период времени."
+            correctFeedback: "Great! 'Yet' is perfect in negative sentences about expected grades.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально в отрицательных предложениях об ожидаемых оценках.",
+            incorrectFeedback: "Close! **'Yet' works perfectly in negative sentences.** When students haven't received final grades, 'yet' shows the grades are expected to be released. 'Already' is for positive statements, 'since' needs a starting point, and 'for' is for time periods.",
+            incorrectFeedbackRu: "Близко! **'Yet' работает идеально в отрицательных предложениях.** Когда студенты не получили итоговые оценки, 'yet' показывает, что оценки ожидается опубликовать. 'Already' для положительных утверждений, 'since' нужна отправная точка, а 'for' для периодов времени."
         },
         {
             question: "Choose the best option:",
@@ -1702,3 +1702,2302 @@ Console log to confirm data loading
 ============================================ */
 console.log("Present Perfect Time Markers exercises (Pages 1-10) loaded successfully!");
 console.log("===== PRESENT PERFECT TIME MARKERS PAGES 1-10 COMPLETED =====");
+
+/* =============================================================================== */
+/* ===========================Fill in the Gaps Exercises========================== */
+
+/* ============================================
+Page 1: Present Perfect - Fill in the Gaps - Ever and Never
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page1'] = {
+    title: "Present Perfect - Time Markers: Ever and Never",
+    fillGaps: [
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "Have you ____ visited a foreign country?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "already", "yet"],
+            correctFeedback: "Excellent! 'Ever' is correct in questions about life experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' правильно в вопросах о жизненном опыте.",
+            incorrectFeedback: "Try again! Use 'ever' in questions to ask about any time in someone's life.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever' в вопросах, чтобы спросить о любом времени в чьей-то жизни."
+        },
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "I have ____ eaten raw fish - it doesn't appeal to me.",
+            correctAnswer: "never",
+            options: ["never", "ever", "just", "already"],
+            correctFeedback: "Perfect! 'Never' is correct because raw fish doesn't appeal to you.",
+            correctFeedbackRu: "Отлично! 'Never' правильно, потому что сырая рыба вам не нравится.",
+            incorrectFeedback: "Try again! Use 'never' because you don't like raw fish, so you haven't eaten it.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', потому что вам не нравится сырая рыба, поэтому вы её не ели."
+        },
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "My grandfather has ____ owned a smartphone in his life.",
+            correctAnswer: "never",
+            options: ["never", "ever", "already", "yet"],
+            correctFeedback: "Great! 'Never' shows he has no experience with smartphones.",
+            correctFeedbackRu: "Отлично! 'Never' показывает, что у него нет опыта работы со смартфонами.",
+            incorrectFeedback: "Try again! Use 'never' because older people often don't use smartphones.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', потому что пожилые люди часто не пользуются смартфонами."
+        },
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "Have you ____ been to a live concert?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Excellent! 'Ever' is perfect for asking about concert experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' идеально для вопросов о концертном опыте.",
+            incorrectFeedback: "Try again! Use 'ever' in questions about experiences like concerts.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever' в вопросах об опыте, таком как концерты."
+        },
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "She has ____ missed a day of work - she's very reliable.",
+            correctAnswer: "never",
+            options: ["never", "ever", "already", "yet"],
+            correctFeedback: "Perfect! 'Never' emphasizes her perfect attendance record.",
+            correctFeedbackRu: "Отлично! 'Never' подчёркивает её идеальную посещаемость.",
+            incorrectFeedback: "Try again! Use 'never' because she's very reliable and doesn't miss work.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', потому что она очень надёжна и не пропускает работу."
+        },
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "Have you ____ tried Mexican food?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Great! 'Ever' is correct for asking about food experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' правильно для вопросов о пищевом опыте.",
+            incorrectFeedback: "Try again! Use 'ever' in questions about trying different types of food.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever' в вопросах о пробе разных видов еды."
+        },
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "I have ____ been interested in horror movies.",
+            correctAnswer: "never",
+            options: ["never", "ever", "already", "yet"],
+            correctFeedback: "Excellent! 'Never' shows you have no interest in horror movies.",
+            correctFeedbackRu: "Отлично! 'Never' показывает, что у вас нет интереса к фильмам ужасов.",
+            incorrectFeedback: "Try again! Use 'never' because you don't like horror movies.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', потому что вам не нравятся фильмы ужасов."
+        },
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "Have you ____ played a musical instrument?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Perfect! 'Ever' is ideal for asking about musical experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' идеально для вопросов о музыкальном опыте.",
+            incorrectFeedback: "Try again! Use 'ever' in questions about playing instruments.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever' в вопросах об игре на инструментах."
+        },
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "My cat has ____ caught a bird - she's too lazy.",
+            correctAnswer: "never",
+            options: ["never", "ever", "already", "yet"],
+            correctFeedback: "Great! 'Never' emphasizes the cat's lazy personality.",
+            correctFeedbackRu: "Отлично! 'Never' подчёркивает ленивый характер кошки.",
+            incorrectFeedback: "Try again! Use 'never' because the cat is too lazy to catch birds.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', потому что кошка слишком ленива, чтобы ловить птиц."
+        },
+        {
+            question: "Complete the sentence with 'ever' or 'never':",
+            questionRu: "Заполните предложение словом 'ever' или 'never':",
+            sentence: "Have you ____ watched a movie in another language?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Excellent! 'Ever' is perfect for asking about foreign film experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' идеально для вопросов об опыте просмотра иностранных фильмов.",
+            incorrectFeedback: "Try again! Use 'ever' in questions about watching foreign movies.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever' в вопросах о просмотре иностранных фильмов."
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Present Perfect - Fill in the Gaps - Just and Already
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page2'] = {
+    title: "Present Perfect - Time Markers: Just and Already",
+    fillGaps: [
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "I have ____ finished cooking dinner.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Perfect! 'Just' shows the cooking finished very recently.",
+            correctFeedbackRu: "Отлично! 'Just' показывает, что готовка закончилась совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' when something happened very recently.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just', когда что-то произошло совсем недавно."
+        },
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "She has ____ read three books this month.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Excellent! 'Already' shows she read more books than expected.",
+            correctFeedbackRu: "Отлично! 'Already' показывает, что она прочитала больше книг, чем ожидалось.",
+            incorrectFeedback: "Try again! Use 'already' when something happened sooner than expected.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда что-то произошло раньше ожидаемого."
+        },
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "The postman has ____ delivered the mail.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' indicates the mail was delivered very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что почта была доставлена совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for actions that happened moments ago.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для действий, которые произошли моменты назад."
+        },
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "I have ____ booked my vacation for next year.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Perfect! 'Already' shows early planning for next year.",
+            correctFeedbackRu: "Отлично! 'Already' показывает раннее планирование на следующий год.",
+            incorrectFeedback: "Try again! Use 'already' when something is done earlier than usual.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда что-то сделано раньше обычного."
+        },
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "The baby has ____ fallen asleep.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Excellent! 'Just' shows the baby fell asleep very recently.",
+            correctFeedbackRu: "Отлично! 'Just' показывает, что ребёнок заснул совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' when describing something that happened moments ago.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just', когда описываете что-то, что произошло моменты назад."
+        },
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "My neighbor has ____ planted flowers for spring.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Great! 'Already' shows early preparation for spring.",
+            correctFeedbackRu: "Отлично! 'Already' показывает раннюю подготовку к весне.",
+            incorrectFeedback: "Try again! Use 'already' when someone prepares early for something.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда кто-то рано готовится к чему-то."
+        },
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "The phone has ____ stopped ringing.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Perfect! 'Just' indicates the phone stopped ringing very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что телефон перестал звонить совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for actions that finished moments ago.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для действий, которые закончились моменты назад."
+        },
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "He has ____ saved enough money for a new car.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Excellent! 'Already' shows he saved money faster than expected.",
+            correctFeedbackRu: "Отлично! 'Already' показывает, что он накопил деньги быстрее ожидаемого.",
+            incorrectFeedback: "Try again! Use 'already' when someone achieves a goal sooner than expected.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда кто-то достигает цели раньше ожидаемого."
+        },
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "The sun has ____ set behind the mountains.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' shows the sunset happened very recently.",
+            correctFeedbackRu: "Отлично! 'Just' показывает, что закат произошёл совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for natural events that happened moments ago.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для природных событий, которые произошли моменты назад."
+        },
+        {
+            question: "Complete the sentence with 'just' or 'already':",
+            questionRu: "Заполните предложение словом 'just' или 'already':",
+            sentence: "The students have ____ chosen their courses for next semester.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Perfect! 'Already' shows early course selection.",
+            correctFeedbackRu: "Отлично! 'Already' показывает ранний выбор курсов.",
+            incorrectFeedback: "Try again! Use 'already' when students plan ahead early.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда студенты планируют заранее рано."
+        }
+    ]
+};
+
+/* ============================================
+Page 3: Present Perfect - Fill in the Gaps - Yet, Since, and For
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page3'] = {
+    title: "Present Perfect - Time Markers: Yet, Since, and For",
+    fillGaps: [
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "I haven't seen that movie ____.",
+            correctAnswer: "yet",
+            options: ["yet", "since", "for", "already"],
+            correctFeedback: "Excellent! 'Yet' is correct in negative sentences about expected actions.",
+            correctFeedbackRu: "Отлично! 'Yet' правильно в отрицательных предложениях об ожидаемых действиях.",
+            incorrectFeedback: "Try again! Use 'yet' in negative sentences about things you expect to happen.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в отрицательных предложениях о вещах, которые вы ожидаете произойти."
+        },
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "We have lived in this house ____ ten years.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Perfect! 'For' is correct with time periods like 'ten years'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с периодами времени, как 'ten years'.",
+            incorrectFeedback: "Try again! Use 'for' with time periods like years, months, or days.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с периодами времени, как годы, месяцы или дни."
+        },
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "She has worked here ____ 2020.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Great! 'Since' is correct with specific years like 2020.",
+            correctFeedbackRu: "Отлично! 'Since' правильно с конкретными годами, как 2020.",
+            incorrectFeedback: "Try again! Use 'since' with specific starting points like years or dates.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с конкретными отправными точками, как годы или даты."
+        },
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "Have you finished your assignment ____?",
+            correctAnswer: "yet",
+            options: ["yet", "since", "for", "already"],
+            correctFeedback: "Excellent! 'Yet' is perfect in questions about expected completions.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально в вопросах об ожидаемых завершениях.",
+            incorrectFeedback: "Try again! Use 'yet' in questions about things that should be done.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в вопросах о вещах, которые должны быть сделаны."
+        },
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "They have been married ____ twenty-five years.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Perfect! 'For' is correct with time periods like 'twenty-five years'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с периодами времени, как 'twenty-five years'.",
+            incorrectFeedback: "Try again! Use 'for' with durations of time like years or months.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с продолжительностью времени, как годы или месяцы."
+        },
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "I haven't heard from my friend ____ last month.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Great! 'Since' works with 'last month' as a starting point.",
+            correctFeedbackRu: "Отлично! 'Since' работает с 'last month' как отправной точкой.",
+            incorrectFeedback: "Try again! Use 'since' with specific times like 'last month' or 'yesterday'.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с конкретными временами, как 'last month' или 'yesterday'."
+        },
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "The shop hasn't opened ____.",
+            correctAnswer: "yet",
+            options: ["yet", "since", "for", "already"],
+            correctFeedback: "Excellent! 'Yet' is correct in negative sentences about expected openings.",
+            correctFeedbackRu: "Отлично! 'Yet' правильно в отрицательных предложениях об ожидаемых открытиях.",
+            incorrectFeedback: "Try again! Use 'yet' when something hasn't happened but is expected to.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet', когда что-то не произошло, но ожидается."
+        },
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "We have been waiting ____ two hours.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Perfect! 'For' is correct with time periods like 'two hours'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с периодами времени, как 'two hours'.",
+            incorrectFeedback: "Try again! Use 'for' with amounts of time like hours or minutes.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с количествами времени, как часы или минуты."
+        },
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "He has been studying English ____ he moved to London.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Great! 'Since' works with 'when he moved' as a starting point.",
+            correctFeedbackRu: "Отлично! 'Since' работает с 'when he moved' как отправной точкой.",
+            incorrectFeedback: "Try again! Use 'since' with events that mark when something started.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с событиями, которые отмечают, когда что-то началось."
+        },
+        {
+            question: "Complete the sentence with 'yet', 'since', or 'for':",
+            questionRu: "Заполните предложение словом 'yet', 'since' или 'for':",
+            sentence: "Have you bought your tickets ____?",
+            correctAnswer: "yet",
+            options: ["yet", "since", "for", "already"],
+            correctFeedback: "Excellent! 'Yet' is perfect in questions about expected purchases.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально в вопросах об ожидаемых покупках.",
+            incorrectFeedback: "Try again! Use 'yet' in questions about things people should do.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в вопросах о вещах, которые люди должны сделать."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Present Perfect - Fill in the Gaps - Mixed Time Markers Practice
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page4'] = {
+    title: "Present Perfect - Mixed Time Markers Practice",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "I have ____ broken a bone in my body.",
+            correctAnswer: "never",
+            options: ["never", "ever", "just", "already"],
+            correctFeedback: "Perfect! 'Never' shows you have no experience with broken bones.",
+            correctFeedbackRu: "Отлично! 'Never' показывает, что у вас нет опыта сломанных костей.",
+            incorrectFeedback: "Try again! Use 'never' when you have no experience with something.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', когда у вас нет опыта с чем-то."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The taxi has ____ arrived at the airport.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Excellent! 'Just' indicates the taxi arrived very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что такси прибыло совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' when something happened moments ago.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just', когда что-то произошло моменты назад."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "She has been learning German ____ six months.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Great! 'For' is correct with time periods like 'six months'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с периодами времени, как 'six months'.",
+            incorrectFeedback: "Try again! Use 'for' with durations of time like months or weeks.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с продолжительностью времени, как месяцы или недели."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you packed your suitcase ____?",
+            correctAnswer: "yet",
+            options: ["yet", "already", "never", "just"],
+            correctFeedback: "Perfect! 'Yet' is ideal for asking about travel preparations.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для вопросов о подготовке к путешествию.",
+            incorrectFeedback: "Try again! Use 'yet' in questions about things that should be done.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в вопросах о вещах, которые должны быть сделаны."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "My brother has lived in Canada ____ 2018.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Excellent! 'Since' is correct with specific years like 2018.",
+            correctFeedbackRu: "Отлично! 'Since' правильно с конкретными годами, как 2018.",
+            incorrectFeedback: "Try again! Use 'since' with specific starting points like years.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с конкретными отправными точками, как годы."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The children have ____ finished their lunch.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' shows the children finished eating very recently.",
+            correctFeedbackRu: "Отлично! 'Just' показывает, что дети закончили есть совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for actions that finished moments ago.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для действий, которые закончились моменты назад."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "I have ____ prepared everything for tomorrow's meeting.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Perfect! 'Already' shows early preparation for the meeting.",
+            correctFeedbackRu: "Отлично! 'Already' показывает раннюю подготовку к встрече.",
+            incorrectFeedback: "Try again! Use 'already' when something is done earlier than expected.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда что-то сделано раньше ожидаемого."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you ____ seen such a beautiful garden?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Excellent! 'Ever' is perfect for asking about beautiful experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' идеально для вопросов о красивых переживаниях.",
+            incorrectFeedback: "Try again! Use 'ever' in questions about life experiences.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever' в вопросах о жизненном опыте."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "We haven't decided on our holiday destination ____.",
+            correctAnswer: "yet",
+            options: ["yet", "already", "since", "for"],
+            correctFeedback: "Great! 'Yet' is perfect for decisions that haven't been made.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для решений, которые не были приняты.",
+            incorrectFeedback: "Try again! Use 'yet' when decisions are still pending.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet', когда решения всё ещё ожидаются."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The dog has ____ learned to sit and stay.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Perfect! 'Already' shows the dog learned faster than expected.",
+            correctFeedbackRu: "Отлично! 'Already' показывает, что собака научилась быстрее ожидаемого.",
+            incorrectFeedback: "Try again! Use 'already' when training succeeds sooner than expected.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда обучение успешно раньше ожидаемого."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Present Perfect - Fill in the Gaps - Advanced Context Practice
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page5'] = {
+    title: "Present Perfect - Advanced Context Practice",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The new restaurant has been open ____ last Tuesday.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Excellent! 'Since' works with 'last Tuesday' as a starting point.",
+            correctFeedbackRu: "Отлично! 'Since' работает с 'last Tuesday' как отправной точкой.",
+            incorrectFeedback: "Try again! Use 'since' with specific days like 'last Tuesday'.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с конкретными днями, как 'last Tuesday'."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "My grandmother has ____ used a computer before.",
+            correctAnswer: "never",
+            options: ["never", "ever", "just", "already"],
+            correctFeedback: "Perfect! 'Never' shows she has no computer experience.",
+            correctFeedbackRu: "Отлично! 'Never' показывает, что у неё нет опыта работы с компьютером.",
+            incorrectFeedback: "Try again! Use 'never' when someone has no experience with technology.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', когда у кого-то нет опыта с технологиями."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The meeting has ____ started without us.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' indicates the meeting started very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что встреча началась совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' when something happened moments ago.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just', когда что-то произошло моменты назад."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you received any email from the company ____?",
+            correctAnswer: "yet",
+            options: ["yet", "already", "never", "just"],
+            correctFeedback: "Excellent! 'Yet' is perfect for asking about expected emails.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для вопросов об ожидаемых электронных письмах.",
+            incorrectFeedback: "Try again! Use 'yet' in questions about expected communications.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в вопросах об ожидаемых коммуникациях."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "They have been running this business ____ thirty years.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Perfect! 'For' is correct with time periods like 'thirty years'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с периодами времени, как 'thirty years'.",
+            incorrectFeedback: "Try again! Use 'for' with long durations like decades.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с долгими периодами, как десятилетия."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The weather has ____ improved this afternoon.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' shows the weather improved very recently.",
+            correctFeedbackRu: "Отлично! 'Just' показывает, что погода улучшилась совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for recent weather changes.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для недавних изменений погоды."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "She has ____ made plans for her birthday party.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Excellent! 'Already' shows early party planning.",
+            correctFeedbackRu: "Отлично! 'Already' показывает раннее планирование вечеринки.",
+            incorrectFeedback: "Try again! Use 'already' when someone plans ahead early.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда кто-то планирует заранее рано."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you ____ visited the new shopping center?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Perfect! 'Ever' is ideal for asking about new place experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' идеально для вопросов об опыте посещения новых мест.",
+            incorrectFeedback: "Try again! Use 'ever' to ask about visiting new places.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever', чтобы спросить о посещении новых мест."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "I haven't cleaned my room ____ last weekend.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Great! 'Since' works with 'last weekend' as a starting point.",
+            correctFeedbackRu: "Отлично! 'Since' работает с 'last weekend' как отправной точкой.",
+            incorrectFeedback: "Try again! Use 'since' with specific time references like 'last weekend'.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с конкретными временными ссылками, как 'last weekend'."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The train has ____ left the station.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Excellent! 'Just' indicates the train left very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что поезд ушёл совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' when transportation leaves moments ago.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just', когда транспорт ушёл моменты назад."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Present Perfect - Fill in the Gaps - Professional and Academic Contexts
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page6'] = {
+    title: "Present Perfect - Professional and Academic Contexts",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The professor has been teaching at this university ____ fifteen years.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Perfect! 'For' is correct with time periods like 'fifteen years'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с периодами времени, как 'fifteen years'.",
+            incorrectFeedback: "Try again! Use 'for' with career durations like years of teaching.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с продолжительностью карьеры, как годы преподавания."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you submitted your report to the manager ____?",
+            correctAnswer: "yet",
+            options: ["yet", "already", "never", "just"],
+            correctFeedback: "Excellent! 'Yet' is perfect for asking about work deadlines.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для вопросов о рабочих дедлайнах.",
+            incorrectFeedback: "Try again! Use 'yet' in questions about required work tasks.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в вопросах о необходимых рабочих задачах."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The company has ____ announced the new product launch.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' shows the announcement happened very recently.",
+            correctFeedbackRu: "Отлично! 'Just' показывает, что объявление произошло совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for recent business announcements.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для недавних деловых объявлений."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "She has worked in marketing ____ she graduated from college.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Perfect! 'Since' works with graduation as a starting point.",
+            correctFeedbackRu: "Отлично! 'Since' работает с выпуском как отправной точкой.",
+            incorrectFeedback: "Try again! Use 'since' with career starting points like graduation.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с началом карьеры, как выпуск."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The students have ____ completed their final exams.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Excellent! 'Already' shows early completion of exams.",
+            correctFeedbackRu: "Отлично! 'Already' показывает раннее завершение экзаменов.",
+            incorrectFeedback: "Try again! Use 'already' when students finish earlier than expected.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда студенты заканчивают раньше ожидаемого."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you ____ attended a professional conference?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Great! 'Ever' is perfect for asking about professional experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' идеально для вопросов о профессиональном опыте.",
+            incorrectFeedback: "Try again! Use 'ever' to ask about professional development experiences.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever', чтобы спросить об опыте профессионального развития."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The research team hasn't published their findings ____.",
+            correctAnswer: "yet",
+            options: ["yet", "already", "since", "for"],
+            correctFeedback: "Perfect! 'Yet' is ideal for expected academic publications.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для ожидаемых академических публикаций.",
+            incorrectFeedback: "Try again! Use 'yet' when research results are expected to be published.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet', когда результаты исследований ожидается опубликовать."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "My colleague has ____ received a promotion.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Excellent! 'Just' indicates the promotion happened very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что повышение произошло совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for recent career developments.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для недавних карьерных изменений."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The department has been using this software ____ 2022.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Great! 'Since' is correct with specific years like 2022.",
+            correctFeedbackRu: "Отлично! 'Since' правильно с конкретными годами, как 2022.",
+            incorrectFeedback: "Try again! Use 'since' with specific implementation dates.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с конкретными датами внедрения."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "I have ____ worked with such a talented team.",
+            correctAnswer: "never",
+            options: ["never", "ever", "just", "already"],
+            correctFeedback: "Perfect! 'Never' emphasizes how exceptional this team is.",
+            correctFeedbackRu: "Отлично! 'Never' подчёркивает, насколько исключительна эта команда.",
+            incorrectFeedback: "Try again! Use 'never' to emphasize exceptional work experiences.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', чтобы подчеркнуть исключительный рабочий опыт."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Present Perfect - Fill in the Gaps - Real-Life Situations
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page7'] = {
+    title: "Present Perfect - Real-Life Situations",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The dentist has been treating patients ____ she opened her clinic.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Perfect! 'Since' works with clinic opening as a starting point.",
+            correctFeedbackRu: "Отлично! 'Since' работает с открытием клиники как отправной точкой.",
+            incorrectFeedback: "Try again! Use 'since' with specific events like opening a clinic.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с конкретными событиями, как открытие клиники."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "I have ____ been on a cruise ship - it sounds amazing!",
+            correctAnswer: "never",
+            options: ["never", "ever", "just", "already"],
+            correctFeedback: "Excellent! 'Never' shows you have no cruise experience but are interested.",
+            correctFeedbackRu: "Отлично! 'Never' показывает, что у вас нет опыта круизов, но вы заинтересованы.",
+            incorrectFeedback: "Try again! Use 'never' when you haven't done something but find it appealing.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', когда вы не делали что-то, но находите это привлекательным."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The delivery truck has ____ arrived with our furniture.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' indicates the furniture delivery happened very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что доставка мебели произошла совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' when deliveries arrive moments ago.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just', когда доставка прибывает моменты назад."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you bought groceries for the week ____?",
+            correctAnswer: "yet",
+            options: ["yet", "already", "never", "just"],
+            correctFeedback: "Perfect! 'Yet' is ideal for asking about weekly shopping tasks.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для вопросов о еженедельных покупках.",
+            incorrectFeedback: "Try again! Use 'yet' in questions about routine household tasks.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в вопросах о рутинных домашних задачах."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "My neighbors have lived next door ____ eight years.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Excellent! 'For' is correct with time periods like 'eight years'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с периодами времени, как 'eight years'.",
+            incorrectFeedback: "Try again! Use 'for' with durations of neighborly relationships.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с продолжительностью соседских отношений."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The bakery has ____ opened for the morning rush.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' shows the bakery opened very recently for customers.",
+            correctFeedbackRu: "Отлично! 'Just' показывает, что пекарня открылась совсем недавно для клиентов.",
+            incorrectFeedback: "Try again! Use 'just' for recent business openings.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для недавних открытий бизнеса."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "She has ____ decorated her apartment for the holidays.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Perfect! 'Already' shows early holiday preparation.",
+            correctFeedbackRu: "Отлично! 'Already' показывает раннюю подготовку к праздникам.",
+            incorrectFeedback: "Try again! Use 'already' when someone decorates earlier than usual.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда кто-то украшает раньше обычного."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you ____ tried homemade pasta?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Excellent! 'Ever' is perfect for asking about cooking experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' идеально для вопросов о кулинарном опыте.",
+            incorrectFeedback: "Try again! Use 'ever' to ask about food preparation experiences.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever', чтобы спросить об опыте приготовления еды."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The library hasn't received new books ____.",
+            correctAnswer: "yet",
+            options: ["yet", "already", "since", "for"],
+            correctFeedback: "Great! 'Yet' is perfect for expected library acquisitions.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для ожидаемых библиотечных приобретений.",
+            incorrectFeedback: "Try again! Use 'yet' when new items are expected to arrive.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet', когда ожидается прибытие новых предметов."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The gardener has been working on this project ____ spring began.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Perfect! 'Since' works with seasonal starting points like spring.",
+            correctFeedbackRu: "Отлично! 'Since' работает с сезонными отправными точками, как весна.",
+            incorrectFeedback: "Try again! Use 'since' with seasonal time references.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с сезонными временными ссылками."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Present Perfect - Fill in the Gaps - Family and Community Life
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page8'] = {
+    title: "Present Perfect - Family and Community Life",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "My teenage son has ____ learned to drive.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Excellent! 'Just' indicates he learned to drive very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что он научился водить совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for recent teenage achievements.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для недавних подростковых достижений."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you ____ organized a family reunion?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Perfect! 'Ever' is ideal for asking about family event experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' идеально для вопросов об опыте семейных мероприятий.",
+            incorrectFeedback: "Try again! Use 'ever' to ask about organizing family gatherings.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever', чтобы спросить об организации семейных встреч."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The community center has been serving families ____ twenty years.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Great! 'For' is correct with time periods like 'twenty years'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с периодами времени, как 'twenty years'.",
+            incorrectFeedback: "Try again! Use 'for' with durations of community service.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с продолжительностью общественного служения."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "My grandmother has ____ taught me to cook traditional recipes.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Excellent! 'Already' shows the cooking lessons are complete.",
+            correctFeedbackRu: "Отлично! 'Already' показывает, что уроки готовки завершены.",
+            incorrectFeedback: "Try again! Use 'already' when family traditions are passed down.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда семейные традиции передаются."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The local school has been operating ____ the town was founded.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Perfect! 'Since' works with town founding as a starting point.",
+            correctFeedbackRu: "Отлично! 'Since' работает с основанием города как отправной точкой.",
+            incorrectFeedback: "Try again! Use 'since' with historical community milestones.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с историческими вехами сообщества."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you invited your relatives to the wedding ____?",
+            correctAnswer: "yet",
+            options: ["yet", "already", "never", "just"],
+            correctFeedback: "Great! 'Yet' is perfect for asking about wedding preparations.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для вопросов о подготовке к свадьбе.",
+            incorrectFeedback: "Try again! Use 'yet' in questions about important event planning.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в вопросах о планировании важных событий."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "My little sister has ____ lost her first tooth.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Excellent! 'Just' indicates this childhood milestone happened very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что эта детская веха произошла совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for recent childhood developments.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для недавних детских изменений."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Our family has ____ planned a surprise party for mom.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Perfect! 'Already' shows the family planned ahead successfully.",
+            correctFeedbackRu: "Отлично! 'Already' показывает, что семья успешно спланировала заранее.",
+            incorrectFeedback: "Try again! Use 'already' when family plans are made early.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда семейные планы сделаны рано."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you ____ volunteered at the animal shelter?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Great! 'Ever' is perfect for asking about volunteer experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' идеально для вопросов об опыте волонтёрства.",
+            incorrectFeedback: "Try again! Use 'ever' to ask about community service experiences.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever', чтобы спросить об опыте общественного служения."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The neighborhood hasn't organized a block party ____.",
+            correctAnswer: "yet",
+            options: ["yet", "already", "since", "for"],
+            correctFeedback: "Excellent! 'Yet' is perfect for expected community activities.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для ожидаемых общественных мероприятий.",
+            incorrectFeedback: "Try again! Use 'yet' when community events are being planned.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet', когда планируются общественные мероприятия."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Present Perfect - Fill in the Gaps - Travel and Experiences
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page9'] = {
+    title: "Present Perfect - Travel and Experiences",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The travel agency has been organizing tours ____ they started the business.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Perfect! 'Since' works with business starting as a point in time.",
+            correctFeedbackRu: "Отлично! 'Since' работает с началом бизнеса как точкой во времени.",
+            incorrectFeedback: "Try again! Use 'since' with specific business milestones.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с конкретными деловыми вехами."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "I have ____ been camping in the mountains - I prefer hotels.",
+            correctAnswer: "never",
+            options: ["never", "ever", "just", "already"],
+            correctFeedback: "Excellent! 'Never' shows you have no camping experience due to preference.",
+            correctFeedbackRu: "Отлично! 'Never' показывает, что у вас нет опыта кемпинга из-за предпочтений.",
+            incorrectFeedback: "Try again! Use 'never' when personal preferences prevent experiences.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', когда личные предпочтения препятствуют опыту."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The flight has ____ been delayed due to bad weather.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' indicates the delay announcement happened very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что объявление о задержке произошло совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for recent travel announcements.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для недавних объявлений о путешествиях."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you checked the hotel reviews ____?",
+            correctAnswer: "yet",
+            options: ["yet", "already", "never", "just"],
+            correctFeedback: "Perfect! 'Yet' is ideal for asking about travel research tasks.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для вопросов о задачах исследования путешествий.",
+            incorrectFeedback: "Try again! Use 'yet' in questions about travel planning activities.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в вопросах о деятельности планирования путешествий."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "We have been traveling around Europe ____ three weeks.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Excellent! 'For' is correct with time periods like 'three weeks'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с периодами времени, как 'three weeks'.",
+            incorrectFeedback: "Try again! Use 'for' with travel durations like weeks or months.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с продолжительностью путешествий, как недели или месяцы."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The tour guide has ____ shown us the historical landmarks.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Great! 'Already' shows the tour activities are complete.",
+            correctFeedbackRu: "Отлично! 'Already' показывает, что туристические мероприятия завершены.",
+            incorrectFeedback: "Try again! Use 'already' when tour activities finish as planned.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда туристические мероприятия заканчиваются как запланировано."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you ____ stayed in a hostel during your travels?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Perfect! 'Ever' is excellent for asking about accommodation experiences.",
+            correctFeedbackRu: "Отлично! 'Ever' отлично подходит для вопросов об опыте размещения.",
+            incorrectFeedback: "Try again! Use 'ever' to ask about different types of travel accommodation.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever', чтобы спросить о разных типах размещения в путешествиях."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The museum hasn't opened its new exhibition ____.",
+            correctAnswer: "yet",
+            options: ["yet", "already", "since", "for"],
+            correctFeedback: "Excellent! 'Yet' is perfect for expected museum openings.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для ожидаемых открытий музеев.",
+            incorrectFeedback: "Try again! Use 'yet' when cultural attractions are preparing new displays.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet', когда культурные достопримечательности готовят новые экспозиции."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The cruise ship has ____ departed from the harbor.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' shows the ship left very recently.",
+            correctFeedbackRu: "Отлично! 'Just' показывает, что корабль ушёл совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for recent cruise departures.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для недавних отправлений круизов."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "She has been collecting passport stamps ____ her first international trip.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Perfect! 'Since' works with the first trip as a starting point.",
+            correctFeedbackRu: "Отлично! 'Since' работает с первой поездкой как отправной точкой.",
+            incorrectFeedback: "Try again! Use 'since' with travel milestones like first trips.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с туристическими вехами, как первые поездки."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Present Perfect - Fill in the Gaps - Final Comprehensive Review
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-gap-page10'] = {
+    title: "Present Perfect - Final Comprehensive Review",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The local newspaper has been reporting community news ____ fifty years.",
+            correctAnswer: "for",
+            options: ["for", "since", "yet", "already"],
+            correctFeedback: "Perfect! 'For' is correct with long time periods like 'fifty years'.",
+            correctFeedbackRu: "Отлично! 'For' правильно с долгими периодами времени, как 'fifty years'.",
+            incorrectFeedback: "Try again! Use 'for' with extended durations of community service.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'for' с продолжительными периодами общественного служения."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "I have ____ seen such a helpful customer service representative.",
+            correctAnswer: "never",
+            options: ["never", "ever", "just", "already"],
+            correctFeedback: "Excellent! 'Never' emphasizes how exceptional this service experience was.",
+            correctFeedbackRu: "Отлично! 'Never' подчёркивает, насколько исключительным был этот опыт обслуживания.",
+            incorrectFeedback: "Try again! Use 'never' to emphasize exceptional service quality.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'never', чтобы подчеркнуть исключительное качество обслуживания."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The construction workers have ____ finished building the new bridge.",
+            correctAnswer: "just",
+            options: ["just", "already", "yet", "never"],
+            correctFeedback: "Great! 'Just' indicates the bridge construction completed very recently.",
+            correctFeedbackRu: "Отлично! 'Just' указывает, что строительство моста завершилось совсем недавно.",
+            incorrectFeedback: "Try again! Use 'just' for recently completed construction projects.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'just' для недавно завершённых строительных проектов."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you contacted the insurance company ____?",
+            correctAnswer: "yet",
+            options: ["yet", "already", "never", "just"],
+            correctFeedback: "Perfect! 'Yet' is ideal for asking about important administrative tasks.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для вопросов о важных административных задачах.",
+            incorrectFeedback: "Try again! Use 'yet' in questions about required business communications.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet' в вопросах о необходимых деловых коммуникациях."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The technology company has been developing software ____ the internet became popular.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Excellent! 'Since' works with internet popularity as a historical starting point.",
+            correctFeedbackRu: "Отлично! 'Since' работает с популярностью интернета как исторической отправной точкой.",
+            incorrectFeedback: "Try again! Use 'since' with major technological developments.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с крупными технологическими разработками."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "My elderly aunt has ____ learned to use social media.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Great! 'Already' shows impressive technology adoption by an elderly person.",
+            correctFeedbackRu: "Отлично! 'Already' показывает впечатляющее освоение технологий пожилым человеком.",
+            incorrectFeedback: "Try again! Use 'already' when older people successfully adopt new technology.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда пожилые люди успешно осваивают новые технологии."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "Have you ____ participated in a charity fundraiser?",
+            correctAnswer: "ever",
+            options: ["ever", "never", "just", "already"],
+            correctFeedback: "Perfect! 'Ever' is excellent for asking about charitable activities.",
+            correctFeedbackRu: "Отлично! 'Ever' отлично подходит для вопросов о благотворительной деятельности.",
+            incorrectFeedback: "Try again! Use 'ever' to ask about community involvement experiences.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'ever', чтобы спросить об опыте участия в общественной жизни."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The local theater hasn't announced next season's plays ____.",
+            correctAnswer: "yet",
+            options: ["yet", "already", "since", "for"],
+            correctFeedback: "Excellent! 'Yet' is perfect for expected cultural announcements.",
+            correctFeedbackRu: "Отлично! 'Yet' идеально для ожидаемых культурных объявлений.",
+            incorrectFeedback: "Try again! Use 'yet' when cultural institutions plan upcoming seasons.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'yet', когда культурные учреждения планируют предстоящие сезоны."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "The new shopping mall has ____ attracted thousands of visitors.",
+            correctAnswer: "already",
+            options: ["already", "just", "yet", "never"],
+            correctFeedback: "Great! 'Already' shows the mall's immediate success with visitors.",
+            correctFeedbackRu: "Отлично! 'Already' показывает немедленный успех торгового центра с посетителями.",
+            incorrectFeedback: "Try again! Use 'already' when new businesses succeed quickly.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'already', когда новые предприятия быстро добиваются успеха."
+        },
+        {
+            question: "Complete the sentence with the correct time marker:",
+            questionRu: "Заполните предложение правильным временным маркером:",
+            sentence: "This small café has been serving excellent coffee ____ it opened.",
+            correctAnswer: "since",
+            options: ["since", "for", "yet", "already"],
+            correctFeedback: "Perfect! 'Since' works with café opening as a starting point for quality service.",
+            correctFeedbackRu: "Отлично! 'Since' работает с открытием кафе как отправной точкой для качественного обслуживания.",
+            incorrectFeedback: "Try again! Use 'since' with business opening dates.",
+            incorrectFeedbackRu: "Попробуйте снова! Используйте 'since' с датами открытия предприятий."
+        }
+    ]
+};
+
+
+/* ============================================
+Console log to confirm data loading
+============================================ */
+console.log("Present Perfect Time Markers Fill in the Gaps exercises (Pages 1-10) loaded successfully!");
+console.log("===== PRESENT PERFECT TIME MARKERS FILL GAPS PAGES 1-10 COMPLETED =====");
+
+
+/* =============================================================================== */
+/* =========================Sentence Building Exercises=========================== */
+
+/* ============================================
+Page 1: Present Perfect - Sentence Building - Ever and Never
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page1'] = {
+    title: "Present Perfect - Ever and Never",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "been", "to", "Japan?"],
+            correctAnswer: "Have you ever been to Japan?",
+            correctFeedback: "Perfect! 'Have you ever been to Japan?' is correct. Great use of 'ever' in questions!",
+            correctFeedbackRu: "Отлично! 'Have you ever been to Japan?' верно. Прекрасное использование 'ever' в вопросах!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + preposition + place + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + предлог + место + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "never", "seen", "such", "a", "beautiful", "sunset."],
+            correctAnswer: "I have never seen such a beautiful sunset.",
+            correctFeedback: "Excellent! 'I have never seen such a beautiful sunset.' is correct. Perfect use of 'never' for emphasis!",
+            correctFeedbackRu: "Отлично! 'I have never seen such a beautiful sunset.' верно. Идеальное использование 'never' для акцента!",
+            incorrectFeedback: "Try again. Remember: I + have + never + past participle + such + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + never + причастие прошедшего времени + such + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "never", "driven", "a", "car", "before."],
+            correctAnswer: "She has never driven a car before.",
+            correctFeedback: "Great! 'She has never driven a car before.' is correct. Nice use of 'never' with experience!",
+            correctFeedbackRu: "Отлично! 'She has never driven a car before.' верно. Хорошее использование 'never' с опытом!",
+            incorrectFeedback: "Try again. Remember: She + has + never + past participle + article + noun + before.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + never + причастие прошедшего времени + артикль + существительное + before."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "tried", "Indian", "food?"],
+            correctAnswer: "Have you ever tried Indian food?",
+            correctFeedback: "Perfect! 'Have you ever tried Indian food?' is correct. Excellent question about experiences!",
+            correctFeedbackRu: "Отлично! 'Have you ever tried Indian food?' верно. Превосходный вопрос об опыте!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + adjective + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + прилагательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "grandmother", "has", "never", "used", "a", "computer."],
+            correctAnswer: "My grandmother has never used a computer.",
+            correctFeedback: "Excellent! 'My grandmother has never used a computer.' is correct. Good example of generational differences!",
+            correctFeedbackRu: "Отлично! 'My grandmother has never used a computer.' верно. Хороший пример поколенческих различий!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + never + past participle + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + never + причастие прошедшего времени + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "met", "a", "famous", "person?"],
+            correctAnswer: "Have you ever met a famous person?",
+            correctFeedback: "Great! 'Have you ever met a famous person?' is correct. Interesting question about celebrity encounters!",
+            correctFeedbackRu: "Отлично! 'Have you ever met a famous person?' верно. Интересный вопрос о встречах со знаменитостями!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + article + adjective + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + артикль + прилагательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "never", "forgotten", "my", "first", "day", "at", "school."],
+            correctAnswer: "I have never forgotten my first day at school.",
+            correctFeedback: "Perfect! 'I have never forgotten my first day at school.' is correct. Beautiful memory statement!",
+            correctFeedbackRu: "Отлично! 'I have never forgotten my first day at school.' верно. Прекрасное утверждение о памяти!",
+            incorrectFeedback: "Try again. Remember: I + have + never + past participle + possessive + adjective + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + never + причастие прошедшего времени + притяжательное + прилагательное + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "been", "on", "a", "boat?"],
+            correctAnswer: "Have you ever been on a boat?",
+            correctFeedback: "Excellent! 'Have you ever been on a boat?' is correct. Great question about water activities!",
+            correctFeedbackRu: "Отлично! 'Have you ever been on a boat?' верно. Отличный вопрос о водных активностях!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + been + preposition + article + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + been + предлог + артикль + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "never", "missed", "a", "birthday", "party."],
+            correctAnswer: "She has never missed a birthday party.",
+            correctFeedback: "Great! 'She has never missed a birthday party.' is correct. Shows reliable friendship!",
+            correctFeedbackRu: "Отлично! 'She has never missed a birthday party.' верно. Показывает надёжную дружбу!",
+            incorrectFeedback: "Try again. Remember: She + has + never + past participle + article + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + never + причастие прошедшего времени + артикль + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "played", "a", "musical", "instrument?"],
+            correctAnswer: "Have you ever played a musical instrument?",
+            correctFeedback: "Perfect! 'Have you ever played a musical instrument?' is correct. Wonderful question about musical experiences!",
+            correctFeedbackRu: "Отлично! 'Have you ever played a musical instrument?' верно. Замечательный вопрос о музыкальном опыте!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + article + adjective + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + артикль + прилагательное + существительное + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Present Perfect - Sentence Building - Just and Already
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page2'] = {
+    title: "Present Perfect - Just and Already",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "just", "finished", "my", "homework."],
+            correctAnswer: "I have just finished my homework.",
+            correctFeedback: "Perfect! 'I have just finished my homework.' is correct. Great use of 'just' for recent completion!",
+            correctFeedbackRu: "Отлично! 'I have just finished my homework.' верно. Прекрасное использование 'just' для недавнего завершения!",
+            incorrectFeedback: "Try again. Remember: I + have + just + past participle + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + just + причастие прошедшего времени + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "already", "bought", "tickets", "for", "the", "concert."],
+            correctAnswer: "She has already bought tickets for the concert.",
+            correctFeedback: "Excellent! 'She has already bought tickets for the concert.' is correct. Perfect use of 'already' for early action!",
+            correctFeedbackRu: "Отлично! 'She has already bought tickets for the concert.' верно. Идеальное использование 'already' для раннего действия!",
+            incorrectFeedback: "Try again. Remember: She + has + already + past participle + noun + preposition + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + already + причастие прошедшего времени + существительное + предлог + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "train", "has", "just", "arrived", "at", "the", "station."],
+            correctAnswer: "The train has just arrived at the station.",
+            correctFeedback: "Great! 'The train has just arrived at the station.' is correct. Excellent timing with 'just'!",
+            correctFeedbackRu: "Отлично! 'The train has just arrived at the station.' верно. Отличное время с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + preposition + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + предлог + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "already", "eaten", "lunch."],
+            correctAnswer: "We have already eaten lunch.",
+            correctFeedback: "Perfect! 'We have already eaten lunch.' is correct. Good use of 'already' for completed meals!",
+            correctFeedbackRu: "Отлично! 'We have already eaten lunch.' верно. Хорошее использование 'already' для завершённых приёмов пищи!",
+            incorrectFeedback: "Try again. Remember: We + have + already + past participle + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + already + причастие прошедшего времени + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "baby", "has", "just", "learned", "to", "walk."],
+            correctAnswer: "The baby has just learned to walk.",
+            correctFeedback: "Excellent! 'The baby has just learned to walk.' is correct. Beautiful milestone with 'just'!",
+            correctFeedbackRu: "Отлично! 'The baby has just learned to walk.' верно. Прекрасная веха с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + to + verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + to + глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "brother", "has", "already", "graduated", "from", "university."],
+            correctAnswer: "My brother has already graduated from university.",
+            correctFeedback: "Great! 'My brother has already graduated from university.' is correct. Wonderful achievement with 'already'!",
+            correctFeedbackRu: "Отлично! 'My brother has already graduated from university.' верно. Замечательное достижение с 'already'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + already + past participle + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + already + причастие прошедшего времени + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "just", "received", "an", "important", "email."],
+            correctAnswer: "I have just received an important email.",
+            correctFeedback: "Perfect! 'I have just received an important email.' is correct. Great use of 'just' for recent news!",
+            correctFeedbackRu: "Отлично! 'I have just received an important email.' верно. Прекрасное использование 'just' для недавних новостей!",
+            incorrectFeedback: "Try again. Remember: I + have + just + past participle + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + just + причастие прошедшего времени + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "have", "already", "made", "plans", "for", "the", "weekend."],
+            correctAnswer: "They have already made plans for the weekend.",
+            correctFeedback: "Excellent! 'They have already made plans for the weekend.' is correct. Good planning with 'already'!",
+            correctFeedbackRu: "Отлично! 'They have already made plans for the weekend.' верно. Хорошее планирование с 'already'!",
+            incorrectFeedback: "Try again. Remember: They + have + already + past participle + noun + preposition + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + have + already + причастие прошедшего времени + существительное + предлог + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "sun", "has", "just", "set", "behind", "the", "mountains."],
+            correctAnswer: "The sun has just set behind the mountains.",
+            correctFeedback: "Great! 'The sun has just set behind the mountains.' is correct. Beautiful nature scene with 'just'!",
+            correctFeedbackRu: "Отлично! 'The sun has just set behind the mountains.' верно. Прекрасная природная сцена с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + preposition + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + предлог + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "already", "packed", "her", "suitcase", "for", "the", "trip."],
+            correctAnswer: "She has already packed her suitcase for the trip.",
+            correctFeedback: "Perfect! 'She has already packed her suitcase for the trip.' is correct. Excellent travel preparation with 'already'!",
+            correctFeedbackRu: "Отлично! 'She has already packed her suitcase for the trip.' верно. Отличная подготовка к путешествию с 'already'!",
+            incorrectFeedback: "Try again. Remember: She + has + already + past participle + possessive + noun + preposition + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + already + причастие прошедшего времени + притяжательное + существительное + предлог + артикль + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 3: Present Perfect - Sentence Building - Yet, Since, and For
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page3'] = {
+    title: "Present Perfect - Yet, Since, and For",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "haven't", "finished", "the", "book", "yet."],
+            correctAnswer: "I haven't finished the book yet.",
+            correctFeedback: "Perfect! 'I haven't finished the book yet.' is correct. Great use of 'yet' in negative sentences!",
+            correctFeedbackRu: "Отлично! 'I haven't finished the book yet.' верно. Прекрасное использование 'yet' в отрицательных предложениях!",
+            incorrectFeedback: "Try again. Remember: I + haven't + past participle + article + noun + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + haven't + причастие прошедшего времени + артикль + существительное + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "lived", "here", "since", "2020."],
+            correctAnswer: "She has lived here since 2020.",
+            correctFeedback: "Excellent! 'She has lived here since 2020.' is correct. Perfect use of 'since' with specific years!",
+            correctFeedbackRu: "Отлично! 'She has lived here since 2020.' верно. Идеальное использование 'since' с конкретными годами!",
+            incorrectFeedback: "Try again. Remember: She + has + past participle + here + since + year.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + причастие прошедшего времени + here + since + год."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "been", "friends", "for", "ten", "years."],
+            correctAnswer: "We have been friends for ten years.",
+            correctFeedback: "Great! 'We have been friends for ten years.' is correct. Wonderful friendship duration with 'for'!",
+            correctFeedbackRu: "Отлично! 'We have been friends for ten years.' верно. Замечательная продолжительность дружбы с 'for'!",
+            incorrectFeedback: "Try again. Remember: We + have + been + noun + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + been + существительное + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "done", "your", "homework", "yet?"],
+            correctAnswer: "Have you done your homework yet?",
+            correctFeedback: "Perfect! 'Have you done your homework yet?' is correct. Great question with 'yet'!",
+            correctFeedbackRu: "Отлично! 'Have you done your homework yet?' верно. Отличный вопрос с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Have + you + past participle + possessive + noun + yet + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + причастие прошедшего времени + притяжательное + существительное + yet + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "worked", "at", "this", "company", "for", "five", "years."],
+            correctAnswer: "I have worked at this company for five years.",
+            correctFeedback: "Excellent! 'I have worked at this company for five years.' is correct. Great career duration with 'for'!",
+            correctFeedbackRu: "Отлично! 'I have worked at this company for five years.' верно. Отличная продолжительность карьеры с 'for'!",
+            incorrectFeedback: "Try again. Remember: I + have + past participle + preposition + determiner + noun + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + причастие прошедшего времени + предлог + определитель + существительное + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "haven't", "called", "me", "back", "yet."],
+            correctAnswer: "They haven't called me back yet.",
+            correctFeedback: "Great! 'They haven't called me back yet.' is correct. Perfect expectation with 'yet'!",
+            correctFeedbackRu: "Отлично! 'They haven't called me back yet.' верно. Идеальное ожидание с 'yet'!",
+            incorrectFeedback: "Try again. Remember: They + haven't + past participle + pronoun + adverb + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + haven't + причастие прошедшего времени + местоимение + наречие + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "has", "been", "learning", "Spanish", "since", "last", "year."],
+            correctAnswer: "He has been learning Spanish since last year.",
+            correctFeedback: "Perfect! 'He has been learning Spanish since last year.' is correct. Excellent continuous learning with 'since'!",
+            correctFeedbackRu: "Отлично! 'He has been learning Spanish since last year.' верно. Отличное непрерывное обучение с 'since'!",
+            incorrectFeedback: "Try again. Remember: He + has + been + verb+ing + noun + since + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + has + been + глагол+ing + существительное + since + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "store", "hasn't", "opened", "yet."],
+            correctAnswer: "The store hasn't opened yet.",
+            correctFeedback: "Excellent! 'The store hasn't opened yet.' is correct. Great expectation with 'yet'!",
+            correctFeedbackRu: "Отлично! 'The store hasn't opened yet.' верно. Отличное ожидание с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + hasn't + past participle + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + hasn't + причастие прошедшего времени + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "family", "has", "lived", "in", "this", "house", "for", "twenty", "years."],
+            correctAnswer: "My family has lived in this house for twenty years.",
+            correctFeedback: "Great! 'My family has lived in this house for twenty years.' is correct. Beautiful family history with 'for'!",
+            correctFeedbackRu: "Отлично! 'My family has lived in this house for twenty years.' верно. Прекрасная семейная история с 'for'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + past participle + preposition + determiner + noun + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + причастие прошедшего времени + предлог + определитель + существительное + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "seen", "the", "new", "movie", "yet?"],
+            correctAnswer: "Have you seen the new movie yet?",
+            correctFeedback: "Perfect! 'Have you seen the new movie yet?' is correct. Excellent question about recent entertainment with 'yet'!",
+            correctFeedbackRu: "Отлично! 'Have you seen the new movie yet?' верно. Отличный вопрос о недавних развлечениях с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Have + you + past participle + article + adjective + noun + yet + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + причастие прошедшего времени + артикль + прилагательное + существительное + yet + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Present Perfect - Sentence Building - Mixed Time Markers Practice
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page4'] = {
+    title: "Present Perfect - Mixed Time Markers Practice",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "never", "broken", "a", "promise", "to", "my", "friends."],
+            correctAnswer: "I have never broken a promise to my friends.",
+            correctFeedback: "Perfect! 'I have never broken a promise to my friends.' is correct. Excellent statement about loyalty with 'never'!",
+            correctFeedbackRu: "Отлично! 'I have never broken a promise to my friends.' верно. Превосходное утверждение о верности с 'never'!",
+            incorrectFeedback: "Try again. Remember: I + have + never + past participle + article + noun + preposition + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + never + причастие прошедшего времени + артикль + существительное + предлог + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "doctor", "has", "just", "finished", "the", "surgery."],
+            correctAnswer: "The doctor has just finished the surgery.",
+            correctFeedback: "Excellent! 'The doctor has just finished the surgery.' is correct. Great medical timing with 'just'!",
+            correctFeedbackRu: "Отлично! 'The doctor has just finished the surgery.' верно. Отличное медицинское время с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "been", "waiting", "for", "the", "bus", "for", "thirty", "minutes."],
+            correctAnswer: "We have been waiting for the bus for thirty minutes.",
+            correctFeedback: "Great! 'We have been waiting for the bus for thirty minutes.' is correct. Perfect duration with 'for'!",
+            correctFeedbackRu: "Отлично! 'We have been waiting for the bus for thirty minutes.' верно. Идеальная продолжительность с 'for'!",
+            incorrectFeedback: "Try again. Remember: We + have + been + verb+ing + preposition + article + noun + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + been + глагол+ing + предлог + артикль + существительное + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "climbed", "a", "mountain?"],
+            correctAnswer: "Have you ever climbed a mountain?",
+            correctFeedback: "Perfect! 'Have you ever climbed a mountain?' is correct. Exciting adventure question with 'ever'!",
+            correctFeedbackRu: "Отлично! 'Have you ever climbed a mountain?' верно. Захватывающий вопрос о приключениях с 'ever'!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + article + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + артикль + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "sister", "has", "already", "chosen", "her", "wedding", "dress."],
+            correctAnswer: "My sister has already chosen her wedding dress.",
+            correctFeedback: "Excellent! 'My sister has already chosen her wedding dress.' is correct. Beautiful wedding preparation with 'already'!",
+            correctFeedbackRu: "Отлично! 'My sister has already chosen her wedding dress.' верно. Прекрасная подготовка к свадьбе с 'already'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + already + past participle + possessive + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + already + причастие прошедшего времени + притяжательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "weather", "hasn't", "improved", "yet."],
+            correctAnswer: "The weather hasn't improved yet.",
+            correctFeedback: "Great! 'The weather hasn't improved yet.' is correct. Perfect weather expectation with 'yet'!",
+            correctFeedbackRu: "Отлично! 'The weather hasn't improved yet.' верно. Идеальное ожидание погоды с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + hasn't + past participle + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + hasn't + причастие прошедшего времени + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "been", "studying", "French", "since", "she", "was", "a", "child."],
+            correctAnswer: "She has been studying French since she was a child.",
+            correctFeedback: "Perfect! 'She has been studying French since she was a child.' is correct. Wonderful lifelong learning with 'since'!",
+            correctFeedbackRu: "Отлично! 'She has been studying French since she was a child.' верно. Замечательное обучение всю жизнь с 'since'!",
+            incorrectFeedback: "Try again. Remember: She + has + been + verb+ing + noun + since + she + was + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + been + глагол+ing + существительное + since + she + was + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "just", "heard", "the", "good", "news."],
+            correctAnswer: "I have just heard the good news.",
+            correctFeedback: "Excellent! 'I have just heard the good news.' is correct. Great excitement with 'just'!",
+            correctFeedbackRu: "Отлично! 'I have just heard the good news.' верно. Отличное волнение с 'just'!",
+            incorrectFeedback: "Try again. Remember: I + have + just + past participle + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + just + причастие прошедшего времени + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "have", "been", "married", "for", "fifteen", "happy", "years."],
+            correctAnswer: "They have been married for fifteen happy years.",
+            correctFeedback: "Great! 'They have been married for fifteen happy years.' is correct. Beautiful marriage duration with 'for'!",
+            correctFeedbackRu: "Отлично! 'They have been married for fifteen happy years.' верно. Прекрасная продолжительность брака с 'for'!",
+            incorrectFeedback: "Try again. Remember: They + have + been + past participle + for + number + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + have + been + причастие прошедшего времени + for + число + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "completed", "your", "project", "yet?"],
+            correctAnswer: "Have you completed your project yet?",
+            correctFeedback: "Perfect! 'Have you completed your project yet?' is correct. Excellent work progress question with 'yet'!",
+            correctFeedbackRu: "Отлично! 'Have you completed your project yet?' верно. Отличный вопрос о прогрессе работы с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Have + you + past participle + possessive + noun + yet + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + причастие прошедшего времени + притяжательное + существительное + yet + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Present Perfect - Sentence Building - Professional and Academic Contexts
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page5'] = {
+    title: "Present Perfect - Professional and Academic Contexts",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "company", "has", "been", "growing", "rapidly", "since", "2021."],
+            correctAnswer: "The company has been growing rapidly since 2021.",
+            correctFeedback: "Perfect! 'The company has been growing rapidly since 2021.' is correct. Excellent business growth with 'since'!",
+            correctFeedbackRu: "Отлично! 'The company has been growing rapidly since 2021.' верно. Превосходный рост бизнеса с 'since'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + been + verb+ing + adverb + since + year.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + been + глагол+ing + наречие + since + год."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "never", "missed", "an", "important", "meeting."],
+            correctAnswer: "I have never missed an important meeting.",
+            correctFeedback: "Excellent! 'I have never missed an important meeting.' is correct. Great professional reliability with 'never'!",
+            correctFeedbackRu: "Отлично! 'I have never missed an important meeting.' верно. Отличная профессиональная надёжность с 'never'!",
+            incorrectFeedback: "Try again. Remember: I + have + never + past participle + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + never + причастие прошедшего времени + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "students", "have", "just", "submitted", "their", "final", "essays."],
+            correctAnswer: "The students have just submitted their final essays.",
+            correctFeedback: "Great! 'The students have just submitted their final essays.' is correct. Perfect academic timing with 'just'!",
+            correctFeedbackRu: "Отлично! 'The students have just submitted their final essays.' верно. Идеальное академическое время с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + have + just + past participle + possessive + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + have + just + причастие прошедшего времени + притяжательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "given", "a", "presentation", "to", "senior", "management?"],
+            correctAnswer: "Have you ever given a presentation to senior management?",
+            correctFeedback: "Perfect! 'Have you ever given a presentation to senior management?' is correct. Excellent career experience question with 'ever'!",
+            correctFeedbackRu: "Отлично! 'Have you ever given a presentation to senior management?' верно. Превосходный вопрос о карьерном опыте с 'ever'!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + article + noun + preposition + adjective + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + артикль + существительное + предлог + прилагательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "already", "earned", "her", "master's", "degree."],
+            correctAnswer: "She has already earned her master's degree.",
+            correctFeedback: "Excellent! 'She has already earned her master's degree.' is correct. Wonderful academic achievement with 'already'!",
+            correctFeedbackRu: "Отлично! 'She has already earned her master's degree.' верно. Замечательное академическое достижение с 'already'!",
+            incorrectFeedback: "Try again. Remember: She + has + already + past participle + possessive + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + already + причастие прошедшего времени + притяжательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "research", "team", "hasn't", "published", "their", "findings", "yet."],
+            correctAnswer: "The research team hasn't published their findings yet.",
+            correctFeedback: "Great! 'The research team hasn't published their findings yet.' is correct. Perfect research expectation with 'yet'!",
+            correctFeedbackRu: "Отлично! 'The research team hasn't published their findings yet.' верно. Идеальное ожидание исследования с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + noun + hasn't + past participle + possessive + noun + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + существительное + hasn't + причастие прошедшего времени + притяжательное + существительное + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "been", "working", "on", "this", "project", "for", "three", "months."],
+            correctAnswer: "I have been working on this project for three months.",
+            correctFeedback: "Perfect! 'I have been working on this project for three months.' is correct. Excellent project duration with 'for'!",
+            correctFeedbackRu: "Отлично! 'I have been working on this project for three months.' верно. Превосходная продолжительность проекта с 'for'!",
+            incorrectFeedback: "Try again. Remember: I + have + been + verb+ing + preposition + determiner + noun + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + been + глагол+ing + предлог + определитель + существительное + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "professor", "has", "just", "announced", "the", "exam", "results."],
+            correctAnswer: "The professor has just announced the exam results.",
+            correctFeedback: "Excellent! 'The professor has just announced the exam results.' is correct. Great academic news with 'just'!",
+            correctFeedbackRu: "Отлично! 'The professor has just announced the exam results.' верно. Отличные академические новости с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + article + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + артикль + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "been", "developing", "this", "software", "since", "the", "beginning", "of", "the", "year."],
+            correctAnswer: "We have been developing this software since the beginning of the year.",
+            correctFeedback: "Great! 'We have been developing this software since the beginning of the year.' is correct. Perfect development timeline with 'since'!",
+            correctFeedbackRu: "Отлично! 'We have been developing this software since the beginning of the year.' верно. Идеальный график разработки с 'since'!",
+            incorrectFeedback: "Try again. Remember: We + have + been + verb+ing + determiner + noun + since + article + noun + preposition + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + been + глагол+ing + определитель + существительное + since + артикль + существительное + предлог + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "applied", "for", "the", "new", "position", "yet?"],
+            correctAnswer: "Have you applied for the new position yet?",
+            correctFeedback: "Perfect! 'Have you applied for the new position yet?' is correct. Excellent career opportunity question with 'yet'!",
+            correctFeedbackRu: "Отлично! 'Have you applied for the new position yet?' верно. Превосходный вопрос о карьерной возможности с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Have + you + past participle + preposition + article + adjective + noun + yet + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + причастие прошедшего времени + предлог + артикль + прилагательное + существительное + yet + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Present Perfect - Sentence Building - Travel and Cultural Experiences
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page6'] = {
+    title: "Present Perfect - Travel and Cultural Experiences",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "never", "been", "to", "a", "foreign", "country."],
+            correctAnswer: "I have never been to a foreign country.",
+            correctFeedback: "Perfect! 'I have never been to a foreign country.' is correct. Honest travel experience with 'never'!",
+            correctFeedbackRu: "Отлично! 'I have never been to a foreign country.' верно. Честный туристический опыт с 'never'!",
+            incorrectFeedback: "Try again. Remember: I + have + never + been + preposition + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + never + been + предлог + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "tour", "guide", "has", "just", "shown", "us", "the", "ancient", "ruins."],
+            correctAnswer: "The tour guide has just shown us the ancient ruins.",
+            correctFeedback: "Excellent! 'The tour guide has just shown us the ancient ruins.' is correct. Great sightseeing experience with 'just'!",
+            correctFeedbackRu: "Отлично! 'The tour guide has just shown us the ancient ruins.' верно. Отличный опыт осмотра достопримечательностей с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + noun + has + just + past participle + pronoun + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + существительное + has + just + причастие прошедшего времени + местоимение + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "been", "traveling", "around", "Europe", "for", "two", "weeks."],
+            correctAnswer: "We have been traveling around Europe for two weeks.",
+            correctFeedback: "Great! 'We have been traveling around Europe for two weeks.' is correct. Wonderful European adventure with 'for'!",
+            correctFeedbackRu: "Отлично! 'We have been traveling around Europe for two weeks.' верно. Замечательное европейское приключение с 'for'!",
+            incorrectFeedback: "Try again. Remember: We + have + been + verb+ing + preposition + noun + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + been + глагол+ing + предлог + существительное + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "stayed", "in", "a", "luxury", "hotel?"],
+            correctAnswer: "Have you ever stayed in a luxury hotel?",
+            correctFeedback: "Perfect! 'Have you ever stayed in a luxury hotel?' is correct. Excellent accommodation experience question with 'ever'!",
+            correctFeedbackRu: "Отлично! 'Have you ever stayed in a luxury hotel?' верно. Превосходный вопрос об опыте размещения с 'ever'!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + preposition + article + adjective + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + предлог + артикль + прилагательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "already", "booked", "her", "flight", "to", "Australia."],
+            correctAnswer: "She has already booked her flight to Australia.",
+            correctFeedback: "Excellent! 'She has already booked her flight to Australia.' is correct. Great travel planning with 'already'!",
+            correctFeedbackRu: "Отлично! 'She has already booked her flight to Australia.' верно. Отличное планирование путешествия с 'already'!",
+            incorrectFeedback: "Try again. Remember: She + has + already + past participle + possessive + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + already + причастие прошедшего времени + притяжательное + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "museum", "hasn't", "opened", "its", "new", "exhibition", "yet."],
+            correctAnswer: "The museum hasn't opened its new exhibition yet.",
+            correctFeedback: "Great! 'The museum hasn't opened its new exhibition yet.' is correct. Perfect cultural expectation with 'yet'!",
+            correctFeedbackRu: "Отлично! 'The museum hasn't opened its new exhibition yet.' верно. Идеальное культурное ожидание с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + hasn't + past participle + possessive + adjective + noun + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + hasn't + причастие прошедшего времени + притяжательное + прилагательное + существительное + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "been", "collecting", "souvenirs", "since", "my", "first", "trip", "abroad."],
+            correctAnswer: "I have been collecting souvenirs since my first trip abroad.",
+            correctFeedback: "Perfect! 'I have been collecting souvenirs since my first trip abroad.' is correct. Beautiful travel memory tradition with 'since'!",
+            correctFeedbackRu: "Отлично! 'I have been collecting souvenirs since my first trip abroad.' верно. Прекрасная традиция туристических воспоминаний с 'since'!",
+            incorrectFeedback: "Try again. Remember: I + have + been + verb+ing + noun + since + possessive + adjective + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + been + глагол+ing + существительное + since + притяжательное + прилагательное + существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "flight", "has", "just", "landed", "at", "the", "airport."],
+            correctAnswer: "The flight has just landed at the airport.",
+            correctFeedback: "Excellent! 'The flight has just landed at the airport.' is correct. Perfect travel arrival with 'just'!",
+            correctFeedbackRu: "Отлично! 'The flight has just landed at the airport.' верно. Идеальное прибытие в путешествии с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + preposition + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + предлог + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "have", "been", "exploring", "the", "city", "for", "the", "whole", "day."],
+            correctAnswer: "They have been exploring the city for the whole day.",
+            correctFeedback: "Great! 'They have been exploring the city for the whole day.' is correct. Wonderful urban adventure with 'for'!",
+            correctFeedbackRu: "Отлично! 'They have been exploring the city for the whole day.' верно. Замечательное городское приключение с 'for'!",
+            incorrectFeedback: "Try again. Remember: They + have + been + verb+ing + article + noun + for + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + have + been + глагол+ing + артикль + существительное + for + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "tried", "the", "local", "cuisine", "yet?"],
+            correctAnswer: "Have you tried the local cuisine yet?",
+            correctFeedback: "Perfect! 'Have you tried the local cuisine yet?' is correct. Excellent culinary adventure question with 'yet'!",
+            correctFeedbackRu: "Отлично! 'Have you tried the local cuisine yet?' верно. Превосходный вопрос о кулинарных приключениях с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Have + you + past participle + article + adjective + noun + yet + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + причастие прошедшего времени + артикль + прилагательное + существительное + yet + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Present Perfect - Sentence Building - Family and Personal Life
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page7'] = {
+    title: "Present Perfect - Family and Personal Life",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "parents", "have", "been", "married", "for", "thirty", "years."],
+            correctAnswer: "My parents have been married for thirty years.",
+            correctFeedback: "Perfect! 'My parents have been married for thirty years.' is correct. Beautiful family milestone with 'for'!",
+            correctFeedbackRu: "Отлично! 'My parents have been married for thirty years.' верно. Прекрасная семейная веха с 'for'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + have + been + past participle + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + have + been + причастие прошедшего времени + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "never", "argued", "with", "my", "best", "friend."],
+            correctAnswer: "I have never argued with my best friend.",
+            correctFeedback: "Excellent! 'I have never argued with my best friend.' is correct. Wonderful friendship harmony with 'never'!",
+            correctFeedbackRu: "Отлично! 'I have never argued with my best friend.' верно. Замечательная гармония в дружбе с 'never'!",
+            incorrectFeedback: "Try again. Remember: I + have + never + past participle + preposition + possessive + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + never + причастие прошедшего времени + предлог + притяжательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "children", "have", "just", "finished", "their", "school", "project."],
+            correctAnswer: "The children have just finished their school project.",
+            correctFeedback: "Great! 'The children have just finished their school project.' is correct. Perfect academic achievement with 'just'!",
+            correctFeedbackRu: "Отлично! 'The children have just finished their school project.' верно. Идеальное академическое достижение с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + have + just + past participle + possessive + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + have + just + причастие прошедшего времени + притяжательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "organized", "a", "surprise", "party?"],
+            correctAnswer: "Have you ever organized a surprise party?",
+            correctFeedback: "Perfect! 'Have you ever organized a surprise party?' is correct. Exciting event planning question with 'ever'!",
+            correctFeedbackRu: "Отлично! 'Have you ever organized a surprise party?' верно. Захватывающий вопрос о планировании мероприятий с 'ever'!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + article + adjective + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + артикль + прилагательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "already", "prepared", "dinner", "for", "the", "family."],
+            correctAnswer: "She has already prepared dinner for the family.",
+            correctFeedback: "Excellent! 'She has already prepared dinner for the family.' is correct. Great family care with 'already'!",
+            correctFeedbackRu: "Отлично! 'She has already prepared dinner for the family.' верно. Отличная забота о семье с 'already'!",
+            incorrectFeedback: "Try again. Remember: She + has + already + past participle + noun + preposition + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + already + причастие прошедшего времени + существительное + предлог + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "grandmother", "hasn't", "visited", "us", "yet."],
+            correctAnswer: "My grandmother hasn't visited us yet.",
+            correctFeedback: "Great! 'My grandmother hasn't visited us yet.' is correct. Perfect family expectation with 'yet'!",
+            correctFeedbackRu: "Отлично! 'My grandmother hasn't visited us yet.' верно. Идеальное семейное ожидание с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + hasn't + past participle + pronoun + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + hasn't + причастие прошедшего времени + местоимение + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "been", "living", "in", "this", "neighborhood", "since", "we", "moved", "here."],
+            correctAnswer: "We have been living in this neighborhood since we moved here.",
+            correctFeedback: "Perfect! 'We have been living in this neighborhood since we moved here.' is correct. Beautiful family history with 'since'!",
+            correctFeedbackRu: "Отлично! 'We have been living in this neighborhood since we moved here.' верно. Прекрасная семейная история с 'since'!",
+            incorrectFeedback: "Try again. Remember: We + have + been + verb+ing + preposition + determiner + noun + since + we + past participle + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + been + глагол+ing + предлог + определитель + существительное + since + we + причастие прошедшего времени + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "brother", "has", "just", "gotten", "his", "driver's", "license."],
+            correctAnswer: "My brother has just gotten his driver's license.",
+            correctFeedback: "Excellent! 'My brother has just gotten his driver's license.' is correct. Great family milestone with 'just'!",
+            correctFeedbackRu: "Отлично! 'My brother has just gotten his driver's license.' верно. Отличная семейная веха с 'just'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + just + past participle + possessive + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + just + причастие прошедшего времени + притяжательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "have", "been", "planning", "their", "wedding", "for", "eight", "months."],
+            correctAnswer: "They have been planning their wedding for eight months.",
+            correctFeedback: "Great! 'They have been planning their wedding for eight months.' is correct. Wonderful wedding preparation with 'for'!",
+            correctFeedbackRu: "Отлично! 'They have been planning their wedding for eight months.' верно. Замечательная подготовка к свадьбе с 'for'!",
+            incorrectFeedback: "Try again. Remember: They + have + been + verb+ing + possessive + noun + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + have + been + глагол+ing + притяжательное + существительное + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "celebrated", "your", "birthday", "yet?"],
+            correctAnswer: "Have you celebrated your birthday yet?",
+            correctFeedback: "Perfect! 'Have you celebrated your birthday yet?' is correct. Excellent personal celebration question with 'yet'!",
+            correctFeedbackRu: "Отлично! 'Have you celebrated your birthday yet?' верно. Превосходный вопрос о личном празднике с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Have + you + past participle + possessive + noun + yet + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + причастие прошедшего времени + притяжательное + существительное + yet + ?"
+        }
+    ]
+};
+/* ============================================
+Page 8: Present Perfect - Sentence Building - Health and Lifestyle
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page8'] = {
+    title: "Present Perfect - Health and Lifestyle",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "never", "broken", "a", "bone", "in", "my", "body."],
+            correctAnswer: "I have never broken a bone in my body.",
+            correctFeedback: "Perfect! 'I have never broken a bone in my body.' is correct. Great health record with 'never'!",
+            correctFeedbackRu: "Отлично! 'I have never broken a bone in my body.' верно. Отличная медицинская карта с 'never'!",
+            incorrectFeedback: "Try again. Remember: I + have + never + past participle + article + noun + preposition + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + never + причастие прошедшего времени + артикль + существительное + предлог + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "doctor", "has", "just", "examined", "the", "patient."],
+            correctAnswer: "The doctor has just examined the patient.",
+            correctFeedback: "Excellent! 'The doctor has just examined the patient.' is correct. Perfect medical timing with 'just'!",
+            correctFeedbackRu: "Отлично! 'The doctor has just examined the patient.' верно. Идеальное медицинское время с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "been", "exercising", "regularly", "for", "six", "months."],
+            correctAnswer: "She has been exercising regularly for six months.",
+            correctFeedback: "Great! 'She has been exercising regularly for six months.' is correct. Wonderful fitness commitment with 'for'!",
+            correctFeedbackRu: "Отлично! 'She has been exercising regularly for six months.' верно. Замечательная приверженность фитнесу с 'for'!",
+            incorrectFeedback: "Try again. Remember: She + has + been + verb+ing + adverb + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + been + глагол+ing + наречие + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "run", "a", "marathon?"],
+            correctAnswer: "Have you ever run a marathon?",
+            correctFeedback: "Perfect! 'Have you ever run a marathon?' is correct. Exciting athletic challenge question with 'ever'!",
+            correctFeedbackRu: "Отлично! 'Have you ever run a marathon?' верно. Захватывающий вопрос об атлетическом вызове с 'ever'!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + article + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + артикль + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "grandfather", "has", "already", "recovered", "from", "his", "surgery."],
+            correctAnswer: "My grandfather has already recovered from his surgery.",
+            correctFeedback: "Excellent! 'My grandfather has already recovered from his surgery.' is correct. Wonderful health recovery with 'already'!",
+            correctFeedbackRu: "Отлично! 'My grandfather has already recovered from his surgery.' верно. Замечательное восстановление здоровья с 'already'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + already + past participle + preposition + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + already + причастие прошедшего времени + предлог + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "haven't", "been", "to", "the", "dentist", "yet."],
+            correctAnswer: "I haven't been to the dentist yet.",
+            correctFeedback: "Great! 'I haven't been to the dentist yet.' is correct. Important health reminder with 'yet'!",
+            correctFeedbackRu: "Отлично! 'I haven't been to the dentist yet.' верно. Важное напоминание о здоровье с 'yet'!",
+            incorrectFeedback: "Try again. Remember: I + haven't + been + preposition + article + noun + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + haven't + been + предлог + артикль + существительное + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "been", "eating", "healthy", "food", "since", "January."],
+            correctAnswer: "We have been eating healthy food since January.",
+            correctFeedback: "Perfect! 'We have been eating healthy food since January.' is correct. Excellent nutrition commitment with 'since'!",
+            correctFeedbackRu: "Отлично! 'We have been eating healthy food since January.' верно. Превосходная приверженность питанию с 'since'!",
+            incorrectFeedback: "Try again. Remember: We + have + been + verb+ing + adjective + noun + since + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + been + глагол+ing + прилагательное + существительное + since + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "gym", "has", "just", "opened", "a", "new", "fitness", "class."],
+            correctAnswer: "The gym has just opened a new fitness class.",
+            correctFeedback: "Excellent! 'The gym has just opened a new fitness class.' is correct. Great fitness opportunity with 'just'!",
+            correctFeedbackRu: "Отлично! 'The gym has just opened a new fitness class.' верно. Отличная фитнес-возможность с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + article + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + артикль + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "have", "been", "practicing", "yoga", "for", "two", "years."],
+            correctAnswer: "They have been practicing yoga for two years.",
+            correctFeedback: "Great! 'They have been practicing yoga for two years.' is correct. Wonderful wellness journey with 'for'!",
+            correctFeedbackRu: "Отлично! 'They have been practicing yoga for two years.' верно. Замечательное путешествие к здоровью с 'for'!",
+            incorrectFeedback: "Try again. Remember: They + have + been + verb+ing + noun + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + have + been + глагол+ing + существительное + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "taken", "your", "vitamins", "yet?"],
+            correctAnswer: "Have you taken your vitamins yet?",
+            correctFeedback: "Perfect! 'Have you taken your vitamins yet?' is correct. Important daily health question with 'yet'!",
+            correctFeedbackRu: "Отлично! 'Have you taken your vitamins yet?' верно. Важный ежедневный вопрос о здоровье с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Have + you + past participle + possessive + noun + yet + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + причастие прошедшего времени + притяжательное + существительное + yet + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Present Perfect - Sentence Building - Technology and Modern Life
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page9'] = {
+    title: "Present Perfect - Technology and Modern Life",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "never", "used", "a", "3D", "printer."],
+            correctAnswer: "I have never used a 3D printer.",
+            correctFeedback: "Perfect! 'I have never used a 3D printer.' is correct. Honest technology experience with 'never'!",
+            correctFeedbackRu: "Отлично! 'I have never used a 3D printer.' верно. Честный технологический опыт с 'never'!",
+            incorrectFeedback: "Try again. Remember: I + have + never + past participle + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + never + причастие прошедшего времени + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "company", "has", "just", "launched", "their", "new", "mobile", "app."],
+            correctAnswer: "The company has just launched their new mobile app.",
+            correctFeedback: "Excellent! 'The company has just launched their new mobile app.' is correct. Exciting tech release with 'just'!",
+            correctFeedbackRu: "Отлично! 'The company has just launched their new mobile app.' верно. Захватывающий технологический релиз с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + possessive + adjective + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + притяжательное + прилагательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "been", "working", "remotely", "since", "the", "pandemic", "started."],
+            correctAnswer: "She has been working remotely since the pandemic started.",
+            correctFeedback: "Great! 'She has been working remotely since the pandemic started.' is correct. Modern work adaptation with 'since'!",
+            correctFeedbackRu: "Отлично! 'She has been working remotely since the pandemic started.' верно. Современная адаптация работы с 'since'!",
+            incorrectFeedback: "Try again. Remember: She + has + been + verb+ing + adverb + since + article + noun + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + been + глагол+ing + наречие + since + артикль + существительное + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "attended", "a", "virtual", "meeting?"],
+            correctAnswer: "Have you ever attended a virtual meeting?",
+            correctFeedback: "Perfect! 'Have you ever attended a virtual meeting?' is correct. Modern communication question with 'ever'!",
+            correctFeedbackRu: "Отлично! 'Have you ever attended a virtual meeting?' верно. Современный вопрос о коммуникации с 'ever'!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + article + adjective + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + артикль + прилагательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "phone", "has", "already", "downloaded", "the", "latest", "update."],
+            correctAnswer: "My phone has already downloaded the latest update.",
+            correctFeedback: "Excellent! 'My phone has already downloaded the latest update.' is correct. Efficient technology with 'already'!",
+            correctFeedbackRu: "Отлично! 'My phone has already downloaded the latest update.' верно. Эффективная технология с 'already'!",
+            incorrectFeedback: "Try again. Remember: Possessive + noun + has + already + past participle + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + has + already + причастие прошедшего времени + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "haven't", "received", "the", "email", "confirmation", "yet."],
+            correctAnswer: "We haven't received the email confirmation yet.",
+            correctFeedback: "Great! 'We haven't received the email confirmation yet.' is correct. Digital communication expectation with 'yet'!",
+            correctFeedbackRu: "Отлично! 'We haven't received the email confirmation yet.' верно. Ожидание цифровой коммуникации с 'yet'!",
+            incorrectFeedback: "Try again. Remember: We + haven't + past participle + article + noun + noun + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + haven't + причастие прошедшего времени + артикль + существительное + существительное + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "been", "learning", "coding", "for", "three", "months."],
+            correctAnswer: "I have been learning coding for three months.",
+            correctFeedback: "Perfect! 'I have been learning coding for three months.' is correct. Great tech skill development with 'for'!",
+            correctFeedbackRu: "Отлично! 'I have been learning coding for three months.' верно. Отличное развитие технических навыков с 'for'!",
+            incorrectFeedback: "Try again. Remember: I + have + been + verb+ing + noun + for + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + been + глагол+ing + существительное + for + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "robot", "has", "just", "completed", "its", "first", "task."],
+            correctAnswer: "The robot has just completed its first task.",
+            correctFeedback: "Excellent! 'The robot has just completed its first task.' is correct. Exciting AI achievement with 'just'!",
+            correctFeedbackRu: "Отлично! 'The robot has just completed its first task.' верно. Захватывающее достижение ИИ с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + has + just + past participle + possessive + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + has + just + причастие прошедшего времени + притяжательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "have", "been", "developing", "this", "software", "since", "last", "summer."],
+            correctAnswer: "They have been developing this software since last summer.",
+            correctFeedback: "Great! 'They have been developing this software since last summer.' is correct. Impressive development timeline with 'since'!",
+            correctFeedbackRu: "Отлично! 'They have been developing this software since last summer.' верно. Впечатляющий график разработки с 'since'!",
+            incorrectFeedback: "Try again. Remember: They + have + been + verb+ing + determiner + noun + since + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + have + been + глагол+ing + определитель + существительное + since + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "updated", "your", "computer", "software", "yet?"],
+            correctAnswer: "Have you updated your computer software yet?",
+            correctFeedback: "Perfect! 'Have you updated your computer software yet?' is correct. Important system maintenance question with 'yet'!",
+            correctFeedbackRu: "Отлично! 'Have you updated your computer software yet?' верно. Важный вопрос об обслуживании системы с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Have + you + past participle + possessive + noun + noun + yet + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + причастие прошедшего времени + притяжательное + существительное + существительное + yet + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Present Perfect - Sentence Building - Final Comprehensive Review
+============================================ */
+window.grammarExercises['tenses']['present-perfect-time-markers-sentence-page10'] = {
+    title: "Present Perfect - Final Comprehensive Review",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "local", "library", "has", "been", "serving", "the", "community", "for", "over", "fifty", "years."],
+            correctAnswer: "The local library has been serving the community for over fifty years.",
+            correctFeedback: "Perfect! 'The local library has been serving the community for over fifty years.' is correct. Beautiful community service with 'for'!",
+            correctFeedbackRu: "Отлично! 'The local library has been serving the community for over fifty years.' верно. Прекрасное общественное служение с 'for'!",
+            incorrectFeedback: "Try again. Remember: Article + adjective + noun + has + been + verb+ing + article + noun + for + preposition + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + прилагательное + существительное + has + been + глагол+ing + артикль + существительное + for + предлог + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "have", "never", "experienced", "such", "excellent", "customer", "service."],
+            correctAnswer: "I have never experienced such excellent customer service.",
+            correctFeedback: "Excellent! 'I have never experienced such excellent customer service.' is correct. Wonderful service appreciation with 'never'!",
+            correctFeedbackRu: "Отлично! 'I have never experienced such excellent customer service.' верно. Замечательная оценка сервиса с 'never'!",
+            incorrectFeedback: "Try again. Remember: I + have + never + past participle + such + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + have + never + причастие прошедшего времени + such + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "construction", "team", "has", "just", "completed", "the", "new", "shopping", "center."],
+            correctAnswer: "The construction team has just completed the new shopping center.",
+            correctFeedback: "Great! 'The construction team has just completed the new shopping center.' is correct. Impressive project completion with 'just'!",
+            correctFeedbackRu: "Отлично! 'The construction team has just completed the new shopping center.' верно. Впечатляющее завершение проекта с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + noun + has + just + past participle + article + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + существительное + has + just + причастие прошедшего времени + артикль + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "ever", "volunteered", "for", "a", "charity", "organization?"],
+            correctAnswer: "Have you ever volunteered for a charity organization?",
+            correctFeedback: "Perfect! 'Have you ever volunteered for a charity organization?' is correct. Meaningful community involvement question with 'ever'!",
+            correctFeedbackRu: "Отлично! 'Have you ever volunteered for a charity organization?' верно. Значимый вопрос об участии в общественной жизни с 'ever'!",
+            incorrectFeedback: "Try again. Remember: Have + you + ever + past participle + preposition + article + noun + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + ever + причастие прошедшего времени + предлог + артикль + существительное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "elderly", "neighbor", "has", "already", "mastered", "online", "shopping."],
+            correctAnswer: "My elderly neighbor has already mastered online shopping.",
+            correctFeedback: "Excellent! 'My elderly neighbor has already mastered online shopping.' is correct. Inspiring digital adaptation with 'already'!",
+            correctFeedbackRu: "Отлично! 'My elderly neighbor has already mastered online shopping.' верно. Вдохновляющая цифровая адаптация с 'already'!",
+            incorrectFeedback: "Try again. Remember: Possessive + adjective + noun + has + already + past participle + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + прилагательное + существительное + has + already + причастие прошедшего времени + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "city", "council", "hasn't", "announced", "the", "new", "budget", "yet."],
+            correctAnswer: "The city council hasn't announced the new budget yet.",
+            correctFeedback: "Great! 'The city council hasn't announced the new budget yet.' is correct. Important civic expectation with 'yet'!",
+            correctFeedbackRu: "Отлично! 'The city council hasn't announced the new budget yet.' верно. Важное гражданское ожидание с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Article + noun + noun + hasn't + past participle + article + adjective + noun + yet.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + существительное + существительное + hasn't + причастие прошедшего времени + артикль + прилагательное + существительное + yet."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "has", "been", "teaching", "at", "this", "school", "since", "she", "graduated."],
+            correctAnswer: "She has been teaching at this school since she graduated.",
+            correctFeedback: "Perfect! 'She has been teaching at this school since she graduated.' is correct. Dedicated career path with 'since'!",
+            correctFeedbackRu: "Отлично! 'She has been teaching at this school since she graduated.' верно. Преданный карьерный путь с 'since'!",
+            incorrectFeedback: "Try again. Remember: She + has + been + verb+ing + preposition + determiner + noun + since + she + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + has + been + глагол+ing + предлог + определитель + существительное + since + she + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "small", "café", "has", "just", "won", "a", "local", "business", "award."],
+            correctAnswer: "The small café has just won a local business award.",
+            correctFeedback: "Excellent! 'The small café has just won a local business award.' is correct. Wonderful business recognition with 'just'!",
+            correctFeedbackRu: "Отлично! 'The small café has just won a local business award.' верно. Замечательное признание бизнеса с 'just'!",
+            incorrectFeedback: "Try again. Remember: Article + adjective + noun + has + just + past participle + article + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + прилагательное + существительное + has + just + причастие прошедшего времени + артикль + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["We", "have", "been", "supporting", "this", "environmental", "cause", "for", "many", "years."],
+            correctAnswer: "We have been supporting this environmental cause for many years.",
+            correctFeedback: "Great! 'We have been supporting this environmental cause for many years.' is correct. Admirable long-term commitment with 'for'!",
+            correctFeedbackRu: "Отлично! 'We have been supporting this environmental cause for many years.' верно. Восхитительная долгосрочная приверженность с 'for'!",
+            incorrectFeedback: "Try again. Remember: We + have + been + verb+ing + determiner + adjective + noun + for + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + have + been + глагол+ing + определитель + прилагательное + существительное + for + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "decided", "on", "your", "future", "career", "path", "yet?"],
+            correctAnswer: "Have you decided on your future career path yet?",
+            correctFeedback: "Perfect! 'Have you decided on your future career path yet?' is correct. Important life decision question with 'yet'!",
+            correctFeedbackRu: "Отлично! 'Have you decided on your future career path yet?' верно. Важный жизненный вопрос с 'yet'!",
+            incorrectFeedback: "Try again. Remember: Have + you + past participle + preposition + possessive + adjective + noun + noun + yet + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Have + you + причастие прошедшего времени + предлог + притяжательное + прилагательное + существительное + существительное + yet + ?"
+        }
+    ]
+};
+
+/* ============================================
+Console log to confirm data loading
+============================================ */
+console.log("Present Perfect Time Markers Sentence Building exercises (Pages 1-10) loaded successfully!");
+console.log("===== PRESENT PERFECT TIME MARKERS SENTENCE BUILDING PAGES 1-10 COMPLETED =====");
