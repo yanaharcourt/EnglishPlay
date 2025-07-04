@@ -2770,3 +2770,1214 @@ window.grammarExercises['past-tenses']['past-continuous-advanced-gap-page9'] = {
         }
     ]
 };
+
+/* ============================================
+Page 10: Past Continuous Advanced - Life-Changing Achievements and Legacy Building
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-gap-page10'] = {
+    title: "Past Continuous Advanced - Life-Changing Achievements and Legacy Building",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct past continuous form:",
+            questionRu: "Заполните предложение правильной формой past continuous:",
+            sentence: "The humanitarian doctor ____ medical care in war zones when she became the youngest person ever awarded the Nobel Peace Prize for her courage.",
+            correctAnswer: "was providing",
+            options: ["was providing", "provided", "had provided", "provides"],
+            correctFeedback: "Nobel courage! 'Was providing' captures that extraordinary medical bravery in conflict zones earning the world's highest recognition for peace!",
+            correctFeedbackRu: "Нобелевское мужество! 'Was providing' передает это необычайное медицинское мужество в зонах конфликтов, заслуживающее высшее мировое признание за мир!",
+            incorrectFeedback: "Honor the healing heroism! **Past continuous shows the ongoing life-saving work.** The doctor wasn't just helping occasionally - she was continuously providing medical care in the world's most dangerous places when her courage inspired global recognition. It's medicine that transcends borders and brings peace!",
+            incorrectFeedbackRu: "Чтите героизм исцеления! **Past continuous показывает продолжающуюся спасающую жизнь работу.** Доктор не просто помогала изредка - она непрерывно предоставляла медицинскую помощь в самых опасных местах мира, когда ее мужество вдохновило глобальное признание. Это медицина, которая преодолевает границы и приносит мир!"
+        },
+        {
+            question: "Fill in the gap with the appropriate past continuous form:",
+            questionRu: "Заполните пропуск подходящей формой past continuous:",
+            sentence: "The Olympic athlete ____ her training routine for four years when she broke three world records at the Games and inspired a generation.",
+            correctAnswer: "was perfecting",
+            options: ["was perfecting", "perfected", "had perfected", "perfects"],
+            correctFeedback: "Olympic glory! 'Was perfecting' shows that relentless athletic dedication achieving the impossible - multiple world records and inspiring millions!",
+            correctFeedbackRu: "Олимпийская слава! 'Was perfecting' показывает эту неустанную спортивную преданность, достигающую невозможного - множественные мировые рекорды и вдохновение миллионов!",
+            incorrectFeedback: "Feel the champion's journey! **Past continuous emphasizes the ongoing training perfection.** The athlete wasn't just exercising occasionally - she was continuously perfecting every detail for four years when her dedication rewarded her with Olympic immortality. It's perseverance that reaches for gold and touches souls!",
+            incorrectFeedbackRu: "Почувствуйте путь чемпиона! **Past continuous подчеркивает продолжающееся совершенствование тренировок.** Спортсменка не просто упражнялась изредка - она непрерывно совершенствовала каждую деталь четыре года, когда ее преданность вознаградила ее олимпийским бессмертием. Это настойчивость, которая тянется к золоту и трогает души!"
+        },
+        {
+            question: "Choose the correct past continuous form to complete the sentence:",
+            questionRu: "Выберите правильную форму past continuous, чтобы завершить предложение:",
+            sentence: "The environmental activist ____ ocean conservation campaigns when Time Magazine named her Person of the Year for saving marine ecosystems.",
+            correctAnswer: "was leading",
+            options: ["was leading", "led", "had led", "leads"],
+            correctFeedback: "Environmental leadership! 'Was leading' captures that ocean protection work achieving global recognition and transforming marine conservation forever!",
+            correctFeedbackRu: "Экологическое лидерство! 'Was leading' передает эту работу по защите океана, достигающую глобальное признание и трансформирующую морскую консервацию навсегда!",
+            incorrectFeedback: "Picture the ocean salvation! **Past continuous shows the ongoing conservation leadership.** The activist wasn't just protesting occasionally - she was continuously leading worldwide campaigns when her ocean protection work earned recognition as the most important environmental effort of our time. It's activism that saves the seas!",
+            incorrectFeedbackRu: "Представьте спасение океана! **Past continuous показывает продолжающееся природоохранное лидерство.** Активистка не просто протестовала изредка - она непрерывно возглавляла всемирные кампании, когда ее работа по защите океана заслужила признание как самые важные экологические усилия нашего времени. Это активизм, который спасает моря!"
+        },
+        {
+            question: "Complete with the correct past continuous form:",
+            questionRu: "Дополните правильной формой past continuous:",
+            sentence: "The space engineer ____ revolutionary rocket technology when her innovations enabled the first human colony on Mars.",
+            correctAnswer: "was designing",
+            options: ["was designing", "designed", "had designed", "designs"],
+            correctFeedback: "Space pioneering! 'Was designing' shows that aerospace innovation literally opening new worlds for human civilization and exploration!",
+            correctFeedbackRu: "Космическое пионерство! 'Was designing' показывает эту аэрокосмическую инновацию, буквально открывающую новые миры для человеческой цивилизации и исследований!",
+            incorrectFeedback: "Feel the cosmic achievement! **Past continuous emphasizes the ongoing technological design.** The engineer wasn't just building rockets occasionally - she was continuously designing revolutionary technology when her breakthrough made humanity a multi-planetary species. It's engineering that reaches for the stars!",
+            incorrectFeedbackRu: "Почувствуйте космическое достижение! **Past continuous подчеркивает продолжающееся технологическое проектирование.** Инженер не просто строила ракеты изредка - она непрерывно проектировала революционную технологию, когда ее прорыв сделал человечество многопланетным видом. Это инженерия, которая тянется к звездам!"
+        },
+        {
+            question: "Fill in the blank with the appropriate past continuous form:",
+            questionRu: "Заполните пробел подходящей формой past continuous:",
+            sentence: "The social justice lawyer ____ civil rights cases for decades when the Supreme Court cited her work as foundational to constitutional equality.",
+            correctAnswer: "was arguing",
+            options: ["was arguing", "argued", "had argued", "argues"],
+            correctFeedback: "Justice triumph! 'Was arguing' captures that lifelong legal dedication achieving constitutional recognition and advancing human rights for all!",
+            correctFeedbackRu: "Триумф справедливости! 'Was arguing' передает эту пожизненную юридическую преданность, достигающую конституционное признание и продвижение прав человека для всех!",
+            incorrectFeedback: "Honor the justice warrior! **Past continuous shows the ongoing legal advocacy.** The lawyer wasn't just fighting cases occasionally - she was continuously arguing for civil rights when the highest court recognized her work as essential to constitutional progress. It's law that liberates humanity!",
+            incorrectFeedbackRu: "Чтите воина справедливости! **Past continuous показывает продолжающуюся юридическую адвокацию.** Юрист не просто боролась с делами изредка - она непрерывно отстаивала гражданские права, когда высший суд признал ее работу как необходимую для конституционного прогресса. Это закон, который освобождает человечество!"
+        },
+        {
+            question: "Complete the sentence with the correct past continuous form:",
+            questionRu: "Дополните предложение правильной формой past continuous:",
+            sentence: "The renewable energy inventor ____ clean technology solutions when her inventions powered entire nations and eliminated their carbon emissions.",
+            correctAnswer: "was developing",
+            options: ["was developing", "developed", "had developed", "develops"],
+            correctFeedback: "Clean energy revolution! 'Was developing' shows that sustainable technology innovation achieving the impossible - carbon-free nations and climate salvation!",
+            correctFeedbackRu: "Революция чистой энергии! 'Was developing' показывает эту инновацию устойчивых технологий, достигающую невозможного - безуглеродные нации и спасение климата!",
+            incorrectFeedback: "Picture the green transformation! **Past continuous emphasizes the ongoing technological development.** The inventor wasn't just creating occasionally - she was continuously developing clean solutions when her breakthrough technologies made entire countries carbon-neutral. It's innovation that saves the planet!",
+            incorrectFeedbackRu: "Представьте зеленую трансформацию! **Past continuous подчеркивает продолжающуюся технологическую разработку.** Изобретательница не просто создавала изредка - она непрерывно разрабатывала чистые решения, когда ее прорывные технологии сделали целые страны углеродно-нейтральными. Это инновация, которая спасает планету!"
+        },
+        {
+            question: "Choose the correct past continuous form:",
+            questionRu: "Выберите правильную форму past continuous:",
+            sentence: "The medical researcher ____ cancer treatments when her breakthrough therapy achieved a ninety-five percent cure rate and saved millions of lives.",
+            correctAnswer: "was revolutionizing",
+            options: ["was revolutionizing", "revolutionized", "had revolutionized", "revolutionizes"],
+            correctFeedback: "Medical miracle! 'Was revolutionizing' captures that cancer research achieving the ultimate goal - transforming a death sentence into a curable condition!",
+            correctFeedbackRu: "Медицинское чудо! 'Was revolutionizing' передает это исследование рака, достигающее конечную цель - трансформацию смертного приговора в излечимое состояние!",
+            incorrectFeedback: "Feel the healing breakthrough! **Past continuous shows the ongoing medical revolution.** The researcher wasn't just studying cancer occasionally - she was continuously revolutionizing treatment approaches when her dedication transformed humanity's greatest medical challenge into hope. It's science that conquers death!",
+            incorrectFeedbackRu: "Почувствуйте прорыв исцеления! **Past continuous показывает продолжающуюся медицинскую революцию.** Исследователь не просто изучала рак изредка - она непрерывно революционизировала подходы к лечению, когда ее преданность трансформировала величайший медицинский вызов человечества в надежду. Это наука, которая побеждает смерть!"
+        },
+        {
+            question: "Fill in with the appropriate past continuous form:",
+            questionRu: "Заполните подходящей формой past continuous:",
+            sentence: "The education reformer ____ learning systems worldwide when her pedagogical innovations transformed how children learn and achieved universal literacy.",
+            correctAnswer: "was transforming",
+            options: ["was transforming", "transformed", "had transformed", "transforms"],
+            correctFeedback: "Educational legacy! 'Was transforming' shows that learning innovation achieving humanity's dream - every child on Earth learning to read and reaching their potential!",
+            correctFeedbackRu: "Образовательное наследие! 'Was transforming' показывает эту инновацию обучения, достигающую мечту человечества - каждый ребенок на Земле учится читать и достигает своего потенциала!",
+            incorrectFeedback: "Picture the learning revolution! **Past continuous emphasizes the ongoing educational transformation.** The reformer wasn't just changing schools occasionally - she was continuously transforming global education when her methods achieved what educators had dreamed of for centuries. It's teaching that unlocks human potential!",
+            incorrectFeedbackRu: "Представьте революцию обучения! **Past continuous подчеркивает продолжающуюся образовательную трансформацию.** Реформатор не просто меняла школы изредка - она непрерывно трансформировала глобальное образование, когда ее методы достигли того, о чем педагоги мечтали веками. Это преподавание, которое разблокирует человеческий потенциал!"
+        },
+        {
+            question: "Complete with the correct past continuous form:",
+            questionRu: "Дополните правильной формой past continuous:",
+            sentence: "The peace negotiator ____ diplomatic solutions between warring nations when her conflict resolution methods ended three major international wars.",
+            correctAnswer: "was crafting",
+            options: ["was crafting", "crafted", "had crafted", "crafts"],
+            correctFeedback: "Peace mastery! 'Was crafting' captures that diplomatic artistry achieving the ultimate goal - turning warfare into lasting peace and international cooperation!",
+            correctFeedbackRu: "Мастерство мира! 'Was crafting' передает это дипломатическое мастерство, достигающее конечную цель - превращение военных действий в длительный мир и международное сотрудничество!",
+            incorrectFeedback: "Honor the peacemaker! **Past continuous shows the ongoing diplomatic crafting.** The negotiator wasn't just talking occasionally - she was continuously crafting elegant solutions when her diplomatic genius transformed enemies into allies and wars into partnerships. It's diplomacy that heals the world!",
+            incorrectFeedbackRu: "Чтите миротворца! **Past continuous показывает продолжающееся дипломатическое создание.** Переговорщица не просто говорила изредка - она непрерывно создавала элегантные решения, когда ее дипломатический гений трансформировал врагов в союзников, а войны в партнерства. Это дипломатия, которая исцеляет мир!"
+        },
+        {
+            question: "Choose the appropriate past continuous form:",
+            questionRu: "Выберите подходящую форму past continuous:",
+            sentence: "The humanitarian innovator ____ poverty solutions in developing regions when her economic empowerment model lifted one billion people out of extreme poverty.",
+            correctAnswer: "was implementing",
+            options: ["was implementing", "implemented", "had implemented", "implements"],
+            correctFeedback: "Poverty elimination! 'Was implementing' shows that humanitarian innovation achieving the impossible - ending extreme poverty for one billion people!",
+            correctFeedbackRu: "Ликвидация бедности! 'Was implementing' показывает эту гуманитарную инновацию, достигающую невозможного - завершение крайней бедности для одного миллиарда людей!",
+            incorrectFeedback: "Feel the human triumph! **Past continuous emphasizes the ongoing solution implementation.** The innovator wasn't just helping occasionally - she was continuously implementing poverty solutions when her life's work achieved what many thought impossible - lifting a billion people to dignity and prosperity. It's compassion that transforms civilization!",
+            incorrectFeedbackRu: "Почувствуйте человеческий триумф! **Past continuous подчеркивает продолжающуюся реализацию решений.** Инноватор не просто помогала изредка - она непрерывно внедряла решения бедности, когда работа ее жизни достигла того, что многие считали невозможным - подняла миллиард людей к достоинству и процветанию. Это сострадание, которое трансформирует цивилизацию!"
+        }
+    ]
+};
+
+/* =============================================================================== */
+/* =========================Sentence Building Exercises========================== */
+
+/* ============================================
+Page 1: Past Continuous Advanced - Setting Atmospheric Scenes
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page1'] = {
+    title: "Past Continuous Advanced - Setting Atmospheric Scenes",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "rain", "was", "falling", "gently", "when", "she", "opened", "the", "window."],
+            correctAnswer: "The rain was falling gently when she opened the window.",
+            correctFeedback: "Perfect! 'The rain was falling gently when she opened the window.' creates a beautiful atmospheric scene with past continuous setting the mood!",
+            correctFeedbackRu: "Идеально! 'The rain was falling gently when she opened the window.' создает прекрасную атмосферную сцену с past continuous, задающим настроение!",
+            incorrectFeedback: "Try again. Remember: Subject + was/were + verb+ing + adverb + when + past simple clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + was/were + глагол+ing + наречие + when + предложение в past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["While", "the", "orchestra", "was", "tuning", "their", "instruments,", "the", "audience", "settled", "quietly."],
+            correctAnswer: "While the orchestra was tuning their instruments, the audience settled quietly.",
+            correctFeedback: "Excellent! 'While the orchestra was tuning their instruments, the audience settled quietly.' shows perfect use of past continuous for background activity!",
+            correctFeedbackRu: "Отлично! 'While the orchestra was tuning their instruments, the audience settled quietly.' показывает прекрасное использование past continuous для фоновой деятельности!",
+            incorrectFeedback: "Not quite right. Remember: While + subject + was/were + verb+ing, + subject + past simple verb.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: While + подлежащее + was/were + глагол+ing, + подлежащее + глагол в past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "candles", "were", "flickering", "mysteriously", "as", "the", "old", "clock", "struck", "midnight."],
+            correctAnswer: "The candles were flickering mysteriously as the old clock struck midnight.",
+            correctFeedback: "Brilliant! 'The candles were flickering mysteriously as the old clock struck midnight.' creates a perfect Gothic atmosphere with ongoing action!",
+            correctFeedbackRu: "Блестяще! 'The candles were flickering mysteriously as the old clock struck midnight.' создает идеальную готическую атмосферу с продолжающимся действием!",
+            incorrectFeedback: "Try again. Structure: Subject + were + verb+ing + adverb + as + subject + past simple verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Подлежащее + were + глагол+ing + наречие + as + подлежащее + глагол в past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Steam", "was", "rising", "from", "the", "hot", "coffee", "while", "she", "read", "the", "morning", "news."],
+            correctAnswer: "Steam was rising from the hot coffee while she read the morning news.",
+            correctFeedback: "Wonderful! 'Steam was rising from the hot coffee while she read the morning news.' perfectly captures a peaceful morning scene!",
+            correctFeedbackRu: "Замечательно! 'Steam was rising from the hot coffee while she read the morning news.' прекрасно передает мирную утреннюю сцену!",
+            incorrectFeedback: "Almost there! Remember: Subject + was + verb+ing + preposition phrase + while + subject + past simple.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Подлежащее + was + глагол+ing + предложная фраза + while + подлежащее + past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "waves", "were", "crashing", "rhythmically", "against", "the", "shore", "when", "the", "couple", "arrived."],
+            correctAnswer: "The waves were crashing rhythmically against the shore when the couple arrived.",
+            correctFeedback: "Perfect! 'The waves were crashing rhythmically against the shore when the couple arrived.' creates a romantic seaside atmosphere!",
+            correctFeedbackRu: "Идеально! 'The waves were crashing rhythmically against the shore when the couple arrived.' создает романтическую морскую атмосферу!",
+            incorrectFeedback: "Try again. Structure: Subject + were + verb+ing + adverb + preposition phrase + when + past simple clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Подлежащее + were + глагол+ing + наречие + предложная фраза + when + предложение в past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Golden", "sunlight", "was", "streaming", "through", "the", "cathedral", "windows", "during", "the", "ceremony."],
+            correctAnswer: "Golden sunlight was streaming through the cathedral windows during the ceremony.",
+            correctFeedback: "Magnificent! 'Golden sunlight was streaming through the cathedral windows during the ceremony.' creates a divine, sacred atmosphere!",
+            correctFeedbackRu: "Великолепно! 'Golden sunlight was streaming through the cathedral windows during the ceremony.' создает божественную, священную атмосферу!",
+            incorrectFeedback: "Not quite. Remember: Adjective + subject + was + verb+ing + preposition phrase + during + noun phrase.",
+            incorrectFeedbackRu: "Не совсем. Помните: Прилагательное + подлежащее + was + глагол+ing + предложная фраза + during + именная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "vintage", "record", "player", "was", "spinning", "jazz", "melodies", "as", "guests", "admired", "the", "art."],
+            correctAnswer: "The vintage record player was spinning jazz melodies as guests admired the art.",
+            correctFeedback: "Sophisticated! 'The vintage record player was spinning jazz melodies as guests admired the art.' captures elegant cultural atmosphere!",
+            correctFeedbackRu: "Изысканно! 'The vintage record player was spinning jazz melodies as guests admired the art.' передает элегантную культурную атмосферу!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + object + as + subject + past simple.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + дополнение + as + подлежащее + past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Street", "lamps", "were", "casting", "warm", "shadows", "while", "the", "couple", "walked", "home."],
+            correctAnswer: "Street lamps were casting warm shadows while the couple walked home.",
+            correctFeedback: "Romantic! 'Street lamps were casting warm shadows while the couple walked home.' creates a perfect evening atmosphere for love!",
+            correctFeedbackRu: "Романтично! 'Street lamps were casting warm shadows while the couple walked home.' создает идеальную вечернюю атмосферу для любви!",
+            incorrectFeedback: "Almost right! Remember: Subject + were + verb+ing + adjective + object + while + subject + past simple.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Подлежащее + were + глагол+ing + прилагательное + дополнение + while + подлежащее + past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "grandfather", "clock", "was", "ticking", "solemnly", "when", "the", "family", "gathered", "for", "dinner."],
+            correctAnswer: "The grandfather clock was ticking solemnly when the family gathered for dinner.",
+            correctFeedback: "Heartwarming! 'The grandfather clock was ticking solemnly when the family gathered for dinner.' captures precious family moments!",
+            correctFeedbackRu: "Душевно! 'The grandfather clock was ticking solemnly when the family gathered for dinner.' передает драгоценные семейные моменты!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adverb + when + past simple clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + наречие + when + предложение в past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Ancient", "trees", "were", "swaying", "gracefully", "in", "the", "evening", "breeze", "as", "children", "played."],
+            correctAnswer: "Ancient trees were swaying gracefully in the evening breeze as children played.",
+            correctFeedback: "Beautiful! 'Ancient trees were swaying gracefully in the evening breeze as children played.' creates a magical childhood scene!",
+            correctFeedbackRu: "Прекрасно! 'Ancient trees were swaying gracefully in the evening breeze as children played.' создает волшебную детскую сцену!",
+            incorrectFeedback: "Not quite right. Remember: Adjective + subject + were + verb+ing + adverb + preposition phrase + as + subject + past simple.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Прилагательное + подлежащее + were + глагол+ing + наречие + предложная фраза + as + подлежащее + past simple."
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Past Continuous Advanced - Professional and Academic Contexts
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page2'] = {
+    title: "Past Continuous Advanced - Professional and Academic Contexts",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "surgeon", "was", "performing", "a", "delicate", "operation", "when", "the", "emergency", "generator", "activated."],
+            correctAnswer: "The surgeon was performing a delicate operation when the emergency generator activated.",
+            correctFeedback: "Professional! 'The surgeon was performing a delicate operation when the emergency generator activated.' shows ongoing critical work meeting unexpected challenges!",
+            correctFeedbackRu: "Профессионально! 'The surgeon was performing a delicate operation when the emergency generator activated.' показывает продолжающуюся критическую работу, встречающуюся с неожиданными вызовами!",
+            incorrectFeedback: "Try again. Structure: Subject + was + verb+ing + article + adjective + object + when + subject + past simple.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Подлежащее + was + глагол+ing + артикль + прилагательное + дополнение + when + подлежащее + past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["While", "the", "research", "team", "was", "analyzing", "clinical", "data,", "they", "discovered", "a", "breakthrough", "pattern."],
+            correctAnswer: "While the research team was analyzing clinical data, they discovered a breakthrough pattern.",
+            correctFeedback: "Scientific! 'While the research team was analyzing clinical data, they discovered a breakthrough pattern.' captures the excitement of medical discovery!",
+            correctFeedbackRu: "Научно! 'While the research team was analyzing clinical data, they discovered a breakthrough pattern.' передает волнение медицинского открытия!",
+            incorrectFeedback: "Not quite right. Remember: While + subject + was + verb+ing + adjective + object, + subject + past simple + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: While + подлежащее + was + глагол+ing + прилагательное + дополнение, + подлежащее + past simple + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "legal", "team", "was", "researching", "constitutional", "precedents", "when", "the", "Supreme", "Court", "announced", "their", "decision."],
+            correctAnswer: "The legal team was researching constitutional precedents when the Supreme Court announced their decision.",
+            correctFeedback: "Legal excellence! 'The legal team was researching constitutional precedents when the Supreme Court announced their decision.' shows dedicated legal scholarship!",
+            correctFeedbackRu: "Юридическое превосходство! 'The legal team was researching constitutional precedents when the Supreme Court announced their decision.' показывает преданную правовую науку!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + proper noun + past simple.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + собственное имя + past simple."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "software", "engineer", "was", "debugging", "complex", "code", "while", "hackers", "attempted", "to", "breach", "the", "system."],
+            correctAnswer: "The software engineer was debugging complex code while hackers attempted to breach the system.",
+            correctFeedback: "Tech heroism! 'The software engineer was debugging complex code while hackers attempted to breach the system.' shows cybersecurity protection in action!",
+            correctFeedbackRu: "Технологический героизм! 'The software engineer was debugging complex code while hackers attempted to breach the system.' показывает защиту кибербезопасности в действии!",
+            incorrectFeedback: "Almost there! Remember: Subject + was + verb+ing + adjective + object + while + subject + past simple + infinitive phrase.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Подлежащее + was + глагол+ing + прилагательное + дополнение + while + подлежащее + past simple + инфинитивная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "investment", "banker", "was", "monitoring", "global", "markets", "when", "Asian", "trading", "opened", "with", "volatility."],
+            correctAnswer: "The investment banker was monitoring global markets when Asian trading opened with volatility.",
+            correctFeedback: "Financial vigilance! 'The investment banker was monitoring global markets when Asian trading opened with volatility.' captures the intensity of global finance!",
+            correctFeedbackRu: "Финансовая бдительность! 'The investment banker was monitoring global markets when Asian trading opened with volatility.' передает интенсивность глобальных финансов!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + adjective + subject + past simple + preposition phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + прилагательное + подлежащее + past simple + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["While", "the", "aerospace", "engineer", "was", "reviewing", "flight", "calculations,", "mission", "control", "confirmed", "successful", "Mars", "landing."],
+            correctAnswer: "While the aerospace engineer was reviewing flight calculations, mission control confirmed successful Mars landing.",
+            correctFeedback: "Space triumph! 'While the aerospace engineer was reviewing flight calculations, mission control confirmed successful Mars landing.' celebrates human space achievement!",
+            correctFeedbackRu: "Космический триумф! 'While the aerospace engineer was reviewing flight calculations, mission control confirmed successful Mars landing.' празднует человеческие космические достижения!",
+            incorrectFeedback: "Not quite right. Remember: While + subject + was + verb+ing + adjective + object, + subject + past simple + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: While + подлежащее + was + глагол+ing + прилагательное + дополнение, + подлежащее + past simple + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "pharmaceutical", "scientists", "were", "testing", "molecular", "compounds", "when", "they", "achieved", "the", "cancer", "breakthrough."],
+            correctAnswer: "The pharmaceutical scientists were testing molecular compounds when they achieved the cancer breakthrough.",
+            correctFeedback: "Medical breakthrough! 'The pharmaceutical scientists were testing molecular compounds when they achieved the cancer breakthrough.' shows life-saving research!",
+            correctFeedbackRu: "Медицинский прорыв! 'The pharmaceutical scientists were testing molecular compounds when they achieved the cancer breakthrough.' показывает спасающие жизнь исследования!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + were + verb+ing + adjective + object + when + subject + past simple + article + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + were + глагол+ing + прилагательное + дополнение + when + подлежащее + past simple + артикль + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "university", "professor", "was", "completing", "her", "groundbreaking", "thesis", "while", "Oxford", "offered", "her", "a", "faculty", "position."],
+            correctAnswer: "The university professor was completing her groundbreaking thesis while Oxford offered her a faculty position.",
+            correctFeedback: "Academic achievement! 'The university professor was completing her groundbreaking thesis while Oxford offered her a faculty position.' celebrates scholarly excellence!",
+            correctFeedbackRu: "Академическое достижение! 'The university professor was completing her groundbreaking thesis while Oxford offered her a faculty position.' празднует научное превосходство!",
+            incorrectFeedback: "Almost there! Remember: Subject + was + verb+ing + possessive + adjective + object + while + proper noun + past simple + indirect object + article + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Подлежащее + was + глагол+ing + притяжательное + прилагательное + дополнение + while + собственное имя + past simple + косвенное дополнение + артикль + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "climate", "scientist", "was", "documenting", "atmospheric", "patterns", "when", "her", "research", "influenced", "international", "policy."],
+            correctAnswer: "The climate scientist was documenting atmospheric patterns when her research influenced international policy.",
+            correctFeedback: "Environmental impact! 'The climate scientist was documenting atmospheric patterns when her research influenced international policy.' shows science shaping global policy!",
+            correctFeedbackRu: "Экологическое влияние! 'The climate scientist was documenting atmospheric patterns when her research influenced international policy.' показывает, как наука формирует глобальную политику!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + possessive + subject + past simple + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "quantum", "physics", "team", "was", "conducting", "particle", "experiments", "while", "discovering", "evidence", "that", "redefined", "reality."],
+            correctAnswer: "The quantum physics team was conducting particle experiments while discovering evidence that redefined reality.",
+            correctFeedback: "Scientific revolution! 'The quantum physics team was conducting particle experiments while discovering evidence that redefined reality.' captures groundbreaking discovery!",
+            correctFeedbackRu: "Научная революция! 'The quantum physics team was conducting particle experiments while discovering evidence that redefined reality.' передает революционное открытие!",
+            incorrectFeedback: "Not quite right. Remember: Subject + was + verb+ing + adjective + object + while + verb+ing + object + that + past simple + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Подлежащее + was + глагол+ing + прилагательное + дополнение + while + глагол+ing + дополнение + that + past simple + дополнение."
+        }
+    ]
+};
+/* ============================================
+Page 3: Past Continuous Advanced - Creative and Cultural Developments
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page3'] = {
+    title: "Past Continuous Advanced - Creative and Cultural Developments",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "contemporary", "artist", "was", "creating", "her", "installation", "when", "the", "museum", "curator", "expressed", "interest."],
+            correctAnswer: "The contemporary artist was creating her installation when the museum curator expressed interest.",
+            correctFeedback: "Artistic recognition! 'The contemporary artist was creating her installation when the museum curator expressed interest.' shows creative vision meeting opportunity!",
+            correctFeedbackRu: "Художественное признание! 'The contemporary artist was creating her installation when the museum curator expressed interest.' показывает творческое видение, встречающееся с возможностью!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + possessive + object + when + article + adjective + subject + past simple + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + притяжательное + дополнение + when + артикль + прилагательное + подлежащее + past simple + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["While", "the", "indie", "filmmaker", "was", "editing", "her", "documentary,", "it", "was", "selected", "for", "the", "international", "festival."],
+            correctAnswer: "While the indie filmmaker was editing her documentary, it was selected for the international festival.",
+            correctFeedback: "Cinematic triumph! 'While the indie filmmaker was editing her documentary, it was selected for the international festival.' celebrates independent cinema success!",
+            correctFeedbackRu: "Кинематографический триумф! 'While the indie filmmaker was editing her documentary, it was selected for the international festival.' празднует успех независимого кино!",
+            incorrectFeedback: "Not quite right. Remember: While + subject + was + verb+ing + possessive + object, + subject + was + past participle + preposition + article + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: While + подлежащее + was + глагол+ing + притяжательное + дополнение, + подлежащее + was + причастие прошедшего времени + предлог + артикль + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "symphony", "composer", "was", "orchestrating", "the", "final", "movement", "when", "Vienna", "Philharmonic", "commissioned", "her", "next", "work."],
+            correctAnswer: "The symphony composer was orchestrating the final movement when Vienna Philharmonic commissioned her next work.",
+            correctFeedback: "Musical mastery! 'The symphony composer was orchestrating the final movement when Vienna Philharmonic commissioned her next work.' shows artistic excellence recognized!",
+            correctFeedbackRu: "Музыкальное мастерство! 'The symphony composer was orchestrating the final movement when Vienna Philharmonic commissioned her next work.' показывает признанное художественное превосходство!",
+            incorrectFeedback: "Try again. Structure: Subject + was + verb+ing + article + adjective + object + when + proper noun + past simple + possessive + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Подлежащее + was + глагол+ing + артикль + прилагательное + дополнение + when + собственное имя + past simple + притяжательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "fashion", "designer", "was", "developing", "sustainable", "concepts", "while", "major", "brands", "approached", "her", "for", "collaborations."],
+            correctAnswer: "The fashion designer was developing sustainable concepts while major brands approached her for collaborations.",
+            correctFeedback: "Fashion innovation! 'The fashion designer was developing sustainable concepts while major brands approached her for collaborations.' shows eco-fashion leadership!",
+            correctFeedbackRu: "Модные инновации! 'The fashion designer was developing sustainable concepts while major brands approached her for collaborations.' показывает лидерство в эко-моде!",
+            incorrectFeedback: "Almost there! Remember: Subject + was + verb+ing + adjective + object + while + adjective + subject + past simple + object + preposition + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Подлежащее + was + глагол+ing + прилагательное + дополнение + while + прилагательное + подлежащее + past simple + дополнение + предлог + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "architectural", "team", "was", "finalizing", "cultural", "center", "plans", "when", "the", "city", "approved", "additional", "funding."],
+            correctAnswer: "The architectural team was finalizing cultural center plans when the city approved additional funding.",
+            correctFeedback: "Architectural vision! 'The architectural team was finalizing cultural center plans when the city approved additional funding.' shows community investment in culture!",
+            correctFeedbackRu: "Архитектурное видение! 'The architectural team was finalizing cultural center plans when the city approved additional funding.' показывает общественные инвестиции в культуру!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + adjective + object + when + article + subject + past simple + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + артикль + подлежащее + past simple + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "literary", "magazine", "editor", "was", "reviewing", "emerging", "writers'", "submissions", "when", "a", "publishing", "house", "offered", "national", "distribution."],
+            correctAnswer: "The literary magazine editor was reviewing emerging writers' submissions when a publishing house offered national distribution.",
+            correctFeedback: "Literary discovery! 'The literary magazine editor was reviewing emerging writers' submissions when a publishing house offered national distribution.' shows talent cultivation reaching wider audience!",
+            correctFeedbackRu: "Литературное открытие! 'The literary magazine editor was reviewing emerging writers' submissions when a publishing house offered national distribution.' показывает развитие таланта, достигающее более широкой аудитории!",
+            incorrectFeedback: "Not quite right. Remember: Subject + was + verb+ing + adjective + possessive + object + when + article + adjective + subject + past simple + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Подлежащее + was + глагол+ing + прилагательное + притяжательное + дополнение + when + артикль + прилагательное + подлежащее + past simple + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "dance", "choreographer", "was", "creating", "contemporary", "movements", "while", "international", "critics", "praised", "her", "innovative", "interpretation."],
+            correctAnswer: "The dance choreographer was creating contemporary movements while international critics praised her innovative interpretation.",
+            correctFeedback: "Dance artistry! 'The dance choreographer was creating contemporary movements while international critics praised her innovative interpretation.' captures creative recognition in motion!",
+            correctFeedbackRu: "Танцевальное мастерство! 'The dance choreographer was creating contemporary movements while international critics praised her innovative interpretation.' передает творческое признание в движении!",
+            incorrectFeedback: "Try again. Structure: Subject + was + verb+ing + adjective + object + while + adjective + subject + past simple + possessive + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Подлежащее + was + глагол+ing + прилагательное + дополнение + while + прилагательное + подлежащее + past simple + притяжательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "ceramic", "artist", "was", "blending", "traditional", "techniques", "with", "modern", "designs", "when", "her", "work", "was", "featured", "internationally."],
+            correctAnswer: "The ceramic artist was blending traditional techniques with modern designs when her work was featured internationally.",
+            correctFeedback: "Artistic fusion! 'The ceramic artist was blending traditional techniques with modern designs when her work was featured internationally.' shows tradition meeting innovation!",
+            correctFeedbackRu: "Художественное слияние! 'The ceramic artist was blending traditional techniques with modern designs when her work was featured internationally.' показывает традицию, встречающуюся с инновацией!",
+            incorrectFeedback: "Almost there! Remember: Subject + was + verb+ing + adjective + object + preposition + adjective + object + when + possessive + subject + was + past participle + adverb.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + when + притяжательное + подлежащее + was + причастие прошедшего времени + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "street", "art", "collective", "was", "painting", "social", "messages", "when", "the", "mayor", "invited", "them", "to", "create", "city", "installations."],
+            correctAnswer: "The street art collective was painting social messages when the mayor invited them to create city installations.",
+            correctFeedback: "Urban artistry! 'The street art collective was painting social messages when the mayor invited them to create city installations.' shows grassroots art gaining official recognition!",
+            correctFeedbackRu: "Городское мастерство! 'The street art collective was painting social messages when the mayor invited them to create city installations.' показывает низовое искусство, получающее официальное признание!",
+            incorrectFeedback: "Try again. Structure: Subject + was + verb+ing + adjective + object + when + article + subject + past simple + object + infinitive + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Подлежащее + was + глагол+ing + прилагательное + дополнение + when + артикль + подлежащее + past simple + дополнение + инфинитив + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "graphic", "novelist", "was", "completing", "her", "debut", "comic", "series", "while", "publishers", "competed", "for", "the", "rights."],
+            correctAnswer: "The graphic novelist was completing her debut comic series while publishers competed for the rights.",
+            correctFeedback: "Visual storytelling! 'The graphic novelist was completing her debut comic series while publishers competed for the rights.' shows artistic dedication meeting industry excitement!",
+            correctFeedbackRu: "Визуальное повествование! 'The graphic novelist was completing her debut comic series while publishers competed for the rights.' показывает художественную преданность, встречающуюся с волнением индустрии!",
+            incorrectFeedback: "Not quite right. Remember: Subject + was + verb+ing + possessive + adjective + adjective + object + while + subject + past simple + preposition + article + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Подлежащее + was + глагол+ing + притяжательное + прилагательное + прилагательное + дополнение + while + подлежащее + past simple + предлог + артикль + дополнение."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Past Continuous Advanced - Global Impact and Social Innovation
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page4'] = {
+    title: "Past Continuous Advanced - Global Impact and Social Innovation",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Environmental", "activists", "were", "organizing", "ocean", "cleanup", "initiatives", "when", "corporations", "pledged", "to", "eliminate", "plastic", "waste."],
+            correctAnswer: "Environmental activists were organizing ocean cleanup initiatives when corporations pledged to eliminate plastic waste.",
+            correctFeedback: "Environmental leadership! 'Environmental activists were organizing ocean cleanup initiatives when corporations pledged to eliminate plastic waste.' shows grassroots action inspiring corporate responsibility!",
+            correctFeedbackRu: "Экологическое лидерство! 'Environmental activists were organizing ocean cleanup initiatives when corporations pledged to eliminate plastic waste.' показывает низовые действия, вдохновляющие корпоративную ответственность!",
+            incorrectFeedback: "Try again. Structure: Adjective + subject + were + verb+ing + adjective + adjective + object + when + subject + past simple + infinitive phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Прилагательное + подлежащее + were + глагол+ing + прилагательное + прилагательное + дополнение + when + подлежащее + past simple + инфинитивная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "renewable", "energy", "consortium", "was", "improving", "solar", "panel", "efficiency", "while", "production", "costs", "decreased", "dramatically."],
+            correctAnswer: "The renewable energy consortium was improving solar panel efficiency while production costs decreased dramatically.",
+            correctFeedback: "Clean energy breakthrough! 'The renewable energy consortium was improving solar panel efficiency while production costs decreased dramatically.' captures sustainable technology advancement!",
+            correctFeedbackRu: "Прорыв чистой энергии! 'The renewable energy consortium was improving solar panel efficiency while production costs decreased dramatically.' передает прогресс устойчивых технологий!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + while + adjective + subject + past simple + adverb.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + прилагательное + подлежащее + past simple + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["International", "diplomats", "were", "negotiating", "climate", "agreements", "when", "unprecedented", "global", "cooperation", "emerged", "for", "environmental", "protection."],
+            correctAnswer: "International diplomats were negotiating climate agreements when unprecedented global cooperation emerged for environmental protection.",
+            correctFeedback: "Global cooperation! 'International diplomats were negotiating climate agreements when unprecedented global cooperation emerged for environmental protection.' shows diplomatic persistence achieving unity!",
+            correctFeedbackRu: "Глобальное сотрудничество! 'International diplomats were negotiating climate agreements when unprecedented global cooperation emerged for environmental protection.' показывает дипломатическую настойчивость, достигающую единства!",
+            incorrectFeedback: "Try again. Structure: Adjective + subject + were + verb+ing + adjective + object + when + adjective + adjective + subject + past simple + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Прилагательное + подлежащее + were + глагол+ing + прилагательное + дополнение + when + прилагательное + прилагательное + подлежащее + past simple + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Urban", "planners", "were", "developing", "sustainable", "city", "designs", "while", "smart", "technology", "transformed", "metropolitan", "infrastructure."],
+            correctAnswer: "Urban planners were developing sustainable city designs while smart technology transformed metropolitan infrastructure.",
+            correctFeedback: "Urban innovation! 'Urban planners were developing sustainable city designs while smart technology transformed metropolitan infrastructure.' captures future-ready city planning!",
+            correctFeedbackRu: "Городские инновации! 'Urban planners were developing sustainable city designs while smart technology transformed metropolitan infrastructure.' передает планирование городов, готовых к будущему!",
+            incorrectFeedback: "Almost there! Remember: Adjective + subject + were + verb+ing + adjective + adjective + object + while + adjective + subject + past simple + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Прилагательное + подлежащее + were + глагол+ing + прилагательное + прилагательное + дополнение + while + прилагательное + подлежащее + past simple + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Agricultural", "scientists", "were", "breeding", "drought-resistant", "crops", "when", "climate", "adaptation", "became", "critical", "for", "food", "security."],
+            correctAnswer: "Agricultural scientists were breeding drought-resistant crops when climate adaptation became critical for food security.",
+            correctFeedback: "Agricultural innovation! 'Agricultural scientists were breeding drought-resistant crops when climate adaptation became critical for food security.' shows science preparing for climate challenges!",
+            correctFeedbackRu: "Сельскохозяйственные инновации! 'Agricultural scientists were breeding drought-resistant crops when climate adaptation became critical for food security.' показывает науку, готовящуюся к климатическим вызовам!",
+            incorrectFeedback: "Try again. Structure: Adjective + subject + were + verb+ing + adjective + object + when + adjective + subject + past simple + adjective + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Прилагательное + подлежащее + were + глагол+ing + прилагательное + дополнение + when + прилагательное + подлежащее + past simple + прилагательное + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Wildlife", "conservation", "teams", "were", "protecting", "endangered", "habitats", "while", "ecosystem", "restoration", "programs", "received", "international", "funding."],
+            correctAnswer: "Wildlife conservation teams were protecting endangered habitats while ecosystem restoration programs received international funding.",
+            correctFeedback: "Conservation triumph! 'Wildlife conservation teams were protecting endangered habitats while ecosystem restoration programs received international funding.' celebrates biodiversity protection efforts!",
+            correctFeedbackRu: "Триумф консервации! 'Wildlife conservation teams were protecting endangered habitats while ecosystem restoration programs received international funding.' празднует усилия по защите биоразнообразия!",
+            incorrectFeedback: "Not quite right. Remember: Adjective + adjective + subject + were + verb+ing + adjective + object + while + adjective + adjective + subject + past simple + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Прилагательное + прилагательное + подлежащее + were + глагол+ing + прилагательное + дополнение + while + прилагательное + прилагательное + подлежащее + past simple + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Marine", "researchers", "were", "studying", "coral", "reef", "regeneration", "when", "biotechnology", "accelerated", "ocean", "ecosystem", "recovery."],
+            correctAnswer: "Marine researchers were studying coral reef regeneration when biotechnology accelerated ocean ecosystem recovery.",
+            correctFeedback: "Marine restoration! 'Marine researchers were studying coral reef regeneration when biotechnology accelerated ocean ecosystem recovery.' shows science healing our oceans!",
+            correctFeedbackRu: "Морское восстановление! 'Marine researchers were studying coral reef regeneration when biotechnology accelerated ocean ecosystem recovery.' показывает науку, исцеляющую наши океаны!",
+            incorrectFeedback: "Try again. Structure: Adjective + subject + were + verb+ing + adjective + adjective + object + when + subject + past simple + adjective + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Прилагательное + подлежащее + were + глагол+ing + прилагательное + прилагательное + дополнение + when + подлежащее + past simple + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Climate", "scientists", "were", "analyzing", "atmospheric", "data", "while", "their", "models", "became", "essential", "for", "disaster", "preparedness."],
+            correctAnswer: "Climate scientists were analyzing atmospheric data while their models became essential for disaster preparedness.",
+            correctFeedback: "Climate intelligence! 'Climate scientists were analyzing atmospheric data while their models became essential for disaster preparedness.' shows science protecting communities!",
+            correctFeedbackRu: "Климатическая разведка! 'Climate scientists were analyzing atmospheric data while their models became essential for disaster preparedness.' показывает науку, защищающую сообщества!",
+            incorrectFeedback: "Almost there! Remember: Adjective + subject + were + verb+ing + adjective + object + while + possessive + subject + past simple + adjective + preposition + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Прилагательное + подлежащее + were + глагол+ing + прилагательное + дополнение + while + притяжательное + подлежащее + past simple + прилагательное + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Sustainable", "architecture", "firms", "were", "pioneering", "carbon-neutral", "buildings", "when", "green", "construction", "standards", "became", "mandatory."],
+            correctAnswer: "Sustainable architecture firms were pioneering carbon-neutral buildings when green construction standards became mandatory.",
+            correctFeedback: "Architectural sustainability! 'Sustainable architecture firms were pioneering carbon-neutral buildings when green construction standards became mandatory.' shows innovation leading policy!",
+            correctFeedbackRu: "Архитектурная устойчивость! 'Sustainable architecture firms were pioneering carbon-neutral buildings when green construction standards became mandatory.' показывает инновации, ведущие политику!",
+            incorrectFeedback: "Try again. Structure: Adjective + adjective + subject + were + verb+ing + adjective + object + when + adjective + adjective + subject + past simple + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Прилагательное + прилагательное + подлежащее + were + глагол+ing + прилагательное + дополнение + when + прилагательное + прилагательное + подлежащее + past simple + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Global", "health", "organizations", "were", "coordinating", "disease", "prevention", "strategies", "while", "international", "cooperation", "reached", "unprecedented", "levels."],
+            correctAnswer: "Global health organizations were coordinating disease prevention strategies while international cooperation reached unprecedented levels.",
+            correctFeedback: "Global health unity! 'Global health organizations were coordinating disease prevention strategies while international cooperation reached unprecedented levels.' celebrates international healthcare collaboration!",
+            correctFeedbackRu: "Единство глобального здоровья! 'Global health organizations were coordinating disease prevention strategies while international cooperation reached unprecedented levels.' празднует международное сотрудничество в здравоохранении!",
+            incorrectFeedback: "Not quite right. Remember: Adjective + adjective + subject + were + verb+ing + adjective + adjective + object + while + adjective + subject + past simple + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Прилагательное + прилагательное + подлежащее + were + глагол+ing + прилагательное + прилагательное + дополнение + while + прилагательное + подлежащее + past simple + прилагательное + дополнение."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Past Continuous Advanced - Personal Achievement and Life Transformation
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page5'] = {
+    title: "Past Continuous Advanced - Personal Achievement and Life Transformation",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "young", "entrepreneur", "was", "building", "her", "confidence", "through", "public", "speaking", "when", "she", "received", "a", "UN", "invitation."],
+            correctAnswer: "The young entrepreneur was building her confidence through public speaking when she received a UN invitation.",
+            correctFeedback: "Inspiring achievement! 'The young entrepreneur was building her confidence through public speaking when she received a UN invitation.' shows personal growth leading to global recognition!",
+            correctFeedbackRu: "Вдохновляющее достижение! 'The young entrepreneur was building her confidence through public speaking when she received a UN invitation.' показывает личностный рост, ведущий к глобальному признанию!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + possessive + object + preposition + adjective + object + when + subject + past simple + article + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + притяжательное + дополнение + предлог + прилагательное + дополнение + when + подлежащее + past simple + артикль + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "grandfather", "was", "passing", "wisdom", "to", "his", "grandchildren", "while", "they", "surprised", "him", "with", "a", "published", "story", "collection."],
+            correctAnswer: "The grandfather was passing wisdom to his grandchildren while they surprised him with a published story collection.",
+            correctFeedback: "Generational love! 'The grandfather was passing wisdom to his grandchildren while they surprised him with a published story collection.' captures beautiful family legacy creation!",
+            correctFeedbackRu: "Поколенческая любовь! 'The grandfather was passing wisdom to his grandchildren while they surprised him with a published story collection.' передает прекрасное создание семейного наследия!",
+            incorrectFeedback: "Not quite right. Remember: Article + subject + was + verb+ing + object + preposition + possessive + object + while + subject + past simple + object + preposition + article + adjective + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + подлежащее + was + глагол+ing + дополнение + предлог + притяжательное + дополнение + while + подлежащее + past simple + дополнение + предлог + артикль + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "street", "musician", "was", "developing", "her", "unique", "style", "when", "a", "record", "producer", "discovered", "her", "exceptional", "talent."],
+            correctAnswer: "The street musician was developing her unique style when a record producer discovered her exceptional talent.",
+            correctFeedback: "Artistic destiny! 'The street musician was developing her unique style when a record producer discovered her exceptional talent.' shows persistence meeting perfect timing!",
+            correctFeedbackRu: "Художественная судьба! 'The street musician was developing her unique style when a record producer discovered her exceptional talent.' показывает настойчивость, встречающуюся с идеальным моментом!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + possessive + adjective + object + when + article + adjective + subject + past simple + possessive + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + притяжательное + прилагательное + дополнение + when + артикль + прилагательное + подлежащее + past simple + притяжательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "local", "teacher", "was", "creating", "educational", "opportunities", "for", "underprivileged", "children", "while", "the", "government", "selected", "her", "school", "as", "a", "national", "model."],
+            correctAnswer: "The local teacher was creating educational opportunities for underprivileged children while the government selected her school as a national model.",
+            correctFeedback: "Educational heroism! 'The local teacher was creating educational opportunities for underprivileged children while the government selected her school as a national model.' shows dedication transforming communities!",
+            correctFeedbackRu: "Образовательный героизм! 'The local teacher was creating educational opportunities for underprivileged children while the government selected her school as a national model.' показывает преданность, трансформирующую сообщества!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + while + article + subject + past simple + possessive + object + preposition + article + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + while + артикль + подлежащее + past simple + притяжательное + дополнение + предлог + артикль + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "trauma", "survivor", "was", "rebuilding", "her", "emotional", "strength", "when", "she", "was", "honored", "as", "the", "community's", "person", "of", "the", "year."],
+            correctAnswer: "The trauma survivor was rebuilding her emotional strength when she was honored as the community's person of the year.",
+            correctFeedback: "Courage triumph! 'The trauma survivor was rebuilding her emotional strength when she was honored as the community's person of the year.' celebrates resilience transforming pain into service!",
+            correctFeedbackRu: "Триумф мужества! 'The trauma survivor was rebuilding her emotional strength when she was honored as the community's person of the year.' празднует устойчивость, трансформирующую боль в служение!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + possessive + adjective + object + when + subject + was + past participle + preposition + article + possessive + object + preposition + article + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + притяжательное + прилагательное + дополнение + when + подлежащее + was + причастие прошедшего времени + предлог + артикль + притяжательное + дополнение + предлог + артикль + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "young", "chef", "was", "reinventing", "traditional", "recipes", "with", "modern", "techniques", "while", "Michelin", "inspectors", "arrived", "unannounced."],
+            correctAnswer: "The young chef was reinventing traditional recipes with modern techniques while Michelin inspectors arrived unannounced.",
+            correctFeedback: "Culinary artistry! 'The young chef was reinventing traditional recipes with modern techniques while Michelin inspectors arrived unannounced.' captures creative innovation meeting ultimate recognition!",
+            correctFeedbackRu: "Кулинарное мастерство! 'The young chef was reinventing traditional recipes with modern techniques while Michelin inspectors arrived unannounced.' передает творческие инновации, встречающиеся с высшим признанием!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + while + proper noun + subject + past simple + adverb.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + while + собственное имя + подлежащее + past simple + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "social", "worker", "was", "establishing", "support", "networks", "for", "elderly", "citizens", "when", "her", "program", "became", "the", "blueprint", "for", "national", "reform."],
+            correctAnswer: "The social worker was establishing support networks for elderly citizens when her program became the blueprint for national reform.",
+            correctFeedback: "Social transformation! 'The social worker was establishing support networks for elderly citizens when her program became the blueprint for national reform.' shows grassroots innovation inspiring policy change!",
+            correctFeedbackRu: "Социальная трансформация! 'The social worker was establishing support networks for elderly citizens when her program became the blueprint for national reform.' показывает низовые инновации, вдохновляющие изменения политики!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + when + possessive + subject + past simple + article + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + артикль + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "environmental", "scientist", "was", "raising", "awareness", "about", "ocean", "pollution", "while", "her", "research", "influenced", "international", "maritime", "regulations."],
+            correctAnswer: "The environmental scientist was raising awareness about ocean pollution while her research influenced international maritime regulations.",
+            correctFeedback: "Environmental impact! 'The environmental scientist was raising awareness about ocean pollution while her research influenced international maritime regulations.' shows scientific advocacy creating global change!",
+            correctFeedbackRu: "Экологическое влияние! 'The environmental scientist was raising awareness about ocean pollution while her research influenced international maritime regulations.' показывает научную адвокацию, создающую глобальные изменения!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + subject + was + verb+ing + object + preposition + adjective + object + while + possessive + subject + past simple + adjective + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + дополнение + предлог + прилагательное + дополнение + while + притяжательное + подлежащее + past simple + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "app", "developer", "was", "designing", "accessibility", "solutions", "when", "major", "tech", "companies", "began", "incorporating", "her", "innovations."],
+            correctAnswer: "The app developer was designing accessibility solutions when major tech companies began incorporating her innovations.",
+            correctFeedback: "Inclusive innovation! 'The app developer was designing accessibility solutions when major tech companies began incorporating her innovations.' shows technology empowering everyone!",
+            correctFeedbackRu: "Инклюзивные инновации! 'The app developer was designing accessibility solutions when major tech companies began incorporating her innovations.' показывает технологию, расширяющую возможности всех!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + adjective + adjective + subject + past simple + verb+ing + possessive + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + прилагательное + прилагательное + подлежащее + past simple + глагол+ing + притяжательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Paralympic", "athlete", "was", "pushing", "boundaries", "in", "adaptive", "sports", "while", "breaking", "three", "world", "records", "at", "the", "championships."],
+            correctAnswer: "The Paralympic athlete was pushing boundaries in adaptive sports while breaking three world records at the championships.",
+            correctFeedback: "Athletic excellence! 'The Paralympic athlete was pushing boundaries in adaptive sports while breaking three world records at the championships.' celebrates determination transforming limitations into achievements!",
+            correctFeedbackRu: "Спортивное превосходство! 'The Paralympic athlete was pushing boundaries in adaptive sports while breaking three world records at the championships.' празднует решимость, трансформирующую ограничения в достижения!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + object + preposition + adjective + object + while + verb+ing + number + adjective + object + preposition + article + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + дополнение + предлог + прилагательное + дополнение + while + глагол+ing + число + прилагательное + дополнение + предлог + артикль + дополнение."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Past Continuous Advanced - Personal Growth and Life Transformation
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page6'] = {
+    title: "Past Continuous Advanced - Personal Growth and Life Transformation",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "life", "coach", "was", "conducting", "confidence-building", "workshops", "when", "major", "corporations", "adopted", "her", "methodology", "for", "employee", "development."],
+            correctAnswer: "The life coach was conducting confidence-building workshops when major corporations adopted her methodology for employee development.",
+            correctFeedback: "Professional impact! 'The life coach was conducting confidence-building workshops when major corporations adopted her methodology for employee development.' shows personal development scaling to transform workplace culture!",
+            correctFeedbackRu: "Профессиональное влияние! 'The life coach was conducting confidence-building workshops when major corporations adopted her methodology for employee development.' показывает личностное развитие, масштабируемое для трансформации рабочей культуры!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + adjective + subject + past simple + possessive + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + прилагательное + подлежащее + past simple + притяжательное + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "marathon", "runner", "was", "pushing", "his", "endurance", "limits", "daily", "while", "qualifying", "for", "the", "Olympic", "team", "trials", "and", "achieving", "his", "lifelong", "dream."],
+            correctAnswer: "The marathon runner was pushing his endurance limits daily while qualifying for the Olympic team trials and achieving his lifelong dream.",
+            correctFeedback: "Athletic dedication! 'The marathon runner was pushing his endurance limits daily while qualifying for the Olympic team trials and achieving his lifelong dream.' celebrates relentless training earning ultimate athletic opportunity!",
+            correctFeedbackRu: "Спортивная преданность! 'The marathon runner was pushing his endurance limits daily while qualifying for the Olympic team trials and achieving his lifelong dream.' празднует неустанные тренировки, заслуживающие высшую спортивную возможность!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + possessive + adjective + object + adverb + while + verb+ing + preposition + article + adjective + adjective + object + conjunction + verb+ing + possessive + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + притяжательное + прилагательное + дополнение + наречие + while + глагол+ing + предлог + артикль + прилагательное + прилагательное + дополнение + союз + глагол+ing + притяжательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "addiction", "recovery", "counselor", "was", "facilitating", "support", "groups", "for", "struggling", "individuals", "when", "her", "program", "received", "national", "healthcare", "recognition."],
+            correctAnswer: "The addiction recovery counselor was facilitating support groups for struggling individuals when her program received national healthcare recognition.",
+            correctFeedback: "Healing leadership! 'The addiction recovery counselor was facilitating support groups for struggling individuals when her program received national healthcare recognition.' shows compassionate work transforming addiction treatment!",
+            correctFeedbackRu: "Лидерство исцеления! 'The addiction recovery counselor was facilitating support groups for struggling individuals when her program received national healthcare recognition.' показывает сострадательную работу, трансформирующую лечение зависимости!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + when + possessive + subject + past simple + adjective + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "mindfulness", "teacher", "was", "teaching", "meditation", "techniques", "to", "stressed", "professionals", "while", "major", "tech", "companies", "invited", "her", "to", "design", "workplace", "wellness", "programs."],
+            correctAnswer: "The mindfulness teacher was teaching meditation techniques to stressed professionals while major tech companies invited her to design workplace wellness programs.",
+            correctFeedback: "Wellness wisdom! 'The mindfulness teacher was teaching meditation techniques to stressed professionals while major tech companies invited her to design workplace wellness programs.' shows mindfulness transforming corporate culture!",
+            correctFeedbackRu: "Мудрость благополучия! 'The mindfulness teacher was teaching meditation techniques to stressed professionals while major tech companies invited her to design workplace wellness programs.' показывает осознанность, трансформирующую корпоративную культуру!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + while + adjective + adjective + subject + past simple + object + infinitive + verb + adjective + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + while + прилагательное + прилагательное + подлежащее + past simple + дополнение + инфинитив + глагол + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "speech", "therapist", "was", "developing", "communication", "skills", "with", "autistic", "children", "when", "her", "breakthrough", "methods", "were", "featured", "in", "leading", "medical", "journals."],
+            correctAnswer: "The speech therapist was developing communication skills with autistic children when her breakthrough methods were featured in leading medical journals.",
+            correctFeedback: "Communication breakthrough! 'The speech therapist was developing communication skills with autistic children when her breakthrough methods were featured in leading medical journals.' celebrates therapy opening new worlds of communication!",
+            correctFeedbackRu: "Прорыв в коммуникации! 'The speech therapist was developing communication skills with autistic children when her breakthrough methods were featured in leading medical journals.' празднует терапию, открывающую новые миры коммуникации!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + when + possessive + adjective + subject + were + past participle + preposition + adjective + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + when + притяжательное + прилагательное + подлежащее + were + причастие прошедшего времени + предлог + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "grief", "counselor", "was", "organizing", "therapeutic", "art", "sessions", "for", "trauma", "survivors", "while", "hospitals", "began", "integrating", "creative", "therapies", "into", "healing", "programs."],
+            correctAnswer: "The grief counselor was organizing therapeutic art sessions for trauma survivors while hospitals began integrating creative therapies into healing programs.",
+            correctFeedback: "Therapeutic artistry! 'The grief counselor was organizing therapeutic art sessions for trauma survivors while hospitals began integrating creative therapies into healing programs.' shows art-based healing entering mainstream medicine!",
+            correctFeedbackRu: "Терапевтическое мастерство! 'The grief counselor was organizing therapeutic art sessions for trauma survivors while hospitals began integrating creative therapies into healing programs.' показывает искусство исцеления, входящее в основную медицину!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + adjective + adjective + object + preposition + adjective + object + while + subject + past simple + verb+ing + adjective + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + предлог + прилагательное + дополнение + while + подлежащее + past simple + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "career", "transition", "coach", "was", "guiding", "professionals", "through", "industry", "changes", "when", "economic", "disruption", "created", "unprecedented", "demand", "for", "career", "guidance."],
+            correctAnswer: "The career transition coach was guiding professionals through industry changes when economic disruption created unprecedented demand for career guidance.",
+            correctFeedback: "Career transformation! 'The career transition coach was guiding professionals through industry changes when economic disruption created unprecedented demand for career guidance.' shows professional navigation becoming essential during uncertainty!",
+            correctFeedbackRu: "Трансформация карьеры! 'The career transition coach was guiding professionals through industry changes when economic disruption created unprecedented demand for career guidance.' показывает профессиональную навигацию, становящуюся необходимой во время неопределенности!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + object + preposition + adjective + object + when + adjective + subject + past simple + adjective + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + дополнение + предлог + прилагательное + дополнение + when + прилагательное + подлежащее + past simple + прилагательное + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "financial", "literacy", "educator", "was", "conducting", "money", "management", "workshops", "while", "universities", "began", "requiring", "personal", "finance", "courses", "for", "graduation."],
+            correctAnswer: "The financial literacy educator was conducting money management workshops while universities began requiring personal finance courses for graduation.",
+            correctFeedback: "Financial empowerment! 'The financial literacy educator was conducting money management workshops while universities began requiring personal finance courses for graduation.' shows financial education becoming essential life skills!",
+            correctFeedbackRu: "Финансовое расширение возможностей! 'The financial literacy educator was conducting money management workshops while universities began requiring personal finance courses for graduation.' показывает финансовое образование, становящееся основными жизненными навыками!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + while + subject + past simple + verb+ing + adjective + adjective + object + preposition + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + подлежащее + past simple + глагол+ing + прилагательное + прилагательное + дополнение + предлог + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "relationship", "therapist", "was", "refining", "communication", "strategies", "for", "couples", "when", "her", "conflict", "resolution", "methods", "were", "adopted", "by", "international", "mediation", "organizations."],
+            correctAnswer: "The relationship therapist was refining communication strategies for couples when her conflict resolution methods were adopted by international mediation organizations.",
+            correctFeedback: "Relationship healing! 'The relationship therapist was refining communication strategies for couples when her conflict resolution methods were adopted by international mediation organizations.' shows love skills scaling to international peace!",
+            correctFeedbackRu: "Исцеление отношений! 'The relationship therapist was refining communication strategies for couples when her conflict resolution methods were adopted by international mediation organizations.' показывает навыки любви, масштабируемые до международного мира!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + preposition + object + when + possessive + adjective + adjective + subject + were + past participle + preposition + adjective + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + дополнение + when + притяжательное + прилагательное + прилагательное + подлежащее + were + причастие прошедшего времени + предлог + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "elderly", "care", "specialist", "was", "designing", "innovative", "programs", "for", "aging", "populations", "when", "her", "community-based", "approach", "transformed", "national", "elder", "care", "policies."],
+            correctAnswer: "The elderly care specialist was designing innovative programs for aging populations when her community-based approach transformed national elder care policies.",
+            correctFeedback: "Elder care innovation! 'The elderly care specialist was designing innovative programs for aging populations when her community-based approach transformed national elder care policies.' shows compassionate aging support influencing national policy!",
+            correctFeedbackRu: "Инновации ухода за пожилыми! 'The elderly care specialist was designing innovative programs for aging populations when her community-based approach transformed national elder care policies.' показывает сострадательную поддержку старения, влияющую на национальную политику!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + when + possessive + adjective + subject + past simple + adjective + adjective + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + when + притяжательное + прилагательное + подлежащее + past simple + прилагательное + прилагательное + прилагательное + дополнение."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Past Continuous Advanced - Scientific Breakthrough and Innovation
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page7'] = {
+    title: "Past Continuous Advanced - Scientific Breakthrough and Innovation",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "marine", "biologist", "was", "perfecting", "coral", "restoration", "techniques", "when", "her", "method", "saved", "an", "entire", "reef", "ecosystem."],
+            correctAnswer: "The marine biologist was perfecting coral restoration techniques when her method saved an entire reef ecosystem.",
+            correctFeedback: "Ocean salvation! 'The marine biologist was perfecting coral restoration techniques when her method saved an entire reef ecosystem.' shows dedicated research achieving environmental miracles!",
+            correctFeedbackRu: "Спасение океана! 'The marine biologist was perfecting coral restoration techniques when her method saved an entire reef ecosystem.' показывает преданные исследования, достигающие экологических чудес!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + adjective + object + when + possessive + subject + past simple + article + adjective + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + артикль + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "astrophysicist", "was", "analyzing", "gravitational", "wave", "data", "while", "confirming", "Einstein's", "century-old", "theoretical", "predictions."],
+            correctAnswer: "The astrophysicist was analyzing gravitational wave data while confirming Einstein's century-old theoretical predictions.",
+            correctFeedback: "Cosmic validation! 'The astrophysicist was analyzing gravitational wave data while confirming Einstein's century-old theoretical predictions.' celebrates scientific theory meeting modern proof!",
+            correctFeedbackRu: "Космическое подтверждение! 'The astrophysicist was analyzing gravitational wave data while confirming Einstein's century-old theoretical predictions.' празднует научную теорию, встречающуюся с современным доказательством!",
+            incorrectFeedback: "Not quite right. Remember: Article + subject + was + verb+ing + adjective + adjective + object + while + verb+ing + possessive + adjective + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + глагол+ing + притяжательное + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "neuroscientist", "was", "conducting", "brain", "mapping", "experiments", "when", "her", "research", "unlocked", "new", "understanding", "of", "consciousness."],
+            correctAnswer: "The neuroscientist was conducting brain mapping experiments when her research unlocked new understanding of consciousness.",
+            correctFeedback: "Mind revelation! 'The neuroscientist was conducting brain mapping experiments when her research unlocked new understanding of consciousness.' captures the mystery of human consciousness being revealed!",
+            correctFeedbackRu: "Откровение разума! 'The neuroscientist was conducting brain mapping experiments when her research unlocked new understanding of consciousness.' передает тайну человеческого сознания, которая раскрывается!",
+            incorrectFeedback: "Try again. Structure: Article + subject + was + verb+ing + adjective + adjective + object + when + possessive + subject + past simple + adjective + object + preposition + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + прилагательное + дополнение + предлог + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "quantum", "physicist", "was", "investigating", "particle", "entanglement", "while", "discovering", "possibilities", "for", "instantaneous", "global", "communication."],
+            correctAnswer: "The quantum physicist was investigating particle entanglement while discovering possibilities for instantaneous global communication.",
+            correctFeedback: "Quantum breakthrough! 'The quantum physicist was investigating particle entanglement while discovering possibilities for instantaneous global communication.' shows physics potentially revolutionizing communication!",
+            correctFeedbackRu: "Квантовый прорыв! 'The quantum physicist was investigating particle entanglement while discovering possibilities for instantaneous global communication.' показывает физику, потенциально революционизирующую коммуникацию!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + subject + was + verb+ing + adjective + object + while + verb+ing + object + preposition + adjective + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + while + глагол+ing + дополнение + предлог + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "genetic", "researcher", "was", "refining", "CRISPR", "protocols", "when", "her", "techniques", "enabled", "the", "first", "successful", "treatment", "of", "inherited", "blindness."],
+            correctAnswer: "The genetic researcher was refining CRISPR protocols when her techniques enabled the first successful treatment of inherited blindness.",
+            correctFeedback: "Genetic miracle! 'The genetic researcher was refining CRISPR protocols when her techniques enabled the first successful treatment of inherited blindness.' celebrates biotechnology restoring sight!",
+            correctFeedbackRu: "Генетическое чудо! 'The genetic researcher was refining CRISPR protocols when her techniques enabled the first successful treatment of inherited blindness.' празднует биотехнологию, восстанавливающую зрение!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + proper noun + object + when + possessive + subject + past simple + article + adjective + adjective + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + собственное имя + дополнение + when + притяжательное + подлежащее + past simple + артикль + прилагательное + прилагательное + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "climate", "scientist", "was", "calibrating", "atmospheric", "models", "while", "accurately", "predicting", "extreme", "weather", "patterns", "months", "in", "advance."],
+            correctAnswer: "The climate scientist was calibrating atmospheric models while accurately predicting extreme weather patterns months in advance.",
+            correctFeedback: "Weather mastery! 'The climate scientist was calibrating atmospheric models while accurately predicting extreme weather patterns months in advance.' shows science seeing into the future!",
+            correctFeedbackRu: "Мастерство погоды! 'The climate scientist was calibrating atmospheric models while accurately predicting extreme weather patterns months in advance.' показывает науку, видящую в будущее!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + adjective + object + while + adverb + verb+ing + adjective + adjective + object + object + preposition + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + while + наречие + глагол+ing + прилагательное + прилагательное + дополнение + дополнение + предлог + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "materials", "engineer", "was", "developing", "self-healing", "concrete", "when", "her", "innovation", "revolutionized", "infrastructure", "durability", "and", "maintenance."],
+            correctAnswer: "The materials engineer was developing self-healing concrete when her innovation revolutionized infrastructure durability and maintenance.",
+            correctFeedback: "Engineering revolution! 'The materials engineer was developing self-healing concrete when her innovation revolutionized infrastructure durability and maintenance.' shows materials that repair themselves!",
+            correctFeedbackRu: "Инженерная революция! 'The materials engineer was developing self-healing concrete when her innovation revolutionized infrastructure durability and maintenance.' показывает материалы, которые ремонтируют себя!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + possessive + subject + past simple + adjective + object + conjunction + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + прилагательное + дополнение + союз + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "quantum", "computing", "physicist", "was", "manipulating", "subatomic", "particles", "when", "her", "breakthrough", "revolutionized", "cryptographic", "security", "protocols."],
+            correctAnswer: "The quantum computing physicist was manipulating subatomic particles when her breakthrough revolutionized cryptographic security protocols.",
+            correctFeedback: "Quantum leap! 'The quantum computing physicist was manipulating subatomic particles when her breakthrough revolutionized cryptographic security protocols.' shows the moment quantum science transformed digital security!",
+            correctFeedbackRu: "Квантовый скачок! 'The quantum computing physicist was manipulating subatomic particles when her breakthrough revolutionized cryptographic security protocols.' показывает момент, когда квантовая наука преобразила цифровую безопасность!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + adjective + object + when + possessive + subject + past simple + adjective + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "renewable", "energy", "physicist", "was", "maximizing", "solar", "panel", "efficiency", "when", "her", "breakthrough", "achieved", "ninety", "percent", "conversion", "rates."],
+            correctAnswer: "The renewable energy physicist was maximizing solar panel efficiency when her breakthrough achieved ninety percent conversion rates.",
+            correctFeedback: "Solar revolution! 'The renewable energy physicist was maximizing solar panel efficiency when her breakthrough achieved ninety percent conversion rates.' shows clean energy becoming dominant!",
+            correctFeedbackRu: "Солнечная революция! 'The renewable energy physicist was maximizing solar panel efficiency when her breakthrough achieved ninety percent conversion rates.' показывает чистую энергию, становящуюся доминирующей!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + when + possessive + subject + past simple + number + number + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + число + число + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "biomedical", "engineer", "was", "cultivating", "artificial", "organ", "prototypes", "while", "her", "lab-grown", "heart", "successfully", "sustained", "life", "in", "transplant", "patients."],
+            correctAnswer: "The biomedical engineer was cultivating artificial organ prototypes while her lab-grown heart successfully sustained life in transplant patients.",
+            correctFeedback: "Life creation! 'The biomedical engineer was cultivating artificial organ prototypes while her lab-grown heart successfully sustained life in transplant patients.' celebrates engineering that creates beating hearts!",
+            correctFeedbackRu: "Создание жизни! 'The biomedical engineer was cultivating artificial organ prototypes while her lab-grown heart successfully sustained life in transplant patients.' празднует инженерию, которая создает бьющиеся сердца!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + adjective + adjective + object + while + possessive + adjective + subject + adverb + past simple + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + притяжательное + прилагательное + подлежащее + наречие + past simple + дополнение + предлог + прилагательное + дополнение."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Past Continuous Advanced - Cultural Heritage and Global Transformation
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page8'] = {
+    title: "Past Continuous Advanced - Cultural Heritage and Global Transformation",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "cultural", "anthropologist", "was", "preserving", "indigenous", "storytelling", "traditions", "when", "UNESCO", "recognized", "her", "documentation", "as", "essential", "cultural", "heritage."],
+            correctAnswer: "The cultural anthropologist was preserving indigenous storytelling traditions when UNESCO recognized her documentation as essential cultural heritage.",
+            correctFeedback: "Cultural salvation! 'The cultural anthropologist was preserving indigenous storytelling traditions when UNESCO recognized her documentation as essential cultural heritage.' shows ethnographic work saving humanity's cultural soul!",
+            correctFeedbackRu: "Культурное спасение! 'The cultural anthropologist was preserving indigenous storytelling traditions when UNESCO recognized her documentation as essential cultural heritage.' показывает этнографическую работу, спасающую культурную душу человечества!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + adjective + object + when + proper noun + past simple + possessive + object + preposition + adjective + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + собственное имя + past simple + притяжательное + дополнение + предлог + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "international", "mediator", "was", "facilitating", "peace", "negotiations", "while", "her", "diplomatic", "breakthrough", "ended", "decades", "of", "territorial", "disputes."],
+            correctAnswer: "The international mediator was facilitating peace negotiations while her diplomatic breakthrough ended decades of territorial disputes.",
+            correctFeedback: "Peace achievement! 'The international mediator was facilitating peace negotiations while her diplomatic breakthrough ended decades of territorial disputes.' celebrates diplomacy healing generational conflicts!",
+            correctFeedbackRu: "Достижение мира! 'The international mediator was facilitating peace negotiations while her diplomatic breakthrough ended decades of territorial disputes.' празднует дипломатию, исцеляющую поколенческие конфликты!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + adjective + object + while + possessive + adjective + subject + past simple + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + while + притяжательное + прилагательное + подлежащее + past simple + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "social", "entrepreneur", "was", "establishing", "microcredit", "programs", "when", "her", "financial", "inclusion", "model", "was", "adopted", "by", "international", "organizations."],
+            correctAnswer: "The social entrepreneur was establishing microcredit programs when her financial inclusion model was adopted by international organizations.",
+            correctFeedback: "Economic empowerment! 'The social entrepreneur was establishing microcredit programs when her financial inclusion model was adopted by international organizations.' shows grassroots innovation scaling globally!",
+            correctFeedbackRu: "Экономическое расширение возможностей! 'The social entrepreneur was establishing microcredit programs when her financial inclusion model was adopted by international organizations.' показывает низовые инновации, масштабируемые глобально!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + possessive + adjective + adjective + subject + was + past participle + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + притяжательное + прилагательное + прилагательное + подлежащее + was + причастие прошедшего времени + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "digital", "rights", "activist", "was", "organizing", "internet", "freedom", "campaigns", "while", "influencing", "global", "legislation", "protecting", "online", "privacy."],
+            correctAnswer: "The digital rights activist was organizing internet freedom campaigns while influencing global legislation protecting online privacy.",
+            correctFeedback: "Digital freedom! 'The digital rights activist was organizing internet freedom campaigns while influencing global legislation protecting online privacy.' shows cyber-rights activism protecting digital democracy!",
+            correctFeedbackRu: "Цифровая свобода! 'The digital rights activist was organizing internet freedom campaigns while influencing global legislation protecting online privacy.' показывает активизм кибер-прав, защищающий цифровую демократию!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + while + verb+ing + adjective + object + verb+ing + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + глагол+ing + прилагательное + дополнение + глагол+ing + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "refugee", "resettlement", "coordinator", "was", "designing", "integration", "programs", "when", "her", "approach", "became", "the", "international", "standard", "for", "humanitarian", "assistance."],
+            correctAnswer: "The refugee resettlement coordinator was designing integration programs when her approach became the international standard for humanitarian assistance.",
+            correctFeedback: "Humanitarian innovation! 'The refugee resettlement coordinator was designing integration programs when her approach became the international standard for humanitarian assistance.' celebrates compassion transforming refugee assistance!",
+            correctFeedbackRu: "Гуманитарные инновации! 'The refugee resettlement coordinator was designing integration programs when her approach became the international standard for humanitarian assistance.' празднует сострадание, трансформирующее помощь беженцам!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + adjective + object + when + possessive + subject + past simple + article + adjective + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + артикль + прилагательное + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "sustainable", "agriculture", "consultant", "was", "transforming", "farming", "practices", "while", "her", "soil", "regeneration", "methods", "reversed", "environmental", "degradation."],
+            correctAnswer: "The sustainable agriculture consultant was transforming farming practices while her soil regeneration methods reversed environmental degradation.",
+            correctFeedback: "Agricultural healing! 'The sustainable agriculture consultant was transforming farming practices while her soil regeneration methods reversed environmental degradation.' shows farming that heals rather than harms Earth!",
+            correctFeedbackRu: "Сельскохозяйственное исцеление! 'The sustainable agriculture consultant was transforming farming practices while her soil regeneration methods reversed environmental degradation.' показывает фермерство, которое исцеляет, а не вредит Земле!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + object + while + possessive + adjective + adjective + subject + past simple + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + while + притяжательное + прилагательное + прилагательное + подлежащее + past simple + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "global", "health", "coordinator", "was", "optimizing", "vaccination", "distribution", "networks", "when", "her", "system", "eliminated", "disease", "outbreaks", "in", "remote", "regions."],
+            correctAnswer: "The global health coordinator was optimizing vaccination distribution networks when her system eliminated disease outbreaks in remote regions.",
+            correctFeedback: "Health salvation! 'The global health coordinator was optimizing vaccination distribution networks when her system eliminated disease outbreaks in remote regions.' shows medical logistics reaching Earth's most remote places!",
+            correctFeedbackRu: "Спасение здоровья! 'The global health coordinator was optimizing vaccination distribution networks when her system eliminated disease outbreaks in remote regions.' показывает медицинскую логистику, достигающую самые отдаленные места Земли!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + when + possessive + subject + past simple + adjective + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + прилагательное + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "language", "preservation", "specialist", "was", "documenting", "endangered", "dialects", "while", "saving", "three", "languages", "from", "complete", "extinction."],
+            correctAnswer: "The language preservation specialist was documenting endangered dialects while saving three languages from complete extinction.",
+            correctFeedback: "Linguistic rescue! 'The language preservation specialist was documenting endangered dialects while saving three languages from complete extinction.' celebrates the preservation of humanity's linguistic diversity!",
+            correctFeedbackRu: "Лингвистическое спасение! 'The language preservation specialist was documenting endangered dialects while saving three languages from complete extinction.' празднует сохранение языкового разнообразия человечества!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + object + while + verb+ing + number + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + while + глагол+ing + число + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "renewable", "energy", "advocate", "was", "promoting", "community", "solar", "projects", "when", "her", "movement", "inspired", "national", "energy", "policy", "reforms."],
+            correctAnswer: "The renewable energy advocate was promoting community solar projects when her movement inspired national energy policy reforms.",
+            correctFeedback: "Energy democracy! 'The renewable energy advocate was promoting community solar projects when her movement inspired national energy policy reforms.' shows grassroots advocacy transforming national policy!",
+            correctFeedbackRu: "Энергетическая демократия! 'The renewable energy advocate was promoting community solar projects when her movement inspired national energy policy reforms.' показывает низовую адвокацию, трансформирующую национальную политику!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + when + possessive + subject + past simple + adjective + adjective + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + прилагательное + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "urban", "planning", "consultant", "was", "creating", "sustainable", "city", "designs", "while", "her", "model", "was", "replicated", "in", "fifty", "cities", "across", "three", "continents."],
+            correctAnswer: "The urban planning consultant was creating sustainable city designs while her model was replicated in fifty cities across three continents.",
+            correctFeedback: "Urban transformation! 'The urban planning consultant was creating sustainable city designs while her model was replicated in fifty cities across three continents.' shows local innovation becoming global blueprint!",
+            correctFeedbackRu: "Городская трансформация! 'The urban planning consultant was creating sustainable city designs while her model was replicated in fifty cities across three continents.' показывает местные инновации, становящиеся глобальным чертежом!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + while + possessive + subject + was + past participle + preposition + number + object + preposition + number + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + притяжательное + подлежащее + was + причастие прошедшего времени + предлог + число + дополнение + предлог + число + дополнение."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Past Continuous Advanced - Educational Innovation and Social Impact
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page9'] = {
+    title: "Past Continuous Advanced - Educational Innovation and Social Impact",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "elementary", "school", "principal", "was", "implementing", "inclusive", "education", "practices", "when", "her", "school", "became", "a", "national", "model", "for", "equity."],
+            correctAnswer: "The elementary school principal was implementing inclusive education practices when her school became a national model for equity.",
+            correctFeedback: "Educational equity! 'The elementary school principal was implementing inclusive education practices when her school became a national model for equity.' shows educational leadership creating national standards for fairness!",
+            correctFeedbackRu: "Образовательная справедливость! 'The elementary school principal was implementing inclusive education practices when her school became a national model for equity.' показывает образовательное лидерство, создающее национальные стандарты справедливости!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + when + possessive + subject + past simple + article + adjective + object + preposition + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + артикль + прилагательное + дополнение + предлог + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "literacy", "volunteer", "was", "building", "reading", "skills", "with", "immigrant", "families", "while", "her", "program", "received", "federal", "funding", "for", "expansion."],
+            correctAnswer: "The literacy volunteer was building reading skills with immigrant families while her program received federal funding for expansion.",
+            correctFeedback: "Literacy empowerment! 'The literacy volunteer was building reading skills with immigrant families while her program received federal funding for expansion.' celebrates grassroots education earning government support!",
+            correctFeedbackRu: "Расширение возможностей грамотности! 'The literacy volunteer was building reading skills with immigrant families while her program received federal funding for expansion.' празднует низовое образование, заслуживающее правительственную поддержку!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + while + possessive + subject + past simple + adjective + object + preposition + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + while + притяжательное + подлежащее + past simple + прилагательное + дополнение + предлог + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "coding", "instructor", "was", "teaching", "programming", "skills", "to", "underserved", "youth", "when", "technology", "firms", "offered", "scholarships", "for", "her", "students."],
+            correctAnswer: "The coding instructor was teaching programming skills to underserved youth when technology firms offered scholarships for her students.",
+            correctFeedback: "Digital equity! 'The coding instructor was teaching programming skills to underserved youth when technology firms offered scholarships for her students.' shows technology education opening doors for disadvantaged communities!",
+            correctFeedbackRu: "Цифровая справедливость! 'The coding instructor was teaching programming skills to underserved youth when technology firms offered scholarships for her students.' показывает технологическое образование, открывающее двери для обездоленных сообществ!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + when + adjective + subject + past simple + object + preposition + possessive + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + when + прилагательное + подлежащее + past simple + дополнение + предлог + притяжательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "special", "education", "teacher", "was", "pioneering", "adaptive", "learning", "methods", "while", "international", "education", "conferences", "featured", "her", "innovative", "techniques."],
+            correctAnswer: "The special education teacher was pioneering adaptive learning methods while international education conferences featured her innovative techniques.",
+            correctFeedback: "Learning innovation! 'The special education teacher was pioneering adaptive learning methods while international education conferences featured her innovative techniques.' celebrates teaching that unlocks every student's potential!",
+            correctFeedbackRu: "Инновации обучения! 'The special education teacher was pioneering adaptive learning methods while international education conferences featured her innovative techniques.' празднует преподавание, которое разблокирует потенциал каждого студента!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + while + adjective + adjective + subject + past simple + possessive + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + прилагательное + прилагательное + подлежащее + past simple + притяжательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "university", "researcher", "was", "optimizing", "online", "learning", "platforms", "when", "the", "pandemic", "accelerated", "global", "adoption", "of", "digital", "education."],
+            correctAnswer: "The university researcher was optimizing online learning platforms when the pandemic accelerated global adoption of digital education.",
+            correctFeedback: "Digital education! 'The university researcher was optimizing online learning platforms when the pandemic accelerated global adoption of digital education.' shows technology preparation meeting global necessity!",
+            correctFeedbackRu: "Цифровое образование! 'The university researcher was optimizing online learning platforms when the pandemic accelerated global adoption of digital education.' показывает технологическую подготовку, встречающуюся с глобальной необходимостью!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + adjective + object + when + article + subject + past simple + adjective + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + артикль + подлежащее + past simple + прилагательное + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "community", "college", "counselor", "was", "creating", "career", "pathways", "for", "non-traditional", "students", "while", "her", "success", "rates", "attracted", "national", "policy", "attention."],
+            correctAnswer: "The community college counselor was creating career pathways for non-traditional students while her success rates attracted national policy attention.",
+            correctFeedback: "Career accessibility! 'The community college counselor was creating career pathways for non-traditional students while her success rates attracted national policy attention.' shows guidance opening higher education for everyone!",
+            correctFeedbackRu: "Доступность карьеры! 'The community college counselor was creating career pathways for non-traditional students while her success rates attracted national policy attention.' показывает руководство, открывающее высшее образование для всех!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + while + possessive + adjective + subject + past simple + adjective + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + while + притяжательное + прилагательное + подлежащее + past simple + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "school", "librarian", "was", "developing", "digital", "literacy", "programs", "while", "information", "technology", "skills", "became", "essential", "for", "academic", "success."],
+            correctAnswer: "The school librarian was developing digital literacy programs while information technology skills became essential for academic success.",
+            correctFeedback: "Information literacy! 'The school librarian was developing digital literacy programs while information technology skills became essential for academic success.' shows library innovation preparing students for the digital age!",
+            correctFeedbackRu: "Информационная грамотность! 'The school librarian was developing digital literacy programs while information technology skills became essential for academic success.' показывает библиотечные инновации, готовящие студентов к цифровой эпохе!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + adjective + object + while + adjective + adjective + subject + past simple + adjective + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + прилагательное + прилагательное + подлежащее + past simple + прилагательное + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "education", "policy", "analyst", "was", "examining", "learning", "outcome", "data", "when", "her", "research", "influenced", "legislative", "decisions", "about", "school", "funding."],
+            correctAnswer: "The education policy analyst was examining learning outcome data when her research influenced legislative decisions about school funding.",
+            correctFeedback: "Policy influence! 'The education policy analyst was examining learning outcome data when her research influenced legislative decisions about school funding.' shows research directly shaping educational investment!",
+            correctFeedbackRu: "Политическое влияние! 'The education policy analyst was examining learning outcome data when her research influenced legislative decisions about school funding.' показывает исследования, напрямую формирующие образовательные инвестиции!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + when + possessive + subject + past simple + adjective + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + прилагательное + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "adult", "education", "instructor", "was", "providing", "job", "skills", "training", "while", "economic", "recovery", "programs", "prioritized", "workforce", "retraining", "initiatives."],
+            correctAnswer: "The adult education instructor was providing job skills training while economic recovery programs prioritized workforce retraining initiatives.",
+            correctFeedback: "Workforce renewal! 'The adult education instructor was providing job skills training while economic recovery programs prioritized workforce retraining initiatives.' shows education rebuilding economies through human development!",
+            correctFeedbackRu: "Обновление рабочей силы! 'The adult education instructor was providing job skills training while economic recovery programs prioritized workforce retraining initiatives.' показывает образование, восстанавливающее экономики через развитие человека!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + while + adjective + adjective + subject + past simple + adjective + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + прилагательное + прилагательное + подлежащее + past simple + прилагательное + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "educational", "technology", "designer", "was", "creating", "interactive", "learning", "games", "when", "cognitive", "research", "proved", "gamification", "improves", "student", "engagement", "significantly."],
+            correctAnswer: "The educational technology designer was creating interactive learning games when cognitive research proved gamification improves student engagement significantly.",
+            correctFeedback: "Learning gamification! 'The educational technology designer was creating interactive learning games when cognitive research proved gamification improves student engagement significantly.' shows game-based learning revolutionizing education!",
+            correctFeedbackRu: "Геймификация обучения! 'The educational technology designer was creating interactive learning games when cognitive research proved gamification improves student engagement significantly.' показывает игровое обучение, революционизирующее образование!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + when + adjective + subject + past simple + subject + present simple + adjective + object + adverb.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + прилагательное + подлежащее + past simple + подлежащее + present simple + прилагательное + дополнение + наречие."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Past Continuous Advanced - Life-Changing Achievements and Global Legacy
+============================================ */
+window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page10'] = {
+    title: "Past Continuous Advanced - Life-Changing Achievements and Global Legacy",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "humanitarian", "doctor", "was", "providing", "medical", "care", "in", "war", "zones", "when", "she", "became", "the", "youngest", "Nobel", "Peace", "Prize", "recipient."],
+            correctAnswer: "The humanitarian doctor was providing medical care in war zones when she became the youngest Nobel Peace Prize recipient.",
+            correctFeedback: "Nobel courage! 'The humanitarian doctor was providing medical care in war zones when she became the youngest Nobel Peace Prize recipient.' celebrates extraordinary bravery earning the world's highest peace recognition!",
+            correctFeedbackRu: "Нобелевское мужество! 'The humanitarian doctor was providing medical care in war zones when she became the youngest Nobel Peace Prize recipient.' празднует необычайную храбрость, заслуживающую высшее мировое признание мира!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + when + subject + past simple + article + adjective + proper noun + proper noun + proper noun + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + when + подлежащее + past simple + артикль + прилагательное + собственное имя + собственное имя + собственное имя + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Olympic", "athlete", "was", "perfecting", "her", "training", "routine", "for", "four", "years", "when", "she", "broke", "three", "world", "records", "and", "inspired", "millions."],
+            correctAnswer: "The Olympic athlete was perfecting her training routine for four years when she broke three world records and inspired millions.",
+            correctFeedback: "Olympic glory! 'The Olympic athlete was perfecting her training routine for four years when she broke three world records and inspired millions.' shows relentless dedication achieving the impossible!",
+            correctFeedbackRu: "Олимпийская слава! 'The Olympic athlete was perfecting her training routine for four years when she broke three world records and inspired millions.' показывает неустанную преданность, достигающую невозможного!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + possessive + adjective + object + preposition + number + object + when + subject + past simple + number + adjective + object + conjunction + past simple + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + притяжательное + прилагательное + дополнение + предлог + число + дополнение + when + подлежащее + past simple + число + прилагательное + дополнение + союз + past simple + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "environmental", "activist", "was", "leading", "ocean", "conservation", "campaigns", "while", "Time", "Magazine", "named", "her", "Person", "of", "the", "Year", "for", "saving", "marine", "ecosystems."],
+            correctAnswer: "The environmental activist was leading ocean conservation campaigns while Time Magazine named her Person of the Year for saving marine ecosystems.",
+            correctFeedback: "Environmental leadership! 'The environmental activist was leading ocean conservation campaigns while Time Magazine named her Person of the Year for saving marine ecosystems.' celebrates ocean protection earning global recognition!",
+            correctFeedbackRu: "Экологическое лидерство! 'The environmental activist was leading ocean conservation campaigns while Time Magazine named her Person of the Year for saving marine ecosystems.' празднует защиту океана, заслуживающую глобальное признание!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + adjective + object + while + proper noun + proper noun + past simple + object + proper noun + preposition + article + proper noun + preposition + verb+ing + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + собственное имя + собственное имя + past simple + дополнение + собственное имя + предлог + артикль + собственное имя + предлог + глагол+ing + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "space", "engineer", "was", "designing", "revolutionary", "rocket", "technology", "when", "her", "innovations", "enabled", "the", "first", "human", "colony", "on", "Mars."],
+            correctAnswer: "The space engineer was designing revolutionary rocket technology when her innovations enabled the first human colony on Mars.",
+            correctFeedback: "Space pioneering! 'The space engineer was designing revolutionary rocket technology when her innovations enabled the first human colony on Mars.' celebrates engineering that opens new worlds for humanity!",
+            correctFeedbackRu: "Космическое пионерство! 'The space engineer was designing revolutionary rocket technology when her innovations enabled the first human colony on Mars.' празднует инженерию, которая открывает новые миры для человечества!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + subject + was + verb+ing + adjective + adjective + object + when + possessive + subject + past simple + article + adjective + adjective + object + preposition + proper noun.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + артикль + прилагательное + прилагательное + дополнение + предлог + собственное имя."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "social", "justice", "lawyer", "was", "arguing", "civil", "rights", "cases", "for", "decades", "when", "the", "Supreme", "Court", "cited", "her", "work", "as", "constitutional", "foundation."],
+            correctAnswer: "The social justice lawyer was arguing civil rights cases for decades when the Supreme Court cited her work as constitutional foundation.",
+            correctFeedback: "Justice triumph! 'The social justice lawyer was arguing civil rights cases for decades when the Supreme Court cited her work as constitutional foundation.' shows lifelong advocacy becoming constitutional law!",
+            correctFeedbackRu: "Триумф справедливости! 'The social justice lawyer was arguing civil rights cases for decades when the Supreme Court cited her work as constitutional foundation.' показывает пожизненную адвокацию, становящуюся конституционным правом!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + preposition + object + when + article + proper noun + proper noun + past simple + possessive + object + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + предлог + дополнение + when + артикль + собственное имя + собственное имя + past simple + притяжательное + дополнение + предлог + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "renewable", "energy", "inventor", "was", "developing", "clean", "technology", "solutions", "while", "her", "inventions", "powered", "entire", "nations", "and", "eliminated", "carbon", "emissions."],
+            correctAnswer: "The renewable energy inventor was developing clean technology solutions while her inventions powered entire nations and eliminated carbon emissions.",
+            correctFeedback: "Clean energy revolution! 'The renewable energy inventor was developing clean technology solutions while her inventions powered entire nations and eliminated carbon emissions.' shows innovation saving the planet!",
+            correctFeedbackRu: "Революция чистой энергии! 'The renewable energy inventor was developing clean technology solutions while her inventions powered entire nations and eliminated carbon emissions.' показывает инновации, спасающие планету!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + adjective + subject + was + verb+ing + adjective + adjective + object + while + possessive + subject + past simple + adjective + object + conjunction + past simple + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + прилагательное + подлежащее + was + глагол+ing + прилагательное + прилагательное + дополнение + while + притяжательное + подлежащее + past simple + прилагательное + дополнение + союз + past simple + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "medical", "researcher", "was", "revolutionizing", "cancer", "treatments", "when", "her", "therapy", "achieved", "ninety-five", "percent", "cure", "rates", "and", "saved", "millions", "of", "lives."],
+            correctAnswer: "The medical researcher was revolutionizing cancer treatments when her therapy achieved ninety-five percent cure rates and saved millions of lives.",
+            correctFeedback: "Medical miracle! 'The medical researcher was revolutionizing cancer treatments when her therapy achieved ninety-five percent cure rates and saved millions of lives.' celebrates science conquering humanity's greatest medical challenge!",
+            correctFeedbackRu: "Медицинское чудо! 'The medical researcher was revolutionizing cancer treatments when her therapy achieved ninety-five percent cure rates and saved millions of lives.' празднует науку, побеждающую величайший медицинский вызов человечества!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + possessive + subject + past simple + number + number + adjective + object + conjunction + past simple + object + preposition + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + число + число + прилагательное + дополнение + союз + past simple + дополнение + предлог + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "education", "reformer", "was", "transforming", "learning", "systems", "worldwide", "while", "achieving", "universal", "literacy", "and", "unlocking", "human", "potential", "globally."],
+            correctAnswer: "The education reformer was transforming learning systems worldwide while achieving universal literacy and unlocking human potential globally.",
+            correctFeedback: "Educational legacy! 'The education reformer was transforming learning systems worldwide while achieving universal literacy and unlocking human potential globally.' shows teaching that liberates human minds everywhere!",
+            correctFeedbackRu: "Образовательное наследие! 'The education reformer was transforming learning systems worldwide while achieving universal literacy and unlocking human potential globally.' показывает преподавание, которое освобождает человеческие умы везде!",
+            incorrectFeedback: "Almost there! Remember: Article + adjective + subject + was + verb+ing + adjective + object + adverb + while + verb+ing + adjective + object + conjunction + verb+ing + adjective + object + adverb.",
+            incorrectFeedbackRu: "Почти правильно! Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + наречие + while + глагол+ing + прилагательное + дополнение + союз + глагол+ing + прилагательное + дополнение + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "peace", "negotiator", "was", "crafting", "diplomatic", "solutions", "between", "warring", "nations", "while", "ending", "three", "major", "international", "wars", "and", "creating", "lasting", "alliances."],
+            correctAnswer: "The peace negotiator was crafting diplomatic solutions between warring nations while ending three major international wars and creating lasting alliances.",
+            correctFeedback: "Peace mastery! 'The peace negotiator was crafting diplomatic solutions between warring nations while ending three major international wars and creating lasting alliances.' celebrates diplomacy transforming enemies into allies!",
+            correctFeedbackRu: "Мастерство мира! 'The peace negotiator was crafting diplomatic solutions between warring nations while ending three major international wars and creating lasting alliances.' празднует дипломатию, трансформирующую врагов в союзников!",
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + while + verb+ing + number + adjective + adjective + object + conjunction + verb+ing + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + while + глагол+ing + число + прилагательное + прилагательное + дополнение + союз + глагол+ing + прилагательное + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "humanitarian", "innovator", "was", "implementing", "poverty", "solutions", "in", "developing", "regions", "when", "her", "model", "lifted", "one", "billion", "people", "out", "of", "extreme", "poverty."],
+            correctAnswer: "The humanitarian innovator was implementing poverty solutions in developing regions when her model lifted one billion people out of extreme poverty.",
+            correctFeedback: "Poverty elimination! 'The humanitarian innovator was implementing poverty solutions in developing regions when her model lifted one billion people out of extreme poverty.' celebrates compassion achieving the impossible - ending poverty for one billion souls!",
+            correctFeedbackRu: "Ликвидация бедности! 'The humanitarian innovator was implementing poverty solutions in developing regions when her model lifted one billion people out of extreme poverty.' празднует сострадание, достигающее невозможного - завершение бедности для одного миллиарда душ!",
+            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + when + possessive + subject + past simple + number + number + object + preposition + preposition + adjective + object.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + число + число + дополнение + предлог + предлог + прилагательное + дополнение."
+        }
+    ]
+};

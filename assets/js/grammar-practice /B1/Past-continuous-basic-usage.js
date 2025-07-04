@@ -3978,8 +3978,8 @@ window.grammarExercises['past-tenses']['past-continuous-basic-usage-sentence-pag
             correctAnswer: "The cultural preservation specialists were digitizing historical manuscripts when they discovered lost languages and forgotten traditions.",
             correctFeedback: "Great! 'The cultural preservation specialists were digitizing historical manuscripts when they discovered lost languages and forgotten traditions.' is correct. Incredible cultural heritage recovery!",
             correctFeedbackRu: "Отлично! 'The cultural preservation specialists were digitizing historical manuscripts when they discovered lost languages and forgotten traditions.' верно. Невероятное восстановление культурного наследия!",
-            incorrectFeedback: "Try again. Remember: The + heritage + protection + experts + were + verb-ing + old + documents + when + they + found + missing + communications + and + abandoned + customs",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: The + наследие + защита + эксперты + were + глагол-ing + старые + документы + when + they + нашли + потерянные + коммуникации + and + заброшенные + обычаи"
+            incorrectFeedback: "Try again. Remember: The + adjective + adjective + subject + were + verb-ing + adjective + object + when + they + past simple + adjective + object + and + adjective + object",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + прилагательное + прилагательное + подлежащее + were + глагол-ing + прилагательное + дополнение + when + they + past simple + прилагательное + дополнение + and + прилагательное + дополнение"
         },
         {
             question: "Form a correct sentence using these words:",
