@@ -440,6 +440,40 @@ body {
    }
 }
 
+@media (max-width: 768px) {
+    .footer-links a::after {
+        display: none !important;
+    }
+    
+    .footer-links a {
+        justify-content: center !important;
+        text-align: center !important;
+        padding: 0.6rem 0 !important;
+        margin: 0 !important;
+        transform: none !important;
+    }
+    
+    .footer-links a:hover {
+        transform: none !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-links a {
+        font-size: 0.9rem !important;
+        padding: 0.5rem 0 !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .footer-links a {
+        font-size: 0.85rem !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+}
 /*--------------------------------------------------------------
 # Statistics Cards Section
 - Grid layout for stats cards
