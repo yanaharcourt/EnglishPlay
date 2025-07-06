@@ -3197,8 +3197,8 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-sentence-page3'] =
             correctAnswer: "My presentation went smoothly because I had practiced many times.",
             correctFeedback: "Excellent! 'My presentation went smoothly because I had practiced many times.' Practice makes perfect!",
             correctFeedbackRu: "Отлично! 'My presentation went smoothly because I had practiced many times.' Повторение - мать учения!",
-            incorrectFeedback: "Try again. Remember: Subject + past simple + adverb + because + subject + had + past participle + frequency expression.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + простое прошедшее + наречие + because + подлежащее + had + причастие прошедшего времени + выражение частоты."
+            incorrectFeedback: "Try again. Remember: Possessive + subject + past simple + adverb + because + subject + had + past participle + frequency expression.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + подлежащее + простое прошедшее + наречие + because + подлежащее + had + причастие прошедшего времени + выражение частоты."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3314,10 +3314,10 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-sentence-page4'] =
             questionRu: "Составьте правильное предложение, используя эти слова:",
             words: ["I", "couldn't", "access", "my", "account", "because", "hackers", "had", "changed", "the", "password."],
             correctAnswer: "I couldn't access my account because hackers had changed the password.",
-            correctFeedback: "Great! 'I couldn't access my account because hackers had changed the password.' Cybersecurity awareness!",
-            correctFeedbackRu: "Отлично! 'I couldn't access my account because hackers had changed the password.' Осведомленность о кибербезопасности!",
-            incorrectFeedback: "Try again. Remember: Subject + couldn't + verb + object + because + subject + had + past participle + object.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + couldn't + глагол + дополнение + because + подлежащее + had + причастие прошедшего времени + дополнение."
+            correctFeedback: "Great! 'I couldn't access my account because hackers had changed the password.' Cybersecurity awareness is crucial!",
+            correctFeedbackRu: "Отлично! 'I couldn't access my account because hackers had changed the password.' Осведомленность о кибербезопасности крайне важна!",
+            incorrectFeedback: "Try again. Remember: Subject + couldn't + verb + possessive + object + because + subject + had + past participle + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + couldn't + глагол + притяжательное + дополнение + because + подлежащее + had + причастие прошедшего времени + дополнение."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3462,10 +3462,10 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-sentence-page6'] =
             questionRu: "Составьте правильное предложение, используя эти слова:",
             words: ["I", "couldn't", "board", "the", "train", "because", "I", "had", "left", "my", "ticket", "at", "home."],
             correctAnswer: "I couldn't board the train because I had left my ticket at home.",
-            correctFeedback: "Excellent! 'I couldn't board the train because I had left my ticket at home.' Classic travel mistake!",
-            correctFeedbackRu: "Отлично! 'I couldn't board the train because I had left my ticket at home.' Классическая ошибка путешественника!",
-            incorrectFeedback: "Try again. Remember: Subject + couldn't + verb + object + because + subject + had + past participle + object + place.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + couldn't + глагол + дополнение + because + подлежащее + had + причастие прошедшего времени + дополнение + место."
+            correctFeedback: "Excellent! 'I couldn't board the train because I had left my ticket at home.' Classic travel preparation oversight!",
+            correctFeedbackRu: "Отлично! 'I couldn't board the train because I had left my ticket at home.' Классическое упущение в подготовке к путешествию!",
+            incorrectFeedback: "Try again. Remember: Subject + couldn't + verb + object + because + subject + had + past participle + possessive + object + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + couldn't + глагол + дополнение + because + подлежащее + had + причастие прошедшего времени + притяжательное + дополнение + место."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3611,8 +3611,8 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-sentence-page7'] =
             questionRu: "Составьте правильное предложение, используя эти слова:",
             words: ["The", "company", "went", "bankrupt", "because", "management", "had", "made", "poor", "financial", "decisions."],
             correctAnswer: "The company went bankrupt because management had made poor financial decisions.",
-            correctFeedback: "Great! 'The company went bankrupt because management had made poor financial decisions.' Leadership consequences!",
-            correctFeedbackRu: "Отлично! 'The company went bankrupt because management had made poor financial decisions.' Последствия руководства!",
+            correctFeedback: "Great! 'The company went bankrupt because management had made poor financial decisions.' Leadership accountability matters!",
+            correctFeedbackRu: "Отлично! 'The company went bankrupt because management had made poor financial decisions.' Ответственность руководства важна!",
             incorrectFeedback: "Try again. Remember: Subject + past simple + adjective + because + subject + had + past participle + adjective + compound + object.",
             incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + простое прошедшее + прилагательное + because + подлежащее + had + причастие прошедшего времени + прилагательное + составное + дополнение."
         },
