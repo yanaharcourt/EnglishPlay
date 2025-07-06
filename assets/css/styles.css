@@ -819,153 +819,171 @@ body {
 }
 
 @media (max-width: 1024px) {
-    .footer-container {
-        padding-left: calc(60px + 2rem);
-    }
+   .footer-container {
+       padding-left: calc(60px + 2rem) !important;
+   }
 
-    .footer {
-        left: -60px;
-    }
+   .footer {
+       left: -60px !important;
+   }
 
-    body {
-        padding-left: 60px;
-    }
-
-    .footer-large-text {
-        font-size: clamp(5rem, 12vw, 10rem);
-        text-align: center;
-    }
+   .footer-large-text {
+       font-size: clamp(4rem, 10vw, 8rem) !important;
+       text-align: center !important;
+       margin-top: 1.5rem !important;
+       margin-bottom: 1rem !important;
+   }
 }
 
 @media (max-width: 768px) {
-    body {
-        padding-left: 60px;
-    }
+   .footer {
+       left: 0 !important;
+       width: 100vw !important;
+   }
 
-    .footer {
-        left: -60px;
-    }
+   .footer-container {
+       padding: 3rem 1.5rem 2rem !important;
+       padding-left: 1.5rem !important;
+   }
 
-    .footer-container {
-        padding: 3rem 1.5rem 2rem;
-        padding-left: calc(60px + 1.5rem);
-    }
+   .footer-nav {
+       margin-bottom: 3rem !important;
+   }
 
-    .footer-nav {
-        margin-bottom: 3rem;
-    }
+   .footer-column {
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       text-align: center !important;
+       width: 100% !important;
+   }
 
-    .footer-links {
-        flex-direction: column;
-        gap: 0.4rem;
-        align-items: center;
-    }
+   .footer-column h3 {
+       font-size: 0.9rem !important;
+       text-align: center !important;
+       margin: 0 auto 2rem auto !important;
+       display: block !important;
+       width: auto !important;
+       position: relative !important;
+   }
 
-    .footer-links a {
-        font-size: 0.95rem;
-        padding: 0.6rem 0;
-    }
+   .footer-column h3::after {
+       left: 50% !important;
+       transform: translateX(-50%) !important;
+       width: 60px !important;
+   }
 
-    .footer-large-text {
-        font-size: clamp(4rem, 15vw, 8rem);
-        text-align: center;
-        margin-top: 2rem;
-        padding-right: 0;
-    }
+   .footer-links {
+       flex-direction: column !important;
+       gap: 0.4rem !important;
+       align-items: center !important;
+       width: 100% !important;
+   }
 
-    .footer-bottom {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
-    }
+   .footer-links a {
+       font-size: 0.95rem !important;
+       padding: 0.6rem 0 !important;
+       text-align: center !important;
+   }
 
-    .footer-legal {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-    }
-}
-@media (max-width: 768px) {
-    .footer-column {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .footer-column h3 {
-        font-size: 1rem;
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-    
-    .footer-column h3::after {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    
-    .footer-links {
-        flex-direction: column;
-        gap: 0.4rem;
-        align-items: center;
-        width: 100%;
-    }
+   .footer-large-text {
+       font-size: clamp(3rem, 12vw, 6rem) !important;
+       text-align: center !important;
+       margin-top: 1rem !important;
+       margin-bottom: 1rem !important;
+       padding-right: 0 !important;
+       padding-bottom: 1rem !important;
+   }
+
+   .footer-bottom {
+       flex-direction: column !important;
+       text-align: center !important;
+       gap: 1rem !important;
+   }
+
+   .footer-legal {
+       justify-content: center !important;
+       flex-wrap: wrap !important;
+       gap: 1.5rem !important;
+   }
 }
 
 @media (max-width: 480px) {
-    body {
-        padding-left: 0;
-    }
+   .footer-container {
+       padding: 2.5rem 1rem !important;
+       padding-left: 1rem !important;
+   }
 
-    .footer {
-        left: 0;
-    }
+   .footer-column h3 {
+       font-size: 0.85rem !important;
+       text-align: center !important;
+       margin: 0 auto 1.5rem auto !important;
+   }
 
-    .footer-container {
-        padding: 2.5rem 1rem;
-        padding-left: 1rem;
-    }
+   .footer-column h3::after {
+       width: 50px !important;
+   }
 
-    .footer-large-text {
-        font-size: clamp(3rem, 18vw, 6rem);
-        letter-spacing: -0.02em;
-    }
+   .footer-large-text {
+       font-size: clamp(2.5rem, 15vw, 4.5rem) !important;
+       letter-spacing: -0.02em !important;
+       margin-top: 0.5rem !important;
+       margin-bottom: 0.5rem !important;
+       padding-bottom: 0.5rem !important;
+   }
 
-    .footer-links a {
-        font-size: 0.9rem;
-        padding: 0.5rem 0;
-    }
+   .footer-links a {
+       font-size: 0.9rem !important;
+       padding: 0.5rem 0 !important;
+   }
 
-    .footer-legal {
-        flex-direction: column;
-        gap: 1rem;
-    }
+   .footer-legal {
+       flex-direction: column !important;
+       gap: 1rem !important;
+   }
 
-    .footer-copyright {
-        font-size: 0.85rem;
-        text-align: center;
-    }
+   .footer-copyright {
+       font-size: 0.85rem !important;
+       text-align: center !important;
+   }
 
-    .footer-tagline {
-        font-size: 0.9rem;
-        text-align: center;
-        margin-bottom: 2rem;
-    }
+   .footer-tagline {
+       font-size: 0.9rem !important;
+       text-align: center !important;
+       margin-bottom: 2rem !important;
+   }
+}
+
+@media (max-width: 390px) {
+   .footer-large-text {
+       font-size: clamp(2rem, 12vw, 3.5rem) !important;
+       margin-bottom: 0 !important;
+   }
+   
+   .footer-column h3 {
+       font-size: 0.8rem !important;
+       text-align: center !important;
+       margin: 0 auto 1.5rem auto !important;
+   }
+   
+   .footer-links a {
+       font-size: 0.85rem !important;
+   }
 }
 
 @media (hover: hover) {
-    .footer-links a:hover {
-        color: var(--accent-color);
-    }
+   .footer-links a:hover {
+       color: var(--accent-color) !important;
+   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-
-    .footer-links a::before,
-    .footer-legal a::after {
-        transition: none;
-    }
+   .footer-links a::before,
+   .footer-legal a::after {
+       transition: none !important;
+   }
 }
+
 /*--------------------------------------------------------------
 # CURSOR
 --------------------------------------------------------------*/
