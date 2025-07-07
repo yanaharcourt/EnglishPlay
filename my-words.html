@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/my-words.css">
+    <link rel="stylesheet" href="./assets/css/my-words mobile-fix.css">
+
 </head>
 <body>
     <!-- --------------------------------------------------------------
@@ -83,195 +85,198 @@
         </div>
     </div>
 
-    <!-- statistic cards -->
-    <div class="stats-cards">
-        <div class="stat-card">
-            <div class="stat-icon">🤓</div>
-            <div class="stat-info">
-                <div class="stat-label">Выучено слов</div>
-                <div class="stat-value" id="words-learned">0</div>
+    <main class="main-content">
+        <!-- statistic cards -->
+        <div class="stats-cards">
+            <div class="stat-card">
+                <div class="stat-icon">🤓</div>
+                <div class="stat-info">
+                    <div class="stat-label">Выучено слов</div>
+                    <div class="stat-value" id="words-learned">0</div>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">🔥</div>
+                <div class="stat-info">
+                    <div class="stat-label">На изучении</div>
+                    <div class="stat-value" id="words-studying">0</div>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">🏃‍♂️</div>
+                <div class="stat-info">
+                    <div class="stat-label">Среднее кол-во слов в день</div>
+                    <div class="stat-value" id="average-pace">0</div>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">🏆</div>
+                <div class="stat-info">
+                    <div class="stat-label">Дней подряд</div>
+                    <div class="stat-value" id="daily-record">0</div>
+                </div>
             </div>
         </div>
 
-        <div class="stat-card">
-            <div class="stat-icon">🔥</div>
-            <div class="stat-info">
-                <div class="stat-label">На изучении</div>
-                <div class="stat-value" id="words-studying">0</div>
+        <!-- на изучении / изучено фильтры -->
+        <div class="study-filter">
+            <div class="study-switcher">
+                <button class="switcher-btn active" data-filter="studying">На изучении</button>
+                <button class="switcher-btn" data-filter="learned">Изучено</button>
+                <div class="switcher-line">
+                    <div class="switcher-bar"></div>
+                </div>
             </div>
         </div>
 
-        <div class="stat-card">
-            <div class="stat-icon">🏃‍♂️</div>
-            <div class="stat-info">
-                <div class="stat-label">Среднее кол-во слов в день</div>
-                <div class="stat-value" id="average-pace">0</div>
-            </div>
-        </div>
-
-        <div class="stat-card">
-            <div class="stat-icon">🏆</div>
-            <div class="stat-info">
-                <div class="stat-label">Дней подряд</div>
-                <div class="stat-value" id="daily-record">0</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- на изучении / изучено фильтры -->
-    <div class="study-filter">
-        <div class="study-switcher">
-            <button class="switcher-btn active" data-filter="studying">На изучении</button>
-            <button class="switcher-btn" data-filter="learned">Изучено</button>
-            <div class="switcher-line">
-                <div class="switcher-bar"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Word Management Section -->
-    <div class="container">
-        <div class="word-management">
-            <button class="study-button">
-                Учить слова
-            </button>
-            <button class="updateWordsButton" id="updateWordsButton" type="button">Обновить</button>
-            
-            <div class="word-input-container">
-                <input type="text" class="word-input" placeholder="Добавить слово">
-            </div>
-            
-            <button class="add-button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-            </button>
-        </div>
-
-        <div class="dictionary-container">
-            <div class="dictionary-header">
+        <!-- Word Management Section -->
+        <div class="container">
+            <div class="word-management">
+                <button class="study-button">
+                    Учить слова
+                </button>
+                <button class="updateWordsButton" id="updateWordsButton" type="button">Обновить</button>
                 
-                <div class="controls">
-                    <div class="controls-left">
-                        <div class="search-container">
-                            <input type="text" id="searchInput" class="search-input" placeholder="Поиск слова...">
+                <div class="word-input-container">
+                    <input type="text" class="word-input" placeholder="Добавить слово">
+                </div>
+                
+                <button class="add-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="dictionary-container">
+                <div class="dictionary-header">
+                    
+                    <div class="controls">
+                        <div class="controls-left">
+                            <div class="search-container">
+                                <input type="text" id="searchInput" class="search-input" placeholder="Поиск слова...">
+                            </div>
+                            
+                            <select id="filterSelect" class="filter-select">
+                                <option value="all">Все слова</option>
+                                <option value="favorites">Избранные</option>
+                            </select>
+                            
+                            <select id="sortSelect" class="filter-select">
+                                <option value="date">Сортировать по дате</option>
+                                <option value="alphabetical">Сортировать по алфавиту</option>
+                            </select>
                         </div>
-                        
-                        <select id="filterSelect" class="filter-select">
-                            <option value="all">Все слова</option>
-                            <option value="favorites">Избранные</option>
-                        </select>
-                        
-                        <select id="sortSelect" class="filter-select">
-                            <option value="date">Сортировать по дате</option>
-                            <option value="alphabetical">Сортировать по алфавиту</option>
-                        </select>
-                    </div>
 
-                    <div class="controls-right">
-                        <button class="view-button active" data-view="grid">Карточки</button>
-                        <button class="view-button" data-view="list">Список</button>
-                        <button class="view-button" data-view="table">Таблица</button>
+                        <div class="controls-right">
+                            <button class="view-button active" data-view="grid">Карточки</button>
+                            <button class="view-button" data-view="list">Список</button>
+                            <button class="view-button" data-view="table">Таблица</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            
-            <!-- Скрытие определенных функций -->
-            <div class="filter-options">
-                <label class="filter-item">
-                  <input type="checkbox" class="filter-checkbox" data-target=".word-phonetics" checked>
-                  <span>Скрыть транскрипцию</span>
-                </label>
-                <label class="filter-item">
-                  <input type="checkbox" class="filter-checkbox" data-target=".word-translation" checked>
-                  <span>Скрыть перевод</span>
-                </label>
-                <label class="filter-item">
-                    <input type="checkbox" class="filter-checkbox" data-target=".word-synonyms" checked>
-                    <span>Скрыть синонимы</span>
-                </label>
-                <label class="filter-item">
-                  <input type="checkbox" class="filter-checkbox" data-target=".word-type" checked>
-                  <span>Скрыть часть речи</span>
-                </label>
-                <label class="filter-item">
-                  <input type="checkbox" class="filter-checkbox" data-target=".word-example" checked>
-                  <span>Скрыть пример</span>
-                </label>
-            </div>
-
-            <div class="word-count-container" style="display: flex; justify-content: space-between; align-items: center;">
-                <div style="display: flex; align-items: center; gap: 15px; flex: 1;">
-                    <div class="word-count" style="color: var(--card-text-primary);">0 words</div>
-                    <div class="word-count-line" style="height: 1px; background-color: rgba(255, 255, 255, 0.1); flex: 1;"></div>
-                </div>
-                <div style="display: flex; align-items: center; gap: 8px; margin-left: 15px;">
-                    <label class="filter-item" style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
-                        <input type="checkbox" class="word-checkbox select-all-checkbox" style="margin: 0;">
-                        <span style="color: var(--card-text-secondary);">Выбрать все</span>
+                
+                <!-- Скрытие определенных функций -->
+                <div class="filter-options">
+                    <label class="filter-item">
+                    <input type="checkbox" class="filter-checkbox" data-target=".word-phonetics" checked>
+                    <span>Скрыть транскрипцию</span>
+                    </label>
+                    <label class="filter-item">
+                    <input type="checkbox" class="filter-checkbox" data-target=".word-translation" checked>
+                    <span>Скрыть перевод</span>
+                    </label>
+                    <label class="filter-item">
+                        <input type="checkbox" class="filter-checkbox" data-target=".word-synonyms" checked>
+                        <span>Скрыть синонимы</span>
+                    </label>
+                    <label class="filter-item">
+                    <input type="checkbox" class="filter-checkbox" data-target=".word-type" checked>
+                    <span>Скрыть часть речи</span>
+                    </label>
+                    <label class="filter-item">
+                    <input type="checkbox" class="filter-checkbox" data-target=".word-example" checked>
+                    <span>Скрыть пример</span>
                     </label>
                 </div>
-                <div id="batch-actions" style="display: none; padding: 0 1rem;">
-                    <div style="display: flex; gap: 8px; justify-content: flex-start; margin-left: 15px;">
-                        <button id="batchActionBack" class="action-button"
-                            style="padding: 8px 16px; background: var(--card-bg); color: var(--card-text-secondary); border: none; border-radius: 8px; cursor: pointer; height: 35px; display: flex; align-items: center;">
-                            Назад
-                        </button>
-                        <button id="batchActionMarkLearned" class="action-button"
-                            style="padding: 8px 16px; background: var(--accent-primary); color: white; border: none; border-radius: 8px; cursor: pointer; height: 35px; display: flex; align-items: center;">
-                            Отметить как изученное
-                        </button>
-                        <button id="batchActionDelete" class="action-button"
-                            style="padding: 8px 16px; background: var(--danger); color: white; border: none; border-radius: 8px; cursor: pointer; height: 35px; display: flex; align-items: center;">
-                            Удалить
-                        </button>
+
+                <div class="word-count-container" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="display: flex; align-items: center; gap: 15px; flex: 1;">
+                        <div class="word-count" style="color: var(--card-text-primary);">0 words</div>
+                        <div class="word-count-line" style="height: 1px; background-color: rgba(255, 255, 255, 0.1); flex: 1;"></div>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px; margin-left: 15px;">
+                        <label class="filter-item" style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="checkbox" class="word-checkbox select-all-checkbox" style="margin: 0;">
+                            <span style="color: var(--card-text-secondary);">Выбрать все</span>
+                        </label>
+                    </div>
+                    <div id="batch-actions" style="display: none; padding: 0 1rem;">
+                        <div style="display: flex; gap: 8px; justify-content: flex-start; margin-left: 15px;">
+                            <button id="batchActionBack" class="action-button"
+                                style="padding: 8px 16px; background: var(--card-bg); color: var(--card-text-secondary); border: none; border-radius: 8px; cursor: pointer; height: 35px; display: flex; align-items: center;">
+                                Назад
+                            </button>
+                            <button id="batchActionMarkLearned" class="action-button"
+                                style="padding: 8px 16px; background: var(--accent-primary); color: white; border: none; border-radius: 8px; cursor: pointer; height: 35px; display: flex; align-items: center;">
+                                Отметить как изученное
+                            </button>
+                            <button id="batchActionDelete" class="action-button"
+                                style="padding: 8px 16px; background: var(--danger); color: white; border: none; border-radius: 8px; cursor: pointer; height: 35px; display: flex; align-items: center;">
+                                Удалить
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            
-            <div id="wordsContainer"></div>
-        </div>
-    </div>
-    <footer class="footer">
-        <div class="footer-container">
-    
-            <!-- Footer Navigation -->
-            <div class="footer-nav">
-                <div class="footer-column">
-                    <h3>Platform</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="my-words.html">My Words</a></li>
-                        <li><a href="Phrasal Verbs.html">Phrasal Verbs</a></li>
-                        <li><a href="Grammar-practice.html">Grammar Practice</a></li>
-                    </ul>
-                </div>
+                
+                <div id="wordsContainer"></div>
             </div>
-    
-            <!-- Footer Bottom -->
-            <div class="footer-bottom">
-                <div class="footer-copyright">
-                    © 2025 EnglishPlay. All rights reserved.
-                </div>
-                <div class="footer-copyright">
-                    hello.englishplay@gmail.com
-                </div>
-                <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms</a>
-                    <a href="#">Cookies</a>
-                </div>
-            </div>
-    
-            <!-- Large Text at the Bottom -->
-            <h2 class="footer-large-text">
-                <span class="word primary">EnglishPlay</span>
-            </h2>
         </div>
-    </footer>
+
+        <footer class="footer">
+            <div class="footer-container">
+        
+                <!-- Footer Navigation -->
+                <div class="footer-nav">
+                    <div class="footer-column">
+                        <h3>Platform</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="my-words.html">My Words</a></li>
+                            <li><a href="Phrasal Verbs.html">Phrasal Verbs</a></li>
+                            <li><a href="Grammar-practice.html">Grammar Practice</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Footer Bottom -->
+                <div class="footer-bottom">
+                    <div class="footer-copyright">
+                        © 2025 EnglishPlay. All rights reserved.
+                    </div>
+                    <div class="footer-copyright">
+                        hello.englishplay@gmail.com
+                    </div>
+                    <div class="footer-legal">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+        
+                <!-- Large Text at the Bottom -->
+                <h2 class="footer-large-text">
+                    <span class="word primary">EnglishPlay</span>
+                </h2>
+            </div>
+        </footer>
+    </main>
     <script src="./assets/js/word-training.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>

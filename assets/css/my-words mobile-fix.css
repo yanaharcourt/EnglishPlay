@@ -1,0 +1,481 @@
+/*--------------------------------------------------------------
+# ТОЧЕЧНЫЕ ИСПРАВЛЕНИЯ ДЛЯ МОБИЛЬНОЙ АДАПТАЦИИ
+# Замените содержимое файла mobile-fix.css на этот код
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Критичное исправление статистических карточек
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    /* Переопределяем стили из styles.css с максимальным приоритетом */
+    .stats-cards {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px !important;
+        margin: 20px auto !important;
+        width: calc(100% - 1.5rem) !important;
+        max-width: 100% !important;
+        padding: 0 0.75rem !important;
+        box-sizing: border-box !important;
+    }
+
+    .stat-card {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        padding: 16px 12px !important;
+        background: var(--card-bg) !important;
+        border-radius: 8px !important;
+        gap: 12px !important;
+        min-height: 70px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .stat-icon {
+        font-size: 1.5rem !important;
+        flex-shrink: 0 !important;
+    }
+
+    .stat-info {
+        flex: 1 !important;
+        text-align: left !important;
+    }
+
+    .stat-label {
+        font-size: 0.75rem !important;
+        color: var(--card-text-secondary) !important;
+        margin-bottom: 4px !important;
+        line-height: 1.2 !important;
+    }
+
+    .stat-value {
+        font-size: 1.2rem !important;
+        color: var(--card-text-primary) !important;
+        font-weight: 600 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-cards {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+        margin: 15px auto !important;
+        width: calc(100% - 1rem) !important;
+        padding: 0 0.5rem !important;
+    }
+
+    .stat-card {
+        padding: 14px 10px !important;
+        min-height: 60px !important;
+    }
+
+    .stat-label {
+        font-size: 0.7rem !important;
+    }
+
+    .stat-value {
+        font-size: 1.1rem !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Исправление body и основных контейнеров
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    body {
+        padding: 0 !important;
+        padding-top: 70px !important;
+        margin: 0 !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        padding: 0 0.75rem !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+        box-sizing: border-box !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-top: 70px !important;
+    }
+
+    .container {
+        padding: 0 0.5rem !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Исправление фильтров изучения
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    .study-filter {
+        margin: 20px 0.75rem !important;
+        width: calc(100% - 1.5rem) !important;
+        box-sizing: border-box !important;
+    }
+
+    .study-switcher {
+        display: flex !important;
+        width: 100% !important;
+        background: var(--card-bg) !important;
+        border-radius: 8px !important;
+        padding: 4px !important;
+        position: relative !important;
+    }
+
+    .switcher-btn {
+        flex: 1 !important;
+        padding: 12px 16px !important;
+        background: transparent !important;
+        border: none !important;
+        color: var(--card-text-secondary) !important;
+        cursor: pointer !important;
+        border-radius: 6px !important;
+        transition: all 0.3s ease !important;
+        font-size: 14px !important;
+        position: relative !important;
+        z-index: 2 !important;
+    }
+
+    .switcher-btn.active {
+        color: var(--card-text-primary) !important;
+        background: var(--card-bg-hover) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .study-filter {
+        margin: 15px 0.5rem !important;
+        width: calc(100% - 1rem) !important;
+    }
+
+    .switcher-btn {
+        padding: 10px 14px !important;
+        font-size: 13px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Исправление управления словами
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    .word-management {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+        margin-bottom: 20px !important;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .study-button,
+    .updateWordsButton,
+    .add-button {
+        width: 100% !important;
+        padding: 14px 16px !important;
+        font-size: 14px !important;
+        min-height: 48px !important;
+        border-radius: 8px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 8px !important;
+        box-sizing: border-box !important;
+    }
+
+    .word-input-container {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .word-input {
+        width: 100% !important;
+        padding: 14px 16px !important;
+        font-size: 16px !important; /* Предотвращает зум на iOS */
+        border-radius: 8px !important;
+        box-sizing: border-box !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .word-management {
+        gap: 10px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .study-button,
+    .updateWordsButton,
+    .add-button {
+        padding: 12px 14px !important;
+        font-size: 13px !important;
+        min-height: 44px !important;
+    }
+
+    .word-input {
+        padding: 12px 14px !important;
+        font-size: 16px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Исправление контролов и фильтров
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    .dictionary-header {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .controls {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+        width: 100% !important;
+        margin-bottom: 16px !important;
+    }
+
+    .controls-left {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+        width: 100% !important;
+    }
+
+    .controls-right {
+        display: flex !important;
+        gap: 8px !important;
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .search-container {
+        width: 100% !important;
+    }
+
+    .search-input {
+        width: 100% !important;
+        padding: 12px 16px !important;
+        font-size: 16px !important;
+        box-sizing: border-box !important;
+    }
+
+    .filter-select {
+        width: 100% !important;
+        padding: 12px 16px !important;
+        font-size: 14px !important;
+        box-sizing: border-box !important;
+    }
+
+    .view-button {
+        flex: 1 !important;
+        padding: 12px 8px !important;
+        font-size: 13px !important;
+        min-height: 44px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        max-width: 120px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .controls {
+        gap: 10px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .controls-left {
+        gap: 10px !important;
+    }
+
+    .controls-right {
+        gap: 6px !important;
+    }
+
+    .search-input {
+        padding: 10px 14px !important;
+        font-size: 16px !important;
+    }
+
+    .filter-select {
+        padding: 10px 14px !important;
+        font-size: 13px !important;
+    }
+
+    .view-button {
+        padding: 10px 6px !important;
+        font-size: 12px !important;
+        min-height: 40px !important;
+        max-width: 100px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Исправление опций фильтров
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    .filter-options {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px !important;
+        padding: 16px !important;
+        background: var(--card-bg) !important;
+        border-radius: 8px !important;
+        margin-bottom: 16px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .filter-item {
+        display: flex !important;
+        align-items: center !important;
+        gap: 8px !important;
+        font-size: 13px !important;
+        color: var(--card-text-secondary) !important;
+        cursor: pointer !important;
+    }
+
+    .filter-checkbox {
+        min-width: 16px !important;
+        min-height: 16px !important;
+        margin: 0 !important;
+        flex-shrink: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-options {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+        padding: 12px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .filter-item {
+        font-size: 12px !important;
+        gap: 6px !important;
+    }
+
+    .filter-checkbox {
+        min-width: 14px !important;
+        min-height: 14px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Исправление счетчика слов
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    .word-count-container {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+        margin-bottom: 16px !important;
+        width: 100% !important;
+        padding: 16px !important;
+        background: var(--card-bg) !important;
+        border-radius: 8px !important;
+        box-sizing: border-box !important;
+    }
+
+    .word-count {
+        font-size: 14px !important;
+        color: var(--card-text-primary) !important;
+        text-align: center !important;
+    }
+
+    .word-count-line {
+        display: none !important;
+    }
+
+    .select-all-checkbox {
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .word-count-container {
+        gap: 10px !important;
+        margin-bottom: 12px !important;
+        padding: 12px !important;
+    }
+
+    .word-count {
+        font-size: 13px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Скрытие проблемных элементов на мобильных
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    /* Скрываем курсор */
+    .js-cursor-init,
+    .cursor-circle {
+        display: none !important;
+    }
+
+    /* Убираем hover эффекты */
+    * {
+        -webkit-tap-highlight-color: transparent !important;
+    }
+
+    /* Убираем все отступы слева, которые могут мешать */
+    * {
+        margin-left: 0 !important;
+    }
+
+    /* Исправляем box-sizing для всех элементов */
+    * {
+        box-sizing: border-box !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Дополнительные исправления для предотвращения горизонтального скролла
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden !important;
+    }
+
+    body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* Все контейнеры не должны превышать ширину экрана */
+    .stats-cards,
+    .study-filter,
+    .word-management,
+    .dictionary-header,
+    .controls,
+    .filter-options,
+    .word-count-container,
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    /* Убираем минимальные ширины */
+    .words-table {
+        min-width: unset !important;
+    }
+}
+@media (max-width: 768px) {
+    .main-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow-x: hidden !important;
+    }
+}

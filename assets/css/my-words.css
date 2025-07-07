@@ -71,6 +71,9 @@ body {
     padding: 0 1rem;
     color: var(--body-2);
 }
+.main-content {
+    margin-top: 0 !important;
+}
 
 /*--------------------------------------------------------------
 # FOOTER
@@ -1494,3 +1497,4 @@ body {
         opacity: 1;
     }
 }
+

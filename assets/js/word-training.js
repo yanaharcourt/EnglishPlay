@@ -2507,3 +2507,220 @@ document.addEventListener('DOMContentLoaded', function () {
     // Инициализация
     renderWords();
 });
+
+/*--------------------------------------------------------------
+# КРИТИЧЕСКИЙ JavaScript для мобильной таблицы
+# Добавьте этот код в конец файла word-training.js
+--------------------------------------------------------------*/
+
+// Функция для добавления data-label атрибутов к таблице
+function addMobileTableLabels() {
+    const table = document.querySelector('.words-table');
+    if (!table) return;
+
+    const headers = ['Выбрать', 'Слово', 'Перевод', 'Тип', 'Фонетика', 'Синонимы', 'Действия'];
+    const rows = table.querySelectorAll('tbody tr');
+    
+    rows.forEach(row => {
+        const cells = row.querySelectorAll('td');
+        cells.forEach((cell, index) => {
+            if (headers[index]) {
+                cell.setAttribute('data-label', headers[index]);
+            }
+        });
+    });
+}
+
+// Функция для оборачивания контента в main-content
+function wrapMainContent() {
+    const body = document.body;
+    const nav = document.querySelector('.left-nav');
+    const cursor = document.querySelector('.js-cursor-init');
+    
+    // Создаем main-content обертку
+    const mainContent = document.createElement('main');
+    mainContent.className = 'main-content';
+    
+    // Переносим все элементы кроме навигации и курсора в main-content
+    const children = Array.from(body.children);
+    children.forEach(child => {
+        if (child !== nav && child !== cursor && child.id !== 'mobile-menu-toggle') {
+            mainContent.appendChild(child);
+        }
+    });
+    
+    // Добавляем main-content в body
+    body.appendChild(mainContent);
+}
+
+// Функция для принудительного применения мобильных стилей
+function forceMobileStyles() {
+    const style = document.createElement('style');
+    style.textContent = `
+        /* Критические мобильные стили с максимальным приоритетом */
+        @media (max-width: 768px) {
+            body {
+                padding: 0 0.75rem !important;
+                padding-top: 70px !important;
+                margin: 0 auto !important;
+                max-width: 100% !important;
+            }
+            
+            .words-table {
+                min-width: unset !important;
+                width: 100% !important;
+            }
+            
+            .words-table thead {
+                display: none !important;
+            }
+            
+            .words-table tbody {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 16px !important;
+            }
+            
+            .words-table tr {
+                display: block !important;
+                background: var(--card-bg) !important;
+                border-radius: 12px !important;
+                padding: 16px !important;
+                margin: 0 !important;
+            }
+            
+            .words-table td {
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 8px 0 !important;
+                border-bottom: 1px solid var(--card-stroke) !important;
+            }
+            
+            .words-table td:last-child {
+                border-bottom: none !important;
+                justify-content: center !important;
+            }
+            
+            .words-table td::before {
+                content: attr(data-label) !important;
+                font-weight: 600 !important;
+                color: var(--card-text-primary) !important;
+                flex: 0 0 30% !important;
+            }
+            
+            .words-table td:first-child {
+                display: none !important;
+            }
+            
+            .stats-cards {
+                grid-template-columns: repeat(2, 1fr) !important;
+                gap: 12px !important;
+            }
+            
+            .words-grid {
+                grid-template-columns: 1fr !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .stats-cards {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    `;
+    document.head.appendChild(style);
+}
+
+// Наблюдатель за изменениями в DOM для автоматического обновления таблиц
+function setupTableObserver() {
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            if (mutation.type === 'childList') {
+                mutation.addedNodes.forEach((node) => {
+                    if (node.nodeType === Node.ELEMENT_NODE) {
+                        if (node.matches('.words-table') || node.querySelector('.words-table')) {
+                            setTimeout(addMobileTableLabels, 10);
+                        }
+                    }
+                });
+            }
+        });
+    });
+
+    // Наблюдаем за изменениями в контейнере слов
+    const wordsContainer = document.querySelector('.words-container') || 
+                          document.querySelector('#wordsContainer') || 
+                          document.body;
+    
+    if (wordsContainer) {
+        observer.observe(wordsContainer, { 
+            childList: true, 
+            subtree: true 
+        });
+    }
+}
+
+// Функция для проверки мобильного устройства
+function isMobileDevice() {
+    return window.innerWidth <= 768 || 
+           /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+// Функция инициализации мобильных исправлений
+function initMobileFixes() {
+    // Добавляем класс для мобильных устройств
+    if (isMobileDevice()) {
+        document.body.classList.add('is-mobile-device');
+    }
+    
+    // Принудительно применяем мобильные стили
+    forceMobileStyles();
+    
+    // Оборачиваем контент
+    wrapMainContent();
+    
+    // Добавляем data-label атрибуты к существующим таблицам
+    addMobileTableLabels();
+    
+    // Настраиваем наблюдатель за новыми таблицами
+    setupTableObserver();
+    
+    // Добавляем обработчик изменения размера окна
+    window.addEventListener('resize', () => {
+        setTimeout(() => {
+            addMobileTableLabels();
+        }, 100);
+    });
+}
+
+// Переопределяем функцию renderTable если она существует
+if (typeof window.renderTable === 'function') {
+    const originalRenderTable = window.renderTable;
+    window.renderTable = function(...args) {
+        const result = originalRenderTable.apply(this, args);
+        setTimeout(addMobileTableLabels, 10);
+        return result;
+    };
+}
+
+// Инициализируем исправления при загрузке DOM
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMobileFixes);
+} else {
+    initMobileFixes();
+}
+
+// Дополнительная инициализация после полной загрузки страницы
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        addMobileTableLabels();
+        
+        // Принудительно обновляем стили
+        const event = new Event('resize');
+        window.dispatchEvent(event);
+    }, 100);
+});
+
+// Экспортируем функции для внешнего использования
+window.addMobileTableLabels = addMobileTableLabels;
+window.forceMobileStyles = forceMobileStyles;
