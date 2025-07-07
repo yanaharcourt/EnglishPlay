@@ -297,7 +297,7 @@ body {
 @media (max-width: 768px) {
    .footer {
        left: 0 !important;
-       width: 100vw !important;
+       width: 100% !important;
    }
 
    .footer-container {
