@@ -6152,3 +6152,158 @@ PhraseTraining.prototype.startNextMode = function () {
             this.startNextMode();
     }
 };
+
+document.addEventListener('DOMContentLoaded', function() {
+    const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+        document.body.classList.add('is-mobile');
+        fixCategoryToggle();
+        optimizeForMobile();
+    }
+
+    function fixCategoryToggle() {
+        const categoryHeaders = document.querySelectorAll('.category-header');
+        
+        categoryHeaders.forEach(header => {
+            const newHeader = header.cloneNode(true);
+            header.parentNode.replaceChild(newHeader, header);
+            
+            newHeader.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const categoryItem = this.closest('.category-item');
+                const content = categoryItem.querySelector('.category-content');
+                const icon = this.querySelector('.toggle-icon');
+                
+                if (categoryItem.classList.contains('active')) {
+                    categoryItem.classList.remove('active');
+                    content.style.display = 'none';
+                    if (icon) {
+                        icon.style.transform = 'rotate(-90deg)';
+                    }
+                } else {
+                    categoryItem.classList.add('active');
+                    content.style.display = 'grid';
+                    content.style.gridTemplateColumns = '1fr';
+                    content.style.gap = '16px';
+                    if (icon) {
+                        icon.style.transform = 'rotate(0deg)';
+                    }
+                }
+                
+                if (isMobile && 'vibrate' in navigator) {
+                    navigator.vibrate(10);
+                }
+            });
+        });
+    }
+
+    function optimizeForMobile() {
+        const checkboxes = document.querySelectorAll('.phrase-checkbox, .idiom-checkbox, .category-checkbox, .select-all-checkbox');
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                if (isMobile && 'vibrate' in navigator) {
+                    navigator.vibrate(10);
+                }
+            });
+        });
+
+        const actionButtons = document.querySelectorAll('.action-button');
+        actionButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                if (isMobile) {
+                    this.style.transform = 'scale(0.9)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 150);
+                    
+                    if ('vibrate' in navigator) {
+                        navigator.vibrate(10);
+                    }
+                }
+            });
+        });
+
+        const studyButtons = document.querySelectorAll('.study-button');
+        studyButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                if (isMobile) {
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 150);
+                    
+                    if ('vibrate' in navigator) {
+                        navigator.vibrate(20);
+                    }
+                }
+            });
+        });
+    }
+
+    function preventDoubleTabZoom() {
+        let lastTouchEnd = 0;
+        
+        document.addEventListener('touchend', (e) => {
+            const now = new Date().getTime();
+            if (now - lastTouchEnd <= 300) {
+                e.preventDefault();
+            }
+            lastTouchEnd = now;
+        }, { passive: false });
+    }
+
+    function optimizeInputs() {
+        const inputs = document.querySelectorAll('input, textarea, select');
+        inputs.forEach(input => {
+            input.addEventListener('focus', () => {
+                document.body.classList.add('keyboard-open');
+                
+                setTimeout(() => {
+                    input.scrollIntoView({ 
+                        behavior: 'smooth', 
+                        block: 'center' 
+                    });
+                }, 300);
+            });
+            
+            input.addEventListener('blur', () => {
+                document.body.classList.remove('keyboard-open');
+            });
+        });
+    }
+
+    function handleOrientationChange() {
+        window.addEventListener('orientationchange', () => {
+            setTimeout(() => {
+                const activeContents = document.querySelectorAll('.category-item.active .category-content');
+                activeContents.forEach(content => {
+                    content.style.display = 'grid';
+                    content.style.gridTemplateColumns = '1fr';
+                    content.style.gap = '16px';
+                });
+            }, 100);
+        });
+    }
+
+    if (isMobile) {
+        preventDoubleTabZoom();
+        optimizeInputs();
+        handleOrientationChange();
+    }
+
+    window.addEventListener('resize', () => {
+        const wasMobile = document.body.classList.contains('is-mobile');
+        const nowMobile = window.innerWidth <= 768;
+        
+        if (!wasMobile && nowMobile) {
+            document.body.classList.add('is-mobile');
+            fixCategoryToggle();
+            optimizeForMobile();
+        } else if (wasMobile && !nowMobile) {
+            document.body.classList.remove('is-mobile');
+        }
+    });
+});
