@@ -3462,3 +3462,330 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page7']
         }
     ]
 };
+
+/* ============================================
+Page 8: Polite indirect questions - Research and academic excellence contexts (Sentence Building)
+============================================ */
+window.grammarExercises['questions']['polite-indirect-questions-sentence-page8'] = {
+    title: "Polite indirect questions - Research and academic excellence contexts",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Would", "it", "be", "possible", "to", "ascertain", "how", "long", "the", "data", "collection", "period", "spanned", "for", "this", "longitudinal", "study?"],
+            correctAnswer: "Would it be possible to ascertain how long the data collection period spanned for this longitudinal study?",
+            correctFeedback: "Perfect! 'Would it be possible to ascertain how long the data collection period spanned for this longitudinal study?' is correct. Outstanding scholarly vocabulary!",
+            correctFeedbackRu: "Отлично! 'Would it be possible to ascertain how long the data collection period spanned for this longitudinal study?' верно. Выдающаяся научная лексика!",
+            incorrectFeedback: "Try again. Remember: Would + it + be + possible + to + ascertain + how + long + the + data + collection + period + spanned + for + this + longitudinal + study + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Would + it + be + possible + to + ascertain + how + long + the + data + collection + period + spanned + for + this + longitudinal + study + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "would", "appreciate", "your", "perspective", "on", "what", "limitations", "might", "affect", "the", "generalizability", "of", "these", "findings."],
+            correctAnswer: "I would appreciate your perspective on what limitations might affect the generalizability of these findings.",
+            correctFeedback: "Excellent! 'I would appreciate your perspective on what limitations might affect the generalizability of these findings.' is correct. Outstanding methodological awareness!",
+            correctFeedbackRu: "Отлично! 'I would appreciate your perspective on what limitations might affect the generalizability of these findings.' верно. Выдающееся методологическое понимание!",
+            incorrectFeedback: "Try again. Remember: I + would + appreciate + your + perspective + on + what + limitations + might + affect + the + generalizability + of + these + findings.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + would + appreciate + your + perspective + on + what + limitations + might + affect + the + generalizability + of + these + findings."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Would", "you", "mind", "clarifying", "how", "the", "peer", "review", "process", "was", "conducted", "for", "this", "publication?"],
+            correctAnswer: "Would you mind clarifying how the peer review process was conducted for this publication?",
+            correctFeedback: "Perfect! 'Would you mind clarifying how the peer review process was conducted for this publication?' is correct. Excellent awareness of academic publishing!",
+            correctFeedbackRu: "Отлично! 'Would you mind clarifying how the peer review process was conducted for this publication?' верно. Превосходное понимание академической публикации!",
+            incorrectFeedback: "Try again. Remember: Would + you + mind + clarifying + how + the + peer + review + process + was + conducted + for + this + publication + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Would + you + mind + clarifying + how + the + peer + review + process + was + conducted + for + this + publication + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "you", "share", "your", "insights", "on", "how", "audience", "reception", "was", "gauged", "during", "your", "keynote", "presentation?"],
+            correctAnswer: "Could you share your insights on how audience reception was gauged during your keynote presentation?",
+            correctFeedback: "Excellent! 'Could you share your insights on how audience reception was gauged during your keynote presentation?' is correct. Excellent presentation awareness!",
+            correctFeedbackRu: "Отлично! 'Could you share your insights on how audience reception was gauged during your keynote presentation?' верно. Превосходное понимание презентации!",
+            incorrectFeedback: "Try again. Remember: Could + you + share + your + insights + on + how + audience + reception + was + gauged + during + your + keynote + presentation + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + you + share + your + insights + on + how + audience + reception + was + gauged + during + your + keynote + presentation + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I'm", "keen", "to", "understand", "how", "cross-disciplinary", "expertise", "was", "integrated", "into", "your", "research", "team."],
+            correctAnswer: "I'm keen to understand how cross-disciplinary expertise was integrated into your research team.",
+            correctFeedback: "Perfect! 'I'm keen to understand how cross-disciplinary expertise was integrated into your research team.' is correct. Outstanding collaborative awareness!",
+            correctFeedbackRu: "Отлично! 'I'm keen to understand how cross-disciplinary expertise was integrated into your research team.' верно. Выдающееся понимание сотрудничества!",
+            incorrectFeedback: "Try again. Remember: I'm + keen + to + understand + how + cross-disciplinary + expertise + was + integrated + into + your + research + team.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I'm + keen + to + understand + how + cross-disciplinary + expertise + was + integrated + into + your + research + team."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Would", "it", "be", "appropriate", "to", "inquire", "which", "funding", "mechanisms", "supported", "this", "extensive", "longitudinal", "research?"],
+            correctAnswer: "Would it be appropriate to inquire which funding mechanisms supported this extensive longitudinal research?",
+            correctFeedback: "Excellent! 'Would it be appropriate to inquire which funding mechanisms supported this extensive longitudinal research?' is correct. Excellent academic diplomacy!",
+            correctFeedbackRu: "Отлично! 'Would it be appropriate to inquire which funding mechanisms supported this extensive longitudinal research?' верно. Превосходная академическая дипломатия!",
+            incorrectFeedback: "Try again. Remember: Would + it + be + appropriate + to + inquire + which + funding + mechanisms + supported + this + extensive + longitudinal + research + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Would + it + be + appropriate + to + inquire + which + funding + mechanisms + supported + this + extensive + longitudinal + research + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "was", "curious", "to", "explore", "which", "theoretical", "paradigms", "informed", "your", "hypothesis", "development", "process."],
+            correctAnswer: "I was curious to explore which theoretical paradigms informed your hypothesis development process.",
+            correctFeedback: "Perfect! 'I was curious to explore which theoretical paradigms informed your hypothesis development process.' is correct. Outstanding theoretical engagement!",
+            correctFeedbackRu: "Отлично! 'I was curious to explore which theoretical paradigms informed your hypothesis development process.' верно. Выдающееся теоретическое понимание!",
+            incorrectFeedback: "Try again. Remember: I + was + curious + to + explore + which + theoretical + paradigms + informed + your + hypothesis + development + process.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + was + curious + to + explore + which + theoretical + paradigms + informed + your + hypothesis + development + process."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "you", "elaborate", "on", "which", "ethical", "approval", "procedures", "were", "followed", "throughout", "this", "human", "subjects", "research?"],
+            correctAnswer: "Could you elaborate on which ethical approval procedures were followed throughout this human subjects research?",
+            correctFeedback: "Excellent! 'Could you elaborate on which ethical approval procedures were followed throughout this human subjects research?' is correct. Excellent research ethics awareness!",
+            correctFeedbackRu: "Отлично! 'Could you elaborate on which ethical approval procedures were followed throughout this human subjects research?' верно. Превосходное понимание этики исследований!",
+            incorrectFeedback: "Try again. Remember: Could + you + elaborate + on + which + ethical + approval + procedures + were + followed + throughout + this + human + subjects + research + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + you + elaborate + on + which + ethical + approval + procedures + were + followed + throughout + this + human + subjects + research + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "was", "hoping", "to", "learn", "which", "dissemination", "strategies", "you", "employed", "to", "maximize", "research", "impact", "across", "academic", "communities."],
+            correctAnswer: "I was hoping to learn which dissemination strategies you employed to maximize research impact across academic communities.",
+            correctFeedback: "Perfect! 'I was hoping to learn which dissemination strategies you employed to maximize research impact across academic communities.' is correct. Outstanding academic impact awareness!",
+            correctFeedbackRu: "Отлично! 'I was hoping to learn which dissemination strategies you employed to maximize research impact across academic communities.' верно. Выдающееся понимание академического воздействия!",
+            incorrectFeedback: "Try again. Remember: I + was hoping + to + learn + which + dissemination + strategies + you + employed + to + maximize + research + impact + across + academic + communities.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + was hoping + to + learn + which + dissemination + strategies + you + employed + to + maximize + research + impact + across + academic + communities."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Would", "you", "be", "willing", "to", "share", "how", "international", "partnerships", "enhanced", "the", "scope", "of", "your", "research", "program?"],
+            correctAnswer: "Would you be willing to share how international partnerships enhanced the scope of your research program?",
+            correctFeedback: "Excellent! 'Would you be willing to share how international partnerships enhanced the scope of your research program?' is correct. Excellent international collaboration awareness!",
+            correctFeedbackRu: "Отлично! 'Would you be willing to share how international partnerships enhanced the scope of your research program?' верно. Превосходное понимание международного сотрудничества!",
+            incorrectFeedback: "Try again. Remember: Would + you + be + willing + to + share + how + international + partnerships + enhanced + the + scope + of + your + research + program + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Would + you + be + willing + to + share + how + international + partnerships + enhanced + the + scope + of + your + research + program + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Polite indirect questions - Innovation and future-oriented contexts (Sentence Building)
+============================================ */
+window.grammarExercises['questions']['polite-indirect-questions-sentence-page9'] = {
+    title: "Polite indirect questions - Innovation and future-oriented contexts",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Would", "it", "be", "appropriate", "to", "discuss", "which", "quantum", "algorithms", "your", "research", "team", "is", "developing", "for", "cryptographic", "applications?"],
+            correctAnswer: "Would it be appropriate to discuss which quantum algorithms your research team is developing for cryptographic applications?",
+            correctFeedback: "Perfect! 'Would it be appropriate to discuss which quantum algorithms your research team is developing for cryptographic applications?' is correct. Outstanding quantum sophistication!",
+            correctFeedbackRu: "Отлично! 'Would it be appropriate to discuss which quantum algorithms your research team is developing for cryptographic applications?' верно. Выдающаяся квантовая изощренность!",
+            incorrectFeedback: "Try again. Remember: Would + it + be + appropriate + to + discuss + which + quantum + algorithms + your + research + team + is + developing + for + cryptographic + applications + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Would + it + be + appropriate + to + discuss + which + quantum + algorithms + your + research + team + is + developing + for + cryptographic + applications + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "you", "help", "me", "understand", "which", "agile", "frameworks", "your", "development", "teams", "implement", "for", "continuous", "integration", "workflows?"],
+            correctAnswer: "Could you help me understand which agile frameworks your development teams implement for continuous integration workflows?",
+            correctFeedback: "Excellent! 'Could you help me understand which agile frameworks your development teams implement for continuous integration workflows?' is correct. Outstanding software development sophistication!",
+            correctFeedbackRu: "Отлично! 'Could you help me understand which agile frameworks your development teams implement for continuous integration workflows?' верно. Выдающаяся изощренность в разработке ПО!",
+            incorrectFeedback: "Try again. Remember: Could + you + help me + understand + which + agile + frameworks + your + development + teams + implement + for + continuous + integration + workflows + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + you + help me + understand + which + agile + frameworks + your + development + teams + implement + for + continuous + integration + workflows + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "was", "hoping", "to", "learn", "how", "containerization", "strategies", "facilitate", "your", "transition", "to", "microservices", "architecture."],
+            correctAnswer: "I was hoping to learn how containerization strategies facilitate your transition to microservices architecture.",
+            correctFeedback: "Perfect! 'I was hoping to learn how containerization strategies facilitate your transition to microservices architecture.' is correct. Excellent cloud architecture awareness!",
+            correctFeedbackRu: "Отлично! 'I was hoping to learn how containerization strategies facilitate your transition to microservices architecture.' верно. Превосходное понимание облачной архитектуры!",
+            incorrectFeedback: "Try again. Remember: I + was hoping + to + learn + how + containerization + strategies + facilitate + your + transition + to + microservices + architecture.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + was hoping + to + learn + how + containerization + strategies + facilitate + your + transition + to + microservices + architecture."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "you", "share", "your", "perspective", "on", "which", "rendering", "engines", "optimize", "performance", "for", "immersive", "AR", "experiences?"],
+            correctAnswer: "Could you share your perspective on which rendering engines optimize performance for immersive AR experiences?",
+            correctFeedback: "Excellent! 'Could you share your perspective on which rendering engines optimize performance for immersive AR experiences?' is correct. Outstanding AR development sophistication!",
+            correctFeedbackRu: "Отлично! 'Could you share your perspective on which rendering engines optimize performance for immersive AR experiences?' верно. Выдающаяся изощренность в разработке AR!",
+            incorrectFeedback: "Try again. Remember: Could + you + share + your + perspective + on + which + rendering + engines + optimize + performance + for + immersive + AR + experiences + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + you + share + your + perspective + on + which + rendering + engines + optimize + performance + for + immersive + AR + experiences + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I'm", "fascinated", "to", "discover", "how", "edge", "computing", "nodes", "reduce", "latency", "while", "maintaining", "data", "processing", "efficiency."],
+            correctAnswer: "I'm fascinated to discover how edge computing nodes reduce latency while maintaining data processing efficiency.",
+            correctFeedback: "Perfect! 'I'm fascinated to discover how edge computing nodes reduce latency while maintaining data processing efficiency.' is correct. Excellent edge computing expertise!",
+            correctFeedbackRu: "Отлично! 'I'm fascinated to discover how edge computing nodes reduce latency while maintaining data processing efficiency.' верно. Превосходная экспертиза в периферийных вычислениях!",
+            incorrectFeedback: "Try again. Remember: I'm + fascinated + to + discover + how + edge + computing + nodes + reduce + latency + while + maintaining + data + processing + efficiency.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I'm + fascinated + to + discover + how + edge + computing + nodes + reduce + latency + while + maintaining + data + processing + efficiency."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "you", "clarify", "how", "LEED", "certification", "standards", "ensure", "energy", "efficiency", "throughout", "building", "lifecycle", "management?"],
+            correctAnswer: "Could you clarify how LEED certification standards ensure energy efficiency throughout building lifecycle management?",
+            correctFeedback: "Excellent! 'Could you clarify how LEED certification standards ensure energy efficiency throughout building lifecycle management?' is correct. Outstanding sustainable construction expertise!",
+            correctFeedbackRu: "Отлично! 'Could you clarify how LEED certification standards ensure energy efficiency throughout building lifecycle management?' верно. Выдающаяся экспертиза устойчивого строительства!",
+            incorrectFeedback: "Try again. Remember: Could + you + clarify + how + LEED + certification + standards + ensure + energy + efficiency + throughout + building + lifecycle + management + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + you + clarify + how + LEED + certification + standards + ensure + energy + efficiency + throughout + building + lifecycle + management + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I'm", "interested", "to", "understand", "how", "coastal", "communities", "develop", "resilience", "against", "sea", "level", "rise", "projections."],
+            correctAnswer: "I'm interested to understand how coastal communities develop resilience against sea level rise projections.",
+            correctFeedback: "Perfect! 'I'm interested to understand how coastal communities develop resilience against sea level rise projections.' is correct. Excellent climate resilience sophistication!",
+            correctFeedbackRu: "Отлично! 'I'm interested to understand how coastal communities develop resilience against sea level rise projections.' верно. Превосходная изощренность в климатической устойчивости!",
+            incorrectFeedback: "Try again. Remember: I'm + interested + to + understand + how + coastal + communities + develop + resilience + against + sea + level + rise + projections.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I'm + interested + to + understand + how + coastal + communities + develop + resilience + against + sea + level + rise + projections."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Would", "you", "mind", "discussing", "how", "gene", "editing", "technologies", "are", "being", "applied", "to", "address", "hereditary", "disease", "prevention?"],
+            correctAnswer: "Would you mind discussing how gene editing technologies are being applied to address hereditary disease prevention?",
+            correctFeedback: "Excellent! 'Would you mind discussing how gene editing technologies are being applied to address hereditary disease prevention?' is correct. Outstanding biotechnology awareness!",
+            correctFeedbackRu: "Отлично! 'Would you mind discussing how gene editing technologies are being applied to address hereditary disease prevention?' верно. Выдающееся понимание биотехнологий!",
+            incorrectFeedback: "Try again. Remember: Would + you + mind + discussing + how + gene + editing + technologies + are + being + applied + to + address + hereditary + disease + prevention + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Would + you + mind + discussing + how + gene + editing + technologies + are + being + applied + to + address + hereditary + disease + prevention + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "was", "wondering", "how", "satellite", "constellation", "projects", "contribute", "to", "global", "internet", "connectivity", "infrastructure", "development."],
+            correctAnswer: "I was wondering how satellite constellation projects contribute to global internet connectivity infrastructure development.",
+            correctFeedback: "Perfect! 'I was wondering how satellite constellation projects contribute to global internet connectivity infrastructure development.' is correct. Outstanding space technology sophistication!",
+            correctFeedbackRu: "Отлично! 'I was wondering how satellite constellation projects contribute to global internet connectivity infrastructure development.' верно. Выдающаяся изощренность в космических технологиях!",
+            incorrectFeedback: "Try again. Remember: I + was wondering + how + satellite + constellation + projects + contribute + to + global + internet + connectivity + infrastructure + development.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + was wondering + how + satellite + constellation + projects + contribute + to + global + internet + connectivity + infrastructure + development."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "you", "elaborate", "on", "how", "autonomous", "vehicle", "systems", "integrate", "artificial", "intelligence", "for", "real-time", "decision-making", "processes?"],
+            correctAnswer: "Could you elaborate on how autonomous vehicle systems integrate artificial intelligence for real-time decision-making processes?",
+            correctFeedback: "Excellent! 'Could you elaborate on how autonomous vehicle systems integrate artificial intelligence for real-time decision-making processes?' is correct. Excellent autonomous vehicle expertise!",
+            correctFeedbackRu: "Отлично! 'Could you elaborate on how autonomous vehicle systems integrate artificial intelligence for real-time decision-making processes?' верно. Превосходная экспертиза автономных транспортных средств!",
+            incorrectFeedback: "Try again. Remember: Could + you + elaborate + on + how + autonomous + vehicle + systems + integrate + artificial + intelligence + for + real-time + decision-making + processes + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + you + elaborate + on + how + autonomous + vehicle + systems + integrate + artificial + intelligence + for + real-time + decision-making + processes + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Polite indirect questions - Advanced ethical and philosophical contexts (Sentence Building)
+============================================ */
+window.grammarExercises['questions']['polite-indirect-questions-sentence-page10'] = {
+    title: "Polite indirect questions - Advanced ethical and philosophical contexts",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "realize", "this", "touches", "on", "profound", "ethical", "considerations,", "but", "could", "you", "share", "your", "perspective", "on", "whether", "artificial", "intelligence", "should", "be", "regulated", "in", "medical", "decision-making?"],
+            correctAnswer: "I realize this touches on profound ethical considerations, but could you share your perspective on whether artificial intelligence should be regulated in medical decision-making?",
+            correctFeedback: "Perfect! 'I realize this touches on profound ethical considerations, but could you share your perspective on whether artificial intelligence should be regulated in medical decision-making?' is correct. Outstanding ethical sensitivity!",
+            correctFeedbackRu: "Отлично! 'I realize this touches on profound ethical considerations, but could you share your perspective on whether artificial intelligence should be regulated in medical decision-making?' верно. Выдающаяся этическая чувствительность!",
+            incorrectFeedback: "Try again. Remember: I + realize + this + touches + on + profound + ethical + considerations, + but + could + you + share + your + perspective + on + whether + artificial + intelligence + should + be + regulated + in + medical + decision-making + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + realize + this + touches + on + profound + ethical + considerations, + but + could + you + share + your + perspective + on + whether + artificial + intelligence + should + be + regulated + in + medical + decision-making + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Given", "the", "complexity", "of", "intergenerational", "justice,", "I", "was", "hoping", "to", "understand", "how", "future", "generations'", "rights", "should", "influence", "contemporary", "environmental", "policy", "decisions."],
+            correctAnswer: "Given the complexity of intergenerational justice, I was hoping to understand how future generations' rights should influence contemporary environmental policy decisions.",
+            correctFeedback: "Excellent! 'Given the complexity of intergenerational justice, I was hoping to understand how future generations' rights should influence contemporary environmental policy decisions.' is correct. Excellent philosophical sophistication!",
+            correctFeedbackRu: "Отлично! 'Given the complexity of intergenerational justice, I was hoping to understand how future generations' rights should influence contemporary environmental policy decisions.' верно. Превосходная философская изощренность!",
+            incorrectFeedback: "Try again. Remember: Given + the + complexity + of + intergenerational + justice, + I + was hoping + to + understand + how + future + generations' + rights + should + influence + contemporary + environmental + policy + decisions.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Given + the + complexity + of + intergenerational + justice, + I + was hoping + to + understand + how + future + generations' + rights + should + influence + contemporary + environmental + policy + decisions."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "wonder", "if", "you", "might", "elaborate", "on", "how", "privacy", "rights", "should", "be", "balanced", "against", "national", "security", "interests", "in", "digital", "surveillance", "systems."],
+            correctAnswer: "I wonder if you might elaborate on how privacy rights should be balanced against national security interests in digital surveillance systems.",
+            correctFeedback: "Perfect! 'I wonder if you might elaborate on how privacy rights should be balanced against national security interests in digital surveillance systems.' is correct. Outstanding digital ethics awareness!",
+            correctFeedbackRu: "Отлично! 'I wonder if you might elaborate on how privacy rights should be balanced against national security interests in digital surveillance systems.' верно. Выдающееся понимание цифровой этики!",
+            incorrectFeedback: "Try again. Remember: I + wonder + if + you + might + elaborate + on + how + privacy + rights + should + be + balanced + against + national + security + interests + in + digital + surveillance + systems.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + wonder + if + you + might + elaborate + on + how + privacy + rights + should + be + balanced + against + national + security + interests + in + digital + surveillance + systems."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "is", "undoubtedly", "a", "sensitive", "topic,", "but", "I", "was", "curious", "whether", "algorithmic", "bias", "in", "hiring", "systems", "perpetuates", "workplace", "inequality."],
+            correctAnswer: "This is undoubtedly a sensitive topic, but I was curious whether algorithmic bias in hiring systems perpetuates workplace inequality.",
+            correctFeedback: "Excellent! 'This is undoubtedly a sensitive topic, but I was curious whether algorithmic bias in hiring systems perpetuates workplace inequality.' is correct. Excellent social justice sensitivity!",
+            correctFeedbackRu: "Отлично! 'This is undoubtedly a sensitive topic, but I was curious whether algorithmic bias in hiring systems perpetuates workplace inequality.' верно. Превосходная чувствительность к социальной справедливости!",
+            incorrectFeedback: "Try again. Remember: This + is + undoubtedly + a + sensitive + topic, + but + I + was + curious + whether + algorithmic + bias + in + hiring + systems + perpetuates + workplace + inequality.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + is + undoubtedly + a + sensitive + topic, + but + I + was + curious + whether + algorithmic + bias + in + hiring + systems + perpetuates + workplace + inequality."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "hope", "I'm", "approaching", "this", "respectfully,", "but", "could", "you", "help", "me", "understand", "how", "informed", "consent", "protocols", "should", "evolve", "for", "genetic", "modification", "therapies?"],
+            correctAnswer: "I hope I'm approaching this respectfully, but could you help me understand how informed consent protocols should evolve for genetic modification therapies?",
+            correctFeedback: "Perfect! 'I hope I'm approaching this respectfully, but could you help me understand how informed consent protocols should evolve for genetic modification therapies?' is correct. Outstanding medical ethics awareness!",
+            correctFeedbackRu: "Отлично! 'I hope I'm approaching this respectfully, but could you help me understand how informed consent protocols should evolve for genetic modification therapies?' верно. Выдающееся понимание медицинской этики!",
+            incorrectFeedback: "Try again. Remember: I + hope + I'm + approaching + this + respectfully, + but + could + you + help me + understand + how + informed + consent + protocols + should + evolve + for + genetic + modification + therapies + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + hope + I'm + approaching + this + respectfully, + but + could + you + help me + understand + how + informed + consent + protocols + should + evolve + for + genetic + modification + therapies + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Given", "the", "global", "impact", "of", "multinational", "corporations,", "I", "was", "wondering", "whether", "corporate", "social", "responsibility", "initiatives", "should", "be", "mandated", "versus", "remaining", "voluntary."],
+            correctAnswer: "Given the global impact of multinational corporations, I was wondering whether corporate social responsibility initiatives should be mandated versus remaining voluntary.",
+            correctFeedback: "Excellent! 'Given the global impact of multinational corporations, I was wondering whether corporate social responsibility initiatives should be mandated versus remaining voluntary.' is correct. Excellent corporate ethics awareness!",
+            correctFeedbackRu: "Отлично! 'Given the global impact of multinational corporations, I was wondering whether corporate social responsibility initiatives should be mandated versus remaining voluntary.' верно. Превосходное понимание корпоративной этики!",
+            incorrectFeedback: "Try again. Remember: Given + the + global + impact + of + multinational + corporations, + I + was wondering + whether + corporate + social + responsibility + initiatives + should + be + mandated + versus + remaining + voluntary.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Given + the + global + impact + of + multinational + corporations, + I + was wondering + whether + corporate + social + responsibility + initiatives + should + be + mandated + versus + remaining + voluntary."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I'd", "be", "grateful", "for", "your", "thoughts", "on", "how", "educational", "equity", "can", "be", "achieved", "when", "socioeconomic", "disparities", "create", "unequal", "learning", "opportunities."],
+            correctAnswer: "I'd be grateful for your thoughts on how educational equity can be achieved when socioeconomic disparities create unequal learning opportunities.",
+            correctFeedback: "Perfect! 'I'd be grateful for your thoughts on how educational equity can be achieved when socioeconomic disparities create unequal learning opportunities.' is correct. Outstanding educational equity awareness!",
+            correctFeedbackRu: "Отлично! 'I'd be grateful for your thoughts on how educational equity can be achieved when socioeconomic disparities create unequal learning opportunities.' верно. Выдающееся понимание образовательного равенства!",
+            incorrectFeedback: "Try again. Remember: I'd + be + grateful + for + your + thoughts + on + how + educational + equity + can + be + achieved + when + socioeconomic + disparities + create + unequal + learning + opportunities.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I'd + be + grateful + for + your + thoughts + on + how + educational + equity + can + be + achieved + when + socioeconomic + disparities + create + unequal + learning + opportunities."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "involves", "considerable", "ethical", "complexity,", "but", "I", "wonder", "whether", "dual-use", "research", "should", "be", "regulated", "when", "scientific", "discoveries", "have", "both", "beneficial", "and", "harmful", "applications."],
+            correctAnswer: "This involves considerable ethical complexity, but I wonder whether dual-use research should be regulated when scientific discoveries have both beneficial and harmful applications.",
+            correctFeedback: "Excellent! 'This involves considerable ethical complexity, but I wonder whether dual-use research should be regulated when scientific discoveries have both beneficial and harmful applications.' is correct. Excellent research ethics sophistication!",
+            correctFeedbackRu: "Отлично! 'This involves considerable ethical complexity, but I wonder whether dual-use research should be regulated when scientific discoveries have both beneficial and harmful applications.' верно. Превосходная изощренность в этике исследований!",
+            incorrectFeedback: "Try again. Remember: This + involves + considerable + ethical + complexity, + but + I + wonder + whether + dual-use + research + should + be + regulated + when + scientific + discoveries + have + both + beneficial + and + harmful + applications.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: This + involves + considerable + ethical + complexity, + but + I + wonder + whether + dual-use + research + should + be + regulated + when + scientific + discoveries + have + both + beneficial + and + harmful + applications."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "realize", "this", "raises", "fundamental", "questions", "about", "human", "dignity,", "but", "could", "you", "share", "your", "perspective", "on", "whether", "artificial", "consciousness", "should", "be", "granted", "legal", "personhood", "status?"],
+            correctAnswer: "I realize this raises fundamental questions about human dignity, but could you share your perspective on whether artificial consciousness should be granted legal personhood status?",
+            correctFeedback: "Perfect! 'I realize this raises fundamental questions about human dignity, but could you share your perspective on whether artificial consciousness should be granted legal personhood status?' is correct. Outstanding philosophical depth!",
+            correctFeedbackRu: "Отлично! 'I realize this raises fundamental questions about human dignity, but could you share your perspective on whether artificial consciousness should be granted legal personhood status?' верно. Выдающаяся философская глубина!",
+            incorrectFeedback: "Try again. Remember: I + realize + this + raises + fundamental + questions + about + human + dignity, + but + could + you + share + your + perspective + on + whether + artificial + consciousness + should + be + granted + legal + personhood + status + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + realize + this + raises + fundamental + questions + about + human + dignity, + but + could + you + share + your + perspective + on + whether + artificial + consciousness + should + be + granted + legal + personhood + status + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["As", "we", "navigate", "these", "unprecedented", "ethical", "frontiers,", "may", "I", "ask", "how", "humanity", "should", "collectively", "approach", "the", "governance", "of", "transformative", "technologies", "that", "transcend", "national", "boundaries?"],
+            correctAnswer: "As we navigate these unprecedented ethical frontiers, may I ask how humanity should collectively approach the governance of transformative technologies that transcend national boundaries?",
+            correctFeedback: "Excellent! 'As we navigate these unprecedented ethical frontiers, may I ask how humanity should collectively approach the governance of transformative technologies that transcend national boundaries?' is correct. Exceptional global ethics awareness!",
+            correctFeedbackRu: "Отлично! 'As we navigate these unprecedented ethical frontiers, may I ask how humanity should collectively approach the governance of transformative technologies that transcend national boundaries?' верно. Исключительное понимание глобальной этики!",
+            incorrectFeedback: "Try again. Remember: As + we + navigate + these + unprecedented + ethical + frontiers, + may + I + ask + how + humanity + should + collectively + approach + the + governance + of + transformative + technologies + that + transcend + national + boundaries + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: As + we + navigate + these + unprecedented + ethical + frontiers, + may + I + ask + how + humanity + should + collectively + approach + the + governance + of + transformative + technologies + that + transcend + national + boundaries + ?"
+        }
+    ]
+};
