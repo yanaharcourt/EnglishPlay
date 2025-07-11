@@ -1839,7 +1839,7 @@ window.grammarExercises['modals']['must-vs-have-to-gap-page2'] = {
         {
             question: "Complete the sentence with 'must' or 'have to':",
             questionRu: "Заполните предложение словом 'must' или 'have to':",
-            sentence: "I ____ improve my communication skills. My presentations are terrible.",
+            sentence: "I ____ improve my communication skills. My presentations need work.",
             correctAnswer: "must",
             options: ["must", "have to", "should", "might"],
             correctFeedback: "Perfect! 'Must' is correct because this is your own professional self-assessment and improvement goal.",
@@ -2110,7 +2110,7 @@ window.grammarExercises['modals']['must-vs-have-to-gap-page4'] = {
         {
             question: "Complete the sentence with 'must' or 'have to':",
             questionRu: "Заполните предложение словом 'must' или 'have to':",
-            sentence: "I ____ create a budget and stick to it. My spending is completely out of control.",
+            sentence: "I ____ create a budget and stick to it. My spending habits are problematic.",
             correctAnswer: "must",
             options: ["must", "have to", "should", "might"],
             correctFeedback: "Excellent! 'Must' is correct because this is your own financial awareness and money management decision.",
@@ -2370,7 +2370,7 @@ window.grammarExercises['modals']['must-vs-have-to-gap-page6'] = {
         {
             question: "Complete the sentence with 'must' or 'have to':",
             questionRu: "Заполните предложение словом 'must' или 'have to':",
-            sentence: "I ____ learn to live in the present moment. Constantly worrying about the future steals my joy.",
+            sentence: "I ____ learn to live in the present moment. Constantly worrying about the future reduces my happiness.",
             correctAnswer: "must",
             options: ["must", "have to", "should", "will"],
             correctFeedback: "Great! 'Must' is correct because this is your own mindfulness awareness and peace-seeking decision.",
@@ -2542,7 +2542,7 @@ window.grammarExercises['modals']['must-vs-have-to-gap-page8'] = {
         {
             question: "Complete the sentence with 'must' or 'have to':",
             questionRu: "Заполните предложение словом 'must' или 'have to':",
-            sentence: "I ____ stop avoiding difficult emotions. Processing feelings is essential for mental health.",
+            sentence: "I ____ stop avoiding difficult emotions. Dealing with feelings is essential for mental health.",
             correctAnswer: "must",
             options: ["must", "have to", "should", "will"],
             correctFeedback: "Excellent! 'Must' is correct because this is your own emotional wellness and psychological growth decision.",
@@ -2886,6 +2886,1099 @@ window.grammarExercises['modals']['must-vs-have-to-gap-page10'] = {
             correctFeedbackRu: "Идеально! 'Have to' правильно, потому что клинические протоколы требуются агентствами регулирования лекарств и советами медицинской этики.",
             incorrectFeedback: "Think about medical research! Use 'have to' because regulatory authorities mandate strict protocols to ensure patient safety in all clinical trials.",
             incorrectFeedbackRu: "Подумайте о медицинских исследованиях! Используйте 'have to', потому что регулирующие власти предписывают строгие протоколы для обеспечения безопасности пациентов во всех клинических испытаниях."
+        }
+    ]
+};
+
+/* =============================================================================== */
+/* =========================Sentence Building Exercises=========================== */
+
+/* ============================================
+Page 1: Must vs Have to - Basic Obligation Formation
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page1'] = {
+    title: "Must vs Have to - Basic Obligation Formation",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "finish", "this", "project", "today."],
+            correctAnswer: "I must finish this project today.",
+            correctFeedback: "Perfect! 'I must finish this project today.' is correct. Great use of 'must' for personal urgency!",
+            correctFeedbackRu: "Отлично! 'I must finish this project today.' верно. Прекрасное использование 'must' для личной срочности!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + object + time.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + дополнение + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Students", "have", "to", "wear", "uniforms", "at", "school."],
+            correctAnswer: "Students have to wear uniforms at school.",
+            correctFeedback: "Excellent! 'Students have to wear uniforms at school.' is correct. Perfect use of 'have to' for external rules!",
+            correctFeedbackRu: "Отлично! 'Students have to wear uniforms at school.' верно. Идеальное использование 'have to' для внешних правил!",
+            incorrectFeedback: "Try again. Remember: Students + have to + verb + object + location.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Students + have to + глагол + дополнение + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "learn", "to", "control", "my", "anger."],
+            correctAnswer: "I must learn to control my anger.",
+            correctFeedback: "Great! 'I must learn to control my anger.' is correct. Excellent personal development statement!",
+            correctFeedbackRu: "Отлично! 'I must learn to control my anger.' верно. Отличное утверждение личного развития!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + to + verb + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + to + глагол + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Employees", "have", "to", "attend", "the", "safety", "meeting."],
+            correctAnswer: "Employees have to attend the safety meeting.",
+            correctFeedback: "Perfect! 'Employees have to attend the safety meeting.' is correct. Great workplace obligation example!",
+            correctFeedbackRu: "Идеально! 'Employees have to attend the safety meeting.' верно. Отличный пример рабочего обязательства!",
+            incorrectFeedback: "Try again. Remember: Employees + have to + verb + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Employees + have to + глагол + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "stop", "procrastinating", "and", "start", "working."],
+            correctAnswer: "I must stop procrastinating and start working.",
+            correctFeedback: "Excellent! 'I must stop procrastinating and start working.' is correct. Strong personal motivation statement!",
+            correctFeedbackRu: "Отлично! 'I must stop procrastinating and start working.' верно. Сильное утверждение личной мотивации!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + gerund + and + verb + gerund.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + герундий + and + глагол + герундий."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Drivers", "have", "to", "stop", "at", "red", "lights."],
+            correctAnswer: "Drivers have to stop at red lights.",
+            correctFeedback: "Great! 'Drivers have to stop at red lights.' is correct. Perfect traffic law example!",
+            correctFeedbackRu: "Отлично! 'Drivers have to stop at red lights.' верно. Идеальный пример правил дорожного движения!",
+            incorrectFeedback: "Try again. Remember: Drivers + have to + verb + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Drivers + have to + глагол + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "be", "more", "patient", "with", "people."],
+            correctAnswer: "I must be more patient with people.",
+            correctFeedback: "Perfect! 'I must be more patient with people.' is correct. Wonderful personal growth goal!",
+            correctFeedbackRu: "Идеально! 'I must be more patient with people.' верно. Замечательная цель личного роста!",
+            incorrectFeedback: "Try again. Remember: I + must + be + more + adjective + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + be + more + прилагательное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Visitors", "have", "to", "sign", "in", "at", "reception."],
+            correctAnswer: "Visitors have to sign in at reception.",
+            correctFeedback: "Excellent! 'Visitors have to sign in at reception.' is correct. Great security procedure example!",
+            correctFeedbackRu: "Отлично! 'Visitors have to sign in at reception.' верно. Отличный пример процедуры безопасности!",
+            incorrectFeedback: "Try again. Remember: Visitors + have to + phrasal verb + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Visitors + have to + фразовый глагол + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "trust", "my", "instincts", "more", "often."],
+            correctAnswer: "I must trust my instincts more often.",
+            correctFeedback: "Great! 'I must trust my instincts more often.' is correct. Excellent self-confidence statement!",
+            correctFeedbackRu: "Отлично! 'I must trust my instincts more often.' верно. Отличное утверждение уверенности в себе!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + adverb + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + наречие + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Children", "have", "to", "do", "their", "homework", "every", "day."],
+            correctAnswer: "Children have to do their homework every day.",
+            correctFeedback: "Perfect! 'Children have to do their homework every day.' is correct. Great educational responsibility example!",
+            correctFeedbackRu: "Идеально! 'Children have to do their homework every day.' верно. Отличный пример образовательной ответственности!",
+            incorrectFeedback: "Try again. Remember: Children + have to + verb + possessive + noun + frequency.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Children + have to + глагол + притяжательное + существительное + частотность."
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Must vs Have to - Complex Situations and Professional Context
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page2'] = {
+    title: "Must vs Have to - Complex Situations and Professional Context",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "overcome", "my", "fear", "of", "failure."],
+            correctAnswer: "I must overcome my fear of failure.",
+            correctFeedback: "Excellent! 'I must overcome my fear of failure.' is correct. Powerful personal courage statement!",
+            correctFeedbackRu: "Отлично! 'I must overcome my fear of failure.' верно. Мощное утверждение личной смелости!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Doctors", "have", "to", "complete", "continuing", "education", "annually."],
+            correctAnswer: "Doctors have to complete continuing education annually.",
+            correctFeedback: "Perfect! 'Doctors have to complete continuing education annually.' is correct. Great professional requirement example!",
+            correctFeedbackRu: "Идеально! 'Doctors have to complete continuing education annually.' верно. Отличный пример профессионального требования!",
+            incorrectFeedback: "Try again. Remember: Doctors + have to + verb + adjective + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Doctors + have to + глагол + прилагательное + существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "accept", "responsibility", "for", "my", "mistakes."],
+            correctAnswer: "I must accept responsibility for my mistakes.",
+            correctFeedback: "Great! 'I must accept responsibility for my mistakes.' is correct. Excellent accountability statement!",
+            correctFeedbackRu: "Отлично! 'I must accept responsibility for my mistakes.' верно. Отличное утверждение подотчетности!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Pilots", "have", "to", "log", "flight", "hours", "regularly."],
+            correctAnswer: "Pilots have to log flight hours regularly.",
+            correctFeedback: "Excellent! 'Pilots have to log flight hours regularly.' is correct. Perfect aviation requirement example!",
+            correctFeedbackRu: "Отлично! 'Pilots have to log flight hours regularly.' верно. Идеальный пример авиационного требования!",
+            incorrectFeedback: "Try again. Remember: Pilots + have to + verb + noun + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Pilots + have to + глагол + существительное + существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "develop", "better", "communication", "skills."],
+            correctAnswer: "I must develop better communication skills.",
+            correctFeedback: "Perfect! 'I must develop better communication skills.' is correct. Wonderful professional development goal!",
+            correctFeedbackRu: "Идеально! 'I must develop better communication skills.' верно. Замечательная цель профессионального развития!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Passengers", "have", "to", "show", "boarding", "passes", "before", "entering."],
+            correctAnswer: "Passengers have to show boarding passes before entering.",
+            correctFeedback: "Great! 'Passengers have to show boarding passes before entering.' is correct. Excellent airport security example!",
+            correctFeedbackRu: "Отлично! 'Passengers have to show boarding passes before entering.' верно. Отличный пример безопасности аэропорта!",
+            incorrectFeedback: "Try again. Remember: Passengers + have to + verb + noun + noun + preposition + gerund.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Passengers + have to + глагол + существительное + существительное + предлог + герундий."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "learn", "from", "my", "past", "experiences."],
+            correctAnswer: "I must learn from my past experiences.",
+            correctFeedback: "Excellent! 'I must learn from my past experiences.' is correct. Great wisdom and growth statement!",
+            correctFeedbackRu: "Отлично! 'I must learn from my past experiences.' верно. Отличное утверждение мудрости и роста!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + preposition + possessive + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + предлог + притяжательное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Teachers", "have", "to", "report", "suspicious", "behavior", "immediately."],
+            correctAnswer: "Teachers have to report suspicious behavior immediately.",
+            correctFeedback: "Perfect! 'Teachers have to report suspicious behavior immediately.' is correct. Important safety protocol example!",
+            correctFeedbackRu: "Идеально! 'Teachers have to report suspicious behavior immediately.' верно. Важный пример протокола безопасности!",
+            incorrectFeedback: "Try again. Remember: Teachers + have to + verb + adjective + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Teachers + have to + глагол + прилагательное + существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "find", "balance", "between", "work", "and", "life."],
+            correctAnswer: "I must find balance between work and life.",
+            correctFeedback: "Great! 'I must find balance between work and life.' is correct. Excellent wellbeing priority statement!",
+            correctFeedbackRu: "Отлично! 'I must find balance between work and life.' верно. Отличное утверждение приоритета благополучия!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + noun + conjunction + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + существительное + союз + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Customers", "have", "to", "provide", "identification", "when", "purchasing", "alcohol."],
+            correctAnswer: "Customers have to provide identification when purchasing alcohol.",
+            correctFeedback: "Excellent! 'Customers have to provide identification when purchasing alcohol.' is correct. Perfect legal requirement example!",
+            correctFeedbackRu: "Отлично! 'Customers have to provide identification when purchasing alcohol.' верно. Идеальный пример правового требования!",
+            incorrectFeedback: "Try again. Remember: Customers + have to + verb + noun + preposition + gerund + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Customers + have to + глагол + существительное + предлог + герундий + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 3: Must vs Have to - Personal Growth and Social Responsibilities
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page3'] = {
+    title: "Must vs Have to - Personal Growth and Social Responsibilities",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "stop", "comparing", "myself", "to", "others."],
+            correctAnswer: "I must stop comparing myself to others.",
+            correctFeedback: "Perfect! 'I must stop comparing myself to others.' is correct. Excellent self-acceptance statement!",
+            correctFeedbackRu: "Идеально! 'I must stop comparing myself to others.' верно. Отличное утверждение самопринятия!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + gerund + pronoun + preposition + pronoun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + герундий + местоимение + предлог + местоимение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Citizens", "have", "to", "register", "to", "vote", "before", "elections."],
+            correctAnswer: "Citizens have to register to vote before elections.",
+            correctFeedback: "Excellent! 'Citizens have to register to vote before elections.' is correct. Great civic duty example!",
+            correctFeedbackRu: "Отлично! 'Citizens have to register to vote before elections.' верно. Отличный пример гражданского долга!",
+            incorrectFeedback: "Try again. Remember: Citizens + have to + verb + to + verb + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Citizens + have to + глагол + to + глагол + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "forgive", "myself", "for", "past", "mistakes."],
+            correctAnswer: "I must forgive myself for past mistakes.",
+            correctFeedback: "Great! 'I must forgive myself for past mistakes.' is correct. Beautiful self-compassion statement!",
+            correctFeedbackRu: "Отлично! 'I must forgive myself for past mistakes.' верно. Прекрасное утверждение самосострадания!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + pronoun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + местоимение + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Food", "handlers", "have", "to", "wash", "hands", "frequently."],
+            correctAnswer: "Food handlers have to wash hands frequently.",
+            correctFeedback: "Perfect! 'Food handlers have to wash hands frequently.' is correct. Important health regulation example!",
+            correctFeedbackRu: "Идеально! 'Food handlers have to wash hands frequently.' верно. Важный пример санитарного правила!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "embrace", "change", "instead", "of", "resisting", "it."],
+            correctAnswer: "I must embrace change instead of resisting it.",
+            correctFeedback: "Excellent! 'I must embrace change instead of resisting it.' is correct. Wonderful adaptability statement!",
+            correctFeedbackRu: "Отлично! 'I must embrace change instead of resisting it.' верно. Замечательное утверждение адаптивности!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + instead of + gerund + pronoun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + instead of + герундий + местоимение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Security", "guards", "have", "to", "patrol", "the", "building", "hourly."],
+            correctAnswer: "Security guards have to patrol the building hourly.",
+            correctFeedback: "Great! 'Security guards have to patrol the building hourly.' is correct. Perfect security protocol example!",
+            correctFeedbackRu: "Отлично! 'Security guards have to patrol the building hourly.' верно. Идеальный пример протокола безопасности!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + article + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + артикль + существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "practice", "gratitude", "for", "what", "I", "have."],
+            correctAnswer: "I must practice gratitude for what I have.",
+            correctFeedback: "Perfect! 'I must practice gratitude for what I have.' is correct. Beautiful mindfulness statement!",
+            correctFeedbackRu: "Идеально! 'I must practice gratitude for what I have.' верно. Прекрасное утверждение осознанности!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + pronoun + pronoun + verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + местоимение + местоимение + глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Pharmacists", "have", "to", "verify", "prescriptions", "before", "dispensing", "medication."],
+            correctAnswer: "Pharmacists have to verify prescriptions before dispensing medication.",
+            correctFeedback: "Excellent! 'Pharmacists have to verify prescriptions before dispensing medication.' is correct. Critical safety procedure example!",
+            correctFeedbackRu: "Отлично! 'Pharmacists have to verify prescriptions before dispensing medication.' верно. Критически важный пример процедуры безопасности!",
+            incorrectFeedback: "Try again. Remember: Pharmacists + have to + verb + noun + preposition + gerund + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Pharmacists + have to + глагол + существительное + предлог + герундий + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "set", "boundaries", "with", "toxic", "people."],
+            correctAnswer: "I must set boundaries with toxic people.",
+            correctFeedback: "Great! 'I must set boundaries with toxic people.' is correct. Important self-protection statement!",
+            correctFeedbackRu: "Отлично! 'I must set boundaries with toxic people.' верно. Важное утверждение самозащиты!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Athletes", "have", "to", "undergo", "drug", "testing", "randomly."],
+            correctAnswer: "Athletes have to undergo drug testing randomly.",
+            correctFeedback: "Perfect! 'Athletes have to undergo drug testing randomly.' is correct. Essential sports integrity example!",
+            correctFeedbackRu: "Идеально! 'Athletes have to undergo drug testing randomly.' верно. Важнейший пример спортивной честности!",
+            incorrectFeedback: "Try again. Remember: Athletes + have to + verb + noun + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Athletes + have to + глагол + существительное + существительное + наречие."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Must vs Have to - Emotional Intelligence and Regulatory Requirements
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page4'] = {
+    title: "Must vs Have to - Emotional Intelligence and Regulatory Requirements",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "listen", "to", "my", "body's", "warning", "signals."],
+            correctAnswer: "I must listen to my body's warning signals.",
+            correctFeedback: "Perfect! 'I must listen to my body's warning signals.' is correct. Excellent health awareness statement!",
+            correctFeedbackRu: "Идеально! 'I must listen to my body's warning signals.' верно. Отличное утверждение осознания здоровья!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + preposition + possessive + noun + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + предлог + притяжательное + существительное + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Nurses", "have", "to", "update", "patient", "records", "after", "each", "shift."],
+            correctAnswer: "Nurses have to update patient records after each shift.",
+            correctFeedback: "Excellent! 'Nurses have to update patient records after each shift.' is correct. Important medical protocol example!",
+            correctFeedbackRu: "Отлично! 'Nurses have to update patient records after each shift.' верно. Важный пример медицинского протокола!",
+            incorrectFeedback: "Try again. Remember: Nurses + have to + verb + noun + noun + preposition + determiner + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Nurses + have to + глагол + существительное + существительное + предлог + определитель + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "break", "free", "from", "negative", "thinking", "patterns."],
+            correctAnswer: "I must break free from negative thinking patterns.",
+            correctFeedback: "Great! 'I must break free from negative thinking patterns.' is correct. Powerful mental health statement!",
+            correctFeedbackRu: "Отлично! 'I must break free from negative thinking patterns.' верно. Мощное утверждение психического здоровья!",
+            incorrectFeedback: "Try again. Remember: I + must + phrasal verb + preposition + adjective + gerund + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + фразовый глагол + предлог + прилагательное + герундий + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Electricians", "have", "to", "complete", "apprenticeships", "before", "getting", "licensed."],
+            correctAnswer: "Electricians have to complete apprenticeships before getting licensed.",
+            correctFeedback: "Perfect! 'Electricians have to complete apprenticeships before getting licensed.' is correct. Great professional training example!",
+            correctFeedbackRu: "Идеально! 'Electricians have to complete apprenticeships before getting licensed.' верно. Отличный пример профессиональной подготовки!",
+            incorrectFeedback: "Try again. Remember: Electricians + have to + verb + noun + preposition + gerund + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Electricians + have to + глагол + существительное + предлог + герундий + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "celebrate", "small", "victories", "along", "the", "way."],
+            correctAnswer: "I must celebrate small victories along the way.",
+            correctFeedback: "Excellent! 'I must celebrate small victories along the way.' is correct. Beautiful motivation statement!",
+            correctFeedbackRu: "Отлично! 'I must celebrate small victories along the way.' верно. Прекрасное утверждение мотивации!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + adjective + noun + preposition + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + прилагательное + существительное + предлог + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Bank", "employees", "have", "to", "verify", "customer", "identity", "during", "transactions."],
+            correctAnswer: "Bank employees have to verify customer identity during transactions.",
+            correctFeedback: "Great! 'Bank employees have to verify customer identity during transactions.' is correct. Essential security procedure example!",
+            correctFeedbackRu: "Отлично! 'Bank employees have to verify customer identity during transactions.' верно. Важнейший пример процедуры безопасности!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + noun + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + существительное + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "choose", "my", "battles", "wisely", "and", "strategically."],
+            correctAnswer: "I must choose my battles wisely and strategically.",
+            correctFeedback: "Perfect! 'I must choose my battles wisely and strategically.' is correct. Excellent wisdom statement!",
+            correctFeedbackRu: "Идеально! 'I must choose my battles wisely and strategically.' верно. Отличное утверждение мудрости!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + adverb + conjunction + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + наречие + союз + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Construction", "workers", "have", "to", "wear", "protective", "equipment", "on", "site."],
+            correctAnswer: "Construction workers have to wear protective equipment on site.",
+            correctFeedback: "Excellent! 'Construction workers have to wear protective equipment on site.' is correct. Important safety regulation example!",
+            correctFeedbackRu: "Отлично! 'Construction workers have to wear protective equipment on site.' верно. Важный пример правил безопасности!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + adjective + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + прилагательное + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "honor", "my", "commitments", "to", "maintain", "trust."],
+            correctAnswer: "I must honor my commitments to maintain trust.",
+            correctFeedback: "Great! 'I must honor my commitments to maintain trust.' is correct. Excellent integrity statement!",
+            correctFeedbackRu: "Отлично! 'I must honor my commitments to maintain trust.' верно. Отличное утверждение честности!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + to + verb + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + to + глагол + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Lifeguards", "have", "to", "maintain", "constant", "vigilance", "while", "on", "duty."],
+            correctAnswer: "Lifeguards have to maintain constant vigilance while on duty.",
+            correctFeedback: "Perfect! 'Lifeguards have to maintain constant vigilance while on duty.' is correct. Critical safety responsibility example!",
+            correctFeedbackRu: "Идеально! 'Lifeguards have to maintain constant vigilance while on duty.' верно. Критически важный пример ответственности за безопасность!",
+            incorrectFeedback: "Try again. Remember: Lifeguards + have to + verb + adjective + noun + preposition + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Lifeguards + have to + глагол + прилагательное + существительное + предлог + предлог + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Must vs Have to - Advanced Personal Development and Professional Standards
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page5'] = {
+    title: "Must vs Have to - Advanced Personal Development and Professional Standards",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "cultivate", "patience", "in", "difficult", "situations."],
+            correctAnswer: "I must cultivate patience in difficult situations.",
+            correctFeedback: "Perfect! 'I must cultivate patience in difficult situations.' is correct. Excellent emotional growth statement!",
+            correctFeedbackRu: "Идеально! 'I must cultivate patience in difficult situations.' верно. Отличное утверждение эмоционального роста!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Cruise", "ship", "captains", "have", "to", "hold", "master", "mariner", "licenses."],
+            correctAnswer: "Cruise ship captains have to hold master mariner licenses.",
+            correctFeedback: "Excellent! 'Cruise ship captains have to hold master mariner licenses.' is correct. Important maritime qualification example!",
+            correctFeedbackRu: "Отлично! 'Cruise ship captains have to hold master mariner licenses.' верно. Важный пример морской квалификации!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + noun + have to + verb + noun + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + существительное + have to + глагол + существительное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "transform", "my", "relationship", "with", "criticism."],
+            correctAnswer: "I must transform my relationship with criticism.",
+            correctFeedback: "Great! 'I must transform my relationship with criticism.' is correct. Powerful personal development statement!",
+            correctFeedbackRu: "Отлично! 'I must transform my relationship with criticism.' верно. Мощное утверждение личного развития!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Nuclear", "plant", "operators", "have", "to", "pass", "psychological", "evaluations."],
+            correctAnswer: "Nuclear plant operators have to pass psychological evaluations.",
+            correctFeedback: "Perfect! 'Nuclear plant operators have to pass psychological evaluations.' is correct. Critical safety screening example!",
+            correctFeedbackRu: "Идеально! 'Nuclear plant operators have to pass psychological evaluations.' верно. Критически важный пример проверки безопасности!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + noun + have to + verb + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + существительное + have to + глагол + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "let", "go", "of", "things", "I", "cannot", "control."],
+            correctAnswer: "I must let go of things I cannot control.",
+            correctFeedback: "Excellent! 'I must let go of things I cannot control.' is correct. Beautiful wisdom statement!",
+            correctFeedbackRu: "Отлично! 'I must let go of things I cannot control.' верно. Прекрасное утверждение мудрости!",
+            incorrectFeedback: "Try again. Remember: I + must + phrasal verb + preposition + noun + pronoun + modal + verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + фразовый глагол + предлог + существительное + местоимение + модальный + глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Financial", "advisors", "have", "to", "disclose", "potential", "conflicts", "of", "interest."],
+            correctAnswer: "Financial advisors have to disclose potential conflicts of interest.",
+            correctFeedback: "Great! 'Financial advisors have to disclose potential conflicts of interest.' is correct. Essential ethical requirement example!",
+            correctFeedbackRu: "Отлично! 'Financial advisors have to disclose potential conflicts of interest.' верно. Важнейший пример этического требования!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + adjective + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + прилагательное + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "invest", "in", "relationships", "that", "support", "my", "growth."],
+            correctAnswer: "I must invest in relationships that support my growth.",
+            correctFeedback: "Perfect! 'I must invest in relationships that support my growth.' is correct. Excellent life strategy statement!",
+            correctFeedbackRu: "Идеально! 'I must invest in relationships that support my growth.' верно. Отличное утверждение жизненной стратегии!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + preposition + noun + relative pronoun + verb + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + предлог + существительное + относительное местоимение + глагол + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Massage", "therapists", "have", "to", "renew", "licenses", "every", "two", "years."],
+            correctAnswer: "Massage therapists have to renew licenses every two years.",
+            correctFeedback: "Excellent! 'Massage therapists have to renew licenses every two years.' is correct. Important licensing requirement example!",
+            correctFeedbackRu: "Отлично! 'Massage therapists have to renew licenses every two years.' верно. Важный пример лицензионного требования!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + noun + determiner + number + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + существительное + определитель + число + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "acknowledge", "my", "limitations", "without", "feeling", "ashamed."],
+            correctAnswer: "I must acknowledge my limitations without feeling ashamed.",
+            correctFeedback: "Great! 'I must acknowledge my limitations without feeling ashamed.' is correct. Beautiful self-acceptance statement!",
+            correctFeedbackRu: "Отлично! 'I must acknowledge my limitations without feeling ashamed.' верно. Прекрасное утверждение самопринятия!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + preposition + gerund + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + предлог + герундий + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Professional", "athletes", "have", "to", "follow", "strict", "training", "regimens."],
+            correctAnswer: "Professional athletes have to follow strict training regimens.",
+            correctFeedback: "Perfect! 'Professional athletes have to follow strict training regimens.' is correct. Excellent athletic discipline example!",
+            correctFeedbackRu: "Идеально! 'Professional athletes have to follow strict training regimens.' верно. Отличный пример спортивной дисциплины!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + adjective + gerund + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + прилагательное + герундий + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Must vs Have to - Life Philosophy and Complex Regulatory Frameworks
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page6'] = {
+    title: "Must vs Have to - Life Philosophy and Complex Regulatory Frameworks",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "find", "meaning", "in", "everyday", "moments."],
+            correctAnswer: "I must find meaning in everyday moments.",
+            correctFeedback: "Perfect! 'I must find meaning in everyday moments.' is correct. Beautiful mindfulness statement!",
+            correctFeedbackRu: "Идеально! 'I must find meaning in everyday moments.' верно. Прекрасное утверждение осознанности!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Pharmaceutical", "researchers", "have", "to", "follow", "clinical", "trial", "protocols."],
+            correctAnswer: "Pharmaceutical researchers have to follow clinical trial protocols.",
+            correctFeedback: "Excellent! 'Pharmaceutical researchers have to follow clinical trial protocols.' is correct. Critical medical research requirement example!",
+            correctFeedbackRu: "Отлично! 'Pharmaceutical researchers have to follow clinical trial protocols.' верно. Критически важный пример требования медицинских исследований!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "appreciate", "progress", "over", "perfection."],
+            correctAnswer: "I must appreciate progress over perfection.",
+            correctFeedback: "Great! 'I must appreciate progress over perfection.' is correct. Excellent growth mindset statement!",
+            correctFeedbackRu: "Отлично! 'I must appreciate progress over perfection.' верно. Отличное утверждение мышления роста!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Emergency", "responders", "have", "to", "maintain", "current", "certifications."],
+            correctAnswer: "Emergency responders have to maintain current certifications.",
+            correctFeedback: "Perfect! 'Emergency responders have to maintain current certifications.' is correct. Essential public safety requirement example!",
+            correctFeedbackRu: "Идеально! 'Emergency responders have to maintain current certifications.' верно. Важнейший пример требования общественной безопасности!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "respect", "others'", "boundaries", "and", "decisions."],
+            correctAnswer: "I must respect others' boundaries and decisions.",
+            correctFeedback: "Excellent! 'I must respect others' boundaries and decisions.' is correct. Important social wisdom statement!",
+            correctFeedbackRu: "Отлично! 'I must respect others' boundaries and decisions.' верно. Важное утверждение социальной мудрости!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + conjunction + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + союз + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Real", "estate", "agents", "have", "to", "complete", "continuing", "education", "courses."],
+            correctAnswer: "Real estate agents have to complete continuing education courses.",
+            correctFeedback: "Great! 'Real estate agents have to complete continuing education courses.' is correct. Important professional development requirement example!",
+            correctFeedbackRu: "Отлично! 'Real estate agents have to complete continuing education courses.' верно. Важный пример требования профессионального развития!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + noun + have to + verb + gerund + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + существительное + have to + глагол + герундий + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "create", "space", "for", "healing", "and", "reflection."],
+            correctAnswer: "I must create space for healing and reflection.",
+            correctFeedback: "Perfect! 'I must create space for healing and reflection.' is correct. Beautiful self-care statement!",
+            correctFeedbackRu: "Идеально! 'I must create space for healing and reflection.' верно. Прекрасное утверждение заботы о себе!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + gerund + conjunction + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + герундий + союз + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Wedding", "venues", "have", "to", "obtain", "special", "event", "permits."],
+            correctAnswer: "Wedding venues have to obtain special event permits.",
+            correctFeedback: "Excellent! 'Wedding venues have to obtain special event permits.' is correct. Important business licensing example!",
+            correctFeedbackRu: "Отлично! 'Wedding venues have to obtain special event permits.' верно. Важный пример лицензирования бизнеса!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "align", "my", "actions", "with", "my", "values."],
+            correctAnswer: "I must align my actions with my values.",
+            correctFeedback: "Great! 'I must align my actions with my values.' is correct. Excellent integrity statement!",
+            correctFeedbackRu: "Отлично! 'I must align my actions with my values.' верно. Отличное утверждение честности!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + preposition + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + предлог + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Dental", "hygienists", "have", "to", "follow", "infection", "control", "procedures."],
+            correctAnswer: "Dental hygienists have to follow infection control procedures.",
+            correctFeedback: "Perfect! 'Dental hygienists have to follow infection control procedures.' is correct. Critical health safety requirement example!",
+            correctFeedbackRu: "Идеально! 'Dental hygienists have to follow infection control procedures.' верно. Критически важный пример требования безопасности здоровья!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + noun + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + существительное + существительное + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Must vs Have to - Complex Life Transformations and Institutional Requirements
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page7'] = {
+    title: "Must vs Have to - Complex Life Transformations and Institutional Requirements",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "stop", "seeking", "validation", "from", "external", "sources."],
+            correctAnswer: "I must stop seeking validation from external sources.",
+            correctFeedback: "Perfect! 'I must stop seeking validation from external sources.' is correct. Excellent self-worth statement!",
+            correctFeedbackRu: "Идеально! 'I must stop seeking validation from external sources.' верно. Отличное утверждение самооценки!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + gerund + noun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + герундий + существительное + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Laboratory", "technicians", "have", "to", "follow", "contamination", "prevention", "protocols."],
+            correctAnswer: "Laboratory technicians have to follow contamination prevention protocols.",
+            correctFeedback: "Excellent! 'Laboratory technicians have to follow contamination prevention protocols.' is correct. Critical scientific safety requirement example!",
+            correctFeedbackRu: "Отлично! 'Laboratory technicians have to follow contamination prevention protocols.' верно. Критически важный пример требования научной безопасности!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + noun + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + существительное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "embrace", "uncertainty", "as", "part", "of", "life's", "journey."],
+            correctAnswer: "I must embrace uncertainty as part of life's journey.",
+            correctFeedback: "Great! 'I must embrace uncertainty as part of life's journey.' is correct. Beautiful life philosophy statement!",
+            correctFeedbackRu: "Отлично! 'I must embrace uncertainty as part of life's journey.' верно. Прекрасное утверждение жизненной философии!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + noun + preposition + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + существительное + предлог + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Taxi", "drivers", "have", "to", "display", "their", "credentials", "prominently."],
+            correctAnswer: "Taxi drivers have to display their credentials prominently.",
+            correctFeedback: "Perfect! 'Taxi drivers have to display their credentials prominently.' is correct. Important transportation regulation example!",
+            correctFeedbackRu: "Идеально! 'Taxi drivers have to display their credentials prominently.' верно. Важный пример транспортного правила!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + possessive + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + притяжательное + существительное + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "learn", "to", "say", "no", "without", "guilt."],
+            correctAnswer: "I must learn to say no without guilt.",
+            correctFeedback: "Excellent! 'I must learn to say no without guilt.' is correct. Powerful boundary-setting statement!",
+            correctFeedbackRu: "Отлично! 'I must learn to say no without guilt.' верно. Мощное утверждение установления границ!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + to + verb + adverb + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + to + глагол + наречие + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Pet", "groomers", "have", "to", "maintain", "liability", "insurance", "coverage."],
+            correctAnswer: "Pet groomers have to maintain liability insurance coverage.",
+            correctFeedback: "Great! 'Pet groomers have to maintain liability insurance coverage.' is correct. Essential business requirement example!",
+            correctFeedbackRu: "Отлично! 'Pet groomers have to maintain liability insurance coverage.' верно. Важнейший пример бизнес-требования!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + noun + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + существительное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "nurture", "my", "inner", "child", "with", "compassion."],
+            correctAnswer: "I must nurture my inner child with compassion.",
+            correctFeedback: "Perfect! 'I must nurture my inner child with compassion.' is correct. Beautiful emotional healing statement!",
+            correctFeedbackRu: "Идеально! 'I must nurture my inner child with compassion.' верно. Прекрасное утверждение эмоционального исцеления!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + adjective + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + прилагательное + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Food", "truck", "vendors", "have", "to", "obtain", "health", "department", "permits."],
+            correctAnswer: "Food truck vendors have to obtain health department permits.",
+            correctFeedback: "Excellent! 'Food truck vendors have to obtain health department permits.' is correct. Important public health requirement example!",
+            correctFeedbackRu: "Отлично! 'Food truck vendors have to obtain health department permits.' верно. Важный пример требования общественного здравоохранения!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + noun + have to + verb + noun + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + существительное + have to + глагол + существительное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "trust", "the", "process", "even", "when", "progress", "is", "slow."],
+            correctAnswer: "I must trust the process even when progress is slow.",
+            correctFeedback: "Great! 'I must trust the process even when progress is slow.' is correct. Excellent patience and faith statement!",
+            correctFeedbackRu: "Отлично! 'I must trust the process even when progress is slow.' верно. Отличное утверждение терпения и веры!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + article + noun + adverb + preposition + noun + auxiliary + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + артикль + существительное + наречие + предлог + существительное + вспомогательный + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Daycare", "workers", "have", "to", "complete", "background", "checks", "annually."],
+            correctAnswer: "Daycare workers have to complete background checks annually.",
+            correctFeedback: "Perfect! 'Daycare workers have to complete background checks annually.' is correct. Critical child safety requirement example!",
+            correctFeedbackRu: "Идеально! 'Daycare workers have to complete background checks annually.' верно. Критически важный пример требования безопасности детей!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + noun + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + существительное + существительное + наречие."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Must vs Have to - Advanced Self-Development and Compliance Standards
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page8'] = {
+    title: "Must vs Have to - Advanced Self-Development and Compliance Standards",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "cultivate", "resilience", "through", "life's", "challenges."],
+            correctAnswer: "I must cultivate resilience through life's challenges.",
+            correctFeedback: "Perfect! 'I must cultivate resilience through life's challenges.' is correct. Excellent strength-building statement!",
+            correctFeedbackRu: "Идеально! 'I must cultivate resilience through life's challenges.' верно. Отличное утверждение построения силы!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Online", "retailers", "have", "to", "collect", "sales", "tax", "in", "applicable", "states."],
+            correctAnswer: "Online retailers have to collect sales tax in applicable states.",
+            correctFeedback: "Excellent! 'Online retailers have to collect sales tax in applicable states.' is correct. Important tax compliance requirement example!",
+            correctFeedbackRu: "Отлично! 'Online retailers have to collect sales tax in applicable states.' верно. Важный пример требования налогового соответствия!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + noun + noun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + существительное + существительное + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "recognize", "my", "worth", "beyond", "my", "achievements."],
+            correctAnswer: "I must recognize my worth beyond my achievements.",
+            correctFeedback: "Great! 'I must recognize my worth beyond my achievements.' is correct. Beautiful self-value statement!",
+            correctFeedbackRu: "Отлично! 'I must recognize my worth beyond my achievements.' верно. Прекрасное утверждение самооценки!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + preposition + possessive + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + предлог + притяжательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Swim", "instructors", "have", "to", "maintain", "water", "safety", "certifications."],
+            correctAnswer: "Swim instructors have to maintain water safety certifications.",
+            correctFeedback: "Perfect! 'Swim instructors have to maintain water safety certifications.' is correct. Essential aquatic safety requirement example!",
+            correctFeedbackRu: "Идеально! 'Swim instructors have to maintain water safety certifications.' верно. Важнейший пример требования водной безопасности!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + noun + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + существительное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "transform", "my", "fears", "into", "fuel", "for", "growth."],
+            correctAnswer: "I must transform my fears into fuel for growth.",
+            correctFeedback: "Excellent! 'I must transform my fears into fuel for growth.' is correct. Powerful personal empowerment statement!",
+            correctFeedbackRu: "Отлично! 'I must transform my fears into fuel for growth.' верно. Мощное утверждение личного расширения возможностей!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + preposition + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + предлог + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Airline", "mechanics", "have", "to", "inspect", "aircraft", "according", "to", "federal", "schedules."],
+            correctAnswer: "Airline mechanics have to inspect aircraft according to federal schedules.",
+            correctFeedback: "Great! 'Airline mechanics have to inspect aircraft according to federal schedules.' is correct. Critical aviation safety requirement example!",
+            correctFeedbackRu: "Отлично! 'Airline mechanics have to inspect aircraft according to federal schedules.' верно. Критически важный пример требования авиационной безопасности!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + noun + preposition + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + существительное + предлог + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "practice", "self-compassion", "during", "difficult", "times."],
+            correctAnswer: "I must practice self-compassion during difficult times.",
+            correctFeedback: "Perfect! 'I must practice self-compassion during difficult times.' is correct. Beautiful emotional wisdom statement!",
+            correctFeedbackRu: "Идеально! 'I must practice self-compassion during difficult times.' верно. Прекрасное утверждение эмоциональной мудрости!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + compound noun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + составное существительное + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Investment", "brokers", "have", "to", "register", "with", "securities", "commissions."],
+            correctAnswer: "Investment brokers have to register with securities commissions.",
+            correctFeedback: "Excellent! 'Investment brokers have to register with securities commissions.' is correct. Important financial regulation requirement example!",
+            correctFeedbackRu: "Отлично! 'Investment brokers have to register with securities commissions.' верно. Важный пример требования финансового регулирования!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + have to + verb + preposition + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + have to + глагол + предлог + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "honor", "my", "journey", "without", "comparing", "myself", "to", "others."],
+            correctAnswer: "I must honor my journey without comparing myself to others.",
+            correctFeedback: "Great! 'I must honor my journey without comparing myself to others.' is correct. Excellent self-acceptance statement!",
+            correctFeedbackRu: "Отлично! 'I must honor my journey without comparing myself to others.' верно. Отличное утверждение самопринятия!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + noun + preposition + gerund + pronoun + preposition + pronoun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + существительное + предлог + герундий + местоимение + предлог + местоимение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Professional", "accountants", "have", "to", "complete", "ethics", "training", "requirements."],
+            correctAnswer: "Professional accountants have to complete ethics training requirements.",
+            correctFeedback: "Perfect! 'Professional accountants have to complete ethics training requirements.' is correct. Essential professional integrity requirement example!",
+            correctFeedbackRu: "Идеально! 'Professional accountants have to complete ethics training requirements.' верно. Важнейший пример требования профессиональной честности!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + noun + gerund + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + существительное + герундий + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Must vs Have to - Life Wisdom and Advanced Regulatory Frameworks
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page9'] = {
+    title: "Must vs Have to - Life Wisdom and Advanced Regulatory Frameworks",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "accept", "that", "some", "relationships", "naturally", "end."],
+            correctAnswer: "I must accept that some relationships naturally end.",
+            correctFeedback: "Perfect! 'I must accept that some relationships naturally end.' is correct. Beautiful life wisdom statement!",
+            correctFeedbackRu: "Идеально! 'I must accept that some relationships naturally end.' верно. Прекрасное утверждение жизненной мудрости!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + conjunction + determiner + noun + adverb + verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + союз + определитель + существительное + наречие + глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Cruise", "ship", "passengers", "have", "to", "participate", "in", "mandatory", "safety", "drills."],
+            correctAnswer: "Cruise ship passengers have to participate in mandatory safety drills.",
+            correctFeedback: "Excellent! 'Cruise ship passengers have to participate in mandatory safety drills.' is correct. Critical maritime safety requirement example!",
+            correctFeedbackRu: "Отлично! 'Cruise ship passengers have to participate in mandatory safety drills.' верно. Критически важный пример требования морской безопасности!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + noun + have to + verb + preposition + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + существительное + have to + глагол + предлог + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "choose", "hope", "over", "fear", "in", "uncertain", "times."],
+            correctAnswer: "I must choose hope over fear in uncertain times.",
+            correctFeedback: "Great! 'I must choose hope over fear in uncertain times.' is correct. Inspiring resilience statement!",
+            correctFeedbackRu: "Отлично! 'I must choose hope over fear in uncertain times.' верно. Вдохновляющее утверждение устойчивости!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + noun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + существительное + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Contractors", "have", "to", "obtain", "building", "permits", "before", "starting", "construction."],
+            correctAnswer: "Contractors have to obtain building permits before starting construction.",
+            correctFeedback: "Perfect! 'Contractors have to obtain building permits before starting construction.' is correct. Essential construction regulation example!",
+            correctFeedbackRu: "Идеально! 'Contractors have to obtain building permits before starting construction.' верно. Важнейший пример строительного регулирования!",
+            incorrectFeedback: "Try again. Remember: Contractors + have to + verb + noun + noun + preposition + gerund + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Contractors + have to + глагол + существительное + существительное + предлог + герундий + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "celebrate", "who", "I", "am", "becoming", "every", "day."],
+            correctAnswer: "I must celebrate who I am becoming every day.",
+            correctFeedback: "Excellent! 'I must celebrate who I am becoming every day.' is correct. Beautiful self-appreciation statement!",
+            correctFeedbackRu: "Отлично! 'I must celebrate who I am becoming every day.' верно. Прекрасное утверждение самооценки!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + relative pronoun + pronoun + auxiliary + gerund + determiner + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + относительное местоимение + местоимение + вспомогательный + герундий + определитель + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Pharmacies", "have", "to", "store", "controlled", "substances", "in", "locked", "cabinets."],
+            correctAnswer: "Pharmacies have to store controlled substances in locked cabinets.",
+            correctFeedback: "Great! 'Pharmacies have to store controlled substances in locked cabinets.' is correct. Critical drug security requirement example!",
+            correctFeedbackRu: "Отлично! 'Pharmacies have to store controlled substances in locked cabinets.' верно. Критически важный пример требования безопасности лекарств!",
+            incorrectFeedback: "Try again. Remember: Pharmacies + have to + verb + adjective + noun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Pharmacies + have to + глагол + прилагательное + существительное + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "develop", "the", "courage", "to", "be", "vulnerable."],
+            correctAnswer: "I must develop the courage to be vulnerable.",
+            correctFeedback: "Perfect! 'I must develop the courage to be vulnerable.' is correct. Powerful authenticity statement!",
+            correctFeedbackRu: "Идеально! 'I must develop the courage to be vulnerable.' верно. Мощное утверждение аутентичности!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + article + noun + to + auxiliary + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + артикль + существительное + to + вспомогательный + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["School", "bus", "drivers", "have", "to", "undergo", "annual", "background", "checks."],
+            correctAnswer: "School bus drivers have to undergo annual background checks.",
+            correctFeedback: "Excellent! 'School bus drivers have to undergo annual background checks.' is correct. Essential child safety requirement example!",
+            correctFeedbackRu: "Отлично! 'School bus drivers have to undergo annual background checks.' верно. Важнейший пример требования безопасности детей!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + noun + have to + verb + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + существительное + have to + глагол + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "focus", "on", "solutions", "rather", "than", "problems."],
+            correctAnswer: "I must focus on solutions rather than problems.",
+            correctFeedback: "Great! 'I must focus on solutions rather than problems.' is correct. Excellent positive mindset statement!",
+            correctFeedbackRu: "Отлично! 'I must focus on solutions rather than problems.' верно. Отличное утверждение позитивного мышления!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + preposition + noun + adverb + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + предлог + существительное + наречие + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Museum", "security", "guards", "have", "to", "monitor", "visitors", "continuously."],
+            correctAnswer: "Museum security guards have to monitor visitors continuously.",
+            correctFeedback: "Perfect! 'Museum security guards have to monitor visitors continuously.' is correct. Important cultural protection requirement example!",
+            correctFeedbackRu: "Идеально! 'Museum security guards have to monitor visitors continuously.' верно. Важный пример требования защиты культуры!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + noun + have to + verb + noun + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + существительное + have to + глагол + существительное + наречие."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Must vs Have to - Final Mastery - Ultimate Personal and Professional Integration
+============================================ */
+window.grammarExercises['modals']['must-vs-have-to-sentence-page10'] = {
+    title: "Must vs Have to - Final Mastery - Ultimate Personal and Professional Integration",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "create", "a", "legacy", "of", "kindness", "and", "compassion."],
+            correctAnswer: "I must create a legacy of kindness and compassion.",
+            correctFeedback: "Perfect! 'I must create a legacy of kindness and compassion.' is correct. Beautiful life purpose statement!",
+            correctFeedbackRu: "Идеально! 'I must create a legacy of kindness and compassion.' верно. Прекрасное утверждение жизненной цели!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + article + noun + preposition + noun + conjunction + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + артикль + существительное + предлог + существительное + союз + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Air", "traffic", "controllers", "have", "to", "maintain", "certification", "through", "regular", "training."],
+            correctAnswer: "Air traffic controllers have to maintain certification through regular training.",
+            correctFeedback: "Excellent! 'Air traffic controllers have to maintain certification through regular training.' is correct. Critical aviation safety requirement example!",
+            correctFeedbackRu: "Отлично! 'Air traffic controllers have to maintain certification through regular training.' верно. Критически важный пример требования авиационной безопасности!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + noun + have to + verb + noun + preposition + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + существительное + have to + глагол + существительное + предлог + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "balance", "ambition", "with", "inner", "peace", "and", "contentment."],
+            correctAnswer: "I must balance ambition with inner peace and contentment.",
+            correctFeedback: "Great! 'I must balance ambition with inner peace and contentment.' is correct. Wise life balance statement!",
+            correctFeedbackRu: "Отлично! 'I must balance ambition with inner peace and contentment.' верно. Мудрое утверждение жизненного баланса!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + noun + preposition + adjective + noun + conjunction + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + существительное + предлог + прилагательное + существительное + союз + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Hazardous", "waste", "operators", "have", "to", "follow", "environmental", "protection", "guidelines."],
+            correctAnswer: "Hazardous waste operators have to follow environmental protection guidelines.",
+            correctFeedback: "Perfect! 'Hazardous waste operators have to follow environmental protection guidelines.' is correct. Essential environmental safety requirement example!",
+            correctFeedbackRu: "Идеально! 'Hazardous waste operators have to follow environmental protection guidelines.' верно. Важнейший пример требования экологической безопасности!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + noun + have to + verb + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + существительное + have to + глагол + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "embrace", "my", "authentic", "self", "without", "apology."],
+            correctAnswer: "I must embrace my authentic self without apology.",
+            correctFeedback: "Excellent! 'I must embrace my authentic self without apology.' is correct. Powerful self-acceptance statement!",
+            correctFeedbackRu: "Отлично! 'I must embrace my authentic self without apology.' верно. Мощное утверждение самопринятия!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + possessive + adjective + noun + preposition + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + притяжательное + прилагательное + существительное + предлог + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["International", "pilots", "have", "to", "speak", "English", "for", "aviation", "communication."],
+            correctAnswer: "International pilots have to speak English for aviation communication.",
+            correctFeedback: "Great! 'International pilots have to speak English for aviation communication.' is correct. Critical aviation safety standard example!",
+            correctFeedbackRu: "Отлично! 'International pilots have to speak English for aviation communication.' верно. Критически важный пример стандарта авиационной безопасности!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + noun + preposition + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + существительное + предлог + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "live", "each", "day", "with", "intention", "and", "purpose."],
+            correctAnswer: "I must live each day with intention and purpose.",
+            correctFeedback: "Perfect! 'I must live each day with intention and purpose.' is correct. Beautiful mindful living statement!",
+            correctFeedbackRu: "Идеально! 'I must live each day with intention and purpose.' верно. Прекрасное утверждение осознанной жизни!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + determiner + noun + preposition + noun + conjunction + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + определитель + существительное + предлог + существительное + союз + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Certified", "interpreters", "have", "to", "maintain", "strict", "confidentiality", "standards."],
+            correctAnswer: "Certified interpreters have to maintain strict confidentiality standards.",
+            correctFeedback: "Excellent! 'Certified interpreters have to maintain strict confidentiality standards.' is correct. Important professional ethics requirement example!",
+            correctFeedbackRu: "Отлично! 'Certified interpreters have to maintain strict confidentiality standards.' верно. Важный пример требования профессиональной этики!",
+            incorrectFeedback: "Try again. Remember: Adjective + noun + have to + verb + adjective + noun + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Прилагательное + существительное + have to + глагол + прилагательное + существительное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "must", "trust", "in", "my", "ability", "to", "overcome", "any", "challenge."],
+            correctAnswer: "I must trust in my ability to overcome any challenge.",
+            correctFeedback: "Great! 'I must trust in my ability to overcome any challenge.' is correct. Inspiring self-confidence statement!",
+            correctFeedbackRu: "Отлично! 'I must trust in my ability to overcome any challenge.' верно. Вдохновляющее утверждение уверенности в себе!",
+            incorrectFeedback: "Try again. Remember: I + must + verb + preposition + possessive + noun + to + verb + determiner + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + must + глагол + предлог + притяжательное + существительное + to + глагол + определитель + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Organ", "transplant", "coordinators", "have", "to", "work", "within", "strict", "medical", "protocols."],
+            correctAnswer: "Organ transplant coordinators have to work within strict medical protocols.",
+            correctFeedback: "Perfect! 'Organ transplant coordinators have to work within strict medical protocols.' is correct. Critical medical ethics requirement example!",
+            correctFeedbackRu: "Идеально! 'Organ transplant coordinators have to work within strict medical protocols.' верно. Критически важный пример требования медицинской этики!",
+            incorrectFeedback: "Try again. Remember: Noun + noun + noun + have to + verb + preposition + adjective + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Существительное + существительное + существительное + have to + глагол + предлог + прилагательное + прилагательное + существительное."
         }
     ]
 };
