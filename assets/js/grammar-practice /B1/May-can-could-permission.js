@@ -2775,15 +2775,14 @@ window.grammarExercises['modals']['may-can-could-permission-gap-page10'] = {
             incorrectFeedbackRu: "Попробуйте снова. Используйте 'Can', потому что изменения подписки - стандартные запросы обслуживания клиентов."
         },
         {
-            question: "Complete the sentence with 'may', 'can', or 'could':",
-            questionRu: "Заполните предложение словом 'may', 'can' или 'could':",
-            sentence: "____ I attend the board meeting as an observer next week?",
-            correctAnswer: "May",
-            options: ["May", "Can", "Could", "Should"],
-            correctFeedback: "Perfect! 'May' is appropriately formal for board meeting attendance requests.",
-            correctFeedbackRu: "Отлично! 'May' уместно формально для запросов о посещении заседаний совета директоров.",
-            incorrectFeedback: "Try again. Use 'May' because board meetings are formal corporate events requiring proper permission protocol.",
-            incorrectFeedbackRu: "Попробуйте снова. Используйте 'May', потому что заседания совета директоров - формальные корпоративные мероприятия, требующие правильного протокола разрешения."
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "attend", "the", "board", "meeting", "as", "an", "observer?"],
+            correctAnswer: "May I attend the board meeting as an observer?",
+            correctFeedback: "Excellent! 'May I attend the board meeting as an observer?' is correct. Perfect corporate formality!",
+            correctFeedbackRu: "Отлично! 'May I attend the board meeting as an observer?' верно. Идеальная корпоративная формальность!",
+            incorrectFeedback: "Try again. Remember: May + I + verb + article + compound noun + as + article + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + артикль + составное существительное + as + артикль + существительное + ?"
         },
         {
             question: "Complete the sentence with 'may', 'can', or 'could':",
@@ -3463,6 +3462,442 @@ window.grammarExercises['modals']['may-can-could-permission-sentence-page6'] = {
             correctFeedbackRu: "Отлично! 'May I get copies of my results?' верно. Выдающаяся защита прав пациентов!",
             incorrectFeedback: "Try again. Remember: May + I + verb + noun + of + possessive + noun + ?",
             incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + существительное + of + притяжательное + существительное + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 7: May vs Can vs Could - Emergency and Special Situations (Sentence Building)
+============================================ */
+window.grammarExercises['modals']['may-can-could-permission-sentence-page7'] = {
+    title: "May vs Can vs Could - Emergency and Special Situations",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "help", "evacuate", "people", "downstairs?"],
+            correctAnswer: "Can I help evacuate people downstairs?",
+            correctFeedback: "Perfect! 'Can I help evacuate people downstairs?' is correct. Excellent emergency response!",
+            correctFeedbackRu: "Отлично! 'Can I help evacuate people downstairs?' верно. Превосходное реагирование на экстренные ситуации!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + verb + noun + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + глагол + существительное + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "use", "my", "flashlight", "to", "help?"],
+            correctAnswer: "Can I use my flashlight to help?",
+            correctFeedback: "Excellent! 'Can I use my flashlight to help?' is correct. Perfect emergency preparedness!",
+            correctFeedbackRu: "Отлично! 'Can I use my flashlight to help?' верно. Идеальная готовность к экстренным ситуациям!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + possessive + noun + to + verb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + притяжательное + существительное + to + глагол + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "call", "an", "ambulance", "immediately?"],
+            correctAnswer: "Can I call an ambulance immediately?",
+            correctFeedback: "Great! 'Can I call an ambulance immediately?' is correct. Outstanding life-saving instinct!",
+            correctFeedbackRu: "Отлично! 'Can I call an ambulance immediately?' верно. Выдающийся инстинкт спасения жизни!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + article + noun + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + артикль + существительное + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "open", "my", "home", "as", "shelter?"],
+            correctAnswer: "Can I open my home as shelter?",
+            correctFeedback: "Perfect! 'Can I open my home as shelter?' is correct. Beautiful community spirit!",
+            correctFeedbackRu: "Отлично! 'Can I open my home as shelter?' верно. Прекрасный дух сообщества!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + possessive + noun + as + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + притяжательное + существительное + as + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "contact", "my", "family", "quickly?"],
+            correctAnswer: "Can I contact my family quickly?",
+            correctFeedback: "Excellent! 'Can I contact my family quickly?' is correct. Perfect security awareness!",
+            correctFeedbackRu: "Отлично! 'Can I contact my family quickly?' верно. Идеальная осведомлённость о безопасности!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + possessive + noun + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + притяжательное + существительное + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "direct", "traffic", "until", "help", "arrives?"],
+            correctAnswer: "Can I direct traffic until help arrives?",
+            correctFeedback: "Great! 'Can I direct traffic until help arrives?' is correct. Excellent civic responsibility!",
+            correctFeedbackRu: "Отлично! 'Can I direct traffic until help arrives?' верно. Превосходная гражданская ответственность!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + noun + until + noun + verb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + существительное + until + существительное + глагол + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "go", "back", "for", "my", "documents?"],
+            correctAnswer: "May I go back for my documents?",
+            correctFeedback: "Perfect! 'May I go back for my documents?' is correct. Outstanding safety compliance!",
+            correctFeedbackRu: "Отлично! 'May I go back for my documents?' верно. Выдающееся соблюдение безопасности!",
+            incorrectFeedback: "Try again. Remember: May + I + phrasal verb + for + possessive + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + фразовый глагол + for + притяжательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "organize", "a", "neighborhood", "watch?"],
+            correctAnswer: "Can I organize a neighborhood watch?",
+            correctFeedback: "Excellent! 'Can I organize a neighborhood watch?' is correct. Wonderful community leadership!",
+            correctFeedbackRu: "Отлично! 'Can I organize a neighborhood watch?' верно. Замечательное лидерство сообщества!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + article + compound noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + артикль + составное существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "shut", "down", "this", "dangerous", "machine?"],
+            correctAnswer: "Can I shut down this dangerous machine?",
+            correctFeedback: "Great! 'Can I shut down this dangerous machine?' is correct. Perfect safety instinct!",
+            correctFeedbackRu: "Отлично! 'Can I shut down this dangerous machine?' верно. Идеальный инстинкт безопасности!",
+            incorrectFeedback: "Try again. Remember: Can + I + phrasal verb + this + adjective + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + фразовый глагол + this + прилагательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "request", "softer", "pressure", "please?"],
+            correctAnswer: "Could I request softer pressure please?",
+            correctFeedback: "Perfect! 'Could I request softer pressure please?' is correct. Beautiful wellness communication!",
+            correctFeedbackRu: "Отлично! 'Could I request softer pressure please?' верно. Прекрасная коммуникация оздоровления!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + adjective + noun + please + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + прилагательное + существительное + please + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 8: May vs Can vs Could - Advanced and Mixed Contexts (Sentence Building)
+============================================ */
+window.grammarExercises['modals']['may-can-could-permission-sentence-page8'] = {
+    title: "May vs Can vs Could - Advanced and Mixed Contexts",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "introduce", "myself", "to", "the", "ambassador?"],
+            correctAnswer: "May I introduce myself to the ambassador?",
+            correctFeedback: "Perfect! 'May I introduce myself to the ambassador?' is correct. Excellent diplomatic courtesy!",
+            correctFeedbackRu: "Отлично! 'May I introduce myself to the ambassador?' верно. Превосходная дипломатическая вежливость!",
+            incorrectFeedback: "Try again. Remember: May + I + verb + pronoun + to + article + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + местоимение + to + артикль + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "examine", "this", "artwork", "more", "closely?"],
+            correctAnswer: "Could I examine this artwork more closely?",
+            correctFeedback: "Excellent! 'Could I examine this artwork more closely?' is correct. Great art collecting wisdom!",
+            correctFeedbackRu: "Отлично! 'Could I examine this artwork more closely?' верно. Отличная мудрость коллекционирования искусства!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + this + noun + adverb + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + this + существительное + наречие + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "bring", "a", "guest", "to", "dinner?"],
+            correctAnswer: "May I bring a guest to dinner?",
+            correctFeedback: "Great! 'May I bring a guest to dinner?' is correct. Perfect club etiquette!",
+            correctFeedbackRu: "Отлично! 'May I bring a guest to dinner?' верно. Идеальный клубный этикет!",
+            incorrectFeedback: "Try again. Remember: May + I + verb + article + noun + to + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + артикль + существительное + to + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "present", "this", "gift", "respectfully?"],
+            correctAnswer: "May I present this gift respectfully?",
+            correctFeedback: "Perfect! 'May I present this gift respectfully?' is correct. Outstanding royal protocol!",
+            correctFeedbackRu: "Отлично! 'May I present this gift respectfully?' верно. Выдающийся королевский протокол!",
+            incorrectFeedback: "Try again. Remember: May + I + verb + this + noun + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + this + существительное + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "step", "outside", "for", "fresh", "air?"],
+            correctAnswer: "Could I step outside for fresh air?",
+            correctFeedback: "Excellent! 'Could I step outside for fresh air?' is correct. Beautiful mindful communication!",
+            correctFeedbackRu: "Отлично! 'Could I step outside for fresh air?' верно. Прекрасная осознанная коммуникация!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + outside + for + compound noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + outside + for + составное существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "get", "an", "autograph", "after", "the", "show?"],
+            correctAnswer: "Could I get an autograph after the show?",
+            correctFeedback: "Great! 'Could I get an autograph after the show?' is correct. Perfect entertainment etiquette!",
+            correctFeedbackRu: "Отлично! 'Could I get an autograph after the show?' верно. Идеальный этикет развлечений!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + article + noun + after + article + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + артикль + существительное + after + артикль + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "observe", "this", "experiment", "quietly?"],
+            correctAnswer: "May I observe this experiment quietly?",
+            correctFeedback: "Perfect! 'May I observe this experiment quietly?' is correct. Outstanding research ethics!",
+            correctFeedbackRu: "Отлично! 'May I observe this experiment quietly?' верно. Выдающаяся исследовательская этика!",
+            incorrectFeedback: "Try again. Remember: May + I + verb + this + noun + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + this + существительное + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "taste", "the", "vintage", "wines", "first?"],
+            correctAnswer: "Could I taste the vintage wines first?",
+            correctFeedback: "Excellent! 'Could I taste the vintage wines first?' is correct. Great wine connoisseurship!",
+            correctFeedbackRu: "Отлично! 'Could I taste the vintage wines first?' верно. Отличное знаточество вин!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + article + adjective + noun + first + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + артикль + прилагательное + существительное + first + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "share", "my", "personal", "story", "briefly?"],
+            correctAnswer: "Could I share my personal story briefly?",
+            correctFeedback: "Great! 'Could I share my personal story briefly?' is correct. Beautiful philanthropic spirit!",
+            correctFeedbackRu: "Отлично! 'Could I share my personal story briefly?' верно. Прекрасный филантропический дух!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + possessive + adjective + noun + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + притяжательное + прилагательное + существительное + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "stay", "with", "my", "pet", "during", "examination?"],
+            correctAnswer: "Could I stay with my pet during examination?",
+            correctFeedback: "Perfect! 'Could I stay with my pet during examination?' is correct. Wonderful pet advocacy!",
+            correctFeedbackRu: "Отлично! 'Could I stay with my pet during examination?' верно. Замечательная защита питомцев!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + with + possessive + noun + during + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + with + притяжательное + существительное + during + существительное + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 9: May vs Can vs Could - Business and Financial Settings (Sentence Building)
+============================================ */
+window.grammarExercises['modals']['may-can-could-permission-sentence-page9'] = {
+    title: "May vs Can vs Could - Business and Financial Settings",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "schedule", "a", "financial", "consultation?"],
+            correctAnswer: "Could I schedule a financial consultation?",
+            correctFeedback: "Perfect! 'Could I schedule a financial consultation?' is correct. Excellent professional communication!",
+            correctFeedbackRu: "Отлично! 'Could I schedule a financial consultation?' верно. Превосходное профессиональное общение!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + article + adjective + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + артикль + прилагательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "review", "the", "contract", "terms", "carefully?"],
+            correctAnswer: "May I review the contract terms carefully?",
+            correctFeedback: "Excellent! 'May I review the contract terms carefully?' is correct. Perfect business formality!",
+            correctFeedbackRu: "Отлично! 'May I review the contract terms carefully?' верно. Идеальная деловая формальность!",
+            incorrectFeedback: "Try again. Remember: May + I + verb + article + compound noun + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + артикль + составное существительное + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "extend", "the", "payment", "deadline", "please?"],
+            correctAnswer: "Could I extend the payment deadline please?",
+            correctFeedback: "Great! 'Could I extend the payment deadline please?' is correct. Professional negotiation skills!",
+            correctFeedbackRu: "Отлично! 'Could I extend the payment deadline please?' верно. Профессиональные навыки переговоров!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + article + compound noun + please + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + артикль + составное существительное + please + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "access", "my", "account", "statements", "online?"],
+            correctAnswer: "Can I access my account statements online?",
+            correctFeedback: "Perfect! 'Can I access my account statements online?' is correct. Direct banking request!",
+            correctFeedbackRu: "Отлично! 'Can I access my account statements online?' верно. Прямой банковский запрос!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + possessive + compound noun + online + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + притяжательное + составное существительное + online + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "request", "a", "recommendation", "letter?"],
+            correctAnswer: "Could I request a recommendation letter?",
+            correctFeedback: "Excellent! 'Could I request a recommendation letter?' is correct. Respectful personal request!",
+            correctFeedbackRu: "Отлично! 'Could I request a recommendation letter?' верно. Уважительная личная просьба!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + article + compound noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + артикль + составное существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "negotiate", "a", "better", "insurance", "rate?"],
+            correctAnswer: "Can I negotiate a better insurance rate?",
+            correctFeedback: "Great! 'Can I negotiate a better insurance rate?' is correct. Confident business approach!",
+            correctFeedbackRu: "Отлично! 'Can I negotiate a better insurance rate?' верно. Уверенный деловой подход!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + article + adjective + compound noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + артикль + прилагательное + составное существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "transfer", "funds", "between", "my", "accounts?"],
+            correctAnswer: "Can I transfer funds between my accounts?",
+            correctFeedback: "Perfect! 'Can I transfer funds between my accounts?' is correct. Natural banking transaction!",
+            correctFeedbackRu: "Отлично! 'Can I transfer funds between my accounts?' верно. Естественная банковская операция!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + noun + between + possessive + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + существительное + between + притяжательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "discuss", "merger", "details", "confidentially?"],
+            correctAnswer: "May I discuss merger details confidentially?",
+            correctFeedback: "Excellent! 'May I discuss merger details confidentially?' is correct. Perfect business discretion!",
+            correctFeedbackRu: "Отлично! 'May I discuss merger details confidentially?' верно. Идеальная деловая осмотрительность!",
+            incorrectFeedback: "Try again. Remember: May + I + verb + compound noun + adverb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + составное существительное + наречие + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "submit", "my", "expense", "report", "tomorrow?"],
+            correctAnswer: "Can I submit my expense report tomorrow?",
+            correctFeedback: "Great! 'Can I submit my expense report tomorrow?' is correct. Standard business procedure!",
+            correctFeedbackRu: "Отлично! 'Can I submit my expense report tomorrow?' верно. Стандартная деловая процедура!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + possessive + compound noun + tomorrow + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + притяжательное + составное существительное + tomorrow + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "arrange", "a", "payment", "plan", "today?"],
+            correctAnswer: "Could I arrange a payment plan today?",
+            correctFeedback: "Perfect! 'Could I arrange a payment plan today?' is correct. Polite financial arrangement!",
+            correctFeedbackRu: "Отлично! 'Could I arrange a payment plan today?' верно. Вежливая финансовая договорённость!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + article + compound noun + today + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + артикль + составное существительное + today + ?"
+        }
+    ]
+};
+
+/* ============================================
+Page 10: May vs Can vs Could - Final Review and Complex Scenarios (Sentence Building)
+============================================ */
+window.grammarExercises['modals']['may-can-could-permission-sentence-page10'] = {
+    title: "May vs Can vs Could - Final Review and Complex Scenarios",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "ask", "about", "the", "return", "policy?"],
+            correctAnswer: "Can I ask about the return policy?",
+            correctFeedback: "Perfect! 'Can I ask about the return policy?' is correct. Natural consumer question!",
+            correctFeedbackRu: "Отлично! 'Can I ask about the return policy?' верно. Естественный потребительский вопрос!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + about + article + compound noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + about + артикль + составное существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "have", "a", "few", "minutes", "of", "your", "time?"],
+            correctAnswer: "Could I have a few minutes of your time?",
+            correctFeedback: "Excellent! 'Could I have a few minutes of your time?' is correct. Respectful time request!",
+            correctFeedbackRu: "Отлично! 'Could I have a few minutes of your time?' верно. Уважительная просьба о времени!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + article + adjective + noun + of + possessive + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + артикль + прилагательное + существительное + of + притяжательное + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "get", "a", "second", "medical", "opinion?"],
+            correctAnswer: "Can I get a second medical opinion?",
+            correctFeedback: "Great! 'Can I get a second medical opinion?' is correct. Direct patient right!",
+            correctFeedbackRu: "Отлично! 'Can I get a second medical opinion?' верно. Прямое право пациента!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + article + adjective + compound noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + артикль + прилагательное + составное существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "make", "a", "reservation", "for", "tonight?"],
+            correctAnswer: "Could I make a reservation for tonight?",
+            correctFeedback: "Perfect! 'Could I make a reservation for tonight?' is correct. Polite restaurant communication!",
+            correctFeedbackRu: "Отлично! 'Could I make a reservation for tonight?' верно. Вежливое ресторанное общение!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + article + noun + for + tonight + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + артикль + существительное + for + tonight + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "volunteer", "to", "help", "with", "fundraising?"],
+            correctAnswer: "Can I volunteer to help with fundraising?",
+            correctFeedback: "Excellent! 'Can I volunteer to help with fundraising?' is correct. Enthusiastic community spirit!",
+            correctFeedbackRu: "Отлично! 'Can I volunteer to help with fundraising?' верно. Энтузиастичный дух сообщества!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + to + verb + with + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + to + глагол + with + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "request", "permission", "for", "remote", "work?"],
+            correctAnswer: "May I request permission for remote work?",
+            correctFeedback: "Great! 'May I request permission for remote work?' is correct. Formal workplace policy!",
+            correctFeedbackRu: "Отлично! 'May I request permission for remote work?' верно. Формальная рабочая политика!",
+            incorrectFeedback: "Try again. Remember: May + I + verb + noun + for + compound noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + существительное + for + составное существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "change", "my", "subscription", "plan", "now?"],
+            correctAnswer: "Can I change my subscription plan now?",
+            correctFeedback: "Perfect! 'Can I change my subscription plan now?' is correct. Straightforward service request!",
+            correctFeedbackRu: "Отлично! 'Can I change my subscription plan now?' верно. Прямой сервисный запрос!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + possessive + compound noun + now + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + притяжательное + составное существительное + now + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["May", "I", "attend", "the", "board", "meeting", "as", "an", "observer?"],
+            correctAnswer: "May I attend the board meeting as an observer?",
+            correctFeedback: "Excellent! 'May I attend the board meeting as an observer?' is correct. Perfect corporate formality!",
+            correctFeedbackRu: "Отлично! 'May I attend the board meeting as an observer?' верно. Идеальная корпоративная формальность!",
+            incorrectFeedback: "Try again. Remember: May + I + verb + article + compound noun + as + article + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: May + I + глагол + артикль + составное существительное + as + артикль + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Can", "I", "get", "directions", "to", "the", "hospital?"],
+            correctAnswer: "Can I get directions to the hospital?",
+            correctFeedback: "Great! 'Can I get directions to the hospital?' is correct. Direct practical request!",
+            correctFeedbackRu: "Отлично! 'Can I get directions to the hospital?' верно. Прямой практический запрос!",
+            incorrectFeedback: "Try again. Remember: Can + I + verb + noun + to + article + noun + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Can + I + глагол + существительное + to + артикль + существительное + ?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Could", "I", "suggest", "an", "alternative", "solution", "here?"],
+            correctAnswer: "Could I suggest an alternative solution here?",
+            correctFeedback: "Perfect! 'Could I suggest an alternative solution here?' is correct. Diplomatic collaboration!",
+            correctFeedbackRu: "Отлично! 'Could I suggest an alternative solution here?' верно. Дипломатическое сотрудничество!",
+            incorrectFeedback: "Try again. Remember: Could + I + verb + article + adjective + noun + here + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + I + глагол + артикль + прилагательное + существительное + here + ?"
         }
     ]
 };
