@@ -772,18 +772,18 @@ window.grammarExercises['adjectives']['adverbs-of-manner-page5'] = {
         {
             question: "Select the correct adverb:",
             questionRu: "Выберите правильное наречие:",
-            sentence: "She checks her work _.",
+            sentence: "She reviews her notes _.",
             options: [
                 "thorough",
-                "thoroughly",
+                "thoroughly", 
                 "complete",
                 "detail"
             ],
             correctAnswer: 1,
-            correctFeedback: "Great! 'Thoroughly' describes how she checks completely.",
-            correctFeedbackRu: "Отлично! 'Thoroughly' описывает, как она проверяет тщательно.",
-            incorrectFeedback: "Not quite! We need an adverb to describe how she checks. 'Thoroughly' means completely and carefully. 'Thorough' is an adjective, 'complete' is an adjective or verb, and 'detail' is a noun.",
-            incorrectFeedbackRu: "Не совсем! Нам нужно наречие, чтобы описать, как она проверяет. 'Thoroughly' означает полностью и внимательно. 'Thorough' - прилагательное, 'complete' - прилагательное или глагол, а 'detail' - существительное."
+            correctFeedback: "Great! 'Thoroughly' describes how she reviews completely and carefully.",
+            correctFeedbackRu: "Отлично! 'Thoroughly' описывает, как она просматривает тщательно и полностью.",
+            incorrectFeedback: "Not quite! We need an adverb to describe how she reviews. 'Thoroughly' means completely and carefully. 'Thorough' is an adjective, 'complete' is an adjective or verb, and 'detail' is a noun.",
+            incorrectFeedbackRu: "Не совсем! Нам нужно наречие, чтобы описать, как она просматривает. 'Thoroughly' означает полностью и внимательно. 'Thorough' - прилагательное, 'complete' - прилагательное или глагол, а 'detail' - существительное."
         },
         {
             question: "Choose the correct adverb:",
@@ -1549,6 +1549,38 @@ window.grammarExercises['adjectives']['adverbs-of-manner-page10'] = {
             correctFeedbackRu: "Отлично! 'Strategically' описывает, как она ведет переговоры стратегически.",
             incorrectFeedback: "Not quite! We need an adverb ending in -ly to describe how she negotiates. 'Strategically' means with careful planning and thinking ahead. 'Strategic' is an adjective, 'strategy' is a noun, and 'plan' is a noun or verb.",
             incorrectFeedbackRu: "Не совсем! Нам нужно наречие, заканчивающееся на -ly, чтобы описать, как она ведет переговоры. 'Strategically' означает с тщательным планированием и предвидением. 'Strategic' - прилагательное, 'strategy' - существительное, а 'plan' - существительное или глагол."
+        },
+        {
+            question: "Choose the correct adverb:",
+            questionRu: "Выберите правильное наречие:",
+            sentence: "The scientist observes the experiment _.",
+            options: [
+                "objective",
+                "objectively",
+                "observation",
+                "neutral"
+            ],
+            correctAnswer: 1,
+            correctFeedback: "Perfect! 'Objectively' describes how the scientist observes without personal bias or emotion, based on facts. This is essential in scientific research for accurate results.",
+            correctFeedbackRu: "Отлично! 'Objectively' описывает, как ученый наблюдает объективно, без личных предубеждений или эмоций, основываясь на фактах. Это важно в научных исследованиях для точных результатов.",
+            incorrectFeedback: "Try again! We need an adverb to describe how the scientist observes. 'Objectively' means without personal bias or emotion, based on facts. 'Objective' is an adjective, 'observation' is a noun, and 'neutral' is an adjective.",
+            incorrectFeedbackRu: "Попробуйте снова! Нам нужно наречие, чтобы описать, как ученый наблюдает. 'Objectively' означает без личных предубеждений или эмоций, основываясь на фактах. 'Objective' - прилагательное, 'observation' - существительное, а 'neutral' - прилагательное."
+        },
+        {
+            question: "Select the correct adverb:",
+            questionRu: "Выберите правильное наречие:",
+            sentence: "The pilot lands the plane _.",
+            options: [
+                "safe",
+                "safely",
+                "safety",
+                "secure"
+            ],
+            correctAnswer: 1,
+            correctFeedback: "Excellent! 'Safely' describes how the pilot lands without danger or risk to passengers. You've completed all 10 exercises in this page!",
+            correctFeedbackRu: "Отлично! 'Safely' описывает, как пилот приземляет самолет безопасно, без опасности или риска для пассажиров. Вы завершили все 10 упражнений на этой странице!",
+            incorrectFeedback: "Not quite! We need an adverb ending in -ly to describe how the pilot lands. 'Safely' means without danger or risk. 'Safe' is an adjective, 'safety' is a noun, and 'secure' is an adjective.",
+            incorrectFeedbackRu: "Не совсем! Нам нужно наречие, заканчивающееся на -ly, чтобы описать, как пилот приземляется. 'Safely' означает безопасно, без опасности или риска. 'Safe' - прилагательное, 'safety' - существительное, а 'secure' - прилагательное."
         },
         {
             question: "Select the correct adverb:",
@@ -2728,13 +2760,1225 @@ window.grammarExercises['adjectives']['adverbs-of-manner-gap-page9'] = {
         {
             question: "Fill in the blank with the correct adverb:",
             questionRu: "Заполните пропуск правильным наречием:",
-            sentence: "The toddler walks ____.",
-            correctAnswer: "unsteadily",
-            options: ["unsteadily", "gracefully", "smoothly", "confidently"],
-            correctFeedback: "Excellent! 'Unsteadily' means 'in an unsteady/wobbly manner' and describes how toddlers walk - they are still developing balance and coordination. 'Gracefully' means with grace (too advanced for toddlers), 'smoothly' means without difficulty (toddlers struggle with walking), and 'confidently' means with confidence (toddlers are uncertain when walking).",
-            correctFeedbackRu: "Отлично! 'Unsteadily' означает 'неустойчиво' и описывает, как ходят малыши - они еще развивают баланс и координацию. 'Gracefully' означает грациозно (слишком продвинуто для малышей), 'smoothly' означает гладко (малыши борются с ходьбой), а 'confidently' означает уверенно (малыши неуверенны при ходьбе).",
-            incorrectFeedback: "Wrong. Think about toddler development - they are still learning to walk and lack balance. 'Unsteadily' means in an unsteady manner, which fits toddlers. 'Gracefully' means with grace, 'smoothly' means without difficulty, 'confidently' means with confidence - all too advanced for toddlers.",
-            incorrectFeedbackRu: "Неправильно. Подумайте о развитии малышей - они еще учатся ходить и им не хватает баланса. 'Unsteadily' означает неустойчиво, что подходит для малышей. 'Gracefully' означает грациозно, 'smoothly' означает гладко, 'confidently' означает уверенно - все слишком продвинуто для малышей."
+            sentence: "The child walks ____.",
+            correctAnswer: "slowly",
+            options: ["slowly", "quickly", "loudly", "brightly"],
+            correctFeedback: "Excellent! 'Slowly' means 'at a slow pace' and describes how children walk when they are being careful or learning. 'Quickly' means fast, 'loudly' refers to sound, and 'brightly' refers to light or happiness.",
+            correctFeedbackRu: "Отлично! 'Slowly' означает 'медленно' и описывает, как ходят дети, когда они осторожны или учатся. 'Quickly' означает быстро, 'loudly' относится к звуку, а 'brightly' относится к свету или счастью.",
+            incorrectFeedback: "Try again. Think about how children typically walk when being careful. 'Slowly' means at a slow pace. 'Quickly' means fast, 'loudly' refers to sound, 'brightly' refers to light - none fit the context.",
+            incorrectFeedbackRu: "Попробуйте снова. Подумайте о том, как дети обычно ходят, когда осторожничают. 'Slowly' означает медленно. 'Quickly' означает быстро, 'loudly' относится к звуку, 'brightly' к свету - ничто не подходит к контексту."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Adverbs of Manner - Mixed Review
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-gap-page10'] = {
+    title: "Adverbs of Manner - Mixed Review",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct adverb:",
+            questionRu: "Заполните предложение правильным наречием:",
+            sentence: "The chef cooks ____.",
+            correctAnswer: "skillfully",
+            options: ["skillfully", "skillful", "skill", "skilled"],
+            correctFeedback: "Excellent! 'Skillfully' is an adverb that describes how the chef cooks with expertise and good technique. 'Skillful' is an adjective, 'skill' is a noun, and 'skilled' is an adjective.",
+            correctFeedbackRu: "Отлично! 'Skillfully' - это наречие, которое описывает, как повар готовит умело и с хорошей техникой. 'Skillful' - прилагательное, 'skill' - существительное, а 'skilled' - прилагательное.",
+            incorrectFeedback: "Try again! We need an adverb ending in -ly to describe how the chef cooks. 'Skillfully' means with expertise and good technique. 'Skillful' is an adjective, 'skill' is a noun, and 'skilled' is an adjective.",
+            incorrectFeedbackRu: "Попробуйте снова! Нам нужно наречие, заканчивающееся на -ly, чтобы описать, как повар готовит. 'Skillfully' означает умело и с хорошей техникой. 'Skillful' - прилагательное, 'skill' - существительное, а 'skilled' - прилагательное."
+        },
+        {
+            question: "Fill in the blank with the correct adverb:",
+            questionRu: "Заполните пропуск правильным наречием:",
+            sentence: "The student answers ____.",
+            correctAnswer: "correctly",
+            options: ["correctly", "correct", "correction", "corrected"],
+            correctFeedback: "Perfect! 'Correctly' is an adverb that describes how the student answers with accuracy and without mistakes. 'Correct' is an adjective, 'correction' is a noun, and 'corrected' is a past participle.",
+            correctFeedbackRu: "Отлично! 'Correctly' - это наречие, которое описывает, как студент отвечает правильно и без ошибок. 'Correct' - прилагательное, 'correction' - существительное, а 'corrected' - причастие прошедшего времени.",
+            incorrectFeedback: "Not quite! We need an adverb to describe how the student answers. 'Correctly' means with accuracy and without mistakes. 'Correct' is an adjective, 'correction' is a noun, and 'corrected' is a past participle.",
+            incorrectFeedbackRu: "Не совсем! Нам нужно наречие, чтобы описать, как студент отвечает. 'Correctly' означает правильно и без ошибок. 'Correct' - прилагательное, 'correction' - существительное, а 'corrected' - причастие прошедшего времени."
+        },
+        {
+            question: "Choose the correct adverb:",
+            questionRu: "Выберите правильное наречие:",
+            sentence: "The dancer moves ____.",
+            correctAnswer: "gracefully",
+            options: ["gracefully", "graceful", "grace", "graced"],
+            correctFeedback: "Great! 'Gracefully' is an adverb that describes how the dancer moves with elegance and smooth, flowing movements. 'Graceful' is an adjective, 'grace' is a noun, and 'graced' is a past tense verb.",
+            correctFeedbackRu: "Отлично! 'Gracefully' - это наречие, которое описывает, как танцор двигается грациозно и плавно. 'Graceful' - прилагательное, 'grace' - существительное, а 'graced' - глагол в прошедшем времени.",
+            incorrectFeedback: "Try again! We need an adverb ending in -ly to describe how the dancer moves. 'Gracefully' means with elegance and smooth movements. 'Graceful' is an adjective, 'grace' is a noun, and 'graced' is a past tense verb.",
+            incorrectFeedbackRu: "Попробуйте снова! Нам нужно наречие, заканчивающееся на -ly, чтобы описать, как танцор двигается. 'Gracefully' означает грациозно и плавно. 'Graceful' - прилагательное, 'grace' - существительное, а 'graced' - глагол в прошедшем времени."
+        },
+        {
+            question: "Select the correct adverb:",
+            questionRu: "Выберите правильное наречие:",
+            sentence: "The mechanic works ____.",
+            correctAnswer: "efficiently",
+            options: ["efficiently", "efficient", "efficiency", "effect"],
+            correctFeedback: "Excellent! 'Efficiently' is an adverb that describes how the mechanic works in a productive, organized way without wasting time or energy. 'Efficient' is an adjective, 'efficiency' is a noun, and 'effect' is a noun.",
+            correctFeedbackRu: "Отлично! 'Efficiently' - это наречие, которое описывает, как механик работает продуктивно и организованно, не тратя время и энергию. 'Efficient' - прилагательное, 'efficiency' - существительное, а 'effect' - существительное.",
+            incorrectFeedback: "Not quite! We need an adverb to describe how the mechanic works. 'Efficiently' means in a productive, organized way. 'Efficient' is an adjective, 'efficiency' is a noun, and 'effect' is a noun.",
+            incorrectFeedbackRu: "Не совсем! Нам нужно наречие, чтобы описать, как работает механик. 'Efficiently' означает продуктивно и организованно. 'Efficient' - прилагательное, 'efficiency' - существительное, а 'effect' - существительное."
+        },
+        {
+            question: "Complete the sentence with the correct adverb:",
+            questionRu: "Заполните предложение правильным наречием:",
+            sentence: "The bird flies ____.",
+            correctAnswer: "high",
+            options: ["high", "highly", "height", "heighten"],
+            correctFeedback: "Perfect! 'High' is an adverb that describes how the bird flies at a great height above the ground. Note: 'high' can be both an adjective and an adverb. 'Highly' means 'very much', 'height' is a noun, and 'heighten' is a verb.",
+            correctFeedbackRu: "Отлично! 'High' - это наречие, которое описывает, как птица летит высоко над землей. Заметьте: 'high' может быть и прилагательным, и наречием. 'Highly' означает 'очень', 'height' - существительное, а 'heighten' - глагол.",
+            incorrectFeedback: "Try again! We need an adverb to describe how the bird flies. 'High' means at a great height above the ground. 'Highly' means 'very much', 'height' is a noun, and 'heighten' is a verb.",
+            incorrectFeedbackRu: "Попробуйте снова! Нам нужно наречие, чтобы описать, как летит птица. 'High' означает высоко над землей. 'Highly' означает 'очень', 'height' - существительное, а 'heighten' - глагол."
+        },
+        {
+            question: "Fill in the blank with the correct adverb:",
+            questionRu: "Заполните пропуск правильным наречием:",
+            sentence: "The librarian speaks ____.",
+            correctAnswer: "quietly",
+            options: ["quietly", "quiet", "quietness", "quite"],
+            correctFeedback: "Great! 'Quietly' is an adverb that describes how the librarian speaks with a low voice to maintain silence in the library. 'Quiet' is an adjective, 'quietness' is a noun, and 'quite' means 'rather' or 'very'.",
+            correctFeedbackRu: "Отлично! 'Quietly' - это наречие, которое описывает, как библиотекарь говорит тихо, чтобы поддерживать тишину в библиотеке. 'Quiet' - прилагательное, 'quietness' - существительное, а 'quite' означает 'довольно' или 'очень'.",
+            incorrectFeedback: "Not quite! We need an adverb ending in -ly to describe how the librarian speaks. 'Quietly' means with a low voice. 'Quiet' is an adjective, 'quietness' is a noun, and 'quite' means 'rather'.",
+            incorrectFeedbackRu: "Не совсем! Нам нужно наречие, заканчивающееся на -ly, чтобы описать, как говорит библиотекарь. 'Quietly' означает тихо. 'Quiet' - прилагательное, 'quietness' - существительное, а 'quite' означает 'довольно'."
+        },
+        {
+            question: "Choose the correct adverb:",
+            questionRu: "Выберите правильное наречие:",
+            sentence: "The artist paints ____.",
+            correctAnswer: "creatively",
+            options: ["creatively", "creative", "creativity", "create"],
+            correctFeedback: "Excellent! 'Creatively' is an adverb that describes how the artist paints with imagination and original ideas. 'Creative' is an adjective, 'creativity' is a noun, and 'create' is a verb.",
+            correctFeedbackRu: "Отлично! 'Creatively' - это наречие, которое описывает, как художник рисует творчески и с оригинальными идеями. 'Creative' - прилагательное, 'creativity' - существительное, а 'create' - глагол.",
+            incorrectFeedback: "Try again! We need an adverb ending in -ly to describe how the artist paints. 'Creatively' means with imagination and originality. 'Creative' is an adjective, 'creativity' is a noun, and 'create' is a verb.",
+            incorrectFeedbackRu: "Попробуйте снова! Нам нужно наречие, заканчивающееся на -ly, чтобы описать, как рисует художник. 'Creatively' означает творчески и оригинально. 'Creative' - прилагательное, 'creativity' - существительное, а 'create' - глагол."
+        },
+        {
+            question: "Select the correct adverb:",
+            questionRu: "Выберите правильное наречие:",
+            sentence: "The athlete trains ____.",
+            correctAnswer: "intensively",
+            options: ["intensively", "intensive", "intensity", "intense"],
+            correctFeedback: "Perfect! 'Intensively' is an adverb that describes how the athlete trains with great effort and focus for maximum results. 'Intensive' is an adjective, 'intensity' is a noun, and 'intense' is an adjective.",
+            correctFeedbackRu: "Отлично! 'Intensively' - это наречие, которое описывает, как спортсмен тренируется интенсивно и с большими усилиями для максимальных результатов. 'Intensive' - прилагательное, 'intensity' - существительное, а 'intense' - прилагательное.",
+            incorrectFeedback: "Not quite! We need an adverb to describe how the athlete trains. 'Intensively' means with great effort and focus. 'Intensive' is an adjective, 'intensity' is a noun, and 'intense' is an adjective.",
+            incorrectFeedbackRu: "Не совсем! Нам нужно наречие, чтобы описать, как тренируется спортсмен. 'Intensively' означает интенсивно и с большими усилиями. 'Intensive' - прилагательное, 'intensity' - существительное, а 'intense' - прилагательное."
+        },
+        {
+            question: "Complete the sentence with the correct adverb:",
+            questionRu: "Заполните предложение правильным наречием:",
+            sentence: "The guard watches ____.",
+            correctAnswer: "carefully",
+            options: ["carefully", "careful", "care", "careless"],
+            correctFeedback: "Great! 'Carefully' is an adverb that describes how the guard watches with attention and alertness to ensure security. 'Careful' is an adjective, 'care' is a noun, and 'careless' is an adjective meaning the opposite.",
+            correctFeedbackRu: "Отлично! 'Carefully' - это наречие, которое описывает, как охранник наблюдает внимательно и бдительно для обеспечения безопасности. 'Careful' - прилагательное, 'care' - существительное, а 'careless' - прилагательное с противоположным значением.",
+            incorrectFeedback: "Try again! We need an adverb to describe how the guard watches. 'Carefully' means with attention and alertness. 'Careful' is an adjective, 'care' is a noun, and 'careless' means the opposite.",
+            incorrectFeedbackRu: "Попробуйте снова! Нам нужно наречие, чтобы описать, как наблюдает охранник. 'Carefully' означает внимательно и бдительно. 'Careful' - прилагательное, 'care' - существительное, а 'careless' означает противоположное."
+        },
+        {
+            question: "Fill in the blank with the correct adverb:",
+            questionRu: "Заполните пропуск правильным наречием:",
+            sentence: "The grandmother knits ____.",
+            correctAnswer: "lovingly",
+            options: ["lovingly", "loving", "love", "loved"],
+            correctFeedback: "Excellent! 'Lovingly' is an adverb that describes how the grandmother knits with care, affection, and personal attention. You've completed all 10 pages of Adverbs of Manner Fill in the Gaps exercises! 'Loving' is an adjective, 'love' is a noun or verb, and 'loved' is a past participle.",
+            correctFeedbackRu: "Отлично! 'Lovingly' - это наречие, которое описывает, как бабушка вяжет с заботой, любовью и личным вниманием. Вы завершили все 10 страниц упражнений Fill in the Gaps на наречия образа действия! 'Loving' - прилагательное, 'love' - существительное или глагол, а 'loved' - причастие прошедшего времени.",
+            incorrectFeedback: "Not quite! We need an adverb ending in -ly to describe how the grandmother knits. 'Lovingly' means with care and affection. 'Loving' is an adjective, 'love' is a noun or verb, and 'loved' is a past participle.",
+            incorrectFeedbackRu: "Не совсем! Нам нужно наречие, заканчивающееся на -ly, чтобы описать, как вяжет бабушка. 'Lovingly' означает с заботой и любовью. 'Loving' - прилагательное, 'love' - существительное или глагол, а 'loved' - причастие прошедшего времени."
+        }
+    ]
+};
+
+/* =============================================================================== */
+/* =========================Sentence Building Exercises========================== */
+
+/* ============================================
+Page 1: Adverbs of Manner - Basic Actions
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page1'] = {
+    title: "Adverbs of Manner - Basic Actions",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "sings", "beautifully."],
+            correctAnswer: "She sings beautifully.",
+            correctFeedback: "Perfect! 'She sings beautifully.' - The adverb 'beautifully' describes how she sings. Adverbs of manner usually come after the verb.",
+            correctFeedbackRu: "Отлично! 'She sings beautifully.' - Наречие 'beautifully' описывает, как она поет. Наречия образа действия обычно стоят после глагола.",
+            incorrectFeedback: "Try again. Remember: Subject + verb + adverb of manner. 'Beautifully' tells us how she sings.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + глагол + наречие образа действия. 'Beautifully' говорит нам, как она поет."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "drives", "carefully."],
+            correctAnswer: "He drives carefully.",
+            correctFeedback: "Excellent! 'He drives carefully.' - The adverb 'carefully' describes how he drives. It shows the manner of driving.",
+            correctFeedbackRu: "Отлично! 'He drives carefully.' - Наречие 'carefully' описывает, как он водит. Оно показывает манеру вождения.",
+            incorrectFeedback: "Not quite right. The structure is: He + drives + carefully. The adverb shows how he performs the action.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + drives + carefully. Наречие показывает, как он выполняет действие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "baby", "sleeps", "peacefully."],
+            correctAnswer: "The baby sleeps peacefully.",
+            correctFeedback: "Great! 'The baby sleeps peacefully.' - The adverb 'peacefully' describes how the baby sleeps. It comes after the verb.",
+            correctFeedbackRu: "Отлично! 'The baby sleeps peacefully.' - Наречие 'peacefully' описывает, как спит ребенок. Оно стоит после глагола.",
+            incorrectFeedback: "Try again. Remember: The baby + sleeps + peacefully. The adverb tells us the manner of sleeping.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The baby + sleeps + peacefully. Наречие говорит нам о способе сна."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "work", "hard."],
+            correctAnswer: "They work hard.",
+            correctFeedback: "Perfect! 'They work hard.' - The adverb 'hard' describes how they work. Note: 'hard' is both an adjective and adverb.",
+            correctFeedbackRu: "Отлично! 'They work hard.' - Наречие 'hard' описывает, как они работают. Заметьте: 'hard' может быть и прилагательным, и наречием.",
+            incorrectFeedback: "Not quite right. The structure is: They + work + hard. 'Hard' is an adverb showing the manner of working.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + work + hard. 'Hard' - наречие, показывающее манеру работы."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "dances", "gracefully."],
+            correctAnswer: "She dances gracefully.",
+            correctFeedback: "Excellent! 'She dances gracefully.' - The adverb 'gracefully' describes how she dances with elegance and smooth movements.",
+            correctFeedbackRu: "Отлично! 'She dances gracefully.' - Наречие 'gracefully' описывает, как она танцует элегантно и плавно.",
+            incorrectFeedback: "Try again. Remember: She + dances + gracefully. The adverb shows the manner of dancing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + dances + gracefully. Наречие показывает манеру танца."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "runs", "fast."],
+            correctAnswer: "He runs fast.",
+            correctFeedback: "Great! 'He runs fast.' - The adverb 'fast' describes how he runs. Like 'hard', 'fast' doesn't change form as an adverb.",
+            correctFeedbackRu: "Отлично! 'He runs fast.' - Наречие 'fast' описывает, как он бежит. Как и 'hard', 'fast' не изменяется в форме наречия.",
+            incorrectFeedback: "Not quite right. The structure is: He + runs + fast. 'Fast' is an adverb showing the speed of running.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + runs + fast. 'Fast' - наречие, показывающее скорость бега."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "teacher", "explains", "clearly."],
+            correctAnswer: "The teacher explains clearly.",
+            correctFeedback: "Perfect! 'The teacher explains clearly.' - The adverb 'clearly' describes how the teacher explains in an understandable way.",
+            correctFeedbackRu: "Отлично! 'The teacher explains clearly.' - Наречие 'clearly' описывает, как учитель объясняет понятно.",
+            incorrectFeedback: "Try again. Remember: The teacher + explains + clearly. The adverb shows the manner of explaining.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The teacher + explains + clearly. Наречие показывает манеру объяснения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "walks", "slowly."],
+            correctAnswer: "She walks slowly.",
+            correctFeedback: "Excellent! 'She walks slowly.' - The adverb 'slowly' describes how she walks at a gentle pace.",
+            correctFeedbackRu: "Отлично! 'She walks slowly.' - Наречие 'slowly' описывает, как она идет медленно.",
+            incorrectFeedback: "Not quite right. The structure is: She + walks + slowly. The adverb shows the pace of walking.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + walks + slowly. Наречие показывает темп ходьбы."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "speaks", "loudly."],
+            correctAnswer: "He speaks loudly.",
+            correctFeedback: "Great! 'He speaks loudly.' - The adverb 'loudly' describes how he speaks with a high volume.",
+            correctFeedbackRu: "Отлично! 'He speaks loudly.' - Наречие 'loudly' описывает, как он говорит громко.",
+            incorrectFeedback: "Try again. Remember: He + speaks + loudly. The adverb shows the volume of speaking.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + speaks + loudly. Наречие показывает громкость речи."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "play", "happily."],
+            correctAnswer: "They play happily.",
+            correctFeedback: "Perfect! 'They play happily.' - The adverb 'happily' describes how they play with joy and pleasure.",
+            correctFeedbackRu: "Отлично! 'They play happily.' - Наречие 'happily' описывает, как они играют с радостью и удовольствием.",
+            incorrectFeedback: "Not quite right. The structure is: They + play + happily. The adverb shows the emotional manner of playing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + play + happily. Наречие показывает эмоциональную манеру игры."
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Adverbs of Manner - Daily Activities
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page2'] = {
+    title: "Adverbs of Manner - Daily Activities",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "cooks", "deliciously."],
+            correctAnswer: "She cooks deliciously.",
+            correctFeedback: "Excellent! 'She cooks deliciously.' - The adverb 'deliciously' describes how she cooks in a tasty way.",
+            correctFeedbackRu: "Отлично! 'She cooks deliciously.' - Наречие 'deliciously' описывает, как она готовит вкусно.",
+            incorrectFeedback: "Try again. Remember: She + cooks + deliciously. The adverb shows the quality of cooking.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + cooks + deliciously. Наречие показывает качество готовки."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "reads", "quickly."],
+            correctAnswer: "He reads quickly.",
+            correctFeedback: "Great! 'He reads quickly.' - The adverb 'quickly' describes how he reads at a fast pace.",
+            correctFeedbackRu: "Отлично! 'He reads quickly.' - Наречие 'quickly' описывает, как он читает быстро.",
+            incorrectFeedback: "Not quite right. The structure is: He + reads + quickly. The adverb shows the speed of reading.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + reads + quickly. Наречие показывает скорость чтения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "students", "listen", "attentively."],
+            correctAnswer: "The students listen attentively.",
+            correctFeedback: "Perfect! 'The students listen attentively.' - The adverb 'attentively' describes how they listen with focus and care.",
+            correctFeedbackRu: "Отлично! 'The students listen attentively.' - Наречие 'attentively' описывает, как они слушают внимательно.",
+            incorrectFeedback: "Try again. Remember: The students + listen + attentively. The adverb shows the manner of listening.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The students + listen + attentively. Наречие показывает манеру слушания."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "writes", "neatly."],
+            correctAnswer: "She writes neatly.",
+            correctFeedback: "Excellent! 'She writes neatly.' - The adverb 'neatly' describes how she writes in a clean, organized way.",
+            correctFeedbackRu: "Отлично! 'She writes neatly.' - Наречие 'neatly' описывает, как она пишет аккуратно и организованно.",
+            incorrectFeedback: "Not quite right. The structure is: She + writes + neatly. The adverb shows the style of writing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + writes + neatly. Наречие показывает стиль письма."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "answers", "politely."],
+            correctAnswer: "He answers politely.",
+            correctFeedback: "Great! 'He answers politely.' - The adverb 'politely' describes how he answers in a respectful, courteous manner.",
+            correctFeedbackRu: "Отлично! 'He answers politely.' - Наречие 'politely' описывает, как он отвечает вежливо и учтиво.",
+            incorrectFeedback: "Try again. Remember: He + answers + politely. The adverb shows the manner of answering.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + answers + politely. Наречие показывает манеру ответа."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "study", "seriously."],
+            correctAnswer: "They study seriously.",
+            correctFeedback: "Perfect! 'They study seriously.' - The adverb 'seriously' describes how they study with dedication and focus.",
+            correctFeedbackRu: "Отлично! 'They study seriously.' - Наречие 'seriously' описывает, как они учатся серьезно и сосредоточенно.",
+            incorrectFeedback: "Not quite right. The structure is: They + study + seriously. The adverb shows the attitude toward studying.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + study + seriously. Наречие показывает отношение к учебе."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "paints", "creatively."],
+            correctAnswer: "She paints creatively.",
+            correctFeedback: "Excellent! 'She paints creatively.' - The adverb 'creatively' describes how she paints with imagination and originality.",
+            correctFeedbackRu: "Отлично! 'She paints creatively.' - Наречие 'creatively' описывает, как она рисует творчески и оригинально.",
+            incorrectFeedback: "Try again. Remember: She + paints + creatively. The adverb shows the manner of painting.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + paints + creatively. Наречие показывает манеру рисования."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "eats", "hungrily."],
+            correctAnswer: "He eats hungrily.",
+            correctFeedback: "Great! 'He eats hungrily.' - The adverb 'hungrily' describes how he eats with great appetite and eagerness.",
+            correctFeedbackRu: "Отлично! 'He eats hungrily.' - Наречие 'hungrily' описывает, как он ест с большим аппетитом и жадностью.",
+            incorrectFeedback: "Not quite right. The structure is: He + eats + hungrily. The adverb shows the manner of eating.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + eats + hungrily. Наречие показывает манеру еды."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "dog", "barks", "loudly."],
+            correctAnswer: "The dog barks loudly.",
+            correctFeedback: "Perfect! 'The dog barks loudly.' - The adverb 'loudly' describes how the dog barks with high volume.",
+            correctFeedbackRu: "Отлично! 'The dog barks loudly.' - Наречие 'loudly' описывает, как собака лает громко.",
+            incorrectFeedback: "Try again. Remember: The dog + barks + loudly. The adverb shows the volume of barking.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The dog + barks + loudly. Наречие показывает громкость лая."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "smiles", "warmly."],
+            correctAnswer: "She smiles warmly.",
+            correctFeedback: "Excellent! 'She smiles warmly.' - The adverb 'warmly' describes how she smiles in a friendly, kind way.",
+            correctFeedbackRu: "Отлично! 'She smiles warmly.' - Наречие 'warmly' описывает, как она улыбается тепло и дружелюбно.",
+            incorrectFeedback: "Not quite right. The structure is: She + smiles + warmly. The adverb shows the manner of smiling.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + smiles + warmly. Наречие показывает манеру улыбки."
+        }
+    ]
+};
+
+/* ============================================
+Page 3: Adverbs of Manner - Work and Communication
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page3'] = {
+    title: "Adverbs of Manner - Work and Communication",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "works", "efficiently."],
+            correctAnswer: "He works efficiently.",
+            correctFeedback: "Perfect! 'He works efficiently.' - The adverb 'efficiently' describes how he works in a productive, effective way.",
+            correctFeedbackRu: "Отлично! 'He works efficiently.' - Наречие 'efficiently' описывает, как он работает продуктивно и эффективно.",
+            incorrectFeedback: "Try again. Remember: He + works + efficiently. The adverb shows the manner of working.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + works + efficiently. Наречие показывает манеру работы."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "presents", "confidently."],
+            correctAnswer: "She presents confidently.",
+            correctFeedback: "Excellent! 'She presents confidently.' - The adverb 'confidently' describes how she presents with self-assurance and certainty.",
+            correctFeedbackRu: "Отлично! 'She presents confidently.' - Наречие 'confidently' описывает, как она выступает уверенно.",
+            incorrectFeedback: "Not quite right. The structure is: She + presents + confidently. The adverb shows the manner of presenting.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + presents + confidently. Наречие показывает манеру выступления."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "communicate", "clearly."],
+            correctAnswer: "They communicate clearly.",
+            correctFeedback: "Great! 'They communicate clearly.' - The adverb 'clearly' describes how they communicate in an understandable way.",
+            correctFeedbackRu: "Отлично! 'They communicate clearly.' - Наречие 'clearly' описывает, как они общаются понятно.",
+            incorrectFeedback: "Try again. Remember: They + communicate + clearly. The adverb shows the manner of communication.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + communicate + clearly. Наречие показывает манеру общения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "types", "quickly."],
+            correctAnswer: "He types quickly.",
+            correctFeedback: "Perfect! 'He types quickly.' - The adverb 'quickly' describes how he types at a fast speed.",
+            correctFeedbackRu: "Отлично! 'He types quickly.' - Наречие 'quickly' описывает, как он печатает быстро.",
+            incorrectFeedback: "Not quite right. The structure is: He + types + quickly. The adverb shows the speed of typing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + types + quickly. Наречие показывает скорость печатания."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "organizes", "systematically."],
+            correctAnswer: "She organizes systematically.",
+            correctFeedback: "Excellent! 'She organizes systematically.' - The adverb 'systematically' describes how she organizes in an orderly, methodical way.",
+            correctFeedbackRu: "Отлично! 'She organizes systematically.' - Наречие 'systematically' описывает, как она организует систематично и методично.",
+            incorrectFeedback: "Try again. Remember: She + organizes + systematically. The adverb shows the method of organizing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + organizes + systematically. Наречие показывает метод организации."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "discusses", "actively."],
+            correctAnswer: "He discusses actively.",
+            correctFeedback: "Great! 'He discusses actively.' - The adverb 'actively' describes how he discusses with energy and engagement.",
+            correctFeedbackRu: "Отлично! 'He discusses actively.' - Наречие 'actively' описывает, как он обсуждает активно и вовлеченно.",
+            incorrectFeedback: "Not quite right. The structure is: He + discusses + actively. The adverb shows the manner of discussing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + discusses + actively. Наречие показывает манеру обсуждения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "checks", "thoroughly."],
+            correctAnswer: "She checks thoroughly.",
+            correctFeedback: "Perfect! 'She checks thoroughly.' - The adverb 'thoroughly' describes how she checks completely and carefully.",
+            correctFeedbackRu: "Отлично! 'She checks thoroughly.' - Наречие 'thoroughly' описывает, как она проверяет тщательно и полно.",
+            incorrectFeedback: "Try again. Remember: She + checks + thoroughly. The adverb shows the completeness of checking.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + checks + thoroughly. Наречие показывает полноту проверки."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "collaborate", "effectively."],
+            correctAnswer: "They collaborate effectively.",
+            correctFeedback: "Excellent! 'They collaborate effectively.' - The adverb 'effectively' describes how they collaborate in a successful, productive way.",
+            correctFeedbackRu: "Отлично! 'They collaborate effectively.' - Наречие 'effectively' описывает, как они сотрудничают эффективно и продуктивно.",
+            incorrectFeedback: "Not quite right. The structure is: They + collaborate + effectively. The adverb shows the quality of collaboration.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + collaborate + effectively. Наречие показывает качество сотрудничества."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "responds", "promptly."],
+            correctAnswer: "He responds promptly.",
+            correctFeedback: "Great! 'He responds promptly.' - The adverb 'promptly' describes how he responds quickly and without delay.",
+            correctFeedbackRu: "Отлично! 'He responds promptly.' - Наречие 'promptly' описывает, как он отвечает быстро и без задержки.",
+            incorrectFeedback: "Try again. Remember: He + responds + promptly. The adverb shows the timing of responding.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + responds + promptly. Наречие показывает время отклика."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "manages", "skillfully."],
+            correctAnswer: "She manages skillfully.",
+            correctFeedback: "Perfect! 'She manages skillfully.' - The adverb 'skillfully' describes how she manages with expertise and competence.",
+            correctFeedbackRu: "Отлично! 'She manages skillfully.' - Наречие 'skillfully' описывает, как она управляет умело и компетентно.",
+            incorrectFeedback: "Not quite right. The structure is: She + manages + skillfully. The adverb shows the quality of management.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + manages + skillfully. Наречие показывает качество управления."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Adverbs of Manner - Movement and Sports
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page4'] = {
+    title: "Adverbs of Manner - Movement and Sports",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "jumps", "high."],
+            correctAnswer: "He jumps high.",
+            correctFeedback: "Perfect! 'He jumps high.' - The adverb 'high' describes how he jumps with great height. 'High' is both an adjective and adverb.",
+            correctFeedbackRu: "Отлично! 'He jumps high.' - Наречие 'high' описывает, как он прыгает высоко. 'High' может быть и прилагательным, и наречием.",
+            incorrectFeedback: "Try again. Remember: He + jumps + high. The adverb shows the height of jumping.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + jumps + high. Наречие показывает высоту прыжка."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "swims", "smoothly."],
+            correctAnswer: "She swims smoothly.",
+            correctFeedback: "Excellent! 'She swims smoothly.' - The adverb 'smoothly' describes how she swims with fluid, graceful movements.",
+            correctFeedbackRu: "Отлично! 'She swims smoothly.' - Наречие 'smoothly' описывает, как она плавает плавно и грациозно.",
+            incorrectFeedback: "Not quite right. The structure is: She + swims + smoothly. The adverb shows the style of swimming.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + swims + smoothly. Наречие показывает стиль плавания."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "boy", "kicks", "powerfully."],
+            correctAnswer: "The boy kicks powerfully.",
+            correctFeedback: "Great! 'The boy kicks powerfully.' - The adverb 'powerfully' describes how the boy kicks with great force and strength.",
+            correctFeedbackRu: "Отлично! 'The boy kicks powerfully.' - Наречие 'powerfully' описывает, как мальчик бьет мощно и сильно.",
+            incorrectFeedback: "Try again. Remember: The boy + kicks + powerfully. The adverb shows the force of kicking.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The boy + kicks + powerfully. Наречие показывает силу удара."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "climb", "carefully."],
+            correctAnswer: "They climb carefully.",
+            correctFeedback: "Perfect! 'They climb carefully.' - The adverb 'carefully' describes how they climb with caution and attention to safety.",
+            correctFeedbackRu: "Отлично! 'They climb carefully.' - Наречие 'carefully' описывает, как они лазают осторожно и внимательно к безопасности.",
+            incorrectFeedback: "Not quite right. The structure is: They + climb + carefully. The adverb shows the manner of climbing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + climb + carefully. Наречие показывает манеру лазания."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "throws", "accurately."],
+            correctAnswer: "She throws accurately.",
+            correctFeedback: "Excellent! 'She throws accurately.' - The adverb 'accurately' describes how she throws with precision and good aim.",
+            correctFeedbackRu: "Отлично! 'She throws accurately.' - Наречие 'accurately' описывает, как она бросает точно и с хорошим прицелом.",
+            incorrectFeedback: "Try again. Remember: She + throws + accurately. The adverb shows the precision of throwing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + throws + accurately. Наречие показывает точность броска."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "cycles", "rapidly."],
+            correctAnswer: "He cycles rapidly.",
+            correctFeedback: "Great! 'He cycles rapidly.' - The adverb 'rapidly' describes how he cycles at a very fast speed.",
+            correctFeedbackRu: "Отлично! 'He cycles rapidly.' - Наречие 'rapidly' описывает, как он едет на велосипеде очень быстро.",
+            incorrectFeedback: "Not quite right. The structure is: He + cycles + rapidly. The adverb shows the speed of cycling.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + cycles + rapidly. Наречие показывает скорость езды на велосипеде."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "team", "trains", "intensively."],
+            correctAnswer: "The team trains intensively.",
+            correctFeedback: "Perfect! 'The team trains intensively.' - The adverb 'intensively' describes how the team trains with great effort and focus.",
+            correctFeedbackRu: "Отлично! 'The team trains intensively.' - Наречие 'intensively' описывает, как команда тренируется интенсивно и сосредоточенно.",
+            incorrectFeedback: "Try again. Remember: The team + trains + intensively. The adverb shows the intensity of training.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The team + trains + intensively. Наречие показывает интенсивность тренировки."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "stretches", "gently."],
+            correctAnswer: "She stretches gently.",
+            correctFeedback: "Excellent! 'She stretches gently.' - The adverb 'gently' describes how she stretches with soft, careful movements.",
+            correctFeedbackRu: "Отлично! 'She stretches gently.' - Наречие 'gently' описывает, как она растягивается мягко и осторожно.",
+            incorrectFeedback: "Not quite right. The structure is: She + stretches + gently. The adverb shows the manner of stretching.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + stretches + gently. Наречие показывает манеру растяжки."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "catches", "skillfully."],
+            correctAnswer: "He catches skillfully.",
+            correctFeedback: "Great! 'He catches skillfully.' - The adverb 'skillfully' describes how he catches with expertise and good technique.",
+            correctFeedbackRu: "Отлично! 'He catches skillfully.' - Наречие 'skillfully' описывает, как он ловит умело и с хорошей техникой.",
+            incorrectFeedback: "Try again. Remember: He + catches + skillfully. The adverb shows the skill level of catching.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + catches + skillfully. Наречие показывает уровень мастерства в ловле."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "exercise", "regularly."],
+            correctAnswer: "They exercise regularly.",
+            correctFeedback: "Perfect! 'They exercise regularly.' - The adverb 'regularly' describes how they exercise with consistency and routine.",
+            correctFeedbackRu: "Отлично! 'They exercise regularly.' - Наречие 'regularly' описывает, как они тренируются регулярно и постоянно.",
+            incorrectFeedback: "Not quite right. The structure is: They + exercise + regularly. The adverb shows the frequency of exercising.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + exercise + regularly. Наречие показывает частоту тренировок."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Adverbs of Manner - Emotions and Behavior
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page5'] = {
+    title: "Adverbs of Manner - Emotions and Behavior",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "laughs", "cheerfully."],
+            correctAnswer: "She laughs cheerfully.",
+            correctFeedback: "Perfect! 'She laughs cheerfully.' - The adverb 'cheerfully' describes how she laughs with joy and happiness.",
+            correctFeedbackRu: "Отлично! 'She laughs cheerfully.' - Наречие 'cheerfully' описывает, как она смеется радостно и весело.",
+            incorrectFeedback: "Try again. Remember: She + laughs + cheerfully. The adverb shows the emotional manner of laughing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + laughs + cheerfully. Наречие показывает эмоциональную манеру смеха."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "waits", "patiently."],
+            correctAnswer: "He waits patiently.",
+            correctFeedback: "Excellent! 'He waits patiently.' - The adverb 'patiently' describes how he waits with calm endurance and without complaint.",
+            correctFeedbackRu: "Отлично! 'He waits patiently.' - Наречие 'patiently' описывает, как он ждет терпеливо и без жалоб.",
+            incorrectFeedback: "Not quite right. The structure is: He + waits + patiently. The adverb shows the manner of waiting.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + waits + patiently. Наречие показывает манеру ожидания."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "child", "cries", "loudly."],
+            correctAnswer: "The child cries loudly.",
+            correctFeedback: "Great! 'The child cries loudly.' - The adverb 'loudly' describes how the child cries with high volume and intensity.",
+            correctFeedbackRu: "Отлично! 'The child cries loudly.' - Наречие 'loudly' описывает, как ребенок плачет громко и интенсивно.",
+            incorrectFeedback: "Try again. Remember: The child + cries + loudly. The adverb shows the volume of crying.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The child + cries + loudly. Наречие показывает громкость плача."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "acts", "kindly."],
+            correctAnswer: "She acts kindly.",
+            correctFeedback: "Perfect! 'She acts kindly.' - The adverb 'kindly' describes how she acts with compassion and gentleness toward others.",
+            correctFeedbackRu: "Отлично! 'She acts kindly.' - Наречие 'kindly' описывает, как она действует добро и мягко по отношению к другим.",
+            incorrectFeedback: "Not quite right. The structure is: She + acts + kindly. The adverb shows the manner of acting.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + acts + kindly. Наречие показывает манеру поведения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "behaves", "politely."],
+            correctAnswer: "He behaves politely.",
+            correctFeedback: "Excellent! 'He behaves politely.' - The adverb 'politely' describes how he behaves with good manners and respect.",
+            correctFeedbackRu: "Отлично! 'He behaves politely.' - Наречие 'politely' описывает, как он ведет себя вежливо и уважительно.",
+            incorrectFeedback: "Try again. Remember: He + behaves + politely. The adverb shows the manner of behavior.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + behaves + politely. Наречие показывает манеру поведения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "argue", "angrily."],
+            correctAnswer: "They argue angrily.",
+            correctFeedback: "Great! 'They argue angrily.' - The adverb 'angrily' describes how they argue with strong emotion and hostility.",
+            correctFeedbackRu: "Отлично! 'They argue angrily.' - Наречие 'angrily' описывает, как они спорят сердито и враждебно.",
+            incorrectFeedback: "Not quite right. The structure is: They + argue + angrily. The adverb shows the emotional manner of arguing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + argue + angrily. Наречие показывает эмоциональную манеру спора."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "greets", "politely."],
+            correctAnswer: "She greets politely.",
+            correctFeedback: "Perfect! 'She greets politely.' - The adverb 'politely' describes how she greets with good manners and respect.",
+            correctFeedbackRu: "Отлично! 'She greets politely.' - Наречие 'politely' описывает, как она приветствует вежливо и уважительно.",
+            incorrectFeedback: "Try again. Remember: She + greets + politely. The adverb shows the manner of greeting.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + greets + politely. Наречие показывает манеру приветствия."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "complains", "constantly."],
+            correctAnswer: "He complains constantly.",
+            correctFeedback: "Excellent! 'He complains constantly.' - The adverb 'constantly' describes how he complains all the time without stopping.",
+            correctFeedbackRu: "Отлично! 'He complains constantly.' - Наречие 'constantly' описывает, как он жалуется постоянно и без остановки.",
+            incorrectFeedback: "Not quite right. The structure is: He + complains + constantly. The adverb shows the frequency of complaining.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + complains + constantly. Наречие показывает частоту жалоб."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "woman", "speaks", "softly."],
+            correctAnswer: "The woman speaks softly.",
+            correctFeedback: "Great! 'The woman speaks softly.' - The adverb 'softly' describes how the woman speaks with a gentle, quiet voice.",
+            correctFeedbackRu: "Отлично! 'The woman speaks softly.' - Наречие 'softly' описывает, как женщина говорит мягко и тихо.",
+            incorrectFeedback: "Try again. Remember: The woman + speaks + softly. The adverb shows the volume and tone of speaking.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The woman + speaks + softly. Наречие показывает громкость и тон речи."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "celebrate", "joyfully."],
+            correctAnswer: "They celebrate joyfully.",
+            correctFeedback: "Perfect! 'They celebrate joyfully.' - The adverb 'joyfully' describes how they celebrate with great happiness and enthusiasm.",
+            correctFeedbackRu: "Отлично! 'They celebrate joyfully.' - Наречие 'joyfully' описывает, как они празднуют радостно и с энтузиазмом.",
+            incorrectFeedback: "Not quite right. The structure is: They + celebrate + joyfully. The adverb shows the emotional manner of celebrating.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + celebrate + joyfully. Наречие показывает эмоциональную манеру празднования."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Adverbs of Manner - Thinking and Learning
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page6'] = {
+    title: "Adverbs of Manner - Thinking and Learning",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "thinks", "deeply."],
+            correctAnswer: "She thinks deeply.",
+            correctFeedback: "Perfect! 'She thinks deeply.' - The adverb 'deeply' describes how she thinks with profound concentration and serious consideration.",
+            correctFeedbackRu: "Отлично! 'She thinks deeply.' - Наречие 'deeply' описывает, как она думает глубоко и серьезно.",
+            incorrectFeedback: "Try again. Remember: She + thinks + deeply. The adverb shows the depth of thinking.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + thinks + deeply. Наречие показывает глубину мышления."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "learns", "quickly."],
+            correctAnswer: "He learns quickly.",
+            correctFeedback: "Excellent! 'He learns quickly.' - The adverb 'quickly' describes how he learns at a fast pace with good understanding.",
+            correctFeedbackRu: "Отлично! 'He learns quickly.' - Наречие 'quickly' описывает, как он учится быстро и с хорошим пониманием.",
+            incorrectFeedback: "Not quite right. The structure is: He + learns + quickly. The adverb shows the speed of learning.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + learns + quickly. Наречие показывает скорость обучения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "student", "concentrates", "intensely."],
+            correctAnswer: "The student concentrates intensely.",
+            correctFeedback: "Great! 'The student concentrates intensely.' - The adverb 'intensely' describes how the student concentrates with great focus and mental effort.",
+            correctFeedbackRu: "Отлично! 'The student concentrates intensely.' - Наречие 'intensely' описывает, как студент концентрируется интенсивно и с большим усилием.",
+            incorrectFeedback: "Try again. Remember: The student + concentrates + intensely. The adverb shows the intensity of concentration.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The student + concentrates + intensely. Наречие показывает интенсивность концентрации."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "remembers", "clearly."],
+            correctAnswer: "She remembers clearly.",
+            correctFeedback: "Perfect! 'She remembers clearly.' - The adverb 'clearly' describes how she remembers with vivid detail and accuracy.",
+            correctFeedbackRu: "Отлично! 'She remembers clearly.' - Наречие 'clearly' описывает, как она помнит ясно и точно.",
+            incorrectFeedback: "Not quite right. The structure is: She + remembers + clearly. The adverb shows the clarity of memory.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + remembers + clearly. Наречие показывает ясность памяти."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "solves", "cleverly."],
+            correctAnswer: "He solves cleverly.",
+            correctFeedback: "Excellent! 'He solves cleverly.' - The adverb 'cleverly' describes how he solves problems with intelligence and smart thinking.",
+            correctFeedbackRu: "Отлично! 'He solves cleverly.' - Наречие 'cleverly' описывает, как он решает проблемы умно и сообразительно.",
+            incorrectFeedback: "Try again. Remember: He + solves + cleverly. The adverb shows the manner of problem-solving.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + solves + cleverly. Наречие показывает манеру решения проблем."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "analyze", "carefully."],
+            correctAnswer: "They analyze carefully.",
+            correctFeedback: "Great! 'They analyze carefully.' - The adverb 'carefully' describes how they analyze with attention to detail and precision.",
+            correctFeedbackRu: "Отлично! 'They analyze carefully.' - Наречие 'carefully' описывает, как они анализируют внимательно и точно.",
+            incorrectFeedback: "Not quite right. The structure is: They + analyze + carefully. The adverb shows the manner of analysis.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + analyze + carefully. Наречие показывает манеру анализа."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "understands", "completely."],
+            correctAnswer: "She understands completely.",
+            correctFeedback: "Perfect! 'She understands completely.' - The adverb 'completely' describes how she understands with full comprehension and clarity.",
+            correctFeedbackRu: "Отлично! 'She understands completely.' - Наречие 'completely' описывает, как она понимает полностью и ясно.",
+            incorrectFeedback: "Try again. Remember: She + understands + completely. The adverb shows the completeness of understanding.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + understands + completely. Наречие показывает полноту понимания."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "discovers", "accidentally."],
+            correctAnswer: "He discovers accidentally.",
+            correctFeedback: "Excellent! 'He discovers accidentally.' - The adverb 'accidentally' describes how he discovers something by chance, not on purpose.",
+            correctFeedbackRu: "Отлично! 'He discovers accidentally.' - Наречие 'accidentally' описывает, как он открывает что-то случайно, не специально.",
+            incorrectFeedback: "Not quite right. The structure is: He + discovers + accidentally. The adverb shows the manner of discovery.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + discovers + accidentally. Наречие показывает манеру открытия."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "professor", "explains", "patiently."],
+            correctAnswer: "The professor explains patiently.",
+            correctFeedback: "Great! 'The professor explains patiently.' - The adverb 'patiently' describes how the professor explains with calm endurance and understanding.",
+            correctFeedbackRu: "Отлично! 'The professor explains patiently.' - Наречие 'patiently' описывает, как профессор объясняет терпеливо и с пониманием.",
+            incorrectFeedback: "Try again. Remember: The professor + explains + patiently. The adverb shows the manner of explaining.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The professor + explains + patiently. Наречие показывает манеру объяснения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "researches", "thoroughly."],
+            correctAnswer: "She researches thoroughly.",
+            correctFeedback: "Perfect! 'She researches thoroughly.' - The adverb 'thoroughly' describes how she researches with complete attention to all details.",
+            correctFeedbackRu: "Отлично! 'She researches thoroughly.' - Наречие 'thoroughly' описывает, как она исследует тщательно и со вниманием ко всем деталям.",
+            incorrectFeedback: "Not quite right. The structure is: She + researches + thoroughly. The adverb shows the completeness of research.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + researches + thoroughly. Наречие показывает полноту исследования."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Adverbs of Manner - Household and Daily Tasks
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page7'] = {
+    title: "Adverbs of Manner - Household and Daily Tasks",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "cleans", "thoroughly."],
+            correctAnswer: "She cleans thoroughly.",
+            correctFeedback: "Perfect! 'She cleans thoroughly.' - The adverb 'thoroughly' describes how she cleans with complete attention to all areas and details.",
+            correctFeedbackRu: "Отлично! 'She cleans thoroughly.' - Наречие 'thoroughly' описывает, как она убирает тщательно и со вниманием ко всем деталям.",
+            incorrectFeedback: "Try again. Remember: She + cleans + thoroughly. The adverb shows the completeness of cleaning.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + cleans + thoroughly. Наречие показывает полноту уборки."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "washes", "gently."],
+            correctAnswer: "He washes gently.",
+            correctFeedback: "Excellent! 'He washes gently.' - The adverb 'gently' describes how he washes with soft, careful movements without being rough.",
+            correctFeedbackRu: "Отлично! 'He washes gently.' - Наречие 'gently' описывает, как он моет мягко и осторожно, не грубо.",
+            incorrectFeedback: "Not quite right. The structure is: He + washes + gently. The adverb shows the manner of washing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + washes + gently. Наречие показывает манеру мытья."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "woman", "folds", "neatly."],
+            correctAnswer: "The woman folds neatly.",
+            correctFeedback: "Great! 'The woman folds neatly.' - The adverb 'neatly' describes how the woman folds clothes in an organized, tidy way.",
+            correctFeedbackRu: "Отлично! 'The woman folds neatly.' - Наречие 'neatly' описывает, как женщина складывает одежду организованно и аккуратно.",
+            incorrectFeedback: "Try again. Remember: The woman + folds + neatly. The adverb shows the manner of folding.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The woman + folds + neatly. Наречие показывает манеру складывания."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "sweeps", "carefully."],
+            correctAnswer: "He sweeps carefully.",
+            correctFeedback: "Perfect! 'He sweeps carefully.' - The adverb 'carefully' describes how he sweeps with attention to not miss any areas.",
+            correctFeedbackRu: "Отлично! 'He sweeps carefully.' - Наречие 'carefully' описывает, как он подметает внимательно, не пропуская участки.",
+            incorrectFeedback: "Not quite right. The structure is: He + sweeps + carefully. The adverb shows the manner of sweeping.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + sweeps + carefully. Наречие показывает манеру подметания."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "irons", "smoothly."],
+            correctAnswer: "She irons smoothly.",
+            correctFeedback: "Excellent! 'She irons smoothly.' - The adverb 'smoothly' describes how she irons with even, fluid movements to remove wrinkles.",
+            correctFeedbackRu: "Отлично! 'She irons smoothly.' - Наречие 'smoothly' описывает, как она гладит плавно и равномерно, убирая складки.",
+            incorrectFeedback: "Try again. Remember: She + irons + smoothly. The adverb shows the manner of ironing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + irons + smoothly. Наречие показывает манеру глажки."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "garden", "patiently."],
+            correctAnswer: "They garden patiently.",
+            correctFeedback: "Great! 'They garden patiently.' - The adverb 'patiently' describes how they garden with calm persistence and long-term care.",
+            correctFeedbackRu: "Отлично! 'They garden patiently.' - Наречие 'patiently' описывает, как они занимаются садом терпеливо и с долгосрочной заботой.",
+            incorrectFeedback: "Not quite right. The structure is: They + garden + patiently. The adverb shows the manner of gardening.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + garden + patiently. Наречие показывает манеру садоводства."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "fixes", "skillfully."],
+            correctAnswer: "He fixes skillfully.",
+            correctFeedback: "Perfect! 'He fixes skillfully.' - The adverb 'skillfully' describes how he fixes things with expertise and good technique.",
+            correctFeedbackRu: "Отлично! 'He fixes skillfully.' - Наречие 'skillfully' описывает, как он чинит вещи умело и с хорошей техникой.",
+            incorrectFeedback: "Try again. Remember: He + fixes + skillfully. The adverb shows the skill level of fixing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + fixes + skillfully. Наречие показывает уровень мастерства в ремонте."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "decorates", "beautifully."],
+            correctAnswer: "She decorates beautifully.",
+            correctFeedback: "Excellent! 'She decorates beautifully.' - The adverb 'beautifully' describes how she decorates with artistic taste and attractive results.",
+            correctFeedbackRu: "Отлично! 'She decorates beautifully.' - Наречие 'beautifully' описывает, как она украшает с художественным вкусом и красивыми результатами.",
+            incorrectFeedback: "Not quite right. The structure is: She + decorates + beautifully. The adverb shows the aesthetic quality of decorating.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + decorates + beautifully. Наречие показывает эстетическое качество украшения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "shops", "wisely."],
+            correctAnswer: "He shops wisely.",
+            correctFeedback: "Great! 'He shops wisely.' - The adverb 'wisely' describes how he shops with good judgment and smart decisions.",
+            correctFeedbackRu: "Отлично! 'He shops wisely.' - Наречие 'wisely' описывает, как он делает покупки с хорошим суждением и умными решениями.",
+            incorrectFeedback: "Try again. Remember: He + shops + wisely. The adverb shows the manner of shopping.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + shops + wisely. Наречие показывает манеру покупок."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "pack", "efficiently."],
+            correctAnswer: "They pack efficiently.",
+            correctFeedback: "Perfect! 'They pack efficiently.' - The adverb 'efficiently' describes how they pack in an organized, time-saving way.",
+            correctFeedbackRu: "Отлично! 'They pack efficiently.' - Наречие 'efficiently' описывает, как они упаковывают организованно и экономя время.",
+            incorrectFeedback: "Not quite right. The structure is: They + pack + efficiently. The adverb shows the manner of packing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + pack + efficiently. Наречие показывает манеру упаковки."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Adverbs of Manner - Arts and Hobbies
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page8'] = {
+    title: "Adverbs of Manner - Arts and Hobbies",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "draws", "carefully."],
+            correctAnswer: "She draws carefully.",
+            correctFeedback: "Perfect! 'She draws carefully.' - The adverb 'carefully' describes how she draws with attention to detail and precision.",
+            correctFeedbackRu: "Отлично! 'She draws carefully.' - Наречие 'carefully' описывает, как она рисует внимательно и точно.",
+            incorrectFeedback: "Try again. Remember: She + draws + carefully. The adverb shows the manner of drawing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + draws + carefully. Наречие показывает манеру рисования."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "plays", "loudly."],
+            correctAnswer: "He plays loudly.",
+            correctFeedback: "Excellent! 'He plays loudly.' - The adverb 'loudly' describes how he plays music with high volume and strong sound.",
+            correctFeedbackRu: "Отлично! 'He plays loudly.' - Наречие 'loudly' описывает, как он играет музыку громко и с сильным звуком.",
+            incorrectFeedback: "Not quite right. The structure is: He + plays + loudly. The adverb shows the volume of playing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + plays + loudly. Наречие показывает громкость игры."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "artist", "sculpts", "patiently."],
+            correctAnswer: "The artist sculpts patiently.",
+            correctFeedback: "Great! 'The artist sculpts patiently.' - The adverb 'patiently' describes how the artist sculpts with calm persistence and careful work.",
+            correctFeedbackRu: "Отлично! 'The artist sculpts patiently.' - Наречие 'patiently' описывает, как художник лепит терпеливо и с осторожной работой.",
+            incorrectFeedback: "Try again. Remember: The artist + sculpts + patiently. The adverb shows the manner of sculpting.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The artist + sculpts + patiently. Наречие показывает манеру лепки."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "knits", "skillfully."],
+            correctAnswer: "She knits skillfully.",
+            correctFeedback: "Perfect! 'She knits skillfully.' - The adverb 'skillfully' describes how she knits with expertise and good technique.",
+            correctFeedbackRu: "Отлично! 'She knits skillfully.' - Наречие 'skillfully' описывает, как она вяжет умело и с хорошей техникой.",
+            incorrectFeedback: "Not quite right. The structure is: She + knits + skillfully. The adverb shows the skill level of knitting.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + knits + skillfully. Наречие показывает уровень мастерства в вязании."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "photographs", "creatively."],
+            correctAnswer: "He photographs creatively.",
+            correctFeedback: "Excellent! 'He photographs creatively.' - The adverb 'creatively' describes how he photographs with imagination and artistic vision.",
+            correctFeedbackRu: "Отлично! 'He photographs creatively.' - Наречие 'creatively' описывает, как он фотографирует творчески и с художественным видением.",
+            incorrectFeedback: "Try again. Remember: He + photographs + creatively. The adverb shows the manner of photography.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + photographs + creatively. Наречие показывает манеру фотографирования."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "build", "carefully."],
+            correctAnswer: "They build carefully.",
+            correctFeedback: "Great! 'They build carefully.' - The adverb 'carefully' describes how they build with attention to safety and precision.",
+            correctFeedbackRu: "Отлично! 'They build carefully.' - Наречие 'carefully' описывает, как они строят внимательно к безопасности и точности.",
+            incorrectFeedback: "Not quite right. The structure is: They + build + carefully. The adverb shows the manner of building.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + build + carefully. Наречие показывает манеру строительства."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "sings", "softly."],
+            correctAnswer: "She sings softly.",
+            correctFeedback: "Perfect! 'She sings softly.' - The adverb 'softly' describes how she sings with a gentle, quiet voice.",
+            correctFeedbackRu: "Отлично! 'She sings softly.' - Наречие 'softly' описывает, как она поет мягко и тихо.",
+            incorrectFeedback: "Try again. Remember: She + sings + softly. The adverb shows the manner of singing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + sings + softly. Наречие показывает манеру пения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "writes", "clearly."],
+            correctAnswer: "He writes clearly.",
+            correctFeedback: "Excellent! 'He writes clearly.' - The adverb 'clearly' describes how he writes in an easy-to-understand way.",
+            correctFeedbackRu: "Отлично! 'He writes clearly.' - Наречие 'clearly' описывает, как он пишет понятно и разборчиво.",
+            incorrectFeedback: "Not quite right. The structure is: He + writes + clearly. The adverb shows the manner of writing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + writes + clearly. Наречие показывает манеру письма."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "musician", "practices", "daily."],
+            correctAnswer: "The musician practices daily.",
+            correctFeedback: "Great! 'The musician practices daily.' - The adverb 'daily' describes how often the musician practices every day.",
+            correctFeedbackRu: "Отлично! 'The musician practices daily.' - Наречие 'daily' описывает, как часто музыкант практикует каждый день.",
+            incorrectFeedback: "Try again. Remember: The musician + practices + daily. The adverb shows the frequency of practicing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The musician + practices + daily. Наречие показывает частоту практики."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "crafts", "lovingly."],
+            correctAnswer: "She crafts lovingly.",
+            correctFeedback: "Perfect! 'She crafts lovingly.' - The adverb 'lovingly' describes how she crafts with care, affection, and personal attention to her work.",
+            correctFeedbackRu: "Отлично! 'She crafts lovingly.' - Наречие 'lovingly' описывает, как она создает с заботой, любовью и личным вниманием к работе.",
+            incorrectFeedback: "Not quite right. The structure is: She + crafts + lovingly. The adverb shows the emotional manner of crafting.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + crafts + lovingly. Наречие показывает эмоциональную манеру создания."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Adverbs of Manner - Travel and Transportation
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page9'] = {
+    title: "Adverbs of Manner - Travel and Transportation",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "travels", "frequently."],
+            correctAnswer: "He travels frequently.",
+            correctFeedback: "Perfect! 'He travels frequently.' - The adverb 'frequently' describes how he travels with regular occurrence and often.",
+            correctFeedbackRu: "Отлично! 'He travels frequently.' - Наречие 'frequently' описывает, как он путешествует часто и регулярно.",
+            incorrectFeedback: "Try again. Remember: He + travels + frequently. The adverb shows the frequency of traveling.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + travels + frequently. Наречие показывает частоту путешествий."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "drives", "smoothly."],
+            correctAnswer: "She drives smoothly.",
+            correctFeedback: "Excellent! 'She drives smoothly.' - The adverb 'smoothly' describes how she drives with steady, even movements without jerking.",
+            correctFeedbackRu: "Отлично! 'She drives smoothly.' - Наречие 'smoothly' описывает, как она водит плавно и без рывков.",
+            incorrectFeedback: "Not quite right. The structure is: She + drives + smoothly. The adverb shows the manner of driving.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + drives + smoothly. Наречие показывает манеру вождения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "pilot", "lands", "safely."],
+            correctAnswer: "The pilot lands safely.",
+            correctFeedback: "Great! 'The pilot lands safely.' - The adverb 'safely' describes how the pilot lands without danger or harm.",
+            correctFeedbackRu: "Отлично! 'The pilot lands safely.' - Наречие 'safely' описывает, как пилот приземляется безопасно и без вреда.",
+            incorrectFeedback: "Try again. Remember: The pilot + lands + safely. The adverb shows the safety of landing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The pilot + lands + safely. Наречие показывает безопасность приземления."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "board", "quickly."],
+            correctAnswer: "They board quickly.",
+            correctFeedback: "Perfect! 'They board quickly.' - The adverb 'quickly' describes how they board the vehicle at a fast pace.",
+            correctFeedbackRu: "Отлично! 'They board quickly.' - Наречие 'quickly' описывает, как они садятся в транспорт быстро.",
+            incorrectFeedback: "Not quite right. The structure is: They + board + quickly. The adverb shows the speed of boarding.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + board + quickly. Наречие показывает скорость посадки."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "navigates", "expertly."],
+            correctAnswer: "He navigates expertly.",
+            correctFeedback: "Excellent! 'He navigates expertly.' - The adverb 'expertly' describes how he navigates with professional skill and knowledge.",
+            correctFeedbackRu: "Отлично! 'He navigates expertly.' - Наречие 'expertly' описывает, как он ориентируется профессионально и умело.",
+            incorrectFeedback: "Try again. Remember: He + navigates + expertly. The adverb shows the skill level of navigation.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + navigates + expertly. Наречие показывает уровень мастерства в навигации."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "parks", "perfectly."],
+            correctAnswer: "She parks perfectly.",
+            correctFeedback: "Great! 'She parks perfectly.' - The adverb 'perfectly' describes how she parks with exact precision and accuracy.",
+            correctFeedbackRu: "Отлично! 'She parks perfectly.' - Наречие 'perfectly' описывает, как она паркуется идеально и точно.",
+            incorrectFeedback: "Not quite right. The structure is: She + parks + perfectly. The adverb shows the accuracy of parking.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + parks + perfectly. Наречие показывает точность парковки."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "train", "arrives", "punctually."],
+            correctAnswer: "The train arrives punctually.",
+            correctFeedback: "Perfect! 'The train arrives punctually.' - The adverb 'punctually' describes how the train arrives exactly on time.",
+            correctFeedbackRu: "Отлично! 'The train arrives punctually.' - Наречие 'punctually' описывает, как поезд прибывает точно по времени.",
+            incorrectFeedback: "Try again. Remember: The train + arrives + punctually. The adverb shows the timeliness of arrival.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The train + arrives + punctually. Наречие показывает своевременность прибытия."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "walks", "briskly."],
+            correctAnswer: "He walks briskly.",
+            correctFeedback: "Excellent! 'He walks briskly.' - The adverb 'briskly' describes how he walks with quick, energetic steps.",
+            correctFeedbackRu: "Отлично! 'He walks briskly.' - Наречие 'briskly' описывает, как он идет быстро и энергично.",
+            incorrectFeedback: "Not quite right. The structure is: He + walks + briskly. The adverb shows the pace of walking.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + walks + briskly. Наречие показывает темп ходьбы."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "explore", "adventurously."],
+            correctAnswer: "They explore adventurously.",
+            correctFeedback: "Great! 'They explore adventurously.' - The adverb 'adventurously' describes how they explore with boldness and willingness to try new things.",
+            correctFeedbackRu: "Отлично! 'They explore adventurously.' - Наречие 'adventurously' описывает, как они исследуют смело и с готовностью попробовать новое.",
+            incorrectFeedback: "Try again. Remember: They + explore + adventurously. The adverb shows the manner of exploration.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + explore + adventurously. Наречие показывает манеру исследования."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "packs", "systematically."],
+            correctAnswer: "She packs systematically.",
+            correctFeedback: "Perfect! 'She packs systematically.' - The adverb 'systematically' describes how she packs in an organized, methodical way.",
+            correctFeedbackRu: "Отлично! 'She packs systematically.' - Наречие 'systematically' описывает, как она упаковывает систематично и методично.",
+            incorrectFeedback: "Not quite right. The structure is: She + packs + systematically. The adverb shows the method of packing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + packs + systematically. Наречие показывает метод упаковки."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Adverbs of Manner - Final Mixed Practice
+============================================ */
+window.grammarExercises['adjectives']['adverbs-of-manner-sentence-page10'] = {
+    title: "Adverbs of Manner - Final Mixed Practice",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "performs", "brilliantly."],
+            correctAnswer: "He performs brilliantly.",
+            correctFeedback: "Perfect! 'He performs brilliantly.' - The adverb 'brilliantly' describes how he performs with exceptional skill and excellence.",
+            correctFeedbackRu: "Отлично! 'He performs brilliantly.' - Наречие 'brilliantly' описывает, как он выступает блестяще и с исключительным мастерством.",
+            incorrectFeedback: "Try again. Remember: He + performs + brilliantly. The adverb shows the quality of performance.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + performs + brilliantly. Наречие показывает качество выступления."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "sleeps", "soundly."],
+            correctAnswer: "She sleeps soundly.",
+            correctFeedback: "Excellent! 'She sleeps soundly.' - The adverb 'soundly' describes how she sleeps deeply and peacefully without disturbance.",
+            correctFeedbackRu: "Отлично! 'She sleeps soundly.' - Наречие 'soundly' описывает, как она спит глубоко и спокойно без беспокойства.",
+            incorrectFeedback: "Not quite right. The structure is: She + sleeps + soundly. The adverb shows the depth of sleep.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + sleeps + soundly. Наречие показывает глубину сна."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "machine", "operates", "efficiently."],
+            correctAnswer: "The machine operates efficiently.",
+            correctFeedback: "Great! 'The machine operates efficiently.' - The adverb 'efficiently' describes how the machine operates with good performance and minimal waste.",
+            correctFeedbackRu: "Отлично! 'The machine operates efficiently.' - Наречие 'efficiently' описывает, как машина работает эффективно и с минимальными потерями.",
+            incorrectFeedback: "Try again. Remember: The machine + operates + efficiently. The adverb shows the manner of operation.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The machine + operates + efficiently. Наречие показывает манеру работы."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "celebrate", "enthusiastically."],
+            correctAnswer: "They celebrate enthusiastically.",
+            correctFeedback: "Perfect! 'They celebrate enthusiastically.' - The adverb 'enthusiastically' describes how they celebrate with great excitement and energy.",
+            correctFeedbackRu: "Отлично! 'They celebrate enthusiastically.' - Наречие 'enthusiastically' описывает, как они празднуют с большим воодушевлением и энергией.",
+            incorrectFeedback: "Not quite right. The structure is: They + celebrate + enthusiastically. The adverb shows the manner of celebrating.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + celebrate + enthusiastically. Наречие показывает манеру празднования."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "handles", "delicately."],
+            correctAnswer: "She handles delicately.",
+            correctFeedback: "Excellent! 'She handles delicately.' - The adverb 'delicately' describes how she handles something with gentle care and sensitivity.",
+            correctFeedbackRu: "Отлично! 'She handles delicately.' - Наречие 'delicately' описывает, как она обращается с чем-то деликатно и осторожно.",
+            incorrectFeedback: "Try again. Remember: She + handles + delicately. The adverb shows the manner of handling.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + handles + delicately. Наречие показывает манеру обращения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "completes", "successfully."],
+            correctAnswer: "He completes successfully.",
+            correctFeedback: "Great! 'He completes successfully.' - The adverb 'successfully' describes how he completes tasks with positive results and achievement.",
+            correctFeedbackRu: "Отлично! 'He completes successfully.' - Наречие 'successfully' описывает, как он завершает задачи успешно и с достижением результата.",
+            incorrectFeedback: "Not quite right. The structure is: He + completes + successfully. The adverb shows the outcome of completion.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: He + completes + successfully. Наречие показывает результат завершения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "children", "play", "energetically."],
+            correctAnswer: "The children play energetically.",
+            correctFeedback: "Perfect! 'The children play energetically.' - The adverb 'energetically' describes how the children play with high energy and activity.",
+            correctFeedbackRu: "Отлично! 'The children play energetically.' - Наречие 'energetically' описывает, как дети играют энергично и активно.",
+            incorrectFeedback: "Try again. Remember: The children + play + energetically. The adverb shows the energy level of playing.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The children + play + energetically. Наречие показывает уровень энергии в игре."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "responds", "immediately."],
+            correctAnswer: "She responds immediately.",
+            correctFeedback: "Excellent! 'She responds immediately.' - The adverb 'immediately' describes how she responds without delay or hesitation.",
+            correctFeedbackRu: "Отлично! 'She responds immediately.' - Наречие 'immediately' описывает, как она отвечает немедленно и без промедления.",
+            incorrectFeedback: "Not quite right. The structure is: She + responds + immediately. The adverb shows the timing of response.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: She + responds + immediately. Наречие показывает время отклика."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "observes", "closely."],
+            correctAnswer: "He observes closely.",
+            correctFeedback: "Great! 'He observes closely.' - The adverb 'closely' describes how he observes with careful attention and detailed examination.",
+            correctFeedbackRu: "Отлично! 'He observes closely.' - Наречие 'closely' описывает, как он наблюдает внимательно и с детальным изучением.",
+            incorrectFeedback: "Try again. Remember: He + observes + closely. The adverb shows the manner of observation.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: He + observes + closely. Наречие показывает манеру наблюдения."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["They", "finish", "triumphantly."],
+            correctAnswer: "They finish triumphantly.",
+            correctFeedback: "Perfect! 'They finish triumphantly.' - The adverb 'triumphantly' describes how they finish with victory and great success. You've completed all 10 pages of Adverbs of Manner Sentence Building exercises!",
+            correctFeedbackRu: "Отлично! 'They finish triumphantly.' - Наречие 'triumphantly' описывает, как они заканчивают победно и с большим успехом. Вы завершили все 10 страниц упражнений Sentence Building на наречия образа действия!",
+            incorrectFeedback: "Not quite right. The structure is: They + finish + triumphantly. The adverb shows the manner of finishing.",
+            incorrectFeedbackRu: "Не совсем правильно. Структура: They + finish + triumphantly. Наречие показывает манеру завершения."
         }
     ]
 };
