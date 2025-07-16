@@ -1700,7 +1700,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-page10'] = {
 Page 1: Past of "to be" - was/were Basic Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page1'] = {
-    title: "Past of 'to be' - was/were Basic Fill in the Gaps",
+    title: "Past of 'to be' - was/were",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be' in the past:",
@@ -1819,7 +1819,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-gap-page1'] = {
 Page 2: Past Ability - could/couldn't Basic Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page2'] = {
-    title: "Past Ability - could/couldn't Basic Fill in the Gaps",
+    title: "Past Ability - could/couldn't",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form for past ability:",
@@ -1938,7 +1938,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-gap-page2'] = {
 Page 3: Mixed Past "to be" and Past Ability Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page3'] = {
-    title: "Mixed Past 'to be' and Past Ability Fill in the Gaps",
+    title: "Mixed Past 'to be' and Past Ability",
     fillGaps: [
         {
             question: "Complete the sentence with the correct past form:",
@@ -2057,7 +2057,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-gap-page3'] = {
 Page 4: Past of "to be" - Advanced Contexts Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page4'] = {
-    title: "Past of 'to be' - Advanced Contexts Fill in the Gaps",
+    title: "Past of 'to be' - Advanced Contexts",
     fillGaps: [
         {
             question: "Complete the sentence with the correct past form of 'to be':",
@@ -2176,7 +2176,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-gap-page4'] = {
 Page 5: Past Ability - Advanced could/couldn't Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page5'] = {
-    title: "Past Ability - Advanced could/couldn't Fill in the Gaps",
+    title: "Past Ability - Advanced could/couldn't",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form for past ability:",
@@ -2295,7 +2295,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-gap-page5'] = {
 Page 6: Mixed Advanced Past "to be" and Past Ability Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page6'] = {
-    title: "Mixed Advanced Past 'to be' and Past Ability Fill in the Gaps",
+    title: "Mixed Advanced Past 'to be' and Past Ability",
     fillGaps: [
         {
             question: "Complete the sentence with the correct past form:",
@@ -2414,7 +2414,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-gap-page6'] = {
 Page 7: Past of "to be" - Simple Everyday Situations Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page7'] = {
-    title: "Past of 'to be' - Simple Everyday Situations Fill in the Gaps",
+    title: "Past of 'to be' - Simple Everyday Situations",
     fillGaps: [
         {
             question: "Complete the sentence with the correct past form of 'to be':",
@@ -2533,7 +2533,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-gap-page7'] = {
 Page 8: Past Ability - Simple could/couldn't Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page8'] = {
-    title: "Past Ability - Simple could/couldn't Fill in the Gaps",
+    title: "Past Ability - Simple could/couldn't",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form for past ability:",
@@ -2652,7 +2652,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-gap-page8'] = {
 Page 9: Mixed Practice - Basic A1-A2 Level Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page9'] = {
-    title: "Mixed Practice - Basic A1-A2 Level Fill in the Gaps",
+    title: "Mixed Practice",
     fillGaps: [
         {
             question: "Complete the sentence with the correct past form:",
@@ -2771,7 +2771,7 @@ window.grammarExercises['past-tenses']['past-to-be-ability-gap-page9'] = {
 Page 10: Past of "to be" & Past Ability - Final Mastery Review Fill in the Gaps
 ============================================ */
 window.grammarExercises['past-tenses']['past-to-be-ability-gap-page10'] = {
-    title: "Past of 'to be' & Past Ability - Final Mastery Review Fill in the Gaps",
+    title: "Past of 'to be' & Past Ability - Final Mastery Review",
     fillGaps: [
         {
             question: "Complete the sentence with the correct past form:",
