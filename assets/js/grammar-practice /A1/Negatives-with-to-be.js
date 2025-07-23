@@ -5,10 +5,10 @@ window.grammarExercises = window.grammarExercises || {};
 window.grammarExercises['to-be'] = window.grammarExercises['to-be'] || {};
 
 /* ============================================
-Page 1: Basic negative forms with I am not
+Page 1: Basic negative forms with I am not Negatives with 'To Be' - 
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page1'] = {
-    title: "Basic negative forms with I am not", multipleChoice: [
+    title: "Negatives with 'To Be' - Basic negative forms with I am not", multipleChoice: [
         {
             question: "Choose the correct negative form:",
             questionRu: "Выберите правильную отрицательную форму:",
@@ -170,7 +170,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-page1'] = {
 Page 2: Negative forms with she-he-is-not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page2'] = {
-    title: "Negative forms with she-he-is-not", multipleChoice: [
+    title: "Negatives with 'To Be' - Negative forms with she-he-is-not", multipleChoice: [
         {
             question: "Choose the correct negative form:",
             questionRu: "Выберите правильную отрицательную форму:",
@@ -332,7 +332,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-page2'] = {
 Page 3: Negative forms with we-you-they are not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page3'] = {
-    title: "Negative forms with we-you-they are not", multipleChoice: [
+    title: "Negatives with 'To Be' - Negative forms with we-you-they are not", multipleChoice: [
         {
             question: "Choose the correct negative form:",
             questionRu: "Выберите правильную отрицательную форму:",
@@ -494,7 +494,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-page3'] = {
 Page 4: Contractions - isn't, aren't, am not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page4'] = {
-    title: "Contractions - isn't, aren't, am not", multipleChoice: [
+    title: "Negatives with 'To Be' - Contractions - isn't, aren't, am not", multipleChoice: [
         {
             question: "Choose the correct contraction:",
             questionRu: "Выберите правильное сокращение:",
@@ -656,7 +656,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-page4'] = {
 Page 5: Questions with negative forms
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page5'] = {
-    title: "Questions with negative forms", multipleChoice: [
+    title: "Negatives with 'To Be' - Questions with negative forms", multipleChoice: [
         {
             question: "Choose the correct negative question:",
             questionRu: "Выберите правильный отрицательный вопрос:",
@@ -814,7 +814,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-page5'] = {
 Page 6: Mixed negative sentences with different subjects
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page6'] = {
-    title: "Mixed negative sentences with different subjects", multipleChoice: [
+    title: "Negatives with 'To Be' - Mixed negative sentences with different subjects", multipleChoice: [
         {
             question: "Choose the correct negative sentence:",
             questionRu: "Выберите правильное отрицательное предложение:",
@@ -977,7 +977,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-page6'] = {
 Page 7: Workplace and location negatives
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page7'] = {
-    title: "Workplace and location negatives", multipleChoice: [
+    title: "Negatives with 'To Be' - Workplace and location negatives", multipleChoice: [
         {
             question: "Choose the correct negative sentence about workplace:",
             questionRu: "Выберите правильное отрицательное предложение о рабочем месте:",
@@ -1140,7 +1140,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-page7'] = {
 Page 8: Feelings and emotions negatives
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page8'] = {
-    title: "Feelings and emotions negatives", multipleChoice: [
+    title: "Negatives with 'To Be' - Feelings and emotions negatives", multipleChoice: [
         {
             question: "Choose the correct negative sentence about feelings:",
             questionRu: "Выберите правильное отрицательное предложение о чувствах:",
@@ -1303,7 +1303,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-page8'] = {
 Page 9: Physical descriptions and characteristics negatives
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page9'] = {
-    title: "Physical descriptions and characteristics negatives", multipleChoice: [
+    title: "Negatives with 'To Be' - Physical descriptions and characteristics negatives", multipleChoice: [
         {
             question: "Choose the correct negative sentence about appearance:",
             questionRu: "Выберите правильное отрицательное предложение о внешности:",
@@ -1466,7 +1466,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-page9'] = {
 Page 10: Review and mixed negative contexts
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-page10'] = {
-    title: "Review and mixed negative contexts", multipleChoice: [
+    title: "Negatives with 'To Be' - Review and mixed negative contexts", multipleChoice: [
         {
             question: "Choose the correct negative form in this context:",
             questionRu: "Выберите правильную отрицательную форму в этом контексте:",
@@ -1637,7 +1637,7 @@ console.log("Negatives with 'to be' exercises data loaded successfully!");
 Page 1: Basic negative forms with I am not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page1'] = {
-    title: "Basic negative forms with I am not", fillGaps: [
+    title: "Negatives with 'To Be' - Basic negative forms with I am not", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1755,7 +1755,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page1'] = {
 Page 2: Negative forms with she-he is not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page2'] = {
-    title: "Negative forms with she-he is not", fillGaps: [
+    title: "Negatives with 'To Be' - Negative forms with she-he is not", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1873,7 +1873,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page2'] = {
 Page 3: Negative forms with we-you-they are not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page3'] = {
-    title: "Negative forms with we-you-they are not", fillGaps: [
+    title: "Negatives with 'To Be' - Negative forms with we-you-they are not", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1991,7 +1991,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page3'] = {
 Page 4: Contractions - isn't, aren't, am not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page4'] = {
-    title: "Contractions - isn't, aren't, am not", fillGaps: [
+    title: "Negatives with 'To Be' - Contractions - isn't, aren't, am not", fillGaps: [
         {
             question: "Complete the sentence with the correct contraction:",
             questionRu: "Заполните предложение правильным сокращением:",
@@ -2109,7 +2109,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page4'] = {
 Page 5: Mixed negative sentences with different subjects
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page5'] = {
-    title: "Mixed negative sentences with different subjects", fillGaps: [
+    title: "Negatives with 'To Be' - Mixed negative sentences", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2227,7 +2227,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page5'] = {
 Page 6: Workplace and location negatives
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page6'] = {
-    title: "Workplace and location negatives", fillGaps: [
+    title: "Negatives with 'To Be' - Workplace and location negatives", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2345,7 +2345,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page6'] = {
 Page 7: Feelings and emotions negatives
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page7'] = {
-    title: "Feelings and emotions negatives", fillGaps: [
+    title: "Negatives with 'To Be' - Feelings and emotions negatives", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2463,7 +2463,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page7'] = {
 Page 8: Physical descriptions and characteristics negatives
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page8'] = {
-    title: "Physical descriptions and characteristics negatives", fillGaps: [
+    title: "Negatives with 'To Be' - Physical descriptions", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2581,7 +2581,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page8'] = {
 Page 9: General contexts and mixed situations
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page9'] = {
-    title: "General contexts and mixed situations", fillGaps: [
+    title: "Negatives with 'To Be' - General contexts", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2699,7 +2699,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page9'] = {
 Page 10: Review and mixed negative contexts
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-gap-page10'] = {
-    title: "Review and mixed negative contexts", fillGaps: [
+    title: "Negatives with 'To Be' - Review", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2825,7 +2825,7 @@ console.log("Verb 'to be' Fill in the Gaps exercises data loaded successfully!")
 Page 1: Basic negative forms with I am not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page1'] = {
-    title: "Basic negative forms with I am not", sentenceBuilding: [
+    title: "Negatives with 'To Be' - Basic negative", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
@@ -2933,7 +2933,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-sentence-page1'] = {
 Page 2: Negative forms with she-he is not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page2'] = {
-    title: "Negative forms with she-he is not", sentenceBuilding: [
+    title: "Negatives with 'To Be' - Negative forms with she-he is not", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
@@ -3041,7 +3041,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-sentence-page2'] = {
 Page 3: Negative forms with we-you-they are not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page3'] = {
-    title: "Negative forms with we-you-they are not", sentenceBuilding: [
+    title: "Negatives with 'To Be' - Negative forms with we-you-they are not", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
@@ -3149,7 +3149,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-sentence-page3'] = {
 Page 4: Contractions - isn't, aren't, am not
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page4'] = {
-    title: "Contractions - isn't, aren't, am not", sentenceBuilding: [
+    title: "Negatives with 'To Be' - Contractions", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
@@ -3257,7 +3257,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-sentence-page4'] = {
 Page 5: Mixed negative sentences with different subjects
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page5'] = {
-    title: "Mixed negative sentences with different subjects", sentenceBuilding: [
+    title: "Negatives with 'To Be' - Mixed negative sentences", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
@@ -3365,7 +3365,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-sentence-page5'] = {
 Page 6: Workplace and location negatives
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page6'] = {
-    title: "Workplace and location negatives", sentenceBuilding: [
+    title: "Negatives with 'To Be' - Workplace and location", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
@@ -3473,7 +3473,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-sentence-page6'] = {
 Page 7: Feelings and emotions negatives
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page7'] = {
-    title: "Feelings and emotions negatives", sentenceBuilding: [
+    title: "Negatives with 'To Be' - Feelings and emotions", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
@@ -3581,7 +3581,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-sentence-page7'] = {
 Page 8: Physical descriptions and characteristics negatives
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page8'] = {
-    title: "Physical descriptions and characteristics negatives", sentenceBuilding: [
+    title: "Negatives with 'To Be' - Physical descriptions", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
@@ -3689,7 +3689,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-sentence-page8'] = {
 Page 9: General contexts and mixed situations
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page9'] = {
-    title: "General contexts and mixed situations", sentenceBuilding: [
+    title: "Negatives with 'To Be' - General contexts", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
@@ -3797,7 +3797,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-sentence-page9'] = {
 Page 10: Review and mixed negative contexts
 ============================================ */
 window.grammarExercises['to-be']['negatives-with-to-be-sentence-page10'] = {
-    title: "Review and mixed negative contexts", sentenceBuilding: [
+    title: "Negatives with 'To Be' - Mixed negative contexts", sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",

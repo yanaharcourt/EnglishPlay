@@ -1524,22 +1524,6 @@ window.grammarExercises['modals']['might-possibility-page10'] = {
             correctFeedbackRu: "Идеально! 'Might' признаёт, что помощники памяти помогают, но не гарантируют запоминание.",
             incorrectFeedback: "Try again! 'Might' is realistic about memory management. Writing things down **definitely helps** you remember, but sometimes you forget to check the list or leave it at home. Lists improve your chances but aren't foolproof. 'Can't' means it's impossible to remember. 'Will' means you're certain you will remember. 'Should' is about what's expected or what ought to happen.",
             incorrectFeedbackRu: "Попробуйте ещё раз! 'Might' реалистично описывает управление памятью. Записывание вещей **определённо помогает** запомнить, но иногда вы забываете проверить список или оставляете его дома. Списки улучшают ваши шансы, но не безошибочны. 'Can't' означает, что невозможно запомнить. 'Will' означает, что вы уверены, что запомните. 'Should' о том, что ожидается или что должно произойти."
-        },
-        {
-            question: "Choose the correct modal verb:",
-            questionRu: "Выберите правильный модальный глагол:",
-            sentence: "The internet connection _____ be slow today because everyone is working from home.",
-            options: [
-                "might",
-                "can't",
-                "will",
-                "must"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Excellent! 'Might' connects high usage patterns with potential performance issues.",
-            correctFeedbackRu: "Превосходно! 'Might' связывает паттерны высокого использования с потенциальными проблемами производительности.",
-            incorrectFeedback: "Almost! 'Might' is logical about internet performance. When many people **work from home**, network traffic increases and can slow connections, but internet infrastructure is designed to handle varying loads. You understand the potential issue. 'Can't' means it's impossible to be slow. 'Will' means you're certain it will be slow. 'Must' means you're sure it will definitely be slow.",
-            incorrectFeedbackRu: "Почти! 'Might' логично описывает производительность интернета. Когда многие люди **работают из дома**, сетевой трафик увеличивается и может замедлить соединения, но интернет-инфраструктура разработана для обработки различных нагрузок. Вы понимаете потенциальную проблему. 'Can't' означает, что невозможно быть медленным. 'Will' означает, что вы уверены, что он будет медленным. 'Must' означает, что вы уверены, что он определённо будет медленным."
         }
     ]
 };

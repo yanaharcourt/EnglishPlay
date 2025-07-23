@@ -15,7 +15,7 @@ if (!window.grammarExercises.conditionals) {
 Page 1: First Conditional - Formation Rules and Basic Patterns
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page1'] = {
-    title: "Formation Rules and Basic Patterns", multipleChoice: [
+    title: "First Conditional - Formation Rules and Basic Patterns", multipleChoice: [
         {
             question: "Complete the first conditional sentence:",
             questionRu: "Дополните условное предложение первого типа:",
@@ -183,7 +183,7 @@ window.grammarExercises['conditionals']['first-conditional-page1'] = {
 Page 2: First Conditional - Advice and Instructions
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page2'] = {
-    title: "Advice and Instructions", multipleChoice: [
+    title: "First Conditional - Advice and Instructions", multipleChoice: [
         {
             question: "Complete the first conditional advice:",
             questionRu: "Дополните совет с условным предложением первого типа:",
@@ -351,7 +351,7 @@ window.grammarExercises['conditionals']['first-conditional-page2'] = {
 Page 3: First Conditional - Problem-Solution Patterns
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page3'] = {
-    title: "Problem-Solution Patterns", multipleChoice: [
+    title: "First Conditional - Problem-Solution Patterns", multipleChoice: [
         {
             question: "Complete the first conditional problem-solution:",
             questionRu: "Дополните проблему-решение с условным предложением первого типа:",
@@ -519,7 +519,7 @@ window.grammarExercises['conditionals']['first-conditional-page3'] = {
 Page 4: First Conditional - Imperative Usage and Commands
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page4'] = {
-    title: "Imperative Usage and Commands", multipleChoice: [
+    title: "First Conditional - Imperative Usage and Commands", multipleChoice: [
         {
             question: "Complete the first conditional with imperative:",
             questionRu: "Дополните условное предложение первого типа с повелительным наклонением:",
@@ -687,7 +687,7 @@ window.grammarExercises['conditionals']['first-conditional-page4'] = {
 Page 5: First Conditional - Probability Levels with Future Events
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page5'] = {
-    title: "Probability Levels with Future Events", multipleChoice: [
+    title: "First Conditional - Probability Levels with Future Events", multipleChoice: [
         {
             question: "Complete the first conditional with probability expression:",
             questionRu: "Дополните условное предложение первого типа с выражением вероятности:",
@@ -855,7 +855,7 @@ window.grammarExercises['conditionals']['first-conditional-page5'] = {
 Page 6: First Conditional - Complex Situations and Mixed Patterns
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page6'] = {
-    title: "Complex Situations and Mixed Patterns", multipleChoice: [
+    title: "First Conditional - Complex Situations and Mixed Patterns", multipleChoice: [
         {
             question: "Complete the complex first conditional:",
             questionRu: "Дополните сложное условное предложение первого типа:",
@@ -1023,7 +1023,7 @@ window.grammarExercises['conditionals']['first-conditional-page6'] = {
 Page 7: First Conditional - Future Plans and Arrangements
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page7'] = {
-    title: "Future Plans and Arrangements", multipleChoice: [
+    title: "First Conditional - Future Plans and Arrangements", multipleChoice: [
         {
             question: "Complete the first conditional future plan:",
             questionRu: "Дополните будущий план с условным предложением первого типа:",
@@ -1191,7 +1191,7 @@ window.grammarExercises['conditionals']['first-conditional-page7'] = {
 Page 8: First Conditional - Warnings and Consequences
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page8'] = {
-    title: "Warnings and Consequences", multipleChoice: [
+    title: "First Conditional - Warnings and Consequences", multipleChoice: [
         {
             question: "Complete the warning with first conditional:",
             questionRu: "Дополните предупреждение с условным предложением первого типа:",
@@ -1359,7 +1359,7 @@ window.grammarExercises['conditionals']['first-conditional-page8'] = {
 Page 9: First Conditional - Offers, Promises and Threats
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page9'] = {
-    title: "Offers, Promises and Threats", multipleChoice: [
+    title: "First Conditional - Offers, Promises and Threats", multipleChoice: [
         {
             question: "Complete the conditional offer:",
             questionRu: "Дополните условное предложение:",
@@ -1527,7 +1527,7 @@ window.grammarExercises['conditionals']['first-conditional-page9'] = {
 Page 10: First Conditional - Real-Life Decision Making and Life Scenarios
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-page10'] = {
-    title: "Real-Life Decision Making and Life Scenarios", multipleChoice: [
+    title: "First Conditional - Real-Life Decision Making and Life Scenarios", multipleChoice: [
         {
             question: "Complete the life decision conditional:",
             questionRu: "Дополните условное предложение о жизненном решении:",
@@ -1705,7 +1705,7 @@ console.log("===== ALL FIRST CONDITIONAL MULTIPLE CHOICE EXERCISES COMPLETED ===
 Page 1: First Conditional - Everyday Situations and Decisions
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page1'] = {
-    title: "Everyday Situations and Decisions", fillGaps: [
+    title: "First Conditional - Everyday Situations and Decisions", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1823,7 +1823,7 @@ window.grammarExercises['conditionals']['first-conditional-gap-page1'] = {
 Page 2: First Conditional - Work and Study Situations
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page2'] = {
-    title: "Work and Study Situations", fillGaps: [
+    title: "First Conditional - Work and Study Situations", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1941,7 +1941,7 @@ window.grammarExercises['conditionals']['first-conditional-gap-page2'] = {
 Page 3: First Conditional - Health and Lifestyle
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page3'] = {
-    title: "Health and Lifestyle", fillGaps: [
+    title: "First Conditional - Health and Lifestyle", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2059,7 +2059,7 @@ window.grammarExercises['conditionals']['first-conditional-gap-page3'] = {
 Page 4: First Conditional - Technology and Modern Life
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page4'] = {
-    title: "Technology and Modern Life", fillGaps: [
+    title: "First Conditional - Technology and Modern Life", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2177,7 +2177,7 @@ window.grammarExercises['conditionals']['first-conditional-gap-page4'] = {
 Page 5: First Conditional - Travel and Adventures
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page5'] = {
-    title: "Travel and Adventures", fillGaps: [
+    title: "First Conditional - Travel and Adventures", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2295,7 +2295,7 @@ window.grammarExercises['conditionals']['first-conditional-gap-page5'] = {
 Page 6: First Conditional - Environment and Nature
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page6'] = {
-    title: "Environment and Nature", fillGaps: [
+    title: "First Conditional - Environment and Nature", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2413,7 +2413,7 @@ window.grammarExercises['conditionals']['first-conditional-gap-page6'] = {
 Page 7: First Conditional - Finance and Money Management
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page7'] = {
-    title: "Finance and Money Management", fillGaps: [
+    title: "First Conditional - Finance and Money Management", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2531,7 +2531,7 @@ window.grammarExercises['conditionals']['first-conditional-gap-page7'] = {
 Page 8: First Conditional - Family and Relationships
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page8'] = {
-    title: "Family and Relationships", fillGaps: [
+    title: "First Conditional - Family and Relationships", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2649,7 +2649,7 @@ window.grammarExercises['conditionals']['first-conditional-gap-page8'] = {
 Page 9: First Conditional - Food and Cooking
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page9'] = {
-    title: "Food and Cooking", fillGaps: [
+    title: "First Conditional - Food and Cooking", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2767,7 +2767,7 @@ window.grammarExercises['conditionals']['first-conditional-gap-page9'] = {
 Page 10: First Conditional - Entertainment and Hobbies
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-gap-page10'] = {
-    title: "Entertainment and Hobbies", fillGaps: [
+    title: "First Conditional - Entertainment and Hobbies", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2893,7 +2893,7 @@ console.log("===== FIRST CONDITIONAL FILL GAPS EXERCISES (PAGES 1-10) UPDATED ==
 Page 1: First Conditional - Career and Professional Life
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
-    title: "Career and Professional Life", sentenceBuilding: [
+    title: "First Conditional - Career and Professional Life", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
@@ -3001,7 +3001,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page1'] = {
 Page 2: First Conditional - Education and Learning
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
-    title: "Education and Learning", sentenceBuilding: [
+    title: "First Conditional - Education and Learning", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
@@ -3109,7 +3109,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page2'] = {
 Page 3: First Conditional - Health and Wellness
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
-    title: "Health and Wellness", sentenceBuilding: [
+    title: "First Conditional - Health and Wellness", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
@@ -3217,7 +3217,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page3'] = {
 Page 4: First Conditional - Technology and Innovation
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
-    title: "Technology and Innovation", sentenceBuilding: [
+    title: "First Conditional - Technology and Innovation", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
@@ -3325,7 +3325,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page4'] = {
 Page 5: First Conditional - Travel and Adventure
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
-    title: "Travel and Adventure", sentenceBuilding: [
+    title: "First Conditional - Travel and Adventure", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
@@ -3433,7 +3433,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page5'] = {
 Page 6: First Conditional - Environmental and Sustainability
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
-    title: "Environmental and Sustainability", sentenceBuilding: [
+    title: "First Conditional - Environmental and Sustainability", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
@@ -3541,7 +3541,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page6'] = {
 Page 7: First Conditional - Personal Finance and Money Management
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
-    title: "Personal Finance and Money Management", sentenceBuilding: [
+    title: "First Conditional - Personal Finance and Money Management", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
@@ -3649,7 +3649,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page7'] = {
 Page 8: First Conditional - Social Media and Digital Communication
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
-    title: "Social Media and Digital Communication", sentenceBuilding: [
+    title: "First Conditional - Social Media and Digital Communication", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
@@ -3757,7 +3757,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page8'] = {
 Page 9: First Conditional - Creative Arts and Hobbies
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
-    title: "Creative Arts and Hobbies", sentenceBuilding: [
+    title: "First Conditional - Creative Arts and Hobbies", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",
@@ -3865,7 +3865,7 @@ window.grammarExercises['conditionals']['first-conditional-sentence-page9'] = {
 Page 10: First Conditional - Sports and Physical Activities
 ============================================ */
 window.grammarExercises['conditionals']['first-conditional-sentence-page10'] = {
-    title: "Sports and Physical Activities", sentenceBuilding: [
+    title: "First Conditional - Sports and Physical Activities", sentenceBuilding: [
         {
             question: "Form a correct First Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение первого типа, используя эти слова:",

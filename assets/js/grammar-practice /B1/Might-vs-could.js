@@ -706,22 +706,6 @@ window.grammarExercises['modals']['might-vs-could-page5'] = {
             incorrectFeedbackRu: "Попробуйте ещё раз! 'Might have' идеален, потому что хотя её избегающее поведение беспокоит, вы искренне не уверены в причине. Может, вы что-то сказали, может, она просто переживает о других вещах, может, это вообще не связано с вами. Вы волнуетесь и пытаетесь найти объяснения, но не знаете точно. 'Could have' предполагает более логичную дедукцию, но это больше о неуверенных сомнениях в себе и беспокойстве."
         },
         {
-            question: "Select the best modal verb:",
-            questionRu: "Выберите лучший модальный глагол:",
-            sentence: "My neighbor plays loud music every weekend and doesn't respond to polite requests. He _____ simply not care about others.",
-            options: [
-                "could",
-                "might",
-                "would",
-                "must"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Great! 'Could' expresses logical conclusion based on observed behavior patterns.",
-            correctFeedbackRu: "Отлично! 'Could' выражает логический вывод на основе наблюдаемых моделей поведения.",
-            incorrectFeedback: "Not quite! 'Could' works best because repeated loud music + ignoring polite requests = strong behavioral evidence suggesting lack of consideration for others. It's logical social reasoning based on consistent patterns! When someone repeatedly ignores polite requests, it reasonably suggests their attitude. 'Might' would be too uncertain given such clear behavioral evidence, 'would' needs a condition, and 'must' would be too harsh a judgment.",
-            incorrectFeedbackRu: "Не совсем! 'Could' работает лучше всего, потому что повторяющаяся громкая музыка + игнорирование вежливых просьб = сильные поведенческие доказательства, предполагающие отсутствие внимания к другим. Это логичное социальное рассуждение на основе последовательных моделей! Когда кто-то постоянно игнорирует вежливые просьбы, это разумно предполагает их отношение. 'Might' было бы слишком неуверенно при таких ясных поведенческих доказательствах, 'would' нуждается в условии, а 'must' было бы слишком суровым суждением."
-        },
-        {
             question: "Pick the appropriate modal verb:",
             questionRu: "Выберите подходящий модальный глагол:",
             sentence: "Emma and Jake have been dating for three years and recently moved in together. They _____ get engaged soon.",

@@ -11,7 +11,7 @@ window.grammarExercises['to-be'] = window.grammarExercises['to-be'] || {};
 Page 1: Basic introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page1'] = {
-    title: "Basic Name Introductions",
+    title: "'To Be' with names - Basic Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct form of 'to be' for self-introduction:",
@@ -177,7 +177,7 @@ window.grammarExercises['to-be']['to-be-with-names-page1'] = {
 Page 2: Professional introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page2'] = {
-    title: "Professional Name Introductions",
+    title: "'To Be' with names - Professional Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct professional introduction:",
@@ -343,7 +343,7 @@ window.grammarExercises['to-be']['to-be-with-names-page2'] = {
 Page 3: Family and friend introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page3'] = {
-    title: "Family and Friend Name Introductions",
+    title: "'To Be' with names - Family and Friend Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct way to introduce your mother:",
@@ -509,7 +509,7 @@ window.grammarExercises['to-be']['to-be-with-names-page3'] = {
 Page 4: Formal and academic introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page4'] = {
-    title: "Formal and Academic Name Introductions",
+    title: "'To Be' with names - Formal and Academic Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct academic introduction:",
@@ -675,7 +675,7 @@ window.grammarExercises['to-be']['to-be-with-names-page4'] = {
 Page 5: Simple daily introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page5'] = {
-    title: "Daily Life Name Introductions",
+    title: "'To Be' with names - Daily Life Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct introduction at a store:",
@@ -841,7 +841,7 @@ window.grammarExercises['to-be']['to-be-with-names-page5'] = {
 Page 6: School and classroom introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page6'] = {
-    title: "School and Classroom Name Introductions",
+    title: "'To Be' with names - School and Classroom Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct teacher introduction:",
@@ -1007,7 +1007,7 @@ window.grammarExercises['to-be']['to-be-with-names-page6'] = {
 Page 7: Simple social event introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page7'] = {
-    title: "Social Event Name Introductions",
+    title: "'To Be' with names - Social Event Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct party introduction:",
@@ -1173,7 +1173,7 @@ window.grammarExercises['to-be']['to-be-with-names-page7'] = {
 Page 8: Simple hobby and activity introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page8'] = {
-    title: "Hobby and Activity Name Introductions",
+    title: "'To Be' with names - Hobby and Activity Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct sports introduction:",
@@ -1339,7 +1339,7 @@ window.grammarExercises['to-be']['to-be-with-names-page8'] = {
 Page 9: Simple travel and vacation introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page9'] = {
-    title: "Travel and Vacation Name Introductions",
+    title: "'To Be' with names - Travel and Vacation Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct hotel introduction:",
@@ -1505,7 +1505,7 @@ window.grammarExercises['to-be']['to-be-with-names-page9'] = {
 Page 10: Simple mixed review introductions with names
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-page10'] = {
-    title: "Mixed Review Name Introductions",
+    title: "'To Be' with names - Mixed Review Name Introductions",
     multipleChoice: [
         {
             question: "Choose the correct doctor introduction:",
@@ -1679,7 +1679,7 @@ console.log("Verb 'to be' exercises data loaded successfully!");
 Page 1: Basic name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page1'] = {
-    title: "Basic Name Introductions",
+    title: "'To Be' with names - asic Name Introductions",
     fillGaps: [
         {
             question: "Complete the introduction with the correct form of 'to be':",
@@ -1798,7 +1798,7 @@ window.grammarExercises['to-be']['to-be-with-names-gap-page1'] = {
 Page 2: Professional name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page2'] = {
-    title: "Professional Name Introductions",
+    title: "'To Be' with names - Professional Name Introductions",
     fillGaps: [
         {
             question: "Complete the business introduction with the correct form of 'to be':",
@@ -1917,7 +1917,7 @@ window.grammarExercises['to-be']['to-be-with-names-gap-page2'] = {
 Page 3: Family and friend name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page3'] = {
-    title: "Family and Friend Name Introductions",
+    title: "'To Be' with names - Family and Friend Name Introductions",
     fillGaps: [
         {
             question: "Complete the family introduction with the correct form of 'to be':",
@@ -2036,7 +2036,7 @@ window.grammarExercises['to-be']['to-be-with-names-gap-page3'] = {
 Page 4: School and classroom name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page4'] = {
-    title: "School and Classroom Name Introductions",
+    title: "'To Be' with names - School and Classroom Name Introductions",
     fillGaps: [
         {
             question: "Complete the teacher introduction with the correct form of 'to be':",
@@ -2155,7 +2155,7 @@ window.grammarExercises['to-be']['to-be-with-names-gap-page4'] = {
 Page 5: Daily life and service name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page5'] = {
-    title: "Daily Life and Service Name Introductions",
+    title: "'To Be' with names - Daily Life and Service Name Introductions",
     fillGaps: [
         {
             question: "Complete the shop introduction with the correct form of 'to be':",
@@ -2274,7 +2274,7 @@ window.grammarExercises['to-be']['to-be-with-names-gap-page5'] = {
 Page 6: Travel and entertainment name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page6'] = {
-    title: "Travel and Entertainment Name Introductions",
+    title: "'To Be' with names - Travel and Entertainment Name Introductions",
     fillGaps: [
         {
             question: "Complete the hotel introduction with the correct form of 'to be':",
@@ -2393,7 +2393,7 @@ window.grammarExercises['to-be']['to-be-with-names-gap-page6'] = {
 Page 7: Sports and hobby name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page7'] = {
-    title: "Sports and Hobby Name Introductions",
+    title: "'To Be' with names - Sports and Hobby Name Introductions",
     fillGaps: [
         {
             question: "Complete the sports introduction with the correct form of 'to be':",
@@ -2512,7 +2512,7 @@ window.grammarExercises['to-be']['to-be-with-names-gap-page7'] = {
 Page 8: Health and medical name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page8'] = {
-    title: "Health and Medical Name Introductions",
+    title: "'To Be' with names - Health and Medical Name Introductions",
     fillGaps: [
         {
             question: "Complete the medical introduction with the correct form of 'to be':",
@@ -2631,7 +2631,7 @@ window.grammarExercises['to-be']['to-be-with-names-gap-page8'] = {
 Page 9: Community and volunteer name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page9'] = {
-    title: "Community and Volunteer Name Introductions",
+    title: "'To Be' with names - Community and Volunteer Name Introductions",
     fillGaps: [
         {
             question: "Complete the volunteer introduction with the correct form of 'to be':",
@@ -2750,7 +2750,7 @@ window.grammarExercises['to-be']['to-be-with-names-gap-page9'] = {
 Page 10: Mixed review name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page10'] = {
-    title: "Mixed Review Name Introductions",
+    title: "'To Be' with names - Mixed Review Name Introductions",
     fillGaps: [
         {
             question: "Complete the introduction with the correct form of 'to be':",
@@ -2877,7 +2877,7 @@ console.log("Verb 'to be' Fill in the Gaps exercises data loaded successfully!")
 Page 1: Basic subject + be + complement
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page1'] = {
-    title: "Basic subject + be + complement", sentenceBuilding: [
+    title: "'To Be' with names - Basic subject + be + complement", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -2985,7 +2985,7 @@ window.grammarExercises['to-be']['to-be-with-names-sentence-page1'] = {
 Page 2: Names, professions, and descriptions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page2'] = {
-    title: "Names, professions, and descriptions",sentenceBuilding: [
+    title: "'To Be' with names - Names, professions, and descriptions",sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3093,7 +3093,7 @@ window.grammarExercises['to-be']['to-be-with-names-sentence-page2'] = {
 Page 3: Personal information with to be
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page3'] = {
-    title: "Personal information with to be",sentenceBuilding: [
+    title: "'To Be' with names - Personal information with to be",sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3201,7 +3201,7 @@ window.grammarExercises['to-be']['to-be-with-names-sentence-page3'] = {
 Page 4: Nationalities and languages
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page4'] = {
-    title: "Nationalities and languages",sentenceBuilding: [
+    title: "'To Be' with names - Nationalities and languages",sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3309,7 +3309,7 @@ window.grammarExercises['to-be']['to-be-with-names-sentence-page4'] = {
 Page 5: Location and position
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page5'] = {
-    title: "Location and position",sentenceBuilding: [
+    title: "'To Be' with names - Location and position",sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3417,7 +3417,7 @@ window.grammarExercises['to-be']['to-be-with-names-sentence-page5'] = {
 Page 6: Adjectives with to be
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page6'] = {
-    title: "Adjectives with to be",sentenceBuilding: [
+    title: "'To Be' with names - Adjectives with to be",sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3525,7 +3525,7 @@ window.grammarExercises['to-be']['to-be-with-names-sentence-page6'] = {
 Page 7: Possessions and relationships
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page7'] = {
-    title: "Possessions and relationships",sentenceBuilding: [
+    title: "'To Be' with names - Possessions and relationships",sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3632,7 +3632,7 @@ window.grammarExercises['to-be']['to-be-with-names-sentence-page7'] = {
 Page 8: Time and weather expressions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page8'] = {
-    title: "Time and weather expressions",sentenceBuilding: [
+    title: "'To Be' with names - Time and weather expressions",sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3740,7 +3740,7 @@ window.grammarExercises['to-be']['to-be-with-names-sentence-page8'] = {
 Page 9: 'There is' and 'There are'
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page9'] = {
-    title: "'There is' and 'There are'",sentenceBuilding: [
+    title: "'To Be' with names - 'There is' and 'There are'",sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3847,7 +3847,7 @@ window.grammarExercises['to-be']['to-be-with-names-sentence-page9'] = {
 Page 10: Contractions with 'to be'
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-sentence-page10'] = {
-    title: "Contractions with 'to be'",sentenceBuilding: [
+    title: "'To Be' with names - Contractions with 'to be'",sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",

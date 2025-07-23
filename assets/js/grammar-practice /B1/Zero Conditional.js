@@ -15,7 +15,7 @@ if (!window.grammarExercises.conditionals) {
 Page 1: Zero Conditional - Natural Laws and Scientific Facts
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page1'] = {
-    title: "Natural Laws and Scientific Facts", multipleChoice: [
+    title: "Zero Conditional - Natural Laws and Scientific Facts", multipleChoice: [
         {
             question: "Complete the zero conditional sentence:",
             questionRu: "Дополните условное предложение нулевого типа:",
@@ -183,7 +183,7 @@ window.grammarExercises['conditionals']['zero-conditional-page1'] = {
 Page 2: Zero Conditional - General Truths and Human Behavior
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page2'] = {
-    title: "General Truths and Human Behavior", multipleChoice: [
+    title: "Zero Conditional - General Truths and Human Behavior", multipleChoice: [
         {
             question: "Complete the general truth:",
             questionRu: "Дополните общую истину:",
@@ -351,7 +351,7 @@ window.grammarExercises['conditionals']['zero-conditional-page2'] = {
 Page 3: Zero Conditional - Technology and Digital Life
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page3'] = {
-    title: "Technology and Digital Life", multipleChoice: [
+    title: "Zero Conditional - Technology and Digital Life", multipleChoice: [
         {
             question: "Complete the technology fact:",
             questionRu: "Дополните технологический факт:",
@@ -519,7 +519,7 @@ window.grammarExercises['conditionals']['zero-conditional-page3'] = {
 Page 4: Zero Conditional - Weather and Natural Phenomena  
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page4'] = {
-    title: "Weather and Natural Phenomena", multipleChoice: [
+    title: "Zero Conditional - Weather and Natural Phenomena", multipleChoice: [
         {
             question: "Complete the weather fact:",
             questionRu: "Дополните погодный факт:",
@@ -687,7 +687,7 @@ window.grammarExercises['conditionals']['zero-conditional-page4'] = {
 Page 5: Zero Conditional - Business and Work Rules
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page5'] = {
-    title: "Business and Work Rules", multipleChoice: [
+    title: "Zero Conditional - Business and Work Rules", multipleChoice: [
         {
             question: "Complete the business rule:",
             questionRu: "Дополните бизнес-правило:",
@@ -855,7 +855,7 @@ window.grammarExercises['conditionals']['zero-conditional-page5'] = {
 Page 6: Zero Conditional - Health and Medicine
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page6'] = {
-    title: "Health and Medicine", multipleChoice: [
+    title: "Zero Conditional - Health and Medicine", multipleChoice: [
         {
             question: "Complete the medical fact:",
             questionRu: "Дополните медицинский факт:",
@@ -1023,7 +1023,7 @@ window.grammarExercises['conditionals']['zero-conditional-page6'] = {
 Page 7: Zero Conditional - Transportation and Traffic
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page7'] = {
-    title: "Transportation and Traffic", multipleChoice: [
+    title: "Zero Conditional - Transportation and Traffic", multipleChoice: [
         {
             question: "Complete the traffic rule:",
             questionRu: "Дополните правило дорожного движения:",
@@ -1191,7 +1191,7 @@ window.grammarExercises['conditionals']['zero-conditional-page7'] = {
 Page 8: Zero Conditional - Education and Learning
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page8'] = {
-    title: "Education and Learning", multipleChoice: [
+    title: "Zero Conditional - Education and Learning", multipleChoice: [
         {
             question: "Complete the learning principle:",
             questionRu: "Дополните принцип обучения:",
@@ -1359,7 +1359,7 @@ window.grammarExercises['conditionals']['zero-conditional-page8'] = {
 Page 9: Zero Conditional - Food and Cooking
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page9'] = {
-    title: "Food and Cooking", multipleChoice: [
+    title: "Zero Conditional - Food and Cooking", multipleChoice: [
         {
             question: "Complete the cooking fact:",
             questionRu: "Дополните факт о готовке:",
@@ -1527,7 +1527,7 @@ window.grammarExercises['conditionals']['zero-conditional-page9'] = {
 Page 10: Zero Conditional - Environment and Nature
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-page10'] = {
-    title: "Environment and Nature", multipleChoice: [
+    title: "Zero Conditional - Environment and Nature", multipleChoice: [
         {
             question: "Complete the recycling principle:",
             questionRu: "Дополните принцип переработки:",
@@ -1705,7 +1705,7 @@ console.log("===== ALL ZERO CONDITIONAL EXERCISES PAGES 1-10 LOADED =====");
 Page 1: Zero Conditional - Natural Laws and Scientific Facts
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page1'] = {
-    title: "Natural Laws and Scientific Facts", fillGaps: [
+    title: "Zero Conditional - Natural Laws and Scientific Facts", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1823,7 +1823,7 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page1'] = {
 Page 2: Zero Conditional - General Truths and Human Behavior
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page2'] = {
-    title: "General Truths and Human Behavior", fillGaps: [
+    title: "Zero Conditional - General Truths and Human Behavior", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -1941,7 +1941,7 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page2'] = {
 Page 3: Zero Conditional - Technology and Digital Life
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page3'] = {
-    title: "Technology and Digital Life", fillGaps: [
+    title: "Zero Conditional - Technology and Digital Life", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2059,7 +2059,7 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page3'] = {
 Page 4: Zero Conditional - Weather and Seasons
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page4'] = {
-    title: "Weather and Seasons", fillGaps: [
+    title: "Zero Conditional - Weather and Seasons", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2177,7 +2177,7 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page4'] = {
 Page 5: Zero Conditional - Business and Work Rules
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page5'] = {
-    title: "Business and Work Rules", fillGaps: [
+    title: "Zero Conditional - Business and Work Rules", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2295,7 +2295,7 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page5'] = {
 Page 6: Zero Conditional - Health and Medicine
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page6'] = {
-    title: "Health and Medicine", fillGaps: [
+    title: "Zero Conditional - Health and Medicine", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2413,7 +2413,7 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page6'] = {
 Page 7: Zero Conditional - Transportation and Travel
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page7'] = {
-    title: "Transportation and Travel", fillGaps: [
+    title: "Zero Conditional - Transportation and Travel", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2531,7 +2531,7 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page7'] = {
 Page 8: Zero Conditional - Education and Learning
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page8'] = {
-    title: "Education and Learning", fillGaps: [
+    title: "Zero Conditional - Education and Learning", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2649,7 +2649,7 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page8'] = {
 Page 9: Zero Conditional - Food and Cooking
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page9'] = {
-    title: "Food and Cooking", fillGaps: [
+    title: "Zero Conditional - Food and Cooking", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2767,7 +2767,7 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page9'] = {
 Page 10: Zero Conditional - Social Media and Communication
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-gap-page10'] = {
-    title: "Social Media and Communication", fillGaps: [
+    title: "Zero Conditional - Social Media and Communication", fillGaps: [
         {
             question: "Complete the sentence with the correct form:",
             questionRu: "Заполните предложение правильной формой:",
@@ -2894,7 +2894,7 @@ console.log("===== ALL ZERO CONDITIONAL FILL GAPS EXERCISES COMPLETED =====");
 Page 1: Zero Conditional - Daily Life and Technology
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
-    title: "Daily Life and Technology", sentenceBuilding: [
+    title: "Zero Conditional - Daily Life and Technology", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
@@ -3002,7 +3002,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
 Page 2: Zero Conditional - Work and Social Life
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
-    title: "Work and Social Life", sentenceBuilding: [
+    title: "Zero Conditional - Work and Social Life", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
@@ -3110,7 +3110,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page2'] = {
 Page 3: Zero Conditional - Health and Personal Habits
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
-    title: "Health and Personal Habits", sentenceBuilding: [
+    title: "Zero Conditional - Health and Personal Habits", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
@@ -3218,7 +3218,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page3'] = {
 Page 4: Zero Conditional - Money and Shopping
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
-    title: "Money and Shopping", sentenceBuilding: [
+    title: "Zero Conditional - Money and Shopping", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
@@ -3326,7 +3326,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page4'] = {
 Page 5: Zero Conditional - Transportation and City Life
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
-    title: "Transportation and City Life", sentenceBuilding: [
+    title: "Zero Conditional - Transportation and City Life", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
@@ -3434,7 +3434,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page5'] = {
 Page 6: Zero Conditional - Family and Relationships
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
-    title: "Family and Relationships", sentenceBuilding: [
+    title: "Zero Conditional - Family and Relationships", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
@@ -3542,7 +3542,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page6'] = {
 Page 7: Zero Conditional - Food and Cooking
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
-    title: "Food and Cooking", sentenceBuilding: [
+    title: "Zero Conditional - Food and Cooking", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
@@ -3650,7 +3650,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page7'] = {
 Page 8: Zero Conditional - Weather and Seasons
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
-    title: "Weather and Seasons", sentenceBuilding: [
+    title: "Zero Conditional - Weather and Seasons", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
@@ -3758,7 +3758,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page8'] = {
 Page 9: Zero Conditional - Entertainment and Leisure
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
-    title: "Entertainment and Leisure", sentenceBuilding: [
+    title: "Zero Conditional - Entertainment and Leisure", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
@@ -3866,7 +3866,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page9'] = {
 Page 10: Zero Conditional - Study and Learning Habits
 ============================================ */
 window.grammarExercises['conditionals']['zero-conditional-sentence-page10'] = {
-    title: "Study and Learning Habits", sentenceBuilding: [
+    title: "Zero Conditional - Study and Learning Habits", sentenceBuilding: [
         {
             question: "Form a correct Zero Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",

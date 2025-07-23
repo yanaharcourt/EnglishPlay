@@ -15,7 +15,7 @@ if (!window.grammarExercises.conditionals) {
 Page 1: Second Conditional - Basic Structure Rules
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page1'] = {
-    title: "Basic Structure Rules", multipleChoice: [
+    title: "Second Conditional - Basic Structure Rules", multipleChoice: [
         {
             question: "Complete the Second Conditional sentence:",
             questionRu: "Дополните предложение во втором типе условного наклонения:",
@@ -183,7 +183,7 @@ window.grammarExercises['conditionals']['second-conditional-page1'] = {
 Page 2: "If I were you" - Advice Giving Patterns
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page2'] = {
-    title: "Advice Giving Patterns", multipleChoice: [
+    title: "Second Conditional - Advice Giving Patterns", multipleChoice: [
         {
             question: "Complete the advice with 'If I were you':",
             questionRu: "Дополните совет с 'If I were you':",
@@ -351,7 +351,7 @@ window.grammarExercises['conditionals']['second-conditional-page2'] = {
 Page 3: Dreams and Wishes Discussion Patterns
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page3'] = {
-    title: "Dreams and Wishes Discussion Patterns", multipleChoice: [
+    title: "Second Conditional - Dreams and Wishes Discussion Patterns", multipleChoice: [
         {
             question: "Complete the dream about travel:",
             questionRu: "Дополните мечту о путешествии:",
@@ -519,7 +519,7 @@ window.grammarExercises['conditionals']['second-conditional-page3'] = {
 Page 4: Suggestions and Probability Levels
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page4'] = {
-    title: "Suggestions and Probability Levels", multipleChoice: [
+    title: "Second Conditional - Suggestions and Probability Levels", multipleChoice: [
         {
             question: "Complete the polite suggestion:",
             questionRu: "Дополните вежливое предложение:",
@@ -687,7 +687,7 @@ window.grammarExercises['conditionals']['second-conditional-page4'] = {
 Page 5: Complex Hypothetical Scenarios
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page5'] = {
-    title: "Complex Hypothetical Scenarios", multipleChoice: [
+    title: "Second Conditional - Complex Hypothetical Scenarios", multipleChoice: [
         {
             question: "Complete the complex hypothetical situation:",
             questionRu: "Дополните сложную гипотетическую ситуацию:",
@@ -855,7 +855,7 @@ window.grammarExercises['conditionals']['second-conditional-page5'] = {
 Page 6: Mixed Modal Patterns with Second Conditional
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page6'] = {
-    title: "Mixed Modal Patterns with Second Conditional", multipleChoice: [
+    title: "Second Conditional - Mixed Modal Patterns with Second Conditional", multipleChoice: [
         {
             question: "Complete the sentence with 'could' possibility:",
             questionRu: "Дополните предложение с возможностью 'could':",
@@ -1023,7 +1023,7 @@ window.grammarExercises['conditionals']['second-conditional-page6'] = {
 Page 7: Contrast and Comparison Patterns
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page7'] = {
-    title: "Contrast and Comparison Patterns", multipleChoice: [
+    title: "Second Conditional - Contrast and Comparison Patterns", multipleChoice: [
         {
             question: "Complete the contrast between present and hypothetical:",
             questionRu: "Дополните контраст между настоящим и гипотетическим:",
@@ -1191,7 +1191,7 @@ window.grammarExercises['conditionals']['second-conditional-page7'] = {
 Page 8: Advanced Hypothetical Reasoning and Complex Structures
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page8'] = {
-    title: "Advanced Hypothetical Reasoning and Complex Structures", multipleChoice: [
+    title: "Second Conditional - Advanced Hypothetical Reasoning and Complex Structures", multipleChoice: [
         {
             question: "Complete the complex reasoning scenario:",
             questionRu: "Дополните сценарий сложного рассуждения:",
@@ -1359,7 +1359,7 @@ window.grammarExercises['conditionals']['second-conditional-page8'] = {
 Page 9: Nuanced Emotional and Social Expressions
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page9'] = {
-    title: "Nuanced Emotional and Social Expression", multipleChoice: [
+    title: "Second Conditional - Nuanced Emotional and Social Expression", multipleChoice: [
         {
             question: "Complete the emotional vulnerability expression:",
             questionRu: "Дополните выражение эмоциональной уязвимости:",
@@ -1527,7 +1527,7 @@ window.grammarExercises['conditionals']['second-conditional-page9'] = {
 Page 10: Mastery Level - Complex Mixed Conditionals and Creative Applications
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-page10'] = {
-    title: "Complex Mixed Conditionals and Creative Applications", multipleChoice: [
+    title: "Second Conditional - Complex Mixed Conditionals and Creative Applications", multipleChoice: [
         {
             question: "Complete the artistic creativity breakthrough:",
             questionRu: "Дополните прорыв художественного творчества:",
@@ -1704,7 +1704,7 @@ console.log("===== SECOND CONDITIONAL MULTIPLE CHOICE EXERCISES (PAGES 1-10) NOW
 Page 1: Basic Hypothetical Situations
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page1'] = {
-    title: "Basic Hypothetical Situations", fillGaps: [
+    title: "Second Conditional - Basic Hypothetical Situations", fillGaps: [
         {
             question: "Complete the hypothetical scenario:",
             questionRu: "Дополните гипотетический сценарий:",
@@ -1822,7 +1822,7 @@ window.grammarExercises['conditionals']['second-conditional-gap-page1'] = {
 Page 2: Advice and Recommendations
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page2'] = {
-    title: "Advice and Recommendations", fillGaps: [
+    title: "Second Conditional - Advice and Recommendations", fillGaps: [
         {
             question: "Complete the advice structure:",
             questionRu: "Дополните структуру совета:",
@@ -1940,7 +1940,7 @@ window.grammarExercises['conditionals']['second-conditional-gap-page2'] = {
 Page 3: Dreams and Aspirations
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page3'] = {
-    title: "Dreams and Aspirations", fillGaps: [
+    title: "Second Conditional - Dreams and Aspirations", fillGaps: [
         {
             question: "Complete the travel dream:",
             questionRu: "Дополните мечту о путешествии:",
@@ -2058,7 +2058,7 @@ window.grammarExercises['conditionals']['second-conditional-gap-page3'] = {
 Page 4: Polite Suggestions and Possibilities
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page4'] = {
-    title: "Polite Suggestions and Possibilities", fillGaps: [
+    title: "Second Conditional - Polite Suggestions and Possibilities", fillGaps: [
         {
             question: "Complete the polite business suggestion:",
             questionRu: "Дополните вежливое деловое предложение:",
@@ -2176,7 +2176,7 @@ window.grammarExercises['conditionals']['second-conditional-gap-page4'] = {
 Page 5: Complex Hypothetical Scenarios
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page5'] = {
-    title: "Complex Hypothetical Scenarios", fillGaps: [
+    title: "Second Conditional - Complex Hypothetical Scenarios", fillGaps: [
         {
             question: "Complete the alternative history scenario:",
             questionRu: "Дополните сценарий альтернативной истории:",
@@ -2294,7 +2294,7 @@ window.grammarExercises['conditionals']['second-conditional-gap-page5'] = {
 Page 6: Mixed Modal Patterns
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page6'] = {
-    title: "Mixed Modal Patterns", fillGaps: [
+    title: "Second Conditional - Mixed Modal Patterns", fillGaps: [
         {
             question: "Complete with potential ability modal:",
             questionRu: "Дополните модальным глаголом потенциальной способности:",
@@ -2412,7 +2412,7 @@ window.grammarExercises['conditionals']['second-conditional-gap-page6'] = {
 Page 7: Contrast and Comparison Patterns
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page7'] = {
-    title: "Contrast and Comparison Patterns", fillGaps: [
+    title: "Second Conditional - Contrast and Comparison Patterns", fillGaps: [
         {
             question: "Complete the lifestyle contrast:",
             questionRu: "Дополните контраст образа жизни:",
@@ -2530,7 +2530,7 @@ window.grammarExercises['conditionals']['second-conditional-gap-page7'] = {
 Page 8: Advanced Hypothetical Reasoning
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page8'] = {
-    title: "Advanced Hypothetical Reasoning", fillGaps: [
+    title: "Second Conditional - Advanced Hypothetical Reasoning", fillGaps: [
         {
             question: "Complete the quantum physics speculation:",
             questionRu: "Дополните спекуляцию квантовой физики:",
@@ -2648,7 +2648,7 @@ window.grammarExercises['conditionals']['second-conditional-gap-page8'] = {
 Page 9: Emotional and Social Nuances
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page9'] = {
-    title: "Emotional and Social Nuances", fillGaps: [
+    title: "Second Conditional - Emotional and Social Nuances", fillGaps: [
         {
             question: "Complete the emotional vulnerability expression:",
             questionRu: "Дополните выражение эмоциональной уязвимости:",
@@ -2766,7 +2766,7 @@ window.grammarExercises['conditionals']['second-conditional-gap-page9'] = {
 Page 10: Mastery Level Complex Applications
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-gap-page10'] = {
-    title: "Mastery Level Complex Applications", fillGaps: [
+    title: "Second Conditional - Mastery Level Complex Applications", fillGaps: [
         {
             question: "Complete the ultimate creative paradox:",
             questionRu: "Дополните окончательный творческий парадокс:",
@@ -2893,7 +2893,7 @@ console.log("===== SECOND CONDITIONAL FILL GAPS EXERCISES (PAGES 1-10) NOW AVAIL
 Page 1: Basic Dreams and Wishes
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
-    title: "Basic Dreams and Wishes", sentenceBuilding: [
+    title: "Second Conditional - Basic Dreams and Wishes", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
@@ -3001,7 +3001,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page1'] = {
 Page 2: Advice and Recommendations 
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
-    title: "Advice and Recommendations ", sentenceBuilding: [
+    title: "Second Conditional - Advice and Recommendations ", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional advice sentence using these words:",
             questionRu: "Составьте правильное предложение-совет второго типа условного наклонения, используя эти слова:",
@@ -3109,7 +3109,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page2'] = {
 Page 3: Career and Life Changes
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
-    title: "Career and Life Changes", sentenceBuilding: [
+    title: "Second Conditional - Career and Life Changes", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
@@ -3217,7 +3217,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page3'] = {
 Page 4: Personal Relationships and Social Life
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
-    title: "Personal Relationships and Social Life", sentenceBuilding: [
+    title: "Second Conditional - Personal Relationships and Social Life", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
@@ -3325,7 +3325,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page4'] = {
 Page 5: Health and Wellness
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
-    title: "Health and Wellness", sentenceBuilding: [
+    title: "Second Conditional - Health and Wellness", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
@@ -3433,7 +3433,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page5'] = {
 Page 6: Education and Learning
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
-    title: "Education and Learning", sentenceBuilding: [
+    title: "Second Conditional - Education and Learning", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
@@ -3541,7 +3541,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page6'] = {
 Page 7: Technology and Modern Life
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
-    title: "Technology and Modern Life", sentenceBuilding: [
+    title: "Second Conditional - Technology and Modern Life", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
@@ -3649,7 +3649,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page7'] = {
 Page 8: Hobbies and Entertainment
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
-    title: "Hobbies and Entertainment", sentenceBuilding: [
+    title: "Second Conditional - Hobbies and Entertainment", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
@@ -3757,7 +3757,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page8'] = {
 Page 9: Environment and Community
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
-    title: "Environment and Community", sentenceBuilding: [
+    title: "Second Conditional - Environment and Community", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",
@@ -3865,7 +3865,7 @@ window.grammarExercises['conditionals']['second-conditional-sentence-page9'] = {
 Page 10: Personal Growth and Future Plans
 ============================================ */
 window.grammarExercises['conditionals']['second-conditional-sentence-page10'] = {
-    title: "Personal Growth and Future Plans", sentenceBuilding: [
+    title: "Second Conditional - Personal Growth and Future Plans", sentenceBuilding: [
         {
             question: "Form a correct Second Conditional sentence using these words:",
             questionRu: "Составьте правильное условное предложение второго типа, используя эти слова:",

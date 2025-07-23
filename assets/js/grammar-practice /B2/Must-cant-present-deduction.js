@@ -1209,8 +1209,8 @@ window.grammarExercises['modals']['must-cant-present-deduction-page8'] = {
             correctAnswer: 0,
             correctFeedback: "Excellent! 'Can't' expresses logical impossibility - creating intricate art with hand tools in three days requires master-level expertise.",
             correctFeedbackRu: "Отлично! 'Can't' выражает логическую невозможность - создание сложного искусства ручными инструментами за три дня требует мастерской экспертизы.",
-            incorrectFeedback: "Assess artistic achievement! Creating INTRICATE sculpture with only HAND TOOLS in THREE DAYS demonstrates **exceptional mastery** impossible at intermediate level. 'Can't' shows certainty skill isn't intermediate. 'Must' would mean it IS intermediate (contradicts remarkable speed and quality), 'should' gives expectations, and 'might' shows uncertainty about obvious expertise.",
-            incorrectFeedbackRu: "Оцените художественное достижение! Создание СЛОЖНОЙ скульптуры только РУЧНЫМИ ИНСТРУМЕНТАМИ за ТРИ ДНЯ демонстрирует **исключительное мастерство**, невозможное на промежуточном уровне. 'Can't' показывает уверенность, что навык не промежуточный. 'Must' означал бы, что он промежуточный (противоречит замечательной скорости и качеству), 'should' даёт ожидания, а 'might' показывает неуверенность в очевидной экспертизе."
+            incorrectFeedback: "Assess artistic achievement! Creating INTRICATE sculpture with only HAND TOOLS in THREE DAYS demonstrates exceptional mastery impossible at intermediate level. 'Can't' shows certainty skill isn't intermediate.",
+            incorrectFeedbackRu: "Оцените художественное достижение! Создание СЛОЖНОЙ скульптуры только РУЧНЫМИ ИНСТРУМЕНТАМИ за ТРИ ДНЯ демонстрирует исключительное мастерство, невозможное на промежуточном уровне."
         },
         {
             question: "Select the correct modal verb:",
@@ -1219,19 +1219,19 @@ window.grammarExercises['modals']['must-cant-present-deduction-page8'] = {
             options: [
                 "can't",
                 "must",
-                "would",
-                "could"
+                "should",
+                "might"
             ],
             correctAnswer: 0,
-            correctFeedback: "Brilliant! 'Can't' expresses logical impossibility - developing advanced mathematics independently proves sophisticated intelligence.",
-            correctFeedbackRu: "Блестяще! 'Can't' выражает логическую невозможность - независимое развитие продвинутой математики доказывает сложный интеллект.",
-            incorrectFeedback: "Recognize intellectual achievement! INDEPENDENTLY developing ADVANCED mathematics including CALCULUS concepts demonstrates **sophisticated cognitive abilities** impossible with primitive intelligence. 'Can't' shows certainty intelligence isn't primitive. 'Must' would mean it IS primitive (contradicts mathematical sophistication), 'would' is hypothetical, and 'could' shows weaker possibility.",
-            incorrectFeedbackRu: "Признайте интеллектуальное достижение! НЕЗАВИСИМОЕ развитие ПРОДВИНУТОЙ математики, включая концепции ИСЧИСЛЕНИЯ, демонстрирует **сложные когнитивные способности**, невозможные с примитивным интеллектом. 'Can't' показывает уверенность, что интеллект не примитивный. 'Must' означал бы, что он примитивный (противоречит математической сложности), 'would' - гипотетично, а 'could' показывает более слабую возможность."
+            correctFeedback: "Brilliant! 'Can't' expresses logical impossibility - developing advanced mathematics and calculus proves sophisticated intelligence.",
+            correctFeedbackRu: "Блестяще! 'Can't' выражает логическую невозможность - разработка продвинутой математики и исчисления доказывает сложный интеллект.",
+            incorrectFeedback: "Consider mathematical achievement! Independent development of ADVANCED mathematics including CALCULUS concepts demonstrates sophisticated intellectual capacity, not primitive thinking. 'Can't' shows certainty intelligence isn't primitive.",
+            incorrectFeedbackRu: "Рассмотрите математическое достижение! Независимая разработка ПРОДВИНУТОЙ математики включая понятия ИСЧИСЛЕНИЯ демонстрирует сложные интеллектуальные способности, а не примитивное мышление."
         },
         {
             question: "Choose the correct modal verb:",
             questionRu: "Выберите правильный модальный глагол:",
-            sentence: "The refugee family arrived with nothing but survived, learned the language, and now owns a successful business chain. They _____ be determined people.",
+            sentence: "The small family restaurant has no advertising budget yet maintains a six-month waiting list with prices of $500 per meal. Their food quality _____ be exceptional.",
             options: [
                 "must",
                 "can't",
@@ -1239,63 +1239,15 @@ window.grammarExercises['modals']['must-cant-present-deduction-page8'] = {
                 "might"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Must' expresses logical certainty about determination - achieving success from nothing requires exceptional resolve.",
-            correctFeedbackRu: "Отлично! 'Must' выражает логическую уверенность в решительности - достижение успеха с нуля требует исключительной решимости.",
-            incorrectFeedback: "Marvel at human resilience! Arriving with NOTHING, learning language, and building a SUCCESSFUL business chain requires **extraordinary determination** and perseverance. 'Must' shows confidence in their resolve. 'Can't' would mean they're NOT determined (contradicts incredible achievement), 'should' gives expectations, and 'might' shows uncertainty about obvious strength.",
-            incorrectFeedbackRu: "Восхищайтесь человеческой стойкостью! Прибытие с НИЧЕМ, изучение языка и построение УСПЕШНОЙ бизнес-сети требует **необыкновенной решительности** и настойчивости. 'Must' показывает уверенность в их решимости. 'Can't' означал бы, что они НЕ решительные (противоречит невероятному достижению), 'should' даёт ожидания, а 'might' показывает неуверенность в очевидной силе."
+            correctFeedback: "Perfect! 'Must' expresses logical certainty - six-month waiting lists without advertising at premium prices prove exceptional quality.",
+            correctFeedbackRu: "Отлично! 'Must' выражает логическую уверенность - шестимесячные листы ожидания без рекламы по премиальным ценам доказывают исключительное качество.",
+            incorrectFeedback: "Analyze restaurant success! SIX-MONTH waiting list with NO advertising at $500 per meal shows exceptional food quality. Only word-of-mouth creates such demand at premium prices.",
+            incorrectFeedbackRu: "Анализируйте успех ресторана! ШЕСТИМЕСЯЧНЫЙ лист ожидания БЕЗ рекламы по $500 за блюдо показывает исключительное качество еды. Только молва создаёт такой спрос по премиальным ценам."
         },
         {
             question: "Select the correct modal verb:",
             questionRu: "Выберите правильный модальный глагол:",
-            sentence: "The street performer has been playing violin in the same spot for 30 years, and tourists specifically come to hear her play. Her music _____ be unimpressive.",
-            options: [
-                "can't",
-                "must",
-                "would",
-                "could"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Excellent! 'Can't' expresses logical impossibility - drawing tourists for 30 years indicates impressive musical ability.",
-            correctFeedbackRu: "Отлично! 'Can't' выражает логическую невозможность - привлечение туристов в течение 30 лет указывает на впечатляющие музыкальные способности.",
-            incorrectFeedback: "Understand audience loyalty! Playing the SAME SPOT for 30 YEARS with tourists SPECIFICALLY coming shows **exceptional musical appeal** impossible if unimpressive. 'Can't' shows certainty music isn't unimpressive. 'Must' would mean it IS unimpressive (contradicts tourist attraction), 'would' is hypothetical, and 'could' shows weaker possibility.",
-            incorrectFeedbackRu: "Понимайте лояльность аудитории! Игра в ТОМ ЖЕ МЕСТЕ 30 ЛЕТ с туристами, СПЕЦИАЛЬНО приходящими послушать, показывает **исключительную музыкальную привлекательность**, невозможную если невпечатляющую. 'Can't' показывает уверенность, что музыка не невпечатляющая. 'Must' означал бы, что она невпечатляющая (противоречит туристической привлекательности), 'would' - гипотетично, а 'could' показывает более слабую возможность."
-        },
-        {
-            question: "Choose the correct modal verb:",
-            questionRu: "Выберите правильный модальный глагол:",
-            sentence: "The elderly woman speaks twelve languages fluently and translates simultaneously at international conferences. She _____ have an excellent memory.",
-            options: [
-                "must",
-                "can't",
-                "should",
-                "might"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Brilliant! 'Must' expresses logical certainty about memory - simultaneous translation requires exceptional memory capacity.",
-            correctFeedbackRu: "Блестяще! 'Must' выражает логическую уверенность в памяти - синхронный перевод требует исключительных способностей памяти.",
-            incorrectFeedback: "Assess linguistic mastery! Speaking TWELVE languages fluently AND simultaneous translation at international conferences requires **extraordinary memory capacity** for vocabulary, grammar, and cultural nuances. 'Must' shows confidence in excellent memory. 'Can't' would mean memory isn't excellent (contradicts polyglot abilities), 'should' gives expectations, and 'might' shows uncertainty about obvious cognitive power.",
-            incorrectFeedbackRu: "Оцените лингвистическое мастерство! Свободное владение ДВЕНАДЦАТЬЮ языками И синхронный перевод на международных конференциях требует **необыкновенной способности памяти** для словарного запаса, грамматики и культурных нюансов. 'Must' показывает уверенность в отличной памяти. 'Can't' означал бы, что память не отличная (противоречит полиглотским способностям), 'should' даёт ожидания, а 'might' показывает неуверенность в очевидной когнитивной силе."
-        },
-        {
-            question: "Select the correct modal verb:",
-            questionRu: "Выберите правильный модальный глагол:",
-            sentence: "The teenager developed a social media app in his bedroom that now has 500 million users worldwide. His programming abilities _____ be basic.",
-            options: [
-                "can't",
-                "must",
-                "would",
-                "could"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Perfect! 'Can't' expresses logical impossibility - creating a globally successful app requires advanced programming skills.",
-            correctFeedbackRu: "Отлично! 'Can't' выражает логическую невозможность - создание глобально успешного приложения требует продвинутых навыков программирования.",
-            incorrectFeedback: "Marvel at tech achievement! Building an app that reaches 500 MILLION users worldwide from a BEDROOM demonstrates **exceptional programming mastery** impossible with basic skills. 'Can't' shows certainty abilities aren't basic. 'Must' would mean they ARE basic (contradicts massive global success), 'would' is hypothetical, and 'could' shows weaker possibility.",
-            incorrectFeedbackRu: "Восхищайтесь техническим достижением! Создание приложения, которое достигает 500 МИЛЛИОНОВ пользователей по всему миру из СПАЛЬНИ, демонстрирует **исключительное программистское мастерство**, невозможное с базовыми навыками. 'Can't' показывает уверенность, что способности не базовые. 'Must' означал бы, что они базовые (противоречит массовому глобальному успеху), 'would' - гипотетично, а 'could' показывает более слабую возможность."
-        },
-        {
-            question: "Choose the correct modal verb:",
-            questionRu: "Выберите правильный модальный глагол:",
-            sentence: "The meditation teacher has been practicing for 40 years and can remain completely motionless for 8 hours straight. His concentration _____ be weak.",
+            sentence: "The conference room is booked until 6 PM and it's only 4 PM now. The previous meeting _____ be finished yet.",
             options: [
                 "can't",
                 "must",
@@ -1303,31 +1255,47 @@ window.grammarExercises['modals']['must-cant-present-deduction-page8'] = {
                 "might"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Can't' expresses logical impossibility - maintaining motionless meditation for 8 hours requires extraordinary concentration.",
-            correctFeedbackRu: "Отлично! 'Can't' выражает логическую невозможность - поддержание неподвижной медитации в течение 8 часов требует необычайной концентрации.",
-            incorrectFeedback: "Appreciate mental discipline! Remaining COMPLETELY MOTIONLESS for 8 HOURS requires **supreme concentration mastery** developed through decades of practice. 'Can't' shows certainty concentration isn't weak. 'Must' would mean it IS weak (contradicts incredible stillness), 'should' gives expectations, and 'might' shows uncertainty about obvious mental strength.",
-            incorrectFeedbackRu: "Оцените ментальную дисциплину! Оставаться ПОЛНОСТЬЮ НЕПОДВИЖНЫМ в течение 8 ЧАСОВ требует **высшего мастерства концентрации**, развитого через десятилетия практики. 'Can't' показывает уверенность, что концентрация не слабая. 'Must' означал бы, что она слабая (противоречит невероятной неподвижности), 'should' даёт ожидания, а 'might' показывает неуверенность в очевидной ментальной силе."
+            correctFeedback: "Brilliant! 'Can't' shows logical impossibility based on time constraints and booking schedule.",
+            correctFeedbackRu: "Блестяще! 'Can't' показывает логическую невозможность на основе временных ограничений и расписания бронирования.",
+            incorrectFeedback: "Think about scheduling logic! If a room is BOOKED until 6 PM and it's ONLY 4 PM, the meeting definitely continues. 'Can't' expresses certainty it's not finished.",
+            incorrectFeedbackRu: "Подумайте о логике расписания! Если комната ЗАБРОНИРОВАНА до 6 вечера, а сейчас ТОЛЬКО 4 вечера, встреча точно продолжается. 'Can't' выражает уверенность, что она не закончилась."
         },
         {
-            question: "Select the correct modal verb:",
+            question: "Choose the correct modal verb:",
             questionRu: "Выберите правильный модальный глагол:",
-            sentence: "The small village chef trained in Paris for one month and returned to open a restaurant that immediately earned a Michelin star. Her natural talent _____ be exceptional.",
+            sentence: "Lisa has flour on her apron and the kitchen smells like fresh bread. She _____ be baking.",
             options: [
                 "must",
                 "can't",
                 "would",
                 "could"
-                ],
+            ],
             correctAnswer: 0,
-            correctFeedback: "Brilliant! 'Must' expresses logical certainty about exceptional talent - earning a Michelin star after minimal training proves extraordinary natural ability.",
-            correctFeedbackRu: "Блестяще! 'Must' выражает логическую уверенность в исключительном таланте - получение звезды Мишлен после минимального обучения доказывает необыкновенные природные способности.",
-            incorrectFeedback: "Recognize culinary genius! Earning a MICHELIN STAR immediately after only ONE MONTH Paris training demonstrates **extraordinary natural culinary talent** beyond normal capabilities. 'Must' shows confidence in exceptional ability. 'Can't' would mean talent isn't exceptional (contradicts Michelin recognition), 'would' is hypothetical, and 'could' shows weaker possibility.",
-            incorrectFeedbackRu: "Признайте кулинарный гений! Получение ЗВЕЗДЫ МИШЛЕН сразу после только ОДНОГО МЕСЯЦА обучения в Париже демонстрирует **необыкновенный природный кулинарный талант** за пределами обычных способностей. 'Must' показывает уверенность в исключительной способности. 'Can't' означал бы, что талант не исключительный (противоречит признанию Мишлен), 'would' - гипотетично, а 'could' показывает более слабую возможность."
+            correctFeedback: "Perfect! 'Must' expresses strong logical certainty based on multiple sensory clues.",
+            correctFeedbackRu: "Отлично! 'Must' выражает сильную логическую уверенность на основе множественных сенсорных улик.",
+            incorrectFeedback: "Follow your senses! Flour on apron PLUS fresh bread smell are convincing evidence of baking activity. 'Must' shows confidence in this deduction.",
+            incorrectFeedbackRu: "Следуйте своим чувствам! Мука на фартуке ПЛЮС запах свежего хлеба - это убедительные доказательства выпечки. 'Must' показывает уверенность в этом выводе."
+        },
+        {
+            question: "Select the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The exam is tomorrow and John is watching TV instead of studying. He _____ be very confident about passing.",
+            options: [
+                "must",
+                "can't",
+                "should",
+                "might"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Must' expresses logical certainty - choosing entertainment over studying before an exam shows high confidence.",
+            correctFeedbackRu: "Отлично! 'Must' выражает логическую уверенность - выбор развлечения вместо учёбы перед экзаменом показывает высокую уверенность.",
+            incorrectFeedback: "Analyze behavior! Watching TV instead of studying the night before an exam shows he MUST be confident. Otherwise, he would be studying frantically.",
+            incorrectFeedbackRu: "Анализируйте поведение! Просмотр телевизора вместо учёбы накануне экзамена показывает, что он ДОЛЖЕН быть уверен. Иначе он бы отчаянно учился."
         },
         {
             question: "Choose the correct modal verb:",
             questionRu: "Выберите правильный модальный глагол:",
-            sentence: "The historian discovered that three separate ancient civilizations built identical pyramid structures without any contact. This _____ be purely coincidental.",
+            sentence: "The street musician earned $500 in one hour playing in the subway with just a broken guitar. His talent _____ be ordinary.",
             options: [
                 "can't",
                 "must",
@@ -1335,20 +1303,58 @@ window.grammarExercises['modals']['must-cant-present-deduction-page8'] = {
                 "could"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Can't' expresses logical impossibility - identical complex structures arising independently suggests deeper patterns or influences.",
-            correctFeedbackRu: "Отлично! 'Can't' выражает логическую невозможность - идентичные сложные структуры, возникающие независимо, предполагают более глубокие паттерны или влияния.",
-            incorrectFeedback: "Consider archaeological probability! THREE separate civilizations building IDENTICAL pyramid structures with NO CONTACT shows **fundamental architectural principles** or unknown connections beyond coincidence. 'Can't' shows certainty it's NOT coincidental. 'Must' would mean it IS coincidental (defies mathematical probability), 'would' is hypothetical, and 'could' shows weaker possibility.",
-            incorrectFeedbackRu: "Рассмотрите археологическую вероятность! ТРИ отдельные цивилизации, строящие ИДЕНТИЧНЫЕ пирамидальные структуры БЕЗ КОНТАКТА, показывает **фундаментальные архитектурные принципы** или неизвестные связи за пределами совпадения. 'Can't' показывает уверенность, что это НЕ случайно. 'Must' означал бы, что это случайно (противоречит математической вероятности), 'would' - гипотетично, а 'could' показывает более слабую возможность."
+            correctFeedback: "Brilliant! 'Can't' expresses logical impossibility - earning $500 hourly with broken equipment proves extraordinary talent.",
+            correctFeedbackRu: "Блестяще! 'Can't' выражает логическую невозможность - заработок $500 в час с поломанным инструментом доказывает необычайный талант.",
+            incorrectFeedback: "Assess musical achievement! Earning $500 per hour in subway with BROKEN guitar demonstrates exceptional talent that captivates audiences despite equipment problems.",
+            incorrectFeedbackRu: "Оцените музыкальное достижение! Заработок $500 в час в метро с ПОЛОМАННОЙ гитарой демонстрирует исключительный талант, который очаровывает публику несмотря на проблемы с оборудованием."
         },
         {
-            question: "Form a correct sentence using these words:",
-            questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "opera", "singer", "lost", "her", "voice", "but", "continued", "performing", "using", "only", "expressions", "and", "gestures,", "receiving", "standing", "ovations.", "Her", "stage", "presence", "must", "be", "powerful."],
-            correctAnswer: "The opera singer lost her voice but continued performing using only expressions and gestures, receiving standing ovations. Her stage presence must be powerful.",
-            correctFeedback: "Excellent! 'Her stage presence must be powerful' is a logical deduction based on earning ovations without the primary performance tool.",
-            correctFeedbackRu: "Отлично! 'Her stage presence must be powerful' - это логический вывод на основе получения оваций без основного инструмента исполнения.",
-            incorrectFeedback: "Try again. Remember: Subject + must + be + adjective. Use voiceless performance success as stage presence evidence.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + must + be + прилагательное. Используйте успех выступления без голоса как доказательство сценического присутствия."
+            question: "Select the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The elderly woman climbed Mount Everest twice in one month at age 85. Her physical condition _____ be poor.",
+            options: [
+                "can't",
+                "must",
+                "should",
+                "might"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Can't' expresses logical impossibility - climbing Everest twice at 85 requires exceptional physical condition.",
+            correctFeedbackRu: "Отлично! 'Can't' выражает логическую невозможность - восхождение на Эверест дважды в 85 лет требует исключительной физической формы.",
+            incorrectFeedback: "Consider physical demands! Climbing MOUNT EVEREST TWICE in one month at age 85 proves remarkable fitness, not poor physical condition.",
+            incorrectFeedbackRu: "Рассмотрите физические требования! Восхождение на ЭВЕРЕСТ ДВАЖДЫ за месяц в 85 лет доказывает замечательную форму, а не плохое физическое состояние."
+        },
+        {
+            question: "Choose the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The detective solved the complex murder case in 30 minutes that other investigators couldn't solve in 6 months. Her deductive skills _____ be remarkable.",
+            options: [
+                "must",
+                "can't",
+                "would",
+                "could"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Must' expresses logical certainty - solving in 30 minutes what others couldn't in 6 months proves remarkable skills.",
+            correctFeedbackRu: "Отлично! 'Must' выражает логическую уверенность - решение за 30 минут того, что другие не могли решить за 6 месяцев, доказывает замечательные навыки.",
+            incorrectFeedback: "Recognize investigative brilliance! Solving a complex case in 30 MINUTES when other detectives failed for 6 MONTHS demonstrates exceptional deductive abilities.",
+            incorrectFeedbackRu: "Признайте следственную гениальность! Решение сложного дела за 30 МИНУТ, когда другие детективы терпели неудачу 6 МЕСЯЦЕВ, демонстрирует исключительные дедуктивные способности."
+        },
+        {
+            question: "Select the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The language teacher speaks 20 languages fluently and learned each one in just 3 months. Her learning method _____ be conventional.",
+            options: [
+                "can't",
+                "must",
+                "should",
+                "might"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Brilliant! 'Can't' expresses logical impossibility - learning 20 languages in 3 months each requires revolutionary methods.",
+            correctFeedbackRu: "Блестяще! 'Can't' выражает логическую невозможность - изучение 20 языков по 3 месяца каждый требует революционных методов.",
+            incorrectFeedback: "Assess language mastery! Learning 20 languages FLUENTLY in just 3 months each proves innovative learning methods, not conventional approaches.",
+            incorrectFeedbackRu: "Оцените языковое мастерство! Изучение 20 языков СВОБОДНО всего за 3 месяца каждый доказывает инновационные методы обучения, а не обычные подходы."
         }
     ]
 };

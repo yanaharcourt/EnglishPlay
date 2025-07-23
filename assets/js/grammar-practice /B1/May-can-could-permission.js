@@ -30,6 +30,54 @@ window.grammarExercises['modals']['may-can-could-permission-page1'] = {
             incorrectFeedbackRu: "Замечательная мысль! **'May' почитает наших старших**, используя наиболее уважительную и традиционную форму вежливости. Старшие поколения часто ценят формальную учтивость, и 'may' показывает понимание важности проявления должного уважения. 'Can' и 'could' работают, но менее формальны, а 'should' даёт советы, а не просит разрешения!"
         },
         {
+            question: "Choose the most appropriate modal for asking permission in a courtroom:",
+            questionRu: "Выберите наиболее подходящий модальный глагол для просьбы разрешения в зале суда:",
+            sentence: "Your Honor, _____ I approach the bench?",
+            options: [
+                "May",
+                "Can",
+                "Could",
+                "Should"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'May' is the required level of formality and respect in legal settings.",
+            correctFeedbackRu: "Отлично! 'May' - требуемый уровень формальности и уважения в правовых учреждениях.",
+            incorrectFeedback: "Excellent understanding! **'May' upholds legal tradition** and shows the highest respect for the court's authority. Legal settings demand the most formal language possible, and 'may' demonstrates understanding of courtroom protocol and respect for the judicial system. Any other modal would be inappropriate in this formal context!",
+            incorrectFeedbackRu: "Отличное понимание! **'May' поддерживает правовые традиции** и показывает высшее уважение к авторитету суда. Правовые учреждения требуют наиболее формального языка, и 'may' демонстрирует понимание протокола зала суда и уважение к судебной системе. Любой другой модальный глагол был бы неуместен в этом формальном контексте!"
+        },
+        {
+            question: "Select the best modal for asking permission at a religious ceremony:",
+            questionRu: "Выберите лучший модальный глагол для просьбы разрешения на религиозной церемонии:",
+            sentence: "_____ I take a seat in the front row?",
+            options: [
+                "May",
+                "Can",
+                "Could",
+                "Would"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'May' shows appropriate reverence and respect in sacred settings.",
+            correctFeedbackRu: "Отлично! 'May' показывает уместное благоговение и уважение в священных местах.",
+            incorrectFeedback: "Beautiful choice! **'May' honors sacred spaces** by using the most respectful and traditional language. Religious ceremonies deserve our highest courtesy, and 'may' demonstrates understanding of the solemnity and importance of the occasion. It shows respect for both the spiritual setting and other worshippers present!",
+            incorrectFeedbackRu: "Прекрасный выбор! **'May' почитает священные места**, используя наиболее уважительный и традиционный язык. Религиозные церемонии заслуживают нашей высшей учтивости, и 'may' демонстрирует понимание торжественности и важности случая. Показывает уважение как к духовной обстановке, так и к другим присутствующим верующим!"
+        },
+        {
+            question: "What's the most appropriate way to ask permission from a celebrity?",
+            questionRu: "Как лучше всего попросить разрешение у знаменитости?",
+            sentence: "_____ I have a photo with you? I'm a huge fan.",
+            options: [
+                "Could",
+                "Can",
+                "May",
+                "Will"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Great choice! 'Could' is polite and respectful without being overly formal.",
+            correctFeedbackRu: "Отличный выбор! 'Could' вежливо и уважительно, не будучи чрезмерно формальным.",
+            incorrectFeedback: "Smart thinking! **'Could' respects their privacy** while being friendly and approachable. Celebrities appreciate fans who are polite but not overly formal or intimidated. 'Could' shows you understand they're real people who deserve courtesy while still expressing your enthusiasm. 'Can' might be too direct, 'may' too formal, and 'will' doesn't ask permission!",
+            incorrectFeedbackRu: "Умная мысль! **'Could' уважает их частную жизнь**, оставаясь дружелюбным и приветливым. Знаменитости ценят поклонников, которые вежливы, но не чрезмерно формальны или запуганы. 'Could' показывает понимание того, что они реальные люди, заслуживающие вежливости, продолжая выражать ваш энтузиазм. 'Can' может быть слишком прямым, 'may' слишком формально, а 'will' не просит разрешения!"
+        },
+        {
             question: "Choose the correct modal for asking permission in an emergency:",
             questionRu: "Выберите правильный модальный глагол для просьбы разрешения в экстренной ситуации:",
             sentence: "_____ I use your phone? There's been an accident!",
@@ -44,6 +92,90 @@ window.grammarExercises['modals']['may-can-could-permission-page1'] = {
             correctFeedbackRu: "Отлично! 'Can' прямо и срочно, оставаясь при этом вежливым в экстренных ситуациях.",
             incorrectFeedback: "Excellent choice! **'Can' balances urgency with politeness** in emergencies. When time is critical, you need to be direct and clear while still showing respect. 'Can' gets your message across quickly without wasting precious time on overly formal language. 'May' and 'could' might be too formal for urgent situations, and 'will' doesn't ask for permission!",
             incorrectFeedbackRu: "Отличный выбор! **'Can' балансирует срочность с вежливостью** в экстренных ситуациях. Когда время критично, нужно быть прямым и ясным, продолжая проявлять уважение. 'Can' быстро передаёт сообщение, не тратя драгоценное время на чрезмерно формальный язык. 'May' и 'could' могут быть слишком формальными для срочных ситуаций, а 'will' не просит разрешения!"
+        },
+        {
+            question: "Choose the correct modal for asking your teacher's permission:",
+            questionRu: "Выберите правильный модальный глагол для просьбы разрешения у учителя:",
+            sentence: "_____ I leave early today? I have a doctor's appointment.",
+            options: [
+                "May",
+                "Can", 
+                "Could",
+                "Should"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'May' shows proper respect for educational authority figures.",
+            correctFeedbackRu: "Отлично! 'May' показывает должное уважение к образовательным авторитетам.",
+            incorrectFeedback: "Great consideration! **'May' demonstrates educational respect** and shows you understand classroom hierarchy. Teachers appreciate formal courtesy, especially for important requests like medical appointments.",
+            incorrectFeedbackRu: "Отличное рассуждение! **'May' демонстрирует образовательное уважение** и показывает понимание школьной иерархии. Учителя ценят формальную вежливость, особенно для важных просьб, таких как медицинские назначения."
+        },
+
+        {
+            question: "Choose the best modal for asking permission at a wedding ceremony:",
+            questionRu: "Выберите лучший модальный глагол для просьбы разрешения на свадебной церемонии:",
+            sentence: "_____ I take a photo of the first dance?",
+            options: [
+                "Could",
+                "Can",
+                "May", 
+                "Will"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Could' is respectful and appropriate for special celebrations.",
+            correctFeedbackRu: "Отлично! 'Could' уважительно и уместно для особых торжеств.",
+            incorrectFeedback: "Wonderful sensitivity! **'Could' honors special moments** by being polite yet not overly formal. Weddings require respectful consideration for the couple's wishes while maintaining a celebratory atmosphere.",
+            incorrectFeedbackRu: "Прекрасная чуткость! **'Could' чтит особые моменты**, будучи вежливым, но не чрезмерно формальным. Свадьбы требуют уважительного отношения к желаниям пары, сохраняя праздничную атмосферу."
+        },
+
+        {
+            question: "Choose the appropriate modal for asking permission from a stranger:",
+            questionRu: "Выберите подходящий модальный глагол для просьбы разрешения у незнакомца:",
+            sentence: "Excuse me, _____ I ask you for directions?",
+            options: [
+                "Could",
+                "Can",
+                "May",
+                "Must"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Great choice! 'Could' is polite and friendly when approaching strangers.",
+            correctFeedbackRu: "Отличный выбор! 'Could' вежливо и дружелюбно при обращении к незнакомцам.",
+            incorrectFeedback: "Excellent social awareness! **'Could' builds instant rapport** with strangers by showing immediate respect and politeness. It's warm enough to be approachable but formal enough to show good manners.",
+            incorrectFeedbackRu: "Отличное социальное понимание! **'Could' создаёт мгновенную связь** с незнакомцами, проявляя немедленное уважение и вежливость. Достаточно тепло для доступности, но формально для хороших манер."
+        },
+
+        {
+            question: "Choose the correct modal for asking permission in a quiet library:",
+            questionRu: "Выберите правильный модальный глагол для просьбы разрешения в тихой библиотеке:",
+            sentence: "_____ I use this computer for research?",
+            options: [
+                "Could",
+                "Can", 
+                "May",
+                "Would"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Could' respects the quiet atmosphere while being clear about your needs.",
+            correctFeedbackRu: "Отлично! 'Could' уважает тихую атмосферу, оставаясь ясным в ваших потребностях.",
+            incorrectFeedback: "Excellent library etiquette! **'Could' maintains peaceful environments** by being polite and considerate. Libraries require respectful communication that doesn't disturb others' concentration.",
+            incorrectFeedbackRu: "Отличный библиотечный этикет! **'Could' поддерживает мирную обстановку**, будучи вежливым и внимательным. Библиотеки требуют уважительного общения, которое не нарушает концентрацию других."
+        },
+
+        {
+            question: "Choose the most suitable modal for asking permission from your elderly neighbor:",
+            questionRu: "Выберите наиболее подходящий модальный глагол для просьбы разрешения у пожилого соседа:",
+            sentence: "_____ I park in front of your house for the evening?",
+            options: [
+                "May",
+                "Can",
+                "Could", 
+                "Should"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Wonderful! 'May' shows deep respect and traditional courtesy to elderly neighbors.",
+            correctFeedbackRu: "Замечательно! 'May' показывает глубокое уважение и традиционную вежливость к пожилым соседям.",
+            incorrectFeedback: "Beautiful neighborly respect! **'May' honors community elders** by using the most formal and respectful language. Older generations often appreciate traditional politeness and proper manners.",
+            incorrectFeedbackRu: "Прекрасное соседское уважение! **'May' чтит старших в сообществе**, используя наиболее формальный и уважительный язык. Старшие поколения часто ценят традиционную вежливость и хорошие манеры."
         }
     ]
 };
@@ -223,54 +355,6 @@ Page 3: May vs Can vs Could - Advanced Permission Scenarios
 window.grammarExercises['modals']['may-can-could-permission-page3'] = {
     title: "May vs Can vs Could - Advanced Permission Scenarios",
     multipleChoice: [
-        {
-            question: "Choose the most appropriate modal for asking permission in a courtroom:",
-            questionRu: "Выберите наиболее подходящий модальный глагол для просьбы разрешения в зале суда:",
-            sentence: "Your Honor, _____ I approach the bench?",
-            options: [
-                "May",
-                "Can",
-                "Could",
-                "Should"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Perfect! 'May' is the required level of formality and respect in legal settings.",
-            correctFeedbackRu: "Отлично! 'May' - требуемый уровень формальности и уважения в правовых учреждениях.",
-            incorrectFeedback: "Excellent understanding! **'May' upholds legal tradition** and shows the highest respect for the court's authority. Legal settings demand the most formal language possible, and 'may' demonstrates understanding of courtroom protocol and respect for the judicial system. Any other modal would be inappropriate in this formal context!",
-            incorrectFeedbackRu: "Отличное понимание! **'May' поддерживает правовые традиции** и показывает высшее уважение к авторитету суда. Правовые учреждения требуют наиболее формального языка, и 'may' демонстрирует понимание протокола зала суда и уважение к судебной системе. Любой другой модальный глагол был бы неуместен в этом формальном контексте!"
-        },
-        {
-            question: "Select the best modal for asking permission at a religious ceremony:",
-            questionRu: "Выберите лучший модальный глагол для просьбы разрешения на религиозной церемонии:",
-            sentence: "_____ I take a seat in the front row?",
-            options: [
-                "May",
-                "Can",
-                "Could",
-                "Would"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Excellent! 'May' shows appropriate reverence and respect in sacred settings.",
-            correctFeedbackRu: "Отлично! 'May' показывает уместное благоговение и уважение в священных местах.",
-            incorrectFeedback: "Beautiful choice! **'May' honors sacred spaces** by using the most respectful and traditional language. Religious ceremonies deserve our highest courtesy, and 'may' demonstrates understanding of the solemnity and importance of the occasion. It shows respect for both the spiritual setting and other worshippers present!",
-            incorrectFeedbackRu: "Прекрасный выбор! **'May' почитает священные места**, используя наиболее уважительный и традиционный язык. Религиозные церемонии заслуживают нашей высшей учтивости, и 'may' демонстрирует понимание торжественности и важности случая. Показывает уважение как к духовной обстановке, так и к другим присутствующим верующим!"
-        },
-        {
-            question: "What's the most appropriate way to ask permission from a celebrity?",
-            questionRu: "Как лучше всего попросить разрешение у знаменитости?",
-            sentence: "_____ I have a photo with you? I'm a huge fan.",
-            options: [
-                "Could",
-                "Can",
-                "May",
-                "Will"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Great choice! 'Could' is polite and respectful without being overly formal.",
-            correctFeedbackRu: "Отличный выбор! 'Could' вежливо и уважительно, не будучи чрезмерно формальным.",
-            incorrectFeedback: "Smart thinking! **'Could' respects their privacy** while being friendly and approachable. Celebrities appreciate fans who are polite but not overly formal or intimidated. 'Could' shows you understand they're real people who deserve courtesy while still expressing your enthusiasm. 'Can' might be too direct, 'may' too formal, and 'will' doesn't ask permission!",
-            incorrectFeedbackRu: "Умная мысль! **'Could' уважает их частную жизнь**, оставаясь дружелюбным и приветливым. Знаменитости ценят поклонников, которые вежливы, но не чрезмерно формальны или запуганы. 'Could' показывает понимание того, что они реальные люди, заслуживающие вежливости, продолжая выражать ваш энтузиазм. 'Can' может быть слишком прямым, 'may' слишком формально, а 'will' не просит разрешения!"
-        },
         {
             question: "Choose the correct modal for asking permission during a meeting:",
             questionRu: "Выберите правильный модальный глагол для просьбы разрешения во время встречи:",

@@ -12,7 +12,7 @@ window.grammarExercises['to-be'] = window.grammarExercises['to-be'] || {};
 Page 1: Basic "to be" with jobs 
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page1'] = {
-    title: "Basic Jobs and Professions",
+    title: "'To Be' with jobs - Basic Jobs and Professions",
     multipleChoice: [
         {
             question: "Complete the sentence:",
@@ -181,7 +181,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-page1'] = {
 Page 2: "to be" questions about jobs
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page2'] = {
-    title: "Job Interview Questions",
+    title: "'To Be' with jobs - Job Interview Questions",
     multipleChoice: [
         {
             question: "Form the correct question:",
@@ -350,7 +350,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-page2'] = {
 Page 3: "to be" with workplace descriptions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page3'] = {
-    title: "Workplace Descriptions",
+    title: "'To Be' with jobs - Workplace Descriptions",
     multipleChoice: [
         {
             question: "Complete the workplace statement:",
@@ -519,7 +519,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-page3'] = {
 Page 4: "to be" with career goals and aspirations
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page4'] = {
-    title: "Career Goals and Aspirations",
+    title: "'To Be' with jobs - Career Goals and Aspirations",
     multipleChoice: [
         {
             question: "Complete the career statement:",
@@ -688,7 +688,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-page4'] = {
 Page 5: "to be" with negative job statements
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page5'] = {
-    title: "Negative Statements About Work",
+    title: "'To Be' with jobs - Negative Statements About Work",
     multipleChoice: [
         {
             question: "Complete the negative statement:",
@@ -857,7 +857,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-page5'] = {
 Page 6: "to be" with job skills and qualifications
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page6'] = {
-    title: "Skills and Qualifications",
+    title: "'To Be' with jobs - Skills and Qualifications",
     multipleChoice: [
         {
             question: "Complete the skills statement:",
@@ -1026,7 +1026,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-page6'] = {
 Page 7: "to be" with workplace conditions and benefits
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page7'] = {
-    title: "Workplace Conditions and Benefits",
+    title: "'To Be' with jobs - Workplace Conditions",
     multipleChoice: [
         {
             question: "Complete the benefits statement:",
@@ -1195,7 +1195,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-page7'] = {
 Page 8: "to be" with job interviews and applications 
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page8'] = {
-    title: "Job Interviews and Applications",
+    title: "'To Be' with jobs - Job Interviews and Applications",
     multipleChoice: [
         {
             question: "Complete the interview preparation statement:",
@@ -1364,7 +1364,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-page8'] = {
 Page 9: "to be" with teamwork and collaboration 
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page9'] = {
-    title: "Teamwork and Collaboration",
+    title: "'To Be' with jobs - Teamwork and Collaboration",
     multipleChoice: [
         {
             question: "Complete the team dynamics statement:",
@@ -1533,7 +1533,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-page9'] = {
 Page 10: "to be" with professional growth and development 
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-page10'] = {
-    title: "Professional Growth and Development",
+    title: "'To Be' with jobs - Professional Growth",
     multipleChoice: [
         {
             question: "Complete the career advancement statement:",
@@ -1710,7 +1710,7 @@ console.log("'to be' with jobs exercises data loaded successfully!");
 Page 1: Basic "to be" with professions - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page1'] = {
-    title: "Basic Professional Roles",
+    title: "'To Be' with jobs - Basic Professional Roles",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -1829,7 +1829,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-gap-page1'] = {
 Page 2: "to be" with job responsibilities - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page2'] = {
-    title: "Job Responsibilities and Duties",
+    title: "'To Be' with jobs - Job Responsibilities and Duties",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -1948,7 +1948,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-gap-page2'] = {
 Page 3: "to be" with workplace conditions - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page3'] = {
-    title: "Working Conditions and Environment",
+    title: "'To Be' with jobs - Working Conditions",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2067,7 +2067,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-gap-page3'] = {
 Page 4: "to be" with career development - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page4'] = {
-    title: "Career Development and Progress",
+    title: "'To Be' with jobs - Career Development and Progress",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2186,7 +2186,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-gap-page4'] = {
 Page 5: "to be" with workplace challenges - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page5'] = {
-    title: "Workplace Challenges and Solutions",
+    title: "'To Be' with jobs - Workplace Challenges",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2305,7 +2305,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-gap-page5'] = {
 Page 6: "to be" with job satisfaction and motivation - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page6'] = {
-    title: "Job Satisfaction and Motivation",
+    title: "'To Be' with jobs - Job Satisfaction and Motivation",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2424,7 +2424,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-gap-page6'] = {
 Page 7: "to be" with industry sectors - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page7'] = {
-    title: "Industry Sectors and Specializations",
+    title: "'To Be' with jobs - Industry Sectors",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2543,7 +2543,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-gap-page7'] = {
 Page 8: "to be" with remote work and modern employment - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page8'] = {
-    title: "Remote Work and Modern Employment",
+    title: "'To Be' with jobs - Remote Work",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2662,7 +2662,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-gap-page8'] = {
 Page 9: "to be" with professional ethics and conduct - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page9'] = {
-    title: "Professional Ethics and Conduct",
+    title: "'To Be' with jobs - Professional Ethics and Conduct",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2781,7 +2781,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-gap-page9'] = {
 Page 10: "to be" with future career trends - Fill in the Gaps
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-jobs-gap-page10'] = {
-    title: "Future Career Trends and Technology",
+    title: "'To Be' with jobs - Future Career Trends",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2907,8 +2907,8 @@ console.log("Verb 'to be' Fill in the Gaps exercises data loaded successfully!")
 /* ============================================
 Page 1: Basic job professions - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page1'] = {
-    title: "Simple Job Statements",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page1'] = {
+    title: "'To Be' with jobs - Simple Job Statements",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3016,8 +3016,8 @@ window.grammarExercises['to-be']['to-be-with-jobs-building-page1'] = {
 /* ============================================
 Page 2: Simple workplace descriptions - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page2'] = {
-    title: "Simple Workplace Descriptions",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page2'] = {
+    title: "'To Be' with jobs - Workplace Descriptions",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3125,8 +3125,8 @@ window.grammarExercises['to-be']['to-be-with-jobs-building-page2'] = {
 /* ============================================
 Page 3: Simple job questions - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page3'] = {
-    title: "Simple Job Questions",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page3'] = {
+    title: "'To Be' with jobs - Simple Job Questions",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3234,8 +3234,8 @@ window.grammarExercises['to-be']['to-be-with-jobs-building-page3'] = {
 /* ============================================
 Page 4: Simple negative job statements - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page4'] = {
-    title: "Simple Negative Statements",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page4'] = {
+    title: "'To Be' with jobs - Simple Negative Statements",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3343,8 +3343,8 @@ window.grammarExercises['to-be']['to-be-with-jobs-building-page4'] = {
 /* ============================================
 Page 5: Simple work places and locations - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page5'] = {
-    title: "Work Places and Locations",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page5'] = {
+    title: "'To Be' with jobs - Work Places and Locations",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3452,8 +3452,8 @@ window.grammarExercises['to-be']['to-be-with-jobs-building-page5'] = {
 /* ============================================
 Page 6: Simple time and schedule statements - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page6'] = {
-    title: "Time and Work Schedule",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page6'] = {
+    title: "'To Be' with jobs - Time and Work Schedule",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3561,8 +3561,8 @@ window.grammarExercises['to-be']['to-be-with-jobs-building-page6'] = {
 /* ============================================
 Page 7: Simple job adjectives and descriptions - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page7'] = {
-    title: "Job Descriptions and Adjectives",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page7'] = {
+    title: "'To Be' with jobs - Job Descriptions",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3670,8 +3670,8 @@ window.grammarExercises['to-be']['to-be-with-jobs-building-page7'] = {
 /* ============================================
 Page 8: Simple "who" questions about jobs - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page8'] = {
-    title: "Who Questions About Jobs",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page8'] = {
+    title: "'To Be' with jobs - Who Questions About Jobs",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3779,8 +3779,8 @@ window.grammarExercises['to-be']['to-be-with-jobs-building-page8'] = {
 /* ============================================
 Page 9: Simple "where" questions about work - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page9'] = {
-    title: "Where Questions About Work",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page9'] = {
+    title: "'To Be' with jobs - Where Questions About Work",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3888,8 +3888,8 @@ window.grammarExercises['to-be']['to-be-with-jobs-building-page9'] = {
 /* ============================================
 Page 10: Simple "when" and "what" questions about work - Sentence Building (A1 Level)
 ============================================ */
-window.grammarExercises['to-be']['to-be-with-jobs-building-page10'] = {
-    title: "When and What Questions About Work",
+window.grammarExercises['to-be']['to-be-with-jobs-sentence-page10'] = {
+    title: "'To Be' with jobs - Questions About Work",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",

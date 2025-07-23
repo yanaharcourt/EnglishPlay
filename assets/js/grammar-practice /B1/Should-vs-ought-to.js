@@ -352,22 +352,6 @@ window.grammarExercises['modals']['should-vs-ought-to-page3'] = {
     title: "Should vs Ought to - Professional and Personal Development",
     multipleChoice: [
         {
-            question: "Choose the correct modal verb:",
-            questionRu: "Выберите правильный модальный глагол:",
-            sentence: "Journalists _____ to report the truth, even when it's difficult.",
-            options: [
-                "should",
-                "ought",
-                "will",
-                "can"
-            ],
-            correctAnswer: 1,
-            correctFeedback: "Excellent! 'Ought to' emphasizes the moral obligation journalists have to maintain integrity and serve the public.",
-            correctFeedbackRu: "Отлично! 'Ought to' подчеркивает моральное обязательство журналистов поддерживать честность и служить обществу.",
-            incorrectFeedback: "Think about press freedom! **'Ought to' shows ethical responsibility.** Journalism isn't just about writing stories - it's about having a moral duty to inform society truthfully. 'Should' would make it sound like helpful advice rather than a fundamental pillar of democratic society.",
-            incorrectFeedbackRu: "Подумайте о свободе прессы! **'Ought to' показывает этическую ответственность.** Журналистика — это не просто о написании историй, это о моральном долге правдиво информировать общество. 'Should' звучало бы как полезный совет, а не как основная опора демократического общества."
-        },
-        {
             question: "Select the best modal:",
             questionRu: "Выберите лучший модальный глагол:",
             sentence: "You _____ practice piano every day to improve your skills.",

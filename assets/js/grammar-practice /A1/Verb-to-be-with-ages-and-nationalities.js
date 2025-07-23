@@ -12,7 +12,7 @@ window.grammarExercises['to-be'] = window.grammarExercises['to-be'] || {};
 Page 1: Introducing yourself with age
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page1'] = {
-    title: "Introducing yourself with age",
+    title: "'To Be' with ages and nationalities - Introducing yourself with age",
     multipleChoice: [
         {
             question: "Choose the correct form to introduce your age:",
@@ -176,7 +176,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page1'] = {
 Page 2: Talking about nationalities and origins  
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page2'] = {
-    title: "Talking about nationalities and origins",
+    title: "'To Be' with ages and nationalities - Talking about nationalities and origins",
     multipleChoice: [
         {
             question: "Choose the correct way to state your nationality:",
@@ -340,7 +340,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page2'] = {
 Page 3: Combining age and nationality information
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page3'] = {
-    title: "Combining age and nationality information",
+    title: "'To Be' with ages and nationalities - Combining age and nationality information",
     multipleChoice: [
         {
             question: "Choose the correct forms for complete self-introduction:",
@@ -503,7 +503,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page3'] = {
 Page 4: Questions and negative forms with age and nationality
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page4'] = {
-    title: "Questions and negative forms with age and nationality",
+    title: "'To Be' with ages and nationalities - Questions and negative forms with age and nationality",
     multipleChoice: [
         {
             question: "Choose the correct negative form about age:",
@@ -534,21 +534,6 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page4'] = {
             correctFeedbackRu: "Правильно! Вопросы с 'she' начинаются с 'Is she...?'",
             incorrectFeedback: "Incorrect. Questions about 'she' begin with 'Is she'.",
             incorrectFeedbackRu: "Неправильно. Вопросы о 'she' начинаются с 'Is she'."
-        },
-        {
-            question: "Choose the right negative sentence about nationality:",
-            questionRu: "Выберите правильное отрицательное предложение о национальности:",
-            options: [
-                "He is not French, he is Belgian.",
-                "He not is French, he is Belgian.",
-                "He no is French, he is Belgian.",
-                "He don't is French, he is Belgian."
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Excellent! Use 'is not' to make negative statements about nationality.",
-            correctFeedbackRu: "Отлично! Используйте 'is not' для отрицательных утверждений о национальности.",
-            incorrectFeedback: "Incorrect. The proper negative form is 'is not'.",
-            incorrectFeedbackRu: "Неправильно. Правильная отрицательная форма - 'is not'."
         },
         {
             question: "Select the correct question about age:",
@@ -679,7 +664,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page4'] = {
 Page 5: Simple age comparisons and family members
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page5'] = {
-    title: "Simple age comparisons and family members",
+    title: "'To Be' with ages and nationalities - Simple age comparisons and family members",
     multipleChoice: [
         {
             question: "Choose the correct form to compare ages:",
@@ -843,7 +828,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page5'] = {
 Page 6: Countries, cities and where people live
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page6'] = {
-    title: "Countries, cities and where people live",
+    title: "'To Be' with ages and nationalities - Countries, cities and where people live",
     multipleChoice: [
         {
             question: "Choose the correct way to say where you live:",
@@ -1007,7 +992,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page6'] = {
 Page 7: Mixed practice with age, nationality and basic information
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page7'] = {
-    title: "Mixed practice with age, nationality and basic information",
+    title: "'To Be' with ages and nationalities - Mixed practice with age, nationality and basic information",
     multipleChoice: [
         {
             question: "Choose the correct forms for a complete introduction:",
@@ -1172,7 +1157,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page7'] = {
 Page 8: Describing groups and communities
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page8'] = {
-    title: "Describing groups and communities",
+    title: "'To Be' with ages and nationalities - Describing groups and communities",
     multipleChoice: [
         {
             question: "Choose the correct form to describe your class:",
@@ -1337,7 +1322,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page8'] = {
 Page 9: Professional and social contexts
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page9'] = {
-    title: "Professional and social contexts",
+    title: "'To Be' with ages and nationalities - Professional and social contexts",
     multipleChoice: [
         {
             question: "Choose the correct form for workplace introductions:",
@@ -1502,7 +1487,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page9'] = {
 Page 10: Advanced combinations and real-life scenarios
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-page10'] = {
-    title: "Advanced combinations and real-life scenarios",
+    title: "'To Be' with ages and nationalities - Advanced combinations and real-life scenarios",
     multipleChoice: [
         {
             question: "Choose the correct forms for a complex introduction:",
@@ -1675,7 +1660,7 @@ console.log("'to be' exercises data loaded successfully!");
 Page 1: Basic personal information with age
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page1'] = {
-    title: "Basic personal information with age",
+    title: "'To Be' with ages and nationalities - Basic personal information with age",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -1794,7 +1779,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page1'] 
 Page 2: Nationalities and countries of origin
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page2'] = {
-    title: "Nationalities and countries of origin",
+    title: "'To Be' with ages and nationalities - Nationalities and countries of origin",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -1913,7 +1898,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page2'] 
 Page 3: Combining age and nationality information
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page3'] = {
-    title: "Combining age and nationality information",
+    title: "'To Be' with ages and nationalities - Combining age and nationality information",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2032,7 +2017,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page3'] 
 Page 4: Questions and negative forms
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page4'] = {
-    title: "Questions and negative forms",
+    title: "'To Be' with ages and nationalities - Questions and negative forms",
     fillGaps: [
         {
             question: "Complete the question with the correct form of 'to be':",
@@ -2151,7 +2136,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page4'] 
 Page 5: Family members and relationships
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page5'] = {
-    title: "Family members and relationships",
+    title: "'To Be' with ages and nationalities - Family members and relationships",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2270,7 +2255,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page5'] 
 Page 6: Professional and social contexts
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page6'] = {
-    title: "Professional and social contexts",
+    title: "'To Be' with ages and nationalities - Professional and social contexts",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2389,7 +2374,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page6'] 
 Page 7: Age ranges and approximate ages
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page7'] = {
-    title: "Age ranges and approximate ages",
+    title: "'To Be' with ages and nationalities - ge ranges and approximate ages",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2508,7 +2493,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page7'] 
 Page 8: Mixed nationalities and cultural backgrounds
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page8'] = {
-    title: "Mixed nationalities and cultural backgrounds",
+    title: "'To Be' with ages and nationalities - Mixed nationalities and cultural backgrounds",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2627,7 +2612,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page8'] 
 Page 9: Advanced age and life stage descriptions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page9'] = {
-    title: "Advanced age and life stage descriptions",
+    title: "'To Be' with ages and nationalities - Advanced age and life stage descriptions",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2746,7 +2731,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page9'] 
 Page 10: Complex real-life scenarios and review
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page10'] = {
-    title: "Complex real-life scenarios and review",
+    title: "'To Be' with ages and nationalities - Complex real-life scenarios and review",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2873,7 +2858,7 @@ console.log("Verb 'to be' Fill in the Gaps exercises data loaded successfully!")
 Page 1: Basic introductions with age
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page1'] = {
-    title: "Basic introductions with age",
+    title: "'To Be' with ages and nationalities - Basic introductions with age",
     sentenceBuilding: [
         {
             question: "Form a sentence about your sister's age:",
@@ -2982,7 +2967,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 2: Basic nationality statements
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page2'] = {
-    title: "Basic nationality statements",
+    title: "'To Be' with ages and nationalities - Basic nationality statements",
     sentenceBuilding: [
         {
             question: "Form a sentence about your nationality:",
@@ -3091,7 +3076,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 3: Combining age and nationality information
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page3'] = {
-    title: "Combining age and nationality information",
+    title: "'To Be' with ages and nationalities - Combining age and nationality information",
     sentenceBuilding: [
         {
             question: "Form a sentence with age and nationality about yourself:",
@@ -3200,7 +3185,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 4: Questions and negative forms
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page4'] = {
-    title: "Questions and negative forms",
+    title: "'To Be' with ages and nationalities - Questions and negative forms",
     sentenceBuilding: [
         {
             question: "Form a question about someone's age:",
@@ -3309,7 +3294,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 5: Family relationships and descriptions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page5'] = {
-    title: "Family relationships and descriptions",
+    title: "'To Be' with ages and nationalities - Family relationships",
     sentenceBuilding: [
         {
             question: "Form a sentence about your uncle:",
@@ -3418,7 +3403,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 6: Professional and educational contexts
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page6'] = {
-    title: "Professional and educational contexts",
+    title: "'To Be' with ages and nationalities - Professional and educational contexts",
     sentenceBuilding: [
         {
             question: "Form a sentence about your boss:",
@@ -3527,7 +3512,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 7: Age ranges and life stages
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page7'] = {
-    title: "Age ranges and life stages",
+    title: "'To Be' with ages and nationalities - Age ranges and life stages",
     sentenceBuilding: [
         {
             question: "Form a sentence about being in your twenties:",
@@ -3636,7 +3621,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 8: Cultural backgrounds and mixed heritage
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page8'] = {
-    title: "Cultural backgrounds and mixed heritage",
+    title: "'To Be' with ages and nationalities - Cultural backgrounds",
     sentenceBuilding: [
         {
             question: "Form a sentence about mixed heritage:",
@@ -3745,7 +3730,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 9: Complex descriptions and social contexts
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page9'] = {
-    title: "Complex descriptions and social contexts",
+    title: "'To Be' with ages and nationalities - Complex descriptions",
     sentenceBuilding: [
         {
             question: "Form a sentence about generation differences:",
@@ -3854,7 +3839,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 10: Complete introductions and real-life scenarios
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page10'] = {
-    title: "Complete introductions and real-life scenarios",
+    title: "'To Be' with ages and nationalities -Real-life scenarios",
     sentenceBuilding: [
         {
             question: "Form a complete self-introduction with all details:",
