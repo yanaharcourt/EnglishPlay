@@ -197,18 +197,18 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page2'] = {
         {
             question: "Select the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "He ___ over the fence.",
+            sentence: "He ___ over the fence into the garden.",
             options: [
-                "jumped",
-                "jump",
-                "jumpt",
-                "jumping"
+                "went",
+                "go",
+                "goed",
+                "going"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! Actually 'jump' is regular. Let me give you an irregular verb:",
-            correctFeedbackRu: "Подождите! На самом деле 'jump' правильный глагол. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Actually, 'jump' is a regular verb. Here's an irregular example:",
-            incorrectFeedbackRu: "На самом деле 'jump' - правильный глагол. Вот пример неправильного:"
+            correctFeedback: "Excellent! 'went' is the past simple form of 'go'.",
+            correctFeedbackRu: "Отлично! 'went' - это форма прошедшего времени глагола 'go'.",
+            incorrectFeedback: "Incorrect. 'Go' is irregular - it becomes 'went' in past simple, not 'goed'.",
+            incorrectFeedbackRu: "Неправильно. 'Go' - неправильный глагол, в прошедшем времени становится 'went', а не 'goed'."
         },
         {
             question: "Select the correct past simple form:",
@@ -277,18 +277,18 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page2'] = {
         {
             question: "Select the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "She ___ on the ice and fell.",
+            sentence: "She ___ down the stairs carefully.",
             options: [
-                "slipped",
-                "slip",
-                "slipt",
-                "slipping"
+                "came",
+                "come",
+                "comed",
+                "coming"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'Slip' is actually regular. Let me give you an irregular verb:",
-            correctFeedbackRu: "Подождите! 'Slip' на самом деле правильный глагол. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Actually, 'slip' is regular. Here's an irregular example:",
-            incorrectFeedbackRu: "На самом деле 'slip' правильный глагол. Вот пример неправильного:"
+            correctFeedback: "Perfect! 'came' is the past simple form of 'come'.",
+            correctFeedbackRu: "Отлично! 'came' - это форма прошедшего времени глагола 'come'.",
+            incorrectFeedback: "Incorrect. 'Come' is irregular - it becomes 'came' in past simple, not 'comed'.",
+            incorrectFeedbackRu: "Неправильно. 'Come' - неправильный глагол, в прошедшем времени становится 'came', а не 'comed'."
         },
         {
             question: "Select the correct past simple form:",
@@ -663,18 +663,18 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page4'] = {
         {
             question: "Select the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "I ___ at home all weekend.",
+            sentence: "I ___ eight hours last night.",
             options: [
-                "stayed",
-                "stay",
-                "staid",
-                "staying"
+                "slept",
+                "sleep",
+                "sleeped",
+                "sleeping"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'Stay' is actually regular. But 'staid' exists as an archaic form. Let me give a clear irregular example:",
-            correctFeedbackRu: "Подождите! 'Stay' на самом деле правильный глагол. Но 'staid' существует как архаичная форма. Позвольте дать четкий пример неправильного глагола:",
-            incorrectFeedback: "Actually, 'stay' is regular (stayed). Here's a clear irregular example:",
-            incorrectFeedbackRu: "На самом деле 'stay' правильный глагол (stayed). Вот четкий пример неправильного:"
+            correctFeedback: "Excellent! 'slept' is the past simple form of 'sleep'.",
+            correctFeedbackRu: "Отлично! 'slept' - это форма прошедшего времени глагола 'sleep'.",
+            incorrectFeedback: "Incorrect. 'Sleep' is irregular - it becomes 'slept' in past simple, not 'sleeped'.",
+            incorrectFeedbackRu: "Неправильно. 'Sleep' - неправильный глагол, в прошедшем времени становится 'slept', а не 'sleeped'."
         }
     ]
 };
@@ -736,18 +736,18 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page5'] = {
         {
             question: "Select the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "They ___ at the hotel for a week.",
+            sentence: "They ___ their bags and left.",
             options: [
-                "stayed",
-                "stay",
-                "staid",
-                "staying"
+                "took",
+                "take",
+                "taked",
+                "taking"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'Stay' is actually regular. Let me give you an irregular verb:",
-            correctFeedbackRu: "Подождите! 'Stay' на самом деле правильный глагол. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Actually, 'stay' is regular. Here's an irregular example:",
-            incorrectFeedbackRu: "На самом деле 'stay' правильный глагол. Вот пример неправильного:"
+            correctFeedback: "Perfect! 'took' is the past simple form of 'take'.",
+            correctFeedbackRu: "Отлично! 'took' - это форма прошедшего времени глагола 'take'.",
+            incorrectFeedback: "Incorrect. 'Take' is irregular - it becomes 'took' in past simple, not 'taked'.",
+            incorrectFeedbackRu: "Неправильно. 'Take' - неправильный глагол, в прошедшем времени становится 'took', а не 'taked'."
         },
         {
             question: "Select the correct past simple form:",
@@ -816,18 +816,18 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page5'] = {
         {
             question: "Select the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "He ___ his passport at security.",
+            sentence: "He ___ his passport to the officer.",
             options: [
-                "showed",
-                "show",
-                "shew",
-                "showing"
+                "gave",
+                "give",
+                "gived",
+                "giving"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'Show' is usually regular (showed). Though 'shew' is archaic. Let me give a clear irregular:",
-            correctFeedbackRu: "Подождите! 'Show' обычно правильный глагол (showed). Хотя 'shew' архаичная форма. Позвольте дать четкий неправильный:",
-            incorrectFeedback: "Actually, 'show' is regular (showed). Here's a clear irregular example:",
-            incorrectFeedbackRu: "На самом деле 'show' правильный глагол (showed). Вот четкий пример неправильного:"
+            correctFeedback: "Perfect! 'gave' is the past simple form of 'give'.",
+            correctFeedbackRu: "Отлично! 'gave' - это форма прошедшего времени глагола 'give'.",
+            incorrectFeedback: "Incorrect. 'Give' is irregular - it becomes 'gave' in past simple, not 'gived'.",
+            incorrectFeedbackRu: "Неправильно. 'Give' - неправильный глагол, в прошедшем времени становится 'gave', а не 'gived'."
         },
         {
             question: "Select the correct past simple form:",
@@ -921,50 +921,50 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page6'] = {
         {
             question: "Choose the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "They ___ the course successfully.",
+            sentence: "I ___ a new bicycle for my birthday.",
             options: [
-                "completed",
-                "complete",
-                "complited",
-                "completing"
+                "got",
+                "get",
+                "getted",
+                "getting"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'Complete' is actually regular. Let me give you an irregular verb:",
-            correctFeedbackRu: "Подождите! 'Complete' на самом деле правильный глагол. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Actually, 'complete' is regular. Here's an irregular example:",
-            incorrectFeedbackRu: "На самом деле 'complete' правильный глагол. Вот пример неправильного:"
+            correctFeedback: "Perfect! 'got' is the past simple form of 'get'.",
+            correctFeedbackRu: "Отлично! 'got' - это форма прошедшего времени глагола 'get'.",
+            incorrectFeedback: "Incorrect. 'Get' is irregular - it becomes 'got' in past simple, not 'getted'.",
+            incorrectFeedbackRu: "Неправильно. 'Get' - неправильный глагол, в прошедшем времени становится 'got', а не 'getted'."
+        },
+        {
+            question: "Select the correct past simple form:",
+            questionRu: "Выберите правильную форму прошедшего времени:",
+            sentence: "She ___ me a letter yesterday.",
+            options: [
+                "wrote",
+                "write",
+                "writed",
+                "writing"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'wrote' is the past simple form of 'write'.",
+            correctFeedbackRu: "Отлично! 'wrote' - это форма прошедшего времени глагола 'write'.",
+            incorrectFeedback: "Incorrect. 'Write' is irregular - it becomes 'wrote' in past simple, not 'writed'.",
+            incorrectFeedbackRu: "Неправильно. 'Write' - неправильный глагол, в прошедшем времени становится 'wrote', а не 'writed'."
         },
         {
             question: "Choose the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "They ___ their studies last month.",
+            sentence: "He ___ his homework before dinner.",
             options: [
-                "ended",
-                "end",
-                "ended",
-                "ending"
+                "did",
+                "do",
+                "doed",
+                "doing"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'End' is regular. Let me give an irregular verb:",
-            correctFeedbackRu: "Подождите! 'End' правильный глагол. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Actually, 'end' is regular. Here's an irregular example:",
-            incorrectFeedbackRu: "На самом деле 'end' правильный глагол. Вот пример неправильного:"
-        },
-        {
-            question: "Choose the correct past simple form:",
-            questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "They ___ their education at university.",
-            options: [
-                "completed",
-                "finish",
-                "finished",
-                "finishing"
-            ],
-            correctAnswer: 2,
-            correctFeedback: "Wait! Both 'complete' and 'finish' are regular. Let me give an irregular verb:",
-            correctFeedbackRu: "Подождите! И 'complete', и 'finish' правильные глаголы. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Both options are regular verbs. Here's an irregular example:",
-            incorrectFeedbackRu: "Оба варианта - правильные глаголы. Вот пример неправильного:"
+            correctFeedback: "Perfect! 'did' is the past simple form of 'do'.",
+            correctFeedbackRu: "Отлично! 'did' - это форма прошедшего времени глагола 'do'.",
+            incorrectFeedback: "Incorrect. 'Do' is irregular - it becomes 'did' in past simple, not 'doed'.",
+            incorrectFeedbackRu: "Неправильно. 'Do' - неправильный глагол, в прошедшем времени становится 'did', а не 'doed'."
         },
         {
             question: "Choose the correct past simple form:",
@@ -1001,18 +1001,18 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page6'] = {
         {
             question: "Choose the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "He ___ himself how to code.",
+            sentence: "He ___ us a story before bedtime.",
             options: [
-                "taught",
-                "teach",
-                "teached",
-                "teaching"
+                "told",
+                "tell",
+                "telled", 
+                "telling"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'taught' is the past simple form of 'teach'.",
-            correctFeedbackRu: "Правильно! 'taught' - это форма прошедшего времени глагола 'teach'.",
-            incorrectFeedback: "Incorrect. 'Teach' is irregular - it becomes 'taught' in past simple, not 'teached'.",
-            incorrectFeedbackRu: "Неправильно. 'Teach' - неправильный глагол, в прошедшем времени становится 'taught', а не 'teached'."
+            correctFeedback: "Correct! 'told' is the past simple form of 'tell'.",
+            correctFeedbackRu: "Правильно! 'told' - это форма прошедшего времени глагола 'tell'.",
+            incorrectFeedback: "Incorrect. 'Tell' is irregular - it becomes 'told' in past simple, not 'telled'.",
+            incorrectFeedbackRu: "Неправильно. 'Tell' - неправильный глагол, в прошедшем времени становится 'told', а не 'telled'."
         }
     ]
 };
@@ -1058,18 +1058,18 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page7'] = {
         {
             question: "Choose the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "They ___ the contract yesterday.",
+            sentence: "They ___ a new house last month.",
             options: [
-                "signed",
-                "sign",
-                "sined",
-                "signing"
+                "bought",
+                "buy",
+                "buyed",
+                "buying"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'Sign' is actually regular. Let me give you an irregular verb:",
-            correctFeedbackRu: "Подождите! 'Sign' на самом деле правильный глагол. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Actually, 'sign' is regular. Here's an irregular example:",
-            incorrectFeedbackRu: "На самом деле 'sign' правильный глагол. Вот пример неправильного:"
+            correctFeedback: "Excellent! 'bought' is the past simple form of 'buy'.",
+            correctFeedbackRu: "Отлично! 'bought' - это форма прошедшего времени глагола 'buy'.",
+            incorrectFeedback: "Incorrect. 'Buy' is irregular - it becomes 'bought' in past simple, not 'buyed'.",
+            incorrectFeedbackRu: "Неправильно. 'Buy' - неправильный глагол, в прошедшем времени становится 'bought', а не 'buyed'."
         },
         {
             question: "Choose the correct past simple form:",
@@ -1291,18 +1291,18 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page8'] = {
         {
             question: "Choose the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "The river ___ its banks after heavy rain.",
+            sentence: "The wind ____ very hard last night.",
             options: [
-                "overflowed",
-                "overflow",
-                "overflew",
-                "overflowing"
+                "blew",
+                "blow",
+                "blowed",
+                "blowing"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'Overflow' is actually regular. Let me give you an irregular verb:",
-            correctFeedbackRu: "Подождите! 'Overflow' на самом деле правильный глагол. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Actually, 'overflow' is regular. Here's an irregular example:",
-            incorrectFeedbackRu: "На самом деле 'overflow' правильный глагол. Вот пример неправильного:"
+            correctFeedback: "Perfect! 'blew' is the past simple form of 'blow'.",
+            correctFeedbackRu: "Отлично! 'blew' - это форма прошедшего времени глагола 'blow'.",
+            incorrectFeedback: "Incorrect. 'Blow' is irregular - it becomes 'blew' in past simple.",
+            incorrectFeedbackRu: "Неправильно. 'Blow' - неправильный глагол, в прошедшем времени становится 'blew'."
         },
         {
             question: "Choose the correct past simple form:",
@@ -1321,36 +1321,36 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-page8'] = {
             incorrectFeedbackRu: "Неправильно. 'Bring' - неправильный глагол, форма прошедшего времени 'brought', а не 'bringed'."
         },
         {
-            question: "Select the correct past simple form:",
-            questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "Lightning ___ the old oak tree.",
-            options: [
-                "struck",
-                "strike",
-                "striked",
-                "striking"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Excellent! 'struck' is the past simple form of 'strike'.",
-            correctFeedbackRu: "Отлично! 'struck' - это форма прошедшего времени глагола 'strike'.",
-            incorrectFeedback: "Incorrect. 'Strike' is irregular - it becomes 'struck' in past simple, not 'striked'.",
-            incorrectFeedbackRu: "Неправильно. 'Strike' - неправильный глагол, в прошедшем времени становится 'struck', а не 'striked'."
-        },
-        {
             question: "Choose the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "The temperature ___ below zero.",
+            sentence: "The bird ____ away when it saw the cat.",
             options: [
-                "sank",
-                "sink",
-                "sinked",
-                "sinking"
+                "flew",
+                "fly",
+                "flyed",
+                "flying"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'sank' is the past simple form of 'sink'.",
-            correctFeedbackRu: "Правильно! 'sank' - это форма прошедшего времени глагола 'sink'.",
-            incorrectFeedback: "Incorrect. 'Sink' is irregular - it becomes 'sank' in past simple, not 'sinked'.",
-            incorrectFeedbackRu: "Неправильно. 'Sink' - неправильный глагол, в прошедшем времени становится 'sank', а не 'sinked'."
+            correctFeedback: "Perfect! 'flew' is the past simple form of 'fly'.",
+            correctFeedbackRu: "Отлично! 'flew' - это форма прошедшего времени глагола 'fly'.",
+            incorrectFeedback: "Incorrect. 'Fly' is irregular - it becomes 'flew' in past simple.",
+            incorrectFeedbackRu: "Неправильно. 'Fly' - неправильный глагол, в прошедшем времени становится 'flew'."
+        },
+        {
+            question: "Select the correct past simple form:",
+            questionRu: "Выберите правильную форму прошедшего времени:",
+            sentence: "The sun ____ at six o'clock this morning.",
+            options: [
+                "rose",
+                "rise",
+                "rised",
+                "rising"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'rose' is the past simple form of 'rise'.",
+            correctFeedbackRu: "Отлично! 'rose' - это форма прошедшего времени глагола 'rise'.",
+            incorrectFeedback: "Incorrect. 'Rise' is irregular - it becomes 'rose' in past simple.",
+            incorrectFeedbackRu: "Неправильно. 'Rise' - неправильный глагол, в прошедшем времени становится 'rose'."
         }
     ]
 };
@@ -1760,9 +1760,9 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-gap-page1'] 
         {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",
-            sentence: "He ____ the book on the desk this morning.",
+            sentence: "He ____ the book on the shelf yesterday.",
             correctAnswer: "put",
-            options: ["put", "putted", "putting", "puts"],
+            options: ["put", "putted", "puted", "putting"],
             correctFeedback: "Great! 'put' stays the same in past simple.",
             correctFeedbackRu: "Отлично! 'put' остается неизменным в прошедшем времени.",
             incorrectFeedback: "Incorrect. 'Put' is irregular - it stays the same in past simple.",
@@ -1782,13 +1782,13 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-gap-page1'] 
         {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",
-            sentence: "They ____ French when they lived in Paris.",
-            correctAnswer: "learnt",
-            options: ["learnt", "learned", "learn", "learning"],
-            correctFeedback: "Perfect! 'learnt' is the British irregular past form of 'learn'.",
-            correctFeedbackRu: "Отлично! 'learnt' - это британская неправильная форма прошедшего времени глагола 'learn'.",
-            incorrectFeedback: "Remember: 'learn' can be irregular - 'learnt' is the British past form.",
-            incorrectFeedbackRu: "Помните: 'learn' может быть неправильным - 'learnt' это британская форма прошедшего времени."
+            sentence: "They ____ English very well in London.",
+            correctAnswer: "spoke",
+            options: ["spoke", "speak", "speaked", "speaking"],
+            correctFeedback: "Perfect! 'spoke' is the past simple form of 'speak'.",
+            correctFeedbackRu: "Отлично! 'spoke' - это форма прошедшего времени глагола 'speak'.",
+            incorrectFeedback: "Incorrect. 'Speak' is irregular - it becomes 'spoke' in past simple, not 'speaked'.",
+            incorrectFeedbackRu: "Неправильно. 'Speak' - неправильный глагол, в прошедшем времени становится 'spoke', а не 'speaked'."
         },
         {
             question: "Complete the sentence with the correct past form:",
@@ -1804,7 +1804,7 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-gap-page1'] 
         {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",
-            sentence: "She ____ a beautiful poem for her mother.",
+            sentence: "She ____ a beautiful poem for her mother's birthday.",
             correctAnswer: "wrote",
             options: ["wrote", "write", "writed", "writing"],
             correctFeedback: "Excellent! 'wrote' is the past simple form of 'write'.",
@@ -1835,13 +1835,13 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-gap-page2'] 
         {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",
-            sentence: "The cat ____ gracefully from the tree to the ground.",
-            correctAnswer: "leapt",
-            options: ["leapt", "leap", "leaped", "leaping"],
-            correctFeedback: "Excellent! 'leapt' is the irregular past form of 'leap'.",
-            correctFeedbackRu: "Отлично! 'leapt' - это неправильная форма прошедшего времени глагола 'leap'.",
-            incorrectFeedback: "Correct! 'Leap' can be irregular - 'leapt' is the irregular past form.",
-            incorrectFeedbackRu: "Правильно! 'Leap' может быть неправильным - 'leapt' это неправильная форма прошедшего времени."
+            sentence: "The cat ____ under the table when it heard the noise.",
+            correctAnswer: "hid",
+            options: ["hid", "hide", "hided", "hiding"],
+            correctFeedback: "Excellent! 'hid' is the past simple form of 'hide'.",
+            correctFeedbackRu: "Отлично! 'hid' - это форма прошедшего времени глагола 'hide'.",
+            incorrectFeedback: "Incorrect. 'Hide' is irregular - it becomes 'hid' in past simple.",
+            incorrectFeedbackRu: "Неправильно. 'Hide' - неправильный глагол, в прошедшем времени становится 'hid'."
         },
         {
             question: "Complete the sentence with the correct past form:",
@@ -2007,15 +2007,15 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-gap-page3'] 
             incorrectFeedbackRu: "Неправильно. 'Know' - неправильный глагол, в прошедшем времени становится 'knew'."
         },
         {
-            question: "Complete the sentence with the correct past form:",
-            questionRu: "Заполните предложение правильной формой прошедшего времени:",
-            sentence: "The children ____ their favorite fairy tale again.",
+            question: "Fill in the blank with the correct verb form:",
+            questionRu: "Заполните пропуск правильной формой глагола:",
+            sentence: "I ____ a good book yesterday.",
             correctAnswer: "read",
-            options: ["read", "readed", "reading", "reads"],
-            correctFeedback: "Perfect! 'read' (pronounced 'red') is the past form of 'read'.",
-            correctFeedbackRu: "Отлично! 'read' (произносится 'red') - это форма прошедшего времени глагола 'read'.",
-            incorrectFeedback: "Incorrect. 'Read' is irregular - same spelling but pronounced 'red' in past simple.",
-            incorrectFeedbackRu: "Неправильно. 'Read' - неправильный глагол, то же написание, но произносится 'red' в прошедшем времени."
+            options: ["read", "readed", "red", "reading"],
+            correctFeedback: "Perfect! 'read' is the past simple form of 'read' (same spelling, different pronunciation).",
+            correctFeedbackRu: "Отлично! 'read' - это форма прошедшего времени глагола 'read' (то же написание, другое произношение).",
+            incorrectFeedback: "Incorrect. 'Read' is irregular - the past form looks the same but sounds different.",
+            incorrectFeedbackRu: "Неправильно. 'Read' - неправильный глагол, форма прошедшего времени выглядит так же, но звучит по-другому."
         },
         {
             question: "Fill in the blank with the correct verb form:",
@@ -2258,13 +2258,13 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-gap-page5'] 
         {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",
-            sentence: "The customs officer ____ his documents carefully.",
-            correctAnswer: "checked",
-            options: ["checked", "check", "chekt", "checking"],
-            correctFeedback: "Wait! 'Check' is actually regular. Let me give you an irregular verb:",
-            correctFeedbackRu: "Подождите! 'Check' на самом деле правильный глагол. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Actually, 'check' is regular. Here's an irregular example:",
-            incorrectFeedbackRu: "На самом деле 'check' правильный глагол. Вот пример неправильного:"
+            sentence: "The customs officer ____ his passport at the border.",
+            correctAnswer: "took",
+            options: ["took", "take", "taked", "taking"],
+            correctFeedback: "Perfect! 'took' is the past simple form of 'take'.",
+            correctFeedbackRu: "Отлично! 'took' - это форма прошедшего времени глагола 'take'.",
+            incorrectFeedback: "Incorrect. 'Take' is irregular - it becomes 'took' in past simple, not 'taked'.",
+            incorrectFeedbackRu: "Неправильно. 'Take' - неправильный глагол, в прошедшем времени становится 'took', а не 'taked'."
         },
         {
             question: "Fill in the blank with the correct verb form:",
@@ -2311,13 +2311,13 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-gap-page6'] 
         {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",
-            sentence: "She ____ Spanish during her year abroad in Mexico.",
-            correctAnswer: "learnt",
-            options: ["learnt", "learned", "learn", "learning"],
-            correctFeedback: "Excellent! 'learnt' is the British irregular past form of 'learn'.",
-            correctFeedbackRu: "Отлично! 'learnt' - это британская неправильная форма прошедшего времени глагола 'learn'.",
-            incorrectFeedback: "Remember: 'learn' can be irregular - 'learnt' is the British past form.",
-            incorrectFeedbackRu: "Помните: 'learn' может быть неправильным - 'learnt' это британская форма прошедшего времени."
+            sentence: "She ____ Spanish very well after living in Madrid.",
+            correctAnswer: "spoke",
+            options: ["spoke", "speak", "speaked", "speaking"],
+            correctFeedback: "Excellent! 'spoke' is the past simple form of 'speak'.",
+            correctFeedbackRu: "Отлично! 'spoke' - это форма прошедшего времени глагола 'speak'.",
+            incorrectFeedback: "Incorrect. 'Speak' is irregular - it becomes 'spoke' in past simple.",
+            incorrectFeedbackRu: "Неправильно. 'Speak' - неправильный глагол, в прошедшем времени становится 'spoke'."
         },
         {
             question: "Complete the sentence with the correct past form:",
@@ -2377,18 +2377,18 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-gap-page6'] 
         {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",
-            sentence: "We ____ knowledge through hands-on experience.",
-            correctAnswer: "gained",
-            options: ["gained", "gain", "gane", "gaining"],
-            correctFeedback: "Wait! 'Gain' is actually regular. Let me give you an irregular verb:",
-            correctFeedbackRu: "Подождите! 'Gain' на самом деле правильный глагол. Позвольте дать неправильный глагол:",
-            incorrectFeedback: "Actually, 'gain' is regular. Here's an irregular example:",
-            incorrectFeedbackRu: "На самом деле 'gain' правильный глагол. Вот пример неправильного:"
+            sentence: "We ____ knowledge through experience.",
+            correctAnswer: "got",
+            options: ["got", "get", "getted", "getting"],
+            correctFeedback: "Excellent! 'got' is the past simple form of 'get'.",
+            correctFeedbackRu: "Отлично! 'got' - это форма прошедшего времени глагола 'get'.",
+            incorrectFeedback: "Incorrect. 'Get' is irregular - it becomes 'got' in past simple, not 'getted'.",
+            incorrectFeedbackRu: "Неправильно. 'Get' - неправильный глагол, в прошедшем времени становится 'got', а не 'getted'."
         },
         {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",
-            sentence: "We ____ wisdom through our challenging experiences.",
+            sentence: "We ____ wisdom through experience.",
             correctAnswer: "found",
             options: ["found", "find", "finded", "finding"],
             correctFeedback: "Excellent! 'found' is the past simple form of 'find'.",
