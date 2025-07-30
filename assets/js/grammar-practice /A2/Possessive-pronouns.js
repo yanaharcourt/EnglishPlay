@@ -112,7 +112,7 @@ window.grammarExercises['pronouns']['possessive-pronouns-page1'] = {
         {
             question: "Choose the right possessive pronoun:",
             questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "Is this pen _____? I found it on your desk.",
+            sentence: "Is this pen _____? I found it in the classroom.",
             options: [
                 "yours",
                 "your",
@@ -160,18 +160,18 @@ window.grammarExercises['pronouns']['possessive-pronouns-page1'] = {
         {
             question: "Select the correct possessive pronoun:",
             questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "The white cat sleeping there is _____. We adopted it from the shelter.",
+            sentence: "Those gloves on the chair are _____. I left them there yesterday.",
             options: [
-                "ours",
-                "our",
-                "us",
-                "ourselves"
+                "mine",
+                "my",
+                "me",
+                "myself"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Ours' means the cat belongs to us and elegantly avoids repeating 'cat' in the sentence.",
-            correctFeedbackRu: "Отлично! 'Ours' означает, что кот принадлежит нам и изящно избегает повторения слова 'cat' в предложении.",
-            incorrectFeedback: "Not exactly! 'Ours' is the complete possessive form. 'Our' would need to come before a noun, like 'our cat'.",
-            incorrectFeedbackRu: "Не совсем! 'Ours' - это полная притяжательная форма. 'Our' нужно ставить перед существительным, например 'our cat'."
+            correctFeedback: "Perfect! 'Mine' means the gloves belong to me and works perfectly after the verb 'are'.",
+            correctFeedbackRu: "Отлично! 'Mine' означает, что перчатки принадлежат мне и отлично работает после глагола 'are'.",
+            incorrectFeedback: "Not exactly! 'Mine' is the complete possessive form. 'My' would need to come before a noun, like 'my gloves'.",
+            incorrectFeedbackRu: "Не совсем! 'Mine' - это полная притяжательная форма. 'My' нужно ставить перед существительным, например 'my gloves'."
         }
     ]
 };
@@ -297,18 +297,18 @@ window.grammarExercises['pronouns']['possessive-pronouns-page2'] = {
         {
             question: "Choose the appropriate possessive pronoun:",
             questionRu: "Выберите подходящее притяжательное местоимение:",
-            sentence: "We sold our old car and bought _____.",
+            sentence: "They sold their old car last week. We should sell _____ too.",
             options: [
-                "theirs",
-                "their",
-                "them",
-                "themselves"
+                "ours",
+                "our",
+                "us",
+                "ourselves"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Theirs' means 'their car' and shows you bought the car that belonged to them.",
-            correctFeedbackRu: "Отлично! 'Theirs' означает 'their car' и показывает, что вы купили машину, которая принадлежала им.",
-            incorrectFeedback: "Try again! 'Theirs' is the possessive pronoun meaning 'their car'. It works after verbs like 'bought'.",
-            incorrectFeedbackRu: "Попробуйте снова! 'Theirs' - это притяжательное местоимение, означающее 'their car'. Оно работает после глаголов типа 'bought'."
+            correctFeedback: "Perfect! 'Ours' means 'our car' and shows you should sell the car that belongs to you.",
+            correctFeedbackRu: "Отлично! 'Ours' означает 'our car' и показывает, что вам следует продать машину, которая принадлежит вам.",
+            incorrectFeedback: "Try again! 'Ours' is the possessive pronoun meaning 'our car'. It works after verbs like 'sell'.",
+            incorrectFeedbackRu: "Попробуйте снова! 'Ours' - это притяжательное местоимение, означающее 'our car'. Оно работает после глаголов типа 'sell'."
         },
         {
             question: "Select the correct possessive pronoun:",
@@ -384,9 +384,9 @@ window.grammarExercises['pronouns']['possessive-pronouns-page3'] = {
             incorrectFeedbackRu: "Неправильно. В вопросах о принадлежности используйте 'yours' (притяжательное местоимение). 'Your' нужно существительное после него."
         },
         {
-            question: "Pick the correct possessive pronoun:",
+            question: "Select the correct possessive pronoun:",
             questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "The children played with their toys, then played with _____.",
+            sentence: "The white cat sleeping there is _____. We adopted it from the shelter.",
             options: [
                 "ours",
                 "our",
@@ -394,10 +394,10 @@ window.grammarExercises['pronouns']['possessive-pronouns-page3'] = {
                 "ourselves"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Ours' is the possessive pronoun meaning 'our toys' after the preposition 'with'.",
-            correctFeedbackRu: "Превосходно! 'Ours' - это притяжательное местоимение, означающее 'our toys' после предлога 'with'.",
-            incorrectFeedback: "Wrong choice. Use 'ours' (possessive pronoun) after 'with'. It means 'our toys' without repeating the noun.",
-            incorrectFeedbackRu: "Неверный выбор. Используйте 'ours' (притяжательное местоимение) после 'with'. Оно означает 'our toys' без повторения существительного."
+            correctFeedback: "Perfect! 'Ours' means the cat belongs to us and elegantly avoids repeating 'cat' in the sentence.",
+            correctFeedbackRu: "Отлично! 'Ours' означает, что кот принадлежит нам и изящно избегает повторения слова 'cat' в предложении.",
+            incorrectFeedback: "Not exactly! 'Ours' is the complete possessive form. 'Our' would need to come before a noun, like 'our cat'.",
+            incorrectFeedbackRu: "Не совсем! 'Ours' - это полная притяжательная форма. 'Our' нужно ставить перед существительным, например 'our cat'."
         },
         {
             question: "Choose the appropriate possessive pronoun:",
@@ -480,36 +480,36 @@ window.grammarExercises['pronouns']['possessive-pronouns-page3'] = {
             incorrectFeedbackRu: "Неверный выбор. Используйте 'his' (притяжательное местоимение) как дополнение к 'bring'. Оно заменяет 'his lunch'."
         },
         {
-            question: "Select the correct possessive pronoun:",
+            question: "Choose the correct possessive pronoun:",
             questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "The couple sold their old furniture and bought new _____. Now we want to replace _____.",
+            sentence: "The laptop on the table is _____. I use it for work.",
             options: [
-                "ours",
-                "our",
-                "us",
-                "ourselves"
+                "mine",
+                "my",
+                "me",
+                "myself"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Ours' is the possessive pronoun meaning 'our furniture' after the verb 'replace'.",
-            correctFeedbackRu: "Отлично! 'Ours' - это притяжательное местоимение, означающее 'our furniture' после глагола 'replace'.",
-            incorrectFeedback: "Not correct. Use 'ours' (possessive pronoun) as the object of 'replace'. It means 'our furniture'.",
-            incorrectFeedbackRu: "Неправильно. Используйте 'ours' (притяжательное местоимение) как дополнение к 'replace'. Оно означает 'our furniture'."
+            correctFeedback: "Excellent! 'Mine' perfectly replaces 'my laptop' and shows that you own it without being repetitive.",
+            correctFeedbackRu: "Превосходно! 'Mine' отлично заменяет 'my laptop' и показывает, что вы владеете им, не повторяясь.",
+            incorrectFeedback: "Think again! 'Mine' is the independent form that means 'my laptop'. We don't say 'the laptop is my'.",
+            incorrectFeedbackRu: "Подумайте ещё раз! 'Mine' - это независимая форма, которая означает 'my laptop'. Мы не говорим 'the laptop is my'."
         },
         {
-            question: "Choose the right possessive pronoun:",
-            questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "My parents visited their friends yesterday. When did _____ visit you?",
+            question: "Choose the appropriate possessive pronoun:",
+            questionRu: "Выберите подходящее притяжательное местоимение:",
+            sentence: "That beautiful garden is _____. She spends hours working in it.",
             options: [
-                "yours",
-                "your",
-                "you",
-                "yourself"
+                "hers",
+                "her",
+                "she",
+                "herself"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'Yours' is the possessive pronoun meaning 'your parents' as the subject of 'visit'.",
-            correctFeedbackRu: "Правильно! 'Yours' - это притяжательное местоимение, означающее 'your parents' как подлежащее к 'visit'.",
-            incorrectFeedback: "Incorrect. Use 'yours' (possessive pronoun) as the subject of 'visit'. It means 'your parents'.",
-            incorrectFeedbackRu: "Неправильно. Используйте 'yours' (притяжательное местоимение) как подлежащее к 'visit'. Оно означает 'your parents'."
+            correctFeedback: "Great! 'Hers' shows that the garden belongs to her and works independently without needing 'garden' again.",
+            correctFeedbackRu: "Отлично! 'Hers' показывает, что сад принадлежит ей и работает независимо, не нуждаясь в слове 'garden' снова.",
+            incorrectFeedback: "Try again! 'Hers' is the possessive pronoun that stands alone. 'Her' would come before the noun, like 'her garden'.",
+            incorrectFeedbackRu: "Попробуйте снова! 'Hers' - это притяжательное местоимение, которое стоит отдельно. 'Her' стояло бы перед существительным, например 'her garden'."
         }
     ]
 };
@@ -667,7 +667,7 @@ window.grammarExercises['pronouns']['possessive-pronouns-page4'] = {
         {
             question: "Choose the right possessive pronoun:",
             questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "The principal praised their behavior. I hope she praises _____ too.",
+            sentence: "The teacher praised their project. I hope she likes _____ too.",
             options: [
                 "ours",
                 "our",
@@ -675,10 +675,10 @@ window.grammarExercises['pronouns']['possessive-pronouns-page4'] = {
                 "ourselves"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'Ours' is the possessive pronoun meaning 'our behavior' after the verb 'praises'.",
-            correctFeedbackRu: "Правильно! 'Ours' - это притяжательное местоимение, означающее 'our behavior' после глагола 'praises'.",
-            incorrectFeedback: "Incorrect. Use 'ours' (possessive pronoun) as the object of 'praises'. It means 'our behavior'.",
-            incorrectFeedbackRu: "Неправильно. Используйте 'ours' (притяжательное местоимение) как дополнение к 'praises'. Оно означает 'our behavior'."
+            correctFeedback: "Correct! 'Ours' is the possessive pronoun meaning 'our project' after the verb 'likes'.",
+            correctFeedbackRu: "Правильно! 'Ours' - это притяжательное местоимение, означающее 'our project' после глагола 'likes'.",
+            incorrectFeedback: "Incorrect. Use 'ours' (possessive pronoun) as the object of 'likes'. It means 'our project'.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'ours' (притяжательное местоимение) как дополнение к 'likes'. Оно означает 'our project'."
         }
     ]
 };
@@ -724,7 +724,7 @@ window.grammarExercises['pronouns']['possessive-pronouns-page5'] = {
         {
             question: "Pick the correct possessive pronoun:",
             questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "My parents bought a new sofa. When will _____ arrive?",
+            sentence: "My parents bought new furniture. When will _____ be delivered?",
             options: [
                 "yours",
                 "your",
@@ -732,10 +732,10 @@ window.grammarExercises['pronouns']['possessive-pronouns-page5'] = {
                 "yourself"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Yours' is the possessive pronoun meaning 'your sofa' as the subject of 'arrive'.",
-            correctFeedbackRu: "Превосходно! 'Yours' - это притяжательное местоимение, означающее 'your sofa' как подлежащее к 'arrive'.",
-            incorrectFeedback: "Wrong choice. Use 'yours' (possessive pronoun) as the subject of 'arrive'. It replaces 'your sofa'.",
-            incorrectFeedbackRu: "Неверный выбор. Используйте 'yours' (притяжательное местоимение) как подлежащее к 'arrive'. Оно заменяет 'your sofa'."
+            correctFeedback: "Excellent! 'Yours' is the possessive pronoun meaning 'your furniture' as the subject of 'be delivered'.",
+            correctFeedbackRu: "Превосходно! 'Yours' - это притяжательное местоимение, означающее 'your furniture' как подлежащее к 'be delivered'.",
+            incorrectFeedback: "Wrong choice. Use 'yours' (possessive pronoun) as the subject of 'be delivered'. It replaces 'your furniture'.",
+            incorrectFeedbackRu: "Неверный выбор. Используйте 'yours' (притяжательное местоимение) как подлежащее к 'be delivered'. Оно заменяет 'your furniture'."
         },
         {
             question: "Choose the appropriate possessive pronoun:",
@@ -861,7 +861,7 @@ window.grammarExercises['pronouns']['possessive-pronouns-page6'] = {
         {
             question: "Choose the correct possessive pronoun:",
             questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "The soccer team won their match yesterday. Did _____ win too?",
+            sentence: "Our soccer team won yesterday. Did _____ win too?",
             options: [
                 "yours",
                 "your",
@@ -1030,7 +1030,7 @@ window.grammarExercises['pronouns']['possessive-pronouns-page7'] = {
         {
             question: "Choose the correct possessive pronoun:",
             questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "My office has two windows. How many windows does _____ have?",
+            sentence: "My office is very spacious. Is _____ comfortable too?",
             options: [
                 "yours",
                 "your",
@@ -2183,15 +2183,20 @@ window.grammarExercises['pronouns']['possessive-pronouns-gap-page5'] = {
     title: "Possessive Pronouns - Travel and Transport",
     fillGaps: [
         {
-            question: "Complete the sentence with the correct possessive pronoun:",
-            questionRu: "Заполните предложение правильным притяжательным местоимением:",
-            sentence: "My flight leaves at 6 AM. What time does ____ leave?",
-            correctAnswer: "theirs",
-            options: ["theirs", "their", "yours", "his"],
-            correctFeedback: "Perfect! 'Theirs' is correct because it means 'their flight' as the subject of 'leave'.",
-            correctFeedbackRu: "Отлично! 'Theirs' правильно, потому что оно означает 'their flight' как подлежащее к 'leave'.",
-            incorrectFeedback: "Try again. Use 'theirs' because it's the possessive pronoun that works as the subject.",
-            incorrectFeedbackRu: "Попробуйте снова. Используйте 'theirs', потому что это притяжательное местоимение, которое работает как подлежащее."
+            question: "Choose the correct possessive pronoun:",
+            questionRu: "Выберите правильное притяжательное местоимение:",
+            sentence: "My flight was delayed by two hours. Was _____ on time?",
+            options: [
+                "yours",
+                "your",
+                "you",
+                "yourself"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Yours' is the possessive pronoun that stands alone as the subject meaning 'your flight'.",
+            correctFeedbackRu: "Правильно! 'Yours' - это притяжательное местоимение, которое стоит отдельно как подлежащее, означающее 'your flight'.",
+            incorrectFeedback: "Wrong. Use 'yours' (possessive pronoun) as the subject meaning 'your flight'. 'Your' is a possessive adjective and needs a noun after it.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'yours' (притяжательное местоимение) как подлежащее, означающее 'your flight'. 'Your' - это притяжательное прилагательное и нужно существительное после него."
         },
         {
             question: "Complete the sentence with the correct possessive pronoun:",
@@ -3200,12 +3205,12 @@ window.grammarExercises['pronouns']['possessive-pronouns-sentence-page3'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["Did", "you", "take", "his", "or", "mine?", "I", "took", "yours."],
-            correctAnswer: "Did you take his or mine? I took yours.",
-            correctFeedback: "Great! 'Did you take his or mine? I took yours.' is correct. Excellent use of three possessive pronouns!",
-            correctFeedbackRu: "Отлично! 'Did you take his or mine? I took yours.' верно. Превосходное использование трёх притяжательных местоимений!",
-            incorrectFeedback: "Try again. Remember: Did + you + verb + possessive pronoun + or + possessive pronoun? Subject + verb + possessive pronoun.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Did + you + глагол + притяжательное местоимение + or + притяжательное местоимение? Подлежащее + глагол + притяжательное местоимение."
+            words: ["Which", "bag", "is", "yours?", "The", "red", "one", "is", "mine."],
+            correctAnswer: "Which bag is yours? The red one is mine.",
+            correctFeedback: "Great! 'Which bag is yours? The red one is mine.' is correct. Excellent use of possessive pronouns in question and answer!",
+            correctFeedbackRu: "Отлично! 'Which bag is yours? The red one is mine.' верно. Превосходное использование притяжательных местоимений в вопросе и ответе!",
+            incorrectFeedback: "Try again. Remember: Which + noun + is + possessive pronoun? The + adjective + one + is + possessive pronoun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Which + существительное + is + притяжательное местоимение? The + прилагательное + one + is + притяжательное местоимение."
         },
         {
             question: "Form a correct sentence using these words:",
