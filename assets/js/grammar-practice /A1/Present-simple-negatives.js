@@ -325,7 +325,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page2'] = {
         {
             question: "Select the correct negative form:",
             questionRu: "Выберите правильную отрицательную форму:",
-            sentence: "He ___ believe in superstitions.",
+            sentence: "He ___ believe in ghosts.",
             options: [
                 "doesn't",
                 "don't",
@@ -688,7 +688,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page5'] = {
         {
             question: "Choose the correct negative form:",
             questionRu: "Выберите правильную отрицательную форму:",
-            sentence: "I ___ attend meetings on Fridays.",
+            sentence: "I ___ work on Fridays.",
             options: [
                 "don't",
                 "doesn't",
@@ -696,8 +696,8 @@ window.grammarExercises['tenses']['present-simple-negatives-page5'] = {
                 "am not"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'I don't attend' describes work schedule preferences.",
-            correctFeedbackRu: "Правильно! 'I don't attend' описывает предпочтения рабочего расписания.",
+            correctFeedback: "Excellent! 'I don't work' describes work schedule.",
+            correctFeedbackRu: "Отлично! 'I don't work' описывает рабочий график.",
             incorrectFeedback: "Incorrect. With 'I', use 'don't' + base verb.",
             incorrectFeedbackRu: "Неправильно. С 'I' используйте 'don't' + базовый глагол."
         },
@@ -889,7 +889,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page6'] = {
         {
             question: "Choose the correct negative form:",
             questionRu: "Выберите правильную отрицательную форму:",
-            sentence: "We ___ participate in competitive sports.",
+            sentence: "We ___ play sports.",
             options: [
                 "don't",
                 "doesn't",
@@ -897,8 +897,8 @@ window.grammarExercises['tenses']['present-simple-negatives-page6'] = {
                 "aren't"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'We don't participate' describes sports involvement.",
-            correctFeedbackRu: "Отлично! 'We don't participate' описывает участие в спорте.",
+            correctFeedback: "Excellent! 'We don't play' describes sports involvement.",
+            correctFeedbackRu: "Отлично! 'We don't play' описывает участие в спорте.",
             incorrectFeedback: "Incorrect. With 'we', use 'don't' + base verb.",
             incorrectFeedbackRu: "Неправильно. С 'we' используйте 'don't' + базовый глагол."
         },
@@ -1138,7 +1138,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page7'] = {
         {
             question: "Select the correct negative form:",
             questionRu: "Выберите правильную отрицательную форму:",
-            sentence: "She ___ count calories obsessively.",
+            sentence: "She ___ eat fast food.",
             options: [
                 "doesn't",
                 "don't",
@@ -1146,8 +1146,8 @@ window.grammarExercises['tenses']['present-simple-negatives-page7'] = {
                 "isn't"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'She doesn't count' describes a healthy relationship with food.",
-            correctFeedbackRu: "Отлично! 'She doesn't count' описывает здоровые отношения с едой.",
+            correctFeedback: "Perfect! 'She doesn't eat' describes food choices.",
+            correctFeedbackRu: "Отлично! 'She doesn't eat' описывает выбор еды.",
             incorrectFeedback: "Incorrect. With 'she', use 'doesn't' + base verb.",
             incorrectFeedbackRu: "Неправильно. С 'she' используйте 'doesn't' + базовый глагол."
         },
@@ -1243,7 +1243,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page8'] = {
         {
             question: "Select the correct negative form:",
             questionRu: "Выберите правильную отрицательную форму:",
-            sentence: "He ___ backup his computer files.",
+            sentence: "He ___ back up his computer files.",
             options: [
                 "doesn't",
                 "don't",
@@ -1251,8 +1251,8 @@ window.grammarExercises['tenses']['present-simple-negatives-page8'] = {
                 "isn't"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'He doesn't backup' describes data security habits.",
-            correctFeedbackRu: "Правильно! 'He doesn't backup' описывает привычки безопасности данных.",
+            correctFeedback: "Correct! 'He doesn't back up' describes data security habits.",
+            correctFeedbackRu: "Правильно! 'He doesn't back up' описывает привычки безопасности данных.",
             incorrectFeedback: "Incorrect. With 'he', use 'doesn't' + base verb.",
             incorrectFeedbackRu: "Неправильно. С 'he' используйте 'doesn't' + базовый глагол."
         },
@@ -1508,7 +1508,7 @@ window.grammarExercises['tenses']['present-simple-negatives-page9'] = {
         {
             question: "Select the correct negative form:",
             questionRu: "Выберите правильную отрицательную форму:",
-            sentence: "He ___ procrastinate on important assignments.",
+            sentence: "He ___ do homework late.",
             options: [
                 "doesn't",
                 "don't",
@@ -1516,8 +1516,8 @@ window.grammarExercises['tenses']['present-simple-negatives-page9'] = {
                 "isn't"
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'He doesn't procrastinate' shows good time management.",
-            correctFeedbackRu: "Правильно! 'He doesn't procrastinate' показывает хорошее управление временем.",
+            correctFeedback: "Correct! 'He doesn't do' shows good study habits.",
+            correctFeedbackRu: "Правильно! 'He doesn't do' показывает хорошие учебные привычки.",
             incorrectFeedback: "Incorrect. With 'he', use 'doesn't' + base verb.",
             incorrectFeedbackRu: "Неправильно. С 'he' используйте 'doesn't' + базовый глагол."
         }
@@ -1692,13 +1692,6 @@ window.grammarExercises['tenses']['present-simple-negatives-page10'] = {
         }
     ]
 };
-
-/* ============================================
-Console log to confirm data loading
-============================================ */
-console.log("Present Simple Negatives Pages 1-10 loaded successfully!");
-console.log("===== 10 PAGES OF NEGATIVES EXERCISES COMPLETE! =====");
-
 
 /* =============================================================================== */
 /* ===========================Fill in the Gaps Exercises========================== */
@@ -1950,7 +1943,7 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page3'] = {
         {
             question: "Complete the sentence with the correct negative form:",
             questionRu: "Заполните предложение правильной отрицательной формой:",
-            sentence: "We ____ celebrate birthdays extravagantly.",
+            sentence: "We ____ celebrate birthdays every year.",
             correctAnswer: "don't",
             options: ["don't", "doesn't", "not", "aren't"],
             correctFeedback: "Correct! 'We don't celebrate' describes family traditions.",
@@ -1961,11 +1954,11 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page3'] = {
         {
             question: "Fill in the blank with the correct negative form:",
             questionRu: "Заполните пропуск правильной отрицательной формой:",
-            sentence: "She ____ appreciate unexpected visitors.",
+            sentence: "She ____ like surprise visits.",
             correctAnswer: "doesn't",
             options: ["doesn't", "don't", "not", "isn't"],
-            correctFeedback: "Excellent! 'She doesn't appreciate' expresses preferences.",
-            correctFeedbackRu: "Отлично! 'She doesn't appreciate' выражает предпочтения.",
+            correctFeedback: "Excellent! 'She doesn't like' expresses preferences.",
+            correctFeedbackRu: "Отлично! 'She doesn't like' выражает предпочтения.",
             incorrectFeedback: "Try again. With 'she', use 'doesn't' + base verb.",
             incorrectFeedbackRu: "Попробуйте снова. С 'she' используйте 'doesn't' + базовый глагол."
         },
@@ -2752,11 +2745,11 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page9'] = {
         {
             question: "Complete the sentence with the correct negative form:",
             questionRu: "Заполните предложение правильной отрицательной формой:",
-            sentence: "I ____ comprehend advanced mathematical concepts.",
+            sentence: "I ____ understand math.",
             correctAnswer: "don't",
             options: ["don't", "doesn't", "not", "am not"],
-            correctFeedback: "Excellent! 'I don't comprehend' describes learning difficulties.",
-            correctFeedbackRu: "Отлично! 'I don't comprehend' описывает трудности в обучении.",
+            correctFeedback: "Excellent! 'I don't understand' describes learning difficulties.",
+            correctFeedbackRu: "Отлично! 'I don't understand' описывает трудности в обучении.",
             incorrectFeedback: "Incorrect. With 'I', use 'don't' + base verb.",
             incorrectFeedbackRu: "Неправильно. С 'I' используйте 'don't' + базовый глагол."
         },
@@ -2882,14 +2875,14 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page10'] = {
         {
             question: "Fill in the blank with the correct negative form:",
             questionRu: "Заполните пропуск правильной отрицательной формой:",
-            sentence: "He ____ contribute to sustainable development goals.",
+            sentence: "He ____ help with housework.",
             correctAnswer: "doesn't",
             options: ["doesn't", "don't", "not", "isn't"],
-            correctFeedback: "Perfect! 'He doesn't contribute' - Congratulations on completing all 10 pages of Fill in the Gaps!",
-            correctFeedbackRu: "Идеально! 'He doesn't contribute' - Поздравляем с завершением всех 10 страниц Fill in the Gaps!",
+            correctFeedback: "Perfect! 'He doesn't help' - Congratulations on completing all 10 pages of Fill in the Gaps!",
+            correctFeedbackRu: "Идеально! 'He doesn't help' - Поздравляем с завершением всех 10 страниц Fill in the Gaps!",
             incorrectFeedback: "Try again. With 'he', use 'doesn't' + base verb. You've reached the final exercise!",
             incorrectFeedbackRu: "Попробуйте снова. С 'he' используйте 'doesn't' + базовый глагол. Вы достигли последнего упражнения!"
-        }
+        },
     ]
 };
 
@@ -2904,1097 +2897,1091 @@ console.log("===== FILL IN THE GAPS: PAGES 1-10 LOADED =====");
 /* =========================Sentence Building Exercises=========================== */
 
 /* ============================================
-Page 1: Basic Negatives - I don't, You don't, We don't, They don't
+Page 1: Present Simple Negatives - Sentence Building - Daily Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page1'] = {
-    title: "Present Simple Negatives - Basic Negatives - I, You, We, They",
+    title: "Present Simple Negatives - Daily Activities",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "appreciate", "loud", "music", "in", "restaurants"],
-            correctAnswer: "I don't appreciate loud music in restaurants.",
-            correctFeedback: "Excellent! 'I don't appreciate loud music in restaurants' is correct. Perfect expression of personal preferences!",
-            correctFeedbackRu: "Отлично! 'I don't appreciate loud music in restaurants' верно. Идеальное выражение личных предпочтений!",
-            incorrectFeedback: "Try again. Remember: I + don't + appreciate + loud music in restaurants.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + appreciate + loud music in restaurants."
+            words: ["I", "don't", "wake", "up", "early."],
+            correctAnswer: "I don't wake up early.",
+            correctFeedback: "Perfect! 'I don't wake up early.' is correct. Great use of 'don't' with 'I'!",
+            correctFeedbackRu: "Отлично! 'I don't wake up early.' верно. Прекрасное использование 'don't' с 'I'!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "observe", "traffic", "rules", "carefully"],
-            correctAnswer: "You don't observe traffic rules carefully.",
-            correctFeedback: "Perfect! 'You don't observe traffic rules carefully' is correct. Great safety awareness!",
-            correctFeedbackRu: "Идеально! 'You don't observe traffic rules carefully' верно. Отличное понимание безопасности!",
-            incorrectFeedback: "Not quite. The correct order is: You + don't + observe + traffic rules carefully.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: You + don't + observe + traffic rules carefully."
+            words: ["She", "doesn't", "eat", "breakfast."],
+            correctAnswer: "She doesn't eat breakfast.",
+            correctFeedback: "Excellent! 'She doesn't eat breakfast.' is correct. Perfect use of 'doesn't' with 'she'!",
+            correctFeedbackRu: "Превосходно! 'She doesn't eat breakfast.' верно. Отличное использование 'doesn't' с 'she'!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "encourage", "wasteful", "spending", "habits"],
-            correctAnswer: "We don't encourage wasteful spending habits.",
-            correctFeedback: "Great job! 'We don't encourage wasteful spending habits' is correct. Perfect financial wisdom!",
-            correctFeedbackRu: "Отличная работа! 'We don't encourage wasteful spending habits' верно. Идеальная финансовая мудрость!",
-            incorrectFeedback: "Try again. Remember: We + don't + encourage + wasteful spending habits.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + encourage + wasteful spending habits."
+            words: ["We", "don't", "work", "on", "Sundays."],
+            correctAnswer: "We don't work on Sundays.",
+            correctFeedback: "Great! 'We don't work on Sundays.' is correct. Nice weekend routine!",
+            correctFeedbackRu: "Отлично! 'We don't work on Sundays.' верно. Хороший выходной распорядок!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "maintain", "their", "garden", "properly"],
-            correctAnswer: "They don't maintain their garden properly.",
-            correctFeedback: "Excellent! 'They don't maintain their garden properly' is correct. Great observation!",
-            correctFeedbackRu: "Отлично! 'They don't maintain their garden properly' верно. Отличное наблюдение!",
-            incorrectFeedback: "Not correct. The right order is: They + don't + maintain + their garden properly.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: They + don't + maintain + their garden properly."
+            words: ["He", "doesn't", "drive", "to", "work."],
+            correctAnswer: "He doesn't drive to work.",
+            correctFeedback: "Perfect! 'He doesn't drive to work.' is correct. Good transportation choice!",
+            correctFeedbackRu: "Отлично! 'He doesn't drive to work.' верно. Хороший выбор транспорта!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "tolerate", "dishonest", "behavior"],
-            correctAnswer: "I don't tolerate dishonest behavior.",
-            correctFeedback: "Well done! 'I don't tolerate dishonest behavior' is correct. Perfect moral stance!",
-            correctFeedbackRu: "Отлично сделано! 'I don't tolerate dishonest behavior' верно. Идеальная моральная позиция!",
-            incorrectFeedback: "Try again. Remember: I + don't + tolerate + dishonest behavior.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + tolerate + dishonest behavior."
+            words: ["They", "don't", "cook", "dinner", "every", "day."],
+            correctAnswer: "They don't cook dinner every day.",
+            correctFeedback: "Excellent! 'They don't cook dinner every day.' is correct. Sometimes eating out is nice!",
+            correctFeedbackRu: "Превосходно! 'They don't cook dinner every day.' верно. Иногда поесть вне дома приятно!",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "recognize", "my", "efforts"],
-            correctAnswer: "You don't recognize my efforts.",
-            correctFeedback: "Great! 'You don't recognize my efforts' is correct. Clear communication!",
-            correctFeedbackRu: "Отлично! 'You don't recognize my efforts' верно. Четкое общение!",
-            incorrectFeedback: "Not quite right. Remember: You + don't + recognize + my efforts.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: You + don't + recognize + my efforts."
+            words: ["You", "don't", "watch", "TV", "in", "the", "morning."],
+            correctAnswer: "You don't watch TV in the morning.",
+            correctFeedback: "Great! 'You don't watch TV in the morning.' is correct. Productive morning routine!",
+            correctFeedbackRu: "Отлично! 'You don't watch TV in the morning.' верно. Продуктивный утренний распорядок!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "invest", "in", "risky", "ventures"],
-            correctAnswer: "We don't invest in risky ventures.",
-            correctFeedback: "Perfect! 'We don't invest in risky ventures' is correct. Smart financial strategy!",
-            correctFeedbackRu: "Идеально! 'We don't invest in risky ventures' верно. Умная финансовая стратегия!",
-            incorrectFeedback: "Try again. The correct structure is: We + don't + invest + in risky ventures.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильная структура: We + don't + invest + in risky ventures."
+            words: ["I", "don't", "take", "the", "bus."],
+            correctAnswer: "I don't take the bus.",
+            correctFeedback: "Perfect! 'I don't take the bus.' is correct. Everyone has different ways to travel!",
+            correctFeedbackRu: "Отлично! 'I don't take the bus.' верно. У всех разные способы путешествовать!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "respect", "personal", "boundaries"],
-            correctAnswer: "They don't respect personal boundaries.",
-            correctFeedback: "Excellent! 'They don't respect personal boundaries' is correct. Important social awareness!",
-            correctFeedbackRu: "Отлично! 'They don't respect personal boundaries' верно. Важная социальная осведомленность!",
-            incorrectFeedback: "Not right. Remember: They + don't + respect + personal boundaries.",
-            incorrectFeedbackRu: "Неверно. Помните: They + don't + respect + personal boundaries."
+            words: ["She", "doesn't", "go", "to", "bed", "late."],
+            correctAnswer: "She doesn't go to bed late.",
+            correctFeedback: "Excellent! 'She doesn't go to bed late.' is correct. Healthy sleep habits!",
+            correctFeedbackRu: "Превосходно! 'She doesn't go to bed late.' верно. Здоровые привычки сна!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "desire", "material", "possessions"],
-            correctAnswer: "I don't desire material possessions.",
-            correctFeedback: "Great job! 'I don't desire material possessions' is correct. Excellent life philosophy!",
-            correctFeedbackRu: "Отличная работа! 'I don't desire material possessions' верно. Отличная жизненная философия!",
-            incorrectFeedback: "Try again. The correct order is: I + don't + desire + material possessions.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: I + don't + desire + material possessions."
+            words: ["We", "don't", "live", "in", "the", "city."],
+            correctAnswer: "We don't live in the city.",
+            correctFeedback: "Great! 'We don't live in the city.' is correct. Country life can be wonderful!",
+            correctFeedbackRu: "Отлично! 'We don't live in the city.' верно. Жизнь за городом может быть прекрасной!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "contribute", "to", "team", "discussions"],
-            correctAnswer: "You don't contribute to team discussions.",
-            correctFeedback: "Perfect! 'You don't contribute to team discussions' is correct. Clear feedback on participation!",
-            correctFeedbackRu: "Идеально! 'You don't contribute to team discussions' верно. Четкая обратная связь об участии!",
-            incorrectFeedback: "Not quite. Remember: You + don't + contribute + to team discussions.",
-            incorrectFeedbackRu: "Не совсем так. Помните: You + don't + contribute + to team discussions."
+            words: ["He", "doesn't", "play", "computer", "games."],
+            correctAnswer: "He doesn't play computer games.",
+            correctFeedback: "Perfect! 'He doesn't play computer games.' is correct. Everyone has different hobbies!",
+            correctFeedbackRu: "Отлично! 'He doesn't play computer games.' верно. У всех разные хобби!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }
     ]
 };
 
 /* ============================================
-Page 2: Third Person Negatives - He doesn't, She doesn't, It doesn't
+Page 2: Present Simple Negatives - Sentence Building - Food and Drinks
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page2'] = {
-    title: "Present Simple Negatives - Third Person Negatives - He, She, It",
+    title: "Present Simple Negatives - Food and Drinks",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "communicate", "with", "his", "neighbors"],
-            correctAnswer: "He doesn't communicate with his neighbors.",
-            correctFeedback: "Excellent! 'He doesn't communicate with his neighbors' is correct. Perfect third person negative!",
-            correctFeedbackRu: "Отлично! 'He doesn't communicate with his neighbors' верно. Идеальное отрицание третьего лица!",
-            incorrectFeedback: "Try again. Remember: He + doesn't + communicate + with his neighbors.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: He + doesn't + communicate + with his neighbors."
+            words: ["I", "don't", "drink", "coffee."],
+            correctAnswer: "I don't drink coffee.",
+            correctFeedback: "Perfect! 'I don't drink coffee.' is correct. Tea person, perhaps?",
+            correctFeedbackRu: "Отлично! 'I don't drink coffee.' верно. Возможно, предпочитаете чай?",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "prioritize", "her", "health"],
-            correctAnswer: "She doesn't prioritize her health.",
-            correctFeedback: "Perfect! 'She doesn't prioritize her health' is correct. Great health awareness!",
-            correctFeedbackRu: "Идеально! 'She doesn't prioritize her health' верно. Отличное понимание здоровья!",
-            incorrectFeedback: "Not quite. The correct order is: She + doesn't + prioritize + her health.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: She + doesn't + prioritize + her health."
+            words: ["She", "doesn't", "eat", "meat."],
+            correctAnswer: "She doesn't eat meat.",
+            correctFeedback: "Excellent! 'She doesn't eat meat.' is correct. Vegetarian lifestyle!",
+            correctFeedbackRu: "Превосходно! 'She doesn't eat meat.' верно. Вегетарианский образ жизни!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["It", "doesn't", "function", "in", "extreme", "temperatures"],
-            correctAnswer: "It doesn't function in extreme temperatures.",
-            correctFeedback: "Great job! 'It doesn't function in extreme temperatures' is correct. Perfect technical description!",
-            correctFeedbackRu: "Отличная работа! 'It doesn't function in extreme temperatures' верно. Идеальное техническое описание!",
-            incorrectFeedback: "Try again. Remember: It + doesn't + function + in extreme temperatures.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: It + doesn't + function + in extreme temperatures."
+            words: ["We", "don't", "like", "spicy", "food."],
+            correctAnswer: "We don't like spicy food.",
+            correctFeedback: "Great! 'We don't like spicy food.' is correct. Mild flavors are nice too!",
+            correctFeedbackRu: "Отлично! 'We don't like spicy food.' верно. Мягкие вкусы тоже хороши!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "demonstrate", "leadership", "qualities"],
-            correctAnswer: "He doesn't demonstrate leadership qualities.",
-            correctFeedback: "Excellent! 'He doesn't demonstrate leadership qualities' is correct. Great professional observation!",
-            correctFeedbackRu: "Отлично! 'He doesn't demonstrate leadership qualities' верно. Отличное профессиональное наблюдение!",
-            incorrectFeedback: "Not correct. The right order is: He + doesn't + demonstrate + leadership qualities.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: He + doesn't + demonstrate + leadership qualities."
+            words: ["He", "doesn't", "buy", "fast", "food."],
+            correctAnswer: "He doesn't buy fast food.",
+            correctFeedback: "Perfect! 'He doesn't buy fast food.' is correct. Healthy eating choice!",
+            correctFeedbackRu: "Отлично! 'He doesn't buy fast food.' верно. Здоровый выбор питания!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "embrace", "new", "technologies"],
-            correctAnswer: "She doesn't embrace new technologies.",
-            correctFeedback: "Well done! 'She doesn't embrace new technologies' is correct. Perfect adaptation observation!",
-            correctFeedbackRu: "Отлично сделано! 'She doesn't embrace new technologies' верно. Идеальное наблюдение об адаптации!",
-            incorrectFeedback: "Try again. Remember: She + doesn't + embrace + new technologies.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: She + doesn't + embrace + new technologies."
+            words: ["They", "don't", "drink", "milk."],
+            correctAnswer: "They don't drink milk.",
+            correctFeedback: "Excellent! 'They don't drink milk.' is correct. Maybe lactose intolerant?",
+            correctFeedbackRu: "Превосходно! 'They don't drink milk.' верно. Возможно, непереносимость лактозы?",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["It", "doesn't", "respond", "to", "voice", "commands"],
-            correctAnswer: "It doesn't respond to voice commands.",
-            correctFeedback: "Great! 'It doesn't respond to voice commands' is correct. Clear technical limitation!",
-            correctFeedbackRu: "Отлично! 'It doesn't respond to voice commands' верно. Четкое техническое ограничение!",
-            incorrectFeedback: "Not quite right. Remember: It + doesn't + respond + to voice commands.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: It + doesn't + respond + to voice commands."
+            words: ["You", "don't", "eat", "fish."],
+            correctAnswer: "You don't eat fish.",
+            correctFeedback: "Great! 'You don't eat fish.' is correct. Personal food preferences!",
+            correctFeedbackRu: "Отлично! 'You don't eat fish.' верно. Личные пищевые предпочтения!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "adapt", "to", "changing", "circumstances"],
-            correctAnswer: "He doesn't adapt to changing circumstances.",
-            correctFeedback: "Perfect! 'He doesn't adapt to changing circumstances' is correct. Great flexibility assessment!",
-            correctFeedbackRu: "Идеально! 'He doesn't adapt to changing circumstances' верно. Отличная оценка гибкости!",
-            incorrectFeedback: "Try again. The correct structure is: He + doesn't + adapt + to changing circumstances.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильная структура: He + doesn't + adapt + to changing circumstances."
+            words: ["I", "don't", "cook", "with", "butter."],
+            correctAnswer: "I don't cook with butter.",
+            correctFeedback: "Perfect! 'I don't cook with butter.' is correct. Oil might be healthier!",
+            correctFeedbackRu: "Отлично! 'I don't cook with butter.' верно. Масло может быть полезнее!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "coordinate", "schedules", "effectively"],
-            correctAnswer: "She doesn't coordinate schedules effectively.",
-            correctFeedback: "Excellent! 'She doesn't coordinate schedules effectively' is correct. Important organizational skill!",
-            correctFeedbackRu: "Отлично! 'She doesn't coordinate schedules effectively' верно. Важный организационный навык!",
-            incorrectFeedback: "Not right. Remember: She + doesn't + coordinate + schedules effectively.",
-            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + coordinate + schedules effectively."
+            words: ["She", "doesn't", "add", "sugar", "to", "tea."],
+            correctAnswer: "She doesn't add sugar to tea.",
+            correctFeedback: "Excellent! 'She doesn't add sugar to tea.' is correct. Natural taste is best!",
+            correctFeedbackRu: "Превосходно! 'She doesn't add sugar to tea.' верно. Натуральный вкус лучше всего!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["It", "doesn't", "preserve", "data", "permanently"],
-            correctAnswer: "It doesn't preserve data permanently.",
-            correctFeedback: "Great job! 'It doesn't preserve data permanently' is correct. Excellent technical specification!",
-            correctFeedbackRu: "Отличная работа! 'It doesn't preserve data permanently' верно. Отличная техническая спецификация!",
-            incorrectFeedback: "Try again. The correct order is: It + doesn't + preserve + data permanently.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: It + doesn't + preserve + data permanently."
+            words: ["We", "don't", "order", "pizza", "often."],
+            correctAnswer: "We don't order pizza often.",
+            correctFeedback: "Great! 'We don't order pizza often.' is correct. Home cooking is better!",
+            correctFeedbackRu: "Отлично! 'We don't order pizza often.' верно. Домашняя еда лучше!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "fulfill", "his", "obligations"],
-            correctAnswer: "He doesn't fulfill his obligations.",
-            correctFeedback: "Perfect! 'He doesn't fulfill his obligations' is correct. Clear responsibility assessment!",
-            correctFeedbackRu: "Идеально! 'He doesn't fulfill his obligations' верно. Четкая оценка ответственности!",
-            incorrectFeedback: "Not quite. Remember: He + doesn't + fulfill + his obligations.",
-            incorrectFeedbackRu: "Не совсем так. Помните: He + doesn't + fulfill + his obligations."
+            words: ["He", "doesn't", "eat", "chocolate."],
+            correctAnswer: "He doesn't eat chocolate.",
+            correctFeedback: "Perfect! 'He doesn't eat chocolate.' is correct. Some people prefer fruit!",
+            correctFeedbackRu: "Отлично! 'He doesn't eat chocolate.' верно. Некоторые предпочитают фрукты!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }
     ]
 };
 
 /* ============================================
-Page 3: Mixed Personal Pronouns - Combining all forms
+Page 3: Present Simple Negatives - Sentence Building - Hobbies and Free Time
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page3'] = {
-    title: "Present Simple Negatives - Mixed Personal Pronouns",
+    title: "Present Simple Negatives - Hobbies and Free Time",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "eliminate", "plastic", "from", "our", "lives"],
-            correctAnswer: "We don't eliminate plastic from our lives.",
-            correctFeedback: "Excellent! 'We don't eliminate plastic from our lives' is correct. Perfect environmental awareness!",
-            correctFeedbackRu: "Отлично! 'We don't eliminate plastic from our lives' верно. Идеальная экологическая осведомленность!",
-            incorrectFeedback: "Try again. Remember: We + don't + eliminate + plastic from our lives.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + eliminate + plastic from our lives."
+            words: ["I", "don't", "play", "tennis."],
+            correctAnswer: "I don't play tennis.",
+            correctFeedback: "Perfect! 'I don't play tennis.' is correct. Maybe you prefer other sports!",
+            correctFeedbackRu: "Отлично! 'I don't play tennis.' верно. Возможно, вы предпочитаете другие виды спорта!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "investigate", "suspicious", "activities"],
-            correctAnswer: "She doesn't investigate suspicious activities.",
-            correctFeedback: "Perfect! 'She doesn't investigate suspicious activities' is correct. Great security awareness!",
-            correctFeedbackRu: "Идеально! 'She doesn't investigate suspicious activities' верно. Отличная осведомленность о безопасности!",
-            incorrectFeedback: "Not quite. The correct order is: She + doesn't + investigate + suspicious activities.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: She + doesn't + investigate + suspicious activities."
+            words: ["She", "doesn't", "read", "books."],
+            correctAnswer: "She doesn't read books.",
+            correctFeedback: "Excellent! 'She doesn't read books.' is correct. Maybe she prefers movies!",
+            correctFeedbackRu: "Превосходно! 'She doesn't read books.' верно. Возможно, она предпочитает фильмы!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "appreciate", "constructive", "criticism"],
-            correctAnswer: "They don't appreciate constructive criticism.",
-            correctFeedback: "Great job! 'They don't appreciate constructive criticism' is correct. Perfect feedback observation!",
-            correctFeedbackRu: "Отличная работа! 'They don't appreciate constructive criticism' верно. Идеальное наблюдение об обратной связи!",
-            incorrectFeedback: "Try again. Remember: They + don't + appreciate + constructive criticism.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + appreciate + constructive criticism."
+            words: ["We", "don't", "go", "to", "the", "cinema."],
+            correctAnswer: "We don't go to the cinema.",
+            correctFeedback: "Great! 'We don't go to the cinema.' is correct. Home movies are cozy too!",
+            correctFeedbackRu: "Отлично! 'We don't go to the cinema.' верно. Домашние фильмы тоже уютные!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "cultivate", "meaningful", "relationships"],
-            correctAnswer: "He doesn't cultivate meaningful relationships.",
-            correctFeedback: "Excellent! 'He doesn't cultivate meaningful relationships' is correct. Great social observation!",
-            correctFeedbackRu: "Отлично! 'He doesn't cultivate meaningful relationships' верно. Отличное социальное наблюдение!",
-            incorrectFeedback: "Not correct. The right order is: He + doesn't + cultivate + meaningful relationships.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: He + doesn't + cultivate + meaningful relationships."
+            words: ["He", "doesn't", "listen", "to", "music."],
+            correctAnswer: "He doesn't listen to music.",
+            correctFeedback: "Perfect! 'He doesn't listen to music.' is correct. Some people prefer silence!",
+            correctFeedbackRu: "Отлично! 'He doesn't listen to music.' верно. Некоторые предпочитают тишину!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "comprehend", "abstract", "concepts", "easily"],
-            correctAnswer: "I don't comprehend abstract concepts easily.",
-            correctFeedback: "Well done! 'I don't comprehend abstract concepts easily' is correct. Perfect learning honesty!",
-            correctFeedbackRu: "Отлично сделано! 'I don't comprehend abstract concepts easily' верно. Идеальная честность в обучении!",
-            incorrectFeedback: "Try again. Remember: I + don't + comprehend + abstract concepts easily.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + comprehend + abstract concepts easily."
+            words: ["They", "don't", "swim", "in", "winter."],
+            correctAnswer: "They don't swim in winter.",
+            correctFeedback: "Excellent! 'They don't swim in winter.' is correct. Cold water is not for everyone!",
+            correctFeedbackRu: "Превосходно! 'They don't swim in winter.' верно. Холодная вода не для всех!",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["It", "doesn't", "accommodate", "multiple", "users", "simultaneously"],
-            correctAnswer: "It doesn't accommodate multiple users simultaneously.",
-            correctFeedback: "Great! 'It doesn't accommodate multiple users simultaneously' is correct. Clear system limitation!",
-            correctFeedbackRu: "Отлично! 'It doesn't accommodate multiple users simultaneously' верно. Четкое системное ограничение!",
-            incorrectFeedback: "Not quite right. Remember: It + doesn't + accommodate + multiple users simultaneously.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: It + doesn't + accommodate + multiple users simultaneously."
+            words: ["You", "don't", "dance", "at", "parties."],
+            correctAnswer: "You don't dance at parties.",
+            correctFeedback: "Great! 'You don't dance at parties.' is correct. Watching can be fun too!",
+            correctFeedbackRu: "Отлично! 'You don't dance at parties.' верно. Наблюдать тоже может быть весело!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "evaluate", "risks", "before", "making", "decisions"],
-            correctAnswer: "You don't evaluate risks before making decisions.",
-            correctFeedback: "Perfect! 'You don't evaluate risks before making decisions' is correct. Great decision-making feedback!",
-            correctFeedbackRu: "Идеально! 'You don't evaluate risks before making decisions' верно. Отличная обратная связь о принятии решений!",
-            incorrectFeedback: "Try again. The correct structure is: You + don't + evaluate + risks before making decisions.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильная структура: You + don't + evaluate + risks before making decisions."
+            words: ["I", "don't", "collect", "stamps."],
+            correctAnswer: "I don't collect stamps.",
+            correctFeedback: "Perfect! 'I don't collect stamps.' is correct. Everyone has different hobbies!",
+            correctFeedbackRu: "Отлично! 'I don't collect stamps.' верно. У всех разные хобби!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "validate", "other", "people's", "feelings"],
-            correctAnswer: "She doesn't validate other people's feelings.",
-            correctFeedback: "Excellent! 'She doesn't validate other people's feelings' is correct. Important emotional intelligence!",
-            correctFeedbackRu: "Отлично! 'She doesn't validate other people's feelings' верно. Важный эмоциональный интеллект!",
-            incorrectFeedback: "Not right. Remember: She + doesn't + validate + other people's feelings.",
-            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + validate + other people's feelings."
+            words: ["She", "doesn't", "paint", "pictures."],
+            correctAnswer: "She doesn't paint pictures.",
+            correctFeedback: "Excellent! 'She doesn't paint pictures.' is correct. Art isn't for everyone!",
+            correctFeedbackRu: "Превосходно! 'She doesn't paint pictures.' верно. Искусство не для всех!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "implement", "sustainable", "practices"],
-            correctAnswer: "We don't implement sustainable practices.",
-            correctFeedback: "Great job! 'We don't implement sustainable practices' is correct. Excellent environmental responsibility!",
-            correctFeedbackRu: "Отличная работа! 'We don't implement sustainable practices' верно. Отличная экологическая ответственность!",
-            incorrectFeedback: "Try again. The correct order is: We + don't + implement + sustainable practices.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: We + don't + implement + sustainable practices."
+            words: ["We", "don't", "play", "board", "games."],
+            correctAnswer: "We don't play board games.",
+            correctFeedback: "Great! 'We don't play board games.' is correct. Video games might be more your style!",
+            correctFeedbackRu: "Отлично! 'We don't play board games.' верно. Видеоигры могут больше подходить вашему стилю!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "compensate", "employees", "fairly"],
-            correctAnswer: "They don't compensate employees fairly.",
-            correctFeedback: "Perfect! 'They don't compensate employees fairly' is correct. Clear workplace justice observation!",
-            correctFeedbackRu: "Идеально! 'They don't compensate employees fairly' верно. Четкое наблюдение о справедливости на рабочем месте!",
-            incorrectFeedback: "Not quite. Remember: They + don't + compensate + employees fairly.",
-            incorrectFeedbackRu: "Не совсем так. Помните: They + don't + compensate + employees fairly."
+            words: ["He", "doesn't", "ride", "a", "bike."],
+            correctAnswer: "He doesn't ride a bike.",
+            correctFeedback: "Perfect! 'He doesn't ride a bike.' is correct. Walking or driving are good options too!",
+            correctFeedbackRu: "Отлично! 'He doesn't ride a bike.' верно. Ходьба или вождение тоже хорошие варианты!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }
     ]
 };
 
 /* ============================================
-Page 4: Habits, Routines and Lifestyle Negatives - Sentence Building
+Page 4: Present Simple Negatives - Sentence Building - Family and Friends
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page4'] = {
-    title: "Present Simple Negatives - Habits, Routines and Lifestyle Negatives",
+    title: "Present Simple Negatives - Family and Friends",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "exercise", "regularly", "during", "winter", "months"],
-            correctAnswer: "I don't exercise regularly during winter months.",
-            correctFeedback: "Excellent! 'I don't exercise regularly during winter months' is correct. Perfect seasonal routine description!",
-            correctFeedbackRu: "Отлично! 'I don't exercise regularly during winter months' верно. Идеальное описание сезонной рутины!",
-            incorrectFeedback: "Try again. Remember: I + don't + exercise + regularly + during winter months.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + exercise + regularly + during winter months."
+            words: ["I", "don't", "live", "with", "my", "parents."],
+            correctAnswer: "I don't live with my parents.",
+            correctFeedback: "Perfect! 'I don't live with my parents.' is correct. Independent living!",
+            correctFeedbackRu: "Отлично! 'I don't live with my parents.' верно. Самостоятельная жизнь!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "prepare", "lunch", "the", "night", "before"],
-            correctAnswer: "She doesn't prepare lunch the night before.",
-            correctFeedback: "Perfect! 'She doesn't prepare lunch the night before' is correct. Great meal planning observation!",
-            correctFeedbackRu: "Идеально! 'She doesn't prepare lunch the night before' верно. Отличное наблюдение о планировании питания!",
-            incorrectFeedback: "Not quite. The correct order is: She + doesn't + prepare + lunch + the night before.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: She + doesn't + prepare + lunch + the night before."
+            words: ["She", "doesn't", "have", "children."],
+            correctAnswer: "She doesn't have children.",
+            correctFeedback: "Excellent! 'She doesn't have children.' is correct. Everyone's family is different!",
+            correctFeedbackRu: "Превосходно! 'She doesn't have children.' верно. У всех разные семьи!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "vacuum", "the", "carpets", "weekly"],
-            correctAnswer: "We don't vacuum the carpets weekly.",
-            correctFeedback: "Great job! 'We don't vacuum the carpets weekly' is correct. Perfect household routine description!",
-            correctFeedbackRu: "Отличная работа! 'We don't vacuum the carpets weekly' верно. Идеальное описание домашней рутины!",
-            incorrectFeedback: "Try again. Remember: We + don't + vacuum + the carpets + weekly.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + vacuum + the carpets + weekly."
+            words: ["We", "don't", "visit", "our", "grandparents", "often."],
+            correctAnswer: "We don't visit our grandparents often.",
+            correctFeedback: "Great! 'We don't visit our grandparents often.' is correct. Distance can make it difficult!",
+            correctFeedbackRu: "Отлично! 'We don't visit our grandparents often.' верно. Расстояние может усложнять!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "meditate", "before", "starting", "his", "day"],
-            correctAnswer: "He doesn't meditate before starting his day.",
-            correctFeedback: "Excellent! 'He doesn't meditate before starting his day' is correct. Great mindfulness routine observation!",
-            correctFeedbackRu: "Отлично! 'He doesn't meditate before starting his day' верно. Отличное наблюдение о рутине осознанности!",
-            incorrectFeedback: "Not correct. The right order is: He + doesn't + meditate + before starting his day.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: He + doesn't + meditate + before starting his day."
+            words: ["He", "doesn't", "call", "his", "sister."],
+            correctAnswer: "He doesn't call his sister.",
+            correctFeedback: "Perfect! 'He doesn't call his sister.' is correct. Maybe they text instead!",
+            correctFeedbackRu: "Отлично! 'He doesn't call his sister.' верно. Возможно, они переписываются!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "water", "their", "plants", "every", "day"],
-            correctAnswer: "They don't water their plants every day.",
-            correctFeedback: "Well done! 'They don't water their plants every day' is correct. Perfect gardening routine!",
-            correctFeedbackRu: "Отлично сделано! 'They don't water their plants every day' верно. Идеальная садоводческая рутина!",
-            incorrectFeedback: "Try again. Remember: They + don't + water + their plants + every day.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + water + their plants + every day."
+            words: ["They", "don't", "know", "my", "friends."],
+            correctAnswer: "They don't know my friends.",
+            correctFeedback: "Excellent! 'They don't know my friends.' is correct. Different social circles!",
+            correctFeedbackRu: "Превосходно! 'They don't know my friends.' верно. Разные круги общения!",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "stretch", "after", "intense", "workouts"],
-            correctAnswer: "You don't stretch after intense workouts.",
-            correctFeedback: "Great! 'You don't stretch after intense workouts' is correct. Clear fitness routine feedback!",
-            correctFeedbackRu: "Отлично! 'You don't stretch after intense workouts' верно. Четкая обратная связь о фитнес-рутине!",
-            incorrectFeedback: "Not quite right. Remember: You + don't + stretch + after intense workouts.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: You + don't + stretch + after intense workouts."
+            words: ["You", "don't", "talk", "to", "your", "neighbors."],
+            correctAnswer: "You don't talk to your neighbors.",
+            correctFeedback: "Great! 'You don't talk to your neighbors.' is correct. Some people prefer to keep to themselves!",
+            correctFeedbackRu: "Отлично! 'You don't talk to your neighbors.' верно. Некоторые предпочитают держаться особняком!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "journal", "my", "thoughts", "consistently"],
-            correctAnswer: "I don't journal my thoughts consistently.",
-            correctFeedback: "Perfect! 'I don't journal my thoughts consistently' is correct. Great self-reflection practice!",
-            correctFeedbackRu: "Идеально! 'I don't journal my thoughts consistently' верно. Отличная практика саморефлексии!",
-            incorrectFeedback: "Try again. The correct structure is: I + don't + journal + my thoughts + consistently.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильная структура: I + don't + journal + my thoughts + consistently."
+            words: ["I", "don't", "see", "my", "cousins", "much."],
+            correctAnswer: "I don't see my cousins much.",
+            correctFeedback: "Perfect! 'I don't see my cousins much.' is correct. Extended family can live far away!",
+            correctFeedbackRu: "Отлично! 'I don't see my cousins much.' верно. Дальние родственники могут жить далеко!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "organize", "her", "wardrobe", "seasonally"],
-            correctAnswer: "She doesn't organize her wardrobe seasonally.",
-            correctFeedback: "Excellent! 'She doesn't organize her wardrobe seasonally' is correct. Important organization habit!",
-            correctFeedbackRu: "Отлично! 'She doesn't organize her wardrobe seasonally' верно. Важная привычка организации!",
-            incorrectFeedback: "Not right. Remember: She + doesn't + organize + her wardrobe + seasonally.",
-            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + organize + her wardrobe + seasonally."
+            words: ["She", "doesn't", "like", "her", "neighbors."],
+            correctAnswer: "She doesn't like her neighbors.",
+            correctFeedback: "Excellent! 'She doesn't like her neighbors.' is correct. Not everyone gets along!",
+            correctFeedbackRu: "Превосходно! 'She doesn't like her neighbors.' верно. Не все ладят!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "plan", "our", "meals", "in", "advance"],
-            correctAnswer: "We don't plan our meals in advance.",
-            correctFeedback: "Great job! 'We don't plan our meals in advance' is correct. Excellent meal planning observation!",
-            correctFeedbackRu: "Отличная работа! 'We don't plan our meals in advance' верно. Отличное наблюдение о планировании питания!",
-            incorrectFeedback: "Try again. The correct order is: We + don't + plan + our meals + in advance.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: We + don't + plan + our meals + in advance."
+            words: ["We", "don't", "invite", "many", "people."],
+            correctAnswer: "We don't invite many people.",
+            correctFeedback: "Great! 'We don't invite many people.' is correct. Small gatherings can be nice!",
+            correctFeedbackRu: "Отлично! 'We don't invite many people.' верно. Небольшие встречи могут быть приятными!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "declutter", "his", "workspace", "regularly"],
-            correctAnswer: "He doesn't declutter his workspace regularly.",
-            correctFeedback: "Perfect! 'He doesn't declutter his workspace regularly' is correct. Clear productivity observation!",
-            correctFeedbackRu: "Идеально! 'He doesn't declutter his workspace regularly' верно. Четкое наблюдение о продуктивности!",
-            incorrectFeedback: "Not quite. Remember: He + doesn't + declutter + his workspace + regularly.",
-            incorrectFeedbackRu: "Не совсем так. Помните: He + doesn't + declutter + his workspace + regularly."
+            words: ["He", "doesn't", "help", "his", "mother."],
+            correctAnswer: "He doesn't help his mother.",
+            correctFeedback: "Perfect! 'He doesn't help his mother.' is correct. Maybe he should offer more help!",
+            correctFeedbackRu: "Отлично! 'He doesn't help his mother.' верно. Возможно, ему стоит предлагать больше помощи!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }
     ]
 };
 
 /* ============================================
-Page 5: Work, Career and Professional Development Negatives - Sentence Building
+Page 5: Present Simple Negatives - Sentence Building - Work and School
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page5'] = {
-    title: "Present Simple Negatives - Work, Career and Professional Development Negatives",
+    title: "Present Simple Negatives - Work and School",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "network", "with", "industry", "professionals"],
-            correctAnswer: "I don't network with industry professionals.",
-            correctFeedback: "Excellent! 'I don't network with industry professionals' is correct. Perfect career development insight!",
-            correctFeedbackRu: "Отлично! 'I don't network with industry professionals' верно. Идеальное понимание карьерного развития!",
-            incorrectFeedback: "Try again. Remember: I + don't + network + with industry professionals.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + network + with industry professionals."
+            words: ["I", "don't", "work", "in", "an", "office."],
+            correctAnswer: "I don't work in an office.",
+            correctFeedback: "Perfect! 'I don't work in an office.' is correct. Remote work or different workplace!",
+            correctFeedbackRu: "Отлично! 'I don't work in an office.' верно. Удаленная работа или другое рабочее место!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "update", "her", "resume", "annually"],
-            correctAnswer: "She doesn't update her resume annually.",
-            correctFeedback: "Perfect! 'She doesn't update her resume annually' is correct. Great career maintenance observation!",
-            correctFeedbackRu: "Идеально! 'She doesn't update her resume annually' верно. Отличное наблюдение о поддержании карьеры!",
-            incorrectFeedback: "Not quite. The correct order is: She + doesn't + update + her resume + annually.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: She + doesn't + update + her resume + annually."
+            words: ["She", "doesn't", "study", "math."],
+            correctAnswer: "She doesn't study math.",
+            correctFeedback: "Excellent! 'She doesn't study math.' is correct. Everyone has different subjects!",
+            correctFeedbackRu: "Превосходно! 'She doesn't study math.' верно. У всех разные предметы!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "evaluate", "employee", "performance", "objectively"],
-            correctAnswer: "We don't evaluate employee performance objectively.",
-            correctFeedback: "Great job! 'We don't evaluate employee performance objectively' is correct. Perfect management feedback!",
-            correctFeedbackRu: "Отличная работа! 'We don't evaluate employee performance objectively' верно. Идеальная обратная связь по управлению!",
-            incorrectFeedback: "Try again. Remember: We + don't + evaluate + employee performance + objectively.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + evaluate + employee performance + objectively."
+            words: ["We", "don't", "have", "meetings", "on", "Friday."],
+            correctAnswer: "We don't have meetings on Friday.",
+            correctFeedback: "Great! 'We don't have meetings on Friday.' is correct. Good way to end the week!",
+            correctFeedbackRu: "Отлично! 'We don't have meetings on Friday.' верно. Хороший способ завершить неделю!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "pursue", "professional", "development", "opportunities"],
-            correctAnswer: "He doesn't pursue professional development opportunities.",
-            correctFeedback: "Excellent! 'He doesn't pursue professional development opportunities' is correct. Great growth observation!",
-            correctFeedbackRu: "Отлично! 'He doesn't pursue professional development opportunities' верно. Отличное наблюдение о росте!",
-            incorrectFeedback: "Not correct. The right order is: He + doesn't + pursue + professional development opportunities.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: He + doesn't + pursue + professional development opportunities."
+            words: ["He", "doesn't", "like", "his", "job."],
+            correctAnswer: "He doesn't like his job.",
+            correctFeedback: "Perfect! 'He doesn't like his job.' is correct. Maybe time to look for something new!",
+            correctFeedbackRu: "Отлично! 'He doesn't like his job.' верно. Возможно, время искать что-то новое!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "recognize", "outstanding", "achievements"],
-            correctAnswer: "They don't recognize outstanding achievements.",
-            correctFeedback: "Well done! 'They don't recognize outstanding achievements' is correct. Perfect workplace culture observation!",
-            correctFeedbackRu: "Отлично сделано! 'They don't recognize outstanding achievements' верно. Идеальное наблюдение о корпоративной культуре!",
-            incorrectFeedback: "Try again. Remember: They + don't + recognize + outstanding achievements.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + recognize + outstanding achievements."
+            words: ["They", "don't", "finish", "work", "early."],
+            correctAnswer: "They don't finish work early.",
+            correctFeedback: "Excellent! 'They don't finish work early.' is correct. Long work days can be tiring!",
+            correctFeedbackRu: "Превосходно! 'They don't finish work early.' верно. Долгие рабочие дни могут утомлять!",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "collaborate", "effectively", "across", "departments"],
-            correctAnswer: "You don't collaborate effectively across departments.",
-            correctFeedback: "Great! 'You don't collaborate effectively across departments' is correct. Clear teamwork feedback!",
-            correctFeedbackRu: "Отлично! 'You don't collaborate effectively across departments' верно. Четкая обратная связь о командной работе!",
-            incorrectFeedback: "Not quite right. Remember: You + don't + collaborate + effectively + across departments.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: You + don't + collaborate + effectively + across departments."
+            words: ["You", "don't", "take", "the", "exam."],
+            correctAnswer: "You don't take the exam.",
+            correctFeedback: "Great! 'You don't take the exam.' is correct. Maybe it's optional or later!",
+            correctFeedbackRu: "Отлично! 'You don't take the exam.' верно. Возможно, он необязательный или позже!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "document", "project", "decisions", "properly"],
-            correctAnswer: "I don't document project decisions properly.",
-            correctFeedback: "Perfect! 'I don't document project decisions properly' is correct. Great project management awareness!",
-            correctFeedbackRu: "Идеально! 'I don't document project decisions properly' верно. Отличная осведомленность об управлении проектами!",
-            incorrectFeedback: "Try again. The correct structure is: I + don't + document + project decisions + properly.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильная структура: I + don't + document + project decisions + properly."
+            words: ["I", "don't", "understand", "the", "lesson."],
+            correctAnswer: "I don't understand the lesson.",
+            correctFeedback: "Perfect! 'I don't understand the lesson.' is correct. It's okay to ask for help!",
+            correctFeedbackRu: "Отлично! 'I don't understand the lesson.' верно. Можно попросить о помощи!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "maintain", "professional", "boundaries"],
-            correctAnswer: "She doesn't maintain professional boundaries.",
-            correctFeedback: "Excellent! 'She doesn't maintain professional boundaries' is correct. Important workplace behavior!",
-            correctFeedbackRu: "Отлично! 'She doesn't maintain professional boundaries' верно. Важное рабочее поведение!",
-            incorrectFeedback: "Not right. Remember: She + doesn't + maintain + professional boundaries.",
-            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + maintain + professional boundaries."
+            words: ["She", "doesn't", "write", "reports."],
+            correctAnswer: "She doesn't write reports.",
+            correctFeedback: "Excellent! 'She doesn't write reports.' is correct. Different job responsibilities!",
+            correctFeedbackRu: "Превосходно! 'She doesn't write reports.' верно. Разные рабочие обязанности!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "invest", "in", "employee", "training"],
-            correctAnswer: "We don't invest in employee training.",
-            correctFeedback: "Great job! 'We don't invest in employee training' is correct. Excellent organizational development observation!",
-            correctFeedbackRu: "Отличная работа! 'We don't invest in employee training' верно. Отличное наблюдение о развитии организации!",
-            incorrectFeedback: "Try again. The correct order is: We + don't + invest + in employee training.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: We + don't + invest + in employee training."
+            words: ["We", "don't", "wear", "uniforms."],
+            correctAnswer: "We don't wear uniforms.",
+            correctFeedback: "Great! 'We don't wear uniforms.' is correct. Casual dress code!",
+            correctFeedbackRu: "Отлично! 'We don't wear uniforms.' верно. Неформальный дресс-код!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "meet", "project", "deadlines", "consistently"],
-            correctAnswer: "He doesn't meet project deadlines consistently.",
-            correctFeedback: "Perfect! 'He doesn't meet project deadlines consistently' is correct. Clear performance assessment!",
-            correctFeedbackRu: "Идеально! 'He doesn't meet project deadlines consistently' верно. Четкая оценка производительности!",
-            incorrectFeedback: "Not quite. Remember: He + doesn't + meet + project deadlines + consistently.",
-            incorrectFeedbackRu: "Не совсем так. Помните: He + doesn't + meet + project deadlines + consistently."
+            words: ["He", "doesn't", "use", "a", "computer."],
+            correctAnswer: "He doesn't use a computer.",
+            correctFeedback: "Perfect! 'He doesn't use a computer.' is correct. Old-fashioned or different tools!",
+            correctFeedbackRu: "Отлично! 'He doesn't use a computer.' верно. По старинке или другие инструменты!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }
     ]
 };
 
 /* ============================================
-Page 6: Social Relationships and Communication Negatives - Sentence Building
+Page 6: Present Simple Negatives - Sentence Building - Travel and Transportation
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page6'] = {
-    title: "Present Simple Negatives - Social Relationships and Communication Negatives",
+    title: "Present Simple Negatives - Travel and Transportation",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "initiate", "conversations", "with", "strangers"],
-            correctAnswer: "I don't initiate conversations with strangers.",
-            correctFeedback: "Excellent! 'I don't initiate conversations with strangers' is correct. Perfect social behavior description!",
-            correctFeedbackRu: "Отлично! 'I don't initiate conversations with strangers' верно. Идеальное описание социального поведения!",
-            incorrectFeedback: "Try again. Remember: I + don't + initiate + conversations + with strangers.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + initiate + conversations + with strangers."
+            words: ["I", "don't", "have", "a", "car."],
+            correctAnswer: "I don't have a car.",
+            correctFeedback: "Perfect! 'I don't have a car.' is correct. Public transport or walking are good options!",
+            correctFeedbackRu: "Отлично! 'I don't have a car.' верно. Общественный транспорт или ходьба - хорошие варианты!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "empathize", "with", "difficult", "situations"],
-            correctAnswer: "She doesn't empathize with difficult situations.",
-            correctFeedback: "Perfect! 'She doesn't empathize with difficult situations' is correct. Great emotional intelligence observation!",
-            correctFeedbackRu: "Идеально! 'She doesn't empathize with difficult situations' верно. Отличное наблюдение об эмоциональном интеллекте!",
-            incorrectFeedback: "Not quite. The correct order is: She + doesn't + empathize + with difficult situations.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: She + doesn't + empathize + with difficult situations."
+            words: ["She", "doesn't", "fly", "on", "planes."],
+            correctAnswer: "She doesn't fly on planes.",
+            correctFeedback: "Excellent! 'She doesn't fly on planes.' is correct. Some people prefer trains or cars!",
+            correctFeedbackRu: "Превосходно! 'She doesn't fly on planes.' верно. Некоторые предпочитают поезда или машины!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "maintain", "long-distance", "friendships"],
-            correctAnswer: "We don't maintain long-distance friendships.",
-            correctFeedback: "Great job! 'We don't maintain long-distance friendships' is correct. Perfect relationship insight!",
-            correctFeedbackRu: "Отличная работа! 'We don't maintain long-distance friendships' верно. Идеальное понимание отношений!",
-            incorrectFeedback: "Try again. Remember: We + don't + maintain + long-distance friendships.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + maintain + long-distance friendships."
+            words: ["We", "don't", "travel", "abroad."],
+            correctAnswer: "We don't travel abroad.",
+            correctFeedback: "Great! 'We don't travel abroad.' is correct. Local travel can be just as exciting!",
+            correctFeedbackRu: "Отлично! 'We don't travel abroad.' верно. Местные путешествия могут быть такими же захватывающими!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "apologize", "when", "he", "makes", "mistakes"],
-            correctAnswer: "He doesn't apologize when he makes mistakes.",
-            correctFeedback: "Excellent! 'He doesn't apologize when he makes mistakes' is correct. Great character observation!",
-            correctFeedbackRu: "Отлично! 'He doesn't apologize when he makes mistakes' верно. Отличное наблюдение о характере!",
-            incorrectFeedback: "Not correct. The right order is: He + doesn't + apologize + when he makes mistakes.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: He + doesn't + apologize + when he makes mistakes."
+            words: ["He", "doesn't", "walk", "to", "work."],
+            correctAnswer: "He doesn't walk to work.",
+            correctFeedback: "Perfect! 'He doesn't walk to work.' is correct. Too far or bad weather maybe!",
+            correctFeedbackRu: "Отлично! 'He doesn't walk to work.' верно. Возможно, слишком далеко или плохая погода!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "include", "everyone", "in", "group", "activities"],
-            correctAnswer: "They don't include everyone in group activities.",
-            correctFeedback: "Well done! 'They don't include everyone in group activities' is correct. Perfect inclusivity observation!",
-            correctFeedbackRu: "Отлично сделано! 'They don't include everyone in group activities' верно. Идеальное наблюдение об инклюзивности!",
-            incorrectFeedback: "Try again. Remember: They + don't + include + everyone + in group activities.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + include + everyone + in group activities."
+            words: ["They", "don't", "use", "public", "transport."],
+            correctAnswer: "They don't use public transport.",
+            correctFeedback: "Excellent! 'They don't use public transport.' is correct. Maybe they prefer their own car!",
+            correctFeedbackRu: "Превосходно! 'They don't use public transport.' верно. Возможно, они предпочитают собственную машину!",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "listen", "actively", "during", "conversations"],
-            correctAnswer: "You don't listen actively during conversations.",
-            correctFeedback: "Great! 'You don't listen actively during conversations' is correct. Clear communication feedback!",
-            correctFeedbackRu: "Отлично! 'You don't listen actively during conversations' верно. Четкая обратная связь о коммуникации!",
-            incorrectFeedback: "Not quite right. Remember: You + don't + listen + actively + during conversations.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: You + don't + listen + actively + during conversations."
+            words: ["You", "don't", "ride", "the", "subway."],
+            correctAnswer: "You don't ride the subway.",
+            correctFeedback: "Great! 'You don't ride the subway.' is correct. Bus or taxi might be more comfortable!",
+            correctFeedbackRu: "Отлично! 'You don't ride the subway.' верно. Автобус или такси могут быть удобнее!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "remember", "people's", "birthdays", "without", "reminders"],
-            correctAnswer: "I don't remember people's birthdays without reminders.",
-            correctFeedback: "Perfect! 'I don't remember people's birthdays without reminders' is correct. Great social awareness!",
-            correctFeedbackRu: "Идеально! 'I don't remember people's birthdays without reminders' верно. Отличная социальная осведомленность!",
-            incorrectFeedback: "Try again. The correct structure is: I + don't + remember + people's birthdays + without reminders.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильная структура: I + don't + remember + people's birthdays + without reminders."
+            words: ["I", "don't", "book", "hotels", "online."],
+            correctAnswer: "I don't book hotels online.",
+            correctFeedback: "Perfect! 'I don't book hotels online.' is correct. Phone calls or travel agents work too!",
+            correctFeedbackRu: "Отлично! 'I don't book hotels online.' верно. Телефонные звонки или турагенты тоже работают!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "compromise", "during", "disagreements"],
-            correctAnswer: "She doesn't compromise during disagreements.",
-            correctFeedback: "Excellent! 'She doesn't compromise during disagreements' is correct. Important conflict resolution skill!",
-            correctFeedbackRu: "Отлично! 'She doesn't compromise during disagreements' верно. Важный навык разрешения конфликтов!",
-            incorrectFeedback: "Not right. Remember: She + doesn't + compromise + during disagreements.",
-            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + compromise + during disagreements."
+            words: ["She", "doesn't", "pack", "heavy", "bags."],
+            correctAnswer: "She doesn't pack heavy bags.",
+            correctFeedback: "Excellent! 'She doesn't pack heavy bags.' is correct. Light travel is smart!",
+            correctFeedbackRu: "Превосходно! 'She doesn't pack heavy bags.' верно. Легкие путешествия - это умно!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "celebrate", "friends'", "achievements"],
-            correctAnswer: "We don't celebrate friends' achievements.",
-            correctFeedback: "Great job! 'We don't celebrate friends' achievements' is correct. Excellent friendship observation!",
-            correctFeedbackRu: "Отличная работа! 'We don't celebrate friends' achievements' верно. Отличное наблюдение о дружбе!",
-            incorrectFeedback: "Try again. The correct order is: We + don't + celebrate + friends' achievements.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: We + don't + celebrate + friends' achievements."
+            words: ["We", "don't", "stay", "in", "hostels."],
+            correctAnswer: "We don't stay in hostels.",
+            correctFeedback: "Great! 'We don't stay in hostels.' is correct. Hotels might be more comfortable!",
+            correctFeedbackRu: "Отлично! 'We don't stay in hostels.' верно. Отели могут быть удобнее!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "express", "gratitude", "for", "kind", "gestures"],
-            correctAnswer: "He doesn't express gratitude for kind gestures.",
-            correctFeedback: "Perfect! 'He doesn't express gratitude for kind gestures' is correct. Clear appreciation observation!",
-            correctFeedbackRu: "Идеально! 'He doesn't express gratitude for kind gestures' верно. Четкое наблюдение о благодарности!",
-            incorrectFeedback: "Not quite. Remember: He + doesn't + express + gratitude + for kind gestures.",
-            incorrectFeedbackRu: "Не совсем так. Помните: He + doesn't + express + gratitude + for kind gestures."
+            words: ["He", "doesn't", "visit", "museums."],
+            correctAnswer: "He doesn't visit museums.",
+            correctFeedback: "Perfect! 'He doesn't visit museums.' is correct. Everyone has different interests when traveling!",
+            correctFeedbackRu: "Отлично! 'He doesn't visit museums.' верно. У всех разные интересы в путешествиях!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }
     ]
 };
 
 /* ============================================
-Page 7: Technology and Digital Life Negatives - Sentence Building
+Page 7: Present Simple Negatives - Sentence Building - Weather and Seasons
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page7'] = {
-    title: "Present Simple Negatives - Technology and Digital Life Negatives",
+    title: "Present Simple Negatives - Weather and Seasons",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "download", "apps", "without", "reading", "reviews"],
-            correctAnswer: "I don't download apps without reading reviews.",
-            correctFeedback: "Excellent! 'I don't download apps without reading reviews' is correct. Smart digital consumer behavior!",
-            correctFeedbackRu: "Отлично! 'I don't download apps without reading reviews' верно. Умное поведение цифрового потребителя!",
-            incorrectFeedback: "Try again. Remember: I + don't + download + apps without reading reviews.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + download + apps without reading reviews."
+            words: ["I", "don't", "like", "cold", "weather."],
+            correctAnswer: "I don't like cold weather.",
+            correctFeedback: "Perfect! 'I don't like cold weather.' is correct. Warm weather is much nicer!",
+            correctFeedbackRu: "Отлично! 'I don't like cold weather.' верно. Теплая погода намного приятнее!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "backup", "your", "data", "regularly"],
-            correctAnswer: "You don't backup your data regularly.",
-            correctFeedback: "Perfect! 'You don't backup your data regularly' is correct. Important digital safety reminder!",
-            correctFeedbackRu: "Идеально! 'You don't backup your data regularly' верно. Важное напоминание о цифровой безопасности!",
-            incorrectFeedback: "Not quite. The correct order is: You + don't + backup + your data regularly.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: You + don't + backup + your data regularly."
+            words: ["She", "doesn't", "wear", "coats", "in", "summer."],
+            correctAnswer: "She doesn't wear coats in summer.",
+            correctFeedback: "Excellent! 'She doesn't wear coats in summer.' is correct. Too hot for heavy clothes!",
+            correctFeedbackRu: "Превосходно! 'She doesn't wear coats in summer.' верно. Слишком жарко для тяжелой одежды!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "customize", "privacy", "settings", "on", "social", "media"],
-            correctAnswer: "She doesn't customize privacy settings on social media.",
-            correctFeedback: "Great job! 'She doesn't customize privacy settings on social media' is correct. Digital privacy awareness!",
-            correctFeedbackRu: "Отличная работа! 'She doesn't customize privacy settings on social media' верно. Осведомленность о цифровой конфиденциальности!",
-            incorrectFeedback: "Not right. Remember: She + doesn't + customize + privacy settings on social media.",
-            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + customize + privacy settings on social media."
+            words: ["We", "don't", "go", "outside", "today."],
+            correctAnswer: "We don't go outside today.",
+            correctFeedback: "Great! 'We don't go outside today.' is correct. Maybe it's too cold or rainy!",
+            correctFeedbackRu: "Отлично! 'We don't go outside today.' верно. Возможно, слишком холодно или дождливо!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "verify", "information", "before", "sharing", "online"],
-            correctAnswer: "We don't verify information before sharing online.",
-            correctFeedback: "Excellent! 'We don't verify information before sharing online' is correct. Critical digital literacy observation!",
-            correctFeedbackRu: "Отлично! 'We don't verify information before sharing online' верно. Критическое наблюдение о цифровой грамотности!",
-            incorrectFeedback: "Try again. The correct order is: We + don't + verify + information before sharing online.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: We + don't + verify + information before sharing online."
+            words: ["He", "doesn't", "use", "an", "umbrella."],
+            correctAnswer: "He doesn't use an umbrella.",
+            correctFeedback: "Perfect! 'He doesn't use an umbrella.' is correct. Maybe he likes getting wet!",
+            correctFeedbackRu: "Отлично! 'He doesn't use an umbrella.' верно. Возможно, ему нравится промокать!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "optimize", "their", "websites", "for", "mobile", "devices"],
-            correctAnswer: "They don't optimize their websites for mobile devices.",
-            correctFeedback: "Perfect! 'They don't optimize their websites for mobile devices' is correct. Modern web development insight!",
-            correctFeedbackRu: "Идеально! 'They don't optimize their websites for mobile devices' верно. Понимание современной веб-разработки!",
-            incorrectFeedback: "Not quite. Remember: They + don't + optimize + their websites for mobile devices.",
-            incorrectFeedbackRu: "Не совсем так. Помните: They + don't + optimize + their websites for mobile devices."
+            words: ["They", "don't", "open", "windows", "in", "winter."],
+            correctAnswer: "They don't open windows in winter.",
+            correctFeedback: "Excellent! 'They don't open windows in winter.' is correct. Keep the warm air inside!",
+            correctFeedbackRu: "Превосходно! 'They don't open windows in winter.' верно. Сохраняйте теплый воздух внутри!",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "update", "his", "software", "security", "patches"],
-            correctAnswer: "He doesn't update his software security patches.",
-            correctFeedback: "Excellent! 'He doesn't update his software security patches' is correct. Cybersecurity awareness!",
-            correctFeedbackRu: "Отлично! 'He doesn't update his software security patches' верно. Осведомленность о кибербезопасности!",
-            incorrectFeedback: "Not quite. Remember: He + doesn't + update + his software security patches.",
-            incorrectFeedbackRu: "Не совсем так. Помните: He + doesn't + update + his software security patches."
+            words: ["You", "don't", "need", "sunglasses", "today."],
+            correctAnswer: "You don't need sunglasses today.",
+            correctFeedback: "Great! 'You don't need sunglasses today.' is correct. Cloudy day, no bright sun!",
+            correctFeedbackRu: "Отлично! 'You don't need sunglasses today.' верно. Пасмурный день, нет яркого солнца!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "organize", "my", "digital", "files", "systematically"],
-            correctAnswer: "I don't organize my digital files systematically.",
-            correctFeedback: "Perfect! 'I don't organize my digital files systematically' is correct. Digital organization habits!",
-            correctFeedbackRu: "Идеально! 'I don't organize my digital files systematically' верно. Привычки цифровой организации!",
-            incorrectFeedback: "Try again. Remember: I + don't + organize + my digital files systematically.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + organize + my digital files systematically."
+            words: ["I", "don't", "check", "the", "weather", "forecast."],
+            correctAnswer: "I don't check the weather forecast.",
+            correctFeedback: "Perfect! 'I don't check the weather forecast.' is correct. Spontaneous weather decisions!",
+            correctFeedbackRu: "Отлично! 'I don't check the weather forecast.' верно. Спонтанные погодные решения!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "limit", "screen", "time", "before", "bedtime"],
-            correctAnswer: "You don't limit screen time before bedtime.",
-            correctFeedback: "Great job! 'You don't limit screen time before bedtime' is correct. Digital wellness observation!",
-            correctFeedbackRu: "Отличная работа! 'You don't limit screen time before bedtime' верно. Наблюдение о цифровом благополучии!",
-            incorrectFeedback: "Not right. The correct order is: You + don't + limit + screen time before bedtime.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: You + don't + limit + screen time before bedtime."
+            words: ["She", "doesn't", "play", "in", "the", "snow."],
+            correctAnswer: "She doesn't play in the snow.",
+            correctFeedback: "Excellent! 'She doesn't play in the snow.' is correct. Too cold for outdoor fun!",
+            correctFeedbackRu: "Превосходно! 'She doesn't play in the snow.' верно. Слишком холодно для игр на улице!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "encrypt", "sensitive", "documents", "properly"],
-            correctAnswer: "She doesn't encrypt sensitive documents properly.",
-            correctFeedback: "Excellent! 'She doesn't encrypt sensitive documents properly' is correct. Data protection awareness!",
-            correctFeedbackRu: "Отлично! 'She doesn't encrypt sensitive documents properly' верно. Осведомленность о защите данных!",
-            incorrectFeedback: "Try again. Remember: She + doesn't + encrypt + sensitive documents properly.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: She + doesn't + encrypt + sensitive documents properly."
+            words: ["We", "don't", "turn", "on", "the", "heating."],
+            correctAnswer: "We don't turn on the heating.",
+            correctFeedback: "Great! 'We don't turn on the heating.' is correct. Maybe it's still warm enough!",
+            correctFeedbackRu: "Отлично! 'We don't turn on the heating.' верно. Возможно, ещё достаточно тепло!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "evaluate", "new", "technology", "trends", "critically"],
-            correctAnswer: "We don't evaluate new technology trends critically.",
-            correctFeedback: "Perfect! 'We don't evaluate new technology trends critically' is correct. Tech literacy assessment!",
-            correctFeedbackRu: "Идеально! 'We don't evaluate new technology trends critically' верно. Оценка технологической грамотности!",
-            incorrectFeedback: "Not quite. The correct order is: We + don't + evaluate + new technology trends critically.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: We + don't + evaluate + new technology trends critically."
+            words: ["He", "doesn't", "mind", "hot", "weather."],
+            correctAnswer: "He doesn't mind hot weather.",
+            correctFeedback: "Perfect! 'He doesn't mind hot weather.' is correct. Some people love the heat!",
+            correctFeedbackRu: "Отлично! 'He doesn't mind hot weather.' верно. Некоторые люди любят жару!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }
     ]
 };
 
 /* ============================================
-Page 8: Health and Wellness Negatives - Sentence Building
+Page 8: Present Simple Negatives - Sentence Building - Shopping and Money
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page8'] = {
-    title: "Present Simple Negatives - Health and Wellness Negatives",
+    title: "Present Simple Negatives - Shopping and Money",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "monitor", "my", "blood", "pressure", "regularly"],
-            correctAnswer: "I don't monitor my blood pressure regularly.",
-            correctFeedback: "Excellent! 'I don't monitor my blood pressure regularly' is correct. Important health tracking awareness!",
-            correctFeedbackRu: "Отлично! 'I don't monitor my blood pressure regularly' верно. Важная осведомленность о контроле здоровья!",
-            incorrectFeedback: "Try again. Remember: I + don't + monitor + my blood pressure regularly.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + monitor + my blood pressure regularly."
+            words: ["I", "don't", "buy", "expensive", "clothes."],
+            correctAnswer: "I don't buy expensive clothes.",
+            correctFeedback: "Perfect! 'I don't buy expensive clothes.' is correct. Budget shopping is smart!",
+            correctFeedbackRu: "Отлично! 'I don't buy expensive clothes.' верно. Покупки по бюджету - это умно!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "stretch", "before", "and", "after", "workouts"],
-            correctAnswer: "You don't stretch before and after workouts.",
-            correctFeedback: "Perfect! 'You don't stretch before and after workouts' is correct. Essential exercise safety reminder!",
-            correctFeedbackRu: "Идеально! 'You don't stretch before and after workouts' верно. Важное напоминание о безопасности упражнений!",
-            incorrectFeedback: "Not quite. The correct order is: You + don't + stretch + before and after workouts.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: You + don't + stretch + before and after workouts."
+            words: ["She", "doesn't", "pay", "with", "cash."],
+            correctAnswer: "She doesn't pay with cash.",
+            correctFeedback: "Excellent! 'She doesn't pay with cash.' is correct. Credit cards are convenient!",
+            correctFeedbackRu: "Превосходно! 'She doesn't pay with cash.' верно. Кредитные карты удобны!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "consume", "enough", "fiber", "in", "his", "diet"],
-            correctAnswer: "He doesn't consume enough fiber in his diet.",
-            correctFeedback: "Great job! 'He doesn't consume enough fiber in his diet' is correct. Important nutritional observation!",
-            correctFeedbackRu: "Отличная работа! 'He doesn't consume enough fiber in his diet' верно. Важное наблюдение о питании!",
-            incorrectFeedback: "Not right. Remember: He + doesn't + consume + enough fiber in his diet.",
-            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + consume + enough fiber in his diet."
+            words: ["We", "don't", "shop", "on", "Sundays."],
+            correctAnswer: "We don't shop on Sundays.",
+            correctFeedback: "Great! 'We don't shop on Sundays.' is correct. Family day, not shopping day!",
+            correctFeedbackRu: "Отлично! 'We don't shop on Sundays.' верно. День семьи, а не покупок!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "prioritize", "mental", "health", "in", "our", "workplace"],
-            correctAnswer: "We don't prioritize mental health in our workplace.",
-            correctFeedback: "Excellent! 'We don't prioritize mental health in our workplace' is correct. Critical workplace wellness observation!",
-            correctFeedbackRu: "Отлично! 'We don't prioritize mental health in our workplace' верно. Критическое наблюдение о благополучии на рабочем месте!",
-            incorrectFeedback: "Try again. The correct order is: We + don't + prioritize + mental health in our workplace.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: We + don't + prioritize + mental health in our workplace."
+            words: ["He", "doesn't", "save", "money."],
+            correctAnswer: "He doesn't save money.",
+            correctFeedback: "Perfect! 'He doesn't save money.' is correct. Maybe he spends everything he earns!",
+            correctFeedbackRu: "Отлично! 'He doesn't save money.' верно. Возможно, он тратит всё, что зарабатывает!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "schedule", "regular", "medical", "checkups"],
-            correctAnswer: "They don't schedule regular medical checkups.",
-            correctFeedback: "Perfect! 'They don't schedule regular medical checkups' is correct. Preventive healthcare awareness!",
-            correctFeedbackRu: "Идеально! 'They don't schedule regular medical checkups' верно. Осведомленность о профилактическом здравоохранении!",
-            incorrectFeedback: "Not quite. Remember: They + don't + schedule + regular medical checkups.",
-            incorrectFeedbackRu: "Не совсем так. Помните: They + don't + schedule + regular medical checkups."
+            words: ["They", "don't", "use", "coupons."],
+            correctAnswer: "They don't use coupons.",
+            correctFeedback: "Excellent! 'They don't use coupons.' is correct. Full price is fine for them!",
+            correctFeedbackRu: "Превосходно! 'They don't use coupons.' верно. Полная цена их устраивает!",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "practice", "meditation", "or", "mindfulness", "daily"],
-            correctAnswer: "She doesn't practice meditation or mindfulness daily.",
-            correctFeedback: "Excellent! 'She doesn't practice meditation or mindfulness daily' is correct. Mental wellness habits!",
-            correctFeedbackRu: "Отлично! 'She doesn't practice meditation or mindfulness daily' верно. Привычки психического благополучия!",
-            incorrectFeedback: "Not quite. Remember: She + doesn't + practice + meditation or mindfulness daily.",
-            incorrectFeedbackRu: "Не совсем так. Помните: She + doesn't + practice + meditation or mindfulness daily."
+            words: ["You", "don't", "check", "prices."],
+            correctAnswer: "You don't check prices.",
+            correctFeedback: "Great! 'You don't check prices.' is correct. Quick shopping without comparing!",
+            correctFeedbackRu: "Отлично! 'You don't check prices.' верно. Быстрые покупки без сравнения!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "maintain", "proper", "posture", "while", "working"],
-            correctAnswer: "I don't maintain proper posture while working.",
-            correctFeedback: "Perfect! 'I don't maintain proper posture while working' is correct. Ergonomic awareness!",
-            correctFeedbackRu: "Идеально! 'I don't maintain proper posture while working' верно. Эргономическая осведомленность!",
-            incorrectFeedback: "Try again. Remember: I + don't + maintain + proper posture while working.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + maintain + proper posture while working."
+            words: ["I", "don't", "carry", "a", "wallet."],
+            correctAnswer: "I don't carry a wallet.",
+            correctFeedback: "Perfect! 'I don't carry a wallet.' is correct. Phone payment is the future!",
+            correctFeedbackRu: "Отлично! 'I don't carry a wallet.' верно. Оплата телефоном - это будущее!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "hydrate", "sufficiently", "throughout", "the", "day"],
-            correctAnswer: "You don't hydrate sufficiently throughout the day.",
-            correctFeedback: "Great job! 'You don't hydrate sufficiently throughout the day' is correct. Basic health maintenance!",
-            correctFeedbackRu: "Отличная работа! 'You don't hydrate sufficiently throughout the day' верно. Основное поддержание здоровья!",
-            incorrectFeedback: "Not right. The correct order is: You + don't + hydrate + sufficiently throughout the day.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: You + don't + hydrate + sufficiently throughout the day."
+            words: ["She", "doesn't", "try", "on", "clothes."],
+            correctAnswer: "She doesn't try on clothes.",
+            correctFeedback: "Excellent! 'She doesn't try on clothes.' is correct. Online shopping or knows her size!",
+            correctFeedbackRu: "Превосходно! 'She doesn't try on clothes.' верно. Интернет-покупки или знает свой размер!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "balance", "work", "and", "rest", "appropriately"],
-            correctAnswer: "He doesn't balance work and rest appropriately.",
-            correctFeedback: "Excellent! 'He doesn't balance work and rest appropriately' is correct. Work-life balance observation!",
-            correctFeedbackRu: "Отлично! 'He doesn't balance work and rest appropriately' верно. Наблюдение о балансе работы и отдыха!",
-            incorrectFeedback: "Try again. Remember: He + doesn't + balance + work and rest appropriately.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: He + doesn't + balance + work and rest appropriately."
+            words: ["We", "don't", "buy", "things", "on", "sale."],
+            correctAnswer: "We don't buy things on sale.",
+            correctFeedback: "Great! 'We don't buy things on sale.' is correct. Quality over discount prices!",
+            correctFeedbackRu: "Отлично! 'We don't buy things on sale.' верно. Качество важнее скидочных цен!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "recognize", "signs", "of", "burnout", "early"],
-            correctAnswer: "We don't recognize signs of burnout early.",
-            correctFeedback: "Perfect! 'We don't recognize signs of burnout early' is correct. Mental health awareness in workplace!",
-            correctFeedbackRu: "Идеально! 'We don't recognize signs of burnout early' верно. Осведомленность о психическом здоровье на рабочем месте!",
-            incorrectFeedback: "Not quite. The correct order is: We + don't + recognize + signs of burnout early.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: We + don't + recognize + signs of burnout early."
+            words: ["He", "doesn't", "spend", "much", "money."],
+            correctAnswer: "He doesn't spend much money.",
+            correctFeedback: "Perfect! 'He doesn't spend much money.' is correct. A careful spender!",
+            correctFeedbackRu: "Отлично! 'He doesn't spend much money.' верно. Осторожный в тратах!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }
     ]
 };
 
 /* ============================================
-Page 9: Environmental and Lifestyle Negatives - Sentence Building
+Page 9: Present Simple Negatives - Sentence Building - Health and Body
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page9'] = {
-    title: "Present Simple Negatives - Environmental and Lifestyle Negatives",
+    title: "Present Simple Negatives - Health and Body",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "compost", "organic", "waste", "at", "home"],
-            correctAnswer: "I don't compost organic waste at home.",
-            correctFeedback: "Excellent! 'I don't compost organic waste at home' is correct. Environmental responsibility awareness!",
-            correctFeedbackRu: "Отлично! 'I don't compost organic waste at home' верно. Осведомленность об экологической ответственности!",
-            incorrectFeedback: "Try again. Remember: I + don't + compost + organic waste at home.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + compost + organic waste at home."
+            words: ["I", "don't", "smoke", "cigarettes."],
+            correctAnswer: "I don't smoke cigarettes.",
+            correctFeedback: "Perfect! 'I don't smoke cigarettes.' is correct. Great choice for your health!",
+            correctFeedbackRu: "Отлично! 'I don't smoke cigarettes.' верно. Отличный выбор для вашего здоровья!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "repair", "items", "instead", "of", "replacing", "them"],
-            correctAnswer: "You don't repair items instead of replacing them.",
-            correctFeedback: "Perfect! 'You don't repair items instead of replacing them' is correct. Sustainable consumption observation!",
-            correctFeedbackRu: "Идеально! 'You don't repair items instead of replacing them' верно. Наблюдение об устойчивом потреблении!",
-            incorrectFeedback: "Not quite. The correct order is: You + don't + repair + items instead of replacing them.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: You + don't + repair + items instead of replacing them."
+            words: ["She", "doesn't", "exercise", "every", "day."],
+            correctAnswer: "She doesn't exercise every day.",
+            correctFeedback: "Excellent! 'She doesn't exercise every day.' is correct. A few times a week is good too!",
+            correctFeedbackRu: "Превосходно! 'She doesn't exercise every day.' верно. Несколько раз в неделю тоже хорошо!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "support", "local", "farmers", "markets"],
-            correctAnswer: "She doesn't support local farmers markets.",
-            correctFeedback: "Great job! 'She doesn't support local farmers markets' is correct. Community economy awareness!",
-            correctFeedbackRu: "Отличная работа! 'She doesn't support local farmers markets' верно. Осведомленность о местной экономике!",
-            incorrectFeedback: "Not right. Remember: She + doesn't + support + local farmers markets.",
-            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + support + local farmers markets."
+            words: ["We", "don't", "eat", "junk", "food."],
+            correctAnswer: "We don't eat junk food.",
+            correctFeedback: "Great! 'We don't eat junk food.' is correct. Healthy eating habits!",
+            correctFeedbackRu: "Отлично! 'We don't eat junk food.' верно. Здоровые пищевые привычки!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "minimize", "our", "carbon", "footprint", "effectively"],
-            correctAnswer: "We don't minimize our carbon footprint effectively.",
-            correctFeedback: "Excellent! 'We don't minimize our carbon footprint effectively' is correct. Climate action self-assessment!",
-            correctFeedbackRu: "Отлично! 'We don't minimize our carbon footprint effectively' верно. Самооценка климатических действий!",
-            incorrectFeedback: "Try again. The correct order is: We + don't + minimize + our carbon footprint effectively.",
-            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: We + don't + minimize + our carbon footprint effectively."
+            words: ["He", "doesn't", "drink", "enough", "water."],
+            correctAnswer: "He doesn't drink enough water.",
+            correctFeedback: "Perfect! 'He doesn't drink enough water.' is correct. He should drink more!",
+            correctFeedbackRu: "Отлично! 'He doesn't drink enough water.' верно. Ему следует пить больше!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "advocate", "for", "renewable", "energy", "policies"],
-            correctAnswer: "They don't advocate for renewable energy policies.",
-            correctFeedback: "Perfect! 'They don't advocate for renewable energy policies' is correct. Political engagement in environmental issues! You've completed pages 7-9 of Sentence Building exercises!",
-            correctFeedbackRu: "Идеально! 'They don't advocate for renewable energy policies' верно. Политическое участие в экологических вопросах! Вы завершили страницы 7-9 упражнений Sentence Building!",
-            incorrectFeedback: "Not quite. Remember: They + don't + advocate + for renewable energy policies.",
-            incorrectFeedbackRu: "Не совсем так. Помните: They + don't + advocate + for renewable energy policies."
+            words: ["They", "don't", "sleep", "eight", "hours."],
+            correctAnswer: "They don't sleep eight hours.",
+            correctFeedback: "Excellent! 'They don't sleep eight hours.' is correct. Maybe they're too busy!",
+            correctFeedbackRu: "Превосходно! 'They don't sleep eight hours.' верно. Возможно, они слишком заняты!",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "choose", "eco-friendly", "transportation", "options"],
-            correctAnswer: "He doesn't choose eco-friendly transportation options.",
-            correctFeedback: "Excellent! 'He doesn't choose eco-friendly transportation options' is correct. Sustainable mobility awareness!",
-            correctFeedbackRu: "Отлично! 'He doesn't choose eco-friendly transportation options' верно. Осведомленность об устойчивой мобильности!",
-            incorrectFeedback: "Not quite. Remember: He + doesn't + choose + eco-friendly transportation options.",
-            incorrectFeedbackRu: "Не совсем так. Помните: He + doesn't + choose + eco-friendly transportation options."
+            words: ["You", "don't", "feel", "sick", "today."],
+            correctAnswer: "You don't feel sick today.",
+            correctFeedback: "Great! 'You don't feel sick today.' is correct. Good health day!",
+            correctFeedbackRu: "Отлично! 'You don't feel sick today.' верно. День хорошего здоровья!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "participate", "in", "community", "cleanup", "events"],
-            correctAnswer: "I don't participate in community cleanup events.",
-            correctFeedback: "Perfect! 'I don't participate in community cleanup events' is correct. Civic environmental engagement!",
-            correctFeedbackRu: "Идеально! 'I don't participate in community cleanup events' верно. Гражданское экологическое участие!",
-            incorrectFeedback: "Try again. Remember: I + don't + participate + in community cleanup events.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + participate + in community cleanup events."
+            words: ["I", "don't", "take", "vitamins."],
+            correctAnswer: "I don't take vitamins.",
+            correctFeedback: "Perfect! 'I don't take vitamins.' is correct. Good diet might be enough!",
+            correctFeedbackRu: "Отлично! 'I don't take vitamins.' верно. Хорошего питания может быть достаточно!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "conserve", "water", "during", "daily", "activities"],
-            correctAnswer: "You don't conserve water during daily activities.",
-            correctFeedback: "Great job! 'You don't conserve water during daily activities' is correct. Resource conservation habits!",
-            correctFeedbackRu: "Отличная работа! 'You don't conserve water during daily activities' верно. Привычки сохранения ресурсов!",
-            incorrectFeedback: "Not right. The correct order is: You + don't + conserve + water during daily activities.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: You + don't + conserve + water during daily activities."
+            words: ["She", "doesn't", "go", "to", "the", "doctor."],
+            correctAnswer: "She doesn't go to the doctor.",
+            correctFeedback: "Excellent! 'She doesn't go to the doctor.' is correct. Maybe she's always healthy!",
+            correctFeedbackRu: "Превосходно! 'She doesn't go to the doctor.' верно. Возможно, она всегда здорова!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "research", "sustainable", "brands", "before", "purchasing"],
-            correctAnswer: "She doesn't research sustainable brands before purchasing.",
-            correctFeedback: "Excellent! 'She doesn't research sustainable brands before purchasing' is correct. Conscious consumerism awareness!",
-            correctFeedbackRu: "Отлично! 'She doesn't research sustainable brands before purchasing' верно. Осведомленность о сознательном потребительстве!",
-            incorrectFeedback: "Try again. Remember: She + doesn't + research + sustainable brands before purchasing.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: She + doesn't + research + sustainable brands before purchasing."
+            words: ["We", "don't", "run", "in", "the", "park."],
+            correctAnswer: "We don't run in the park.",
+            correctFeedback: "Great! 'We don't run in the park.' is correct. Walking is good exercise too!",
+            correctFeedbackRu: "Отлично! 'We don't run in the park.' верно. Ходьба - тоже хорошее упражнение!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "educate", "others", "about", "environmental", "issues"],
-            correctAnswer: "We don't educate others about environmental issues.",
-            correctFeedback: "Perfect! 'We don't educate others about environmental issues' is correct. Environmental advocacy and education! You've completed all 10 exercises on pages 7-9!",
-            correctFeedbackRu: "Идеально! 'We don't educate others about environmental issues' верно. Экологическая защита и образование! Вы завершили все 10 упражнений на страницах 7-9!",
-            incorrectFeedback: "Not quite. The correct order is: We + don't + educate + others about environmental issues.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: We + don't + educate + others about environmental issues."
+            words: ["He", "doesn't", "wear", "glasses."],
+            correctAnswer: "He doesn't wear glasses.",
+            correctFeedback: "Perfect! 'He doesn't wear glasses.' is correct. Good eyesight!",
+            correctFeedbackRu: "Отлично! 'He doesn't wear glasses.' верно. Хорошее зрение!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }
     ]
 };
 
 /* ============================================
-Page 10: Final Mixed Review - All Pronouns and Advanced Topics
+Page 10: Present Simple Negatives - Sentence Building - Mixed Review
 ============================================ */
 window.grammarExercises['tenses']['present-simple-negatives-sentence-page10'] = {
-    title: "Present Simple Negatives - Final Mixed Review",
+    title: "Present Simple Negatives - Mixed Review",
     sentenceBuilding: [
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "negotiate", "contracts", "without", "legal", "advice"],
-            correctAnswer: "I don't negotiate contracts without legal advice.",
-            correctFeedback: "Excellent! 'I don't negotiate contracts without legal advice' is correct. Smart business practice!",
-            correctFeedbackRu: "Отлично! 'I don't negotiate contracts without legal advice' верно. Умная деловая практика!",
-            incorrectFeedback: "Try again. Remember: I + don't + negotiate + contracts without legal advice.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + negotiate + contracts without legal advice."
+            words: ["I", "don't", "speak", "French."],
+            correctAnswer: "I don't speak French.",
+            correctFeedback: "Perfect! 'I don't speak French.' is correct. Maybe you speak other languages!",
+            correctFeedbackRu: "Отлично! 'I don't speak French.' верно. Возможно, вы говорите на других языках!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "document", "important", "meetings", "properly"],
-            correctAnswer: "You don't document important meetings properly.",
-            correctFeedback: "Perfect! 'You don't document important meetings properly' is correct. Professional organization skills!",
-            correctFeedbackRu: "Идеально! 'You don't document important meetings properly' верно. Навыки профессиональной организации!",
-            incorrectFeedback: "Not quite. The correct order is: You + don't + document + important meetings properly.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: You + don't + document + important meetings properly."
+            words: ["She", "doesn't", "own", "a", "cat."],
+            correctAnswer: "She doesn't own a cat.",
+            correctFeedback: "Excellent! 'She doesn't own a cat.' is correct. Maybe she prefers dogs!",
+            correctFeedbackRu: "Превосходно! 'She doesn't own a cat.' верно. Возможно, она предпочитает собак!",
+            incorrectFeedback: "Not quite. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "diversify", "her", "investment", "portfolio"],
-            correctAnswer: "She doesn't diversify her investment portfolio.",
-            correctFeedback: "Great job! 'She doesn't diversify her investment portfolio' is correct. Financial planning observation!",
-            correctFeedbackRu: "Отличная работа! 'She doesn't diversify her investment portfolio' верно. Наблюдение о финансовом планировании!",
-            incorrectFeedback: "Not right. Remember: She + doesn't + diversify + her investment portfolio.",
-            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + diversify + her investment portfolio."
+            words: ["We", "don't", "know", "the", "answer."],
+            correctAnswer: "We don't know the answer.",
+            correctFeedback: "Great! 'We don't know the answer.' is correct. It's okay to not know everything!",
+            correctFeedbackRu: "Отлично! 'We don't know the answer.' верно. Нормально не знать всего!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "acknowledge", "his", "mistakes", "publicly"],
-            correctAnswer: "He doesn't acknowledge his mistakes publicly.",
-            correctFeedback: "Excellent! 'He doesn't acknowledge his mistakes publicly' is correct. Leadership accountability insight!",
-            correctFeedbackRu: "Отлично! 'He doesn't acknowledge his mistakes publicly' верно. Понимание подотчетности лидерства!",
-            incorrectFeedback: "Try again. Remember: He + doesn't + acknowledge + his mistakes publicly.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: He + doesn't + acknowledge + his mistakes publicly."
+            words: ["He", "doesn't", "remember", "names."],
+            correctAnswer: "He doesn't remember names.",
+            correctFeedback: "Perfect! 'He doesn't remember names.' is correct. Some people are bad with names!",
+            correctFeedbackRu: "Отлично! 'He doesn't remember names.' верно. Некоторые плохо запоминают имена!",
+            incorrectFeedback: "Not right. Remember: He + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["We", "don't", "collaborate", "effectively", "across", "departments"],
-            correctAnswer: "We don't collaborate effectively across departments.",
-            correctFeedback: "Perfect! 'We don't collaborate effectively across departments' is correct. Organizational efficiency assessment!",
-            correctFeedbackRu: "Идеально! 'We don't collaborate effectively across departments' верно. Оценка организационной эффективности!",
-            incorrectFeedback: "Not quite. The correct order is: We + don't + collaborate + effectively across departments.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: We + don't + collaborate + effectively across departments."
+            words: ["They", "don't", "believe", "the", "story."],
+            correctAnswer: "They don't believe the story.",
+            correctFeedback: "Excellent! 'They don't believe the story.' is correct. It sounds too strange!",
+            correctFeedbackRu: "Превосходно! 'They don't believe the story.' верно. Звучит слишком странно!",
+            incorrectFeedback: "Try again. Remember: They + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["They", "don't", "innovate", "fast", "enough", "to", "compete"],
-            correctAnswer: "They don't innovate fast enough to compete.",
-            correctFeedback: "Great job! 'They don't innovate fast enough to compete' is correct. Market competitiveness analysis!",
-            correctFeedbackRu: "Отличная работа! 'They don't innovate fast enough to compete' верно. Анализ рыночной конкурентоспособности!",
-            incorrectFeedback: "Try again. Remember: They + don't + innovate + fast enough to compete.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: They + don't + innovate + fast enough to compete."
+            words: ["You", "don't", "look", "tired."],
+            correctAnswer: "You don't look tired.",
+            correctFeedback: "Great! 'You don't look tired.' is correct. You seem full of energy!",
+            correctFeedbackRu: "Отлично! 'You don't look tired.' верно. Вы выглядите полными энергии!",
+            incorrectFeedback: "Not quite. Remember: You + don't + base verb.",
+            incorrectFeedbackRu: "Не совсем. Помните: You + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["I", "don't", "multitask", "during", "important", "conversations"],
-            correctAnswer: "I don't multitask during important conversations.",
-            correctFeedback: "Excellent! 'I don't multitask during important conversations' is correct. Excellent communication etiquette!",
-            correctFeedbackRu: "Отлично! 'I don't multitask during important conversations' верно. Отличный этикет общения!",
-            incorrectFeedback: "Not right. The correct order is: I + don't + multitask + during important conversations.",
-            incorrectFeedbackRu: "Неверно. Правильный порядок: I + don't + multitask + during important conversations."
+            words: ["I", "don't", "mind", "waiting."],
+            correctAnswer: "I don't mind waiting.",
+            correctFeedback: "Perfect! 'I don't mind waiting.' is correct. Patient person!",
+            correctFeedbackRu: "Отлично! 'I don't mind waiting.' верно. Терпеливый человек!",
+            incorrectFeedback: "Try again. Remember: I + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["You", "don't", "analyze", "data", "before", "making", "decisions"],
-            correctAnswer: "You don't analyze data before making decisions.",
-            correctFeedback: "Perfect! 'You don't analyze data before making decisions' is correct. Critical thinking process evaluation!",
-            correctFeedbackRu: "Идеально! 'You don't analyze data before making decisions' верно. Оценка процесса критического мышления!",
-            incorrectFeedback: "Try again. Remember: You + don't + analyze + data before making decisions.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: You + don't + analyze + data before making decisions."
+            words: ["She", "doesn't", "agree", "with", "us."],
+            correctAnswer: "She doesn't agree with us.",
+            correctFeedback: "Excellent! 'She doesn't agree with us.' is correct. Different opinions are normal!",
+            correctFeedbackRu: "Превосходно! 'She doesn't agree with us.' верно. Разные мнения - это нормально!",
+            incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
+            incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["She", "doesn't", "delegate", "responsibilities", "to", "team", "members"],
-            correctAnswer: "She doesn't delegate responsibilities to team members.",
-            correctFeedback: "Great job! 'She doesn't delegate responsibilities to team members' is correct. Management style observation!",
-            correctFeedbackRu: "Отличная работа! 'She doesn't delegate responsibilities to team members' верно. Наблюдение о стиле управления!",
-            incorrectFeedback: "Not quite. The correct order is: She + doesn't + delegate + responsibilities to team members.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: She + doesn't + delegate + responsibilities to team members."
+            words: ["We", "don't", "want", "to", "leave."],
+            correctAnswer: "We don't want to leave.",
+            correctFeedback: "Great! 'We don't want to leave.' is correct. Having a good time!",
+            correctFeedbackRu: "Отлично! 'We don't want to leave.' верно. Хорошо проводите время!",
+            incorrectFeedback: "Try again. Remember: We + don't + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: We + don't + базовый глагол."
         },
         {
             question: "Form a correct negative sentence using these words:",
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
-            words: ["He", "doesn't", "anticipate", "market", "changes", "proactively"],
-            correctAnswer: "He doesn't anticipate market changes proactively.",
-            correctFeedback: "Perfect! 'He doesn't anticipate market changes proactively' is correct. Strategic planning assessment! Congratulations! You've completed all 10 pages of Present Simple Negatives Sentence Building exercises!",
-            correctFeedbackRu: "Идеально! 'He doesn't anticipate market changes proactively' верно. Оценка стратегического планирования! Поздравляем! Вы завершили все 10 страниц упражнений Sentence Building на Present Simple Negatives!",
-            incorrectFeedback: "Not right. Remember: He + doesn't + anticipate + market changes proactively. This is the final exercise!",
-            incorrectFeedbackRu: "Неверно. Помните: He + doesn't + anticipate + market changes proactively. Это последнее упражнение!"
+            words: ["He", "doesn't", "hear", "the", "music."],
+            correctAnswer: "He doesn't hear the music.",
+            correctFeedback: "Perfect! 'He doesn't hear the music.' is correct. Congratulations on completing all 10 pages of Sentence Building!",
+            correctFeedbackRu: "Отлично! 'He doesn't hear the music.' верно. Поздравляем с завершением всех 10 страниц Sentence Building!",
+            incorrectFeedback: "Not quite. Remember: He + doesn't + base verb. You've reached the final exercise!",
+            incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол. Вы достигли последнего упражнения!"
         }
     ]
 };
-
-/* ============================================
-Console log to confirm data loading - ALL PAGES 1-10
-============================================ */
-console.log("Present Simple Daily Routines Sentence Building Pages 1-10 loaded successfully!");
-console.log("===== SENTENCE BUILDING: PAGES 1-10 LOADED =====");
