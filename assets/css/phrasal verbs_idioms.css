@@ -81,7 +81,7 @@ body {
     padding: 0 1rem;
 }
 
-body > *:not(.footer):not(script):not(.js-cursor-init):not(.left-nav) {
+body > *:not(.footer):not(script):not(.js-cursor-init):not(.left-nav):not(.match-pictures-modal):not(.write-phrasal-verb-modal):not(.fill-gaps-modal):not(.choose-correct-meaning-modal):not(.true-or-false-modal):not(.find-mistake-modal):not(#phraseTrainingModal):not(#phraseModesModalOverlay):not(.completion-modal):not(.training-completion-modal):not(#phraseTrainingModal):not(#phraseModesModalOverlay) {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -164,7 +164,7 @@ body {
     .main-content,
     .hero,
     .container,
-    body > *:not(.footer):not(script):not(.js-cursor-init):not(.left-nav) {
+    body > *:not(.footer):not(script):not(.js-cursor-init):not(.left-nav):not(.match-pictures-modal):not(.write-phrasal-verb-modal):not(.fill-gaps-modal):not(.choose-correct-meaning-modal):not(.true-or-false-modal):not(.find-mistake-modal):not(#phraseTrainingModal):not(#phraseModesModalOverlay):not(.completion-modal):not(.training-completion-modal):not(#phraseTrainingModal):not(#phraseModesModalOverlay) {
         padding-left: 0.75rem;
         padding-right: 0.75rem;
     }
@@ -1977,4 +1977,106 @@ h1 {
     .study-button:active {
         transform: scale(0.95) !important;
     }
+}
+/* ==============================================
+   ИЗОЛЯЦИЯ МОДАЛЬНОГО ОКНА ОТ ОСНОВНЫХ СТИЛЕЙ
+   ============================================== */
+
+/* Модальное окно не наследует стили от body */
+#phraseTrainingModal {
+    all: initial !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(0, 0, 0, 0.9) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 1000 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Модальное окно выбора режимов также изолировано */
+#phraseModesModalOverlay {
+    all: initial !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(0, 0, 0, 0.8) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 1001 !important;
+    font-family: 'Poppins', sans-serif !important;
+    padding: 20px !important;
+}
+
+/* Кнопки в модальном окне */
+#phraseTrainingModal .minus-btn:hover,
+#phraseTrainingModal .plus-btn:hover {
+    color: #ffffff !important;
+}
+
+#phraseTrainingModal .settings-btn:hover {
+    color: #ffffff !important;
+}
+
+#phraseTrainingModal .start-training-btn:hover {
+    background: #5855eb !important;
+}
+
+#phraseTrainingModal .close-modal:hover {
+    color: #ffffff !important;
+}
+
+/* Блокировка скролла основной страницы */
+body:has(#phraseTrainingModal) {
+    overflow: hidden !important;
+}
+
+/* Адаптивность */
+@media (max-width: 1480px) {
+    #phraseTrainingModal > div {
+        width: 90vw !important;
+        max-width: 1200px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #phraseTrainingModal > div {
+        width: 95vw !important;
+        height: 95vh !important;
+        padding: 20px !important;
+    }
+    
+    #phraseTrainingModal h2 {
+        font-size: 36px !important;
+    }
+}
+/* Универсальное скрытие навигации для всех модальных окон */
+body:has([style*="position: fixed"]:not(.left-nav)) .left-nav {
+    display: none !important;
+}
+
+/* Дополнительное правило для модальных окон с z-index */
+body:has([style*="z-index: 1000"]) .left-nav,
+body:has([style*="z-index: 1001"]) .left-nav,
+body:has([style*="z-index: 1002"]) .left-nav {
+    display: none !important;
+}
+
+/* Скрытие навигации когда есть затемненный фон */
+body:has([style*="background: rgba(0,0,0,0.9)"]) .left-nav,
+body:has([style*="background: rgba(0, 0, 0, 0.9)"]) .left-nav {
+    display: none !important;
+}
+
+/* Скрытие для элементов с определенными размерами (модальные окна) */
+body:has([style*="width: 90vw"]) .left-nav,
+body:has([style*="height: 90vh"]) .left-nav {
+    display: none !important;
 }

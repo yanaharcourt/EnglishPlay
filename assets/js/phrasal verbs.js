@@ -2317,6 +2317,7 @@ document.addEventListener('DOMContentLoaded', function () {
 --------------------------------------------------------------*/
 PhraseTraining.prototype.showCompletionModal = function () {
     const modal = document.createElement('div');
+    modal.className = 'completion-modal';
     modal.style.cssText = `
         position: fixed;
         top: 0;
@@ -4535,7 +4536,7 @@ PhraseTraining.prototype.createTrueOrFalseModal = function () {
 
     // Create modal window
     const modal = document.createElement('div');
-    modal.className = 'true-false-modal';
+    modal.className = 'true-or-false-modal';
     modal.style.cssText = `
         position: fixed;
         top: 0;
