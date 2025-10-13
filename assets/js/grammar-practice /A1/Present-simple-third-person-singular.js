@@ -1518,6 +1518,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page9'] 
         }
     ]
 };
+
 /* ============================================
 Page 10: Mixed Review and Complex Sentences
 ============================================ */
@@ -2889,26 +2890,26 @@ console.log("===== FILL IN THE GAPS: PAGES 1-10 LOADED =====");
 Page 1: Basic Rules
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page1'] = {
-    title: "Present Simple - Basic Rules", sentenceBuilding: [
+    title: "Present Simple third person singular - Basic Rules", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["She", "listens", "to", "music", "daily"],
-            correctAnswer: "She listens to music daily.",
-            correctFeedback: "Excellent! 'She listens to music daily' is correct. Perfect third person singular with -s!",
-            correctFeedbackRu: "Отлично! 'She listens to music daily' верно. Идеальное третье лицо единственного числа с -s!",
-            incorrectFeedback: "Try again. Remember: She + listens (with -s) + to music + daily.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: She + listens (с -s) + to music + daily."
+            words: ["She", "listens", "to", "music", "every", "day"],
+            correctAnswer: "She listens to music every day.",
+            correctFeedback: "Excellent! 'She listens to music every day' is correct. Perfect third person singular with -s!",
+            correctFeedbackRu: "Отлично! 'She listens to music every day' верно. Идеальное третье лицо единственного числа с -s!",
+            incorrectFeedback: "Try again. Remember: She + listens (with -s) + to music + every day.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + listens (с -s) + to music + every day."
         },
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["He", "travels", "by", "train", "often"],
-            correctAnswer: "He travels by train often.",
-            correctFeedback: "Perfect! 'He travels by train often' is correct. Great third person form!",
-            correctFeedbackRu: "Идеально! 'He travels by train often' верно. Отличная форма третьего лица!",
-            incorrectFeedback: "Not quite. The correct order is: He + travels + by train + often.",
-            incorrectFeedbackRu: "Не совсем так. Правильный порядок: He + travels + by train + often."
+            words: ["He", "often", "travels", "by", "train"],
+            correctAnswer: "He often travels by train.",
+            correctFeedback: "Perfect! 'He often travels by train' is correct. Great third person form!",
+            correctFeedbackRu: "Идеально! 'He often travels by train' верно. Отличная форма третьего лица!",
+            incorrectFeedback: "Not quite. The correct order is: He + often + travels + by train.",
+            incorrectFeedbackRu: "Не совсем так. Правильный порядок: He + often + travels + by train."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -2953,12 +2954,12 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["She", "remembers", "important", "dates", "easily"],
-            correctAnswer: "She remembers important dates easily.",
-            correctFeedback: "Excellent! 'She remembers important dates easily' is correct. Perfect memory sentence!",
-            correctFeedbackRu: "Отлично! 'She remembers important dates easily' верно. Идеальное предложение о памяти!",
-            incorrectFeedback: "Try again. The structure is: She + remembers + important dates + easily.",
-            incorrectFeedbackRu: "Попробуйте снова. Структура: She + remembers + important dates + easily."
+            words: ["She", "easily", "remembers", "important", "dates"],
+            correctAnswer: "She easily remembers important dates.",
+            correctFeedback: "Excellent! 'She easily remembers important dates' is correct. Perfect memory sentence!",
+            correctFeedbackRu: "Отлично! 'She easily remembers important dates' верно. Идеальное предложение о памяти!",
+            incorrectFeedback: "Try again. The structure is: She + easily + remembers + important dates.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: She + easily + remembers + important dates."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -2983,12 +2984,12 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["She", "prefers", "quiet", "places", "always"],
-            correctAnswer: "She prefers quiet places always.",
-            correctFeedback: "Excellent! 'She prefers quiet places always' is correct. Perfect preference sentence!",
-            correctFeedbackRu: "Отлично! 'She prefers quiet places always' верно. Идеальное предложение о предпочтениях!",
-            incorrectFeedback: "Not quite. Remember: She + prefers + quiet places + always.",
-            incorrectFeedbackRu: "Не совсем так. Помните: She + prefers + quiet places + always."
+            words: ["She", "always", "prefers", "quiet", "places"],
+            correctAnswer: "She always prefers quiet places.",
+            correctFeedback: "Excellent! 'She always prefers quiet places' is correct. Perfect preference sentence!",
+            correctFeedbackRu: "Отлично! 'She always prefers quiet places' верно. Идеальное предложение о предпочтениях!",
+            incorrectFeedback: "Not quite. Remember: She + always + prefers + quiet places.",
+            incorrectFeedbackRu: "Не совсем так. Помните: She + always + prefers + quiet places."
         }
     ]
 };
@@ -2997,7 +2998,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 2: Verbs ending in -s, -sh, -ch, -x, -z
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page2'] = {
-    title: "Present Simple - Verbs ending in -s, -sh, -ch, -x, -z", sentenceBuilding: [
+    title: "Present Simple third person singular - Verbs ending in -s, -sh, -ch, -x, -z", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3105,7 +3106,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 3: Verbs ending in consonant + y
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page3'] = {
-    title: "Present Simple - Verbs ending in consonant + y", sentenceBuilding: [
+    title: "Present Simple third person singular - Verbs ending in consonant + y", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3213,7 +3214,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 4: Daily Habits and Routines
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page4'] = {
-    title: "Present Simple - Daily Habits and Routines",  sentenceBuilding: [
+    title: "Present Simple third person singular - Daily Habits and Routines",  sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3321,7 +3322,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 5: Work and Professional Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page5'] = {
-    title: "Present Simple - Work and Professional Activities", sentenceBuilding: [
+    title: "Present Simple third person singular - Work and Professional Activities", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3429,7 +3430,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 6: Hobbies and Free Time Activities
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page6'] = {
-    title: "Present Simple - Hobbies and Free Time Activities", sentenceBuilding: [
+    title: "Present Simple third person singular - Hobbies and Free Time Activities", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3537,7 +3538,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 7: Family and Relationships
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page7'] = {
-    title: "Present Simple - Family and Relationships", sentenceBuilding: [
+    title: "Present Simple third person singular - Family and Relationships", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3645,7 +3646,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 8: Technology and Modern Life
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page8'] = {
-    title: "Present Simple - Technology and Modern Life", sentenceBuilding: [
+    title: "Present Simple third person singular - Technology and Modern Life", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3753,7 +3754,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 9: Travel and Transportation
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page9'] = {
-    title: "Present Simple - Travel and Transportation", sentenceBuilding: [
+    title: "Present Simple third person singular - Travel and Transportation", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3861,7 +3862,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-sentence
 Page 10: Mixed Review
 ============================================ */
 window.grammarExercises['tenses']['present-simple-third-person-singular-sentence-page10'] = {
-    title: "Present Simple - Mixed Review", sentenceBuilding: [
+    title: "Present Simple third person singular - Mixed Review", sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
