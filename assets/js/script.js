@@ -7,58 +7,45 @@ document.addEventListener('DOMContentLoaded', () => {
             const scrollText = cursor.querySelector('.scroll_cursor_txt .text');
             const viewText = cursor.querySelector('.view_more_cursor .text');
 
-            // Function to determine if background is dark or light
             const isDarkBackground = (element) => {
-                // Get the background color of the element
                 const bgColor = window.getComputedStyle(element).backgroundColor;
 
-                // If no background color or transparent, check parent
                 if (!bgColor || bgColor === 'transparent' || bgColor === 'rgba(0, 0, 0, 0)') {
                     if (element.parentElement) {
                         return isDarkBackground(element.parentElement);
                     }
-                    return false; // Default to light if we can't determine
+                    return false; 
                 }
 
-                // Parse the RGB values
                 const rgb = bgColor.match(/\d+/g);
                 if (!rgb || rgb.length < 3) return false;
 
-                // Calculate brightness - higher value means lighter background
-                // Formula: (R * 299 + G * 587 + B * 114) / 1000
                 const brightness = (parseInt(rgb[0]) * 299 + parseInt(rgb[1]) * 587 + parseInt(rgb[2]) * 114) / 1000;
 
-                // Consider dark if brightness is less than 128
                 return brightness < 128;
             };
 
-            // Update cursor position and style
             document.addEventListener('mousemove', (e) => {
                 requestAnimationFrame(() => {
                     cursor.style.left = `${e.clientX}px`;
                     cursor.style.top = `${e.clientY}px`;
                 });
 
-                // Get element under cursor
                 const element = document.elementFromPoint(e.clientX, e.clientY);
                 if (!element) return;
 
-                // Reset cursor styles
                 cursor.classList.remove('white_cursor', 'dark_cursor', 'active');
                 scrollText.style.display = 'none';
                 viewText.style.display = 'none';
 
-                // Handle different sections
                 const heroSection = element.closest('.hero-section');
                 const whyChooseSection = element.closest('.why-choose-section');
                 const navElements = element.closest('.left-nav') || element.closest('.right-nav');
 
-                // If cursor is over hero section
                 if (heroSection) {
                     cursor.classList.add('active', 'white_cursor');
                     scrollText.style.display = 'block';
                 }
-                // If cursor is over why choose section
                 else if (whyChooseSection) {
                     cursor.classList.add('active', 'dark_cursor');
                     scrollText.style.display = 'block';
