@@ -1186,7 +1186,7 @@ function createExerciseModal(topic, subtitle, exerciseType) {
     modalContent.style.cssText = `
         background: var(--bg-color);
         width: 90vw;
-        max-width: 900px;
+        max-width: 1200px;
         max-height: 90vh;
         border-radius: 12px;
         overflow: hidden;
