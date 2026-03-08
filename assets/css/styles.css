@@ -424,6 +424,56 @@ body.menu-open {
 }
 
 /* ============================================================
+   NAV AUTH BUTTONS
+   ============================================================ */
+.nav-auth {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.nav-btn-signin {
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--body-2);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.nav-btn-signin:hover {
+    color: var(--accent-color);
+}
+
+.nav-btn-signup {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--btn-text);
+    background: var(--accent-color);
+    text-decoration: none;
+    padding: 0.5rem 1.125rem;
+    border-radius: 0.625rem;
+    transition: all 0.2s ease;
+}
+
+.nav-btn-signup:hover {
+    background: var(--accent-primary-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.mob-link-signup {
+    color: var(--accent-color) !important;
+    font-weight: 600 !important;
+}
+
+@media (max-width: 64rem) {
+    .nav-auth {
+        display: none;
+    }
+}
+
+/* ============================================================
    HERO
    ============================================================ */
 .hero {
@@ -1442,8 +1492,8 @@ FOOTER
 }
 
 /* ============================================================
-   EPISODES
-   ============================================================ */
+EPISODES
+============================================================ */
 .episodes-section {
     max-width: 87.5rem;
     margin: 0 auto;

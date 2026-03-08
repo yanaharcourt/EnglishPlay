@@ -979,7 +979,19 @@
 
     </div><!-- /page-wrap -->
 
-    <script>
+    <script type="module">
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+        const supabase = createClient(
+            'https://kfoweeagmvzommlrxxjm.supabase.co',
+            'sb_publishable_Chq-fxxL7NbVgkWarl7gMQ_xABwrDpD'
+        );
+
+        /* ================================================================
+           ЗАЩИТА — незалогиненных на auth.html
+        ================================================================ */
+        const { data: { session } } = await supabase.auth.getSession();
+        if (!session) { window.location.href = 'auth.html'; }
+
         /* ---- Cursor ---- */
         const epCursor = document.getElementById('ep-cursor');
         const epTrail  = document.getElementById('ep-cursor-trail');
@@ -1016,30 +1028,6 @@
         });
 
         /* ================================================================
-           DEMO DATA
-        ================================================================ */
-        const demoUser = {
-            name: 'Anna Smith',
-            email: 'anna@example.com',
-            plan: 'free',
-            exercises: 14,
-            streak: 3,
-            avgScore: 78,
-            topicsMastered: 4,
-            progress: { a1: 60, a2: 20, b1: 0, b2: 0 },
-            completedTopics: {
-                a1: ['To Be', 'Present Simple'],
-                a2: [], b1: [], b2: []
-            },
-            recentActivity: [
-                { icon: '📝', title: 'Present Simple – Daily Routine', type: 'Fill in the Gaps', level: 'A1', time: '2h ago', score: 90, scoreClass: 'great' },
-                { icon: '📝', title: 'To Be with Names', type: 'Multiple Choice', level: 'A1', time: 'Yesterday', score: 100, scoreClass: 'great' },
-                { icon: '📝', title: 'Past Simple – Regular Verbs', type: 'Sentence Building', level: 'A2', time: '2 days ago', score: 65, scoreClass: 'ok' },
-                { icon: '📝', title: 'Articles: a/an, the', type: 'Multiple Choice', level: 'A1', time: '3 days ago', score: 75, scoreClass: 'good' },
-            ]
-        };
-
-        /* ================================================================
            RENDER
         ================================================================ */
         function renderDashboard(user) {
@@ -1061,37 +1049,40 @@
                 document.getElementById('manageBtn').style.display         = 'block';
             }
 
-            animateCount('statExercises', user.exercises);
-            animateCount('statStreak',    user.streak);
-            document.getElementById('statScore').textContent = user.exercises > 0 ? user.avgScore + '%' : '–';
-            animateCount('statTopics', user.topicsMastered);
+            animateCount('statExercises', user.exercises || 0);
+            animateCount('statStreak',    user.streak || 0);
+            document.getElementById('statScore').textContent = user.exercises > 0 ? (user.avgScore || 0) + '%' : '–';
+            animateCount('statTopics', user.topicsMastered || 0);
 
             setTimeout(() => {
                 ['A1','A2','B1','B2'].forEach(lv => {
                     const key = lv.toLowerCase();
-                    const pct = user.progress[key] || 0;
+                    const pct = (user.progress && user.progress[key]) || 0;
                     document.getElementById('bar'+lv).style.width = pct + '%';
                     document.getElementById('pct'+lv).textContent = pct + '%';
-                    const done = user.completedTopics[key] || [];
+                    const done = (user.completedTopics && user.completedTopics[key]) || [];
                     document.querySelectorAll('#chips'+lv+' .topic-chip').forEach(chip => {
                         if (done.includes(chip.textContent.replace('✓ ',''))) chip.classList.add('done');
                     });
                 });
             }, 200);
 
-            renderActivity(user.recentActivity);
+            renderActivity(user.recentActivity || []);
         }
 
         function renderActivity(items) {
             const list  = document.getElementById('activityList');
             const empty = document.getElementById('emptyActivity');
-            if (!items || items.length === 0) return;
+            if (!items || items.length === 0) {
+                empty.style.display = 'block';
+                return;
+            }
             empty.style.display = 'none';
             items.forEach(item => {
                 const el = document.createElement('div');
                 el.className = 'activity-item';
                 el.innerHTML = `
-                    <div class="activity-icon" style="background:rgba(99,102,241,0.1)">${item.icon}</div>
+                    <div class="activity-icon" style="background:rgba(99,102,241,0.1)">${item.icon || '📝'}</div>
                     <div class="activity-body">
                         <div class="activity-title">${item.title}</div>
                         <div class="activity-meta">${item.type} · <span class="level-tag ${item.level.toLowerCase()}" style="padding:0.1rem 0.4rem;font-size:0.625rem">${item.level}</span> · ${item.time}</div>
@@ -1104,8 +1095,9 @@
 
         function animateCount(id, target) {
             const el = document.getElementById(id);
+            if (!el) return;
             let current = 0;
-            const step  = Math.ceil(target / 30);
+            const step  = Math.ceil(target / 30) || 1;
             const timer = setInterval(() => {
                 current = Math.min(current + step, target);
                 el.textContent = current;
@@ -1116,23 +1108,82 @@
         /* ================================================================
            ACTIONS
         ================================================================ */
-        function handleSignOut() {
+        window.handleSignOut = async function() {
             if (!confirm('Sign out from EnglishPlay?')) return;
+            await supabase.auth.signOut();
             window.location.href = 'auth.html';
         }
 
-        function goToUpgrade() {
+        window.goToUpgrade = function() {
             alert('Upgrade coming soon! Stripe integration in progress.');
         }
 
-        function openStripePortal() {
+        window.openStripePortal = function() {
             alert('Stripe Customer Portal coming soon!');
         }
 
         /* ================================================================
-           INIT — сейчас показывает demo, позже подключим Supabase
+           INIT — загружаем реального пользователя из Supabase
         ================================================================ */
-        renderDashboard(demoUser);
+        async function init() {
+            const { data: { user } } = await supabase.auth.getUser();
+            if (!user) { window.location.href = 'auth.html'; return; }
+
+            /* Загружаем профиль из таблицы profiles (если есть) */
+            const { data: profile } = await supabase
+                .from('profiles')
+                .select('*')
+                .eq('id', user.id)
+                .single();
+
+            const userData = {
+                name:           profile?.full_name || user.user_metadata?.full_name || user.email.split('@')[0],
+                email:          user.email,
+                plan:           profile?.plan || 'free',
+                exercises:      profile?.exercises_count || 0,
+                streak:         profile?.streak || 0,
+                avgScore:       profile?.avg_score || 0,
+                topicsMastered: profile?.topics_mastered || 0,
+                progress:       profile?.progress || { a1: 0, a2: 0, b1: 0, b2: 0 },
+                completedTopics: profile?.completed_topics || { a1: [], a2: [], b1: [], b2: [] },
+                recentActivity: []
+            };
+
+            /* Загружаем последние 5 упражнений из таблицы progress */
+            const { data: activity } = await supabase
+                .from('progress')
+                .select('*')
+                .eq('user_id', user.id)
+                .order('completed_at', { ascending: false })
+                .limit(5);
+
+            if (activity && activity.length > 0) {
+                userData.recentActivity = activity.map(row => ({
+                    icon: '📝',
+                    title: row.topic_id,
+                    type: row.exercise_type,
+                    level: row.level || 'A1',
+                    time: timeAgo(row.completed_at),
+                    score: row.score,
+                    scoreClass: row.score >= 90 ? 'great' : row.score >= 70 ? 'good' : 'ok'
+                }));
+            }
+
+            renderDashboard(userData);
+        }
+
+        function timeAgo(dateStr) {
+            const diff = Date.now() - new Date(dateStr).getTime();
+            const mins = Math.floor(diff / 60000);
+            if (mins < 60) return mins + 'm ago';
+            const hrs = Math.floor(mins / 60);
+            if (hrs < 24) return hrs + 'h ago';
+            const days = Math.floor(hrs / 24);
+            if (days === 1) return 'Yesterday';
+            return days + ' days ago';
+        }
+
+        init();
     </script>
 </body>
 </html>
