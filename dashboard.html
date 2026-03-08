@@ -2132,7 +2132,10 @@
             if (!name) { msg.textContent = 'Please enter a name.'; msg.className = 's-msg err'; return; }
             const { error } = await supabase.auth.updateUser({ data: { full_name: name } });
             if (error) { msg.textContent = error.message; msg.className = 's-msg err'; }
-            else { msg.textContent = 'Saved!'; msg.className = 's-msg ok'; }
+                else {
+                    msg.textContent = 'Saved!'; msg.className = 's-msg ok';
+                    document.getElementById('profileName').textContent = name;
+                }
         }
 
         window.updatePassword = async function () {
