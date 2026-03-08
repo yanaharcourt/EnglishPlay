@@ -1590,7 +1590,7 @@
         <div class="profile-hero">
             <div class="profile-avatar" id="profileAvatar">A</div>
             <div class="profile-info">
-                <div class="profile-name" id="profileName">Anna Smith</div>
+                <div class="profile-name" id="profileName"></div>
                 <div class="profile-email" id="profileEmail"><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
                         data-cfemail="71101f1f10311409101c011d145f121e1c">[email&#160;protected]</a></div>
                 <span class="plan-badge free" id="planBadge">
@@ -1798,17 +1798,17 @@
         </div>
     </div><!-- /page-wrap -->
     <!-- Settings Modal -->
-    <div class="modal-overlay" id="settingsOverlay" onclick="if(event.target===this)closeSettings()">
+    <div class="modal-overlay" id="settingsOverlay">
         <div class="modal">
             <div class="modal-header">
                 <span class="modal-title">Account Settings</span>
-                <button class="modal-close" onclick="closeSettings()">✕</button>
+                <button class="modal-close" id="modalClose">✕</button>
             </div>
             <div class="settings-tabs">
-                <button class="settings-tab active" onclick="switchTab('profile')">Profile</button>
-                <button class="settings-tab" onclick="switchTab('password')">Password</button>
-                <button class="settings-tab" onclick="switchTab('subscription')">Subscription</button>
-                <button class="settings-tab" onclick="switchTab('danger')">Danger Zone</button>
+                <button class="settings-tab active" data-tab="profile">Profile</button>
+                <button class="settings-tab" data-tab="password">Password</button>
+                <button class="settings-tab" data-tab="subscription">Subscription</button>
+                <button class="settings-tab" data-tab="danger">Danger Zone</button>
             </div>
 
             <!-- Profile -->
@@ -2082,7 +2082,17 @@
         }
 
         init();
-        function openSettings() {
+        document.getElementById('modalClose').addEventListener('click', () => document.getElementById('settingsOverlay').classList.remove('open'));
+document.getElementById('settingsOverlay').addEventListener('click', e => { if (e.target === e.currentTarget) document.getElementById('settingsOverlay').classList.remove('open'); });
+document.querySelectorAll('.settings-tab[data-tab]').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.settings-tab').forEach(t => t.classList.remove('active'));
+        btn.classList.add('active');
+        document.querySelectorAll('.settings-panel').forEach(p => p.classList.remove('active'));
+        document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
+    });
+});
+        window.openSettings = function() {
             const overlay = document.getElementById('settingsOverlay');
             overlay.classList.add('open');
             const user = supabase.auth.getUser ? null : null;
@@ -2100,11 +2110,11 @@
             });
         }
 
-        function closeSettings() {
+        window.closeSettings = function() {
             document.getElementById('settingsOverlay').classList.remove('open');
         }
 
-        function switchTab(name) {
+        window.switchTab = function(name) {
             document.querySelectorAll('.settings-tab').forEach((t, i) => {
                 const names = ['profile', 'password', 'subscription', 'danger'];
                 t.classList.toggle('active', names[i] === name);
@@ -2113,7 +2123,7 @@
             document.getElementById('panel-' + name).classList.add('active');
         }
 
-        async function updateName() {
+        window.updateName = async function() {
             const name = document.getElementById('s-name').value.trim();
             const msg = document.getElementById('msg-profile');
             if (!name) { msg.textContent = 'Please enter a name.'; msg.className = 's-msg err'; return; }
@@ -2122,7 +2132,7 @@
             else { msg.textContent = 'Saved!'; msg.className = 's-msg ok'; }
         }
 
-        async function updatePassword() {
+        window.updatePassword = async function() {
             const p1 = document.getElementById('s-pass1').value;
             const p2 = document.getElementById('s-pass2').value;
             const msg = document.getElementById('msg-password');
@@ -2137,13 +2147,13 @@
             alert('Stripe portal coming soon!');
         }
 
-        function showDeleteConfirm() {
+        window.showDeleteConfirm = function() {
             document.getElementById('delete-confirm-wrap').style.display = 'block';
             document.getElementById('delete-btn-1').style.display = 'none';
             document.getElementById('delete-btn-2').style.display = 'flex';
         }
 
-        function hideDeleteConfirm() {
+        window.hideDeleteConfirm = function() {
             document.getElementById('delete-confirm-wrap').style.display = 'none';
             document.getElementById('delete-btn-1').style.display = 'block';
             document.getElementById('delete-btn-2').style.display = 'none';
@@ -2151,12 +2161,12 @@
             document.getElementById('btn-confirm-del').classList.remove('ready');
         }
 
-        function checkDeleteWord() {
+        window.checkDeleteWord = function() {
             const val = document.getElementById('delete-confirm-input').value;
             document.getElementById('btn-confirm-del').classList.toggle('ready', val === 'DELETE');
         }
 
-        async function deleteAccount() {
+        window.deleteAccount = async function() {
             const { error } = await supabase.rpc('delete_user');
             if (error) { alert('Error: ' + error.message); return; }
             await supabase.auth.signOut();
