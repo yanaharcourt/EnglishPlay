@@ -2131,11 +2131,11 @@
             const msg = document.getElementById('msg-profile');
             if (!name) { msg.textContent = 'Please enter a name.'; msg.className = 's-msg err'; return; }
             const { error } = await supabase.auth.updateUser({ data: { full_name: name } });
-            if (error) { msg.textContent = error.message; msg.className = 's-msg err'; }
-                else {
-                    msg.textContent = 'Saved!'; msg.className = 's-msg ok';
-                    document.getElementById('profileName').textContent = name;
-                }
+            if (error) { msg.textContent = error.message; msg.className = 's-msg err'; return; }
+            const { data: { user } } = await supabase.auth.getUser();
+            await supabase.from('profiles').update({ full_name: name }).eq('id', user.id);
+            msg.textContent = 'Saved!'; msg.className = 's-msg ok';
+            document.getElementById('profileName').textContent = name;
         }
 
         window.updatePassword = async function () {
