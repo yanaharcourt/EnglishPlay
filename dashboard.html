@@ -1821,7 +1821,7 @@
                     <label class="s-label">Email</label>
                     <input class="s-input" id="s-email" type="email" disabled style="opacity:0.5;cursor:not-allowed;">
                 </div>
-                <button class="s-btn-primary" onclick="updateName()">Save changes</button>
+                <button class="s-btn-primary" id="btn-save-name">Save changes</button>
                 <p class="s-msg" id="msg-profile"></p>
             </div>
 
@@ -1835,7 +1835,7 @@
                     <label class="s-label">Confirm new password</label>
                     <input class="s-input" id="s-pass2" type="password" placeholder="Repeat password">
                 </div>
-                <button class="s-btn-primary" onclick="updatePassword()">Update password</button>
+                <button class="s-btn-primary" id="btn-save-pass">Update password</button>
                 <p class="s-msg" id="msg-password"></p>
             </div>
 
@@ -1866,7 +1866,7 @@
                     <input class="s-input" id="delete-confirm-input" type="text" placeholder="DELETE"
                         oninput="checkDeleteWord()">
                 </div>
-                <button class="s-btn-danger" id="delete-btn-1" onclick="showDeleteConfirm()">Delete my account</button>
+                <button class="s-btn-danger" id="delete-btn-1">Delete my account</button>
                 <div style="display:none;gap:0.5rem;margin-top:0.75rem;" id="delete-btn-2">
                     <button class="s-btn-outline btn-cancel-del" onclick="hideDeleteConfirm()">Cancel</button>
                     <button class="s-btn-danger btn-confirm-del" id="btn-confirm-del" onclick="deleteAccount()">Yes,
@@ -1924,6 +1924,9 @@
         document.addEventListener('keydown', e => {
             if (e.key === 'Escape') { burger.classList.remove('open'); mobileMenu.classList.remove('open'); document.body.classList.remove('menu-open'); }
         });
+        document.getElementById('btn-save-name').addEventListener('click', () => window.updateName());
+        document.getElementById('btn-save-pass').addEventListener('click', () => window.updatePassword());
+        document.getElementById('delete-btn-1').addEventListener('click', () => window.showDeleteConfirm());
 
         /* ================================================================
            RENDER
@@ -2083,16 +2086,16 @@
 
         init();
         document.getElementById('modalClose').addEventListener('click', () => document.getElementById('settingsOverlay').classList.remove('open'));
-document.getElementById('settingsOverlay').addEventListener('click', e => { if (e.target === e.currentTarget) document.getElementById('settingsOverlay').classList.remove('open'); });
-document.querySelectorAll('.settings-tab[data-tab]').forEach(btn => {
-    btn.addEventListener('click', () => {
-        document.querySelectorAll('.settings-tab').forEach(t => t.classList.remove('active'));
-        btn.classList.add('active');
-        document.querySelectorAll('.settings-panel').forEach(p => p.classList.remove('active'));
-        document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
-    });
-});
-        window.openSettings = function() {
+        document.getElementById('settingsOverlay').addEventListener('click', e => { if (e.target === e.currentTarget) document.getElementById('settingsOverlay').classList.remove('open'); });
+        document.querySelectorAll('.settings-tab[data-tab]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.settings-tab').forEach(t => t.classList.remove('active'));
+                btn.classList.add('active');
+                document.querySelectorAll('.settings-panel').forEach(p => p.classList.remove('active'));
+                document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
+            });
+        });
+        window.openSettings = function () {
             const overlay = document.getElementById('settingsOverlay');
             overlay.classList.add('open');
             const user = supabase.auth.getUser ? null : null;
@@ -2110,11 +2113,11 @@ document.querySelectorAll('.settings-tab[data-tab]').forEach(btn => {
             });
         }
 
-        window.closeSettings = function() {
+        window.closeSettings = function () {
             document.getElementById('settingsOverlay').classList.remove('open');
         }
 
-        window.switchTab = function(name) {
+        window.switchTab = function (name) {
             document.querySelectorAll('.settings-tab').forEach((t, i) => {
                 const names = ['profile', 'password', 'subscription', 'danger'];
                 t.classList.toggle('active', names[i] === name);
@@ -2123,7 +2126,7 @@ document.querySelectorAll('.settings-tab[data-tab]').forEach(btn => {
             document.getElementById('panel-' + name).classList.add('active');
         }
 
-        window.updateName = async function() {
+        window.updateName = async function () {
             const name = document.getElementById('s-name').value.trim();
             const msg = document.getElementById('msg-profile');
             if (!name) { msg.textContent = 'Please enter a name.'; msg.className = 's-msg err'; return; }
@@ -2132,7 +2135,7 @@ document.querySelectorAll('.settings-tab[data-tab]').forEach(btn => {
             else { msg.textContent = 'Saved!'; msg.className = 's-msg ok'; }
         }
 
-        window.updatePassword = async function() {
+        window.updatePassword = async function () {
             const p1 = document.getElementById('s-pass1').value;
             const p2 = document.getElementById('s-pass2').value;
             const msg = document.getElementById('msg-password');
@@ -2147,13 +2150,13 @@ document.querySelectorAll('.settings-tab[data-tab]').forEach(btn => {
             alert('Stripe portal coming soon!');
         }
 
-        window.showDeleteConfirm = function() {
+        window.showDeleteConfirm = function () {
             document.getElementById('delete-confirm-wrap').style.display = 'block';
             document.getElementById('delete-btn-1').style.display = 'none';
             document.getElementById('delete-btn-2').style.display = 'flex';
         }
 
-        window.hideDeleteConfirm = function() {
+        window.hideDeleteConfirm = function () {
             document.getElementById('delete-confirm-wrap').style.display = 'none';
             document.getElementById('delete-btn-1').style.display = 'block';
             document.getElementById('delete-btn-2').style.display = 'none';
@@ -2161,12 +2164,12 @@ document.querySelectorAll('.settings-tab[data-tab]').forEach(btn => {
             document.getElementById('btn-confirm-del').classList.remove('ready');
         }
 
-        window.checkDeleteWord = function() {
+        window.checkDeleteWord = function () {
             const val = document.getElementById('delete-confirm-input').value;
             document.getElementById('btn-confirm-del').classList.toggle('ready', val === 'DELETE');
         }
 
-        window.deleteAccount = async function() {
+        window.deleteAccount = async function () {
             const { error } = await supabase.rpc('delete_user');
             if (error) { alert('Error: ' + error.message); return; }
             await supabase.auth.signOut();
