@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account — EnglishPlay</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-color: #1e1e2e;
+            --nav-bg: #292a3e;
+            --heading-color: #f8fafc;
+            --body-1: #f8fafc;
+            --body-2: #b6b9d0;
+            --body-3: #6b7280;
+            --body-4: #9ca3af;
+            --text-hover: #6366f1;
+            --accent-color: #6366f1;
+            --accent-primary: #6366f1;
+            --accent-primary-hover: #4f46e5;
+            --tag-color: rgba(245,158,11,0.15);
+            --accent-gold: #ffc04d;
+            --btn-color: #6366f1;
+            --btn-text: #f8fafc;
+            --card-bg: #292a3e;
+            --card-stroke: #353748;
+            --card-shadow: rgba(0,0,0,0.3);
+            --card-bg-secondary: #2e3048;
+            --card-stroke-secondary: #4a4d6b;
+            --card-bg-tertiary: #3a3b56;
+            --correct-bg: rgba(56,189,142,0.25);
+            --correct-border: #34d399;
+            --correct-text: #a7f3d0;
+            --danger: #f87171;
+            --danger-bg: rgba(244,67,54,0.15);
+            --nav-height: 4.5rem;
+            --container-max: 75rem;
+            --container-pad: 1.5rem;
+        }
+
+        html { font-size: 16px; scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--body-2);
+            min-height: 100vh;
+            overflow-x: hidden;
+            padding-top: var(--nav-height);
+        }
+
+        * { cursor: none !important; }
+
+        #ep-cursor {
+            position: fixed; width: 0.75rem; height: 0.75rem;
+            background: var(--accent-color); border-radius: 50%;
+            pointer-events: none; z-index: 99999; left: 0; top: 0;
+            transition: transform 0.15s ease;
+        }
+        #ep-cursor-trail {
+            position: fixed; width: 2.5rem; height: 2.5rem;
+            border: 2px solid rgba(99,102,241,0.6); border-radius: 50%;
+            pointer-events: none; z-index: 99998; left: 0; top: 0;
+        }
+        @media (max-width: 64rem), (hover: none) and (pointer: coarse) {
+            #ep-cursor, #ep-cursor-trail { display: none !important; }
+            * { cursor: auto !important; }
+            a, button, label { cursor: pointer !important; }
+            input { cursor: text !important; }
+        }
+
+        /* ---- NAV ---- */
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+            background: var(--nav-bg); border-bottom: 1px solid var(--card-stroke);
+            display: flex; align-items: center; padding: 0 2.5rem;
+            height: var(--nav-height); gap: 2rem;
+            transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
+        }
+        nav.scrolled {
+            background: rgba(30,30,46,0.75);
+            backdrop-filter: saturate(180%) blur(20px);
+            top: 0.625rem; left: 1rem; right: 1rem; border-radius: 1.25rem;
+            box-shadow: 0 2px 0.5rem rgba(0,0,0,0.12), 0 0.5rem 1.5rem rgba(0,0,0,0.18);
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .nav-logo { display: flex; align-items: center; text-decoration: none; margin-right: auto; }
+        .nav-links { display: flex; align-items: center; gap: 1.875rem; list-style: none; }
+        .nav-links a { font-size: 0.875rem; color: var(--body-2); text-decoration: none; font-weight: 400; transition: color 0.2s; }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent-color); }
+        .nav-user-btn {
+            display: flex; align-items: center; gap: 0.5rem;
+            padding: 0.4rem 0.875rem; border-radius: 2rem;
+            background: rgba(99,102,241,0.12); border: 1px solid rgba(99,102,241,0.25);
+            color: var(--body-1); font-size: 0.8125rem; font-weight: 500;
+            text-decoration: none; transition: all 0.2s;
+        }
+        .nav-user-btn:hover { background: rgba(99,102,241,0.2); border-color: var(--accent-color); }
+        .nav-avatar-sm {
+            width: 1.5rem; height: 1.5rem; border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-color), var(--accent-gold));
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.6875rem; font-weight: 700; color: #fff; flex-shrink: 0;
+        }
+        .burger {
+            display: none; flex-direction: column; justify-content: center; gap: 0.3125rem;
+            width: 2.5rem; height: 2.5rem; background: none; border: none;
+            padding: 0.375rem; border-radius: 0.625rem; flex-shrink: 0;
+            transition: background 0.2s; z-index: 9999;
+        }
+        .burger span { display: block; width: 100%; height: 1.5px; background: var(--body-1); border-radius: 2px; transition: transform 0.35s cubic-bezier(0.4,0,0.2,1), opacity 0.2s ease; transform-origin: center; }
+        .burger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+        .burger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+        .burger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+        .burger:focus { outline: none; }
+        .mobile-menu {
+            display: none; position: fixed; top: 0; right: 0; bottom: 0; width: 100%;
+            background: var(--nav-bg); z-index: 9998; flex-direction: column;
+            padding: 2rem 2rem 3rem; opacity: 0; transform: translateX(100%);
+            pointer-events: none; transition: opacity 0.25s ease, transform 0.3s cubic-bezier(0.4,0,0.2,1); overflow-y: auto;
+        }
+        .mobile-menu.open { opacity: 1; transform: translateX(0); pointer-events: all; }
+        .mob-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2.5rem; }
+        .mob-close { width: 2.75rem; height: 2.75rem; background: none; border: none; font-size: 1.4rem; color: var(--body-1); display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: background 0.2s; outline: none; }
+        .mob-close:hover { background: rgba(255,255,255,0.08); }
+        .mobile-menu a.mob-link { font-size: 1rem; font-weight: 400; color: var(--body-1); text-decoration: none; padding: 1rem 0; border-bottom: 1px solid var(--card-stroke); display: block; transition: color 0.2s; }
+        .mobile-menu a.mob-link:first-of-type { border-top: 1px solid var(--card-stroke); }
+        .mobile-menu a.mob-link:hover { color: var(--accent-color); }
+        body.menu-open { overflow: hidden; }
+        @media (max-width: 64rem) {
+            .nav-links { display: none; }
+            .burger { display: flex; margin-left: auto; }
+            .mobile-menu { display: flex; }
+            nav { padding: 0 1.25rem; height: 4rem; }
+            :root { --nav-height: 4rem; }
+        }
+        @media (max-width: 30rem) { nav { padding: 0 1rem; } }
+
+        /* ---- PAGE LAYOUT ---- */
+        .page-wrap {
+            max-width: 62rem;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 6rem;
+        }
+
+        /* ---- PROFILE HERO ---- */
+        .profile-hero {
+            display: flex;
+            align-items: center;
+            gap: 1.75rem;
+            margin-bottom: 2.5rem;
+            padding: 2rem 2.25rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-stroke);
+            border-radius: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            animation: fadeUp 0.5s ease both;
+        }
+
+        .profile-hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-color), var(--accent-gold), var(--accent-color));
+        }
+
+        .profile-hero::after {
+            content: '';
+            position: absolute;
+            top: -4rem; right: -4rem;
+            width: 16rem; height: 16rem;
+            background: radial-gradient(circle, rgba(99,102,241,0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .profile-avatar {
+            width: 5rem; height: 5rem; border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-gold) 100%);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.75rem; font-weight: 700; color: #fff;
+            flex-shrink: 0;
+            box-shadow: 0 0 0 4px rgba(99,102,241,0.15), 0 0 0 8px rgba(99,102,241,0.05);
+        }
+
+        .profile-info { flex: 1; min-width: 0; }
+
+        .profile-name {
+            font-size: 1.375rem; font-weight: 700;
+            color: var(--heading-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .profile-email {
+            font-size: 0.875rem; color: var(--body-3);
+            margin-bottom: 0.75rem;
+        }
+
+        .plan-badge {
+            display: inline-flex; align-items: center; gap: 0.375rem;
+            padding: 0.3rem 0.75rem; border-radius: 2rem;
+            font-size: 0.75rem; font-weight: 600;
+            letter-spacing: 0.04em;
+        }
+        .plan-badge.free {
+            background: rgba(107,114,128,0.2);
+            border: 1px solid rgba(107,114,128,0.35);
+            color: var(--body-4);
+        }
+        .plan-badge.premium {
+            background: rgba(255,192,77,0.12);
+            border: 1px solid rgba(255,192,77,0.35);
+            color: var(--accent-gold);
+        }
+        .plan-badge .dot {
+            width: 0.4rem; height: 0.4rem; border-radius: 50;
+            background: currentColor;
+        }
+
+        .profile-actions { display: flex; gap: 0.75rem; flex-shrink: 0; flex-wrap: wrap; }
+
+        .btn-outline {
+            padding: 0.5rem 1.125rem;
+            background: transparent;
+            border: 1px solid var(--card-stroke);
+            border-radius: 0.625rem;
+            color: var(--body-2);
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8125rem; font-weight: 500;
+            transition: all 0.2s;
+        }
+        .btn-outline:hover {
+            border-color: var(--body-3);
+            color: var(--body-1);
+            background: rgba(255,255,255,0.04);
+        }
+
+        .btn-signout {
+            padding: 0.5rem 1.125rem;
+            background: transparent;
+            border: 1px solid rgba(248,113,113,0.25);
+            border-radius: 0.625rem;
+            color: #f87171;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8125rem; font-weight: 500;
+            transition: all 0.2s;
+        }
+        .btn-signout:hover { background: rgba(248,113,113,0.08); border-color: rgba(248,113,113,0.5); }
+
+        /* ---- UPGRADE BANNER ---- */
+        .upgrade-banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.5rem;
+            padding: 1.375rem 1.75rem;
+            background: linear-gradient(135deg, rgba(99,102,241,0.12) 0%, rgba(255,192,77,0.08) 100%);
+            border: 1px solid rgba(99,102,241,0.25);
+            border-radius: 1.25rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            animation: fadeUp 0.5s 0.1s ease both;
+        }
+
+        .upgrade-banner-text h3 {
+            font-size: 1rem; font-weight: 600; color: var(--heading-color);
+            margin-bottom: 0.25rem;
+        }
+        .upgrade-banner-text p {
+            font-size: 0.8125rem; color: var(--body-3);
+        }
+        .upgrade-banner-text p span {
+            color: var(--accent-gold);
+        }
+
+        .btn-upgrade {
+            padding: 0.625rem 1.5rem;
+            background: linear-gradient(135deg, var(--accent-color), #818cf8);
+            border: none;
+            border-radius: 0.75rem;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.875rem; font-weight: 600;
+            white-space: nowrap;
+            transition: all 0.25s;
+            box-shadow: 0 4px 1rem rgba(99,102,241,0.3);
+        }
+        .btn-upgrade:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 1.5rem rgba(99,102,241,0.45);
+        }
+
+        /* ---- STATS ROW ---- */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+            animation: fadeUp 0.5s 0.15s ease both;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-stroke);
+            border-radius: 1rem;
+            padding: 1.25rem 1.25rem 1rem;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .stat-card:hover { transform: translateY(-2px); border-color: var(--card-stroke-secondary); }
+
+        .stat-icon {
+            font-size: 1.375rem;
+            margin-bottom: 0.625rem;
+            display: block;
+        }
+
+        .stat-value {
+            font-size: 1.75rem; font-weight: 700;
+            color: var(--heading-color);
+            line-height: 1;
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-label {
+            font-size: 0.75rem; color: var(--body-3);
+            line-height: 1.4;
+        }
+
+        .stat-card .stat-glow {
+            position: absolute;
+            top: -1.5rem; right: -1.5rem;
+            width: 5rem; height: 5rem;
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+
+        /* ---- SECTION HEADING ---- */
+        .section-heading {
+            font-size: 1rem; font-weight: 600;
+            color: var(--heading-color);
+            margin-bottom: 1rem;
+            display: flex; align-items: center; gap: 0.625rem;
+        }
+        .section-heading::after {
+            content: '';
+            flex: 1; height: 1px;
+            background: linear-gradient(90deg, var(--card-stroke) 0%, transparent 100%);
+        }
+
+        /* ---- PROGRESS SECTION ---- */
+        .progress-section {
+            margin-bottom: 2rem;
+            animation: fadeUp 0.5s 0.2s ease both;
+        }
+
+        .level-progress-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .level-block {
+            background: var(--card-bg);
+            border: 1px solid var(--card-stroke);
+            border-radius: 1rem;
+            padding: 1.25rem;
+            transition: border-color 0.2s;
+        }
+        .level-block:hover { border-color: var(--card-stroke-secondary); }
+
+        .level-block-header {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .level-label {
+            display: flex; align-items: center; gap: 0.5rem;
+        }
+        .level-tag {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.375rem;
+            font-size: 0.6875rem; font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+        .level-tag.a1 { background: rgba(52,211,153,0.15); color: #34d399; }
+        .level-tag.a2 { background: rgba(96,165,250,0.15); color: #60a5fa; }
+        .level-tag.b1 { background: rgba(251,191,36,0.15); color: #fbbf24; }
+        .level-tag.b2 { background: rgba(248,113,113,0.15); color: #f87171; }
+
+        .level-block-name {
+            font-size: 0.875rem; font-weight: 500; color: var(--body-2);
+        }
+
+        .level-pct {
+            font-size: 0.8125rem; font-weight: 600; color: var(--body-3);
+        }
+
+        .progress-bar-wrap {
+            height: 6px;
+            background: rgba(255,255,255,0.06);
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 0.75rem;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 1s cubic-bezier(0.4,0,0.2,1);
+        }
+        .progress-bar-fill.a1 { background: linear-gradient(90deg, #34d399, #6ee7b7); }
+        .progress-bar-fill.a2 { background: linear-gradient(90deg, #60a5fa, #93c5fd); }
+        .progress-bar-fill.b1 { background: linear-gradient(90deg, #fbbf24, #fcd34d); }
+        .progress-bar-fill.b2 { background: linear-gradient(90deg, #f87171, #fca5a5); }
+
+        .topic-chips {
+            display: flex; flex-wrap: wrap; gap: 0.375rem;
+        }
+
+        .topic-chip {
+            font-size: 0.6875rem; padding: 0.2rem 0.5rem;
+            border-radius: 0.375rem;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--card-stroke);
+            color: var(--body-3);
+            white-space: nowrap;
+        }
+        .topic-chip.done {
+            background: rgba(56,189,142,0.1);
+            border-color: rgba(52,211,153,0.25);
+            color: #34d399;
+        }
+        .topic-chip.done::before { content: '✓ '; }
+
+        /* ---- RECENT ACTIVITY ---- */
+        .activity-section {
+            margin-bottom: 2rem;
+            animation: fadeUp 0.5s 0.25s ease both;
+        }
+
+        .activity-list { display: flex; flex-direction: column; gap: 0.625rem; }
+
+        .activity-item {
+            display: flex; align-items: center; gap: 1rem;
+            padding: 0.875rem 1.125rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-stroke);
+            border-radius: 0.875rem;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .activity-item:hover { border-color: var(--card-stroke-secondary); transform: translateX(3px); }
+
+        .activity-icon {
+            width: 2.25rem; height: 2.25rem; border-radius: 0.5rem;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1rem; flex-shrink: 0;
+        }
+
+        .activity-body { flex: 1; min-width: 0; }
+        .activity-title {
+            font-size: 0.875rem; font-weight: 500; color: var(--body-1);
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        .activity-meta { font-size: 0.75rem; color: var(--body-3); margin-top: 0.125rem; }
+
+        .activity-score {
+            font-size: 0.8125rem; font-weight: 600;
+            padding: 0.2rem 0.625rem; border-radius: 2rem;
+            flex-shrink: 0;
+        }
+        .activity-score.great { background: rgba(56,189,142,0.15); color: #34d399; }
+        .activity-score.good  { background: rgba(96,165,250,0.15);  color: #60a5fa; }
+        .activity-score.ok    { background: rgba(251,191,36,0.15);  color: #fbbf24; }
+
+        .empty-activity {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--body-3);
+            font-size: 0.875rem;
+            background: var(--card-bg);
+            border: 1px dashed var(--card-stroke);
+            border-radius: 1rem;
+        }
+        .empty-activity .empty-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+
+        /* ---- PLAN SECTION ---- */
+        .plan-section {
+            animation: fadeUp 0.5s 0.3s ease both;
+        }
+
+        .plan-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .plan-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-stroke);
+            border-radius: 1.25rem;
+            padding: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .plan-card:hover { transform: translateY(-2px); }
+        .plan-card.current { border-color: rgba(107,114,128,0.4); }
+        .plan-card.premium-card {
+            border-color: rgba(99,102,241,0.3);
+            background: linear-gradient(135deg, #292a3e 0%, #2a2b42 100%);
+        }
+        .plan-card.premium-card:hover { border-color: rgba(99,102,241,0.5); }
+
+        .plan-card::before {
+            content: '';
+            position: absolute; top: 0; left: 0; right: 0; height: 2px;
+        }
+        .plan-card.current::before { background: var(--card-stroke); }
+        .plan-card.premium-card::before { background: linear-gradient(90deg, var(--accent-color), var(--accent-gold)); }
+
+        .plan-card-header {
+            display: flex; align-items: flex-start; justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .plan-card-name {
+            font-size: 1rem; font-weight: 600; color: var(--heading-color);
+            margin-bottom: 0.25rem;
+        }
+        .plan-card-price {
+            font-size: 0.8125rem; color: var(--body-3);
+        }
+        .plan-card-price strong {
+            font-size: 1.5rem; font-weight: 700; color: var(--heading-color);
+            margin-right: 0.25rem;
+        }
+
+        .plan-current-tag {
+            font-size: 0.6875rem; font-weight: 600; padding: 0.2rem 0.625rem;
+            border-radius: 2rem; background: rgba(107,114,128,0.2);
+            border: 1px solid rgba(107,114,128,0.3); color: var(--body-3);
+            white-space: nowrap;
+        }
+
+        .plan-features {
+            list-style: none;
+            display: flex; flex-direction: column; gap: 0.5rem;
+            margin-bottom: 1.25rem;
+        }
+        .plan-features li {
+            font-size: 0.8125rem; color: var(--body-2);
+            display: flex; align-items: center; gap: 0.5rem;
+        }
+        .plan-features li .feat-icon { font-size: 0.875rem; flex-shrink: 0; }
+        .plan-features li.locked { color: var(--body-3); }
+
+        .btn-manage {
+            width: 100%;
+            padding: 0.625rem 1rem;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--card-stroke);
+            border-radius: 0.625rem;
+            color: var(--body-2);
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8125rem; font-weight: 500;
+            transition: all 0.2s;
+            text-align: center;
+        }
+        .btn-manage:hover { background: rgba(255,255,255,0.08); color: var(--body-1); }
+
+        .btn-upgrade-full {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: linear-gradient(135deg, var(--accent-color), #818cf8);
+            border: none;
+            border-radius: 0.75rem;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.875rem; font-weight: 600;
+            transition: all 0.25s;
+            box-shadow: 0 4px 1rem rgba(99,102,241,0.3);
+        }
+        .btn-upgrade-full:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 1.5rem rgba(99,102,241,0.45);
+        }
+
+        /* ---- ANIMATIONS ---- */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(1rem); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ---- RESPONSIVE ---- */
+        @media (max-width: 48rem) {
+            .stats-row { grid-template-columns: repeat(2, 1fr); }
+            .level-progress-grid { grid-template-columns: 1fr; }
+            .plan-cards { grid-template-columns: 1fr; }
+            .profile-hero { flex-direction: column; align-items: flex-start; gap: 1.25rem; }
+            .profile-actions { width: 100%; }
+            .profile-actions button { flex: 1; }
+            .upgrade-banner { flex-direction: column; align-items: flex-start; }
+            .btn-upgrade { width: 100%; text-align: center; }
+        }
+        @media (max-width: 30rem) {
+            .stats-row { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+            .page-wrap { padding: 2rem 1rem 4rem; }
+            .stat-value { font-size: 1.375rem; }
+        }
+
+        /* Premium hidden by default — show when plan=premium */
+        body.is-premium .upgrade-banner { display: none; }
+        body.is-premium .btn-upgrade-full { display: none; }
+        body.is-premium .btn-manage { display: block; }
+        body:not(.is-premium) .btn-manage-stripe { display: none; }
+
+        /* ---- SETTINGS MODAL ---- */
+        .modal-overlay {
+            position: fixed; inset: 0; z-index: 1000;
+            background: rgba(10,10,20,0.75);
+            backdrop-filter: blur(6px);
+            display: flex; align-items: center; justify-content: center;
+            padding: 1rem;
+            opacity: 0; pointer-events: none;
+            transition: opacity 0.25s ease;
+        }
+        .modal-overlay.open { opacity: 1; pointer-events: all; }
+        .modal {
+            width: 100%; max-width: 26rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-stroke);
+            border-radius: 1.5rem;
+            overflow: hidden;
+            transform: translateY(1.5rem) scale(0.97);
+            transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+            box-shadow: 0 2rem 4rem rgba(0,0,0,0.5);
+            position: relative;
+        }
+        .modal-overlay.open .modal { transform: translateY(0) scale(1); }
+        .modal::before {
+            content: '';
+            position: absolute; top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, var(--accent-color), var(--accent-gold));
+        }
+        .modal-header {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 1.5rem 1.5rem 0; margin-bottom: 1.25rem;
+        }
+        .modal-title { font-size: 1.0625rem; font-weight: 600; color: var(--heading-color); }
+        .modal-close {
+            width: 2rem; height: 2rem; border-radius: 50%;
+            background: rgba(255,255,255,0.06); border: none;
+            color: var(--body-3); font-size: 1rem;
+            display: flex; align-items: center; justify-content: center;
+            transition: all 0.2s;
+        }
+        .modal-close:hover { background: rgba(255,255,255,0.12); color: var(--body-1); }
+        .settings-tabs {
+            display: flex; border-bottom: 1px solid var(--card-stroke);
+            padding: 0 1.5rem; margin-bottom: 1.5rem;
+        }
+        .settings-tab {
+            padding: 0.5rem 0.875rem; background: none; border: none;
+            font-family: 'Poppins', sans-serif; font-size: 0.8rem; font-weight: 500;
+            color: var(--body-3); border-bottom: 2px solid transparent;
+            margin-bottom: -1px; transition: all 0.2s; white-space: nowrap;
+        }
+        .settings-tab:hover { color: var(--body-2); }
+        .settings-tab.active { color: var(--accent-color); border-bottom-color: var(--accent-color); }
+        .settings-panel { display: none; padding: 0 1.5rem 1.5rem; }
+        .settings-panel.active { display: block; }
+        .s-form-group { margin-bottom: 1rem; }
+        .s-label { display: block; font-size: 0.8125rem; font-weight: 500; color: var(--body-2); margin-bottom: 0.4rem; }
+        .s-input {
+            width: 100%; padding: 0.7rem 0.875rem;
+            background: rgba(255,255,255,0.04); border: 1px solid var(--card-stroke);
+            border-radius: 0.625rem; color: var(--body-1);
+            font-family: 'Poppins', sans-serif; font-size: 0.875rem;
+            outline: none; transition: all 0.2s;
+        }
+        .s-input::placeholder { color: var(--body-3); }
+        .s-input:focus { border-color: var(--accent-color); background: rgba(99,102,241,0.06); box-shadow: 0 0 0 3px rgba(99,102,241,0.1); }
+        .s-input:disabled { opacity: 0.45; }
+        .s-input-wrap { position: relative; }
+        .s-input-wrap .s-input { padding-right: 2.75rem; }
+        .s-eye { position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--body-3); font-size: 0.9rem; transition: color 0.2s; padding: 0.2rem; }
+        .s-eye:hover { color: var(--body-2); }
+        .s-hint { font-size: 0.7rem; color: var(--body-3); margin-top: 0.3rem; }
+        .s-btn {
+            width: 100%; padding: 0.7rem 1rem; background: var(--accent-color); border: none;
+            border-radius: 0.625rem; color: #fff;
+            font-family: 'Poppins', sans-serif; font-size: 0.875rem; font-weight: 600;
+            transition: all 0.2s; margin-top: 0.25rem;
+        }
+        .s-btn:hover { background: var(--accent-primary-hover); transform: translateY(-1px); }
+        .s-btn:disabled { opacity: 0.5; transform: none; }
+        .s-msg {
+            display: none; align-items: center; gap: 0.5rem;
+            padding: 0.6rem 0.875rem; border-radius: 0.5rem;
+            font-size: 0.775rem; margin-bottom: 1rem;
+        }
+        .s-msg.success { display: flex; background: rgba(56,189,142,0.12); border: 1px solid rgba(52,211,153,0.25); color: #a7f3d0; }
+        .s-msg.error   { display: flex; background: var(--danger-bg); border: 1px solid rgba(248,113,113,0.25); color: #fca5a5; }
+        .danger-zone { border: 1px solid rgba(248,113,113,0.2); border-radius: 0.875rem; padding: 1.125rem; background: rgba(248,113,113,0.03); }
+        .danger-zone-title { font-size: 0.8125rem; font-weight: 600; color: var(--danger); margin-bottom: 0.375rem; }
+        .danger-zone-text { font-size: 0.75rem; color: var(--body-3); margin-bottom: 1rem; line-height: 1.5; }
+        .s-btn-danger { width: 100%; padding: 0.625rem 1rem; background: transparent; border: 1px solid rgba(248,113,113,0.35); border-radius: 0.625rem; color: var(--danger); font-family: 'Poppins', sans-serif; font-size: 0.8125rem; font-weight: 500; transition: all 0.2s; }
+        .s-btn-danger:hover { background: rgba(248,113,113,0.1); border-color: var(--danger); }
+        .delete-confirm { display: none; padding-top: 0.75rem; }
+        .delete-confirm.visible { display: block; }
+        .delete-confirm-text { font-size: 0.8rem; color: var(--body-2); margin-bottom: 0.875rem; line-height: 1.6; }
+        .delete-confirm-text strong { color: var(--danger); }
+        .delete-confirm-input { width: 100%; padding: 0.6rem 0.875rem; margin-bottom: 0.75rem; background: rgba(248,113,113,0.06); border: 1px solid rgba(248,113,113,0.25); border-radius: 0.625rem; color: var(--body-1); font-family: 'Poppins', sans-serif; font-size: 0.875rem; outline: none; transition: border-color 0.2s; }
+        .delete-confirm-input:focus { border-color: var(--danger); }
+        .delete-confirm-input::placeholder { color: var(--body-3); }
+        .delete-actions { display: flex; gap: 0.625rem; }
+        .delete-actions button { flex: 1; padding: 0.6rem; border-radius: 0.625rem; font-family: 'Poppins', sans-serif; font-size: 0.8125rem; font-weight: 500; transition: all 0.2s; }
+        .btn-cancel-del { background: rgba(255,255,255,0.05); border: 1px solid var(--card-stroke); color: var(--body-2); }
+        .btn-cancel-del:hover { background: rgba(255,255,255,0.09); }
+        .btn-confirm-del { background: var(--danger); border: none; color: #fff; opacity: 0.35; pointer-events: none; }
+        .btn-confirm-del.ready { opacity: 1; pointer-events: all; }
+        @media (max-width: 30rem) {
+            .settings-tab { font-size: 0.75rem; padding: 0.45rem 0.625rem; }
+            .modal-header { padding: 1.25rem 1.25rem 0; }
+            .settings-panel { padding: 0 1.25rem 1.25rem; }
+            .settings-tabs { padding: 0 1.25rem; }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="ep-cursor"></div>
+    <div id="ep-cursor-trail"></div>
+
+    <!-- NAV -->
+    <nav id="mainNav">
+        <a class="nav-logo" href="index.html">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="EnglishPlay" style="height:48px;width:auto;display:block;">
+        </a>
+        <ul class="nav-links">
+            <li><a href="Phrasal Verbs.html">Phrasal Verbs</a></li>
+            <li><a href="index.html">Grammar Practice</a></li>
+            <li>
+                <a href="dashboard.html" class="nav-user-btn active">
+                    <div class="nav-avatar-sm" id="navAvatarSm">?</div>
+                    <span id="navUserName">My Account</span>
+                </a>
+            </li>
+        </ul>
+        <button class="burger" id="burger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mob-header">
+            <a href="index.html">
+                <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                    alt="EnglishPlay" style="height:36px;width:auto;display:block;">
+            </a>
+            <button class="mob-close" id="mobClose" aria-label="Close menu">&#x2715;</button>
+        </div>
+        <a href="Phrasal Verbs.html" class="mob-link">Phrasal Verbs</a>
+        <a href="index.html" class="mob-link">Grammar Practice</a>
+        <a href="dashboard.html" class="mob-link">My Account</a>
+    </div>
+
+    <!-- PAGE -->
+    <div class="page-wrap">
+
+        <!-- PROFILE HERO -->
+        <div class="profile-hero">
+            <div class="profile-avatar" id="profileAvatar">A</div>
+            <div class="profile-info">
+                <div class="profile-name" id="profileName">Anna Smith</div>
+                <div class="profile-email" id="profileEmail"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="71101f1f10311409101c011d145f121e1c">[email&#160;protected]</a></div>
+                <span class="plan-badge free" id="planBadge">
+                    <span class="dot"></span>
+                    Free Plan
+                </span>
+            </div>
+            <div class="profile-actions">
+                <button class="btn-outline" onclick="openSettings()">⚙ Settings</button>
+                <button class="btn-signout" id="signOutBtn" onclick="handleSignOut()">Sign Out</button>
+            </div>
+        </div>
+
+        <!-- UPGRADE BANNER (free users only) -->
+        <div class="upgrade-banner" id="upgradeBanner">
+            <div class="upgrade-banner-text">
+                <h3>✨ Unlock all grammar topics</h3>
+                <p>You're on the free plan. Upgrade to access <span>100+ exercises</span> across all levels.</p>
+            </div>
+            <button class="btn-upgrade" onclick="goToUpgrade()">Upgrade to Premium →</button>
+        </div>
+
+        <!-- STATS -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <span class="stat-icon">📝</span>
+                <div class="stat-value" id="statExercises">0</div>
+                <div class="stat-label">Exercises<br>completed</div>
+                <div class="stat-glow" style="background: radial-gradient(circle, rgba(99,102,241,0.15), transparent)"></div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">🔥</span>
+                <div class="stat-value" id="statStreak">0</div>
+                <div class="stat-label">Day<br>streak</div>
+                <div class="stat-glow" style="background: radial-gradient(circle, rgba(255,192,77,0.15), transparent)"></div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">⭐</span>
+                <div class="stat-value" id="statScore">–</div>
+                <div class="stat-label">Average<br>score</div>
+                <div class="stat-glow" style="background: radial-gradient(circle, rgba(52,211,153,0.12), transparent)"></div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">🏆</span>
+                <div class="stat-value" id="statTopics">0</div>
+                <div class="stat-label">Topics<br>mastered</div>
+                <div class="stat-glow" style="background: radial-gradient(circle, rgba(248,113,113,0.12), transparent)"></div>
+            </div>
+        </div>
+
+        <!-- PROGRESS BY LEVEL -->
+        <div class="progress-section">
+            <div class="section-heading">📊 Progress by Level</div>
+            <div class="level-progress-grid">
+
+                <div class="level-block">
+                    <div class="level-block-header">
+                        <div class="level-label">
+                            <span class="level-tag a1">A1</span>
+                            <span class="level-block-name">Beginner</span>
+                        </div>
+                        <span class="level-pct" id="pctA1">0%</span>
+                    </div>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar-fill a1" id="barA1" style="width:0%"></div>
+                    </div>
+                    <div class="topic-chips" id="chipsA1">
+                        <span class="topic-chip">To Be</span>
+                        <span class="topic-chip">Present Simple</span>
+                        <span class="topic-chip">Articles</span>
+                        <span class="topic-chip">Pronouns</span>
+                        <span class="topic-chip">Can/Can't</span>
+                    </div>
+                </div>
+
+                <div class="level-block">
+                    <div class="level-block-header">
+                        <div class="level-label">
+                            <span class="level-tag a2">A2</span>
+                            <span class="level-block-name">Elementary</span>
+                        </div>
+                        <span class="level-pct" id="pctA2">0%</span>
+                    </div>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar-fill a2" id="barA2" style="width:0%"></div>
+                    </div>
+                    <div class="topic-chips" id="chipsA2">
+                        <span class="topic-chip">Present Continuous</span>
+                        <span class="topic-chip">Past Simple</span>
+                        <span class="topic-chip">Future Will</span>
+                        <span class="topic-chip">Comparatives</span>
+                    </div>
+                </div>
+
+                <div class="level-block">
+                    <div class="level-block-header">
+                        <div class="level-label">
+                            <span class="level-tag b1">B1</span>
+                            <span class="level-block-name">Intermediate</span>
+                        </div>
+                        <span class="level-pct" id="pctB1">0%</span>
+                    </div>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar-fill b1" id="barB1" style="width:0%"></div>
+                    </div>
+                    <div class="topic-chips" id="chipsB1">
+                        <span class="topic-chip">Present Perfect</span>
+                        <span class="topic-chip">Conditionals</span>
+                        <span class="topic-chip">Modal Verbs</span>
+                        <span class="topic-chip">Question Tags</span>
+                    </div>
+                </div>
+
+                <div class="level-block">
+                    <div class="level-block-header">
+                        <div class="level-label">
+                            <span class="level-tag b2">B2</span>
+                            <span class="level-block-name">Upper-Intermediate</span>
+                        </div>
+                        <span class="level-pct" id="pctB2">0%</span>
+                    </div>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar-fill b2" id="barB2" style="width:0%"></div>
+                    </div>
+                    <div class="topic-chips" id="chipsB2">
+                        <span class="topic-chip">Past Perfect</span>
+                        <span class="topic-chip">Third Conditional</span>
+                        <span class="topic-chip">Modal Deduction</span>
+                        <span class="topic-chip">Passive Voice</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RECENT ACTIVITY -->
+        <div class="activity-section">
+            <div class="section-heading">🕐 Recent Activity</div>
+            <div class="activity-list" id="activityList">
+                <!-- Populated by JS or Supabase -->
+                <div class="empty-activity" id="emptyActivity">
+                    <div class="empty-icon">📚</div>
+                    <div>No exercises completed yet.<br>Start practicing to see your activity here!</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PLAN SECTION -->
+        <div class="plan-section">
+            <div class="section-heading">💳 Your Plan</div>
+            <div class="plan-cards">
+
+                <!-- Free -->
+                <div class="plan-card current" id="freePlanCard">
+                    <div class="plan-card-header">
+                        <div>
+                            <div class="plan-card-name">Free</div>
+                            <div class="plan-card-price"><strong>$0</strong>/ forever</div>
+                        </div>
+                        <span class="plan-current-tag" id="freeCurrentTag">Current plan</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><span class="feat-icon">✅</span> 2 exercises per topic</li>
+                        <li><span class="feat-icon">✅</span> A1 & A2 levels</li>
+                        <li><span class="feat-icon">✅</span> Progress tracking</li>
+                        <li class="locked"><span class="feat-icon">🔒</span> B1 & B2 levels</li>
+                        <li class="locked"><span class="feat-icon">🔒</span> All exercise types</li>
+                        <li class="locked"><span class="feat-icon">🔒</span> Detailed analytics</li>
+                    </ul>
+                </div>
+
+                <!-- Premium -->
+                <div class="plan-card premium-card" id="premiumPlanCard">
+                    <div class="plan-card-header">
+                        <div>
+                            <div class="plan-card-name" style="color: var(--accent-gold)">✨ Premium</div>
+                            <div class="plan-card-price">
+                                <strong>$9.89</strong>/ month
+                                <span style="color: var(--correct-text); font-size:0.75rem; margin-left:0.25rem">or $79/yr</span>
+                            </div>
+                        </div>
+                        <span class="plan-current-tag" id="premiumCurrentTag" style="display:none; background:rgba(255,192,77,0.1); border-color:rgba(255,192,77,0.3); color:var(--accent-gold)">Current plan</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><span class="feat-icon">✅</span> All 100+ exercises</li>
+                        <li><span class="feat-icon">✅</span> A1 → B2 levels</li>
+                        <li><span class="feat-icon">✅</span> All exercise types</li>
+                        <li><span class="feat-icon">✅</span> Detailed analytics</li>
+                        <li><span class="feat-icon">✅</span> Progress export</li>
+                        <li><span class="feat-icon">✅</span> New content first</li>
+                    </ul>
+                    <button class="btn-upgrade-full" id="upgradeBtn" onclick="goToUpgrade()">Upgrade Now →</button>
+                    <button class="btn-manage btn-manage-stripe" id="manageBtn" onclick="openStripePortal()" style="display:none">Manage subscription →</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div><!-- /page-wrap -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        /* ---- Cursor ---- */
+        const epCursor = document.getElementById('ep-cursor');
+        const epTrail = document.getElementById('ep-cursor-trail');
+        let mouseX = window.innerWidth/2, mouseY = window.innerHeight/2;
+        let trailX = mouseX, trailY = mouseY;
+        document.addEventListener('mousemove', e => { mouseX = e.clientX; mouseY = e.clientY; });
+        (function animateCursor() {
+            epCursor.style.left = (mouseX-6)+'px'; epCursor.style.top = (mouseY-6)+'px';
+            trailX += (mouseX-trailX)*0.15; trailY += (mouseY-trailY)*0.15;
+            epTrail.style.left = (trailX-20)+'px'; epTrail.style.top = (trailY-20)+'px';
+            requestAnimationFrame(animateCursor);
+        })();
+        document.addEventListener('mousedown', () => epCursor.style.transform='scale(1.8)');
+        document.addEventListener('mouseup',   () => epCursor.style.transform='scale(1)');
+
+        /* ---- Nav ---- */
+        window.addEventListener('scroll', () => {
+            document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 40);
+        });
+        const burger     = document.getElementById('burger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobClose   = document.getElementById('mobClose');
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('open'); mobileMenu.classList.toggle('open'); document.body.classList.toggle('menu-open');
+        });
+        mobClose.addEventListener('click', () => {
+            burger.classList.remove('open'); mobileMenu.classList.remove('open'); document.body.classList.remove('menu-open');
+        });
+        mobileMenu.querySelectorAll('a.mob-link').forEach(l => l.addEventListener('click', () => {
+            burger.classList.remove('open'); mobileMenu.classList.remove('open'); document.body.classList.remove('menu-open');
+        }));
+        document.addEventListener('keydown', e => {
+            if (e.key==='Escape') { burger.classList.remove('open'); mobileMenu.classList.remove('open'); document.body.classList.remove('menu-open'); }
+        });
+
+        /* ================================================================
+           DEMO DATA — replace with Supabase calls
+        ================================================================ */
+        const demoUser = {
+            name: 'Anna Smith',
+            email: 'anna@example.com',
+            plan: 'free',          // 'free' | 'premium'
+            exercises: 14,
+            streak: 3,
+            avgScore: 78,
+            topicsMastered: 4,
+            progress: { a1: 60, a2: 20, b1: 0, b2: 0 },
+            completedTopics: {
+                a1: ['To Be', 'Present Simple'],
+                a2: [],
+                b1: [],
+                b2: []
+            },
+            recentActivity: [
+                { icon: '📝', title: 'Present Simple – Daily Routine', type: 'Fill in the Gaps', level: 'A1', time: '2h ago', score: 90, scoreClass: 'great' },
+                { icon: '📝', title: 'To Be with Names', type: 'Multiple Choice', level: 'A1', time: 'Yesterday', score: 100, scoreClass: 'great' },
+                { icon: '📝', title: 'Past Simple – Regular Verbs', type: 'Sentence Building', level: 'A2', time: '2 days ago', score: 65, scoreClass: 'ok' },
+                { icon: '📝', title: 'Articles: a/an, the', type: 'Multiple Choice', level: 'A1', time: '3 days ago', score: 75, scoreClass: 'good' },
+            ]
+        };
+
+        /* ================================================================
+           RENDER
+        ================================================================ */
+        function renderDashboard(user) {
+            const initial = (user.name || 'U').charAt(0).toUpperCase();
+
+            document.getElementById('profileAvatar').textContent = initial;
+            document.getElementById('navAvatarSm').textContent   = initial;
+            document.getElementById('profileName').textContent   = user.name || 'User';
+            document.getElementById('profileEmail').textContent  = user.email || '';
+            document.getElementById('navUserName').textContent   = user.name ? user.name.split(' ')[0] : 'My Account';
+
+            const badge = document.getElementById('planBadge');
+            if (user.plan === 'premium') {
+                badge.className = 'plan-badge premium';
+                badge.innerHTML = '<span class="dot"></span> Premium';
+                document.body.classList.add('is-premium');
+                document.getElementById('premiumCurrentTag').style.display = 'inline-flex';
+                document.getElementById('freeCurrentTag').style.display    = 'none';
+                document.getElementById('upgradeBtn').style.display        = 'none';
+                document.getElementById('manageBtn').style.display         = 'block';
+            }
+
+            /* Stats */
+            animateCount('statExercises', user.exercises);
+            animateCount('statStreak',    user.streak);
+            document.getElementById('statScore').textContent = user.exercises > 0 ? user.avgScore + '%' : '–';
+            animateCount('statTopics', user.topicsMastered);
+
+            /* Progress bars */
+            setTimeout(() => {
+                const levels = ['A1','A2','B1','B2'];
+                levels.forEach(lv => {
+                    const key = lv.toLowerCase();
+                    const pct = user.progress[key] || 0;
+                    document.getElementById('bar'+lv).style.width = pct + '%';
+                    document.getElementById('pct'+lv).textContent = pct + '%';
+
+                    /* Mark completed chips */
+                    const done = user.completedTopics[key] || [];
+                    document.querySelectorAll('#chips'+lv+' .topic-chip').forEach(chip => {
+                        if (done.includes(chip.textContent.replace('✓ ',''))) chip.classList.add('done');
+                    });
+                });
+            }, 200);
+
+            /* Activity */
+            renderActivity(user.recentActivity);
+        }
+
+        function renderActivity(items) {
+            const list  = document.getElementById('activityList');
+            const empty = document.getElementById('emptyActivity');
+            if (!items || items.length === 0) return;
+            empty.style.display = 'none';
+            items.forEach(item => {
+                const el = document.createElement('div');
+                el.className = 'activity-item';
+                el.innerHTML = `
+                    <div class="activity-icon" style="background:rgba(99,102,241,0.1)">${item.icon}</div>
+                    <div class="activity-body">
+                        <div class="activity-title">${item.title}</div>
+                        <div class="activity-meta">${item.type} · <span class="level-tag ${item.level.toLowerCase()}" style="padding:0.1rem 0.4rem;font-size:0.625rem">${item.level}</span> · ${item.time}</div>
+                    </div>
+                    <span class="activity-score ${item.scoreClass}">${item.score}%</span>
+                `;
+                list.appendChild(el);
+            });
+        }
+
+        function animateCount(id, target) {
+            const el = document.getElementById(id);
+            let current = 0;
+            const step = Math.ceil(target / 30);
+            const timer = setInterval(() => {
+                current = Math.min(current + step, target);
+                el.textContent = current;
+                if (current >= target) clearInterval(timer);
+            }, 30);
+        }
+
+        /* ================================================================
+           ACTIONS
+        ================================================================ */
+        function handleSignOut() {
+            if (!confirm('Sign out from EnglishPlay?')) return;
+            /* === SUPABASE ===
+            supabase.auth.signOut().then(() => window.location.href = 'index.html');
+            */
+            window.location.href = 'auth.html';
+        }
+
+        function goToUpgrade() {
+            /* === STRIPE Payment Link or pricing page ===
+            window.location.href = 'pricing.html';
+            */
+            alert('Upgrade coming soon! Stripe integration in progress.');
+        }
+
+        function openStripePortal() {
+            /* === STRIPE Customer Portal ===
+            fetch('/api/create-portal-session', { method: 'POST' })
+              .then(r => r.json())
+              .then(d => window.location.href = d.url);
+            */
+            alert('Stripe Customer Portal coming soon!');
+        }
+
+        /* ================================================================
+           INIT — swap demo data for Supabase when ready
+        ================================================================ */
+        /*
+        === SUPABASE VERSION ===
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+        const supabase = createClient('YOUR_PROJECT_URL', 'YOUR_PUBLISHABLE_KEY');
+
+        async function init() {
+            const { data: { user } } = await supabase.auth.getUser();
+            if (!user) { window.location.href = 'auth.html'; return; }
+
+            const { data: profile } = await supabase
+                .from('profiles')
+                .select('*')
+                .eq('id', user.id)
+                .single();
+
+            const { data: progress } = await supabase
+                .from('progress')
+                .                .select('*')
+                .eq('user_id', user.id)
+                .order('completed_at', { ascending: false });
+
+            renderDashboard({
+                name: profile?.full_name || user.email.split('@')[0],
+                email: user.email,
+                plan: profile?.plan || 'free',
+                exercises: progress?.length || 0,
+                streak: 0,
+                avgScore: 0,
+                topicsMastered: 0,
+                progress: { a1: 0, a2: 0, b1: 0, b2: 0 },
+                completedTopics: { a1: [], a2: [], b1: [], b2: [] },
+                recentActivity: []
+            });
+        }
+        init();
+        */
+
+        renderDashboard(demoUser);
+    </script>
+</body>
+</html>
