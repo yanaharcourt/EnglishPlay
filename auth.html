@@ -960,8 +960,7 @@
                 setLoading('signup-btn', 'signup-spinner', 'signup-label', false);
                 return;
             }
-            document.getElementById('signup-form-wrap').style.display = 'none';
-            document.getElementById('signup-success').classList.add('visible');
+            window.location.href = 'dashboard.html';
         }
 
         window.handleForgot = async function() {
