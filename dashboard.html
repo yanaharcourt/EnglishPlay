@@ -2142,11 +2142,11 @@
             const p1 = document.getElementById('s-pass1').value;
             const p2 = document.getElementById('s-pass2').value;
             const msg = document.getElementById('msg-password');
-            if (p1.length < 6) { msg.textContent = 'Min. 6 characters.'; msg.className = 's-msg err'; return; }
-            if (p1 !== p2) { msg.textContent = 'Passwords do not match.'; msg.className = 's-msg err'; return; }
+            if (p1.length < 6) { msg.textContent = 'Min. 6 characters.'; msg.className = 's-msg error'; return; }
+            if (p1 !== p2) { msg.textContent = 'Passwords do not match.'; msg.className = 's-msg error'; return; }
             const { error } = await supabase.auth.updateUser({ password: p1 });
-            if (error) { msg.textContent = error.message; msg.className = 's-msg err'; }
-            else { msg.textContent = 'Password updated!'; msg.className = 's-msg ok'; document.getElementById('s-pass1').value = ''; document.getElementById('s-pass2').value = ''; }
+            if (error) { msg.textContent = error.message; msg.className = 's-msg error'; }
+            else { msg.textContent = '✓ Password updated!'; msg.className = 's-msg success'; document.getElementById('s-pass1').value = ''; document.getElementById('s-pass2').value = ''; }
         }
 
         function manageSubscription() {
