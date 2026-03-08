@@ -499,7 +499,6 @@
             background: var(--danger-bg);
             border: 1px solid rgba(248,113,113,0.3);
             color: #fca5a5;
-            display: flex;
             align-items: center;
             gap: 0.5rem;
         }
@@ -770,7 +769,17 @@
         </div>
     </div>
 
-    <script>
+    <script type="module">
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+        const supabase = createClient(
+            'https://kfoweeagmvzommlrxxjm.supabase.co',
+            'sb_publishable_Chq-fxxL7NbVgkWarl7gMQ_xABwrDpD'
+        );
+
+        /* Если уже залогинен — редиректим на dashboard */
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session) window.location.href = 'dashboard.html';
+
         /* ---- Cursor ---- */
         const epCursor = document.getElementById('ep-cursor');
         const epTrail = document.getElementById('ep-cursor-trail');
@@ -826,7 +835,7 @@
         }
 
         /* ---- Tab switching ---- */
-        function switchTab(tab) {
+        window.switchTab = function(tab) {
             document.querySelectorAll('.auth-panel').forEach(p => p.classList.remove('active'));
             document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
             document.getElementById('panel-'+tab).classList.add('active');
@@ -836,7 +845,7 @@
             hideAlert();
         }
 
-        function showForgot(e) {
+        window.showForgot = function(e) {
             e.preventDefault();
             document.querySelectorAll('.auth-panel').forEach(p => p.classList.remove('active'));
             document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
@@ -854,14 +863,14 @@
         }
 
         /* ---- Password toggle ---- */
-        function togglePassword(id, btn) {
+        window.togglePassword = function(id, btn) {
             const input = document.getElementById(id);
             if (input.type === 'password') { input.type = 'text'; btn.textContent = '🙈'; }
             else { input.type = 'password'; btn.textContent = '👁'; }
         }
 
         /* ---- Password strength ---- */
-        function checkStrength(val) {
+        window.checkStrength = function(val) {
             const meter = document.getElementById('strengthMeter');
             const fill = document.getElementById('strengthFill');
             const text = document.getElementById('strengthText');
@@ -902,8 +911,7 @@
             label.style.display = loading ? 'none' : 'inline';
         }
 
-        /* ---- Handlers (ready for Supabase) ---- */
-        async function handleSignIn() {
+        window.handleSignIn = async function() {
             hideAlert();
             const email = document.getElementById('signin-email').value.trim();
             const password = document.getElementById('signin-password').value;
@@ -917,20 +925,16 @@
 
             setLoading('signin-btn', 'signin-spinner', 'signin-label', true);
 
-            /* === SUPABASE SIGN IN (раскомментируй когда подключишь) ===
             const { data, error } = await supabase.auth.signInWithPassword({ email, password });
-            if (error) { showAlert(error.message); setLoading('signin-btn','signin-spinner','signin-label',false); return; }
-            window.location.href = 'index.html';
-            */
-
-            // Demo delay
-            setTimeout(() => {
+            if (error) {
+                showAlert(error.message);
                 setLoading('signin-btn', 'signin-spinner', 'signin-label', false);
-                showAlert('Supabase not connected yet. Add your keys to activate sign in.');
-            }, 1200);
+                return;
+            }
+            window.location.href = 'dashboard.html';
         }
 
-        async function handleSignUp() {
+        window.handleSignUp = async function() {
             hideAlert();
             const name = document.getElementById('signup-name').value.trim();
             const email = document.getElementById('signup-email').value.trim();
@@ -947,39 +951,37 @@
 
             setLoading('signup-btn', 'signup-spinner', 'signup-label', true);
 
-            /* === SUPABASE SIGN UP ===
-            const { data, error } = await supabase.auth.signUp({ email, password, options: { data: { full_name: name } } });
-            if (error) { showAlert(error.message); setLoading('signup-btn','signup-spinner','signup-label',false); return; }
-            document.getElementById('signup-form-wrap').style.display='none';
-            document.getElementById('signup-success').classList.add('visible');
-            */
-
-            setTimeout(() => {
+            const { data, error } = await supabase.auth.signUp({
+                email, password,
+                options: { data: { full_name: name } }
+            });
+            if (error) {
+                showAlert(error.message);
                 setLoading('signup-btn', 'signup-spinner', 'signup-label', false);
-                document.getElementById('signup-form-wrap').style.display = 'none';
-                document.getElementById('signup-success').classList.add('visible');
-            }, 1200);
+                return;
+            }
+            document.getElementById('signup-form-wrap').style.display = 'none';
+            document.getElementById('signup-success').classList.add('visible');
         }
 
-        async function handleForgot() {
+        window.handleForgot = async function() {
             hideAlert();
             const email = document.getElementById('forgot-email').value.trim();
             setFieldError('forgot-email', 'forgot-email-err', !validateEmail(email));
             if (!validateEmail(email)) return;
 
-            /* === SUPABASE RESET ===
-            const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo: 'https://englishplay.org/reset-password.html' });
-            */
-
+            const { error } = await supabase.auth.resetPasswordForEmail(email, {
+                redirectTo: 'https://englishplay.org/reset-password.html'
+            });
             document.getElementById('forgot-form-wrap').style.display = 'none';
             document.getElementById('forgot-success').classList.add('visible');
         }
 
-        function handleGoogle() {
-            /* === SUPABASE GOOGLE ===
-            supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: 'https://englishplay.org' } });
-            */
-            showAlert('Google sign-in will be available once Supabase is connected.');
+        window.handleGoogle = async function() {
+            await supabase.auth.signInWithOAuth({
+                provider: 'google',
+                options: { redirectTo: 'https://englishplay.org/dashboard.html' }
+            });
         }
 
         /* Enter key support */
@@ -992,5 +994,6 @@
             else if (active.id === 'panel-forgot') handleForgot();
         });
     </script>
+    
 </body>
 </html>

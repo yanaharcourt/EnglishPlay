@@ -979,10 +979,10 @@
 
     </div><!-- /page-wrap -->
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         /* ---- Cursor ---- */
         const epCursor = document.getElementById('ep-cursor');
-        const epTrail = document.getElementById('ep-cursor-trail');
+        const epTrail  = document.getElementById('ep-cursor-trail');
         let mouseX = window.innerWidth/2, mouseY = window.innerHeight/2;
         let trailX = mouseX, trailY = mouseY;
         document.addEventListener('mousemove', e => { mouseX = e.clientX; mouseY = e.clientY; });
@@ -1016,12 +1016,12 @@
         });
 
         /* ================================================================
-           DEMO DATA — replace with Supabase calls
+           DEMO DATA
         ================================================================ */
         const demoUser = {
             name: 'Anna Smith',
             email: 'anna@example.com',
-            plan: 'free',          // 'free' | 'premium'
+            plan: 'free',
             exercises: 14,
             streak: 3,
             avgScore: 78,
@@ -1029,9 +1029,7 @@
             progress: { a1: 60, a2: 20, b1: 0, b2: 0 },
             completedTopics: {
                 a1: ['To Be', 'Present Simple'],
-                a2: [],
-                b1: [],
-                b2: []
+                a2: [], b1: [], b2: []
             },
             recentActivity: [
                 { icon: '📝', title: 'Present Simple – Daily Routine', type: 'Fill in the Gaps', level: 'A1', time: '2h ago', score: 90, scoreClass: 'great' },
@@ -1046,7 +1044,6 @@
         ================================================================ */
         function renderDashboard(user) {
             const initial = (user.name || 'U').charAt(0).toUpperCase();
-
             document.getElementById('profileAvatar').textContent = initial;
             document.getElementById('navAvatarSm').textContent   = initial;
             document.getElementById('profileName').textContent   = user.name || 'User';
@@ -1064,22 +1061,17 @@
                 document.getElementById('manageBtn').style.display         = 'block';
             }
 
-            /* Stats */
             animateCount('statExercises', user.exercises);
             animateCount('statStreak',    user.streak);
             document.getElementById('statScore').textContent = user.exercises > 0 ? user.avgScore + '%' : '–';
             animateCount('statTopics', user.topicsMastered);
 
-            /* Progress bars */
             setTimeout(() => {
-                const levels = ['A1','A2','B1','B2'];
-                levels.forEach(lv => {
+                ['A1','A2','B1','B2'].forEach(lv => {
                     const key = lv.toLowerCase();
                     const pct = user.progress[key] || 0;
                     document.getElementById('bar'+lv).style.width = pct + '%';
                     document.getElementById('pct'+lv).textContent = pct + '%';
-
-                    /* Mark completed chips */
                     const done = user.completedTopics[key] || [];
                     document.querySelectorAll('#chips'+lv+' .topic-chip').forEach(chip => {
                         if (done.includes(chip.textContent.replace('✓ ',''))) chip.classList.add('done');
@@ -1087,7 +1079,6 @@
                 });
             }, 200);
 
-            /* Activity */
             renderActivity(user.recentActivity);
         }
 
@@ -1114,7 +1105,7 @@
         function animateCount(id, target) {
             const el = document.getElementById(id);
             let current = 0;
-            const step = Math.ceil(target / 30);
+            const step  = Math.ceil(target / 30);
             const timer = setInterval(() => {
                 current = Math.min(current + step, target);
                 el.textContent = current;
@@ -1127,68 +1118,20 @@
         ================================================================ */
         function handleSignOut() {
             if (!confirm('Sign out from EnglishPlay?')) return;
-            /* === SUPABASE ===
-            supabase.auth.signOut().then(() => window.location.href = 'index.html');
-            */
             window.location.href = 'auth.html';
         }
 
         function goToUpgrade() {
-            /* === STRIPE Payment Link or pricing page ===
-            window.location.href = 'pricing.html';
-            */
             alert('Upgrade coming soon! Stripe integration in progress.');
         }
 
         function openStripePortal() {
-            /* === STRIPE Customer Portal ===
-            fetch('/api/create-portal-session', { method: 'POST' })
-              .then(r => r.json())
-              .then(d => window.location.href = d.url);
-            */
             alert('Stripe Customer Portal coming soon!');
         }
 
         /* ================================================================
-           INIT — swap demo data for Supabase when ready
+           INIT — сейчас показывает demo, позже подключим Supabase
         ================================================================ */
-        /*
-        === SUPABASE VERSION ===
-        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
-        const supabase = createClient('YOUR_PROJECT_URL', 'YOUR_PUBLISHABLE_KEY');
-
-        async function init() {
-            const { data: { user } } = await supabase.auth.getUser();
-            if (!user) { window.location.href = 'auth.html'; return; }
-
-            const { data: profile } = await supabase
-                .from('profiles')
-                .select('*')
-                .eq('id', user.id)
-                .single();
-
-            const { data: progress } = await supabase
-                .from('progress')
-                .                .select('*')
-                .eq('user_id', user.id)
-                .order('completed_at', { ascending: false });
-
-            renderDashboard({
-                name: profile?.full_name || user.email.split('@')[0],
-                email: user.email,
-                plan: profile?.plan || 'free',
-                exercises: progress?.length || 0,
-                streak: 0,
-                avgScore: 0,
-                topicsMastered: 0,
-                progress: { a1: 0, a2: 0, b1: 0, b2: 0 },
-                completedTopics: { a1: [], a2: [], b1: [], b2: [] },
-                recentActivity: []
-            });
-        }
-        init();
-        */
-
         renderDashboard(demoUser);
     </script>
 </body>
