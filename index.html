@@ -44,8 +44,16 @@
         </ul>
 
         <div class="nav-auth" id="navAuth">
-            <a href="auth.html" class="nav-btn-signin">Sign In</a>
-            <a href="auth.html" class="nav-btn-signup">Get Started</a>
+            <div id="navGuest">
+                <a href="auth.html" class="nav-btn-signin">Sign In</a>
+                <a href="auth.html" class="nav-btn-signup">Get Started</a>
+            </div>
+            <div id="navUser" style="display:none;align-items:center;gap:0.75rem;">
+                <a href="dashboard.html" class="nav-user-pill">
+                    <div class="nav-avatar" id="navAvatar">U</div>
+                    <span class="nav-username" id="navUsername">My Account</span>
+                </a>
+            </div>
         </div>
 
         <button class="burger" id="burger" aria-label="Open menu">
@@ -2771,6 +2779,25 @@
                 document.body.classList.remove('menu-open');
             }
         });
+    </script>
+
+    <script 
+        type="module">
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+        const supabase = createClient(
+            'https://kfoweeagmvzommlrxxjm.supabase.co',
+            'sb_publishable_Chq-fxxL7NbVgkWarl7gMQ_xABwrDpD'
+        );
+
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session) {
+            const user = session.user;
+            const name = user.user_metadata?.full_name || user.email.split('@')[0];
+            document.getElementById('navGuest').style.display = 'none';
+            document.getElementById('navUser').style.display = 'flex';
+            document.getElementById('navAvatar').textContent = name.charAt(0).toUpperCase();
+            document.getElementById('navUsername').textContent = name.split(' ')[0];
+        }
     </script>
 </body>
 
