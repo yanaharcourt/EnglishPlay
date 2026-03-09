@@ -4,7 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Phrases</title>
+    <title>Phrasal Verbs Practice — EnglishPlay</title>
+    <meta name="description"
+        content="Learn and practice the most common English phrasal verbs with interactive exercises. Improve your fluency at any level.">
+    <meta name="keywords" content="phrasal verbs, English phrasal verbs practice, learn phrasal verbs">
+    <meta property="og:title" content="Phrasal Verbs Practice — EnglishPlay">
+    <meta property="og:description" content="Interactive phrasal verbs exercises to boost your English fluency.">
+    <meta property="og:url" content="https://englishplay.org/phrasal-verbs">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://englishplay.org/Phrasal%20Verbs.html">
+
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" sizes="192x192" href="./favicon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./favicon-512.png">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/phrasal verbs_idioms.css">
@@ -6280,6 +6293,24 @@
         </div>
     </footer>
 
+    <!-- Paywall Modal -->
+    <div id="paywallOverlay"
+        style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:9999;align-items:center;justify-content:center;">
+        <div
+            style="background:#292a3e;border:1px solid #353748;border-radius:1.25rem;padding:2.5rem 2rem;max-width:380px;width:90%;text-align:center;">
+            <div style="margin-bottom:1rem;"><img src="./assets/img/lock.svg" alt="lock" style="width:2.5rem;height:2.5rem;"></div>
+            <h2 style="color:#f8fafc;font-size:1.25rem;font-weight:700;margin:0 0 0.75rem;">Premium content</h2>
+            <p style="color:#b6b9d0;font-size:0.9375rem;line-height:1.6;margin:0 0 1.75rem;">Upgrade to access all
+                phrasal verbs and exercises.</p>
+            <a href="dashboard.html"
+                style="display:block;background:#6366f1;color:#fff;font-size:0.9375rem;font-weight:600;padding:0.8rem 1rem;border-radius:0.75rem;text-decoration:none;margin-bottom:0.75rem;">Upgrade
+                to Premium →</a>
+            <button onclick="document.getElementById('paywallOverlay').style.display='none';"
+                style="background:none;border:none;color:#b6b9d0;font-size:0.875rem;cursor:pointer;font-family:'Poppins',sans-serif;">Maybe
+                later</button>
+        </div>
+    </div>
+
 
     <script src="./assets/js/phrasal verbs.js"></script>
     <script src="./assets/js/script.js"></script>
@@ -6356,9 +6387,8 @@
             }
         });
     </script>
-    
-    <script 
-        type="module">
+
+    <script type="module">
         import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
         const supabase = createClient(
             'https://kfoweeagmvzommlrxxjm.supabase.co',
@@ -6374,6 +6404,32 @@
             document.getElementById('navAvatar').textContent = name.charAt(0).toUpperCase();
             document.getElementById('navUsername').textContent = name.split(' ')[0];
         }
+
+        const FREE_CARDS = 5;
+        async function applyFreemium() {
+            let isPremium = false;
+            if (session) {
+                const { data } = await supabase.from('profiles').select('plan').eq('id', session.user.id).single();
+                isPremium = data?.plan === 'premium';
+            }
+            if (isPremium) return;
+            const cards = document.querySelectorAll('.phrase-card');
+            cards.forEach((card, i) => {
+                if (i >= FREE_CARDS) {
+                    card.style.opacity = '0.5';
+                    card.style.position = 'relative';
+                    const lock = document.createElement('div');
+                    lock.innerHTML = '<img src="./assets/img/lock.svg" style="width:1.25rem;height:1.25rem;">';
+                    lock.style.cssText = 'position:absolute;top:8px;right:8px;font-size:1.1rem;cursor:pointer;z-index:10;';
+                    card.appendChild(lock);
+                    card.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        document.getElementById('paywallOverlay').style.display = 'flex';
+                    }, true);
+                }
+            });
+        }
+        applyFreemium();
     </script>
 </body>
 

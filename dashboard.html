@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Account — EnglishPlay</title>
+
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" sizes="192x192" href="./favicon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./favicon-512.png">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         *,
@@ -682,6 +687,16 @@
         .level-tag.b2 {
             background: rgba(248, 113, 113, 0.15);
             color: #f87171;
+        }
+
+        .level-tag.c1 {
+            background: rgba(167, 139, 250, 0.15);
+            color: #a78bfa;
+        }
+
+        .level-tag.c2 {
+            background: rgba(236, 72, 153, 0.15);
+            color: #ec4899;
         }
 
         .level-block-name {
@@ -1610,7 +1625,7 @@
                 <h3>✨ Unlock all grammar topics</h3>
                 <p>You're on the free plan. Upgrade to access <span>100+ exercises</span> across all levels.</p>
             </div>
-            <button class="btn-upgrade" onclick="goToUpgrade()">Upgrade to Premium →</button>
+            <button class="btn-upgrade" onclick="document.getElementById('upgradeBtn')?.closest('.upgrade-card, .plan-card, [class*=card]')?.scrollIntoView({behavior:'smooth'}) || document.querySelector('.btn-upgrade-full')?.scrollIntoView({behavior:'smooth'})">Upgrade to Premium →</button>
         </div>
 
         <!-- STATS -->
@@ -1647,7 +1662,7 @@
 
         <!-- PROGRESS BY LEVEL -->
         <div class="progress-section">
-            <div class="section-heading">📊 Progress by Level</div>
+            <div class="section-heading">Progress by Level</div>
             <div class="level-progress-grid">
 
                 <div class="level-block">
@@ -1727,16 +1742,54 @@
                     </div>
                 </div>
 
+                <div class="level-block">
+                    <div class="level-block-header">
+                        <div class="level-label">
+                            <span class="level-tag c1">C1</span>
+                            <span class="level-block-name">Advanced</span>
+                        </div>
+                        <span class="level-pct" id="pctC1">0%</span>
+                    </div>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar-fill c1" id="barC1" style="width:0%"></div>
+                    </div>
+                    <div class="topic-chips" id="chipsC1">
+                        <span class="topic-chip">Mixed Conditionals</span>
+                        <span class="topic-chip">Inversion</span>
+                        <span class="topic-chip">Cleft Sentences</span>
+                        <span class="topic-chip">Subjunctive</span>
+                    </div>
+                </div>
+
+                <div class="level-block">
+                    <div class="level-block-header">
+                        <div class="level-label">
+                            <span class="level-tag c2">C2</span>
+                            <span class="level-block-name">Mastery</span>
+                        </div>
+                        <span class="level-pct" id="pctC2">0%</span>
+                    </div>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar-fill c2" id="barC2" style="width:0%"></div>
+                    </div>
+                    <div class="topic-chips" id="chipsC2">
+                        <span class="topic-chip">Advanced Discourse</span>
+                        <span class="topic-chip">Ellipsis</span>
+                        <span class="topic-chip">Nominalization</span>
+                        <span class="topic-chip">Register & Style</span>
+                    </div>
+                </div>
+
             </div>
         </div>
 
         <!-- RECENT ACTIVITY -->
         <div class="activity-section">
-            <div class="section-heading">🕐 Recent Activity</div>
+            <div class="section-heading">Recent Activity</div>
             <div class="activity-list" id="activityList">
                 <!-- Populated by JS or Supabase -->
                 <div class="empty-activity" id="emptyActivity">
-                    <div class="empty-icon">📚</div>
+                    <div class="empty-icon"></div>
                     <div>No exercises completed yet.<br>Start practicing to see your activity here!</div>
                 </div>
             </div>
@@ -1744,9 +1797,8 @@
 
         <!-- PLAN SECTION -->
         <div class="plan-section">
-            <div class="section-heading">💳 Your Plan</div>
+            <div class="section-heading">Your Plan</div>
             <div class="plan-cards">
-
                 <!-- Free -->
                 <div class="plan-card current" id="freePlanCard">
                     <div class="plan-card-header">
@@ -1757,15 +1809,25 @@
                         <span class="plan-current-tag" id="freeCurrentTag">Current plan</span>
                     </div>
                     <ul class="plan-features">
-                        <li><span class="feat-icon">✅</span> 2 exercises per topic</li>
-                        <li><span class="feat-icon">✅</span> A1 & A2 levels</li>
-                        <li><span class="feat-icon">✅</span> Progress tracking</li>
-                        <li class="locked"><span class="feat-icon">🔒</span> B1 & B2 levels</li>
-                        <li class="locked"><span class="feat-icon">🔒</span> All exercise types</li>
-                        <li class="locked"><span class="feat-icon">🔒</span> Detailed analytics</li>
+                        <li><span class="feat-icon"><img src="./assets/img/Checked_Circle.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> 1 exercise per topic
+                        </li>
+                        <li><span class="feat-icon"><img src="./assets/img/Checked_Circle.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> All levels A1 → C2
+                        </li>
+                        <li><span class="feat-icon"><img src="./assets/img/Checked_Circle.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> Progress tracking</li>
+                        <li class="locked"><span class="feat-icon"><img src="./assets/img/lock.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> Full exercise library
+                        </li>
+                        <li class="locked"><span class="feat-icon"><img src="./assets/img/lock.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> All exercise types
+                        </li>
+                        <li class="locked"><span class="feat-icon"><img src="./assets/img/lock.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> Detailed analytics
+                        </li>
                     </ul>
                 </div>
-
                 <!-- Premium -->
                 <div class="plan-card premium-card" id="premiumPlanCard">
                     <div class="plan-card-header">
@@ -1782,21 +1844,35 @@
                             plan</span>
                     </div>
                     <ul class="plan-features">
-                        <li><span class="feat-icon">✅</span> All 100+ exercises</li>
-                        <li><span class="feat-icon">✅</span> A1 → B2 levels</li>
-                        <li><span class="feat-icon">✅</span> All exercise types</li>
-                        <li><span class="feat-icon">✅</span> Detailed analytics</li>
-                        <li><span class="feat-icon">✅</span> Progress export</li>
-                        <li><span class="feat-icon">✅</span> New content first</li>
+                        <li><span class="feat-icon"><img src="./assets/img/Checked_Circle.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> All 100+ exercises
+                        </li>
+                        <li><span class="feat-icon"><img src="./assets/img/Checked_Circle.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> All levels A1 → C2
+                        </li>
+                        <li><span class="feat-icon"><img src="./assets/img/Checked_Circle.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> All exercise types
+                        </li>
+                        <li><span class="feat-icon"><img src="./assets/img/Checked_Circle.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> Detailed analytics
+                        </li>
+                        <li><span class="feat-icon"><img src="./assets/img/Checked_Circle.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> Progress export</li>
+                        <li><span class="feat-icon"><img src="./assets/img/Checked_Circle.svg"
+                                    style="width:1rem;height:1rem;vertical-align:middle;"></span> New content first</li>
                     </ul>
-                    <button class="btn-upgrade-full" id="upgradeBtn" onclick="goToUpgrade()">Upgrade Now →</button>
+                    <div style="display:flex;gap:0.75rem;flex-direction:column;">
+                        <button class="btn-upgrade-full" onclick="window.open('https://buy.stripe.com/test_7sY8wR81T4M22OlgyD3wQ01', '_blank')">€9.89 / month →</button>
+                        <button class="btn-upgrade-full" style="background:linear-gradient(135deg,#f59e0b,#d97706);" onclick="window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank')">€79 / year — save 33% →</button>
+                    </div>
                     <button class="btn-manage btn-manage-stripe" id="manageBtn" onclick="openStripePortal()"
                         style="display:none">Manage subscription →</button>
                 </div>
-
             </div>
         </div>
-    </div><!-- /page-wrap -->
+    </div>
+    <!-- /page-wrap -->
+
     <!-- Settings Modal -->
     <div class="modal-overlay" id="settingsOverlay">
         <div class="modal">
@@ -1849,11 +1925,11 @@
                 </div>
                 <p style="color:var(--body-2);font-size:0.8125rem;line-height:1.6;margin:0 0 1rem;">Upgrade to Premium
                     to unlock all grammar exercises across every level.</p>
-                <button class="s-btn-primary" id="s-upgrade-btn" onclick="window.location.href='#pricing'">Upgrade to
-                    Premium →</button>
-                <button class="s-btn-outline" id="s-manage-btn" style="display:none;margin-top:0.5rem;"
-                    onclick="manageSubscription()">Manage subscription</button>
-            </div>
+                    <button class="s-btn-primary" id="s-upgrade-btn" onclick="window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank')">Upgrade to
+                                        Premium →</button>
+                    <button class="s-btn-outline" id="s-manage-btn" style="display:none;margin-top:0.5rem;"
+                    onclick="window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank')">Manage subscription</button>
+                    </div>
 
             <!-- Danger Zone -->
             <div class="settings-panel" id="panel-danger">
@@ -1956,7 +2032,7 @@
             animateCount('statTopics', user.topicsMastered || 0);
 
             setTimeout(() => {
-                ['A1', 'A2', 'B1', 'B2'].forEach(lv => {
+                ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(lv => {
                     const key = lv.toLowerCase();
                     const pct = (user.progress && user.progress[key]) || 0;
                     document.getElementById('bar' + lv).style.width = pct + '%';
@@ -2016,11 +2092,11 @@
         }
 
         window.goToUpgrade = function () {
-            alert('Upgrade coming soon! Stripe integration in progress.');
+            window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank');
         }
 
         window.openStripePortal = function () {
-            alert('Stripe Customer Portal coming soon!');
+            window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank');
         }
 
         /* ================================================================

@@ -1212,8 +1212,9 @@ function createExerciseModal(topic, subtitle, exerciseType) {
     titleElement.textContent = pageTitle;
     titleElement.style.cssText = `
         color: var(--heading-color);
-        font-size: 1.5rem;
+        font-size: clamp(0.9rem, 3vw, 1.5rem);
         margin: 0;
+        line-height: 1.3;
     `;
 
     // Add close button
@@ -1750,8 +1751,9 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
     pageNavigation.className = 'page-navigation';
     pageNavigation.style.cssText = `
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
         margin-bottom: 20px;
         padding-bottom: 10px;
         border-bottom: 1px solid var(--card-stroke);
@@ -1761,8 +1763,9 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
     const pageTitle = document.createElement('h3');
     pageTitle.style.cssText = `
         color: var(--heading-color);
-        margin: 0;
+        margin: 0 0 8px 0;
         font-size: 20px;
+        width: 100%;
     `;
     pageTitle.textContent = `Exercise Set ${pageNumber}`;
 
@@ -1770,7 +1773,8 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
     const pageButtonsContainer = document.createElement('div');
     pageButtonsContainer.style.cssText = `
         display: flex;
-        gap: 10px;
+        gap: 8px;
+        flex-wrap: wrap;
     `;
 
     // Check how many pages are available (max 10 pages)
@@ -1802,8 +1806,8 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
 
             // Style the button to match your screenshot
             pageButton.style.cssText = `
-                width: 40px;
-                height: 40px;
+                width: clamp(32px, 8vw, 40px);
+                height: clamp(32px, 8vw, 40px);
                 display: flex;
                 align-items: center;
                 justify-content: center;

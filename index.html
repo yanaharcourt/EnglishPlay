@@ -4,7 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grammar Practice</title>
+    <title>EnglishPlay — Master English Grammar Naturally</title>
+    <meta name="description" content="Practice English grammar with interactive exercises at any level — A1 to B2. Multiple choice, fill in the gaps, sentence building. Free to start.">
+    <meta name="keywords" content="English grammar practice, learn English online, grammar exercises, A1 B1 B2 English">
+    <meta property="og:title" content="EnglishPlay — Master English Grammar Naturally">
+    <meta property="og:description" content="Interactive grammar exercises for every level. Free to start.">
+    <meta property="og:url" content="https://englishplay.org">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://englishplay.org/">
+    
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" sizes="192x192" href="./favicon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./favicon-512.png">
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/grammar-practice.css">
@@ -2493,6 +2505,16 @@
         </div>
     </footer>
 
+    <div class="paywall-overlay" id="paywallOverlay">
+        <div class="paywall-box">
+            <div style="margin-bottom:1rem"><img src="./assets/img/lock.svg" alt="lock" style="width:2rem;height:2rem;"></div>
+            <h2>Premium content</h2>
+            <p>Upgrade to access all exercises across every level — A1 to C2.</p>
+            <a href="dashboard.html#settings" class="paywall-btn">Upgrade to Premium →</a>
+            <button class="paywall-close" onclick="document.getElementById('paywallOverlay').classList.remove('open')">Maybe later</button>
+        </div>
+    </div>
+
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/grammar-practice.js"></script>
 
@@ -2798,7 +2820,39 @@
             document.getElementById('navAvatar').textContent = name.charAt(0).toUpperCase();
             document.getElementById('navUsername').textContent = name.split(' ')[0];
         }
+
+        const FREE_PER_LEVEL = 1;
+
+        async function applyFreemium() {
+            let isPremium = false;
+            if (session) {
+                const { data } = await supabase
+                    .from('profiles')
+                    .select('plan')
+                    .eq('id', session.user.id)
+                    .single();
+                isPremium = data?.plan === 'premium';
+            }
+            if (isPremium) return;
+
+            const levels = ['a1','a2','b1','b2','c1','c2'];
+            levels.forEach(level => {
+                const cards = document.querySelectorAll(`.grammar-card[data-level="${level}"]`);
+                cards.forEach((card, i) => {
+                    if (i >= FREE_PER_LEVEL) {
+                        card.classList.add('locked');
+                        card.addEventListener('click', () => {
+                            document.getElementById('paywallOverlay').classList.add('open');
+                        });
+                    }
+                });
+            });
+        }
+
+        applyFreemium();
     </script>
+
+
 </body>
 
 </html>
