@@ -1339,13 +1339,13 @@ window.grammarExercises['pronouns']['emphasis-reflexive-page8'] = {
             questionRu: "Выберите правильное возвратное местоимение для подчеркивания:",
             sentence: "The digital artist _____ created every frame of the animation by hand.",
             options: [
-                "herself",
                 "himself",
+                "herself",
                 "themselves",
                 "yourself"
             ],
-            correctAnswer: 1,
-            correctFeedback: "Excellent! 'Himself' emphasizes the artist’s dedication to craftsmanship in the digital world.",
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Himself' emphasizes the artist's dedication to craftsmanship in the digital world.",
             correctFeedbackRu: "Отлично! 'Himself' подчеркивает приверженность художника мастерству в цифровом мире.",
             incorrectFeedback: "Not quite! **'Himself' highlights digital craftsmanship.** When artists draw every animation frame themselves instead of using AI or templates, it reflects deep commitment to the creative process. 'Herself' would be for a female artist, 'themselves' for a group of artists, and 'yourself' would address the listener.",
             incorrectFeedbackRu: "Не совсем! **'Himself' подчеркивает цифровое мастерство.** Когда художники рисуют каждый кадр анимации вручную, вместо использования ИИ или шаблонов, это отражает глубокую преданность творческому процессу. 'Herself' — для женщины, 'themselves' — для группы художников, а 'yourself' — обращение к слушателю."

@@ -5,21 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EnglishPlay — Master English Grammar Naturally</title>
-    <meta name="description" content="Practice English grammar with interactive exercises at any level — A1 to B2. Multiple choice, fill in the gaps, sentence building. Free to start.">
+    <meta name="description"
+        content="Practice English grammar with interactive exercises at any level — A1 to С2. Multiple choice, fill in the gaps, sentence building. Free to start.">
     <meta name="keywords" content="English grammar practice, learn English online, grammar exercises, A1 B1 B2 English">
     <meta property="og:title" content="EnglishPlay — Master English Grammar Naturally">
     <meta property="og:description" content="Interactive grammar exercises for every level. Free to start.">
     <meta property="og:url" content="https://englishplay.org">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://englishplay.org/">
-    
+
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="apple-touch-icon" sizes="192x192" href="./favicon-192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="./favicon-512.png">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/grammar-practice.css">
+    <link rel="stylesheet" href="./assets/css/theme-switcher.css">
 </head>
 
 <body>
@@ -68,6 +70,10 @@
             </div>
         </div>
 
+        <button class="theme-switcher" id="themeSwitcher" aria-label="Switch theme">
+            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+        </button>
+
         <button class="burger" id="burger" aria-label="Open menu">
             <span></span>
             <span></span>
@@ -87,6 +93,9 @@
         <a href="Phrasal Verbs.html" class="mob-link">Phrasal Verbs</a>
         <a href="index.html" class="mob-link">Grammar Practice</a>
         <a href="auth.html" class="mob-link mob-link-signup">Get Started →</a>
+        <button class="theme-switcher" id="themeSwitcherMob" aria-label="Switch theme" style="margin-top:1rem;">
+            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+        </button>
     </div>
     <!-- --------------------------------------------------------------
     # MAIN CONTENT
@@ -2084,7 +2093,7 @@
                         </div>
                         <div class="category-content">
                             <!-- B1 Level: Present Passive -->
-                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Present Passive</h3>
                                     <div class="level-tags">
@@ -2099,10 +2108,10 @@
                                     <a href="./assets/js/grammar-practice /B1/Present-passive.js" class="exercise-btn"
                                         data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B1 Level: Past Passive -->
-                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Past Passive</h3>
                                     <div class="level-tags">
@@ -2117,10 +2126,10 @@
                                     <a href="./assets/js/grammar-practice /B1/Past-passive.js" class="exercise-btn"
                                         data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B1 Level: Future Passive -->
-                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Future Passive</h3>
                                     <div class="level-tags">
@@ -2135,10 +2144,10 @@
                                     <a href="./assets/js/grammar-practice /B1/Future-passive.js" class="exercise-btn"
                                         data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B1 Level: Present Perfect Passive -->
-                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Present Perfect Passive</h3>
                                     <div class="level-tags">
@@ -2146,17 +2155,17 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-passive.js" class="exercise-btn"
-                                        data-exercise="multiple-choice">Multiple Choice</a>
-                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-passive.js" class="exercise-btn"
-                                        data-exercise="fill-gaps">Fill in the Gaps</a>
-                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-passive.js" class="exercise-btn"
-                                        data-exercise="sentence-building">Sentence Building</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B2 Level: Past Perfect Passive -->
-                            <!-- <div class="grammar-card" data-level="b2" data-audience="adults">
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Past Perfect Passive</h3>
                                     <div class="level-tags">
@@ -2164,17 +2173,17 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-passive.js" class="exercise-btn"
-                                        data-exercise="multiple-choice">Multiple Choice</a>
-                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-passive.js" class="exercise-btn"
-                                        data-exercise="fill-gaps">Fill in the Gaps</a>
-                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-passive.js" class="exercise-btn"
-                                        data-exercise="sentence-building">Sentence Building</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B2 Level: Modal Passive -->
-                            <!-- <div class="grammar-card" data-level="b2" data-audience="adults">
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Modal Passive</h3>
                                     <div class="level-tags">
@@ -2189,10 +2198,10 @@
                                     <a href="./assets/js/grammar-practice /B2/Modal-passive.js" class="exercise-btn"
                                         data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B2 Level: Process Description -->
-                            <!-- <div class="grammar-card" data-level="b2" data-audience="adults">
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Process Description</h3>
                                     <div class="level-tags">
@@ -2200,14 +2209,14 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="./assets/js/grammar-practice /B2/Process-description.js" class="exercise-btn"
-                                        data-exercise="multiple-choice">Multiple Choice</a>
-                                    <a href="./assets/js/grammar-practice /B2/Process-description.js" class="exercise-btn"
-                                        data-exercise="fill-gaps">Fill in the Gaps</a>
-                                    <a href="./assets/js/grammar-practice /B2/Process-description.js" class="exercise-btn"
-                                        data-exercise="sentence-building">Sentence Building</a>
+                                    <a href="./assets/js/grammar-practice /B2/Process-description.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Process-description.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Process-description.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
 
@@ -2219,7 +2228,7 @@
                         </div>
                         <div class="category-content">
                             <!-- B1 Level: Reporting statements -->
-                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Reporting Statements</h3>
                                     <div class="level-tags">
@@ -2227,17 +2236,17 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="./assets/js/grammar-practice /B1/Reporting-statements.js" class="exercise-btn"
-                                        data-exercise="multiple-choice">Multiple Choice</a>
-                                    <a href="./assets/js/grammar-practice /B1/Reporting-statements.js" class="exercise-btn"
-                                        data-exercise="fill-gaps">Fill in the Gaps</a>
-                                    <a href="./assets/js/grammar-practice /B1/Reporting-statements.js" class="exercise-btn"
-                                        data-exercise="sentence-building">Sentence Building</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-statements.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-statements.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-statements.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B1 Level: Reporting questions -->
-                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Reporting Questions</h3>
                                     <div class="level-tags">
@@ -2245,17 +2254,17 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="./assets/js/grammar-practice /B1/Reporting-questions.js" class="exercise-btn"
-                                        data-exercise="multiple-choice">Multiple Choice</a>
-                                    <a href="./assets/js/grammar-practice /B1/Reporting-questions.js" class="exercise-btn"
-                                        data-exercise="fill-gaps">Fill in the Gaps</a>
-                                    <a href="./assets/js/grammar-practice /B1/Reporting-questions.js" class="exercise-btn"
-                                        data-exercise="sentence-building">Sentence Building</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-questions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-questions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-questions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B1 Level: Reporting commands -->
-                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Reporting Commands</h3>
                                     <div class="level-tags">
@@ -2263,35 +2272,35 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="./assets/js/grammar-practice /B1/Reporting-commands.js" class="exercise-btn"
-                                        data-exercise="multiple-choice">Multiple Choice</a>
-                                    <a href="./assets/js/grammar-practice /B1/Reporting-commands.js" class="exercise-btn"
-                                        data-exercise="fill-gaps">Fill in the Gaps</a>
-                                    <a href="./assets/js/grammar-practice /B1/Reporting-commands.js" class="exercise-btn"
-                                        data-exercise="sentence-building">Sentence Building</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-commands.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-commands.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-commands.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B1 Level: Time changes -->
-                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
                                 <div class="card-header">
-                                    <h3>Time Changes in Reported Speech</h3>
+                                    <h3>Reported time changes</h3>
                                     <div class="level-tags">
                                         <span class="level-tag">B1</span>
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="./assets/js/grammar-practice /B1/Reported-time-changes.js" class="exercise-btn"
-                                        data-exercise="multiple-choice">Multiple Choice</a>
-                                    <a href="./assets/js/grammar-practice /B1/Reported-time-changes.js" class="exercise-btn"
-                                        data-exercise="fill-gaps">Fill in the Gaps</a>
-                                    <a href="./assets/js/grammar-practice /B1/Reported-time-changes.js" class="exercise-btn"
-                                        data-exercise="sentence-building">Sentence Building</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reported-time-changes.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reported-time-changes.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reported-time-changes.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B2 Level: Advanced tense backshift -->
-                            <!-- <div class="grammar-card" data-level="b2" data-audience="adults">
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Advanced Tense Backshift</h3>
                                     <div class="level-tags">
@@ -2299,17 +2308,17 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js" class="exercise-btn"
-                                        data-exercise="multiple-choice">Multiple Choice</a>
-                                    <a href="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js" class="exercise-btn"
-                                        data-exercise="fill-gaps">Fill in the Gaps</a>
-                                    <a href="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js" class="exercise-btn"
-                                        data-exercise="sentence-building">Sentence Building</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B2 Level: Reporting commands advanced -->
-                            <!-- <div class="grammar-card" data-level="b2" data-audience="adults">
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Advanced Reporting Commands</h3>
                                     <div class="level-tags">
@@ -2317,17 +2326,17 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js" class="exercise-btn"
-                                        data-exercise="multiple-choice">Multiple Choice</a>
-                                    <a href="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js" class="exercise-btn"
-                                        data-exercise="fill-gaps">Fill in the Gaps</a>
-                                    <a href="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js" class="exercise-btn"
-                                        data-exercise="sentence-building">Sentence Building</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B2 Level: Polite indirect questions -->
-                            <!-- <div class="grammar-card" data-level="b2" data-audience="adults">
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Polite Indirect Questions</h3>
                                     <div class="level-tags">
@@ -2342,7 +2351,7 @@
                                     <a href="./assets/js/grammar-practice /B2/Polite-indirect-questions.js" class="exercise-btn"
                                         data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
 
@@ -2354,7 +2363,7 @@
                         </div>
                         <div class="category-content">
                             <!-- B1 Level: Defining clauses -->
-                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
                                 <div class="card-header">
                                     <h3>Defining Relative Clauses</h3>
                                     <div class="level-tags">
@@ -2369,7 +2378,7 @@
                                     <a href="./assets/js/grammar-practice /B1/Defining-relative-clauses.js" class="exercise-btn"
                                         data-exercise="sentence-building">Sentence Building</a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <!-- B1 Level: Non-defining clauses -->
                             <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
@@ -2507,11 +2516,13 @@
 
     <div class="paywall-overlay" id="paywallOverlay">
         <div class="paywall-box">
-            <div style="margin-bottom:1rem"><img src="./assets/img/lock.svg" alt="lock" style="width:2rem;height:2rem;"></div>
+            <div style="margin-bottom:1rem"><img src="./assets/img/lock.svg" alt="lock" style="width:2rem;height:2rem;">
+            </div>
             <h2>Premium content</h2>
             <p>Upgrade to access all exercises across every level — A1 to C2.</p>
             <a href="dashboard.html#settings" class="paywall-btn">Upgrade to Premium →</a>
-            <button class="paywall-close" onclick="document.getElementById('paywallOverlay').classList.remove('open')">Maybe later</button>
+            <button class="paywall-close"
+                onclick="document.getElementById('paywallOverlay').classList.remove('open')">Maybe later</button>
         </div>
     </div>
 
@@ -2803,8 +2814,7 @@
         });
     </script>
 
-    <script 
-        type="module">
+    <script type="module">
         import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
         const supabase = createClient(
             'https://kfoweeagmvzommlrxxjm.supabase.co',
@@ -2835,7 +2845,7 @@
             }
             if (isPremium) return;
 
-            const levels = ['a1','a2','b1','b2','c1','c2'];
+            const levels = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
             levels.forEach(level => {
                 const cards = document.querySelectorAll(`.grammar-card[data-level="${level}"]`);
                 cards.forEach((card, i) => {
@@ -2852,7 +2862,14 @@
         applyFreemium();
     </script>
 
-
+    <script>
+        document.getElementById('themeSwitcher').addEventListener('click', function () {
+            window.location.href = 'index-light.html';
+        });
+        document.getElementById('themeSwitcherMob').addEventListener('click', function () {
+            window.location.href = 'index-light.html';
+        });
+    </script>
 </body>
 
 </html>

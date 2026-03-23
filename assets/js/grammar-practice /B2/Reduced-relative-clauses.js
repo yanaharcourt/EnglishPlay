@@ -91,7 +91,7 @@ window.grammarExercises['adjectives']['reduced-relative-clauses-page1'] = {
             correctFeedbackRu: "Превосходно! 'Developed' правильно, потому что лекарство получает действие - компания его разработала. **Правило грамматики: причастие прошедшего времени используется, когда что-то делается с существительным кем-то другим.**",
             incorrectFeedback: "Not quite. The medication doesn't develop itself - it was developed by the company. **Grammar rule: Use past participle for passive relationships.**",
             incorrectFeedbackRu: "Не совсем так. Лекарство не разрабатывает само себя - оно было разработано компанией. **Правило грамматики: используйте причастие прошедшего времени для пассивных отношений.**"
-        },
+        }, 
         {
             question: "Choose the correct reduced relative clause:",
             questionRu: "Выберите правильное сокращенное относительное придаточное:",

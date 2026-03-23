@@ -108,8 +108,8 @@ window.grammarExercises['adjectives']['superlatives-page1'] = {
             correctAnswer: 0,
             correctFeedback: "Delicious choice! 'The sweetest' is correct. That cake has more sugar and flavor than any other dessert!",
             correctFeedbackRu: "Вкусный выбор! 'The sweetest' правильно. В этом торте больше сахара и вкуса, чем в любом другом десерте!",
-            incorrectFeedback: "Try again! **Two-syllable adjectives ending in '-y' change to '-iest':** sweet → the sweetest.",
-            incorrectFeedbackRu: "Попробуйте снова! **Двусложные прилагательные, оканчивающиеся на '-y', меняются на '-iest':** sweet → the sweetest."
+            incorrectFeedback: "Try again! **'Sweet' follows the regular pattern for one-syllable adjectives:** sweet → sweeter → the sweetest.",
+            incorrectFeedbackRu: "Попробуйте снова! **'Sweet' следует обычному образцу для односложных прилагательных:** sweet → sweeter → the sweetest.",
         },
         {
             question: "Choose the correct superlative form:",
@@ -446,8 +446,8 @@ window.grammarExercises['adjectives']['superlatives-page3'] = {
             correctAnswer: 0,
             correctFeedback: "Awesome! 'The most fun' captures a day filled with more joy and laughter than any other. Vacations create the best memories!",
             correctFeedbackRu: "Потрясающе! 'The most fun' отражает день, наполненный большей радостью и смехом, чем любой другой. Отпуск создаёт лучшие воспоминания!",
-            incorrectFeedback: "Keep trying! **'Fun' can use either 'the most fun' or 'the funnest' - both are acceptable.** What made it so special?",
-            incorrectFeedbackRu: "Продолжайте пытаться! **'Fun' может использовать либо 'the most fun', либо 'the funnest' - оба приемлемы.** Что сделало его таким особенным?"
+            incorrectFeedback: "Keep trying! **'Fun' typically uses 'the most fun' as its superlative form.** What made it so special?",
+            incorrectFeedbackRu: "Продолжайте пытаться! **'Fun' обычно использует 'the most fun' в качестве превосходной степени.** Что сделало его таким особенным?",
         },
         {
             question: "Choose the correct superlative form:",
@@ -736,8 +736,8 @@ window.grammarExercises['adjectives']['superlatives-page5'] = {
             correctAnswer: 0,
             correctFeedback: "Great! 'The most patient' is correct. Use 'the most' with multi-syllable adjectives.",
             correctFeedbackRu: "Отлично! 'The most patient' правильно. Используйте 'the most' с многосложными прилагательными.",
-            incorrectFeedback: "Incorrect. 'Patient' (2 syllables) uses 'the most patient'.",
-            incorrectFeedbackRu: "Неправильно. 'Patient' (2 слога) использует 'the most patient'."
+            incorrectFeedback: "Incorrect. 'Patient' uses 'the most patient'. Some two-syllable adjectives use 'the most' rather than '-est'.",
+            incorrectFeedbackRu: "Неправильно. 'Patient' использует 'the most patient'. Некоторые двусложные прилагательные используют 'the most', а не '-est'.",
         },
         {
             question: "Choose the correct superlative form:",
@@ -1048,18 +1048,18 @@ window.grammarExercises['adjectives']['superlatives-page7'] = {
         {
             question: "Choose the correct superlative form:",
             questionRu: "Выберите правильную превосходную форму:",
-            sentence: "This rope is _ one we have for climbing.",
+            sentence: "This cake is _ dessert on the menu.",
             options: [
-                "the strongest",
-                "the stronger",
-                "more strong",
-                "strong"
+                "the sweetest",
+                "the sweeter",
+                "more sweet",
+                "sweet"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'The strongest' is correct. One-syllable adjectives add '-est'.",
-            correctFeedbackRu: "Отлично! 'The strongest' правильно. Односложные прилагательные добавляют '-est'.",
-            incorrectFeedback: "Wrong. 'Strong' + '-est' = 'the strongest'.",
-            incorrectFeedbackRu: "Неверно. 'Strong' + '-est' = 'the strongest'."
+            correctFeedback: "Excellent! 'The sweetest' is correct. One-syllable adjectives add '-est'.",
+            correctFeedbackRu: "Отлично! 'The sweetest' правильно. Односложные прилагательные добавляют '-est'.",
+            incorrectFeedback: "Wrong. 'Sweet' + '-est' = 'the sweetest'.",
+            incorrectFeedbackRu: "Неверно. 'Sweet' + '-est' = 'the sweetest'."
         },
         {
             question: "Choose the correct superlative form:",

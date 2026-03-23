@@ -635,18 +635,18 @@ window.grammarExercises['conditionals']['first-conditional-page4'] = {
         {
             question: "Choose the correct first conditional instruction:",
             questionRu: "Выберите правильную инструкцию в условном предложении первого типа:",
-            sentence: "If you ___ the document, ___ it carefully.",
+            sentence: "If you ___ the document, ___ it carefully first.",
             options: [
-                "sign / read",
-                "will sign / read",
-                "sign / will read",
-                "signed / read"
+                "receive / read",
+                "will receive / read",
+                "receive / will read",
+                "received / read"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'If you sign the document, read it carefully' - important legal advice using imperatives.",
-            correctFeedbackRu: "Идеально! 'If you sign the document, read it carefully' - важный юридический совет с использованием повелительного наклонения.",
-            incorrectFeedback: "Incorrect. Use present simple 'sign' and imperative 'read' for important instructions.",
-            incorrectFeedbackRu: "Неправильно. Используйте Present Simple 'sign' и повелительное наклонение 'read' для важных инструкций."
+            correctFeedback: "Perfect! 'If you receive the document, read it carefully first' - important advice before signing any document.",
+            correctFeedbackRu: "Идеально! 'If you receive the document, read it carefully first' - важный совет перед подписанием любого документа.",
+            incorrectFeedback: "Incorrect. Use present simple 'receive' and imperative 'read' for important instructions.",
+            incorrectFeedbackRu: "Неправильно. Используйте Present Simple 'receive' и повелительное наклонение 'read' для важных инструкций."
         },
         {
             question: "Select the correct first conditional command:",
@@ -1362,7 +1362,7 @@ window.grammarExercises['conditionals']['first-conditional-page9'] = {
     title: "First Conditional - Offers, Promises and Threats", multipleChoice: [
         {
             question: "Complete the conditional offer:",
-            questionRu: "Дополните условное предложение:",
+            questionRu: "Дополните условное предложение с предложением о помощи:",
             sentence: "If you ___ me with the project, I ___ buy you dinner.",
             options: [
                 "help / will",

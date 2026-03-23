@@ -25,7 +25,7 @@ window.grammarExercises['modals']['may-can-could-permission-page1'] = {
             ],
             correctAnswer: 0,
             correctFeedback: "Perfect! 'Could' is the most polite and formal way to ask for permission in everyday situations.",
-            correctFeedbackRu: "Отлично! 'May' показывает глубочайшее уважение и вежливость по отношению к пожилым людям.",
+            correctFeedbackRu: "Отлично! 'Could' — самый вежливый и уважительный способ попросить разрешения в повседневных ситуациях.",
             incorrectFeedback: "Wonderful thinking! **'May' honors our elders** by using the most respectful and traditional form of politeness. Older generations often appreciate formal courtesy, and 'may' shows that you understand the importance of showing proper respect. 'Can' and 'could' work but are less formal, while 'should' gives advice rather than asking permission!",
             incorrectFeedbackRu: "Замечательная мысль! **'May' почитает наших старших**, используя наиболее уважительную и традиционную форму вежливости. Старшие поколения часто ценят формальную учтивость, и 'may' показывает понимание важности проявления должного уважения. 'Can' и 'could' работают, но менее формальны, а 'should' даёт советы, а не просит разрешения!"
         },

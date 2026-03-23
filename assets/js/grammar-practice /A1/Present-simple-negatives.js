@@ -1807,8 +1807,8 @@ window.grammarExercises['tenses']['present-simple-negatives-gap-page1'] = {
             sentence: "You ____ belong in this advanced class.",
             correctAnswer: "don't",
             options: ["don't", "doesn't", "not", "aren't"],
-            correctFeedback: "Perfect! 'You don't belong' describes class placement.",
-            correctFeedbackRu: "Идеально! 'You don't belong' описывает размещение в классе.",
+            correctFeedback: "Perfect! 'You don't belong' - great use of 'don't' with 'you'!",
+            correctFeedbackRu: "Идеально! 'You don't belong' - отличное использование 'don't' с 'you'!",
             incorrectFeedback: "Try again. With 'you', use 'don't' + base verb.",
             incorrectFeedbackRu: "Попробуйте снова. С 'you' используйте 'don't' + базовый глагол."
         }
@@ -3304,8 +3304,8 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page4'] = {
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
             words: ["She", "doesn't", "like", "her", "neighbors."],
             correctAnswer: "She doesn't like her neighbors.",
-            correctFeedback: "Excellent! 'She doesn't like her neighbors.' is correct. Not everyone gets along!",
-            correctFeedbackRu: "Превосходно! 'She doesn't like her neighbors.' верно. Не все ладят!",
+            correctFeedback: "Excellent! 'She doesn't like her neighbors.' is correct. Good use of 'doesn't' with 'she'!",
+            correctFeedbackRu: "Превосходно! 'She doesn't like her neighbors.' верно. Хорошее использование 'doesn't' с 'she'!",
             incorrectFeedback: "Not right. Remember: She + doesn't + base verb.",
             incorrectFeedbackRu: "Неверно. Помните: She + doesn't + базовый глагол."
         },
@@ -3324,8 +3324,8 @@ window.grammarExercises['tenses']['present-simple-negatives-sentence-page4'] = {
             questionRu: "Составьте правильное отрицательное предложение, используя эти слова:",
             words: ["He", "doesn't", "help", "his", "mother."],
             correctAnswer: "He doesn't help his mother.",
-            correctFeedback: "Perfect! 'He doesn't help his mother.' is correct. Maybe he should offer more help!",
-            correctFeedbackRu: "Отлично! 'He doesn't help his mother.' верно. Возможно, ему стоит предлагать больше помощи!",
+            correctFeedback: "Perfect! 'He doesn't help his mother.' is correct. Great use of 'doesn't' with 'he'!",
+            correctFeedbackRu: "Отлично! 'He doesn't help his mother.' верно. Прекрасное использование 'doesn't' с 'he'!",
             incorrectFeedback: "Not quite. Remember: He + doesn't + base verb.",
             incorrectFeedbackRu: "Не совсем. Помните: He + doesn't + базовый глагол."
         }

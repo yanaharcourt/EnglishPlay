@@ -7,7 +7,7 @@ if (!window.grammarExercises) {
 if (!window.grammarExercises.modals) {
     window.grammarExercises.modals = {};
 }
-
+ 
 /* =============================================================================== */
 /* ===========================Multiple Choice Exercises=========================== */
 

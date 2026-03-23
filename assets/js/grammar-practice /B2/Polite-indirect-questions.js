@@ -4,14 +4,14 @@ Initialize Grammar Exercises Object Structure
 if (!window.grammarExercises) {
     window.grammarExercises = {};
 }
-if (!window.grammarExercises.questions) {
-    window.grammarExercises.questions = {};
+if (!window.grammarExercises.reported) {
+    window.grammarExercises.reported = {};
 }
 
 /* ============================================
 Page 1: Polite indirect questions - Basic forms and introductory phrases
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-page1'] = {
+window.grammarExercises['reported']['polite-indirect-questions-page1'] = {
     title: "Polite indirect questions - Basic forms",
     multipleChoice: [
         {
@@ -75,8 +75,8 @@ window.grammarExercises['questions']['polite-indirect-questions-page1'] = {
             correctAnswer: 0,
             correctFeedback: "Perfect! 'Would you mind telling me which train leaves next?' uses the correct structure. 'Which' asks for a specific choice among options.",
             correctFeedbackRu: "Отлично! 'Would you mind telling me which train leaves next?' использует правильную структуру. 'Which' спрашивает о конкретном выборе среди вариантов.",
-            incorrectFeedback: "Think about efficiency! Since 'train' appears right after in 'leaves next,' we only need 'which' to introduce the indirect question. It's more concise and natural to say 'which train leaves' than to repeat 'train' unnecessarily.",
-            incorrectFeedbackRu: "Подумайте об эффективности! Поскольку 'train' появляется сразу после в 'leaves next,' нам нужно только 'which' для введения косвенного вопроса. Более краткое и естественное говорить 'which train leaves', чем ненужно повторять 'train'."
+            incorrectFeedback: "Remember that in indirect questions, we keep the normal word order. Since 'train' follows the blank, we just need 'which' to ask about a specific option.",
+            incorrectFeedbackRu: "Помните, что в косвенных вопросах сохраняется прямой порядок слов. Так как слово 'train' стоит сразу после пропуска, нам нужно только 'which', чтобы спросить о конкретном варианте."
         },
         {
             question: "Select the most appropriate polite question:",
@@ -180,7 +180,7 @@ window.grammarExercises['questions']['polite-indirect-questions-page1'] = {
 /* ============================================
 Page 2: Polite indirect questions - Advanced forms and professional contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-page2'] = {
+window.grammarExercises['reported']['polite-indirect-questions-page2'] = {
     title: "Polite indirect questions - Professional contexts",
     multipleChoice: [
         {
@@ -349,7 +349,7 @@ window.grammarExercises['questions']['polite-indirect-questions-page2'] = {
 /* ============================================
 Page 3: Polite indirect questions - Complex situations and sensitive topics
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-page3'] = {
+window.grammarExercises['reported']['polite-indirect-questions-page3'] = {
     title: "Polite indirect questions - Complex situations",
     multipleChoice: [
         {
@@ -518,7 +518,7 @@ window.grammarExercises['questions']['polite-indirect-questions-page3'] = {
 /* ============================================
 Page 4: Polite indirect questions - Academic and research contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-page4'] = {
+window.grammarExercises['reported']['polite-indirect-questions-page4'] = {
     title: "Polite indirect questions - Academic contexts",
     multipleChoice: [
         {
@@ -540,13 +540,18 @@ window.grammarExercises['questions']['polite-indirect-questions-page4'] = {
         {
             question: "Complete the scholarly inquiry:",
             questionRu: "Дополните научный запрос:",
-            sentence: "Would it be possible to ascertain ____ data collection period spanned for this longitudinal study?",
-            correctAnswer: "how long the",
-            options: ["how long the", "how long did the", "what period the", "which time the"],
+            sentence: "Would it be possible to ascertain ___ data collection period spanned for this longitudinal study?",
+            options: [
+                "how long the",
+                "how long did the",
+                "what period the",
+                "which time the"
+            ],
+            correctAnswer: 0,
             correctFeedback: "Excellent! 'How long the' is correct for asking about duration in formal academic contexts while maintaining proper indirect question structure.",
             correctFeedbackRu: "Отлично! 'How long the' правильно для вопросов о продолжительности в формальных академических контекстах, сохраняя правильную структуру косвенного вопроса.",
-            incorrectFeedback: "Outstanding scholarly vocabulary! 'Ascertain' shows real academic sophistication. Remember that indirect questions use statement word order: 'how long the data collection period spanned'.",
-            incorrectFeedbackRu: "Выдающаяся научная лексика! 'Ascertain' показывает настоящую академическую изощренность. Помните, что косвенные вопросы используют порядок слов утверждения: 'how long the data collection period spanned'."
+            incorrectFeedback: "Remember that indirect questions use statement word order. We say 'how long the data collection period spanned' without adding 'did'.",
+            incorrectFeedbackRu: "Помните, что косвенные вопросы используют порядок слов утверждения. Мы говорим 'how long the data collection period spanned' без использования вспомогательного глагола 'did'."
         },
         {
             question: "Complete the research-focused question:",
@@ -597,15 +602,15 @@ window.grammarExercises['questions']['polite-indirect-questions-page4'] = {
             incorrectFeedbackRu: "Выдающееся теоретическое понимание! Ваш интерес к теоретическим рамкам показывает изощренное академическое мышление. Поддерживайте научный стиль косвенного вопроса: 'which theoretical framework underpins' течет естественно в академическом дискурсе."
         },
         {
-            question: "Complete the peer review inquiry:",
-            questionRu: "Дополните запрос экспертной оценки:",
-            sentence: "Would you mind clarifying ____ peer review process was conducted for this publication?",
-            correctAnswer: "how the",
-            options: ["how the", "how was the", "in what manner the", "the way the"],
-            correctFeedback: "Excellent! 'How the' is correct for asking about academic publishing processes while maintaining scholarly formality.",
-            correctFeedbackRu: "Отлично! 'How the' правильно для вопросов о процессах академической публикации, сохраняя научную формальность.",
-            incorrectFeedback: "Excellent awareness of academic publishing! We use 'how the peer review process was conducted' to ask about publication standards.",
-            incorrectFeedbackRu: "Отличное понимание академической публикации! Мы используем 'how the peer review process was conducted' для вопросов о стандартах публикации."
+            question: "Select the most appropriate scholarly phrasing:",
+            questionRu: "Выберите наиболее подходящую научную формулировку:",
+            sentence: "Would you mind clarifying ____ funding sources supported this longitudinal study?",
+            options: ["which", "how the", "what kind of", "that"],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Would you mind clarifying which funding sources supported this longitudinal study?' is correct. 'Which' asks about a specific selection from a defined group of possible funding bodies, and the indirect question keeps normal word order: 'which funding sources supported'.",
+            correctFeedbackRu: "Отлично! 'Would you mind clarifying which funding sources supported this longitudinal study?' правильно. 'Which' используется для выбора из определённой группы, и косвенный вопрос сохраняет прямой порядок слов: 'which funding sources supported'.",
+            incorrectFeedback: "Remember that 'which' is used when asking about a specific selection from a known group of options. In indirect questions, we keep normal word order — no inversion after the introductory phrase. Would you mind clarifying which funding sources supported this longitudinal study?",
+            incorrectFeedbackRu: "Помните, что 'which' используется при выборе из известной группы вариантов. В косвенных вопросах сохраняется прямой порядок слов — без инверсии после вводной фразы. Would you mind clarifying which funding sources supported this longitudinal study?"
         },
         {
             question: "Select the most scholarly approach to discussing limitations:",
@@ -677,24 +682,19 @@ window.grammarExercises['questions']['polite-indirect-questions-page4'] = {
 /* ============================================
 Page 5: Polite indirect questions - International and cultural contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-page5'] = {
+window.grammarExercises['reported']['polite-indirect-questions-page5'] = {
     title: "Polite indirect questions - International contexts",
     multipleChoice: [
         {
-            question: "Choose the most culturally sensitive approach:",
-            questionRu: "Выберите самый культурно чувствительный подход:",
-            sentence: "I hope I'm not overstepping cultural boundaries by asking ___ traditional ceremonies are typically conducted in your community.",
-            options: [
-                "how",
-                "how are",
-                "are how",
-                "the manner in which"
-            ],
+            question: "Choose the correct question word or phrase:",
+            questionRu: "Выберите правильное вопросительное слово или фразу:",
+            sentence: "I hope I'm not overstepping cultural boundaries by asking ____ traditional festivals your community celebrates throughout the year.",
+            options: ["how many", "how much", "what number of does", "how many are"],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'I hope I'm not overstepping cultural boundaries by asking how traditional ceremonies are typically conducted in your community' shows remarkable cultural sensitivity and genuine respect for traditions.",
-            correctFeedbackRu: "Отлично! 'I hope I'm not overstepping cultural boundaries by asking how traditional ceremonies are typically conducted in your community' показывает замечательную культурную чувствительность и искреннее уважение к традициям.",
-            incorrectFeedback: "Outstanding cultural awareness! Your concern about overstepping boundaries shows real respect for cultural differences. Maintain that sensitive indirect question flow: 'how traditional ceremonies are conducted' preserves the respectful tone you've established.",
-            incorrectFeedbackRu: "Выдающееся культурное понимание! Ваша забота о переходе границ показывает настоящее уважение к культурным различиям. Поддерживайте деликатный поток косвенного вопроса: 'how traditional ceremonies are conducted' сохраняет уважительный тон, который вы установили."
+            correctFeedback: "Perfect! 'I hope I'm not overstepping cultural boundaries by asking how many traditional festivals your community celebrates throughout the year' is correct. 'How many' is used with countable nouns, and the indirect question keeps normal statement word order — no inversion, no auxiliary verb after the question word.",
+            correctFeedbackRu: "Отлично! 'I hope I'm not overstepping cultural boundaries by asking how many traditional festivals your community celebrates throughout the year' правильно. 'How many' используется с исчисляемыми существительными, и косвенный вопрос сохраняет прямой порядок слов — без инверсии и без вспомогательного глагола после вопросительного слова.",
+            incorrectFeedback: "Remember that 'how many' is used with countable nouns to ask about quantity. In indirect questions, we don't use question word order — there's no inversion and no auxiliary 'does' or 'do' after 'how many'. I hope I'm not overstepping by asking how many traditional festivals your community celebrates.",
+            incorrectFeedbackRu: "Помните, 'how many' используется с исчисляемыми существительными для вопросов о количестве. В косвенных вопросах нет вопросительного порядка слов — нет инверсии и вспомогательного 'does' или 'do' после 'how many'."
         },
         {
             question: "Select the most appropriate diplomatic inquiry:",
@@ -846,7 +846,7 @@ window.grammarExercises['questions']['polite-indirect-questions-page5'] = {
 /* ============================================
 Page 7: Polite indirect questions - Legal and financial advisory contexts (Complete)
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-page7'] = {
+window.grammarExercises['reported']['polite-indirect-questions-page7'] = {
     title: "Polite indirect questions - Legal and financial contexts",
     multipleChoice: [
         {
@@ -1015,7 +1015,7 @@ window.grammarExercises['questions']['polite-indirect-questions-page7'] = {
 /* ============================================
 Page 8: Polite indirect questions - Technology and innovation contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-page8'] = {
+window.grammarExercises['reported']['polite-indirect-questions-page8'] = {
     title: "Polite indirect questions - Technology and innovation contexts",
     multipleChoice: [
         {
@@ -1184,7 +1184,7 @@ window.grammarExercises['questions']['polite-indirect-questions-page8'] = {
 /* ============================================
 Page 9: Polite indirect questions - Environmental and sustainability contexts (Complete)
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-page9'] = {
+window.grammarExercises['reported']['polite-indirect-questions-page9'] = {
     title: "Polite indirect questions - Environmental and sustainability contexts",
     multipleChoice: [
         {
@@ -1337,7 +1337,7 @@ window.grammarExercises['questions']['polite-indirect-questions-page9'] = {
 /* ============================================
 Page 10: Polite indirect questions - Advanced diplomatic and crisis management contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-page10'] = {
+window.grammarExercises['reported']['polite-indirect-questions-page10'] = {
     title: "Polite indirect questions - Advanced diplomatic and crisis management contexts",
     multipleChoice: [
         {
@@ -1509,7 +1509,7 @@ window.grammarExercises['questions']['polite-indirect-questions-page10'] = {
 /* ============================================
 Page 1: Polite indirect questions - Basic forms 
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page1'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page1'] = {
     title: "Polite indirect questions - Basic forms",
     fillGaps: [
         {
@@ -1603,13 +1603,13 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page1'] = {
         {
             question: "Complete the polite indirect question:",
             questionRu: "Дополните вежливый косвенный вопрос:",
-            sentence: "Would it be possible to find out ____ the conference starts tomorrow?",
+            sentence: "Could you tell me ____ the conference starts?",
             correctAnswer: "when",
-            options: ["when", "when does", "what time does", "at what time"],
-            correctFeedback: "Excellent! 'When' is correct because we maintain normal word order in indirect questions.",
+            options: ["when", "when does", "what time does", "the time"],
+            correctFeedback: "Perfect! 'When' is correct because we maintain normal word order in indirect questions.",
             correctFeedbackRu: "Отлично! 'When' правильно, потому что мы сохраняем обычный порядок слов в косвенных вопросах.",
-            incorrectFeedback: "Remember: indirect questions follow statement structure. After 'find out,' we use 'when the conference starts' without question inversion.",
-            incorrectFeedbackRu: "Помните: косвенные вопросы следуют структуре утверждения. После 'find out' мы используем 'when the conference starts' без вопросительной инверсии."
+            incorrectFeedback: "Think about the timing! We need a question word like 'when' followed by the subject 'the conference' and the verb 'starts' to keep the indirect structure correct.",
+            incorrectFeedbackRu: "Подумайте о времени! Нам нужно вопросительное слово 'when', за которым следует подлежащее 'the conference' и глагол 'starts', чтобы сохранить правильную структуру косвенного вопроса."
         },
         {
             question: "Complete the polite indirect question:",
@@ -1628,7 +1628,7 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page1'] = {
 /* ============================================
 Page 2: Polite indirect questions - Professional contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page2'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page2'] = {
     title: "Polite indirect questions - Professional contexts",
     fillGaps: [
         {
@@ -1747,7 +1747,7 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page2'] = {
 /* ============================================
 Page 3: Polite indirect questions - Academic and complex situations
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page3'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page3'] = {
     title: "Polite indirect questions - Academic and complex situations",
     fillGaps: [
         {
@@ -1866,7 +1866,7 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page3'] = {
 /* ============================================
 Page 4: Polite indirect questions - Healthcare and technical contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page4'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page4'] = {
     title: "Polite indirect questions - Healthcare and technical contexts",
     fillGaps: [
         {
@@ -1985,7 +1985,7 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page4'] = {
 /* ============================================
 Page 5: Polite indirect questions - Environmental and legal contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page5'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page5'] = {
     title: "Polite indirect questions - Environmental and legal contexts",
     fillGaps: [
         {
@@ -2102,21 +2102,21 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page5'] = {
 };
 
 /* ============================================
-Page 6: Polite indirect questions - International and diplomatic contexts (Fill in the Gaps)
+Page 6: Polite indirect questions - International and diplomatic contexts 
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page6'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page6'] = {
     title: "Polite indirect questions - International and diplomatic contexts",
     fillGaps: [
         {
-            question: "Complete the diplomatic inquiry:",
-            questionRu: "Дополните дипломатический запрос:",
-            sentence: "I hope I'm not overstepping cultural boundaries by asking ____ traditional ceremonies are typically conducted in your community.",
+            question: "Complete the international cultural inquiry:",
+            questionRu: "Дополните международный культурный запрос:",
+            sentence: "I hope I'm not overstepping, but I was genuinely curious about ____ local customs around hospitality vary between urban and rural communities in your country.",
             correctAnswer: "how",
-            options: ["how", "how are", "the manner in which", "in what way"],
-            correctFeedback: "Excellent! 'How' is correct for asking about cultural processes while showing exceptional sensitivity to cultural boundaries.",
-            correctFeedbackRu: "Отлично! 'How' правильно для вопросов о культурных процессах, проявляя исключительную чувствительность к культурным границам.",
-            incorrectFeedback: "Outstanding cultural awareness! Your concern about boundaries shows real respect. We use 'how traditional ceremonies are conducted' in cultural inquiries.",
-            incorrectFeedbackRu: "Выдающееся культурное понимание! Ваша забота о границах показывает настоящее уважение. Мы используем 'how traditional ceremonies are conducted' в культурных запросах."
+            options: ["how", "how do", "in what way do", "that"],
+            correctFeedback: "Perfect! 'How' is correct here. It introduces the indirect question about manner and degree of variation — 'how local customs around hospitality vary'. In indirect questions, 'how' is followed by normal statement word order, so we say 'how customs vary', not 'how do customs vary'.",
+            correctFeedbackRu: "Отлично! 'How' правильно. Оно вводит косвенный вопрос о способе и степени различия — 'how local customs around hospitality vary'. В косвенных вопросах после 'how' сохраняется прямой порядок слов: 'how customs vary', а не 'how do customs vary'.",
+            incorrectFeedback: "Remember that 'how' introduces indirect questions about manner and process. After 'how' in an indirect question, we always use normal word order — no auxiliary 'do' or 'does', no inversion. The correct form is 'how local customs around hospitality vary', not 'how do local customs vary'.",
+            incorrectFeedbackRu: "Помните, 'how' вводит косвенные вопросы о способе и процессе. После 'how' в косвенном вопросе всегда используется прямой порядок слов — без вспомогательного 'do' или 'does', без инверсии. Правильная форма: 'how local customs vary', а не 'how do local customs vary'."
         },
         {
             question: "Complete the international business inquiry:",
@@ -2221,9 +2221,9 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page6'] = {
 };
 
 /* ============================================
-Page 7: Polite indirect questions - Crisis management and advanced professional contexts (Fill in the Gaps)
+Page 7: Polite indirect questions - Crisis management and advanced professional contexts 
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page7'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page7'] = {
     title: "Polite indirect questions - Crisis management and advanced professional contexts",
     fillGaps: [
         {
@@ -2340,9 +2340,9 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page7'] = {
 };
 
 /* ============================================
-Page 8: Polite indirect questions - Research and academic excellence contexts (Fill in the Gaps)
+Page 8: Polite indirect questions - Research and academic excellence contexts 
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page8'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page8'] = {
     title: "Polite indirect questions - Research and academic excellence contexts",
     fillGaps: [
         {
@@ -2368,15 +2368,15 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page8'] = {
             incorrectFeedbackRu: "Выдающееся методологическое понимание! 'What' работает лучше всего, потому что мы спрашиваем об ограничениях в общем, а не о конкретных предопределенных типах."
         },
         {
-            question: "Complete the peer review inquiry:",
-            questionRu: "Дополните запрос экспертной оценки:",
-            sentence: "Would you mind clarifying ____ peer review process was conducted for this publication?",
-            correctAnswer: "how the",
-            options: ["how the", "how was the", "in what manner the", "which way the"],
-            correctFeedback: "Excellent! 'How the' is correct for asking about academic publishing processes while maintaining scholarly formality.",
-            correctFeedbackRu: "Отлично! 'How the' правильно для вопросов о процессах академической публикации, сохраняя научную формальность.",
-            incorrectFeedback: "Excellent awareness of academic publishing! We use 'how the peer review process was conducted' to ask about publication standards.",
-            incorrectFeedbackRu: "Отличное понимание академической публикации! Мы используем 'how the peer review process was conducted' для вопросов о стандартах публикации."
+            question: "Select the most appropriate tech inquiry phrasing:",
+            questionRu: "Выберите наиболее подходящую формулировку технического запроса:",
+            sentence: "Could you help me understand ____ open-source licensing model your development team has adopted for this platform?",
+            correctAnswer: "which",
+            options: ["which", "how the", "what kind of does", "that"],
+            correctFeedback: "Perfect! 'Could you help me understand which open-source licensing model your development team has adopted for this platform?' is correct. 'Which' asks about a specific selection from a defined set of licensing options, and the indirect question maintains normal word order: 'which open-source licensing model your team has adopted' — no inversion after 'which'.",
+            correctFeedbackRu: "Отлично! 'Could you help me understand which open-source licensing model your development team has adopted for this platform?' правильно. 'Which' спрашивает о конкретном выборе из определённого набора лицензий, и косвенный вопрос сохраняет прямой порядок слов: 'which open-source licensing model your team has adopted' — без инверсии после 'which'.",
+            incorrectFeedback: "Remember that 'which' is used when selecting from a known, defined group of options — here, specific licensing models. In indirect questions after 'which', we keep normal statement word order with no auxiliary verb and no inversion. Could you help me understand which open-source licensing model your team has adopted?",
+            incorrectFeedbackRu: "Помните, 'which' используется при выборе из известной, определённой группы вариантов — здесь конкретных лицензионных моделей. В косвенных вопросах после 'which' сохраняется прямой порядок слов без вспомогательного глагола и без инверсии."
         },
         {
             question: "Complete the conference presentation inquiry:",
@@ -2459,9 +2459,9 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page8'] = {
 };
 
 /* ============================================
-Page 9: Polite indirect questions - Innovation and future-oriented contexts (Fill in the Gaps)
+Page 9: Polite indirect questions - Innovation and future-oriented contexts 
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page9'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page9'] = {
     title: "Polite indirect questions - Innovation and future-oriented contexts",
     fillGaps: [
         {
@@ -2578,9 +2578,9 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page9'] = {
 };
 
 /* ============================================
-Page 10: Polite indirect questions - Advanced ethical and philosophical contexts (Fill in the Gaps)
+Page 10: Polite indirect questions - Advanced ethical and philosophical contexts 
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-gap-page10'] = {
+window.grammarExercises['reported']['polite-indirect-questions-gap-page10'] = {
     title: "Polite indirect questions - Advanced ethical and philosophical contexts",
     fillGaps: [
         {
@@ -2703,7 +2703,7 @@ window.grammarExercises['questions']['polite-indirect-questions-gap-page10'] = {
 /* ============================================
 Page 1: Polite indirect questions - Basic forms
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page1'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page1'] = {
     title: "Polite indirect questions - Basic forms",
     sentenceBuilding: [
         {
@@ -2761,10 +2761,10 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page1']
             questionRu: "Составьте правильное предложение, используя эти слова:",
             words: ["Could", "you", "possibly", "explain", "why", "this", "happened?"],
             correctAnswer: "Could you possibly explain why this happened?",
-            correctFeedback: "Excellent! 'Could you possibly explain why this happened?' is correct. Very polite and formal request!",
-            correctFeedbackRu: "Отлично! 'Could you possibly explain why this happened?' верно. Очень вежливая и формальная просьба!",
-            incorrectFeedback: "Try again. Remember: Could + you + possibly + explain + why + this + happened + ?",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + you + possibly + explain + why + this + happened + ?"
+            correctFeedback: "Excellent! 'Could you possibly explain why this happened?' is correct. You've successfully used 'possibly' to soften the request.",
+            correctFeedbackRu: "Отлично! 'Could you possibly explain why this happened?' верно. Вы успешно использовали 'possibly', чтобы смягчить просьбу.",
+            incorrectFeedback: "Try again. Remember: Could + you + possibly + explain + why + subject + verb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Could + you + possibly + explain + why + подлежащее + глагол + ?"
         },
         {
             question: "Form a correct sentence using these words:",
@@ -2812,7 +2812,7 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page1']
 /* ============================================
 Page 2: Polite indirect questions - Professional contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page2'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page2'] = {
     title: "Polite indirect questions - Professional contexts",
     sentenceBuilding: [
         {
@@ -2921,7 +2921,7 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page2']
 /* ============================================
 Page 3: Polite indirect questions - Academic and complex contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page3'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page3'] = {
     title: "Polite indirect questions - Academic and complex contexts",
     sentenceBuilding: [
         {
@@ -3030,7 +3030,7 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page3']
 /* ============================================
 Page 4: Polite indirect questions - Healthcare and technical contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page4'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page4'] = {
     title: "Polite indirect questions - Healthcare and technical contexts",
     sentenceBuilding: [
         {
@@ -3139,7 +3139,7 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page4']
 /* ============================================
 Page 5: Polite indirect questions - Environmental and legal expertise contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page5'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page5'] = {
     title: "Polite indirect questions - Environmental and legal expertise contexts",
     sentenceBuilding: [
         {
@@ -3248,7 +3248,7 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page5']
 /* ============================================
 Page 6: Polite indirect questions - International and diplomatic contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page6'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page6'] = {
     title: "Polite indirect questions - International and diplomatic contexts",
     sentenceBuilding: [
         {
@@ -3357,7 +3357,7 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page6']
 /* ============================================
 Page 7: Polite indirect questions - Crisis management and advanced professional contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page7'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page7'] = {
     title: "Polite indirect questions - Crisis management and advanced professional contexts",
     sentenceBuilding: [
         {
@@ -3464,9 +3464,9 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page7']
 };
 
 /* ============================================
-Page 8: Polite indirect questions - Research and academic excellence contexts (Sentence Building)
+Page 8: Polite indirect questions - Research and academic excellence contexts
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page8'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page8'] = {
     title: "Polite indirect questions - Research and academic excellence contexts",
     sentenceBuilding: [
         {
@@ -3573,9 +3573,9 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page8']
 };
 
 /* ============================================
-Page 9: Polite indirect questions - Innovation and future-oriented contexts (Sentence Building)
+Page 9: Polite indirect questions - Innovation and future-oriented contexts 
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page9'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page9'] = {
     title: "Polite indirect questions - Innovation and future-oriented contexts",
     sentenceBuilding: [
         {
@@ -3682,9 +3682,9 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page9']
 };
 
 /* ============================================
-Page 10: Polite indirect questions - Advanced ethical and philosophical contexts (Sentence Building)
+Page 10: Polite indirect questions - Advanced ethical and philosophical contexts 
 ============================================ */
-window.grammarExercises['questions']['polite-indirect-questions-sentence-page10'] = {
+window.grammarExercises['reported']['polite-indirect-questions-sentence-page10'] = {
     title: "Polite indirect questions - Advanced ethical and philosophical contexts",
     sentenceBuilding: [
         {
@@ -3770,12 +3770,12 @@ window.grammarExercises['questions']['polite-indirect-questions-sentence-page10'
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["I", "realize", "this", "raises", "fundamental", "questions", "about", "human", "dignity,", "but", "could", "you", "share", "your", "perspective", "on", "whether", "artificial", "consciousness", "should", "be", "granted", "legal", "personhood", "status?"],
-            correctAnswer: "I realize this raises fundamental questions about human dignity, but could you share your perspective on whether artificial consciousness should be granted legal personhood status?",
-            correctFeedback: "Perfect! 'I realize this raises fundamental questions about human dignity, but could you share your perspective on whether artificial consciousness should be granted legal personhood status?' is correct. Outstanding philosophical depth!",
-            correctFeedbackRu: "Отлично! 'I realize this raises fundamental questions about human dignity, but could you share your perspective on whether artificial consciousness should be granted legal personhood status?' верно. Выдающаяся философская глубина!",
-            incorrectFeedback: "Try again. Remember: I + realize + this + raises + fundamental + questions + about + human + dignity, + but + could + you + share + your + perspective + on + whether + artificial + consciousness + should + be + granted + legal + personhood + status + ?",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + realize + this + raises + fundamental + questions + about + human + dignity, + but + could + you + share + your + perspective + on + whether + artificial + consciousness + should + be + granted + legal + personhood + status + ?"
+            words: ["Given", "the", "sensitivity", "of", "this", "matter,", "could", "you", "clarify", "which", "whistleblower", "protection", "mechanisms", "are", "currently", "in", "place?"],
+            correctAnswer: "Given the sensitivity of this matter, could you clarify which whistleblower protection mechanisms are currently in place?",
+            correctFeedback: "Excellent! 'Given the sensitivity of this matter, could you clarify which whistleblower protection mechanisms are currently in place?' is correct. 'Which' selects from a defined group of mechanisms, and the indirect question maintains normal word order — 'which whistleblower protection mechanisms are currently in place' with no inversion after 'which'.",
+            correctFeedbackRu: "Отлично! 'Given the sensitivity of this matter, could you clarify which whistleblower protection mechanisms are currently in place?' правильно. 'Which' выбирает из определённой группы механизмов, и косвенный вопрос сохраняет прямой порядок слов — 'which whistleblower protection mechanisms are currently in place' без инверсии после 'which'.",
+            incorrectFeedback: "Try again. Remember: the sentence starts with 'Given the sensitivity of this matter,' followed by the polite indirect question 'could you clarify which whistleblower protection mechanisms are currently in place?' — 'which' is followed by normal statement word order, no inversion.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: предложение начинается с 'Given the sensitivity of this matter,' затем следует вежливый косвенный вопрос 'could you clarify which whistleblower protection mechanisms are currently in place?' — после 'which' прямой порядок слов, без инверсии."
         },
         {
             question: "Form a correct sentence using these words:",

@@ -23,9 +23,9 @@ window.grammarExercises['adjectives']['participle-adjectives-page1'] = {
             ],
             correctAnswer: 0,
             correctFeedback: "Correct! We use 'compelling' (-ing form) because the data does something to people - it compels them. **Rule: -ing participles describe what something does.**",
-            correctFeedbackRu: "Правильно! Мы используем 'compelling' (форма -ing), потому что данные что-то делают с людьми - принуждают их. **Правило: причастия -ing описывают, что что-то делает.**",
+            correctFeedbackRu: "Правильно! Мы используем 'compelling' (форма -ing), потому что данные производят эффект — они убеждают. **Правило: причастия -ing описывают, что что-то делает.**",
             incorrectFeedback: "Incorrect. **Rule: Use -ing when something DOES an action to others.** Data compels people (data is compelling), not data is compelled by something else.",
-            incorrectFeedbackRu: "Неправильно. **Правило: используйте -ing, когда что-то ДЕЛАЕТ действие с другими.** Данные принуждают людей (data is compelling), а не данные принуждаются чем-то еще."
+            incorrectFeedbackRu: "Неправильно. **Правило: используйте -ing, когда что-то ДЕЛАЕТ действие с другими.** Данные убеждают людей (data is compelling), а не данные принуждаются чем-то еще."
         },
         {
             question: "Choose the correct participle adjective:",
@@ -288,9 +288,9 @@ window.grammarExercises['adjectives']['participle-adjectives-page2'] = {
             ],
             correctAnswer: 2,
             correctFeedback: "Correct! We use 'successful' (regular adjective) to describe achievement or effectiveness. **Rule: Some words are regular adjectives, not participles.**",
-            correctFeedbackRu: "Правильно! Мы используем 'successful' (обычное прилагательное) для описания достижения или эффективности. **Правило: некоторые слова - обычные прилагательные, а не причастия.**",
-            incorrectFeedback: "Incorrect. **Rule: 'Successful' is a regular adjective showing achieved results.** Not all -ed words are participles - 'successful' is just a descriptive adjective.",
-            incorrectFeedbackRu: "Неправильно. **Правило: 'Successful' - это обычное прилагательное, показывающее достигнутые результаты.** Не все слова с -ed являются причастиями - 'successful' просто описательное прилагательное."
+            correctFeedbackRu: "Правильно! Мы используем 'successful' (обычное прилагательное) для описания эффективности. **Правило: некоторые слова — обычные прилагательные, а не причастия.**",
+            incorrectFeedback: "Incorrect. **Rule: 'Successful' is a regular adjective showing achieved results.** Not all adjectives are participles.",
+            incorrectFeedbackRu: "Неправильно. **Правило: 'Successful' — это обычное прилагательное, показывающее достигнутые результаты. Не все прилагательные являются причастиями.**"
         },
         {
             question: "Choose the correct participle adjective:",
@@ -441,9 +441,9 @@ window.grammarExercises['adjectives']['participle-adjectives-page3'] = {
             ],
             correctAnswer: 1,
             correctFeedback: "Correct! We use 'astonishing' (-ing form) because the findings do something to people - they astonish them. **Rule: -ing participles describe what something does.**",
-            correctFeedbackRu: "Правильно! Мы используем 'astonishing' (форма -ing), потому что находки что-то делают с людьми - поражают их. **Правило: причастия -ing описывают, что что-то делает.**",
+            correctFeedbackRu: "Правильно! Мы используем 'astonishing' (форма -ing), потому что находки поражают людей. **Правило: причастия -ing описывают свойство предмета.**",
             incorrectFeedback: "Incorrect. **Rule: Use -ing when something DOES an action to others.** Findings astonish people (findings are astonishing), not findings feel astonished.",
-            incorrectFeedbackRu: "Неправильно. **Правило: используйте -ing, когда что-то ДЕЛАЕТ действие с другими.** Находки поражают людей (findings are astonishing), а не находки чувствуют поражение."
+            incorrectFeedbackRu: "Неправильно. **Правило: используйте -ing, когда предмет вызывает эмоцию. Находки поразительны (astonishing), а не сами чувствуют удивление (astonished).**"
         },
         {
             question: "Choose the correct participle adjective:",
@@ -594,9 +594,9 @@ window.grammarExercises['adjectives']['participle-adjectives-page4'] = {
             ],
             correctAnswer: 0,
             correctFeedback: "Correct! We use 'advanced' (-ed form) to describe a completed state or high level of development. **Rule: Past participles show completed states or conditions.**",
-            correctFeedbackRu: "Правильно! Мы используем 'advanced' (форма -ed) для описания завершенного состояния или высокого уровня развития. **Правило: причастия прошедшего времени показывают завершенные состояния или условия.**",
+            correctFeedbackRu: "Правильно! Мы используем 'advanced' (форма -ed) для описания высокого уровня развития. **Правило: причастия прошедшего времени могут выражать качество как результат процесса.**",
             incorrectFeedback: "Incorrect. **Rule: Use past participle (-ed) to show completed development.** The system IS advanced (highly developed state), not advancing (ongoing process).",
-            incorrectFeedbackRu: "Неправильно. **Правило: используйте причастие прошедшего времени (-ed) для показа завершенного развития.** Система IS advanced (высокоразвитое состояние), не advancing (продолжающийся процесс)."
+            incorrectFeedbackRu: "Неправильно. **Правило: используйте причастие прошедшего времени (-ed) для описания завершенного развития. Система 'advanced' (продвинутая), а не 'advancing' (в процессе продвижения).**"
         },
         {
             question: "Choose the correct participle adjective:",
@@ -611,8 +611,8 @@ window.grammarExercises['adjectives']['participle-adjectives-page4'] = {
             correctAnswer: 2,
             correctFeedback: "Correct! We use 'impressive' (regular adjective) to describe a quality or characteristic. **Rule: Some words are regular adjectives, not participles.**",
             correctFeedbackRu: "Правильно! Мы используем 'impressive' (обычное прилагательное) для описания качества или характеристики. **Правило: некоторые слова - обычные прилагательные, а не причастия.**",
-            incorrectFeedback: "Incorrect. **Rule: 'Impressive' is a regular adjective showing remarkable quality.** Not all adjectives are participles - some are just regular descriptive words.",
-            incorrectFeedbackRu: "Неправильно. **Правило: 'Impressive' - это обычное прилагательное, показывающее замечательное качество.** Не все прилагательные являются причастиями - некоторые просто обычные описательные слова."
+            incorrectFeedback: "Incorrect. **Rule: 'Impressive' is a regular adjective describing a remarkable quality.** Not all adjectives are participles.",
+            incorrectFeedbackRu: "Неправильно. **Правило: 'Impressive' — это обычное прилагательное, описывающее выдающееся качество.** Не все прилагательные являются причастиями."
         },
         {
             question: "Choose the correct participle adjective:",
@@ -2402,12 +2402,12 @@ window.grammarExercises['adjectives']['participle-adjectives-gap-page6'] = {
             question: "Complete the sentence with the correct participle adjective:",
             questionRu: "Заполните предложение правильным причастным прилагательным:",
             sentence: "The global warming documentary was profoundly ____ and changed many viewers' perspectives on environmental responsibility.",
-            correctAnswer: "impacting",
-            options: ["impacted", "impacting", "impact", "impacts"],
-            correctFeedback: "Perfect! 'Impacting' is correct because the documentary does something to viewers - it impacts them. **Rule: -ing participles describe what something does.**",
-            correctFeedbackRu: "Идеально! 'Impacting' правильно, потому что документальный фильм что-то делает со зрителями - воздействует на них. **Правило: причастия -ing описывают, что что-то делает.**",
-            incorrectFeedback: "Try again. Use 'impacting' because the documentary affects viewers' thinking. **Rule: -ing describes what something does to others.**",
-            incorrectFeedbackRu: "Попробуйте снова. Используйте 'impacting', потому что документальный фильм влияет на мышление зрителей. **Правило: -ing описывает, что что-то делает с другими.**"
+            correctAnswer: "impactful",
+            options: ["impacted", "impacting", "impactful", "impacts"],
+            correctFeedback: "Perfect! 'Impactful' is correct because it's a regular adjective describing something that has a major effect. **Rule: Some words are regular adjectives, not participles.**",
+            correctFeedbackRu: "Идеально! 'Impactful' правильно, потому что это обычное прилагательное, описывающее что-то, имеющее сильное влияние. **Правило: некоторые слова — обычные прилагательные, а не причастия.**",
+            incorrectFeedback: "Try again. Use 'impactful' because it describes the quality of the documentary. **Rule: Not all adjectives are participles.**",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'impactful', так как это описывает качество документального фильма. **Правило: не все прилагательные являются причастиями.**"
         }
     ]
 };
@@ -3806,8 +3806,8 @@ window.grammarExercises['adjectives']['participle-adjectives-sentence-page9'] = 
             correctAnswer: "The symphony orchestra performance was spellbinding and received thunderous applause.",
             correctFeedback: "Perfect! 'The symphony orchestra performance was spellbinding and received thunderous applause.' is correct. **Grammar: Present participle 'spellbinding' describes the performance's captivating effect on the audience.**",
             correctFeedbackRu: "Идеально! 'The symphony orchestra performance was spellbinding and received thunderous applause.' верно. **Грамматика: причастие настоящего времени 'spellbinding' описывает захватывающий эффект выступления на аудиторию.**",
-            incorrectFeedback: "Try again. **Grammar rule: Present participle 'spellbinding' shows what the performance does - it binds people under its spell.**",
-            incorrectFeedbackRu: "Попробуйте снова. **Правило грамматики: причастие настоящего времени 'spellbinding' показывает, что делает выступление - очаровывает людей.**"
+            incorrectFeedback: "Try again. **Grammar rule: Present participle 'spellbinding' describes the fascinating quality of an experience.**",
+            incorrectFeedbackRu: "Попробуйте снова. **Правило грамматики: причастие настоящего времени 'spellbinding' описывает завораживающее качество события.**"
         },
         {
             question: "Form a correct sentence using these words:",

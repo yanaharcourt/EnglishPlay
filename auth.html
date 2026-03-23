@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,17 @@
     <link rel="icon" type="image/png" sizes="512x512" href="./favicon-512.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/theme-switcher.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         :root {
             --bg-color: #1e1e2e;
@@ -32,17 +40,20 @@
             --btn-text: #f8fafc;
             --card-bg: #292a3e;
             --card-stroke: #353748;
-            --card-shadow: rgba(0,0,0,0.3);
+            --card-shadow: rgba(80, 80, 120, 0.1);
             --danger: #f87171;
-            --danger-bg: rgba(244,67,54,0.15);
-            --correct-bg: rgba(56,189,142,0.15);
+            --danger-bg: rgba(244, 67, 54, 0.15);
+            --correct-bg: rgba(56, 189, 142, 0.15);
             --correct-border: #34d399;
             --nav-height: 4.5rem;
             --container-max: 75rem;
             --container-pad: 1.5rem;
         }
 
-        html { font-size: 16px; scroll-behavior: smooth; }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
 
         body {
             font-family: 'Poppins', sans-serif;
@@ -53,83 +64,262 @@
             padding-top: var(--nav-height);
         }
 
-        * { cursor: none !important; }
+        * {
+            cursor: none !important;
+        }
 
         #ep-cursor {
-            position: fixed; width: 0.75rem; height: 0.75rem;
-            background: var(--accent-color); border-radius: 50%;
-            pointer-events: none; z-index: 99999; left: 0; top: 0;
+            position: fixed;
+            width: 0.75rem;
+            height: 0.75rem;
+            background: var(--accent-color);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 99999;
+            left: 0;
+            top: 0;
             transition: transform 0.15s ease;
         }
+
         #ep-cursor-trail {
-            position: fixed; width: 2.5rem; height: 2.5rem;
-            border: 2px solid rgba(99,102,241,0.6); border-radius: 50%;
-            pointer-events: none; z-index: 99998; left: 0; top: 0;
+            position: fixed;
+            width: 2.5rem;
+            height: 2.5rem;
+            border: 2px solid rgba(99, 102, 241, 0.6);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 99998;
+            left: 0;
+            top: 0;
         }
 
-        @media (max-width: 64rem), (hover: none) and (pointer: coarse) {
-            #ep-cursor, #ep-cursor-trail { display: none !important; }
-            * { cursor: auto !important; }
-            a, button, label, input[type="checkbox"] { cursor: pointer !important; }
-            input[type="text"], input[type="email"], input[type="password"] { cursor: text !important; }
+        @media (max-width: 64rem),
+        (hover: none) and (pointer: coarse) {
+
+            #ep-cursor,
+            #ep-cursor-trail {
+                display: none !important;
+            }
+
+            * {
+                cursor: auto !important;
+            }
+
+            a,
+            button,
+            label,
+            input[type="checkbox"] {
+                cursor: pointer !important;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="password"] {
+                cursor: text !important;
+            }
         }
 
         /* NAV */
         nav {
-            position: fixed; top: 0; left: 0; right: 0; z-index: 200;
-            background: var(--nav-bg); border-bottom: 1px solid var(--card-stroke);
-            display: flex; align-items: center; padding: 0 2.5rem;
-            height: var(--nav-height); gap: 2rem;
-            transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 200;
+            background: var(--nav-bg);
+            border-bottom: 1px solid var(--card-stroke);
+            display: flex;
+            align-items: center;
+            padding: 0 2.5rem;
+            height: var(--nav-height);
+            gap: 2rem;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
+
         nav.scrolled {
-            background: rgba(30,30,46,0.75);
+            background: rgba(30, 30, 46, 0.75);
             backdrop-filter: saturate(180%) blur(20px);
-            top: 0.625rem; left: 1rem; right: 1rem;
+            top: 0.625rem;
+            left: 1rem;
+            right: 1rem;
             border-radius: 1.25rem;
-            box-shadow: 0 2px 0.5rem rgba(0,0,0,0.12), 0 0.5rem 1.5rem rgba(0,0,0,0.18);
-            border: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 0 2px 0.5rem rgba(0, 0, 0, 0.12), 0 0.5rem 1.5rem rgba(0, 0, 0, 0.18);
+            border: 1px solid rgba(255, 255, 255, 0.08);
         }
-        .nav-logo { display: flex; align-items: center; text-decoration: none; margin-right: auto; }
-        .nav-links { display: flex; align-items: center; gap: 1.875rem; list-style: none; }
-        .nav-links a { font-size: 0.875rem; color: var(--body-2); text-decoration: none; font-weight: 400; transition: color 0.2s; }
-        .nav-links a:hover, .nav-links a.active { color: var(--accent-color); }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            margin-right: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.875rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 0.875rem;
+            color: var(--body-2);
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--accent-color);
+        }
 
         .burger {
-            display: none; flex-direction: column; justify-content: center; gap: 0.3125rem;
-            width: 2.5rem; height: 2.5rem; background: none; border: none;
-            padding: 0.375rem; border-radius: 0.625rem; flex-shrink: 0;
-            transition: background 0.2s; z-index: 9999;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.3125rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: none;
+            border: none;
+            padding: 0.375rem;
+            border-radius: 0.625rem;
+            flex-shrink: 0;
+            transition: background 0.2s;
+            z-index: 9999;
         }
-        .burger span { display: block; width: 100%; height: 1.5px; background: var(--body-1); border-radius: 2px; transition: transform 0.35s cubic-bezier(0.4,0,0.2,1), opacity 0.2s ease; transform-origin: center; }
-        .burger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
-        .burger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
-        .burger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
-        .burger:focus { outline: none; }
+
+        .burger span {
+            display: block;
+            width: 100%;
+            height: 1.5px;
+            background: var(--body-1);
+            border-radius: 2px;
+            transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+            transform-origin: center;
+        }
+
+        .burger.open span:nth-child(1) {
+            transform: translateY(6.5px) rotate(45deg);
+        }
+
+        .burger.open span:nth-child(2) {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+
+        .burger.open span:nth-child(3) {
+            transform: translateY(-6.5px) rotate(-45deg);
+        }
+
+        .burger:focus {
+            outline: none;
+        }
 
         .mobile-menu {
-            display: none; position: fixed; top: 0; right: 0; bottom: 0; width: 100%;
-            background: var(--nav-bg); z-index: 9998; flex-direction: column;
-            padding: 2rem 2rem 3rem; opacity: 0; transform: translateX(100%);
-            pointer-events: none; transition: opacity 0.25s ease, transform 0.3s cubic-bezier(0.4,0,0.2,1); overflow-y: auto;
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            background: var(--nav-bg);
+            z-index: 9998;
+            flex-direction: column;
+            padding: 2rem 2rem 3rem;
+            opacity: 0;
+            transform: translateX(100%);
+            pointer-events: none;
+            transition: opacity 0.25s ease, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow-y: auto;
         }
-        .mobile-menu.open { opacity: 1; transform: translateX(0); pointer-events: all; }
-        .mob-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2.5rem; }
-        .mob-close { width: 2.75rem; height: 2.75rem; background: none; border: none; font-size: 1.4rem; color: var(--body-1); display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: background 0.2s; outline: none; -webkit-tap-highlight-color: transparent; }
-        .mob-close:hover { background: rgba(255,255,255,0.08); }
-        .mobile-menu a.mob-link { font-size: 1rem; font-weight: 400; color: var(--body-1); text-decoration: none; padding: 1rem 0; border-bottom: 1px solid var(--card-stroke); display: block; transition: color 0.2s; }
-        .mobile-menu a.mob-link:first-of-type { border-top: 1px solid var(--card-stroke); }
-        .mobile-menu a.mob-link:hover { color: var(--accent-color); }
-        body.menu-open { overflow: hidden; }
+
+        .mobile-menu.open {
+            opacity: 1;
+            transform: translateX(0);
+            pointer-events: all;
+        }
+
+        .mob-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2.5rem;
+        }
+
+        .mob-close {
+            width: 2.75rem;
+            height: 2.75rem;
+            background: none;
+            border: none;
+            font-size: 1.4rem;
+            color: var(--body-1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.2s;
+            outline: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .mob-close:hover {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .mobile-menu a.mob-link {
+            font-size: 1rem;
+            font-weight: 400;
+            color: var(--body-1);
+            text-decoration: none;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--card-stroke);
+            display: block;
+            transition: color 0.2s;
+        }
+
+        .mobile-menu a.mob-link:first-of-type {
+            border-top: 1px solid var(--card-stroke);
+        }
+
+        .mobile-menu a.mob-link:hover {
+            color: var(--accent-color);
+        }
+
+        body.menu-open {
+            overflow: hidden;
+        }
 
         @media (max-width: 64rem) {
-            .nav-links { display: none; }
-            .burger { display: flex; margin-left: auto; }
-            .mobile-menu { display: flex; }
-            nav { padding: 0 1.25rem; height: 4rem; }
-            :root { --nav-height: 4rem; }
+            .nav-links {
+                display: none;
+            }
+
+            .burger {
+                display: flex;
+                margin-left: auto;
+            }
+
+            .mobile-menu {
+                display: flex;
+            }
+
+            nav {
+                padding: 0 1.25rem;
+                height: 4rem;
+            }
+
+            :root {
+                --nav-height: 4rem;
+            }
         }
-        @media (max-width: 30rem) { nav { padding: 0 1rem; } }
+
+        @media (max-width: 30rem) {
+            nav {
+                padding: 0 1rem;
+            }
+        }
 
         /* ============ AUTH PAGE ============ */
         .auth-page {
@@ -150,7 +340,7 @@
             transform: translateX(-50%);
             width: 50rem;
             height: 50rem;
-            background: radial-gradient(circle, rgba(99,102,241,0.08) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.08) 0%, transparent 70%);
             pointer-events: none;
             z-index: 0;
         }
@@ -162,7 +352,7 @@
             right: -10rem;
             width: 40rem;
             height: 40rem;
-            background: radial-gradient(circle, rgba(255,192,77,0.04) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(255, 192, 77, 0.04) 0%, transparent 70%);
             pointer-events: none;
             z-index: 0;
         }
@@ -192,7 +382,7 @@
             border: 1px solid var(--card-stroke);
             border-radius: 1.5rem;
             padding: 2.5rem;
-            box-shadow: 0 1.5rem 3rem rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.03);
+            box-shadow: 0 1.5rem 3rem rgba(80, 80, 120, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.04);
             position: relative;
             overflow: hidden;
         }
@@ -200,7 +390,9 @@
         .auth-card::before {
             content: '';
             position: absolute;
-            top: 0; left: 0; right: 0;
+            top: 0;
+            left: 0;
+            right: 0;
             height: 2px;
             background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-gold) 50%, var(--accent-color) 100%);
         }
@@ -208,7 +400,7 @@
         /* Tabs */
         .auth-tabs {
             display: flex;
-            background: rgba(255,255,255,0.04);
+            background: rgba(255, 255, 255, 0.04);
             border-radius: 0.75rem;
             padding: 0.25rem;
             margin-bottom: 2rem;
@@ -232,17 +424,22 @@
         .auth-tab.active {
             background: var(--accent-color);
             color: var(--btn-text);
-            box-shadow: 0 2px 0.75rem rgba(99,102,241,0.4);
+            box-shadow: 0 2px 0.75rem rgba(99, 102, 241, 0.4);
         }
 
         .auth-tab:not(.active):hover {
             color: var(--body-2);
-            background: rgba(255,255,255,0.06);
+            background: rgba(255, 255, 255, 0.06);
         }
 
         /* Form panels */
-        .auth-panel { display: none; }
-        .auth-panel.active { display: block; }
+        .auth-panel {
+            display: none;
+        }
+
+        .auth-panel.active {
+            display: block;
+        }
 
         .auth-heading {
             font-size: 1.25rem;
@@ -274,7 +471,7 @@
         .form-input {
             width: 100%;
             padding: 0.75rem 1rem;
-            background: rgba(255,255,255,0.04);
+            background: rgba(255, 255, 255, 0.04);
             border: 1px solid var(--card-stroke);
             border-radius: 0.75rem;
             color: var(--body-1);
@@ -284,12 +481,14 @@
             outline: none;
         }
 
-        .form-input::placeholder { color: var(--body-3); }
+        .form-input::placeholder {
+            color: var(--body-3);
+        }
 
         .form-input:focus {
             border-color: var(--accent-color);
-            background: rgba(99,102,241,0.06);
-            box-shadow: 0 0 0 3px rgba(99,102,241,0.12);
+            background: rgba(99, 102, 241, 0.06);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
         }
 
         .form-input.error {
@@ -325,7 +524,9 @@
             padding: 0.25rem;
         }
 
-        .toggle-password:hover { color: var(--body-2); }
+        .toggle-password:hover {
+            color: var(--body-2);
+        }
 
         /* Error message */
         .form-error {
@@ -334,7 +535,10 @@
             margin-top: 0.375rem;
             display: none;
         }
-        .form-error.visible { display: block; }
+
+        .form-error.visible {
+            display: block;
+        }
 
         /* Forgot password */
         .forgot-row {
@@ -350,7 +554,10 @@
             text-decoration: none;
             transition: color 0.2s;
         }
-        .forgot-link:hover { color: var(--accent-gold); }
+
+        .forgot-link:hover {
+            color: var(--accent-gold);
+        }
 
         /* Submit button */
         .btn-primary {
@@ -371,20 +578,28 @@
         .btn-primary::before {
             content: '';
             position: absolute;
-            top: 0; left: -100%; right: 100%; bottom: 0;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            top: 0;
+            left: -100%;
+            right: 100%;
+            bottom: 0;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
             transition: left 0.5s ease, right 0.5s ease;
         }
 
         .btn-primary:hover {
             background: var(--accent-primary-hover);
             transform: translateY(-1px);
-            box-shadow: 0 0.5rem 1.5rem rgba(99,102,241,0.4);
+            box-shadow: 0 0.5rem 1.5rem rgba(99, 102, 241, 0.4);
         }
 
-        .btn-primary:hover::before { left: 100%; right: -100%; }
+        .btn-primary:hover::before {
+            left: 100%;
+            right: -100%;
+        }
 
-        .btn-primary:active { transform: translateY(0); }
+        .btn-primary:active {
+            transform: translateY(0);
+        }
 
         .btn-primary:disabled {
             opacity: 0.6;
@@ -418,7 +633,7 @@
         .btn-google {
             width: 100%;
             padding: 0.8125rem 1.5rem;
-            background: rgba(255,255,255,0.04);
+            background: rgba(255, 255, 255, 0.04);
             border: 1px solid var(--card-stroke);
             border-radius: 0.75rem;
             color: var(--body-1);
@@ -433,12 +648,14 @@
         }
 
         .btn-google:hover {
-            background: rgba(255,255,255,0.08);
-            border-color: rgba(255,255,255,0.15);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(0, 0, 0, 0.15);
             transform: translateY(-1px);
         }
 
-        .btn-google svg { flex-shrink: 0; }
+        .btn-google svg {
+            flex-shrink: 0;
+        }
 
         /* Terms */
         .auth-terms {
@@ -454,7 +671,10 @@
             text-decoration: none;
             transition: color 0.2s;
         }
-        .auth-terms a:hover { color: var(--accent-gold); }
+
+        .auth-terms a:hover {
+            color: var(--accent-gold);
+        }
 
         /* Success message */
         .auth-success {
@@ -463,12 +683,14 @@
             padding: 1.5rem;
         }
 
-        .auth-success.visible { display: block; }
+        .auth-success.visible {
+            display: block;
+        }
 
         .success-icon {
             width: 4rem;
             height: 4rem;
-            background: rgba(56,189,142,0.15);
+            background: rgba(56, 189, 142, 0.15);
             border: 1px solid var(--correct-border);
             border-radius: 50%;
             display: flex;
@@ -502,7 +724,7 @@
 
         .auth-alert.error {
             background: var(--danger-bg);
-            border: 1px solid rgba(248,113,113,0.3);
+            border: 1px solid rgba(240, 68, 56, 0.3);
             color: #fca5a5;
             align-items: center;
             gap: 0.5rem;
@@ -525,10 +747,23 @@
         }
 
         @keyframes float-particle {
-            0% { transform: translateY(100vh) scale(0); opacity: 0; }
-            10% { opacity: 0.6; }
-            90% { opacity: 0.3; }
-            100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+            0% {
+                transform: translateY(100vh) scale(0);
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 0.6;
+            }
+
+            90% {
+                opacity: 0.3;
+            }
+
+            100% {
+                transform: translateY(-10vh) scale(1);
+                opacity: 0;
+            }
         }
 
         /* Loading spinner inside button */
@@ -536,14 +771,18 @@
             display: none;
             width: 1.125rem;
             height: 1.125rem;
-            border: 2px solid rgba(255,255,255,0.3);
+            border: 2px solid rgba(255, 255, 255, 0.3);
             border-top-color: #fff;
             border-radius: 50%;
             animation: spin 0.7s linear infinite;
             margin: 0 auto;
         }
 
-        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
 
         /* Checklist for password strength */
         .password-strength {
@@ -551,7 +790,9 @@
             display: none;
         }
 
-        .password-strength.visible { display: block; }
+        .password-strength.visible {
+            display: block;
+        }
 
         .strength-bar {
             height: 3px;
@@ -574,11 +815,18 @@
         }
 
         @media (max-width: 30rem) {
-            .auth-card { padding: 1.75rem 1.25rem; border-radius: 1.25rem; }
-            .auth-wrapper { max-width: 100%; }
+            .auth-card {
+                padding: 1.75rem 1.25rem;
+                border-radius: 1.25rem;
+            }
+
+            .auth-wrapper {
+                max-width: 100%;
+            }
         }
     </style>
 </head>
+
 <body>
     <div id="ep-cursor"></div>
     <div id="ep-cursor-trail"></div>
@@ -592,10 +840,16 @@
             <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
                 alt="EnglishPlay" style="height:48px;width:auto;display:block;">
         </a>
+
         <ul class="nav-links">
             <li><a href="Phrasal Verbs.html">Phrasal Verbs</a></li>
             <li><a href="index.html">Grammar Practice</a></li>
         </ul>
+
+        <button class="theme-switcher" id="themeSwitcher" aria-label="Switch theme">
+            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+        </button>
+
         <button class="burger" id="burger" aria-label="Open menu">
             <span></span><span></span><span></span>
         </button>
@@ -611,6 +865,9 @@
         </div>
         <a href="Phrasal Verbs.html" class="mob-link">Phrasal Verbs</a>
         <a href="index.html" class="mob-link">Grammar Practice</a>
+        <button class="theme-switcher" id="themeSwitcherMob" aria-label="Switch theme" style="margin-top:1rem;">
+            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+        </button>
     </div>
 
     <!-- AUTH PAGE -->
@@ -644,15 +901,18 @@
 
                     <div class="form-group">
                         <label class="form-label" for="signin-email">Email address</label>
-                        <input type="email" id="signin-email" class="form-input" placeholder="you@example.com" autocomplete="email">
+                        <input type="email" id="signin-email" class="form-input" placeholder="you@example.com"
+                            autocomplete="email">
                         <span class="form-error" id="signin-email-err">Please enter a valid email address</span>
                     </div>
 
                     <div class="form-group">
                         <label class="form-label" for="signin-password">Password</label>
                         <div class="input-wrapper">
-                            <input type="password" id="signin-password" class="form-input" placeholder="Your password" autocomplete="current-password">
-                            <button type="button" class="toggle-password" onclick="togglePassword('signin-password', this)" aria-label="Show password">👁</button>
+                            <input type="password" id="signin-password" class="form-input" placeholder="Your password"
+                                autocomplete="current-password">
+                            <button type="button" class="toggle-password"
+                                onclick="togglePassword('signin-password', this)" aria-label="Show password">👁</button>
                         </div>
                         <span class="form-error" id="signin-pass-err">Please enter your password</span>
                     </div>
@@ -670,10 +930,18 @@
 
                     <button class="btn-google" onclick="handleGoogle()">
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <path d="M17.64 9.205c0-.639-.057-1.252-.164-1.841H9v3.481h4.844a4.14 4.14 0 01-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z" fill="#4285F4"/>
-                            <path d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 009 18z" fill="#34A853"/>
-                            <path d="M3.964 10.71A5.41 5.41 0 013.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.996 8.996 0 000 9c0 1.452.348 2.827.957 4.042l3.007-2.332z" fill="#FBBC05"/>
-                            <path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 00.957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z" fill="#EA4335"/>
+                            <path
+                                d="M17.64 9.205c0-.639-.057-1.252-.164-1.841H9v3.481h4.844a4.14 4.14 0 01-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z"
+                                fill="#4285F4" />
+                            <path
+                                d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 009 18z"
+                                fill="#34A853" />
+                            <path
+                                d="M3.964 10.71A5.41 5.41 0 013.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.996 8.996 0 000 9c0 1.452.348 2.827.957 4.042l3.007-2.332z"
+                                fill="#FBBC05" />
+                            <path
+                                d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 00.957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z"
+                                fill="#EA4335" />
                         </svg>
                         Continue with Google
                     </button>
@@ -687,25 +955,33 @@
 
                         <div class="form-group">
                             <label class="form-label" for="signup-name">Full name</label>
-                            <input type="text" id="signup-name" class="form-input" placeholder="Your name" autocomplete="name">
+                            <input type="text" id="signup-name" class="form-input" placeholder="Your name"
+                                autocomplete="name">
                             <span class="form-error" id="signup-name-err">Please enter your name</span>
                         </div>
 
                         <div class="form-group">
                             <label class="form-label" for="signup-email">Email address</label>
-                            <input type="email" id="signup-email" class="form-input" placeholder="you@example.com" autocomplete="email">
+                            <input type="email" id="signup-email" class="form-input" placeholder="you@example.com"
+                                autocomplete="email">
                             <span class="form-error" id="signup-email-err">Please enter a valid email address</span>
                         </div>
 
                         <div class="form-group">
                             <label class="form-label" for="signup-password">Password</label>
                             <div class="input-wrapper">
-                                <input type="password" id="signup-password" class="form-input" placeholder="Min. 8 characters" autocomplete="new-password" oninput="checkStrength(this.value)">
-                                <button type="button" class="toggle-password" onclick="togglePassword('signup-password', this)" aria-label="Show password">👁</button>
+                                <input type="password" id="signup-password" class="form-input"
+                                    placeholder="Min. 8 characters" autocomplete="new-password"
+                                    oninput="checkStrength(this.value)">
+                                <button type="button" class="toggle-password"
+                                    onclick="togglePassword('signup-password', this)"
+                                    aria-label="Show password">👁</button>
                             </div>
                             <span class="form-error" id="signup-pass-err">Password must be at least 8 characters</span>
                             <div class="password-strength" id="strengthMeter">
-                                <div class="strength-bar"><div class="strength-fill" id="strengthFill"></div></div>
+                                <div class="strength-bar">
+                                    <div class="strength-fill" id="strengthFill"></div>
+                                </div>
                                 <span class="strength-text" id="strengthText"></span>
                             </div>
                         </div>
@@ -719,10 +995,18 @@
 
                         <button class="btn-google" onclick="handleGoogle()">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                                <path d="M17.64 9.205c0-.639-.057-1.252-.164-1.841H9v3.481h4.844a4.14 4.14 0 01-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z" fill="#4285F4"/>
-                                <path d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 009 18z" fill="#34A853"/>
-                                <path d="M3.964 10.71A5.41 5.41 0 013.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.996 8.996 0 000 9c0 1.452.348 2.827.957 4.042l3.007-2.332z" fill="#FBBC05"/>
-                                <path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 00.957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z" fill="#EA4335"/>
+                                <path
+                                    d="M17.64 9.205c0-.639-.057-1.252-.164-1.841H9v3.481h4.844a4.14 4.14 0 01-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z"
+                                    fill="#4285F4" />
+                                <path
+                                    d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 009 18z"
+                                    fill="#34A853" />
+                                <path
+                                    d="M3.964 10.71A5.41 5.41 0 013.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.996 8.996 0 000 9c0 1.452.348 2.827.957 4.042l3.007-2.332z"
+                                    fill="#FBBC05" />
+                                <path
+                                    d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 00.957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z"
+                                    fill="#EA4335" />
                             </svg>
                             Sign up with Google
                         </button>
@@ -738,14 +1022,18 @@
                     <div class="auth-success" id="signup-success">
                         <div class="success-icon">✉️</div>
                         <h3 class="success-title">Check your inbox!</h3>
-                        <p class="success-text">We've sent a confirmation link to your email. Click it to activate your account and start learning.</p>
+                        <p class="success-text">We've sent a confirmation link to your email. Click it to activate your
+                            account and start learning.</p>
                     </div>
                 </div>
 
                 <!-- FORGOT PASSWORD PANEL -->
                 <div class="auth-panel" id="panel-forgot">
                     <div id="forgot-form-wrap">
-                        <button onclick="switchTab('signin')" style="background:none;border:none;color:var(--body-3);font-size:0.8125rem;display:flex;align-items:center;gap:0.375rem;margin-bottom:1.25rem;padding:0;font-family:'Poppins',sans-serif;transition:color 0.2s;" onmouseover="this.style.color='var(--body-1)'" onmouseout="this.style.color='var(--body-3)'">
+                        <button onclick="switchTab('signin')"
+                            style="background:none;border:none;color:var(--body-3);font-size:0.8125rem;display:flex;align-items:center;gap:0.375rem;margin-bottom:1.25rem;padding:0;font-family:'Poppins',sans-serif;transition:color 0.2s;"
+                            onmouseover="this.style.color='var(--body-1)'"
+                            onmouseout="this.style.color='var(--body-3)'">
                             ← Back to Sign In
                         </button>
                         <h2 class="auth-heading">Reset your password</h2>
@@ -766,7 +1054,8 @@
                     <div class="auth-success" id="forgot-success">
                         <div class="success-icon">🔑</div>
                         <h3 class="success-title">Link sent!</h3>
-                        <p class="success-text">If this email is registered, you'll receive a password reset link shortly. Check your spam folder too.</p>
+                        <p class="success-text">If this email is registered, you'll receive a password reset link
+                            shortly. Check your spam folder too.</p>
                     </div>
                 </div>
 
@@ -783,22 +1072,22 @@
 
         /* Если уже залогинен — редиректим на dashboard */
         const { data: { session } } = await supabase.auth.getSession();
-        if (session) window.location.href = 'dashboard.html';
+        if (session) window.location.href = 'dashboard-light.html';
 
         /* ---- Cursor ---- */
         const epCursor = document.getElementById('ep-cursor');
         const epTrail = document.getElementById('ep-cursor-trail');
-        let mouseX = window.innerWidth/2, mouseY = window.innerHeight/2;
+        let mouseX = window.innerWidth / 2, mouseY = window.innerHeight / 2;
         let trailX = mouseX, trailY = mouseY;
         document.addEventListener('mousemove', e => { mouseX = e.clientX; mouseY = e.clientY; });
         (function animateCursor() {
-            epCursor.style.left = (mouseX-6)+'px'; epCursor.style.top = (mouseY-6)+'px';
-            trailX += (mouseX-trailX)*0.15; trailY += (mouseY-trailY)*0.15;
-            epTrail.style.left = (trailX-20)+'px'; epTrail.style.top = (trailY-20)+'px';
+            epCursor.style.left = (mouseX - 6) + 'px'; epCursor.style.top = (mouseY - 6) + 'px';
+            trailX += (mouseX - trailX) * 0.15; trailY += (mouseY - trailY) * 0.15;
+            epTrail.style.left = (trailX - 20) + 'px'; epTrail.style.top = (trailY - 20) + 'px';
             requestAnimationFrame(animateCursor);
         })();
-        document.addEventListener('mousedown', () => epCursor.style.transform='scale(1.8)');
-        document.addEventListener('mouseup', () => epCursor.style.transform='scale(1)');
+        document.addEventListener('mousedown', () => epCursor.style.transform = 'scale(1.8)');
+        document.addEventListener('mouseup', () => epCursor.style.transform = 'scale(1)');
 
         /* ---- Nav ---- */
         window.addEventListener('scroll', () => {
@@ -831,26 +1120,26 @@
             const size = Math.random() * 4 + 2;
             p.style.cssText = `
                 width:${size}px; height:${size}px;
-                left:${Math.random()*100}%;
-                background:${colors[Math.floor(Math.random()*colors.length)]};
-                animation-duration:${Math.random()*15+10}s;
-                animation-delay:${Math.random()*10}s;
+                left:${Math.random() * 100}%;
+                background:${colors[Math.floor(Math.random() * colors.length)]};
+                animation-duration:${Math.random() * 15 + 10}s;
+                animation-delay:${Math.random() * 10}s;
             `;
             container.appendChild(p);
         }
 
         /* ---- Tab switching ---- */
-        window.switchTab = function(tab) {
+        window.switchTab = function (tab) {
             document.querySelectorAll('.auth-panel').forEach(p => p.classList.remove('active'));
             document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
-            document.getElementById('panel-'+tab).classList.add('active');
+            document.getElementById('panel-' + tab).classList.add('active');
             if (tab === 'signin' || tab === 'signup') {
-                document.getElementById('tab-'+tab).classList.add('active');
+                document.getElementById('tab-' + tab).classList.add('active');
             }
             hideAlert();
         }
 
-        window.showForgot = function(e) {
+        window.showForgot = function (e) {
             e.preventDefault();
             document.querySelectorAll('.auth-panel').forEach(p => p.classList.remove('active'));
             document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
@@ -868,14 +1157,14 @@
         }
 
         /* ---- Password toggle ---- */
-        window.togglePassword = function(id, btn) {
+        window.togglePassword = function (id, btn) {
             const input = document.getElementById(id);
             if (input.type === 'password') { input.type = 'text'; btn.textContent = '🙈'; }
             else { input.type = 'password'; btn.textContent = '👁'; }
         }
 
         /* ---- Password strength ---- */
-        window.checkStrength = function(val) {
+        window.checkStrength = function (val) {
             const meter = document.getElementById('strengthMeter');
             const fill = document.getElementById('strengthFill');
             const text = document.getElementById('strengthText');
@@ -892,7 +1181,7 @@
                 { w: '75%', c: '#60a5fa', t: 'Good' },
                 { w: '100%', c: '#34d399', t: 'Strong' }
             ];
-            const l = levels[score-1] || levels[0];
+            const l = levels[score - 1] || levels[0];
             fill.style.width = l.w; fill.style.background = l.c; text.textContent = l.t;
             text.style.color = l.c;
         }
@@ -916,7 +1205,7 @@
             label.style.display = loading ? 'none' : 'inline';
         }
 
-        window.handleSignIn = async function() {
+        window.handleSignIn = async function () {
             hideAlert();
             const email = document.getElementById('signin-email').value.trim();
             const password = document.getElementById('signin-password').value;
@@ -936,10 +1225,10 @@
                 setLoading('signin-btn', 'signin-spinner', 'signin-label', false);
                 return;
             }
-            window.location.href = 'dashboard.html';
+            window.location.href = 'dashboard-light.html';
         }
 
-        window.handleSignUp = async function() {
+        window.handleSignUp = async function () {
             hideAlert();
             const name = document.getElementById('signup-name').value.trim();
             const email = document.getElementById('signup-email').value.trim();
@@ -965,10 +1254,10 @@
                 setLoading('signup-btn', 'signup-spinner', 'signup-label', false);
                 return;
             }
-            window.location.href = 'dashboard.html';
+            window.location.href = 'dashboard-light.html';
         }
 
-        window.handleForgot = async function() {
+        window.handleForgot = async function () {
             hideAlert();
             const email = document.getElementById('forgot-email').value.trim();
             setFieldError('forgot-email', 'forgot-email-err', !validateEmail(email));
@@ -981,10 +1270,10 @@
             document.getElementById('forgot-success').classList.add('visible');
         }
 
-        window.handleGoogle = async function() {
+        window.handleGoogle = async function () {
             await supabase.auth.signInWithOAuth({
                 provider: 'google',
-                options: { redirectTo: 'https://englishplay.org/dashboard.html' }
+                options: { redirectTo: 'https://englishplay.org/dashboard-light.html' }
             });
         }
 
@@ -998,6 +1287,15 @@
             else if (active.id === 'panel-forgot') handleForgot();
         });
     </script>
-    
+
+    <script>
+        document.getElementById('themeSwitcher').addEventListener('click', function() {
+            window.location.href = 'auth-light.html';
+        });
+        document.getElementById('themeSwitcherMob').addEventListener('click', function() {
+            window.location.href = 'auth-light.html';
+        });
+    </script>
 </body>
+
 </html>

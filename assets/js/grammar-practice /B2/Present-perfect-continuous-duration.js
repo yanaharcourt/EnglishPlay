@@ -89,9 +89,9 @@ window.grammarExercises['tenses']['present-perfect-continuous-duration-page1'] =
             ],
             correctAnswer: 0,
             correctFeedback: "Brilliant! 'Have you been working' asks about recent continuous activity that explains the current stressed appearance.",
-            correctFeedbackRu: "Блестяще! 'Have you been working' спрашивает о недавней непрерывной деятельности, которая объясняет текущий подчёркнутый вид.",
+            correctFeedbackRu: "Блестяще! 'Have you been working' спрашивает о недавней непрерывной деятельности, которая объясняет текущий напряжённый вид.",
             incorrectFeedback: "Keep trying! **'Have you been working' questions recent continuous activity.** When someone looks stressed NOW, we ask about what they've been doing continuously that might cause this current state. The question form connects ongoing past activity to present appearance.",
-            incorrectFeedbackRu: "Продолжайте пробовать! **'Have you been working' спрашивает о недавней непрерывной деятельности.** Когда кто-то выглядит подчёркнутым СЕЙЧАС, мы спрашиваем о том, что они непрерывно делали, что могло вызвать это текущее состояние. Вопросительная форма связывает продолжающуюся прошлую деятельность с настоящим видом."
+            incorrectFeedbackRu: "Продолжайте пробовать! **'Have you been working' спрашивает о недавней непрерывной деятельности.** Когда кто-то выглядит напряжённым СЕЙЧАС, мы спрашиваем о том, что они непрерывно делали, что могло вызвать это текущее состояние. Вопросительная форма связывает продолжающуюся прошлую деятельность с настоящим видом."
         },
         {
             question: "Complete the sentence:",
@@ -120,8 +120,8 @@ window.grammarExercises['tenses']['present-perfect-continuous-duration-page1'] =
                 "is coughing"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Has been coughing' explains why the baby is crying now - continuous coughing throughout the night.",
-            correctFeedbackRu: "Идеально! 'Has been coughing' объясняет, почему ребёнок плачет сейчас — непрерывный кашель всю ночь.",
+            correctFeedback: "Perfect! 'Has been coughing' explains why the baby is crying now — she has been coughing all night and barely slept.",
+            correctFeedbackRu: "Идеально! 'Has been coughing' объясняет, почему ребёнок плачет сейчас — она кашляла всю ночь и почти не спала.",
             incorrectFeedback: "Good thinking! **'Has been coughing' explains present distress.** The continuous coughing all night is why she's crying now and why she barely slept. This tense connects the ongoing night activity to the current emotional state.",
             incorrectFeedbackRu: "Хорошо думаете! **'Has been coughing' объясняет настоящий дистресс.** Непрерывный кашель всю ночь — причина того, почему она плачет сейчас и почему она едва спала. Это время связывает продолжающуюся ночную деятельность с текущим эмоциональным состоянием."
         },
@@ -468,16 +468,16 @@ window.grammarExercises['tenses']['present-perfect-continuous-duration-page3'] =
             questionRu: "Выберите правильную форму:",
             sentence: "Lisa's eyes are watery and she keeps sneezing. She _____ flowers in the garden.",
             options: [
-                "has been smelling",
-                "has smelled",
-                "smelled",
-                "is smelling"
+                "has been picking",
+                "has picked",
+                "picked",
+                "is picking"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Has been smelling' shows recent continuous exposure to flowers that caused the current allergic reaction.",
-            correctFeedbackRu: "Отлично! 'Has been smelling' показывает недавнее непрерывное воздействие цветов, которое вызвало текущую аллергическую реакцию.",
-            incorrectFeedback: "Good effort! **'Has been smelling' shows recent continuous exposure.** Watery eyes and sneezing are clear signs of recent ongoing contact with allergens. This form connects the continuous activity to the present physical reaction.",
-            incorrectFeedbackRu: "Хорошая попытка! **'Has been smelling' показывает недавнее непрерывное воздействие.** Слезящиеся глаза и чихание — ясные признаки недавнего продолжающегося контакта с аллергенами. Эта форма связывает непрерывную деятельность с настоящей физической реакцией."
+            correctFeedback: "Excellent! 'Has been picking' shows recent continuous exposure to flowers that caused the current allergic reaction.",
+            correctFeedbackRu: "Отлично! 'Has been picking' показывает недавнее непрерывное воздействие цветов, которое вызвало текущую аллергическую реакцию.",
+            incorrectFeedback: "Good effort! **'Has been picking' shows recent continuous exposure.** Watery eyes and sneezing are clear signs of recent ongoing contact with allergens. This form connects the continuous activity to the present physical reaction.",
+            incorrectFeedbackRu: "Хорошая попытка! **'Has been picking' показывает недавнее непрерывное воздействие.** Слезящиеся глаза и чихание — ясные признаки недавнего продолжающегося контакта с аллергенами. Эта форма связывает непрерывную деятельность с настоящей физической реакцией."
         },
         {
             question: "Choose the best answer:",
@@ -1770,7 +1770,7 @@ window.grammarExercises['tenses']['present-perfect-continuous-duration-gap-page1
             correctFeedback: "Great! 'Have you been working' asks about recent continuous activity that explains current stress.",
             correctFeedbackRu: "Отлично! 'Have you been working' спрашивает о недавней непрерывной деятельности, которая объясняет текущий стресс.",
             incorrectFeedback: "Keep going! **'Have been working' questions ongoing recent activity.** The stressed appearance NOW suggests continuous work activity that might be causing this state.",
-            incorrectFeedbackRu: "Продолжайте! **'Have been working' спрашивает о продолжающейся недавней деятельности.** Подчёркнутый вид СЕЙЧАС предполагает непрерывную рабочую деятельность, которая может вызывать это состояние."
+            incorrectFeedbackRu: "Продолжайте! **'Have been working' спрашивает о продолжающейся недавней деятельности.** Напряжённый вид СЕЙЧАС предполагает непрерывную рабочую деятельность, которая может вызывать это состояние."
         },
         {
             question: "Fill in with the correct form:",
@@ -2025,12 +2025,12 @@ window.grammarExercises['tenses']['present-perfect-continuous-duration-gap-page3
             question: "Choose the right form to complete:",
             questionRu: "Выберите правильную форму для завершения:",
             sentence: "Lisa's eyes are watery and she keeps sneezing. She ____ ____ ____ flowers in the garden.",
-            correctAnswer: "has been smelling",
-            options: ["has been smelling", "has smelled", "is smelling", "smelled"],
-            correctFeedback: "Excellent! 'Has been smelling' shows recent continuous exposure to flowers that caused the allergic reaction.",
-            correctFeedbackRu: "Отлично! 'Has been smelling' показывает недавнее непрерывное воздействие цветов, которое вызвало аллергическую реакцию.",
-            incorrectFeedback: "Good effort! **'Has been smelling' shows recent continuous exposure.** Watery eyes and sneezing are clear signs of recent ongoing contact with allergens.",
-            incorrectFeedbackRu: "Хорошая попытка! **'Has been smelling' показывает недавнее непрерывное воздействие.** Слезящиеся глаза и чихание — ясные признаки недавнего продолжающегося контакта с аллергенами."
+            correctAnswer: "has been picking",
+            options: ["has been picking", "has picked", "is picking", "picked"],
+            correctFeedback: "Excellent! 'Has been picking' shows recent continuous exposure to flowers that caused the allergic reaction.",
+            correctFeedbackRu: "Отлично! 'Has been picking' показывает недавнее непрерывное воздействие цветов, которое вызвало аллергическую реакцию.",
+            incorrectFeedback: "Good effort! **'Has been picking' shows recent continuous exposure.** Watery eyes and sneezing are clear signs of recent ongoing contact with allergens.",
+            incorrectFeedbackRu: "Хорошая попытка! **'Has been picking' показывает недавнее непрерывное воздействие.** Слезящиеся глаза и чихание — ясные признаки недавнего продолжающегося контакта с аллергенами."
         },
         {
             question: "Complete with the appropriate present perfect continuous:",

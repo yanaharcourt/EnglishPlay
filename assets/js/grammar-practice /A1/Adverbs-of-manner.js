@@ -775,7 +775,7 @@ window.grammarExercises['adjectives']['adverbs-of-manner-page5'] = {
             sentence: "She reviews her notes _.",
             options: [
                 "thorough",
-                "thoroughly", 
+                "thoroughly",
                 "complete",
                 "detail"
             ],
@@ -2758,15 +2758,15 @@ window.grammarExercises['adjectives']['adverbs-of-manner-gap-page9'] = {
             incorrectFeedbackRu: "Неправильно. Подумайте о вождении пожилых - возраст приносит мудрость и осторожность. 'Cautiously' означает осторожно, что подходит для пожилых граждан. 'Recklessly' означает безрассудно, 'aggressively' означает агрессивно, 'speedily' означает быстро - все противоположно мудрости вождения пожилых."
         },
         {
-            question: "Fill in the blank with the correct adverb:",
-            questionRu: "Заполните пропуск правильным наречием:",
-            sentence: "The child walks ____.",
-            correctAnswer: "slowly",
-            options: ["slowly", "quickly", "loudly", "brightly"],
-            correctFeedback: "Excellent! 'Slowly' means 'at a slow pace' and describes how children walk when they are being careful or learning. 'Quickly' means fast, 'loudly' refers to sound, and 'brightly' refers to light or happiness.",
-            correctFeedbackRu: "Отлично! 'Slowly' означает 'медленно' и описывает, как ходят дети, когда они осторожны или учатся. 'Quickly' означает быстро, 'loudly' относится к звуку, а 'brightly' относится к свету или счастью.",
-            incorrectFeedback: "Try again. Think about how children typically walk when being careful. 'Slowly' means at a slow pace. 'Quickly' means fast, 'loudly' refers to sound, 'brightly' refers to light - none fit the context.",
-            incorrectFeedbackRu: "Попробуйте снова. Подумайте о том, как дети обычно ходят, когда осторожничают. 'Slowly' означает медленно. 'Quickly' означает быстро, 'loudly' относится к звуку, 'brightly' к свету - ничто не подходит к контексту."
+            question: "Complete the sentence with the correct adverb:",
+            questionRu: "Заполните предложение правильным наречием:",
+            sentence: "The toddler walks ____.",
+            correctAnswer: "clumsily",
+            options: ["clumsily", "gracefully", "smoothly", "elegantly"],
+            correctFeedback: "Excellent! 'Clumsily' means 'in a clumsy/awkward manner' and describes how toddlers walk - they are still learning balance and coordination. 'Gracefully' means with grace (too advanced for toddlers), 'smoothly' means with smooth movements (toddlers lack this coordination), and 'elegantly' means with elegance (definitely too advanced for toddlers).",
+            correctFeedbackRu: "Отлично! 'Clumsily' означает 'неуклюже' и описывает, как ходят малыши - они еще учатся балансу и координации. 'Gracefully' означает грациозно (слишком продвинуто для малышей), 'smoothly' означает плавно (малышам не хватает этой координации), а 'elegantly' означает элегантно (определенно слишком продвинуто для малышей).",
+            incorrectFeedback: "Incorrect. Think about toddler development - they are still learning to walk and balance. 'Clumsily' means in a clumsy manner, which fits toddlers learning to walk. 'Gracefully' means with grace, 'smoothly' means with smooth movements, 'elegantly' means with elegance - all too advanced for toddlers.",
+            incorrectFeedbackRu: "Неправильно. Подумайте о развитии малышей - они еще учатся ходить и балансировать. 'Clumsily' означает неуклюже, что подходит для малышей, изучающих ходьбу. 'Gracefully' означает грациозно, 'smoothly' означает плавно, 'elegantly' означает элегантно - все слишком продвинуто для малышей."
         }
     ]
 };

@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/phrasal verbs_idioms.css">
+    <link rel="stylesheet" href="./assets/css/theme-switcher.css">
 </head>
 
 <body>
@@ -69,6 +70,10 @@
             </div>
         </div>
 
+        <button class="theme-switcher" id="themeSwitcher" aria-label="Switch theme">
+            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+        </button>
+
         <button class="burger" id="burger" aria-label="Open menu">
             <span></span>
             <span></span>
@@ -88,6 +93,9 @@
         <a href="Phrasal Verbs.html" class="mob-link">Phrasal Verbs</a>
         <a href="index.html" class="mob-link">Grammar Practice</a>
         <a href="auth.html" class="mob-link mob-link-signup">Get Started →</a>
+        <button class="theme-switcher" id="themeSwitcherMob" aria-label="Switch theme" style="margin-top:1rem;">
+            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+        </button>
     </div>
     <!-- --------------------------------------------------------------
     # MAIN CONTENT
@@ -6298,7 +6306,8 @@
         style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:9999;align-items:center;justify-content:center;">
         <div
             style="background:#292a3e;border:1px solid #353748;border-radius:1.25rem;padding:2.5rem 2rem;max-width:380px;width:90%;text-align:center;">
-            <div style="margin-bottom:1rem;"><img src="./assets/img/lock.svg" alt="lock" style="width:2.5rem;height:2.5rem;"></div>
+            <div style="margin-bottom:1rem;"><img src="./assets/img/lock.svg" alt="lock"
+                    style="width:2.5rem;height:2.5rem;"></div>
             <h2 style="color:#f8fafc;font-size:1.25rem;font-weight:700;margin:0 0 0.75rem;">Premium content</h2>
             <p style="color:#b6b9d0;font-size:0.9375rem;line-height:1.6;margin:0 0 1.75rem;">Upgrade to access all
                 phrasal verbs and exercises.</p>
@@ -6430,6 +6439,15 @@
             });
         }
         applyFreemium();
+    </script>
+
+    <script>
+        document.getElementById('themeSwitcher').addEventListener('click', function () {
+            window.location.href = 'Phrasal Verbs-light.html';
+        });
+        document.getElementById('themeSwitcherMob').addEventListener('click', function () {
+            window.location.href = 'Phrasal Verbs-light.html';
+        });
     </script>
 </body>
 

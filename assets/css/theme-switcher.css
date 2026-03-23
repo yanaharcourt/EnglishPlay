@@ -1,0 +1,190 @@
+/* ==============================================================
+   THEME SWITCHER BUTTON
+   ============================================================== */
+.theme-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-stroke);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+    padding: 0;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.theme-switcher:hover {
+    border-color: var(--accent-color);
+    background: var(--card-hover-secondary);
+}
+
+.theme-icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    display: block;
+    flex-shrink: 0;
+}
+
+/* Dark mode: показываем иконку солнца (переключить на светлую) */
+.theme-icon-dark  { display: block; }
+.theme-icon-light { display: none;  }
+
+/* Light mode: показываем иконку луны (переключить на тёмную) */
+[data-theme="light"] .theme-icon-dark  { display: none;  }
+[data-theme="light"] .theme-icon-light { display: block; }
+
+/* Мобильный — чуть меньше */
+@media (max-width: 64rem) {
+    .theme-switcher {
+        width: 2.75rem;
+        height: 2.75rem;
+        min-width: 2.75rem;
+    }
+}
+
+/* ==============================================================
+   LIGHT THEME — токены через [data-theme="light"]
+   Подключи этот файл ПОСЛЕ styles.css на обеих страницах.
+   Заменяет styles-light.css — больше не нужен отдельный HTML файл.
+   ============================================================== */
+
+[data-theme="light"] {
+    /* Background */
+    --bg-color: #f8fafc;
+    --nav-bg: #f0f0f8;
+
+    /* Text */
+    --heading-color: #1a1a2e;
+    --body-1: #1e1e30;
+    --body-2: #42426a;
+    --body-3: #6b7080;
+    --body-4: #8890a0;
+    --text-hover: #6366f1;
+
+    /* Accent — сохранены */
+    --accent-color: #6366f1;
+    --accent-primary: #6366f1;
+    --accent-primary-hover: #4f46e5;
+    --tag-color: rgba(245, 158, 11, 0.18);
+    --accent-gold: #d48f10;
+
+    /* Button */
+    --btn-color: #6366f1;
+    --btn-text: #ffffff;
+
+    /* Icons */
+    --icon-color: #1e1e30;
+
+    /* Card */
+    --card-bg: #fafaff;
+    --card-stroke: #e2e2ee;
+    --card-shadow: rgba(0, 0, 0, 0.08);
+    --card-bg-secondary: #ffffff;
+    --card-stroke-secondary: #dcdcec;
+    --card-text-primary: #1a1a2e;
+    --card-text-secondary: #2a2a42;
+    --card-hover-secondary: rgba(99, 102, 241, 0.08);
+    --card-bg-tertiary: #f0f0f8;
+    --card-stroke-tertiary: #ccccda;
+    --card-text-tertiary: #4a4a6a;
+    --card-hover-tertiary: rgba(99, 102, 241, 0.06);
+
+    /* Feedback */
+    --correct-bg: #e1f2ec;
+    --correct-border: #0d9488;
+    --correct-text: #0d9488;
+    --danger: #f04438;
+    --danger-bg: #fef3f2;
+    --danger-border: #f04438;
+    --danger-text: #f04438;
+    --neutral-bg: rgba(100, 116, 139, 0.1);
+    --neutral-border: #94a3b8;
+    --neutral-text: #475569;
+    --note: rgba(99, 102, 241, 0.1);
+
+    /* Nav */
+    --nav-text: #1e1e30;
+    --nav-text-hover: #6366f1;
+    --nav-text-active: #4f46e5;
+}
+
+/* Nav — изначально blur на светлой теме */
+[data-theme="light"] nav {
+    background: rgba(240, 240, 248, 0.72);
+    backdrop-filter: saturate(180%) blur(16px);
+    -webkit-backdrop-filter: saturate(180%) blur(16px);
+}
+
+[data-theme="light"] nav.scrolled {
+    background: rgba(235, 235, 245, 0.82);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 0.5rem rgba(0, 0, 0, 0.07), 0 0.5rem 1.5rem rgba(0, 0, 0, 0.09);
+}
+
+/* Mobile menu — непрозрачный */
+[data-theme="light"] .mobile-menu {
+    background: #f0f0f8;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+}
+
+/* Burger lines */
+[data-theme="light"] .burger span {
+    background: var(--body-1);
+}
+
+/* nav-username */
+[data-theme="light"] .nav-username {
+    color: var(--body-1);
+}
+
+/* Paywall */
+[data-theme="light"] .paywall-overlay {
+    background: rgba(100, 100, 130, 0.45);
+}
+
+[data-theme="light"] .paywall-box {
+    background: var(--card-bg);
+    border-color: var(--card-stroke);
+}
+
+[data-theme="light"] .paywall-box h2 {
+    color: var(--heading-color);
+}
+
+[data-theme="light"] .paywall-box p {
+    color: var(--body-2);
+}
+
+/* Footer large text */
+[data-theme="light"] .footer-large-text,
+[data-theme="light"] .footer-large-text .word,
+[data-theme="light"] .footer-large-text .word.primary {
+    color: rgba(0, 0, 0, 0.06);
+}
+
+/* section-title gradient */
+[data-theme="light"] .section-title::after {
+    background: linear-gradient(to right, var(--accent-color) 5%, rgba(0, 0, 0, 0.08) 5%);
+}
+
+/* Carousel dot */
+[data-theme="light"] .carousel-dot {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* mob-close hover */
+[data-theme="light"] .mob-close:hover {
+    background: rgba(0, 0, 0, 0.06);
+}
+
+/* paywall-close */
+[data-theme="light"] .paywall-close {
+    color: var(--body-2);
+}

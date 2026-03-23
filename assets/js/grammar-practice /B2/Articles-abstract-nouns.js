@@ -804,7 +804,7 @@ window.grammarExercises['articles']['articles-abstract-nouns-page5'] = {
         {
             question: "Select the correct article:",
             questionRu: "Выберите правильный артикль:",
-            sentence: "_____ innovation in sustainable technology plays a key role in shaping the future.",
+            sentence: "_____ innovation of digital platforms has changed how people consume media.",
             options: [
                 "The",
                 "A",
@@ -812,15 +812,15 @@ window.grammarExercises['articles']['articles-abstract-nouns-page5'] = {
                 "no article"
             ],
             correctAnswer: 0,
-            correctFeedback: "Exactly! 'The' is needed because we’re referring to a specific type of innovation — in sustainable technology.",
-            correctFeedbackRu: "Именно! 'The' нужен, потому что мы говорим о конкретном виде инновации — в устойчивых технологиях.",
-            incorrectFeedback: "Not quite. When we specify the type of innovation (e.g. in sustainable technology), it becomes definite and needs 'the'.",
-            incorrectFeedbackRu: "Не совсем. Когда мы уточняем тип инновации (например, в устойчивых технологиях), требуется 'the'."
+            correctFeedback: "Exactly! 'The' is correct because we're referring to the specific innovation of digital platforms, made definite by the 'of' phrase.",
+            correctFeedbackRu: "Именно! 'The' правильно, потому что мы говорим о конкретной инновации цифровых платформ, определённой фразой с 'of'.",
+            incorrectFeedback: "Not quite. When abstract nouns are followed by 'of + specific noun', we use 'the'. The innovation OF digital platforms is definite.",
+            incorrectFeedbackRu: "Не совсем. Когда абстрактные существительные сопровождаются 'of + конкретное существительное', используется 'the'. Инновация цифровых платформ определённа."
         },
         {
             question: "Choose the correct article:",
             questionRu: "Выберите правильный артикль:",
-            sentence: "_____ empathy is essential in resolving cross-cultural misunderstandings.",
+            sentence: "_____ empathy shown by the volunteers during the crisis was deeply moving.",
             options: [
                 "The",
                 "A",
@@ -828,15 +828,15 @@ window.grammarExercises['articles']['articles-abstract-nouns-page5'] = {
                 "no article"
             ],
             correctAnswer: 0,
-            correctFeedback: "Great job! 'The' is used because we are talking about the concept of empathy in a specific, defined context.",
-            correctFeedbackRu: "Отлично! 'The' используется, потому что мы говорим об эмпатии в конкретном, определённом контексте.",
-            incorrectFeedback: "Try again. We use 'the' when referring to abstract concepts that are contextually specific, like empathy in cross-cultural situations.",
-            incorrectFeedbackRu: "Попробуйте снова. Мы используем 'the' для абстрактных понятий в конкретном контексте, таких как эмпатия в межкультурных ситуациях."
+            correctFeedback: "Excellent! 'The' is correct because we're referring to the specific empathy shown by the volunteers, not empathy in general.",
+            correctFeedbackRu: "Отлично! 'The' правильно, потому что мы говорим о конкретной эмпатии, проявленной волонтёрами, а не об эмпатии в общем.",
+            incorrectFeedback: "Try again. When abstract nouns are made specific by a following phrase, we use 'the'. The empathy SHOWN BY the volunteers is definite.",
+            incorrectFeedbackRu: "Попробуйте снова. Когда абстрактные существительные конкретизируются последующей фразой, используется 'the'. Эмпатия, проявленная волонтёрами, определённа."
         },
         {
             question: "Choose the correct article:",
             questionRu: "Выберите правильный артикль:",
-            sentence: "_____ harmony between tradition and modernity defines successful cultural adaptation.",
+            sentence: "_____ harmony between tradition and modernity is difficult to achieve in rapidly changing societies.",
             options: [
                 "The",
                 "A",
@@ -844,10 +844,10 @@ window.grammarExercises['articles']['articles-abstract-nouns-page5'] = {
                 "no article"
             ],
             correctAnswer: 0,
-            correctFeedback: "Exactly! 'The' is correct because we're referring to a specific concept — the harmony that exists between tradition and modernity.",
-            correctFeedbackRu: "Именно так! 'The' правильно, потому что мы говорим о конкретной гармонии — между традицией и современностью.",
-            incorrectFeedback: "Not quite. When abstract nouns refer to a specific or defined concept, like 'the harmony between two known things', we use 'the'.",
-            incorrectFeedbackRu: "Не совсем. Когда абстрактное существительное обозначает определённую концепцию, как 'гармония между двумя известными вещами', используется 'the'."
+            correctFeedback: "Exactly! 'The' is correct because we're referring to the specific harmony between two defined concepts — tradition and modernity.",
+            correctFeedbackRu: "Именно так! 'The' правильно, потому что мы говорим о конкретной гармонии между двумя определёнными понятиями — традицией и современностью.",
+            incorrectFeedback: "Not quite. When abstract nouns refer to a specific balance between two named things, we use 'the'. The harmony BETWEEN tradition and modernity is particular.",
+            incorrectFeedbackRu: "Не совсем. Когда абстрактное существительное обозначает конкретный баланс между двумя названными вещами, используется 'the'. Гармония МЕЖДУ традицией и современностью конкретна."
         }
     ]
 };

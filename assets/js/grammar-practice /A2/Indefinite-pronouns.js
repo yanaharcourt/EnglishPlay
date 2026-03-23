@@ -1117,11 +1117,11 @@ window.grammarExercises['pronouns']['indefinite-pronouns-page7'] = {
                 "everything",
                 "nothing"
             ],
-            correctAnswer: 0,
-            correctFeedback: "Great! 'Anything' works with 'forgot to pack' to show you have no warm clothes for the mountains.",
-            correctFeedbackRu: "Отлично! 'Anything' работает с 'forgot to pack', чтобы показать, что у вас нет тёплой одежды для гор.",
-            incorrectFeedback: "Try once more! **'Anything' pairs with 'forgot to pack'.** When you didn't bring warm clothes for cold weather, you forgot to pack 'anything' warm. 'Something' doesn't work with the negative meaning of forgot, 'everything' would contradict the forgot meaning, and 'nothing' would create a confusing double negative.",
-            incorrectFeedbackRu: "Попробуйте еще раз! **'Anything' сочетается с 'forgot to pack'.** Когда вы не взяли тёплую одежду для холодной погоды, вы забыли упаковать 'anything' тёплое. 'Something' не работает с отрицательным значением 'забыл', 'everything' противоречило бы значению 'забыл', а 'nothing' создало бы запутанное двойное отрицание."
+            correctAnswer: 1,
+            correctFeedback: "Great! 'Something' fits because you mean that you forgot to bring a warm item for the cold mountain trip.",
+            correctFeedbackRu: "Отлично! 'Something' подходит, потому что имеется в виду, что вы забыли взять какую-то тёплую вещь для холодной поездки в горы.",
+            incorrectFeedback: "Try once more! **'Something' is correct.** We use 'something' to talk about an unspecified thing. Here it means you forgot to pack a warm item. 'Anything' is usually used in questions or negatives, 'everything' doesn't make sense here, and 'nothing' would mean you intentionally packed no warm clothes.",
+            incorrectFeedbackRu: "Попробуйте ещё раз! **Правильный ответ — 'something'.** 'Something' используется, когда речь идёт о какой-то неопределённой вещи. Здесь это значит, что вы забыли взять тёплую вещь. 'Anything' обычно используется в вопросах или отрицаниях, 'everything' здесь не подходит по смыслу, а 'nothing' означало бы, что вы намеренно не взяли тёплую одежду."
         },
         {
             question: "Choose the correct word:",
@@ -2485,12 +2485,12 @@ window.grammarExercises['pronouns']['indefinite-pronouns-gap-page7'] = {
             question: "Complete the sentence with the correct indefinite pronoun:",
             questionRu: "Заполните предложение правильным неопределенным местоимением:",
             sentence: "I forgot to pack ____ warm for this cold beach vacation.",
-            correctAnswer: "anything",
+            correctAnswer: "something",
             options: ["anything", "something", "everything", "nothing"],
-            correctFeedback: "Great! 'Anything warm' works with 'forgot to pack' to show you have no suitable cold-weather clothes.",
-            correctFeedbackRu: "Отлично! 'Anything warm' работает с 'forgot to pack', чтобы показать, что у вас нет подходящей одежды для холодной погоды.",
-            incorrectFeedback: "Try again! Use 'anything' when you completely failed to bring necessary items for weather conditions.",
-            incorrectFeedbackRu: "Попробуйте снова! Используйте 'anything', когда вы полностью забыли взять необходимые вещи для погодных условий."
+            correctFeedback: "Great! 'Something warm' is correct because you forgot to pack a warm item for the trip.",
+            correctFeedbackRu: "Отлично! 'Something warm' подходит, потому что вы забыли взять какую-то тёплую вещь для поездки.",
+            incorrectFeedback: "Try again! **'Something' is correct.** We use 'something' in affirmative sentences when we mean an unspecified thing. Here it means you forgot to pack a warm item.",
+            incorrectFeedbackRu: "Попробуйте снова! **Правильный ответ — 'something'.** 'Something' используется в утвердительных предложениях, когда речь идёт о какой-то неопределённой вещи. Здесь это означает, что вы забыли взять тёплую вещь."
         },
         {
             question: "Complete the sentence with the correct indefinite pronoun:",
@@ -3618,12 +3618,12 @@ window.grammarExercises['pronouns']['indefinite-pronouns-sentence-page7'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["I", "forgot", "to", "pack", "anything", "warm", "for", "this", "trip."],
-            correctAnswer: "I forgot to pack anything warm for this trip.",
-            correctFeedback: "Great! 'I forgot to pack anything warm for this trip.' is correct. Perfect travel preparation mistake with 'anything'!",
-            correctFeedbackRu: "Отлично! 'I forgot to pack anything warm for this trip.' верно. Идеальная ошибка в подготовке к путешествию с 'anything'!",
-            incorrectFeedback: "Try again. Remember: I + past verb + to + verb + anything + adjective + for + this + noun.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: I + глагол в прошедшем времени + to + глагол + anything + прилагательное + for + this + существительное."
+            words: ["I", "forgot", "to", "pack", "something", "warm", "for", "this", "trip."],
+            correctAnswer: "I forgot to pack something warm for this trip.",
+            correctFeedback: "Great! 'I forgot to pack something warm for this trip.' is correct. This means you forgot to bring a warm item for the trip.",
+            correctFeedbackRu: "Отлично! 'I forgot to pack something warm for this trip.' — верно. Это означает, что вы забыли взять какую-то тёплую вещь для поездки.",
+            incorrectFeedback: "Try again. Remember the order: I + past verb + to + verb + something + adjective + for + this + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните порядок: I + глагол в прошедшем времени + to + глагол + something + прилагательное + for + this + существительное."
         },
         {
             question: "Form a correct sentence using these words:",

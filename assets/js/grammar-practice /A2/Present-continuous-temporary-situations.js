@@ -20,7 +20,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-page1
                 "stay / is being painted"
             ],
             correctAnswer: 0,
-            ccorrectFeedback: "Perfect! 'I am staying' (temporary living arrangement) and 'is being painted' (passive action happening now) - both show temporary situations in progress.",
+            correctFeedback: "Perfect! 'I am staying' (temporary living arrangement) and 'is being painted' (passive action happening now) - both show temporary situations in progress.",
             correctFeedbackRu: "Отлично! 'I am staying' (временное жилье) и 'is being painted' (пассивное действие, происходящее сейчас) - оба показывают временные ситуации в процессе.",
             incorrectFeedback: "Use Present Continuous for both parts: temporary living situation and ongoing passive action.",
             incorrectFeedbackRu: "Используйте Present Continuous для обеих частей: временная жилищная ситуация и продолжающееся пассивное действие."
@@ -2914,7 +2914,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "sister", "is", "staying", "with", "us", "this", "month"],
+            words: ["My", "sister", "is", "staying", "with", "us", "this", "month."],
             correctAnswer: "My sister is staying with us this month.",
             correctFeedback: "Perfect! 'My sister is staying with us this month' - Present Continuous shows temporary living arrangement with clear timeframe.",
             correctFeedbackRu: "Отлично! 'My sister is staying with us this month' - Present Continuous показывает временную жилищную договоренность с четкими временными рамками.",
@@ -2924,7 +2924,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "taking", "the", "bus", "while", "my", "car", "is", "broken"],
+            words: ["I", "am", "taking", "the", "bus", "while", "my", "car", "is", "broken."],
             correctAnswer: "I am taking the bus while my car is broken.",
             correctFeedback: "Great! 'I am taking the bus while my car is broken' - Present Continuous indicates temporary transport solution during current situation.",
             correctFeedbackRu: "Отлично! 'I am taking the bus while my car is broken' - Present Continuous указывает на временное транспортное решение во время текущей ситуации.",
@@ -2934,7 +2934,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "eating", "healthier", "food", "this", "week"],
+            words: ["We", "are", "eating", "healthier", "food", "this", "week."],
             correctAnswer: "We are eating healthier food this week.",
             correctFeedback: "Excellent! 'We are eating healthier food this week' - Present Continuous shows temporary dietary change with specific timeframe.",
             correctFeedbackRu: "Прекрасно! 'We are eating healthier food this week' - Present Continuous показывает временное изменение диеты с конкретными временными рамками.",
@@ -2944,7 +2944,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "sleeping", "late", "because", "of", "exams"],
+            words: ["She", "is", "sleeping", "late", "because", "of", "exams."],
             correctAnswer: "She is sleeping late because of exams.",
             correctFeedback: "Perfect! 'She is sleeping late because of exams' - Present Continuous describes temporary schedule change due to current circumstances.",
             correctFeedbackRu: "Отлично! 'She is sleeping late because of exams' - Present Continuous описывает временное изменение расписания из-за текущих обстоятельств.",
@@ -2954,7 +2954,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "learning", "French", "before", "their", "trip"],
+            words: ["They", "are", "learning", "French", "before", "their", "trip."],
             correctAnswer: "They are learning French before their trip.",
             correctFeedback: "Great! 'They are learning French before their trip' - Present Continuous shows temporary skill development with specific purpose.",
             correctFeedbackRu: "Отлично! 'They are learning French before their trip' - Present Continuous показывает временное развитие навыков с конкретной целью.",
@@ -2964,7 +2964,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "parents", "are", "saving", "money", "for", "a", "new", "house"],
+            words: ["My", "parents", "are", "saving", "money", "for", "a", "new", "house."],
             correctAnswer: "My parents are saving money for a new house.",
             correctFeedback: "Excellent! 'My parents are saving money for a new house' - Present Continuous indicates temporary financial behavior for specific goal.",
             correctFeedbackRu: "Прекрасно! 'My parents are saving money for a new house' - Present Continuous указывает на временное финансовое поведение для конкретной цели.",
@@ -2974,7 +2974,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["He", "is", "working", "extra", "hours", "this", "month"],
+            words: ["He", "is", "working", "extra", "hours", "this", "month."],
             correctAnswer: "He is working extra hours this month.",
             correctFeedback: "Perfect! 'He is working extra hours this month' - Present Continuous shows temporary work schedule change with clear timeframe.",
             correctFeedbackRu: "Отлично! 'He is working extra hours this month' - Present Continuous показывает временное изменение рабочего расписания с четкими временными рамками.",
@@ -2984,7 +2984,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "doing", "yoga", "every", "morning", "now"],
+            words: ["I", "am", "doing", "yoga", "every", "morning", "now."],
             correctAnswer: "I am doing yoga every morning now.",
             correctFeedback: "Great! 'I am doing yoga every morning now' - Present Continuous describes temporary addition to daily routine.",
             correctFeedbackRu: "Отлично! 'I am doing yoga every morning now' - Present Continuous описывает временное дополнение к ежедневному распорядку.",
@@ -2994,7 +2994,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "cooking", "at", "home", "more", "often", "lately"],
+            words: ["We", "are", "cooking", "at", "home", "more", "often", "lately."],
             correctAnswer: "We are cooking at home more often lately.",
             correctFeedback: "Excellent! 'We are cooking at home more often lately' - Present Continuous shows temporary change in dining habits.",
             correctFeedbackRu: "Прекрасно! 'We are cooking at home more often lately' - Present Continuous показывает временное изменение в привычках питания.",
@@ -3004,7 +3004,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "visiting", "her", "grandmother", "every", "day", "now"],
+            words: ["She", "is", "visiting", "her", "grandmother", "every", "day", "now."],
             correctAnswer: "She is visiting her grandmother every day now.",
             correctFeedback: "Perfect! 'She is visiting her grandmother every day now' - Present Continuous indicates temporary increase in family contact frequency.",
             correctFeedbackRu: "Отлично! 'She is visiting her grandmother every day now' - Present Continuous указывает на временное увеличение частоты семейного контакта.",
@@ -3023,7 +3023,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "brother", "is", "working", "in", "a", "cafe", "this", "summer"],
+            words: ["My", "brother", "is", "working", "in", "a", "cafe", "this", "summer."],
             correctAnswer: "My brother is working in a cafe this summer.",
             correctFeedback: "Perfect! 'My brother is working in a cafe this summer' - Present Continuous shows temporary summer employment with specific timeframe.",
             correctFeedbackRu: "Отлично! 'My brother is working in a cafe this summer' - Present Continuous показывает временную летнюю занятость с конкретными временными рамками.",
@@ -3033,7 +3033,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "taking", "a", "photography", "course", "this", "semester"],
+            words: ["She", "is", "taking", "a", "photography", "course", "this", "semester."],
             correctAnswer: "She is taking a photography course this semester.",
             correctFeedback: "Great! 'She is taking a photography course this semester' - Present Continuous indicates temporary educational activity with clear duration.",
             correctFeedbackRu: "Отлично! 'She is taking a photography course this semester' - Present Continuous указывает на временную образовательную активность с четкой продолжительностью.",
@@ -3043,7 +3043,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["The", "students", "are", "studying", "online", "this", "week"],
+            words: ["The", "students", "are", "studying", "online", "this", "week."],
             correctAnswer: "The students are studying online this week.",
             correctFeedback: "Excellent! 'The students are studying online this week' - Present Continuous shows temporary change in learning format.",
             correctFeedbackRu: "Прекрасно! 'The students are studying online this week' - Present Continuous показывает временное изменение в формате обучения.",
@@ -3053,7 +3053,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "covering", "night", "shifts", "this", "month"],
+            words: ["I", "am", "covering", "night", "shifts", "this", "month."],
             correctAnswer: "I am covering night shifts this month.",
             correctFeedback: "Perfect! 'I am covering night shifts this month' - Present Continuous describes temporary work schedule adjustment.",
             correctFeedbackRu: "Отлично! 'I am covering night shifts this month' - Present Continuous описывает временную корректировку рабочего расписания.",
@@ -3063,7 +3063,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["He", "is", "managing", "the", "team", "while", "the", "boss", "is", "away"],
+            words: ["He", "is", "managing", "the", "team", "while", "the", "boss", "is", "away."],
             correctAnswer: "He is managing the team while the boss is away.",
             correctFeedback: "Great! 'He is managing the team while the boss is away' - Present Continuous shows temporary leadership role during absence.",
             correctFeedbackRu: "Отлично! 'He is managing the team while the boss is away' - Present Continuous показывает временную руководящую роль во время отсутствия.",
@@ -3073,7 +3073,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "having", "meetings", "online", "during", "office", "renovation"],
+            words: ["We", "are", "having", "meetings", "online", "during", "office", "renovation."],
             correctAnswer: "We are having meetings online during office renovation.",
             correctFeedback: "Excellent! 'We are having meetings online during office renovation' - Present Continuous indicates temporary business operation change.",
             correctFeedbackRu: "Прекрасно! 'We are having meetings online during office renovation' - Present Continuous указывает на временное изменение бизнес-операций.",
@@ -3083,7 +3083,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["The", "company", "is", "cutting", "costs", "this", "quarter"],
+            words: ["The", "company", "is", "cutting", "costs", "this", "quarter."],
             correctAnswer: "The company is cutting costs this quarter.",
             correctFeedback: "Perfect! 'The company is cutting costs this quarter' - Present Continuous shows temporary business strategy with specific timeframe.",
             correctFeedbackRu: "Отлично! 'The company is cutting costs this quarter' - Present Continuous показывает временную бизнес-стратегию с конкретными временными рамками.",
@@ -3093,7 +3093,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["Two", "departments", "are", "working", "together", "on", "this", "project"],
+            words: ["Two", "departments", "are", "working", "together", "on", "this", "project."],
             correctAnswer: "Two departments are working together on this project.",
             correctFeedback: "Great! 'Two departments are working together on this project' - Present Continuous describes temporary collaboration for specific task.",
             correctFeedbackRu: "Отлично! 'Two departments are working together on this project' - Present Continuous описывает временное сотрудничество для конкретной задачи.",
@@ -3103,7 +3103,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "studying", "harder", "for", "better", "grades"],
+            words: ["She", "is", "studying", "harder", "for", "better", "grades."],
             correctAnswer: "She is studying harder for better grades.",
             correctFeedback: "Excellent! 'She is studying harder for better grades' - Present Continuous shows temporary academic effort increase with specific goal.",
             correctFeedbackRu: "Прекрасно! 'She is studying harder for better grades' - Present Continuous показывает временное увеличение академических усилий с конкретной целью.",
@@ -3113,7 +3113,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["The", "staff", "is", "training", "on", "new", "software", "this", "week"],
+            words: ["The", "staff", "is", "training", "on", "new", "software", "this", "week."],
             correctAnswer: "The staff is training on new software this week.",
             correctFeedback: "Perfect! 'The staff is training on new software this week' - Present Continuous indicates temporary professional development activity.",
             correctFeedbackRu: "Отлично! 'The staff is training on new software this week' - Present Continuous указывает на временную активность профессионального развития.",
@@ -3132,7 +3132,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "drinking", "less", "coffee", "to", "sleep", "better"],
+            words: ["I", "am", "drinking", "less", "coffee", "to", "sleep", "better."],
             correctAnswer: "I am drinking less coffee to sleep better.",
             correctFeedback: "Perfect! 'I am drinking less coffee to sleep better' - Present Continuous shows temporary health habit change with specific purpose.",
             correctFeedbackRu: "Отлично! 'I am drinking less coffee to sleep better' - Present Continuous показывает временное изменение привычки здоровья с конкретной целью.",
@@ -3142,7 +3142,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "hosting", "book", "club", "at", "home", "this", "winter"],
+            words: ["We", "are", "hosting", "book", "club", "at", "home", "this", "winter."],
             correctAnswer: "We are hosting book club at home this winter.",
             correctFeedback: "Great! 'We are hosting book club at home this winter' - Present Continuous indicates temporary location change for activity.",
             correctFeedbackRu: "Отлично! 'We are hosting book club at home this winter' - Present Continuous указывает на временное изменение места для активности.",
@@ -3152,7 +3152,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "babysitting", "her", "neighbor's", "children", "this", "week"],
+            words: ["She", "is", "babysitting", "her", "neighbor's", "children", "this", "week."],
             correctAnswer: "She is babysitting her neighbor's children this week.",
             correctFeedback: "Excellent! 'She is babysitting her neighbor's children this week' - Present Continuous shows temporary helping arrangement.",
             correctFeedbackRu: "Прекрасно! 'She is babysitting her neighbor's children this week' - Present Continuous показывает временную договоренность о помощи.",
@@ -3162,7 +3162,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "walking", "my", "friend's", "dog", "while", "she", "travels"],
+            words: ["I", "am", "walking", "my", "friend's", "dog", "while", "she", "travels."],
             correctAnswer: "I am walking my friend's dog while she travels.",
             correctFeedback: "Perfect! 'I am walking my friend's dog while she travels' - Present Continuous describes temporary pet care responsibility.",
             correctFeedbackRu: "Отлично! 'I am walking my friend's dog while she travels' - Present Continuous описывает временную ответственность по уходу за животными.",
@@ -3172,7 +3172,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["He", "is", "taking", "more", "photos", "with", "his", "new", "camera"],
+            words: ["He", "is", "taking", "more", "photos", "with", "his", "new", "camera."],
             correctAnswer: "He is taking more photos with his new camera.",
             correctFeedback: "Great! 'He is taking more photos with his new camera' - Present Continuous shows temporary increase in hobby activity.",
             correctFeedbackRu: "Отлично! 'He is taking more photos with his new camera' - Present Continuous показывает временное увеличение активности хобби.",
@@ -3182,7 +3182,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "taking", "a", "break", "from", "their", "relationship"],
+            words: ["They", "are", "taking", "a", "break", "from", "their", "relationship."],
             correctAnswer: "They are taking a break from their relationship.",
             correctFeedback: "Excellent! 'They are taking a break from their relationship' - Present Continuous indicates temporary relationship decision.",
             correctFeedbackRu: "Прекрасно! 'They are taking a break from their relationship' - Present Continuous указывает на временное решение в отношениях.",
@@ -3192,7 +3192,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "grandmother", "is", "living", "with", "us", "during", "renovation"],
+            words: ["My", "grandmother", "is", "living", "with", "us", "during", "renovation."],
             correctAnswer: "My grandmother is living with us during renovation.",
             correctFeedback: "Perfect! 'My grandmother is living with us during renovation' - Present Continuous shows temporary family housing arrangement.",
             correctFeedbackRu: "Отлично! 'My grandmother is living with us during renovation' - Present Continuous показывает временную семейную жилищную договоренность.",
@@ -3202,7 +3202,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "texting", "more", "because", "he", "is", "abroad"],
+            words: ["We", "are", "texting", "more", "because", "he", "is", "abroad."],
             correctAnswer: "We are texting more because he is abroad.",
             correctFeedback: "Great! 'We are texting more because he is abroad' - Present Continuous describes temporary change in communication method.",
             correctFeedbackRu: "Отлично! 'We are texting more because he is abroad' - Present Continuous описывает временное изменение в способе общения.",
@@ -3212,7 +3212,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["The", "family", "is", "playing", "board", "games", "more", "often"],
+            words: ["The", "family", "is", "playing", "board", "games", "more", "often."],
             correctAnswer: "The family is playing board games more often.",
             correctFeedback: "Excellent! 'The family is playing board games more often' - Present Continuous shows temporary change in entertainment choices.",
             correctFeedbackRu: "Прекрасно! 'The family is playing board games more often' - Present Continuous показывает временное изменение в выборе развлечений.",
@@ -3222,7 +3222,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "trying", "meditation", "apps", "for", "stress", "relief"],
+            words: ["I", "am", "trying", "meditation", "apps", "for", "stress", "relief."],
             correctAnswer: "I am trying meditation apps for stress relief.",
             correctFeedback: "Perfect! 'I am trying meditation apps for stress relief' - Present Continuous indicates temporary wellness strategy adoption.",
             correctFeedbackRu: "Отлично! 'I am trying meditation apps for stress relief' - Present Continuous указывает на временное принятие стратегии здоровья.",
@@ -3241,7 +3241,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "wearing", "warmer", "clothes", "because", "winter", "is", "coming"],
+            words: ["I", "am", "wearing", "warmer", "clothes", "because", "winter", "is", "coming."],
             correctAnswer: "I am wearing warmer clothes because winter is coming.",
             correctFeedback: "Perfect! 'I am wearing warmer clothes because winter is coming' - Present Continuous shows temporary seasonal clothing adjustment during weather transition.",
             correctFeedbackRu: "Отлично! 'I am wearing warmer clothes because winter is coming' - Present Continuous показывает временную сезонную корректировку одежды во время погодного перехода.",
@@ -3251,7 +3251,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "staying", "indoors", "because", "it", "is", "raining", "heavily"],
+            words: ["We", "are", "staying", "indoors", "because", "it", "is", "raining", "heavily."],
             correctAnswer: "We are staying indoors because it is raining heavily.",
             correctFeedback: "Great! 'We are staying indoors because it is raining heavily' - Present Continuous indicates temporary activity change due to current weather.",
             correctFeedbackRu: "Отлично! 'We are staying indoors because it is raining heavily' - Present Continuous указывает на временное изменение активности из-за текущей погоды.",
@@ -3261,7 +3261,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "family", "is", "using", "more", "heating", "this", "cold", "month"],
+            words: ["My", "family", "is", "using", "more", "heating", "this", "cold", "month."],
             correctAnswer: "My family is using more heating this cold month.",
             correctFeedback: "Excellent! 'My family is using more heating this cold month' - Present Continuous shows temporary seasonal consumption increase.",
             correctFeedbackRu: "Прекрасно! 'My family is using more heating this cold month' - Present Continuous показывает временное сезонное увеличение потребления.",
@@ -3271,7 +3271,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["The", "children", "are", "playing", "outside", "more", "because", "spring", "is", "here"],
+            words: ["The", "children", "are", "playing", "outside", "more", "because", "spring", "is", "here."],
             correctAnswer: "The children are playing outside more because spring is here.",
             correctFeedback: "Perfect! 'The children are playing outside more because spring is here' - Present Continuous describes temporary activity increase due to better weather.",
             correctFeedbackRu: "Отлично! 'The children are playing outside more because spring is here' - Present Continuous описывает временное увеличение активности из-за лучшей погоды.",
@@ -3281,7 +3281,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "drinking", "hot", "tea", "because", "the", "weather", "is", "cold"],
+            words: ["We", "are", "drinking", "hot", "tea", "because", "the", "weather", "is", "cold."],
             correctAnswer: "We are drinking hot tea because the weather is cold.",
             correctFeedback: "Great! 'We are drinking hot tea because the weather is cold' - Present Continuous shows temporary beverage preference during cold weather.",
             correctFeedbackRu: "Отлично! 'We are drinking hot tea because the weather is cold' - Present Continuous показывает временное предпочтение напитков в холодную погоду.",
@@ -3291,7 +3291,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "driving", "to", "work", "because", "trains", "are", "delayed"],
+            words: ["She", "is", "driving", "to", "work", "because", "trains", "are", "delayed."],
             correctAnswer: "She is driving to work because trains are delayed.",
             correctFeedback: "Excellent! 'She is driving to work because trains are delayed' - Present Continuous indicates temporary transport change due to weather problems.",
             correctFeedbackRu: "Прекрасно! 'She is driving to work because trains are delayed' - Present Continuous указывает на временное изменение транспорта из-за погодных проблем.",
@@ -3301,7 +3301,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "closing", "all", "windows", "because", "it", "is", "getting", "windy"],
+            words: ["I", "am", "closing", "all", "windows", "because", "it", "is", "getting", "windy."],
             correctAnswer: "I am closing all windows because it is getting windy.",
             correctFeedback: "Perfect! 'I am closing all windows because it is getting windy' - Present Continuous shows temporary protective action during changing weather.",
             correctFeedbackRu: "Отлично! 'I am closing all windows because it is getting windy' - Present Continuous показывает временное защитное действие во время изменения погоды.",
@@ -3311,7 +3311,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "exercising", "indoors", "because", "air", "quality", "is", "poor"],
+            words: ["They", "are", "exercising", "indoors", "because", "air", "quality", "is", "poor."],
             correctAnswer: "They are exercising indoors because air quality is poor.",
             correctFeedback: "Great! 'They are exercising indoors because air quality is poor' - Present Continuous describes temporary location change for health protection.",
             correctFeedbackRu: "Отлично! 'They are exercising indoors because air quality is poor' - Present Continuous описывает временное изменение места для защиты здоровья.",
@@ -3321,7 +3321,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "mother", "is", "moving", "plants", "inside", "because", "frost", "is", "coming"],
+            words: ["My", "mother", "is", "moving", "plants", "inside", "because", "frost", "is", "coming."],
             correctAnswer: "My mother is moving plants inside because frost is coming.",
             correctFeedback: "Excellent! 'My mother is moving plants inside because frost is coming' - Present Continuous shows temporary plant protection during weather threat.",
             correctFeedbackRu: "Прекрасно! 'My mother is moving plants inside because frost is coming' - Present Continuous показывает временную защиту растений во время погодной угрозы.",
@@ -3331,7 +3331,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["Everyone", "is", "feeling", "happier", "because", "sunny", "weather", "is", "returning"],
+            words: ["Everyone", "is", "feeling", "happier", "because", "sunny", "weather", "is", "returning."],
             correctAnswer: "Everyone is feeling happier because sunny weather is returning.",
             correctFeedback: "Perfect! 'Everyone is feeling happier because sunny weather is returning' - Present Continuous indicates temporary mood improvement during seasonal change.",
             correctFeedbackRu: "Отлично! 'Everyone is feeling happier because sunny weather is returning' - Present Continuous указывает на временное улучшение настроения во время сезонного изменения.",
@@ -3350,7 +3350,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "borrowing", "my", "sister's", "phone", "this", "week"],
+            words: ["I", "am", "borrowing", "my", "sister's", "phone", "this", "week."],
             correctAnswer: "I am borrowing my sister's phone this week.",
             correctFeedback: "Perfect! 'I am borrowing my sister's phone this week' - Present Continuous shows temporary device replacement with clear timeframe.",
             correctFeedbackRu: "Отлично! 'I am borrowing my sister's phone this week' - Present Continuous показывает временную замену устройства с четкими временными рамками.",
@@ -3360,7 +3360,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "using", "mobile", "data", "because", "WiFi", "is", "broken"],
+            words: ["We", "are", "using", "mobile", "data", "because", "WiFi", "is", "broken."],
             correctAnswer: "We are using mobile data because WiFi is broken.",
             correctFeedback: "Great! 'We are using mobile data because WiFi is broken' - Present Continuous indicates temporary internet solution during technical problems.",
             correctFeedbackRu: "Отлично! 'We are using mobile data because WiFi is broken' - Present Continuous указывает на временное интернет-решение во время технических проблем.",
@@ -3370,7 +3370,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "testing", "new", "health", "apps", "this", "month"],
+            words: ["She", "is", "testing", "new", "health", "apps", "this", "month."],
             correctAnswer: "She is testing new health apps this month.",
             correctFeedback: "Excellent! 'She is testing new health apps this month' - Present Continuous shows temporary technology experimentation with specific duration.",
             correctFeedbackRu: "Прекрасно! 'She is testing new health apps this month' - Present Continuous показывает временное экспериментирование с технологией с конкретной продолжительностью.",
@@ -3380,7 +3380,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "family", "is", "trying", "different", "streaming", "services", "now"],
+            words: ["My", "family", "is", "trying", "different", "streaming", "services", "now."],
             correctAnswer: "My family is trying different streaming services now.",
             correctFeedback: "Perfect! 'My family is trying different streaming services now' - Present Continuous describes temporary entertainment service exploration.",
             correctFeedbackRu: "Отлично! 'My family is trying different streaming services now' - Present Continuous описывает временное исследование развлекательных сервисов.",
@@ -3390,7 +3390,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["He", "is", "using", "a", "work", "laptop", "at", "home", "temporarily"],
+            words: ["He", "is", "using", "a", "work", "laptop", "at", "home", "temporarily."],
             correctAnswer: "He is using a work laptop at home temporarily.",
             correctFeedback: "Great! 'He is using a work laptop at home temporarily' - Present Continuous indicates temporary equipment arrangement during remote work.",
             correctFeedbackRu: "Отлично! 'He is using a work laptop at home temporarily' - Present Continuous указывает на временную договоренность об оборудовании во время удаленной работы.",
@@ -3400,7 +3400,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "limiting", "social", "media", "to", "focus", "better"],
+            words: ["I", "am", "limiting", "social", "media", "to", "focus", "better."],
             correctAnswer: "I am limiting social media to focus better.",
             correctFeedback: "Excellent! 'I am limiting social media to focus better' - Present Continuous shows temporary digital habit modification for productivity.",
             correctFeedbackRu: "Прекрасно! 'I am limiting social media to focus better' - Present Continuous показывает временную модификацию цифровых привычек для продуктивности.",
@@ -3410,7 +3410,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["The", "kids", "are", "reading", "books", "instead", "of", "watching", "screens"],
+            words: ["The", "kids", "are", "reading", "books", "instead", "of", "watching", "screens."],
             correctAnswer: "The kids are reading books instead of watching screens.",
             correctFeedback: "Perfect! 'The kids are reading books instead of watching screens' - Present Continuous indicates temporary entertainment shift away from digital devices.",
             correctFeedbackRu: "Отлично! 'The kids are reading books instead of watching screens' - Present Continuous указывает на временный сдвиг развлечений от цифровых устройств.",
@@ -3420,7 +3420,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "paying", "with", "cash", "because", "our", "card", "is", "not", "working"],
+            words: ["We", "are", "paying", "with", "cash", "because", "our", "card", "is", "not", "working."],
             correctAnswer: "We are paying with cash because our card is not working.",
             correctFeedback: "Great! 'We are paying with cash because our card is not working' - Present Continuous describes temporary payment method change during card problems.",
             correctFeedbackRu: "Отлично! 'We are paying with cash because our card is not working' - Present Continuous описывает временное изменение способа оплаты во время проблем с картой.",
@@ -3430,7 +3430,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "learning", "through", "online", "courses", "this", "year"],
+            words: ["She", "is", "learning", "through", "online", "courses", "this", "year."],
             correctAnswer: "She is learning through online courses this year.",
             correctFeedback: "Excellent! 'She is learning through online courses this year' - Present Continuous shows temporary educational method with specific timeframe.",
             correctFeedbackRu: "Прекрасно! 'She is learning through online courses this year' - Present Continuous показывает временный образовательный метод с конкретными временными рамками.",
@@ -3440,7 +3440,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "having", "virtual", "meetings", "during", "office", "closure"],
+            words: ["They", "are", "having", "virtual", "meetings", "during", "office", "closure."],
             correctAnswer: "They are having virtual meetings during office closure.",
             correctFeedback: "Perfect! 'They are having virtual meetings during office closure' - Present Continuous indicates temporary business communication change during specific circumstances.",
             correctFeedbackRu: "Отлично! 'They are having virtual meetings during office closure' - Present Continuous указывает на временное изменение делового общения в конкретных обстоятельствах.",
@@ -3459,7 +3459,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "eating", "more", "fruit", "to", "stay", "healthy"],
+            words: ["I", "am", "eating", "more", "fruit", "to", "stay", "healthy."],
             correctAnswer: "I am eating more fruit to stay healthy.",
             correctFeedback: "Perfect! 'I am eating more fruit to stay healthy' - Present Continuous shows temporary diet improvement with specific health goal.",
             correctFeedbackRu: "Отлично! 'I am eating more fruit to stay healthy' - Present Continuous показывает временное улучшение диеты с конкретной целью здоровья.",
@@ -3469,7 +3469,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "practicing", "meditation", "every", "evening", "now"],
+            words: ["She", "is", "practicing", "meditation", "every", "evening", "now."],
             correctAnswer: "She is practicing meditation every evening now.",
             correctFeedback: "Great! 'She is practicing meditation every evening now' - Present Continuous indicates temporary wellness routine addition for stress management.",
             correctFeedbackRu: "Отлично! 'She is practicing meditation every evening now' - Present Continuous указывает на временное добавление оздоровительной рутины для управления стрессом.",
@@ -3479,7 +3479,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "going", "to", "bed", "earlier", "this", "week"],
+            words: ["We", "are", "going", "to", "bed", "earlier", "this", "week."],
             correctAnswer: "We are going to bed earlier this week.",
             correctFeedback: "Excellent! 'We are going to bed earlier this week' - Present Continuous shows temporary sleep schedule adjustment with specific timeframe.",
             correctFeedbackRu: "Прекрасно! 'We are going to bed earlier this week' - Present Continuous показывает временную корректировку режима сна с конкретными временными рамками.",
@@ -3489,7 +3489,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["He", "is", "drinking", "more", "water", "on", "doctor's", "advice"],
+            words: ["He", "is", "drinking", "more", "water", "on", "doctor's", "advice."],
             correctAnswer: "He is drinking more water on doctor's advice.",
             correctFeedback: "Perfect! 'He is drinking more water on doctor's advice' - Present Continuous describes temporary health behavior change following medical guidance.",
             correctFeedbackRu: "Отлично! 'He is drinking more water on doctor's advice' - Present Continuous описывает временное изменение поведения здоровья, следуя медицинским рекомендациям.",
@@ -3499,7 +3499,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "family", "is", "walking", "together", "every", "evening", "lately"],
+            words: ["My", "family", "is", "walking", "together", "every", "evening", "lately."],
             correctAnswer: "My family is walking together every evening lately.",
             correctFeedback: "Great! 'My family is walking together every evening lately' - Present Continuous indicates temporary family fitness activity increase.",
             correctFeedbackRu: "Отлично! 'My family is walking together every evening lately' - Present Continuous указывает на временное увеличение семейной фитнес-активности.",
@@ -3509,7 +3509,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "taking", "vitamin", "supplements", "during", "winter", "months"],
+            words: ["I", "am", "taking", "vitamin", "supplements", "during", "winter", "months."],
             correctAnswer: "I am taking vitamin supplements during winter months.",
             correctFeedback: "Excellent! 'I am taking vitamin supplements during winter months' - Present Continuous shows temporary health support during seasonal vulnerability.",
             correctFeedbackRu: "Прекрасно! 'I am taking vitamin supplements during winter months' - Present Continuous показывает временную поддержку здоровья во время сезонной уязвимости.",
@@ -3519,7 +3519,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["The", "children", "are", "spending", "less", "time", "on", "computers"],
+            words: ["The", "children", "are", "spending", "less", "time", "on", "computers."],
             correctAnswer: "The children are spending less time on computers.",
             correctFeedback: "Perfect! 'The children are spending less time on computers' - Present Continuous indicates temporary reduction in screen time for health protection.",
             correctFeedbackRu: "Отлично! 'The children are spending less time on computers' - Present Continuous указывает на временное сокращение экранного времени для защиты здоровья.",
@@ -3529,7 +3529,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "using", "relaxation", "techniques", "to", "manage", "stress"],
+            words: ["She", "is", "using", "relaxation", "techniques", "to", "manage", "stress."],
             correctAnswer: "She is using relaxation techniques to manage stress.",
             correctFeedback: "Great! 'She is using relaxation techniques to manage stress' - Present Continuous describes temporary stress management strategy adoption.",
             correctFeedbackRu: "Отлично! 'She is using relaxation techniques to manage stress' - Present Continuous описывает временное принятие стратегии управления стрессом.",
@@ -3539,7 +3539,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "focusing", "on", "posture", "because", "backs", "hurt"],
+            words: ["They", "are", "focusing", "on", "posture", "because", "backs", "hurt."],
             correctAnswer: "They are focusing on posture because backs hurt.",
             correctFeedback: "Excellent! 'They are focusing on posture because backs hurt' - Present Continuous shows temporary body awareness increase during physical discomfort.",
             correctFeedbackRu: "Прекрасно! 'They are focusing on posture because backs hurt' - Present Continuous показывает временное увеличение осознания тела во время физического дискомфорта.",
@@ -3549,7 +3549,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["He", "is", "quitting", "smoking", "to", "improve", "his", "health"],
+            words: ["He", "is", "quitting", "smoking", "to", "improve", "his", "health."],
             correctAnswer: "He is quitting smoking to improve his health.",
             correctFeedback: "Perfect! 'He is quitting smoking to improve his health' - Present Continuous indicates temporary cessation effort for specific health improvement goal.",
             correctFeedbackRu: "Отлично! 'He is quitting smoking to improve his health' - Present Continuous указывает на временные усилия по прекращению для конкретной цели улучшения здоровья.",
@@ -3568,7 +3568,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "spending", "less", "money", "to", "save", "for", "vacation"],
+            words: ["I", "am", "spending", "less", "money", "to", "save", "for", "vacation."],
             correctAnswer: "I am spending less money to save for vacation.",
             correctFeedback: "Perfect! 'I am spending less money to save for vacation' - Present Continuous shows temporary financial behavior change for specific savings goal.",
             correctFeedbackRu: "Отлично! 'I am spending less money to save for vacation' - Present Continuous показывает временное изменение финансового поведения для конкретной цели сбережений.",
@@ -3578,7 +3578,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "buying", "groceries", "at", "cheaper", "stores", "now"],
+            words: ["We", "are", "buying", "groceries", "at", "cheaper", "stores", "now."],
             correctAnswer: "We are buying groceries at cheaper stores now.",
             correctFeedback: "Great! 'We are buying groceries at cheaper stores now' - Present Continuous indicates temporary shopping location change for budget reasons.",
             correctFeedbackRu: "Отлично! 'We are buying groceries at cheaper stores now' - Present Continuous указывает на временное изменение места покупок по бюджетным причинам.",
@@ -3588,7 +3588,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "preparing", "meals", "at", "home", "to", "save", "money"],
+            words: ["She", "is", "preparing", "meals", "at", "home", "to", "save", "money."],
             correctAnswer: "She is preparing meals at home to save money.",
             correctFeedback: "Excellent! 'She is preparing meals at home to save money' - Present Continuous shows temporary cooking habit change for financial reasons.",
             correctFeedbackRu: "Прекрасно! 'She is preparing meals at home to save money' - Present Continuous показывает временное изменение привычки готовки по финансовым причинам.",
@@ -3598,7 +3598,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "family", "is", "using", "cash", "to", "control", "spending"],
+            words: ["My", "family", "is", "using", "cash", "to", "control", "spending."],
             correctAnswer: "My family is using cash to control spending.",
             correctFeedback: "Perfect! 'My family is using cash to control spending' - Present Continuous describes temporary payment method change for budget management.",
             correctFeedbackRu: "Отлично! 'My family is using cash to control spending' - Present Continuous описывает временное изменение способа оплаты для управления бюджетом.",
@@ -3608,7 +3608,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["He", "is", "buying", "only", "necessary", "things", "this", "year"],
+            words: ["He", "is", "buying", "only", "necessary", "things", "this", "year."],
             correctAnswer: "He is buying only necessary things this year.",
             correctFeedback: "Great! 'He is buying only necessary things this year' - Present Continuous indicates temporary purchasing restriction with specific timeframe.",
             correctFeedbackRu: "Отлично! 'He is buying only necessary things this year' - Present Continuous указывает на временное ограничение покупок с конкретными временными рамками.",
@@ -3618,7 +3618,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "creating", "handmade", "gifts", "this", "holiday", "season"],
+            words: ["They", "are", "creating", "handmade", "gifts", "this", "holiday", "season."],
             correctAnswer: "They are creating handmade gifts this holiday season.",
             correctFeedback: "Excellent! 'They are creating handmade gifts this holiday season' - Present Continuous shows temporary creative economy solution during specific period.",
             correctFeedbackRu: "Прекрасно! 'They are creating handmade gifts this holiday season' - Present Continuous показывает временное креативное экономическое решение в определенный период.",
@@ -3628,7 +3628,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "canceling", "subscriptions", "to", "reduce", "monthly", "expenses"],
+            words: ["I", "am", "canceling", "subscriptions", "to", "reduce", "monthly", "expenses."],
             correctAnswer: "I am canceling subscriptions to reduce monthly expenses.",
             correctFeedback: "Perfect! 'I am canceling subscriptions to reduce monthly expenses' - Present Continuous indicates temporary service reduction for budget control.",
             correctFeedbackRu: "Отлично! 'I am canceling subscriptions to reduce monthly expenses' - Present Continuous указывает на временное сокращение услуг для контроля бюджета.",
@@ -3638,7 +3638,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "searching", "for", "discounts", "before", "making", "purchases"],
+            words: ["We", "are", "searching", "for", "discounts", "before", "making", "purchases."],
             correctAnswer: "We are searching for discounts before making purchases.",
             correctFeedback: "Great! 'We are searching for discounts before making purchases' - Present Continuous describes temporary bargain hunting strategy during budget constraints.",
             correctFeedbackRu: "Отлично! 'We are searching for discounts before making purchases' - Present Continuous описывает временную стратегию поиска скидок во время бюджетных ограничений.",
@@ -3648,7 +3648,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "working", "part-time", "to", "earn", "extra", "income"],
+            words: ["She", "is", "working", "part-time", "to", "earn", "extra", "income."],
             correctAnswer: "She is working part-time to earn extra income.",
             correctFeedback: "Excellent! 'She is working part-time to earn extra income' - Present Continuous shows temporary additional work for financial needs.",
             correctFeedbackRu: "Прекрасно! 'She is working part-time to earn extra income' - Present Continuous показывает временную дополнительную работу для финансовых потребностей.",
@@ -3658,7 +3658,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "parents", "are", "monitoring", "expenses", "more", "carefully", "lately"],
+            words: ["My", "parents", "are", "monitoring", "expenses", "more", "carefully", "lately."],
             correctAnswer: "My parents are monitoring expenses more carefully lately.",
             correctFeedback: "Perfect! 'My parents are monitoring expenses more carefully lately' - Present Continuous indicates temporary increase in financial vigilance during economic uncertainty.",
             correctFeedbackRu: "Отлично! 'My parents are monitoring expenses more carefully lately' - Present Continuous указывает на временное увеличение финансовой бдительности во время экономической неопределенности.",
@@ -3677,7 +3677,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "walking", "to", "work", "while", "my", "bike", "is", "repaired"],
+            words: ["I", "am", "walking", "to", "work", "while", "my", "bike", "is", "repaired."],
             correctAnswer: "I am walking to work while my bike is repaired.",
             correctFeedback: "Perfect! 'I am walking to work while my bike is repaired' - Present Continuous shows temporary transport change during vehicle maintenance.",
             correctFeedbackRu: "Отлично! 'I am walking to work while my bike is repaired' - Present Continuous показывает временное изменение транспорта во время обслуживания транспортного средства.",
@@ -3687,7 +3687,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "using", "alternative", "routes", "during", "road", "construction"],
+            words: ["We", "are", "using", "alternative", "routes", "during", "road", "construction."],
             correctAnswer: "We are using alternative routes during road construction.",
             correctFeedback: "Great! 'We are using alternative routes during road construction' - Present Continuous indicates temporary travel adjustment during infrastructure work.",
             correctFeedbackRu: "Отлично! 'We are using alternative routes during road construction' - Present Continuous указывает на временную корректировку путешествий во время инфраструктурных работ.",
@@ -3697,7 +3697,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "parking", "farther", "away", "because", "of", "construction"],
+            words: ["She", "is", "parking", "farther", "away", "because", "of", "construction."],
             correctAnswer: "She is parking farther away because of construction.",
             correctFeedback: "Excellent! 'She is parking farther away because of construction' - Present Continuous shows temporary parking adjustment during building work.",
             correctFeedbackRu: "Прекрасно! 'She is parking farther away because of construction' - Present Continuous показывает временную корректировку парковки во время строительных работ.",
@@ -3707,7 +3707,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["He", "is", "taking", "trains", "to", "save", "on", "gas", "costs"],
+            words: ["He", "is", "taking", "trains", "to", "save", "on", "gas", "costs."],
             correctAnswer: "He is taking trains to save on gas costs.",
             correctFeedback: "Perfect! 'He is taking trains to save on gas costs' - Present Continuous describes temporary transport choice for economic reasons.",
             correctFeedbackRu: "Отлично! 'He is taking trains to save on gas costs' - Present Continuous описывает временный выбор транспорта по экономическим причинам.",
@@ -3717,7 +3717,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "family", "is", "cycling", "more", "for", "exercise", "and", "fresh", "air"],
+            words: ["My", "family", "is", "cycling", "more", "for", "exercise", "and", "fresh", "air."],
             correctAnswer: "My family is cycling more for exercise and fresh air.",
             correctFeedback: "Great! 'My family is cycling more for exercise and fresh air' - Present Continuous indicates temporary lifestyle transport increase for health benefits.",
             correctFeedbackRu: "Отлично! 'My family is cycling more for exercise and fresh air' - Present Continuous указывает на временное увеличение транспорта образа жизни для пользы здоровья.",
@@ -3727,7 +3727,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "carpooling", "because", "one", "car", "broke", "down"],
+            words: ["They", "are", "carpooling", "because", "one", "car", "broke", "down."],
             correctAnswer: "They are carpooling because one car broke down.",
             correctFeedback: "Excellent! 'They are carpooling because one car broke down' - Present Continuous shows temporary shared transportation during vehicle problems.",
             correctFeedbackRu: "Прекрасно! 'They are carpooling because one car broke down' - Present Continuous показывает временный совместный транспорт во время проблем с автомобилем.",
@@ -3737,7 +3737,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "calling", "taxis", "because", "buses", "are", "on", "strike"],
+            words: ["I", "am", "calling", "taxis", "because", "buses", "are", "on", "strike."],
             correctAnswer: "I am calling taxis because buses are on strike.",
             correctFeedback: "Perfect! 'I am calling taxis because buses are on strike' - Present Continuous indicates temporary transport alternative during service disruption.",
             correctFeedbackRu: "Отлично! 'I am calling taxis because buses are on strike' - Present Continuous указывает на временную транспортную альтернативу во время прерывания услуг.",
@@ -3747,7 +3747,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "traveling", "less", "because", "prices", "have", "increased"],
+            words: ["We", "are", "traveling", "less", "because", "prices", "have", "increased."],
             correctAnswer: "We are traveling less because prices have increased.",
             correctFeedback: "Great! 'We are traveling less because prices have increased' - Present Continuous describes temporary reduction in travel frequency due to cost factors.",
             correctFeedbackRu: "Отлично! 'We are traveling less because prices have increased' - Present Continuous описывает временное сокращение частоты путешествий из-за факторов стоимости.",
@@ -3757,7 +3757,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "leaving", "home", "earlier", "to", "avoid", "traffic"],
+            words: ["She", "is", "leaving", "home", "earlier", "to", "avoid", "traffic."],
             correctAnswer: "She is leaving home earlier to avoid traffic.",
             correctFeedback: "Excellent! 'She is leaving home earlier to avoid traffic' - Present Continuous shows temporary schedule adjustment for traffic management.",
             correctFeedbackRu: "Прекрасно! 'She is leaving home earlier to avoid traffic' - Present Continuous показывает временную корректировку расписания для управления трафиком.",
@@ -3767,7 +3767,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "choosing", "budget", "flights", "to", "save", "money"],
+            words: ["They", "are", "choosing", "budget", "flights", "to", "save", "money."],
             correctAnswer: "They are choosing budget flights to save money.",
             correctFeedback: "Perfect! 'They are choosing budget flights to save money' - Present Continuous indicates temporary travel economy for financial planning.",
             correctFeedbackRu: "Отлично! 'They are choosing budget flights to save money' - Present Continuous указывает на временную экономию путешествий для финансового планирования.",
@@ -3786,7 +3786,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "helping", "my", "neighbor", "while", "her", "family", "is", "away"],
+            words: ["I", "am", "helping", "my", "neighbor", "while", "her", "family", "is", "away."],
             correctAnswer: "I am helping my neighbor while her family is away.",
             correctFeedback: "Perfect! 'I am helping my neighbor while her family is away' - Present Continuous shows temporary community assistance during family absence.",
             correctFeedbackRu: "Отлично! 'I am helping my neighbor while her family is away' - Present Continuous показывает временную помощь сообщества во время отсутствия семьи.",
@@ -3796,7 +3796,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "seeing", "our", "grandparents", "more", "often", "lately"],
+            words: ["We", "are", "seeing", "our", "grandparents", "more", "often", "lately."],
             correctAnswer: "We are seeing our grandparents more often lately.",
             correctFeedback: "Great! 'We are seeing our grandparents more often lately' - Present Continuous indicates temporary increase in family visits during current circumstances.",
             correctFeedbackRu: "Отлично! 'We are seeing our grandparents more often lately' - Present Continuous указывает на временное увеличение семейных визитов в текущих обстоятельствах.",
@@ -3806,7 +3806,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "picking", "up", "kids", "earlier", "this", "week"],
+            words: ["She", "is", "picking", "up", "kids", "earlier", "this", "week."],
             correctAnswer: "She is picking up kids earlier this week.",
             correctFeedback: "Excellent! 'She is picking up kids earlier this week' - Present Continuous shows temporary childcare schedule adjustment with specific timeframe.",
             correctFeedbackRu: "Прекрасно! 'She is picking up kids earlier this week' - Present Continuous показывает временную корректировку расписания ухода за детьми с конкретными временными рамками.",
@@ -3816,7 +3816,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["He", "is", "calling", "his", "parents", "daily", "during", "difficult", "times"],
+            words: ["He", "is", "calling", "his", "parents", "daily", "during", "difficult", "times."],
             correctAnswer: "He is calling his parents daily during difficult times.",
             correctFeedback: "Perfect! 'He is calling his parents daily during difficult times' - Present Continuous describes temporary communication increase during challenging period.",
             correctFeedbackRu: "Отлично! 'He is calling his parents daily during difficult times' - Present Continuous описывает временное увеличение общения в сложный период.",
@@ -3826,7 +3826,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "sharing", "household", "tasks", "while", "help", "is", "unavailable"],
+            words: ["They", "are", "sharing", "household", "tasks", "while", "help", "is", "unavailable."],
             correctAnswer: "They are sharing household tasks while help is unavailable.",
             correctFeedback: "Great! 'They are sharing household tasks while help is unavailable' - Present Continuous indicates temporary responsibility redistribution during service absence.",
             correctFeedbackRu: "Отлично! 'They are sharing household tasks while help is unavailable' - Present Continuous указывает на временное перераспределение обязанностей во время отсутствия услуг.",
@@ -3836,7 +3836,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "sister", "is", "feeding", "my", "cat", "while", "I", "travel"],
+            words: ["My", "sister", "is", "feeding", "my", "cat", "while", "I", "travel."],
             correctAnswer: "My sister is feeding my cat while I travel.",
             correctFeedback: "Excellent! 'My sister is feeding my cat while I travel' - Present Continuous shows temporary pet care arrangement during owner's absence.",
             correctFeedbackRu: "Прекрасно! 'My sister is feeding my cat while I travel' - Present Continuous показывает временную договоренность об уходе за животными во время отсутствия владельца.",
@@ -3846,7 +3846,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "having", "family", "dinners", "more", "frequently", "now"],
+            words: ["We", "are", "having", "family", "dinners", "more", "frequently", "now."],
             correctAnswer: "We are having family dinners more frequently now.",
             correctFeedback: "Perfect! 'We are having family dinners more frequently now' - Present Continuous indicates temporary increase in family bonding activities.",
             correctFeedbackRu: "Отлично! 'We are having family dinners more frequently now' - Present Continuous указывает на временное увеличение семейных сплачивающих активностей.",
@@ -3856,7 +3856,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "spending", "time", "alone", "to", "think", "about", "future"],
+            words: ["She", "is", "spending", "time", "alone", "to", "think", "about", "future."],
             correctAnswer: "She is spending time alone to think about future.",
             correctFeedback: "Great! 'She is spending time alone to think about future' - Present Continuous describes temporary personal space for life reflection.",
             correctFeedbackRu: "Отлично! 'She is spending time alone to think about future' - Present Continuous описывает временное личное пространство для жизненных размышлений.",
@@ -3866,7 +3866,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "supporting", "my", "friend", "through", "her", "divorce"],
+            words: ["I", "am", "supporting", "my", "friend", "through", "her", "divorce."],
             correctAnswer: "I am supporting my friend through her divorce.",
             correctFeedback: "Excellent! 'I am supporting my friend through her divorce' - Present Continuous shows temporary intensive emotional support during major life crisis.",
             correctFeedbackRu: "Прекрасно! 'I am supporting my friend through her divorce' - Present Continuous показывает временную интенсивную эмоциональную поддержку во время крупного жизненного кризиса.",
@@ -3876,7 +3876,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "cousin", "is", "staying", "here", "during", "his", "university", "semester"],
+            words: ["My", "cousin", "is", "staying", "here", "during", "his", "university", "semester."],
             correctAnswer: "My cousin is staying here during his university semester.",
             correctFeedback: "Perfect! 'My cousin is staying here during his university semester' - Present Continuous indicates temporary family housing during educational period.",
             correctFeedbackRu: "Отлично! 'My cousin is staying here during his university semester' - Present Continuous указывает на временное семейное жилье в период образования.",
@@ -3895,7 +3895,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "renovating", "our", "kitchen", "ourselves", "this", "summer"],
+            words: ["We", "are", "renovating", "our", "kitchen", "ourselves", "this", "summer."],
             correctAnswer: "We are renovating our kitchen ourselves this summer.",
             correctFeedback: "Great! 'We are renovating our kitchen ourselves this summer' - Present Continuous indicates temporary DIY home improvement project with specific timeframe.",
             correctFeedbackRu: "Отлично! 'We are renovating our kitchen ourselves this summer' - Present Continuous указывает на временный проект улучшения дома своими руками с конкретными временными рамками.",
@@ -3905,7 +3905,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "packing", "belongings", "because", "she", "is", "moving", "soon"],
+            words: ["She", "is", "packing", "belongings", "because", "she", "is", "moving", "soon."],
             correctAnswer: "She is packing belongings because she is moving soon.",
             correctFeedback: "Excellent! 'She is packing belongings because she is moving soon' - Present Continuous shows temporary relocation preparation activity.",
             correctFeedbackRu: "Прекрасно! 'She is packing belongings because she is moving soon' - Present Continuous показывает временную подготовительную активность к переезду.",
@@ -3915,7 +3915,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "family", "is", "growing", "vegetables", "to", "reduce", "grocery", "costs"],
+            words: ["My", "family", "is", "growing", "vegetables", "to", "reduce", "grocery", "costs."],
             correctAnswer: "My family is growing vegetables to reduce grocery costs.",
             correctFeedback: "Perfect! 'My family is growing vegetables to reduce grocery costs' - Present Continuous describes temporary self-sufficiency project for economic reasons.",
             correctFeedbackRu: "Отлично! 'My family is growing vegetables to reduce grocery costs' - Present Continuous описывает временный проект самообеспечения по экономическим причинам.",
@@ -3925,7 +3925,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "wearing", "earplugs", "at", "night", "because", "construction", "starts", "early"],
+            words: ["We", "are", "wearing", "earplugs", "at", "night", "because", "construction", "starts", "early."],
             correctAnswer: "We are wearing earplugs at night because construction starts early.",
             correctFeedback: "Great! 'We are wearing earplugs at night because construction starts early' - Present Continuous indicates temporary noise management during neighborhood disruption.",
             correctFeedbackRu: "Отлично! 'We are wearing earplugs at night because construction starts early' - Present Continuous указывает на временное управление шумом во время соседских нарушений.",
@@ -3935,7 +3935,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["They", "are", "running", "electric", "heaters", "because", "heating", "system", "failed"],
+            words: ["They", "are", "running", "electric", "heaters", "because", "heating", "system", "failed."],
             correctAnswer: "They are running electric heaters because heating system failed.",
             correctFeedback: "Excellent! 'They are running electric heaters because heating system failed' - Present Continuous shows temporary comfort solution during system breakdown.",
             correctFeedbackRu: "Прекрасно! 'They are running electric heaters because heating system failed' - Present Continuous показывает временное решение комфорта во время поломки системы.",
@@ -3945,7 +3945,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["I", "am", "double-checking", "locks", "because", "crime", "rates", "are", "increasing"],
+            words: ["I", "am", "double-checking", "locks", "because", "crime", "rates", "are", "increasing."],
             correctAnswer: "I am double-checking locks because crime rates are increasing.",
             correctFeedback: "Perfect! 'I am double-checking locks because crime rates are increasing' - Present Continuous indicates temporary security vigilance during safety concerns.",
             correctFeedbackRu: "Отлично! 'I am double-checking locks because crime rates are increasing' - Present Continuous указывает на временную бдительность безопасности во время проблем безопасности.",
@@ -3955,7 +3955,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["We", "are", "putting", "up", "decorations", "for", "the", "holiday", "season"],
+            words: ["We", "are", "putting", "up", "decorations", "for", "the", "holiday", "season."],
             correctAnswer: "We are putting up decorations for the holiday season.",
             correctFeedback: "Great! 'We are putting up decorations for the holiday season' - Present Continuous describes temporary seasonal decoration activity.",
             correctFeedbackRu: "Отлично! 'We are putting up decorations for the holiday season' - Present Continuous описывает временную сезонную декоративную активность.",
@@ -3965,7 +3965,7 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["She", "is", "sorting", "through", "papers", "before", "starting", "new", "job"],
+            words: ["She", "is", "sorting", "through", "papers", "before", "starting", "new", "job."],
             correctAnswer: "She is sorting through papers before starting new job.",
             correctFeedback: "Excellent! 'She is sorting through papers before starting new job' - Present Continuous shows temporary organization activity during life transition.",
             correctFeedbackRu: "Прекрасно! 'She is sorting through papers before starting new job' - Present Continuous показывает временную организационную активность во время жизненного перехода.",
@@ -3975,12 +3975,22 @@ window.grammarExercises['tenses']['present-continuous-temporary-situations-sente
         {
             question: "Form a correct Present Continuous sentence using these words:",
             questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
-            words: ["My", "neighbors", "are", "collecting", "my", "mail", "during", "vacation"],
+            words: ["My", "neighbors", "are", "collecting", "my", "mail", "during", "vacation."],
             correctAnswer: "My neighbors are collecting my mail during vacation.",
             correctFeedback: "Perfect! 'My neighbors are collecting my mail during vacation' - Present Continuous indicates temporary community favor during absence.",
             correctFeedbackRu: "Отлично! 'My neighbors are collecting my mail during vacation' - Present Continuous указывает на временную услугу сообщества во время отсутствия.",
             incorrectFeedback: "Not right. The structure is: My neighbors are collecting my mail during vacation.",
             incorrectFeedbackRu: "Неправильно. Структура: My neighbors are collecting my mail during vacation."
+        },
+        {
+            question: "Form a correct Present Continuous sentence using these words:",
+            questionRu: "Составьте правильное предложение в Present Continuous, используя эти слова:",
+            words: ["The", "landlord", "is", "fixing", "our", "heating", "this", "week."],
+            correctAnswer: "The landlord is fixing our heating this week.",
+            correctFeedback: "Perfect! 'The landlord is fixing our heating this week' - Present Continuous shows a temporary repair activity happening in the current period.",
+            correctFeedbackRu: "Отлично! 'The landlord is fixing our heating this week' - Present Continuous показывает временную ремонтную деятельность, происходящую в текущем периоде.",
+            incorrectFeedback: "Try again. The correct order is: The landlord is fixing our heating this week.",
+            incorrectFeedbackRu: "Попробуйте снова. Правильный порядок: The landlord is fixing our heating this week."
         }
     ]
 };

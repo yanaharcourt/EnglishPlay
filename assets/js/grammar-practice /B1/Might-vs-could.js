@@ -3679,8 +3679,8 @@ window.grammarExercises['modals']['might-vs-could-sentence-page8'] = {
             correctAnswer: "Solar panels could reduce electricity bills by fifty percent.",
             correctFeedback: "Great! 'Solar panels could reduce electricity bills by fifty percent.' is correct. Excellent logical environmental benefit using 'could'!",
             correctFeedbackRu: "Отлично! 'Solar panels could reduce electricity bills by fifty percent.' верно. Превосходная логическая экологическая польза с использованием 'could'!",
-            incorrectFeedback: "Not quite right. Remember: Adjective + noun + could + verb + noun + noun + by + number + noun.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: Прилагательное + существительное + could + глагол + существительное + существительное + by + число + существительное."
+            incorrectFeedback: "Not quite right. Remember: Noun + noun + could + verb + noun + noun + by + number + noun.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: Существительное + существительное + could + глагол + существительное + существительное + by + число + существительное."
         },
         {
             question: "Form a correct sentence using these words:",

@@ -1,0 +1,2876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnglishPlay — Master English Grammar Naturally</title>
+    <meta name="description"
+        content="Practice English grammar with interactive exercises at any level — A1 to С2. Multiple choice, fill in the gaps, sentence building. Free to start.">
+    <meta name="keywords" content="English grammar practice, learn English online, grammar exercises, A1 B1 B2 English">
+    <meta property="og:title" content="EnglishPlay — Master English Grammar Naturally">
+    <meta property="og:description" content="Interactive grammar exercises for every level. Free to start.">
+    <meta property="og:url" content="https://englishplay.org">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://englishplay.org/">
+
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" sizes="192x192" href="./favicon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./favicon-512.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles-light.css">
+    <link rel="stylesheet" href="./assets/css/grammar-practice-light.css">
+    <link rel="stylesheet" href="./assets/css/theme-switcher.css">
+</head>
+
+<body>
+    <!-- --------------------------------------------------------------
+    # CURSOR
+    ---------------------------------------------------------------->
+    <!-- <div class="js-cursor-init">
+        <div class="cursor-circle">
+            <div class="circle_wrap"></div>
+            <div class="scroll_cursor_txt">
+                <span class="text">Scroll</span>
+            </div>
+            <div class="inner-circle"></div>
+            <div class="view_more_cursor">
+                <span class="text">View</span>
+            </div>
+        </div>
+    </div> -->
+    <!-- # CURSOR -->
+    <div id="ep-cursor"></div>
+    <div id="ep-cursor-trail"></div>
+    <!-- --------------------------------------------------------------
+    # NAVIGATION
+    ---------------------------------------------------------------->
+    <nav id="mainNav">
+        <a class="nav-logo" href="index-light.html">
+            <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                alt="EnglishPlay" style="height:48px;width:auto;display:block;">
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="Phrasal Verbs-light.html">Phrasal Verbs</a></li>
+            <li><a href="index-light.html" class="active">Grammar Practice</a></li>
+        </ul>
+
+        <div class="nav-auth" id="navAuth">
+            <div id="navGuest">
+                <a href="auth-light.html" class="nav-btn-signin">Sign In</a>
+                <a href="auth-light.html" class="nav-btn-signup">Get Started</a>
+            </div>
+            <div id="navUser" style="display:none;align-items:center;gap:0.75rem;">
+                <a href="dashboard-light.html" class="nav-user-pill">
+                    <div class="nav-avatar" id="navAvatar">U</div>
+                    <span class="nav-username" id="navUsername">My Account</span>
+                </a>
+            </div>
+        </div>
+
+        <button class="theme-switcher" id="themeSwitcher" aria-label="Switch theme">
+            <img src="./assets/img/dark.svg" alt="Dark theme" class="theme-icon">
+        </button>
+
+        <button class="burger" id="burger" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mob-header">
+            <a href="index-light.html">
+                <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
+                    alt="EnglishPlay" style="height:36px;width:auto;display:block;">
+            </a>
+            <button class="mob-close" id="mobClose" aria-label="Close menu">&#x2715;</button>
+        </div>
+        <a href="Phrasal Verbs-light.html" class="mob-link">Phrasal Verbs</a>
+        <a href="index-light.html" class="mob-link">Grammar Practice</a>
+        <a href="auth-light.html" class="mob-link mob-link-signup">Get Started →</a>
+        <button class="theme-switcher" id="themeSwitcherMob" aria-label="Switch theme" style="margin-top:1rem;">
+            <img src="./assets/img/dark.svg" alt="Dark theme" class="theme-icon">
+        </button>
+    </div>
+    <!-- --------------------------------------------------------------
+    # MAIN CONTENT
+    ---------------------------------------------------------------->
+    <section class="hero">
+        <h1>Master <span style="font-style: italic;">English Grammar</span> Naturally</h1>
+        <p class="tagline">Interactive exercises to practice and perfect your grammar skills at any level</p>
+    </section>
+
+    <div class="container">
+        <div class="grammar-container">
+            <div class="filters-container">
+                <!-- <div class="audience-toggle">
+                    <a class="audience-btn active" data-audience="adults" href="Grammar-practice.html">Adults</a>
+                    <a class="audience-btn" data-audience="children" href="Grammar-practice-kids.html">Children</a>
+                </div> -->
+
+                <div class="level-filters">
+                    <h3>Grammar Level</h3>
+                    <div class="level-buttons">
+                        <button class="level-btn active" data-level="all">All Levels</button>
+                        <button class="level-btn" data-level="a1">A1</button>
+                        <button class="level-btn" data-level="a2">A2</button>
+                        <button class="level-btn" data-level="b1">B1</button>
+                        <button class="level-btn" data-level="b2">B2</button>
+                        <button class="level-btn" data-level="c1">C1</button>
+                        <button class="level-btn" data-level="c2">C2</button>
+                    </div>
+                </div>
+
+                <div class="topic-filters">
+                    <h3>Grammar Topics</h3>
+                    <div class="topic-list">
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="to-be">
+                            <span>Verb "To Be"</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="tenses">
+                            <span>Present Tenses</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="past-tenses">
+                            <span>Past Tenses</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="future-tenses">
+                            <span>Future Tenses</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="questions">
+                            <span>Questions</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="articles">
+                            <span>Articles</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="pronouns">
+                            <span>Pronouns & Determiners</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="modals">
+                            <span>Modal Verbs</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="adjectives">
+                            <span>Adjectives & Adverbs</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="connectors">
+                            <span>Connectors & Prepositions</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="conditionals">
+                            <span>Conditionals</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="passive">
+                            <span>Passive Voice</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="reported">
+                            <span>Reported Speech</span>
+                        </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="relative">
+                            <span>Relative Clauses</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grammar Content -->
+            <div class="grammar-content">
+                <div class="search-container">
+                    <input type="text" id="grammarSearch" class="search-input" placeholder="Search grammar topic...">
+                </div>
+
+                <div class="grammar-topics">
+                    <!-- ============== "To Be" ============== -->
+                    <div class="grammar-category" data-topic="to-be">
+                        <div class="category-header">
+                            <h2>Verb "to be"</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content active">
+                            <!-- "To Be" with names -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="to-be"
+                                data-subtopic="to-be-with-names">
+                                <div class="card-header">
+                                    <h3>"To Be" with names</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/To-be-with-names.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/To-be-with-names.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/To-be-with-names.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- "To be" with ages and nationalities -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="to-be"
+                                data-topic-name="to-be-with-ages-and-nationalities">
+                                <div class="card-header">
+                                    <h3>"To Be" with ages and nationalities</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Verb-to-be-with-ages-and-nationalities.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Verb-to-be-with-ages-and-nationalities.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Verb-to-be-with-ages-and-nationalities.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- "To be" with jobs -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults"
+                                data-topic-name="to-be-with-jobs">
+                                <div class="card-header">
+                                    <h3>"To be" with jobs</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/To-be-with-jobs.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/To-be-with-jobs.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/To-be-with-jobs.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Negatives with "to be"  -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="to-be"
+                                data-topic-name="negatives-with-to-be">
+                                <div class="card-header">
+                                    <h3>Negatives with "To Be" </h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Negatives-with-to-be.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Negatives-with-to-be.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Negatives-with-to-be.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Present Tenses ============== -->
+                    <div class="grammar-category" data-topic="tenses">
+                        <div class="category-header">
+                            <h2>Present Tenses</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Present Simple - Daily Routine -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-simple-daily-routines-page1">
+                                <div class="card-header">
+                                    <h3>Present Simple - Daily Routine</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-daily-routine.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-daily-routine.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-daily-routine.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Present Simple  - Third Person Singular -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-simple-third-person-singular-page1">
+                                <div class="card-header">
+                                    <h3>Present Simple - Third Person Singular</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-third-person-singular.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-third-person-singular.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-third-person-singular.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Present Simple - Negatives: don't/doesn't + base verb -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-simple-negatives-page1">
+                                <div class="card-header">
+                                    <h3>Present Simple - Negatives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-negatives.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-negatives.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-negatives.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Present Simple - Time Expressions-->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-simple-time-expressions-page1">
+                                <div class="card-header">
+                                    <h3>Present Simple - Time Expressions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-time-expressions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-time-expressions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Present-simple-time-expressions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Present Continuous - Current Actions -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-continuous-current-actions-page1">
+                                <div class="card-header">
+                                    <h3>Present Continuous - Current Actions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-current-actions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-current-actions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-current-actions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Present Continuous - Temporary Situations -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-continuous-temporary-situations-page1">
+                                <div class="card-header">
+                                    <h3>Present Continuous - Temporary Situations</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-temporary-situations.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-temporary-situations.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Present-continuous-temporary-situations.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Present Perfect - Basic Usage -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-perfect-basic-usage-page1">
+                                <div class="card-header">
+                                    <h3>Present Perfect - Basic Usage</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-basic-usage.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-basic-usage.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-basic-usage.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Present Perfect - Time Markers -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-perfect-time-markers-page1">
+                                <div class="card-header">
+                                    <h3>Present Perfect - Time Markers</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-time-markers.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-time-markers.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-time-markers.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Present Perfect vs Past Simple -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-perfect-vs-past-simple-page1">
+                                <div class="card-header">
+                                    <h3>Present Perfect vs Past Simple</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-vs-past-simple.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-vs-past-simple.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-vs-past-simple.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Present Perfect Continuous - Duration + Recent Activities -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="tenses"
+                                data-topic-name="present-perfect-continuous-duration-page1">
+                                <div class="card-header">
+                                    <h3>Present Perfect Continuous - Duration + Recent Activities</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Present-perfect-continuous-duration.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Present-perfect-continuous-duration.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Present-perfect-continuous-duration.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Past Tenses ============== -->
+                    <div class="grammar-category" data-topic="past-tenses">
+                        <div class="category-header">
+                            <h2>Past Tenses</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Past Simple - Regular Verbs -->
+                            <div class="grammar-card" data-level="a1 a2" data-audience="adults" data-topic="past-tenses"
+                                data-topic-name="past-simple-regular-verbs-page1">
+                                <div class="card-header">
+                                    <h3>Past Simple - Regular Verbs</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Past-simple-regular-verbs.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Past-simple-regular-verbs.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Past-simple-regular-verbs.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Past Simple Irregular Verbs -->
+                            <div class="grammar-card" data-level="a1 a2" data-audience="adults" data-topic="past-tenses"
+                                data-topic-name="past-simple-irregular-verbs-page1">
+                                <div class="card-header">
+                                    <h3>Past Simple - Irregular Verbs</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Past-simple-irregular-verbs.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Past-simple-irregular-verbs.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Past-simple-irregular-verbs.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Past Simple Questions -->
+                            <div class="grammar-card" data-level="a1 a2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Past Simple - Questions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Past-simple-questions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice" data-topic="past-tenses"
+                                        data-subtitle="past-simple-questions">Multiple
+                                        Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Past-simple-questions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps" data-topic="past-tenses"
+                                        data-subtitle="past-simple-questions">Fill in the
+                                        Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Past-simple-questions.js"
+                                        class="exercise-btn" data-exercise="sentence-building" data-topic="past-tenses"
+                                        data-subtitle="past-simple-questions">Sentence
+                                        Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Past of "to be" & Past Ability -->
+                            <div class="grammar-card" data-level="a1 a2" data-audience="adults" data-topic="past-tenses"
+                                data-topic-name="past-to-be-ability-page1">
+                                <div class="card-header">
+                                    <h3>Past of "to be" & Past Ability</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Past-to-be-ability.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Past-to-be-ability.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Past-to-be-ability.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Past Continuous - Basic Usage -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="past-tenses"
+                                data-topic-name="past-continuous-basic-usage-page1">
+                                <div class="card-header">
+                                    <h3>Past Continuous - Basic Usage</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Past-continuous-basic-usage.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Past-continuous-basic-usage.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Past-continuous-basic-usage.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Past Continuous - Advanced -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="past-tenses"
+                                data-topic-name="past-continuous-advanced-page1">
+                                <div class="card-header">
+                                    <h3>Past Continuous - Advanced</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Past-continuous-advanced.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-continuous-advanced.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-continuous-advanced.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Past Perfect - Sequence -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="past-tenses"
+                                data-topic-name="past-perfect-sequence-page1">
+                                <div class="card-header">
+                                    <h3>Past Perfect - Sequence</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-sequence.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-sequence.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-sequence.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Past Perfect - First Times -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="past-tenses"
+                                data-topic-name="past-perfect-first-times-page1">
+                                <div class="card-header">
+                                    <h3>Past Perfect - First Times</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-first-times.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-first-times.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-first-times.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Past Perfect Continuous -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="past-tenses"
+                                data-topic-name="past-perfect-continuous-page1">
+                                <div class="card-header">
+                                    <h3>Past Perfect Continuous</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-continuous.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-continuous.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-continuous.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- =============== Future Tenses ================= -->
+                    <div class="grammar-category" data-topic="future-tenses">
+                        <div class="category-header">
+                            <h2>Future Tenses</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Future Simple - Will -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="future-tenses"
+                                data-topic-name="future-simple-will-page1">
+                                <div class="card-header">
+                                    <h3>Future Simple - Will</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Future-simple-will.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Future-simple-will.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Future-simple-will.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Future - Going to -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="future-tenses"
+                                data-topic-name="future-going-to-page1">
+                                <div class="card-header">
+                                    <h3>Future - Going to</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Future-going-to.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Future-going-to.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Future-going-to.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Questions ============== -->
+                    <div class="grammar-category" data-topic="questions">
+                        <div class="category-header">
+                            <h2>Questions</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Wh-questions with "be" and other verbs -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="questions"
+                                data-topic-name="wh-questions-basic-page1">
+                                <div class="card-header">
+                                    <h3>Wh-questions with "be" and other verbs</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Wh-questions-basic.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Wh-questions-basic.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Wh-questions-basic.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Yes/No questions with "be" -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="questions"
+                                data-topic-name="yes-no-questions-be-page1">
+                                <div class="card-header">
+                                    <h3>Yes/No questions with "be"</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Yes-no-questions-be.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Yes-no-questions-be.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Yes-no-questions-be.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Yes/No questions with "do/does" -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="questions"
+                                data-topic-name="yes-no-questions-do-does-page1">
+                                <div class="card-header">
+                                    <h3>Yes/No questions with "do/does"</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Yes-no-questions-do-does.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Yes-no-questions-do-does.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Yes-no-questions-do-does.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- "Have" in questions -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="questions"
+                                data-topic-name="have-in-questions-page1">
+                                <div class="card-header">
+                                    <h3>"Have" in questions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Have-in-questions.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Have-in-questions.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Have-in-questions.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Which vs What - Basic Usage -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="questions"
+                                data-topic-name="which-vs-what-page1">
+                                <div class="card-header">
+                                    <h3>Which vs What</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Which-vs-what.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Which-vs-what.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill
+                                        in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Which-vs-what.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- How much/many -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="questions"
+                                data-topic-name="how-much-many-page1">
+                                <div class="card-header">
+                                    <h3>How much/many</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/How-much-many.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/How-much-many.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill
+                                        in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/How-much-many.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Subject vs Object questions -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="questions"
+                                data-topic-name="subject-object-questions-page1">
+                                <div class="card-header">
+                                    <h3>Subject vs Object questions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Subject-object-questions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Subject-object-questions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Subject-object-questions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Question words in different tenses -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="questions"
+                                data-topic-name="question-words-tenses-page1">
+                                <div class="card-header">
+                                    <h3>Question words in different tenses</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Question-words-tenses.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Question-words-tenses.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Question-words-tenses.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Question tags -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="questions"
+                                data-topic-name="question-tags-page1">
+                                <div class="card-header">
+                                    <h3>Question tags</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Question-tags.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Question-tags.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Question-tags.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Indirect questions -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="questions"
+                                data-topic-name="indirect-questions-page1">
+                                <div class="card-header">
+                                    <h3>Indirect questions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Indirect-questions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Indirect-questions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Indirect-questions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Polite indirect questions -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="questions"
+                                data-topic-name="polite-indirect-questions-page1">
+                                <div class="card-header">
+                                    <h3>Polite indirect questions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Polite-indirect-questions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Polite-indirect-questions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Polite-indirect-questions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- I wonder if... -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="questions"
+                                data-topic-name="i-wonder-if-page1">
+                                <div class="card-header">
+                                    <h3>I wonder if...</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/I-wonder-if.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/I-wonder-if.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/I-wonder-if.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Articles ============== -->
+                    <div class="grammar-category" data-topic="articles">
+                        <div class="category-header">
+                            <h2>Articles</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Articles basics: a/an (first mention), the (specific) -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="articles"
+                                data-topic-name="articles-basics-a-an-the-page1">
+                                <div class="card-header">
+                                    <h3>Articles basics: a/an, the</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Articles-basics-a-an-the.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Articles-basics-a-an-the.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Articles-basics-a-an-the.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- There is/are: There is a cat, There are two dogs -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="articles"
+                                data-topic-name="there-is-are-basic-page1">
+                                <div class="card-header">
+                                    <h3>There is/are - Basic Usage</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/There-is-are-basic.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/There-is-are-basic.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/There-is-are-basic.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- There is/are questions: Is there...? Are there...? How many are there? -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="articles"
+                                data-topic-name="there-is-are-questions-page1">
+                                <div class="card-header">
+                                    <h3>There is/are - Questions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/There-is-are-questions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/There-is-are-questions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/There-is-are-questions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- There is/are negatives: There isn't, There aren't any -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="articles"
+                                data-topic-name="there-is-are-negatives-page1">
+                                <div class="card-header">
+                                    <h3>There is/are - Negatives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/There-is-are-negatives.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/There-is-are-negatives.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/There-is-are-negatives.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Some/Any basics: some coffee, any questions (positive/negative) -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="articles"
+                                data-topic-name="some-any-basics-page1">
+                                <div class="card-header">
+                                    <h3>Some/Any - Basics</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Some-any-basics.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Some-any-basics.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Some-any-basics.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Much/Many: much water, many books -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="articles"
+                                data-topic-name="much-many-basics-page1">
+                                <div class="card-header">
+                                    <h3>Much/Many - Basics</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Much-many-basics.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Much-many-basics.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Much-many-basics.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Articles with jobs: I'm a teacher, She's an engineer -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="articles"
+                                data-topic-name="articles-with-jobs-page1">
+                                <div class="card-header">
+                                    <h3>Articles with jobs</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Articles-with-jobs.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Articles-with-jobs.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Articles-with-jobs.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Zero article: I like music, They live in London -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="articles"
+                                data-topic-name="zero-article-basics-page1">
+                                <div class="card-header">
+                                    <h3>Zero article</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Zero-article-basics.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Zero-article-basics.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Zero-article-basics.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Advanced quantifiers: a lot of/lots of, a few/a little -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="articles"
+                                data-topic-name="advanced-quantifiers-page1">
+                                <div class="card-header">
+                                    <h3>Advanced quantifiers: a lot of, a few, a little</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Advanced-quantifiers.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Advanced-quantifiers.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Advanced-quantifiers.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Advanced articles: the (unique/geographical), zero article (generalizations) -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="articles"
+                                data-topic-name="advanced-articles-usage-page1">
+                                <div class="card-header">
+                                    <h3>Advanced articles usage</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Advanced-articles-usage.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Advanced-articles-usage.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Advanced-articles-usage.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Articles with abstract nouns: the importance of education -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="articles"
+                                data-topic-name="articles-abstract-nouns-page1">
+                                <div class="card-header">
+                                    <h3>Articles with abstract nouns</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Articles-abstract-nouns.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Articles-abstract-nouns.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Articles-abstract-nouns.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Pronouns & Determiners ============== -->
+                    <div class="grammar-category" data-topic="pronouns">
+                        <div class="category-header">
+                            <h2>Pronouns & Determiners</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Possessive adjectives -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="pronouns"
+                                data-topic-name="possessive-adjectives-page1">
+                                <div class="card-header">
+                                    <h3>Possessive Adjectives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Possessive-adjectives.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Possessive-adjectives.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Possessive-adjectives.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Possessive 's -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="pronouns"
+                                data-topic-name="possessive-s-page1">
+                                <div class="card-header">
+                                    <h3>Possessive 's</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Possessive-s.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Possessive-s.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Possessive-s.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Demonstratives -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="pronouns"
+                                data-topic-name="demonstratives-page1">
+                                <div class="card-header">
+                                    <h3>Demonstratives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Demonstratives.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Demonstratives.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Demonstratives.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Possessive Pronouns -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="pronouns"
+                                data-topic-name="possessive-pronouns-page1">
+                                <div class="card-header">
+                                    <h3>Possessive Pronouns</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Possessive-pronouns.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Possessive-pronouns.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Possessive-pronouns.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Indefinite pronouns -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="pronouns"
+                                data-topic-name="indefinite-pronouns-page1">
+                                <div class="card-header">
+                                    <h3>Indefinite Pronouns</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Indefinite-pronouns.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Indefinite-pronouns.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Indefinite-pronouns.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Reflexive pronouns -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="pronouns"
+                                data-topic-name="reflexive-pronouns-page1">
+                                <div class="card-header">
+                                    <h3>Reflexive Pronouns</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Reflexive-pronouns.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reflexive-pronouns.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reflexive-pronouns.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Emphasis with reflexive pronouns -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="pronouns"
+                                data-topic-name="emphasis-reflexive-page1">
+                                <div class="card-header">
+                                    <h3>Emphasis with Reflexives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Emphasis-reflexive.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Emphasis-reflexive.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Emphasis-reflexive.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- By + reflexive -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="pronouns"
+                                data-topic-name="by-reflexive-page1">
+                                <div class="card-header">
+                                    <h3>By + Reflexive</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/By-reflexive.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/By-reflexive.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/By-reflexive.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Modal Verbs ============== -->
+                    <div class="grammar-category" data-topic="modals">
+                        <div class="category-header">
+                            <h2>Modal Verbs</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Can/can't - Ability -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="modals"
+                                data-topic-name="can-cant-ability-page1">
+                                <div class="card-header">
+                                    <h3>Can/can't - Ability</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Can-cant-ability.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Can-cant-ability.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Can-cant-ability.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Permission with Can/May -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="modals"
+                                data-topic-name="permission-can-may-page1">
+                                <div class="card-header">
+                                    <h3>Permission with Can/May</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Permission-can-may.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Permission-can-may.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Permission-can-may.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Polite Requests with Can -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults" data-topic="modals"
+                                data-topic-name="polite-requests-can-page1">
+                                <div class="card-header">
+                                    <h3>Polite Requests with Can</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Polite-requests-can.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Polite-requests-can.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Polite-requests-can.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Should for advice -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="modals"
+                                data-topic-name="should-advice-page1">
+                                <div class="card-header">
+                                    <h3>Should for advice</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Should-advice.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Should-advice.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill
+                                        in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Should-advice.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Might for possibility -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="modals"
+                                data-topic-name="might-possibility-page1">
+                                <div class="card-header">
+                                    <h3>Might for possibility</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Might-possibility.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Might-possibility.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Might-possibility.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Could for suggestions -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="modals"
+                                data-topic-name="could-suggestions-page1">
+                                <div class="card-header">
+                                    <h3>Could for suggestions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Could-suggestions.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Could-suggestions.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Could-suggestions.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Have to for obligation -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults" data-topic="modals"
+                                data-topic-name="have-to-obligation-page1">
+                                <div class="card-header">
+                                    <h3>Have to for obligation</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Have-to-obligation.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Have-to-obligation.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Have-to-obligation.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Must vs Have to -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="modals"
+                                data-topic-name="must-vs-have-to-page1">
+                                <div class="card-header">
+                                    <h3>Must vs Have to</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Must-vs-have-to.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Must-vs-have-to.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Must-vs-have-to.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Might vs Could -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="modals"
+                                data-topic-name="might-vs-could-page1">
+                                <div class="card-header">
+                                    <h3>Might vs Could</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Might-vs-could.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Might-vs-could.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill
+                                        in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Might-vs-could.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Should vs Ought to -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="modals"
+                                data-topic-name="should-vs-ought-to-page1">
+                                <div class="card-header">
+                                    <h3>Should vs Ought to</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Should-vs-ought-to.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Should-vs-ought-to.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Should-vs-ought-to.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- May vs Can vs Could -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults" data-topic="modals"
+                                data-topic-name="may-can-could-permission-page1">
+                                <div class="card-header">
+                                    <h3>May vs Can vs Could</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/May-can-could-permission.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/May-can-could-permission.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/May-can-could-permission.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Must/can't for present deduction -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="modals"
+                                data-topic-name="must-cant-present-deduction-page1">
+                                <div class="card-header">
+                                    <h3>Must/can't for present deduction</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Must-cant-present-deduction.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Must-cant-present-deduction.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Must-cant-present-deduction.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Must have/can't have for past deduction -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="modals"
+                                data-topic-name="must-have-cant-have-past-deduction-page1">
+                                <div class="card-header">
+                                    <h3>Must have/can't have for past deduction</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Must-have-cant-have-past-deduction.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Must-have-cant-have-past-deduction.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Must-have-cant-have-past-deduction.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Should have/Could have -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults" data-topic="modals"
+                                data-topic-name="should-have-could-have-page1">
+                                <div class="card-header">
+                                    <h3>Should have/Could have</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Should-have-could-have.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Should-have-could-have.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Should-have-could-have.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Adjectives & Adverbs ============== -->
+                    <div class="grammar-category" data-topic="adjectives">
+                        <div class="category-header">
+                            <h2>Adjectives & Adverbs</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- A1 Level: Basic adjectives -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Basic Adjectives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Basic-adjectives.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Basic-adjectives.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Basic-adjectives.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- A1 Level: Adverbs of manner -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Adverbs of Manner</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Adverbs-of-manner.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Adverbs-of-manner.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Adverbs-of-manner.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- A1 Level: Frequency adverbs -->
+                            <div class="grammar-card" data-level="a1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Frequency Adverbs</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Frequency-adverbs.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Frequency-adverbs.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Frequency-adverbs.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- A2 Level: Comparatives -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Comparatives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Comparatives.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Comparatives.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Comparatives.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- A2 Level: Superlatives -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Superlatives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Superlatives.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Superlatives.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Superlatives.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- A2 Level: Comparative questions -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Comparative Questions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A2/Comparative-questions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A2/Comparative-questions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A2/Comparative-questions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: Adjective order -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Adjective Order</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Adjective-order.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Adjective-order.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Adjective-order.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: -ing vs -ed adjectives -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>ing vs ed Adjectives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Ing-ed-adjectives.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Ing-ed-adjectives.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Ing-ed-adjectives.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: Gradable vs non-gradable -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Gradable vs Non-gradable Adjectives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Gradable-vs-non-gradable.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Gradable-vs-non-gradable.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Gradable-vs-non-gradable.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B2 Level: Participle adjectives -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Participle Adjectives</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Participle-adjectives.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Participle-adjectives.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Participle-adjectives.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B2 Level: Reduced relative clauses -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Reduced Relative Clauses</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Reduced-relative-clauses.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Reduced-relative-clauses.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Reduced-relative-clauses.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Connectors & Prepositions ============== -->
+                    <div class="grammar-category" data-topic="connectors">
+                        <div class="category-header">
+                            <h2>Connectors & Prepositions</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- A1 Level: Basic connectors -->
+                            <!-- <div class="grammar-card" data-level="a1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Basic Connectors</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Basic-connectors.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Basic-connectors.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Basic-connectors.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- A1 Level: Time prepositions -->
+                            <!-- <div class="grammar-card" data-level="a1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Time Prepositions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Time-prepositions.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Time-prepositions.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Time-prepositions.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- A1 Level: Place prepositions -->
+                            <!-- <div class="grammar-card" data-level="a1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Place Prepositions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Place-prepositions.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Place-prepositions.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Place-prepositions.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- A1 Level: Basic reason -->
+                            <!-- <div class="grammar-card" data-level="a1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Basic Reason Connectors</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/Basic-reason-connectors.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/Basic-reason-connectors.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/Basic-reason-connectors.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- B1 Level: Advanced time prepositions -->
+                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Advanced Time Prepositions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Advanced-time-prepositions.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Advanced-time-prepositions.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Advanced-time-prepositions.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- B1 Level: Advanced place prepositions -->
+                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Advanced Place Prepositions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Advanced-place-prepositions.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Advanced-place-prepositions.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Advanced-place-prepositions.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- B1 Level: Dependent prepositions -->
+                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Dependent Prepositions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Dependent-prepositions.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Dependent-prepositions.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Dependent-prepositions.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- B1 Level: Phrasal verbs -->
+                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Phrasal Verbs</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Phrasal-verbs.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Phrasal-verbs.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Phrasal-verbs.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <!-- ============== Conditionals ============== -->
+                    <div class="grammar-category" data-topic="conditionals">
+                        <div class="category-header">
+                            <h2>Conditionals</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- Zero Conditional - Things that are always true -->
+                            <div class="grammar-card" data-level="a2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Zero Conditional</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Zero Conditional.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Zero Conditional.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Zero Conditional.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- First Conditional - Real or Possible Future -->
+                            <div class="grammar-card" data-level="a2 b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>First Conditional</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A2</span>
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/First Conditional.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/First Conditional.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/First Conditional.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Second Conditional - Hypothetical Present or Future-->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Second Conditional</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Second Conditional.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Second Conditional.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Second Conditional.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Mixed Conditionals-->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Mixed Conditionals</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Mixed Conditionals.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Mixed Conditionals.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Mixed Conditionals.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- Third Conditional - Hypothetical Past -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Third Conditional</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Third Conditional.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Third Conditional.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Third Conditional.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Passive Voice ============== -->
+                    <div class="grammar-category" data-topic="passive">
+                        <div class="category-header">
+                            <h2>Passive Voice</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- B1 Level: Present Passive -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Present Passive</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Present-passive.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-passive.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-passive.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: Past Passive -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Past Passive</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Past-passive.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Past-passive.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Past-passive.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: Future Passive -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Future Passive</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Future-passive.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Future-passive.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Future-passive.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: Present Perfect Passive -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Present Perfect Passive</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Present-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B2 Level: Past Perfect Passive -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Past Perfect Passive</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Past-perfect-passive.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B2 Level: Modal Passive -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Modal Passive</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Modal-passive.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Modal-passive.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Modal-passive.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B2 Level: Process Description -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Process Description</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Process-description.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Process-description.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Process-description.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Reported Speech ============== -->
+                    <div class="grammar-category" data-topic="reported">
+                        <div class="category-header">
+                            <h2>Reported Speech</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- B1 Level: Reporting statements -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Reporting Statements</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-statements.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-statements.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-statements.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: Reporting questions -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Reporting Questions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-questions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-questions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-questions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: Reporting commands -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Reporting Commands</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-commands.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-commands.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reporting-commands.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: Time changes -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Reported time changes</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Reported-time-changes.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reported-time-changes.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Reported-time-changes.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B2 Level: Advanced tense backshift -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Advanced Tense Backshift</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B2 Level: Reporting commands advanced -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Advanced Reporting Commands</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B2 Level: Polite indirect questions -->
+                            <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Polite Indirect Questions</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Polite-indirect-questions.js"
+                                        class="exercise-btn" data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Polite-indirect-questions.js"
+                                        class="exercise-btn" data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Polite-indirect-questions.js"
+                                        class="exercise-btn" data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============== Relative Clauses ============== -->
+                    <div class="grammar-category" data-topic="relative">
+                        <div class="category-header">
+                            <h2>Relative Clauses</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content">
+                            <!-- B1 Level: Defining clauses -->
+                            <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Defining Relative Clauses</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Defining-relative-clauses.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Defining-relative-clauses.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Defining-relative-clauses.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- B1 Level: Non-defining clauses -->
+                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Non-defining Relative Clauses</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Non-defining-relative-clauses.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Non-defining-relative-clauses.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Non-defining-relative-clauses.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- B1 Level: Relative pronouns -->
+                            <!-- <div class="grammar-card" data-level="b1" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Relative Pronouns</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B1</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B1/Relative-pronouns.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B1/Relative-pronouns.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B1/Relative-pronouns.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- B2 Level: Advanced defining clauses -->
+                            <!-- <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Advanced Defining Clauses</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-defining-clauses.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-defining-clauses.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Advanced-defining-clauses.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- B2 Level: Non-defining with commas -->
+                            <!-- <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Non-defining Clauses with Commas</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Non-defining-with-commas.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Non-defining-with-commas.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Non-defining-with-commas.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+
+                            <!-- B2 Level: Reduced relative clauses -->
+                            <!-- <div class="grammar-card" data-level="b2" data-audience="adults">
+                                <div class="card-header">
+                                    <h3>Reduced Relative Clauses</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">B2</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /B2/Reduced-relative-clauses.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /B2/Reduced-relative-clauses.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /B2/Reduced-relative-clauses.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============================================================
+    # FOOTER
+    ===============================================================-->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <!-- li><a href="index.html">Home</a></li>
+                        <li><a href="my-words.html">My Words</a></li> -->
+                        <li><a href="Phrasal Verbs.html">Phrasal Verbs</a></li>
+                        <li><a href="index.html">Grammar Practice</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2026 EnglishPlay. All rights reserved.
+                </div>
+                <div class="footer-copyright">
+                    EnglishPlay.org@proton.me
+                </div>
+                <div class="footer-legal">
+                    <a href="./Legal/privacy policy.html">Privacy Policy</a>
+                    <a href="./Legal/terms-of-use.html">Terms</a>
+                    <a href="./Legal/cookie.html">Cookies</a>
+                </div>
+            </div>
+
+            <h2 class="footer-large-text">
+                <span class="word primary">EnglishPlay</span>
+            </h2>
+        </div>
+    </footer>
+
+    <div class="paywall-overlay" id="paywallOverlay">
+        <div class="paywall-box">
+            <div style="margin-bottom:1rem"><img src="./assets/img/lock.svg" alt="lock" style="width:2rem;height:2rem;">
+            </div>
+            <h2>Premium content</h2>
+            <p>Upgrade to access all exercises across every level — A1 to C2.</p>
+            <a href="dashboard.html#settings" class="paywall-btn">Upgrade to Premium →</a>
+            <button class="paywall-close"
+                onclick="document.getElementById('paywallOverlay').classList.remove('open')">Maybe later</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/grammar-practice-light.js"></script>
+
+    <!-- ======================== To Be ======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/To-be-with-names.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Verb-to-be-with-ages-and-nationalities.js"></script>
+    <script src="./assets/js/grammar-practice /A1/To-be-with-jobs.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Negatives-with-to-be.js"></script>
+
+    <!-- ======================== Present Tenses ======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/Present-simple-daily-routine.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Present-simple-third-person-singular.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Present-simple-negatives.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Present-simple-time-expressions.js"></script>
+
+    <!-- A2 Level -->
+    <script src="./assets/js/grammar-practice /A2/Present-continuous-current-actions.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Present-continuous-temporary-situations.js"></script>
+
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Present-perfect-basic-usage.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Present-perfect-time-markers.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Present-perfect-vs-past-simple.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Present-perfect-continuous-duration.js"></script>
+
+    <!-- ======================== Past Tenses ======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/Past-simple-regular-verbs.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Past-simple-irregular-verbs.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Past-simple-questions.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Past-to-be-ability.js"></script>
+
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Past-continuous-basic-usage.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Past-continuous-advanced.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Past-perfect-sequence.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Past-perfect-first-times.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Past-perfect-continuous.js"></script>
+
+
+    <!-- ======================== Future  Tenses ======================== -->
+    <script src="./assets/js/grammar-practice /A2/Future-simple-will.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Future-going-to.js"></script>
+
+
+    <!-- ======================== Questions ======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/Wh-questions-basic.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Yes-no-questions-be.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Yes-no-questions-do-does.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Have-in-questions.js"></script>
+
+    <!-- A2 Level -->
+    <script src="./assets/js/grammar-practice /A2/Which-vs-what.js"></script>
+    <script src="./assets/js/grammar-practice /A2/How-much-many.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Subject-object-questions.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Question-words-tenses.js"></script>
+
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Question-tags.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Indirect-questions.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Polite-indirect-questions.js"></script>
+    <script src="./assets/js/grammar-practice /B2/I-wonder-if.js"></script>
+
+
+    <!-- ======================== Articles ======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/Articles-basics-a-an-the.js"></script>
+    <script src="./assets/js/grammar-practice /A1/There-is-are-basic.js"></script>
+    <script src="./assets/js/grammar-practice /A1/There-is-are-questions.js"></script>
+    <script src="./assets/js/grammar-practice /A1/There-is-are-negatives.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Some-any-basics.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Much-many-basics.js"></script>
+
+    <!-- A2 Level -->
+    <script src="./assets/js/grammar-practice /A2/Articles-with-jobs.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Zero-article-basics.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Advanced-quantifiers.js"></script>
+
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Advanced-articles-usage.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Articles-abstract-nouns.js"></script>
+
+
+    <!-- ======================== Pronouns & Determiners ======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/Possessive-adjectives.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Possessive-s.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Demonstratives.js"></script>
+
+    <!-- A2 Level -->
+    <script src="./assets/js/grammar-practice /A2/Indefinite-pronouns.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Possessive-pronouns.js"></script>
+
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Reflexive-pronouns.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Emphasis-reflexive.js"></script>
+    <script src="./assets/js/grammar-practice /B1/By-reflexive.js"></script>
+
+
+    <!-- ======================== Modals ======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/Can-cant-ability.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Permission-can-may.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Polite-requests-can.js"></script>
+
+    <!-- A2 Level -->
+    <script src="./assets/js/grammar-practice /A2/Should-advice.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Might-possibility.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Could-suggestions.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Have-to-obligation.js"></script>
+
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Must-vs-have-to.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Might-vs-could.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Should-vs-ought-to.js"></script>
+    <script src="./assets/js/grammar-practice /B1/May-can-could-permission.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Must-cant-present-deduction.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Must-have-cant-have-past-deduction.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Should-have-could-have.js"></script>
+
+
+    <!-- ======================== Adjectives & Adverbs ======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/Basic-adjectives.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Adverbs-of-manner.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Frequency-adverbs.js"></script>
+
+    <!-- A2 Level -->
+    <script src="./assets/js/grammar-practice /A2/Comparatives.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Superlatives.js"></script>
+    <script src="./assets/js/grammar-practice /A2/Comparative-questions.js"></script>
+
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Adjective-order.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Ing-ed-adjectives.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Gradable-vs-non-gradable.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Participle-adjectives.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Reduced-relative-clauses.js"></script>
+
+
+    <!-- ========================Connectors & Prepositions======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/Basic-connectors.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Time-prepositions.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Place-prepositions.js"></script>
+    <script src="./assets/js/grammar-practice /A1/Basic-reason-connectors.js"></script>
+
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Advanced-time-prepositions.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Advanced-place-prepositions.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Dependent-prepositions.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Phrasal-verbs.js"></script>
+
+
+    <!-- ======================== Conditionals ======================== -->
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Zero Conditional.js"></script>
+    <script src="./assets/js/grammar-practice /B1/First Conditional.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Second Conditional.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Mixed Conditionals.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Third Conditional.js"></script>
+
+    <!-- ======================== Passive Voice ======================== -->
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Present-passive.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Past-passive.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Future-passive.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Present-perfect-passive.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Past-perfect-passive.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Modal-passive.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Process-description.js"></script>
+
+
+    <!-- ======================== Reported Speech ======================== -->
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Reporting-statements.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Reporting-questions.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Reporting-commands.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Reported-time-changes.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Advanced-tense-backshift.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Advanced-reporting-commands.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Polite-indirect-questions.js"></script>
+
+    <!-- ========================Relative Clauses======================== -->
+    <!-- B1 Level -->
+    <script src="./assets/js/grammar-practice /B1/Defining-relative-clauses.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Non-defining-relative-clauses.js"></script>
+    <script src="./assets/js/grammar-practice /B1/Relative-pronouns.js"></script>
+
+    <!-- B2 Level -->
+    <script src="./assets/js/grammar-practice /B2/Advanced-defining-clauses.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Non-defining-with-commas.js"></script>
+    <script src="./assets/js/grammar-practice /B2/Reduced-relative-clauses.js"></script>
+
+    <!-- cursor -->
+    <script>
+        const epCursor = document.getElementById('ep-cursor');
+        const epTrail = document.getElementById('ep-cursor-trail');
+
+        let mouseX = window.innerWidth / 2;
+        let mouseY = window.innerHeight / 2;
+        let trailX = mouseX;
+        let trailY = mouseY;
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        (function animateCursor() {
+            epCursor.style.left = (mouseX - 6) + 'px';
+            epCursor.style.top = (mouseY - 6) + 'px';
+
+            trailX += (mouseX - trailX) * 0.15;
+            trailY += (mouseY - trailY) * 0.15;
+            epTrail.style.left = (trailX - 20) + 'px';
+            epTrail.style.top = (trailY - 20) + 'px';
+
+            requestAnimationFrame(animateCursor);
+        })();
+
+        document.addEventListener('mousedown', () => { epCursor.style.transform = 'scale(1.8)'; });
+        document.addEventListener('mouseup', () => { epCursor.style.transform = 'scale(1)'; });
+    </script>
+
+    <!-- NAV -->
+    <script>
+        // Scroll effect
+        window.addEventListener('scroll', () => {
+            document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 40);
+        });
+
+        // Mobile menu
+        const burger = document.getElementById('burger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobClose = document.getElementById('mobClose');
+
+        burger.addEventListener('click', () => {
+            const isOpen = burger.classList.contains('open');
+            burger.classList.toggle('open');
+            mobileMenu.classList.toggle('open');
+            document.body.classList.toggle('menu-open');
+        });
+
+        mobClose.addEventListener('click', () => {
+            burger.classList.remove('open');
+            mobileMenu.classList.remove('open');
+            document.body.classList.remove('menu-open');
+        });
+
+        mobileMenu.querySelectorAll('a.mob-link').forEach(link => {
+            link.addEventListener('click', () => {
+                burger.classList.remove('open');
+                mobileMenu.classList.remove('open');
+                document.body.classList.remove('menu-open');
+            });
+        });
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') {
+                burger.classList.remove('open');
+                mobileMenu.classList.remove('open');
+                document.body.classList.remove('menu-open');
+            }
+        });
+    </script>
+
+    <script type="module">
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+        const supabase = createClient(
+            'https://kfoweeagmvzommlrxxjm.supabase.co',
+            'sb_publishable_Chq-fxxL7NbVgkWarl7gMQ_xABwrDpD'
+        );
+
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session) {
+            const user = session.user;
+            const name = user.user_metadata?.full_name || user.email.split('@')[0];
+            document.getElementById('navGuest').style.display = 'none';
+            document.getElementById('navUser').style.display = 'flex';
+            document.getElementById('navAvatar').textContent = name.charAt(0).toUpperCase();
+            document.getElementById('navUsername').textContent = name.split(' ')[0];
+        }
+
+        const FREE_PER_LEVEL = 1;
+
+        async function applyFreemium() {
+            let isPremium = false;
+            if (session) {
+                const { data } = await supabase
+                    .from('profiles')
+                    .select('plan')
+                    .eq('id', session.user.id)
+                    .single();
+                isPremium = data?.plan === 'premium';
+            }
+            if (isPremium) return;
+
+            const levels = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
+            levels.forEach(level => {
+                const cards = document.querySelectorAll(`.grammar-card[data-level="${level}"]`);
+                cards.forEach((card, i) => {
+                    if (i >= FREE_PER_LEVEL) {
+                        card.classList.add('locked');
+                        card.addEventListener('click', () => {
+                            document.getElementById('paywallOverlay').classList.add('open');
+                        });
+                    }
+                });
+            });
+        }
+
+        applyFreemium();
+    </script>
+
+    <script>
+        document.getElementById('themeSwitcher').addEventListener('click', function () {
+            window.location.href = 'index.html';
+        });
+        document.getElementById('themeSwitcherMob').addEventListener('click', function () {
+            window.location.href = 'index.html';
+        });
+    </script>
+
+</body>
+
+</html>

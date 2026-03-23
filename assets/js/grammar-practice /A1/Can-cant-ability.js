@@ -804,7 +804,7 @@ window.grammarExercises['modals']['can-cant-ability-page5'] = {
         {
             question: "Select the correct option:",
             questionRu: "Выберите правильный вариант:",
-            sentence: "Medical students _____ read X-ray images correctly. They study for many years.",
+            sentence: "Radiologists _____ read X-ray images correctly. They study for many years.",
             options: [
                 "can",
                 "can't",
@@ -812,10 +812,10 @@ window.grammarExercises['modals']['can-cant-ability-page5'] = {
                 "might"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Can' shows medical skills (study for many years).",
-            correctFeedbackRu: "Отлично! 'Can' показывает медицинские навыки (учатся много лет).",
-            incorrectFeedback: "Incorrect. Use 'can' to express medical training. Years of study develop this ability. 'Can't' would mean they lack this skill. 'Must' is for obligation. 'Might' is for possibility.",
-            incorrectFeedbackRu: "Неправильно. Используйте 'can' для выражения медицинской подготовки. Годы обучения развивают эту способность. 'Can't' означало бы отсутствие этого навыка. 'Must' для обязательства. 'Might' для возможности."
+            correctFeedback: "Perfect! 'Can' shows radiologists have medical skills developed through years of study.",
+            correctFeedbackRu: "Отлично! 'Can' показывает, что у рентгенологов есть медицинские навыки, развитые за годы обучения.",
+            incorrectFeedback: "Incorrect. Use 'can' to express professional expertise. Years of study develop this ability. 'Can't' would mean they lack this skill. 'Must' is for obligation. 'Might' is for possibility.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'can' для выражения профессиональной компетенции. Годы обучения развивают эту способность. 'Can't' означало бы отсутствие этого навыка. 'Must' для обязательства. 'Might' для возможности."
         },
         {
             question: "Choose the right answer:",

@@ -1800,7 +1800,7 @@ window.grammarExercises['past-tenses']['past-simple-irregular-verbs-gap-page1'] 
             correctFeedbackRu: "Отлично! 'rode' - это форма прошедшего времени глагола 'ride'.",
             incorrectFeedback: "Incorrect. 'Ride' is irregular - it becomes 'rode' in past simple.",
             incorrectFeedbackRu: "Неправильно. 'Ride' - неправильный глагол, в прошедшем времени становится 'rode'."
-        },
+        }, 
         {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",

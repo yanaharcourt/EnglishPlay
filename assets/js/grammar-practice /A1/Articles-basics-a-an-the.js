@@ -460,8 +460,8 @@ window.grammarExercises['articles']['articles-basics-a-an-the-page3'] = {
             correctAnswer: 0,
             correctFeedback: "Great! 'A' is correct because 'very' starts with a consonant sound.",
             correctFeedbackRu: "Отлично! 'A' правильно, потому что 'very' начинается с согласного звука.",
-            incorrectFeedback: "Check the first word! 'Very' comes first after the article and starts with 'v' - a **consonant sound**. Even though we might know the teacher personally, we're describing her character in general terms here.",
-            incorrectFeedbackRu: "Проверьте первое слово! 'Very' стоит первым после артикля и начинается с 'v' - **согласного звука**. Хотя мы можем знать учительницу лично, здесь мы описываем её характер в общих чертах."
+            incorrectFeedback: "Check the first word! 'Very' comes first after the article and starts with 'v' - a **consonant sound**, so we use 'a'. We're introducing a characteristic of the teacher for the first time.",
+            incorrectFeedbackRu: "Проверьте первое слово! 'Very' стоит первым после артикля и начинается с 'v' - **согласного звука**, поэтому мы используем 'a'. Мы впервые упоминаем характеристику учителя."
         },
         {
             question: "Select the correct article:",

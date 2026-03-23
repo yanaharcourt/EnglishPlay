@@ -3180,12 +3180,12 @@ window.grammarExercises['adjectives']['basic-adjectives-sentence-page3'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["She", "is", "a", "honest", "person."],
-            correctAnswer: "She is a honest person.",
-            correctFeedback: "Correct! 'She is a honest person.' is perfect. Nice use of personality adjective 'honest'!",
-            correctFeedbackRu: "Правильно! 'She is a honest person.' идеально. Хорошее использование прилагательного характера 'honest'!",
-            incorrectFeedback: "Try again. Remember: She + is + a + adjective + noun.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: She + is + a + прилагательное + существительное."
+            words: ["She", "is", "an", "honest", "person."],
+            correctAnswer: "She is an honest person.",
+            correctFeedback: "Correct! 'She is an honest person.' is perfect. Nice use of personality adjective 'honest'!",
+            correctFeedbackRu: "Правильно! 'She is an honest person.' идеально. Хорошее использование прилагательного характера 'honest'!",
+            incorrectFeedback: "Try again. Remember: She + is + an + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: She + is + an + прилагательное + существительное."
         },
         {
             question: "Form a correct sentence using these words:",

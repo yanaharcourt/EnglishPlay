@@ -2116,13 +2116,13 @@ window.grammarExercises['articles']['advanced-quantifiers-gap-page4'] = {
         {
             question: "Complete the sentence with the correct quantifier:",
             questionRu: "Заполните предложение правильным квантификатором:",
-            sentence: "We bought ____ bags of groceries today - 6 heavy bags!",
+            sentence: "We bought ____ bags of groceries today - just 3 or 4.",
             correctAnswer: "a few",
             options: ["a little", "a few", "much", "little"],
-            correctFeedback: "Perfect! 'A few' is correct because bags are countable and 6 bags is a manageable number for shopping.",
-            correctFeedbackRu: "Отлично! 'A few' правильно, потому что сумки исчисляемы, а 6 сумок — это управляемое количество для покупок.",
-            incorrectFeedback: "Try again. Use 'a few' because bags are countable and 6 bags is a manageable number for shopping.",
-            incorrectFeedbackRu: "Попробуйте снова. Используйте 'a few', потому что сумки исчисляемы, а 6 сумок — это управляемое количество для покупок."
+            correctFeedback: "Perfect! 'A few' is correct because bags are countable and 3-4 bags is a small number for shopping.",
+            correctFeedbackRu: "Отлично! 'A few' правильно, потому что сумки исчисляемы, а 3-4 сумки — это небольшое количество для покупок.",
+            incorrectFeedback: "Try again. Use 'a few' because bags are countable and 3-4 bags is a small number for shopping.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'a few', потому что сумки исчисляемы, а 3-4 сумки — это небольшое количество для покупок."
         },
         {
             question: "Complete the sentence with the correct quantifier:",
@@ -2191,13 +2191,13 @@ window.grammarExercises['articles']['advanced-quantifiers-gap-page5'] = {
         {
             question: "Complete the sentence with the correct quantifier:",
             questionRu: "Заполните предложение правильным квантификатором:",
-            sentence: "I have ____ assignments to finish - only my English essay.",
+            sentence: "I have ____ assignments to finish - my essay and two exercises.",
             correctAnswer: "a few",
             options: ["a little", "a few", "much", "lots of"],
-            correctFeedback: "Excellent! 'A few' is correct because assignments are countable and one essay represents a small number of tasks.",
-            correctFeedbackRu: "Отлично! 'A few' правильно, потому что задания исчисляемы, а одно сочинение представляет небольшое количество задач.",
-            incorrectFeedback: "Try again. Use 'a few' because assignments are countable and one essay represents a small number of tasks.",
-            incorrectFeedbackRu: "Попробуйте снова. Используйте 'a few', потому что задания исчисляемы, а одно сочинение представляет небольшое количество задач."
+            correctFeedback: "Excellent! 'A few' is correct because assignments are countable and 3 tasks is a small number.",
+            correctFeedbackRu: "Отлично! 'A few' правильно, потому что задания исчисляемы, а 3 задачи — это небольшое количество.",
+            incorrectFeedback: "Try again. Use 'a few' because assignments are countable and 3 tasks is a small number.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'a few', потому что задания исчисляемы, а 3 задачи — это небольшое количество."
         },
         {
             question: "Complete the sentence with the correct quantifier:",

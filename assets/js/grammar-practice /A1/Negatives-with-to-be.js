@@ -2103,7 +2103,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page4'] = {
             incorrectFeedbackRu: "Неправильно. С подлежащими в единственном числе мы используем 'isn't' как сокращение."
         }
     ]
-};
+}; 
 
 /* ============================================
 Page 5: Mixed negative sentences with different subjects
@@ -2221,7 +2221,7 @@ window.grammarExercises['to-be']['negatives-with-to-be-gap-page5'] = {
             incorrectFeedbackRu: "Неправильно. С подлежащими во множественном числе, как 'children', мы используем 'are not' для отрицательных утверждений."
         }
     ]
-};
+}; 
 
 /* ============================================
 Page 6: Workplace and location negatives

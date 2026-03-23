@@ -1965,13 +1965,13 @@ window.grammarExercises['articles']['advanced-articles-usage-gap-page3'] = {
         {
             question: "Fill in the blank with the correct option:",
             questionRu: "Заполните пропуск правильным вариантом:",
-            sentence: "____ television was invented in the early 20th century and changed entertainment.",
-            correctAnswer: "no article",
-            options: ["no article", "the", "a", "an"],
-            correctFeedback: "Perfect! When discussing inventions as general concepts, use no article.",
-            correctFeedbackRu: "Отлично! При обсуждении изобретений как общих концепций артикль не используется.",
-            incorrectFeedback: "Not quite right. Inventions as general concepts don't use articles: television, radio, photography.",
-            incorrectFeedbackRu: "Не совсем правильно. Изобретения как общие концепции не используют артикли: television, radio, photography."
+            sentence: "_____ television was invented in the early 20th century and changed entertainment.",
+            correctAnswer: "The",
+            options: ["The", "a", "an", "no article"],
+            correctFeedback: "Correct! 'The television' uses 'the' when discussing a major invention as a historical development, like the radio, the telephone, or the printing press.",
+            correctFeedbackRu: "Правильно! 'The television' использует 'the', когда говорим о крупном изобретении как историческом событии, как the radio, the telephone или the printing press.",
+            incorrectFeedback: "Try again. Major inventions that changed history use 'the' when discussed as historical concepts: the television, the radio, the automobile.",
+            incorrectFeedbackRu: "Попробуйте снова. Крупные изобретения, которые изменили историю, используют 'the' при обсуждении как исторические концепции: the television, the radio, the automobile."
         },
         {
             question: "Complete the sentence with the correct article:",
@@ -3144,12 +3144,12 @@ window.grammarExercises['articles']['advanced-articles-usage-sentence-page3'] = 
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["Television", "changed", "entertainment", "in", "the", "twentieth", "century."],
-            correctAnswer: "Television changed entertainment in the twentieth century.",
-            correctFeedback: "Excellent! 'Television changed entertainment in the twentieth century.' is correct. Inventions as concepts don't use articles!",
-            correctFeedbackRu: "Отлично! 'Television changed entertainment in the twentieth century.' верно. Изобретения как концепции не используют артикли!",
-            incorrectFeedback: "Not quite right. Remember: Television + changed + entertainment + in + the + twentieth + century.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: Television + changed + entertainment + in + the + twentieth + century."
+            words: ["The", "television", "changed", "entertainment", "in", "the", "twentieth", "century."],
+            correctAnswer: "The television changed entertainment in the twentieth century.",
+            correctFeedback: "Excellent! 'The television changed entertainment in the twentieth century.' is correct. Major historical inventions use 'the'!",
+            correctFeedbackRu: "Отлично! 'The television changed entertainment in the twentieth century.' верно. Крупные исторические изобретения используют 'the'!",
+            incorrectFeedback: "Not quite right. Remember: The + television + changed + entertainment + in + the + twentieth + century.",
+            incorrectFeedbackRu: "Не совсем правильно. Помните: The + television + changed + entertainment + in + the + twentieth + century."
         },
         {
             question: "Form a correct sentence using these words:",

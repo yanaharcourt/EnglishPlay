@@ -289,8 +289,8 @@ window.grammarExercises['tenses']['present-perfect-basic-usage-page2'] = {
                 "yet"
             ],
             correctAnswer: 3,
-            correctFeedback: "Great! 'Have they made yet' asks about completion up to now.",
-            correctFeedbackRu: "Отлично! 'Have they made yet' спрашивает о завершении до сих пор.",
+            correctFeedback: "Great! 'Have they made their decision yet' asks about completion up to now.",
+            correctFeedbackRu: "Отлично! 'Have they made their decision yet' спрашивает о завершении до сих пор.",
             incorrectFeedback: "Incorrect. 'Yet' in questions asks whether something expected has happened up to the present moment: 'Have + subject + past participle + yet?'",
             incorrectFeedbackRu: "Неправильно. 'Yet' в вопросах спрашивает, произошло ли что-то ожидаемое до настоящего момента: 'Have + подлежащее + причастие + yet?'"
         },

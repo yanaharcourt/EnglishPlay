@@ -5,7 +5,7 @@ if (typeof window.grammarExercises === 'undefined') {
 }
 if (!window.grammarExercises['modals']) {
     window.grammarExercises['modals'] = {};
-}
+} 
 
 /* ============================================
 Page 1: Have to for obligation - Work and School Requirements
@@ -1596,7 +1596,7 @@ window.grammarExercises['modals']['have-to-obligation-page10'] = {
             correctFeedback: "Excellent! 'Have to' shows food safety hygiene requirements for public health.",
             correctFeedbackRu: "Превосходно! 'Have to' показывает требования гигиены безопасности пищи для общественного здоровья.",
             incorrectFeedback: "Try once more! 'Have to' is right. **Health codes require** frequent handwashing to prevent foodborne illnesses that can make customers seriously ill or even cause death. Food safety isn't optional in restaurants and kitchens. 'Don't have to' means no hygiene requirement. 'Want to' and 'choose to' are about preference, not public health regulations.",
-            incorrectFeedbackRu: "Попробуйте ещё раз! Правильно 'have to'. **Санитарные кодексы требуют** частого мытья рук для предотвращения пищевых отравлений, которые могут серьёзно заболеть клиентов или даже вызвать смерть. Безопасность пищи не является необязательной в ресторанах и кухнях. 'Don't have to' означает отсутствие требования гигиены. 'Want to' и 'choose to' касаются предпочтений, а не правил общественного здравоохранения."
+            incorrectFeedbackRu: "Попробуйте ещё раз! Правильно 'have to'. **Санитарные кодексы требуют** частого мытья рук для предотвращения пищевых отравлений, от которых клиенты могут серьёзно заболеть или даже умереть. Безопасность пищи не является необязательной в ресторанах и кухнях. 'Don't have to' означает отсутствие требования гигиены. 'Want to' и 'choose to' касаются предпочтений, а не правил общественного здравоохранения."
         },
         {
             question: "Select the correct modal:",

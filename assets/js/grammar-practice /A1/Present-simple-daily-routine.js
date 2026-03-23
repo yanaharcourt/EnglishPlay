@@ -236,7 +236,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page2'] = {
             ],
             correctAnswer: 0,
             correctFeedback: "Correct! 'He arrives' - third person singular needs -s.",
-            correctFeedboxRu: "Правильно! 'He arrives' - третье лицо единственного числа требует -s.",
+            correctFeedbackRu: "Правильно! 'He arrives' - третье лицо единственного числа требует -s.",
             incorrectFeedback: "Incorrect. With 'he', add -s to make 'arrives'.",
             incorrectFeedbackRu: "Неправильно. С 'he' добавьте -s, чтобы получить 'arrives'."
         },
@@ -400,7 +400,7 @@ window.grammarExercises['tenses']['present-simple-daily-routines-page3'] = {
                 "reads",
                 "read",
                 "reading",
-                "red"
+                "readed"
             ],
             correctAnswer: 0,
             correctFeedback: "Correct! 'She reads' - hobby activity with third person singular.",

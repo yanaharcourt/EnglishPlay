@@ -558,11 +558,11 @@ window.grammarExercises['future-tenses']['future-simple-will-page4'] = {
                 "rains",
                 "raining"
             ],
-            correctAnswer: 1,
-            correctFeedback: "Excellent! 'is going to rain' shows evidence-based prediction.",
-            correctFeedbackRu: "Отлично! 'is going to rain' показывает предсказание, основанное на доказательствах.",
-            incorrectFeedback: "Incorrect. When you can see evidence (like dark clouds), use 'going to' for predictions, not 'will'. You can see signs that it will happen.",
-            incorrectFeedbackRu: "Неправильно. Когда вы видите доказательства (как темные облака), используйте 'going to' для предсказаний, а не 'will'. Вы видите признаки того, что это произойдет."
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Will' is used for predictions about the future, especially when we think or believe something will happen.",
+            correctFeedbackRu: "Правильно! 'Will' используется для предсказаний о будущем, особенно когда мы думаем или верим, что что-то произойдёт.",
+            incorrectFeedback: "Incorrect. Use 'will' for predictions about the future. 'Will rain' expresses what you think is going to happen based on the situation.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'will' для предсказаний о будущем. 'Will rain' выражает то, что, по вашему мнению, произойдёт в данной ситуации."
         },
         {
             question: "Select the correct form for a promise to a friend:",

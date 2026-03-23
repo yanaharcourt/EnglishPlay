@@ -126,9 +126,25 @@ window.grammarExercises['pronouns']['possessive-pronouns-page1'] = {
             incorrectFeedbackRu: "Не совсем! В вопросах о принадлежности используйте 'yours' отдельно. 'Your' нужно, чтобы за ним следовало существительное."
         },
         {
-            question: "Pick the correct possessive pronoun:",
+            question: "Choose the correct possessive pronoun:",
             questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "The laptop on the table is _____. I use it for work.",
+            sentence: "The children left their toys here. Did you find _____?",
+            options: [
+                "theirs",
+                "their",
+                "them",
+                "themselves"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Theirs' is the possessive pronoun meaning 'their toys' after the verb 'find'.",
+            correctFeedbackRu: "Правильно! 'Theirs' - это притяжательное местоимение, означающее 'their toys' после глагола 'find'.",
+            incorrectFeedback: "Not correct. Use 'theirs' (possessive pronoun) as the object of 'find'. It replaces 'their toys'.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'theirs' (притяжательное местоимение) как дополнение к 'find'. Оно заменяет 'their toys'."
+        },
+        {
+            question: "Select the appropriate possessive pronoun:",
+            questionRu: "Выберите подходящее притяжательное местоимение:",
+            sentence: "My brother forgot his umbrella. He needs to borrow _____.",
             options: [
                 "mine",
                 "my",
@@ -136,26 +152,10 @@ window.grammarExercises['pronouns']['possessive-pronouns-page1'] = {
                 "myself"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Mine' perfectly replaces 'my laptop' and shows that you own it without being repetitive.",
-            correctFeedbackRu: "Превосходно! 'Mine' отлично заменяет 'my laptop' и показывает, что вы владеете им, не повторяясь.",
-            incorrectFeedback: "Think again! 'Mine' is the independent form that means 'my laptop'. We don't say 'the laptop is my'.",
-            incorrectFeedbackRu: "Подумайте ещё раз! 'Mine' - это независимая форма, которая означает 'my laptop'. Мы не говорим 'the laptop is my'."
-        },
-        {
-            question: "Choose the appropriate possessive pronoun:",
-            questionRu: "Выберите подходящее притяжательное местоимение:",
-            sentence: "That beautiful garden is _____. She spends hours working in it.",
-            options: [
-                "hers",
-                "her",
-                "she",
-                "herself"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Great! 'Hers' shows that the garden belongs to her and works independently without needing 'garden' again.",
-            correctFeedbackRu: "Отлично! 'Hers' показывает, что сад принадлежит ей и работает независимо, не нуждаясь в слове 'garden' снова.",
-            incorrectFeedback: "Try again! 'Hers' is the possessive pronoun that stands alone. 'Her' would come before the noun, like 'her garden'.",
-            incorrectFeedbackRu: "Попробуйте снова! 'Hers' - это притяжательное местоимение, которое стоит отдельно. 'Her' стояло бы перед существительным, например 'her garden'."
+            correctFeedback: "Great! 'Mine' is the possessive pronoun meaning 'my umbrella' after the verb 'borrow'.",
+            correctFeedbackRu: "Отлично! 'Mine' - это притяжательное местоимение, означающее 'my umbrella' после глагола 'borrow'.",
+            incorrectFeedback: "Incorrect. Use 'mine' (possessive pronoun) as the object of 'borrow'. It replaces 'my umbrella'.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'mine' (притяжательное местоимение) как дополнение к 'borrow'. Оно заменяет 'my umbrella'."
         },
         {
             question: "Select the correct possessive pronoun:",
@@ -2183,16 +2183,11 @@ window.grammarExercises['pronouns']['possessive-pronouns-gap-page5'] = {
     title: "Possessive Pronouns - Travel and Transport",
     fillGaps: [
         {
-            question: "Choose the correct possessive pronoun:",
-            questionRu: "Выберите правильное притяжательное местоимение:",
-            sentence: "My flight was delayed by two hours. Was _____ on time?",
-            options: [
-                "yours",
-                "your",
-                "you",
-                "yourself"
-            ],
-            correctAnswer: 0,
+            question: "Complete the sentence with the correct possessive pronoun:",
+            questionRu: "Заполните предложение правильным притяжательным местоимением:",
+            sentence: "My flight was delayed by two hours. Was ____ on time?",
+            correctAnswer: "yours",
+            options: ["yours", "your", "you", "yourself"],
             correctFeedback: "Correct! 'Yours' is the possessive pronoun that stands alone as the subject meaning 'your flight'.",
             correctFeedbackRu: "Правильно! 'Yours' - это притяжательное местоимение, которое стоит отдельно как подлежащее, означающее 'your flight'.",
             incorrectFeedback: "Wrong. Use 'yours' (possessive pronoun) as the subject meaning 'your flight'. 'Your' is a possessive adjective and needs a noun after it.",

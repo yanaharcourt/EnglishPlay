@@ -5,7 +5,7 @@ if (typeof window.grammarExercises === 'undefined') {
 }
 if (!window.grammarExercises['tenses']) {
     window.grammarExercises['tenses'] = {};
-}
+} 
 
 /* ============================================
 Page 1: Present Perfect vs Past Simple - Life Experiences and Specific Past Actions

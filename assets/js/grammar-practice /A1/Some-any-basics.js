@@ -3387,7 +3387,7 @@ window.grammarExercises['articles']['some-any-basics-sentence-page5'] = {
             correctFeedbackRu: "Правильно! 'Are you having any difficulties with this exercise?' верно. Прекрасный вопрос в длительном времени!",
             incorrectFeedback: "Try again. Remember: Are + you + verb+ing + any + plural noun + preposition + demonstrative + noun + ?",
             incorrectFeedbackRu: "Попробуйте снова. Помните: Are + you + глагол+ing + any + множественное существительное + предлог + указательное + существительное + ?"
-        },,
+        },
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3833,7 +3833,7 @@ window.grammarExercises['articles']['some-any-basics-sentence-page9'] = {
             correctFeedbackRu: "Отлично! 'Are there any free computers in the lab?' верно. Превосходный вопрос о наличии!",
             incorrectFeedback: "Try again. Remember: Are + there + any + adjective + plural noun + preposition + article + noun + ?",
             incorrectFeedbackRu: "Попробуйте снова. Помните: Are + there + any + прилагательное + множественное существительное + предлог + артикль + существительное + ?"
-        },,
+        },
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
@@ -3982,7 +3982,7 @@ window.grammarExercises['articles']['some-any-basics-sentence-page10'] = {
             correctFeedbackRu: "Отлично! 'The children left some toys in the playroom.' верно. Превосходное предложение о семейной жизни!",
             incorrectFeedback: "Try again. Remember: Article + plural noun + past verb + some + plural noun + preposition + article + noun.",
             incorrectFeedbackRu: "Попробуйте снова. Помните: Артикль + множественное существительное + глагол в прошедшем времени + some + множественное существительное + предлог + артикль + существительное."
-        },,
+        },
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",

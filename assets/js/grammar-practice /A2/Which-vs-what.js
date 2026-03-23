@@ -2985,12 +2985,12 @@ window.grammarExercises['questions']['which-vs-what-sentence-page1'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["Which", "movie", "do", "you", "want", "to", "watch?"],
-            correctAnswer: "Which movie do you want to watch?",
-            correctFeedback: "Excellent! 'Which movie do you want to watch?' is correct. Great use of 'Which' when specific options are implied!",
-            correctFeedbackRu: "Превосходно! 'Which movie do you want to watch?' верно. Отличное использование 'Which' когда подразумеваются конкретные варианты!",
-            incorrectFeedback: "Try again. Remember: Which + noun + do + you + want + to + verb + ?",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Which + существительное + do + you + want + to + глагол + ?"
+            words: ["What", "movie", "do", "you", "want", "to", "watch?"],
+            correctAnswer: "What movie do you want to watch?",
+            correctFeedback: "Excellent! 'What movie do you want to watch?' is correct. Great use of 'What' for open-ended questions about movies!",
+            correctFeedbackRu: "Превосходно! 'What movie do you want to watch?' верно. Отличное использование 'What' для открытых вопросов о фильмах!",
+            incorrectFeedback: "Try again. Remember: What + noun + do + you + want + to + verb + ?",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: What + существительное + do + you + want + to + глагол + ?",
         },
         {
             question: "Form a correct sentence using these words:",

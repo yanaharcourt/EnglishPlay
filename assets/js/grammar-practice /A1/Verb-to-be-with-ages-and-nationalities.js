@@ -2374,7 +2374,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page6'] 
 Page 7: Age ranges and approximate ages
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page7'] = {
-    title: "'To Be' with ages and nationalities - ge ranges and approximate ages",
+    title: "'To Be' with ages and nationalities - Age ranges and approximate ages",
     fillGaps: [
         {
             question: "Complete the sentence with the correct form of 'to be':",
@@ -2838,7 +2838,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-gap-page10']
             sentence: "All the participants ____ ready to share their stories about age and culture.",
             correctAnswer: "are",
             options: ["am", "is", "are", "be"],
-            correctFeedback: "Perfect! With 'participants' (plural), we use 'are' for readiness statements. You've completed all Fill in the Gaps exercises!",
+            correctFeedback: "Perfect! With 'participants' (plural), we use 'are' for readiness statements.",
             correctFeedbackRu: "Отлично! С 'participants' (множественное число) мы используем 'are' для утверждений о готовности. Вы завершили все упражнения Fill in the Gaps!",
             incorrectFeedback: "Incorrect. With 'participants', we need to use 'are' for group readiness.",
             incorrectFeedbackRu: "Неправильно. С 'participants' нужно использовать 'are' для готовности группы."
@@ -3797,8 +3797,8 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
             questionRu: "Составьте предложение о социальной интеграции:",
             words: ["Everyone", "is", "welcome", "here", "regardless", "of", "age", "or", "background"],
             correctAnswer: "Everyone is welcome here regardless of age or background.",
-            correctFeedback: "Excellent! This promotes inclusive community values.",
-            correctFeedbackRu: "Отлично! Это продвигает инклюзивные ценности сообщества.",
+            correctFeedback: "Excellent! 'Everyone is welcome here regardless of age or background.' is correct. Remember: 'everyone' is singular and always takes 'is'.",
+            correctFeedbackRu: "Отлично! 'Everyone is welcome here regardless of age or background.' верно. Помните: 'everyone' — единственное число, всегда используется с 'is'.",
             incorrectFeedback: "Remember: Everyone + is + welcome + regardless of + factors.",
             incorrectFeedbackRu: "Помните: Everyone + is + welcome + regardless of + факторы."
         },
@@ -3839,7 +3839,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
 Page 10: Complete introductions and real-life scenarios
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-page10'] = {
-    title: "'To Be' with ages and nationalities -Real-life scenarios",
+    title: "'To Be' with ages and nationalities - Real-life scenarios",
     sentenceBuilding: [
         {
             question: "Form a complete self-introduction with all details:",
@@ -3856,7 +3856,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
             questionRu: "Составьте предложение, полностью представляющее кого-то другого:",
             words: ["This", "is", "my", "friend", "Alex", "he", "is", "31", "and", "very", "talented"],
             correctAnswer: "This is my friend Alex, he is 31 and very talented.",
-            correctFeedback: "Perfect! This introduces someone with relationship, name, age, and qualities.",
+            correctFeedback: "Perfect! 'My friend is 22 and she is from Japan.' — use 'is' with singular subjects.",
             correctFeedbackRu: "Идеально! Это представляет кого-то с отношением, именем, возрастом и качествами.",
             incorrectFeedback: "Use: This is my + relationship + name, he is + age + and + adjective.",
             incorrectFeedbackRu: "Используйте: This is my + отношение + имя, he is + возраст + and + прилагательное."
@@ -3936,7 +3936,7 @@ window.grammarExercises['to-be']['to-be-with-ages-and-nationalities-sentence-pag
             questionRu: "Составьте финальное предложение, празднующее разнообразие и единство:",
             words: ["Together", "we", "are", "stronger", "regardless", "of", "our", "ages", "or", "origins"],
             correctAnswer: "Together, we are stronger regardless of our ages or origins.",
-            correctFeedback: "Excellent! This is a perfect conclusion celebrating unity in diversity. You've completed all 10 pages of Sentence Building exercises!",
+            correctFeedback: "Excellent! This is a perfect conclusion celebrating unity in diversity.",
             correctFeedbackRu: "Отлично! Это идеальное заключение, празднующее единство в разнообразии. Вы завершили все 10 страниц упражнений Sentence Building!",
             incorrectFeedback: "Remember: Together, we + are + stronger + regardless of + our differences.",
             incorrectFeedbackRu: "Помните: Together, we + are + stronger + regardless of + our differences."

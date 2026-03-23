@@ -5,7 +5,7 @@ if (typeof window.grammarExercises === 'undefined') {
 }
 if (!window.grammarExercises['modals']) {
     window.grammarExercises['modals'] = {};
-}
+} 
 
 /* ============================================
 Page 1: Must vs Have to - Basic Obligation and Necessity

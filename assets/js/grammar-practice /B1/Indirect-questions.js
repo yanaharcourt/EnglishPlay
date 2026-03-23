@@ -2286,7 +2286,7 @@ window.grammarExercises['questions']['indirect-questions-gap-page5'] = {
             questionRu: "Заполните пропуск:",
             sentence: "I'm not sure ____ we should book the tickets online.",
             correctAnswer: "whether",
-            options: ["whether", "that", "if", "when"],
+            options: ["whether", "that", "what", "when"],
             correctFeedback: "Perfect! 'Whether' can be used for yes/no questions with modal verbs.",
             correctFeedbackRu: "Отлично! 'Whether' можно использовать для вопросов да/нет с модальными глаголами.",
             incorrectFeedback: "Use 'whether' for yes/no questions: 'whether we should book the tickets'.",
@@ -2542,13 +2542,13 @@ window.grammarExercises['questions']['indirect-questions-gap-page8'] = {
         {
             question: "Complete with the correct word order:",
             questionRu: "Дополните правильным порядком слов:",
-            sentence: "Could you tell me what the weather forecast ____ tomorrow is?",
-            correctAnswer: "for",
-            options: ["for", "of", "to", "about"],
+            sentence: "Could you tell me what the weather forecast for tomorrow ____?",
+            correctAnswer: "is",
+            options: ["is", "was", "will be", "are"],
             correctFeedback: "Perfect! 'What the weather forecast for tomorrow is' uses statement word order.",
             correctFeedbackRu: "Отлично! 'What the weather forecast for tomorrow is' использует порядок слов утверждения.",
-            incorrectFeedback: "Use 'for' with forecast: 'what the weather forecast for tomorrow is'.",
-            incorrectFeedbackRu: "Используйте 'for' с forecast: 'what the weather forecast for tomorrow is'."
+            incorrectFeedback: "Use 'is' at the end: 'what the weather forecast for tomorrow is'.",
+            incorrectFeedbackRu: "Используйте 'is' в конце: 'what the weather forecast for tomorrow is'."
         },
         {
             question: "Fill in the missing word:",
@@ -2802,13 +2802,13 @@ window.grammarExercises['questions']['indirect-questions-gap-page10'] = {
         {
             question: "Complete the indirect question:",
             questionRu: "Дополните косвенный вопрос:",
-            sentence: "I'm curious what your plans ____ the summer vacation are.",
-            correctAnswer: "for",
-            options: ["for", "about", "of", "to"],
+            sentence: "I'm curious what your plans for the summer vacation ____.",
+            correctAnswer: "are",
+            options: ["are", "is", "were", "will be"],
             correctFeedback: "Great! 'What your plans for the summer vacation are' uses statement word order.",
             correctFeedbackRu: "Отлично! 'What your plans for the summer vacation are' использует порядок слов утверждения.",
-            incorrectFeedback: "Use 'for' with plans: 'what your plans for the summer vacation are'.",
-            incorrectFeedbackRu: "Используйте 'for' с plans: 'what your plans for the summer vacation are'."
+            incorrectFeedback: "Use statement word order: what + subject + verb in indirect questions.",
+            incorrectFeedbackRu: "Используйте порядок слов утверждения: what + подлежащее + глагол в косвенных вопросах."
         },
         {
             question: "Fill in with the correct word:",

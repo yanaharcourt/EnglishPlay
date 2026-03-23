@@ -2270,13 +2270,13 @@ window.grammarExercises['pronouns']['by-reflexive-gap-page5'] = {
         {
             question: "Complete the sentence with the correct reflexive pronoun:",
             questionRu: "Заполните предложение правильным возвратным местоимением:",
-            sentence: "The fitness enthusiasts motivated each other by ____.",
+            sentence: "The fitness enthusiasts trained for the competition by ____.",
             correctAnswer: "themselves",
-            options: ["themselves", "himself", "herself", "yourself"],
-            correctFeedback: "Perfect! 'Themselves' is correct because the group encouraged one another independently.",
-            correctFeedbackRu: "Отлично! 'Themselves' правильно, потому что группа поощряла друг друга самостоятельно.",
-            incorrectFeedback: "Not quite right! Use 'themselves' because 'enthusiasts' is plural and they motivated independently.",
-            incorrectFeedbackRu: "Не совсем так! Используйте 'themselves', потому что 'enthusiasts' во множественном числе и они мотивировали самостоятельно."
+            options: ["themselves", "himself", "herself", "ourselves"],
+            correctFeedback: "Perfect! 'Themselves' is correct because the group trained together independently.",
+            correctFeedbackRu: "Отлично! 'Themselves' правильно, потому что группа тренировалась вместе самостоятельно.",
+            incorrectFeedback: "Not quite right! Use 'themselves' because 'enthusiasts' is plural and they trained independently.",
+            incorrectFeedbackRu: "Не совсем так! Используйте 'themselves', потому что 'enthusiasts' во множественном числе и они тренировались самостоятельно."
         },
         {
             question: "Complete the sentence with the correct reflexive pronoun:",

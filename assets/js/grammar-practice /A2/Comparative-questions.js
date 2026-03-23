@@ -3908,7 +3908,7 @@ window.grammarExercises['adjectives']['comparative-questions-sentence-page10'] =
             correctFeedbackRu: "Отлично! 'What saves the environment more, recycling or using less energy?' верно. Идеальное сравнение экологических действий!",
             incorrectFeedback: "Try again. Remember: What + verb + article + noun + more + comma + gerund + or + gerund phrase + ?",
             incorrectFeedbackRu: "Попробуйте снова. Помните: What + глагол + артикль + существительное + more + запятая + герундий + or + герундиальная фраза + ?"
-        },
+        }, 
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",

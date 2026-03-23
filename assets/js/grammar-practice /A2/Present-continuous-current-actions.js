@@ -2910,7 +2910,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "teacher", "is", "helping", "her", "students"],
+            words: ["The", "teacher", "is", "helping", "her", "students."],
             correctAnswer: "The teacher is helping her students.",
             correctFeedback: "Perfect! 'The teacher is helping her students' shows current teaching activity.",
             correctFeedbackRu: "Идеально! 'The teacher is helping her students' показывает текущую преподавательскую деятельность.",
@@ -2920,7 +2920,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "manager", "is", "checking", "his", "emails"],
+            words: ["The", "manager", "is", "checking", "his", "emails."],
             correctAnswer: "The manager is checking his emails.",
             correctFeedback: "Excellent! 'The manager is checking his emails' describes current office work.",
             correctFeedbackRu: "Отлично! 'The manager is checking his emails' описывает текущую офисную работу.",
@@ -2930,7 +2930,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "nurse", "is", "taking", "care", "of", "patients"],
+            words: ["The", "nurse", "is", "taking", "care", "of", "patients."],
             correctAnswer: "The nurse is taking care of patients.",
             correctFeedback: "Great! 'The nurse is taking care of patients' shows current medical work.",
             correctFeedbackRu: "Отлично! 'The nurse is taking care of patients' показывает текущую медицинскую работу.",
@@ -2940,7 +2940,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "chef", "is", "cooking", "dinner", "tonight"],
+            words: ["The", "chef", "is", "cooking", "dinner", "tonight."],
             correctAnswer: "The chef is cooking dinner tonight.",
             correctFeedback: "Perfect! 'The chef is cooking dinner tonight' describes current kitchen work.",
             correctFeedbackRu: "Идеально! 'The chef is cooking dinner tonight' описывает текущую работу на кухне.",
@@ -2950,7 +2950,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "driver", "is", "delivering", "packages", "today"],
+            words: ["The", "driver", "is", "delivering", "packages", "today."],
             correctAnswer: "The driver is delivering packages today.",
             correctFeedback: "Excellent! 'The driver is delivering packages today' shows current delivery work.",
             correctFeedbackRu: "Отлично! 'The driver is delivering packages today' показывает текущую работу по доставке.",
@@ -2960,7 +2960,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "shop", "assistant", "is", "serving", "customers"],
+            words: ["The", "shop", "assistant", "is", "serving", "customers."],
             correctAnswer: "The shop assistant is serving customers.",
             correctFeedback: "Great! 'The shop assistant is serving customers' describes current retail work.",
             correctFeedbackRu: "Отлично! 'The shop assistant is serving customers' описывает текущую работу в магазине.",
@@ -2970,7 +2970,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "mechanic", "is", "fixing", "a", "car"],
+            words: ["The", "mechanic", "is", "fixing", "a", "car."],
             correctAnswer: "The mechanic is fixing a car.",
             correctFeedback: "Perfect! 'The mechanic is fixing a car' shows current repair work.",
             correctFeedbackRu: "Идеально! 'The mechanic is fixing a car' показывает текущую ремонтную работу.",
@@ -2980,7 +2980,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "secretary", "is", "answering", "phone", "calls"],
+            words: ["The", "secretary", "is", "answering", "phone", "calls."],
             correctAnswer: "The secretary is answering phone calls.",
             correctFeedback: "Excellent! 'The secretary is answering phone calls' describes current office communication.",
             correctFeedbackRu: "Отлично! 'The secretary is answering phone calls' описывает текущее офисное общение.",
@@ -2990,7 +2990,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "cleaner", "is", "cleaning", "the", "office"],
+            words: ["The", "cleaner", "is", "cleaning", "the", "office."],
             correctAnswer: "The cleaner is cleaning the office.",
             correctFeedback: "Great! 'The cleaner is cleaning the office' shows current maintenance work.",
             correctFeedbackRu: "Отлично! 'The cleaner is cleaning the office' показывает текущую уборочную работу.",
@@ -3000,7 +3000,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "doctor", "is", "examining", "a", "patient"],
+            words: ["The", "doctor", "is", "examining", "a", "patient."],
             correctAnswer: "The doctor is examining a patient.",
             correctFeedback: "Perfect! 'The doctor is examining a patient' describes current medical work.",
             correctFeedbackRu: "Идеально! 'The doctor is examining a patient' описывает текущую медицинскую работу.",
@@ -3019,7 +3019,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "children", "are", "playing", "in", "the", "garden"],
+            words: ["The", "children", "are", "playing", "in", "the", "garden."],
             correctAnswer: "The children are playing in the garden.",
             correctFeedback: "Perfect! 'The children are playing in the garden' shows current family activity.",
             correctFeedbackRu: "Идеально! 'The children are playing in the garden' показывает текущую семейную деятельность.",
@@ -3029,7 +3029,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["My", "mother", "is", "making", "breakfast", "now"],
+            words: ["My", "mother", "is", "making", "breakfast", "now."],
             correctAnswer: "My mother is making breakfast now.",
             correctFeedback: "Excellent! 'My mother is making breakfast now' describes current kitchen activity.",
             correctFeedbackRu: "Отлично! 'My mother is making breakfast now' описывает текущую кухонную деятельность.",
@@ -3039,7 +3039,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["Dad", "is", "washing", "his", "car", "outside"],
+            words: ["Dad", "is", "washing", "his", "car", "outside."],
             correctAnswer: "Dad is washing his car outside.",
             correctFeedback: "Great! 'Dad is washing his car outside' shows current household activity.",
             correctFeedbackRu: "Отлично! 'Dad is washing his car outside' показывает текущую домашнюю деятельность.",
@@ -3049,7 +3049,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["My", "sister", "is", "doing", "her", "homework"],
+            words: ["My", "sister", "is", "doing", "her", "homework."],
             correctAnswer: "My sister is doing her homework.",
             correctFeedback: "Perfect! 'My sister is doing her homework' describes current study activity.",
             correctFeedbackRu: "Идеально! 'My sister is doing her homework' описывает текущую учебную деятельность.",
@@ -3059,7 +3059,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["Grandma", "is", "reading", "a", "book", "quietly"],
+            words: ["Grandma", "is", "reading", "a", "book", "quietly."],
             correctAnswer: "Grandma is reading a book quietly.",
             correctFeedback: "Excellent! 'Grandma is reading a book quietly' shows current leisure activity.",
             correctFeedbackRu: "Отлично! 'Grandma is reading a book quietly' показывает текущую досуговую деятельность.",
@@ -3069,7 +3069,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "baby", "is", "sleeping", "in", "the", "crib"],
+            words: ["The", "baby", "is", "sleeping", "in", "the", "crib."],
             correctAnswer: "The baby is sleeping in the crib.",
             correctFeedback: "Great! 'The baby is sleeping in the crib' describes current rest activity.",
             correctFeedbackRu: "Отлично! 'The baby is sleeping in the crib' описывает текущий отдых.",
@@ -3079,7 +3079,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["My", "brother", "is", "watching", "TV", "downstairs"],
+            words: ["My", "brother", "is", "watching", "TV", "downstairs."],
             correctAnswer: "My brother is watching TV downstairs.",
             correctFeedback: "Perfect! 'My brother is watching TV downstairs' shows current entertainment activity.",
             correctFeedbackRu: "Идеально! 'My brother is watching TV downstairs' показывает текущую развлекательную деятельность.",
@@ -3089,7 +3089,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "family", "is", "having", "dinner", "together"],
+            words: ["The", "family", "is", "having", "dinner", "together."],
             correctAnswer: "The family is having dinner together.",
             correctFeedback: "Excellent! 'The family is having dinner together' describes current mealtime activity.",
             correctFeedbackRu: "Отлично! 'The family is having dinner together' описывает текущий прием пищи.",
@@ -3099,7 +3099,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["Mom", "is", "watering", "the", "plants", "carefully"],
+            words: ["Mom", "is", "watering", "the", "plants", "carefully."],
             correctAnswer: "Mom is watering the plants carefully.",
             correctFeedback: "Great! 'Mom is watering the plants carefully' shows current gardening activity.",
             correctFeedbackRu: "Отлично! 'Mom is watering the plants carefully' показывает текущую садовую деятельность.",
@@ -3109,7 +3109,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "cat", "is", "lying", "on", "the", "sofa"],
+            words: ["The", "cat", "is", "lying", "on", "the", "sofa."],
             correctAnswer: "The cat is lying on the sofa.",
             correctFeedback: "Perfect! 'The cat is lying on the sofa' describes current pet activity.",
             correctFeedbackRu: "Идеально! 'The cat is lying on the sofa' описывает текущую деятельность питомца.",
@@ -3128,7 +3128,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "students", "are", "writing", "an", "essay"],
+            words: ["The", "students", "are", "writing", "an", "essay."],
             correctAnswer: "The students are writing an essay.",
             correctFeedback: "Perfect! 'The students are writing an essay' shows current school activity.",
             correctFeedbackRu: "Идеально! 'The students are writing an essay' показывает текущую школьную деятельность.",
@@ -3138,7 +3138,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["My", "classmate", "is", "learning", "new", "vocabulary"],
+            words: ["My", "classmate", "is", "learning", "new", "vocabulary."],
             correctAnswer: "My classmate is learning new vocabulary.",
             correctFeedback: "Excellent! 'My classmate is learning new vocabulary' describes current study activity.",
             correctFeedbackRu: "Отлично! 'My classmate is learning new vocabulary' описывает текущую учебную деятельность.",
@@ -3148,7 +3148,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "teacher", "is", "explaining", "the", "lesson"],
+            words: ["The", "teacher", "is", "explaining", "the", "lesson."],
             correctAnswer: "The teacher is explaining the lesson.",
             correctFeedback: "Great! 'The teacher is explaining the lesson' shows current teaching activity.",
             correctFeedbackRu: "Отлично! 'The teacher is explaining the lesson' показывает текущую преподавательскую деятельность.",
@@ -3158,7 +3158,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "librarian", "is", "helping", "the", "children"],
+            words: ["The", "librarian", "is", "helping", "the", "children."],
             correctAnswer: "The librarian is helping the children.",
             correctFeedback: "Perfect! 'The librarian is helping the children' describes current library activity.",
             correctFeedbackRu: "Идеально! 'The librarian is helping the children' описывает текущую деятельность в библиотеке.",
@@ -3168,7 +3168,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["I", "am", "preparing", "for", "my", "exam"],
+            words: ["I", "am", "preparing", "for", "my", "exam."],
             correctAnswer: "I am preparing for my exam.",
             correctFeedback: "Excellent! 'I am preparing for my exam' shows current study preparation.",
             correctFeedbackRu: "Отлично! 'I am preparing for my exam' показывает текущую подготовку к учебе.",
@@ -3178,7 +3178,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "class", "is", "listening", "to", "music"],
+            words: ["The", "class", "is", "listening", "to", "music."],
             correctAnswer: "The class is listening to music.",
             correctFeedback: "Great! 'The class is listening to music' describes current educational activity.",
             correctFeedbackRu: "Отлично! 'The class is listening to music' описывает текущую образовательную деятельность.",
@@ -3188,7 +3188,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["My", "friend", "is", "solving", "math", "problems"],
+            words: ["My", "friend", "is", "solving", "math", "problems."],
             correctAnswer: "My friend is solving math problems.",
             correctFeedback: "Perfect! 'My friend is solving math problems' shows current academic work.",
             correctFeedbackRu: "Идеально! 'My friend is solving math problems' показывает текущую академическую работу.",
@@ -3198,7 +3198,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "student", "is", "drawing", "a", "picture"],
+            words: ["The", "student", "is", "drawing", "a", "picture."],
             correctAnswer: "The student is drawing a picture.",
             correctFeedback: "Excellent! 'The student is drawing a picture' describes current art activity.",
             correctFeedbackRu: "Отлично! 'The student is drawing a picture' описывает текущую художественную деятельность.",
@@ -3208,7 +3208,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["We", "are", "practicing", "English", "pronunciation"],
+            words: ["We", "are", "practicing", "English", "pronunciation."],
             correctAnswer: "We are practicing English pronunciation.",
             correctFeedback: "Great! 'We are practicing English pronunciation' shows current language learning.",
             correctFeedbackRu: "Отлично! 'We are practicing English pronunciation' показывает текущее изучение языка.",
@@ -3218,7 +3218,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "children", "are", "reading", "story", "books"],
+            words: ["The", "children", "are", "reading", "story", "books."],
             correctAnswer: "The children are reading story books.",
             correctFeedback: "Perfect! 'The children are reading story books' describes current reading activity.",
             correctFeedbackRu: "Идеально! 'The children are reading story books' описывает текущую деятельность по чтению.",
@@ -3237,7 +3237,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "surgeon", "is", "performing", "a", "complex", "operation"],
+            words: ["The", "surgeon", "is", "performing", "a", "complex", "operation."],
             correctAnswer: "The surgeon is performing a complex operation.",
             correctFeedback: "Perfect! 'The surgeon is performing a complex operation' shows current medical procedure.",
             correctFeedbackRu: "Идеально! 'The surgeon is performing a complex operation' показывает текущую медицинскую процедуру.",
@@ -3247,7 +3247,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "pediatrician", "is", "examining", "young", "patients"],
+            words: ["The", "pediatrician", "is", "examining", "young", "patients."],
             correctAnswer: "The pediatrician is examining young patients.",
             correctFeedback: "Excellent! 'The pediatrician is examining young patients' describes current medical assessment.",
             correctFeedbackRu: "Отлично! 'The pediatrician is examining young patients' описывает текущее медицинское обследование.",
@@ -3257,7 +3257,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "pharmacist", "is", "dispensing", "prescription", "medications"],
+            words: ["The", "pharmacist", "is", "dispensing", "prescription", "medications."],
             correctAnswer: "The pharmacist is dispensing prescription medications.",
             correctFeedback: "Great! 'The pharmacist is dispensing prescription medications' shows current pharmaceutical service.",
             correctFeedbackRu: "Отлично! 'The pharmacist is dispensing prescription medications' показывает текущую фармацевтическую услугу.",
@@ -3267,7 +3267,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "physical", "therapist", "is", "rehabilitating", "injured", "athletes"],
+            words: ["The", "physical", "therapist", "is", "rehabilitating", "injured", "athletes."],
             correctAnswer: "The physical therapist is rehabilitating injured athletes.",
             correctFeedback: "Perfect! 'The physical therapist is rehabilitating injured athletes' describes current rehabilitation work.",
             correctFeedbackRu: "Идеально! 'The physical therapist is rehabilitating injured athletes' описывает текущую реабилитационную работу.",
@@ -3277,7 +3277,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "radiologist", "is", "analyzing", "medical", "imaging", "results"],
+            words: ["The", "radiologist", "is", "analyzing", "medical", "imaging", "results."],
             correctAnswer: "The radiologist is analyzing medical imaging results.",
             correctFeedback: "Excellent! 'The radiologist is analyzing medical imaging results' shows current diagnostic work.",
             correctFeedbackRu: "Отлично! 'The radiologist is analyzing medical imaging results' показывает текущую диагностическую работу.",
@@ -3287,7 +3287,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "emergency", "nurse", "is", "monitoring", "critical", "patients"],
+            words: ["The", "emergency", "nurse", "is", "monitoring", "critical", "patients."],
             correctAnswer: "The emergency nurse is monitoring critical patients.",
             correctFeedback: "Great! 'The emergency nurse is monitoring critical patients' describes current intensive care work.",
             correctFeedbackRu: "Отлично! 'The emergency nurse is monitoring critical patients' описывает текущую работу интенсивной терапии.",
@@ -3297,7 +3297,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "cardiologist", "is", "treating", "heart", "conditions"],
+            words: ["The", "cardiologist", "is", "treating", "heart", "conditions."],
             correctAnswer: "The cardiologist is treating heart conditions.",
             correctFeedback: "Perfect! 'The cardiologist is treating heart conditions' shows current cardiac care.",
             correctFeedbackRu: "Идеально! 'The cardiologist is treating heart conditions' показывает текущую кардиологическую помощь.",
@@ -3307,7 +3307,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "dental", "hygienist", "is", "cleaning", "patients'", "teeth"],
+            words: ["The", "dental", "hygienist", "is", "cleaning", "patients'", "teeth."],
             correctAnswer: "The dental hygienist is cleaning patients' teeth.",
             correctFeedback: "Excellent! 'The dental hygienist is cleaning patients' teeth' describes current dental care.",
             correctFeedbackRu: "Отлично! 'The dental hygienist is cleaning patients' teeth' описывает текущую стоматологическую помощь.",
@@ -3317,7 +3317,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "psychiatrist", "is", "counseling", "mental", "health", "patients"],
+            words: ["The", "psychiatrist", "is", "counseling", "mental", "health", "patients."],
             correctAnswer: "The psychiatrist is counseling mental health patients.",
             correctFeedback: "Great! 'The psychiatrist is counseling mental health patients' shows current psychological support.",
             correctFeedbackRu: "Отлично! 'The psychiatrist is counseling mental health patients' показывает текущую психологическую поддержку.",
@@ -3327,7 +3327,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "laboratory", "technician", "is", "processing", "blood", "samples"],
+            words: ["The", "laboratory", "technician", "is", "processing", "blood", "samples."],
             correctAnswer: "The laboratory technician is processing blood samples.",
             correctFeedback: "Perfect! 'The laboratory technician is processing blood samples' describes current lab work.",
             correctFeedbackRu: "Идеально! 'The laboratory technician is processing blood samples' описывает текущую лабораторную работу.",
@@ -3346,7 +3346,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "marine", "biologist", "is", "studying", "ocean", "ecosystems"],
+            words: ["The", "marine", "biologist", "is", "studying", "ocean", "ecosystems."],
             correctAnswer: "The marine biologist is studying ocean ecosystems.",
             correctFeedback: "Perfect! 'The marine biologist is studying ocean ecosystems' shows current environmental research.",
             correctFeedbackRu: "Идеально! 'The marine biologist is studying ocean ecosystems' показывает текущее экологическое исследование.",
@@ -3356,7 +3356,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "forest", "ranger", "is", "protecting", "endangered", "species"],
+            words: ["The", "forest", "ranger", "is", "protecting", "endangered", "species."],
             correctAnswer: "The forest ranger is protecting endangered species.",
             correctFeedback: "Excellent! 'The forest ranger is protecting endangered species' describes current wildlife conservation.",
             correctFeedbackRu: "Отлично! 'The forest ranger is protecting endangered species' описывает текущую охрану дикой природы.",
@@ -3366,7 +3366,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "environmental", "engineer", "is", "designing", "sustainable", "solutions"],
+            words: ["The", "environmental", "engineer", "is", "designing", "sustainable", "solutions."],
             correctAnswer: "The environmental engineer is designing sustainable solutions.",
             correctFeedback: "Great! 'The environmental engineer is designing sustainable solutions' shows current green technology work.",
             correctFeedbackRu: "Отлично! 'The environmental engineer is designing sustainable solutions' показывает текущую работу с зелеными технологиями.",
@@ -3376,7 +3376,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "climate", "scientist", "is", "measuring", "atmospheric", "changes"],
+            words: ["The", "climate", "scientist", "is", "measuring", "atmospheric", "changes."],
             correctAnswer: "The climate scientist is measuring atmospheric changes.",
             correctFeedback: "Perfect! 'The climate scientist is measuring atmospheric changes' describes current climate research.",
             correctFeedbackRu: "Идеально! 'The climate scientist is measuring atmospheric changes' описывает текущее исследование климата.",
@@ -3386,7 +3386,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "conservation", "team", "is", "restoring", "damaged", "habitats"],
+            words: ["The", "conservation", "team", "is", "restoring", "damaged", "habitats."],
             correctAnswer: "The conservation team is restoring damaged habitats.",
             correctFeedback: "Excellent! 'The conservation team is restoring damaged habitats' shows current ecosystem rehabilitation.",
             correctFeedbackRu: "Отлично! 'The conservation team is restoring damaged habitats' показывает текущую реабилитацию экосистем.",
@@ -3396,7 +3396,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "recycling", "coordinator", "is", "organizing", "waste", "management", "programs"],
+            words: ["The", "recycling", "coordinator", "is", "organizing", "waste", "management", "programs."],
             correctAnswer: "The recycling coordinator is organizing waste management programs.",
             correctFeedback: "Great! 'The recycling coordinator is organizing waste management programs' describes current sustainability work.",
             correctFeedbackRu: "Отлично! 'The recycling coordinator is organizing waste management programs' описывает текущую работу по устойчивому развитию.",
@@ -3406,7 +3406,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "wildlife", "photographer", "is", "documenting", "animal", "behavior"],
+            words: ["The", "wildlife", "photographer", "is", "documenting", "animal", "behavior."],
             correctAnswer: "The wildlife photographer is documenting animal behavior.",
             correctFeedback: "Perfect! 'The wildlife photographer is documenting animal behavior' shows current nature documentation.",
             correctFeedbackRu: "Идеально! 'The wildlife photographer is documenting animal behavior' показывает текущую документацию природы.",
@@ -3416,7 +3416,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "solar", "energy", "specialist", "is", "installing", "renewable", "systems"],
+            words: ["The", "solar", "energy", "specialist", "is", "installing", "renewable", "systems."],
             correctAnswer: "The solar energy specialist is installing renewable systems.",
             correctFeedback: "Excellent! 'The solar energy specialist is installing renewable systems' describes current clean energy work.",
             correctFeedbackRu: "Отлично! 'The solar energy specialist is installing renewable systems' описывает текущую работу с чистой энергией.",
@@ -3426,7 +3426,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "water", "quality", "inspector", "is", "testing", "contamination", "levels"],
+            words: ["The", "water", "quality", "inspector", "is", "testing", "contamination", "levels."],
             correctAnswer: "The water quality inspector is testing contamination levels.",
             correctFeedback: "Great! 'The water quality inspector is testing contamination levels' shows current environmental monitoring.",
             correctFeedbackRu: "Отлично! 'The water quality inspector is testing contamination levels' показывает текущий экологический мониторинг.",
@@ -3436,7 +3436,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "botanical", "garden", "curator", "is", "cultivating", "rare", "plants"],
+            words: ["The", "botanical", "garden", "curator", "is", "cultivating", "rare", "plants."],
             correctAnswer: "The botanical garden curator is cultivating rare plants.",
             correctFeedback: "Perfect! 'The botanical garden curator is cultivating rare plants' describes current plant conservation work.",
             correctFeedbackRu: "Идеально! 'The botanical garden curator is cultivating rare plants' описывает текущую работу по охране растений.",
@@ -3455,7 +3455,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "social", "worker", "is", "supporting", "vulnerable", "families"],
+            words: ["The", "social", "worker", "is", "supporting", "vulnerable", "families."],
             correctAnswer: "The social worker is supporting vulnerable families.",
             correctFeedback: "Perfect! 'The social worker is supporting vulnerable families' shows current community assistance work.",
             correctFeedbackRu: "Идеально! 'The social worker is supporting vulnerable families' показывает текущую работу по оказанию помощи сообществу.",
@@ -3465,7 +3465,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "community", "organizer", "is", "mobilizing", "local", "volunteers"],
+            words: ["The", "community", "organizer", "is", "mobilizing", "local", "volunteers."],
             correctAnswer: "The community organizer is mobilizing local volunteers.",
             correctFeedback: "Excellent! 'The community organizer is mobilizing local volunteers' describes current civic engagement work.",
             correctFeedbackRu: "Отлично! 'The community organizer is mobilizing local volunteers' описывает текущую работу по гражданскому участию.",
@@ -3475,7 +3475,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "youth", "counselor", "is", "mentoring", "at-risk", "teenagers"],
+            words: ["The", "youth", "counselor", "is", "mentoring", "at-risk", "teenagers."],
             correctAnswer: "The youth counselor is mentoring at-risk teenagers.",
             correctFeedback: "Great! 'The youth counselor is mentoring at-risk teenagers' shows current youth development work.",
             correctFeedbackRu: "Отлично! 'The youth counselor is mentoring at-risk teenagers' показывает текущую работу по развитию молодежи.",
@@ -3485,7 +3485,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "nonprofit", "director", "is", "coordinating", "charity", "events"],
+            words: ["The", "nonprofit", "director", "is", "coordinating", "charity", "events."],
             correctAnswer: "The nonprofit director is coordinating charity events.",
             correctFeedback: "Perfect! 'The nonprofit director is coordinating charity events' describes current fundraising activities.",
             correctFeedbackRu: "Идеально! 'The nonprofit director is coordinating charity events' описывает текущую деятельность по сбору средств.",
@@ -3495,7 +3495,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "food", "bank", "volunteers", "are", "distributing", "emergency", "supplies"],
+            words: ["The", "food", "bank", "volunteers", "are", "distributing", "emergency", "supplies."],
             correctAnswer: "The food bank volunteers are distributing emergency supplies.",
             correctFeedback: "Excellent! 'The food bank volunteers are distributing emergency supplies' shows current humanitarian aid.",
             correctFeedbackRu: "Отлично! 'The food bank volunteers are distributing emergency supplies' показывает текущую гуманитарную помощь.",
@@ -3505,7 +3505,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "elderly", "care", "assistant", "is", "providing", "companionship", "services"],
+            words: ["The", "elderly", "care", "assistant", "is", "providing", "companionship", "services."],
             correctAnswer: "The elderly care assistant is providing companionship services.",
             correctFeedback: "Great! 'The elderly care assistant is providing companionship services' describes current senior care work.",
             correctFeedbackRu: "Отлично! 'The elderly care assistant is providing companionship services' описывает текущую работу по уходу за пожилыми людьми.",
@@ -3515,7 +3515,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "homeless", "shelter", "coordinator", "is", "managing", "accommodation", "resources"],
+            words: ["The", "homeless", "shelter", "coordinator", "is", "managing", "accommodation", "resources."],
             correctAnswer: "The homeless shelter coordinator is managing accommodation resources.",
             correctFeedback: "Perfect! 'The homeless shelter coordinator is managing accommodation resources' shows current housing assistance.",
             correctFeedbackRu: "Идеально! 'The homeless shelter coordinator is managing accommodation resources' показывает текущую помощь с жильем.",
@@ -3525,7 +3525,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "disability", "advocate", "is", "promoting", "accessibility", "rights"],
+            words: ["The", "disability", "advocate", "is", "promoting", "accessibility", "rights."],
             correctAnswer: "The disability advocate is promoting accessibility rights.",
             correctFeedback: "Excellent! 'The disability advocate is promoting accessibility rights' describes current advocacy work.",
             correctFeedbackRu: "Отлично! 'The disability advocate is promoting accessibility rights' описывает текущую правозащитную работу.",
@@ -3535,7 +3535,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "crisis", "intervention", "specialist", "is", "counseling", "emergency", "situations"],
+            words: ["The", "crisis", "intervention", "specialist", "is", "counseling", "emergency", "situations."],
             correctAnswer: "The crisis intervention specialist is counseling emergency situations.",
             correctFeedback: "Great! 'The crisis intervention specialist is counseling emergency situations' shows current crisis support work.",
             correctFeedbackRu: "Отлично! 'The crisis intervention specialist is counseling emergency situations' показывает текущую работу по поддержке в кризисных ситуациях.",
@@ -3545,7 +3545,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "refugee", "resettlement", "coordinator", "is", "facilitating", "integration", "programs"],
+            words: ["The", "refugee", "resettlement", "coordinator", "is", "facilitating", "integration", "programs."],
             correctAnswer: "The refugee resettlement coordinator is facilitating integration programs.",
             correctFeedback: "Perfect! 'The refugee resettlement coordinator is facilitating integration programs' describes current immigration support work.",
             correctFeedbackRu: "Идеально! 'The refugee resettlement coordinator is facilitating integration programs' описывает текущую работу по поддержке иммиграции.",
@@ -3564,7 +3564,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "tennis", "player", "is", "practicing", "her", "serve"],
+            words: ["The", "tennis", "player", "is", "practicing", "her", "serve."],
             correctAnswer: "The tennis player is practicing her serve.",
             correctFeedback: "Perfect! 'The tennis player is practicing her serve' shows current sports training.",
             correctFeedbackRu: "Идеально! 'The tennis player is practicing her serve' показывает текущую спортивную тренировку.",
@@ -3574,7 +3574,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "soccer", "team", "is", "warming", "up", "before", "the", "game"],
+            words: ["The", "soccer", "team", "is", "warming", "up", "before", "the", "game."],
             correctAnswer: "The soccer team is warming up before the game.",
             correctFeedback: "Excellent! 'The soccer team is warming up before the game' describes current pre-game activity.",
             correctFeedbackRu: "Отлично! 'The soccer team is warming up before the game' описывает текущую предигровую деятельность.",
@@ -3584,7 +3584,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "swimmer", "is", "training", "for", "the", "competition"],
+            words: ["The", "swimmer", "is", "training", "for", "the", "competition."],
             correctAnswer: "The swimmer is training for the competition.",
             correctFeedback: "Great! 'The swimmer is training for the competition' shows current athletic preparation.",
             correctFeedbackRu: "Отлично! 'The swimmer is training for the competition' показывает текущую спортивную подготовку.",
@@ -3594,7 +3594,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "coach", "is", "teaching", "new", "techniques"],
+            words: ["The", "coach", "is", "teaching", "new", "techniques."],
             correctAnswer: "The coach is teaching new techniques.",
             correctFeedback: "Perfect! 'The coach is teaching new techniques' describes current sports instruction.",
             correctFeedbackRu: "Идеально! 'The coach is teaching new techniques' описывает текущее спортивное обучение.",
@@ -3604,7 +3604,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "basketball", "players", "are", "shooting", "free", "throws"],
+            words: ["The", "basketball", "players", "are", "shooting", "free", "throws."],
             correctAnswer: "The basketball players are shooting free throws.",
             correctFeedback: "Excellent! 'The basketball players are shooting free throws' shows current skill practice.",
             correctFeedbackRu: "Отлично! 'The basketball players are shooting free throws' показывает текущую отработку навыков.",
@@ -3614,7 +3614,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "runner", "is", "jogging", "in", "the", "park"],
+            words: ["The", "runner", "is", "jogging", "in", "the", "park."],
             correctAnswer: "The runner is jogging in the park.",
             correctFeedback: "Great! 'The runner is jogging in the park' describes current exercise activity.",
             correctFeedbackRu: "Отлично! 'The runner is jogging in the park' описывает текущую физическую активность.",
@@ -3624,7 +3624,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "cyclist", "is", "riding", "through", "the", "mountains"],
+            words: ["The", "cyclist", "is", "riding", "through", "the", "mountains."],
             correctAnswer: "The cyclist is riding through the mountains.",
             correctFeedback: "Perfect! 'The cyclist is riding through the mountains' shows current outdoor activity.",
             correctFeedbackRu: "Идеально! 'The cyclist is riding through the mountains' показывает текущую активность на свежем воздухе.",
@@ -3634,7 +3634,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "gymnast", "is", "performing", "on", "the", "balance", "beam"],
+            words: ["The", "gymnast", "is", "performing", "on", "the", "balance", "beam."],
             correctAnswer: "The gymnast is performing on the balance beam.",
             correctFeedback: "Excellent! 'The gymnast is performing on the balance beam' describes current athletic performance.",
             correctFeedbackRu: "Отлично! 'The gymnast is performing on the balance beam' описывает текущее спортивное выступление.",
@@ -3644,7 +3644,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "baseball", "pitcher", "is", "throwing", "fast", "balls"],
+            words: ["The", "baseball", "pitcher", "is", "throwing", "fast", "balls."],
             correctAnswer: "The baseball pitcher is throwing fast balls.",
             correctFeedback: "Great! 'The baseball pitcher is throwing fast balls' shows current game action.",
             correctFeedbackRu: "Отлично! 'The baseball pitcher is throwing fast balls' показывает текущее игровое действие.",
@@ -3654,7 +3654,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "golfer", "is", "putting", "on", "the", "green"],
+            words: ["The", "golfer", "is", "putting", "on", "the", "green."],
             correctAnswer: "The golfer is putting on the green.",
             correctFeedback: "Perfect! 'The golfer is putting on the green' describes current golf technique.",
             correctFeedbackRu: "Идеально! 'The golfer is putting on the green' описывает текущую технику игры в гольф.",
@@ -3673,7 +3673,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "chef", "is", "preparing", "a", "special", "dinner"],
+            words: ["The", "chef", "is", "preparing", "a", "special", "dinner."],
             correctAnswer: "The chef is preparing a special dinner.",
             correctFeedback: "Perfect! 'The chef is preparing a special dinner' shows current culinary work.",
             correctFeedbackRu: "Идеально! 'The chef is preparing a special dinner' показывает текущую кулинарную работу.",
@@ -3683,7 +3683,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "baker", "is", "making", "fresh", "bread"],
+            words: ["The", "baker", "is", "making", "fresh", "bread."],
             correctAnswer: "The baker is making fresh bread.",
             correctFeedback: "Excellent! 'The baker is making fresh bread' describes current baking activity.",
             correctFeedbackRu: "Отлично! 'The baker is making fresh bread' описывает текущую деятельность по выпечке.",
@@ -3693,7 +3693,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "waiter", "is", "serving", "hot", "coffee"],
+            words: ["The", "waiter", "is", "serving", "hot", "coffee."],
             correctAnswer: "The waiter is serving hot coffee.",
             correctFeedback: "Great! 'The waiter is serving hot coffee' shows current restaurant service.",
             correctFeedbackRu: "Отлично! 'The waiter is serving hot coffee' показывает текущее обслуживание в ресторане.",
@@ -3703,7 +3703,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "cook", "is", "chopping", "fresh", "vegetables"],
+            words: ["The", "cook", "is", "chopping", "fresh", "vegetables."],
             correctAnswer: "The cook is chopping fresh vegetables.",
             correctFeedback: "Perfect! 'The cook is chopping fresh vegetables' describes current food preparation.",
             correctFeedbackRu: "Идеально! 'The cook is chopping fresh vegetables' описывает текущую подготовку еды.",
@@ -3713,7 +3713,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "barista", "is", "making", "coffee", "drinks"],
+            words: ["The", "barista", "is", "making", "coffee", "drinks."],
             correctAnswer: "The barista is making coffee drinks.",
             correctFeedback: "Excellent! 'The barista is making coffee drinks' shows current beverage preparation.",
             correctFeedbackRu: "Отлично! 'The barista is making coffee drinks' показывает текущую подготовку напитков.",
@@ -3723,7 +3723,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "pastry", "chef", "is", "decorating", "wedding", "cakes"],
+            words: ["The", "pastry", "chef", "is", "decorating", "wedding", "cakes."],
             correctAnswer: "The pastry chef is decorating wedding cakes.",
             correctFeedback: "Great! 'The pastry chef is decorating wedding cakes' describes current cake artistry.",
             correctFeedbackRu: "Отлично! 'The pastry chef is decorating wedding cakes' описывает текущее искусство украшения тортов.",
@@ -3733,7 +3733,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "food", "critic", "is", "tasting", "new", "dishes"],
+            words: ["The", "food", "critic", "is", "tasting", "new", "dishes."],
             correctAnswer: "The food critic is tasting new dishes.",
             correctFeedback: "Perfect! 'The food critic is tasting new dishes' shows current culinary evaluation.",
             correctFeedbackRu: "Идеально! 'The food critic is tasting new dishes' показывает текущую кулинарную оценку.",
@@ -3743,7 +3743,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "restaurant", "manager", "is", "planning", "the", "menu"],
+            words: ["The", "restaurant", "manager", "is", "planning", "the", "menu."],
             correctAnswer: "The restaurant manager is planning the menu.",
             correctFeedback: "Excellent! 'The restaurant manager is planning the menu' describes current menu development.",
             correctFeedbackRu: "Отлично! 'The restaurant manager is planning the menu' описывает текущую разработку меню.",
@@ -3753,7 +3753,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "kitchen", "staff", "is", "cleaning", "cooking", "equipment"],
+            words: ["The", "kitchen", "staff", "is", "cleaning", "cooking", "equipment."],
             correctAnswer: "The kitchen staff is cleaning cooking equipment.",
             correctFeedback: "Great! 'The kitchen staff is cleaning cooking equipment' shows current kitchen maintenance.",
             correctFeedbackRu: "Отлично! 'The kitchen staff is cleaning cooking equipment' показывает текущее обслуживание кухни.",
@@ -3763,7 +3763,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "delivery", "driver", "is", "bringing", "takeout", "orders"],
+            words: ["The", "delivery", "driver", "is", "bringing", "takeout", "orders."],
             correctAnswer: "The delivery driver is bringing takeout orders.",
             correctFeedback: "Perfect! 'The delivery driver is bringing takeout orders' describes current food delivery service.",
             correctFeedbackRu: "Идеально! 'The delivery driver is bringing takeout orders' описывает текущую службу доставки еды.",
@@ -3782,7 +3782,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "actor", "is", "rehearsing", "his", "lines"],
+            words: ["The", "actor", "is", "rehearsing", "his", "lines."],
             correctAnswer: "The actor is rehearsing his lines.",
             correctFeedback: "Perfect! 'The actor is rehearsing his lines' shows current performance preparation.",
             correctFeedbackRu: "Идеально! 'The actor is rehearsing his lines' показывает текущую подготовку к выступлению.",
@@ -3792,7 +3792,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "singer", "is", "recording", "a", "new", "song"],
+            words: ["The", "singer", "is", "recording", "a", "new", "song."],
             correctAnswer: "The singer is recording a new song.",
             correctFeedback: "Excellent! 'The singer is recording a new song' describes current music production.",
             correctFeedbackRu: "Отлично! 'The singer is recording a new song' описывает текущее музыкальное производство.",
@@ -3802,7 +3802,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "news", "reporter", "is", "broadcasting", "live", "updates"],
+            words: ["The", "news", "reporter", "is", "broadcasting", "live", "updates."],
             correctAnswer: "The news reporter is broadcasting live updates.",
             correctFeedback: "Great! 'The news reporter is broadcasting live updates' shows current journalism work.",
             correctFeedbackRu: "Отлично! 'The news reporter is broadcasting live updates' показывает текущую журналистскую работу.",
@@ -3812,7 +3812,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "comedian", "is", "telling", "funny", "jokes"],
+            words: ["The", "comedian", "is", "telling", "funny", "jokes."],
             correctAnswer: "The comedian is telling funny jokes.",
             correctFeedback: "Perfect! 'The comedian is telling funny jokes' describes current comedy performance.",
             correctFeedbackRu: "Идеально! 'The comedian is telling funny jokes' описывает текущее комедийное выступление.",
@@ -3822,7 +3822,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "camera", "crew", "is", "filming", "the", "movie"],
+            words: ["The", "camera", "crew", "is", "filming", "the", "movie."],
             correctAnswer: "The camera crew is filming the movie.",
             correctFeedback: "Excellent! 'The camera crew is filming the movie' shows current film production.",
             correctFeedbackRu: "Отлично! 'The camera crew is filming the movie' показывает текущее кинопроизводство.",
@@ -3832,7 +3832,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "radio", "host", "is", "interviewing", "famous", "guests"],
+            words: ["The", "radio", "host", "is", "interviewing", "famous", "guests."],
             correctAnswer: "The radio host is interviewing famous guests.",
             correctFeedback: "Great! 'The radio host is interviewing famous guests' describes current radio programming.",
             correctFeedbackRu: "Отлично! 'The radio host is interviewing famous guests' описывает текущую радиопрограмму.",
@@ -3842,7 +3842,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "dancer", "is", "practicing", "new", "choreography"],
+            words: ["The", "dancer", "is", "practicing", "new", "choreography."],
             correctAnswer: "The dancer is practicing new choreography.",
             correctFeedback: "Perfect! 'The dancer is practicing new choreography' shows current dance rehearsal.",
             correctFeedbackRu: "Идеально! 'The dancer is practicing new choreography' показывает текущую танцевальную репетицию.",
@@ -3852,7 +3852,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "video", "editor", "is", "cutting", "film", "scenes"],
+            words: ["The", "video", "editor", "is", "cutting", "film", "scenes."],
             correctAnswer: "The video editor is cutting film scenes.",
             correctFeedback: "Excellent! 'The video editor is cutting film scenes' describes current post-production work.",
             correctFeedbackRu: "Отлично! 'The video editor is cutting film scenes' описывает текущую работу постпродакшена.",
@@ -3862,7 +3862,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "band", "is", "playing", "at", "the", "concert"],
+            words: ["The", "band", "is", "playing", "at", "the", "concert."],
             correctAnswer: "The band is playing at the concert.",
             correctFeedback: "Great! 'The band is playing at the concert' shows current live performance.",
             correctFeedbackRu: "Отлично! 'The band is playing at the concert' показывает текущее живое выступление.",
@@ -3872,7 +3872,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "game", "show", "host", "is", "asking", "quiz", "questions"],
+            words: ["The", "game", "show", "host", "is", "asking", "quiz", "questions."],
             correctAnswer: "The game show host is asking quiz questions.",
             correctFeedback: "Perfect! 'The game show host is asking quiz questions' describes current TV entertainment.",
             correctFeedbackRu: "Идеально! 'The game show host is asking quiz questions' описывает текущее телевизионное развлечение.",
@@ -3891,7 +3891,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "family", "is", "enjoying", "their", "vacation"],
+            words: ["The", "family", "is", "enjoying", "their", "vacation."],
             correctAnswer: "The family is enjoying their vacation.",
             correctFeedback: "Perfect! 'The family is enjoying their vacation' shows current leisure activity.",
             correctFeedbackRu: "Идеально! 'The family is enjoying their vacation' показывает текущую досуговую деятельность.",
@@ -3901,7 +3901,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "woman", "is", "shopping", "for", "groceries"],
+            words: ["The", "woman", "is", "shopping", "for", "groceries."],
             correctAnswer: "The woman is shopping for groceries.",
             correctFeedback: "Excellent! 'The woman is shopping for groceries' describes current shopping activity.",
             correctFeedbackRu: "Отлично! 'The woman is shopping for groceries' описывает текущую покупательскую деятельность.",
@@ -3911,7 +3911,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "man", "is", "reading", "the", "newspaper"],
+            words: ["The", "man", "is", "reading", "the", "newspaper."],
             correctAnswer: "The man is reading the newspaper.",
             correctFeedback: "Great! 'The man is reading the newspaper' shows current reading activity.",
             correctFeedbackRu: "Отлично! 'The man is reading the newspaper' показывает текущую деятельность по чтению.",
@@ -3921,7 +3921,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "friends", "are", "meeting", "at", "the", "cafe"],
+            words: ["The", "friends", "are", "meeting", "at", "the", "cafe."],
             correctAnswer: "The friends are meeting at the cafe.",
             correctFeedback: "Perfect! 'The friends are meeting at the cafe' describes current social activity.",
             correctFeedbackRu: "Идеально! 'The friends are meeting at the cafe' описывает текущую социальную деятельность.",
@@ -3931,7 +3931,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "tourist", "is", "taking", "photos", "of", "landmarks"],
+            words: ["The", "tourist", "is", "taking", "photos", "of", "landmarks."],
             correctAnswer: "The tourist is taking photos of landmarks.",
             correctFeedback: "Excellent! 'The tourist is taking photos of landmarks' shows current sightseeing activity.",
             correctFeedbackRu: "Отлично! 'The tourist is taking photos of landmarks' показывает текущую экскурсионную деятельность.",
@@ -3941,7 +3941,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "couple", "is", "walking", "in", "the", "garden"],
+            words: ["The", "couple", "is", "walking", "in", "the", "garden."],
             correctAnswer: "The couple is walking in the garden.",
             correctFeedback: "Great! 'The couple is walking in the garden' describes current romantic activity.",
             correctFeedbackRu: "Отлично! 'The couple is walking in the garden' описывает текущую романтическую деятельность.",
@@ -3951,7 +3951,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "teenager", "is", "listening", "to", "music"],
+            words: ["The", "teenager", "is", "listening", "to", "music."],
             correctAnswer: "The teenager is listening to music.",
             correctFeedback: "Perfect! 'The teenager is listening to music' shows current entertainment activity.",
             correctFeedbackRu: "Идеально! 'The teenager is listening to music' показывает текущую развлекательную деятельность.",
@@ -3961,7 +3961,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "grandfather", "is", "telling", "stories", "to", "children"],
+            words: ["The", "grandfather", "is", "telling", "stories", "to", "children."],
             correctAnswer: "The grandfather is telling stories to children.",
             correctFeedback: "Excellent! 'The grandfather is telling stories to children' describes current family bonding.",
             correctFeedbackRu: "Отлично! 'The grandfather is telling stories to children' описывает текущее семейное общение.",
@@ -3971,7 +3971,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "neighbor", "is", "watering", "her", "flowers"],
+            words: ["The", "neighbor", "is", "watering", "her", "flowers."],
             correctAnswer: "The neighbor is watering her flowers.",
             correctFeedback: "Great! 'The neighbor is watering her flowers' shows current gardening activity.",
             correctFeedbackRu: "Отлично! 'The neighbor is watering her flowers' показывает текущую садоводческую деятельность.",
@@ -3981,7 +3981,7 @@ window.grammarExercises['tenses']['present-continuous-current-actions-sentence-p
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "children", "are", "playing", "in", "the", "playground"],
+            words: ["The", "children", "are", "playing", "in", "the", "playground."],
             correctAnswer: "The children are playing in the playground.",
             correctFeedback: "Perfect! 'The children are playing in the playground' describes current childhood activity. You've completed all 10 pages of Sentence Building exercises!",
             correctFeedbackRu: "Идеально! 'The children are playing in the playground' описывает текущую детскую деятельность. Вы завершили все 10 страниц упражнений Sentence Building!",

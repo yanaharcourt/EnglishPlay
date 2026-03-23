@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="./favicon-512.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/theme-switcher.css">
     <style>
         *,
         *::before,
@@ -1564,12 +1565,12 @@
     <div id="ep-cursor"></div>
     <div id="ep-cursor-trail"></div>
 
-    <!-- NAV -->
     <nav id="mainNav">
         <a class="nav-logo" href="index.html">
             <img src="https://raw.githubusercontent.com/yanaharcourt/EnglishPlay/4c831be1781c8cbddc955e3c5851ebe6defc9a50/assets/img/Logo.svg"
                 alt="EnglishPlay" style="height:48px;width:auto;display:block;">
         </a>
+
         <ul class="nav-links">
             <li><a href="Phrasal Verbs.html">Phrasal Verbs</a></li>
             <li><a href="index.html">Grammar Practice</a></li>
@@ -1580,6 +1581,11 @@
                 </a>
             </li>
         </ul>
+
+        <button class="theme-switcher" id="themeSwitcher" aria-label="Switch theme">
+            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+        </button>
+
         <button class="burger" id="burger" aria-label="Open menu">
             <span></span><span></span><span></span>
         </button>
@@ -1596,6 +1602,9 @@
         <a href="Phrasal Verbs.html" class="mob-link">Phrasal Verbs</a>
         <a href="index.html" class="mob-link">Grammar Practice</a>
         <a href="dashboard.html" class="mob-link">My Account</a>
+        <button class="theme-switcher" id="themeSwitcherMob" aria-label="Switch theme" style="margin-top:1rem;">
+            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+        </button>
     </div>
 
     <!-- PAGE -->
@@ -1625,7 +1634,9 @@
                 <h3>✨ Unlock all grammar topics</h3>
                 <p>You're on the free plan. Upgrade to access <span>100+ exercises</span> across all levels.</p>
             </div>
-            <button class="btn-upgrade" onclick="document.getElementById('upgradeBtn')?.closest('.upgrade-card, .plan-card, [class*=card]')?.scrollIntoView({behavior:'smooth'}) || document.querySelector('.btn-upgrade-full')?.scrollIntoView({behavior:'smooth'})">Upgrade to Premium →</button>
+            <button class="btn-upgrade"
+                onclick="document.getElementById('upgradeBtn')?.closest('.upgrade-card, .plan-card, [class*=card]')?.scrollIntoView({behavior:'smooth'}) || document.querySelector('.btn-upgrade-full')?.scrollIntoView({behavior:'smooth'})">Upgrade
+                to Premium →</button>
         </div>
 
         <!-- STATS -->
@@ -1862,8 +1873,12 @@
                                     style="width:1rem;height:1rem;vertical-align:middle;"></span> New content first</li>
                     </ul>
                     <div style="display:flex;gap:0.75rem;flex-direction:column;">
-                        <button class="btn-upgrade-full" onclick="window.open('https://buy.stripe.com/test_7sY8wR81T4M22OlgyD3wQ01', '_blank')">€9.89 / month →</button>
-                        <button class="btn-upgrade-full" style="background:linear-gradient(135deg,#f59e0b,#d97706);" onclick="window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank')">€79 / year — save 33% →</button>
+                        <button class="btn-upgrade-full"
+                            onclick="window.open('https://buy.stripe.com/test_7sY8wR81T4M22OlgyD3wQ01', '_blank')">€9.89
+                            / month →</button>
+                        <button class="btn-upgrade-full" style="background:linear-gradient(135deg,#f59e0b,#d97706);"
+                            onclick="window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank')">€79 /
+                            year — save 33% →</button>
                     </div>
                     <button class="btn-manage btn-manage-stripe" id="manageBtn" onclick="openStripePortal()"
                         style="display:none">Manage subscription →</button>
@@ -1925,11 +1940,13 @@
                 </div>
                 <p style="color:var(--body-2);font-size:0.8125rem;line-height:1.6;margin:0 0 1rem;">Upgrade to Premium
                     to unlock all grammar exercises across every level.</p>
-                    <button class="s-btn-primary" id="s-upgrade-btn" onclick="window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank')">Upgrade to
-                                        Premium →</button>
-                    <button class="s-btn-outline" id="s-manage-btn" style="display:none;margin-top:0.5rem;"
-                    onclick="window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank')">Manage subscription</button>
-                    </div>
+                <button class="s-btn-primary" id="s-upgrade-btn"
+                    onclick="window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank')">Upgrade to
+                    Premium →</button>
+                <button class="s-btn-outline" id="s-manage-btn" style="display:none;margin-top:0.5rem;"
+                    onclick="window.open('https://buy.stripe.com/test_8x28wRci95Q64Wteqv3wQ00', '_blank')">Manage
+                    subscription</button>
+            </div>
 
             <!-- Danger Zone -->
             <div class="settings-panel" id="panel-danger">
@@ -2254,6 +2271,15 @@
             await supabase.auth.signOut();
             window.location.href = 'index.html';
         }
+    </script>
+
+    <script>
+        document.getElementById('themeSwitcher').addEventListener('click', function() {
+            window.location.href = 'dashboard-light.html';
+        });
+        document.getElementById('themeSwitcherMob').addEventListener('click', function() {
+            window.location.href = 'dashboard-light.html';
+        });
     </script>
 </body>
 

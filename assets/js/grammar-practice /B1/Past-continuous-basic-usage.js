@@ -933,8 +933,8 @@ window.grammarExercises['past-tenses']['past-continuous-basic-usage-page6'] = {
                 "plays / listens"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! Both the musical performance and audience attention were simultaneous.",
-            correctFeedbackRu: "Отлично! И музыкальное исполнение, и внимание аудитории были одновременными.",
+            correctFeedback: "Excellent! 'Was playing' and 'was listening' are correct. Both the musical performance and audience attention were happening simultaneously.",
+            correctFeedbackRu: "Отлично! 'Was playing' и 'was listening' правильно. И музыкальное исполнение, и внимание аудитории происходили одновременно.",
             incorrectFeedback: "Concert hall magic! **Both actions create that perfect cultural moment.** The orchestra was creating beautiful music while the audience was completely absorbed in the performance - art bringing people together! Other options don't capture this concert hall harmony.",
             incorrectFeedbackRu: "Магия концертного зала! **Оба действия создают тот идеальный культурный момент.** Оркестр создавал прекрасную музыку, пока аудитория была полностью поглощена выступлением - искусство объединяет людей! Другие варианты не передают эту гармонию концертного зала."
         },
@@ -1392,8 +1392,8 @@ window.grammarExercises['past-tenses']['past-continuous-basic-usage-page9'] = {
                 "tune / adjusts"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! Both the musical preparation and technical work were happening simultaneously.",
-            correctFeedbackRu: "Отлично! И музыкальная подготовка, и техническая работа происходили одновременно.",
+            correctFeedback: "Both the musical preparation and technical work were happening simultaneously.",
+            correctFeedbackRu: "И музыкальная подготовка, и техническая работа происходили одновременно.",
             incorrectFeedback: "Concert preparation! **Both actions show the teamwork behind great music.** The band was getting their instruments perfect while the engineer was making sure everything would sound amazing - collaboration creating magic! Other options don't capture this musical coordination.",
             incorrectFeedbackRu: "Подготовка к концерту! **Оба действия показывают командную работу за великой музыкой.** Группа настраивала инструменты до совершенства, пока инженер убеждался, что все будет звучать потрясающе - сотрудничество создает магию! Другие варианты не передают эту музыкальную координацию."
         },
@@ -2119,8 +2119,8 @@ window.grammarExercises['past-tenses']['past-continuous-basic-usage-gap-page4'] 
             sentence: "While the band ____ their instruments, the sound engineer was testing the microphones.",
             correctAnswer: "was tuning",
             options: ["was tuning", "were tuning", "tuned", "tunes"],
-            correctFeedback: "Excellent! 'Was tuning' shows concert preparation with parallel activities.",
-            correctFeedbackRu: "Отлично! 'Was tuning' показывает подготовку к концерту с параллельными действиями.",
+            correctFeedback: "Perfect! 'Was tuning' shows concert preparation with both activities happening simultaneously.",
+            correctFeedbackRu: "Идеально! 'Was tuning' показывает подготовку к концерту, когда оба действия происходили одновременно.",
             incorrectFeedback: "Think again! Use 'was tuning' because band (singular collective noun) was preparing while engineer was working simultaneously.",
             incorrectFeedbackRu: "Подумайте еще раз! Используйте 'was tuning', потому что группа (единственное собирательное существительное) готовилась, пока инженер одновременно работал."
         },
@@ -2129,9 +2129,9 @@ window.grammarExercises['past-tenses']['past-continuous-basic-usage-gap-page4'] 
             questionRu: "Заполните предложение правильной формой Past Continuous:",
             sentence: "The comedy show audience ____ loudly when the comedian forgot his joke.",
             correctAnswer: "was laughing",
-            options: ["was laughing", "were laughing", "laughed", "laugh"],
-            correctFeedback: "Great! 'Was laughing' shows the audience's reaction when the mistake happened.",
-            correctFeedbackRu: "Отлично! 'Was laughing' показывает реакцию аудитории, когда произошла ошибка.",
+            options: ["was laughing", "were laughing", "laughed", "laughs"],
+            correctFeedback: "Great! 'Was laughing' shows the audience's reaction when the comedian made the mistake.",
+            correctFeedbackRu: "Отлично! 'Was laughing' показывает реакцию аудитории, когда комик сделал ошибку.",
             incorrectFeedback: "Not quite! Use 'was laughing' because audience (singular collective noun) was reacting when the comedian made the mistake.",
             incorrectFeedbackRu: "Не совсем! Используйте 'was laughing', потому что аудитория (единственное собирательное существительное) реагировала, когда комик сделал ошибку."
         },

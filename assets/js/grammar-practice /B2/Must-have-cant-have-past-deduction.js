@@ -96,7 +96,7 @@ window.grammarExercises['modals']['must-have-cant-have-past-deduction-page1'] = 
         {
             question: "Select the correct modal phrase:",
             questionRu: "Выберите правильную модальную фразу:",
-            sentence: "Maria speaks perfect English without any accent. She _____ learned it as a foreign language.",
+            sentence: "Maria grew up in London and has never lived abroad. She _____ learned English as a foreign language.",
             options: [
                 "can't have",
                 "must have",
@@ -104,10 +104,10 @@ window.grammarExercises['modals']['must-have-cant-have-past-deduction-page1'] = 
                 "should have"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Can't have' shows you're certain something is impossible based on evidence.",
-            correctFeedbackRu: "Отлично! 'Can't have' показывает, что вы уверены в невозможности чего-то на основе доказательств.",
-            incorrectFeedback: "Consider the evidence! **'Can't have' is correct.** Perfect English without an accent strongly suggests she didn't learn it as a foreign language - she's probably a native speaker. 'Must have' would mean she definitely learned it as foreign language, 'might have' shows uncertainty, and 'should have' is about obligations.",
-            incorrectFeedbackRu: "Рассмотрите доказательства! **'Can't have' правильно.** Совершенный английский без акцента убедительно говорит о том, что она не изучала его как иностранный - вероятно, она носитель языка. 'Must have' означало бы, что она определённо изучала его как иностранный, 'might have' показывает неуверенность, а 'should have' - об обязанностях."
+            correctFeedback: "Excellent! 'Can't have' shows you're certain something is impossible based on the fact she grew up in London.",
+            correctFeedbackRu: "Отлично! 'Can't have' показывает, что вы уверены в невозможности того, что она учила язык как иностранный, так как она выросла в Лондоне.",
+            incorrectFeedback: "Consider the evidence! **'Can't have' is correct.** Since she grew up in London, it's impossible she learned English as a foreign language. 'Must have' would mean the opposite, 'might have' shows uncertainty, and 'should have' is about obligations.",
+            incorrectFeedbackRu: "Рассмотрите доказательства! **'Can't have' правильно.** Поскольку она выросла в Лондоне, невозможно, чтобы она изучала английский как иностранный. 'Must have' означало бы обратное, 'might have' показывает неуверенность, а 'should have' — об обязанностях."
         },
         {
             question: "Choose the correct modal phrase:",
@@ -339,8 +339,8 @@ window.grammarExercises['modals']['must-have-cant-have-past-deduction-page2'] = 
             correctAnswer: 0,
             correctFeedback: "Excellent! 'Can't have' shows certainty that something is impossible given the skill demonstrated.",
             correctFeedbackRu: "Отлично! 'Can't have' показывает уверенность в том, что что-то невозможно при продемонстрированном навыке.",
-            incorrectFeedback: "Consider the skill required! **'Can't have' is correct.** Perfect parallel parking on the first try requires significant experience - he couldn't have just gotten his license yesterday. 'Must have' would mean he definitely got it yesterday, which contradicts his advanced skill. 'Might have' shows uncertainty, and 'should have' is about timing expectations.",
-            incorrectFeedbackRu: "Рассмотрите требуемый навык! **'Can't have' правильно.** Совершенная параллельная парковка с первой попытки требует значительного опыта - он не мог только вчера получить права. 'Must have' означало бы, что он определённо получил их вчера, что противоречит его продвинутому навыку. 'Might have' показывает неуверенность, а 'should have' - об ожиданиях времени."
+            incorrectFeedback: "Consider the skill! **'Can't have' is correct.** Perfect parallel parking requires experience; he couldn't have started driving only yesterday. 'Must have' would mean he definitely got it yesterday, which contradicts his skill. 'Might have' shows uncertainty, and 'should have' is about expectations.",
+            incorrectFeedbackRu: "Рассмотрите навык! **'Can't have' правильно.** Совершенная парковка требует опыта; он не мог начать водить только вчера. 'Must have' означало бы, что он получил права вчера, что противоречит его навыку. 'Might have' показывает неуверенность, а 'should have' — об ожиданиях."
         }
     ]
 };
@@ -402,7 +402,7 @@ window.grammarExercises['modals']['must-have-cant-have-past-deduction-page3'] = 
         {
             question: "Select the correct modal phrase:",
             questionRu: "Выберите правильную модальную фразу:",
-            sentence: "The marathon runner collapsed at mile 20 but finished the race in record time. She _____ been truly exhausted if she broke the record.",
+            sentence: "The front door was locked, and I had the only key in my pocket. You _____ entered through the front door.",
             options: [
                 "can't have",
                 "must have",
@@ -410,10 +410,10 @@ window.grammarExercises['modals']['must-have-cant-have-past-deduction-page3'] = 
                 "might have"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Can't have' shows that the evidence contradicts the appearance.",
-            correctFeedbackRu: "Отлично! 'Can't have' показывает, что доказательства противоречат внешнему виду.",
-            incorrectFeedback: "Analyze the performance! **'Can't have' is correct.** Breaking a record after mile 20 proves she couldn't have been truly exhausted - record-breaking performance requires peak condition. 'Must have' would mean she was definitely exhausted, which contradicts the record time. 'Might have' and 'should have' don't fit this logical contradiction.",
-            incorrectFeedbackRu: "Проанализируйте выступление! **'Can't have' правильно.** Побитие рекорда после 20-й мили доказывает, что она не могла быть истинно истощённой - рекордные результаты требуют пикового состояния. 'Must have' означало бы, что она определённо была истощена, что противоречит рекордному времени. 'Might have' и 'should have' не подходят для такого логического противоречия."
+            correctFeedback: "Perfect! 'Can't have' shows that entering through the door was impossible as it was locked.",
+            correctFeedbackRu: "Отлично! 'Can't have' показывает, что войти через дверь было невозможно, так как она была заперта.",
+            incorrectFeedback: "Analyze the facts! **'Can't have' is correct.** If the door was locked and I had the only key, you couldn't have used that door. 'Must have' would mean you definitely did, which is impossible. 'Might have' and 'should have' don't fit this logical contradiction.",
+            incorrectFeedbackRu: "Проанализируйте факты! **'Can't have' правильно.** Если дверь была заперта, и ключ был у меня, вы не могли войти через эту дверь. 'Must have' означало бы, что вы вошли, что невозможно. 'Might have' и 'should have' не подходят для этого логического противоречия."
         },
         {
             question: "Choose the correct modal phrase:",
@@ -2513,11 +2513,11 @@ window.grammarExercises['modals']['must-have-cant-have-past-deduction-gap-page7'
             questionRu: "Заполните предложение фразой 'must have' или 'can't have':",
             sentence: "The glaciologist measured ice formation during the hottest summer on record with 40°C+ temperatures for weeks. The ice ____ been forming naturally under those conditions.",
             correctAnswer: "can't have",
-            options: ["must have", "can't have", "could have", "should have"],
-            correctFeedback: "Brilliant! 'Can't have' shows impossibility when ice formation contradicts extreme heat.",
-            correctFeedbackRu: "Великолепно! 'Can't have' показывает невозможность, когда образование льда противоречит экстремальной жаре.",
-            incorrectFeedback: "Apply thermodynamics! **'Can't have' is correct.** Ice cannot form naturally at sustained 40°C+ temperatures - basic physics prevents this.",
-            incorrectFeedbackRu: "Примените термодинамику! **'Can't have' правильно.** Лёд не может естественно образовываться при устойчивых температурах 40°C+ - базовая физика это предотвращает."
+            options: ["must have", "can't have", "could have", "would have"],
+            correctFeedback: "Perfect! 'Can't have' shows impossibility because ice doesn't form at 40°C.",
+            correctFeedbackRu: "Отлично! 'Can't have' выражает невозможность, так как лед не образуется при 40°C.",
+            incorrectFeedback: "Think about the temperature! **'Can't have' is correct.** Ice cannot form naturally during a 40°C heatwave; it's physically impossible.",
+            incorrectFeedbackRu: "Подумайте о температуре! **'Can't have' правильно.** Лед не может образовываться естественным путем при 40-градусной жаре; это физически невозможно."
         },
         {
             question: "Complete the sentence with 'must have' or 'can't have':",
@@ -3806,9 +3806,9 @@ window.grammarExercises['modals']['must-have-cant-have-past-deduction-sentence-p
             questionRu: "Составьте правильное предложение, используя эти слова:",
             words: ["The", "basketball", "player", "scored", "200", "points", "in", "a", "single", "game.", "The", "official", "scorer", "can't", "have", "recorded", "the", "points", "accurately."],
             correctAnswer: "The basketball player scored 200 points in a single game. The official scorer can't have recorded the points accurately.",
-            correctFeedback: "Perfect! 'The official scorer can't have recorded the points accurately' shows game structure impossibility!",
-            correctFeedbackRu: "Отлично! 'The official scorer can't have recorded the points accurately' показывает невозможность структуры игры!",
-            incorrectFeedback: "Try again. Remember: The official scorer + can't have + past participle + article + noun + adverb.",
+            correctFeedback: "Perfect! 'The official scorer can't have recorded the points accurately' shows it's highly unlikely to be true.",
+            correctFeedbackRu: "Отлично! 'The official scorer can't have recorded the points accurately' показывает, что это вряд ли правда.",
+            incorrectFeedback: "Try again. Remember: The official scorer + can't have + past participle + the + noun + adverb.",
             incorrectFeedbackRu: "Попробуйте снова. Помните: The official scorer + can't have + причастие прошедшего времени + артикль + существительное + наречие."
         },
         {

@@ -542,7 +542,7 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-page4'] = {
         {
             question: "Select the correct sequence tense:",
             questionRu: "Выберите правильное время для последовательности:",
-            sentence: "The presentation failed because the speaker _____ to test the microphone beforehand.",
+            sentence: "The presentation failed because the speaker ____ to test the microphone beforehand.",
             options: [
                 "hadn't remembered",
                 "haven't remembered",
@@ -550,10 +550,10 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-page4'] = {
                 "wasn't remembering"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Hadn't remembered' shows the lack of preparation caused the presentation failure - technical preparation matters!",
-            correctFeedbackRu: "Отлично! 'Hadn't remembered' показывает, что отсутствие подготовки привело к провалу презентации - техническая подготовка важна!",
-            incorrectFeedback: "Consider presentation disasters! **The speaker didn't test equipment first, then the presentation failed.** Past Perfect negative 'hadn't remembered' shows this earlier oversight. 'Haven't remembered' is present perfect (wrong tense), 'didn't remember' doesn't emphasize the causal sequence, and 'wasn't remembering' suggests ongoing non-remembering.",
-            incorrectFeedbackRu: "Рассмотрите катастрофы презентаций! **Спикер сначала не проверил оборудование, а потом презентация провалилась.** Past Perfect отрицательная форма 'hadn't remembered' показывает эту более раннюю оплошность. 'Haven't remembered' - это Present Perfect (неправильное время), 'didn't remember' не подчеркивает причинную последовательность, а 'wasn't remembering' предполагает продолжающееся незапоминание."
+            correctFeedback: "Correct. 'Hadn't remembered' explains the prior oversight that led to the failure.",
+            correctFeedbackRu: "Правильно. 'Hadn't remembered' объясняет предварительную оплошность, которая привела к провалу.",
+            incorrectFeedback: "The speaker forgot to test the mic *before* the presentation started. Use Past Perfect 'hadn't remembered' for this earlier action.",
+            incorrectFeedbackRu: "Спикер забыл протестировать микрофон *до* начала презентации. Используйте Past Perfect 'hadn't remembered' для этого более раннего действия."
         },
         {
             question: "Choose the appropriate past perfect usage:",
@@ -1754,15 +1754,15 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-gap-page1'] = {
             incorrectFeedbackRu: "Попробуйте 'hadn't slept', потому что недостаток сна произошел до усталости на работе."
         },
         {
-            question: "Complete the sentence with the correct past perfect construction:",
-            questionRu: "Заполните предложение правильной конструкцией Past Perfect:",
+            question: "Choose the appropriate past perfect construction:",
+            questionRu: "Выберите подходящую конструкцию Past Perfect:",
             sentence: "The boss was angry because the team ____ the deadline again.",
-            correctAnswer: "had missed",
             options: ["had missed", "have missed", "missed", "were missing"],
+            correctAnswer: 0,
             correctFeedback: "Perfect! 'Had missed' shows the deadline was missed before the boss became angry!",
             correctFeedbackRu: "Отлично! 'Had missed' показывает, что дедлайн был пропущен до того, как босс разозлился!",
-            incorrectFeedback: "Use 'had missed' to show missing the deadline happened before the boss's anger.",
-            incorrectFeedbackRu: "Используйте 'had missed', чтобы показать, что пропуск дедлайна произошел до гнева босса."
+            incorrectFeedback: "The deadline was missed first, then the boss got angry. Use Past Perfect 'had missed' to show the earlier event.",
+            incorrectFeedbackRu: "Сначала был пропущен дедлайн, а потом босс разозлился. Используйте Past Perfect 'had missed', чтобы показать более раннее событие."
         },
         {
             question: "Fill in the blank with the appropriate past perfect form:",
@@ -2909,8 +2909,8 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-sentence-page1'] =
             correctAnswer: "The meeting had already started when I arrived.",
             correctFeedback: "Perfect! 'The meeting had already started when I arrived.' shows correct sequence with Past Perfect!",
             correctFeedbackRu: "Отлично! 'The meeting had already started when I arrived.' показывает правильную последовательность с Past Perfect!",
-            incorrectFeedback: "Try again. Remember: Subject + had + past participle + when + subject + past simple.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + had + причастие прошедшего времени + when + подлежащее + простое прошедшее."
+            incorrectFeedback: "Check the order of events! Use 'had' + past participle for the action that happened first (the meeting starting) and Past Simple for the second action (arriving).",
+            incorrectFeedbackRu: "Проверьте порядок событий! Используйте 'had' + причастие (Past Perfect) для действия, которое произошло первым (начало встречи), и Past Simple для второго действия (прибытие)."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -2919,8 +2919,8 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-sentence-page1'] =
             correctAnswer: "She couldn't find her files because she had forgotten to save them.",
             correctFeedback: "Excellent! 'She couldn't find her files because she had forgotten to save them.' Perfect causal sequence!",
             correctFeedbackRu: "Отлично! 'She couldn't find her files because she had forgotten to save them.' Идеальная причинная последовательность!",
-            incorrectFeedback: "Try again. Remember: Subject + past simple + because + subject + had + past participle.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + простое прошедшее + because + подлежащее + had + причастие прошедшего времени."
+            incorrectFeedback: "The reason (forgetting to save) happened before the result (not being able to find the files). Use Past Perfect for the earlier action.",
+            incorrectFeedbackRu: "Причина (забыла сохранить) произошла до результата (не смогла найти файлы). Используйте Past Perfect для более раннего действия."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3236,8 +3236,8 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-sentence-page4'] =
             correctAnswer: "The computer crashed because I had opened too many programs.",
             correctFeedback: "Perfect! 'The computer crashed because I had opened too many programs.' Classic tech overload!",
             correctFeedbackRu: "Отлично! 'The computer crashed because I had opened too many programs.' Классическая технологическая перегрузка!",
-            incorrectFeedback: "Try again. Remember: Subject + past simple + because + subject + had + past participle + quantity + adjective + object.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + простое прошедшее + because + подлежащее + had + причастие прошедшего времени + количество + прилагательное + дополнение."
+            incorrectFeedback: "The action of opening programs happened before the crash. Use 'had opened' to show it was the earlier event.",
+            incorrectFeedbackRu: "Действие по открытию программ произошло до сбоя. Используйте 'had opened', чтобы показать, что это было более раннее событие."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3494,8 +3494,8 @@ window.grammarExercises['past-tenses']['past-perfect-sequence-sentence-page6'] =
             correctAnswer: "After we had booked the hotel, we felt more relaxed.",
             correctFeedback: "Excellent! 'After we had booked the hotel, we felt more relaxed.' Travel planning reduces stress!",
             correctFeedbackRu: "Отлично! 'After we had booked the hotel, we felt more relaxed.' Планирование путешествия снижает стресс!",
-            incorrectFeedback: "Try again. Remember: After + subject + had + past participle + object, subject + past simple + comparative + adjective.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: After + подлежащее + had + причастие прошедшего времени + дополнение, подлежащее + простое прошедшее + сравнительная степень + прилагательное."
+            incorrectFeedback: "First you booked the hotel (Past Perfect), then you felt relaxed (Past Simple). Make sure to follow this sequence.",
+            incorrectFeedbackRu: "Сначала вы забронировали отель (Past Perfect), а затем почувствовали облегчение (Past Simple). Убедитесь, что соблюдаете эту последовательность."
         },
         {
             question: "Form a correct sentence using these words:",

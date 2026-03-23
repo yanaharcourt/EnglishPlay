@@ -165,7 +165,7 @@ window.grammarExercises['adjectives']['frequency-adverbs-page1'] = {
             incorrectFeedbackRu: "Почти получилось! Нам нужно наречие частотности, чтобы показать как часто вы навещаете бабушку и дедушку. 'Sometimes' означает иногда и это одно слово. 'Some times' относится к нескольким случаям, 'sometime' означает в неопределённое будущее время, а 'some' - определитель - только 'sometimes' показывает случайную частотность!"
         }
     ]
-};
+}; 
 
 /* ============================================
 Page 2: Frequency Adverbs - With 'Be' Verb and Different Subjects

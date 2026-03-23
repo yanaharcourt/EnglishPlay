@@ -486,10 +486,10 @@ window.grammarExercises['past-tenses']['past-simple-regular-verbs-page3'] = {
                 "forgetting"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'Forget' is actually irregular. The correct past form is 'forgot', but let's use a regular verb here.",
-            correctFeedbackRu: "Подождите! 'Forget' на самом деле неправильный глагол. Правильная форма прошедшего времени 'forgot', но давайте используем здесь правильный глагол.",
-            incorrectFeedback: "This is actually an irregular verb. Let me give you a regular verb example instead.",
-            incorrectFeedbackRu: "Это на самом деле неправильный глагол. Позвольте мне дать вам пример с правильным глаголом."
+            correctFeedback: "Correct! 'forgot' is the past simple form of 'forget'.",
+            correctFeedbackRu: "Правильно! 'forgot' - это форма прошедшего времени глагола 'forget'.",
+            incorrectFeedback: "Incorrect. 'Forget' is irregular - the past simple form is 'forgot'.",
+            incorrectFeedbackRu: "Неправильно. 'Forget' - неправильный глагол, форма прошедшего времени 'forgot'."
         },
         {
             question: "Choose the correct past simple form:",
@@ -502,10 +502,10 @@ window.grammarExercises['past-tenses']['past-simple-regular-verbs-page3'] = {
                 "leaving"
             ],
             correctAnswer: 0,
-            correctFeedback: "Actually, let me fix this - 'leave' is irregular too. Here's a better example:",
-            correctFeedbackRu: "На самом деле, позвольте исправить это - 'leave' тоже неправильный глагол. Вот лучший пример:",
-            incorrectFeedback: "Let me provide a regular verb example instead.",
-            incorrectFeedbackRu: "Позвольте мне привести пример с правильным глаголом."
+            correctFeedback: "Correct! 'left' is the past simple form of 'leave'.",
+            correctFeedbackRu: "Правильно! 'left' - это форма прошедшего времени глагола 'leave'.",
+            incorrectFeedback: "Incorrect. 'Leave' is irregular - the past simple form is 'left'.",
+            incorrectFeedbackRu: "Неправильно. 'Leave' - неправильный глагол, форма прошедшего времени 'left'."
         }
     ]
 };
@@ -983,21 +983,21 @@ window.grammarExercises['past-tenses']['past-simple-regular-verbs-page6'] = {
             incorrectFeedbackRu: "Неправильно. Для правильных глаголов добавляем -ed для образования прошедшего времени: climb → climbed."
         },
         {
-            question: "Choose the correct past simple form:",
-            questionRu: "Выберите правильную форму прошедшего времени:",
-            sentence: "I ___ in the lake during summer.",
-            options: [
-                "swam",
-                "swim",
-                "swims",
-                "swimming"
-            ],
-            correctAnswer: 0,
-            correctFeedback: "Wait! 'Swim' is actually irregular. Let me give you a regular verb instead:",
-            correctFeedbackRu: "Подождите! 'Swim' на самом деле неправильный глагол. Позвольте дать вам правильный глагол:",
-            incorrectFeedback: "Actually, 'swim' is irregular. Here's a regular verb example:",
-            incorrectFeedbackRu: "На самом деле 'swim' неправильный глагол. Вот пример с правильным глаголом:"
-        },
+        question: "Choose the correct past simple form:",
+        questionRu: "Выберите правильную форму прошедшего времени:",
+        sentence: "I ___ in the lake during summer.",
+        options: [
+            "swam",
+            "swim",
+            "swims",
+            "swimming"
+        ],
+        correctAnswer: 0,
+        correctFeedback: "Correct! 'swam' is the past simple form of 'swim'.",
+        correctFeedbackRu: "Правильно! 'swam' - это форма прошедшего времени глагола 'swim'.",
+        incorrectFeedback: "Incorrect. 'Swim' is irregular - the past simple form is 'swam'.",
+        incorrectFeedbackRu: "Неправильно. 'Swim' - неправильный глагол, форма прошедшего времени 'swam'."
+    },
         {
             question: "Choose the correct past simple form:",
             questionRu: "Выберите правильную форму прошедшего времени:",
@@ -1283,10 +1283,10 @@ window.grammarExercises['past-tenses']['past-simple-regular-verbs-page8'] = {
                 "spending"
             ],
             correctAnswer: 0,
-            correctFeedback: "Wait! 'Spend' is actually irregular. Let me give you a regular verb:",
-            correctFeedbackRu: "Подождите! 'Spend' на самом деле неправильный глагол. Позвольте дать правильный глагол:",
-            incorrectFeedback: "Actually, 'spend' is irregular. Here's a regular verb example:",
-            incorrectFeedbackRu: "На самом деле 'spend' неправильный глагол. Вот пример с правильным глаголом:"
+            correctFeedback: "Correct! 'spent' is the past simple form of 'spend'.",
+            correctFeedbackRu: "Правильно! 'spent' - это форма прошедшего времени глагола 'spend'.",
+            incorrectFeedback: "Incorrect. 'Spend' is irregular - the past simple form is 'spent'.",
+            incorrectFeedbackRu: "Неправильно. 'Spend' - неправильный глагол, форма прошедшего времени 'spent'."
         },
         {
             question: "Select the correct past simple form:",
@@ -2759,10 +2759,10 @@ window.grammarExercises['past-tenses']['past-simple-regular-verbs-gap-page9'] = 
             sentence: "I ____ the family dinner table with care.",
             correctAnswer: "set",
             options: ["set", "setted", "setting", "sets"],
-            correctFeedback: "Wait! 'Set' is actually irregular - the past form is also 'set'. Let me give you a regular verb:",
-            correctFeedbackRu: "Подождите! 'Set' на самом деле неправильный глагол - форма прошедшего времени тоже 'set'. Позвольте дать правильный глагол:",
-            incorrectFeedback: "Actually, 'set' is irregular. Here's a regular verb example:",
-            incorrectFeedbackRu: "На самом деле 'set' неправильный глагол. Вот пример с правильным глаголом:"
+            correctFeedback: "Correct! 'set' is the past simple form of 'set' - it stays the same.",
+            correctFeedbackRu: "Правильно! 'set' - это форма прошедшего времени глагола 'set', он не меняется.",
+            incorrectFeedback: "Incorrect. 'Set' is irregular - the past simple form is also 'set'.",
+            incorrectFeedbackRu: "Неправильно. 'Set' - неправильный глагол, форма прошедшего времени тоже 'set'."
         },
         {
             question: "Fill in the blank with the correct past simple form:",

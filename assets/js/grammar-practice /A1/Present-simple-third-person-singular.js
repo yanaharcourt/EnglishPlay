@@ -299,7 +299,7 @@ window.grammarExercises['tenses']['present-simple-third-person-singular-page2'] 
             options: [
                 "opens",
                 "open",
-                "opens",
+                "opened",
                 "opening"
             ],
             correctAnswer: 0,

@@ -1155,34 +1155,34 @@ window.grammarExercises['conditionals']['second-conditional-page7'] = {
         {
             question: "Select the cultural background contrast:",
             questionRu: "Выберите контраст культурного происхождения:",
-            sentence: "I grew up in Europe, but if I ___ raised in Asia, my perspective on family values ___ probably be quite different.",
+            sentence: "I grew up in Europe, but if I ___ in Asia now, my perspective on family values ___ probably be quite different.",
             options: [
-                "had been / would",
-                "was / will",
-                "had been / will",
-                "were / would"
+                "lived / would",
+                "live / will",
+                "lived / will",
+                "live / would"
             ],
             correctAnswer: 0,
-            correctFeedback: "Great! 'I grew up in Europe, but if I had been raised in Asia, my perspective on family values would probably be quite different' - cultural upbringing contrast.",
-            correctFeedbackRu: "Отлично! 'I grew up in Europe, but if I had been raised in Asia, my perspective on family values would probably be quite different' - контраст культурного воспитания.",
-            incorrectFeedback: "Use 'had been' for past hypothetical situations that would affect present attitudes.",
-            incorrectFeedbackRu: "Используйте 'had been' для прошлых гипотетических ситуаций, которые повлияли бы на настоящие взгляды."
+            correctFeedback: "Great! 'I grew up in Europe, but if I lived in Asia now, my perspective on family values would probably be quite different' - cultural lifestyle contrast.",
+            correctFeedbackRu: "Отлично! 'I grew up in Europe, but if I lived in Asia now, my perspective on family values would probably be quite different' - контраст культурного образа жизни.",
+            incorrectFeedback: "Cultural contrasts use past simple 'lived' and 'would' for hypothetical present situations.",
+            incorrectFeedbackRu: "Культурные контрасты используют прошедшее простое время 'lived' и 'would' для гипотетических настоящих ситуаций."
         },
         {
             question: "Complete the educational background comparison:",
             questionRu: "Дополните сравнение образовательного происхождения:",
-            sentence: "She studied literature, but if she ___ studied science, she ___ think more analytically but ___ appreciate art less.",
+            sentence: "She studied literature, but if she ___ in a science program now, she ___ think more analytically but ___ appreciate art less.",
             options: [
-                "had / would / might",
-                "has / will / may",
-                "had / will / might",
-                "have / would / might"
+                "were / would / might",
+                "is / will / may",
+                "were / will / might",
+                "was / would / might"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'She studied literature, but if she had studied science, she would think more analytically but might appreciate art less' - educational path consequences.",
-            correctFeedbackRu: "Идеально! 'She studied literature, but if she had studied science, she would think more analytically but might appreciate art less' - последствия образовательного пути.",
-            incorrectFeedback: "Compare past educational choices using 'had studied', 'would' for likely outcomes, 'might' for possible ones.",
-            incorrectFeedbackRu: "Сравнивайте прошлые образовательные выборы, используя 'had studied', 'would' для вероятных результатов, 'might' для возможных."
+            correctFeedback: "Perfect! 'She studied literature, but if she were in a science program now, she would think more analytically but might appreciate art less' - educational path comparison.",
+            correctFeedbackRu: "Идеально! 'She studied literature, but if she were in a science program now, she would think more analytically but might appreciate art less' - сравнение образовательного пути.",
+            incorrectFeedback: "Compare educational backgrounds using 'were' for hypothetical present situations, 'would' for likely outcomes, 'might' for possible ones.",
+            incorrectFeedbackRu: "Сравнивайте образовательные истории, используя 'were' для гипотетических настоящих ситуаций, 'would' для вероятных результатов, 'might' для возможных."
         }
     ]
 };
@@ -1259,18 +1259,18 @@ window.grammarExercises['conditionals']['second-conditional-page8'] = {
         {
             question: "Choose the historical counterfactual:",
             questionRu: "Выберите историческую контрфактуальность:",
-            sentence: "If the printing press ___ invented in ancient Rome, the Renaissance ___ occurred much earlier.",
+            sentence: "If the printing press ___ invented today, it ___ completely change how we share information.",
             options: [
-                "had been / would have",
-                "was / would",
-                "had been / would",
-                "were / would have"
+                "were / would",
+                "is / will",
+                "were / will",
+                "was / would"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'If the printing press had been invented in ancient Rome, the Renaissance would have occurred much earlier' - historical counterfactual analysis.",
-            correctFeedbackRu: "Отлично! 'If the printing press had been invented in ancient Rome, the Renaissance would have occurred much earlier' - историческая контрфактуальная аналитика.",
-            incorrectFeedback: "Historical counterfactuals use Third Conditional ('had been' + 'would have') for past hypothetical changes.",
-            incorrectFeedbackRu: "Исторические контрфактуалы используют третий тип условного наклонения ('had been' + 'would have') для прошлых гипотетических изменений."
+            correctFeedback: "Excellent! 'If the printing press were invented today, it would completely change how we share information' - hypothetical modern invention scenario.",
+            correctFeedbackRu: "Отлично! 'If the printing press were invented today, it would completely change how we share information' - гипотетический сценарий современного изобретения.",
+            incorrectFeedback: "Hypothetical invention scenarios use Second Conditional: 'were' and 'would'.",
+            incorrectFeedbackRu: "Гипотетические сценарии изобретений используют второй тип условного наклонения: 'were' и 'would'."
         },
         {
             question: "Select the mathematical possibility:",
@@ -2178,15 +2178,15 @@ Page 5: Complex Hypothetical Scenarios
 window.grammarExercises['conditionals']['second-conditional-gap-page5'] = {
     title: "Second Conditional - Complex Hypothetical Scenarios", fillGaps: [
         {
-            question: "Complete the alternative history scenario:",
-            questionRu: "Дополните сценарий альтернативной истории:",
-            sentence: "If the internet ____ invented in the 1800s, the Industrial Revolution would have progressed differently.",
-            correctAnswer: "had been",
-            options: ["had been", "was", "were", "would be"],
-            correctFeedback: "Perfect! 'If the internet had been invented' - using past perfect for alternative historical timelines.",
-            correctFeedbackRu: "Идеально! 'If the internet had been invented' - использование прошедшего совершенного времени для альтернативных исторических временных линий.",
-            incorrectFeedback: "Alternative history scenarios use past perfect 'had been' for hypothetical past inventions.",
-            incorrectFeedbackRu: "Сценарии альтернативной истории используют прошедшее совершенное время 'had been' для гипотетических прошлых изобретений."
+            question: "Complete the alternative technology scenario:",
+            questionRu: "Дополните альтернативный технологический сценарий:",
+            sentence: "If the internet ____ available in every remote village, education would improve dramatically.",
+            correctAnswer: "were",
+            options: ["were", "is", "was", "will be"],
+            correctFeedback: "Perfect! 'If the internet were available in every remote village' - hypothetical global access scenario using 'were'.",
+            correctFeedbackRu: "Идеально! 'If the internet were available in every remote village' - гипотетический сценарий глобального доступа с 'were'.",
+            incorrectFeedback: "Hypothetical technology scenarios use 'were' in Second Conditional.",
+            incorrectFeedbackRu: "Гипотетические технологические сценарии используют 'were' во втором условном."
         },
         {
             question: "Fill in the economic theory hypothesis:",
@@ -2200,15 +2200,15 @@ window.grammarExercises['conditionals']['second-conditional-gap-page5'] = {
             incorrectFeedbackRu: "Глобальные экономические гипотезы используют прошедшее простое время 'used' во втором условном."
         },
         {
-            question: "Complete the technological evolution scenario:",
-            questionRu: "Дополните сценарий технологической эволюции:",
-            sentence: "If computers ____ never been invented, human civilization would still rely on manual calculations.",
-            correctAnswer: "had",
-            options: ["had", "have", "were", "would have"],
-            correctFeedback: "Great! 'If computers had never been invented' expresses absence of a crucial technology.",
-            correctFeedbackRu: "Отлично! 'If computers had never been invented' выражает отсутствие ключевой технологии.",
-            incorrectFeedback: "Technological absence scenarios use 'had never been' for past hypothetical situations.",
-            incorrectFeedbackRu: "Сценарии отсутствия технологий используют 'had never been' для прошлых гипотетических ситуаций."
+            question: "Complete the technological absence scenario:",
+            questionRu: "Дополните сценарий отсутствия технологий:",
+            sentence: "If computers ____ smaller and more affordable, everyone would use them more easily.",
+            correctAnswer: "were",
+            options: ["were", "are", "was", "will be"],
+            correctFeedback: "Great! 'If computers were smaller and more affordable' - hypothetical technology improvement using 'were'.",
+            correctFeedbackRu: "Отлично! 'If computers were smaller and more affordable' - гипотетическое улучшение технологий с 'were'.",
+            incorrectFeedback: "Use 'were' in Second Conditional for hypothetical present states.",
+            incorrectFeedbackRu: "Используйте 'were' во втором условном для гипотетических состояний в настоящем."
         },
         {
             question: "Fill in the social transformation hypothesis:",
@@ -2224,13 +2224,13 @@ window.grammarExercises['conditionals']['second-conditional-gap-page5'] = {
         {
             question: "Complete the environmental speculation:",
             questionRu: "Дополните экологическую спекуляцию:",
-            sentence: "If fossil fuels ____ renewable from the beginning, climate change might not be a problem today.",
-            correctAnswer: "had been",
-            options: ["had been", "were", "are", "would be"],
-            correctFeedback: "Excellent! 'If fossil fuels had been renewable' speculates about alternative energy history.",
-            correctFeedbackRu: "Отлично! 'If fossil fuels had been renewable' спекулирует об альтернативной истории энергетики.",
-            incorrectFeedback: "Environmental speculation uses 'had been' for alternative historical developments.",
-            incorrectFeedbackRu: "Экологические спекуляции используют 'had been' для альтернативных исторических развитий."
+            sentence: "If fossil fuels ____ harmful to the environment, we would not need to develop clean energy alternatives.",
+            correctAnswer: "weren't",
+            options: ["weren't", "aren't", "won't be", "wouldn't be"],
+            correctFeedback: "Excellent! 'If fossil fuels weren't harmful to the environment' - hypothetical negative condition using past simple.",
+            correctFeedbackRu: "Отлично! 'If fossil fuels weren't harmful to the environment' - гипотетическое отрицательное условие с прошедшим простым временем.",
+            incorrectFeedback: "Negative hypothetical scenarios use past simple negative 'weren't' in Second Conditional.",
+            incorrectFeedbackRu: "Отрицательные гипотетические сценарии используют прошедшее простое отрицание 'weren't' во втором условном."
         },
         {
             question: "Fill in the scientific breakthrough scenario:",
@@ -2246,13 +2246,13 @@ window.grammarExercises['conditionals']['second-conditional-gap-page5'] = {
         {
             question: "Complete the cultural evolution hypothesis:",
             questionRu: "Дополните гипотезу культурной эволюции:",
-            sentence: "If humans ____ evolved with natural telepathic abilities, written language might never have developed.",
+            sentence: "If humans ____ natural telepathic abilities, written language might become less important.",
             correctAnswer: "had",
-            options: ["had", "have", "were", "would have"],
-            correctFeedback: "Perfect! 'If humans had evolved' speculates about alternative human development.",
-            correctFeedbackRu: "Идеально! 'If humans had evolved' спекулирует об альтернативном развитии человека.",
-            incorrectFeedback: "Human evolution scenarios use 'had evolved' for alternative biological development.",
-            incorrectFeedbackRu: "Сценарии эволюции человека используют 'had evolved' для альтернативного биологического развития."
+            options: ["had", "have", "will have", "would have"],
+            correctFeedback: "Perfect! 'If humans had natural telepathic abilities' - Second Conditional with 'had' for imaginary human traits.",
+            correctFeedbackRu: "Идеально! 'If humans had natural telepathic abilities' - второй тип условного наклонения с 'had' для воображаемых черт человека.",
+            incorrectFeedback: "Imaginary human ability scenarios use past simple 'had' in Second Conditional.",
+            incorrectFeedbackRu: "Сценарии воображаемых человеческих способностей используют прошедшее простое время 'had' во втором условном."
         },
         {
             question: "Fill in the space exploration possibility:",
@@ -2493,13 +2493,13 @@ window.grammarExercises['conditionals']['second-conditional-gap-page7'] = {
         {
             question: "Fill in the cultural background comparison:",
             questionRu: "Заполните сравнение культурного происхождения:",
-            sentence: "I grew up in the countryside, but if I ____ raised in a big city, my worldview would be different.",
-            correctAnswer: "had been",
-            options: ["had been", "was", "were", "would be"],
-            correctFeedback: "Excellent! 'If I had been raised' compares actual rural upbringing with hypothetical urban childhood.",
-            correctFeedbackRu: "Отлично! 'If I had been raised' сравнивает реальное сельское воспитание с гипотетическим городским детством.",
-            incorrectFeedback: "Cultural background comparisons use 'had been' for alternative upbringing scenarios.",
-            incorrectFeedbackRu: "Сравнения культурного происхождения используют 'had been' для альтернативных сценариев воспитания."
+            sentence: "I grew up in the countryside, but if I ____ in a big city now, my worldview would be different.",
+            correctAnswer: "lived",
+            options: ["lived", "live", "will live", "would live"],
+            correctFeedback: "Excellent! 'If I lived in a big city now' compares actual rural upbringing with hypothetical urban present lifestyle.",
+            correctFeedbackRu: "Отлично! 'If I lived in a big city now' сравнивает реальное сельское воспитание с гипотетическим городским настоящим образом жизни.",
+            incorrectFeedback: "Geographic lifestyle contrasts use past simple 'lived' for hypothetical present locations.",
+            incorrectFeedbackRu: "Географические контрасты образа жизни используют прошедшее простое время 'lived' для гипотетических настоящих мест."
         },
         {
             question: "Complete the technology usage contrast:",

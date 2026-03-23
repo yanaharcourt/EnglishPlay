@@ -1679,7 +1679,7 @@ console.log("Verb 'to be' exercises data loaded successfully!");
 Page 1: Basic name introductions
 ============================================ */
 window.grammarExercises['to-be']['to-be-with-names-gap-page1'] = {
-    title: "'To Be' with names - asic Name Introductions",
+    title: "'To Be' with names - Basic Name Introductions",
     fillGaps: [
         {
             question: "Complete the introduction with the correct form of 'to be':",

@@ -3949,7 +3949,7 @@ window.grammarExercises['adjectives']['comparatives-sentence-page10'] = {
             correctFeedbackRu: "Отлично! 'His explanation was clearer than the teacher's.' верно. Идеальное сравнение коммуникации!",
             incorrectFeedback: "Try again. Remember: Possessive + noun + was + comparative adjective + than + the + possessive.",
             incorrectFeedbackRu: "Попробуйте снова. Помните: Притяжательное + существительное + was + сравнительное прилагательное + than + the + притяжательное."
-        },
+        }, 
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",

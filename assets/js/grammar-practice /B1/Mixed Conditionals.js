@@ -3372,9 +3372,9 @@ window.grammarExercises['conditionals']['mixed-conditionals-sentence-page5'] = {
             question: "Create a practical weather plan:",
             questionRu: "Создайте практический план с учетом погоды:",
             words: ["If", "the", "weather", "is", "nice", "tomorrow,", "we", "will", "have", "picnic"],
-            correctAnswer: "If the weather is nice tomorrow, we will have picnic.",
-            correctFeedback: "Great! 'If the weather is nice tomorrow, we will have picnic' - realistic planning using First Conditional!",
-            correctFeedbackRu: "Отлично! 'If the weather is nice tomorrow, we will have picnic' - реалистичное планирование, используя первый тип условного!",
+            correctAnswer: "If the weather is nice tomorrow, we will have a picnic.",
+            correctFeedback: "Great! 'If the weather is nice tomorrow, we will have a picnic' - realistic planning using First Conditional!",
+            correctFeedbackRu: "Отлично! 'If the weather is nice tomorrow, we will have a picnic' - реалистичное планирование, используя первый тип условного!",
             incorrectFeedback: "Weather-dependent plans are realistic. Use First Conditional for practical decisions based on conditions.",
             incorrectFeedbackRu: "Планы, зависящие от погоды, реалистичны. Используйте первый тип условного для практических решений, основанных на условиях."
         },
@@ -3520,10 +3520,10 @@ window.grammarExercises['conditionals']['mixed-conditionals-sentence-page6'] = {
         {
             question: "Form a fitness goal sentence:",
             questionRu: "Сформируйте предложение о фитнес-цели:",
-            words: ["If", "I", "train", "consistently", "for", "months,", "I", "will", "run", "marathon"],
-            correctAnswer: "If I train consistently for months, I will run marathon.",
-            correctFeedback: "Perfect! 'If I train consistently for months, I will run marathon' - achievable athletic goal using First Conditional!",
-            correctFeedbackRu: "Идеально! 'If I train consistently for months, I will run marathon' - достижимая спортивная цель, используя первый тип условного!",
+            words: ["If", "I", "train", "consistently", "for", "months,", "I", "will", "run", "a", "marathon"],
+            correctAnswer: "If I train consistently for months, I will run a marathon.",
+            correctFeedback: "Perfect! 'If I train consistently for months, I will run a marathon' - achievable athletic goal using First Conditional!",
+            correctFeedbackRu: "Идеально! 'If I train consistently for months, I will run a marathon' - достижимая спортивная цель, используя первый тип условного!",
             incorrectFeedback: "Marathon training for months is realistic. Use First Conditional for achievable fitness objectives.",
             incorrectFeedbackRu: "Тренировка к марафону в течение месяцев реалистична. Используйте первый тип условного для достижимых фитнес-целей."
         },
@@ -3550,10 +3550,10 @@ window.grammarExercises['conditionals']['mixed-conditionals-sentence-page6'] = {
         {
             question: "Form a historical time travel sentence:",
             questionRu: "Сформируйте предложение о путешествии во времени в историю:",
-            words: ["If", "I", "could", "travel", "to", "past,", "I", "would", "witness", "historical", "events"],
-            correctAnswer: "If I could travel to past, I would witness historical events.",
-            correctFeedback: "Perfect! 'If I could travel to past, I would witness historical events' - impossible time travel using Second Conditional!",
-            correctFeedbackRu: "Идеально! 'If I could travel to past, I would witness historical events' - невозможное путешествие во времени, используя второй тип условного!",
+            words: ["If", "I", "could", "travel", "to", "the", "past,", "I", "would", "witness", "historical", "events"],
+            correctAnswer: "If I could travel to the past, I would witness historical events.",
+            correctFeedback: "Perfect! 'If I could travel to the past, I would witness historical events' - impossible time travel using Second Conditional!",
+            correctFeedbackRu: "Идеально! 'If I could travel to the past, I would witness historical events' - невозможное путешествие во времени, используя второй тип условного!",
             incorrectFeedback: "Time travel to the past is impossible. Use Second Conditional for impossible historical scenarios.",
             incorrectFeedbackRu: "Путешествие во времени в прошлое невозможно. Используйте второй тип условного для невозможных исторических сценариев."
         }
@@ -3999,5 +3999,5 @@ window.grammarExercises['conditionals']['mixed-conditionals-sentence-page10'] = 
 /* ============================================
 Console log to confirm data loading
 ============================================ */
-console.log("Mixed Conditionals Sentence Building exercises (Pages 1-10) loaded successfully!");
-console.log("===== ALL MIXED CONDITIONALS SENTENCE BUILDING EXERCISES (PAGES 1-10) NOW AVAILABLE =====");
+console.log("Mixed Conditionals Fill in the Gaps exercises (Pages 1-10) loaded successfully!");
+console.log("===== ALL MIXED CONDITIONALS FILL GAPS EXERCISES (PAGES 1-10) NOW AVAILABLE =====");

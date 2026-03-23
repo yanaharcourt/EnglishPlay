@@ -728,14 +728,14 @@ window.grammarExercises['adjectives']['adjective-order-page5'] = {
             options: [
                 "blue new delivery",
                 "new blue delivery",
-                "delivery new blue",
-                "new delivery blue"
+                "delivery blue new",
+                "blue delivery new"
             ],
-            correctAnswer: 3,
-            correctFeedback: "Great! 'New delivery blue' follows the pattern: age (new) + purpose (delivery) + color (blue).",
-            correctFeedbackRu: "Отлично! 'New delivery blue' следует схеме: возраст (new) + назначение (delivery) + цвет (blue).",
-            incorrectFeedback: "Not correct! The order is age + purpose + color. 'New' tells us when it was made, 'delivery' explains its use, and 'blue' describes the color.",
-            incorrectFeedbackRu: "Неправильно! Порядок: возраст + назначение + цвет. 'New' говорит нам когда это было сделано, 'delivery' объясняет использование, а 'blue' описывает цвет."
+            correctAnswer: 1,
+            correctFeedback: "Great! 'New blue delivery' follows the pattern: age (new) + color (blue) + purpose (delivery).",
+            correctFeedbackRu: "Отлично! 'New blue delivery' следует схеме: возраст (new) + цвет (blue) + назначение (delivery).",
+            incorrectFeedback: "Not correct! The order is age + color + purpose. 'New' tells us when it was made, 'blue' describes the color, and 'delivery' explains its use.",
+            incorrectFeedbackRu: "Неправильно! Порядок: возраст + цвет + назначение. 'New' говорит нам когда это было сделано, 'blue' описывает цвет, а 'delivery' объясняет использование."
         },
         {
             question: "Pick the correct adjective order:",
@@ -2254,13 +2254,13 @@ window.grammarExercises['adjectives']['adjective-order-gap-page5'] = {
         {
             question: "Complete the sentence with the correct adjective order:",
             questionRu: "Заполните предложение правильным порядком прилагательных:",
-            sentence: "He drives a ____ truck for his business.",
-            correctAnswer: "new delivery blue",
-            options: ["new delivery blue", "blue delivery new", "delivery new blue", "new blue delivery"],
-            correctFeedback: "Great! 'New delivery blue' follows the pattern: age (new) + purpose (delivery) + color (blue).",
-            correctFeedbackRu: "Отлично! 'New delivery blue' следует схеме: возраст (new) + назначение (delivery) + цвет (blue).",
-            incorrectFeedback: "Try once more. The order is age + purpose + color. Purchase time first, vehicle function second, appearance third.",
-            incorrectFeedbackRu: "Попробуйте ещё раз. Порядок: возраст + назначение + цвет. Время покупки первым, функция транспорта второй, внешний вид третьим."
+            sentence: "He drives a _____ truck for his business.",
+            correctAnswer: "new blue delivery",
+            options: ["new blue delivery", "blue delivery new", "delivery new blue", "new delivery blue"],
+            correctFeedback: "Great! 'New blue delivery' follows the pattern: age (new) + color (blue) + purpose (delivery).",
+            correctFeedbackRu: "Отлично! 'New blue delivery' следует схеме: возраст (new) + цвет (blue) + назначение (delivery).",
+            incorrectFeedback: "Try once more. The order is age + color + purpose. Purchase time first, appearance second, vehicle function third.",
+            incorrectFeedbackRu: "Попробуйте ещё раз. Порядок: возраст + цвет + назначение. Время покупки первым, внешний вид вторым, функция транспорта третьей."
         },
         {
             question: "Complete the sentence with the correct adjective order:",
@@ -3405,12 +3405,12 @@ window.grammarExercises['adjectives']['adjective-order-sentence-page5'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["He", "drives", "a", "new", "delivery", "blue", "truck", "for", "his", "business."],
-            correctAnswer: "He drives a new delivery blue truck for his business.",
-            correctFeedback: "Great! 'He drives a new delivery blue truck for his business.' follows the pattern: age (new) + purpose (delivery) + color (blue).",
-            correctFeedbackRu: "Отлично! 'He drives a new delivery blue truck for his business.' следует схеме: возраст (new) + назначение (delivery) + цвет (blue).",
-            incorrectFeedback: "Try once more. The order is age + purpose + color. Purchase time first, vehicle function second, appearance third.",
-            incorrectFeedbackRu: "Попробуйте ещё раз. Порядок: возраст + назначение + цвет. Время покупки первым, функция транспорта второй, внешний вид третьим."
+            words: ["He", "drives", "a", "new", "blue", "delivery", "truck", "for", "his", "business."],
+            correctAnswer: "He drives a new blue delivery truck for his business.",
+            correctFeedback: "Great! 'He drives a new blue delivery truck for his business.' follows the pattern: age (new) + color (blue) + purpose (delivery).",
+            correctFeedbackRu: "Отлично! 'He drives a new blue delivery truck for his business.' следует схеме: возраст (new) + цвет (blue) + назначение (delivery).",
+            incorrectFeedback: "Try once more. The order is age + color + purpose. Purchase time first, appearance second, vehicle function third.",
+            incorrectFeedbackRu: "Попробуйте ещё раз. Порядок: возраст + цвет + назначение. Время покупки первым, внешний вид вторым, функция транспорта третьей."
         },
         {
             question: "Form a correct sentence using these words:",

@@ -14,8 +14,8 @@ window.grammarExercises['articles']['zero-article-basics-page1'] = {
     title: "Zero Article - Basic Usage",
     multipleChoice: [
         {
-            question: "Choose the correct modal verb:",
-            questionRu: "Выберите правильный модальный глагол:",
+            question: "Choose the correct option:",
+            questionRu: "Выберите правильный вариант:",
             sentence: "I love listening to _____ in the evening.",
             options: [
                 "music",
@@ -1977,12 +1977,12 @@ window.grammarExercises['articles']['zero-article-basics-gap-page3'] = {
             question: "Complete the sentence with the correct option:",
             questionRu: "Заполните предложение правильным вариантом:",
             sentence: "My uncle goes to ____ early every morning.",
-            correctAnswer: "office",
-            options: ["office", "an office", "the office", "some office"],
-            correctFeedback: "Great! We say 'go to office' without an article when talking about going to work.",
-            correctFeedbackRu: "Отлично! Мы говорим 'go to office' без артикля, когда говорим о том, что идём на работу.",
-            incorrectFeedback: "Think again. When 'office' means workplace, we don't use articles with 'go to office'.",
-            incorrectFeedbackRu: "Подумайте ещё раз. Когда 'office' означает рабочее место, мы не используем артикли с 'go to office'."
+            correctAnswer: "work",
+            options: ["work", "a work", "the work", "some work"],
+            correctFeedback: "Great! We say 'go to work' without an article when talking about going to one's job.",
+            correctFeedbackRu: "Отлично! Мы говорим 'go to work' без артикля, когда говорим о том, что идём на работу.",
+            incorrectFeedback: "Think again. When 'work' means someone's job or workplace, we don't use articles. We say 'go to work', 'at work', 'after work'.",
+            incorrectFeedbackRu: "Подумайте ещё раз. Когда 'work' означает чью-то работу или рабочее место, мы не используем артикли. Мы говорим 'go to work', 'at work', 'after work'."
         },
         {
             question: "Fill in the blank with the correct option:",
@@ -3709,12 +3709,12 @@ window.grammarExercises['articles']['zero-article-basics-sentence-page8'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["My", "grandmother", "loves", "knitting", "sweaters", "for", "family"],
-            correctAnswer: "My grandmother loves knitting sweaters for family.",
-            correctFeedback: "Perfect! 'My grandmother loves knitting sweaters for family.' is correct. Clothing items in plural don't use articles!",
-            correctFeedbackRu: "Отлично! 'My grandmother loves knitting sweaters for family.' верно. Предметы одежды во множественном числе не используются с артиклями!",
-            incorrectFeedback: "Not quite right. Remember: My grandmother + loves + knitting + sweaters + for + family (no article for clothing plurals).",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: My grandmother + loves + knitting + sweaters + for + family (артикль для одежды во множественном числе не нужен)."
+            words: ["My", "grandmother", "loves", "knitting", "sweaters", "for", "the", "family"],
+            correctAnswer: "My grandmother loves knitting sweaters for the family.",
+            correctFeedback: "Perfect! 'My grandmother loves knitting sweaters for the family.' is correct. Clothing items in plural don't use articles!",
+            correctFeedbackRu: "Отлично! 'My grandmother loves knitting sweaters for the family.' верно. Предметы одежды во множественном числе не используются с артиклями!",
+            incorrectFeedback: "Think again. Remember: My grandmother + loves + knitting + sweaters + for + the + family (no article for clothing plurals).",
+            incorrectFeedbackRu: "Подумайте ещё раз. Помните: My grandmother + loves + knitting + sweaters + for + the + family (артикль для одежды во множественном числе не нужен)."
         },
         {
             question: "Form a correct sentence using these words:",

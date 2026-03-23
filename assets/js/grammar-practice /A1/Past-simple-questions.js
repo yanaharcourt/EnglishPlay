@@ -807,11 +807,11 @@ window.grammarExercises['past-tenses']['past-simple-questions-page5'] = {
                 "worry",
                 "did worried"
             ],
-            correctAnswer: 0,
-            correctFeedback: "Excellent! 'What did worry you' - 'what' as subject asking about the cause.",
-            correctFeedbackRu: "Отлично! 'What did worry you' - 'what' как подлежащее, спрашивающее о причине.",
-            incorrectFeedback: "Incorrect. When asking what worried you, use: What + did + worry + you.",
-            incorrectFeedbackRu: "Неправильно. При вопросе 'что вас беспокоило', используем: What + did + worry + you."
+            correctAnswer: 1,
+            correctFeedback: "Excellent! 'What worried you' - when 'what' is the subject, use past tense directly (no 'did').",
+            correctFeedbackRu: "Отлично! 'What worried you' - когда 'what' подлежащее, используем прошедшее время напрямую (без 'did').",
+            incorrectFeedback: "Incorrect. When 'what' is the subject, use: What + past tense verb (no 'did').",
+            incorrectFeedbackRu: "Неправильно. Когда 'what' подлежащее, используем: What + глагол в прошедшем времени (без 'did')."
         },
         {
             question: "Choose the correct question form:",

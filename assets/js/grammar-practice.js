@@ -60,40 +60,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
     console.log('Initialization complete. DOM is fully loaded and parsed.');
 });
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Перехватываем клики на кнопки упражнений
     document.querySelectorAll('.exercise-btn').forEach(button => {
-        button.addEventListener('click', function(e) {
+        button.addEventListener('click', function (e) {
             e.preventDefault();
             e.stopPropagation();
-            
+
             // Получаем карточку и категорию
             const card = this.closest('.grammar-card');
             if (!card) return;
-            
+
             const category = card.closest('.grammar-category');
             if (!category) return;
-            
+
             // Получаем данные
             const topic = category.getAttribute('data-topic');
             const topicName = card.getAttribute('data-topic-name') || '';
-            
+
             // Выводим для отладки
             console.log("Clicked exercise button");
             console.log("Topic:", topic);
             console.log("Topic name from data attribute:", topicName);
-            
+
             // Получаем тип упражнения
             const exerciseType = this.getAttribute('data-exercise');
             const href = this.getAttribute('href');
-            
+
             // Загружаем файл упражнений
             if (href) {
                 const script = document.createElement('script');
                 script.src = href;
                 document.body.appendChild(script);
             }
-            
+
             // Имитируем клик после небольшой задержки, чтобы скрипт успел загрузиться
             setTimeout(() => {
                 console.log("Triggering original click handler");
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }, 500);
         });
-        
+
         // Сохраняем оригинальный обработчик
         button.originalClick = button.onclick;
     });
@@ -1174,36 +1174,46 @@ function createExerciseModal(topic, subtitle, exerciseType) {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(0,0,0,0.9);
+        background: rgba(0,0,0,0.85);
         display: flex;
         align-items: center;
         justify-content: center;
         z-index: 1000;
+        padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
     `;
 
     // Create modal content
     const modalContent = document.createElement('div');
     modalContent.style.cssText = `
         background: var(--bg-color);
-        width: 90vw;
-        max-width: 1200px;
-        max-height: 90vh;
-        border-radius: 12px;
+        width: min(90vw, 1200px);
+        max-height: 90svh;
+        border-radius: 16px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        box-shadow: 0 8px 32px rgba(0,0,0,0.4);
     `;
+
+    // На мобильном — полный экран
+    if (window.innerWidth <= 768) {
+        modalContent.style.width = '100vw';
+        modalContent.style.height = '100svh';
+        modalContent.style.maxHeight = '100svh';
+        modalContent.style.borderRadius = '0';
+    }
 
     // Create header
     const modalHeader = document.createElement('div');
     modalHeader.style.cssText = `
-        padding: 20px;
+        padding: 12px 16px;
         background: var(--card-bg);
         border-bottom: 1px solid var(--card-stroke);
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-shrink: 0;
+        min-height: 56px;
     `;
 
     // Add title
@@ -1212,20 +1222,33 @@ function createExerciseModal(topic, subtitle, exerciseType) {
     titleElement.textContent = pageTitle;
     titleElement.style.cssText = `
         color: var(--heading-color);
-        font-size: clamp(0.9rem, 3vw, 1.5rem);
+        font-size: clamp(0.85rem, 3.5vw, 1.3rem);
         margin: 0;
         line-height: 1.3;
+        flex: 1;
+        padding-right: 12px;
     `;
 
     // Add close button
     const closeButton = document.createElement('button');
-    closeButton.textContent = '×';
+    closeButton.innerHTML = '&#10005;';
     closeButton.style.cssText = `
-        background: none;
-        border: none;
-        font-size: 24px;
+        background: rgba(255,255,255,0.08);
+        border: 1px solid var(--card-stroke);
+        border-radius: 50%;
+        min-width: 44px;
+        min-height: 44px;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
         color: var(--body-2);
         cursor: pointer;
+        flex-shrink: 0;
+        transition: all 0.2s ease;
+        -webkit-tap-highlight-color: transparent;
     `;
     closeButton.onclick = function () {
         modal.remove();
@@ -1237,9 +1260,11 @@ function createExerciseModal(topic, subtitle, exerciseType) {
     // Create body with scrolling
     const modalBody = document.createElement('div');
     modalBody.style.cssText = `
-        padding: 20px;
+        padding: 16px 16px 40px;
         overflow-y: auto;
-        max-height: calc(90vh - 70px);
+        flex: 1;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
     `;
 
     // Assemble modal
@@ -1489,9 +1514,10 @@ function showMultipleChoiceExercise(container, exercise) {
         russianQuestion.textContent = exercise.questionRu;
         russianQuestion.style.cssText = `
             color: var(--body-2);
-            margin-bottom: 15px;
-            font-size: 1rem;
+            font-size: 15px;
+            margin-bottom: 10px;
             font-style: italic;
+            line-height: 1.4;
         `;
         questionContainer.appendChild(russianQuestion);
     }
@@ -1560,14 +1586,14 @@ function showMultipleChoiceExercise(container, exercise) {
         `;
 
         // Add hover effect
-        optionButton.addEventListener('mouseenter', function() {
+        optionButton.addEventListener('mouseenter', function () {
             if (!this.classList.contains('answered')) {
                 this.style.backgroundColor = 'var(--card-hover-secondary)';
                 this.style.borderColor = 'var(--accent-color)';
             }
         });
 
-        optionButton.addEventListener('mouseleave', function() {
+        optionButton.addEventListener('mouseleave', function () {
             if (!this.classList.contains('answered')) {
                 this.style.backgroundColor = 'var(--card-bg)';
                 this.style.borderColor = 'var(--card-stroke)';
@@ -1575,7 +1601,7 @@ function showMultipleChoiceExercise(container, exercise) {
         });
 
         // Add click handler
-        optionButton.addEventListener('click', function() {
+        optionButton.addEventListener('click', function () {
             if (this.classList.contains('answered')) return;
 
             // Mark all options as answered
@@ -1687,7 +1713,7 @@ function showFeedback(container, isCorrect, htmlContent) {
     if (existingFeedback) {
         existingFeedback.remove();
     }
-    
+
     // Create feedback element
     const feedback = document.createElement('div');
     feedback.className = 'feedback-message';
@@ -1700,16 +1726,16 @@ function showFeedback(container, isCorrect, htmlContent) {
         border: 1px solid ${isCorrect ? 'var(--correct-border)' : 'var(--danger-border)'};
         color: ${isCorrect ? 'var(--correct-text)' : 'var(--danger-text)'};
     `;
-    
+
     // Set message - use innerHTML to support HTML content
     if (htmlContent) {
         feedback.innerHTML = htmlContent;
     } else {
-        feedback.innerHTML = isCorrect ? 
-            '<p>Correct!</p><p style="font-style: italic;">Правильно!</p>' : 
+        feedback.innerHTML = isCorrect ?
+            '<p>Correct!</p><p style="font-style: italic;">Правильно!</p>' :
             '<p>Incorrect!</p><p style="font-style: italic;">Неправильно!</p>';
     }
-    
+
     container.appendChild(feedback);
 }
 
@@ -1753,9 +1779,9 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 8px;
-        margin-bottom: 20px;
-        padding-bottom: 10px;
+        gap: 10px;
+        margin-bottom: 16px;
+        padding-bottom: 14px;
         border-bottom: 1px solid var(--card-stroke);
     `;
 
@@ -1763,8 +1789,10 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
     const pageTitle = document.createElement('h3');
     pageTitle.style.cssText = `
         color: var(--heading-color);
-        margin: 0 0 8px 0;
-        font-size: 20px;
+        margin: 0;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
         width: 100%;
     `;
     pageTitle.textContent = `Exercise Set ${pageNumber}`;
@@ -1775,6 +1803,7 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
+        align-items: center;
     `;
 
     // Check how many pages are available (max 10 pages)
@@ -1806,18 +1835,22 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
 
             // Style the button to match your screenshot
             pageButton.style.cssText = `
-                width: clamp(32px, 8vw, 40px);
-                height: clamp(32px, 8vw, 40px);
+                width: 44px;
+                height: 44px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 border-radius: 50%;
-                border: 1px solid ${i === pageNumber ? 'var(--accent-color)' : 'var(--card-stroke)'};
-                background-color: ${i === pageNumber ? 'var(--accent-color)' : 'var(--card-bg)'};
+                border: 1.5px solid ${i === pageNumber ? 'var(--accent-color)' : 'var(--card-stroke)'};
+                background-color: ${i === pageNumber ? 'var(--accent-color)' : 'transparent'};
                 color: ${i === pageNumber ? 'white' : 'var(--body-1)'};
                 cursor: pointer;
-                font-size: 1rem;
+                font-size: 17px;
+                font-weight: ${i === pageNumber ? '600' : '400'};
                 transition: all 0.2s ease;
+                box-shadow: ${i === pageNumber ? '0 2px 8px rgba(99,102,241,0.4)' : 'none'};
+                flex-shrink: 0;
+                -webkit-tap-highlight-color: transparent;
             `;
 
             // Add hover effect
@@ -1888,19 +1921,21 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
     scoreTracker.className = 'score-tracker';
     scoreTracker.style.cssText = `
         background-color: var(--card-bg);
-        padding: 15px 20px;
-        border-radius: 8px;
-        margin-bottom: 20px;
+        padding: 14px 16px;
+        border-radius: 12px;
+        margin-bottom: 16px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border: 1px solid var(--card-stroke);
     `;
 
     const scoreLabel = document.createElement('span');
     scoreLabel.textContent = 'Your score:';
     scoreLabel.style.cssText = `
         color: var(--body-2);
-        font-size: 1rem;
+        font-size: 15px;
+        font-weight: 500;
     `;
 
     const scoreValue = document.createElement('span');
@@ -1908,8 +1943,9 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
     scoreValue.textContent = '0 / 10';
     scoreValue.style.cssText = `
         color: var(--heading-color);
-        font-weight: 500;
-        font-size: 1.1rem;
+        font-weight: 600;
+        font-size: 17px;
+        letter-spacing: 0.02em;
     `;
 
     scoreTracker.appendChild(scoreLabel);
@@ -1922,7 +1958,7 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
     exercisesContainer.style.cssText = `
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 16px;
     `;
 
     // Add all exercises from this page
@@ -2005,22 +2041,24 @@ function showExerciseFeedback(exerciseBox, isCorrect, message, messageRu) {
     // Set feedback styles based on correctness - exactly match screenshot
     if (isCorrect) {
         feedbackElement.style.cssText = `
-            margin-top: 20px;
-            padding: 15px;
-            border-radius: 8px;
-            font-size: 1rem;
-            background-color: rgba(56, 189, 142, 0.25);
-            border: 2px solid #34d399;
+            margin-top: 14px;
+            padding: 14px 16px;
+            border-radius: 12px;
+            font-size: 15px;
+            line-height: 1.5;
+            background-color: rgba(56, 189, 142, 0.18);
+            border: 1.5px solid #34d399;
             color: #a7f3d0;
         `;
     } else {
         feedbackElement.style.cssText = `
-            margin-top: 20px;
-            padding: 15px;
-            border-radius: 8px;
-            font-size: 1rem;
-            background-color: rgba(244, 67, 54, 0.25);
-            border: 2px solid #f87171;
+            margin-top: 14px;
+            padding: 14px 16px;
+            border-radius: 12px;
+            font-size: 15px;
+            line-height: 1.5;
+            background-color: rgba(244, 67, 54, 0.18);
+            border: 1.5px solid #f87171;
             color: #fca5a5;
         `;
     }
@@ -2088,10 +2126,10 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
     exerciseBox.dataset.index = index;
     exerciseBox.style.cssText = `
         background-color: var(--card-bg);
-        border-radius: 12px;
+        border-radius: 14px;
         border: 1px solid var(--card-stroke);
-        padding: 20px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
     `;
 
     // Create exercise header with question number
@@ -2100,7 +2138,7 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 15px;
+        margin-bottom: 12px;
     `;
 
     // Question number pill
@@ -2109,10 +2147,11 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
     exerciseNumber.style.cssText = `
         background-color: var(--accent-color);
         color: white;
-        padding: 5px 12px;
+        padding: 5px 13px;
         border-radius: 30px;
-        font-size: 0.9rem;
-        font-weight: 500;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.02em;
     `;
 
     // Status indicator (correct/incorrect)
@@ -2170,9 +2209,10 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
         russianQuestion.textContent = exercise.questionRu;
         russianQuestion.style.cssText = `
             color: var(--body-2);
-            font-size: 0.95rem;
+            font-size: 15px;
             margin-bottom: 10px;
             font-style: italic;
+            line-height: 1.4;
         `;
         questionContainer.appendChild(russianQuestion);
     }
@@ -2592,9 +2632,10 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
     questionElement.textContent = exercise.question;
     questionElement.style.cssText = `
         color: var(--heading-color);
-        font-size: 1.2rem;
-        margin-bottom: 10px;
-        font-weight: 500;
+        font-size: 17px;
+        margin-bottom: 8px;
+        font-weight: 600;
+        line-height: 1.4;
     `;
     questionContainer.appendChild(questionElement);
 
@@ -2604,9 +2645,10 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
         russianQuestion.textContent = exercise.questionRu;
         russianQuestion.style.cssText = `
             color: var(--body-2);
-            font-size: 0.95rem;
+            font-size: 15px;
             margin-bottom: 10px;
             font-style: italic;
+            line-height: 1.4;
         `;
         questionContainer.appendChild(russianQuestion);
     }
@@ -2680,15 +2722,19 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
                 if (option.isCorrect) {
                     // Correct selected option - green background
                     optionButton.style.cssText = `
-                        background-color: rgba(56, 189, 142, 0.25);
-                        border: 1px solid #34d399;
-                        border-radius: 8px;
-                        padding: 12px 16px;
+                        background-color: #292a3e;
+                        border: 1.5px solid #353748;
+                        border-radius: 12px;
+                        padding: 14px 16px;
                         text-align: left;
-                        color: #a7f3d0;
-                        font-size: 1rem;
-                        cursor: default;
+                        color: #f8fafc;
+                        font-size: 17px;
+                        cursor: pointer;
+                        transition: all 0.2s ease;
                         width: 100%;
+                        min-height: 44px;
+                        line-height: 1.4;
+                        -webkit-tap-highlight-color: transparent;
                     `;
                 } else {
                     // Incorrect selected option - red background
@@ -2707,28 +2753,32 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
             } else if (option.isCorrect && !selectedOptions[subtitle]) {
                 // If there's a correct answer that wasn't selected (when another incorrect option was chosen)
                 optionButton.style.cssText = `
-                    background-color: rgba(56, 189, 142, 0.25);
-                    border: 1px solid #34d399;
-                    border-radius: 8px;
-                    padding: 12px 16px;
-                    text-align: left;
-                    color: #a7f3d0;
-                    font-size: 1rem;
-                    cursor: default;
-                    width: 100%;
-                `;
+                    background-color: rgba(56, 189, 142, 0.2);
+                        border: 1.5px solid #34d399;
+                        border-radius: 12px;
+                        padding: 14px 16px;
+                        text-align: left;
+                        color: #a7f3d0;
+                        font-size: 17px;
+                        cursor: default;
+                        width: 100%;
+                        min-height: 44px;
+                        line-height: 1.4;
+                    `;
             } else {
-                // Non-selected options in an answered question - gray/neutral style
+                // Incorrect selected option - red background
                 optionButton.style.cssText = `
-                    background-color: #292a3e;
-                    border: 1px solid #353748;
-                    border-radius: 8px;
-                    padding: 12px 16px;
-                    text-align: left;
-                    color: #6e7191;
-                    font-size: 1rem;
-                    cursor: default;
-                    width: 100%;
+                        background-color: rgba(244, 67, 54, 0.2);
+                        border: 1.5px solid #f87171;
+                        border-radius: 12px;
+                        padding: 14px 16px;
+                        text-align: left;
+                        color: #fca5a5;
+                        font-size: 17px;
+                        cursor: default;
+                        width: 100%;
+                        min-height: 44px;
+                        line-height: 1.4;
                 `;
             }
 
@@ -2738,15 +2788,17 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
             // This is a fresh, unanswered question - all options look the same
             optionButton.style.cssText = `
                 background-color: #292a3e;
-                border: 1px solid #353748;
-                border-radius: 8px;
-                padding: 12px 16px;
+                border: 1.5px solid #353748;
+                border-radius: 12px;
+                padding: 14px 16px;
                 text-align: left;
                 color: #f8fafc;
-                font-size: 1rem;
+                font-size: 17px;
                 cursor: pointer;
-                transition: all 0.2s ease;
                 width: 100%;
+                min-height: 44px;
+                line-height: 1.4;
+                -webkit-tap-highlight-color: transparent;
             `;
 
             // Add hover effect
@@ -3573,9 +3625,10 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
         russianQuestion.textContent = exercise.questionRu;
         russianQuestion.style.cssText = `
             color: var(--body-2);
-            font-size: 0.95rem;
+            font-size: 15px;
             margin-bottom: 10px;
             font-style: italic;
+            line-height: 1.4;
         `;
         questionContainer.appendChild(russianQuestion);
     }

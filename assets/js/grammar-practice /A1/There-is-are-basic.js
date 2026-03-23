@@ -571,18 +571,18 @@ window.grammarExercises['articles']['there-is-are-basic-page4'] = {
         {
             question: "Pick the best answer:",
             questionRu: "Выберите лучший ответ:",
-            sentence: "_____ lots of people at the concert last night.",
+            sentence: "_____ lots of people at the concert every weekend.",
             options: [
-                "There were",
-                "There was",
-                "They were",
-                "Lots of people were"
+                "There are",
+                "There is",
+                "They are",
+                "Lots of people are"
             ],
             correctAnswer: 0,
-            correctFeedback: "Great! 'Lots of people' means many people, so we use 'There were'.",
-            correctFeedbackRu: "Отлично! 'Lots of people' означает много людей, поэтому мы используем 'There were'.",
-            incorrectFeedback: "Good try! When you see 'lots of' or 'many', think 'more than one' = 'There were'. Also, this happened yesterday, so we need the past form.",
-            incorrectFeedbackRu: "Хорошая попытка! Когда вы видите 'lots of' или 'many', думайте 'больше одного' = 'There were'. Также это случилось вчера, поэтому нам нужна прошедшая форма."
+            correctFeedback: "Great! 'Lots of people' means many people, so we use 'There are'.",
+            correctFeedbackRu: "Отлично! 'Lots of people' означает много людей, поэтому мы используем 'There are'.",
+            incorrectFeedback: "Good try! When you see 'lots of' or 'many', think 'more than one' = 'There are'.",
+            incorrectFeedbackRu: "Хорошая попытка! Когда вы видите 'lots of' или 'many', думайте 'больше одного' = 'There are'.",
         },
         {
             question: "Choose the correct form:",

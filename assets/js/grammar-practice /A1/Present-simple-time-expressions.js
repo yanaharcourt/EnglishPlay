@@ -3175,12 +3175,12 @@ window.grammarExercises['tenses']['present-simple-time-expressions-sentence-page
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["I", "drink", "coffee", "and", "read", "news", "in", "the", "morning"],
-            correctAnswer: "I drink coffee and read news in the morning.",
-            correctFeedback: "Excellent! 'I drink coffee and read news in the morning' - pleasant morning routine.",
-            correctFeedbackRu: "Отлично! 'I drink coffee and read news in the morning' - приятная утренняя рутина.",
-            incorrectFeedback: "Try again. The structure is: I + drink coffee + and + read news + in the morning.",
-            incorrectFeedbackRu: "Попробуйте снова. Структура: I + drink coffee + and + read news + in the morning."
+            words: ["I", "drink", "coffee", "and", "read", "the", "news", "in", "the", "morning"],
+            correctAnswer: "I drink coffee and read the news in the morning.",
+            correctFeedback: "Excellent! 'I drink coffee and read the news in the morning' - pleasant morning routine.",
+            correctFeedbackRu: "Отлично! 'I drink coffee and read the news in the morning' - приятная утренняя рутина.",
+            incorrectFeedback: "Try again. The structure is: I + drink coffee + and + read the news + in the morning.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: I + drink coffee + and + read the news + in the morning."
         },
         {
             question: "Form a correct sentence using these words:",

@@ -23,11 +23,11 @@ window.grammarExercises['articles']['there-is-are-negatives-page1'] = {
                 "There is",
                 "There are"
             ],
-            correctAnswer: 1,
-            correctFeedback: "Correct! 'There aren't' is used with plural nouns. Milk is uncountable, so we use 'any' and 'aren't'.",
-            correctFeedbackRu: "Правильно! 'There aren't' используется с множественным числом. Молоко неисчисляемое, поэтому используем 'any' и 'aren't'.",
-            incorrectFeedback: "Not quite right. 'Milk' is uncountable, so with 'any' we use 'There aren't'. Remember: 'There isn't' works with singular nouns, while 'There aren't' works with plural nouns and uncountable nouns when using 'any'.",
-            incorrectFeedbackRu: "Не совсем правильно. 'Milk' неисчисляемое, поэтому с 'any' мы используем 'There aren't'. Запомните: 'There isn't' работает с единственным числом, а 'There aren't' работает с множественным числом и неисчисляемыми существительными при использовании 'any'."
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'There isn't' is used with uncountable nouns like 'milk'. We say 'There isn't any milk'.",
+            correctFeedbackRu: "Правильно! 'There isn't' используется с неисчисляемыми существительными, такими как 'milk'. Мы говорим 'There isn't any milk'.",
+            incorrectFeedback: "Not quite right. 'Milk' is uncountable, so we use 'There isn't any milk'. Remember: 'There isn't' works with singular and uncountable nouns, while 'There aren't' works with plural nouns.",
+            incorrectFeedbackRu: "Не совсем правильно. 'Milk' неисчисляемое, поэтому мы используем 'There isn't any milk'. Запомните: 'There isn't' работает с единственным числом и неисчисляемыми существительными, а 'There aren't' работает с множественным числом.",
         },
         {
             question: "Select the correct negative sentence:",

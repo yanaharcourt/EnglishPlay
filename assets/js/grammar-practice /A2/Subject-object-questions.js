@@ -661,8 +661,8 @@ window.grammarExercises['questions']['subject-object-questions-page4'] = {
             correctAnswer: 0,
             correctFeedback: "Correct! 'What is missing?' is a subject question asking about the thing that is absent.",
             correctFeedbackRu: "Правильно! 'What is missing?' - это вопрос к подлежащему, спрашивающий о том, что отсутствует.",
-            incorrectFeedback: "Incorrect. When asking about what is in a certain state (the subject), use 'What + is + adjective'. The thing that is missing is the subject of the sentence.",
-            incorrectFeedbackRu: "Неправильно. Когда спрашиваем о том, что находится в определенном состоянии (подлежащее), используем 'What + is + прилагательное'. То, что отсутствует - это подлежащее предложения."
+            incorrectFeedback: "Incorrect. When asking about what is performing the action or is in a certain state (the subject), use 'What + is + verb-ing'. The thing that is missing is the subject of the sentence.",
+            incorrectFeedbackRu: "Неправильно. Когда спрашиваем о том, что выполняет действие или находится в определенном состоянии (подлежащее), используем 'What + is + глагол-ing'. То, что отсутствует - это подлежащее предложения."
         },
         {
             question: "Select the correct question:",
@@ -729,7 +729,7 @@ window.grammarExercises['questions']['subject-object-questions-page5'] = {
                 "What noise does the machine make?",
                 "What noise makes the machine?",
                 "What noise the machine makes?",
-                "What noise is the machine making?"
+                "What noise do the machine make?"
             ],
             correctAnswer: 0,
             correctFeedback: "Excellent! 'What noise does the machine make?' is an object question asking about the sound produced.",

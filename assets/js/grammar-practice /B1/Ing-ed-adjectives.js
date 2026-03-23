@@ -1160,16 +1160,16 @@ window.grammarExercises['adjectives']['ing-vs-ed-adjectives-page7'] = {
             questionRu: "Выберите правильное прилагательное:",
             sentence: "The local cuisine was absolutely _____.",
             options: [
-                "delicious",
-                "delicious",
-                "tasty", 
-                "flavorful"
+                "tempting",
+                "tempted",
+                "tempt",
+                "temptingly"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Delicious' is correct because the cuisine has great taste.",
-            correctFeedbackRu: "Отлично! 'Delicious' правильно, потому что кухня имеет отличный вкус.",
-            incorrectFeedback: "Not exactly! Use 'delicious' to describe food that tastes very good. The cuisine has the quality of being delicious.",
-            incorrectFeedbackRu: "Не совсем! Используйте 'delicious' для описания еды, которая очень вкусная. Кухня обладает качеством быть вкусной."
+            correctFeedback: "Perfect! 'Tempting' describes the cuisine - it has the quality that attracts people to eat it.",
+            correctFeedbackRu: "Отлично! 'Tempting' описывает кухню - она обладает качеством, которое привлекает людей есть её.",
+            incorrectFeedback: "Not exactly! Use 'tempting' to describe food or things that attract and entice. The cuisine has the quality of being tempting. 'Tempted' describes how people feel when they are attracted to something.",
+            incorrectFeedbackRu: "Не совсем! Используйте 'tempting' для описания еды или вещей, которые привлекают и соблазняют. Кухня обладает качеством быть соблазнительной. 'Tempted' описывает чувства людей, когда они привлечены к чему-то."
         },
         {
             question: "Select the correct adjective:",
@@ -1883,7 +1883,7 @@ window.grammarExercises['adjectives']['ing-vs-ed-adjectives-gap-page2'] = {
         {
             question: "Complete the sentence with the correct adjective:",
             questionRu: "Заполните предложение правильным прилагательным:",
-            sentence: "James was ____ when he forgot his birthday.",
+            sentence: "James was ____ when he forgot his friend's birthday.",
             correctAnswer: "embarrassed",
             options: ["embarrassed", "embarrassing", "embarrass", "embarrassedly"],
             correctFeedback: "Great! 'Embarrassed' is correct because James experiences embarrassment.",

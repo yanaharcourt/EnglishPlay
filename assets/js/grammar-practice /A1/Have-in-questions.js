@@ -3824,10 +3824,10 @@ window.grammarExercises['questions']['have-in-questions-sentence-page9'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["Does", "he", "have", "collection", "hobbies?"],
-            correctAnswer: "Does he have collection hobbies?",
-            correctFeedback: "Perfect! 'Does he have collection hobbies?' is correct. Great use of hobby category questions!",
-            correctFeedbackRu: "Отлично! 'Does he have collection hobbies?' верно. Прекрасное использование вопросов о категориях хобби!",
+            words: ["Does", "he", "have", "collecting", "hobbies?"],
+            correctAnswer: "Does he have collecting hobbies?",
+            correctFeedback: "Perfect! 'Does he have collecting hobbies?' is correct. Great use of hobby category questions!",
+            correctFeedbackRu: "Отлично! 'Does he have collecting hobbies?' верно. Прекрасное использование вопросов о категориях хобби!",
             incorrectFeedback: "Try again. Remember: Does + he + have + compound noun + ?",
             incorrectFeedbackRu: "Попробуйте снова. Помните: Does + he + have + составное существительное + ?"
         },

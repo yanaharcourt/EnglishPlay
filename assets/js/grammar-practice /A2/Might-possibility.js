@@ -846,8 +846,177 @@ window.grammarExercises['modals']['might-possibility-page5'] = {
             correctAnswer: 0,
             correctFeedback: "Perfect! 'Might not' acknowledges typical teenage social preferences.",
             correctFeedbackRu: "Идеально! 'Might not' признаёт типичные подростковые социальные предпочтения.",
-            incorrectFeedback: "Try again! 'Might not' is realistic about teenage behavior. Most teenagers **do prefer hanging out** with friends over family events, but every teenager is different and some enjoy family time more than others. You understand the pattern but don't assume. 'Must' means you're certain he won't want to come. 'Will' means you know for sure he will want to come. 'Can't' means it's impossible for him to want to come.",
-            incorrectFeedbackRu: "Попробуйте ещё раз! 'Might not' реалистично описывает подростковое поведение. Большинство подростков **действительно предпочитают проводить время** с друзьями, а не на семейных мероприятиях, но каждый подросток разный, и некоторые больше наслаждаются семейным временем. Вы понимаете закономерность, но не предполагаете. 'Must' означает, что вы уверены, что он не захочет прийти. 'Will' означает, что вы точно знаете, что он захочет прийти. 'Can't' означает, что невозможно, чтобы он захотел прийти."
+            incorrectFeedback: "Try again! 'Might not' is realistic about teenage behavior. Most teenagers **do prefer hanging out** with friends over family events, but every teenager is different and some enjoy family time more than others. You understand the pattern but don't assume. 'Must' means you're certain he will definitely not want to come. 'Will' means you know for sure he will want to come. 'Can't' means it's impossible for him to want to come.",
+            incorrectFeedbackRu: "Попробуйте ещё раз! 'Might not' реалистично описывает подростковое поведение. Большинство подростков **действительно предпочитают проводить время** с друзьями, а не на семейных мероприятиях, но каждый подросток разный, и некоторые больше наслаждаются семейным временем. Вы понимаете закономерность, но не предполагаете. 'Must' означает, что вы уверены, что он определённо не захочет прийти. 'Will' означает, что вы точно знаете, что он захочет прийти. 'Can't' означает, что невозможно, чтобы он захотел прийти."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Might for possibility - Home and Neighbourhood
+============================================ */
+window.grammarExercises['modals']['might-possibility-page6'] = {
+    title: "Might for possibility - Home and Neighbourhood",
+    multipleChoice: [
+        {
+            question: "Choose the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The new neighbours _____ be a young family with children.",
+            options: [
+                "might",
+                "must",
+                "will",
+                "can't"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Might' expresses uncertainty about who your new neighbours are.",
+            correctFeedbackRu: "Идеально! 'Might' выражает неуверенность в том, кто ваши новые соседи.",
+            incorrectFeedback: "Try again! 'Might' is perfect when you don't know much about someone yet. You've seen some clues — perhaps toys in the garden or a child's bike — but you haven't met them properly. 'Must' means you're certain they're a young family. 'Will' means you know for sure who they are. 'Can't' means it's impossible for them to be a young family.",
+            incorrectFeedbackRu: "Попробуйте снова! 'Might' идеально подходит, когда вы ещё мало знаете о ком-то. Вы видели некоторые признаки — возможно, игрушки в саду или детский велосипед — но ещё не познакомились как следует. 'Must' означает, что вы уверены, что это молодая семья. 'Will' означает, что вы точно знаете, кто они. 'Can't' означает, что невозможно, чтобы это была молодая семья."
+        },
+        {
+            question: "Select the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The heating _____ need repairing soon, it's making strange noises.",
+            options: [
+                "might",
+                "can't",
+                "will",
+                "should"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Might' connects the warning signs with a possible problem.",
+            correctFeedbackRu: "Превосходно! 'Might' связывает предупреждающие признаки с возможной проблемой.",
+            incorrectFeedback: "Almost! 'Might' is the right choice when something shows warning signs. Strange noises from heating **could mean** a repair is needed, but sometimes boilers make odd sounds without being seriously broken. You're being cautious and sensible. 'Can't' means it's impossible to need repairing. 'Will' means you're certain it needs repairing. 'Should' is about expectations or advice.",
+            incorrectFeedbackRu: "Почти! 'Might' — правильный выбор, когда что-то показывает предупреждающие признаки. Странные звуки от отопления **могут означать**, что нужен ремонт, но иногда котлы издают странные звуки, не будучи серьёзно сломанными. Вы проявляете осторожность и благоразумие. 'Can't' означает, что невозможно нуждаться в ремонте. 'Will' означает, что вы уверены, что ремонт нужен. 'Should' о ожиданиях или советах."
+        },
+        {
+            question: "Choose the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The post office _____ be closed today because of the public holiday.",
+            options: [
+                "might",
+                "must",
+                "will",
+                "can't"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Great! 'Might' shows you're not completely sure about the post office schedule.",
+            correctFeedbackRu: "Отлично! 'Might' показывает, что вы не полностью уверены в расписании почтового отделения.",
+            incorrectFeedback: "Not quite! 'Might' is smart here because not all businesses close on every public holiday — some stay open with reduced hours. You **think** it could be closed but want to check first. 'Must' means you're certain it's closed. 'Will' means you know for sure it will be closed. 'Can't' means it's impossible to be closed.",
+            incorrectFeedbackRu: "Не совсем! 'Might' здесь умно, потому что не все заведения закрываются в каждый государственный праздник — некоторые работают с сокращёнными часами. Вы **думаете**, что оно может быть закрыто, но хотите сначала проверить. 'Must' означает, что вы уверены, что оно закрыто. 'Will' означает, что вы точно знаете, что оно будет закрыто. 'Can't' означает, что невозможно быть закрытым."
+        },
+        {
+            question: "Select the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The council _____ repair the road outside our house next month.",
+            options: [
+                "might",
+                "can't",
+                "will",
+                "must"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Might' reflects realistic expectations about local council work timelines.",
+            correctFeedbackRu: "Идеально! 'Might' отражает реалистичные ожидания относительно сроков работы местного совета.",
+            incorrectFeedback: "Try again! 'Might' is realistic about council repair schedules. You may have reported the road problem or heard it's planned, but council work **often gets delayed** due to budgets, weather, or other priorities. It could happen next month, but you're not counting on it. 'Can't' means it's impossible to repair it. 'Will' means you're certain they will repair it. 'Must' means you're sure they definitely will.",
+            incorrectFeedbackRu: "Попробуйте снова! 'Might' реалистично описывает графики ремонта совета. Вы могли сообщить о проблеме с дорогой или слышали, что это запланировано, но работы совета **часто откладываются** из-за бюджетов, погоды или других приоритетов. Это может произойти в следующем месяце, но вы на это не рассчитываете. 'Can't' означает, что невозможно отремонтировать. 'Will' означает, что вы уверены, что они отремонтируют. 'Must' означает, что вы уверены, что они определённо отремонтируют."
+        },
+        {
+            question: "Choose the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "Someone _____ have left this umbrella in the hallway by mistake.",
+            options: [
+                "might",
+                "can't",
+                "will",
+                "should"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Might' makes a logical guess about how the umbrella ended up there.",
+            correctFeedbackRu: "Превосходно! 'Might' делает логическое предположение о том, как зонт оказался там.",
+            incorrectFeedback: "Almost! 'Might' is perfect for making reasonable guesses about everyday mysteries. Someone forgetting an umbrella **is a very plausible explanation**, but there could be other reasons too — maybe a visitor left it intentionally for someone else. You're making a sensible guess. 'Can't' means it's impossible to have been left by mistake. 'Will' is about future events. 'Should' is about expectations or what's correct.",
+            incorrectFeedbackRu: "Почти! 'Might' идеально подходит для разумных предположений о повседневных загадках. Кто-то забыл зонт — **очень правдоподобное объяснение**, но могут быть и другие причины — возможно, посетитель намеренно оставил его для кого-то другого. Вы делаете разумное предположение. 'Can't' означает, что невозможно, чтобы это было оставлено по ошибке. 'Will' о будущих событиях. 'Should' о ожиданиях или о том, что правильно."
+        },
+        {
+            question: "Select the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The noise from the building work next door _____ stop by lunchtime.",
+            options: [
+                "might",
+                "can't",
+                "will",
+                "must"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Great! 'Might' shows realistic hope about construction noise ending.",
+            correctFeedbackRu: "Отлично! 'Might' показывает реалистичную надежду на прекращение строительного шума.",
+            incorrectFeedback: "Not exactly! 'Might' is honest about construction unpredictability. Workers **sometimes take lunch breaks** and pause noise, but big jobs can also run all day without stopping. You're hoping for a quieter afternoon but can't be sure. 'Can't' means it's impossible for the noise to stop. 'Will' means you're certain it will stop. 'Must' means you're sure it will definitely stop.",
+            incorrectFeedbackRu: "Не совсем! 'Might' честно описывает непредсказуемость строительства. Рабочие **иногда делают обеденные перерывы** и останавливают шум, но большие работы также могут продолжаться весь день без остановки. Вы надеетесь на более тихий полдень, но не можете быть уверены. 'Can't' означает, что невозможно, чтобы шум прекратился. 'Will' означает, что вы уверены, что он прекратится. 'Must' означает, что вы уверены, что он определённо прекратится."
+        },
+        {
+            question: "Choose the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "There _____ be a water leak somewhere, the ceiling looks damp.",
+            options: [
+                "might",
+                "can't",
+                "will",
+                "should"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Might' connects the visual clue with a possible explanation.",
+            correctFeedbackRu: "Идеально! 'Might' связывает визуальный признак с возможным объяснением.",
+            incorrectFeedback: "Try again! 'Might' is smart home detective work. A damp ceiling **strongly suggests** a leak, but dampness can also come from condensation or a one-off spill from upstairs. You suspect a leak but need to investigate further. 'Can't' means it's impossible to be a leak. 'Will' means you're certain it's a leak. 'Should' is about expectations or what normally happens.",
+            incorrectFeedbackRu: "Попробуйте снова! 'Might' — умная домашняя детективная работа. Влажный потолок **сильно намекает** на утечку, но влажность также может быть от конденсата или разовой проливки сверху. Вы подозреваете утечку, но нужно расследовать дальше. 'Can't' означает, что невозможно, чтобы это была утечка. 'Will' означает, что вы уверены, что это утечка. 'Should' о ожиданиях или о том, что обычно происходит."
+        },
+        {
+            question: "Select the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The local park _____ be busy this afternoon because the weather is so nice.",
+            options: [
+                "might",
+                "must",
+                "will",
+                "can't"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Excellent! 'Might' acknowledges nice weather tends to bring people out but isn't certain.",
+            correctFeedbackRu: "Превосходно! 'Might' признаёт, что хорошая погода склонна привлекать людей, но это не точно.",
+            incorrectFeedback: "Almost! 'Might' is the right choice for predicting public spaces. Good weather **usually does** attract people to parks, but it depends on the day — maybe everyone is working, or there's a local event elsewhere drawing crowds away. 'Must' means you're certain it will be busy. 'Will' means you know for sure it will be busy. 'Can't' means it's impossible to be busy.",
+            incorrectFeedbackRu: "Почти! 'Might' — правильный выбор для предсказания публичных мест. Хорошая погода **обычно действительно** привлекает людей в парки, но это зависит от дня — возможно, все работают или есть местное мероприятие в другом месте, отвлекающее толпы. 'Must' означает, что вы уверены, что будет людно. 'Will' означает, что вы точно знаете, что будет людно. 'Can't' означает, что невозможно быть людным."
+        },
+        {
+            question: "Choose the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "The landlord _____ agree to let us redecorate the kitchen.",
+            options: [
+                "might",
+                "can't",
+                "will",
+                "must"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Great! 'Might' shows hopeful uncertainty about landlord decisions.",
+            correctFeedbackRu: "Отлично! 'Might' показывает обнадёживающую неуверенность в решениях арендодателя.",
+            incorrectFeedback: "Not quite! 'Might' is realistic about landlord negotiations. Some landlords **are happy for tenants** to redecorate while others prefer to keep the property unchanged. It depends on your relationship with them and their policies. You're hopeful but not certain. 'Can't' means it's impossible for them to agree. 'Will' means you're certain they will agree. 'Must' means you're sure they will definitely agree.",
+            incorrectFeedbackRu: "Не совсем! 'Might' реалистично описывает переговоры с арендодателем. Некоторые арендодатели **рады, когда жильцы** делают ремонт, в то время как другие предпочитают оставить недвижимость без изменений. Это зависит от ваших с ними отношений и их политики. Вы надеетесь, но не уверены. 'Can't' означает, что невозможно, чтобы они согласились. 'Will' означает, что вы уверены, что они согласятся. 'Must' означает, что вы уверены, что они определённо согласятся."
+        },
+        {
+            question: "Select the correct modal verb:",
+            questionRu: "Выберите правильный модальный глагол:",
+            sentence: "Our electricity bill _____ be higher this winter because of the cold weather.",
+            options: [
+                "might",
+                "can't",
+                "will",
+                "should"
+            ],
+            correctAnswer: 0,
+            correctFeedback: "Perfect! 'Might' connects cold weather with possible higher energy costs.",
+            correctFeedbackRu: "Идеально! 'Might' связывает холодную погоду с возможными более высокими расходами на электроэнергию.",
+            incorrectFeedback: "Try again! 'Might' is sensible for household budget planning. Cold winters **tend to increase** heating costs, but how much depends on how cold it actually gets, how well insulated your home is, and how often you use the heating. It's wise to prepare for higher bills but not certain how much. 'Can't' means it's impossible to be higher. 'Will' means you're certain it will be higher. 'Should' is about expectations or what's normal.",
+            incorrectFeedbackRu: "Попробуйте снова! 'Might' разумно для планирования домашнего бюджета. Холодные зимы **склонны увеличивать** расходы на отопление, но насколько — зависит от того, насколько холодно на самом деле, насколько хорошо утеплён ваш дом и как часто вы используете отопление. Разумно готовиться к более высоким счетам, но неизвестно насколько. 'Can't' означает, что невозможно быть выше. 'Will' означает, что вы уверены, что счёт будет выше. 'Should' о ожиданиях или о том, что нормально."
         }
     ]
 };
@@ -1670,6 +1839,7 @@ window.grammarExercises['modals']['might-possibility-gap-page2'] = {
             questionRu: "Заполните предложение словом 'might' или 'might not':",
             sentence: "My phone battery ____ last until evening because it's already quite low.",
             correctAnswer: "might not",
+            options: ["might", "might not", "will", "should"],
             correctFeedback: "Excellent! 'Might not' is perfect when your battery is low and probably won't last long.",
             correctFeedbackRu: "Превосходно! 'Might not' идеально подходит, когда батарея низкая и, вероятно, долго не продержится.",
             incorrectFeedback: "Try again! When your phone battery is low, it probably won't last until evening. Use 'might not' for things that probably won't happen.",
@@ -2734,8 +2904,8 @@ window.grammarExercises['modals']['might-possibility-sentence-page1'] = {
             correctAnswer: "It might rain this afternoon.",
             correctFeedback: "Perfect! 'It might rain this afternoon.' Great use of 'might' for uncertain weather!",
             correctFeedbackRu: "Идеально! 'It might rain this afternoon.' Отличное использование 'might' для неопределённой погоды!",
-            incorrectFeedback: "Try again! Start with 'It might' then add 'rain this afternoon.' We use 'might' when we're not sure about the weather.",
-            incorrectFeedbackRu: "Попробуйте снова! Начните с 'It might', затем добавьте 'rain this afternoon.' Мы используем 'might', когда не уверены в погоде."
+            incorrectFeedback: "Try again. Remember: It + might + verb + time expression.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: It + might + глагол + выражение времени."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -2952,8 +3122,8 @@ window.grammarExercises['modals']['might-possibility-sentence-page3'] = {
             correctAnswer: "I might feel better after some rest.",
             correctFeedback: "Perfect! 'I might feel better after some rest.' Great use of 'might feel' for health improvement!",
             correctFeedbackRu: "Идеально! 'I might feel better after some rest.' Отличное использование 'might feel' для улучшения здоровья!",
-            incorrectFeedback: "Try again! Remember: I might feel better after some rest. Rest often helps when we don't feel well.",
-            incorrectFeedbackRu: "Попробуйте снова! Помните: I might feel better after some rest. Отдых часто помогает, когда мы плохо себя чувствуем."
+            incorrectFeedback: "Try again. Remember: I + might + feel + adjective + after + some + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: I + might + feel + прилагательное + after + some + существительное."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -2962,8 +3132,8 @@ window.grammarExercises['modals']['might-possibility-sentence-page3'] = {
             correctAnswer: "The gym might be crowded tonight.",
             correctFeedback: "Excellent! 'The gym might be crowded tonight.' Perfect use of 'might be' for facility conditions!",
             correctFeedbackRu: "Превосходно! 'The gym might be crowded tonight.' Идеальное использование 'might be' для условий в заведении!",
-            incorrectFeedback: "Try again! Remember: The gym might be crowded tonight. We use 'might be' when we think something could happen.",
-            incorrectFeedbackRu: "Попробуйте снова! Помните: The gym might be crowded tonight. Мы используем 'might be', когда думаем, что что-то может произойти."
+            incorrectFeedback: "Try again. Remember: The + noun + might be + adjective + tonight.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + существительное + might be + прилагательное + tonight."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3151,8 +3321,8 @@ window.grammarExercises['modals']['might-possibility-sentence-page4'] = {
             correctAnswer: "They might change their travel plans at the last minute.",
             correctFeedback: "Perfect! 'They might change their travel plans at the last minute.' Great use of 'might change' for flexible planning!",
             correctFeedbackRu: "Идеально! 'They might change their travel plans at the last minute.' Отличное использование 'might change' для гибкого планирования!",
-            incorrectFeedback: "Try again! Remember: They might change their travel plans at the last minute. Sometimes people change plans suddenly.",
-            incorrectFeedbackRu: "Попробуйте снова! Помните: They might change their travel plans at the last minute. Иногда люди внезапно меняют планы."
+            incorrectFeedback: "Try again. Remember: They + might + change + their + adjective + noun + at + the + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: They + might + change + their + прилагательное + существительное + at + the + прилагательное + существительное."
         }
     ]
 };
@@ -3448,8 +3618,8 @@ window.grammarExercises['modals']['might-possibility-sentence-page7'] = {
             correctAnswer: "The theater might have student discounts available.",
             correctFeedback: "Perfect! 'The theater might have student discounts available.' Great use of 'might have' for special offers!",
             correctFeedbackRu: "Идеально! 'The theater might have student discounts available.' Отличное использование 'might have' для специальных предложений!",
-            incorrectFeedback: "Try again! Remember: The theater might have student discounts available. Many places offer student discounts.",
-            incorrectFeedbackRu: "Попробуйте снова! Помните: The theater might have student discounts available. Многие места предлагают студенческие скидки."
+            incorrectFeedback: "Try again. Remember: The + noun + might + have + adjective + noun + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: The + существительное + might + have + прилагательное + существительное + прилагательное."
         },
         {
             question: "Form a correct sentence using these words:",

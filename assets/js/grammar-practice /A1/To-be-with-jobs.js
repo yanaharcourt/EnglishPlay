@@ -2913,7 +2913,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-sentence-page1'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["she", "is", "a", "baker"],
+            words: ["She", "is", "a", "baker."],
             correctAnswer: "She is a baker.",
             correctFeedback: "Perfect! 'She is a baker' is correct. Great job sentence!",
             correctFeedbackRu: "Идеально! 'She is a baker' верно. Отличное предложение о работе!",
@@ -2983,7 +2983,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-sentence-page1'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["I", "am", "a", "waiter"],
+            words: ["I", "am", "a", "waiter."],
             correctAnswer: "I am a waiter.",
             correctFeedback: "Excellent! 'I am a waiter' is correct. Great restaurant job statement!",
             correctFeedbackRu: "Отлично! 'I am a waiter' верно. Отличное утверждение о работе в ресторане!",
@@ -3131,7 +3131,7 @@ window.grammarExercises['to-be']['to-be-with-jobs-sentence-page3'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["is", "she", "a", "nurse", "?"],
+            words: ["Is", "she", "a", "nurse?"],
             correctAnswer: "Is she a nurse?",
             correctFeedback: "Perfect! 'Is she a nurse?' is correct. Great job question!",
             correctFeedbackRu: "Идеально! 'Is she a nurse?' верно. Отличный вопрос о работе!",

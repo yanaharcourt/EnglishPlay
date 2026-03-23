@@ -1765,7 +1765,7 @@ window.grammarExercises['articles']['articles-with-jobs-gap-page1'] = {
             correctAnswer: "a",
             options: ["a", "an", "the", "no article"],
             correctFeedback: "Perfect! 'A' is correct because 'doctor' starts with a consonant sound (d).",
-            correctFeedbackRu: "Отлично! 'A' правильно, потому que 'doctor' начинается с согласного звука (d).",
+            correctFeedbackRu: "Отлично! 'A' правильно, потому что 'doctor' начинается с согласного звука (d).",
             incorrectFeedback: "Try once more. Use 'a' because 'doctor' starts with the consonant sound 'd'.",
             incorrectFeedbackRu: "Попробуйте ещё раз. Используйте 'a', потому что 'doctor' начинается с согласного звука 'd'."
         },
@@ -4000,5 +4000,5 @@ window.grammarExercises['articles']['articles-with-jobs-sentence-page10'] = {
 /* ============================================
 Console log to confirm data loading
 ============================================ */
-console.log("Articles with jobs Sentence Building exercises (Pages 1-3) loaded successfully!");
-console.log("===== ARTICLES WITH JOBS SENTENCE BUILDING EXERCISES PAGES 1-3 COMPLETED =====");
+console.log("Articles with jobs Sentence Building exercises (Pages 1-10) loaded successfully!");
+console.log("===== ARTICLES WITH JOBS SENTENCE BUILDING EXERCISES PAGES 1-10 COMPLETED =====");

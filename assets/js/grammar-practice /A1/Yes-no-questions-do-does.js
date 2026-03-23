@@ -1329,18 +1329,18 @@ window.grammarExercises['questions']['yes-no-questions-do-does-page8'] = {
         {
             question: "Choose the correct question:",
             questionRu: "Выберите правильный вопрос:",
-            sentence: "Ask if the couple travels together:",
+            sentence: "Ask if the couple owns a car:",
             options: [
-                "Does the couple travel together?",
-                "Do the couple travels together?",
-                "Do the couple travel together?",
-                "Are the couple travel together?"
+                "Does the couple own a car?",
+                "Do the couple owns a car?",
+                "Do the couple own a car?",
+                "Is the couple own a car?"
             ],
-            correctAnswer: 2,
-            correctFeedback: "Correct! 'Do the couple travel together?' uses 'do' with 'couple' (treated as plural).",
-            correctFeedbackRu: "Правильно! 'Do the couple travel together?' использует 'do' с 'couple' (рассматривается как множественное).",
-            incorrectFeedback: "Incorrect. Use 'Do the couple travel...?' when referring to two people.",
-            incorrectFeedbackRu: "Неправильно. Используйте 'Do the couple travel...?' когда говорите о двух людях."
+            correctAnswer: 0,
+            correctFeedback: "Correct! 'Does the couple own a car?' uses 'does' with singular 'couple'.",
+            correctFeedbackRu: "Правильно! 'Does the couple own a car?' использует 'does' с единственным 'couple'.",
+            incorrectFeedback: "Incorrect. Use 'Does the couple own...?' with collective nouns treated as singular.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'Does the couple own...?' с собирательными существительными в единственном числе."
         },
         {
             question: "Choose the correct question:",

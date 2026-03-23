@@ -2936,7 +2936,7 @@ window.grammarExercises['modals']['could-suggestions-sentence-page1'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["You", "could", "eat", "an", "apple", "now"],
+            words: ["You", "could", "eat", "an", "apple", "now."],
             correctAnswer: "You could eat an apple now.",
             correctFeedback: "Perfect! 'You could eat an apple now.' is correct. Good healthy suggestion!",
             correctFeedbackRu: "Идеально! 'You could eat an apple now.' верно. Хорошее здоровое предложение!",

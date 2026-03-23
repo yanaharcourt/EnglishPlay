@@ -56,10 +56,10 @@ window.grammarExercises['past-tenses']['past-perfect-first-times-page1'] = {
                 "never taste"
             ],
             correctAnswer: 0,
-            correctFeedback: "Great! 'Had never tasted' is correct because it emphasizes this was their first experience with truly authentic Italian food.",
-            correctFeedbackRu: "Отлично! 'Had never tasted' правильно, потому что это подчёркивает, что это был их первый опыт с по-настоящему аутентичной итальянской едой.",
-            incorrectFeedback: "Not quite! **'Had never tasted' celebrates culinary discoveries.** Food experiences become memories, and Past Perfect captures that moment when something becomes a 'first' in your life. The authentic Italian cuisine in Rome was a breakthrough moment that changed their understanding of good food forever.",
-            incorrectFeedbackRu: "Не совсем! **'Had never tasted' празднует кулинарные открытия.** Гастрономические впечатления становятся воспоминаниями, а Past Perfect захватывает тот момент, когда что-то становится 'первым разом' в вашей жизни. Аутентичная итальянская кухня в Риме была переломным моментом, который навсегда изменил их понимание хорошей еды."
+            correctFeedback: "Great! 'Had never tasted' is correct because it emphasizes this was our first experience with truly authentic Italian food.",
+            correctFeedbackRu: "Отлично! 'Had never tasted' правильно, потому что это подчёркивает, что это был наш первый опыт с по-настоящему аутентичной итальянской едой.",
+            incorrectFeedback: "Not quite! **'Had never tasted' celebrates culinary discoveries.** Food experiences become memories, and Past Perfect captures that moment when something becomes a 'first' in your life. The authentic Italian cuisine in Rome was a breakthrough moment that changed our understanding of good food forever.",
+            incorrectFeedbackRu: "Не совсем! **'Had never tasted' празднует кулинарные открытия.** Гастрономические впечатления становятся воспоминаниями, а Past Perfect захватывает тот момент, когда что-то становится 'первым разом' в вашей жизни. Аутентичная итальянская кухня в Риме была переломным моментом, который навсегда изменил наше понимание хорошей еды."
         },
         {
             question: "Select the correct form:",
@@ -136,10 +136,10 @@ window.grammarExercises['past-tenses']['past-perfect-first-times-page1'] = {
                 "never encounter"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Had never encountered' is correct because Moroccan hospitality was a completely new and heartwarming experience for them.",
-            correctFeedbackRu: "Отлично! 'Had never encountered' правильно, потому что марокканское гостеприимство было для них совершенно новым и душевным опытом.",
-            incorrectFeedback: "Try again! **'Had never encountered' celebrates human kindness.** Moroccan culture is famous for incredible warmth and generosity. Past Perfect shows this was their first time experiencing such genuine hospitality - it touched their hearts in ways they'd never felt before.",
-            incorrectFeedbackRu: "Попробуйте ещё раз! **'Had never encountered' празднует человеческую доброту.** Марокканская культура славится невероятной теплотой и щедростью. Past Perfect показывает, что это был их первый опыт такого искреннего гостеприимства — оно тронуло их сердца так, как они никогда раньше не чувствовали."
+            correctFeedback: "Excellent! 'Had never encountered' is correct because Moroccan hospitality was a completely new and heartwarming experience for us.",
+            correctFeedbackRu: "Отлично! 'Had never encountered' правильно, потому что марокканское гостеприимство было для нас совершенно новым и душевным опытом.",
+            incorrectFeedback: "Try again! **'Had never encountered' celebrates human kindness.** Moroccan culture is famous for incredible warmth and generosity. Past Perfect shows this was our first time experiencing such genuine hospitality - it touched our hearts in ways we'd never felt before.",
+            incorrectFeedbackRu: "Попробуйте ещё раз! **'Had never encountered' празднует человеческую доброту.** Марокканская культура славится невероятной теплотой и щедростью. Past Perfect показывает, что это был наш первый опыт такого искреннего гостеприимства — оно тронуло наши сердца так, как мы никогда раньше не чувствовали."
         },
         {
             question: "Choose the correct form:",
@@ -227,8 +227,8 @@ window.grammarExercises['past-tenses']['past-perfect-first-times-page2'] = {
             correctAnswer: 0,
             correctFeedback: "Great! 'Had never tackled' is correct because starting a business presented completely new challenges and responsibilities.",
             correctFeedbackRu: "Отлично! 'Had never tackled' правильно, потому что начало бизнеса представило совершенно новые вызовы и ответственности.",
-            incorrectFeedback: "Not quite! **'Had never tackled' embraces entrepreneurship.** Starting a business means handling finances, marketing, customers, and countless decisions all at once. Past Perfect shows this was their first dive into such complex responsibility - every day brought challenges they'd never faced before.",
-            incorrectFeedbackRu: "Не совсем! **'Had never tackled' принимает предпринимательство.** Начать бизнес означает одновременно заниматься финансами, маркетингом, клиентами и бесчисленными решениями. Past Perfect показывает, что это было их первое погружение в такую сложную ответственность — каждый день приносил вызовы, с которыми они никогда не сталкивались раньше."
+            incorrectFeedback: "Not quite! **'Had never tackled' embraces entrepreneurship.** Starting a business means handling finances, marketing, customers, and countless decisions all at once. Past Perfect shows this was our first dive into such complex responsibility - every day brought challenges we'd never faced before.",
+            incorrectFeedbackRu: "Не совсем! **'Had never tackled' принимает предпринимательство.** Начать бизнес означает одновременно заниматься финансами, маркетингом, клиентами и бесчисленными решениями. Past Perfect показывает, что это было наше первое погружение в такую сложную ответственность — каждый день приносил вызовы, с которыми мы никогда не сталкивались раньше."
         },
         {
             question: "Select the correct form:",
@@ -364,8 +364,8 @@ window.grammarExercises['past-tenses']['past-perfect-first-times-page3'] = {
             correctAnswer: 0,
             correctFeedback: "Perfect! 'Had never heard' is correct because the Vienna Philharmonic provided an unprecedented musical experience.",
             correctFeedbackRu: "Отлично! 'Had never heard' правильно, потому что Венская филармония предоставила беспрецедентный музыкальный опыт.",
-            incorrectFeedback: "Almost there! **'Had never heard' captures musical magic.** The Vienna Philharmonic is legendary for their incredible sound and passion. Past Perfect shows this was her first encounter with music that could move her to tears and give her goosebumps - it was transformative in ways she'd never experienced before.",
-            incorrectFeedbackRu: "Почти правильно! **'Had never heard' захватывает музыкальную магию.** Венская филармония легендарна своим невероятным звучанием и страстью. Past Perfect показывает, что это была её первая встреча с музыкой, которая могла довести до слёз и вызвать мурашки — это было трансформирующим способом, которого она никогда раньше не испытывала."
+            incorrectFeedback: "Almost there! **'Had never heard' captures musical magic.** The Vienna Philharmonic is legendary for their incredible sound and passion. Past Perfect shows this was your first encounter with music that could move you to tears and give you goosebumps - it was transformative in ways you'd never experienced before.",
+            incorrectFeedbackRu: "Почти правильно! **'Had never heard' захватывает музыкальную магию.** Венская филармония легендарна своим невероятным звучанием и страстью. Past Perfect показывает, что это была ваша первая встреча с музыкой, которая могла довести до слёз и вызвать мурашки — это было трансформирующим опытом, которого вы никогда раньше не испытывали."
         },
         {
             question: "Select the correct form:",
@@ -396,8 +396,8 @@ window.grammarExercises['past-tenses']['past-perfect-first-times-page3'] = {
             correctAnswer: 0,
             correctFeedback: "Great! 'Had never admired' is correct because the Louvre's masterpieces offered an unparalleled artistic experience.",
             correctFeedbackRu: "Отлично! 'Had never admired' правильно, потому что шедевры Лувра предложили непревзойдённый художественный опыт.",
-            incorrectFeedback: "Not quite! **'Had never admired' discovers artistic genius.** The Louvre houses centuries of humanity's greatest artistic achievements. Past Perfect shows this was their first encounter with art so detailed and meaningful that it changed their understanding of human creativity and expression.",
-            incorrectFeedbackRu: "Не совсем! **'Had never admired' открывает художественный гений.** Лувр хранит столетия величайших художественных достижений человечества. Past Perfect показывает, что это была их первая встреча с искусством настолько детальным и значимым, что это изменило их понимание человеческого творчества и самовыражения."
+            incorrectFeedback: "Not quite! **'Had never admired' discovers artistic genius.** The Louvre houses centuries of humanity's greatest artistic achievements. Past Perfect shows this was our first encounter with art so detailed and meaningful that it changed our understanding of human creativity and expression.",
+            incorrectFeedbackRu: "Не совсем! **'Had never admired' открывает художественный гений.** Лувр хранит столетия величайших художественных достижений человечества. Past Perfect показывает, что это была наша первая встреча с искусством настолько детальным и значимым, что это изменило наше понимание человеческого творчества и самовыражения."
         },
         {
             question: "Select the correct form:",
@@ -444,8 +444,8 @@ window.grammarExercises['past-tenses']['past-perfect-first-times-page3'] = {
             correctAnswer: 0,
             correctFeedback: "Great! 'Had never witnessed' is correct because the Bolshoi Ballet represented the pinnacle of classical dance artistry.",
             correctFeedbackRu: "Отлично! 'Had never witnessed' правильно, потому что Большой балет представлял вершину классического танцевального искусства.",
-            incorrectFeedback: "Close! **'Had never witnessed' celebrates human grace.** The Bolshoi Ballet combines athletic precision with emotional storytelling through movement. Past Perfect emphasizes how this was her first experience with dance so technically perfect and emotionally powerful that it redefined what the human body could express.",
-            incorrectFeedbackRu: "Близко! **'Had never witnessed' празднует человеческую грацию.** Большой балет сочетает атлетическую точность с эмоциональным повествованием через движение. Past Perfect подчёркивает, что это был её первый опыт с танцем настолько технически совершенным и эмоционально мощным, что переопределил то, что может выражать человеческое тело."
+            incorrectFeedback: "Close! **'Had never witnessed' celebrates human grace.** The Bolshoi Ballet combines athletic precision with emotional storytelling through movement. Past Perfect emphasizes how this was your first experience with dance so technically perfect and emotionally powerful that it redefined what the human body could express.",
+            incorrectFeedbackRu: "Близко! **'Had never witnessed' празднует человеческую грацию.** Большой балет сочетает атлетическую точность с эмоциональным повествованием через движение. Past Perfect подчёркивает, что это был ваш первый опыт с танцем настолько технически совершенным и эмоционально мощным, что переопределил то, что может выражать человеческое тело."
         },
         {
             question: "Choose the correct form:",
@@ -474,10 +474,10 @@ window.grammarExercises['past-tenses']['past-perfect-first-times-page3'] = {
                 "never encounter"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Had never encountered' is correct because the Guggenheim's revolutionary design was unlike any building they'd seen.",
-            correctFeedbackRu: "Отлично! 'Had never encountered' правильно, потому что революционный дизайн Гуггенхайма был не похож ни на одно здание, которое они видели.",
-            incorrectFeedback: "Try again! **'Had never encountered' challenges perception.** The Guggenheim's spiral design revolutionized how museums could look and function. Past Perfect emphasizes how this building opened their minds to architecture as art - spaces that could be as inspiring as the collections they house.",
-            incorrectFeedbackRu: "Попробуйте ещё раз! **'Had never encountered' бросает вызов восприятию.** Спиральный дизайн Гуггенхайма революционизировал то, как могут выглядеть и функционировать музеи. Past Perfect подчёркивает, как это здание открыло их умы для архитектуры как искусства — пространства, которые могут вдохновлять так же, как коллекции, которые они размещают."
+            correctFeedback: "Excellent! 'Had never encountered' is correct because the Guggenheim's revolutionary design was unlike any building we'd seen.",
+            correctFeedbackRu: "Отлично! 'Had never encountered' правильно, потому что революционный дизайн Гуггенхайма был не похож ни на одно здание, которое мы видели.",
+            incorrectFeedback: "Try again! **'Had never encountered' challenges perception.** The Guggenheim's spiral design revolutionized how museums could look and function. Past Perfect emphasizes how this building opened our minds to architecture as art - spaces that could be as inspiring as the collections we house.",
+            incorrectFeedbackRu: "Попробуйте ещё раз! **'Had never encountered' бросает вызов восприятию.** Спиральный дизайн Гуггенхайма революционизировал то, как могут выглядеть и функционировать музеи. Past Perfect подчёркивает, как это здание открыло наши умы для архитектуры как искусства — пространства, которые могут вдохновлять так же, как коллекции, которые мы размещаем."
         },
         {
             question: "Choose the correct form:",
@@ -1910,8 +1910,8 @@ window.grammarExercises['past-tenses']['past-perfect-first-times-gap-page2'] = {
             options: ["had never maintained", "never maintained", "have never maintained", "were never maintaining"],
             correctFeedback: "Perfect! 'Had never maintained' captures how final exams demanded unprecedented study concentration.",
             correctFeedbackRu: "Отлично! 'Had never maintained' передаёт, как выпускные экзамены потребовали беспрецедентной концентрации в учёбе.",
-            incorrectFeedback: "Almost there! Use 'had never maintained' because exam preparation required their most intense academic effort yet.",
-            incorrectFeedbackRu: "Почти правильно! Используйте 'had never maintained', потому что подготовка к экзаменам требовала их самых интенсивных академических усилий."
+            incorrectFeedback: "Almost there! Use 'had never maintained' because exam preparation required our most intense academic effort yet.",
+            incorrectFeedbackRu: "Почти правильно! Используйте 'had never maintained', потому что подготовка к экзаменам требовала наших самых интенсивных академических усилий."
         },
         {
             question: "Complete the sentence with the correct past perfect form:",
@@ -2992,12 +2992,12 @@ window.grammarExercises['past-tenses']['past-perfect-first-times-sentence-page1'
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["He", "had", "never", "navigated", "such", "complex", "city", "streets", "before", "driving", "in", "Tokyo."],
-            correctAnswer: "He had never navigated such complex city streets before driving in Tokyo.",
-            correctFeedback: "Perfect! 'He had never navigated such complex city streets before driving in Tokyo.' is correct. Excellent description of first urban navigation challenge!",
-            correctFeedbackRu: "Отлично! 'He had never navigated such complex city streets before driving in Tokyo.' верно. Отличное описание первого вызова городской навигации!",
-            incorrectFeedback: "Try again. The structure is: He + had + never + navigated + such + adjective + noun + plural noun + before + gerund + preposition + place.",
-            incorrectFeedbackRu: "Попробуйте снова. Структура: He + had + never + navigated + such + прилагательное + существительное + множественное число + before + герундий + предлог + место."
+            words: ["He", "had", "never", "navigated", "such", "busy", "streets", "before", "driving", "in", "Tokyo."],
+            correctAnswer: "He had never navigated such busy streets before driving in Tokyo.",
+            correctFeedback: "Excellent! 'He had never navigated such busy streets before driving in Tokyo.' is correct. Great description of first city navigation challenge!",
+            correctFeedbackRu: "Отлично! 'He had never navigated such busy streets before driving in Tokyo.' верно. Отличное описание первого вызова городской навигации!",
+            incorrectFeedback: "Try again. The structure is: He + had + never + navigated + such + adjective + plural noun + before + gerund + preposition + place.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: He + had + never + navigated + such + прилагательное + существительное во множественном числе + before + герундий + предлог + место."
         }
     ]
 };

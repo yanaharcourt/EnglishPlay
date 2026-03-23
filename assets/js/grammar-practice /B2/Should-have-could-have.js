@@ -3081,12 +3081,12 @@ window.grammarExercises['modals']['should-have-could-have-sentence-page2'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["I", "could", "have", "prepared", "a", "backup", "plan", "for", "potential", "presentation", "technical", "difficulties."],
-            correctAnswer: "I could have prepared a backup plan for potential presentation technical difficulties.",
-            correctFeedback: "Excellent! 'I could have prepared a backup plan for potential presentation technical difficulties.' is correct. Smart preparation thinking!",
-            correctFeedbackRu: "Отлично! 'I could have prepared a backup plan for potential presentation technical difficulties.' верно. Умное мышление о подготовке!",
-            incorrectFeedback: "Not quite right. Remember: Subject + could have + past participle + object + for + adjective + compound noun.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: Подлежащее + could have + причастие прошедшего времени + дополнение + for + прилагательное + сложное существительное."
+            words: ["I", "should", "have", "prepared", "a", "backup", "plan", "for", "the", "presentation."],
+            correctAnswer: "I should have prepared a backup plan for the presentation.",
+            correctFeedback: "Excellent! 'I should have prepared a backup plan for the presentation.' is correct. Smart professional preparation responsibility!",
+            correctFeedbackRu: "Отлично! 'I should have prepared a backup plan for the presentation.' верно. Умная ответственность профессиональной подготовки!",
+            incorrectFeedback: "Try again. Remember: Subject + should have + past participle + object + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + should have + причастие прошедшего времени + дополнение + предложная фраза."
         },
         {
             question: "Form a correct sentence using these words:",

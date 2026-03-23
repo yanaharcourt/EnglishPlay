@@ -27,7 +27,7 @@ window.grammarExercises['past-tenses']['past-perfect-continuous-page1'] = {
             correctFeedback: "Perfect! 'Had been working' shows duration up to a specific past moment.",
             correctFeedbackRu: "Отлично! 'Had been working' показывает длительность до определённого момента в прошлом.",
             incorrectFeedback: "Almost there! **'Had been working' emphasizes continuous duration.** This form shows you were working continuously for 2 years, and then something happened (you quit). 'Was working' is just past continuous, 'have been working' is present perfect continuous, and 'worked' is simple past.",
-            incorrectFeedbackRu: "Почти правильно! **'Had been working' подчёркивает непрерывную длительность.** Эта форма показывает, что вы работали непрерывно 2 года, а потом что-то произошло (вы уволились). 'Was working' — это просто прошедшее длительное, 'have been working' — настоящее совершенное длительное, а 'worked' — простое прошедшее."
+            incorrectFeedbackRu: "Почти правильно! **'Had been working' подчёркивает непрерывную длительность.** Эта форма показывает, что вы работали непрерывно 2 года до того, как что-то произошло (вы уволились). 'Was working' — это прошедшее длительное, 'have been working' — настоящее совершенное длительное, а 'worked' — простое прошедшее время."
         },
         {
             question: "Select the correct past perfect continuous form:",
@@ -292,7 +292,7 @@ window.grammarExercises['past-tenses']['past-perfect-continuous-page2'] = {
             correctFeedback: "Great! 'Had been playing' shows artistic flow before an embarrassing disruption.",
             correctFeedbackRu: "Отлично! 'Had been playing' показывает художественный поток перед смущающим прерыванием.",
             incorrectFeedback: "Think again! **'Had been playing' emphasizes the beauty destroyed by inconsideration.** The musicians were creating something beautiful together when rudeness interrupted their art. 'Were playing' is past continuous, 'have been playing' is present perfect continuous, and 'played' doesn't capture the ongoing musical flow.",
-            incorrectFeedbackRu: "Подумайте ещё раз! **'Had been playing' подчёркивает красоту, разрушенную невнимательностью.** Музыканты создавали что-то прекрасное вместе, когда грубость прервала их искусство. 'Were playing' — прошедшее длительное, 'have been playing' — настоящее совершенное длительное, а 'played' не передаёт продолжающийся музыкальный поток."
+            incorrectFeedbackRu: "Подумайте ещё раз! **'Had been playing' подчёркивает, как бесцеремонность нарушила прекрасное исполнение.** Музыканты вместе создавали нечто прекрасное, когда чья-то грубость прервала их искусство. 'Were playing' — прошедшее длительное, 'have been playing' — настоящее совершенное длительное, а 'played' не передает непрерывность музыкального потока."
         },
         {
             question: "Select the correct form:",
@@ -396,7 +396,7 @@ window.grammarExercises['past-tenses']['past-perfect-continuous-page3'] = {
             correctFeedback: "Great! 'Had been raining' explains the dangerous road conditions.",
             correctFeedbackRu: "Отлично! 'Had been raining' объясняет опасные дорожные условия.",
             incorrectFeedback: "Not quite! **'Had been raining' shows how weather creates hazardous situations.** Steady rain over time accumulates water and makes surfaces dangerous. 'Was raining' is past continuous, 'has been raining' is present perfect continuous, and 'rained' doesn't emphasize the continuous accumulation that caused the problem.",
-            incorrectFeedbackRu: "Не совсем! **'Had been raining' показывает, как погода создаёт опасные ситуации.** Устойчивый дождь со временем накапливает воду и делает поверхности опасными. 'Was raining' — прошедшее длительное, 'has been raining' — настоящее совершенное длительное, а 'rained' не подчёркивает непрерывное накопление, которое вызвало проблему."
+            incorrectFeedbackRu: "Не совсем! **'Had been raining' показывает, как погода создает опасные ситуации.** Затяжной дождь делает дорожное покрытие опасным. 'Was raining' — прошедшее длительное, 'has been raining' — настоящее совершенное длительное, а 'rained' не акцентирует внимание на длительности осадков, которая и привела к проблеме."
         },
         {
             question: "Select the best answer:",
@@ -508,7 +508,7 @@ window.grammarExercises['past-tenses']['past-perfect-continuous-page3'] = {
             correctFeedback: "Excellent! 'Had been baking' explains the perfect result.",
             correctFeedbackRu: "Превосходно! 'Had been baking' объясняет идеальный результат.",
             incorrectFeedback: "Try again! **'Had been baking' shows how attention creates perfection.** Careful monitoring and patient baking over time produces the ideal color and texture. 'Was baking' is past continuous, 'has been baking' is present perfect continuous, and 'baked' doesn't emphasize the careful process that achieved the perfect outcome.",
-            incorrectFeedbackRu: "Попробуйте ещё раз! **'Had been baking' показывает, как внимание создаёт совершенство.** Тщательное наблюдение и терпеливая выпечка со временем производят идеальный цвет и текстуру. 'Was baking' — прошедшее длительное, 'has been baking' — настоящее совершенное длительное, а 'baked' не подчёркивает тщательный процесс, который достиг идеального результата."
+            incorrectFeedbackRu: "Попробуйте ещё раз! **'Had been baking' показывает, как внимание к процессу ведет к совершенству.** Тщательный контроль и терпеливое выпекание позволяют добиться идеального цвета и текстуры. 'Was baking' — прошедшее длительное, 'has been baking' — настоящее совершенное длительное, а 'baked' не подчеркивает длительность процесса, приведшего к результату."
         }
     ]
 };
@@ -3194,7 +3194,7 @@ window.grammarExercises['past-tenses']['past-perfect-continuous-sentence-page3']
             correctFeedback: "Excellent! 'The machine overheated because it had been running continuously.' is correct. Equipment maintenance matters!",
             correctFeedbackRu: "Превосходно! 'The machine overheated because it had been running continuously.' верно. Обслуживание оборудования важно!",
             incorrectFeedback: "Almost there! Remember: The + noun + past verb + because + it + had been + verb-ing + adverb.",
-            incorrectFeedbackRu: "Почти правильно! Помните: The + существительное + прошедший глагол + because + it + had been + глагол-ing + наречие."
+            incorrectFeedbackRu: "Почти правильно! Помните схему: The + существительное + глагол в прошедшем времени + because + it + had been + глагол с -ing + наречие."
         },
         {
             question: "Form a correct sentence using these words:",

@@ -1005,7 +1005,7 @@ window.grammarExercises['tenses']['present-perfect-time-markers-page6'] = {
         {
             question: "Select the correct form:",
             questionRu: "Выберите правильную форму:",
-            sentence: "This old computer has _____ crashed on me - I need a new one.",
+            sentence: "This old computer has _____ crashed on me - it still works perfectly!",
             options: [
                 "never",
                 "ever",
@@ -1013,10 +1013,10 @@ window.grammarExercises['tenses']['present-perfect-time-markers-page6'] = {
                 "already"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'Never' emphasizes the computer's reliability despite being old.",
-            correctFeedbackRu: "Отлично! 'Never' подчёркивает надёжность компьютера, несмотря на возраст.",
-            incorrectFeedback: "Try again! **'Never' creates strong positive emphasis.** When you say an old computer has never crashed, it shows how reliable and well-built it is, which makes wanting a new one seem unnecessary. 'Ever' is for questions, 'just' means very recently, and 'already' suggests it has crashed.",
-            incorrectFeedbackRu: "Попробуйте ещё раз! **'Never' создаёт сильный положительный акцент.** Когда вы говорите, что старый компьютер никогда не ломался, это показывает, насколько он надёжен и хорошо сделан, что делает желание нового компьютера необоснованным. 'Ever' для вопросов, 'just' означает совсем недавно, а 'already' предполагает, что он ломался."
+            correctFeedback: "Perfect! 'Never' emphasizes the computer's impressive reliability despite its age.",
+            correctFeedbackRu: "Отлично! 'Never' подчёркивает впечатляющую надёжность компьютера, несмотря на его возраст.",
+            incorrectFeedback: "Try again! **'Never' creates strong positive emphasis.** When you say an old computer has never crashed, it shows how reliable and well-built it is — truly impressive for an old machine. 'Ever' is for questions, 'just' means very recently, and 'already' suggests it has crashed.",
+            incorrectFeedbackRu: "Попробуйте ещё раз! **'Never' создаёт сильный положительный акцент.** Когда вы говорите, что старый компьютер никогда не ломался, это показывает, насколько он надёжен и хорошо сделан — действительно впечатляет для старой машины. 'Ever' для вопросов, 'just' означает совсем недавно, а 'already' предполагает, что он ломался."
         }
     ]
 };

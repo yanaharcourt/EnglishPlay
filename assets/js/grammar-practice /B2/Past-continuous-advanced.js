@@ -1884,12 +1884,12 @@ window.grammarExercises['past-tenses']['past-continuous-advanced-gap-page2'] = {
             question: "Complete the sentence with the correct past continuous form:",
             questionRu: "Дополните предложение правильной формой past continuous:",
             sentence: "The chef ____ the perfect sauce when the food critic arrived unannounced at the restaurant.",
-            correctAnswer: "was tasting",
             options: ["was tasting", "tasted", "had tasted", "tastes"],
-            correctFeedback: "Culinary! 'Was tasting' captures that moment of culinary perfection being tested just as professional judgment arrives!",
-            correctFeedbackRu: "Кулинарно! 'Was tasting' передает тот момент кулинарного совершенства, который тестируется именно тогда, когда прибывает профессиональное суждение!",
-            incorrectFeedback: "Taste the pressure! **Past continuous shows the ongoing quality control.** The chef wasn't just cooking - they were actively perfecting the sauce when the ultimate test walked through the door. It's professional timing at its most dramatic!",
-            incorrectFeedbackRu: "Почувствуйте давление! **Past continuous показывает продолжающийся контроль качества.** Шеф-повар не просто готовил - он активно совершенствовал соус, когда окончательный тест вошел в дверь. Это профессиональный тайминг в его самом драматическом виде!"
+            correctAnswer: 0,
+            correctFeedback: "Culinary excellence! 'Was tasting' captures that moment of culinary perfection being tested just as professional judgment arrives!",
+            correctFeedbackRu: "Кулинарное мастерство! 'Was tasting' передает тот момент кулинарного совершенства, который тестируется именно тогда, когда прибывает профессиональное суждение!",
+            incorrectFeedback: "Think about the process! **Past continuous shows the chef in the middle of tasting.** The action was ongoing when the critic arrived. Simple past would mean he finished tasting before the arrival.",
+            incorrectFeedbackRu: "Подумайте о процессе! **Past continuous показывает шеф-повара в процессе дегустации.** Действие продолжалось, когда прибыл критик. Simple past означало бы, что он закончил пробовать до прибытия."
         },
         {
             question: "Choose the correct past continuous form:",
@@ -2547,8 +2547,8 @@ window.grammarExercises['past-tenses']['past-continuous-advanced-gap-page8'] = {
             options: ["was perfecting", "perfected", "had perfected", "perfects"],
             correctFeedback: "Ocean salvation! 'Was perfecting' captures that dedicated marine research achieving breakthrough coral conservation that saves entire ecosystems!",
             correctFeedbackRu: "Спасение океана! 'Was perfecting' передает это преданное морское исследование, достигающее прорывной консервации кораллов, которая спасает целые экосистемы!",
-            incorrectFeedback: "Picture the underwater rescue! **Past continuous shows the ongoing research refinement.** The biologist wasn't just working occasionally - she was continuously perfecting restoration methods when her persistence saved an entire reef from environmental disaster. It's science that rescues ocean life!",
-            incorrectFeedbackRu: "Представьте подводное спасение! **Past continuous показывает продолжающееся совершенствование исследований.** Биолог не просто работала изредка - она непрерывно совершенствовала методы восстановления, когда ее настойчивость спасла целый риф от экологической катастрофы. Это наука, которая спасает океаническую жизнь!"
+            incorrectFeedback: "Think about the ongoing research! **Past continuous shows the process being perfected.** The biologist was in the middle of her work when the breakthrough occurred. It emphasizes the dedication before the success.",
+            incorrectFeedbackRu: "Подумайте о продолжающемся исследовании! **Past continuous показывает процесс совершенствования.** Биолог была в середине своей работы, когда произошел прорыв. Это подчеркивает самоотверженность перед успехом."
         },
         {
             question: "Fill in the gap with the appropriate past continuous form:",
@@ -3045,8 +3045,8 @@ window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page2'
             correctAnswer: "The software engineer was debugging complex code while hackers attempted to breach the system.",
             correctFeedback: "Tech heroism! 'The software engineer was debugging complex code while hackers attempted to breach the system.' shows cybersecurity protection in action!",
             correctFeedbackRu: "Технологический героизм! 'The software engineer was debugging complex code while hackers attempted to breach the system.' показывает защиту кибербезопасности в действии!",
-            incorrectFeedback: "Almost there! Remember: Subject + was + verb+ing + adjective + object + while + subject + past simple + infinitive phrase.",
-            incorrectFeedbackRu: "Почти правильно! Помните: Подлежащее + was + глагол+ing + прилагательное + дополнение + while + подлежащее + past simple + инфинитивная фраза."
+            incorrectFeedback: "Almost there! Structure: Article + adjective + subject + was + verb+ing + adjective + object + while + subject + past simple + infinitive + article + object.",
+            incorrectFeedbackRu: "Почти правильно! Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + while + подлежащее + past simple + инфинитив + артикль + дополнение."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3055,8 +3055,8 @@ window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page2'
             correctAnswer: "The investment banker was monitoring global markets when Asian trading opened with volatility.",
             correctFeedback: "Financial vigilance! 'The investment banker was monitoring global markets when Asian trading opened with volatility.' captures the intensity of global finance!",
             correctFeedbackRu: "Финансовая бдительность! 'The investment banker was monitoring global markets when Asian trading opened with volatility.' передает интенсивность глобальных финансов!",
-            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + adjective + subject + past simple + preposition phrase.",
-            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + прилагательное + подлежащее + past simple + предложная фраза."
+            incorrectFeedback: "Try again. Structure: Article + adjective + subject + was + verb+ing + adjective + object + when + adjective + subject + past simple + preposition + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + when + прилагательное + подлежащее + past simple + предлог + дополнение."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3133,8 +3133,8 @@ window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page3'
             correctAnswer: "While the indie filmmaker was editing her documentary, it was selected for the international festival.",
             correctFeedback: "Cinematic triumph! 'While the indie filmmaker was editing her documentary, it was selected for the international festival.' celebrates independent cinema success!",
             correctFeedbackRu: "Кинематографический триумф! 'While the indie filmmaker was editing her documentary, it was selected for the international festival.' празднует успех независимого кино!",
-            incorrectFeedback: "Not quite right. Remember: While + subject + was + verb+ing + possessive + object, + subject + was + past participle + preposition + article + adjective + object.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: While + подлежащее + was + глагол+ing + притяжательное + дополнение, + подлежащее + was + причастие прошедшего времени + предлог + артикль + прилагательное + дополнение."
+            incorrectFeedback: "Almost there! Structure: While + article + adjective + subject + was + verb+ing + possessive + object, + subject + was + past participle + preposition + article + adjective + object.",
+            incorrectFeedbackRu: "Почти правильно! Структура: While + артикль + прилагательное + подлежащее + was + глагол+ing + притяжательное + дополнение, + подлежащее + was + причастие прошедшего времени + предлог + артикль + прилагательное + дополнение."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3974,10 +3974,10 @@ window.grammarExercises['past-tenses']['past-continuous-advanced-sentence-page10
             questionRu: "Составьте правильное предложение, используя эти слова:",
             words: ["The", "humanitarian", "innovator", "was", "implementing", "poverty", "solutions", "in", "developing", "regions", "when", "her", "model", "lifted", "one", "billion", "people", "out", "of", "extreme", "poverty."],
             correctAnswer: "The humanitarian innovator was implementing poverty solutions in developing regions when her model lifted one billion people out of extreme poverty.",
-            correctFeedback: "Poverty elimination! 'The humanitarian innovator was implementing poverty solutions in developing regions when her model lifted one billion people out of extreme poverty.' celebrates compassion achieving the impossible - ending poverty for one billion souls!",
-            correctFeedbackRu: "Ликвидация бедности! 'The humanitarian innovator was implementing poverty solutions in developing regions when her model lifted one billion people out of extreme poverty.' празднует сострадание, достигающее невозможного - завершение бедности для одного миллиарда душ!",
-            incorrectFeedback: "Not quite right. Remember: Article + adjective + subject + was + verb+ing + adjective + object + preposition + adjective + object + when + possessive + subject + past simple + number + number + object + preposition + preposition + adjective + object.",
-            incorrectFeedbackRu: "Не совсем правильно. Помните: Артикль + прилагательное + подлежащее + was + глагол+ing + прилагательное + дополнение + предлог + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + число + число + дополнение + предлог + предлог + прилагательное + дополнение."
+            correctFeedback: "Poverty elimination! 'The humanitarian innovator was implementing poverty solutions in developing regions when her model lifted one billion people out of extreme poverty.' celebrates compassion achieving the impossible!",
+            correctFeedbackRu: "Ликвидация бедности! 'The humanitarian innovator was implementing poverty solutions in developing regions when her model lifted one billion people out of extreme poverty.' празднует сострадание, достигающее невозможного!",
+            incorrectFeedback: "Try again! Structure: Article + adjective + subject + was + verb+ing + noun + object + preposition + adjective + object + when + possessive + subject + past simple + number + number + object + preposition + preposition + adjective + object.",
+            incorrectFeedbackRu: "Попробуйте снова! Структура: Артикль + прилагательное + подлежащее + was + глагол+ing + сущ. + дополнение + предлог + прилагательное + дополнение + when + притяжательное + подлежащее + past simple + числительное + числительное + дополнение + предлог + предлог + прилагательное + дополнение."
         }
     ]
 };

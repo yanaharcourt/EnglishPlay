@@ -233,7 +233,7 @@ window.grammarExercises['conditionals']['third-conditional-page2'] = {
             correctFeedbackRu: "Отлично! Past perfect 'had overcome' + conditional perfect 'would have gotten' выражает, как преодоление прошлых личных ограничений привело бы к карьерному росту.",
             incorrectFeedback: "Use past perfect for overcoming personal challenges and conditional perfect for the career opportunities that would have resulted in third conditional structure.",
             incorrectFeedbackRu: "Используйте past perfect для преодоления личных вызовов и conditional perfect для карьерных возможностей, которые получились бы в структуре третьего условного."
-        },
+        }, 
         {
             question: "Choose the third conditional about environmental impact:",
             questionRu: "Выберите третье условное предложение о воздействии на окружающую среду:",

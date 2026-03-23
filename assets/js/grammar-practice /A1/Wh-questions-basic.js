@@ -539,7 +539,7 @@ window.grammarExercises['questions']['wh-questions-basic-page4'] = {
         {
             question: "Choose the correct question word:",
             questionRu: "Выберите правильное вопросительное слово:",
-            sentence: "_____ do you brush your teeth?",
+            sentence: "_____ do you wash your face?",
             options: [
                 "What",
                 "Where",
@@ -547,8 +547,8 @@ window.grammarExercises['questions']['wh-questions-basic-page4'] = {
                 "When"
             ],
             correctAnswer: 1,
-            correctFeedback: "Correct! 'Where do you brush your teeth?' asks about location.",
-            correctFeedbackRu: "Правильно! 'Where do you brush your teeth?' спрашивает о местоположении.",
+            correctFeedback: "Correct! 'Where do you wash your face?' asks about location.",
+            correctFeedbackRu: "Правильно! 'Where do you wash your face?' спрашивает о местоположении.",
             incorrectFeedback: "Incorrect. Use 'Where' to ask about location.",
             incorrectFeedbackRu: "Неправильно. Используйте 'Where' чтобы спросить о местоположении."
         },
@@ -957,7 +957,7 @@ window.grammarExercises['questions']['wh-questions-basic-page6'] = {
         {
             question: "Choose the correct question word:",
             questionRu: "Выберите правильное вопросительное слово:",
-            sentence: "_____ do you listen to music?",
+            sentence: "_____ do you usually read books?",
             options: [
                 "What",
                 "Where",
@@ -965,8 +965,8 @@ window.grammarExercises['questions']['wh-questions-basic-page6'] = {
                 "When"
             ],
             correctAnswer: 1,
-            correctFeedback: "Correct! 'Where do you listen to music?' asks about location.",
-            correctFeedbackRu: "Правильно! 'Where do you listen to music?' спрашивает о местоположении.",
+            correctFeedback: "Correct! 'Where do you usually read books?' asks about location.",
+            correctFeedbackRu: "Правильно! 'Where do you usually read books?' спрашивает о местоположении.",
             incorrectFeedback: "Incorrect. Use 'Where' to ask about location.",
             incorrectFeedbackRu: "Неправильно. Используйте 'Where' чтобы спросить о местоположении."
         },
@@ -2077,11 +2077,11 @@ window.grammarExercises['questions']['wh-questions-basic-gap-page4'] = {
         {
             question: "Complete the sentence with the correct question word:",
             questionRu: "Заполните предложение правильным вопросительным словом:",
-            sentence: "____ do you wash your hands?",
+            sentence: "____ do you eat breakfast?",
             correctAnswer: "Where",
             options: ["What", "Where", "Who", "When"],
-            correctFeedback: "Excellent! 'Where' is used to ask about location of activities.",
-            correctFeedbackRu: "Отлично! 'Where' используется, чтобы спросить о месте деятельности.",
+            correctFeedback: "Excellent! 'Where do you eat breakfast?' asks about location.",
+            correctFeedbackRu: "Отлично! 'Where do you eat breakfast?' спрашивает о местоположении.",
             incorrectFeedback: "Try again. Use 'Where' to ask about location.",
             incorrectFeedbackRu: "Попробуйте снова. Используйте 'Where' чтобы спросить о местоположении."
         },
@@ -2273,13 +2273,13 @@ window.grammarExercises['questions']['wh-questions-basic-gap-page5'] = {
         {
             question: "Complete the sentence with the correct question word:",
             questionRu: "Заполните предложение правильным вопросительным словом:",
-            sentence: "____ do you address your grandmother?",
+            sentence: "____ do you get along with your siblings?",
             correctAnswer: "How",
             options: ["What", "Where", "Who", "How"],
-            correctFeedback: "Excellent! 'How' is used to ask about way of addressing people.",
-            correctFeedbackRu: "Отлично! 'How' используется, чтобы спросить о способе обращения к людям.",
-            incorrectFeedback: "Try again. Use 'How' to ask about method.",
-            incorrectFeedbackRu: "Попробуйте снова. Используйте 'How' чтобы спросить о способе."
+            correctFeedback: "Excellent! 'How do you get along with your siblings?' asks about the quality of relationships.",
+            correctFeedbackRu: "Отлично! 'How do you get along with your siblings?' спрашивает о качестве отношений.",
+            incorrectFeedback: "Try again. Use 'How' to ask about the way or quality of something.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'How' чтобы спросить о способе или качестве чего-либо."
         },
         {
             question: "Complete the sentence with the correct question word:",
@@ -2348,11 +2348,11 @@ window.grammarExercises['questions']['wh-questions-basic-gap-page6'] = {
         {
             question: "Complete the sentence with the correct question word:",
             questionRu: "Заполните предложение правильным вопросительным словом:",
-            sentence: "____ do you prefer to paint?",
+            sentence: "____ do you go to the gym?",
             correctAnswer: "When",
             options: ["What", "Where", "Who", "When"],
-            correctFeedback: "Excellent! 'When' is used to ask about time of creative activities.",
-            correctFeedbackRu: "Отлично! 'When' используется, чтобы спросить о времени творческой деятельности.",
+            correctFeedback: "Excellent! 'When do you go to the gym?' asks about time.",
+            correctFeedbackRu: "Отлично! 'When do you go to the gym?' спрашивает о времени.",
             incorrectFeedback: "Try again. Use 'When' to ask about time.",
             incorrectFeedbackRu: "Попробуйте снова. Используйте 'When' чтобы спросить о времени."
         },

@@ -3116,7 +3116,7 @@ window.grammarExercises['future-tenses']['future-going-to-sentence-page3'] = {
         {
             question: "Form a question about weekend plans:",
             questionRu: "Сформируйте вопрос о планах на выходные:",
-            words: ["Are", "you", "going", "to", "visit", "your", "grandmother", "?"],
+            words: ["Are", "you", "going", "to", "visit", "your", "grandmother?"],
             correctAnswer: "Are you going to visit your grandmother?",
             correctFeedback: "Perfect! 'Are you going to visit your grandmother?' is a correct question form.",
             correctFeedbackRu: "Отлично! 'Are you going to visit your grandmother?' - правильная вопросительная форма.",
@@ -3126,7 +3126,7 @@ window.grammarExercises['future-tenses']['future-going-to-sentence-page3'] = {
         {
             question: "Build a question about studying abroad:",
             questionRu: "Постройте вопрос об обучении за границей:",
-            words: ["Is", "she", "going", "to", "study", "abroad", "next", "year", "?"],
+            words: ["Is", "she", "going", "to", "study", "abroad", "next", "year?"],
             correctAnswer: "Is she going to study abroad next year?",
             correctFeedback: "Excellent! 'Is she going to study abroad next year?' asks about future education.",
             correctFeedbackRu: "Отлично! 'Is she going to study abroad next year?' спрашивает о будущем образовании.",
@@ -3156,7 +3156,7 @@ window.grammarExercises['future-tenses']['future-going-to-sentence-page3'] = {
         {
             question: "Form a question about group plans:",
             questionRu: "Сформируйте вопрос о групповых планах:",
-            words: ["Are", "we", "going", "to", "have", "dinner", "together", "?"],
+            words: ["Are", "we", "going", "to", "have", "dinner", "together?"],
             correctAnswer: "Are we going to have dinner together?",
             correctFeedback: "Correct! 'Are we going to have dinner together?' asks about group activity.",
             correctFeedbackRu: "Правильно! 'Are we going to have dinner together?' спрашивает о групповом действии.",
@@ -3176,7 +3176,7 @@ window.grammarExercises['future-tenses']['future-going-to-sentence-page3'] = {
         {
             question: "Create a question about family plans:",
             questionRu: "Создайте вопрос о семейных планах:",
-            words: ["Are", "your", "parents", "going", "to", "move", "house", "?"],
+            words: ["Are", "your", "parents", "going", "to", "move", "house?"],
             correctAnswer: "Are your parents going to move house?",
             correctFeedback: "Great! 'Are your parents going to move house?' asks about family decisions.",
             correctFeedbackRu: "Отлично! 'Are your parents going to move house?' спрашивает о семейных решениях.",
@@ -3196,7 +3196,7 @@ window.grammarExercises['future-tenses']['future-going-to-sentence-page3'] = {
         {
             question: "Form a weather question:",
             questionRu: "Сформируйте вопрос о погоде:",
-            words: ["Is", "it", "going", "to", "snow", "this", "winter", "?"],
+            words: ["Is", "it", "going", "to", "snow", "this", "winter?"],
             correctAnswer: "Is it going to snow this winter?",
             correctFeedback: "Correct! 'Is it going to snow this winter?' asks about weather prediction.",
             correctFeedbackRu: "Правильно! 'Is it going to snow this winter?' спрашивает о прогнозе погоды.",

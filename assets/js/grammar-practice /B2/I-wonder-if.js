@@ -27,7 +27,7 @@ window.grammarExercises['questions']['i-wonder-if-page1'] = {
             correctFeedback: "Perfect! 'I wonder if you could' is more polite and formal than 'can'.",
             correctFeedbackRu: "Отлично! 'I wonder if you could' звучит более вежливо и формально, чем 'can'.",
             incorrectFeedback: "Good thinking! 'Could' makes it sound more polite and respectful. When we use 'I wonder if you could', we're being **extra considerate** about asking for help. 'Can' is more direct, 'will' sounds like we expect them to do it, and 'would' doesn't fit the grammar pattern here.",
-            incorrectFeedbackRu: "Хорошая идея! 'Could' делает это более вежливым и уважительным. Когда мы используем 'I wonder if you could', мы проявляем **особую деликатность** при просьбе о помощи. 'Can' звучит более прямо, 'will' как будто мы ожидаем, что они это сделают, а 'would' не подходит к этой грамматической конструкции."
+            incorrectFeedbackRu: "Хорошая идея! 'Could' делает просьбу более вежливой. Когда мы используем 'I wonder if you could', мы проявляем **особую деликатность**. 'Can' звучит более прямо, 'will' — будто мы ожидаем выполнения, а 'would' не подходит к этой грамматической конструкции."
         },
         {
             question: "Select the correct option:",
@@ -122,8 +122,8 @@ window.grammarExercises['questions']['i-wonder-if-page1'] = {
             correctAnswer: 0,
             correctFeedback: "Perfect! 'Would mind' is an extremely polite way to make requests.",
             correctFeedbackRu: "Отлично! 'Would mind' - это очень вежливый способ попросить о чем-то.",
-            incorrectFeedback: "You're close! 'Would mind' is the most polite option here. It's a **super courteous** way to ask someone to do something. 'Will mind' sounds awkward, 'can' is more direct, and 'could' doesn't work with 'mind' in this pattern.",
-            incorrectFeedbackRu: "Вы близки! 'Would mind' - самый вежливый вариант здесь. Это **очень учтивый** способ попросить кого-то что-то сделать. 'Will mind' звучит неловко, 'can' более прямо, а 'could' не работает с 'mind' в этом шаблоне."
+            incorrectFeedback: "You're close! 'Would mind' is the only correct and most polite option here. It is a standard construction for requests. 'Will mind' is grammatically incorrect here, and 'can' or 'could' do not follow the 'mind + -ing' pattern in this context.",
+            incorrectFeedbackRu: "Вы близки! 'Would mind' — единственный правильный и самый вежливый вариант здесь. Это стандартная конструкция для просьб. 'Will mind' здесь грамматически неверно, а 'can' или 'could' не сочетаются с 'mind + -ing' в данном контексте."
         },
         {
             question: "Select the correct option:",
@@ -2038,9 +2038,9 @@ window.grammarExercises['questions']['i-wonder-if-gap-page3'] = {
             correctAnswer: "could",
             options: ["could", "can", "should", "must"],
             correctFeedback: "Great! 'Could spare' is more polite and respectful when asking for someone's time.",
-            correctFeedbackRu: "Отлично! 'Could spare' более вежливо и уважительно при просьбе о чьем-то времени.",
+            correctFeedbackRu: "Отлично! 'Could spare' — это вежливая и уважительная форма просьбы, когда вы отвлекаете человека от дел.",
             incorrectFeedback: "Try again. Use 'could' to make polite requests for someone's valuable time.",
-            incorrectFeedbackRu: "Попробуйте снова. Используйте 'could' для вежливых просьб о чьем-то ценном времени."
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'could' для вежливых просьб, когда обращаетесь к кому-то за помощью."
         },
         {
             question: "Fill in the blank with the correct verb:",
@@ -2523,11 +2523,11 @@ window.grammarExercises['questions']['i-wonder-if-gap-page7'] = {
             questionRu: "Заполните пропуск правильной комбинацией глаголов:",
             sentence: "I wonder if they ____ working on improving the user interface.",
             correctAnswer: "are still",
-            options: ["are still", "were still", "will still", "would still"],
+            options: ["are still", "were still", "will still be", "would still be"],
             correctFeedback: "Excellent! 'Are still working' shows ongoing present continuous development activities.",
             correctFeedbackRu: "Отлично! 'Are still working' показывает продолжающиеся деятельности разработки в настоящем длительном времени.",
             incorrectFeedback: "Try again. Use 'are still' to wonder about ongoing development work happening now.",
-            incorrectFeedbackRu: "Попробуйте снова. Используйте 'are still' для размышлений о продолжающейся работе разработки, происходящей сейчас."
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'are still' для размышлений о продолжающейся разработке, происходящей сейчас."
         }
     ]
 };
@@ -2943,7 +2943,7 @@ window.grammarExercises['questions']['i-wonder-if-sentence-page1'] = {
             questionRu: "Составьте правильное предложение, используя эти слова:",
             words: ["I", "wonder", "if", "we", "should", "book", "a", "table", "for", "dinner."],
             correctAnswer: "I wonder if we should book a table for dinner.",
-            correctFeedback: "Excellent! 'I wonder if we should book a table for dinner.' is correct. Great suggestion with 'should'!",
+            correctFeedback: "Perfect! 'I wonder if we should book a table for dinner.' is correct. Great suggestion with 'should'!",
             correctFeedbackRu: "Отлично! 'I wonder if we should book a table for dinner.' верно. Отличное предложение с 'should'!",
             incorrectFeedback: "Try again. Remember: I wonder if + we + should + verb + object + prepositional phrase.",
             incorrectFeedbackRu: "Попробуйте снова. Помните: I wonder if + we + should + глагол + дополнение + предложная фраза."
@@ -3238,10 +3238,10 @@ window.grammarExercises['questions']['i-wonder-if-sentence-page4'] = {
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["I", "wonder", "if", "we", "need", "to", "submit", "the", "report", "today."],
-            correctAnswer: "I wonder if we need to submit the report today.",
-            correctFeedback: "Excellent! 'I wonder if we need to submit the report today.' is correct. Great use of 'need to' for requirements!",
-            correctFeedbackRu: "Отлично! 'I wonder if we need to submit the report today.' верно. Отличное использование 'need to' для требований!",
+            words: ["I", "wonder", "if", "we", "need", "to", "submit", "the", "report", "by", "Friday."],
+            correctAnswer: "I wonder if we need to submit the report by Friday.",
+            correctFeedback: "Perfect! 'I wonder if we need to submit the report by Friday.' is correct. Great use of 'need to' for requirements!",
+            correctFeedbackRu: "Отлично! 'I wonder if we need to submit the report by Friday.' верно. Отличное использование 'need to' для требований!",
             incorrectFeedback: "Try again. Remember: I wonder if + we + need to + verb + object + time expression.",
             incorrectFeedbackRu: "Попробуйте снова. Помните: I wonder if + we + need to + глагол + дополнение + выражение времени."
         },
@@ -3410,7 +3410,7 @@ window.grammarExercises['questions']['i-wonder-if-sentence-page5'] = {
             words: ["I", "wonder", "if", "he", "has", "been", "dating", "someone", "new", "lately."],
             correctAnswer: "I wonder if he has been dating someone new lately.",
             correctFeedback: "Excellent! 'I wonder if he has been dating someone new lately.' is correct. Perfect present perfect continuous for recent activities!",
-            correctFeedbackRu: "Отлично! 'I wonder if he has been dating someone new lately.' верно. Идеальное настоящее совершенное длительное время для недавних действий!",
+            correctFeedbackRu: "Отлично! 'I wonder if he has been dating someone new lately.' верно. Идеальное настоящее совершенное длительное время для недавних событий!",
             incorrectFeedback: "Try again. Remember: I wonder if + he + has been + verb-ing + object + time expression.",
             incorrectFeedbackRu: "Попробуйте снова. Помните: I wonder if + he + has been + глагол-ing + дополнение + выражение времени."
         },
@@ -3964,8 +3964,8 @@ window.grammarExercises['questions']['i-wonder-if-sentence-page10'] = {
             questionRu: "Составьте правильное предложение, используя эти слова:",
             words: ["I", "wonder", "if", "changing", "careers", "might", "be", "too", "risky", "now."],
             correctAnswer: "I wonder if changing careers might be too risky now.",
-            correctFeedback: "Perfect! 'I wonder if changing careers might be too risky now.' is correct. Excellent uncertainty about career decisions!",
-            correctFeedbackRu: "Отлично! 'I wonder if changing careers might be too risky now.' верно. Превосходная неуверенность относительно карьерных решений!",
+            correctFeedback: "Great! 'I wonder if changing careers might be too risky now.' is correct. Perfect expression of uncertainty regarding career moves!",
+            correctFeedbackRu: "Отлично! 'I wonder if changing careers might be too risky now.' верно. Правильное выражение неуверенности относительно смены карьеры!",
             incorrectFeedback: "Try again. Remember: I wonder if + changing careers + might be + adverb + adjective + time expression.",
             incorrectFeedbackRu: "Попробуйте снова. Помните: I wonder if + changing careers + might be + наречие + прилагательное + выражение времени."
         },

@@ -417,20 +417,20 @@ window.grammarExercises['adjectives']['gradable-vs-non-gradable-adjectives-page3
             incorrectFeedbackRu: "Почти правильно! **'Dangerous' градуируемое** - у него есть степени риска. Шкала безопасности: безопасный → рискованный → опасный → очень опасный → крайне опасный → смертельный (absolutely deadly). Используйте градуируемые усилители с 'dangerous'."
         },
         {
-            question: "Choose the correct intensifier:",
+            question: "Select the correct intensifier:",
             questionRu: "Выберите правильный усилитель:",
             sentence: "The information provided was _____ accurate and helpful.",
             options: [
-                "completely",
                 "very",
+                "completely",
                 "quite",
                 "really"
             ],
             correctAnswer: 0,
-            correctFeedback: "Excellent! 'Completely' is correct because 'accurate' is a non-gradable adjective. Information is either accurate (correct) or inaccurate (incorrect) - there are no degrees of accuracy.",
-            correctFeedbackRu: "Превосходно! 'Completely' правильно, потому что 'accurate' - неградуируемое прилагательное. Информация либо точная (правильная), либо неточная (неправильная) - нет степеней точности.",
-            incorrectFeedback: "Think again! **'Accurate' is non-gradable** - it means exactly correct. Information cannot be 'very accurate' because accurate means 100% correct. Use 'completely', 'totally', or 'absolutely' with precision adjectives like accurate, exact, precise.",
-            incorrectFeedbackRu: "Подумайте ещё раз! **'Accurate' неградуируемое** - оно означает точно правильно. Информация не может быть 'очень точной', потому что accurate означает 100% правильно. Используйте 'completely', 'totally' или 'absolutely' с прилагательными точности как accurate, exact, precise."
+            correctFeedback: "Perfect! 'Very' is correct because 'accurate' is a gradable adjective. We can have slightly accurate, quite accurate, very accurate, extremely accurate levels of precision.",
+            correctFeedbackRu: "Отлично! 'Very' правильно, потому что 'accurate' — градуируемое прилагательное. У нас могут быть слегка точные, довольно точные, очень точные, чрезвычайно точные уровни точности.",
+            incorrectFeedback: "Not quite! **'Accurate' is gradable** — it has degrees of precision. The scale goes: inaccurate → slightly accurate → quite accurate → very accurate → extremely accurate. Use gradable intensifiers like 'very', 'quite', 'really' with 'accurate'.",
+            incorrectFeedbackRu: "Не совсем! **'Accurate' градуируемое** — у него есть степени точности. Шкала: неточный → слегка точный → довольно точный → очень точный → чрезвычайно точный. Используйте градуируемые усилители как 'very', 'quite', 'really' с 'accurate'."
         },
         {
             question: "Select the correct intensifier:",
@@ -564,10 +564,10 @@ window.grammarExercises['adjectives']['gradable-vs-non-gradable-adjectives-page4
                 "totally"
             ],
             correctAnswer: 0,
-            correctFeedback: "Great! 'So' is correct because we use 'so + adjective + that' structure, and 'amazing' is non-gradable but 'so' works with both gradable and non-gradable adjectives in this pattern.",
-            correctFeedbackRu: "Отлично! 'So' правильно, потому что мы используем структуру 'so + прилагательное + that', и 'amazing' неградуируемое, но 'so' работает с обоими типами прилагательных в этой структуре.",
-            incorrectFeedback: "Incorrect. Use 'so' in the pattern 'so + adjective + that'. 'Amazing' means extremely good, and while it's non-gradable, 'so' is the only option that creates the correct 'so...that' structure.",
-            incorrectFeedbackRu: "Неправильно. Используйте 'so' в структуре 'so + прилагательное + that'. 'Amazing' означает чрезвычайно хорошо, и хотя оно неградуируемое, 'so' - единственный вариант, который создаёт правильную структуру 'so...that'."
+            correctFeedback: "Great! 'So' is correct because this sentence uses the 'so + adjective + that' structure to show cause and result: 'It was SO amazing THAT everyone applauded.' 'So' works with both gradable and non-gradable adjectives in this pattern.",
+            correctFeedbackRu: "Отлично! 'So' правильно, потому что в этом предложении используется структура 'so + прилагательное + that' для выражения причины и результата: 'It was SO amazing THAT everyone applauded.' 'So' работает с обоими типами прилагательных в этой структуре.",
+            incorrectFeedback: "Not quite! This sentence requires the structure **'so + adjective + that'** to express cause and result: 'It was SO amazing THAT everyone applauded.' Words like 'absolutely', 'completely', and 'totally' are simple intensifiers — they don't create the cause-and-result link that the word 'that' requires in this sentence.",
+            incorrectFeedbackRu: "Не совсем! В этом предложении нужна структура **'so + прилагательное + that'** для выражения причины и результата: 'It was SO amazing THAT everyone applauded.' Слова 'absolutely', 'completely' и 'totally' — простые усилители, они не создают связь причины и результата, которую требует слово 'that' в этом предложении."
         },
         {
             question: "Select the correct intensifier:",
@@ -1841,12 +1841,12 @@ window.grammarExercises['adjectives']['gradable-vs-non-gradable-adjectives-gap-p
             question: "Complete the sentence with the correct intensifier:",
             questionRu: "Заполните предложение правильным усилителем:",
             sentence: "The apartment feels ____ spacious after the renovation.",
-            correctAnswer: "much",
-            options: ["much", "absolutely", "completely", "totally"],
-            correctFeedback: "Excellent! 'Much' is correct because 'spacious' is a gradable adjective, and 'much' shows comparative degree.",
-            correctFeedbackRu: "Превосходно! 'Much' правильно, потому что 'spacious' - градуируемое прилагательное, а 'much' показывает сравнительную степень.",
-            incorrectFeedback: "Not correct. Use 'much' because 'spacious' is gradable and 'much' is the only gradable intensifier here.",
-            incorrectFeedbackRu: "Неправильно. Используйте 'much', потому что 'spacious' градуируемое, а 'much' - единственный градуируемый усилитель здесь."
+            correctAnswer: "quite",
+            options: ["quite", "absolutely", "completely", "totally"],
+            correctFeedback: "Perfect! 'Quite' is correct because 'spacious' is a gradable adjective with different degrees of space. We can say cramped, spacious, quite spacious, very spacious.",
+            correctFeedbackRu: "Отлично! 'Quite' правильно, потому что 'spacious' — градуируемое прилагательное с разными степенями пространства. Можно сказать тесный, просторный, довольно просторный, очень просторный.",
+            incorrectFeedback: "Try again. Use 'quite' because 'spacious' is gradable — it has degrees like cramped, spacious, quite spacious, very spacious. 'Absolutely', 'completely' and 'totally' are used only with non-gradable adjectives.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'quite', потому что 'spacious' градуируемое — у него есть степени: тесный, просторный, довольно просторный, очень просторный. 'Absolutely', 'completely' и 'totally' используются только с неградуируемыми прилагательными."
         },
         {
             question: "Complete the sentence with the correct intensifier:",
@@ -2081,10 +2081,10 @@ window.grammarExercises['adjectives']['gradable-vs-non-gradable-adjectives-gap-p
             sentence: "My grandmother feels ____ happy about her surprise birthday party.",
             correctAnswer: "really",
             options: ["really", "absolutely", "completely", "totally"],
-            correctFeedback: "Perfect! 'Really' is correct because 'happy' is a gradable adjective with different degrees of happiness.",
-            correctFeedbackRu: "Отлично! 'Really' правильно, потому что 'happy' - градуируемое прилагательное с разными степенями счастья.",
-            incorrectFeedback: "Not correct. Use 'really' because 'happy' is gradable - it has degrees like sad, happy, really happy, very happy.",
-            incorrectFeedbackRu: "Неправильно. Используйте 'really', потому что 'happy' градуируемое - у него есть степени как грустный, счастливый, действительно счастливый, очень счастливый."
+            correctFeedback: "Perfect! 'Really' is correct because 'happy' is a gradable adjective with different degrees of happiness. We can say sad, okay, happy, really happy, very happy, extremely happy.",
+            correctFeedbackRu: "Отлично! 'Really' правильно, потому что 'happy' — градуируемое прилагательное с разными степенями счастья. Можно сказать грустный, нормально, счастливый, действительно счастливый, очень счастливый, чрезвычайно счастливый.",
+            incorrectFeedback: "Try again. Use 'really' because 'happy' is gradable — it has degrees. Scale: sad → unhappy → okay → happy → really happy → extremely happy → ecstatic (absolutely ecstatic). 'Absolutely', 'completely' and 'totally' are used only with non-gradable adjectives.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'really', потому что 'happy' градуируемое — у него есть степени. Шкала: грустный → несчастный → нормально → счастливый → действительно счастливый → чрезвычайно счастливый → в экстазе (absolutely ecstatic). 'Absolutely', 'completely' и 'totally' используются только с неградуируемыми прилагательными."
         },
         {
             question: "Complete the sentence with the correct intensifier:",
@@ -3785,12 +3785,12 @@ window.grammarExercises['adjectives']['gradable-vs-non-gradable-adjectives-sente
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "office", "environment", "feels", "much", "more", "comfortable", "after", "the", "renovation."],
-            correctAnswer: "The office environment feels much more comfortable after the renovation.",
-            correctFeedback: "Excellent! 'The office environment feels much more comfortable after the renovation.' is correct. Perfect use of 'much more' with the gradable adjective 'comfortable'!",
-            correctFeedbackRu: "Превосходно! 'The office environment feels much more comfortable after the renovation.' верно. Идеальное использование 'much more' с градуируемым прилагательным 'comfortable'!",
-            incorrectFeedback: "Try again. Remember: Use 'much more' with gradable adjectives in comparative contexts.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: используйте 'much more' с градуируемыми прилагательными в сравнительном контексте."
+            words: ["The", "office", "environment", "feels", "very", "comfortable", "after", "the", "renovation."],
+            correctAnswer: "The office environment feels very comfortable after the renovation.",
+            correctFeedback: "Excellent! 'The office environment feels very comfortable after the renovation.' is correct. Perfect use of 'very' with the gradable adjective 'comfortable'!",
+            correctFeedbackRu: "Превосходно! 'The office environment feels very comfortable after the renovation.' верно. Идеальное использование 'very' с градуируемым прилагательным 'comfortable'!",
+            incorrectFeedback: "Try again. Remember: 'Comfortable' is gradable — it has degrees like uncomfortable, comfortable, very comfortable, extremely comfortable. Build the sentence with 'very' before 'comfortable'.",
+            incorrectFeedbackRu: "Попробуйте снова. Помните: 'Comfortable' градуируемое — у него есть степени: некомфортный, комфортный, очень комфортный, чрезвычайно комфортный. Составьте предложение с 'very' перед 'comfortable'."
         },
         {
             question: "Form a correct sentence using these words:",

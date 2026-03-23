@@ -1800,10 +1800,10 @@ window.grammarExercises['modals']['must-cant-present-deduction-gap-page1'] = {
             sentence: "Sarah just graduated from university last week and is already working as a senior surgeon. This story ____ be true.",
             correctAnswer: "can't",
             options: ["must", "can't", "might", "should"],
-            correctFeedback: "Brilliant! 'Can't' is correct because becoming a senior surgeon requires many years of training after graduation.",
-            correctFeedbackRu: "Блестяще! 'Can't' правильно, потому что стать старшим хирургом требует многих лет обучения после выпуска.",
-            incorrectFeedback: "Consider medical training! Senior surgeon positions require years of specialization after graduation. Use 'can't' for logical impossibility.",
-            incorrectFeedbackRu: "Рассмотрите медицинское обучение! Должности старших хирургов требуют лет специализации после выпуска. Используйте 'can't' для логической невозможности."
+            correctFeedback: "Excellent! 'Can't' is correct because becoming a senior surgeon in one week is logically impossible.",
+            correctFeedbackRu: "Отлично! 'Can't' правильно, потому что стать ведущим хирургом за одну неделю логически невозможно.",
+            incorrectFeedback: "Think logically! Medical career progression takes years. Graduation last week makes senior status today impossible. Use 'can't' for logical impossibility.",
+            incorrectFeedbackRu: "Подумайте логически! Продвижение по медицинской карьере занимает годы. Выпуск на прошлой неделе делает статус ведущего хирурга сегодня невозможным. Используйте 'can't' для логической невозможности."
         },
         {
             question: "Complete the sentence with 'must' or 'can't':",
@@ -2726,13 +2726,13 @@ window.grammarExercises['modals']['must-cant-present-deduction-gap-page9'] = {
         {
             question: "Complete the sentence with 'must' or 'can't':",
             questionRu: "Заполните предложение словом 'must' или 'can't':",
-            sentence: "The vocational training center claims 100% job placement rates, but investigation reveals that 90% of graduates remain unemployed six months later. Their success claims ____ be accurate.",
+            sentence: "The vocational school claims a 100% job placement rate, yet 90% of their graduates are currently unemployed. Their claims ____ be accurate.",
             correctAnswer: "can't",
             options: ["must", "can't", "might", "should"],
-            correctFeedback: "Brilliant! 'Can't' is correct because 90% unemployment contradicts claims of 100% job placement, proving the claims are inaccurate.",
-            correctFeedbackRu: "Блестяще! 'Can't' правильно, потому что 90% безработица противоречит заявлениям о 100% трудоустройстве, доказывая, что заявления неточны.",
-            incorrectFeedback: "Identify false claims! Ninety percent unemployment rate contradicts 100% job placement claims, proving inaccurate success reporting. Use 'can't' for logical impossibility.",
-            incorrectFeedbackRu: "Определите ложные заявления! Девяносто процентов безработицы противоречит заявлениям о 100% трудоустройстве, доказывая неточную отчётность об успехе. Используйте 'can't' для логической невозможности."
+            correctFeedback: "Brilliant! 'Can't' is correct because 90% unemployment directly contradicts claims of 100% placement.",
+            correctFeedbackRu: "Блестяще! 'Can't' правильно, потому что 90% безработицы напрямую противоречит заявлениям о 100% трудоустройстве.",
+            incorrectFeedback: "Identify false claims! Ninety percent unemployment contradicts 100% placement claims, proving inaccurate success reporting. Use 'can't' for logical impossibility.",
+            incorrectFeedbackRu: "Определите ложные заявления! Девяносто процентов безработицы противоречит заявлениям о 100% трудоустройстве, доказывая недостоверность отчётов об успехе. Используйте 'can't' для логической невозможности."
         },
         {
             question: "Complete the sentence with 'must' or 'can't':",
@@ -3640,7 +3640,7 @@ window.grammarExercises['modals']['must-cant-present-deduction-sentence-page7'] 
             correctFeedback: "Perfect! 'Her negotiation skills must be exceptional' shows logical certainty based on succeeding where others failed for decades.",
             correctFeedbackRu: "Отлично! 'Her negotiation skills must be exceptional' показывает логическую уверенность на основе успеха там, где другие терпели неудачу десятилетиями.",
             incorrectFeedback: "Try again. Remember: Subject + must + be + adjective. Use conflict resolution success as negotiation skill evidence.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + must + be + прилагательное. Используйте успех в разрешении конфликтов как доказательство переговорных навыков."
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + must + be + прилагательное. Используйте успех в разрешении конфликтов как доказательство навыков ведения переговоров."
         },
         {
             question: "Form a correct sentence using these words:",
@@ -3843,12 +3843,12 @@ window.grammarExercises['modals']['must-cant-present-deduction-sentence-page9'] 
         {
             question: "Form a correct sentence using these words:",
             questionRu: "Составьте правильное предложение, используя эти слова:",
-            words: ["The", "rehabilitation", "center", "helps", "patients", "recover", "from", "severe", "brain", "injuries", "completely", "within", "one", "week.", "Their", "recovery", "program", "must", "be", "extraordinary."],
-            correctAnswer: "The rehabilitation center helps patients recover from severe brain injuries completely within one week. Their recovery program must be extraordinary.",
+            words: ["The", "rehabilitation", "center", "achieved", "complete", "recovery", "for", "patients", "in", "one", "week.", "Their", "program", "must", "be", "extraordinary."],
+            correctAnswer: "The rehabilitation center achieved complete recovery for patients in one week. Their program must be extraordinary.",
             correctFeedback: "Perfect! 'Their recovery program must be extraordinary' is a logical deduction based on impossible-seeming brain injury recovery speed.",
             correctFeedbackRu: "Отлично! 'Their recovery program must be extraordinary' - это логический вывод на основе кажущейся невозможной скорости восстановления от травм мозга.",
             incorrectFeedback: "Try again. Remember: Subject + must + be + adjective. Use recovery speed as program quality evidence.",
-            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + must + be + прилагательное. Используйте скорость восстановления как доказательство качества программы."
+            incorrectFeedbackRu: "Попробуйте снова. Помните: Подлежащее + must + be + прилагательное. Используйте скорость восстановления как доказательство исключительности программы."
         },
         {
             question: "Form a correct sentence using these words:",

@@ -37,16 +37,14 @@ window.grammarExercises['conditionals']['zero-conditional-page1'] = {
             questionRu: "Выберите правильную форму условного предложения нулевого типа:",
             sentence: "When ice ___ in the sun, it ___.",
             options: [
-                "stays / melts",
-                "stay / melt",
-                "stayed / melted",
-                "staying / melting"
+                "sits / melts",
+                "sit / melt",
+                "sat / melted",
+                "sitting / melting"
             ],
             correctAnswer: 0,
-            correctFeedback: "Perfect! 'When ice stays in the sun, it melts' - natural law about ice melting.",
-            correctFeedbackRu: "Идеально! 'When ice stays in the sun, it melts' - природный закон о таянии льда.",
-            incorrectFeedback: "Incorrect. Use present simple for both parts in zero conditional.",
-            incorrectFeedbackRu: "Неправильно. Используйте Present Simple в обеих частях условного предложения нулевого типа."
+            correctFeedback: "Perfect! 'When ice sits in the sun, it melts' - natural law about ice melting.",
+            correctFeedbackRu: "Идеально! 'When ice sits in the sun, it melts' - природный закон о таянии льда.",
         },
         {
             question: "Select the correct scientific fact:",
@@ -807,7 +805,7 @@ window.grammarExercises['conditionals']['zero-conditional-page5'] = {
             options: [
                 "set / perform",
                 "set / performed",
-                "set / perform",
+                "sets / performs",
                 "sets / perform"
             ],
             correctAnswer: 0,
@@ -1721,12 +1719,12 @@ window.grammarExercises['conditionals']['zero-conditional-gap-page1'] = {
             question: "Fill in the blank with the correct verb form:",
             questionRu: "Заполните пропуск правильной формой глагола:",
             sentence: "When ice ____ in the sun, it melts.",
-            correctAnswer: "stays",
-            options: ["stay", "stays", "stayed", "staying"],
-            correctFeedback: "Excellent! 'When ice stays' is correct - third person singular needs -s in present simple.",
-            correctFeedbackRu: "Отлично! 'When ice stays' правильно - третье лицо единственного числа требует -s в Present Simple.",
-            incorrectFeedback: "Remember: 'ice' is third person singular, so we need 'stays' in zero conditional.",
-            incorrectFeedbackRu: "Помните: 'ice' - третье лицо единственного числа, поэтому нужно 'stays' в условном предложении нулевого типа."
+            correctAnswer: "sits",
+            options: ["sit", "sits", "sat", "sitting"],
+            correctFeedback: "Excellent! 'When ice sits' is correct - third person singular needs -s in present simple.",
+            correctFeedbackRu: "Отлично! 'When ice sits' правильно - третье лицо единственного числа требует -s в Present Simple.",
+            incorrectFeedback: "Remember: 'ice' is third person singular, so we need 'sits' in zero conditional.",
+            incorrectFeedbackRu: "Помните: 'ice' - третье лицо единственного числа, поэтому нужно 'sits' в условном предложении нулевого типа.",
         },
         {
             question: "Complete the sentence with the correct form:",
@@ -2927,7 +2925,7 @@ window.grammarExercises['conditionals']['zero-conditional-sentence-page1'] = {
         },
         {
             question: "Form a correct Zero Conditional sentence using these words:",
-            questionRu: "Составьте правильное условное предложение нулевого типа, используя эди слова:",
+            questionRu: "Составьте правильное условное предложение нулевого типа, используя эти слова:",
             words: ["When", "it", "rains,", "people", "use", "umbrellas"],
             correctAnswer: "When it rains, people use umbrellas.",
             correctFeedback: "Excellent! 'When it rains, people use umbrellas' - universal weather behavior!",
