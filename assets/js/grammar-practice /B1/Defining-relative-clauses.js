@@ -2489,3 +2489,1092 @@ window.grammarExercises['relative']['defining-relative-clauses-gap-page10'] = {
 
 /* =============================================================================== */
 /* =========================Sentence Building Exercises=========================== */
+/* ============================================
+Page 1: Defining Relative Clauses - Sentence Building - 'who' for people
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page1'] = {
+    title: "Defining Relative Clauses - 'who' for people",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "woman", "who", "called", "this", "morning", "left", "a", "message."],
+            correctAnswer: "The woman who called this morning left a message.",
+            correctFeedback: "Perfect! 'The woman who called this morning left a message.' Use 'who' in defining relative clauses to refer to people. 'Who' replaces 'she' and connects the clause to 'the woman'.",
+            correctFeedbackRu: "Идеально! 'The woman who called this morning left a message.' Используйте 'who' в определительных придаточных для обозначения людей. 'Who' заменяет 'she' и связывает придаточное с 'the woman'.",
+            incorrectFeedback: "Try again. Structure: noun (person) + who + verb. Use 'who' for people in defining relative clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: существительное (человек) + who + глагол. Используйте 'who' для людей в определительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "doctor", "who", "treated", "me", "was", "very", "experienced."],
+            correctAnswer: "The doctor who treated me was very experienced.",
+            correctFeedback: "Correct! 'The doctor who treated me was very experienced.' 'Who' refers to 'the doctor' — a person. The clause 'who treated me' defines which specific doctor is meant.",
+            correctFeedbackRu: "Правильно! 'The doctor who treated me was very experienced.' 'Who' относится к 'the doctor' — человеку. Придаточное 'who treated me' уточняет, о каком именно враче идёт речь.",
+            incorrectFeedback: "Try again. 'Who' is used for people. Structure: The + noun (person) + who + verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Who' используется для людей. Структура: The + существительное (человек) + who + глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Students", "who", "study", "regularly", "tend", "to", "get", "better", "grades."],
+            correctAnswer: "Students who study regularly tend to get better grades.",
+            correctFeedback: "Excellent! 'Students who study regularly tend to get better grades.' 'Who' refers to 'students' — people. The defining clause 'who study regularly' identifies which students tend to get better grades.",
+            correctFeedbackRu: "Отлично! 'Students who study regularly tend to get better grades.' 'Who' относится к 'students' — людям. Определительное придаточное 'who study regularly' уточняет, какие именно студенты склонны получать лучшие оценки.",
+            incorrectFeedback: "Try again. Structure: plural noun (people) + who + verb + adverb. 'Who' connects the defining clause to the noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: существительное во мн.ч. (люди) + who + глагол + наречие. 'Who' связывает определительное придаточное с существительным."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "manager", "who", "interviewed", "me", "offered", "me", "the", "job."],
+            correctAnswer: "The manager who interviewed me offered me the job.",
+            correctFeedback: "Right! 'The manager who interviewed me offered me the job.' 'Who' refers to 'the manager' — a person. The clause 'who interviewed me' identifies which specific manager offered the job.",
+            correctFeedbackRu: "Верно! 'The manager who interviewed me offered me the job.' 'Who' относится к 'the manager' — человеку. Придаточное 'who interviewed me' уточняет, какой именно менеджер предложил работу.",
+            incorrectFeedback: "Try again. Structure: The + noun (person) + who + verb + object + main verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: The + существительное (человек) + who + глагол + дополнение + главный глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Do", "you", "know", "the", "girl", "who", "lives", "next", "door?"],
+            correctAnswer: "Do you know the girl who lives next door?",
+            correctFeedback: "Perfect! 'Do you know the girl who lives next door?' 'Who' refers to 'the girl' — a person. The defining clause 'who lives next door' tells us exactly which girl.",
+            correctFeedbackRu: "Идеально! 'Do you know the girl who lives next door?' 'Who' относится к 'the girl' — человеку. Определительное придаточное 'who lives next door' уточняет, о какой именно девушке идёт речь.",
+            incorrectFeedback: "Try again. Structure: Do you know + the + noun (person) + who + verb + adverb?",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Do you know + the + существительное (человек) + who + глагол + наречие?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "colleague", "who", "helped", "me", "with", "the", "project", "got", "promoted."],
+            correctAnswer: "The colleague who helped me with the project got promoted.",
+            correctFeedback: "Correct! 'The colleague who helped me with the project got promoted.' 'Who' is the subject of the relative clause — the colleague is doing the helping. This identifies one specific colleague.",
+            correctFeedbackRu: "Правильно! 'The colleague who helped me with the project got promoted.' 'Who' является подлежащим придаточного — коллега выполняет действие. Это указывает на одного конкретного коллегу.",
+            incorrectFeedback: "Try again. 'Who' is the subject of the relative clause. Structure: The + noun (person) + who + verb + prepositional phrase + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Who' является подлежащим придаточного. Структура: The + существительное (человек) + who + глагол + предложная фраза + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "finally", "met", "the", "author", "who", "wrote", "my", "favourite", "novel."],
+            correctAnswer: "I finally met the author who wrote my favourite novel.",
+            correctFeedback: "Excellent! 'I finally met the author who wrote my favourite novel.' 'Who' refers to 'the author' — a person. The defining clause 'who wrote my favourite novel' identifies which specific author.",
+            correctFeedbackRu: "Отлично! 'I finally met the author who wrote my favourite novel.' 'Who' относится к 'the author' — человеку. Определительное придаточное 'who wrote my favourite novel' уточняет, о каком именно авторе идёт речь.",
+            incorrectFeedback: "Try again. Structure: Subject + verb + the + noun (person) + who + verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: Подлежащее + глагол + the + существительное (человек) + who + глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Employees", "who", "work", "overtime", "are", "entitled", "to", "extra", "pay."],
+            correctAnswer: "Employees who work overtime are entitled to extra pay.",
+            correctFeedback: "Right! 'Employees who work overtime are entitled to extra pay.' 'Who' refers to 'employees' — people. The clause 'who work overtime' specifies which employees get extra pay, not all of them.",
+            correctFeedbackRu: "Верно! 'Employees who work overtime are entitled to extra pay.' 'Who' относится к 'employees' — людям. Придаточное 'who work overtime' уточняет, какие именно сотрудники получают доплату, не все.",
+            incorrectFeedback: "Try again. Structure: plural noun (people) + who + verb + noun + main verb + complement.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: существительное во мн.ч. (люди) + who + глагол + существительное + главный глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "man", "who", "found", "my", "wallet", "returned", "it", "without", "taking", "any", "money."],
+            correctAnswer: "The man who found my wallet returned it without taking any money.",
+            correctFeedback: "Perfect! 'The man who found my wallet returned it without taking any money.' 'Who' is the subject of the relative clause — the man is the one who found the wallet.",
+            correctFeedbackRu: "Идеально! 'The man who found my wallet returned it without taking any money.' 'Who' является подлежащим придаточного — мужчина является тем, кто нашёл кошелёк.",
+            incorrectFeedback: "Try again. Structure: The + noun (person) + who + verb + object + main verb + pronoun + without + gerund.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: The + существительное (человек) + who + глагол + дополнение + главный глагол + местоимение + without + герундий."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "nurse", "who", "looked", "after", "my", "grandmother", "was", "very", "kind."],
+            correctAnswer: "The nurse who looked after my grandmother was very kind.",
+            correctFeedback: "Correct! 'The nurse who looked after my grandmother was very kind.' 'Who' refers to 'the nurse' — a person. The defining clause 'who looked after my grandmother' identifies which specific nurse.",
+            correctFeedbackRu: "Правильно! 'The nurse who looked after my grandmother was very kind.' 'Who' относится к 'the nurse' — человеку. Определительное придаточное 'who looked after my grandmother' уточняет, о какой именно медсестре идёт речь.",
+            incorrectFeedback: "Try again. Structure: The + noun (person) + who + phrasal verb + object + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: The + существительное (человек) + who + фразовый глагол + дополнение + главный глагол + прилагательное."
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Defining Relative Clauses - Sentence Building - 'which' for things
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page2'] = {
+    title: "Defining Relative Clauses - 'which' for things",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "laptop", "which", "I", "bought", "last", "year", "has", "already", "broken."],
+            correctAnswer: "The laptop which I bought last year has already broken.",
+            correctFeedback: "Perfect! 'The laptop which I bought last year has already broken.' 'Which' is used for things. Here 'which I bought last year' identifies the specific laptop. 'Which' is the object of the clause.",
+            correctFeedbackRu: "Идеально! 'The laptop which I bought last year has already broken.' 'Which' используется для предметов. 'Which I bought last year' уточняет конкретный ноутбук. 'Which' является дополнением придаточного.",
+            incorrectFeedback: "Try again. Use 'which' for things. Structure: The + noun (thing) + which + subject + verb + time expression + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'which' для предметов. Структура: The + существительное (предмет) + which + подлежащее + глагол + временное выражение + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "film", "which", "won", "the", "award", "was", "directed", "by", "a", "newcomer."],
+            correctAnswer: "The film which won the award was directed by a newcomer.",
+            correctFeedback: "Correct! 'The film which won the award was directed by a newcomer.' 'Which' refers to 'the film' — a thing. The clause 'which won the award' is a defining clause that identifies the specific film.",
+            correctFeedbackRu: "Правильно! 'The film which won the award was directed by a newcomer.' 'Which' относится к 'the film' — предмету. Придаточное 'which won the award' уточняет конкретный фильм.",
+            incorrectFeedback: "Try again. 'Which' is used for things. Structure: The + noun (thing) + which + verb + object + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which' используется для предметов. Структура: The + существительное (предмет) + which + глагол + дополнение + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "report", "which", "she", "submitted", "contained", "several", "errors."],
+            correctAnswer: "The report which she submitted contained several errors.",
+            correctFeedback: "Excellent! 'The report which she submitted contained several errors.' 'Which' refers to 'the report' — a thing. 'Which she submitted' is an object relative clause — 'which' is the object of 'submitted'.",
+            correctFeedbackRu: "Отлично! 'The report which she submitted contained several errors.' 'Which' относится к 'the report' — предмету. 'Which she submitted' — объектное придаточное — 'which' является дополнением 'submitted'.",
+            incorrectFeedback: "Try again. 'Which' can be the object of the relative clause. Structure: The + noun (thing) + which + subject + verb + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which' может быть дополнением придаточного. Структура: The + существительное (предмет) + which + подлежащее + глагол + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "medicine", "which", "the", "doctor", "prescribed", "worked", "immediately."],
+            correctAnswer: "The medicine which the doctor prescribed worked immediately.",
+            correctFeedback: "Right! 'The medicine which the doctor prescribed worked immediately.' 'Which' is used for things — here 'the medicine'. The defining clause specifies which particular medicine worked.",
+            correctFeedbackRu: "Верно! 'The medicine which the doctor prescribed worked immediately.' 'Which' используется для предметов — здесь 'the medicine'. Определительное придаточное уточняет, какое именно лекарство подействовало.",
+            incorrectFeedback: "Try again. 'Which' refers to things. Structure: The + noun (thing) + which + subject + verb + main verb + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which' относится к предметам. Структура: The + существительное (предмет) + which + подлежащее + глагол + главный глагол + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "flat", "which", "they", "rented", "was", "in", "a", "great", "location."],
+            correctAnswer: "The flat which they rented was in a great location.",
+            correctFeedback: "Perfect! 'The flat which they rented was in a great location.' 'Which' refers to 'the flat' — a thing. The defining clause 'which they rented' identifies the specific flat being discussed.",
+            correctFeedbackRu: "Идеально! 'The flat which they rented was in a great location.' 'Which' относится к 'the flat' — предмету. Определительное придаточное 'which they rented' уточняет конкретную квартиру.",
+            incorrectFeedback: "Try again. Use 'which' for things. Structure: The + noun (thing) + which + subject + verb + main verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'which' для предметов. Структура: The + существительное (предмет) + which + подлежащее + глагол + главный глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "email", "which", "arrived", "this", "morning", "contained", "important", "instructions."],
+            correctAnswer: "The email which arrived this morning contained important instructions.",
+            correctFeedback: "Correct! 'The email which arrived this morning contained important instructions.' 'Which' is used for things. Here 'which arrived this morning' identifies which specific email contained the instructions.",
+            correctFeedbackRu: "Правильно! 'The email which arrived this morning contained important instructions.' 'Which' используется для предметов. 'Which arrived this morning' уточняет, какое именно письмо содержало инструкции.",
+            incorrectFeedback: "Try again. 'Which' is the subject of the relative clause here — the email arrived. Structure: The + noun + which + verb + time expression + main verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which' является подлежащим придаточного здесь — письмо пришло. Структура: The + существительное + which + глагол + временное выражение + главный глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "book", "which", "you", "recommended", "was", "absolutely", "fascinating."],
+            correctAnswer: "The book which you recommended was absolutely fascinating.",
+            correctFeedback: "Excellent! 'The book which you recommended was absolutely fascinating.' 'Which' refers to 'the book' — a thing. 'Which' is the object of 'recommended' — you recommended it.",
+            correctFeedbackRu: "Отлично! 'The book which you recommended was absolutely fascinating.' 'Which' относится к 'the book' — предмету. 'Which' является дополнением 'recommended' — вы рекомендовали его.",
+            incorrectFeedback: "Try again. 'Which' is the object of the relative clause. Structure: The + noun (thing) + which + subject + verb + main verb + adverb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which' является дополнением придаточного. Структура: The + существительное (предмет) + which + подлежащее + глагол + главный глагол + наречие + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "café", "which", "opened", "last", "month", "is", "always", "full."],
+            correctAnswer: "The café which opened last month is always full.",
+            correctFeedback: "Right! 'The café which opened last month is always full.' 'Which' refers to 'the café' — a place treated as a thing. The clause 'which opened last month' defines the specific café.",
+            correctFeedbackRu: "Верно! 'The café which opened last month is always full.' 'Which' относится к 'the café' — месту, рассматриваемому как предмет. Придаточное 'which opened last month' уточняет конкретное кафе.",
+            incorrectFeedback: "Try again. Use 'which' for things/places. Structure: The + noun + which + verb + time expression + main verb + adverb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'which' для предметов/мест. Структура: The + существительное + which + глагол + временное выражение + главный глагол + наречие + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "car", "which", "he", "drives", "belongs", "to", "his", "company."],
+            correctAnswer: "The car which he drives belongs to his company.",
+            correctFeedback: "Perfect! 'The car which he drives belongs to his company.' 'Which' refers to 'the car' — a thing. 'Which' is the object of 'drives'. The clause identifies the specific car.",
+            correctFeedbackRu: "Идеально! 'The car which he drives belongs to his company.' 'Which' относится к 'the car' — предмету. 'Which' является дополнением 'drives'. Придаточное уточняет конкретную машину.",
+            incorrectFeedback: "Try again. 'Which' is the object of the relative clause. Structure: The + noun (thing) + which + subject + verb + main verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which' является дополнением придаточного. Структура: The + существительное (предмет) + which + подлежащее + глагол + главный глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "project", "which", "we", "finished", "last", "week", "received", "great", "feedback."],
+            correctAnswer: "The project which we finished last week received great feedback.",
+            correctFeedback: "Correct! 'The project which we finished last week received great feedback.' 'Which' refers to 'the project' — a thing. The defining clause specifies which particular project received feedback.",
+            correctFeedbackRu: "Правильно! 'The project which we finished last week received great feedback.' 'Which' относится к 'the project' — предмету. Определительное придаточное уточняет, какой именно проект получил отзывы.",
+            incorrectFeedback: "Try again. Use 'which' for things. Structure: The + noun + which + subject + verb + time expression + main verb + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'which' для предметов. Структура: The + существительное + which + подлежащее + глагол + временное выражение + главный глагол + прилагательное + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 3: Defining Relative Clauses - Sentence Building - 'that' for people and things
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page3'] = {
+    title: "Defining Relative Clauses - 'that' for people and things",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "man", "that", "called", "you", "is", "waiting", "outside."],
+            correctAnswer: "The man that called you is waiting outside.",
+            correctFeedback: "Perfect! 'The man that called you is waiting outside.' 'That' can be used instead of 'who' for people in defining relative clauses. It identifies which specific man is waiting.",
+            correctFeedbackRu: "Идеально! 'The man that called you is waiting outside.' 'That' может использоваться вместо 'who' для людей в определительных придаточных. Оно уточняет, какой именно мужчина ждёт.",
+            incorrectFeedback: "Try again. 'That' can replace 'who' or 'which' in defining relative clauses. Structure: The + noun (person) + that + verb + object + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'That' может заменять 'who' или 'which' в определительных придаточных. Структура: The + существительное (человек) + that + глагол + дополнение + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "book", "that", "I", "lent", "you", "is", "very", "popular."],
+            correctAnswer: "The book that I lent you is very popular.",
+            correctFeedback: "Correct! 'The book that I lent you is very popular.' 'That' is used for things in defining relative clauses. Here 'that I lent you' identifies the specific book. 'That' is the object of 'lent'.",
+            correctFeedbackRu: "Правильно! 'The book that I lent you is very popular.' 'That' используется для предметов в определительных придаточных. 'That I lent you' уточняет конкретную книгу. 'That' является дополнением 'lent'.",
+            incorrectFeedback: "Try again. 'That' is used for things and people. Structure: The + noun (thing) + that + subject + verb + indirect object + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'That' используется для предметов и людей. Структура: The + существительное (предмет) + that + подлежащее + глагол + косвенное дополнение + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Everything", "that", "she", "said", "was", "completely", "true."],
+            correctAnswer: "Everything that she said was completely true.",
+            correctFeedback: "Excellent! 'Everything that she said was completely true.' After 'everything', 'all', 'nothing', and 'something', use 'that' — not 'which'. This is a rule in English.",
+            correctFeedbackRu: "Отлично! 'Everything that she said was completely true.' После 'everything', 'all', 'nothing' и 'something' используйте 'that' — не 'which'. Это правило в английском языке.",
+            incorrectFeedback: "Try again. After 'everything', use 'that' (not 'which'). Structure: Everything + that + subject + verb + main verb + adverb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. После 'everything' используйте 'that' (не 'which'). Структура: Everything + that + подлежащее + глагол + главный глагол + наречие + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "first", "thing", "that", "I", "do", "every", "morning", "is", "check", "my", "phone."],
+            correctAnswer: "The first thing that I do every morning is check my phone.",
+            correctFeedback: "Right! 'The first thing that I do every morning is check my phone.' After superlatives and ordinals ('first', 'last', 'only'), use 'that' — not 'which' or 'who'.",
+            correctFeedbackRu: "Верно! 'The first thing that I do every morning is check my phone.' После превосходной степени и порядковых числительных ('first', 'last', 'only') используйте 'that' — не 'which' или 'who'.",
+            incorrectFeedback: "Try again. After 'first', 'last', 'only', use 'that'. Structure: The + ordinal + noun + that + subject + verb + frequency + main verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. После 'first', 'last', 'only' используйте 'that'. Структура: The + порядковое числительное + существительное + that + подлежащее + глагол + частотное слово + главный глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "person", "that", "designed", "this", "building", "was", "very", "talented."],
+            correctAnswer: "The person that designed this building was very talented.",
+            correctFeedback: "Perfect! 'The person that designed this building was very talented.' 'That' can be used for people in defining clauses, especially in informal speech. It identifies which person.",
+            correctFeedbackRu: "Идеально! 'The person that designed this building was very talented.' 'That' может использоваться для людей в определительных придаточных, особенно в неформальной речи. Оно уточняет, какой именно человек.",
+            incorrectFeedback: "Try again. 'That' works for people and things. Structure: The + noun (person) + that + verb + object + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'That' подходит для людей и предметов. Структура: The + существительное (человек) + that + глагол + дополнение + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "only", "restaurant", "that", "we", "like", "is", "always", "fully", "booked."],
+            correctAnswer: "The only restaurant that we like is always fully booked.",
+            correctFeedback: "Correct! 'The only restaurant that we like is always fully booked.' After 'only', 'the only', use 'that' — not 'which'. This is a standard rule in defining relative clauses.",
+            correctFeedbackRu: "Правильно! 'The only restaurant that we like is always fully booked.' После 'only', 'the only' используйте 'that' — не 'which'. Это стандартное правило в определительных придаточных.",
+            incorrectFeedback: "Try again. After 'only', use 'that'. Structure: The + only + noun + that + subject + verb + main verb + adverb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. После 'only' используйте 'that'. Структура: The + only + существительное + that + подлежащее + глагол + главный глагол + наречие + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Nothing", "that", "he", "said", "made", "any", "sense."],
+            correctAnswer: "Nothing that he said made any sense.",
+            correctFeedback: "Excellent! 'Nothing that he said made any sense.' After 'nothing', use 'that' — not 'which'. 'Nothing', 'everything', 'something', and 'anything' always take 'that'.",
+            correctFeedbackRu: "Отлично! 'Nothing that he said made any sense.' После 'nothing' используйте 'that' — не 'which'. 'Nothing', 'everything', 'something' и 'anything' всегда используют 'that'.",
+            incorrectFeedback: "Try again. After 'nothing', use 'that'. Structure: Nothing + that + subject + verb + main verb + any + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. После 'nothing' используйте 'that'. Структура: Nothing + that + подлежащее + глагол + главный глагол + any + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "last", "train", "that", "leaves", "tonight", "departs", "at", "eleven."],
+            correctAnswer: "The last train that leaves tonight departs at eleven.",
+            correctFeedback: "Right! 'The last train that leaves tonight departs at eleven.' After 'last' and other superlative/ordinal expressions, use 'that' — not 'which'.",
+            correctFeedbackRu: "Верно! 'The last train that leaves tonight departs at eleven.' После 'last' и других превосходных/порядковых выражений используйте 'that' — не 'which'.",
+            incorrectFeedback: "Try again. After 'last', use 'that'. Structure: The + last + noun + that + verb + time + main verb + time.",
+            incorrectFeedbackRu: "Попробуйте снова. После 'last' используйте 'that'. Структура: The + last + существительное + that + глагол + время + главный глагол + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "team", "that", "wins", "the", "most", "matches", "gets", "promoted."],
+            correctAnswer: "The team that wins the most matches gets promoted.",
+            correctFeedback: "Perfect! 'The team that wins the most matches gets promoted.' 'That' can be used for groups/organisations treated as things. The defining clause identifies which team gets promoted.",
+            correctFeedbackRu: "Идеально! 'The team that wins the most matches gets promoted.' 'That' может использоваться для групп/организаций, рассматриваемых как предметы. Определительное придаточное уточняет, какая именно команда повышается.",
+            incorrectFeedback: "Try again. 'That' can be used for groups and things. Structure: The + noun + that + verb + object + main verb + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. 'That' может использоваться для групп и предметов. Структура: The + существительное + that + глагол + дополнение + главный глагол + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "was", "the", "best", "student", "that", "the", "school", "had", "ever", "had."],
+            correctAnswer: "She was the best student that the school had ever had.",
+            correctFeedback: "Correct! 'She was the best student that the school had ever had.' After superlatives ('best', 'worst', 'most'), use 'that' — not 'who' or 'which'. This is a key rule.",
+            correctFeedbackRu: "Правильно! 'She was the best student that the school had ever had.' После превосходной степени ('best', 'worst', 'most') используйте 'that' — не 'who' или 'which'. Это важное правило.",
+            incorrectFeedback: "Try again. After superlatives, use 'that'. Structure: Subject + verb + the + superlative + noun + that + subject + had + ever + had.",
+            incorrectFeedbackRu: "Попробуйте снова. После превосходной степени используйте 'that'. Структура: Подлежащее + глагол + the + превосходная степень + существительное + that + подлежащее + had + ever + had."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Defining Relative Clauses - Sentence Building - 'whose' for possession
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page4'] = {
+    title: "Defining Relative Clauses - 'whose' for possession",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "student", "whose", "essay", "won", "the", "prize", "was", "very", "happy."],
+            correctAnswer: "The student whose essay won the prize was very happy.",
+            correctFeedback: "Perfect! 'The student whose essay won the prize was very happy.' 'Whose' shows possession — the essay belongs to the student. 'Whose' replaces 'his/her' in the relative clause.",
+            correctFeedbackRu: "Идеально! 'The student whose essay won the prize was very happy.' 'Whose' показывает принадлежность — эссе принадлежит студенту. 'Whose' заменяет 'his/her' в придаточном.",
+            incorrectFeedback: "Try again. 'Whose' shows possession. Structure: The + noun + whose + noun (possessed) + verb + object + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' показывает принадлежность. Структура: The + существительное + whose + существительное (владеемое) + глагол + дополнение + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "woman", "whose", "bag", "was", "stolen", "reported", "it", "to", "the", "police."],
+            correctAnswer: "The woman whose bag was stolen reported it to the police.",
+            correctFeedback: "Correct! 'The woman whose bag was stolen reported it to the police.' 'Whose' = her. 'Whose bag was stolen' identifies which specific woman is being talked about.",
+            correctFeedbackRu: "Правильно! 'The woman whose bag was stolen reported it to the police.' 'Whose' = her. 'Whose bag was stolen' уточняет, о какой именно женщине идёт речь.",
+            incorrectFeedback: "Try again. 'Whose' replaces 'his/her'. Structure: The + noun + whose + noun (possessed) + passive verb + main verb + pronoun + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' заменяет 'his/her'. Структура: The + существительное + whose + существительное (владеемое) + пассивный глагол + главный глагол + местоимение + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "company", "whose", "products", "I", "use", "every", "day", "is", "based", "in", "Japan."],
+            correctAnswer: "The company whose products I use every day is based in Japan.",
+            correctFeedback: "Excellent! 'The company whose products I use every day is based in Japan.' 'Whose' can refer to organisations and things, not just people. 'Whose products' = 'its products'.",
+            correctFeedbackRu: "Отлично! 'The company whose products I use every day is based in Japan.' 'Whose' может относиться к организациям и предметам, не только к людям. 'Whose products' = 'its products'.",
+            incorrectFeedback: "Try again. 'Whose' can refer to companies and things too. Structure: The + noun + whose + noun (possessed) + subject + verb + frequency + main verb + past participle + location.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' может также относиться к компаниям и предметам. Структура: The + существительное + whose + существительное (владеемое) + подлежащее + глагол + частотное слово + главный глагол + причастие + место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Children", "whose", "parents", "read", "to", "them", "often", "develop", "better", "reading", "skills."],
+            correctAnswer: "Children whose parents read to them often develop better reading skills.",
+            correctFeedback: "Right! 'Children whose parents read to them often develop better reading skills.' 'Whose' = their. The defining clause 'whose parents read to them' identifies which children develop better skills.",
+            correctFeedbackRu: "Верно! 'Children whose parents read to them often develop better reading skills.' 'Whose' = their. Определительное придаточное 'whose parents read to them' уточняет, какие именно дети развивают лучшие навыки.",
+            incorrectFeedback: "Try again. 'Whose' = their/his/her. Structure: noun (people) + whose + noun (possessed) + verb + adverb + main verb + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' = their/his/her. Структура: существительное (люди) + whose + существительное (владеемое) + глагол + наречие + главный глагол + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "boy", "whose", "dog", "bit", "me", "apologised", "immediately."],
+            correctAnswer: "The boy whose dog bit me apologised immediately.",
+            correctFeedback: "Perfect! 'The boy whose dog bit me apologised immediately.' 'Whose' = his. 'Whose dog bit me' is the defining clause that identifies which boy apologised.",
+            correctFeedbackRu: "Идеально! 'The boy whose dog bit me apologised immediately.' 'Whose' = his. 'Whose dog bit me' — определительное придаточное, уточняющее, какой именно мальчик извинился.",
+            incorrectFeedback: "Try again. 'Whose' replaces possessive pronouns. Structure: The + noun + whose + noun (possessed) + verb + object + main verb + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' заменяет притяжательные местоимения. Структура: The + существительное + whose + существительное (владеемое) + глагол + дополнение + главный глагол + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "scientist", "whose", "research", "changed", "medicine", "received", "a", "Nobel", "Prize."],
+            correctAnswer: "The scientist whose research changed medicine received a Nobel Prize.",
+            correctFeedback: "Correct! 'The scientist whose research changed medicine received a Nobel Prize.' 'Whose' = his/her. The defining clause 'whose research changed medicine' identifies the specific scientist.",
+            correctFeedbackRu: "Правильно! 'The scientist whose research changed medicine received a Nobel Prize.' 'Whose' = his/her. Определительное придаточное 'whose research changed medicine' уточняет конкретного учёного.",
+            incorrectFeedback: "Try again. 'Whose' shows possession. Structure: The + noun + whose + noun (possessed) + verb + object + main verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' показывает принадлежность. Структура: The + существительное + whose + существительное (владеемое) + глагол + дополнение + главный глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "spoke", "to", "a", "man", "whose", "wife", "works", "with", "my", "sister."],
+            correctAnswer: "I spoke to a man whose wife works with my sister.",
+            correctFeedback: "Excellent! 'I spoke to a man whose wife works with my sister.' 'Whose' = his. The defining clause 'whose wife works with my sister' identifies which specific man was spoken to.",
+            correctFeedbackRu: "Отлично! 'I spoke to a man whose wife works with my sister.' 'Whose' = his. Определительное придаточное 'whose wife works with my sister' уточняет, с каким именно мужчиной говорили.",
+            incorrectFeedback: "Try again. 'Whose' replaces 'his'. Structure: Subject + verb + a + noun + whose + noun (possessed) + verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' заменяет 'his'. Структура: Подлежащее + глагол + a + существительное + whose + существительное (владеемое) + глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "house", "whose", "roof", "was", "damaged", "in", "the", "storm", "has", "been", "repaired."],
+            correctAnswer: "The house whose roof was damaged in the storm has been repaired.",
+            correctFeedback: "Right! 'The house whose roof was damaged in the storm has been repaired.' 'Whose' can refer to things — here 'the house'. 'Whose roof' = 'its roof'.",
+            correctFeedbackRu: "Верно! 'The house whose roof was damaged in the storm has been repaired.' 'Whose' может относиться к предметам — здесь 'the house'. 'Whose roof' = 'its roof'.",
+            incorrectFeedback: "Try again. 'Whose' can refer to things too. Structure: The + noun + whose + noun (possessed) + passive verb + time phrase + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' может также относиться к предметам. Структура: The + существительное + whose + существительное (владеемое) + пассивный глагол + временная фраза + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "teacher", "whose", "class", "I", "enjoy", "the", "most", "teaches", "history."],
+            correctAnswer: "The teacher whose class I enjoy the most teaches history.",
+            correctFeedback: "Perfect! 'The teacher whose class I enjoy the most teaches history.' 'Whose' = his/her. The defining clause 'whose class I enjoy the most' identifies the specific teacher.",
+            correctFeedbackRu: "Идеально! 'The teacher whose class I enjoy the most teaches history.' 'Whose' = his/her. Определительное придаточное 'whose class I enjoy the most' уточняет конкретного учителя.",
+            incorrectFeedback: "Try again. 'Whose' shows possession. Structure: The + noun + whose + noun (possessed) + subject + verb + the most + main verb + subject.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' показывает принадлежность. Структура: The + существительное + whose + существительное (владеемое) + подлежащее + глагол + the most + главный глагол + предмет."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["People", "whose", "jobs", "involve", "sitting", "all", "day", "should", "exercise", "regularly."],
+            correctAnswer: "People whose jobs involve sitting all day should exercise regularly.",
+            correctFeedback: "Correct! 'People whose jobs involve sitting all day should exercise regularly.' 'Whose' = their. The defining clause 'whose jobs involve sitting all day' identifies which people should exercise.",
+            correctFeedbackRu: "Правильно! 'People whose jobs involve sitting all day should exercise regularly.' 'Whose' = their. Определительное придаточное 'whose jobs involve sitting all day' уточняет, какие именно люди должны заниматься спортом.",
+            incorrectFeedback: "Try again. 'Whose' = their/his/her. Structure: noun (people) + whose + noun (possessed) + verb + gerund + all day + modal verb + verb + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' = their/his/her. Структура: существительное (люди) + whose + существительное (владеемое) + глагол + герундий + all day + модальный глагол + глагол + наречие."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Defining Relative Clauses - Sentence Building - 'where' and 'when'
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page5'] = {
+    title: "Defining Relative Clauses - 'where' and 'when'",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "café", "where", "we", "had", "our", "first", "date", "has", "closed", "down."],
+            correctAnswer: "The café where we had our first date has closed down.",
+            correctFeedback: "Perfect! 'The café where we had our first date has closed down.' 'Where' is used for places in defining relative clauses. It replaces 'in which' or 'at which'.",
+            correctFeedbackRu: "Идеально! 'The café where we had our first date has closed down.' 'Where' используется для мест в определительных придаточных. Оно заменяет 'in which' или 'at which'.",
+            incorrectFeedback: "Try again. 'Where' is used for places. Structure: The + noun (place) + where + subject + verb + object + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Where' используется для мест. Структура: The + существительное (место) + where + подлежащее + глагол + дополнение + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Do", "you", "remember", "the", "day", "when", "we", "first", "met?"],
+            correctAnswer: "Do you remember the day when we first met?",
+            correctFeedback: "Correct! 'Do you remember the day when we first met?' 'When' is used for times in defining relative clauses. It replaces 'on which' or 'at which'.",
+            correctFeedbackRu: "Правильно! 'Do you remember the day when we first met?' 'When' используется для времён в определительных придаточных. Оно заменяет 'on which' или 'at which'.",
+            incorrectFeedback: "Try again. 'When' is used for times. Structure: Do you remember + the + time noun + when + subject + adverb + verb?",
+            incorrectFeedbackRu: "Попробуйте снова. 'When' используется для времён. Структура: Do you remember + the + существительное времени + when + подлежащее + наречие + глагол?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "city", "where", "I", "grew", "up", "has", "changed", "a", "lot."],
+            correctAnswer: "The city where I grew up has changed a lot.",
+            correctFeedback: "Excellent! 'The city where I grew up has changed a lot.' 'Where' refers to 'the city' — a place. The defining clause 'where I grew up' identifies which specific city has changed.",
+            correctFeedbackRu: "Отлично! 'The city where I grew up has changed a lot.' 'Where' относится к 'the city' — месту. Определительное придаточное 'where I grew up' уточняет, какой именно город изменился.",
+            incorrectFeedback: "Try again. 'Where' is used for places. Structure: The + noun (place) + where + subject + verb + main verb + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Where' используется для мест. Структура: The + существительное (место) + where + подлежащее + глагол + главный глагол + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Summer", "is", "the", "season", "when", "most", "people", "go", "on", "holiday."],
+            correctAnswer: "Summer is the season when most people go on holiday.",
+            correctFeedback: "Right! 'Summer is the season when most people go on holiday.' 'When' refers to 'the season' — a period of time. It defines which season is being described.",
+            correctFeedbackRu: "Верно! 'Summer is the season when most people go on holiday.' 'When' относится к 'the season' — периоду времени. Оно уточняет, о каком именно сезоне идёт речь.",
+            incorrectFeedback: "Try again. 'When' is used for times and periods. Structure: noun (time) + verb + the + time noun + when + subject + verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. 'When' используется для времён и периодов. Структура: существительное (время) + глагол + the + существительное времени + when + подлежащее + глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["That", "is", "the", "hotel", "where", "we", "stayed", "on", "our", "honeymoon."],
+            correctAnswer: "That is the hotel where we stayed on our honeymoon.",
+            correctFeedback: "Perfect! 'That is the hotel where we stayed on our honeymoon.' 'Where' refers to 'the hotel' — a place. The defining clause identifies the specific hotel.",
+            correctFeedbackRu: "Идеально! 'That is the hotel where we stayed on our honeymoon.' 'Where' относится к 'the hotel' — месту. Определительное придаточное уточняет конкретный отель.",
+            incorrectFeedback: "Try again. 'Where' is used for places. Structure: That is + the + noun (place) + where + subject + verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Where' используется для мест. Структура: That is + the + существительное (место) + where + подлежащее + глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "year", "when", "she", "graduated", "was", "very", "difficult."],
+            correctAnswer: "The year when she graduated was very difficult.",
+            correctFeedback: "Correct! 'The year when she graduated was very difficult.' 'When' refers to 'the year' — a time. The defining clause 'when she graduated' identifies which specific year was difficult.",
+            correctFeedbackRu: "Правильно! 'The year when she graduated was very difficult.' 'When' относится к 'the year' — времени. Определительное придаточное 'when she graduated' уточняет, какой именно год был трудным.",
+            incorrectFeedback: "Try again. 'When' refers to time nouns. Structure: The + time noun + when + subject + verb + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'When' относится к существительным времени. Структура: The + существительное времени + when + подлежащее + глагол + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "work", "in", "an", "office", "where", "everyone", "is", "very", "friendly."],
+            correctAnswer: "I work in an office where everyone is very friendly.",
+            correctFeedback: "Excellent! 'I work in an office where everyone is very friendly.' 'Where' refers to 'an office' — a place. The defining clause 'where everyone is very friendly' describes which office.",
+            correctFeedbackRu: "Отлично! 'I work in an office where everyone is very friendly.' 'Where' относится к 'an office' — месту. Определительное придаточное 'where everyone is very friendly' описывает какой именно офис.",
+            incorrectFeedback: "Try again. 'Where' is used for places. Structure: Subject + verb + prepositional phrase + noun (place) + where + subject + verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Where' используется для мест. Структура: Подлежащее + глагол + предложная фраза + существительное (место) + where + подлежащее + глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Monday", "is", "the", "day", "when", "I", "feel", "least", "motivated."],
+            correctAnswer: "Monday is the day when I feel least motivated.",
+            correctFeedback: "Right! 'Monday is the day when I feel least motivated.' 'When' refers to 'the day' — a time. The defining clause 'when I feel least motivated' identifies which day of the week.",
+            correctFeedbackRu: "Верно! 'Monday is the day when I feel least motivated.' 'When' относится к 'the day' — времени. Определительное придаточное 'when I feel least motivated' уточняет, какой именно день недели.",
+            incorrectFeedback: "Try again. 'When' refers to time nouns. Structure: time noun + verb + the + time noun + when + subject + verb + least + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'When' относится к существительным времени. Структура: существительное времени + глагол + the + существительное времени + when + подлежащее + глагол + least + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "library", "where", "I", "studied", "is", "now", "a", "supermarket."],
+            correctAnswer: "The library where I studied is now a supermarket.",
+            correctFeedback: "Perfect! 'The library where I studied is now a supermarket.' 'Where' refers to 'the library' — a place. The defining clause identifies the specific library that is now a supermarket.",
+            correctFeedbackRu: "Идеально! 'The library where I studied is now a supermarket.' 'Where' относится к 'the library' — месту. Определительное придаточное уточняет конкретную библиотеку, которая теперь является супермаркетом.",
+            incorrectFeedback: "Try again. 'Where' is used for places. Structure: The + noun (place) + where + subject + verb + main verb + adverb + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Where' используется для мест. Структура: The + существительное (место) + where + подлежащее + глагол + главный глагол + наречие + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["There", "are", "moments", "when", "I", "just", "want", "to", "relax."],
+            correctAnswer: "There are moments when I just want to relax.",
+            correctFeedback: "Correct! 'There are moments when I just want to relax.' 'When' refers to 'moments' — a time noun. The defining clause 'when I just want to relax' identifies those specific moments.",
+            correctFeedbackRu: "Правильно! 'There are moments when I just want to relax.' 'When' относится к 'moments' — существительному времени. Определительное придаточное 'when I just want to relax' уточняет те конкретные моменты.",
+            incorrectFeedback: "Try again. 'When' refers to time nouns. Structure: There are + time noun + when + subject + adverb + verb + infinitive.",
+            incorrectFeedbackRu: "Попробуйте снова. 'When' относится к существительным времени. Структура: There are + существительное времени + when + подлежащее + наречие + глагол + инфинитив."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Defining Relative Clauses - Sentence Building - Omitting the Relative Pronoun
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page6'] = {
+    title: "Defining Relative Clauses - Omitting the Relative Pronoun",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "film", "we", "watched", "last", "night", "was", "boring."],
+            correctAnswer: "The film we watched last night was boring.",
+            correctFeedback: "Perfect! 'The film we watched last night was boring.' The relative pronoun 'which/that' has been omitted. This is possible when the pronoun is the OBJECT of the relative clause — we watched it.",
+            correctFeedbackRu: "Идеально! 'The film we watched last night was boring.' Относительное местоимение 'which/that' опущено. Это возможно, когда местоимение является ДОПОЛНЕНИЕМ придаточного — мы его смотрели.",
+            incorrectFeedback: "Try again. Omit 'which/that' when it is the object of the clause. Structure: The + noun + subject + verb + time + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Опускайте 'which/that', когда оно является дополнением придаточного. Структура: The + существительное + подлежащее + глагол + время + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "man", "I", "met", "at", "the", "conference", "works", "for", "Google."],
+            correctAnswer: "The man I met at the conference works for Google.",
+            correctFeedback: "Correct! 'The man I met at the conference works for Google.' 'Who/that' has been omitted. This is possible because 'who/that' was the OBJECT — I met him.",
+            correctFeedbackRu: "Правильно! 'The man I met at the conference works for Google.' 'Who/that' опущено. Это возможно, потому что 'who/that' было ДОПОЛНЕНИЕМ — я встретил его.",
+            incorrectFeedback: "Try again. When the pronoun is the object, it can be omitted. Structure: The + noun + subject + verb + prepositional phrase + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Когда местоимение является дополнением, его можно опустить. Структура: The + существительное + подлежащее + глагол + предложная фраза + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "coffee", "I", "drink", "every", "morning", "is", "from", "Colombia."],
+            correctAnswer: "The coffee I drink every morning is from Colombia.",
+            correctFeedback: "Excellent! 'The coffee I drink every morning is from Colombia.' 'Which/that' has been omitted because it is the object — I drink it. You cannot omit 'which/that' when it is the subject.",
+            correctFeedbackRu: "Отлично! 'The coffee I drink every morning is from Colombia.' 'Which/that' опущено, потому что оно является дополнением — я его пью. Нельзя опускать 'which/that', когда оно является подлежащим.",
+            incorrectFeedback: "Try again. Object relative pronouns can be omitted. Structure: The + noun + subject + verb + frequency + main verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Объектные относительные местоимения можно опускать. Структура: The + существительное + подлежащее + глагол + частотное слово + главный глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "song", "they", "played", "at", "the", "wedding", "was", "beautiful."],
+            correctAnswer: "The song they played at the wedding was beautiful.",
+            correctFeedback: "Right! 'The song they played at the wedding was beautiful.' 'Which/that' has been omitted. It was the object — they played it. You can always omit object relative pronouns in defining clauses.",
+            correctFeedbackRu: "Верно! 'The song they played at the wedding was beautiful.' 'Which/that' опущено. Оно было дополнением — они его играли. Объектные относительные местоимения всегда можно опускать в определительных придаточных.",
+            incorrectFeedback: "Try again. Object relative pronouns can be omitted. Structure: The + noun + subject + verb + prepositional phrase + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Объектные относительные местоимения можно опускать. Структура: The + существительное + подлежащее + глагол + предложная фраза + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "doctor", "she", "recommended", "is", "very", "difficult", "to", "get", "an", "appointment", "with."],
+            correctAnswer: "The doctor she recommended is very difficult to get an appointment with.",
+            correctFeedback: "Perfect! 'The doctor she recommended is very difficult to get an appointment with.' 'Who/that' has been omitted — she recommended him/her (object). Note: a preposition at the end is natural in informal English.",
+            correctFeedbackRu: "Идеально! 'The doctor she recommended is very difficult to get an appointment with.' 'Who/that' опущено — она его рекомендовала (дополнение). Предлог в конце естественен в неформальном английском.",
+            incorrectFeedback: "Try again. Omit 'who/that' when it is the object. Structure: The + noun + subject + verb + main verb + adjective + infinitive phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Опускайте 'who/that', когда оно является дополнением. Структура: The + существительное + подлежащее + глагол + главный глагол + прилагательное + инфинитивная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "jacket", "I", "ordered", "online", "arrived", "the", "wrong", "size."],
+            correctAnswer: "The jacket I ordered online arrived the wrong size.",
+            correctFeedback: "Correct! 'The jacket I ordered online arrived the wrong size.' 'Which/that' has been omitted. It is the object of 'ordered' — I ordered it. The relative pronoun is omitted in informal speech.",
+            correctFeedbackRu: "Правильно! 'The jacket I ordered online arrived the wrong size.' 'Which/that' опущено. Оно является дополнением 'ordered' — я заказал его. Относительное местоимение опускается в неформальной речи.",
+            incorrectFeedback: "Try again. Object relative pronouns can be omitted. Structure: The + noun + subject + verb + adverb + verb + adjective phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Объектные относительные местоимения можно опускать. Структура: The + существительное + подлежащее + глагол + наречие + глагол + прилагательная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "people", "I", "work", "with", "are", "all", "really", "talented."],
+            correctAnswer: "The people I work with are all really talented.",
+            correctFeedback: "Excellent! 'The people I work with are all really talented.' 'Who/that' has been omitted. Note: when there is a preposition ('with'), it stays at the end. You cannot say 'with whom I work' and omit 'whom'.",
+            correctFeedbackRu: "Отлично! 'The people I work with are all really talented.' 'Who/that' опущено. Когда есть предлог ('with'), он остаётся в конце. Нельзя сказать 'with whom I work' и опустить 'whom'.",
+            incorrectFeedback: "Try again. Omit 'who/that' when it is the object. Keep the preposition 'with' at the end. Structure: The + noun + subject + verb + preposition + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Опускайте 'who/that', когда оно является дополнением. Сохраняйте предлог 'with' в конце. Структура: The + существительное + подлежащее + глагол + предлог + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "website", "I", "use", "for", "learning", "English", "is", "completely", "free."],
+            correctAnswer: "The website I use for learning English is completely free.",
+            correctFeedback: "Right! 'The website I use for learning English is completely free.' 'Which/that' has been omitted because it is the object of 'use' — I use it. This omission is very common in everyday English.",
+            correctFeedbackRu: "Верно! 'The website I use for learning English is completely free.' 'Which/that' опущено, потому что оно является дополнением 'use' — я им пользуюсь. Это опущение очень распространено в повседневном английском.",
+            incorrectFeedback: "Try again. Object relative pronouns can be omitted. Structure: The + noun + subject + verb + gerund phrase + main verb + adverb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Объектные относительные местоимения можно опускать. Структура: The + существительное + подлежащее + глагол + герундная фраза + главный глагол + наречие + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "problem", "we", "discussed", "in", "the", "meeting", "has", "now", "been", "solved."],
+            correctAnswer: "The problem we discussed in the meeting has now been solved.",
+            correctFeedback: "Perfect! 'The problem we discussed in the meeting has now been solved.' 'Which/that' has been omitted. It was the object — we discussed it. You can always omit object relative pronouns.",
+            correctFeedbackRu: "Идеально! 'The problem we discussed in the meeting has now been solved.' 'Which/that' опущено. Оно было дополнением — мы это обсуждали. Объектные относительные местоимения всегда можно опускать.",
+            incorrectFeedback: "Try again. Object relative pronouns can be omitted. Structure: The + noun + subject + verb + prepositional phrase + main verb + adverb + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Объектные относительные местоимения можно опускать. Структура: The + существительное + подлежащее + глагол + предложная фраза + главный глагол + наречие + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "language", "I", "find", "most", "challenging", "is", "Mandarin."],
+            correctAnswer: "The language I find most challenging is Mandarin.",
+            correctFeedback: "Correct! 'The language I find most challenging is Mandarin.' 'Which/that' has been omitted. It is the object of 'find' — I find it challenging. This is very natural in everyday English.",
+            correctFeedbackRu: "Правильно! 'The language I find most challenging is Mandarin.' 'Which/that' опущено. Оно является дополнением 'find' — я нахожу его сложным. Это очень естественно в повседневном английском.",
+            incorrectFeedback: "Try again. Object relative pronouns can be omitted. Structure: The + noun + subject + verb + most + adjective + main verb + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. Объектные относительные местоимения можно опускать. Структура: The + существительное + подлежащее + глагол + most + прилагательное + главный глагол + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Defining Relative Clauses - Sentence Building - 'who' vs 'whom'
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page7'] = {
+    title: "Defining Relative Clauses - 'who' vs 'whom'",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "candidate", "who", "applied", "first", "got", "the", "position."],
+            correctAnswer: "The candidate who applied first got the position.",
+            correctFeedback: "Perfect! 'The candidate who applied first got the position.' Use 'who' when it is the SUBJECT of the relative clause — the candidate applied. Subject: who = he/she applied.",
+            correctFeedbackRu: "Идеально! 'The candidate who applied first got the position.' Используйте 'who', когда оно является ПОДЛЕЖАЩИМ придаточного — кандидат подал заявку. Подлежащее: who = he/she applied.",
+            incorrectFeedback: "Try again. Use 'who' as subject (he/she does the action). Structure: The + noun + who + verb + adverb + main verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'who' как подлежащее (he/she выполняет действие). Структура: The + существительное + who + глагол + наречие + главный глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "person", "whom", "we", "hired", "left", "after", "two", "weeks."],
+            correctAnswer: "The person whom we hired left after two weeks.",
+            correctFeedback: "Correct! 'The person whom we hired left after two weeks.' Use 'whom' when it is the OBJECT of the clause — we hired them. Object: whom = him/her. 'Whom' is formal; 'who' or omission is more common in everyday speech.",
+            correctFeedbackRu: "Правильно! 'The person whom we hired left after two weeks.' Используйте 'whom', когда оно является ДОПОЛНЕНИЕМ придаточного — мы его наняли. Дополнение: whom = him/her. 'Whom' формальный; 'who' или опущение чаще в повседневной речи.",
+            incorrectFeedback: "Try again. Use 'whom' as object (him/her receives the action). Structure: The + noun + whom + subject + verb + main verb + time expression.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'whom' как дополнение (him/her получает действие). Структура: The + существительное + whom + подлежащее + глагол + главный глагол + временное выражение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "teacher", "who", "teaches", "us", "maths", "is", "from", "Scotland."],
+            correctAnswer: "The teacher who teaches us maths is from Scotland.",
+            correctFeedback: "Excellent! 'The teacher who teaches us maths is from Scotland.' 'Who' is the subject — the teacher teaches. Test: replace 'who' with 'he/she' → 'he teaches us maths' ✓ → use 'who'.",
+            correctFeedbackRu: "Отлично! 'The teacher who teaches us maths is from Scotland.' 'Who' является подлежащим — учитель преподаёт. Проверка: замените 'who' на 'he/she' → 'he teaches us maths' ✓ → используйте 'who'.",
+            incorrectFeedback: "Try again. Test: can you replace the pronoun with he/she? If yes, use 'who'. Structure: The + noun + who + verb + object + main verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Проверка: можно ли заменить местоимение на he/she? Если да — используйте 'who'. Структура: The + существительное + who + глагол + дополнение + главный глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "client", "whom", "I", "called", "yesterday", "has", "agreed", "to", "the", "terms."],
+            correctAnswer: "The client whom I called yesterday has agreed to the terms.",
+            correctFeedback: "Right! 'The client whom I called yesterday has agreed to the terms.' 'Whom' is the object — I called them. Test: replace 'whom' with 'him/her' → 'I called him' ✓ → use 'whom'.",
+            correctFeedbackRu: "Верно! 'The client whom I called yesterday has agreed to the terms.' 'Whom' является дополнением — я позвонил ему. Проверка: замените 'whom' на 'him/her' → 'I called him' ✓ → используйте 'whom'.",
+            incorrectFeedback: "Try again. Test: can you replace the pronoun with him/her? If yes, use 'whom'. Structure: The + noun + whom + subject + verb + adverb + main verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Проверка: можно ли заменить местоимение на him/her? Если да — используйте 'whom'. Структура: The + существительное + whom + подлежащее + глагол + наречие + главный глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Anyone", "who", "wants", "to", "join", "the", "club", "must", "register", "online."],
+            correctAnswer: "Anyone who wants to join the club must register online.",
+            correctFeedback: "Perfect! 'Anyone who wants to join the club must register online.' 'Who' is the subject — anyone wants. Test: 'he/she wants' ✓ → use 'who'. After 'anyone', 'someone', 'everyone', use 'who'.",
+            correctFeedbackRu: "Идеально! 'Anyone who wants to join the club must register online.' 'Who' является подлежащим — anyone wants. Проверка: 'he/she wants' ✓ → используйте 'who'. После 'anyone', 'someone', 'everyone' используйте 'who'.",
+            incorrectFeedback: "Try again. Use 'who' as subject after indefinite pronouns (anyone, someone). Structure: indefinite pronoun + who + verb + infinitive phrase + modal + verb + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте 'who' как подлежащее после неопределённых местоимений (anyone, someone). Структура: неопределённое местоимение + who + глагол + инфинитивная фраза + модальный глагол + глагол + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "specialist", "whom", "the", "hospital", "recommended", "was", "fully", "booked."],
+            correctAnswer: "The specialist whom the hospital recommended was fully booked.",
+            correctFeedback: "Correct! 'The specialist whom the hospital recommended was fully booked.' 'Whom' is the object — the hospital recommended them. Test: 'the hospital recommended him/her' ✓ → use 'whom'.",
+            correctFeedbackRu: "Правильно! 'The specialist whom the hospital recommended was fully booked.' 'Whom' является дополнением — больница рекомендовала его. Проверка: 'the hospital recommended him/her' ✓ → используйте 'whom'.",
+            incorrectFeedback: "Try again. 'Whom' is the object of the clause. Test: replace with him/her. Structure: The + noun + whom + subject + verb + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whom' является дополнением придаточного. Проверка: замените на him/her. Структура: The + существительное + whom + подлежащее + глагол + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Students", "who", "fail", "the", "exam", "can", "retake", "it", "in", "June."],
+            correctAnswer: "Students who fail the exam can retake it in June.",
+            correctFeedback: "Excellent! 'Students who fail the exam can retake it in June.' 'Who' is the subject — the students fail. Test: 'they fail' ✓ → use 'who'. The defining clause identifies which students can retake.",
+            correctFeedbackRu: "Отлично! 'Students who fail the exam can retake it in June.' 'Who' является подлежащим — студенты не сдают. Проверка: 'they fail' ✓ → используйте 'who'. Определительное придаточное уточняет, какие студенты могут пересдать.",
+            incorrectFeedback: "Try again. 'Who' is the subject of the relative clause. Structure: noun (people) + who + verb + object + modal + verb + pronoun + time.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Who' является подлежащим придаточного. Структура: существительное (люди) + who + глагол + дополнение + модальный глагол + глагол + местоимение + время."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "guest", "whom", "the", "hotel", "upgraded", "was", "a", "famous", "journalist."],
+            correctAnswer: "The guest whom the hotel upgraded was a famous journalist.",
+            correctFeedback: "Right! 'The guest whom the hotel upgraded was a famous journalist.' 'Whom' is the object — the hotel upgraded them. Test: 'the hotel upgraded him/her' ✓ → use 'whom'.",
+            correctFeedbackRu: "Верно! 'The guest whom the hotel upgraded was a famous journalist.' 'Whom' является дополнением — отель повысил его категорию. Проверка: 'the hotel upgraded him/her' ✓ → используйте 'whom'.",
+            incorrectFeedback: "Try again. 'Whom' is the object. Test: replace with him/her. Structure: The + noun + whom + subject + verb + main verb + article + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whom' является дополнением. Проверка: замените на him/her. Структура: The + существительное + whom + подлежащее + глагол + главный глагол + артикль + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "pilot", "who", "landed", "the", "plane", "safely", "received", "an", "award."],
+            correctAnswer: "The pilot who landed the plane safely received an award.",
+            correctFeedback: "Perfect! 'The pilot who landed the plane safely received an award.' 'Who' is the subject — the pilot landed. Test: 'he/she landed the plane safely' ✓ → use 'who'.",
+            correctFeedbackRu: "Идеально! 'The pilot who landed the plane safely received an award.' 'Who' является подлежащим — пилот посадил. Проверка: 'he/she landed the plane safely' ✓ → используйте 'who'.",
+            incorrectFeedback: "Try again. 'Who' is the subject of the relative clause. Structure: The + noun + who + verb + object + adverb + main verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Who' является подлежащим придаточного. Структура: The + существительное + who + глагол + дополнение + наречие + главный глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "volunteers", "whom", "the", "charity", "trained", "did", "an", "excellent", "job."],
+            correctAnswer: "The volunteers whom the charity trained did an excellent job.",
+            correctFeedback: "Correct! 'The volunteers whom the charity trained did an excellent job.' 'Whom' is the object — the charity trained them. Test: 'the charity trained them' ✓ → use 'whom'.",
+            correctFeedbackRu: "Правильно! 'The volunteers whom the charity trained did an excellent job.' 'Whom' является дополнением — благотворительная организация обучила их. Проверка: 'the charity trained them' ✓ → используйте 'whom'.",
+            incorrectFeedback: "Try again. 'Whom' is the object. Test: replace with them. Structure: The + noun + whom + subject + verb + main verb + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whom' является дополнением. Проверка: замените на them. Структура: The + существительное + whom + подлежащее + глагол + главный глагол + прилагательное + существительное."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Defining Relative Clauses - Sentence Building - Mixed Pronouns
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page8'] = {
+    title: "Defining Relative Clauses - Mixed Pronouns",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "neighbourhood", "where", "she", "grew", "up", "is", "very", "different", "now."],
+            correctAnswer: "The neighbourhood where she grew up is very different now.",
+            correctFeedback: "Perfect! 'The neighbourhood where she grew up is very different now.' 'Where' is used for places. The defining clause 'where she grew up' identifies which specific neighbourhood.",
+            correctFeedbackRu: "Идеально! 'The neighbourhood where she grew up is very different now.' 'Where' используется для мест. Определительное придаточное 'where she grew up' уточняет конкретный район.",
+            incorrectFeedback: "Try again. 'Where' = for places, 'when' = for times, 'who' = for people, 'which'/'that' = for things. Structure: The + noun (place) + where + subject + verb + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Where' = для мест, 'when' = для времён, 'who' = для людей, 'which'/'that' = для предметов. Структура: The + существительное (место) + where + подлежащее + глагол + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "athlete", "whose", "record", "was", "broken", "last", "year", "has", "retired."],
+            correctAnswer: "The athlete whose record was broken last year has retired.",
+            correctFeedback: "Correct! 'The athlete whose record was broken last year has retired.' 'Whose' shows possession — the record belongs to the athlete. The defining clause identifies the specific athlete.",
+            correctFeedbackRu: "Правильно! 'The athlete whose record was broken last year has retired.' 'Whose' показывает принадлежность — рекорд принадлежит спортсмену. Определительное придаточное уточняет конкретного спортсмена.",
+            incorrectFeedback: "Try again. Choose: 'whose' for possession. Structure: The + noun + whose + noun (possessed) + passive verb + time + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Выбирайте: 'whose' для принадлежности. Структура: The + существительное + whose + существительное (владеемое) + пассивный глагол + время + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Have", "you", "read", "the", "article", "that", "was", "published", "this", "morning?"],
+            correctAnswer: "Have you read the article that was published this morning?",
+            correctFeedback: "Excellent! 'Have you read the article that was published this morning?' 'That' refers to 'the article' — a thing. 'That' is the subject of the relative clause here.",
+            correctFeedbackRu: "Отлично! 'Have you read the article that was published this morning?' 'That' относится к 'the article' — предмету. 'That' является подлежащим придаточного здесь.",
+            incorrectFeedback: "Try again. 'That' can be used for things (and people). Structure: Have you read + the + noun + that + passive verb + time expression?",
+            incorrectFeedbackRu: "Попробуйте снова. 'That' может использоваться для предметов (и людей). Структура: Have you read + the + существительное + that + пассивный глагол + временное выражение?"
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "moment", "when", "she", "saw", "him", "again", "she", "burst", "into", "tears."],
+            correctAnswer: "The moment when she saw him again she burst into tears.",
+            correctFeedback: "Right! 'The moment when she saw him again she burst into tears.' 'When' refers to 'the moment' — a time noun. The defining clause identifies which moment caused the tears.",
+            correctFeedbackRu: "Верно! 'The moment when she saw him again she burst into tears.' 'When' относится к 'the moment' — существительному времени. Определительное придаточное уточняет, какой именно момент вызвал слёзы.",
+            incorrectFeedback: "Try again. 'When' is used for time nouns. Structure: The + time noun + when + subject + verb + object + adverb + subject + verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'When' используется для существительных времени. Структура: The + существительное времени + when + подлежащее + глагол + дополнение + наречие + подлежащее + глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "children", "who", "arrive", "late", "miss", "the", "first", "lesson."],
+            correctAnswer: "The children who arrive late miss the first lesson.",
+            correctFeedback: "Perfect! 'The children who arrive late miss the first lesson.' 'Who' is used for people. The defining clause 'who arrive late' specifies which children miss the first lesson.",
+            correctFeedbackRu: "Идеально! 'The children who arrive late miss the first lesson.' 'Who' используется для людей. Определительное придаточное 'who arrive late' уточняет, какие именно дети пропускают первый урок.",
+            incorrectFeedback: "Try again. 'Who' is used for people. Structure: The + noun (people) + who + verb + adverb + main verb + article + ordinal + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Who' используется для людей. Структура: The + существительное (люди) + who + глагол + наречие + главный глагол + артикль + порядковое + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["This", "is", "the", "town", "where", "the", "first", "telephone", "was", "invented."],
+            correctAnswer: "This is the town where the first telephone was invented.",
+            correctFeedback: "Correct! 'This is the town where the first telephone was invented.' 'Where' refers to 'the town' — a place. The defining clause identifies the specific town associated with the invention.",
+            correctFeedbackRu: "Правильно! 'This is the town where the first telephone was invented.' 'Where' относится к 'the town' — месту. Определительное придаточное уточняет конкретный город, связанный с изобретением.",
+            incorrectFeedback: "Try again. 'Where' is used for places. Structure: This is + the + noun (place) + where + subject + passive verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Where' используется для мест. Структура: This is + the + существительное (место) + where + подлежащее + пассивный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "exam", "which", "I", "failed", "twice", "is", "very", "hard."],
+            correctAnswer: "The exam which I failed twice is very hard.",
+            correctFeedback: "Excellent! 'The exam which I failed twice is very hard.' 'Which' refers to 'the exam' — a thing. 'Which' is the object of 'failed' — I failed it.",
+            correctFeedbackRu: "Отлично! 'The exam which I failed twice is very hard.' 'Which' относится к 'the exam' — предмету. 'Which' является дополнением 'failed' — я его провалил.",
+            incorrectFeedback: "Try again. 'Which' is used for things. Structure: The + noun (thing) + which + subject + verb + adverb + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which' используется для предметов. Структура: The + существительное (предмет) + which + подлежащее + глагол + наречие + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "company", "whose", "CEO", "resigned", "last", "month", "is", "in", "trouble."],
+            correctAnswer: "The company whose CEO resigned last month is in trouble.",
+            correctFeedback: "Right! 'The company whose CEO resigned last month is in trouble.' 'Whose' refers to 'the company' — a thing/organisation. 'Whose CEO' = 'its CEO'. The clause identifies the specific company.",
+            correctFeedbackRu: "Верно! 'The company whose CEO resigned last month is in trouble.' 'Whose' относится к 'the company' — предмету/организации. 'Whose CEO' = 'its CEO'. Придаточное уточняет конкретную компанию.",
+            incorrectFeedback: "Try again. 'Whose' can refer to companies and things. Structure: The + noun + whose + noun (possessed) + verb + time + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' может относиться к компаниям и предметам. Структура: The + существительное + whose + существительное (владеемое) + глагол + время + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "day", "when", "I", "got", "my", "exam", "results", "was", "the", "most", "stressful", "of", "my", "life."],
+            correctAnswer: "The day when I got my exam results was the most stressful of my life.",
+            correctFeedback: "Perfect! 'The day when I got my exam results was the most stressful of my life.' 'When' refers to 'the day' — a time noun. The defining clause identifies which specific day.",
+            correctFeedbackRu: "Идеально! 'The day when I got my exam results was the most stressful of my life.' 'When' относится к 'the day' — существительному времени. Определительное придаточное уточняет конкретный день.",
+            incorrectFeedback: "Try again. 'When' refers to time nouns. Structure: The + time noun + when + subject + verb + object + main verb + superlative phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. 'When' относится к существительным времени. Структура: The + существительное времени + when + подлежащее + глагол + дополнение + главный глагол + фраза с превосходной степенью."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "prefer", "people", "who", "are", "honest", "and", "direct."],
+            correctAnswer: "I prefer people who are honest and direct.",
+            correctFeedback: "Correct! 'I prefer people who are honest and direct.' 'Who' refers to 'people'. The defining clause 'who are honest and direct' specifies which type of people are preferred.",
+            correctFeedbackRu: "Правильно! 'I prefer people who are honest and direct.' 'Who' относится к 'people'. Определительное придаточное 'who are honest and direct' уточняет, какой тип людей предпочтителен.",
+            incorrectFeedback: "Try again. 'Who' is used for people. Structure: Subject + verb + noun (people) + who + verb + adjective + and + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Who' используется для людей. Структура: Подлежащее + глагол + существительное (люди) + who + глагол + прилагательное + and + прилагательное."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Defining Relative Clauses - Sentence Building - Defining vs Non-defining
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page9'] = {
+    title: "Defining Relative Clauses - Defining vs Non-defining",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "student", "who", "scored", "highest", "will", "receive", "a", "scholarship."],
+            correctAnswer: "The student who scored highest will receive a scholarship.",
+            correctFeedback: "Perfect! 'The student who scored highest will receive a scholarship.' This is a DEFINING relative clause — it tells us WHICH student. Without 'who scored highest', we wouldn't know which student.",
+            correctFeedbackRu: "Идеально! 'The student who scored highest will receive a scholarship.' Это ОПРЕДЕЛИТЕЛЬНОЕ придаточное — оно говорит нам, КАКОЙ студент. Без 'who scored highest' мы бы не знали, о каком студенте.",
+            incorrectFeedback: "Try again. Defining clauses identify which person/thing. No commas. Structure: The + noun + who + verb + adverb + modal + verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Определительные придаточные уточняют, какой именно человек/предмет. Без запятых. Структура: The + существительное + who + глагол + наречие + модальный глагол + глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "sister,", "who", "lives", "in", "Paris,", "is", "visiting", "us", "next", "week."],
+            correctAnswer: "My sister, who lives in Paris, is visiting us next week.",
+            correctFeedback: "Correct! 'My sister, who lives in Paris, is visiting us next week.' This is a NON-DEFINING relative clause — the commas show the clause is extra information. I only have one sister, so we already know who she is.",
+            correctFeedbackRu: "Правильно! 'My sister, who lives in Paris, is visiting us next week.' Это НЕОПРЕДЕЛИТЕЛЬНОЕ придаточное — запятые показывают, что придаточное является дополнительной информацией. У меня одна сестра, поэтому мы уже знаем, кто она.",
+            incorrectFeedback: "Try again. Non-defining clauses have commas before and after. Structure: noun, + who + verb + prepositional phrase, + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Неопределительные придаточные имеют запятые до и после. Структура: существительное, + who + глагол + предложная фраза, + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "restaurant", "that", "serves", "the", "best", "seafood", "is", "near", "the", "harbour."],
+            correctAnswer: "The restaurant that serves the best seafood is near the harbour.",
+            correctFeedback: "Excellent! 'The restaurant that serves the best seafood is near the harbour.' This is a DEFINING clause — it identifies WHICH restaurant. There may be many restaurants; this one is defined by the best seafood.",
+            correctFeedbackRu: "Отлично! 'The restaurant that serves the best seafood is near the harbour.' Это ОПРЕДЕЛИТЕЛЬНОЕ придаточное — оно указывает, КАКОЙ ресторан. Может быть много ресторанов; этот определяется лучшими морепродуктами.",
+            incorrectFeedback: "Try again. Defining clauses have no commas. After 'the + noun' + defining clause. Structure: The + noun + that + verb + object + main verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Определительные придаточные не имеют запятых. После 'the + существительное' + определительное придаточное. Структура: The + существительное + that + глагол + дополнение + главный глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["London,", "which", "is", "the", "capital", "of", "England,", "attracts", "millions", "of", "tourists."],
+            correctAnswer: "London, which is the capital of England, attracts millions of tourists.",
+            correctFeedback: "Right! 'London, which is the capital of England, attracts millions of tourists.' This is a NON-DEFINING clause — commas are used because 'London' is a unique name. Everyone knows which city we mean.",
+            correctFeedbackRu: "Верно! 'London, which is the capital of England, attracts millions of tourists.' Это НЕОПРЕДЕЛИТЕЛЬНОЕ придаточное — запятые используются, потому что 'London' — уникальное имя. Все знают, какой город имеется в виду.",
+            incorrectFeedback: "Try again. Non-defining clauses add extra information about something already identified. Commas required. Use 'which' not 'that' in non-defining clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. Неопределительные придаточные добавляют дополнительную информацию о чём-то уже известном. Запятые обязательны. Используйте 'which', а не 'that' в неопределительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Any", "student", "who", "is", "caught", "cheating", "will", "be", "expelled."],
+            correctAnswer: "Any student who is caught cheating will be expelled.",
+            correctFeedback: "Perfect! 'Any student who is caught cheating will be expelled.' This is a DEFINING clause — it specifies WHICH students will be expelled. Without the clause, the sentence would be incomplete ('any student will be expelled').",
+            correctFeedbackRu: "Идеально! 'Any student who is caught cheating will be expelled.' Это ОПРЕДЕЛИТЕЛЬНОЕ придаточное — оно уточняет, КАКИЕ студенты будут отчислены. Без придаточного предложение было бы неполным.",
+            incorrectFeedback: "Try again. Defining clauses identify which person/thing. No commas. Structure: Any + noun + who + passive verb + gerund + modal + passive verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Определительные придаточные указывают, какой именно человек/предмет. Без запятых. Структура: Any + существительное + who + пассивный глагол + герундий + модальный глагол + пассивный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "father,", "who", "worked", "as", "a", "teacher", "for", "thirty", "years,", "has", "just", "retired."],
+            correctAnswer: "My father, who worked as a teacher for thirty years, has just retired.",
+            correctFeedback: "Correct! 'My father, who worked as a teacher for thirty years, has just retired.' This is a NON-DEFINING clause. The speaker has one father, so commas are required — the clause just adds extra information.",
+            correctFeedbackRu: "Правильно! 'My father, who worked as a teacher for thirty years, has just retired.' Это НЕОПРЕДЕЛИТЕЛЬНОЕ придаточное. У говорящего один отец, поэтому запятые обязательны — придаточное добавляет лишь дополнительную информацию.",
+            incorrectFeedback: "Try again. Non-defining clauses need commas before and after. Structure: noun, + who + verb + complement + time, + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Неопределительные придаточные требуют запятых до и после. Структура: существительное, + who + глагол + дополнение + время, + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "phone", "that", "she", "dropped", "in", "the", "swimming", "pool", "stopped", "working."],
+            correctAnswer: "The phone that she dropped in the swimming pool stopped working.",
+            correctFeedback: "Excellent! 'The phone that she dropped in the swimming pool stopped working.' This is a DEFINING clause — it identifies WHICH phone stopped working. 'That she dropped in the swimming pool' is essential information.",
+            correctFeedbackRu: "Отлично! 'The phone that she dropped in the swimming pool stopped working.' Это ОПРЕДЕЛИТЕЛЬНОЕ придаточное — оно уточняет, КАКОЙ телефон перестал работать. 'That she dropped in the swimming pool' — существенная информация.",
+            incorrectFeedback: "Try again. Defining clauses identify which person/thing. No commas. Structure: The + noun + that + subject + verb + prepositional phrase + main verb + gerund.",
+            incorrectFeedbackRu: "Попробуйте снова. Определительные придаточные указывают, какой именно человек/предмет. Без запятых. Структура: The + существительное + that + подлежащее + глагол + предложная фраза + главный глагол + герундий."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "best", "friend,", "whom", "I", "have", "known", "since", "childhood,", "lives", "in", "Canada."],
+            correctAnswer: "My best friend, whom I have known since childhood, lives in Canada.",
+            correctFeedback: "Right! 'My best friend, whom I have known since childhood, lives in Canada.' Non-defining clause with commas. 'Whom' is formal object. You could also say 'who' — both are acceptable.",
+            correctFeedbackRu: "Верно! 'My best friend, whom I have known since childhood, lives in Canada.' Неопределительное придаточное с запятыми. 'Whom' — формальное дополнение. Можно сказать и 'who' — оба варианта приемлемы.",
+            incorrectFeedback: "Try again. Non-defining clause with commas. 'Whom' is used as the object. Structure: noun, + whom + subject + verb + time phrase, + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Неопределительное придаточное с запятыми. 'Whom' используется как дополнение. Структура: существительное, + whom + подлежащее + глагол + временная фраза, + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["People", "who", "exercise", "regularly", "are", "generally", "healthier."],
+            correctAnswer: "People who exercise regularly are generally healthier.",
+            correctFeedback: "Perfect! 'People who exercise regularly are generally healthier.' This is a DEFINING clause — it specifies WHICH people are generally healthier. Without the clause, 'People are generally healthier' makes no sense.",
+            correctFeedbackRu: "Идеально! 'People who exercise regularly are generally healthier.' Это ОПРЕДЕЛИТЕЛЬНОЕ придаточное — оно уточняет, КАКИЕ люди в целом здоровее. Без придаточного 'People are generally healthier' не имеет смысла.",
+            incorrectFeedback: "Try again. Defining clauses have no commas. Structure: noun (people) + who + verb + adverb + main verb + adverb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. Определительные придаточные не имеют запятых. Структура: существительное (люди) + who + глагол + наречие + главный глагол + наречие + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Eiffel", "Tower,", "which", "was", "built", "in", "1889,", "is", "visited", "by", "millions", "every", "year."],
+            correctAnswer: "The Eiffel Tower, which was built in 1889, is visited by millions every year.",
+            correctFeedback: "Correct! 'The Eiffel Tower, which was built in 1889, is visited by millions every year.' NON-DEFINING clause — commas required. There is only one Eiffel Tower, so it is already identified.",
+            correctFeedbackRu: "Правильно! 'The Eiffel Tower, which was built in 1889, is visited by millions every year.' НЕОПРЕДЕЛИТЕЛЬНОЕ придаточное — запятые обязательны. Эйфелева башня одна, поэтому она уже идентифицирована.",
+            incorrectFeedback: "Try again. Non-defining clauses add extra information. Commas required. Use 'which' (not 'that') in non-defining clauses. Structure: proper noun, + which + passive verb + date, + passive verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Неопределительные придаточные добавляют дополнительную информацию. Запятые обязательны. Используйте 'which' (не 'that') в неопределительных придаточных. Структура: имя собственное, + which + пассивный глагол + дата, + пассивный глагол."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Defining Relative Clauses - Sentence Building - Mixed Review
+============================================ */
+window.grammarExercises['relative']['defining-relative-clauses-sentence-page10'] = {
+    title: "Defining Relative Clauses - Mixed Review",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "city", "where", "the", "conference", "will", "be", "held", "is", "Vienna."],
+            correctAnswer: "The city where the conference will be held is Vienna.",
+            correctFeedback: "Perfect! 'The city where the conference will be held is Vienna.' 'Where' is used for places. The defining clause 'where the conference will be held' identifies which city.",
+            correctFeedbackRu: "Идеально! 'The city where the conference will be held is Vienna.' 'Where' используется для мест. Определительное придаточное 'where the conference will be held' уточняет, какой именно город.",
+            incorrectFeedback: "Try again. 'Where' = places. Structure: The + noun (place) + where + subject + modal + passive verb + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Where' = места. Структура: The + существительное (место) + where + подлежащее + модальный глагол + пассивный глагол + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "applicants", "who", "have", "the", "most", "experience", "will", "be", "shortlisted."],
+            correctAnswer: "The applicants who have the most experience will be shortlisted.",
+            correctFeedback: "Correct! 'The applicants who have the most experience will be shortlisted.' 'Who' is used for people. The defining clause specifies WHICH applicants — only those with the most experience.",
+            correctFeedbackRu: "Правильно! 'The applicants who have the most experience will be shortlisted.' 'Who' используется для людей. Определительное придаточное уточняет, КАКИЕ соискатели — только те, у кого больше всего опыта.",
+            incorrectFeedback: "Try again. 'Who' = people. Structure: The + noun (people) + who + verb + object + modal + passive verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Who' = люди. Структура: The + существительное (люди) + who + глагол + дополнение + модальный глагол + пассивный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "prize", "that", "she", "won", "last", "year", "changed", "her", "life."],
+            correctAnswer: "The prize that she won last year changed her life.",
+            correctFeedback: "Excellent! 'The prize that she won last year changed her life.' 'That' refers to 'the prize' — a thing. The defining clause 'that she won last year' identifies the specific prize.",
+            correctFeedbackRu: "Отлично! 'The prize that she won last year changed her life.' 'That' относится к 'the prize' — предмету. Определительное придаточное 'that she won last year' уточняет конкретный приз.",
+            incorrectFeedback: "Try again. 'That' = things and people. Structure: The + noun (thing) + that + subject + verb + time + main verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. 'That' = предметы и люди. Структура: The + существительное (предмет) + that + подлежащее + глагол + время + главный глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "manager", "whose", "team", "performed", "best", "was", "given", "a", "bonus."],
+            correctAnswer: "The manager whose team performed best was given a bonus.",
+            correctFeedback: "Right! 'The manager whose team performed best was given a bonus.' 'Whose' shows possession — the team belongs to the manager. The defining clause identifies which specific manager.",
+            correctFeedbackRu: "Верно! 'The manager whose team performed best was given a bonus.' 'Whose' показывает принадлежность — команда принадлежит менеджеру. Определительное придаточное уточняет конкретного менеджера.",
+            incorrectFeedback: "Try again. 'Whose' = possession. Structure: The + noun + whose + noun (possessed) + verb + adverb + passive verb + article + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' = принадлежность. Структура: The + существительное + whose + существительное (владеемое) + глагол + наречие + пассивный глагол + артикль + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "evening", "when", "we", "got", "lost", "in", "the", "forest", "was", "quite", "frightening."],
+            correctAnswer: "The evening when we got lost in the forest was quite frightening.",
+            correctFeedback: "Perfect! 'The evening when we got lost in the forest was quite frightening.' 'When' refers to 'the evening' — a time noun. The defining clause identifies which specific evening.",
+            correctFeedbackRu: "Идеально! 'The evening when we got lost in the forest was quite frightening.' 'When' относится к 'the evening' — существительному времени. Определительное придаточное уточняет конкретный вечер.",
+            incorrectFeedback: "Try again. 'When' = time nouns. Structure: The + time noun + when + subject + verb + prepositional phrase + main verb + adjective.",
+            incorrectFeedbackRu: "Попробуйте снова. 'When' = существительные времени. Структура: The + существительное времени + when + подлежащее + глагол + предложная фраза + главный глагол + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "software", "we", "use", "in", "the", "office", "needs", "an", "urgent", "update."],
+            correctAnswer: "The software we use in the office needs an urgent update.",
+            correctFeedback: "Correct! 'The software we use in the office needs an urgent update.' The relative pronoun 'which/that' has been omitted — it is the object of 'use'. This is very natural in everyday English.",
+            correctFeedbackRu: "Правильно! 'The software we use in the office needs an urgent update.' Относительное местоимение 'which/that' опущено — оно является дополнением 'use'. Это очень естественно в повседневном английском.",
+            incorrectFeedback: "Try again. Object relative pronouns can be omitted. Structure: The + noun + subject + verb + prepositional phrase + main verb + object.",
+            incorrectFeedbackRu: "Попробуйте снова. Объектные относительные местоимения можно опускать. Структура: The + существительное + подлежащее + глагол + предложная фраза + главный глагол + дополнение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "journalist", "who", "broke", "the", "story", "won", "several", "awards."],
+            correctAnswer: "The journalist who broke the story won several awards.",
+            correctFeedback: "Excellent! 'The journalist who broke the story won several awards.' 'Who' is the subject — the journalist broke the story. The defining clause identifies which specific journalist won awards.",
+            correctFeedbackRu: "Отлично! 'The journalist who broke the story won several awards.' 'Who' является подлежащим — журналист раскрыл историю. Определительное придаточное уточняет конкретного журналиста.",
+            incorrectFeedback: "Try again. 'Who' = subject for people. Structure: The + noun (person) + who + verb + object + main verb + adjective + noun.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Who' = подлежащее для людей. Структура: The + существительное (человек) + who + глагол + дополнение + главный глагол + прилагательное + существительное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "country", "where", "he", "was", "born", "no", "longer", "exists."],
+            correctAnswer: "The country where he was born no longer exists.",
+            correctFeedback: "Right! 'The country where he was born no longer exists.' 'Where' refers to 'the country' — a place. The defining clause 'where he was born' identifies the specific country.",
+            correctFeedbackRu: "Верно! 'The country where he was born no longer exists.' 'Where' относится к 'the country' — месту. Определительное придаточное 'where he was born' уточняет конкретную страну.",
+            incorrectFeedback: "Try again. 'Where' = places. Structure: The + noun (place) + where + subject + passive verb + adverb + main verb.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Where' = места. Структура: The + существительное (место) + where + подлежащее + пассивный глагол + наречие + главный глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "students", "whose", "projects", "are", "selected", "will", "present", "at", "the", "conference."],
+            correctAnswer: "The students whose projects are selected will present at the conference.",
+            correctFeedback: "Perfect! 'The students whose projects are selected will present at the conference.' 'Whose' shows possession — the projects belong to the students. The defining clause identifies which students will present.",
+            correctFeedbackRu: "Идеально! 'The students whose projects are selected will present at the conference.' 'Whose' показывает принадлежность — проекты принадлежат студентам. Определительное придаточное уточняет, какие именно студенты будут выступать.",
+            incorrectFeedback: "Try again. 'Whose' = possession. Structure: The + noun + whose + noun (possessed) + passive verb + modal + verb + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' = принадлежность. Структура: The + существительное + whose + существительное (владеемое) + пассивный глагол + модальный глагол + глагол + предложная фраза."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["I", "remember", "everything", "that", "my", "grandmother", "taught", "me."],
+            correctAnswer: "I remember everything that my grandmother taught me.",
+            correctFeedback: "Correct! 'I remember everything that my grandmother taught me.' After 'everything', use 'that' — not 'which'. This is a key rule: indefinite pronouns (everything, nothing, something) always use 'that'.",
+            correctFeedbackRu: "Правильно! 'I remember everything that my grandmother taught me.' После 'everything' используйте 'that' — не 'which'. Это ключевое правило: неопределённые местоимения (everything, nothing, something) всегда используют 'that'.",
+            incorrectFeedback: "Try again. After 'everything', use 'that'. Structure: Subject + verb + everything + that + subject + verb + indirect object.",
+            incorrectFeedbackRu: "Попробуйте снова. После 'everything' используйте 'that'. Структура: Подлежащее + глагол + everything + that + подлежащее + глагол + косвенное дополнение."
+        }
+    ]
+};
