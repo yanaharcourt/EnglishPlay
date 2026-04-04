@@ -1697,5 +1697,1198 @@ window.grammarExercises['relative']['non-defining-with-commas-page10'] = {
     ]
 };
 
-console.log("Non-defining Relative Clauses with Commas - Multiple Choice Pages 1-10 loaded successfully!");
-console.log("===== ALL 10 PAGES LOADED =====");
+/* =============================================================================== */
+/* ===========================Fill in the Gaps Exercises========================== */
+
+/* ============================================
+Page 1: Fill in WHO
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page1'] = {
+    title: "Non-defining Clauses with Commas - Who",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "My colleague, ____ has worked here for fifteen years, is finally getting a promotion.",
+            correctAnswer: "who",
+            options: ["who", "which", "that", "whose"],
+            correctFeedback: "Correct! 'Who' is used for people in non-defining relative clauses. 'My colleague' is already identified, so the clause adds extra information. 'That' is never used in non-defining clauses.",
+            correctFeedbackRu: "Правильно! 'Who' используется для людей в неограничительных придаточных. 'My colleague' уже идентифицирован, поэтому придаточное добавляет дополнительную информацию. 'That' никогда не используется в неограничительных придаточных.",
+            incorrectFeedback: "Incorrect. Use 'who' for a person (my colleague) in a non-defining relative clause. Remember: 'that' is never permitted in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'who' для человека (my colleague) в неограничительном придаточном. Помните: 'that' никогда не допускается в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The architect, ____ designed the new library, received an international award.",
+            correctAnswer: "who",
+            options: ["who", "which", "that", "whom"],
+            correctFeedback: "Correct! 'Who' is the subject pronoun for people. The architect is the subject of the clause — she/he designed the library. Non-defining clauses about people use 'who', never 'that'.",
+            correctFeedbackRu: "Правильно! 'Who' — местоимение-подлежащее для людей. Архитектор является подлежащим придаточного — он/она спроектировал(а) библиотеку. Неограничительные придаточные о людях используют 'who', никогда не 'that'.",
+            incorrectFeedback: "Incorrect. The architect (a person) is the subject of the relative clause, so use 'who'. 'Whom' is only correct when the person is the object of the verb.",
+            incorrectFeedbackRu: "Неправильно. Архитектор (человек) является подлежащим придаточного, поэтому используйте 'who'. 'Whom' правильно только когда человек является дополнением глагола."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "Her tutor, ____ specialises in Victorian literature, gave her excellent feedback.",
+            correctAnswer: "who",
+            options: ["who", "which", "that", "where"],
+            correctFeedback: "Correct! 'Who' refers to the tutor, a specific person already identified. The clause 'who specialises in Victorian literature' adds non-essential background information.",
+            correctFeedbackRu: "Правильно! 'Who' относится к репетитору, конкретному уже известному человеку. Придаточное 'who specialises in Victorian literature' добавляет несущественную справочную информацию.",
+            incorrectFeedback: "Incorrect. 'Who' is required for a person (her tutor) as the subject of a non-defining clause. 'Which' is for things, and 'that' is not allowed in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. 'Who' требуется для человека (her tutor) как подлежащего неограничительного придаточного. 'Which' — для предметов, а 'that' не допускается в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The surgeon, ____ performed the operation, has over thirty years of experience.",
+            correctAnswer: "who",
+            options: ["who", "which", "whose", "that"],
+            correctFeedback: "Correct! 'Who' is used for the surgeon (a person) who is the subject of the verb 'performed'. The surgeon performed the operation — subject + verb relationship.",
+            correctFeedbackRu: "Правильно! 'Who' используется для хирурга (человека), который является подлежащим глагола 'performed'. Хирург выполнил операцию — отношение подлежащего и глагола.",
+            incorrectFeedback: "Incorrect. The surgeon is a person and the subject of the clause ('performed'), so 'who' is needed. 'Whose' would show possession, not the subject of 'performed'.",
+            incorrectFeedbackRu: "Неправильно. Хирург — человек и подлежащее придаточного ('performed'), поэтому нужен 'who'. 'Whose' выразил бы принадлежность, а не подлежащее 'performed'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The explorer, ____ crossed the Arctic alone, is speaking at our school tomorrow.",
+            correctAnswer: "who",
+            options: ["who", "which", "that", "what"],
+            correctFeedback: "Correct! 'Who' is used for the explorer, a person who is the subject of the clause. The commas confirm this is non-defining — the explorer is already identified.",
+            correctFeedbackRu: "Правильно! 'Who' используется для исследователя, человека, который является подлежащим придаточного. Запятые подтверждают, что это неограничительное придаточное — исследователь уже идентифицирован.",
+            incorrectFeedback: "Incorrect. Use 'who' for a person (the explorer) in a non-defining clause. 'What' is never a relative pronoun after a noun. 'That' is prohibited in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'who' для человека (the explorer) в неограничительном придаточном. 'What' никогда не является относительным местоимением после существительного. 'That' запрещён в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "His father, ____ retired last spring, now volunteers at a local food bank.",
+            correctAnswer: "who",
+            options: ["who", "which", "that", "whom"],
+            correctFeedback: "Correct! 'Who' refers to his father, a specific person. His father is the subject of the clause — he retired. 'Whom' would only be correct if his father were the object of a verb.",
+            correctFeedbackRu: "Правильно! 'Who' относится к его отцу, конкретному человеку. Его отец является подлежащим придаточного — он вышел на пенсию. 'Whom' было бы правильным только если бы его отец был дополнением глагола.",
+            incorrectFeedback: "Incorrect. 'Who' is correct because his father is the subject of 'retired'. Use 'who' for the subject form and 'whom' for the object form with people.",
+            incorrectFeedbackRu: "Неправильно. 'Who' правильно, потому что его отец является подлежащим 'retired'. Используйте 'who' для формы подлежащего и 'whom' для формы дополнения с людьми."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The novelist, ____ grew up in poverty, draws heavily on her own childhood experiences.",
+            correctAnswer: "who",
+            options: ["who", "which", "whose", "that"],
+            correctFeedback: "Correct! 'Who' is used for the novelist (a person) as the subject of 'grew up'. The commas show this clause is non-defining — the novelist is already known.",
+            correctFeedbackRu: "Правильно! 'Who' используется для романиста (человека) как подлежащего 'grew up'. Запятые показывают, что это придаточное является неограничительным — романист уже известен.",
+            incorrectFeedback: "Incorrect. The novelist is a person and the subject of the clause, so 'who' is required. 'Whose' is the possessive form and would need to be followed by a noun, e.g., 'whose childhood'.",
+            incorrectFeedbackRu: "Неправильно. Романист — человек и подлежащее придаточного, поэтому требуется 'who'. 'Whose' — притяжательная форма и должна следовать за существительным, например, 'whose childhood'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The judge, ____ sentenced the defendant to five years, faced widespread criticism.",
+            correctAnswer: "who",
+            options: ["who", "which", "that", "whose"],
+            correctFeedback: "Correct! 'Who' refers to the judge, a person who is the subject of 'sentenced'. Non-defining clauses about specific people always use 'who' (or 'whom' if object), never 'that'.",
+            correctFeedbackRu: "Правильно! 'Who' относится к судье, человеку, который является подлежащим 'sentenced'. Неограничительные придаточные о конкретных людях всегда используют 'who' (или 'whom' если дополнение), никогда не 'that'.",
+            incorrectFeedback: "Incorrect. The judge (a person) is the subject of the clause, so 'who' is correct. In non-defining clauses, 'that' is never acceptable regardless of whether the noun refers to a person or thing.",
+            incorrectFeedbackRu: "Неправильно. Судья (человек) является подлежащим придаточного, поэтому 'who' правильно. В неограничительных придаточных 'that' никогда не приемлем независимо от того, относится ли существительное к человеку или предмету."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The athlete, ____ broke three world records last season, is only twenty-three.",
+            correctAnswer: "who",
+            options: ["who", "which", "that", "whom"],
+            correctFeedback: "Correct! 'Who' is used for the athlete (a person) who broke world records. The athlete is the subject of the clause, and the commas make it non-defining — we already know which athlete.",
+            correctFeedbackRu: "Правильно! 'Who' используется для спортсмена (человека), который побил мировые рекорды. Спортсмен является подлежащим придаточного, а запятые делают его неограничительным — мы уже знаем, о каком спортсмене идёт речь.",
+            incorrectFeedback: "Incorrect. Use 'who' for a person (the athlete) as the subject of the non-defining clause. 'Whom' would be correct only if someone else performed an action on the athlete.",
+            incorrectFeedbackRu: "Неправильно. Используйте 'who' для человека (the athlete) как подлежащего неограничительного придаточного. 'Whom' было бы правильным только если бы кто-то другой совершил действие над спортсменом."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "Our new manager, ____ previously worked for a rival company, has introduced several changes.",
+            correctAnswer: "who",
+            options: ["who", "which", "that", "whose"],
+            correctFeedback: "Correct! 'Who' refers to 'our new manager', a specific person. The clause gives background information about the manager. Non-defining clauses require commas and 'who' (not 'that') for people.",
+            correctFeedbackRu: "Правильно! 'Who' относится к 'our new manager', конкретному человеку. Придаточное даёт справочную информацию о менеджере. Неограничительные придаточные требуют запятых и 'who' (не 'that') для людей.",
+            incorrectFeedback: "Incorrect. 'Our new manager' is a specific person, so the clause is non-defining and requires 'who'. Remember: 'that' is absolutely prohibited in non-defining relative clauses.",
+            incorrectFeedbackRu: "Неправильно. 'Our new manager' — конкретный человек, поэтому придаточное является неограничительным и требует 'who'. Помните: 'that' абсолютно запрещён в неограничительных придаточных."
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Fill in WHICH
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page2'] = {
+    title: "Non-defining Clauses with Commas - Which",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The painting, ____ sold for over three million pounds, was donated to a national gallery.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "whose"],
+            correctFeedback: "Correct! 'Which' is used for things (the painting) in non-defining relative clauses. The painting is already identified, making the clause non-defining. 'That' is never permitted in non-defining clauses.",
+            correctFeedbackRu: "Правильно! 'Which' используется для предметов (the painting) в неограничительных придаточных. Картина уже идентифицирована, что делает придаточное неограничительным. 'That' никогда не допускается в неограничительных придаточных.",
+            incorrectFeedback: "Incorrect. 'Which' is the correct pronoun for things in non-defining clauses. The painting is an object, so 'who' is wrong, and 'that' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. 'Which' — правильное местоимение для предметов в неограничительных придаточных. Картина — предмет, поэтому 'who' неправильно, а 'that' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The spacecraft, ____ launched in 2021, has now left the solar system.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "whom"],
+            correctFeedback: "Correct! 'Which' refers to the spacecraft, a thing. The spacecraft is already identified as 'the spacecraft launched in 2021', making this additional information non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' относится к космическому кораблю, предмету. Космический корабль уже идентифицирован как 'the spacecraft launched in 2021', что делает эту дополнительную информацию неограничительной.",
+            incorrectFeedback: "Incorrect. The spacecraft is a thing, so use 'which'. In non-defining clauses, 'that' is never acceptable, and 'who'/'whom' are only for people.",
+            incorrectFeedbackRu: "Неправильно. Космический корабль — предмет, поэтому используйте 'which'. В неограничительных придаточных 'that' никогда не приемлем, а 'who'/'whom' — только для людей."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "Her PhD thesis, ____ examined climate change in coastal regions, was published last year.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "where"],
+            correctFeedback: "Correct! 'Which' refers to 'her PhD thesis', a specific document (thing). The possessive 'her' already identifies the thesis, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' относится к 'her PhD thesis', конкретному документу (предмету). Притяжательное 'her' уже идентифицирует диссертацию, делая придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. A thesis is a thing, so use 'which'. 'Where' would describe a location, not a document. 'That' is not allowed in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Диссертация — предмет, поэтому используйте 'which'. 'Where' описывало бы место, а не документ. 'That' не допускается в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The company's headquarters, ____ was built in the 1970s, is due to be demolished.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "whose"],
+            correctFeedback: "Correct! 'Which' is used for 'the company's headquarters', a building (thing). The possessive phrase already specifies which headquarters, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' используется для 'the company's headquarters', здания (предмета). Притяжательная фраза уже указывает, о каких штаб-квартирах идёт речь, делая придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. Headquarters (a building) is a thing, so 'which' is correct. 'Whose' would show possession by the building — e.g., 'whose entrance is impressive' — which is a different structure.",
+            incorrectFeedbackRu: "Неправильно. Штаб-квартира (здание) — предмет, поэтому 'which' правильно. 'Whose' выразило бы принадлежность здания — например, 'whose entrance is impressive' — но это другая структура."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The agreement, ____ had taken two years to negotiate, fell apart within a month.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "what"],
+            correctFeedback: "Correct! 'Which' refers to 'the agreement', a thing. The clause adds the non-essential detail that it took two years to negotiate. 'What' can never introduce a relative clause after a noun.",
+            correctFeedbackRu: "Правильно! 'Which' относится к 'the agreement', предмету. Придаточное добавляет несущественную деталь о том, что на переговоры ушло два года. 'What' никогда не может вводить придаточное после существительного.",
+            incorrectFeedback: "Incorrect. The agreement is a thing, so 'which' is required in this non-defining clause. 'What' is never a relative pronoun. 'That' is prohibited in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Соглашение — предмет, поэтому 'which' требуется в этом неограничительном придаточном. 'What' никогда не является относительным местоимением. 'That' запрещён в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The museum's new exhibition, ____ focuses on the Roman occupation of Britain, opens next week.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "where"],
+            correctFeedback: "Correct! 'Which' is used for 'the museum's new exhibition', a thing. The possessive phrase identifies it specifically, so the additional information is non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' используется для 'the museum's new exhibition', предмета. Притяжательная фраза конкретно его идентифицирует, поэтому дополнительная информация является неограничительной.",
+            incorrectFeedback: "Incorrect. An exhibition is a thing, so use 'which' in the non-defining clause. 'Where' would describe a location inside the museum, not the exhibition itself.",
+            incorrectFeedbackRu: "Неправильно. Выставка — предмет, поэтому используйте 'which' в неограничительном придаточном. 'Where' описывало бы место внутри музея, а не саму выставку."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The legislation, ____ was passed unanimously, came into effect on the first of January.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "whose"],
+            correctFeedback: "Correct! 'Which' refers to 'the legislation', a thing (a law). The legislation is already identified by the definite article, making the clause non-defining and requiring commas and 'which'.",
+            correctFeedbackRu: "Правильно! 'Which' относится к 'the legislation', предмету (закону). Законодательство уже идентифицировано определённым артиклем, что делает придаточное неограничительным, требующим запятых и 'which'.",
+            incorrectFeedback: "Incorrect. Legislation is a thing, so 'which' is correct. The definite article 'the' already specifies which legislation, confirming the clause is non-defining. 'That' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Законодательство — предмет, поэтому 'which' правильно. Определённый артикль 'the' уже указывает, о каком законодательстве идёт речь, подтверждая, что придаточное является неограничительным. 'That' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The storm, ____ caused widespread flooding across the region, lasted three days.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "when"],
+            correctFeedback: "Correct! 'Which' is used for 'the storm', a natural event (thing). The storm is already identified, so the clause is non-defining — it simply adds more detail about the storm.",
+            correctFeedbackRu: "Правильно! 'Which' используется для 'the storm', природного явления (предмета). Шторм уже идентифицирован, поэтому придаточное является неограничительным — оно просто добавляет больше деталей о шторме.",
+            incorrectFeedback: "Incorrect. The storm is a thing, so 'which' is the correct pronoun. 'When' would describe a time, not a storm. 'That' is not permitted in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Шторм — предмет, поэтому 'which' — правильное местоимение. 'When' описывало бы время, а не шторм. 'That' не допускается в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The ancient manuscript, ____ was discovered in a monastery in 1998, is priceless.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "where"],
+            correctFeedback: "Correct! 'Which' refers to 'the ancient manuscript', a thing. The clause 'which was discovered in a monastery in 1998' adds non-essential background information about this specific manuscript.",
+            correctFeedbackRu: "Правильно! 'Which' относится к 'the ancient manuscript', предмету. Придаточное 'which was discovered in a monastery in 1998' добавляет несущественную справочную информацию об этой конкретной рукописи.",
+            incorrectFeedback: "Incorrect. A manuscript is a thing, so 'which' is required. 'Where' could describe the monastery (the location) but not the manuscript itself. 'That' is always prohibited in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Рукопись — предмет, поэтому 'which' требуется. 'Where' могло бы описывать монастырь (место), но не саму рукопись. 'That' всегда запрещён в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "Their joint venture, ____ was launched just two years ago, has already turned a profit.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "what"],
+            correctFeedback: "Correct! 'Which' refers to 'their joint venture', a business project (thing). The possessive 'their' identifies it as a specific venture, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' относится к 'their joint venture', деловому проекту (предмету). Притяжательное 'their' идентифицирует его как конкретное предприятие, делая придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. A joint venture is a thing, so 'which' is correct. 'What' is never a relative pronoun. 'That' cannot be used in non-defining clauses regardless of the type of noun.",
+            incorrectFeedbackRu: "Неправильно. Совместное предприятие — предмет, поэтому 'which' правильно. 'What' никогда не является относительным местоимением. 'That' не может использоваться в неограничительных придаточных независимо от типа существительного."
+        }
+    ]
+};
+
+/* ============================================
+Page 3: Fill in WHOSE
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page3'] = {
+    title: "Non-defining Clauses with Commas - Whose",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The director, ____ previous film was critically acclaimed, has just started working on a new project.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "that"],
+            correctFeedback: "Correct! 'Whose' shows possession — the previous film belongs to the director. The structure is: whose + noun (previous film) + verb (was acclaimed). 'Whose' can be used for both people and things.",
+            correctFeedbackRu: "Правильно! 'Whose' выражает принадлежность — предыдущий фильм принадлежит режиссёру. Структура: whose + существительное (previous film) + глагол (was acclaimed). 'Whose' может использоваться как для людей, так и для предметов.",
+            incorrectFeedback: "Incorrect. 'Whose' is the possessive relative pronoun — the film belongs to the director. 'Who' cannot be directly followed by a noun like 'previous film'.",
+            incorrectFeedbackRu: "Неправильно. 'Whose' — притяжательное относительное местоимение — фильм принадлежит режиссёру. 'Who' не может непосредственно предшествовать существительному, как 'previous film'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The professor, ____ lecture on quantum physics drew a record audience, is retiring this year.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "whom"],
+            correctFeedback: "Correct! 'Whose lecture' — the lecture belongs to the professor. Pattern: whose + noun (lecture) + verb (drew). Think of 'whose' as a possessive: 'her lecture drew a record audience' → 'whose lecture drew'.",
+            correctFeedbackRu: "Правильно! 'Whose lecture' — лекция принадлежит профессору. Образец: whose + существительное (lecture) + глагол (drew). Думайте о 'whose' как о притяжательном: 'her lecture drew a record audience' → 'whose lecture drew'.",
+            incorrectFeedback: "Incorrect. 'Whose' is needed because the lecture belongs to the professor. Replace 'whose' with 'his/her' to check: 'his lecture drew a record audience' ✓ — so 'whose' is correct.",
+            incorrectFeedbackRu: "Неправильно. 'Whose' нужен, потому что лекция принадлежит профессору. Замените 'whose' на 'his/her', чтобы проверить: 'his lecture drew a record audience' ✓ — значит, 'whose' правильно."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The river, ____ banks are lined with ancient oak trees, runs through the centre of the city.",
+            correctAnswer: "whose",
+            options: ["whose", "which", "that", "where"],
+            correctFeedback: "Correct! 'Whose' is used for the river (a thing) to show possession — the banks belong to the river. 'Whose' can refer to inanimate objects as well as people in relative clauses.",
+            correctFeedbackRu: "Правильно! 'Whose' используется для реки (предмета) для выражения принадлежности — берега принадлежат реке. 'Whose' может относиться как к неодушевлённым предметам, так и к людям в придаточных.",
+            incorrectFeedback: "Incorrect. Even though the river is a thing, 'whose' is the correct possessive relative pronoun. Think: 'its banks are lined with trees' → 'whose banks are lined'. 'Which' cannot be directly followed by a noun.",
+            incorrectFeedbackRu: "Неправильно. Даже хотя река — предмет, 'whose' — правильное притяжательное относительное местоимение. Думайте: 'its banks are lined with trees' → 'whose banks are lined'. 'Which' не может непосредственно предшествовать существительному."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The candidate, ____ political views differ significantly from those of the party, is unlikely to be selected.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "that"],
+            correctFeedback: "Correct! 'Whose political views' — the political views belong to the candidate. The structure whose + noun + verb is the possessive relative clause pattern.",
+            correctFeedbackRu: "Правильно! 'Whose political views' — политические взгляды принадлежат кандидату. Структура whose + существительное + глагол — образец притяжательного придаточного.",
+            incorrectFeedback: "Incorrect. 'Whose' shows that the political views belong to the candidate. 'Who' would need to be followed directly by a verb, not a noun like 'political views'.",
+            incorrectFeedbackRu: "Неправильно. 'Whose' показывает, что политические взгляды принадлежат кандидату. За 'who' должен следовать непосредственно глагол, а не существительное, как 'political views'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The software company, ____ valuation has tripled in two years, is planning to go public.",
+            correctAnswer: "whose",
+            options: ["whose", "which", "who", "that"],
+            correctFeedback: "Correct! 'Whose valuation' — the valuation belongs to the software company (an organisation). 'Whose' is used for organisations as well as individuals when expressing possession.",
+            correctFeedbackRu: "Правильно! 'Whose valuation' — оценка принадлежит компании по разработке программного обеспечения (организации). 'Whose' используется для организаций, а также для отдельных лиц при выражении принадлежности.",
+            incorrectFeedback: "Incorrect. The software company's valuation — the valuation belongs to the company. Use 'whose' for organisations too. 'Which' cannot be directly followed by a noun without a preposition.",
+            incorrectFeedbackRu: "Неправильно. Оценка компании по разработке программного обеспечения — оценка принадлежит компании. Используйте 'whose' также для организаций. 'Which' не может непосредственно предшествовать существительному без предлога."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The poet, ____ early death at thirty-six shocked the literary world, left behind a remarkable body of work.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "whom"],
+            correctFeedback: "Correct! 'Whose early death' — the death belongs to the poet. The possessive relative 'whose' + noun (early death) + verb (shocked) is the correct structure here.",
+            correctFeedbackRu: "Правильно! 'Whose early death' — смерть принадлежит поэту. Притяжательное относительное 'whose' + существительное (early death) + глагол (shocked) — правильная структура здесь.",
+            incorrectFeedback: "Incorrect. 'Whose early death' — the early death is the poet's. Test: 'his early death shocked the literary world' → replace 'his' with 'whose'. 'Who' cannot be followed by a noun directly.",
+            incorrectFeedbackRu: "Неправильно. 'Whose early death' — ранняя смерть принадлежит поэту. Тест: 'his early death shocked the literary world' → замените 'his' на 'whose'. 'Who' не может непосредственно предшествовать существительному."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The mountain, ____ peak is permanently covered in snow, can be seen from fifty kilometres away.",
+            correctAnswer: "whose",
+            options: ["whose", "which", "that", "where"],
+            correctFeedback: "Correct! 'Whose peak' — the peak belongs to the mountain (a thing). Even for inanimate things like mountains, 'whose' is the correct possessive relative pronoun.",
+            correctFeedbackRu: "Правильно! 'Whose peak' — пик принадлежит горе (предмету). Даже для неодушевлённых предметов, как горы, 'whose' — правильное притяжательное относительное местоимение.",
+            incorrectFeedback: "Incorrect. 'Whose' is correct for things as well as people. The peak belongs to the mountain. Think: 'its peak is covered in snow' → 'whose peak is covered in snow'.",
+            incorrectFeedbackRu: "Неправильно. 'Whose' правильно как для предметов, так и для людей. Пик принадлежит горе. Думайте: 'its peak is covered in snow' → 'whose peak is covered in snow'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The entrepreneur, ____ start-up attracted £10 million in investment, dropped out of university at nineteen.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "that"],
+            correctFeedback: "Correct! 'Whose start-up' — the start-up belongs to the entrepreneur. Pattern: [noun], whose + noun (start-up) + verb (attracted). This is the standard possessive non-defining clause structure.",
+            correctFeedbackRu: "Правильно! 'Whose start-up' — стартап принадлежит предпринимателю. Образец: [существительное], whose + существительное (start-up) + глагол (attracted). Это стандартная структура притяжательного неограничительного придаточного.",
+            incorrectFeedback: "Incorrect. 'Whose' is needed to show the start-up belongs to the entrepreneur. 'Who' cannot be followed by a noun. 'Which' also cannot be followed directly by a noun without a preposition.",
+            incorrectFeedbackRu: "Неправильно. 'Whose' нужен, чтобы показать, что стартап принадлежит предпринимателю. 'Who' не может предшествовать существительному. 'Which' также не может непосредственно предшествовать существительному без предлога."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The laboratory, ____ equipment is worth over five million pounds, conducts cutting-edge research.",
+            correctAnswer: "whose",
+            options: ["whose", "which", "who", "that"],
+            correctFeedback: "Correct! 'Whose equipment' — the equipment belongs to the laboratory (a thing/institution). 'Whose' is the correct possessive pronoun for both institutions and people.",
+            correctFeedbackRu: "Правильно! 'Whose equipment' — оборудование принадлежит лаборатории (предмету/учреждению). 'Whose' — правильное притяжательное местоимение как для учреждений, так и для людей.",
+            incorrectFeedback: "Incorrect. The equipment belongs to the laboratory, so 'whose' is required. 'Which' cannot be directly followed by a noun — you would need 'of which the equipment is' (very formal and awkward).",
+            incorrectFeedbackRu: "Неправильно. Оборудование принадлежит лаборатории, поэтому 'whose' требуется. 'Which' не может непосредственно предшествовать существительному — вам понадобилось бы 'of which the equipment is' (очень формально и неловко)."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The treaty, ____ terms were agreed after months of difficult negotiations, was signed yesterday.",
+            correctAnswer: "whose",
+            options: ["whose", "which", "that", "of which"],
+            correctFeedback: "Correct! 'Whose terms' — the terms belong to the treaty (a document/thing). 'Whose' can refer to inanimate things when showing possession. Structure: whose + noun (terms) + verb (were agreed).",
+            correctFeedbackRu: "Правильно! 'Whose terms' — условия принадлежат договору (документу/предмету). 'Whose' может относиться к неодушевлённым предметам при выражении принадлежности. Структура: whose + существительное (terms) + глагол (were agreed).",
+            incorrectFeedback: "Incorrect. The terms belong to the treaty, so 'whose' is correct. While 'of which the terms' is technically possible in very formal English, 'whose terms' is the natural choice here.",
+            incorrectFeedbackRu: "Неправильно. Условия принадлежат договору, поэтому 'whose' правильно. Хотя 'of which the terms' технически возможно в очень формальном английском, 'whose terms' — естественный выбор здесь."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Fill in WHOM
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page4'] = {
+    title: "Non-defining Clauses with Commas - Whom",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The consultant, ____ the board had specifically requested, delivered a damning assessment.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "which", "that"],
+            correctFeedback: "Correct! 'Whom' is used because the consultant is the object of 'requested' — the board requested the consultant. Test: 'the board requested him/her' → replace 'him/her' with 'whom'.",
+            correctFeedbackRu: "Правильно! 'Whom' используется, потому что консультант является дополнением 'requested' — совет запросил консультанта. Тест: 'the board requested him/her' → замените 'him/her' на 'whom'.",
+            incorrectFeedback: "Incorrect. The board requested the consultant — the consultant is the object. Use 'whom' for people as objects in relative clauses. 'Who' is only for subjects.",
+            incorrectFeedbackRu: "Неправильно. Совет запросил консультанта — консультант является дополнением. Используйте 'whom' для людей как дополнений в придаточных. 'Who' — только для подлежащих."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The lecturer, ____ the students greatly respected, always encouraged independent thinking.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "which", "whose"],
+            correctFeedback: "Correct! 'Whom' is used because the lecturer is the object — the students respected the lecturer. Test: 'the students respected her' → 'her' = object pronoun → use 'whom'.",
+            correctFeedbackRu: "Правильно! 'Whom' используется, потому что лектор является дополнением — студенты уважали лектора. Тест: 'the students respected her' → 'her' = объектное местоимение → используйте 'whom'.",
+            incorrectFeedback: "Incorrect. The students respected the lecturer (not the lecturer respected the students). The lecturer is the object → use 'whom'. 'Who' would only be correct if the lecturer were the subject.",
+            incorrectFeedbackRu: "Неправильно. Студенты уважали лектора (не лектор уважал студентов). Лектор является дополнением → используйте 'whom'. 'Who' было бы правильным только если бы лектор был подлежащим."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The journalist, ____ the editor had assigned to cover the story, uncovered a major corruption scandal.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "which", "that"],
+            correctFeedback: "Correct! 'Whom' is correct because the journalist is the object of 'assigned' — the editor assigned the journalist. Test: 'the editor assigned her' → 'her' = object → 'whom'.",
+            correctFeedbackRu: "Правильно! 'Whom' правильно, потому что журналист является дополнением 'assigned' — редактор назначил журналиста. Тест: 'the editor assigned her' → 'her' = дополнение → 'whom'.",
+            incorrectFeedback: "Incorrect. The editor assigned the journalist (journalist = object) → use 'whom'. Remember: subject pronoun = 'who', object pronoun = 'whom'. 'That' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Редактор назначил журналиста (журналист = дополнение) → используйте 'whom'. Помните: местоимение-подлежащее = 'who', объектное местоимение = 'whom'. 'That' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The intern, ____ the marketing team had trained over six months, showed exceptional potential.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "whose", "which"],
+            correctFeedback: "Correct! The marketing team trained the intern — the intern is the object. Test: 'the team trained him' → 'him' = object pronoun → use 'whom' in the relative clause.",
+            correctFeedbackRu: "Правильно! Маркетинговая команда обучала стажёра — стажёр является дополнением. Тест: 'the team trained him' → 'him' = объектное местоимение → используйте 'whom' в придаточном.",
+            incorrectFeedback: "Incorrect. The team trained the intern (intern = object) → 'whom'. Quick test: if you can replace the relative pronoun with 'him/her', use 'whom'. If you use 'he/she', use 'who'.",
+            incorrectFeedbackRu: "Неправильно. Команда обучала стажёра (стажёр = дополнение) → 'whom'. Быстрый тест: если вы можете заменить относительное местоимение на 'him/her', используйте 'whom'. Если используете 'he/she', используйте 'who'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The whistleblower, ____ the company had threatened with legal action, became a national hero.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "which", "that"],
+            correctFeedback: "Correct! The company threatened the whistleblower — the whistleblower is the object. Test: 'the company threatened him' → 'him' = object → use 'whom' in the non-defining relative clause.",
+            correctFeedbackRu: "Правильно! Компания угрожала информатору — информатор является дополнением. Тест: 'the company threatened him' → 'him' = дополнение → используйте 'whom' в неограничительном придаточном.",
+            incorrectFeedback: "Incorrect. The whistleblower is the object (the company threatened the whistleblower, not vice versa). Use 'whom' for the object form. 'That' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Информатор является дополнением (компания угрожала информатору, а не наоборот). Используйте 'whom' для формы дополнения. 'That' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The scientist, ____ the institute had funded for a decade, finally made a breakthrough.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "whose", "which"],
+            correctFeedback: "Correct! The institute funded the scientist — the scientist is the object of 'funded'. Test: 'the institute funded her' → 'her' = object → 'whom'. Subject ('who') or object ('whom')? The scientist received funding → object → 'whom'.",
+            correctFeedbackRu: "Правильно! Институт финансировал учёного — учёный является дополнением 'funded'. Тест: 'the institute funded her' → 'her' = дополнение → 'whom'. Подлежащее ('who') или дополнение ('whom')? Учёный получил финансирование → дополнение → 'whom'.",
+            incorrectFeedback: "Incorrect. The scientist received funding (the institute funded the scientist), making the scientist the object → 'whom'. 'Who' is only used when the person is the subject performing the action.",
+            incorrectFeedbackRu: "Неправильно. Учёный получил финансирование (институт финансировал учёного), что делает учёного дополнением → 'whom'. 'Who' используется только когда человек является подлежащим, выполняющим действие."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The refugees, ____ the international community had largely ignored, eventually received substantial aid.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "which", "that"],
+            correctFeedback: "Correct! The international community had ignored the refugees — the refugees are the object. 'Whom' is the object pronoun for people. Test: 'the community had ignored them' → 'them' = object → 'whom'.",
+            correctFeedbackRu: "Правильно! Международное сообщество игнорировало беженцев — беженцы являются дополнением. 'Whom' — объектное местоимение для людей. Тест: 'the community had ignored them' → 'them' = дополнение → 'whom'.",
+            incorrectFeedback: "Incorrect. The refugees are the object (the community ignored them, not the other way round). Use 'whom' for people as objects. 'Which' is for things, and 'that' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Беженцы являются дополнением (сообщество игнорировало их, а не наоборот). Используйте 'whom' для людей как дополнений. 'Which' — для предметов, а 'that' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The author, ____ critics had dismissed as a minor talent, went on to win the Booker Prize.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "whose", "which"],
+            correctFeedback: "Correct! Critics had dismissed the author — the author is the object of 'dismissed'. Test: 'critics dismissed her' → 'her' = object pronoun → replace with 'whom' in the relative clause.",
+            correctFeedbackRu: "Правильно! Критики отвергли автора — автор является дополнением 'dismissed'. Тест: 'critics dismissed her' → 'her' = объектное местоимение → замените на 'whom' в придаточном.",
+            incorrectFeedback: "Incorrect. Critics dismissed the author (not: the author dismissed critics). The author is the object → use 'whom'. 'Whose' would show possession — e.g., 'whose talent critics had dismissed'.",
+            incorrectFeedbackRu: "Неправильно. Критики отвергли автора (не: автор отверг критиков). Автор является дополнением → используйте 'whom'. 'Whose' выразило бы принадлежность — например, 'whose talent critics had dismissed'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The diplomat, ____ both sides trusted implicitly, was asked to mediate the dispute.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "which", "whose"],
+            correctFeedback: "Correct! Both sides trusted the diplomat — the diplomat is the object of 'trusted'. Test: 'both sides trusted him' → 'him' = object → use 'whom'. The diplomat didn't do the trusting — both sides did.",
+            correctFeedbackRu: "Правильно! Обе стороны доверяли дипломату — дипломат является дополнением 'trusted'. Тест: 'both sides trusted him' → 'him' = дополнение → используйте 'whom'. Дипломат не доверял — обе стороны доверяли.",
+            incorrectFeedback: "Incorrect. Both sides trusted the diplomat (diplomat = object). Use 'whom' for the object form with people. 'Who' would make the diplomat the subject — e.g., 'the diplomat, who trusted both sides'.",
+            incorrectFeedbackRu: "Неправильно. Обе стороны доверяли дипломату (дипломат = дополнение). Используйте 'whom' для формы дополнения с людьми. 'Who' сделало бы дипломата подлежащим — например, 'the diplomat, who trusted both sides'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The witness, ____ the prosecution had interviewed three times, finally revealed crucial evidence.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "that", "whose"],
+            correctFeedback: "Correct! The prosecution interviewed the witness — the witness is the object. Test: 'the prosecution interviewed her' → 'her' = object → 'whom'. This is a non-defining clause (the witness is already identified).",
+            correctFeedbackRu: "Правильно! Прокуратура проинтервьюировала свидетеля — свидетель является дополнением. Тест: 'the prosecution interviewed her' → 'her' = дополнение → 'whom'. Это неограничительное придаточное (свидетель уже идентифицирован).",
+            incorrectFeedback: "Incorrect. The prosecution interviewed the witness (witness = object) → 'whom'. 'That' is never used in non-defining clauses. 'Whose' would show possession — 'the witness, whose testimony was crucial'.",
+            incorrectFeedbackRu: "Неправильно. Прокуратура проинтервьюировала свидетеля (свидетель = дополнение) → 'whom'. 'That' никогда не используется в неограничительных придаточных. 'Whose' выразило бы принадлежность — 'the witness, whose testimony was crucial'."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Fill in WHERE and WHEN
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page5'] = {
+    title: "Non-defining Clauses with Commas - Where and When",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "Kyoto, ____ many of Japan's most famous temples are located, is a UNESCO World Heritage city.",
+            correctAnswer: "where",
+            options: ["where", "when", "which", "that"],
+            correctFeedback: "Correct! 'Where' is used for Kyoto, a specific place. It means 'in which' — 'in which many temples are located'. Places take 'where' in non-defining relative clauses.",
+            correctFeedbackRu: "Правильно! 'Where' используется для Киото, конкретного места. Оно означает 'in which' — 'in which many temples are located'. Места принимают 'where' в неограничительных придаточных.",
+            incorrectFeedback: "Incorrect. 'Where' is the correct relative adverb for places. Kyoto is a city (a place), so 'where' (= in which) introduces the additional information about it.",
+            incorrectFeedbackRu: "Неправильно. 'Where' — правильное относительное наречие для мест. Киото — город (место), поэтому 'where' (= in which) вводит дополнительную информацию о нём."
+        },
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "The Middle Ages, ____ the majority of Europeans were illiterate, lasted roughly a thousand years.",
+            correctAnswer: "when",
+            options: ["when", "where", "which", "that"],
+            correctFeedback: "Correct! 'When' is used for the Middle Ages, a historical period (time). 'When' = 'during which'. The clause adds extra information about what characterised this time period.",
+            correctFeedbackRu: "Правильно! 'When' используется для Средних веков, исторического периода (времени). 'When' = 'during which'. Придаточное добавляет дополнительную информацию о том, что характеризовало этот период.",
+            incorrectFeedback: "Incorrect. The Middle Ages is a time period, not a place, so 'when' is the correct relative adverb. 'Where' is for places. Think: 'when' = 'during which' for time expressions.",
+            incorrectFeedbackRu: "Неправильно. Средние века — период времени, а не место, поэтому 'when' — правильное относительное наречие. 'Where' — для мест. Думайте: 'when' = 'during which' для временных выражений."
+        },
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "The National Archives, ____ historical documents dating back to the Domesday Book are stored, is open to researchers.",
+            correctAnswer: "where",
+            options: ["where", "when", "which", "whose"],
+            correctFeedback: "Correct! 'Where' refers to the National Archives, a specific institution/place. 'Where' = 'in which' — historical documents are stored there. Places and institutions take 'where'.",
+            correctFeedbackRu: "Правильно! 'Where' относится к Национальному архиву, конкретному учреждению/месту. 'Where' = 'in which' — там хранятся исторические документы. Места и учреждения принимают 'where'.",
+            incorrectFeedback: "Incorrect. The National Archives is a place/institution, so 'where' (= in which) is correct. 'Which' would require a different sentence structure without a preposition issue.",
+            incorrectFeedbackRu: "Неправильно. Национальный архив — место/учреждение, поэтому 'where' (= in which) правильно. 'Which' потребовало бы другой структуры предложения без проблемы предлога."
+        },
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "The Victorian era, ____ child labour was commonplace, is a period of great historical interest.",
+            correctAnswer: "when",
+            options: ["when", "where", "which", "that"],
+            correctFeedback: "Correct! 'When' refers to the Victorian era, a historical time period. The clause adds the non-essential historical detail that child labour was commonplace during this era.",
+            correctFeedbackRu: "Правильно! 'When' относится к викторианской эпохе, историческому периоду времени. Придаточное добавляет несущественную историческую деталь о том, что детский труд был обычным явлением в эту эпоху.",
+            incorrectFeedback: "Incorrect. The Victorian era is a time period, not a place. Use 'when' (= during which) for time periods in non-defining relative clauses. 'That' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Викторианская эпоха — период времени, а не место. Используйте 'when' (= during which) для периодов времени в неограничительных придаточных. 'That' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "The Galapagos Islands, ____ Darwin developed his theory of natural selection, are now a protected reserve.",
+            correctAnswer: "where",
+            options: ["where", "when", "which", "that"],
+            correctFeedback: "Correct! 'Where' refers to the Galapagos Islands, a specific place. Darwin developed his theory there — 'where' = 'in which'. The clause is non-defining since the islands are already named.",
+            correctFeedbackRu: "Правильно! 'Where' относится к Галапагосским островам, конкретному месту. Дарвин разработал там свою теорию — 'where' = 'in which'. Придаточное является неограничительным, так как острова уже названы.",
+            incorrectFeedback: "Incorrect. The Galapagos Islands is a place, so 'where' (= in which / on which) is the correct relative adverb. 'When' is for time, and 'that' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Галапагосские острова — место, поэтому 'where' (= in which / on which) — правильное относительное наречие. 'When' — для времени, а 'that' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "Last winter, ____ snowfall was the heaviest in fifty years, caused major disruption to transport.",
+            correctAnswer: "when",
+            options: ["when", "where", "which", "whose"],
+            correctFeedback: "Correct! 'When' refers to 'last winter', a specific time period. The clause adds non-essential information about what made that winter exceptional.",
+            correctFeedbackRu: "Правильно! 'When' относится к 'last winter', конкретному периоду времени. Придаточное добавляет несущественную информацию о том, что сделало ту зиму исключительной.",
+            incorrectFeedback: "Incorrect. 'Last winter' is a time expression, so 'when' is correct. 'When' replaces 'during which' — 'last winter, during which snowfall was heaviest'. 'Where' would incorrectly suggest a place.",
+            incorrectFeedbackRu: "Неправильно. 'Last winter' — временное выражение, поэтому 'when' правильно. 'When' заменяет 'during which' — 'last winter, during which snowfall was heaviest'. 'Where' ошибочно предположило бы место."
+        },
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "The Black Sea, ____ ancient trade routes once converged, has a rich archaeological heritage.",
+            correctAnswer: "where",
+            options: ["where", "when", "which", "that"],
+            correctFeedback: "Correct! 'Where' refers to the Black Sea, a geographic place. Trade routes converged there. 'Where' = 'in which' / 'at which'. The clause is non-defining since the sea is named.",
+            correctFeedbackRu: "Правильно! 'Where' относится к Чёрному морю, географическому месту. Там сходились торговые пути. 'Where' = 'in which' / 'at which'. Придаточное является неограничительным, так как море названо.",
+            incorrectFeedback: "Incorrect. The Black Sea is a place, so 'where' is the correct relative adverb. It means 'in/at which ancient trade routes converged'. 'That' is not permitted in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Чёрное море — место, поэтому 'where' — правильное относительное наречие. Оно означает 'in/at which ancient trade routes converged'. 'That' не допускается в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "The early 1990s, ____ the Soviet Union collapsed and the Cold War ended, reshaped global politics.",
+            correctAnswer: "when",
+            options: ["when", "where", "which", "whose"],
+            correctFeedback: "Correct! 'When' refers to 'the early 1990s', a specific time period. The clause adds the historically significant events that occurred during that period.",
+            correctFeedbackRu: "Правильно! 'When' относится к 'the early 1990s', конкретному периоду времени. Придаточное добавляет исторически значимые события, произошедшие в этот период.",
+            incorrectFeedback: "Incorrect. 'The early 1990s' is a time period, not a place, so 'when' (= during which) is correct. 'Which' would require 'during which' — 'the early 1990s, during which the Soviet Union collapsed'.",
+            incorrectFeedbackRu: "Неправильно. 'The early 1990s' — период времени, а не место, поэтому 'when' (= during which) правильно. 'Which' потребовало бы 'during which' — 'the early 1990s, during which the Soviet Union collapsed'."
+        },
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "The town of Hay-on-Wye, ____ the famous literary festival is held each May, attracts visitors from around the world.",
+            correctAnswer: "where",
+            options: ["where", "when", "which", "that"],
+            correctFeedback: "Correct! 'Where' refers to Hay-on-Wye, a specific town (place). The festival is held there. 'Where' = 'in which'. The town is already identified by name, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Where' относится к Hay-on-Wye, конкретному городку (месту). Там проводится фестиваль. 'Where' = 'in which'. Городок уже идентифицирован по названию, что делает придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. Hay-on-Wye is a place, so 'where' (= in which) is the correct relative adverb. 'When' is for time periods. The festival takes place in that location → 'where'.",
+            incorrectFeedbackRu: "Неправильно. Hay-on-Wye — место, поэтому 'where' (= in which) — правильное относительное наречие. 'When' — для периодов времени. Фестиваль проходит в этом месте → 'where'."
+        },
+        {
+            question: "Complete the sentence with the correct relative adverb:",
+            questionRu: "Заполните предложение правильным относительным наречием:",
+            sentence: "Her teenage years, ____ she discovered her passion for writing, were spent in a small coastal village.",
+            correctAnswer: "when",
+            options: ["when", "where", "which", "whose"],
+            correctFeedback: "Correct! 'When' refers to 'her teenage years', a period of time. The clause adds the non-essential detail of what she discovered during that time. 'When' = 'during which'.",
+            correctFeedbackRu: "Правильно! 'When' относится к 'her teenage years', периоду времени. Придаточное добавляет несущественную деталь о том, что она открыла для себя в это время. 'When' = 'during which'.",
+            incorrectFeedback: "Incorrect. 'Her teenage years' is a time period, not a place, so 'when' is correct. Compare: 'the village where she grew up' (place) vs 'her teenage years, when she grew up' (time).",
+            incorrectFeedbackRu: "Неправильно. 'Her teenage years' — период времени, а не место, поэтому 'when' правильно. Сравните: 'the village where she grew up' (место) и 'her teenage years, when she grew up' (время)."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Mixed — WHO, WHICH, WHOSE
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page6'] = {
+    title: "Non-defining Clauses with Commas - Mixed (Who, Which, Whose)",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The prime minister, ____ gave a televised address last night, called for national unity.",
+            correctAnswer: "who",
+            options: ["who", "which", "whose", "that"],
+            correctFeedback: "Correct! 'Who' is used for the prime minister (a person) as the subject of the clause — he/she gave the address. Non-defining clauses about specific people use 'who', never 'that'.",
+            correctFeedbackRu: "Правильно! 'Who' используется для премьер-министра (человека) как подлежащего придаточного — он/она произнёс(ла) обращение. Неограничительные придаточные о конкретных людях используют 'who', никогда не 'that'.",
+            incorrectFeedback: "Incorrect. The prime minister (a person) is the subject who gave the address, so 'who' is required. 'That' is never permitted in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Премьер-министр (человек) является подлежащим, произнёсшим обращение, поэтому 'who' требуется. 'That' никогда не допускается в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The government's economic plan, ____ involves significant tax increases, has been met with opposition.",
+            correctAnswer: "which",
+            options: ["which", "who", "whose", "that"],
+            correctFeedback: "Correct! 'Which' is used for 'the government's economic plan', a thing. The possessive phrase already identifies the specific plan, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' используется для 'the government's economic plan', предмета. Притяжательная фраза уже идентифицирует конкретный план, делая придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. An economic plan is a thing, so 'which' is correct. 'That' is never used in non-defining clauses, even when describing things.",
+            incorrectFeedbackRu: "Неправильно. Экономический план — предмет, поэтому 'which' правильно. 'That' никогда не используется в неограничительных придаточных, даже при описании предметов."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The architect, ____ innovative designs have transformed the city's skyline, is based in Berlin.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "that"],
+            correctFeedback: "Correct! 'Whose innovative designs' — the designs belong to the architect. Structure: whose + noun (innovative designs) + verb (have transformed). This is the possessive non-defining clause pattern.",
+            correctFeedbackRu: "Правильно! 'Whose innovative designs' — инновационные проекты принадлежат архитектору. Структура: whose + существительное (innovative designs) + глагол (have transformed). Это образец притяжательного неограничительного придаточного.",
+            incorrectFeedback: "Incorrect. 'Whose' shows that the designs belong to the architect. 'Who' would need to be followed by a verb directly, not a noun phrase like 'innovative designs'.",
+            incorrectFeedbackRu: "Неправильно. 'Whose' показывает, что проекты принадлежат архитектору. За 'who' должен следовать непосредственно глагол, а не именная группа, как 'innovative designs'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The vaccine trial, ____ produced remarkable results, will now move into a larger clinical phase.",
+            correctAnswer: "which",
+            options: ["which", "who", "whose", "that"],
+            correctFeedback: "Correct! 'Which' refers to 'the vaccine trial', a thing (a scientific study). It is already identified as 'the vaccine trial', making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' относится к 'the vaccine trial', предмету (научному исследованию). Оно уже идентифицировано как 'the vaccine trial', что делает придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. A vaccine trial is a thing, so 'which' is needed. 'That' is prohibited in non-defining clauses. 'Whose' would be for possession — e.g., 'the trial, whose results were remarkable'.",
+            incorrectFeedbackRu: "Неправильно. Испытание вакцины — предмет, поэтому 'which' необходимо. 'That' запрещён в неограничительных придаточных. 'Whose' было бы для принадлежности — например, 'the trial, whose results were remarkable'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The charity's founder, ____ vision transformed thousands of lives, passed away last month.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "that"],
+            correctFeedback: "Correct! 'Whose vision' — the vision belongs to the charity's founder. 'Whose' + noun (vision) + verb (transformed) is the possessive non-defining clause structure.",
+            correctFeedbackRu: "Правильно! 'Whose vision' — видение принадлежит основателю благотворительной организации. 'Whose' + существительное (vision) + глагол (transformed) — структура притяжательного неограничительного придаточного.",
+            incorrectFeedback: "Incorrect. The vision belongs to the founder — use 'whose'. 'Who' cannot directly precede a noun. Think: 'his/her vision transformed lives' → replace 'his/her' with 'whose'.",
+            incorrectFeedbackRu: "Неправильно. Видение принадлежит основателю — используйте 'whose'. 'Who' не может непосредственно предшествовать существительному. Думайте: 'his/her vision transformed lives' → замените 'his/her' на 'whose'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "Her grandmother, ____ grew up during the Great Depression, rarely wastes food.",
+            correctAnswer: "who",
+            options: ["who", "which", "whose", "whom"],
+            correctFeedback: "Correct! 'Who' refers to her grandmother (a specific person) as the subject of 'grew up'. Her grandmother is already identified, so the clause is non-defining.",
+            correctFeedbackRu: "Правильно! 'Who' относится к её бабушке (конкретному человеку) как подлежащему 'grew up'. Её бабушка уже идентифицирована, поэтому придаточное является неограничительным.",
+            incorrectFeedback: "Incorrect. Her grandmother (a person) is the subject of 'grew up', so 'who' is correct. 'Whom' would be used if the grandmother were the object of another verb — e.g., 'whom she visits weekly'.",
+            incorrectFeedbackRu: "Неправильно. Её бабушка (человек) является подлежащим 'grew up', поэтому 'who' правильно. 'Whom' использовалось бы если бы бабушка была дополнением другого глагола — например, 'whom she visits weekly'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The ancient aqueduct, ____ still carries water across the valley, was built by the Romans.",
+            correctAnswer: "which",
+            options: ["which", "who", "whose", "that"],
+            correctFeedback: "Correct! 'Which' is used for the ancient aqueduct (a thing). The aqueduct is identified as 'the ancient aqueduct', making the clause non-defining. It adds the impressive extra detail that it still functions.",
+            correctFeedbackRu: "Правильно! 'Which' используется для древнего акведука (предмета). Акведук идентифицирован как 'the ancient aqueduct', что делает придаточное неограничительным. Оно добавляет впечатляющую дополнительную деталь о том, что он всё ещё функционирует.",
+            incorrectFeedback: "Incorrect. An aqueduct is a thing, so 'which' is required in this non-defining clause. 'That' is never permitted in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Акведук — предмет, поэтому 'which' требуется в этом неограничительном придаточном. 'That' никогда не допускается в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The minister, ____ resignation shocked the party, had been under pressure for several weeks.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "that"],
+            correctFeedback: "Correct! 'Whose resignation' — the resignation belongs to the minister. Structure: whose + noun (resignation) + verb (shocked). The minister's resignation is what shocked the party.",
+            correctFeedbackRu: "Правильно! 'Whose resignation' — отставка принадлежит министру. Структура: whose + существительное (resignation) + глагол (shocked). Именно отставка министра потрясла партию.",
+            incorrectFeedback: "Incorrect. 'Whose' is needed because the resignation belongs to the minister. Compare: 'who resigned' (subject) vs 'whose resignation shocked' (possessive + new subject).",
+            incorrectFeedbackRu: "Неправильно. 'Whose' нужен, потому что отставка принадлежит министру. Сравните: 'who resigned' (подлежащее) и 'whose resignation shocked' (притяжательное + новое подлежащее)."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The investigation, ____ lasted eighteen months, concluded without any formal charges.",
+            correctAnswer: "which",
+            options: ["which", "who", "whose", "that"],
+            correctFeedback: "Correct! 'Which' refers to 'the investigation', a thing (a legal/administrative process). The investigation is already identified by the definite article 'the', making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' относится к 'the investigation', предмету (юридическому/административному процессу). Расследование уже идентифицировано определённым артиклем 'the', что делает придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. An investigation is a thing, so 'which' is correct. 'That' is never used in non-defining clauses — this rule has no exceptions.",
+            incorrectFeedbackRu: "Неправильно. Расследование — предмет, поэтому 'which' правильно. 'That' никогда не используется в неограничительных придаточных — у этого правила нет исключений."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The lead actor, ____ portrayal of Churchill was widely praised, has been nominated for a BAFTA.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "that"],
+            correctFeedback: "Correct! 'Whose portrayal' — the portrayal belongs to the lead actor. 'Whose' + noun (portrayal) + verb (was praised). The lead actor is the non-defining subject already identified.",
+            correctFeedbackRu: "Правильно! 'Whose portrayal' — изображение принадлежит ведущему актёру. 'Whose' + существительное (portrayal) + глагол (was praised). Ведущий актёр — неограничительное подлежащее, уже идентифицированное.",
+            incorrectFeedback: "Incorrect. The portrayal belongs to the lead actor, so 'whose' is required. 'Who' would be followed directly by a verb — e.g., 'who portrayed Churchill brilliantly'.",
+            incorrectFeedbackRu: "Неправильно. Изображение принадлежит ведущему актёру, поэтому 'whose' требуется. За 'who' следовал бы непосредственно глагол — например, 'who portrayed Churchill brilliantly'."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Mixed — all pronouns including WHOM
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page7'] = {
+    title: "Non-defining Clauses with Commas - Mixed (All Pronouns)",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The barrister, ____ the judge had praised for her thorough preparation, won the case.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "whose", "which"],
+            correctFeedback: "Correct! 'Whom' is used because the barrister is the object — the judge praised the barrister (not the other way around). Test: 'the judge praised her' → 'her' = object → 'whom'.",
+            correctFeedbackRu: "Правильно! 'Whom' используется, потому что барристер является дополнением — судья хвалил барристера (а не наоборот). Тест: 'the judge praised her' → 'her' = дополнение → 'whom'.",
+            incorrectFeedback: "Incorrect. The judge praised the barrister — the barrister is the object → use 'whom'. 'Who' makes the barrister the subject. Test: can you substitute 'him/her'? Yes → use 'whom'.",
+            incorrectFeedbackRu: "Неправильно. Судья хвалил барристера — барристер является дополнением → используйте 'whom'. 'Who' делает барристера подлежащим. Тест: можете ли вы заменить на 'him/her'? Да → используйте 'whom'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The clock tower, ____ was built to commemorate the end of the First World War, stands at the town's entrance.",
+            correctAnswer: "which",
+            options: ["which", "who", "whose", "that"],
+            correctFeedback: "Correct! 'Which' refers to the clock tower, a thing. The definite article 'the' and the specific description identify the tower, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' относится к часовой башне, предмету. Определённый артикль 'the' и конкретное описание идентифицируют башню, делая придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. The clock tower is a thing, so 'which' is required. 'That' is never used in non-defining relative clauses — commas already signal this is non-defining.",
+            incorrectFeedbackRu: "Неправильно. Часовая башня — предмет, поэтому 'which' требуется. 'That' никогда не используется в неограничительных придаточных — запятые уже сигнализируют, что это неограничительное придаточное."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "Her mentor, ____ advice shaped her entire academic career, died last spring.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "whom"],
+            correctFeedback: "Correct! 'Whose advice' — the advice belongs to her mentor. Pattern: whose + noun (advice) + verb (shaped). Compare: 'who gave advice' (subject) vs 'whose advice shaped' (possessive).",
+            correctFeedbackRu: "Правильно! 'Whose advice' — совет принадлежит её ментору. Образец: whose + существительное (advice) + глагол (shaped). Сравните: 'who gave advice' (подлежащее) и 'whose advice shaped' (притяжательное).",
+            incorrectFeedback: "Incorrect. The advice belongs to her mentor, so 'whose' is correct. 'Who' would be followed by a verb: 'her mentor, who advised her'. 'Whose advice' means 'the advice that her mentor gave'.",
+            incorrectFeedbackRu: "Неправильно. Совет принадлежит её ментору, поэтому 'whose' правильно. За 'who' следовал бы глагол: 'her mentor, who advised her'. 'Whose advice' означает 'the advice that her mentor gave'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The candidate, ____ the party had been grooming for years, finally won the leadership election.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "whose", "which"],
+            correctFeedback: "Correct! 'Whom' is correct because the candidate is the object of 'grooming' — the party had been grooming the candidate. Test: 'the party groomed him' → 'him' = object → 'whom'.",
+            correctFeedbackRu: "Правильно! 'Whom' правильно, потому что кандидат является дополнением 'grooming' — партия готовила кандидата. Тест: 'the party groomed him' → 'him' = дополнение → 'whom'.",
+            incorrectFeedback: "Incorrect. The party groomed the candidate (candidate = object) → 'whom'. 'Who' would make the candidate the subject — 'the candidate, who groomed others'. Use 'whom' for the object form.",
+            incorrectFeedbackRu: "Неправильно. Партия готовила кандидата (кандидат = дополнение) → 'whom'. 'Who' сделало бы кандидата подлежащим — 'the candidate, who groomed others'. Используйте 'whom' для формы дополнения."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The CEO's announcement, ____ took the market completely by surprise, sent shares plummeting.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "whose"],
+            correctFeedback: "Correct! 'Which' refers to 'the CEO's announcement', a thing. The possessive 'the CEO's' already identifies the specific announcement, so the clause is non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' относится к 'the CEO's announcement', предмету. Притяжательное 'the CEO's' уже идентифицирует конкретное объявление, поэтому придаточное является неограничительным.",
+            incorrectFeedback: "Incorrect. An announcement is a thing, so 'which' is correct. 'That' is not permitted in non-defining clauses. 'Whose' would show possession — 'the announcement, whose impact was felt worldwide'.",
+            incorrectFeedbackRu: "Неправильно. Объявление — предмет, поэтому 'which' правильно. 'That' не допускается в неограничительных придаточных. 'Whose' выразило бы принадлежность — 'the announcement, whose impact was felt worldwide'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The novelist, ____ most celebrated work has been adapted for the screen three times, gave a rare interview.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "whom"],
+            correctFeedback: "Correct! 'Whose most celebrated work' — the work belongs to the novelist. 'Whose' expresses possession and is followed by a noun phrase (most celebrated work) + verb (has been adapted).",
+            correctFeedbackRu: "Правильно! 'Whose most celebrated work' — работа принадлежит романисту. 'Whose' выражает принадлежность и за ним следует именная группа (most celebrated work) + глагол (has been adapted).",
+            incorrectFeedback: "Incorrect. 'Whose' shows the work belongs to the novelist. 'Who' cannot be immediately followed by a noun. Think of 'whose' as replacing a possessive pronoun: 'her most celebrated work' → 'whose most celebrated work'.",
+            incorrectFeedbackRu: "Неправильно. 'Whose' показывает, что работа принадлежит романисту. 'Who' не может непосредственно предшествовать существительному. Думайте о 'whose' как о замене притяжательного местоимения: 'her most celebrated work' → 'whose most celebrated work'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The inspector, ____ had been called in from London, found no evidence of wrongdoing.",
+            correctAnswer: "who",
+            options: ["who", "which", "whom", "whose"],
+            correctFeedback: "Correct! 'Who' refers to the inspector (a person) as the subject of 'had been called in'. The inspector is already identified, and the clause adds non-essential background information.",
+            correctFeedbackRu: "Правильно! 'Who' относится к инспектору (человеку) как подлежащему 'had been called in'. Инспектор уже идентифицирован, и придаточное добавляет несущественную справочную информацию.",
+            incorrectFeedback: "Incorrect. The inspector (a person) is the subject of the clause — the inspector was called in. Use 'who' for people as subjects. 'Whom' would be for the inspector as an object.",
+            incorrectFeedbackRu: "Неправильно. Инспектор (человек) является подлежащим придаточного — инспектора вызвали. Используйте 'who' для людей как подлежащих. 'Whom' было бы для инспектора как дополнения."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The study, ____ tracked 10,000 participants over a thirty-year period, produced groundbreaking findings.",
+            correctAnswer: "which",
+            options: ["which", "who", "that", "whose"],
+            correctFeedback: "Correct! 'Which' is used for 'the study', a scientific investigation (thing). The study is already referred to with the definite article, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Which' используется для 'the study', научного исследования (предмета). На исследование уже ссылаются с определённым артиклем, что делает придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. A study is a thing, so 'which' is needed. 'That' is absolutely prohibited in non-defining relative clauses — the commas already confirm it is non-defining.",
+            incorrectFeedbackRu: "Неправильно. Исследование — предмет, поэтому 'which' необходимо. 'That' абсолютно запрещён в неограничительных придаточных — запятые уже подтверждают, что оно является неограничительным."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The opposition leader, ____ the media had portrayed negatively for months, saw a surge in popularity.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "whose", "which"],
+            correctFeedback: "Correct! 'Whom' is used because the opposition leader is the object — the media portrayed the leader (not the leader portrayed the media). Test: 'the media portrayed him' → 'him' = object → 'whom'.",
+            correctFeedbackRu: "Правильно! 'Whom' используется, потому что лидер оппозиции является дополнением — СМИ изображали лидера (не лидер изображал СМИ). Тест: 'the media portrayed him' → 'him' = дополнение → 'whom'.",
+            incorrectFeedback: "Incorrect. The media portrayed the opposition leader (leader = object) → 'whom'. 'Who' would make the leader the subject. Always test: can you replace with 'him/her'? Yes → use 'whom'.",
+            incorrectFeedbackRu: "Неправильно. СМИ изображали лидера оппозиции (лидер = дополнение) → 'whom'. 'Who' сделало бы лидера подлежащим. Всегда проверяйте: можете ли вы заменить на 'him/her'? Да → используйте 'whom'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The institution, ____ reputation spans over three centuries, continues to attract the world's brightest minds.",
+            correctAnswer: "whose",
+            options: ["whose", "which", "who", "that"],
+            correctFeedback: "Correct! 'Whose reputation' — the reputation belongs to the institution (an organisation). 'Whose' can be used for institutions and organisations, not just people.",
+            correctFeedbackRu: "Правильно! 'Whose reputation' — репутация принадлежит учреждению (организации). 'Whose' может использоваться для учреждений и организаций, а не только для людей.",
+            incorrectFeedback: "Incorrect. 'Whose' is needed because the reputation belongs to the institution. Even for organisations and inanimate things, 'whose' is the correct possessive relative pronoun.",
+            incorrectFeedbackRu: "Неправильно. 'Whose' нужен, потому что репутация принадлежит учреждению. Даже для организаций и неодушевлённых предметов 'whose' — правильное притяжательное относительное местоимение."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Mixed — where, when, and all pronouns
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page8'] = {
+    title: "Non-defining Clauses with Commas - Mixed (All Forms)",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The 1920s, ____ jazz music flourished across the United States, is known as the Roaring Twenties.",
+            correctAnswer: "when",
+            options: ["when", "where", "which", "whose"],
+            correctFeedback: "Correct! 'When' refers to the 1920s, a decade (time period). The clause adds the cultural detail that jazz flourished during that time. 'When' = 'during which'.",
+            correctFeedbackRu: "Правильно! 'When' относится к 1920-м, десятилетию (периоду времени). Придаточное добавляет культурную деталь о том, что джаз процветал в это время. 'When' = 'during which'.",
+            incorrectFeedback: "Incorrect. The 1920s is a time period, not a place, so 'when' (= during which) is the correct relative adverb. 'Where' is for places.",
+            incorrectFeedbackRu: "Неправильно. 1920-е — период времени, а не место, поэтому 'when' (= during which) — правильное относительное наречие. 'Where' — для мест."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The Louvre, ____ the Mona Lisa is on permanent display, receives over nine million visitors annually.",
+            correctAnswer: "where",
+            options: ["where", "when", "which", "whose"],
+            correctFeedback: "Correct! 'Where' refers to the Louvre, a specific museum (place). The Mona Lisa is displayed there. 'Where' = 'in which'. The Louvre is already named, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Where' относится к Лувру, конкретному музею (месту). Там выставлена Мона Лиза. 'Where' = 'in which'. Лувр уже назван, что делает придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. The Louvre is a place, so 'where' (= in which) is the correct relative adverb. 'When' is for time periods, not museums.",
+            incorrectFeedbackRu: "Неправильно. Лувр — место, поэтому 'where' (= in which) — правильное относительное наречие. 'When' — для периодов времени, а не для музеев."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The opposition candidate, ____ the ruling party had underestimated, won the election by a landslide.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "whose", "which"],
+            correctFeedback: "Correct! 'Whom' is correct because the candidate is the object — the ruling party underestimated the candidate. Test: 'the ruling party underestimated him' → 'him' = object → 'whom'.",
+            correctFeedbackRu: "Правильно! 'Whom' правильно, потому что кандидат является дополнением — правящая партия недооценила кандидата. Тест: 'the ruling party underestimated him' → 'him' = дополнение → 'whom'.",
+            incorrectFeedback: "Incorrect. The ruling party underestimated the candidate (candidate = object) → 'whom'. 'Who' is for subjects only. 'Whose' would indicate the candidate owns something.",
+            incorrectFeedbackRu: "Неправильно. Правящая партия недооценила кандидата (кандидат = дополнение) → 'whom'. 'Who' — только для подлежащих. 'Whose' указывало бы, что кандидату что-то принадлежит."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The island of Crete, ____ the ancient Minoan civilisation once thrived, is a popular holiday destination.",
+            correctAnswer: "where",
+            options: ["where", "when", "which", "that"],
+            correctFeedback: "Correct! 'Where' refers to Crete, a specific island (place). The Minoan civilisation thrived there. 'Where' = 'on which' / 'in which'. The island is named, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Where' относится к Криту, конкретному острову (месту). Там процветала минойская цивилизация. 'Where' = 'on which' / 'in which'. Остров назван, что делает придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. Crete is an island (a place), so 'where' is the correct relative adverb. 'When' is for time. 'That' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Крит — остров (место), поэтому 'where' — правильное относительное наречие. 'When' — для времени. 'That' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The biologist, ____ fieldwork in the Amazon has spanned two decades, is considered a leading authority.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "which", "whom"],
+            correctFeedback: "Correct! 'Whose fieldwork' — the fieldwork belongs to the biologist. 'Whose' + noun (fieldwork) + verb (has spanned). The biologist is identified, making the additional information non-defining.",
+            correctFeedbackRu: "Правильно! 'Whose fieldwork' — полевая работа принадлежит биологу. 'Whose' + существительное (fieldwork) + глагол (has spanned). Биолог идентифицирован, что делает дополнительную информацию неограничительной.",
+            incorrectFeedback: "Incorrect. The fieldwork belongs to the biologist → use 'whose'. 'Who' cannot precede a noun directly. Think: 'her fieldwork has spanned two decades' → replace 'her' with 'whose'.",
+            incorrectFeedbackRu: "Неправильно. Полевая работа принадлежит биологу → используйте 'whose'. 'Who' не может непосредственно предшествовать существительному. Думайте: 'her fieldwork has spanned two decades' → замените 'her' на 'whose'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The post-war period, ____ the welfare state was established, fundamentally changed British society.",
+            correctAnswer: "when",
+            options: ["when", "where", "which", "whose"],
+            correctFeedback: "Correct! 'When' refers to 'the post-war period', a historical time period. The clause adds the significant detail that the welfare state was established during this time.",
+            correctFeedbackRu: "Правильно! 'When' относится к 'the post-war period', историческому периоду времени. Придаточное добавляет значимую деталь о том, что в это время было создано государство всеобщего благосостояния.",
+            incorrectFeedback: "Incorrect. 'The post-war period' is a time expression, not a place, so 'when' (= during which) is correct. 'Where' refers to places, not historical periods.",
+            incorrectFeedbackRu: "Неправильно. 'The post-war period' — временное выражение, а не место, поэтому 'when' (= during which) правильно. 'Where' относится к местам, а не к историческим периодам."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The new policy, ____ implementation has proved far more complex than anticipated, is still being rolled out.",
+            correctAnswer: "whose",
+            options: ["whose", "which", "that", "who"],
+            correctFeedback: "Correct! 'Whose implementation' — the implementation belongs to the policy. Even for inanimate things like policies, 'whose' is the correct possessive relative pronoun.",
+            correctFeedbackRu: "Правильно! 'Whose implementation' — внедрение принадлежит политике. Даже для неодушевлённых предметов, как политика, 'whose' — правильное притяжательное относительное местоимение.",
+            incorrectFeedback: "Incorrect. The implementation belongs to the policy, so 'whose' is required. 'Which' cannot be followed directly by a noun. Think: 'its implementation has proved complex' → 'whose implementation has proved complex'.",
+            incorrectFeedbackRu: "Неправильно. Внедрение принадлежит политике, поэтому 'whose' требуется. 'Which' не может непосредственно предшествовать существительному. Думайте: 'its implementation has proved complex' → 'whose implementation has proved complex'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The historian, ____ had dedicated his career to studying the Ottoman Empire, passed away in Vienna.",
+            correctAnswer: "who",
+            options: ["who", "which", "whose", "whom"],
+            correctFeedback: "Correct! 'Who' refers to the historian (a person) as the subject of 'had dedicated'. The historian is already identified, and the clause adds non-essential professional background.",
+            correctFeedbackRu: "Правильно! 'Who' относится к историку (человеку) как подлежащему 'had dedicated'. Историк уже идентифицирован, и придаточное добавляет несущественный профессиональный контекст.",
+            incorrectFeedback: "Incorrect. The historian is a person and the subject of the clause ('had dedicated'), so 'who' is required. 'Whom' would only be correct if someone had done something to the historian.",
+            incorrectFeedbackRu: "Неправильно. Историк — человек и подлежащее придаточного ('had dedicated'), поэтому 'who' требуется. 'Whom' было бы правильным только если бы кто-то сделал что-то с историком."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The research centre, ____ some of the world's most cutting-edge AI research is conducted, is based in Cambridge.",
+            correctAnswer: "where",
+            options: ["where", "when", "which", "whose"],
+            correctFeedback: "Correct! 'Where' refers to the research centre, a place/institution. Research is conducted there. 'Where' = 'in which'. The centre is already identified, making the clause non-defining.",
+            correctFeedbackRu: "Правильно! 'Where' относится к исследовательскому центру, месту/учреждению. Там проводятся исследования. 'Where' = 'in which'. Центр уже идентифицирован, что делает придаточное неограничительным.",
+            incorrectFeedback: "Incorrect. The research centre is a place/institution, so 'where' (= in which) is the correct relative adverb. Research is conducted there — at that location.",
+            incorrectFeedbackRu: "Неправильно. Исследовательский центр — место/учреждение, поэтому 'where' (= in which) — правильное относительное наречие. Там проводятся исследования — в этом месте."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The senior partner, ____ the firm had relied upon for twenty years, announced her retirement.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "whose", "which"],
+            correctFeedback: "Correct! 'Whom' is correct because the firm relied upon the senior partner — she is the object of 'relied upon'. Test: 'the firm relied upon her' → 'her' = object → 'whom'.",
+            correctFeedbackRu: "Правильно! 'Whom' правильно, потому что фирма полагалась на старшего партнёра — она является дополнением 'relied upon'. Тест: 'the firm relied upon her' → 'her' = дополнение → 'whom'.",
+            incorrectFeedback: "Incorrect. The firm relied upon the senior partner (partner = object of preposition 'upon') → use 'whom'. With a preposition and a person as object, 'whom' is required in formal English.",
+            incorrectFeedbackRu: "Неправильно. Фирма полагалась на старшего партнёра (партнёр = дополнение предлога 'upon') → используйте 'whom'. С предлогом и человеком как дополнением, 'whom' требуется в формальном английском."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Advanced — formal structures and sentential which
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page9'] = {
+    title: "Non-defining Clauses with Commas - Advanced Structures",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The government resigned, ____ triggered a constitutional crisis.",
+            correctAnswer: "which",
+            options: ["which", "that", "who", "what"],
+            correctFeedback: "Correct! 'Which' here refers to the entire preceding clause — the whole event of the government resigning triggered the crisis. This 'sentential which' always uses a comma and cannot be replaced with 'that'.",
+            correctFeedbackRu: "Правильно! Здесь 'which' относится ко всему предшествующему придаточному — всё событие отставки правительства вызвало кризис. Это 'сентенциальное which' всегда использует запятую и не может быть заменено на 'that'.",
+            incorrectFeedback: "Incorrect. When 'which' refers to a whole clause (not just a noun), it is called a 'sentential relative'. Only 'which' + comma is possible here — 'that' and 'what' cannot perform this function.",
+            incorrectFeedbackRu: "Неправильно. Когда 'which' относится к целому придаточному (не только к существительному), это называется 'сентенциальным относительным'. Здесь возможно только 'which' + запятая — 'that' и 'what' не могут выполнять эту функцию."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "She refused to apologise, ____ made the situation considerably worse.",
+            correctAnswer: "which",
+            options: ["which", "that", "who", "what"],
+            correctFeedback: "Correct! 'Which' refers to the entire situation — her refusal to apologise made things worse. This sentential use of 'which' comments on the whole preceding clause, not just a single noun.",
+            correctFeedbackRu: "Правильно! 'Which' относится ко всей ситуации — её отказ извиниться ухудшил положение дел. Это сентенциальное использование 'which' комментирует всё предшествующее придаточное, а не только одно существительное.",
+            incorrectFeedback: "Incorrect. 'Which' is the only pronoun that can refer to an entire preceding clause. 'That' cannot introduce a clause referring to a whole sentence, and 'what' is not a relative pronoun in this context.",
+            incorrectFeedbackRu: "Неправильно. 'Which' — единственное местоимение, которое может относиться ко всему предшествующему придаточному. 'That' не может вводить придаточное, относящееся к целому предложению, а 'what' не является относительным местоимением в этом контексте."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The council approved the budget, ____ surprised many residents who had expected cuts.",
+            correctAnswer: "which",
+            options: ["which", "that", "who", "what"],
+            correctFeedback: "Correct! 'Which' refers to the entire event (the council approving the budget), which surprised residents. The comma before 'which' signals this is a sentential relative clause.",
+            correctFeedbackRu: "Правильно! 'Which' относится ко всему событию (одобрению бюджета советом), которое удивило жителей. Запятая перед 'which' сигнализирует, что это сентенциальное придаточное.",
+            incorrectFeedback: "Incorrect. 'Which' is the only correct choice when referring to a whole preceding clause. 'That', 'who', and 'what' cannot function as sentential relative pronouns in standard English.",
+            incorrectFeedbackRu: "Неправильно. 'Which' — единственный правильный выбор при ссылке на всё предшествующее придаточное. 'That', 'who' и 'what' не могут функционировать как сентенциальные относительные местоимения в стандартном английском."
+        },
+        {
+            question: "Choose the correct formal structure to complete the sentence:",
+            questionRu: "Выберите правильную формальную структуру для завершения предложения:",
+            sentence: "The report contained several inaccuracies, many of ____ were subsequently corrected.",
+            correctAnswer: "which",
+            options: ["which", "whom", "that", "who"],
+            correctFeedback: "Correct! 'Many of which' — 'which' refers to the inaccuracies (things). In formal English, quantifiers (many, some, all, none) + 'of which/whom' create elegant non-defining structures. 'Which' is for things, 'whom' for people.",
+            correctFeedbackRu: "Правильно! 'Many of which' — 'which' относится к неточностям (предметам). В формальном английском квантификаторы (many, some, all, none) + 'of which/whom' создают элегантные неограничительные структуры. 'Which' — для предметов, 'whom' — для людей.",
+            incorrectFeedback: "Incorrect. 'Many of which' is the correct formal structure. 'Which' refers to things (inaccuracies), and 'of which' creates the partitive structure. 'Whom' is only for people, and 'that' cannot follow a preposition or quantifier phrase.",
+            incorrectFeedbackRu: "Неправильно. 'Many of which' — правильная формальная структура. 'Which' относится к предметам (неточностям), а 'of which' создаёт разделительную структуру. 'Whom' — только для людей, а 'that' не может следовать за предлогом или квантификатором."
+        },
+        {
+            question: "Choose the correct formal structure to complete the sentence:",
+            questionRu: "Выберите правильную формальную структуру для завершения предложения:",
+            sentence: "The committee interviewed fifteen candidates, three of ____ were shortlisted.",
+            correctAnswer: "whom",
+            options: ["whom", "which", "that", "who"],
+            correctFeedback: "Correct! 'Three of whom' — 'whom' is used because the candidates are people and they are the object in the structure (of + object pronoun). Quantifier + 'of whom' is the formal structure for people.",
+            correctFeedbackRu: "Правильно! 'Three of whom' — 'whom' используется, потому что кандидаты — люди и они являются дополнением в структуре (of + объектное местоимение). Квантификатор + 'of whom' — формальная структура для людей.",
+            incorrectFeedback: "Incorrect. 'Three of whom' is the formal structure for people. 'Whom' is the object form for people, used after prepositions. 'Which' is for things. 'Of who' is not grammatically correct.",
+            incorrectFeedbackRu: "Неправильно. 'Three of whom' — формальная структура для людей. 'Whom' — форма дополнения для людей, используемая после предлогов. 'Which' — для предметов. 'Of who' грамматически неправильно."
+        },
+        {
+            question: "Complete the sentence with the correct formal relative structure:",
+            questionRu: "Заполните предложение правильной формальной относительной структурой:",
+            sentence: "The discovery, the implications of ____ are still being debated, was made in 2018.",
+            correctAnswer: "which",
+            options: ["which", "whom", "that", "whose"],
+            correctFeedback: "Correct! 'The implications of which' — 'which' refers to the discovery (a thing). In very formal English, 'of which' can replace 'whose' for inanimate things: 'the discovery, whose implications' = 'the discovery, the implications of which'.",
+            correctFeedbackRu: "Правильно! 'The implications of which' — 'which' относится к открытию (предмету). В очень формальном английском 'of which' может заменять 'whose' для неодушевлённых предметов: 'the discovery, whose implications' = 'the discovery, the implications of which'.",
+            incorrectFeedback: "Incorrect. 'Of which' is the formal alternative to 'whose' for things. The implications belong to the discovery. 'The implications of which' = 'whose implications'. 'Whom' is only for people after prepositions.",
+            incorrectFeedbackRu: "Неправильно. 'Of which' — формальная альтернатива 'whose' для предметов. Значения принадлежат открытию. 'The implications of which' = 'whose implications'. 'Whom' — только для людей после предлогов."
+        },
+        {
+            question: "Complete the sentence with the correct relative structure:",
+            questionRu: "Заполните предложение правильной относительной структурой:",
+            sentence: "The conference attracted experts from forty countries, all of ____ contributed papers.",
+            correctAnswer: "whom",
+            options: ["whom", "which", "that", "who"],
+            correctFeedback: "Correct! 'All of whom' — 'whom' is used because the experts are people. The structure is quantifier (all) + 'of' + object pronoun for people ('whom'). 'All of which' would be used if referring to things.",
+            correctFeedbackRu: "Правильно! 'All of whom' — 'whom' используется, потому что эксперты — люди. Структура: квантификатор (all) + 'of' + объектное местоимение для людей ('whom'). 'All of which' использовалось бы при ссылке на предметы.",
+            incorrectFeedback: "Incorrect. People require 'whom' in this quantifier structure. 'All of whom' (people) vs 'all of which' (things). 'Who' is incorrect after the preposition 'of'.",
+            incorrectFeedbackRu: "Неправильно. Для людей в этой структуре с квантификатором требуется 'whom'. 'All of whom' (люди) и 'all of which' (предметы). 'Who' неправильно после предлога 'of'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The charity received hundreds of donations, none of ____ was less than fifty pounds.",
+            correctAnswer: "which",
+            options: ["which", "whom", "that", "whose"],
+            correctFeedback: "Correct! 'None of which' — 'which' refers to the donations (things). The structure quantifier (none) + 'of which' is used for things. If referring to people, it would be 'none of whom'.",
+            correctFeedbackRu: "Правильно! 'None of which' — 'which' относится к пожертвованиям (предметам). Структура квантификатор (none) + 'of which' используется для предметов. При ссылке на людей было бы 'none of whom'.",
+            incorrectFeedback: "Incorrect. 'None of which' is correct for things (donations). Use 'of which' for things and 'of whom' for people in quantifier + of + relative pronoun structures.",
+            incorrectFeedbackRu: "Неправильно. 'None of which' правильно для предметов (пожертвований). Используйте 'of which' для предметов и 'of whom' для людей в структурах квантификатор + of + относительное местоимение."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "He was awarded a knighthood, ____ he said was the greatest honour of his life.",
+            correctAnswer: "which",
+            options: ["which", "that", "who", "what"],
+            correctFeedback: "Correct! 'Which' refers to the entire preceding clause — being awarded a knighthood. He said the whole situation was the greatest honour. This sentential 'which' comments on the complete preceding clause.",
+            correctFeedbackRu: "Правильно! 'Which' относится ко всему предшествующему придаточному — награждению рыцарским званием. Он сказал, что вся ситуация была величайшей честью. Это сентенциальное 'which' комментирует полное предшествующее придаточное.",
+            incorrectFeedback: "Incorrect. 'Which' is the only pronoun that can refer to an entire preceding clause. 'That' and 'what' cannot function as sentential relative pronouns. The comma before 'which' is essential.",
+            incorrectFeedbackRu: "Неправильно. 'Which' — единственное местоимение, которое может относиться ко всему предшествующему придаточному. 'That' и 'what' не могут функционировать как сентенциальные относительные местоимения. Запятая перед 'which' необходима."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun:",
+            questionRu: "Заполните предложение правильным относительным местоимением:",
+            sentence: "The merger was approved by shareholders, most of ____ stood to benefit financially.",
+            correctAnswer: "whom",
+            options: ["whom", "which", "that", "who"],
+            correctFeedback: "Correct! 'Most of whom' — 'whom' refers to the shareholders (people). Quantifier (most) + 'of whom' is the formal structure for people. 'Most of which' would be used for things.",
+            correctFeedbackRu: "Правильно! 'Most of whom' — 'whom' относится к акционерам (людям). Квантификатор (most) + 'of whom' — формальная структура для людей. 'Most of which' использовалось бы для предметов.",
+            incorrectFeedback: "Incorrect. Shareholders are people, so 'whom' is correct in the 'most of whom' structure. After the preposition 'of', use 'whom' for people and 'which' for things. 'Who' cannot follow a preposition.",
+            incorrectFeedbackRu: "Неправильно. Акционеры — люди, поэтому 'whom' правильно в структуре 'most of whom'. После предлога 'of' используйте 'whom' для людей и 'which' для предметов. 'Who' не может следовать за предлогом."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Mixed review — all structures
+============================================ */
+window.grammarExercises['relative']['non-defining-with-commas-gap-page10'] = {
+    title: "Non-defining Clauses with Commas - Mixed Review",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "Marie Curie, ____ won two Nobel Prizes in different scientific disciplines, remains an iconic figure.",
+            correctAnswer: "who",
+            options: ["who", "which", "whose", "that"],
+            correctFeedback: "Correct! 'Who' refers to Marie Curie, a specific named person. She is the subject of the clause — she won the prizes. Named individuals always take non-defining clauses with 'who' (never 'that').",
+            correctFeedbackRu: "Правильно! 'Who' относится к Марии Кюри, конкретному именованному человеку. Она является подлежащим придаточного — она выиграла призы. Именованные люди всегда принимают неограничительные придаточные с 'who' (никогда не 'that').",
+            incorrectFeedback: "Incorrect. Marie Curie is a named person and the subject of the clause, so 'who' is required. 'That' is never used in non-defining clauses. Named people always require non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Мария Кюри — именованный человек и подлежащее придаточного, поэтому 'who' требуется. 'That' никогда не используется в неограничительных придаточных. Именованные люди всегда требуют неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The Berlin Wall, ____ divided the city for twenty-eight years, was torn down in 1989.",
+            correctAnswer: "which",
+            options: ["which", "who", "whose", "that"],
+            correctFeedback: "Correct! 'Which' refers to the Berlin Wall, a specific named structure (thing). It is already uniquely identified by its name, making the clause non-defining. 'That' is never used in non-defining clauses.",
+            correctFeedbackRu: "Правильно! 'Which' относится к Берлинской стене, конкретному именованному сооружению (предмету). Оно уже однозначно идентифицировано по названию, что делает придаточное неограничительным. 'That' никогда не используется в неограничительных придаточных.",
+            incorrectFeedback: "Incorrect. The Berlin Wall is a named thing — the clause must be non-defining with commas and 'which'. 'That' is never permitted in non-defining relative clauses.",
+            incorrectFeedbackRu: "Неправильно. Берлинская стена — именованный предмет — придаточное должно быть неограничительным с запятыми и 'which'. 'That' никогда не допускается в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The prime minister's chief adviser, ____ counsel she relies on daily, has decided to step down.",
+            correctAnswer: "whose",
+            options: ["whose", "who", "whom", "which"],
+            correctFeedback: "Correct! 'Whose counsel' — the counsel belongs to the chief adviser. Structure: whose + noun (counsel) + verb (she relies on). The adviser's counsel is what the prime minister depends on.",
+            correctFeedbackRu: "Правильно! 'Whose counsel' — советы принадлежат главному советнику. Структура: whose + существительное (counsel) + глагол (she relies on). Советы советника — это то, от чего зависит премьер-министр.",
+            incorrectFeedback: "Incorrect. The counsel belongs to the chief adviser → 'whose'. Think: 'the prime minister relies on his/her counsel daily' → replace 'his/her' with 'whose'.",
+            incorrectFeedbackRu: "Неправильно. Советы принадлежат главному советнику → 'whose'. Думайте: 'the prime minister relies on his/her counsel daily' → замените 'his/her' на 'whose'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The Second World War, ____ over sixty million people died, reshaped the political map of the world.",
+            correctAnswer: "when",
+            options: ["when", "where", "which", "whose"],
+            correctFeedback: "Correct! 'When' refers to the Second World War as a historical time period. The clause adds the devastating fact that over sixty million people died during this conflict.",
+            correctFeedbackRu: "Правильно! 'When' относится ко Второй мировой войне как к историческому периоду времени. Придаточное добавляет опустошительный факт о том, что в ходе этого конфликта погибло более шестидесяти миллионов человек.",
+            incorrectFeedback: "Incorrect. The Second World War is a historical time period (not a place), so 'when' (= during which) is the correct relative adverb. 'Where' would incorrectly suggest a location.",
+            incorrectFeedbackRu: "Неправильно. Вторая мировая война — исторический период времени (не место), поэтому 'when' (= during which) — правильное относительное наречие. 'Where' ошибочно предположило бы место."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The ambassador, ____ the foreign minister had personally chosen, arrived in the capital last week.",
+            correctAnswer: "whom",
+            options: ["whom", "who", "whose", "which"],
+            correctFeedback: "Correct! 'Whom' is correct because the ambassador is the object — the foreign minister chose the ambassador. Test: 'the foreign minister chose her' → 'her' = object → 'whom'.",
+            correctFeedbackRu: "Правильно! 'Whom' правильно, потому что посол является дополнением — министр иностранных дел выбрал посла. Тест: 'the foreign minister chose her' → 'her' = дополнение → 'whom'.",
+            incorrectFeedback: "Incorrect. The foreign minister chose the ambassador (ambassador = object) → 'whom'. 'Who' makes the ambassador the subject. Always test: substitute 'him/her' — if it works, use 'whom'.",
+            incorrectFeedbackRu: "Неправильно. Министр иностранных дел выбрал посла (посол = дополнение) → 'whom'. 'Who' делает посла подлежащим. Всегда проверяйте: замените на 'him/her' — если работает, используйте 'whom'."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "Stonehenge, ____ archaeologists have studied for over a century, remains shrouded in mystery.",
+            correctAnswer: "which",
+            options: ["which", "who", "whose", "that"],
+            correctFeedback: "Correct! 'Which' refers to Stonehenge, a unique named monument (thing). It is already identified, so the clause is non-defining. Note: 'archaeologists have studied it' — 'it' (object) becomes 'which' in the relative clause.",
+            correctFeedbackRu: "Правильно! 'Which' относится к Стоунхенджу, уникальному именованному памятнику (предмету). Он уже идентифицирован, поэтому придаточное является неограничительным. Заметьте: 'archaeologists have studied it' — 'it' (дополнение) становится 'which' в придаточном.",
+            incorrectFeedback: "Incorrect. Stonehenge is a named thing — non-defining clause with commas and 'which' is required. 'That' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Неправильно. Стоунхендж — именованный предмет — требуется неограничительное придаточное с запятыми и 'which'. 'That' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The hospital's intensive care unit, ____ capacity was doubled during the pandemic, saved thousands of lives.",
+            correctAnswer: "whose",
+            options: ["whose", "which", "that", "who"],
+            correctFeedback: "Correct! 'Whose capacity' — the capacity belongs to the intensive care unit (an institution/thing). 'Whose' is the correct possessive pronoun for both institutions and people.",
+            correctFeedbackRu: "Правильно! 'Whose capacity' — мощность принадлежит отделению интенсивной терапии (учреждению/предмету). 'Whose' — правильное притяжательное местоимение как для учреждений, так и для людей.",
+            incorrectFeedback: "Incorrect. The capacity belongs to the intensive care unit → 'whose'. Think: 'its capacity was doubled' → replace 'its' with 'whose'. 'Which' cannot be followed directly by a noun.",
+            incorrectFeedbackRu: "Неправильно. Мощность принадлежит отделению интенсивной терапии → 'whose'. Думайте: 'its capacity was doubled' → замените 'its' на 'whose'. 'Which' не может непосредственно предшествовать существительному."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The Cold War, ____ an atmosphere of suspicion and fear pervaded international relations, lasted nearly half a century.",
+            correctAnswer: "when",
+            options: ["when", "where", "which", "whose"],
+            correctFeedback: "Correct! 'When' refers to the Cold War as a historical period (time). The clause adds the characteristic atmosphere of that era. 'When' = 'during which'.",
+            correctFeedbackRu: "Правильно! 'When' относится к Холодной войне как к историческому периоду (времени). Придаточное добавляет характерную атмосферу той эпохи. 'When' = 'during which'.",
+            incorrectFeedback: "Incorrect. The Cold War is a historical time period, so 'when' (= during which) is correct. 'Where' would suggest a physical place, which is inappropriate here.",
+            incorrectFeedbackRu: "Неправильно. Холодная война — исторический период времени, поэтому 'when' (= during which) правильно. 'Where' предполагало бы физическое место, что здесь неуместно."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The university withdrew her honorary degree, ____ she considered a grave injustice.",
+            correctAnswer: "which",
+            options: ["which", "that", "who", "what"],
+            correctFeedback: "Correct! 'Which' refers to the entire preceding event — the university withdrawing her honorary degree. She considered the whole situation a grave injustice. This is the sentential use of 'which'.",
+            correctFeedbackRu: "Правильно! 'Which' относится ко всему предшествующему событию — отзыву университетом её почётной степени. Она считала всю ситуацию серьёзной несправедливостью. Это сентенциальное использование 'which'.",
+            incorrectFeedback: "Incorrect. 'Which' is the only pronoun that can refer to an entire preceding clause. The comma is essential. 'That' cannot be used as a sentential relative pronoun, and 'what' is not a relative pronoun here.",
+            incorrectFeedbackRu: "Неправильно. 'Which' — единственное местоимение, которое может относиться ко всему предшествующему придаточному. Запятая необходима. 'That' не может использоваться как сентенциальное относительное местоимение, а 'what' здесь не является относительным местоимением."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun or adverb:",
+            questionRu: "Заполните предложение правильным относительным местоимением или наречием:",
+            sentence: "The research team published its findings, all of ____ supported the original hypothesis.",
+            correctAnswer: "which",
+            options: ["which", "whom", "that", "whose"],
+            correctFeedback: "Correct! 'All of which' — 'which' refers to the findings (things). The formal structure quantifier (all) + 'of which' is used for things. 'All of whom' would be used for people.",
+            correctFeedbackRu: "Правильно! 'All of which' — 'which' относится к выводам (предметам). Формальная структура квантификатор (all) + 'of which' используется для предметов. 'All of whom' использовалось бы для людей.",
+            incorrectFeedback: "Incorrect. 'All of which' is correct because the findings are things (not people). Remember: quantifier + 'of which' for things, quantifier + 'of whom' for people.",
+            incorrectFeedbackRu: "Неправильно. 'All of which' правильно, потому что выводы — предметы (не люди). Помните: квантификатор + 'of which' для предметов, квантификатор + 'of whom' для людей."
+        }
+    ]
+};
+
+/* =============================================================================== */
+/* =========================Sentence Building Exercises=========================== */
