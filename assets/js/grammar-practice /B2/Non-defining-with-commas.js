@@ -10,7 +10,7 @@ if (!window.grammarExercises.relative) {
 /* ============================================
 Page 1: Non-defining clauses with WHO
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page1'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page1'] = {
     title: "Non-defining Clauses with Commas - Who",
     multipleChoice: [
         {
@@ -179,7 +179,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page1'] = {
 /* ============================================
 Page 2: Non-defining clauses with WHICH
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page2'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page2'] = {
     title: "Non-defining Clauses with Commas - Which",
     multipleChoice: [
         {
@@ -348,7 +348,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page2'] = {
 /* ============================================
 Page 3: Non-defining clauses with WHOSE
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page3'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page3'] = {
     title: "Non-defining Clauses with Commas - Whose",
     multipleChoice: [
         {
@@ -517,7 +517,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page3'] = {
 /* ============================================
 Page 4: Non-defining clauses with WHOM
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page4'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page4'] = {
     title: "Non-defining Clauses with Commas - Whom",
     multipleChoice: [
         {
@@ -686,7 +686,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page4'] = {
 /* ============================================
 Page 5: Non-defining clauses with WHERE and WHEN
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page5'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page5'] = {
     title: "Non-defining Clauses with Commas - Where and When",
     multipleChoice: [
         {
@@ -855,7 +855,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page5'] = {
 /* ============================================
 Page 6: Identifying defining vs. non-defining clauses
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page6'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page6'] = {
     title: "Non-defining Clauses with Commas - Defining vs. Non-defining",
     multipleChoice: [
         {
@@ -1024,7 +1024,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page6'] = {
 /* ============================================
 Page 7: Non-defining clauses — sentence-level meaning
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page7'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page7'] = {
     title: "Non-defining Clauses with Commas - Sentence-level Meaning",
     multipleChoice: [
         {
@@ -1193,7 +1193,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page7'] = {
 /* ============================================
 Page 8: Non-defining clauses in complex sentences
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page8'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page8'] = {
     title: "Non-defining Clauses with Commas - Complex Sentences",
     multipleChoice: [
         {
@@ -1362,7 +1362,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page8'] = {
 /* ============================================
 Page 9: Non-defining clauses — advanced structures
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page9'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page9'] = {
     title: "Non-defining Clauses with Commas - Advanced Structures",
     multipleChoice: [
         {
@@ -1531,7 +1531,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page9'] = {
 /* ============================================
 Page 10: Mixed review — all pronouns and structures
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-page10'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-page10'] = {
     title: "Non-defining Clauses with Commas - Mixed Review",
     multipleChoice: [
         {
@@ -1703,7 +1703,7 @@ window.grammarExercises['relative']['non-defining-with-commas-page10'] = {
 /* ============================================
 Page 1: Fill in WHO
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page1'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page1'] = {
     title: "Non-defining Clauses with Commas - Who",
     fillGaps: [
         {
@@ -1822,7 +1822,7 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page1'] = {
 /* ============================================
 Page 2: Fill in WHICH
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page2'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page2'] = {
     title: "Non-defining Clauses with Commas - Which",
     fillGaps: [
         {
@@ -1941,7 +1941,7 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page2'] = {
 /* ============================================
 Page 3: Fill in WHOSE
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page3'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page3'] = {
     title: "Non-defining Clauses with Commas - Whose",
     fillGaps: [
         {
@@ -2060,7 +2060,7 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page3'] = {
 /* ============================================
 Page 4: Fill in WHOM
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page4'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page4'] = {
     title: "Non-defining Clauses with Commas - Whom",
     fillGaps: [
         {
@@ -2179,7 +2179,7 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page4'] = {
 /* ============================================
 Page 5: Fill in WHERE and WHEN
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page5'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page5'] = {
     title: "Non-defining Clauses with Commas - Where and When",
     fillGaps: [
         {
@@ -2298,7 +2298,7 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page5'] = {
 /* ============================================
 Page 6: Mixed — WHO, WHICH, WHOSE
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page6'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page6'] = {
     title: "Non-defining Clauses with Commas - Mixed (Who, Which, Whose)",
     fillGaps: [
         {
@@ -2417,7 +2417,7 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page6'] = {
 /* ============================================
 Page 7: Mixed — all pronouns including WHOM
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page7'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page7'] = {
     title: "Non-defining Clauses with Commas - Mixed (All Pronouns)",
     fillGaps: [
         {
@@ -2536,7 +2536,7 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page7'] = {
 /* ============================================
 Page 8: Mixed — where, when, and all pronouns
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page8'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page8'] = {
     title: "Non-defining Clauses with Commas - Mixed (All Forms)",
     fillGaps: [
         {
@@ -2655,7 +2655,7 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page8'] = {
 /* ============================================
 Page 9: Advanced — formal structures and sentential which
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page9'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page9'] = {
     title: "Non-defining Clauses with Commas - Advanced Structures",
     fillGaps: [
         {
@@ -2774,7 +2774,7 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page9'] = {
 /* ============================================
 Page 10: Mixed review — all structures
 ============================================ */
-window.grammarExercises['relative']['non-defining-with-commas-gap-page10'] = {
+window.grammarExercises['relative']['non-defining-clauses-with-commas-gap-page10'] = {
     title: "Non-defining Clauses with Commas - Mixed Review",
     fillGaps: [
         {
@@ -2892,3 +2892,1093 @@ window.grammarExercises['relative']['non-defining-with-commas-gap-page10'] = {
 
 /* =============================================================================== */
 /* =========================Sentence Building Exercises=========================== */
+
+/* ============================================
+Page 1: Sentence Building with WHO
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page1'] = {
+    title: "Non-defining Clauses with Commas - Who",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "uncle,", "who", "lives", "in", "Toronto,", "is", "visiting", "us", "next", "month."],
+            correctAnswer: "My uncle, who lives in Toronto, is visiting us next month.",
+            correctFeedback: "Perfect! 'My uncle, who lives in Toronto, is visiting us next month.' The non-defining clause 'who lives in Toronto' is correctly placed between commas. 'Who' refers to 'my uncle', a specific person already identified.",
+            correctFeedbackRu: "Отлично! 'My uncle, who lives in Toronto, is visiting us next month.' Неограничительное придаточное 'who lives in Toronto' правильно выделено запятыми. 'Who' относится к 'my uncle', конкретному уже известному человеку.",
+            incorrectFeedback: "Try again. Structure: My uncle, + who + verb + , + main clause. The non-defining clause must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: My uncle, + who + глагол + , + главное предложение. Неограничительное придаточное должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "ambassador,", "who", "had", "served", "for", "a", "decade,", "gave", "a", "farewell", "speech."],
+            correctAnswer: "The ambassador, who had served for a decade, gave a farewell speech.",
+            correctFeedback: "Correct! 'The ambassador, who had served for a decade, gave a farewell speech.' The clause 'who had served for a decade' is non-defining — the ambassador is already identified by the definite article 'the'.",
+            correctFeedbackRu: "Правильно! 'The ambassador, who had served for a decade, gave a farewell speech.' Придаточное 'who had served for a decade' является неограничительным — посол уже идентифицирован определённым артиклем 'the'.",
+            incorrectFeedback: "Try again. The ambassador is already identified, so the relative clause is non-defining and needs commas on both sides. Use 'who' for a person as the subject.",
+            incorrectFeedbackRu: "Попробуйте снова. Посол уже идентифицирован, поэтому придаточное является неограничительным и нуждается в запятых с обеих сторон. Используйте 'who' для человека как подлежащего."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Her", "sister,", "who", "is", "a", "qualified", "engineer,", "works", "for", "a", "multinational", "company."],
+            correctAnswer: "Her sister, who is a qualified engineer, works for a multinational company.",
+            correctFeedback: "Correct! 'Her sister, who is a qualified engineer, works for a multinational company.' 'Her sister' is a specific person (identified by the possessive 'her'), so the clause is non-defining with commas.",
+            correctFeedbackRu: "Правильно! 'Her sister, who is a qualified engineer, works for a multinational company.' 'Her sister' — конкретный человек (идентифицирован притяжательным 'her'), поэтому придаточное является неограничительным с запятыми.",
+            incorrectFeedback: "Try again. 'Her sister' identifies one specific person, so the clause adds extra information and must have commas. 'Who' is correct for a person as the subject of the clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Her sister' идентифицирует одного конкретного человека, поэтому придаточное добавляет дополнительную информацию и должно иметь запятые. 'Who' правильно для человека как подлежащего придаточного."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "novelist,", "who", "grew", "up", "in", "rural", "Ireland,", "draws", "on", "her", "own", "experiences."],
+            correctAnswer: "The novelist, who grew up in rural Ireland, draws on her own experiences.",
+            correctFeedback: "Correct! 'The novelist, who grew up in rural Ireland, draws on her own experiences.' The non-defining clause adds background information. 'Who' refers to the novelist as the subject of 'grew up'.",
+            correctFeedbackRu: "Правильно! 'The novelist, who grew up in rural Ireland, draws on her own experiences.' Неограничительное придаточное добавляет справочную информацию. 'Who' относится к романисту как подлежащему 'grew up'.",
+            incorrectFeedback: "Try again. Structure: The novelist, + who + verb phrase + , + main verb. The relative clause between the commas gives non-essential information about the already-identified novelist.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура: The novelist, + who + глагольная группа + , + главный глагол. Придаточное между запятыми даёт несущественную информацию об уже идентифицированном романисте."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Professor", "Chen,", "who", "published", "over", "sixty", "papers,", "retired", "last", "year."],
+            correctAnswer: "Professor Chen, who published over sixty papers, retired last year.",
+            correctFeedback: "Correct! 'Professor Chen, who published over sixty papers, retired last year.' Professor Chen is a named individual, so the clause is always non-defining. Named people require commas and 'who' (never 'that').",
+            correctFeedbackRu: "Правильно! 'Professor Chen, who published over sixty papers, retired last year.' Профессор Чэн — именованный человек, поэтому придаточное всегда является неограничительным. Именованные люди требуют запятых и 'who' (никогда не 'that').",
+            incorrectFeedback: "Try again. Professor Chen is a named person, so the clause must be non-defining with commas. Remember: 'that' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. Профессор Чэн — именованный человек, поэтому придаточное должно быть неограничительным с запятыми. Помните: 'that' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "surgeon,", "who", "trained", "in", "Boston,", "has", "performed", "thousands", "of", "operations."],
+            correctAnswer: "The surgeon, who trained in Boston, has performed thousands of operations.",
+            correctFeedback: "Correct! 'The surgeon, who trained in Boston, has performed thousands of operations.' The non-defining clause 'who trained in Boston' adds extra information about the surgeon. It could be removed without losing the main meaning.",
+            correctFeedbackRu: "Правильно! 'The surgeon, who trained in Boston, has performed thousands of operations.' Неограничительное придаточное 'who trained in Boston' добавляет дополнительную информацию о хирурге. Его можно убрать без потери основного смысла.",
+            incorrectFeedback: "Try again. The surgeon is already identified, so 'who trained in Boston' is extra information needing commas. 'Who' is the subject pronoun for people in non-defining clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. Хирург уже идентифицирован, поэтому 'who trained in Boston' — дополнительная информация, требующая запятых. 'Who' — местоимение-подлежащее для людей в неограничительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "grandfather,", "who", "fought", "in", "the", "Korean", "War,", "never", "talked", "about", "it."],
+            correctAnswer: "My grandfather, who fought in the Korean War, never talked about it.",
+            correctFeedback: "Correct! 'My grandfather, who fought in the Korean War, never talked about it.' 'My grandfather' is a specific, already-identified person. The clause adds historical context and is correctly non-defining.",
+            correctFeedbackRu: "Правильно! 'My grandfather, who fought in the Korean War, never talked about it.' 'My grandfather' — конкретный, уже известный человек. Придаточное добавляет исторический контекст и правильно является неограничительным.",
+            incorrectFeedback: "Try again. 'My grandfather' is a specific person — use 'who' and surround the clause with commas. The non-defining clause adds extra detail that could be omitted.",
+            incorrectFeedbackRu: "Попробуйте снова. 'My grandfather' — конкретный человек — используйте 'who' и выделите придаточное запятыми. Неограничительное придаточное добавляет дополнительную деталь, которую можно опустить."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "CEO,", "who", "founded", "the", "company", "at", "twenty-two,", "stepped", "down", "last", "Friday."],
+            correctAnswer: "The CEO, who founded the company at twenty-two, stepped down last Friday.",
+            correctFeedback: "Correct! 'The CEO, who founded the company at twenty-two, stepped down last Friday.' The CEO is a specific person. 'Who founded the company at twenty-two' is a non-defining clause giving impressive background detail.",
+            correctFeedbackRu: "Правильно! 'The CEO, who founded the company at twenty-two, stepped down last Friday.' CEO — конкретный человек. 'Who founded the company at twenty-two' — неограничительное придаточное, дающее впечатляющую справочную деталь.",
+            incorrectFeedback: "Try again. The CEO is a specific person — the clause is non-defining and needs commas. Structure: The CEO, + who + verb phrase + , + main verb + adverb.",
+            incorrectFeedbackRu: "Попробуйте снова. CEO — конкретный человек — придаточное является неограничительным и нуждается в запятых. Структура: The CEO, + who + глагольная группа + , + главный глагол + наречие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "athlete,", "who", "broke", "the", "world", "record", "twice,", "is", "only", "nineteen", "years", "old."],
+            correctAnswer: "The athlete, who broke the world record twice, is only nineteen years old.",
+            correctFeedback: "Correct! 'The athlete, who broke the world record twice, is only nineteen years old.' The clause 'who broke the world record twice' provides non-essential information. Removing it still leaves a complete sentence.",
+            correctFeedbackRu: "Правильно! 'The athlete, who broke the world record twice, is only nineteen years old.' Придаточное 'who broke the world record twice' предоставляет несущественную информацию. Его удаление по-прежнему оставляет полное предложение.",
+            incorrectFeedback: "Try again. The athlete is already identified. The relative clause gives extra information and must be placed between commas. 'Who' is the correct pronoun for a person as the subject.",
+            incorrectFeedbackRu: "Попробуйте снова. Спортсмен уже идентифицирован. Придаточное даёт дополнительную информацию и должно быть помещено между запятыми. 'Who' — правильное местоимение для человека как подлежащего."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Our", "head", "teacher,", "who", "has", "been", "here", "since", "1995,", "knows", "every", "student", "by", "name."],
+            correctAnswer: "Our head teacher, who has been here since 1995, knows every student by name.",
+            correctFeedback: "Correct! 'Our head teacher, who has been here since 1995, knows every student by name.' 'Our head teacher' is a specific person. The clause adds impressive career information and is correctly non-defining.",
+            correctFeedbackRu: "Правильно! 'Our head teacher, who has been here since 1995, knows every student by name.' 'Our head teacher' — конкретный человек. Придаточное добавляет впечатляющую карьерную информацию и правильно является неограничительным.",
+            incorrectFeedback: "Try again. 'Our head teacher' refers to one specific person. The non-defining clause 'who has been here since 1995' needs commas on both sides.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Our head teacher' относится к одному конкретному человеку. Неограничительное придаточное 'who has been here since 1995' нуждается в запятых с обеих сторон."
+        }
+    ]
+};
+
+/* ============================================
+Page 2: Sentence Building with WHICH
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page2'] = {
+    title: "Non-defining Clauses with Commas - Which",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "cathedral,", "which", "dates", "back", "to", "the", "twelfth", "century,", "attracts", "many", "tourists."],
+            correctAnswer: "The cathedral, which dates back to the twelfth century, attracts many tourists.",
+            correctFeedback: "Correct! 'The cathedral, which dates back to the twelfth century, attracts many tourists.' 'Which' refers to the cathedral (a thing). The clause is non-defining — the cathedral is already identified by 'the'.",
+            correctFeedbackRu: "Правильно! 'The cathedral, which dates back to the twelfth century, attracts many tourists.' 'Which' относится к собору (предмету). Придаточное является неограничительным — собор уже идентифицирован артиклем 'the'.",
+            incorrectFeedback: "Try again. The cathedral is a thing — use 'which'. It is already identified, so the clause is non-defining with commas. 'That' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. Собор — предмет — используйте 'which'. Он уже идентифицирован, поэтому придаточное является неограничительным с запятыми. 'That' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["His", "first", "novel,", "which", "sold", "over", "a", "million", "copies,", "was", "adapted", "for", "television."],
+            correctAnswer: "His first novel, which sold over a million copies, was adapted for television.",
+            correctFeedback: "Correct! 'His first novel, which sold over a million copies, was adapted for television.' 'His first novel' is specific — only one can be 'first'. 'Which' is correct for things, and commas mark it as non-defining.",
+            correctFeedbackRu: "Правильно! 'His first novel, which sold over a million copies, was adapted for television.' 'His first novel' конкретен — только один может быть 'первым'. 'Which' правильно для предметов, а запятые обозначают его как неограничительное.",
+            incorrectFeedback: "Try again. 'His first novel' is already specific — the clause adds extra information. Use 'which' for things and place commas around the non-defining clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'His first novel' уже конкретен — придаточное добавляет дополнительную информацию. Используйте 'which' для предметов и ставьте запятые вокруг неограничительного придаточного."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "new", "bridge,", "which", "cost", "over", "two", "hundred", "million", "pounds,", "opened", "to", "traffic", "yesterday."],
+            correctAnswer: "The new bridge, which cost over two hundred million pounds, opened to traffic yesterday.",
+            correctFeedback: "Correct! 'The new bridge, which cost over two hundred million pounds, opened to traffic yesterday.' The bridge is identified as 'the new bridge'. 'Which' introduces the non-defining clause giving the impressive cost.",
+            correctFeedbackRu: "Правильно! 'The new bridge, which cost over two hundred million pounds, opened to traffic yesterday.' Мост идентифицирован как 'the new bridge'. 'Which' вводит неограничительное придаточное, сообщающее впечатляющую стоимость.",
+            incorrectFeedback: "Try again. A bridge is a thing — use 'which'. The clause 'which cost over two hundred million pounds' gives extra detail about an already-identified bridge, so commas are required.",
+            incorrectFeedbackRu: "Попробуйте снова. Мост — предмет — используйте 'which'. Придаточное 'which cost over two hundred million pounds' даёт дополнительную деталь об уже идентифицированном мосту, поэтому запятые обязательны."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "agreement,", "which", "was", "signed", "in", "Geneva,", "came", "into", "force", "immediately."],
+            correctAnswer: "The agreement, which was signed in Geneva, came into force immediately.",
+            correctFeedback: "Correct! 'The agreement, which was signed in Geneva, came into force immediately.' The agreement is already identified. 'Which' introduces the non-defining clause 'which was signed in Geneva', giving its origin.",
+            correctFeedbackRu: "Правильно! 'The agreement, which was signed in Geneva, came into force immediately.' Соглашение уже идентифицировано. 'Which' вводит неограничительное придаточное 'which was signed in Geneva', указывающее его происхождение.",
+            incorrectFeedback: "Try again. An agreement is a thing — use 'which'. The clause gives extra information and needs commas. Never use 'that' in a non-defining clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Соглашение — предмет — используйте 'which'. Придаточное даёт дополнительную информацию и нуждается в запятых. Никогда не используйте 'that' в неограничительном придаточном."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "company's", "annual", "report,", "which", "revealed", "record", "profits,", "was", "released", "on", "Thursday."],
+            correctAnswer: "The company's annual report, which revealed record profits, was released on Thursday.",
+            correctFeedback: "Correct! 'The company's annual report, which revealed record profits, was released on Thursday.' The possessive phrase identifies the specific report. 'Which' introduces the non-defining clause with the key finding.",
+            correctFeedbackRu: "Правильно! 'The company's annual report, which revealed record profits, was released on Thursday.' Притяжательная фраза идентифицирует конкретный отчёт. 'Which' вводит неограничительное придаточное с ключевым выводом.",
+            incorrectFeedback: "Try again. 'The company's annual report' is specific. Use 'which' for this thing and surround the non-defining clause with commas.",
+            incorrectFeedbackRu: "Попробуйте снова. 'The company's annual report' конкретен. Используйте 'which' для этого предмета и окружите неограничительное придаточное запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "vaccine,", "which", "took", "three", "years", "to", "develop,", "has", "already", "saved", "thousands", "of", "lives."],
+            correctAnswer: "The vaccine, which took three years to develop, has already saved thousands of lives.",
+            correctFeedback: "Correct! 'The vaccine, which took three years to develop, has already saved thousands of lives.' 'Which' refers to the vaccine (a thing). The non-defining clause gives the development timeline as extra information.",
+            correctFeedbackRu: "Правильно! 'The vaccine, which took three years to develop, has already saved thousands of lives.' 'Which' относится к вакцине (предмету). Неограничительное придаточное даёт время разработки в качестве дополнительной информации.",
+            incorrectFeedback: "Try again. The vaccine is a thing already identified — use 'which' and commas for the non-defining clause. 'That' is never permitted with commas in a non-defining clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Вакцина — уже идентифицированный предмет — используйте 'which' и запятые для неограничительного придаточного. 'That' никогда не допускается с запятыми в неограничительном придаточном."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "documentary,", "which", "aired", "on", "national", "television,", "sparked", "a", "major", "political", "debate."],
+            correctAnswer: "The documentary, which aired on national television, sparked a major political debate.",
+            correctFeedback: "Correct! 'The documentary, which aired on national television, sparked a major political debate.' The non-defining clause tells us where the documentary aired. It adds context but does not define which documentary.",
+            correctFeedbackRu: "Правильно! 'The documentary, which aired on national television, sparked a major political debate.' Неограничительное придаточное сообщает нам, где показывали документальный фильм. Оно добавляет контекст, но не определяет, какой это документальный фильм.",
+            incorrectFeedback: "Try again. The documentary is a specific thing — use 'which' with commas for the non-defining clause. Structure: The documentary, + which + verb phrase + , + main clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Документальный фильм — конкретный предмет — используйте 'which' с запятыми для неограничительного придаточного. Структура: The documentary, + which + глагольная группа + , + главное предложение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Her", "engagement", "ring,", "which", "had", "belonged", "to", "her", "grandmother,", "was", "stolen", "last", "week."],
+            correctAnswer: "Her engagement ring, which had belonged to her grandmother, was stolen last week.",
+            correctFeedback: "Correct! 'Her engagement ring, which had belonged to her grandmother, was stolen last week.' 'Which' refers to the ring (a thing). The non-defining clause adds the sentimental detail of its history.",
+            correctFeedbackRu: "Правильно! 'Her engagement ring, which had belonged to her grandmother, was stolen last week.' 'Which' относится к кольцу (предмету). Неограничительное придаточное добавляет сентиментальную деталь его истории.",
+            incorrectFeedback: "Try again. The engagement ring is a specific object. Use 'which' for things in non-defining clauses and place commas around the clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Обручальное кольцо — конкретный предмет. Используйте 'which' для предметов в неограничительных придаточных и ставьте запятые вокруг придаточного."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "ancient", "tomb,", "which", "was", "discovered", "in", "2019,", "contained", "priceless", "artefacts."],
+            correctAnswer: "The ancient tomb, which was discovered in 2019, contained priceless artefacts.",
+            correctFeedback: "Correct! 'The ancient tomb, which was discovered in 2019, contained priceless artefacts.' 'Which' refers to the ancient tomb (a thing). The date of discovery is extra non-essential information.",
+            correctFeedbackRu: "Правильно! 'The ancient tomb, which was discovered in 2019, contained priceless artefacts.' 'Which' относится к древней гробнице (предмету). Дата открытия — дополнительная несущественная информация.",
+            incorrectFeedback: "Try again. The ancient tomb is a specific thing. 'Which was discovered in 2019' is non-defining extra information and must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Древняя гробница — конкретный предмет. 'Which was discovered in 2019' — неограничительная дополнительная информация и должна быть выделена запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "prime", "minister's", "speech,", "which", "lasted", "over", "an", "hour,", "was", "broadcast", "live."],
+            correctAnswer: "The prime minister's speech, which lasted over an hour, was broadcast live.",
+            correctFeedback: "Correct! 'The prime minister's speech, which lasted over an hour, was broadcast live.' The possessive identifies the specific speech. 'Which' introduces the non-defining clause about its length.",
+            correctFeedbackRu: "Правильно! 'The prime minister's speech, which lasted over an hour, was broadcast live.' Притяжательное идентифицирует конкретную речь. 'Which' вводит неограничительное придаточное о её продолжительности.",
+            incorrectFeedback: "Try again. 'The prime minister's speech' is specific — use 'which' for this thing. The length detail is non-essential, so the clause needs commas on both sides.",
+            incorrectFeedbackRu: "Попробуйте снова. 'The prime minister's speech' конкретна — используйте 'which' для этого предмета. Деталь о продолжительности несущественна, поэтому придаточное нуждается в запятых с обеих сторон."
+        }
+    ]
+};
+
+/* ============================================
+Page 3: Sentence Building with WHOSE
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page3'] = {
+    title: "Non-defining Clauses with Commas - Whose",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "author,", "whose", "debut", "novel", "became", "a", "bestseller,", "is", "working", "on", "her", "second", "book."],
+            correctAnswer: "The author, whose debut novel became a bestseller, is working on her second book.",
+            correctFeedback: "Correct! 'The author, whose debut novel became a bestseller, is working on her second book.' 'Whose debut novel' — the novel belongs to the author. Structure: whose + noun (debut novel) + verb (became).",
+            correctFeedbackRu: "Правильно! 'The author, whose debut novel became a bestseller, is working on her second book.' 'Whose debut novel' — роман принадлежит автору. Структура: whose + существительное (debut novel) + глагол (became).",
+            incorrectFeedback: "Try again. 'Whose' shows possession — the debut novel belongs to the author. Pattern: [noun], whose + noun + verb + , + main clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' выражает принадлежность — дебютный роман принадлежит автору. Образец: [существительное], whose + существительное + глагол + , + главное предложение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "scientist,", "whose", "research", "led", "to", "a", "breakthrough,", "received", "international", "recognition."],
+            correctAnswer: "The scientist, whose research led to a breakthrough, received international recognition.",
+            correctFeedback: "Correct! 'The scientist, whose research led to a breakthrough, received international recognition.' 'Whose research' — the research belongs to the scientist. The possessive 'whose' connects the scientist to the research.",
+            correctFeedbackRu: "Правильно! 'The scientist, whose research led to a breakthrough, received international recognition.' 'Whose research' — исследование принадлежит учёному. Притяжательное 'whose' связывает учёного с исследованием.",
+            incorrectFeedback: "Try again. 'Whose' is the possessive relative pronoun — it replaces 'his/her': 'his research led to a breakthrough' → 'whose research led to a breakthrough'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' — притяжательное относительное местоимение — оно заменяет 'his/her': 'his research led to a breakthrough' → 'whose research led to a breakthrough'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "building,", "whose", "facade", "had", "been", "recently", "restored,", "is", "now", "a", "listed", "monument."],
+            correctAnswer: "The building, whose facade had been recently restored, is now a listed monument.",
+            correctFeedback: "Correct! 'The building, whose facade had been recently restored, is now a listed monument.' 'Whose' is used for a thing (the building). Think: 'its facade had been restored' → 'whose facade had been restored'.",
+            correctFeedbackRu: "Правильно! 'The building, whose facade had been recently restored, is now a listed monument.' 'Whose' используется для предмета (здания). Думайте: 'its facade had been restored' → 'whose facade had been restored'.",
+            incorrectFeedback: "Try again. 'Whose' can be used for things as well as people. The facade belongs to the building. Structure: The building, + whose + noun (facade) + verb phrase + , + main clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' может использоваться как для предметов, так и для людей. Фасад принадлежит зданию. Структура: The building, + whose + существительное (facade) + глагольная группа + , + главное предложение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["My", "colleague,", "whose", "expertise", "in", "tax", "law", "is", "exceptional,", "has", "been", "promoted", "to", "partner."],
+            correctAnswer: "My colleague, whose expertise in tax law is exceptional, has been promoted to partner.",
+            correctFeedback: "Correct! 'My colleague, whose expertise in tax law is exceptional, has been promoted to partner.' 'Whose expertise' — the expertise belongs to my colleague. The non-defining clause adds professional context.",
+            correctFeedbackRu: "Правильно! 'My colleague, whose expertise in tax law is exceptional, has been promoted to partner.' 'Whose expertise' — экспертиза принадлежит моему коллеге. Неограничительное придаточное добавляет профессиональный контекст.",
+            incorrectFeedback: "Try again. 'Whose expertise in tax law is exceptional' — 'whose' shows the expertise belongs to the colleague. The clause adds extra professional information, so commas are needed.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose expertise in tax law is exceptional' — 'whose' показывает, что экспертиза принадлежит коллеге. Придаточное добавляет дополнительную профессиональную информацию, поэтому запятые необходимы."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "company,", "whose", "headquarters", "are", "in", "Seoul,", "employs", "over", "forty", "thousand", "people."],
+            correctAnswer: "The company, whose headquarters are in Seoul, employs over forty thousand people.",
+            correctFeedback: "Correct! 'The company, whose headquarters are in Seoul, employs over forty thousand people.' 'Whose headquarters' — the headquarters belong to the company. 'Whose' is used for organisations as well as individuals.",
+            correctFeedbackRu: "Правильно! 'The company, whose headquarters are in Seoul, employs over forty thousand people.' 'Whose headquarters' — штаб-квартиры принадлежат компании. 'Whose' используется для организаций, а также для отдельных лиц.",
+            incorrectFeedback: "Try again. 'Whose headquarters are in Seoul' — 'whose' shows the headquarters belong to the company. Organisations take 'whose' just like people do.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose headquarters are in Seoul' — 'whose' показывает, что штаб-квартиры принадлежат компании. Организации принимают 'whose' так же, как и люди."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "journalist,", "whose", "article", "exposed", "the", "corruption,", "won", "a", "prestigious", "award."],
+            correctAnswer: "The journalist, whose article exposed the corruption, won a prestigious award.",
+            correctFeedback: "Correct! 'The journalist, whose article exposed the corruption, won a prestigious award.' 'Whose article' — the article belongs to the journalist. The clause gives the non-essential reason for the award.",
+            correctFeedbackRu: "Правильно! 'The journalist, whose article exposed the corruption, won a prestigious award.' 'Whose article' — статья принадлежит журналисту. Придаточное даёт несущественную причину для награды.",
+            incorrectFeedback: "Try again. 'Whose' shows possession: the article belongs to the journalist. Non-defining clause structure: [noun], + whose + noun + verb + , + main clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' выражает принадлежность: статья принадлежит журналисту. Структура неограничительного придаточного: [существительное], + whose + существительное + глагол + , + главное предложение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "volcano,", "whose", "last", "eruption", "was", "in", "1980,", "is", "being", "monitored", "around", "the", "clock."],
+            correctAnswer: "The volcano, whose last eruption was in 1980, is being monitored around the clock.",
+            correctFeedback: "Correct! 'The volcano, whose last eruption was in 1980, is being monitored around the clock.' 'Whose last eruption' — the eruption is associated with the volcano. 'Whose' works for inanimate things too.",
+            correctFeedbackRu: "Правильно! 'The volcano, whose last eruption was in 1980, is being monitored around the clock.' 'Whose last eruption' — извержение связано с вулканом. 'Whose' работает и для неодушевлённых предметов.",
+            incorrectFeedback: "Try again. 'Whose' is correct for things as well as people. The eruption belongs to (is associated with) the volcano. Commas are needed around the non-defining clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' правильно как для предметов, так и для людей. Извержение принадлежит (связано с) вулкану. Вокруг неограничительного придаточного нужны запятые."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Her", "mentor,", "whose", "guidance", "shaped", "her", "career,", "retired", "from", "academia", "last", "spring."],
+            correctAnswer: "Her mentor, whose guidance shaped her career, retired from academia last spring.",
+            correctFeedback: "Correct! 'Her mentor, whose guidance shaped her career, retired from academia last spring.' 'Whose guidance' — the guidance belongs to the mentor. The non-defining clause highlights the mentor's professional impact.",
+            correctFeedbackRu: "Правильно! 'Her mentor, whose guidance shaped her career, retired from academia last spring.' 'Whose guidance' — наставничество принадлежит ментору. Неограничительное придаточное подчёркивает профессиональное влияние ментора.",
+            incorrectFeedback: "Try again. 'Whose guidance shaped her career' — the guidance belongs to the mentor. Think: 'his guidance shaped her career' → replace 'his' with 'whose'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose guidance shaped her career' — наставничество принадлежит ментору. Думайте: 'his guidance shaped her career' → замените 'his' на 'whose'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "painter,", "whose", "work", "hangs", "in", "the", "National", "Gallery,", "died", "in", "obscurity."],
+            correctAnswer: "The painter, whose work hangs in the National Gallery, died in obscurity.",
+            correctFeedback: "Correct! 'The painter, whose work hangs in the National Gallery, died in obscurity.' 'Whose work' — the work belongs to the painter. The non-defining clause adds the poignant contrast between fame and the painter's death.",
+            correctFeedbackRu: "Правильно! 'The painter, whose work hangs in the National Gallery, died in obscurity.' 'Whose work' — работа принадлежит художнику. Неограничительное придаточное добавляет трогательный контраст между известностью и смертью художника.",
+            incorrectFeedback: "Try again. 'Whose work hangs in the National Gallery' — the work belongs to the painter. 'Whose' + noun (work) + verb (hangs) is the possessive relative clause pattern.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose work hangs in the National Gallery' — работа принадлежит художнику. 'Whose' + существительное (work) + глагол (hangs) — образец притяжательного придаточного."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "charity,", "whose", "annual", "fundraiser", "raises", "millions,", "was", "founded", "over", "fifty", "years", "ago."],
+            correctAnswer: "The charity, whose annual fundraiser raises millions, was founded over fifty years ago.",
+            correctFeedback: "Correct! 'The charity, whose annual fundraiser raises millions, was founded over fifty years ago.' 'Whose annual fundraiser' — the fundraiser belongs to the charity. 'Whose' can be used for organisations.",
+            correctFeedbackRu: "Правильно! 'The charity, whose annual fundraiser raises millions, was founded over fifty years ago.' 'Whose annual fundraiser' — сбор средств принадлежит благотворительной организации. 'Whose' может использоваться для организаций.",
+            incorrectFeedback: "Try again. 'Whose' is the possessive relative pronoun for organisations too. The fundraiser belongs to the charity. Commas are required around the non-defining clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose' — притяжательное относительное местоимение также для организаций. Сбор средств принадлежит благотворительной организации. Запятые необходимы вокруг неограничительного придаточного."
+        }
+    ]
+};
+
+/* ============================================
+Page 4: Sentence Building with WHOM
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page4'] = {
+    title: "Non-defining Clauses with Commas - Whom",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "professor,", "whom", "I", "have", "always", "admired,", "has", "just", "published", "a", "new", "paper."],
+            correctAnswer: "The professor, whom I have always admired, has just published a new paper.",
+            correctFeedback: "Correct! 'The professor, whom I have always admired, has just published a new paper.' 'Whom' is correct — the professor is the object (I admire the professor). Test: 'I have always admired her' → 'whom'.",
+            correctFeedbackRu: "Правильно! 'The professor, whom I have always admired, has just published a new paper.' 'Whom' правильно — профессор является дополнением (я восхищаюсь профессором). Тест: 'I have always admired her' → 'whom'.",
+            incorrectFeedback: "Try again. 'Whom' is the object form — the professor is admired (object), not doing the admiring. Structure: The professor, + whom + subject + verb + , + main clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whom' — форма дополнения — профессора восхищают (дополнение), а не он восхищается. Структура: The professor, + whom + подлежащее + глагол + , + главное предложение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "witness,", "whom", "the", "police", "interviewed", "twice,", "eventually", "provided", "crucial", "evidence."],
+            correctAnswer: "The witness, whom the police interviewed twice, eventually provided crucial evidence.",
+            correctFeedback: "Correct! 'The witness, whom the police interviewed twice, eventually provided crucial evidence.' 'Whom' is correct — the police interviewed the witness (witness = object). Test: 'the police interviewed him' → 'whom'.",
+            correctFeedbackRu: "Правильно! 'The witness, whom the police interviewed twice, eventually provided crucial evidence.' 'Whom' правильно — полиция допрашивала свидетеля (свидетель = дополнение). Тест: 'the police interviewed him' → 'whom'.",
+            incorrectFeedback: "Try again. The police interviewed the witness — the witness is the object. 'Whom' is the correct object pronoun for people in non-defining relative clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. Полиция допрашивала свидетеля — свидетель является дополнением. 'Whom' — правильное объектное местоимение для людей в неограничительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "candidate,", "whom", "the", "party", "had", "been", "supporting,", "lost", "by", "a", "narrow", "margin."],
+            correctAnswer: "The candidate, whom the party had been supporting, lost by a narrow margin.",
+            correctFeedback: "Correct! 'The candidate, whom the party had been supporting, lost by a narrow margin.' 'Whom' is correct — the party supported the candidate (candidate = object). Test: 'the party supported her' → 'whom'.",
+            correctFeedbackRu: "Правильно! 'The candidate, whom the party had been supporting, lost by a narrow margin.' 'Whom' правильно — партия поддерживала кандидата (кандидат = дополнение). Тест: 'the party supported her' → 'whom'.",
+            incorrectFeedback: "Try again. The party supported the candidate (candidate = object) → 'whom'. 'Who' is for subjects only. The candidate received the support — they are the object.",
+            incorrectFeedbackRu: "Попробуйте снова. Партия поддерживала кандидата (кандидат = дополнение) → 'whom'. 'Who' — только для подлежащих. Кандидат получил поддержку — он является дополнением."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "artist,", "whom", "critics", "had", "dismissed", "for", "years,", "is", "now", "celebrated", "worldwide."],
+            correctAnswer: "The artist, whom critics had dismissed for years, is now celebrated worldwide.",
+            correctFeedback: "Correct! 'The artist, whom critics had dismissed for years, is now celebrated worldwide.' Critics dismissed the artist (artist = object) → 'whom'. The sentence highlights a satisfying reversal of fortune.",
+            correctFeedbackRu: "Правильно! 'The artist, whom critics had dismissed for years, is now celebrated worldwide.' Критики отвергали художника (художник = дополнение) → 'whom'. Предложение подчёркивает приятный поворот судьбы.",
+            incorrectFeedback: "Try again. Critics dismissed the artist — the artist is the object, not the subject. 'Whom' is the object form. Test: 'critics dismissed him' → replace 'him' with 'whom'.",
+            incorrectFeedbackRu: "Попробуйте снова. Критики отвергали художника — художник является дополнением, а не подлежащим. 'Whom' — форма дополнения. Тест: 'critics dismissed him' → замените 'him' на 'whom'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "surgeon,", "whom", "the", "hospital", "had", "recruited", "from", "abroad,", "transformed", "the", "cardiology", "department."],
+            correctAnswer: "The surgeon, whom the hospital had recruited from abroad, transformed the cardiology department.",
+            correctFeedback: "Correct! 'The surgeon, whom the hospital had recruited from abroad, transformed the cardiology department.' The hospital recruited the surgeon (surgeon = object) → 'whom'. The clause adds the international recruitment detail.",
+            correctFeedbackRu: "Правильно! 'The surgeon, whom the hospital had recruited from abroad, transformed the cardiology department.' Больница наняла хирурга (хирург = дополнение) → 'whom'. Придаточное добавляет деталь о международном найме.",
+            incorrectFeedback: "Try again. The hospital recruited the surgeon — the surgeon is the object. Use 'whom' for people as objects. Test: 'the hospital recruited her' → 'her' = object → 'whom'.",
+            incorrectFeedbackRu: "Попробуйте снова. Больница наняла хирурга — хирург является дополнением. Используйте 'whom' для людей как дополнений. Тест: 'the hospital recruited her' → 'her' = дополнение → 'whom'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Her", "business", "partner,", "whom", "she", "has", "known", "since", "university,", "is", "also", "her", "closest", "friend."],
+            correctAnswer: "Her business partner, whom she has known since university, is also her closest friend.",
+            correctFeedback: "Correct! 'Her business partner, whom she has known since university, is also her closest friend.' 'Whom' is correct — she has known the partner (partner = object). Test: 'she has known him' → 'whom'.",
+            correctFeedbackRu: "Правильно! 'Her business partner, whom she has known since university, is also her closest friend.' 'Whom' правильно — она знает партнёра (партнёр = дополнение). Тест: 'she has known him' → 'whom'.",
+            incorrectFeedback: "Try again. She has known the business partner (partner = object of 'known') → 'whom'. 'Who' would make the partner the subject of 'known', which is grammatically incorrect here.",
+            incorrectFeedbackRu: "Попробуйте снова. Она знает делового партнёра (партнёр = дополнение 'known') → 'whom'. 'Who' сделало бы партнёра подлежащим 'known', что здесь грамматически неправильно."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "diplomat,", "whom", "the", "president", "had", "personally", "recommended,", "was", "appointed", "as", "ambassador."],
+            correctAnswer: "The diplomat, whom the president had personally recommended, was appointed as ambassador.",
+            correctFeedback: "Correct! 'The diplomat, whom the president had personally recommended, was appointed as ambassador.' The president recommended the diplomat (diplomat = object) → 'whom'. The personal recommendation adds prestige.",
+            correctFeedbackRu: "Правильно! 'The diplomat, whom the president had personally recommended, was appointed as ambassador.' Президент рекомендовал дипломата (дипломат = дополнение) → 'whom'. Личная рекомендация добавляет престиж.",
+            incorrectFeedback: "Try again. The president recommended the diplomat — the diplomat is the object. Use 'whom'. Remember: subject = 'who', object = 'whom'.",
+            incorrectFeedbackRu: "Попробуйте снова. Президент рекомендовал дипломата — дипломат является дополнением. Используйте 'whom'. Помните: подлежащее = 'who', дополнение = 'whom'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "volunteer,", "whom", "the", "charity", "relies", "on", "heavily,", "organises", "all", "the", "local", "events."],
+            correctAnswer: "The volunteer, whom the charity relies on heavily, organises all the local events.",
+            correctFeedback: "Correct! 'The volunteer, whom the charity relies on heavily, organises all the local events.' The charity relies on the volunteer (volunteer = object of 'relies on') → 'whom'. With phrasal verbs, the person as object takes 'whom'.",
+            correctFeedbackRu: "Правильно! 'The volunteer, whom the charity relies on heavily, organises all the local events.' Благотворительная организация полагается на волонтёра (волонтёр = дополнение 'relies on') → 'whom'. С фразовыми глаголами человек как дополнение принимает 'whom'.",
+            incorrectFeedback: "Try again. The charity relies on the volunteer — the volunteer is the object of the phrasal verb 'rely on'. Use 'whom' as the object pronoun for people.",
+            incorrectFeedbackRu: "Попробуйте снова. Благотворительная организация полагается на волонтёра — волонтёр является дополнением фразового глагола 'rely on'. Используйте 'whom' как объектное местоимение для людей."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "intern,", "whom", "the", "firm", "had", "trained", "over", "six", "months,", "was", "offered", "a", "permanent", "role."],
+            correctAnswer: "The intern, whom the firm had trained over six months, was offered a permanent role.",
+            correctFeedback: "Correct! 'The intern, whom the firm had trained over six months, was offered a permanent role.' The firm trained the intern (intern = object) → 'whom'. This non-defining clause explains the background to the job offer.",
+            correctFeedbackRu: "Правильно! 'The intern, whom the firm had trained over six months, was offered a permanent role.' Фирма обучала стажёра (стажёр = дополнение) → 'whom'. Это неограничительное придаточное объясняет предысторию предложения о работе.",
+            incorrectFeedback: "Try again. The firm trained the intern (intern = object) → 'whom'. Check: 'the firm trained her' → 'her' is an object pronoun → use 'whom' in the relative clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Фирма обучала стажёра (стажёр = дополнение) → 'whom'. Проверьте: 'the firm trained her' → 'her' — объектное местоимение → используйте 'whom' в придаточном."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "professor,", "whom", "students", "travel", "from", "across", "the", "country", "to", "hear,", "is", "retiring", "this", "semester."],
+            correctAnswer: "The professor, whom students travel from across the country to hear, is retiring this semester.",
+            correctFeedback: "Correct! 'The professor, whom students travel from across the country to hear, is retiring this semester.' Students come to hear the professor (professor = object of 'hear') → 'whom'. The clause shows the professor's exceptional reputation.",
+            correctFeedbackRu: "Правильно! 'The professor, whom students travel from across the country to hear, is retiring this semester.' Студенты приезжают послушать профессора (профессор = дополнение 'hear') → 'whom'. Придаточное показывает исключительную репутацию профессора.",
+            incorrectFeedback: "Try again. Students come to hear the professor — the professor is the object of 'hear'. Use 'whom' for people as objects. The clause is non-defining and needs commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Студенты приезжают послушать профессора — профессор является дополнением 'hear'. Используйте 'whom' для людей как дополнений. Придаточное является неограничительным и нуждается в запятых."
+        }
+    ]
+};
+
+/* ============================================
+Page 5: Sentence Building with WHERE and WHEN
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page5'] = {
+    title: "Non-defining Clauses with Commas - Where and When",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Pompeii,", "where", "the", "Roman", "civilisation", "was", "so", "dramatically", "preserved,", "is", "now", "a", "major", "tourist", "site."],
+            correctAnswer: "Pompeii, where the Roman civilisation was so dramatically preserved, is now a major tourist site.",
+            correctFeedback: "Correct! 'Pompeii, where the Roman civilisation was so dramatically preserved, is now a major tourist site.' 'Where' refers to Pompeii, a specific place. The clause adds the non-essential historical detail of the civilisation's preservation.",
+            correctFeedbackRu: "Правильно! 'Pompeii, where the Roman civilisation was so dramatically preserved, is now a major tourist site.' 'Where' относится к Помпеям, конкретному месту. Придаточное добавляет несущественную историческую деталь о сохранении цивилизации.",
+            incorrectFeedback: "Try again. Pompeii is a named place — use 'where' (= in which). The clause is non-defining and needs commas. 'Where' introduces information about what happened at this location.",
+            incorrectFeedbackRu: "Попробуйте снова. Помпеи — именованное место — используйте 'where' (= in which). Придаточное является неограничительным и нуждается в запятых. 'Where' вводит информацию о том, что произошло в этом месте."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "French", "Revolution,", "when", "the", "monarchy", "was", "overthrown,", "began", "in", "1789."],
+            correctAnswer: "The French Revolution, when the monarchy was overthrown, began in 1789.",
+            correctFeedback: "Correct! 'The French Revolution, when the monarchy was overthrown, began in 1789.' 'When' refers to the French Revolution as a historical time period. The clause adds the key historical event that characterised it.",
+            correctFeedbackRu: "Правильно! 'The French Revolution, when the monarchy was overthrown, began in 1789.' 'When' относится к Французской революции как к историческому периоду времени. Придаточное добавляет ключевое историческое событие, характеризующее её.",
+            incorrectFeedback: "Try again. The French Revolution is a time period — use 'when' (= during which). Commas are needed as the clause is non-defining. 'Where' is for places, not historical events.",
+            incorrectFeedbackRu: "Попробуйте снова. Французская революция — период времени — используйте 'when' (= during which). Запятые нужны, так как придаточное является неограничительным. 'Where' — для мест, а не для исторических событий."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "British", "Library,", "where", "over", "fourteen", "million", "books", "are", "stored,", "is", "open", "to", "all", "researchers."],
+            correctAnswer: "The British Library, where over fourteen million books are stored, is open to all researchers.",
+            correctFeedback: "Correct! 'The British Library, where over fourteen million books are stored, is open to all researchers.' 'Where' refers to the British Library, a specific institution/place. Books are stored there — 'where' = 'in which'.",
+            correctFeedbackRu: "Правильно! 'The British Library, where over fourteen million books are stored, is open to all researchers.' 'Where' относится к Британской библиотеке, конкретному учреждению/месту. Там хранятся книги — 'where' = 'in which'.",
+            incorrectFeedback: "Try again. The British Library is a place/institution — use 'where'. The clause 'where over fourteen million books are stored' adds impressive context about this specific library.",
+            incorrectFeedbackRu: "Попробуйте снова. Британская библиотека — место/учреждение — используйте 'where'. Придаточное 'where over fourteen million books are stored' добавляет впечатляющий контекст об этой конкретной библиотеке."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "1960s,", "when", "social", "attitudes", "changed", "dramatically,", "were", "a", "defining", "decade", "in", "Western", "history."],
+            correctAnswer: "The 1960s, when social attitudes changed dramatically, were a defining decade in Western history.",
+            correctFeedback: "Correct! 'The 1960s, when social attitudes changed dramatically, were a defining decade in Western history.' 'When' refers to the 1960s, a decade (time period). The clause adds the social transformation as context.",
+            correctFeedbackRu: "Правильно! 'The 1960s, when social attitudes changed dramatically, were a defining decade in Western history.' 'When' относится к 1960-м, десятилетию (периоду времени). Придаточное добавляет социальную трансформацию как контекст.",
+            incorrectFeedback: "Try again. The 1960s is a time period — use 'when' (= during which). Commas are required around the non-defining clause. 'Where' would be incorrect for a time period.",
+            incorrectFeedbackRu: "Попробуйте снова. 1960-е — период времени — используйте 'when' (= during which). Запятые необходимы вокруг неограничительного придаточного. 'Where' было бы неправильным для периода времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Machu", "Picchu,", "where", "the", "Inca", "civilisation", "once", "flourished,", "receives", "millions", "of", "visitors", "each", "year."],
+            correctAnswer: "Machu Picchu, where the Inca civilisation once flourished, receives millions of visitors each year.",
+            correctFeedback: "Correct! 'Machu Picchu, where the Inca civilisation once flourished, receives millions of visitors each year.' 'Where' refers to Machu Picchu, a specific named place. The clause adds historical context.",
+            correctFeedbackRu: "Правильно! 'Machu Picchu, where the Inca civilisation once flourished, receives millions of visitors each year.' 'Where' относится к Мачу-Пикчу, конкретному именованному месту. Придаточное добавляет исторический контекст.",
+            incorrectFeedback: "Try again. Machu Picchu is a named location — use 'where' (= in which). As a named place, the clause about it is non-defining and requires commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Мачу-Пикчу — именованное место — используйте 'where' (= in which). Как именованное место, придаточное о нём является неограничительным и требует запятых."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["His", "twenties,", "when", "he", "lived", "in", "four", "different", "countries,", "were", "his", "most", "formative", "years."],
+            correctAnswer: "His twenties, when he lived in four different countries, were his most formative years.",
+            correctFeedback: "Correct! 'His twenties, when he lived in four different countries, were his most formative years.' 'When' refers to 'his twenties', a personal time period. The clause adds the international experience as context.",
+            correctFeedbackRu: "Правильно! 'His twenties, when he lived in four different countries, were his most formative years.' 'When' относится к 'his twenties', личному периоду времени. Придаточное добавляет международный опыт как контекст.",
+            incorrectFeedback: "Try again. 'His twenties' is a time period — use 'when'. The clause gives extra information about that period and must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. 'His twenties' — период времени — используйте 'when'. Придаточное даёт дополнительную информацию об этом периоде и должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Antarctic", "research", "station,", "where", "scientists", "study", "climate", "change,", "operates", "throughout", "the", "year."],
+            correctAnswer: "The Antarctic research station, where scientists study climate change, operates throughout the year.",
+            correctFeedback: "Correct! 'The Antarctic research station, where scientists study climate change, operates throughout the year.' 'Where' refers to the research station, a specific place. Scientists study climate change there — 'where' = 'in which'.",
+            correctFeedbackRu: "Правильно! 'The Antarctic research station, where scientists study climate change, operates throughout the year.' 'Where' относится к исследовательской станции, конкретному месту. Там учёные изучают изменение климата — 'where' = 'in which'.",
+            incorrectFeedback: "Try again. The research station is a place — use 'where'. The clause gives extra information about what happens there and must have commas as it is non-defining.",
+            incorrectFeedbackRu: "Попробуйте снова. Исследовательская станция — место — используйте 'where'. Придаточное даёт дополнительную информацию о том, что там происходит, и должно иметь запятые, так как является неограничительным."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "post-war", "years,", "when", "Britain", "was", "rebuilding", "its", "infrastructure,", "saw", "unprecedented", "social", "change."],
+            correctAnswer: "The post-war years, when Britain was rebuilding its infrastructure, saw unprecedented social change.",
+            correctFeedback: "Correct! 'The post-war years, when Britain was rebuilding its infrastructure, saw unprecedented social change.' 'When' refers to 'the post-war years', a historical time period. The clause describes what was happening during those years.",
+            correctFeedbackRu: "Правильно! 'The post-war years, when Britain was rebuilding its infrastructure, saw unprecedented social change.' 'When' относится к 'the post-war years', историческому периоду времени. Придаточное описывает, что происходило в эти годы.",
+            incorrectFeedback: "Try again. 'The post-war years' is a time period — use 'when' (= during which). The clause adds historical context and must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. 'The post-war years' — период времени — используйте 'when' (= during which). Придаточное добавляет исторический контекст и должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Bodleian", "Library,", "where", "students", "from", "around", "the", "world", "come", "to", "study,", "holds", "millions", "of", "manuscripts."],
+            correctAnswer: "The Bodleian Library, where students from around the world come to study, holds millions of manuscripts.",
+            correctFeedback: "Correct! 'The Bodleian Library, where students from around the world come to study, holds millions of manuscripts.' 'Where' refers to the Bodleian Library, a specific institution. Students come there to study — 'where' = 'to which'.",
+            correctFeedbackRu: "Правильно! 'The Bodleian Library, where students from around the world come to study, holds millions of manuscripts.' 'Where' относится к Бодлианской библиотеке, конкретному учреждению. Студенты приезжают туда учиться — 'where' = 'to which'.",
+            incorrectFeedback: "Try again. The Bodleian Library is a named place — use 'where'. The clause gives non-essential extra information and must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Бодлианская библиотека — именованное место — используйте 'where'. Придаточное даёт несущественную дополнительную информацию и должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "early", "2000s,", "when", "social", "media", "was", "in", "its", "infancy,", "now", "seem", "like", "a", "very", "different", "era."],
+            correctAnswer: "The early 2000s, when social media was in its infancy, now seem like a very different era.",
+            correctFeedback: "Correct! 'The early 2000s, when social media was in its infancy, now seem like a very different era.' 'When' refers to the early 2000s, a time period. The clause adds the interesting context of social media's early stage.",
+            correctFeedbackRu: "Правильно! 'The early 2000s, when social media was in its infancy, now seem like a very different era.' 'When' относится к началу 2000-х, периоду времени. Придаточное добавляет интересный контекст раннего этапа социальных сетей.",
+            incorrectFeedback: "Try again. 'The early 2000s' is a time period — use 'when'. The clause is non-defining (extra information about that period) and needs commas.",
+            incorrectFeedbackRu: "Попробуйте снова. 'The early 2000s' — период времени — используйте 'when'. Придаточное является неограничительным (дополнительная информация об этом периоде) и нуждается в запятых."
+        }
+    ]
+};
+
+/* ============================================
+Page 6: Mixed — WHO, WHICH, WHOSE
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page6'] = {
+    title: "Non-defining Clauses with Commas - Mixed (Who, Which, Whose)",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "archaeologist,", "whose", "team", "unearthed", "the", "ancient", "city,", "received", "a", "major", "research", "grant."],
+            correctAnswer: "The archaeologist, whose team unearthed the ancient city, received a major research grant.",
+            correctFeedback: "Correct! 'The archaeologist, whose team unearthed the ancient city, received a major research grant.' 'Whose team' — the team belongs to the archaeologist. The non-defining clause gives the reason for the grant.",
+            correctFeedbackRu: "Правильно! 'The archaeologist, whose team unearthed the ancient city, received a major research grant.' 'Whose team' — команда принадлежит археологу. Неограничительное придаточное даёт причину для гранта.",
+            incorrectFeedback: "Try again. 'Whose team unearthed the ancient city' — the team belongs to the archaeologist. 'Whose' + noun (team) + verb is the possessive relative clause pattern.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose team unearthed the ancient city' — команда принадлежит археологу. 'Whose' + существительное (team) + глагол — образец притяжательного придаточного."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Sistine", "Chapel,", "which", "Michelangelo", "painted", "between", "1508", "and", "1512,", "is", "one", "of", "the", "world's", "greatest", "artworks."],
+            correctAnswer: "The Sistine Chapel, which Michelangelo painted between 1508 and 1512, is one of the world's greatest artworks.",
+            correctFeedback: "Correct! 'The Sistine Chapel, which Michelangelo painted between 1508 and 1512, is one of the world's greatest artworks.' Named places always take non-defining clauses. 'Which' is correct for a place/thing.",
+            correctFeedbackRu: "Правильно! 'The Sistine Chapel, which Michelangelo painted between 1508 and 1512, is one of the world's greatest artworks.' Именованные места всегда принимают неограничительные придаточные. 'Which' правильно для места/предмета.",
+            incorrectFeedback: "Try again. The Sistine Chapel is a named place — the clause is always non-defining. Use 'which' for places/things and surround the clause with commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Сикстинская капелла — именованное место — придаточное всегда является неограничительным. Используйте 'which' для мест/предметов и окружите придаточное запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "professor,", "who", "had", "taught", "at", "Oxford", "for", "thirty", "years,", "was", "awarded", "an", "honorary", "doctorate."],
+            correctAnswer: "The professor, who had taught at Oxford for thirty years, was awarded an honorary doctorate.",
+            correctFeedback: "Correct! 'The professor, who had taught at Oxford for thirty years, was awarded an honorary doctorate.' The professor is a specific person. 'Who' is the subject of 'had taught'. The clause explains why the doctorate was deserved.",
+            correctFeedbackRu: "Правильно! 'The professor, who had taught at Oxford for thirty years, was awarded an honorary doctorate.' Профессор — конкретный человек. 'Who' является подлежащим 'had taught'. Придаточное объясняет, почему докторская степень была заслужена.",
+            incorrectFeedback: "Try again. The professor is a specific person (subject of the clause) — use 'who' with commas. The non-defining clause gives the impressive career background.",
+            incorrectFeedbackRu: "Попробуйте снова. Профессор — конкретный человек (подлежащее придаточного) — используйте 'who' с запятыми. Неограничительное придаточное даёт впечатляющую карьерную биографию."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "new", "legislation,", "which", "was", "passed", "unanimously,", "will", "come", "into", "force", "next", "January."],
+            correctAnswer: "The new legislation, which was passed unanimously, will come into force next January.",
+            correctFeedback: "Correct! 'The new legislation, which was passed unanimously, will come into force next January.' 'Which' refers to the legislation (a thing). The unanimous passing is extra context — non-defining with commas.",
+            correctFeedbackRu: "Правильно! 'The new legislation, which was passed unanimously, will come into force next January.' 'Which' относится к законодательству (предмету). Единогласное принятие — дополнительный контекст — неограничительное с запятыми.",
+            incorrectFeedback: "Try again. Legislation is a thing — use 'which'. The clause about it being passed unanimously is non-defining extra information and needs commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Законодательство — предмет — используйте 'which'. Придаточное о его единогласном принятии является неограничительной дополнительной информацией и нуждается в запятых."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "start-up,", "whose", "app", "has", "over", "ten", "million", "users,", "is", "planning", "an", "international", "expansion."],
+            correctAnswer: "The start-up, whose app has over ten million users, is planning an international expansion.",
+            correctFeedback: "Correct! 'The start-up, whose app has over ten million users, is planning an international expansion.' 'Whose app' — the app belongs to the start-up. 'Whose' can be used for companies and organisations.",
+            correctFeedbackRu: "Правильно! 'The start-up, whose app has over ten million users, is planning an international expansion.' 'Whose app' — приложение принадлежит стартапу. 'Whose' может использоваться для компаний и организаций.",
+            incorrectFeedback: "Try again. 'Whose app has over ten million users' — the app belongs to the start-up. 'Whose' shows possession and is followed by a noun (app) then a verb (has).",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose app has over ten million users' — приложение принадлежит стартапу. 'Whose' выражает принадлежность и за ним следует существительное (app), затем глагол (has)."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "prime", "minister,", "who", "had", "been", "in", "office", "for", "twelve", "years,", "announced", "her", "resignation", "on", "Tuesday."],
+            correctAnswer: "The prime minister, who had been in office for twelve years, announced her resignation on Tuesday.",
+            correctFeedback: "Correct! 'The prime minister, who had been in office for twelve years, announced her resignation on Tuesday.' 'Who' refers to the prime minister (a person). The length of service is non-essential extra information.",
+            correctFeedbackRu: "Правильно! 'The prime minister, who had been in office for twelve years, announced her resignation on Tuesday.' 'Who' относится к премьер-министру (человеку). Срок службы — несущественная дополнительная информация.",
+            incorrectFeedback: "Try again. The prime minister is a specific person (subject of 'had been') — use 'who'. The clause is non-defining and needs commas on both sides.",
+            incorrectFeedbackRu: "Попробуйте снова. Премьер-министр — конкретный человек (подлежащее 'had been') — используйте 'who'. Придаточное является неограничительным и нуждается в запятых с обеих сторон."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "archaeological", "site,", "which", "covers", "over", "twenty", "hectares,", "may", "be", "the", "largest", "of", "its", "kind."],
+            correctAnswer: "The archaeological site, which covers over twenty hectares, may be the largest of its kind.",
+            correctFeedback: "Correct! 'The archaeological site, which covers over twenty hectares, may be the largest of its kind.' 'Which' refers to the site (a thing). The clause gives the impressive size as non-essential context.",
+            correctFeedbackRu: "Правильно! 'The archaeological site, which covers over twenty hectares, may be the largest of its kind.' 'Which' относится к памятнику (предмету). Придаточное даёт впечатляющий размер как несущественный контекст.",
+            incorrectFeedback: "Try again. The archaeological site is a thing — use 'which'. The size detail is extra, non-essential information, so the clause needs commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Археологический памятник — предмет — используйте 'which'. Деталь о размере — дополнительная, несущественная информация, поэтому придаточное нуждается в запятых."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "director,", "whose", "previous", "film", "won", "three", "BAFTAs,", "is", "already", "working", "on", "her", "next", "project."],
+            correctAnswer: "The director, whose previous film won three BAFTAs, is already working on her next project.",
+            correctFeedback: "Correct! 'The director, whose previous film won three BAFTAs, is already working on her next project.' 'Whose previous film' — the film belongs to the director. The three BAFTAs give impressive context.",
+            correctFeedbackRu: "Правильно! 'The director, whose previous film won three BAFTAs, is already working on her next project.' 'Whose previous film' — фильм принадлежит режиссёру. Три BAFTA дают впечатляющий контекст.",
+            incorrectFeedback: "Try again. 'Whose previous film won three BAFTAs' — the film belongs to the director. 'Whose' replaces a possessive pronoun: 'her previous film won' → 'whose previous film won'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose previous film won three BAFTAs' — фильм принадлежит режиссёру. 'Whose' заменяет притяжательное местоимение: 'her previous film won' → 'whose previous film won'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "merger,", "which", "had", "taken", "eighteen", "months", "to", "negotiate,", "was", "finally", "completed", "last", "week."],
+            correctAnswer: "The merger, which had taken eighteen months to negotiate, was finally completed last week.",
+            correctFeedback: "Correct! 'The merger, which had taken eighteen months to negotiate, was finally completed last week.' 'Which' refers to the merger (a thing). The long negotiation period is extra context about an already-identified merger.",
+            correctFeedbackRu: "Правильно! 'The merger, which had taken eighteen months to negotiate, was finally completed last week.' 'Which' относится к слиянию (предмету). Длительный период переговоров — дополнительный контекст об уже идентифицированном слиянии.",
+            incorrectFeedback: "Try again. A merger is a thing — use 'which'. The negotiation detail is non-essential extra information. The clause must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Слияние — предмет — используйте 'which'. Деталь о переговорах — несущественная дополнительная информация. Придаточное должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Her", "grandmother,", "who", "was", "born", "in", "1925,", "still", "lives", "independently", "in", "her", "own", "home."],
+            correctAnswer: "Her grandmother, who was born in 1925, still lives independently in her own home.",
+            correctFeedback: "Correct! 'Her grandmother, who was born in 1925, still lives independently in her own home.' 'Who' refers to her grandmother (a specific person). The birth year is non-essential extra information adding context.",
+            correctFeedbackRu: "Правильно! 'Her grandmother, who was born in 1925, still lives independently in her own home.' 'Who' относится к её бабушке (конкретному человеку). Год рождения — несущественная дополнительная информация, добавляющая контекст.",
+            incorrectFeedback: "Try again. 'Her grandmother' is a specific person — the clause is non-defining with commas. 'Who was born in 1925' gives non-essential context. Use 'who' for a person as the subject.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Her grandmother' — конкретный человек — придаточное является неограничительным с запятыми. 'Who was born in 1925' даёт несущественный контекст. Используйте 'who' для человека как подлежащего."
+        }
+    ]
+};
+
+/* ============================================
+Page 7: Mixed — all pronouns including WHOM and WHERE/WHEN
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page7'] = {
+    title: "Non-defining Clauses with Commas - Mixed (All Forms)",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "whistleblower,", "whom", "the", "authorities", "had", "been", "searching", "for,", "gave", "herself", "up", "voluntarily."],
+            correctAnswer: "The whistleblower, whom the authorities had been searching for, gave herself up voluntarily.",
+            correctFeedback: "Correct! 'The whistleblower, whom the authorities had been searching for, gave herself up voluntarily.' The authorities searched for the whistleblower (object) → 'whom'. The clause adds dramatic background to the surrender.",
+            correctFeedbackRu: "Правильно! 'The whistleblower, whom the authorities had been searching for, gave herself up voluntarily.' Власти разыскивали информатора (дополнение) → 'whom'. Придаточное добавляет драматический фон к сдаче.",
+            incorrectFeedback: "Try again. The authorities searched for the whistleblower — the whistleblower is the object → 'whom'. Test: 'the authorities searched for her' → 'her' = object → 'whom'.",
+            incorrectFeedbackRu: "Попробуйте снова. Власти разыскивали информатора — информатор является дополнением → 'whom'. Тест: 'the authorities searched for her' → 'her' = дополнение → 'whom'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Stratford-upon-Avon,", "where", "Shakespeare", "was", "born,", "attracts", "visitors", "from", "all", "over", "the", "world."],
+            correctAnswer: "Stratford-upon-Avon, where Shakespeare was born, attracts visitors from all over the world.",
+            correctFeedback: "Correct! 'Stratford-upon-Avon, where Shakespeare was born, attracts visitors from all over the world.' 'Where' refers to Stratford-upon-Avon, a named place. Shakespeare was born there. The clause adds the famous historical fact.",
+            correctFeedbackRu: "Правильно! 'Stratford-upon-Avon, where Shakespeare was born, attracts visitors from all over the world.' 'Where' относится к Стратфорд-апон-Эйвону, именованному месту. Там родился Шекспир. Придаточное добавляет известный исторический факт.",
+            incorrectFeedback: "Try again. Stratford-upon-Avon is a named place — use 'where' (= in which). As a named town, the clause about it is always non-defining and needs commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Стратфорд-апон-Эйвон — именованное место — используйте 'where' (= in which). Как именованный город, придаточное о нём всегда является неограничительным и нуждается в запятых."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Renaissance,", "when", "art", "and", "science", "experienced", "a", "remarkable", "rebirth,", "originated", "in", "Italy."],
+            correctAnswer: "The Renaissance, when art and science experienced a remarkable rebirth, originated in Italy.",
+            correctFeedback: "Correct! 'The Renaissance, when art and science experienced a remarkable rebirth, originated in Italy.' 'When' refers to the Renaissance as a historical time period. The clause describes the defining characteristic of that era.",
+            correctFeedbackRu: "Правильно! 'The Renaissance, when art and science experienced a remarkable rebirth, originated in Italy.' 'When' относится к Возрождению как к историческому периоду времени. Придаточное описывает определяющую характеристику той эпохи.",
+            incorrectFeedback: "Try again. The Renaissance is a historical time period — use 'when' (= during which). The clause is non-defining and needs commas. 'Where' would incorrectly suggest a location.",
+            incorrectFeedbackRu: "Попробуйте снова. Возрождение — исторический период времени — используйте 'when' (= during which). Придаточное является неограничительным и нуждается в запятых. 'Where' ошибочно предположило бы место."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "researcher,", "whose", "findings", "contradicted", "decades", "of", "scientific", "consensus,", "faced", "significant", "criticism."],
+            correctAnswer: "The researcher, whose findings contradicted decades of scientific consensus, faced significant criticism.",
+            correctFeedback: "Correct! 'The researcher, whose findings contradicted decades of scientific consensus, faced significant criticism.' 'Whose findings' — the findings belong to the researcher. The clause explains the source of the criticism.",
+            correctFeedbackRu: "Правильно! 'The researcher, whose findings contradicted decades of scientific consensus, faced significant criticism.' 'Whose findings' — выводы принадлежат исследователю. Придаточное объясняет причину критики.",
+            incorrectFeedback: "Try again. 'Whose findings contradicted...' — the findings belong to the researcher. Pattern: [noun], + whose + noun (findings) + verb (contradicted) + , + main clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose findings contradicted...' — выводы принадлежат исследователю. Образец: [существительное], + whose + существительное (findings) + глагол (contradicted) + , + главное предложение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "treaty,", "which", "was", "brokered", "after", "years", "of", "negotiation,", "brought", "lasting", "peace", "to", "the", "region."],
+            correctAnswer: "The treaty, which was brokered after years of negotiation, brought lasting peace to the region.",
+            correctFeedback: "Correct! 'The treaty, which was brokered after years of negotiation, brought lasting peace to the region.' 'Which' refers to the treaty (a thing). The years of negotiation give impressive context to the peace achieved.",
+            correctFeedbackRu: "Правильно! 'The treaty, which was brokered after years of negotiation, brought lasting peace to the region.' 'Which' относится к договору (предмету). Годы переговоров дают впечатляющий контекст достигнутому миру.",
+            incorrectFeedback: "Try again. A treaty is a thing — use 'which'. The clause about its negotiation history is non-essential extra information and must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Договор — предмет — используйте 'which'. Придаточное об истории его переговоров является несущественной дополнительной информацией и должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Her", "mentor,", "whom", "she", "credits", "with", "transforming", "her", "career,", "passed", "away", "last", "year."],
+            correctAnswer: "Her mentor, whom she credits with transforming her career, passed away last year.",
+            correctFeedback: "Correct! 'Her mentor, whom she credits with transforming her career, passed away last year.' She credits the mentor (mentor = object of 'credits') → 'whom'. The clause shows the profound impact of the mentor.",
+            correctFeedbackRu: "Правильно! 'Her mentor, whom she credits with transforming her career, passed away last year.' Она благодарит ментора (ментор = дополнение 'credits') → 'whom'. Придаточное показывает глубокое влияние ментора.",
+            incorrectFeedback: "Try again. She credits the mentor with transforming her career — the mentor is the object → 'whom'. Test: 'she credits him with transforming her career' → 'him' = object → 'whom'.",
+            incorrectFeedbackRu: "Попробуйте снова. Она благодарит ментора за трансформацию её карьеры — ментор является дополнением → 'whom'. Тест: 'she credits him with transforming her career' → 'him' = дополнение → 'whom'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "space", "telescope,", "which", "has", "been", "orbiting", "Earth", "since", "1990,", "continues", "to", "send", "remarkable", "images."],
+            correctAnswer: "The space telescope, which has been orbiting Earth since 1990, continues to send remarkable images.",
+            correctFeedback: "Correct! 'The space telescope, which has been orbiting Earth since 1990, continues to send remarkable images.' 'Which' refers to the space telescope (a thing). The orbit date adds impressive historical context.",
+            correctFeedbackRu: "Правильно! 'The space telescope, which has been orbiting Earth since 1990, continues to send remarkable images.' 'Which' относится к космическому телескопу (предмету). Дата вывода на орбиту добавляет впечатляющий исторический контекст.",
+            incorrectFeedback: "Try again. The space telescope is a thing — use 'which'. The clause gives extra context about how long it has been in orbit. Commas are essential for the non-defining clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Космический телескоп — предмет — используйте 'which'. Придаточное даёт дополнительный контекст о том, как долго он находится на орбите. Запятые необходимы для неограничительного придаточного."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Vienna,", "where", "Beethoven", "composed", "many", "of", "his", "greatest", "works,", "remains", "a", "world", "centre", "for", "classical", "music."],
+            correctAnswer: "Vienna, where Beethoven composed many of his greatest works, remains a world centre for classical music.",
+            correctFeedback: "Correct! 'Vienna, where Beethoven composed many of his greatest works, remains a world centre for classical music.' 'Where' refers to Vienna, a named city. Beethoven composed there — 'where' = 'in which'.",
+            correctFeedbackRu: "Правильно! 'Vienna, where Beethoven composed many of his greatest works, remains a world centre for classical music.' 'Where' относится к Вене, именованному городу. Там Бетховен сочинял — 'where' = 'in which'.",
+            incorrectFeedback: "Try again. Vienna is a named city (place) — use 'where'. As a named location, the clause is always non-defining and must have commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Вена — именованный город (место) — используйте 'where'. Как именованное место, придаточное всегда является неограничительным и должно иметь запятые."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "engineer,", "who", "had", "designed", "the", "original", "system,", "was", "brought", "back", "to", "fix", "the", "fault."],
+            correctAnswer: "The engineer, who had designed the original system, was brought back to fix the fault.",
+            correctFeedback: "Correct! 'The engineer, who had designed the original system, was brought back to fix the fault.' 'Who' refers to the engineer (a person) as the subject of 'had designed'. The clause explains why this particular engineer was recalled.",
+            correctFeedbackRu: "Правильно! 'The engineer, who had designed the original system, was brought back to fix the fault.' 'Who' относится к инженеру (человеку) как подлежащему 'had designed'. Придаточное объясняет, почему этот конкретный инженер был отозван.",
+            incorrectFeedback: "Try again. The engineer (a person) designed the system — the engineer is the subject of 'had designed'. Use 'who' for people as subjects in non-defining clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. Инженер (человек) спроектировал систему — инженер является подлежащим 'had designed'. Используйте 'who' для людей как подлежащих в неограничительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "museum's", "director,", "whose", "vision", "transformed", "the", "institution,", "was", "awarded", "a", "CBE."],
+            correctAnswer: "The museum's director, whose vision transformed the institution, was awarded a CBE.",
+            correctFeedback: "Correct! 'The museum's director, whose vision transformed the institution, was awarded a CBE.' 'Whose vision' — the vision belongs to the director. The transformative vision is the reason for the award.",
+            correctFeedbackRu: "Правильно! 'The museum's director, whose vision transformed the institution, was awarded a CBE.' 'Whose vision' — видение принадлежит директору. Трансформационное видение — причина для награды.",
+            incorrectFeedback: "Try again. 'Whose vision transformed the institution' — the vision belongs to the director. 'Whose' replaces 'his/her': 'his vision transformed' → 'whose vision transformed'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose vision transformed the institution' — видение принадлежит директору. 'Whose' заменяет 'his/her': 'his vision transformed' → 'whose vision transformed'."
+        }
+    ]
+};
+
+/* ============================================
+Page 8: Mixed — Complex sentences at B2 level
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page8'] = {
+    title: "Non-defining Clauses with Commas - Complex Sentences",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "prime", "minister's", "adviser,", "whom", "she", "consults", "on", "all", "major", "decisions,", "is", "rarely", "seen", "in", "public."],
+            correctAnswer: "The prime minister's adviser, whom she consults on all major decisions, is rarely seen in public.",
+            correctFeedback: "Correct! 'The prime minister's adviser, whom she consults on all major decisions, is rarely seen in public.' She consults the adviser (adviser = object) → 'whom'. The clause reveals the adviser's secretive but crucial role.",
+            correctFeedbackRu: "Правильно! 'The prime minister's adviser, whom she consults on all major decisions, is rarely seen in public.' Она консультируется с советником (советник = дополнение) → 'whom'. Придаточное раскрывает скрытую, но ключевую роль советника.",
+            incorrectFeedback: "Try again. The prime minister consults the adviser — the adviser is the object → 'whom'. Test: 'she consults him' → 'him' = object → 'whom'.",
+            incorrectFeedbackRu: "Попробуйте снова. Премьер-министр консультируется с советником — советник является дополнением → 'whom'. Тест: 'she consults him' → 'him' = дополнение → 'whom'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "university,", "which", "was", "founded", "in", "1096,", "is", "consistently", "ranked", "among", "the", "world's", "top", "institutions."],
+            correctAnswer: "The university, which was founded in 1096, is consistently ranked among the world's top institutions.",
+            correctFeedback: "Correct! 'The university, which was founded in 1096, is consistently ranked among the world's top institutions.' 'Which' refers to the university (a thing). The founding date adds remarkable historical depth.",
+            correctFeedbackRu: "Правильно! 'The university, which was founded in 1096, is consistently ranked among the world's top institutions.' 'Which' относится к университету (предмету). Дата основания добавляет замечательную историческую глубину.",
+            incorrectFeedback: "Try again. A university is a thing — use 'which'. The founding date is extra non-essential information about an already-identified university, so commas are required.",
+            incorrectFeedbackRu: "Попробуйте снова. Университет — предмет — используйте 'which'. Дата основания — дополнительная несущественная информация об уже идентифицированном университете, поэтому запятые необходимы."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "expedition", "leader,", "whose", "previous", "three", "expeditions", "had", "all", "failed,", "was", "determined", "to", "succeed", "this", "time."],
+            correctAnswer: "The expedition leader, whose previous three expeditions had all failed, was determined to succeed this time.",
+            correctFeedback: "Correct! 'The expedition leader, whose previous three expeditions had all failed, was determined to succeed this time.' 'Whose previous three expeditions' — the expeditions belong to the leader. The clause builds dramatic tension.",
+            correctFeedbackRu: "Правильно! 'The expedition leader, whose previous three expeditions had all failed, was determined to succeed this time.' 'Whose previous three expeditions' — экспедиции принадлежат лидеру. Придаточное создаёт драматическое напряжение.",
+            incorrectFeedback: "Try again. 'Whose previous three expeditions had all failed' — the expeditions belong to the leader. 'Whose' + noun (expeditions) + verb (had failed) is the possessive relative clause pattern.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose previous three expeditions had all failed' — экспедиции принадлежат лидеру. 'Whose' + существительное (expeditions) + глагол (had failed) — образец притяжательного придаточного."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "cold", "case,", "which", "had", "remained", "unsolved", "for", "thirty", "years,", "was", "finally", "cracked", "using", "DNA", "evidence."],
+            correctAnswer: "The cold case, which had remained unsolved for thirty years, was finally cracked using DNA evidence.",
+            correctFeedback: "Correct! 'The cold case, which had remained unsolved for thirty years, was finally cracked using DNA evidence.' 'Which' refers to the cold case (a thing). The thirty years adds to the achievement's significance.",
+            correctFeedbackRu: "Правильно! 'The cold case, which had remained unsolved for thirty years, was finally cracked using DNA evidence.' 'Which' относится к нераскрытому делу (предмету). Тридцать лет добавляют значимости достижению.",
+            incorrectFeedback: "Try again. A cold case is a thing — use 'which'. The clause gives important context about how long it had remained unsolved and must have commas as it is non-defining.",
+            incorrectFeedbackRu: "Попробуйте снова. Нераскрытое дело — предмет — используйте 'which'. Придаточное даёт важный контекст о том, как долго оно оставалось нераскрытым, и должно иметь запятые, так как является неограничительным."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "former", "president,", "who", "had", "left", "office", "under", "a", "cloud", "of", "controversy,", "wrote", "his", "memoirs."],
+            correctAnswer: "The former president, who had left office under a cloud of controversy, wrote his memoirs.",
+            correctFeedback: "Correct! 'The former president, who had left office under a cloud of controversy, wrote his memoirs.' 'Who' refers to the former president (a person). The controversial departure gives context to the memoirs.",
+            correctFeedbackRu: "Правильно! 'The former president, who had left office under a cloud of controversy, wrote his memoirs.' 'Who' относится к бывшему президенту (человеку). Спорный уход даёт контекст воспоминаниям.",
+            incorrectFeedback: "Try again. The former president is a specific person (subject of 'had left') — use 'who'. The clause gives important background context and must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Бывший президент — конкретный человек (подлежащее 'had left') — используйте 'who'. Придаточное даёт важный справочный контекст и должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Sahara", "Desert,", "where", "temperatures", "can", "exceed", "fifty", "degrees", "Celsius,", "is", "the", "world's", "largest", "hot", "desert."],
+            correctAnswer: "The Sahara Desert, where temperatures can exceed fifty degrees Celsius, is the world's largest hot desert.",
+            correctFeedback: "Correct! 'The Sahara Desert, where temperatures can exceed fifty degrees Celsius, is the world's largest hot desert.' 'Where' refers to the Sahara Desert, a named place. The extreme temperatures add dramatic context.",
+            correctFeedbackRu: "Правильно! 'The Sahara Desert, where temperatures can exceed fifty degrees Celsius, is the world's largest hot desert.' 'Where' относится к пустыне Сахара, именованному месту. Экстремальные температуры добавляют драматический контекст.",
+            incorrectFeedback: "Try again. The Sahara Desert is a named place — use 'where' (= in which). The temperature detail is non-essential extra information about this already-identified desert.",
+            incorrectFeedbackRu: "Попробуйте снова. Пустыня Сахара — именованное место — используйте 'where' (= in which). Деталь о температуре — несущественная дополнительная информация об этой уже идентифицированной пустыне."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "disgraced", "executive,", "whom", "the", "board", "had", "trusted", "implicitly,", "was", "found", "guilty", "of", "fraud."],
+            correctAnswer: "The disgraced executive, whom the board had trusted implicitly, was found guilty of fraud.",
+            correctFeedback: "Correct! 'The disgraced executive, whom the board had trusted implicitly, was found guilty of fraud.' The board trusted the executive (executive = object) → 'whom'. The implicit trust makes the betrayal more shocking.",
+            correctFeedbackRu: "Правильно! 'The disgraced executive, whom the board had trusted implicitly, was found guilty of fraud.' Совет безоговорочно доверял руководителю (руководитель = дополнение) → 'whom'. Безоговорочное доверие делает предательство более шокирующим.",
+            incorrectFeedback: "Try again. The board trusted the executive — the executive is the object → 'whom'. Test: 'the board trusted him' → 'him' = object → 'whom'.",
+            incorrectFeedbackRu: "Попробуйте снова. Совет доверял руководителю — руководитель является дополнением → 'whom'. Тест: 'the board trusted him' → 'him' = дополнение → 'whom'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Victorian", "era,", "when", "Britain", "was", "at", "the", "height", "of", "its", "imperial", "power,", "was", "also", "a", "period", "of", "significant", "social", "reform."],
+            correctAnswer: "The Victorian era, when Britain was at the height of its imperial power, was also a period of significant social reform.",
+            correctFeedback: "Correct! 'The Victorian era, when Britain was at the height of its imperial power, was also a period of significant social reform.' 'When' refers to the Victorian era (a time period). The clause adds the imperial context.",
+            correctFeedbackRu: "Правильно! 'The Victorian era, when Britain was at the height of its imperial power, was also a period of significant social reform.' 'When' относится к викторианской эпохе (периоду времени). Придаточное добавляет имперский контекст.",
+            incorrectFeedback: "Try again. The Victorian era is a time period — use 'when'. The clause is non-defining and adds the imperial power context. It must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Викторианская эпоха — период времени — используйте 'when'. Придаточное является неограничительным и добавляет контекст имперской власти. Оно должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "laboratory's", "lead", "researcher,", "whose", "methods", "had", "been", "questioned,", "published", "a", "detailed", "defence", "of", "her", "work."],
+            correctAnswer: "The laboratory's lead researcher, whose methods had been questioned, published a detailed defence of her work.",
+            correctFeedback: "Correct! 'The laboratory's lead researcher, whose methods had been questioned, published a detailed defence of her work.' 'Whose methods' — the methods belong to the researcher. The questioned methods explain why a defence was needed.",
+            correctFeedbackRu: "Правильно! 'The laboratory's lead researcher, whose methods had been questioned, published a detailed defence of her work.' 'Whose methods' — методы принадлежат исследователю. Оспариваемые методы объясняют, почему была нужна защита.",
+            incorrectFeedback: "Try again. 'Whose methods had been questioned' — the methods belong to the researcher. Pattern: [noun], + whose + noun (methods) + verb (had been questioned) + , + main clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose methods had been questioned' — методы принадлежат исследователю. Образец: [существительное], + whose + существительное (methods) + глагол (had been questioned) + , + главное предложение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Cern", "laboratory,", "where", "some", "of", "the", "world's", "most", "significant", "physics", "experiments", "are", "conducted,", "is", "located", "on", "the", "Swiss-French", "border."],
+            correctAnswer: "The Cern laboratory, where some of the world's most significant physics experiments are conducted, is located on the Swiss-French border.",
+            correctFeedback: "Correct! 'The Cern laboratory, where some of the world's most significant physics experiments are conducted, is located on the Swiss-French border.' 'Where' refers to the Cern laboratory, a specific place. Experiments are conducted there.",
+            correctFeedbackRu: "Правильно! 'The Cern laboratory, where some of the world's most significant physics experiments are conducted, is located on the Swiss-French border.' 'Where' относится к лаборатории ЦЕРН, конкретному месту. Там проводятся эксперименты.",
+            incorrectFeedback: "Try again. The Cern laboratory is a named institution (place) — use 'where' (= in which). Experiments are conducted at this location. The clause is non-defining and needs commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Лаборатория ЦЕРН — именованное учреждение (место) — используйте 'where' (= in which). Эксперименты проводятся в этом месте. Придаточное является неограничительным и нуждается в запятых."
+        }
+    ]
+};
+
+/* ============================================
+Page 9: Sentential WHICH and advanced structures
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page9'] = {
+    title: "Non-defining Clauses with Commas - Sentential Which & Advanced",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "government", "raised", "taxes,", "which", "angered", "many", "business", "owners."],
+            correctAnswer: "The government raised taxes, which angered many business owners.",
+            correctFeedback: "Correct! 'The government raised taxes, which angered many business owners.' Here 'which' refers to the entire preceding clause — the whole situation of raising taxes angered business owners. This sentential 'which' always needs a comma.",
+            correctFeedbackRu: "Правильно! 'The government raised taxes, which angered many business owners.' Здесь 'which' относится ко всему предшествующему придаточному — вся ситуация повышения налогов разозлила владельцев бизнеса. Это сентенциальное 'which' всегда нуждается в запятой.",
+            incorrectFeedback: "Try again. When 'which' refers to a whole clause (not just a noun), it is called a 'sentential relative'. The comma before 'which' is essential. Only 'which' can perform this function — not 'that' or 'what'.",
+            incorrectFeedbackRu: "Попробуйте снова. Когда 'which' относится ко всему придаточному (не только к существительному), это называется 'сентенциальным относительным'. Запятая перед 'which' необходима. Только 'which' может выполнять эту функцию — не 'that' или 'what'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["She", "was", "promoted", "to", "director,", "which", "exceeded", "all", "her", "expectations."],
+            correctAnswer: "She was promoted to director, which exceeded all her expectations.",
+            correctFeedback: "Correct! 'She was promoted to director, which exceeded all her expectations.' 'Which' refers to the whole situation — being promoted to director exceeded her expectations. The comma before 'which' is essential for this sentential relative.",
+            correctFeedbackRu: "Правильно! 'She was promoted to director, which exceeded all her expectations.' 'Which' относится ко всей ситуации — повышение до директора превзошло её ожидания. Запятая перед 'which' необходима для этого сентенциального относительного.",
+            incorrectFeedback: "Try again. 'Which exceeded all her expectations' refers to the whole preceding clause (being promoted). Sentential 'which' always follows a comma and cannot be replaced with 'that'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which exceeded all her expectations' относится ко всему предшествующему придаточному (повышению). Сентенциальное 'which' всегда следует после запятой и не может быть заменено на 'that'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "factory", "closed", "down,", "which", "left", "hundreds", "of", "workers", "unemployed."],
+            correctAnswer: "The factory closed down, which left hundreds of workers unemployed.",
+            correctFeedback: "Correct! 'The factory closed down, which left hundreds of workers unemployed.' 'Which' refers to the entire event — the factory closing down left workers unemployed. This is the sentential use of 'which' to comment on a whole clause.",
+            correctFeedbackRu: "Правильно! 'The factory closed down, which left hundreds of workers unemployed.' 'Which' относится ко всему событию — закрытие завода оставило рабочих без работы. Это сентенциальное использование 'which' для комментария ко всему придаточному.",
+            incorrectFeedback: "Try again. 'Which left hundreds of workers unemployed' — 'which' refers to the whole situation of the factory closing. A comma is required before sentential 'which'. 'That' cannot be used here.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which left hundreds of workers unemployed' — 'which' относится ко всей ситуации закрытия завода. Запятая необходима перед сентенциальным 'which'. 'That' здесь нельзя использовать."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "company", "announced", "record", "losses,", "which", "caused", "shares", "to", "plummet."],
+            correctAnswer: "The company announced record losses, which caused shares to plummet.",
+            correctFeedback: "Correct! 'The company announced record losses, which caused shares to plummet.' 'Which' refers to the announcement of record losses — this whole situation caused the share price to fall. Sentential 'which' comments on the entire preceding clause.",
+            correctFeedbackRu: "Правильно! 'The company announced record losses, which caused shares to plummet.' 'Which' относится к объявлению о рекордных убытках — вся эта ситуация вызвала падение цены акций. Сентенциальное 'which' комментирует всё предшествующее придаточное.",
+            incorrectFeedback: "Try again. 'Which caused shares to plummet' refers to the whole event (the announcement). Sentential 'which' always requires a comma before it. 'That' and 'what' cannot replace it.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which caused shares to plummet' относится ко всему событию (объявлению). Сентенциальное 'which' всегда требует запятой перед ним. 'That' и 'what' не могут его заменить."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "committee", "rejected", "all", "three", "proposals,", "which", "came", "as", "a", "surprise", "to", "the", "researchers."],
+            correctAnswer: "The committee rejected all three proposals, which came as a surprise to the researchers.",
+            correctFeedback: "Correct! 'The committee rejected all three proposals, which came as a surprise to the researchers.' 'Which' refers to the whole event — the rejection of all three proposals surprised the researchers. This is sentential 'which'.",
+            correctFeedbackRu: "Правильно! 'The committee rejected all three proposals, which came as a surprise to the researchers.' 'Which' относится ко всему событию — отклонение всех трёх предложений удивило исследователей. Это сентенциальное 'which'.",
+            incorrectFeedback: "Try again. 'Which came as a surprise' refers to the whole situation of rejecting all proposals. Sentential 'which' + comma is the only correct structure here.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which came as a surprise' относится ко всей ситуации отклонения всех предложений. Сентенциальное 'which' + запятая — единственная правильная структура здесь."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "expedition", "discovered", "a", "new", "species,", "which", "was", "reported", "in", "major", "scientific", "journals", "worldwide."],
+            correctAnswer: "The expedition discovered a new species, which was reported in major scientific journals worldwide.",
+            correctFeedback: "Correct! 'The expedition discovered a new species, which was reported in major scientific journals worldwide.' Here 'which' could refer either to the species (the discovery) or the whole event. Either way, the comma and 'which' create the correct non-defining structure.",
+            correctFeedbackRu: "Правильно! 'The expedition discovered a new species, which was reported in major scientific journals worldwide.' Здесь 'which' может относиться либо к виду (открытию), либо ко всему событию. В любом случае, запятая и 'which' создают правильную неограничительную структуру.",
+            incorrectFeedback: "Try again. 'Which was reported in major scientific journals' — 'which' introduces a non-defining clause about the discovery. A comma is required before 'which', and 'that' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which was reported in major scientific journals' — 'which' вводит неограничительное придаточное об открытии. Запятая необходима перед 'which', а 'that' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["He", "passed", "all", "his", "exams", "with", "distinction,", "which", "meant", "he", "could", "apply", "to", "the", "most", "competitive", "universities."],
+            correctAnswer: "He passed all his exams with distinction, which meant he could apply to the most competitive universities.",
+            correctFeedback: "Correct! 'He passed all his exams with distinction, which meant he could apply to the most competitive universities.' 'Which' refers to the whole situation — passing with distinction. This sentential 'which' shows the consequence of the whole preceding clause.",
+            correctFeedbackRu: "Правильно! 'He passed all his exams with distinction, which meant he could apply to the most competitive universities.' 'Which' относится ко всей ситуации — сдаче с отличием. Это сентенциальное 'which' показывает последствие всего предшествующего придаточного.",
+            incorrectFeedback: "Try again. 'Which meant he could apply' — 'which' refers to the whole event of passing with distinction. Sentential 'which' always follows a comma. This structure shows cause and consequence.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which meant he could apply' — 'which' относится ко всему событию сдачи с отличием. Сентенциальное 'which' всегда следует после запятой. Эта структура показывает причину и следствие."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "board", "voted", "to", "dismiss", "the", "CEO,", "which", "shocked", "investors", "and", "employees", "alike."],
+            correctAnswer: "The board voted to dismiss the CEO, which shocked investors and employees alike.",
+            correctFeedback: "Correct! 'The board voted to dismiss the CEO, which shocked investors and employees alike.' 'Which' refers to the whole event — the board's vote to dismiss. The sentential 'which' describes the reaction to the whole preceding situation.",
+            correctFeedbackRu: "Правильно! 'The board voted to dismiss the CEO, which shocked investors and employees alike.' 'Which' относится ко всему событию — голосованию совета за увольнение. Сентенциальное 'which' описывает реакцию на всю предшествующую ситуацию.",
+            incorrectFeedback: "Try again. 'Which shocked investors and employees alike' — 'which' refers to the whole situation of the dismissal vote. A comma before sentential 'which' is essential.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which shocked investors and employees alike' — 'which' относится ко всей ситуации голосования за увольнение. Запятая перед сентенциальным 'which' необходима."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "talks", "broke", "down", "completely,", "which", "led", "to", "renewed", "fears", "of", "conflict."],
+            correctAnswer: "The talks broke down completely, which led to renewed fears of conflict.",
+            correctFeedback: "Correct! 'The talks broke down completely, which led to renewed fears of conflict.' 'Which' refers to the entire event — the talks breaking down completely. The comma before 'which' is mandatory in this sentential relative construction.",
+            correctFeedbackRu: "Правильно! 'The talks broke down completely, which led to renewed fears of conflict.' 'Which' относится ко всему событию — полному провалу переговоров. Запятая перед 'which' обязательна в этой конструкции сентенциального относительного.",
+            incorrectFeedback: "Try again. 'Which led to renewed fears of conflict' — 'which' refers to the whole situation of the talks failing. Sentential 'which' follows a comma and shows the consequence of the whole preceding clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which led to renewed fears of conflict' — 'which' относится ко всей ситуации провала переговоров. Сентенциальное 'which' следует после запятой и показывает последствие всего предшествующего придаточного."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "research", "team", "failed", "to", "replicate", "the", "results,", "which", "raised", "serious", "questions", "about", "the", "original", "study."],
+            correctAnswer: "The research team failed to replicate the results, which raised serious questions about the original study.",
+            correctFeedback: "Correct! 'The research team failed to replicate the results, which raised serious questions about the original study.' 'Which' refers to the whole situation — the failure to replicate. The sentential 'which' shows the implication of the entire preceding clause.",
+            correctFeedbackRu: "Правильно! 'The research team failed to replicate the results, which raised serious questions about the original study.' 'Which' относится ко всей ситуации — неудаче с репликацией. Сентенциальное 'which' показывает значение всего предшествующего придаточного.",
+            incorrectFeedback: "Try again. 'Which raised serious questions' — 'which' refers to the whole event of failing to replicate. A comma is essential before sentential 'which'. 'That' cannot perform this function.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which raised serious questions' — 'which' относится ко всему событию неудачи с репликацией. Запятая необходима перед сентенциальным 'which'. 'That' не может выполнять эту функцию."
+        }
+    ]
+};
+
+/* ============================================
+Page 10: Mixed review — all structures
+============================================ */
+window.grammarExercises['relative']['non-defining-clauses-with-commas-sentence-page10'] = {
+    title: "Non-defining Clauses with Commas - Mixed Review",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Nelson", "Mandela,", "who", "spent", "twenty-seven", "years", "in", "prison,", "became", "a", "global", "symbol", "of", "resilience."],
+            correctAnswer: "Nelson Mandela, who spent twenty-seven years in prison, became a global symbol of resilience.",
+            correctFeedback: "Correct! 'Nelson Mandela, who spent twenty-seven years in prison, became a global symbol of resilience.' Named individuals always take non-defining clauses. 'Who' is correct as Mandela is the subject of the clause.",
+            correctFeedbackRu: "Правильно! 'Nelson Mandela, who spent twenty-seven years in prison, became a global symbol of resilience.' Именованные люди всегда принимают неограничительные придаточные. 'Who' правильно, так как Мандела является подлежащим придаточного.",
+            incorrectFeedback: "Try again. Nelson Mandela is a named person — the clause is always non-defining with commas. 'Who' is the subject form (he spent twenty-seven years). 'That' is never used in non-defining clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. Нельсон Мандела — именованный человек — придаточное всегда является неограничительным с запятыми. 'Who' — форма подлежащего (он провёл двадцать семь лет). 'That' никогда не используется в неограничительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Rosetta", "Stone,", "which", "was", "discovered", "in", "1799,", "enabled", "scholars", "to", "decipher", "ancient", "Egyptian", "hieroglyphics."],
+            correctAnswer: "The Rosetta Stone, which was discovered in 1799, enabled scholars to decipher ancient Egyptian hieroglyphics.",
+            correctFeedback: "Correct! 'The Rosetta Stone, which was discovered in 1799, enabled scholars to decipher ancient Egyptian hieroglyphics.' Named objects take non-defining clauses. 'Which' is correct for this historical artefact (a thing).",
+            correctFeedbackRu: "Правильно! 'The Rosetta Stone, which was discovered in 1799, enabled scholars to decipher ancient Egyptian hieroglyphics.' Именованные предметы принимают неограничительные придаточные. 'Which' правильно для этого исторического артефакта (предмета).",
+            incorrectFeedback: "Try again. The Rosetta Stone is a named object — the clause is non-defining with commas and 'which'. 'That' is never permitted in non-defining clauses.",
+            incorrectFeedbackRu: "Попробуйте снова. Розеттский камень — именованный предмет — придаточное является неограничительным с запятыми и 'which'. 'That' никогда не допускается в неограничительных придаточных."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "opposition", "leader,", "whose", "approval", "ratings", "had", "soared,", "called", "for", "an", "early", "election."],
+            correctAnswer: "The opposition leader, whose approval ratings had soared, called for an early election.",
+            correctFeedback: "Correct! 'The opposition leader, whose approval ratings had soared, called for an early election.' 'Whose approval ratings' — the ratings belong to the leader. The soaring ratings explain the confidence to call for an election.",
+            correctFeedbackRu: "Правильно! 'The opposition leader, whose approval ratings had soared, called for an early election.' 'Whose approval ratings' — рейтинги принадлежат лидеру. Растущие рейтинги объясняют уверенность для призыва к выборам.",
+            incorrectFeedback: "Try again. 'Whose approval ratings had soared' — the ratings belong to the leader. 'Whose' + noun (approval ratings) + verb (had soared) is the possessive non-defining clause structure.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose approval ratings had soared' — рейтинги принадлежат лидеру. 'Whose' + существительное (approval ratings) + глагол (had soared) — структура притяжательного неограничительного придаточного."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Cold", "War,", "when", "the", "threat", "of", "nuclear", "conflict", "loomed", "constantly,", "lasted", "from", "1947", "to", "1991."],
+            correctAnswer: "The Cold War, when the threat of nuclear conflict loomed constantly, lasted from 1947 to 1991.",
+            correctFeedback: "Correct! 'The Cold War, when the threat of nuclear conflict loomed constantly, lasted from 1947 to 1991.' 'When' refers to the Cold War as a historical time period. The clause adds the defining atmosphere of constant nuclear threat.",
+            correctFeedbackRu: "Правильно! 'The Cold War, when the threat of nuclear conflict loomed constantly, lasted from 1947 to 1991.' 'When' относится к Холодной войне как к историческому периоду времени. Придаточное добавляет определяющую атмосферу постоянной ядерной угрозы.",
+            incorrectFeedback: "Try again. The Cold War is a historical time period — use 'when' (= during which). The clause is non-defining and must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Холодная война — исторический период времени — используйте 'when' (= during which). Придаточное является неограничительным и должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "whistleblower,", "whom", "the", "press", "had", "protected", "for", "months,", "finally", "agreed", "to", "reveal", "her", "identity."],
+            correctAnswer: "The whistleblower, whom the press had protected for months, finally agreed to reveal her identity.",
+            correctFeedback: "Correct! 'The whistleblower, whom the press had protected for months, finally agreed to reveal her identity.' The press protected the whistleblower (object) → 'whom'. Test: 'the press protected her' → 'her' = object → 'whom'.",
+            correctFeedbackRu: "Правильно! 'The whistleblower, whom the press had protected for months, finally agreed to reveal her identity.' Пресса защищала информатора (дополнение) → 'whom'. Тест: 'the press protected her' → 'her' = дополнение → 'whom'.",
+            incorrectFeedback: "Try again. The press protected the whistleblower — the whistleblower is the object → 'whom'. 'Who' is for subjects only. The clause is non-defining and needs commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Пресса защищала информатора — информатор является дополнением → 'whom'. 'Who' — только для подлежащих. Придаточное является неограничительным и нуждается в запятых."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "government", "cut", "arts", "funding,", "which", "provoked", "a", "furious", "response", "from", "the", "cultural", "sector."],
+            correctAnswer: "The government cut arts funding, which provoked a furious response from the cultural sector.",
+            correctFeedback: "Correct! 'The government cut arts funding, which provoked a furious response from the cultural sector.' 'Which' refers to the entire situation — the cuts provoking fury. This sentential 'which' shows the consequence of the whole preceding clause.",
+            correctFeedbackRu: "Правильно! 'The government cut arts funding, which provoked a furious response from the cultural sector.' 'Which' относится ко всей ситуации — сокращения, вызвавшие ярость. Это сентенциальное 'which' показывает последствие всего предшествующего придаточного.",
+            incorrectFeedback: "Try again. 'Which provoked a furious response' refers to the whole situation of cutting funding. Sentential 'which' follows a comma. 'That' and 'what' cannot perform this function.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which provoked a furious response' относится ко всей ситуации сокращения финансирования. Сентенциальное 'which' следует после запятой. 'That' и 'what' не могут выполнять эту функцию."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "Galapagos", "Islands,", "where", "Darwin", "first", "developed", "his", "theory", "of", "natural", "selection,", "are", "now", "a", "protected", "UNESCO", "site."],
+            correctAnswer: "The Galapagos Islands, where Darwin first developed his theory of natural selection, are now a protected UNESCO site.",
+            correctFeedback: "Correct! 'The Galapagos Islands, where Darwin first developed his theory of natural selection, are now a protected UNESCO site.' 'Where' refers to the Galapagos Islands, a named place. Darwin worked there — 'where' = 'on which / in which'.",
+            correctFeedbackRu: "Правильно! 'The Galapagos Islands, where Darwin first developed his theory of natural selection, are now a protected UNESCO site.' 'Where' относится к Галапагосским островам, именованному месту. Дарвин работал там — 'where' = 'on which / in which'.",
+            incorrectFeedback: "Try again. The Galapagos Islands are a named place — use 'where'. As a named location, the clause is always non-defining and must have commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Галапагосские острова — именованное место — используйте 'where'. Как именованное место, придаточное всегда является неограничительным и должно иметь запятые."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "chief", "inspector,", "whose", "reputation", "for", "thoroughness", "was", "legendary,", "took", "charge", "of", "the", "investigation."],
+            correctAnswer: "The chief inspector, whose reputation for thoroughness was legendary, took charge of the investigation.",
+            correctFeedback: "Correct! 'The chief inspector, whose reputation for thoroughness was legendary, took charge of the investigation.' 'Whose reputation' — the reputation belongs to the inspector. The legendary reputation explains why this inspector was chosen.",
+            correctFeedbackRu: "Правильно! 'The chief inspector, whose reputation for thoroughness was legendary, took charge of the investigation.' 'Whose reputation' — репутация принадлежит инспектору. Легендарная репутация объясняет, почему был выбран именно этот инспектор.",
+            incorrectFeedback: "Try again. 'Whose reputation for thoroughness was legendary' — the reputation belongs to the inspector. Pattern: [noun], + whose + noun (reputation) + verb (was) + , + main clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Whose reputation for thoroughness was legendary' — репутация принадлежит инспектору. Образец: [существительное], + whose + существительное (reputation) + глагол (was) + , + главное предложение."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "financial", "crisis", "of", "2008,", "when", "banks", "around", "the", "world", "faced", "collapse,", "led", "to", "sweeping", "regulatory", "changes."],
+            correctAnswer: "The financial crisis of 2008, when banks around the world faced collapse, led to sweeping regulatory changes.",
+            correctFeedback: "Correct! 'The financial crisis of 2008, when banks around the world faced collapse, led to sweeping regulatory changes.' 'When' refers to the financial crisis as a historical event/time. The clause adds the dramatic context of banks facing collapse.",
+            correctFeedbackRu: "Правильно! 'The financial crisis of 2008, when banks around the world faced collapse, led to sweeping regulatory changes.' 'When' относится к финансовому кризису как к историческому событию/времени. Придаточное добавляет драматический контекст угрозы краха банков.",
+            incorrectFeedback: "Try again. The financial crisis of 2008 is a historical event/time period — use 'when'. The clause is non-defining and must be surrounded by commas.",
+            incorrectFeedbackRu: "Попробуйте снова. Финансовый кризис 2008 года — историческое событие/период времени — используйте 'when'. Придаточное является неограничительным и должно быть выделено запятыми."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "investigation", "found", "no", "evidence", "of", "wrongdoing,", "which", "cleared", "the", "company's", "name", "completely."],
+            correctAnswer: "The investigation found no evidence of wrongdoing, which cleared the company's name completely.",
+            correctFeedback: "Correct! 'The investigation found no evidence of wrongdoing, which cleared the company's name completely.' 'Which' refers to the whole situation — finding no evidence clearing the name. The sentential 'which' shows the consequence of the complete preceding clause.",
+            correctFeedbackRu: "Правильно! 'The investigation found no evidence of wrongdoing, which cleared the company's name completely.' 'Which' относится ко всей ситуации — отсутствие доказательств, реабилитирующее репутацию. Сентенциальное 'which' показывает последствие всего предшествующего придаточного.",
+            incorrectFeedback: "Try again. 'Which cleared the company's name completely' — 'which' refers to the whole situation of finding no evidence. Sentential 'which' always follows a comma and cannot be replaced with 'that'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which cleared the company's name completely' — 'which' относится ко всей ситуации отсутствия доказательств. Сентенциальное 'which' всегда следует после запятой и не может быть заменено на 'that'."
+        }
+    ]
+};
