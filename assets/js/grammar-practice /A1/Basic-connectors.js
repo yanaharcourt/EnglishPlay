@@ -1200,7 +1200,7 @@ window.grammarExercises['connectors']['basic-connectors-page10'] = {
 /* ============================================
 Page 1: Basic Connectors — Adding Information with 'and'
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page1'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page1'] = {
     title: "Basic Connectors — Adding Information with 'and'",
     fillGaps: [
         {
@@ -1319,7 +1319,7 @@ window.grammarExercises['connectors']['basic-connectors-fill-page1'] = {
 /* ============================================
 Page 2: Basic Connectors — Showing Contrast with 'but'
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page2'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page2'] = {
     title: "Basic Connectors — Showing Contrast with 'but'",
     fillGaps: [
         {
@@ -1438,7 +1438,7 @@ window.grammarExercises['connectors']['basic-connectors-fill-page2'] = {
 /* ============================================
 Page 3: Basic Connectors — Explaining with 'because'
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page3'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page3'] = {
     title: "Basic Connectors — Explaining with 'because'",
     fillGaps: [
         {
@@ -1557,7 +1557,7 @@ window.grammarExercises['connectors']['basic-connectors-fill-page3'] = {
 /* ============================================
 Page 4: Basic Connectors — Giving Results with 'so'
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page4'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page4'] = {
     title: "Basic Connectors — Giving Results with 'so'",
     fillGaps: [
         {
@@ -1676,7 +1676,7 @@ window.grammarExercises['connectors']['basic-connectors-fill-page4'] = {
 /* ============================================
 Page 5: Basic Connectors — Review of 'and' and 'but'
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page5'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page5'] = {
     title: "Basic Connectors — Review of 'and' and 'but'",
     fillGaps: [
         {
@@ -1795,7 +1795,7 @@ window.grammarExercises['connectors']['basic-connectors-fill-page5'] = {
 /* ============================================
 Page 6: Basic Connectors — Cause and Effect with 'because' and 'so'
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page6'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page6'] = {
     title: "Basic Connectors — Cause and Effect with 'because' and 'so'",
     fillGaps: [
         {
@@ -1914,7 +1914,7 @@ window.grammarExercises['connectors']['basic-connectors-fill-page6'] = {
 /* ============================================
 Page 7: Basic Connectors — Building Lists and Sentences with 'and'
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page7'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page7'] = {
     title: "Basic Connectors — Building Lists and Sentences with 'and'",
     fillGaps: [
         {
@@ -2033,7 +2033,7 @@ window.grammarExercises['connectors']['basic-connectors-fill-page7'] = {
 /* ============================================
 Page 8: Basic Connectors — Contrasting Ideas with 'but'
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page8'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page8'] = {
     title: "Basic Connectors — Contrasting Ideas with 'but'",
     fillGaps: [
         {
@@ -2152,7 +2152,7 @@ window.grammarExercises['connectors']['basic-connectors-fill-page8'] = {
 /* ============================================
 Page 9: Basic Connectors — Complex Practice: All Connectors 1
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page9'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page9'] = {
     title: "Basic Connectors — Complex Practice: All Connectors 1",
     fillGaps: [
         {
@@ -2271,7 +2271,7 @@ window.grammarExercises['connectors']['basic-connectors-fill-page9'] = {
 /* ============================================
 Page 10: Basic Connectors — Complex Practice: All Connectors 2
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-fill-page10'] = {
+window.grammarExercises['connectors']['basic-connectors-gap-page10'] = {
     title: "Basic Connectors — Complex Practice: All Connectors 2",
     fillGaps: [
         {
@@ -2392,8 +2392,8 @@ window.grammarExercises['connectors']['basic-connectors-fill-page10'] = {
 /* ============================================
 Page 1: 'and' (Connecting similar ideas)
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page1'] = {
-    title: "Sentence Building — Using 'and'",
+window.grammarExercises['connectors']['basic-connectors-sentence-page1'] = {
+    title: "Basic Connectors — Using 'and'",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -2501,8 +2501,8 @@ window.grammarExercises['connectors']['basic-connectors-gap-page1'] = {
 /* ============================================
 Page 2: 'but' (Contrasting ideas)
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page2'] = {
-    title: "Sentence Building — Using 'but'",
+window.grammarExercises['connectors']['basic-connectors-sentence-page2'] = {
+    title: "Basic Connectors — Using 'but'",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -2610,8 +2610,8 @@ window.grammarExercises['connectors']['basic-connectors-gap-page2'] = {
 /* ============================================
 Page 3: 'because' (Reasons)
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page3'] = {
-    title: "Sentence Building — Using 'because'",
+window.grammarExercises['connectors']['basic-connectors-sentence-page3'] = {
+    title: "Basic Connectors — Using 'because'",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -2719,8 +2719,8 @@ window.grammarExercises['connectors']['basic-connectors-gap-page3'] = {
 /* ============================================
 Page 4: 'so' (Results)
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page4'] = {
-    title: "Sentence Building — Using 'so'",
+window.grammarExercises['connectors']['basic-connectors-sentence-page4'] = {
+    title: "Basic Connectors — Using 'so'",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -2828,8 +2828,8 @@ window.grammarExercises['connectors']['basic-connectors-gap-page4'] = {
 /* ============================================
 Page 5: Mixed Practice (and / but)
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page5'] = {
-    title: "Sentence Building — Mixed (and / but)",
+window.grammarExercises['connectors']['basic-connectors-sentence-page5'] = {
+    title: "Basic Connectors — Mixed (and / but)",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -2937,8 +2937,8 @@ window.grammarExercises['connectors']['basic-connectors-gap-page5'] = {
 /* ============================================
 Page 6: Mixed Practice (because / so)
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page6'] = {
-    title: "Sentence Building — Mixed (because / so)",
+window.grammarExercises['connectors']['basic-connectors-sentence-page6'] = {
+    title: "Basic Connectors — Mixed (because / so)",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3046,8 +3046,8 @@ window.grammarExercises['connectors']['basic-connectors-gap-page6'] = {
 /* ============================================
 Page 7: Focus on lists (and)
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page7'] = {
-    title: "Sentence Building — Expanding with 'and'",
+window.grammarExercises['connectors']['basic-connectors-sentence-page7'] = {
+    title: "Basic Connectors — Expanding with 'and'",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3155,8 +3155,8 @@ window.grammarExercises['connectors']['basic-connectors-gap-page7'] = {
 /* ============================================
 Page 8: Focus on contrasts (but)
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page8'] = {
-    title: "Sentence Building — Contrasts with 'but'",
+window.grammarExercises['connectors']['basic-connectors-sentence-page8'] = {
+    title: "Basic Connectors — Contrasts with 'but'",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3264,8 +3264,8 @@ window.grammarExercises['connectors']['basic-connectors-gap-page8'] = {
 /* ============================================
 Page 9: Logical Connections (because / so)
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page9'] = {
-    title: "Sentence Building — Logical Connections",
+window.grammarExercises['connectors']['basic-connectors-sentence-page9'] = {
+    title: "Basic Connectors — Logical Connections",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
@@ -3373,8 +3373,8 @@ window.grammarExercises['connectors']['basic-connectors-gap-page9'] = {
 /* ============================================
 Page 10: Final Mixed Challenge
 ============================================ */
-window.grammarExercises['connectors']['basic-connectors-gap-page10'] = {
-    title: "Sentence Building — Final Challenge",
+window.grammarExercises['connectors']['basic-connectors-sentence-page10'] = {
+    title: "Basic Connectors — Final Challenge",
     sentenceBuilding: [
         {
             question: "Form a correct sentence using these words:",
