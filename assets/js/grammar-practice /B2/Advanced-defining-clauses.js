@@ -650,20 +650,20 @@ window.grammarExercises['relative']['advanced-defining-clauses-page4'] = {
             incorrectFeedbackRu: "Неправильно. 'Questioned' (причастие прошедшего времени) сокращает пассивное придаточное. 'Questioning' делало бы свидетелей активными (допрашивающими трибунал). 'Being questioned' возможно, но менее кратко."
         },
         {
-            question: "Which sentence is ambiguous and should be avoided?",
-            questionRu: "Какое предложение является двусмысленным и его следует избегать?",
-            sentence: "Select the correct option:",
+            question: "Which sentence is an INCORRECT reduced passive clause?",
+            questionRu: "Какое предложение является НЕВЕРНЫМ сокращённым пассивным придаточным?",
+            sentence: "Select the incorrect option:",
             options: [
-                "The letter sent by mistake caused considerable embarrassment.",
-                "The letter that was sent by mistake caused considerable embarrassment.",
+                "The letter sending by the director caused considerable embarrassment.",
                 "The letter sent by the director caused considerable embarrassment.",
-                "The letter written in haste caused considerable embarrassment."
+                "The letter written in haste caused considerable embarrassment.",
+                "The letter signed by all three partners was legally binding."
             ],
             correctAnswer: 0,
-            correctFeedback: "Correct! 'The letter sent by mistake' can be ambiguous — 'sent by mistake' could modify either 'letter' or could be read differently. However, in context it is generally clear. Options B, C, D are all equally clear in their meaning.",
-            correctFeedbackRu: "Правильно! 'The letter sent by mistake' может быть двусмысленным — 'sent by mistake' может определять 'letter' или читаться иначе. Однако в контексте это обычно ясно. Варианты B, C, D все одинаково ясны по смыслу.",
-            incorrectFeedback: "Incorrect. Reduced participial clauses can sometimes be ambiguous. In formal academic or legal writing, a full relative clause ('that was sent by mistake') is often preferable to avoid any possible misreading.",
-            incorrectFeedbackRu: "Неправильно. Сокращённые причастные придаточные иногда могут быть двусмысленными. В формальном академическом или юридическом тексте полное придаточное предложение ('that was sent by mistake') часто предпочтительнее, чтобы избежать любого возможного неверного прочтения."
+            correctFeedback: "Correct! Option A is wrong. 'Sending' is an active -ing participle — it would mean the letter is actively sending something. The correct passive form is 'sent' (past participle): 'The letter sent by the director'.",
+            correctFeedbackRu: "Правильно! Вариант A неверен. 'Sending' — активное причастие на -ing — оно означало бы, что письмо активно что-то отправляет. Правильная пассивная форма — 'sent' (причастие прошедшего времени): 'The letter sent by the director'.",
+            incorrectFeedback: "Try again. Find the sentence where an -ing active participle is incorrectly used instead of a passive -ed past participle. The letter was sent (passive) — so 'sent' is needed, not 'sending'.",
+            incorrectFeedbackRu: "Попробуйте снова. Найдите предложение, в котором активное причастие -ing ошибочно использовано вместо пассивного причастия прошедшего времени -ed. Письмо было отправлено (пассив) — значит, нужно 'sent', а не 'sending'."
         }
     ]
 };
@@ -1659,7 +1659,1198 @@ window.grammarExercises['relative']['advanced-defining-clauses-page10'] = {
 
 /* =============================================================================== */
 /* ===========================Fill in the Gaps Exercises========================== */
+window.grammarExercises = window.grammarExercises || {};
+window.grammarExercises['relative'] = window.grammarExercises['relative'] || {};
 
+/* ============================================
+PAGE 1 — Contact Clauses: Omitting the Relative Pronoun
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page1'] = {
+    title: "Advanced Defining Clauses – Contact Clauses (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Complete the sentence by choosing the correct option. Remember: when the relative pronoun is the OBJECT of the verb, it can be omitted.",
+            questionRu: "Заполните пропуск, выбрав правильный вариант. Помните: когда относительное местоимение является ДОПОЛНЕНИЕМ глагола, его можно опустить.",
+            sentence: "The strategy ____ the board adopted last quarter has already produced measurable results.",
+            correctAnswer: "that",
+            options: ["that", "who", "it", "whom"],
+            correctFeedback: "Correct! 'That' is the object relative pronoun here — the board adopted the strategy. In informal or spoken English, 'that' can be omitted entirely: 'The strategy the board adopted...' Both forms are grammatically correct.",
+            correctFeedbackRu: "Правильно! 'That' — объектное относительное местоимение: совет принял стратегию. В разговорном английском 'that' можно опустить: 'The strategy the board adopted...' Обе формы грамматически верны.",
+            incorrectFeedback: "Try again. The relative pronoun here is an OBJECT — the board adopted the strategy. Use 'that' (or 'which') for things, never 'who' or 'whom'. Note that 'it' creates a double object, which is incorrect.",
+            incorrectFeedbackRu: "Попробуйте снова. Относительное местоимение здесь является ДОПОЛНЕНИЕМ — совет принял стратегию. Используйте 'that' (или 'which') для предметов, никогда не 'who' или 'whom'. 'It' создаёт двойное дополнение, что неверно."
+        },
+        {
+            question: "Complete the sentence. The relative pronoun is the object of 'submitted'.",
+            questionRu: "Заполните пропуск. Относительное местоимение является дополнением при 'submitted'.",
+            sentence: "The proposal ____ the research team submitted to the committee exceeded all expectations.",
+            correctAnswer: "which",
+            options: ["which", "who", "it", "whose"],
+            correctFeedback: "Correct! 'Which' is used for things — here, the proposal. Because 'which' is the object of 'submitted' (the team submitted the proposal), it can optionally be omitted in informal English.",
+            correctFeedbackRu: "Правильно! 'Which' используется для предметов — здесь для предложения. Поскольку 'which' является дополнением при 'submitted' (команда подала предложение), его можно по желанию опустить в разговорном английском.",
+            incorrectFeedback: "Try again. 'Which' is the correct object relative pronoun for a thing (proposal). 'Who' is for people, 'whose' shows possession, and 'it' is simply a personal pronoun — not a relative pronoun.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Which' — правильное объектное относительное местоимение для предмета (предложение). 'Who' — для людей, 'whose' выражает принадлежность, а 'it' — просто личное местоимение, а не относительное."
+        },
+        {
+            question: "Choose the option that correctly fills the gap. The relative pronoun is the subject of 'dominated'.",
+            questionRu: "Выберите вариант, правильно заполняющий пропуск. Относительное местоимение является подлежащим при 'dominated'.",
+            sentence: "The company ____ dominated the smartphone market for a decade is now facing serious competition.",
+            correctAnswer: "that",
+            options: ["that", "whom", "it", "which omitted"],
+            correctFeedback: "Correct! 'That' is the SUBJECT of 'dominated' — the company dominated the market. Subject relative pronouns CANNOT be omitted. 'That' or 'which' are both correct here for things/organisations.",
+            correctFeedbackRu: "Правильно! 'That' является ПОДЛЕЖАЩИМ при 'dominated' — компания доминировала на рынке. Подлежащные относительные местоимения НЕЛЬЗЯ опускать. 'That' или 'which' — оба верны для предметов/организаций.",
+            incorrectFeedback: "Try again. Here, the relative pronoun is the SUBJECT of 'dominated', so it CANNOT be omitted. Use 'that' or 'which' for organisations. 'Whom' is for people as objects, and 'it' is not a relative pronoun.",
+            incorrectFeedbackRu: "Попробуйте снова. Здесь относительное местоимение является ПОДЛЕЖАЩИМ при 'dominated', поэтому его НЕЛЬЗЯ опустить. Используйте 'that' или 'which' для организаций. 'Whom' — для людей как дополнений, 'it' — не относительное местоимение."
+        },
+        {
+            question: "Select the correct relative pronoun. It functions as the object of 'shortlisted'.",
+            questionRu: "Выберите правильное относительное местоимение. Оно функционирует как дополнение при 'shortlisted'.",
+            sentence: "The applicants ____ the panel shortlisted were all invited for a second interview.",
+            correctAnswer: "whom",
+            options: ["whom", "which", "who", "whose"],
+            correctFeedback: "Correct! 'Whom' is used for people in the object position. The panel shortlisted the applicants — 'whom' is the formal object form. In contact clauses, 'whom' can be omitted: 'The applicants the panel shortlisted...'",
+            correctFeedbackRu: "Правильно! 'Whom' используется для людей в объектной позиции. Комиссия включила в короткий список кандидатов — 'whom' — формальная объектная форма. В контактных придаточных 'whom' можно опустить: 'The applicants the panel shortlisted...'",
+            incorrectFeedback: "Try again. The applicants are people in the object position — the panel shortlisted them. Use 'whom' (formal object form for people). 'Which' is for things, 'who' is for people in subject position, and 'whose' shows possession.",
+            incorrectFeedbackRu: "Попробуйте снова. Кандидаты — люди в объектной позиции — комиссия включила их в список. Используйте 'whom' (формальная объектная форма для людей). 'Which' — для предметов, 'who' — для людей в позиции подлежащего, 'whose' выражает принадлежность."
+        },
+        {
+            question: "Complete the sentence. Decide whether the relative pronoun is a subject or object.",
+            questionRu: "Заполните пропуск. Определите, является ли относительное местоимение подлежащим или дополнением.",
+            sentence: "The evidence ____ supports the prosecution's case was collected over eighteen months.",
+            correctAnswer: "that",
+            options: ["that", "whom", "it", "omitted (Ø)"],
+            correctFeedback: "Correct! 'That' is the SUBJECT of 'supports' — the evidence supports the case. Because it is a subject pronoun, it CANNOT be omitted. 'That' is preferred after abstract nouns like 'evidence'.",
+            correctFeedbackRu: "Правильно! 'That' является ПОДЛЕЖАЩИМ при 'supports' — улика подтверждает дело. Поскольку это подлежащное местоимение, его НЕЛЬЗЯ опустить. 'That' предпочтительнее после абстрактных существительных, таких как 'evidence'.",
+            incorrectFeedback: "Try again. Ask: who or what supports the case? The evidence does — so 'that' is the SUBJECT and cannot be dropped. Object pronouns can be omitted; subject pronouns cannot. 'Whom' is only for people as objects.",
+            incorrectFeedbackRu: "Попробуйте снова. Спросите: кто или что подтверждает дело? Улики — значит 'that' является ПОДЛЕЖАЩИМ и не может быть опущено. Объектные местоимения можно опускать; подлежащные — нельзя. 'Whom' только для людей как дополнений."
+        },
+        {
+            question: "Fill in the gap. The relative pronoun is the object of 'uncovered'.",
+            questionRu: "Заполните пропуск. Относительное местоимение является дополнением при 'uncovered'.",
+            sentence: "The financial irregularities ____ the auditors uncovered led to an emergency board meeting.",
+            correctAnswer: "that",
+            options: ["that", "who", "them", "whose"],
+            correctFeedback: "Correct! 'That' is the object of 'uncovered' — the auditors uncovered the irregularities. As an object pronoun, it can be omitted: 'The financial irregularities the auditors uncovered...' is also correct.",
+            correctFeedbackRu: "Правильно! 'That' является дополнением при 'uncovered' — аудиторы выявили нарушения. Как объектное местоимение, его можно опустить: 'The financial irregularities the auditors uncovered...' тоже верно.",
+            incorrectFeedback: "Try again. 'That' or 'which' are correct for things in the object position. 'Who' is for people, 'them' is a personal pronoun (not a relative pronoun), and 'whose' shows possession. Test: did the irregularities uncover something, or were they uncovered? They were uncovered — object position.",
+            incorrectFeedbackRu: "Попробуйте снова. 'That' или 'which' верны для предметов в объектной позиции. 'Who' — для людей, 'them' — личное местоимение (не относительное), 'whose' выражает принадлежность. Проверьте: нарушения что-то раскрыли, или их раскрыли? Их раскрыли — объектная позиция."
+        },
+        {
+            question: "Select the correct option. The sentence uses a contact clause (the pronoun is omitted).",
+            questionRu: "Выберите правильный вариант. Предложение использует контактное придаточное (местоимение опущено).",
+            sentence: "The recommendations ____ the task force made in 2022 are still awaiting implementation.",
+            correctAnswer: "Ø (omitted)",
+            options: ["Ø (omitted)", "who", "it", "they"],
+            correctFeedback: "Correct! The relative pronoun 'that/which' has been omitted — this is a contact clause. 'The task force made the recommendations' — because the pronoun is the object, it can be dropped. 'Who', 'it', and 'they' are all incorrect here.",
+            correctFeedbackRu: "Правильно! Относительное местоимение 'that/which' опущено — это контактное придаточное. 'Целевая группа дала рекомендации' — поскольку местоимение является дополнением, его можно опустить. 'Who', 'it' и 'they' — все неверны здесь.",
+            incorrectFeedback: "Try again. In a contact clause, the object relative pronoun is omitted entirely. 'The task force made the recommendations' — the pronoun was the object of 'made', so it can be dropped. Never replace the pronoun with 'it' or 'they'.",
+            incorrectFeedbackRu: "Попробуйте снова. В контактном придаточном объектное относительное местоимение полностью опущено. 'Целевая группа дала рекомендации' — местоимение было дополнением при 'made', поэтому его можно опустить. Никогда не заменяйте местоимение на 'it' или 'they'."
+        },
+        {
+            question: "Choose the correct relative pronoun. It is the object of 'referred'.",
+            questionRu: "Выберите правильное относительное местоимение. Оно является дополнением при 'referred'.",
+            sentence: "The consultant ____ the director referred to had previously worked on three similar projects.",
+            correctAnswer: "whom",
+            options: ["whom", "which", "that", "whose"],
+            correctFeedback: "Correct! 'Whom' is used for a person in the object position — the director referred to the consultant. Note that the preposition 'to' has been moved to the end. In formal English with a preposition at the end, 'whom' is preferred over 'who'.",
+            correctFeedbackRu: "Правильно! 'Whom' используется для человека в объектной позиции — директор сослался на консультанта. Обратите внимание, что предлог 'to' перенесён в конец. В формальном английском с предлогом в конце 'whom' предпочтительнее 'who'.",
+            incorrectFeedback: "Try again. The consultant is a person in the object position — the director referred to them. Use 'whom' (formal object form for people). In less formal English, 'that' or zero are also possible, but 'whom' is most correct here.",
+            incorrectFeedbackRu: "Попробуйте снова. Консультант — человек в объектной позиции — директор сослался на него. Используйте 'whom' (формальная объектная форма для людей). В менее формальном английском 'that' или ноль тоже возможны, но 'whom' наиболее правильно здесь."
+        },
+        {
+            question: "Fill in the gap with the correct relative pronoun or choose 'omitted'.",
+            questionRu: "Заполните пропуск правильным относительным местоимением или выберите 'опущено'.",
+            sentence: "The infrastructure projects ____ the government prioritised in the budget attracted significant foreign investment.",
+            correctAnswer: "that",
+            options: ["that", "who", "which omitted is wrong here", "them"],
+            correctFeedback: "Correct! 'That' is the object of 'prioritised' — the government prioritised the projects. 'That' or 'which' are both correct for things. The pronoun can also be omitted (contact clause): 'The infrastructure projects the government prioritised...'",
+            correctFeedbackRu: "Правильно! 'That' является дополнением при 'prioritised' — правительство отдало приоритет проектам. 'That' или 'which' — оба верны для предметов. Местоимение также можно опустить (контактное придаточное): 'The infrastructure projects the government prioritised...'",
+            incorrectFeedback: "Try again. Projects are things — use 'that' or 'which' in the object position. 'Who' is for people. 'Them' is a personal pronoun, not a relative pronoun. Check: did the projects prioritise something, or were they prioritised? They were prioritised — object position.",
+            incorrectFeedbackRu: "Попробуйте снова. Проекты — предметы — используйте 'that' или 'which' в объектной позиции. 'Who' — для людей. 'Them' — личное местоимение, не относительное. Проверьте: проекты что-то приоритизировали, или им отдали приоритет? Им отдали приоритет — объектная позиция."
+        },
+        {
+            question: "Complete the sentence. The relative pronoun is the subject of 'led'.",
+            questionRu: "Заполните пропуск. Относительное местоимение является подлежащим при 'led'.",
+            sentence: "The politician ____ led the campaign for electoral reform resigned unexpectedly last week.",
+            correctAnswer: "who",
+            options: ["who", "whom", "Ø (omitted)", "which"],
+            correctFeedback: "Correct! 'Who' is the SUBJECT of 'led' — the politician led the campaign. Subject relative pronouns for people must be 'who', never 'whom'. Subject pronouns CANNOT be omitted — the sentence would be ungrammatical without it.",
+            correctFeedbackRu: "Правильно! 'Who' является ПОДЛЕЖАЩИМ при 'led' — политик возглавил кампанию. Подлежащные относительные местоимения для людей должны быть 'who', никогда не 'whom'. Подлежащные местоимения НЕЛЬЗЯ опускать — предложение было бы неграмматичным без него.",
+            incorrectFeedback: "Try again. The politician led the campaign — 'who' is the SUBJECT. Subject pronouns for people must be 'who', and they cannot be omitted. 'Whom' is for objects. 'Which' is for things. Zero omission is only possible when the pronoun is an object.",
+            incorrectFeedbackRu: "Попробуйте снова. Политик возглавил кампанию — 'who' является ПОДЛЕЖАЩИМ. Подлежащные местоимения для людей должны быть 'who', и их нельзя опускать. 'Whom' — для дополнений. 'Which' — для предметов. Нулевое опущение возможно только когда местоимение является дополнением."
+        }
+    ]
+};
+
+/* ============================================
+PAGE 2 — Formal Structures: Preposition + which/whom
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page2'] = {
+    title: "Advanced Defining Clauses – Formal Preposition + which/whom (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Complete the sentence using the most formal structure with a preposition.",
+            questionRu: "Заполните пропуск, используя наиболее формальную структуру с предлогом.",
+            sentence: "The framework ____ the new legislation is based has been criticised for being too rigid.",
+            correctAnswer: "on which",
+            options: ["on which", "which", "on that", "on whom"],
+            correctFeedback: "Correct! 'On which' places the preposition BEFORE 'which', which is the most formal structure. 'Based on' is the phrasal verb — the preposition 'on' moves before 'which'. 'On that' is impossible — prepositions cannot precede 'that'.",
+            correctFeedbackRu: "Правильно! 'On which' ставит предлог ПЕРЕД 'which' — это наиболее формальная структура. 'Based on' — фразовый глагол — предлог 'on' перемещается перед 'which'. 'On that' невозможно — предлоги не могут стоять перед 'that'.",
+            incorrectFeedback: "Try again. The phrasal verb is 'based on'. In formal English, move the preposition before 'which': 'on which'. A preposition can never precede 'that'. 'On whom' is for people, not for frameworks.",
+            incorrectFeedbackRu: "Попробуйте снова. Фразовый глагол — 'based on'. В формальном английском перенесите предлог перед 'which': 'on which'. Предлог никогда не может стоять перед 'that'. 'On whom' — для людей, не для систем."
+        },
+        {
+            question: "Select the correct formal relative structure. The noun is a person.",
+            questionRu: "Выберите правильную формальную структуру. Существительное обозначает человека.",
+            sentence: "The arbitrator ____ both parties had agreed could not be present at the final hearing.",
+            correctAnswer: "whom",
+            options: ["whom", "which", "who", "that"],
+            correctFeedback: "Correct! 'Whom' is used because the arbitrator is a person in the object position — both parties had agreed on whom. In formal English, 'whom' is required when the pronoun functions as the object. 'Who' is only for subjects.",
+            correctFeedbackRu: "Правильно! 'Whom' используется, потому что арбитр — человек в объектной позиции — обе стороны согласились на него. В формальном английском 'whom' требуется, когда местоимение функционирует как дополнение. 'Who' только для подлежащих.",
+            incorrectFeedback: "Try again. The arbitrator is a person in the object position. In formal English, use 'whom' for people as objects. 'Which' is for things. 'Who' is for people as subjects. 'That' is less formal and less appropriate in this official context.",
+            incorrectFeedbackRu: "Попробуйте снова. Арбитр — человек в объектной позиции. В формальном английском используйте 'whom' для людей как дополнений. 'Which' — для предметов. 'Who' — для людей как подлежащих. 'That' менее формально и менее уместно в этом официальном контексте."
+        },
+        {
+            question: "Choose the correct preposition + relative pronoun combination.",
+            questionRu: "Выберите правильную комбинацию предлог + относительное местоимение.",
+            sentence: "The principles ____ the organisation was founded have been revised several times since independence.",
+            correctAnswer: "on which",
+            options: ["on which", "for whom", "with which", "in that"],
+            correctFeedback: "Correct! The organisation was 'founded on' the principles — the preposition is 'on'. In formal English, 'on' moves before 'which': 'on which'. 'In that' is impossible — prepositions cannot precede 'that'.",
+            correctFeedbackRu: "Правильно! Организация была 'основана на' принципах — предлог 'on'. В формальном английском 'on' перемещается перед 'which': 'on which'. 'In that' невозможно — предлоги не могут стоять перед 'that'.",
+            incorrectFeedback: "Try again. Find the correct preposition: the organisation was founded ON the principles. Then move it before 'which': 'on which'. Prepositions cannot precede 'that'. Check whether the noun is a person or thing before choosing 'whom' or 'which'.",
+            incorrectFeedbackRu: "Попробуйте снова. Найдите правильный предлог: организация была основана НА принципах. Затем перенесите его перед 'which': 'on which'. Предлоги не могут стоять перед 'that'. Проверьте, является ли существительное человеком или предметом, прежде чем выбирать 'whom' или 'which'."
+        },
+        {
+            question: "Complete the formal sentence. A person is involved.",
+            questionRu: "Заполните формальное предложение. Речь идёт о человеке.",
+            sentence: "The lead negotiator, ____ the delegation had placed its full trust, failed to secure a satisfactory deal.",
+            correctAnswer: "in whom",
+            options: ["in whom", "in which", "in who", "in that"],
+            correctFeedback: "Correct! 'In whom' is correct — the delegation placed trust IN the negotiator (a person). 'In whom' is formal: preposition + 'whom' for a person in the object position. 'In who' and 'in that' are both ungrammatical after a preposition.",
+            correctFeedbackRu: "Правильно! 'In whom' верно — делегация доверяла переговорщику (человеку). 'In whom' — формально: предлог + 'whom' для человека в объектной позиции. 'In who' и 'in that' оба неграмматичны после предлога.",
+            incorrectFeedback: "Try again. The preposition is 'in' (placed trust IN). The noun is a person — use 'whom'. A preposition must be followed by 'whom' for people, never 'who' or 'that'. 'Which' is for things.",
+            incorrectFeedbackRu: "Попробуйте снова. Предлог — 'in' (placed trust IN). Существительное — человек — используйте 'whom'. После предлога должен стоять 'whom' для людей, никогда не 'who' или 'that'. 'Which' — для предметов."
+        },
+        {
+            question: "Fill in the gap with the correct formal preposition + relative pronoun.",
+            questionRu: "Заполните пропуск правильным формальным предлогом + относительным местоимением.",
+            sentence: "The committee identified three key objectives, ____ the most pressing was to reduce carbon emissions by 2030.",
+            correctAnswer: "of which",
+            options: ["of which", "of whom", "of that", "from which"],
+            correctFeedback: "Correct! 'Of which' refers back to 'objectives' — things. The structure 'the most pressing of which' is a formal quantifier + 'of which' construction. 'Of whom' is for people, 'of that' is ungrammatical.",
+            correctFeedbackRu: "Правильно! 'Of which' отсылает к 'objectives' — предметам. Структура 'the most pressing of which' — формальная конструкция квантификатор + 'of which'. 'Of whom' — для людей, 'of that' — неграмматично.",
+            incorrectFeedback: "Try again. Objectives are things — use 'of which'. 'Of whom' is for people. Prepositions cannot precede 'that'. 'From which' would change the meaning — you want 'of which' to create a quantifier structure referring back to the objectives.",
+            incorrectFeedbackRu: "Попробуйте снова. Цели — предметы — используйте 'of which'. 'Of whom' — для людей. Предлоги не могут стоять перед 'that'. 'From which' изменило бы смысл — нужно 'of which' для создания структуры с квантификатором, отсылающей к целям."
+        },
+        {
+            question: "Choose the correct formal relative structure involving a preposition.",
+            questionRu: "Выберите правильную формальную структуру с предлогом.",
+            sentence: "The department ____ she is responsible oversees all international procurement contracts.",
+            correctAnswer: "for which",
+            options: ["for which", "for whom", "which", "for that"],
+            correctFeedback: "Correct! She is responsible FOR the department — the preposition is 'for'. In formal English, move 'for' before 'which': 'for which'. 'For whom' is for people, 'for that' is impossible after a preposition.",
+            correctFeedbackRu: "Правильно! Она несёт ответственность ЗА отдел — предлог 'for'. В формальном английском перенесите 'for' перед 'which': 'for which'. 'For whom' — для людей, 'for that' — невозможно после предлога.",
+            incorrectFeedback: "Try again. Identify the correct preposition: responsible FOR. The noun is a department (thing) — use 'which'. Move the preposition before 'which': 'for which'. Prepositions cannot precede 'that'. 'For whom' would be used for people.",
+            incorrectFeedbackRu: "Попробуйте снова. Определите правильный предлог: responsible FOR. Существительное — отдел (предмет) — используйте 'which'. Перенесите предлог перед 'which': 'for which'. Предлоги не могут стоять перед 'that'. 'For whom' использовалось бы для людей."
+        },
+        {
+            question: "Select the correct preposition + pronoun to complete this formal sentence.",
+            questionRu: "Выберите правильный предлог + местоимение для завершения этого формального предложения.",
+            sentence: "The witnesses ____ the prosecution relied had all been personally affected by the fraud.",
+            correctAnswer: "on whom",
+            options: ["on whom", "on which", "on who", "on that"],
+            correctFeedback: "Correct! The prosecution relied ON the witnesses (people). In formal English: preposition + 'whom' for people in the object position. 'On which' is for things, 'on who' is ungrammatical after a preposition.",
+            correctFeedbackRu: "Правильно! Обвинение полагалось НА свидетелей (людей). В формальном английском: предлог + 'whom' для людей в объектной позиции. 'On which' — для предметов, 'on who' — неграмматично после предлога.",
+            incorrectFeedback: "Try again. The preposition is 'on' (relied ON). The noun is witnesses (people) — use 'whom'. After a preposition, 'whom' is required for people, never 'who'. 'Which' is for things. 'That' can never follow a preposition.",
+            incorrectFeedbackRu: "Попробуйте снова. Предлог — 'on' (relied ON). Существительное — свидетели (люди) — используйте 'whom'. После предлога 'whom' обязательно для людей, никогда не 'who'. 'Which' — для предметов. 'That' никогда не может следовать за предлогом."
+        },
+        {
+            question: "Complete the sentence with the correct formal relative pronoun structure.",
+            questionRu: "Заполните предложение правильной формальной структурой с относительным местоимением.",
+            sentence: "The working conditions ____ the employees had complained were finally addressed in the revised contract.",
+            correctAnswer: "about which",
+            options: ["about which", "about whom", "about that", "which about"],
+            correctFeedback: "Correct! Employees complained ABOUT the working conditions (things). The formal structure moves 'about' before 'which': 'about which'. 'About that' is impossible — prepositions cannot precede 'that'. 'Which about' has wrong word order.",
+            correctFeedbackRu: "Правильно! Сотрудники жаловались НА условия труда (предметы). Формальная структура переносит 'about' перед 'which': 'about which'. 'About that' невозможно — предлоги не могут стоять перед 'that'. 'Which about' — неверный порядок слов.",
+            incorrectFeedback: "Try again. The preposition is 'about' (complained ABOUT). The noun is working conditions (things) — use 'which'. Move the preposition before the pronoun: 'about which'. The word order must be: preposition + which/whom.",
+            incorrectFeedbackRu: "Попробуйте снова. Предлог — 'about' (complained ABOUT). Существительное — условия труда (предметы) — используйте 'which'. Перенесите предлог перед местоимением: 'about which'. Порядок слов должен быть: предлог + which/whom."
+        },
+        {
+            question: "Choose the correct structure. The noun is a legal document.",
+            questionRu: "Выберите правильную структуру. Существительное — юридический документ.",
+            sentence: "The contract ____ the two parties had agreed collapsed due to an unforeseen regulatory change.",
+            correctAnswer: "to which",
+            options: ["to which", "to whom", "to that", "which"],
+            correctFeedback: "Correct! The parties agreed TO the contract (a thing). The formal structure is: preposition + 'which': 'to which'. 'To whom' is for people, 'to that' is impossible. 'Which' alone (without 'to') omits the necessary preposition.",
+            correctFeedbackRu: "Правильно! Стороны согласились НА контракт (предмет). Формальная структура: предлог + 'which': 'to which'. 'To whom' — для людей, 'to that' — невозможно. 'Which' без 'to' опускает необходимый предлог.",
+            incorrectFeedback: "Try again. The preposition is 'to' (agreed TO). The noun is a contract (thing) — use 'which'. Move 'to' before 'which': 'to which'. Never use 'that' after a preposition. Without the preposition, the sentence loses essential meaning.",
+            incorrectFeedbackRu: "Попробуйте снова. Предлог — 'to' (agreed TO). Существительное — контракт (предмет) — используйте 'which'. Перенесите 'to' перед 'which': 'to which'. Никогда не используйте 'that' после предлога. Без предлога предложение теряет существенный смысл."
+        },
+        {
+            question: "Complete the sentence with the most formal preposition + pronoun structure.",
+            questionRu: "Заполните предложение наиболее формальной структурой предлог + местоимение.",
+            sentence: "The board appointed a new CEO ____ they had full confidence in her ability to manage the crisis.",
+            correctAnswer: "in whom",
+            options: ["in whom", "in which", "in that", "who"],
+            correctFeedback: "Correct! They had confidence IN the CEO (a person). The most formal structure is 'in whom'. Note that the pronoun 'her' in the original idea is replaced by 'whom'. 'In which' is for things, 'in that' is impossible after a preposition.",
+            correctFeedbackRu: "Правильно! Они доверяли генеральному директору (человеку). Наиболее формальная структура — 'in whom'. Обратите внимание, что местоимение 'her' в исходной идее заменяется на 'whom'. 'In which' — для предметов, 'in that' — невозможно после предлога.",
+            incorrectFeedback: "Try again. The preposition is 'in' (confidence IN). The noun is a CEO (person) — use 'whom'. After a preposition + person, always use 'whom'. 'In which' is for things. A preposition can never precede 'that'.",
+            incorrectFeedbackRu: "Попробуйте снова. Предлог — 'in' (confidence IN). Существительное — генеральный директор (человек) — используйте 'whom'. После предлога + человек всегда используйте 'whom'. 'In which' — для предметов. Предлог никогда не может стоять перед 'that'."
+        }
+    ]
+};
+
+/* ============================================
+PAGE 3 — Reduced Relative Clauses: Active Participles (-ing)
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page3'] = {
+    title: "Advanced Defining Clauses – Reduced Clauses with -ing (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct -ing reduced relative clause form.",
+            questionRu: "Заполните пропуск правильной формой сокращённого придаточного с -ing.",
+            sentence: "Researchers ____ a significant breakthrough in quantum computing have published their findings in Nature.",
+            correctAnswer: "reporting",
+            options: ["reporting", "reported", "who reported", "to report"],
+            correctFeedback: "Correct! 'Reporting' reduces 'who are reporting' — an active -ing participle replaces the subject pronoun + auxiliary verb. The researchers are actively reporting, so the active -ing form is correct.",
+            correctFeedbackRu: "Правильно! 'Reporting' сокращает 'who are reporting' — активное причастие -ing заменяет подлежащное местоимение + вспомогательный глагол. Исследователи активно сообщают, поэтому активная форма -ing верна.",
+            incorrectFeedback: "Try again. The researchers ARE reporting — this is an active, ongoing action. Use the -ing participle to reduce 'who are reporting'. 'Reported' is passive past participle. 'Who reported' is a full clause, not reduced. 'To report' implies future or purpose.",
+            incorrectFeedbackRu: "Попробуйте снова. Исследователи СООБЩАЮТ — это активное, продолжающееся действие. Используйте причастие -ing для сокращения 'who are reporting'. 'Reported' — пассивное причастие прошедшего времени. 'Who reported' — полное придаточное, не сокращённое. 'To report' подразумевает будущее или цель."
+        },
+        {
+            question: "Choose the correct reduced -ing form to replace the full relative clause.",
+            questionRu: "Выберите правильную сокращённую форму -ing для замены полного придаточного.",
+            sentence: "Students ____ to study abroad must apply for a scholarship at least six months in advance.",
+            correctAnswer: "wishing",
+            options: ["wishing", "wished", "who wished", "to be wishing"],
+            correctFeedback: "Correct! 'Wishing' reduces 'who wish' (present simple) or 'who are wishing'. This -ing form is very common in formal written English after indefinite pronouns and general nouns like 'students', 'anyone', 'those'.",
+            correctFeedbackRu: "Правильно! 'Wishing' сокращает 'who wish' (настоящее простое) или 'who are wishing'. Эта форма -ing очень распространена в формальном письменном английском после неопределённых местоимений и общих существительных, таких как 'students', 'anyone', 'those'.",
+            incorrectFeedback: "Try again. Use the -ing form to reduce 'who wish to study abroad'. 'Wished' (past) changes the meaning. 'Who wished' is a full clause. 'To be wishing' is unnatural — use the simple -ing form without 'to be'.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте форму -ing для сокращения 'who wish to study abroad'. 'Wished' (прошедшее) меняет смысл. 'Who wished' — полное придаточное. 'To be wishing' — неестественно — используйте простую форму -ing без 'to be'."
+        },
+        {
+            question: "Fill in the gap with the correct -ing participle form.",
+            questionRu: "Заполните пропуск правильной формой причастия -ing.",
+            sentence: "The satellite ____ the Earth's surface will transmit climate data directly to the research station.",
+            correctAnswer: "mapping",
+            options: ["mapping", "mapped", "maps", "to map"],
+            correctFeedback: "Correct! 'Mapping' reduces 'that is mapping the Earth's surface' — an active ongoing action. The satellite is actively mapping, so the -ing active participle is correct. 'Mapped' would be passive (the satellite was mapped by something).",
+            correctFeedbackRu: "Правильно! 'Mapping' сокращает 'that is mapping the Earth's surface' — активное продолжающееся действие. Спутник активно картографирует, поэтому активное причастие -ing верно. 'Mapped' было бы пассивным (спутник был картографирован чем-то).",
+            incorrectFeedback: "Try again. The satellite is actively mapping (doing the action). Use the -ing active participle to reduce 'that is mapping'. 'Mapped' is passive. 'Maps' is a finite verb — cannot be used without a relative pronoun. 'To map' expresses purpose or future intent.",
+            incorrectFeedbackRu: "Попробуйте снова. Спутник активно картографирует (выполняет действие). Используйте активное причастие -ing для сокращения 'that is mapping'. 'Mapped' — пассивное. 'Maps' — финитный глагол — нельзя использовать без относительного местоимения. 'To map' выражает цель или будущее намерение."
+        },
+        {
+            question: "Complete the sentence with the correct -ing reduced clause.",
+            questionRu: "Заполните пропуск правильным сокращённым придаточным с -ing.",
+            sentence: "There are several organisations ____ scholarships specifically for students from disadvantaged backgrounds.",
+            correctAnswer: "offering",
+            options: ["offering", "offered", "which offered", "to offer"],
+            correctFeedback: "Correct! 'Offering' reduces 'that offer' or 'that are offering'. The organisations actively offer scholarships — an active -ing participle. 'Offered' would be passive (scholarships offered by someone to the organisations). 'Which offered' is a full clause.",
+            correctFeedbackRu: "Правильно! 'Offering' сокращает 'that offer' или 'that are offering'. Организации активно предлагают стипендии — активное причастие -ing. 'Offered' было бы пассивным (стипендии, предложенные кем-то организациям). 'Which offered' — полное придаточное.",
+            incorrectFeedback: "Try again. The organisations ARE offering scholarships (active). Use the -ing participle to reduce 'that offer'. 'Offered' suggests the organisations received the scholarships (passive). 'To offer' would imply purpose or future intent.",
+            incorrectFeedbackRu: "Попробуйте снова. Организации ПРЕДЛАГАЮТ стипендии (активное). Используйте причастие -ing для сокращения 'that offer'. 'Offered' предполагало бы, что организации получили стипендии (пассивное). 'To offer' подразумевало бы цель или будущее намерение."
+        },
+        {
+            question: "Choose the correct -ing form. The participle expresses a result of the main clause.",
+            questionRu: "Выберите правильную форму -ing. Причастие выражает результат главного предложения.",
+            sentence: "The factory released toxic fumes into the river, ____ the local fishing industry for years.",
+            correctAnswer: "devastating",
+            options: ["devastating", "devastated", "which devastating", "to devastate"],
+            correctFeedback: "Correct! 'Devastating' is an -ing participle expressing result or consequence — it describes what happened as a result of releasing the fumes. This is called a 'supplementive participle clause' and follows the main clause with a comma.",
+            correctFeedbackRu: "Правильно! 'Devastating' — причастие -ing, выражающее результат или следствие — описывает, что произошло в результате выброса паров. Это называется 'дополнительным причастным придаточным' и следует за главным предложением с запятой.",
+            incorrectFeedback: "Try again. An -ing clause after a comma can express result or consequence. 'Devastated' is passive (something devastated the factory). 'Which devastating' is grammatically incorrect. 'To devastate' expresses purpose, not consequence.",
+            incorrectFeedbackRu: "Попробуйте снова. Придаточное с -ing после запятой может выражать результат или следствие. 'Devastated' — пассивное (что-то опустошило завод). 'Which devastating' грамматически неверно. 'To devastate' выражает цель, а не следствие."
+        },
+        {
+            question: "Fill in the gap. The -ing form reduces 'who are eligible'.",
+            questionRu: "Заполните пропуск. Форма -ing сокращает 'who are eligible'.",
+            sentence: "Candidates ____ for the advanced programme must hold a minimum of a master's degree.",
+            correctAnswer: "eligible",
+            options: ["eligible", "being eligible", "who eligible", "to be eligible"],
+            correctFeedback: "Correct! With adjectives like 'eligible', 'available', 'suitable', 'responsible', you reduce 'who are + adjective' by simply removing 'who are'. 'Being eligible' would suggest a temporary or unusual state, changing the meaning.",
+            correctFeedbackRu: "Правильно! С прилагательными 'eligible', 'available', 'suitable', 'responsible' вы сокращаете 'who are + прилагательное', просто убирая 'who are'. 'Being eligible' предполагало бы временное или необычное состояние, меняя смысл.",
+            incorrectFeedback: "Try again. With stative adjectives like 'eligible', 'available', 'suitable', simply remove 'who are'. Do not add 'being'. 'Who eligible' is missing a verb. 'To be eligible' changes the meaning to imply a purpose or condition.",
+            incorrectFeedbackRu: "Попробуйте снова. С прилагательными состояния, такими как 'eligible', 'available', 'suitable', просто уберите 'who are'. Не добавляйте 'being'. 'Who eligible' пропускает глагол. 'To be eligible' меняет смысл, подразумевая цель или условие."
+        },
+        {
+            question: "Choose the correct -ing form to complete this formal sentence.",
+            questionRu: "Выберите правильную форму -ing для завершения этого формального предложения.",
+            sentence: "The laboratory ____ cutting-edge research into vaccine development is located in Geneva.",
+            correctAnswer: "conducting",
+            options: ["conducting", "conducted", "which was conducting", "conduct"],
+            correctFeedback: "Correct! 'Conducting' reduces 'that conducts' or 'that is conducting' — the laboratory is actively doing the research. 'Conducted' would be passive. 'Which was conducting' is a full unreduced clause. 'Conduct' is a bare infinitive and cannot follow a noun directly.",
+            correctFeedbackRu: "Правильно! 'Conducting' сокращает 'that conducts' или 'that is conducting' — лаборатория активно проводит исследования. 'Conducted' было бы пассивным. 'Which was conducting' — полное несокращённое придаточное. 'Conduct' — голый инфинитив и не может следовать непосредственно за существительным.",
+            incorrectFeedback: "Try again. The laboratory conducts the research (active). Use the -ing participle to reduce 'that conducts'. 'Conducted' implies the laboratory was conducted by someone (passive). 'Conduct' without 'to' cannot function as a modifier here.",
+            incorrectFeedbackRu: "Попробуйте снова. Лаборатория проводит исследования (активное). Используйте причастие -ing для сокращения 'that conducts'. 'Conducted' подразумевает, что лабораторию кем-то проводили (пассивное). 'Conduct' без 'to' не может функционировать как определение здесь."
+        },
+        {
+            question: "Complete the sentence with the appropriate -ing form. The clause expresses an ongoing state.",
+            questionRu: "Заполните пропуск подходящей формой -ing. Придаточное выражает продолжающееся состояние.",
+            sentence: "The bridge ____ the two districts together has been under construction for almost a decade.",
+            correctAnswer: "connecting",
+            options: ["connecting", "connected", "that connected", "to connect"],
+            correctFeedback: "Correct! 'Connecting' reduces 'that connects' — an active, ongoing relationship between the bridge and the districts. 'Connected' would be passive (the districts were connected BY someone). 'That connected' is a full relative clause.",
+            correctFeedbackRu: "Правильно! 'Connecting' сокращает 'that connects' — активная, продолжающаяся связь между мостом и районами. 'Connected' было бы пассивным (районы были соединены КЕМ-ТО). 'That connected' — полное придаточное предложение.",
+            incorrectFeedback: "Try again. The bridge connects the districts (active). Use the -ing active participle. 'Connected' is a past passive participle. 'That connected' is a full unreduced clause. 'To connect' expresses purpose, not current state.",
+            incorrectFeedbackRu: "Попробуйте снова. Мост соединяет районы (активное). Используйте активное причастие -ing. 'Connected' — пассивное причастие прошедшего времени. 'That connected' — полное несокращённое придаточное. 'To connect' выражает цель, а не текущее состояние."
+        },
+        {
+            question: "Select the correct -ing form. The reduced clause modifies a noun that performs the action.",
+            questionRu: "Выберите правильную форму -ing. Сокращённое придаточное определяет существительное, выполняющее действие.",
+            sentence: "Any official ____ personal data without authorisation will be subject to disciplinary proceedings.",
+            correctAnswer: "handling",
+            options: ["handling", "handled", "to be handling", "who handles"],
+            correctFeedback: "Correct! 'Handling' reduces 'who handles' — the official is the active subject performing the action. 'Any official handling personal data' is a natural formal structure. 'Handled' would be passive (the official was handled by someone).",
+            correctFeedbackRu: "Правильно! 'Handling' сокращает 'who handles' — официальное лицо является активным подлежащим, выполняющим действие. 'Any official handling personal data' — естественная формальная структура. 'Handled' было бы пассивным (официальное лицо было обработано кем-то).",
+            incorrectFeedback: "Try again. The official handles (does) the action — it is active. Use the -ing active participle. 'Handled' is passive (personal data was handled by the official, but the official was not handled). 'Who handles' is a full unreduced clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Официальное лицо обрабатывает (выполняет) действие — это активное. Используйте активное причастие -ing. 'Handled' — пассивное (личные данные были обработаны официальным лицом, но само лицо не было обработано). 'Who handles' — полное несокращённое придаточное."
+        },
+        {
+            question: "Fill in the gap with the correct -ing reduced form.",
+            questionRu: "Заполните пропуск правильной сокращённой формой -ing.",
+            sentence: "The new tax regulation, ____ self-employed contractors particularly hard, has sparked widespread protests.",
+            correctAnswer: "hitting",
+            options: ["hitting", "hit", "which hitting", "to hit"],
+            correctFeedback: "Correct! 'Hitting' after a comma is an -ing clause expressing consequence — the regulation hits contractors hard as a result. This is a supplementive -ing clause attached to the main clause with a comma. 'Hit' alone cannot function here as a modifier.",
+            correctFeedbackRu: "Правильно! 'Hitting' после запятой — это придаточное -ing, выражающее следствие — регулирование сильно бьёт по подрядчикам в результате. Это дополнительное придаточное с -ing, присоединённое к главному предложению запятой. 'Hit' в одиночку не может здесь функционировать как определение.",
+            incorrectFeedback: "Try again. After a comma, an -ing clause can express consequence or result. The regulation hits (active) the contractors. 'Hit' alone (bare past/infinitive) cannot function as a post-comma clause modifier. 'Which hitting' is grammatically impossible.",
+            incorrectFeedbackRu: "Попробуйте снова. После запятой придаточное с -ing может выражать следствие или результат. Регулирование бьёт (активное) по подрядчикам. 'Hit' в одиночку (голое прошедшее/инфинитив) не может функционировать как определение после запятой. 'Which hitting' грамматически невозможно."
+        }
+    ]
+};
+
+/* ============================================
+PAGE 4 — Reduced Relative Clauses: Passive Participles (-ed)
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page4'] = {
+    title: "Advanced Defining Clauses – Reduced Clauses with -ed (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct passive -ed participle form.",
+            questionRu: "Заполните пропуск правильной пассивной формой причастия -ed.",
+            sentence: "The documents ____ by the inspection team contained irrefutable evidence of systematic fraud.",
+            correctAnswer: "seized",
+            options: ["seized", "seizing", "which seized", "to seize"],
+            correctFeedback: "Correct! 'Seized' reduces 'that were seized' — a passive defining clause. The documents were seized BY the inspection team (passive). The -ed past participle replaces 'that were + past participle'. 'Seizing' would mean the documents did the seizing (active).",
+            correctFeedbackRu: "Правильно! 'Seized' сокращает 'that were seized' — пассивное ограничительное придаточное. Документы были изъяты командой проверки (пассивное). Причастие прошедшего времени -ed заменяет 'that were + причастие прошедшего времени'. 'Seizing' означало бы, что документы сами изымали (активное).",
+            incorrectFeedback: "Try again. The documents were seized (passive — something happened TO them). Use the past participle (-ed form) to reduce the passive clause. 'Seizing' is active (-ing), implying the documents seized something. 'Which seized' is a full active clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Документы были изъяты (пассивное — с ними что-то произошло). Используйте причастие прошедшего времени (форма -ed) для сокращения пассивного придаточного. 'Seizing' — активное (-ing), подразумевающее, что документы что-то изъяли. 'Which seized' — полное активное придаточное."
+        },
+        {
+            question: "Choose the correct -ed form to reduce the passive relative clause.",
+            questionRu: "Выберите правильную форму -ed для сокращения пассивного придаточного.",
+            sentence: "The tower ____ in the fourteenth century still serves as the town's most iconic landmark.",
+            correctAnswer: "built",
+            options: ["built", "building", "that builds", "to build"],
+            correctFeedback: "Correct! 'Built' reduces 'that was built in the fourteenth century' — a passive clause. The tower did not build itself; it was built by someone. The past participle 'built' is the correct reduced form for passive clauses.",
+            correctFeedbackRu: "Правильно! 'Built' сокращает 'that was built in the fourteenth century' — пассивное придаточное. Башня не строила себя сама; её построили. Причастие прошедшего времени 'built' — правильная сокращённая форма для пассивных придаточных.",
+            incorrectFeedback: "Try again. The tower was built (passive). Use the past participle to reduce 'that was built'. 'Building' is an active -ing participle (the tower is building something — impossible meaning). 'That builds' is an active finite clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Башня была построена (пассивное). Используйте причастие прошедшего времени для сокращения 'that was built'. 'Building' — активное причастие -ing (башня что-то строит — невозможный смысл). 'That builds' — активное финитное придаточное."
+        },
+        {
+            question: "Fill in the gap. The by-agent phrase identifies who performed the action.",
+            questionRu: "Заполните пропуск. Фраза с исполнителем указывает, кто выполнил действие.",
+            sentence: "The study ____ by a team of epidemiologists at Johns Hopkins contradicts the government's earlier findings.",
+            correctAnswer: "conducted",
+            options: ["conducted", "conducting", "which conducts", "to conduct"],
+            correctFeedback: "Correct! 'Conducted' reduces 'that was conducted by' — a passive clause with a retained by-agent phrase. The study was conducted BY the epidemiologists. The by-agent phrase 'by a team of epidemiologists' is kept to specify who did it.",
+            correctFeedbackRu: "Правильно! 'Conducted' сокращает 'that was conducted by' — пассивное придаточное с сохранённой фразой исполнителя. Исследование было проведено эпидемиологами. Фраза исполнителя 'by a team of epidemiologists' сохраняется для уточнения, кто это сделал.",
+            incorrectFeedback: "Try again. The study was conducted (passive). Use the past participle and keep the by-agent phrase 'by a team of epidemiologists'. 'Conducting' is active (the study is doing the conducting — incorrect). 'Which conducts' is active and unreduced.",
+            incorrectFeedbackRu: "Попробуйте снова. Исследование было проведено (пассивное). Используйте причастие прошедшего времени и сохраните фразу исполнителя 'by a team of epidemiologists'. 'Conducting' — активное (исследование проводит — неверный смысл). 'Which conducts' — активное и несокращённое."
+        },
+        {
+            question: "Select the correct -ed participle. The noun received the action.",
+            questionRu: "Выберите правильное причастие -ed. Существительное получало действие.",
+            sentence: "Any manuscript ____ without permission from the original author will be removed from the platform immediately.",
+            correctAnswer: "republished",
+            options: ["republished", "republishing", "that republishes", "to republish"],
+            correctFeedback: "Correct! 'Republished' reduces 'that is republished / that has been republished' — the manuscript received the action (someone republished it). The past participle correctly identifies which manuscripts are meant. 'Republishing' would imply the manuscript republishes something.",
+            correctFeedbackRu: "Правильно! 'Republished' сокращает 'that is republished / that has been republished' — рукопись получила действие (кто-то её переиздал). Причастие прошедшего времени правильно определяет, какие рукописи имеются в виду. 'Republishing' подразумевало бы, что рукопись что-то переиздаёт.",
+            incorrectFeedback: "Try again. The manuscript was republished (passive — it received the action). Use the past participle to reduce the passive clause. 'Republishing' is active — this would mean the manuscript itself republishes something, which is illogical.",
+            incorrectFeedbackRu: "Попробуйте снова. Рукопись была переиздана (пассивное — она получила действие). Используйте причастие прошедшего времени для сокращения пассивного придаточного. 'Republishing' — активное — это означало бы, что рукопись сама что-то переиздаёт, что нелогично."
+        },
+        {
+            question: "Complete the sentence. The -ed participle reduces a passive clause about a legislative process.",
+            questionRu: "Заполните пропуск. Причастие -ed сокращает пассивное придаточное о законодательном процессе.",
+            sentence: "The amendments ____ by the upper house significantly weakened the original proposal.",
+            correctAnswer: "introduced",
+            options: ["introduced", "introducing", "that introduce", "to introduce"],
+            correctFeedback: "Correct! 'Introduced' reduces 'that were introduced by the upper house' — the amendments received the action of being introduced. The by-agent phrase 'by the upper house' is retained to specify who introduced them.",
+            correctFeedbackRu: "Правильно! 'Introduced' сокращает 'that were introduced by the upper house' — поправки получили действие введения. Фраза исполнителя 'by the upper house' сохраняется для уточнения, кто их внёс.",
+            incorrectFeedback: "Try again. The amendments were introduced (passive). Use the past participle. 'Introducing' would mean the amendments are actively introducing something (active). 'That introduce' is an active finite clause with the wrong meaning.",
+            incorrectFeedbackRu: "Попробуйте снова. Поправки были внесены (пассивное). Используйте причастие прошедшего времени. 'Introducing' означало бы, что поправки активно что-то вводят (активное). 'That introduce' — активное финитное придаточное с неверным смыслом."
+        },
+        {
+            question: "Choose the correct passive -ed form in this academic context.",
+            questionRu: "Выберите правильную пассивную форму -ed в этом академическом контексте.",
+            sentence: "The data ____ from participants over a twelve-month period showed a clear correlation between the two variables.",
+            correctAnswer: "gathered",
+            options: ["gathered", "gathering", "which gathers", "to gather"],
+            correctFeedback: "Correct! 'Gathered' reduces 'that was gathered from participants' — the data was gathered by the researchers (passive). 'Gathering' would imply the data itself is actively gathering something, which is incorrect.",
+            correctFeedbackRu: "Правильно! 'Gathered' сокращает 'that was gathered from participants' — данные были собраны исследователями (пассивное). 'Gathering' подразумевало бы, что данные сами активно что-то собирают, что неверно.",
+            incorrectFeedback: "Try again. The data was gathered (passive — researchers gathered it). Use the past participle. 'Gathering' is an active -ing form (data gathering something — illogical). 'Which gathers' is an active unreduced clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Данные были собраны (пассивное — исследователи их собрали). Используйте причастие прошедшего времени. 'Gathering' — активная форма -ing (данные что-то собирают — нелогично). 'Which gathers' — активное несокращённое придаточное."
+        },
+        {
+            question: "Fill in the gap with the correct -ed reduced form.",
+            questionRu: "Заполните пропуск правильной сокращённой формой -ed.",
+            sentence: "The species ____ by habitat destruction are unlikely to recover without significant conservation efforts.",
+            correctAnswer: "threatened",
+            options: ["threatened", "threatening", "which threatens", "to threaten"],
+            correctFeedback: "Correct! 'Threatened' reduces 'that are threatened by habitat destruction' — the species are threatened BY the destruction (passive). The by-agent phrase 'by habitat destruction' is retained. 'Threatening' would make the species the active threat.",
+            correctFeedbackRu: "Правильно! 'Threatened' сокращает 'that are threatened by habitat destruction' — виды находятся под угрозой из-за разрушения среды обитания (пассивное). Фраза исполнителя 'by habitat destruction' сохраняется. 'Threatening' делало бы виды активной угрозой.",
+            incorrectFeedback: "Try again. The species are threatened (passive — something threatens them). Use the past participle. 'Threatening' is active (-ing) — this would mean the species are threatening the habitat, which reverses the meaning completely.",
+            incorrectFeedbackRu: "Попробуйте снова. Виды находятся под угрозой (пассивное — что-то им угрожает). Используйте причастие прошедшего времени. 'Threatening' — активное (-ing) — это означало бы, что виды угрожают среде обитания, что полностью меняет смысл."
+        },
+        {
+            question: "Select the correct -ed form. The noun is a thing that received an action.",
+            questionRu: "Выберите правильную форму -ed. Существительное — предмет, получивший действие.",
+            sentence: "The medication ____ to patients with compromised immune systems must be stored at below-freezing temperatures.",
+            correctAnswer: "prescribed",
+            options: ["prescribed", "prescribing", "that prescribes", "to prescribe"],
+            correctFeedback: "Correct! 'Prescribed' reduces 'that is prescribed to patients' — the medication is prescribed by doctors (passive). The medication receives the action. 'Prescribing' would mean the medication is actively prescribing something — logically impossible.",
+            correctFeedbackRu: "Правильно! 'Prescribed' сокращает 'that is prescribed to patients' — лекарство назначается врачами (пассивное). Лекарство получает действие. 'Prescribing' означало бы, что лекарство активно что-то назначает — логически невозможно.",
+            incorrectFeedback: "Try again. The medication is prescribed (passive — doctors prescribe it). Use the past participle. 'Prescribing' is active — a medication cannot prescribe. 'That prescribes' is an active clause meaning the medication prescribes something, which is illogical.",
+            incorrectFeedbackRu: "Попробуйте снова. Лекарство назначается (пассивное — врачи его назначают). Используйте причастие прошедшего времени. 'Prescribing' — активное — лекарство не может ничего назначать. 'That prescribes' — активное придаточное, означающее, что лекарство что-то назначает, что нелогично."
+        },
+        {
+            question: "Complete the sentence. The -ed form reduces a perfect passive clause.",
+            questionRu: "Заполните пропуск. Форма -ed сокращает перфектное пассивное придаточное.",
+            sentence: "The allegations ____ against the official by three former colleagues were eventually dismissed by the tribunal.",
+            correctAnswer: "made",
+            options: ["made", "making", "that make", "to make"],
+            correctFeedback: "Correct! 'Made' reduces 'that were made against the official' — a passive clause. The allegations were made BY the colleagues (passive). Both simple passive ('that are made') and perfect passive ('that have been made') reduce to just the past participle.",
+            correctFeedbackRu: "Правильно! 'Made' сокращает 'that were made against the official' — пассивное придаточное. Обвинения были выдвинуты коллегами (пассивное). И простое пассивное ('that are made'), и перфектное пассивное ('that have been made') сокращаются до простого причастия прошедшего времени.",
+            incorrectFeedback: "Try again. The allegations were made (passive — the colleagues made them). Use the past participle. 'Making' would mean the allegations are actively making something (illogical). 'That make' is an active clause with the wrong meaning.",
+            incorrectFeedbackRu: "Попробуйте снова. Обвинения были выдвинуты (пассивное — коллеги их выдвинули). Используйте причастие прошедшего времени. 'Making' означало бы, что обвинения активно что-то делают (нелогично). 'That make' — активное придаточное с неверным смыслом."
+        },
+        {
+            question: "Fill in the gap. Choose whether the -ing or -ed form is correct.",
+            questionRu: "Заполните пропуск. Определите, какая форма правильна — -ing или -ed.",
+            sentence: "The infrastructure ____ during the conflict will take decades and billions of dollars to rebuild.",
+            correctAnswer: "destroyed",
+            options: ["destroyed", "destroying", "which is destroying", "to destroy"],
+            correctFeedback: "Correct! 'Destroyed' reduces 'that was destroyed during the conflict' — the infrastructure was destroyed (passive). Something (the conflict) destroyed it. 'Destroying' would mean the infrastructure is actively destroying something, which reverses the logical meaning.",
+            correctFeedbackRu: "Правильно! 'Destroyed' сокращает 'that was destroyed during the conflict' — инфраструктура была разрушена (пассивное). Что-то (конфликт) её разрушило. 'Destroying' означало бы, что инфраструктура активно что-то разрушает, что меняет логический смысл на противоположный.",
+            incorrectFeedback: "Try again. Ask: did the infrastructure destroy something, or was it destroyed? It was destroyed — so use the past participle (passive -ed). 'Destroying' is active (-ing) — it would mean the infrastructure is doing the destroying. 'Which is destroying' is a full unreduced clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Спросите: инфраструктура что-то разрушила или была разрушена? Она была разрушена — используйте причастие прошедшего времени (пассивное -ed). 'Destroying' — активное (-ing) — означало бы, что инфраструктура производит разрушение. 'Which is destroying' — полное несокращённое придаточное."
+        }
+    ]
+};
+
+/* ============================================
+PAGE 5 — Cleft Sentences: It is/was… that/who
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page5'] = {
+    title: "Advanced Defining Clauses – Cleft Sentences (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Complete the cleft sentence. The emphasised element is a thing (a policy).",
+            questionRu: "Заполните расщеплённое предложение. Акцентируемый элемент — предмет (политика).",
+            sentence: "It was the government's austerity policy ____ caused the sharp rise in youth unemployment.",
+            correctAnswer: "that",
+            options: ["that", "who", "which", "whom"],
+            correctFeedback: "Correct! In a cleft sentence emphasising a THING, use 'that'. 'Which' is also grammatically possible, but 'that' is more natural and preferred in cleft sentences. 'Who' and 'whom' are only for people.",
+            correctFeedbackRu: "Правильно! В расщеплённом предложении, акцентирующем ПРЕДМЕТ, используйте 'that'. 'Which' тоже грамматически возможно, но 'that' более естественно и предпочтительно в расщеплённых предложениях. 'Who' и 'whom' только для людей.",
+            incorrectFeedback: "Try again. The emphasised element is 'the government's austerity policy' — a thing. In a cleft sentence (It is/was + X + ___), use 'that' for things. 'Who'/'whom' are for people, and 'which' is less natural than 'that' in cleft structures.",
+            incorrectFeedbackRu: "Попробуйте снова. Акцентируемый элемент — 'the government's austerity policy' — предмет. В расщеплённом предложении (It is/was + X + ___) используйте 'that' для предметов. 'Who'/'whom' — для людей, 'which' менее естественно, чем 'that' в расщеплённых структурах."
+        },
+        {
+            question: "Fill in the gap. The emphasised element is a person.",
+            questionRu: "Заполните пропуск. Акцентируемый элемент — человек.",
+            sentence: "It was the lead scientist ____ first identified the anomaly in the data set.",
+            correctAnswer: "who",
+            options: ["who", "that", "which", "whose"],
+            correctFeedback: "Correct! When the emphasised element in a cleft sentence is a PERSON, both 'who' and 'that' are acceptable. 'Who' is the more natural choice for people, though 'that' is also grammatically correct.",
+            correctFeedbackRu: "Правильно! Когда акцентируемый элемент в расщеплённом предложении — ЧЕЛОВЕК, допустимы и 'who', и 'that'. 'Who' — более естественный выбор для людей, хотя 'that' тоже грамматически верно.",
+            incorrectFeedback: "Try again. The emphasised element is 'the lead scientist' — a person. Use 'who' (or 'that') in cleft sentences for people. 'Which' is for things. 'Whose' is possessive and cannot function as the connector in a cleft sentence.",
+            incorrectFeedbackRu: "Попробуйте снова. Акцентируемый элемент — 'the lead scientist' — человек. Используйте 'who' (или 'that') в расщеплённых предложениях для людей. 'Which' — для предметов. 'Whose' — притяжательное и не может функционировать как союз в расщеплённом предложении."
+        },
+        {
+            question: "Complete the cleft sentence. Choose the correct auxiliary verb form.",
+            questionRu: "Заполните расщеплённое предложение. Выберите правильную форму вспомогательного глагола.",
+            sentence: "It ____ the lack of transparency that ultimately undermined public confidence in the institution.",
+            correctAnswer: "was",
+            options: ["was", "is", "were", "has been"],
+            correctFeedback: "Correct! 'Was' is used because the sentence refers to a completed past event — the confidence was undermined (past). In cleft sentences, 'It is' refers to present situations; 'It was' refers to past situations. The verb in 'It is/was' agrees with the main clause tense.",
+            correctFeedbackRu: "Правильно! 'Was' используется, потому что предложение относится к завершённому прошлому событию — доверие было подорвано (прошедшее). В расщеплённых предложениях 'It is' относится к настоящим ситуациям; 'It was' — к прошлым. Глагол в 'It is/was' согласуется с временем главного предложения.",
+            incorrectFeedback: "Try again. The event described (undermining public confidence) happened in the past. Use 'It was' for past events in cleft sentences. 'It is' refers to present situations. 'Were' is incorrect because 'it' takes a singular verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Описываемое событие (подрыв общественного доверия) произошло в прошлом. Используйте 'It was' для прошлых событий в расщеплённых предложениях. 'It is' относится к настоящим ситуациям. 'Were' неверно, потому что 'it' требует глагола единственного числа."
+        },
+        {
+            question: "Fill in the gap to complete the cleft structure correctly.",
+            questionRu: "Заполните пропуск для правильного завершения расщеплённой структуры.",
+            sentence: "It is the ____ of affordable housing, not high taxes, that is driving the migration away from the city.",
+            correctAnswer: "shortage",
+            options: ["shortage", "short", "shortening", "shortly"],
+            correctFeedback: "Correct! A cleft sentence emphasises a specific element by placing it after 'It is/was'. Here, the noun 'shortage' is the emphasised element — the shortage of housing (not high taxes) is being highlighted as the real cause. The cleft structure contrasts two possible causes.",
+            correctFeedbackRu: "Правильно! Расщеплённое предложение акцентирует конкретный элемент, помещая его после 'It is/was'. Здесь существительное 'shortage' — акцентируемый элемент — нехватка жилья (а не высокие налоги) выделяется как реальная причина. Расщеплённая структура противопоставляет две возможные причины.",
+            incorrectFeedback: "Try again. A cleft sentence requires a noun phrase after 'It is/was'. The meaning implies a 'shortage' (lack) of housing. 'Short' is an adjective, 'shortening' is a verb form, and 'shortly' is an adverb — none can fill the noun position here.",
+            incorrectFeedbackRu: "Попробуйте снова. Расщеплённое предложение требует именную группу после 'It is/was'. Смысл подразумевает 'shortage' (нехватку) жилья. 'Short' — прилагательное, 'shortening' — форма глагола, 'shortly' — наречие — ни одно не может занять позицию существительного здесь."
+        },
+        {
+            question: "Complete the cleft sentence. An adverb is being emphasised.",
+            questionRu: "Заполните расщеплённое предложение. Акцентируется наречие.",
+            sentence: "It was ____ that the critical information was leaked — not through official channels.",
+            correctAnswer: "anonymously",
+            options: ["anonymously", "anonymous", "anonymity", "anonymise"],
+            correctFeedback: "Correct! In a cleft sentence, any element can be emphasised — including adverbs. 'It was anonymously that it was leaked' emphasises HOW it was leaked. The structure contrasts the real method (anonymously) with the official channels.",
+            correctFeedbackRu: "Правильно! В расщеплённом предложении может быть акцентирован любой элемент — включая наречия. 'It was anonymously that it was leaked' акцентирует КАК произошла утечка. Структура противопоставляет реальный метод (анонимно) официальным каналам.",
+            incorrectFeedback: "Try again. The cleft sentence emphasises HOW something happened — an adverb is needed. 'Anonymously' is the adverb. 'Anonymous' is an adjective. 'Anonymity' is a noun. 'Anonymise' is a verb. Only an adverb fits grammatically and logically here.",
+            incorrectFeedbackRu: "Попробуйте снова. Расщеплённое предложение акцентирует КАК произошло — нужно наречие. 'Anonymously' — наречие. 'Anonymous' — прилагательное. 'Anonymity' — существительное. 'Anonymise' — глагол. Только наречие подходит грамматически и логически здесь."
+        },
+        {
+            question: "Fill in the gap. Choose the correct connector after the emphasised element.",
+            questionRu: "Заполните пропуск. Выберите правильный союз после акцентируемого элемента.",
+            sentence: "It was the regional director, not the minister, ____ made the final decision on the budget cuts.",
+            correctAnswer: "who",
+            options: ["who", "which", "that", "whose"],
+            correctFeedback: "Correct! The emphasised element is 'the regional director' — a person. Both 'who' and 'that' are acceptable, but 'who' is the more natural choice for a specific person. 'Which' is for things. Note that this cleft sentence also uses a contrast ('not the minister').",
+            correctFeedbackRu: "Правильно! Акцентируемый элемент — 'the regional director' — человек. И 'who', и 'that' допустимы, но 'who' — более естественный выбор для конкретного человека. 'Which' — для предметов. Обратите внимание, что это расщеплённое предложение также использует контраст ('not the minister').",
+            incorrectFeedback: "Try again. The emphasised element is 'the regional director' — a specific person. Use 'who' (or 'that') for people. 'Which' is only for things. 'Whose' is possessive and cannot be used as the cleft connector here.",
+            incorrectFeedbackRu: "Попробуйте снова. Акцентируемый элемент — 'the regional director' — конкретный человек. Используйте 'who' (или 'that') для людей. 'Which' только для предметов. 'Whose' — притяжательное и не может использоваться как союз в расщеплённом предложении здесь."
+        },
+        {
+            question: "Complete the pseudo-cleft sentence with the correct structure.",
+            questionRu: "Заполните псевдо-расщеплённое предложение правильной структурой.",
+            sentence: "What the investigation ultimately revealed ____ that the financial records had been deliberately falsified.",
+            correctAnswer: "was",
+            options: ["was", "were", "is", "had been"],
+            correctFeedback: "Correct! In a pseudo-cleft sentence (What + clause + be + complement), the verb 'was' agrees with the complement — a singular clause. 'What the investigation revealed' is the subject; 'that the financial records had been falsified' is the complement. Use 'was' with a singular complement.",
+            correctFeedbackRu: "Правильно! В псевдо-расщеплённом предложении (What + придаточное + be + дополнение) глагол 'was' согласуется с дополнением — единственным придаточным. 'What the investigation revealed' — подлежащее; 'that the financial records had been falsified' — дополнение. Используйте 'was' с единственным дополнением.",
+            incorrectFeedback: "Try again. In pseudo-cleft sentences (What...is/was...), the 'be' verb agrees with the complement. The complement here is a singular 'that' clause. Use 'was' (past tense, singular). 'Were' is plural. 'Is' is present tense. 'Had been' is a perfect auxiliary, not a main linking verb.",
+            incorrectFeedbackRu: "Попробуйте снова. В псевдо-расщеплённых предложениях (What...is/was...) глагол 'be' согласуется с дополнением. Дополнение здесь — единственное придаточное с 'that'. Используйте 'was' (прошедшее время, единственное число). 'Were' — множественное число. 'Is' — настоящее время. 'Had been' — перфектный вспомогательный, а не основной связочный глагол."
+        },
+        {
+            question: "Fill in the gap. The cleft sentence emphasises a time expression.",
+            questionRu: "Заполните пропуск. Расщеплённое предложение акцентирует временное выражение.",
+            sentence: "It was ____ the 1990s that the company first expanded into emerging markets in Southeast Asia.",
+            correctAnswer: "during",
+            options: ["during", "in the course", "through", "at"],
+            correctFeedback: "Correct! 'During the 1990s' is the correct prepositional phrase for an extended period of time. In a cleft sentence, the time expression follows 'It was'. 'In the course' is incomplete without 'of'. 'Through' sounds unnatural. 'At' is for specific moments, not decades.",
+            correctFeedbackRu: "Правильно! 'During the 1990s' — правильная предложная группа для продолжительного периода времени. В расщеплённом предложении временное выражение следует за 'It was'. 'In the course' неполно без 'of'. 'Through' звучит неестественно. 'At' — для конкретных моментов, не для десятилетий.",
+            incorrectFeedback: "Try again. The gap needs a preposition that correctly introduces a decade (1990s) as a period of time. 'During' is the standard preposition for extended periods. 'At' is for precise moments (at midnight). 'In the course' is incomplete here. 'Through' is not standard for decades.",
+            incorrectFeedbackRu: "Попробуйте снова. В пропуск нужен предлог, который правильно вводит десятилетие (1990s) как период времени. 'During' — стандартный предлог для продолжительных периодов. 'At' — для точных моментов (at midnight). 'In the course' неполно здесь. 'Through' не является стандартным для десятилетий."
+        },
+        {
+            question: "Complete the reversed cleft sentence correctly.",
+            questionRu: "Правильно заполните обратное расщеплённое предложение.",
+            sentence: "The systemic corruption, not the economic sanctions, ____ what brought the regime to its knees.",
+            correctAnswer: "was",
+            options: ["was", "were", "is", "had"],
+            correctFeedback: "Correct! In a reversed cleft (X + was + what...), the verb agrees with the subject — 'the systemic corruption' is singular, so 'was' is correct. The structure emphasises that the corruption (not the sanctions) was the real cause.",
+            correctFeedbackRu: "Правильно! В обратном расщеплённом предложении (X + was + what...) глагол согласуется с подлежащим — 'the systemic corruption' — единственное число, поэтому 'was' верно. Структура подчёркивает, что коррупция (а не санкции) была реальной причиной.",
+            incorrectFeedback: "Try again. The subject is 'the systemic corruption' (singular). Use 'was' (singular past). 'Were' is plural. 'Is' is present tense — the sentence refers to a past event. 'Had' would require a past participle to form a past perfect.",
+            incorrectFeedbackRu: "Попробуйте снова. Подлежащее — 'the systemic corruption' (единственное число). Используйте 'was' (единственное число, прошедшее время). 'Were' — множественное число. 'Is' — настоящее время — предложение относится к прошлому событию. 'Had' потребовало бы причастие прошедшего времени для образования прошедшего перфектного."
+        },
+        {
+            question: "Fill in the gap. Choose the word that the cleft sentence places in focus.",
+            questionRu: "Заполните пропуск. Выберите слово, которое расщеплённое предложение помещает в фокус.",
+            sentence: "It is the ____ of the data, not the volume, that determines the quality of the research findings.",
+            correctAnswer: "accuracy",
+            options: ["accuracy", "accurate", "accurately", "accurateness"],
+            correctFeedback: "Correct! The cleft sentence (It is + emphasised element + that...) requires a noun in the focus position. 'Accuracy' is the correct noun form. The structure contrasts 'accuracy' with 'volume' to emphasise what really matters in research.",
+            correctFeedbackRu: "Правильно! Расщеплённое предложение (It is + акцентируемый элемент + that...) требует существительного в фокусной позиции. 'Accuracy' — правильная форма существительного. Структура противопоставляет 'accuracy' и 'volume', чтобы подчеркнуть, что действительно важно в исследовании.",
+            incorrectFeedback: "Try again. After 'It is the ___' in a cleft sentence, a noun phrase is required. 'Accurate' is an adjective, 'accurately' is an adverb, 'accurateness' is a non-standard form. 'Accuracy' is the correct and standard noun form.",
+            incorrectFeedbackRu: "Попробуйте снова. После 'It is the ___' в расщеплённом предложении требуется именная группа. 'Accurate' — прилагательное, 'accurately' — наречие, 'accurateness' — нестандартная форма. 'Accuracy' — правильная и стандартная форма существительного."
+        }
+    ]
+};
+
+/* ============================================
+PAGE 6 — Quantifier + of which/whom
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page6'] = {
+    title: "Advanced Defining Clauses – Quantifier + of which/whom (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct quantifier + relative pronoun structure.",
+            questionRu: "Заполните пропуск правильной структурой квантификатор + относительное местоимение.",
+            sentence: "The university received over five hundred applications, ____ were from international students.",
+            correctAnswer: "many of which",
+            options: ["many of which", "many of whom", "many of that", "many which"],
+            correctFeedback: "Correct! 'Many of which' refers back to 'applications' — things. 'Of which' is used for things, 'of whom' is for people. 'Of that' is ungrammatical in this structure. The quantifier + 'of which' combines two sentences into one formal relative clause.",
+            correctFeedbackRu: "Правильно! 'Many of which' отсылает к 'applications' — предметам. 'Of which' используется для предметов, 'of whom' — для людей. 'Of that' неграмматично в этой структуре. Квантификатор + 'of which' объединяет два предложения в одно формальное придаточное.",
+            incorrectFeedback: "Try again. Applications are THINGS — use 'of which'. 'Of whom' is for people. Prepositions cannot precede 'that'. 'Many which' is missing 'of'. The full structure is: quantifier + of + which (for things) or whom (for people).",
+            incorrectFeedbackRu: "Попробуйте снова. Заявления — ПРЕДМЕТЫ — используйте 'of which'. 'Of whom' — для людей. Предлоги не могут стоять перед 'that'. 'Many which' пропускает 'of'. Полная структура: квантификатор + of + which (для предметов) или whom (для людей)."
+        },
+        {
+            question: "Choose the correct quantifier structure. The noun refers to people.",
+            questionRu: "Выберите правильную структуру с квантификатором. Существительное относится к людям.",
+            sentence: "The programme admitted thirty new participants, ____ had prior experience in the field.",
+            correctAnswer: "half of whom",
+            options: ["half of whom", "half of which", "half of that", "half whom"],
+            correctFeedback: "Correct! 'Half of whom' refers back to 'participants' — people. 'Of whom' is required for people in these quantifier structures. 'Of which' is for things. 'Of that' and 'half whom' (missing 'of') are both ungrammatical.",
+            correctFeedbackRu: "Правильно! 'Half of whom' отсылает к 'participants' — людям. 'Of whom' обязательно для людей в этих структурах с квантификатором. 'Of which' — для предметов. 'Of that' и 'half whom' (пропущено 'of') оба неграмматичны.",
+            incorrectFeedback: "Try again. Participants are PEOPLE — use 'of whom'. 'Of which' is for things. Prepositions cannot precede 'that'. The structure must be: quantifier + of + whom (for people). Never omit 'of' from this structure.",
+            incorrectFeedbackRu: "Попробуйте снова. Участники — ЛЮДИ — используйте 'of whom'. 'Of which' — для предметов. Предлоги не могут стоять перед 'that'. Структура должна быть: квантификатор + of + whom (для людей). Никогда не опускайте 'of' из этой структуры."
+        },
+        {
+            question: "Fill in the gap. Choose the correct superlative quantifier + relative pronoun.",
+            questionRu: "Заполните пропуск. Выберите правильный квантификатор в превосходной степени + относительное местоимение.",
+            sentence: "The panel reviewed twelve policy proposals, ____ was the introduction of a universal basic income.",
+            correctAnswer: "the most controversial of which",
+            options: ["the most controversial of which", "the most controversial of whom", "the most controversial of that", "the most controversial which"],
+            correctFeedback: "Correct! 'The most controversial of which' uses a superlative quantifier to refer back to 'proposals' — things. This is a sophisticated B2 structure. 'Of whom' is for people, 'of that' is ungrammatical, and 'of' must not be omitted.",
+            correctFeedbackRu: "Правильно! 'The most controversial of which' использует квантификатор в превосходной степени для отсылки к 'proposals' — предметам. Это сложная структура уровня B2. 'Of whom' — для людей, 'of that' — неграмматично, 'of' нельзя опускать.",
+            incorrectFeedback: "Try again. Proposals are THINGS — use 'of which'. For superlative quantifiers, the structure is: the + superlative adjective + of which/whom. 'Of that' is ungrammatical. Never omit 'of' between the quantifier and 'which/whom'.",
+            incorrectFeedbackRu: "Попробуйте снова. Предложения — ПРЕДМЕТЫ — используйте 'of which'. Для квантификаторов в превосходной степени структура: the + прилагательное в превосходной степени + of which/whom. 'Of that' — неграмматично. Никогда не опускайте 'of' между квантификатором и 'which/whom'."
+        },
+        {
+            question: "Complete the sentence with the correct quantifier structure. The noun refers to things.",
+            questionRu: "Заполните предложение правильной структурой с квантификатором. Существительное относится к предметам.",
+            sentence: "The inspector identified seven code violations, ____ required immediate remediation.",
+            correctAnswer: "three of which",
+            options: ["three of which", "three of whom", "three of that", "three which"],
+            correctFeedback: "Correct! 'Three of which' refers back to 'violations' — things. The structure 'number + of which' elegantly combines: 'The inspector found seven violations. Three of them required immediate remediation.' 'Of whom' is only for people.",
+            correctFeedbackRu: "Правильно! 'Three of which' отсылает к 'violations' — предметам. Структура 'число + of which' элегантно объединяет: 'Инспектор обнаружил семь нарушений. Три из них требовали немедленного устранения.' 'Of whom' только для людей.",
+            incorrectFeedback: "Try again. Violations are THINGS — use 'of which'. The structure is: number + of + which/whom. Never use 'of that'. Don't omit 'of' between the number and 'which'.",
+            incorrectFeedbackRu: "Попробуйте снова. Нарушения — ПРЕДМЕТЫ — используйте 'of which'. Структура: число + of + which/whom. Никогда не используйте 'of that'. Не опускайте 'of' между числом и 'which'."
+        },
+        {
+            question: "Choose the correct option to complete this quantifier + relative pronoun structure.",
+            questionRu: "Выберите правильный вариант для завершения структуры квантификатор + относительное местоимение.",
+            sentence: "The company recruited fifteen new engineers, ____ came from overseas universities.",
+            correctAnswer: "all of whom",
+            options: ["all of whom", "all of which", "all of that", "all of them"],
+            correctFeedback: "Correct! 'All of whom' refers back to 'engineers' — people. 'Of whom' is for people, 'of which' is for things. 'All of them' is a personal pronoun structure — using 'them' would create a comma splice (two independent clauses incorrectly joined by a comma).",
+            correctFeedbackRu: "Правильно! 'All of whom' отсылает к 'engineers' — людям. 'Of whom' — для людей, 'of which' — для предметов. 'All of them' — структура с личным местоимением — использование 'them' создало бы ошибку запятой-сплайса (два независимых предложения, неверно соединённые запятой).",
+            incorrectFeedback: "Try again. Engineers are PEOPLE — use 'of whom'. 'Of which' is for things. 'Of that' is ungrammatical. 'All of them' is a personal pronoun — using it after a comma creates a grammatically incorrect comma splice.",
+            incorrectFeedbackRu: "Попробуйте снова. Инженеры — ЛЮДИ — используйте 'of whom'. 'Of which' — для предметов. 'Of that' — неграмматично. 'All of them' — личное местоимение — использование его после запятой создаёт грамматически неверный запятой-сплайс."
+        },
+        {
+            question: "Fill in the gap. Choose the correct relative pronoun in this 'both of' structure.",
+            questionRu: "Заполните пропуск. Выберите правильное относительное местоимение в структуре 'both of'.",
+            sentence: "The committee appointed two external advisers, both of ____ had extensive experience in international trade law.",
+            correctAnswer: "whom",
+            options: ["whom", "which", "who", "that"],
+            correctFeedback: "Correct! 'Both of whom' refers back to 'advisers' — people. After 'both of / all of / none of / each of', use 'whom' for people and 'which' for things. 'Both of who' is ungrammatical — 'who' cannot follow 'of'.",
+            correctFeedbackRu: "Правильно! 'Both of whom' отсылает к 'advisers' — людям. После 'both of / all of / none of / each of' используйте 'whom' для людей и 'which' для предметов. 'Both of who' неграмматично — 'who' не может следовать за 'of'.",
+            incorrectFeedback: "Try again. Advisers are people. After a preposition ('of'), always use 'whom' for people, never 'who'. 'Which' is for things. 'That' cannot follow a preposition. The rule: preposition + whom (people) / which (things).",
+            incorrectFeedbackRu: "Попробуйте снова. Советники — люди. После предлога ('of') всегда используйте 'whom' для людей, никогда не 'who'. 'Which' — для предметов. 'That' не может следовать за предлогом. Правило: предлог + whom (люди) / which (предметы)."
+        },
+        {
+            question: "Complete the sentence with the most appropriate quantifier structure.",
+            questionRu: "Заполните предложение наиболее подходящей структурой с квантификатором.",
+            sentence: "The survey covered forty regions, ____ reported significant improvements in public health outcomes.",
+            correctAnswer: "a quarter of which",
+            options: ["a quarter of which", "a quarter of whom", "a quarter of that", "a quarter which"],
+            correctFeedback: "Correct! 'A quarter of which' refers back to 'regions' — things (places are things, not people). Fractional quantifiers ('a quarter of', 'a third of', 'two-thirds of') + 'which/whom' are advanced B2 structures used in academic and formal contexts.",
+            correctFeedbackRu: "Правильно! 'A quarter of which' отсылает к 'regions' — предметам (места — предметы, не люди). Дробные квантификаторы ('a quarter of', 'a third of', 'two-thirds of') + 'which/whom' — продвинутые структуры уровня B2, используемые в академических и формальных контекстах.",
+            incorrectFeedback: "Try again. Regions are THINGS (places) — use 'of which'. 'Of whom' is for people. 'Of that' is ungrammatical. Never omit 'of' in fractional quantifier structures.",
+            incorrectFeedbackRu: "Попробуйте снова. Регионы — ПРЕДМЕТЫ (места) — используйте 'of which'. 'Of whom' — для людей. 'Of that' — неграмматично. Никогда не опускайте 'of' в структурах с дробными квантификаторами."
+        },
+        {
+            question: "Choose the correct quantifier structure. The emphasis is on an extreme case.",
+            questionRu: "Выберите правильную структуру с квантификатором. Акцент на крайнем случае.",
+            sentence: "The organisation has offices in thirty countries, ____ is Brazil, where the headquarters are based.",
+            correctAnswer: "the largest of which",
+            options: ["the largest of which", "the largest of whom", "the largest of that", "the largest which"],
+            correctFeedback: "Correct! 'The largest of which' uses a superlative adjective + 'of which' to identify one specific entity from the group of countries. Countries are things — use 'of which'. The structure singles out Brazil as the largest from the group.",
+            correctFeedbackRu: "Правильно! 'The largest of which' использует прилагательное в превосходной степени + 'of which' для выделения одной конкретной единицы из группы стран. Страны — предметы — используйте 'of which'. Структура выделяет Бразилию как наибольшую из группы.",
+            incorrectFeedback: "Try again. Countries are THINGS — use 'of which'. 'Of whom' is for people. 'Of that' is ungrammatical. The structure must include 'of' between the superlative and 'which'. The superlative quantifier identifies the single largest entity.",
+            incorrectFeedbackRu: "Попробуйте снова. Страны — ПРЕДМЕТЫ — используйте 'of which'. 'Of whom' — для людей. 'Of that' — неграмматично. Структура должна включать 'of' между превосходной степенью и 'which'. Квантификатор в превосходной степени выделяет единственную наибольшую единицу."
+        },
+        {
+            question: "Fill in the gap. Choose the correct 'none of' structure.",
+            questionRu: "Заполните пропуск. Выберите правильную структуру с 'none of'.",
+            sentence: "The committee reviewed six shortlisted candidates, none of ____ fully met all the stated criteria.",
+            correctAnswer: "whom",
+            options: ["whom", "which", "who", "that"],
+            correctFeedback: "Correct! 'None of whom' refers back to 'candidates' — people. After 'of', use 'whom' for people (not 'who'). 'Of which' is for things. 'Of that' is ungrammatical. The rule: preposition 'of' is always followed by 'whom' (people) or 'which' (things).",
+            correctFeedbackRu: "Правильно! 'None of whom' отсылает к 'candidates' — людям. После 'of' используйте 'whom' для людей (не 'who'). 'Of which' — для предметов. 'Of that' — неграмматично. Правило: предлог 'of' всегда следует за 'whom' (люди) или 'which' (предметы).",
+            incorrectFeedback: "Try again. Candidates are people. After a preposition ('of'), use 'whom' for people. 'Who' cannot follow 'of' — it is only used in subject position without a preceding preposition. 'Which' is for things. 'That' can never follow a preposition.",
+            incorrectFeedbackRu: "Попробуйте снова. Кандидаты — люди. После предлога ('of') используйте 'whom' для людей. 'Who' не может следовать за 'of' — оно используется только в позиции подлежащего без предшествующего предлога. 'Which' — для предметов. 'That' никогда не может следовать за предлогом."
+        },
+        {
+            question: "Complete the formal sentence using the correct 'each of' structure.",
+            questionRu: "Завершите формальное предложение, используя правильную структуру 'each of'.",
+            sentence: "The research team published four papers last year, each of ____ addressed a different aspect of climate adaptation.",
+            correctAnswer: "which",
+            options: ["which", "whom", "that", "them"],
+            correctFeedback: "Correct! 'Each of which' refers back to 'papers' — things. 'Of which' is for things, 'of whom' is for people. 'Each of them' would create a comma splice — two independent clauses incorrectly joined by a comma. 'Of that' is ungrammatical.",
+            correctFeedbackRu: "Правильно! 'Each of which' отсылает к 'papers' — предметам. 'Of which' — для предметов, 'of whom' — для людей. 'Each of them' создало бы запятой-сплайс — два независимых предложения, неверно соединённых запятой. 'Of that' — неграмматично.",
+            incorrectFeedback: "Try again. Papers are THINGS — use 'of which'. 'Of whom' is for people. 'Each of them' is a personal pronoun — using it after a comma creates a comma splice error. 'Of that' is ungrammatical in quantifier structures.",
+            incorrectFeedbackRu: "Попробуйте снова. Статьи — ПРЕДМЕТЫ — используйте 'of which'. 'Of whom' — для людей. 'Each of them' — личное местоимение — использование его после запятой создаёт ошибку запятой-сплайса. 'Of that' неграмматично в структурах с квантификаторами."
+        }
+    ]
+};
+
+/* ============================================
+PAGE 7 — That vs Which: Advanced Distinctions
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page7'] = {
+    title: "Advanced Defining Clauses – That vs Which (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Choose the correct relative pronoun. The clause is defining (no commas).",
+            questionRu: "Выберите правильное относительное местоимение. Придаточное ограничительное (без запятых).",
+            sentence: "The only measure ____ could realistically achieve the desired outcome within the given timeframe was rejected.",
+            correctAnswer: "that",
+            options: ["that", "which", "who", "whom"],
+            correctFeedback: "Correct! After 'the only', 'that' is strongly preferred in defining clauses. Both 'that' and 'which' are grammatically possible, but 'that' is the traditional and more natural choice after superlatives and 'the only'. 'Who'/'whom' are for people.",
+            correctFeedbackRu: "Правильно! После 'the only' 'that' настоятельно предпочтительнее в ограничительных придаточных. И 'that', и 'which' грамматически возможны, но 'that' — традиционный и более естественный выбор после превосходных степеней и 'the only'. 'Who'/'whom' — для людей.",
+            incorrectFeedback: "Try again. After 'the only', 'that' is the preferred relative pronoun for things in defining clauses. While 'which' is technically possible in British English, 'that' is the traditional, preferred choice in this context.",
+            incorrectFeedbackRu: "Попробуйте снова. После 'the only' 'that' является предпочтительным относительным местоимением для предметов в ограничительных придаточных. Хотя 'which' технически возможно в британском английском, 'that' — традиционный, предпочтительный выбор в этом контексте."
+        },
+        {
+            question: "Fill in the gap. The clause is non-defining (preceded by a comma).",
+            questionRu: "Заполните пропуск. Придаточное неограничительное (с запятой).",
+            sentence: "The merger was approved last Thursday, ____ came as a surprise to most industry analysts.",
+            correctAnswer: "which",
+            options: ["which", "that", "who", "what"],
+            correctFeedback: "Correct! 'Which' is required in non-defining clauses (preceded by a comma). Here, 'which' refers to the entire preceding clause — the merger being approved. 'That' can NEVER be used in non-defining clauses. This is an absolute grammatical rule.",
+            correctFeedbackRu: "Правильно! 'Which' обязательно в неограничительных придаточных (с запятой). Здесь 'which' отсылает ко всему предыдущему придаточному — к тому, что слияние было одобрено. 'That' НИКОГДА не может использоваться в неограничительных придаточных. Это абсолютное грамматическое правило.",
+            incorrectFeedback: "Try again. A comma before the relative clause signals a NON-DEFINING clause. In non-defining clauses, you MUST use 'which', never 'that'. This is an absolute rule — 'that' after a comma is always incorrect.",
+            incorrectFeedbackRu: "Попробуйте снова. Запятая перед придаточным сигнализирует о НЕОГРАНИЧИТЕЛЬНОМ придаточном. В неограничительных придаточных нужно использовать 'which', никогда не 'that'. Это абсолютное правило — 'that' после запятой всегда неверно."
+        },
+        {
+            question: "Select the correct pronoun. 'Which' refers back to an entire clause, not just one noun.",
+            questionRu: "Выберите правильное местоимение. 'Which' отсылает ко всему придаточному, а не только к одному существительному.",
+            sentence: "The prime minister announced her resignation unexpectedly, ____ threw the governing coalition into crisis.",
+            correctAnswer: "which",
+            options: ["which", "that", "this", "it"],
+            correctFeedback: "Correct! 'Which' after a comma can refer to the entire preceding clause — the prime minister's resignation is what threw the coalition into crisis. 'That' cannot perform this function. 'This' and 'it' are pronouns, not relative clause connectors.",
+            correctFeedbackRu: "Правильно! 'Which' после запятой может отсылать ко всему предыдущему придаточному — именно отставка премьер-министра ввергла коалицию в кризис. 'That' не может выполнять эту функцию. 'This' и 'it' — местоимения, а не союзы придаточных предложений.",
+            incorrectFeedback: "Try again. When a relative clause refers to an entire preceding idea (not just one noun), use 'which' with a comma — never 'that'. 'This' and 'it' cannot connect relative clauses. Only 'which' can comment on a whole preceding clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Когда придаточное предложение отсылает ко всей предыдущей идее (а не только к одному существительному), используйте 'which' с запятой — никогда не 'that'. 'This' и 'it' не могут соединять придаточные предложения. Только 'which' может комментировать всё предыдущее придаточное."
+        },
+        {
+            question: "Fill in the gap. Choose between 'that' and 'which' in a formal defining clause.",
+            questionRu: "Заполните пропуск. Выберите между 'that' и 'which' в формальном ограничительном придаточном.",
+            sentence: "The clause ____ was inserted at the last minute effectively nullifies the previous agreement.",
+            correctAnswer: "that",
+            options: ["that", "which", "who", "Ø (omitted)"],
+            correctFeedback: "Correct! Both 'that' and 'which' are grammatically correct in this defining clause. However, 'that' is the subject pronoun and cannot be omitted. In formal legal or contractual writing, 'which' is also widely used. 'Who' is for people.",
+            correctFeedbackRu: "Правильно! И 'that', и 'which' грамматически верны в этом ограничительном придаточном. Однако 'that' — подлежащное местоимение и не может быть опущено. В формальных юридических или договорных текстах 'which' тоже широко используется. 'Who' — для людей.",
+            incorrectFeedback: "Try again. The clause is a SUBJECT relative pronoun — it CANNOT be omitted. Both 'that' and 'which' are possible in defining clauses for things. 'That' is preferred in general English; 'which' is acceptable in British formal writing. 'Who' is only for people.",
+            incorrectFeedbackRu: "Попробуйте снова. Это ПОДЛЕЖАЩНОЕ относительное местоимение — его НЕЛЬЗЯ опустить. И 'that', и 'which' возможны в ограничительных придаточных для предметов. 'That' предпочтительнее в общем английском; 'which' допустимо в британском формальном письме. 'Who' только для людей."
+        },
+        {
+            question: "Complete the sentence. 'Whose' expresses possession — choose the correct possessive relative pronoun.",
+            questionRu: "Заполните предложение. 'Whose' выражает принадлежность — выберите правильное притяжательное относительное местоимение.",
+            sentence: "The report ____ conclusions contradicted the government's official position was quietly shelved.",
+            correctAnswer: "whose",
+            options: ["whose", "which", "that", "of that"],
+            correctFeedback: "Correct! 'Whose' is used for possession — the conclusions BELONG TO the report. 'Whose' can be used for both people and things in formal English. 'Which conclusions' is incorrect — 'which' is not possessive. The alternative 'the conclusions of which' is also acceptable but more complex.",
+            correctFeedbackRu: "Правильно! 'Whose' используется для принадлежности — выводы ПРИНАДЛЕЖАТ отчёту. 'Whose' может использоваться для людей и предметов в формальном английском. 'Which conclusions' неверно — 'which' не является притяжательным. Альтернатива 'the conclusions of which' тоже приемлема, но сложнее.",
+            incorrectFeedback: "Try again. You need a possessive relative pronoun — the conclusions belong to the report. Use 'whose' (possessive) for both people and things. 'Which' is not possessive. 'That' is not possessive either. 'Of that' is ungrammatical.",
+            incorrectFeedbackRu: "Попробуйте снова. Нужно притяжательное относительное местоимение — выводы принадлежат отчёту. Используйте 'whose' (притяжательное) для людей и предметов. 'Which' не притяжательное. 'That' тоже не притяжательное. 'Of that' неграмматично."
+        },
+        {
+            question: "Choose between 'that' and 'which'. Note the context: American English in a formal text.",
+            questionRu: "Выберите между 'that' и 'which'. Обратите внимание на контекст: американский английский в формальном тексте.",
+            sentence: "The legislation ____ was enacted in 2019 has since been amended on three separate occasions.",
+            correctAnswer: "that",
+            options: ["that", "which", "Ø (omitted)", "who"],
+            correctFeedback: "Correct! In American English, 'that' is strongly preferred over 'which' in defining relative clauses. In British English, both are acceptable. 'That' is the subject pronoun here and cannot be omitted. 'Who' is for people.",
+            correctFeedbackRu: "Правильно! В американском английском 'that' настоятельно предпочтительнее 'which' в ограничительных придаточных. В британском английском оба допустимы. 'That' — подлежащное местоимение здесь и не может быть опущено. 'Who' — для людей.",
+            incorrectFeedback: "Try again. In American English, 'that' is the strongly preferred pronoun in defining clauses. The pronoun is the SUBJECT of 'was enacted' — it cannot be omitted (zero is only possible for object pronouns). 'Who' is for people.",
+            incorrectFeedbackRu: "Попробуйте снова. В американском английском 'that' — настоятельно предпочтительное местоимение в ограничительных придаточных. Местоимение является ПОДЛЕЖАЩИМ при 'was enacted' — оно не может быть опущено (нуль возможен только для объектных местоимений). 'Who' — для людей."
+        },
+        {
+            question: "Fill in the gap. Choose the correct relative pronoun to complete the formal possessive structure.",
+            questionRu: "Заполните пропуск. Выберите правильное относительное местоимение для завершения формальной притяжательной структуры.",
+            sentence: "The court referred the matter to a mediator, the ____ of which had been agreed by both parties.",
+            correctAnswer: "appointment",
+            options: ["appointment", "appointed", "appointing", "appoint"],
+            correctFeedback: "Correct! The structure 'the + noun + of which' is a formal alternative to 'whose'. Here, 'the appointment of which' = 'whose appointment'. The noun 'appointment' correctly fills the gap. 'Appointed', 'appointing', and 'appoint' are all verb forms and cannot fill this noun position.",
+            correctFeedbackRu: "Правильно! Структура 'the + существительное + of which' — формальная альтернатива 'whose'. Здесь 'the appointment of which' = 'whose appointment'. Существительное 'appointment' правильно заполняет пропуск. 'Appointed', 'appointing' и 'appoint' — все формы глагола и не могут занять эту позицию существительного.",
+            incorrectFeedback: "Try again. The structure 'the ___ of which' requires a NOUN. 'Appointment' is the correct noun form. 'Appointed' is a past participle (verb/adjective), 'appointing' is a present participle (verb), and 'appoint' is the bare infinitive — none can fill a noun position.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура 'the ___ of which' требует СУЩЕСТВИТЕЛЬНОЕ. 'Appointment' — правильная форма существительного. 'Appointed' — причастие прошедшего времени (глагол/прилагательное), 'appointing' — причастие настоящего времени (глагол), 'appoint' — голый инфинитив — ни одно не может занять позицию существительного."
+        },
+        {
+            question: "Complete the sentence. Choose whether 'that' or 'which' is correct after this specific noun.",
+            questionRu: "Заполните предложение. Определите, 'that' или 'which' верно после данного конкретного существительного.",
+            sentence: "Everything ____ has been said in this room tonight must be treated as strictly confidential.",
+            correctAnswer: "that",
+            options: ["that", "which", "Ø (omitted)", "what"],
+            correctFeedback: "Correct! After 'everything', 'something', 'anything', 'nothing', 'all', the relative pronoun 'that' is strongly preferred over 'which'. These indefinite words traditionally take 'that'. The pronoun is a SUBJECT here, so it cannot be omitted.",
+            correctFeedbackRu: "Правильно! После 'everything', 'something', 'anything', 'nothing', 'all' относительное местоимение 'that' настоятельно предпочтительнее 'which'. Эти неопределённые слова традиционно используются с 'that'. Местоимение является ПОДЛЕЖАЩИМ здесь, поэтому его нельзя опустить.",
+            incorrectFeedback: "Try again. After indefinite pronouns like 'everything', 'something', 'anything', 'nothing', use 'that', not 'which'. The pronoun is a subject — it cannot be omitted. 'What' would change the meaning entirely ('Everything what' is ungrammatical).",
+            incorrectFeedbackRu: "Попробуйте снова. После неопределённых местоимений, таких как 'everything', 'something', 'anything', 'nothing', используйте 'that', а не 'which'. Местоимение является подлежащим — его нельзя опустить. 'What' полностью изменило бы смысл ('Everything what' неграмматично)."
+        },
+        {
+            question: "Fill in the gap. The 'which' here refers to the entire preceding main clause.",
+            questionRu: "Заполните пропуск. 'Which' здесь отсылает ко всему предыдущему главному предложению.",
+            sentence: "The bank refused to extend the line of credit, ____ forced the company to seek alternative financing.",
+            correctAnswer: "which",
+            options: ["which", "that", "this", "what"],
+            correctFeedback: "Correct! 'Which' after a comma refers to the entire preceding event (the bank's refusal). This 'supplementary which' clause comments on the whole main clause. 'That' cannot be used after a comma and cannot refer to a whole clause.",
+            correctFeedbackRu: "Правильно! 'Which' после запятой отсылает ко всему предыдущему событию (отказу банка). Это 'дополнительное придаточное с which' комментирует всё главное предложение. 'That' нельзя использовать после запятой и оно не может отсылать ко всему придаточному.",
+            incorrectFeedback: "Try again. After a comma, use 'which' — never 'that'. Here, 'which' refers to the bank's refusal (the entire preceding event). 'This' and 'what' cannot function as relative clause connectors after a comma. 'That' after a comma is always wrong.",
+            incorrectFeedbackRu: "Попробуйте снова. После запятой используйте 'which' — никогда не 'that'. Здесь 'which' отсылает к отказу банка (всему предыдущему событию). 'This' и 'what' не могут функционировать как союзы придаточных предложений после запятой. 'That' после запятой всегда неверно."
+        },
+        {
+            question: "Choose the correct relative pronoun. The sentence uses 'first' to introduce an ordinal.",
+            questionRu: "Выберите правильное относительное местоимение. В предложении используется 'first' для введения порядкового числа.",
+            sentence: "This was the first major international treaty ____ addressed the regulation of artificial intelligence.",
+            correctAnswer: "that",
+            options: ["that", "which", "to address", "addressing"],
+            correctFeedback: "Correct! After ordinals ('first', 'second', 'last') and superlatives, 'that' is the strongly preferred relative pronoun for defining clauses. While 'which' is not incorrect in British English, 'that' is the traditional, preferred choice in this context.",
+            correctFeedbackRu: "Правильно! После порядковых числительных ('first', 'second', 'last') и превосходных степеней 'that' — настоятельно предпочтительное относительное местоимение в ограничительных придаточных. Хотя 'which' не неверно в британском английском, 'that' — традиционный, предпочтительный выбор в этом контексте.",
+            incorrectFeedback: "Try again. After 'the first', 'the last', or any superlative, 'that' is the preferred relative pronoun. The pronoun is the SUBJECT of 'addressed' — so it cannot be omitted and cannot be replaced by a participle without changing the structure.",
+            incorrectFeedbackRu: "Попробуйте снова. После 'the first', 'the last' или любой превосходной степени 'that' — предпочтительное относительное местоимение. Местоимение является ПОДЛЕЖАЩИМ при 'addressed' — поэтому его нельзя опустить и нельзя заменить причастием без изменения структуры."
+        }
+    ]
+};
+
+/* ============================================
+PAGE 8 — Infinitive Relative Clauses
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page8'] = {
+    title: "Advanced Defining Clauses – Infinitive Relative Clauses (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Complete the sentence using the correct infinitive relative clause form.",
+            questionRu: "Заполните предложение правильной формой придаточного с инфинитивом.",
+            sentence: "She was the last delegate ____ the floor before the session was adjourned.",
+            correctAnswer: "to take",
+            options: ["to take", "taking", "who took", "taken"],
+            correctFeedback: "Correct! After ordinals like 'last', 'first', 'second', an infinitive clause ('to + verb') is the most natural defining modifier. 'The last to take the floor' means the last person who would/could take the floor. 'Taking' (ongoing), 'who took' (full clause), and 'taken' (passive) all give different meanings.",
+            correctFeedbackRu: "Правильно! После порядковых числительных, таких как 'last', 'first', 'second', придаточное с инфинитивом ('to + глагол') — наиболее естественное ограничительное определение. 'The last to take the floor' означает последнего человека, который мог/должен был взять слово. 'Taking' (продолжающееся), 'who took' (полное придаточное) и 'taken' (пассивное) дают разные смыслы.",
+            incorrectFeedback: "Try again. After ordinals ('last', 'first'), the infinitive 'to + verb' is the natural choice in formal English. 'Taking' suggests an ongoing action. 'Who took' is a full relative clause, not reduced. 'Taken' is a passive past participle with a completely different meaning.",
+            incorrectFeedbackRu: "Попробуйте снова. После порядковых числительных ('last', 'first') инфинитив 'to + глагол' — естественный выбор в формальном английском. 'Taking' предполагает продолжающееся действие. 'Who took' — полное придаточное, не сокращённое. 'Taken' — пассивное причастие прошедшего времени с совершенно другим смыслом."
+        },
+        {
+            question: "Choose the correct passive infinitive to complete the formal sentence.",
+            questionRu: "Выберите правильный пассивный инфинитив для завершения формального предложения.",
+            sentence: "All assets ____ during the liquidation process will be distributed equally among the creditors.",
+            correctAnswer: "to be sold",
+            options: ["to be sold", "to sell", "selling", "sold"],
+            correctFeedback: "Correct! 'To be sold' is a passive infinitive ('to be + past participle'). It means 'that will be/are to be sold'. The assets will receive the action of being sold. 'To sell' (active) would imply the assets are selling something. 'Selling' is -ing, 'sold' is past participle without 'to'.",
+            correctFeedbackRu: "Правильно! 'To be sold' — пассивный инфинитив ('to be + причастие прошедшего времени'). Это означает 'that will be/are to be sold'. Активы получат действие продажи. 'To sell' (активное) подразумевало бы, что активы что-то продают. 'Selling' — форма -ing, 'sold' — причастие прошедшего времени без 'to'.",
+            incorrectFeedback: "Try again. The assets will be sold (passive). Use the passive infinitive: 'to be + past participle'. 'To sell' is active — assets cannot sell themselves. 'Selling' is an -ing form and changes the meaning. 'Sold' alone (without 'to') cannot form an infinitive clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Активы будут проданы (пассивное). Используйте пассивный инфинитив: 'to be + причастие прошедшего времени'. 'To sell' — активное — активы не могут продавать сами себя. 'Selling' — форма -ing и меняет смысл. 'Sold' в одиночку (без 'to') не может образовать придаточное с инфинитивом."
+        },
+        {
+            question: "Fill in the gap. The infinitive expresses purpose or intended function.",
+            questionRu: "Заполните пропуск. Инфинитив выражает цель или предназначенную функцию.",
+            sentence: "They established a special tribunal ____ cases involving allegations of corporate misconduct.",
+            correctAnswer: "to handle",
+            options: ["to handle", "handling", "that handles", "handled"],
+            correctFeedback: "Correct! 'To handle' is an active infinitive expressing the PURPOSE or FUNCTION of the tribunal — what it is designed to do. This infinitive clause defines which tribunal is meant. 'Handling' (ongoing -ing) and 'that handles' (full clause) are also grammatically possible, but the infinitive most naturally expresses intended design.",
+            correctFeedbackRu: "Правильно! 'To handle' — активный инфинитив, выражающий ЦЕЛЬ или ФУНКЦИЮ трибунала — что он предназначен делать. Это придаточное с инфинитивом определяет, о каком трибунале идёт речь. 'Handling' (продолжающееся -ing) и 'that handles' (полное придаточное) тоже грамматически возможны, но инфинитив наиболее естественно выражает предназначение.",
+            incorrectFeedback: "Try again. The infinitive 'to handle' expresses the purpose or design of the tribunal. 'Handling' suggests an ongoing action rather than a designed purpose. 'That handles' is a full relative clause, not a reduced infinitive clause. 'Handled' is a past passive participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Инфинитив 'to handle' выражает цель или предназначение трибунала. 'Handling' предполагает продолжающееся действие, а не запроектированную цель. 'That handles' — полное придаточное предложение, не сокращённое придаточное с инфинитивом. 'Handled' — прошедшее пассивное причастие."
+        },
+        {
+            question: "Choose the correct reduced relative clause form. The sentence describes a defining characteristic.",
+            questionRu: "Выберите правильную форму сокращённого придаточного. Предложение описывает определяющую характеристику.",
+            sentence: "All contractors ____ more than fifty thousand pounds per annum must register for VAT.",
+            correctAnswer: "earning",
+            options: ["earning", "to earn", "who earn", "earned"],
+            correctFeedback: "Correct! 'Earning' (-ing participle) reduces 'who earn' — an active defining characteristic. The contractors earn over that threshold as a regular fact. 'To earn' would imply a future purpose. 'Who earn' is a full unreduced clause. 'Earned' is a passive past participle.",
+            correctFeedbackRu: "Правильно! 'Earning' (причастие -ing) сокращает 'who earn' — активная определяющая характеристика. Подрядчики регулярно зарабатывают выше этого порога. 'To earn' подразумевало бы будущую цель. 'Who earn' — полное несокращённое придаточное. 'Earned' — пассивное причастие прошедшего времени.",
+            incorrectFeedback: "Try again. Use the -ing participle to reduce the active defining clause 'who earn'. 'To earn' expresses future purpose, not a habitual fact. 'Earned' is passive — contractors cannot be 'earned'. 'Who earn' is a full clause, not reduced.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте причастие -ing для сокращения активного ограничительного придаточного 'who earn'. 'To earn' выражает будущую цель, а не регулярный факт. 'Earned' — пассивное — подрядчики не могут быть 'заработаны'. 'Who earn' — полное придаточное, не сокращённое."
+        },
+        {
+            question: "Fill in the gap with the correct perfect infinitive form.",
+            questionRu: "Заполните пропуск правильной формой перфектного инфинитива.",
+            sentence: "He was the only witness ____ the entire sequence of events from beginning to end.",
+            correctAnswer: "to have observed",
+            options: ["to have observed", "to observe", "observing", "who observed"],
+            correctFeedback: "Correct! 'To have observed' is the perfect infinitive, indicating that the observation was COMPLETED before the present moment of reference. It emphasises that this specific action happened and was finished. 'To observe' (simple infinitive) would imply a future or potential observation.",
+            correctFeedbackRu: "Правильно! 'To have observed' — перфектный инфинитив, указывающий, что наблюдение было ЗАВЕРШЕНО до настоящего момента. Он подчёркивает, что это конкретное действие произошло и было завершено. 'To observe' (простой инфинитив) подразумевало бы будущее или потенциальное наблюдение.",
+            incorrectFeedback: "Try again. The perfect infinitive 'to have + past participle' is used when the action was completed before the reference point. 'To observe' (simple infinitive) implies future or potential. 'Observing' is -ing (ongoing). 'Who observed' is a full unreduced clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Перфектный инфинитив 'to have + причастие прошедшего времени' используется, когда действие завершено до точки отсчёта. 'To observe' (простой инфинитив) подразумевает будущее или потенциальное. 'Observing' — форма -ing (продолжающееся). 'Who observed' — полное несокращённое придаточное."
+        },
+        {
+            question: "Choose the correct form. The infinitive expresses future or scheduled action.",
+            questionRu: "Выберите правильную форму. Инфинитив выражает будущее или запланированное действие.",
+            sentence: "The next speaker ____ is the professor of international law from the University of Edinburgh.",
+            correctAnswer: "to address the conference",
+            options: ["to address the conference", "addressing the conference", "who addresses the conference", "addressed the conference"],
+            correctFeedback: "Correct! 'To address the conference' uses the infinitive to express a FUTURE or SCHEDULED action — the speaker will address the conference. In contrast, 'addressing the conference' would mean the speaker is doing so RIGHT NOW. The infinitive signals what is to come.",
+            correctFeedbackRu: "Правильно! 'To address the conference' использует инфинитив для выражения БУДУЩЕГО или ЗАПЛАНИРОВАННОГО действия — докладчик обратится к конференции. В отличие от этого, 'addressing the conference' означало бы, что докладчик делает это ПРЯМО СЕЙЧАС. Инфинитив сигнализирует о предстоящем.",
+            incorrectFeedback: "Try again. The infinitive ('to + verb') after a noun signals a FUTURE or SCHEDULED action. 'Addressing' (-ing) would mean the speaker is speaking now. 'Who addresses' is a full unreduced clause. 'Addressed the conference' is past tense — the opposite of what is meant.",
+            incorrectFeedbackRu: "Попробуйте снова. Инфинитив ('to + глагол') после существительного сигнализирует о БУДУЩЕМ или ЗАПЛАНИРОВАННОМ действии. 'Addressing' (-ing) означало бы, что докладчик говорит сейчас. 'Who addresses' — полное несокращённое придаточное. 'Addressed the conference' — прошедшее время — противоположное тому, что имеется в виду."
+        },
+        {
+            question: "Fill in the gap. Choose the correct infinitive form in a formal official context.",
+            questionRu: "Заполните пропуск. Выберите правильную форму инфинитива в формальном официальном контексте.",
+            sentence: "Staff members ____ in the redundancy programme will receive a full briefing from HR next Monday.",
+            correctAnswer: "to be included",
+            options: ["to be included", "to include", "including", "included"],
+            correctFeedback: "Correct! 'To be included' is a passive infinitive — the staff members will be INCLUDED by someone (the company). This formal structure is common in official communications. 'To include' (active) would mean the staff members are including something — incorrect. 'Including' is an -ing form. 'Included' alone lacks 'to'.",
+            correctFeedbackRu: "Правильно! 'To be included' — пассивный инфинитив — сотрудников кто-то ВКЛЮЧИТ (компания). Эта формальная структура распространена в официальных коммуникациях. 'To include' (активное) означало бы, что сотрудники что-то включают — неверно. 'Including' — форма -ing. 'Included' в одиночку не имеет 'to'.",
+            incorrectFeedback: "Try again. The staff members will be included (passive). Use the passive infinitive: 'to be + past participle'. 'To include' is active — staff members cannot include themselves in this context. 'Including' changes the meaning to an active ongoing participle. 'Included' without 'to' cannot form an infinitive clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Сотрудников включат (пассивное). Используйте пассивный инфинитив: 'to be + причастие прошедшего времени'. 'To include' — активное — сотрудники не могут включать себя в этом контексте. 'Including' меняет смысл на активное продолжающееся причастие. 'Included' без 'to' не может образовать придаточное с инфинитивом."
+        },
+        {
+            question: "Select the correct option. Compare the meaning of the infinitive vs the -ing form.",
+            questionRu: "Выберите правильный вариант. Сравните смысл инфинитива и формы -ing.",
+            sentence: "The candidate ____ the leadership position must have a minimum of ten years' senior management experience.",
+            correctAnswer: "seeking",
+            options: ["seeking", "to seek", "sought", "who seeks"],
+            correctFeedback: "Correct! 'Seeking' (-ing) describes candidates who are CURRENTLY actively looking for the position — an ongoing, habitual characteristic. 'To seek' (infinitive) would imply a future, potential, or purposeful action. The distinction matters: 'seeking' = currently looking; 'to seek' = who will seek or who is in a position to seek.",
+            correctFeedbackRu: "Правильно! 'Seeking' (-ing) описывает кандидатов, которые СЕЙЧАС активно ищут должность — продолжающаяся, регулярная характеристика. 'To seek' (инфинитив) подразумевало бы будущее, потенциальное или целенаправленное действие. Различие важно: 'seeking' = ищут сейчас; 'to seek' = кто будет искать или кто в положении поиска.",
+            incorrectFeedback: "Try again. 'Seeking' (-ing) describes an active, current search — the candidate IS seeking the position now. 'To seek' (infinitive) would imply a future or potential action. 'Sought' is passive past participle. 'Who seeks' is a full unreduced clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Seeking' (-ing) описывает активный, текущий поиск — кандидат ищет должность сейчас. 'To seek' (инфинитив) подразумевало бы будущее или потенциальное действие. 'Sought' — пассивное причастие прошедшего времени. 'Who seeks' — полное несокращённое придаточное."
+        },
+        {
+            question: "Fill in the gap. The infinitive clause follows a superlative adjective.",
+            questionRu: "Заполните пропуск. Придаточное с инфинитивом следует за прилагательным в превосходной степени.",
+            sentence: "The most effective strategy ____ the skills gap in the tech sector involves a combination of apprenticeships and online certification.",
+            correctAnswer: "to address",
+            options: ["to address", "addressing", "that addresses", "addressed"],
+            correctFeedback: "Correct! 'To address' after a superlative ('most effective') is a natural infinitive relative clause expressing what the strategy is DESIGNED OR INTENDED to do. After superlatives and 'the only', infinitive clauses are very common in formal English.",
+            correctFeedbackRu: "Правильно! 'To address' после превосходной степени ('most effective') — естественное придаточное с инфинитивом, выражающее то, для чего стратегия РАЗРАБОТАНА или ПРЕДНАЗНАЧЕНА. После превосходных степеней и 'the only' придаточные с инфинитивом очень распространены в формальном английском.",
+            incorrectFeedback: "Try again. After superlatives like 'most effective', an infinitive clause is the most natural choice. 'Addressing' (-ing) would describe a current ongoing action. 'That addresses' is a full unreduced clause. 'Addressed' is passive past participle — incorrect here.",
+            incorrectFeedbackRu: "Попробуйте снова. После превосходных степеней, таких как 'most effective', придаточное с инфинитивом — наиболее естественный выбор. 'Addressing' (-ing) описывало бы текущее продолжающееся действие. 'That addresses' — полное несокращённое придаточное. 'Addressed' — пассивное причастие прошедшего времени — неверно здесь."
+        },
+        {
+            question: "Complete the sentence. Choose between the active and passive infinitive.",
+            questionRu: "Заполните предложение. Выберите между активным и пассивным инфинитивом.",
+            sentence: "The ethical issues ____ in the final report were deemed too sensitive for public disclosure.",
+            correctAnswer: "to be raised",
+            options: ["to be raised", "to raise", "raising", "raised"],
+            correctFeedback: "Correct! 'To be raised' is a passive infinitive — the issues will be raised BY someone in the report. 'To raise' (active) would imply the issues themselves are raising something — logically odd. The passive infinitive correctly indicates that someone will raise these issues in the report.",
+            correctFeedbackRu: "Правильно! 'To be raised' — пассивный инфинитив — вопросы будут подняты КЕМ-ТО в отчёте. 'To raise' (активное) подразумевало бы, что вопросы сами что-то поднимают — логически странно. Пассивный инфинитив правильно указывает, что кто-то поднимет эти вопросы в отчёте.",
+            incorrectFeedback: "Try again. The issues will be raised (passive). Use the passive infinitive: 'to be + past participle'. 'To raise' is active — these issues are not raising anything themselves. 'Raising' is -ing and suggests current action. 'Raised' alone (without 'to') cannot form an infinitive clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Вопросы будут подняты (пассивное). Используйте пассивный инфинитив: 'to be + причастие прошедшего времени'. 'To raise' — активное — эти вопросы сами ничего не поднимают. 'Raising' — форма -ing и предполагает текущее действие. 'Raised' в одиночку (без 'to') не может образовать придаточное с инфинитивом."
+        }
+    ]
+};
+
+/* ============================================
+PAGE 9 — Mixed Advanced Structures
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page9'] = {
+    title: "Advanced Defining Clauses – Mixed Advanced Structures (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Complete the sentence. The gap requires a passive -ed reduced clause.",
+            questionRu: "Заполните пропуск. Требуется сокращённое пассивное придаточное на -ed.",
+            sentence: "The portfolios ____ by independent consultants showed a wide range of creative approaches to the brief.",
+            correctAnswer: "submitted",
+            options: ["submitted", "submitting", "to submit", "that submit"],
+            correctFeedback: "Correct! 'Submitted' reduces 'that were submitted' — a passive clause. The portfolios were submitted BY the consultants (passive). 'Submitting' would be active, meaning the portfolios submitted something, which is illogical.",
+            correctFeedbackRu: "Правильно! 'Submitted' сокращает 'that were submitted' — пассивное придаточное. Портфолио были поданы консультантами (пассивное). 'Submitting' было бы активным, то есть портфолио сами что-то подавали, что нелогично.",
+            incorrectFeedback: "Try again. The portfolios were submitted (passive — the consultants did the submitting). Use the past participle to reduce the passive clause. 'Submitting' is active (-ing). 'To submit' is an infinitive. 'That submit' is an active finite clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Портфолио были поданы (пассивное — консультанты подавали). Используйте причастие прошедшего времени для сокращения пассивного придаточного. 'Submitting' — активное (-ing). 'To submit' — инфинитив. 'That submit' — активное финитное придаточное."
+        },
+        {
+            question: "Fill in the gap. The sentence combines a contact clause with a quantifier structure.",
+            questionRu: "Заполните пропуск. Предложение объединяет контактное придаточное и структуру с квантификатором.",
+            sentence: "The reforms the cabinet approved last session, several of ____ have already faced legal challenges, are now under review.",
+            correctAnswer: "which",
+            options: ["which", "whom", "that", "them"],
+            correctFeedback: "Correct! 'Several of which' refers back to 'reforms' — things. 'Of which' is required for things in quantifier structures. 'Of whom' is for people, 'of that' is ungrammatical, and 'of them' would create a comma splice error.",
+            correctFeedbackRu: "Правильно! 'Several of which' отсылает к 'reforms' — предметам. 'Of which' обязательно для предметов в структурах с квантификатором. 'Of whom' — для людей, 'of that' — неграмматично, 'of them' создало бы ошибку запятой-сплайса.",
+            incorrectFeedback: "Try again. Reforms are THINGS — use 'of which'. 'Of whom' is only for people. 'Of that' is ungrammatical in relative clauses. 'Of them' is a personal pronoun — it would turn the relative clause into an independent clause, creating a comma splice.",
+            incorrectFeedbackRu: "Попробуйте снова. Реформы — ПРЕДМЕТЫ — используйте 'of which'. 'Of whom' только для людей. 'Of that' неграмматично в придаточных предложениях. 'Of them' — личное местоимение — оно превратило бы придаточное в независимое предложение, создав запятой-сплайс."
+        },
+        {
+            question: "Complete the sentence. A cleft structure emphasises a specific element.",
+            questionRu: "Заполните пропуск. Расщеплённая структура акцентирует конкретный элемент.",
+            sentence: "It was the mechanism ____ which the fraud was perpetrated that investigators found most ingenious.",
+            correctAnswer: "by",
+            options: ["by", "with", "through", "for"],
+            correctFeedback: "Correct! 'By which' is the correct formal structure — the preposition 'by' describes HOW the fraud was carried out (perpetrated by a mechanism). This entire noun phrase 'the mechanism by which...' is then emphasised in the cleft sentence.",
+            correctFeedbackRu: "Правильно! 'By which' — правильная формальная структура — предлог 'by' описывает КАК было совершено мошенничество (осуществлено посредством механизма). Вся эта именная группа 'the mechanism by which...' затем акцентируется в расщеплённом предложении.",
+            incorrectFeedback: "Try again. The fraud was 'perpetrated BY' a mechanism — the preposition is 'by'. In formal English, the preposition moves before 'which': 'by which'. 'With' and 'through' change the meaning. 'For' is not used with 'perpetrate'.",
+            incorrectFeedbackRu: "Попробуйте снова. Мошенничество было 'совершено ПОСРЕДСТВОМ' механизма — предлог 'by'. В формальном английском предлог перемещается перед 'which': 'by which'. 'With' и 'through' меняют смысл. 'For' не используется с 'perpetrate'."
+        },
+        {
+            question: "Fill in the gap with the correct formal possessive structure.",
+            questionRu: "Заполните пропуск правильной формальной притяжательной структурой.",
+            sentence: "The institute published a study, the ____ of which has since been widely questioned by the scientific community.",
+            correctAnswer: "methodology",
+            options: ["methodology", "methodological", "methodologically", "methodologise"],
+            correctFeedback: "Correct! The structure 'the + noun + of which' = 'whose + noun'. 'The methodology of which' = 'whose methodology'. A noun is required in this position. 'Methodological' is an adjective, 'methodologically' is an adverb — neither can fill a noun slot.",
+            correctFeedbackRu: "Правильно! Структура 'the + существительное + of which' = 'whose + существительное'. 'The methodology of which' = 'whose methodology'. В этой позиции требуется существительное. 'Methodological' — прилагательное, 'methodologically' — наречие — ни одно не может занять позицию существительного.",
+            incorrectFeedback: "Try again. The structure 'the ___ of which' requires a NOUN. 'Methodology' is the correct noun. 'Methodological' is an adjective, 'methodologically' is an adverb, and 'methodologise' is not a standard word — none are nouns.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура 'the ___ of which' требует СУЩЕСТВИТЕЛЬНОЕ. 'Methodology' — правильное существительное. 'Methodological' — прилагательное, 'methodologically' — наречие, 'methodologise' — нестандартное слово — ни одно не является существительным."
+        },
+        {
+            question: "Choose the correct option. The sentence mixes a defining and a non-defining clause.",
+            questionRu: "Выберите правильный вариант. Предложение сочетает ограничительное и неограничительное придаточное.",
+            sentence: "The regulations ____ were introduced to combat money laundering are being enforced more strictly.",
+            correctAnswer: "that",
+            options: ["that", "which,", ", which", ", that"],
+            correctFeedback: "Correct! 'That' is used in a DEFINING clause (no commas). The clause restricts which regulations are being discussed — specifically, those introduced to combat money laundering, not all regulations. 'Which' with a comma would be non-defining, implying all regulations were introduced for this purpose.",
+            correctFeedbackRu: "Правильно! 'That' используется в ОГРАНИЧИТЕЛЬНОМ придаточном (без запятых). Придаточное уточняет, какие именно регулирования обсуждаются — конкретно те, которые были введены для борьбы с отмыванием денег, а не все регулирования. 'Which' с запятой было бы неограничительным, подразумевая, что все регулирования были введены с этой целью.",
+            incorrectFeedback: "Try again. Without commas, this is a DEFINING clause — use 'that'. The clause restricts 'regulations' to a specific subset. ', which' (with a comma) would make it non-defining, implying all regulations were introduced for this purpose. ', that' is always wrong — 'that' cannot follow a comma.",
+            incorrectFeedbackRu: "Попробуйте снова. Без запятых это ОГРАНИЧИТЕЛЬНОЕ придаточное — используйте 'that'. Придаточное сужает 'regulations' до конкретного подмножества. ', which' (с запятой) сделало бы его неограничительным, подразумевая, что все регулирования были введены с этой целью. ', that' всегда неверно — 'that' не может следовать за запятой."
+        },
+        {
+            question: "Complete the sentence with the correct relative pronoun. The clause refers to an entire preceding idea.",
+            questionRu: "Заполните пропуск правильным относительным местоимением. Придаточное отсылает ко всей предыдущей идее.",
+            sentence: "The negotiators reached a compromise on the final day, ____ came as a relief to all parties involved.",
+            correctAnswer: "which",
+            options: ["which", "that", "this", "what"],
+            correctFeedback: "Correct! 'Which' after a comma refers to the entire preceding event — the fact that a compromise was reached. This clause-referencing use of 'which' is only possible with 'which', never with 'that'. 'That' cannot follow a comma.",
+            correctFeedbackRu: "Правильно! 'Which' после запятой отсылает ко всему предыдущему событию — к тому факту, что компромисс был достигнут. Это использование 'which' для ссылки на придаточное возможно только с 'which', никогда с 'that'. 'That' не может следовать за запятой.",
+            incorrectFeedback: "Try again. After a comma, only 'which' can refer to an entire preceding clause or event. 'That' cannot follow a comma — this is an absolute rule. 'This' and 'what' cannot function as relative clause connectors after a comma.",
+            incorrectFeedbackRu: "Попробуйте снова. После запятой только 'which' может отсылать ко всему предыдущему придаточному или событию. 'That' не может следовать за запятой — это абсолютное правило. 'This' и 'what' не могут функционировать как союзы придаточных предложений после запятой."
+        },
+        {
+            question: "Fill in the gap. An active -ing reduced clause is required.",
+            questionRu: "Заполните пропуск. Требуется активное сокращённое придаточное на -ing.",
+            sentence: "Experts ____ the data identified several anomalies that had not been reported in the preliminary findings.",
+            correctAnswer: "analysing",
+            options: ["analysing", "analysed", "to analyse", "who analysed"],
+            correctFeedback: "Correct! 'Analysing' reduces 'who are analysing / who were analysing' — an active -ing participle. The experts are performing the action. 'Analysed' would be passive (the experts were analysed by someone). 'Who analysed' is a full unreduced clause.",
+            correctFeedbackRu: "Правильно! 'Analysing' сокращает 'who are analysing / who were analysing' — активное причастие -ing. Эксперты выполняют действие. 'Analysed' было бы пассивным (эксперты кем-то анализировались). 'Who analysed' — полное несокращённое придаточное.",
+            incorrectFeedback: "Try again. The experts are actively doing the analysing. Use the -ing active participle. 'Analysed' is passive — it would mean the experts received the action of being analysed. 'To analyse' implies purpose or future intent. 'Who analysed' is a full clause, not reduced.",
+            incorrectFeedbackRu: "Попробуйте снова. Эксперты активно производят анализ. Используйте активное причастие -ing. 'Analysed' — пассивное — это означало бы, что эксперты получили действие анализа. 'To analyse' подразумевает цель или будущее намерение. 'Who analysed' — полное придаточное, не сокращённое."
+        },
+        {
+            question: "Select the correct option to complete this formal sentence combining two advanced structures.",
+            questionRu: "Выберите правильный вариант для завершения этого формального предложения, объединяющего две продвинутые структуры.",
+            sentence: "The variables ____ the outcome, the most significant of which was sample size, were carefully controlled throughout the experiment.",
+            correctAnswer: "contributing to",
+            options: ["contributing to", "contributed to", "to contribute to", "that contribute to"],
+            correctFeedback: "Correct! 'Contributing to' is an active -ing reduced clause — the variables contribute to the outcome (active). The sentence then uses 'the most significant of which' — a quantifier + 'of which' structure. 'Contributed to' would be passive (-ed participle).",
+            correctFeedbackRu: "Правильно! 'Contributing to' — активное сокращённое придаточное на -ing — переменные вносят вклад в результат (активное). Затем предложение использует 'the most significant of which' — структуру квантификатор + 'of which'. 'Contributed to' было бы пассивным (причастие -ed).",
+            incorrectFeedback: "Try again. The variables ARE contributing (active) — use the -ing active participle. 'Contributed to' is a past participle (passive would mean variables were contributed to by something). 'That contribute to' is a full clause, not reduced. 'To contribute to' is an infinitive (purpose).",
+            incorrectFeedbackRu: "Попробуйте снова. Переменные ВНОСЯТ ВКЛАД (активное) — используйте активное причастие -ing. 'Contributed to' — причастие прошедшего времени (пассивное означало бы, что переменные получили чей-то вклад). 'That contribute to' — полное придаточное, не сокращённое. 'To contribute to' — инфинитив (цель)."
+        },
+        {
+            question: "Fill in the gap. Choose the correct perfect participle form.",
+            questionRu: "Заполните пропуск. Выберите правильную форму перфектного причастия.",
+            sentence: "Any delegate ____ a formal objection by the deadline will be given an opportunity to address the committee.",
+            correctAnswer: "having submitted",
+            options: ["having submitted", "having been submitted", "submitting", "who submitted"],
+            correctFeedback: "Correct! 'Having submitted' is a perfect active participle — it refers to delegates who will have COMPLETED the action of submitting before the deadline. This is more specific than 'submitting' (ongoing). 'Having been submitted' is passive — the delegate cannot be submitted.",
+            correctFeedbackRu: "Правильно! 'Having submitted' — перфектное активное причастие — оно относится к делегатам, которые ЗАВЕРШАТ действие подачи до дедлайна. Это более конкретно, чем 'submitting' (продолжающееся). 'Having been submitted' — пассивное — делегат не может быть подан.",
+            incorrectFeedback: "Try again. 'Having + past participle' (perfect active participle) refers to a completed prior action. The delegate submits the objection — it is active. 'Having been submitted' is passive (the delegate is submitted — illogical). 'Submitting' is ongoing. 'Who submitted' is a full clause.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Having + причастие прошедшего времени' (перфектное активное причастие) относится к завершённому предшествующему действию. Делегат подаёт возражение — это активное. 'Having been submitted' — пассивное (делегат подан — нелогично). 'Submitting' — продолжающееся. 'Who submitted' — полное придаточное."
+        },
+        {
+            question: "Complete the sentence. Choose the correct option to combine a contact clause with an infinitive clause.",
+            questionRu: "Заполните пропуск. Выберите правильный вариант для объединения контактного придаточного и придаточного с инфинитивом.",
+            sentence: "The strategy they settled on proved effective, but it was the long-term approach ____ ultimately proved most sustainable.",
+            correctAnswer: "that",
+            options: ["that", "which", "what", "Ø (omitted)"],
+            correctFeedback: "Correct! 'It was... that...' is a cleft sentence. In a cleft, 'that' is the standard connector — not 'which'. 'What' is used in pseudo-clefts (What... was...), not in It-clefts. The pronoun cannot be omitted in a cleft sentence.",
+            correctFeedbackRu: "Правильно! 'It was... that...' — расщеплённое предложение. В расщеплённом 'that' — стандартный союз, а не 'which'. 'What' используется в псевдо-расщеплённых (What... was...), а не в It-расщеплённых. Местоимение нельзя опустить в расщеплённом предложении.",
+            incorrectFeedback: "Try again. In an It-cleft sentence (It was + X + ___), the connector is 'that'. 'Which' is less natural in cleft sentences and is generally avoided. 'What' belongs in pseudo-clefts. The connector in a cleft sentence cannot be omitted.",
+            incorrectFeedbackRu: "Попробуйте снова. В расщеплённом предложении с It (It was + X + ___) союз — 'that'. 'Which' менее естественно в расщеплённых предложениях и обычно избегается. 'What' относится к псевдо-расщеплённым. Союз в расщеплённом предложении нельзя опустить."
+        }
+    ]
+};
+
+/* ============================================
+PAGE 10 — Advanced Mixed Practice (B2 Challenge)
+============================================ */
+window.grammarExercises['relative']['advanced-defining-clauses-gap-page10'] = {
+    title: "Advanced Defining Clauses – B2 Challenge (Fill in the Gaps)",
+    fillGaps: [
+        {
+            question: "Complete the sentence. Choose the most formal and grammatically precise option.",
+            questionRu: "Заполните пропуск. Выберите наиболее формальный и грамматически точный вариант.",
+            sentence: "The evidence ____ the prosecution's case was based was later found to have been fabricated.",
+            correctAnswer: "on which",
+            options: ["on which", "which", "that", "on that"],
+            correctFeedback: "Correct! 'On which' moves the preposition 'on' before 'which' — the most formal structure. The case was 'based ON' the evidence. 'On that' is impossible because prepositions cannot precede 'that'. 'Which' alone omits the necessary preposition 'on'.",
+            correctFeedbackRu: "Правильно! 'On which' переносит предлог 'on' перед 'which' — наиболее формальная структура. Дело было 'основано НА' доказательствах. 'On that' невозможно, так как предлоги не могут стоять перед 'that'. 'Which' без предлога опускает необходимый предлог 'on'.",
+            incorrectFeedback: "Try again. The case was 'based ON' the evidence — identify the correct preposition. In formal English, move it before 'which': 'on which'. A preposition can never precede 'that'. Without 'on', the preposition needed by 'based' would be missing.",
+            incorrectFeedbackRu: "Попробуйте снова. Дело было 'основано НА' доказательствах — определите правильный предлог. В формальном английском перенесите его перед 'which': 'on which'. Предлог никогда не может стоять перед 'that'. Без 'on' будет пропущен предлог, необходимый для 'based'."
+        },
+        {
+            question: "Fill in the gap with the correct perfect participle form.",
+            questionRu: "Заполните пропуск правильной формой перфектного причастия.",
+            sentence: "Any individual ____ a formal warning will be subject to immediate dismissal upon a second offence.",
+            correctAnswer: "having received",
+            options: ["having received", "receiving", "who received", "received"],
+            correctFeedback: "Correct! 'Having received' (perfect active participle) refers to individuals who have ALREADY received a warning — a completed prior action. 'Receiving' (ongoing -ing) would refer to individuals currently in the process of receiving one. The perfect participle emphasises the completed status.",
+            correctFeedbackRu: "Правильно! 'Having received' (перфектное активное причастие) относится к лицам, которые УЖЕ получили предупреждение — завершённое предшествующее действие. 'Receiving' (продолжающееся -ing) относилось бы к лицам, сейчас получающим предупреждение. Перфектное причастие подчёркивает завершённый статус.",
+            incorrectFeedback: "Try again. 'Having + past participle' (perfect participle) indicates a completed prior action. Those individuals have ALREADY received the warning. 'Receiving' is ongoing. 'Who received' is a full unreduced clause. 'Received' alone (without 'having') cannot form a perfect participle structure.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Having + причастие прошедшего времени' (перфектное причастие) указывает на завершённое предшествующее действие. Эти лица УЖЕ получили предупреждение. 'Receiving' — продолжающееся. 'Who received' — полное несокращённое придаточное. 'Received' без 'having' не может образовать структуру перфектного причастия."
+        },
+        {
+            question: "Complete the inverted wh-cleft sentence with the correct connector.",
+            questionRu: "Заполните инвертированное wh-расщеплённое предложение правильным союзом.",
+            sentence: "Transparency and accountability are ____ the stakeholders are demanding above all else.",
+            correctAnswer: "what",
+            options: ["what", "that", "which", "who"],
+            correctFeedback: "Correct! In an inverted wh-cleft (X + is/are + ___), only 'what' is used — never 'that' or 'which'. The structure emphasises 'transparency and accountability' as the key demand. 'What' here introduces a nominal clause functioning as the complement.",
+            correctFeedbackRu: "Правильно! В инвертированном wh-расщеплённом (X + is/are + ___) используется только 'what' — никогда не 'that' или 'which'. Структура акцентирует 'transparency and accountability' как ключевое требование. 'What' здесь вводит именное придаточное, функционирующее как дополнение.",
+            incorrectFeedback: "Try again. In a wh-cleft (inverted cleft), the connector is always 'what'. 'That' is used in It-clefts (It was... that...). 'Which' is used in relative clauses. 'Who' is for people as subjects. Only 'what' creates the wh-cleft structure.",
+            incorrectFeedbackRu: "Попробуйте снова. В wh-расщеплённом (инвертированном расщеплённом) союз всегда 'what'. 'That' используется в It-расщеплённых (It was... that...). 'Which' — в придаточных предложениях. 'Who' — для людей как подлежащих. Только 'what' создаёт wh-расщеплённую структуру."
+        },
+        {
+            question: "Fill in the gap. Choose the correct -ing or -ed form based on whether the noun is active or passive.",
+            questionRu: "Заполните пропуск. Выберите правильную форму -ing или -ed в зависимости от того, является ли существительное активным или пассивным.",
+            sentence: "The three pharmaceutical companies ____ for the contract all submitted bids exceeding the allocated budget.",
+            correctAnswer: "competing",
+            options: ["competing", "competed", "to compete", "which competed"],
+            correctFeedback: "Correct! 'Competing' is an active -ing participle — the companies are actively competing (they perform the action). 'Competed' would be passive, implying the companies were competed against by something. 'To compete' implies a future purpose. 'Which competed' is a full unreduced clause.",
+            correctFeedbackRu: "Правильно! 'Competing' — активное причастие -ing — компании активно конкурируют (они выполняют действие). 'Competed' было бы пассивным, подразумевая, что компании стали объектом чьей-то конкуренции. 'To compete' подразумевает будущую цель. 'Which competed' — полное несокращённое придаточное.",
+            incorrectFeedback: "Try again. The companies are competing (active — they perform the action). Use the -ing active participle. 'Competed' is a past participle — passive form. 'To compete' expresses purpose. 'Which competed' is a full relative clause, not a reduced form.",
+            incorrectFeedbackRu: "Попробуйте снова. Компании конкурируют (активное — они выполняют действие). Используйте активное причастие -ing. 'Competed' — причастие прошедшего времени — пассивная форма. 'To compete' выражает цель. 'Which competed' — полное придаточное, не сокращённая форма."
+        },
+        {
+            question: "Complete the sentence. The gap is in a defining clause after a superlative.",
+            questionRu: "Заполните пропуск. Пропуск находится в ограничительном придаточном после превосходной степени.",
+            sentence: "The most effective intervention ____ can realistically be deployed within the current budget constraints is a targeted mentorship programme.",
+            correctAnswer: "that",
+            options: ["that", "which", "Ø (omitted)", "what"],
+            correctFeedback: "Correct! After superlatives like 'most effective', 'that' is the strongly preferred relative pronoun in defining clauses. The pronoun is the SUBJECT of 'can be deployed' — it cannot be omitted. 'Which' is also grammatically possible but less preferred after superlatives. 'What' is not a relative pronoun here.",
+            correctFeedbackRu: "Правильно! После превосходных степеней, таких как 'most effective', 'that' — настоятельно предпочтительное относительное местоимение в ограничительных придаточных. Местоимение является ПОДЛЕЖАЩИМ при 'can be deployed' — его нельзя опустить. 'Which' тоже грамматически возможно, но менее предпочтительно после превосходных степеней. 'What' — не относительное местоимение здесь.",
+            incorrectFeedback: "Try again. After superlatives ('most effective'), 'that' is the preferred relative pronoun. The pronoun is a SUBJECT — it cannot be omitted (only object pronouns can be dropped). 'What' is used in pseudo-clefts and wh-clefts, not as a relative pronoun modifying a noun.",
+            incorrectFeedbackRu: "Попробуйте снова. После превосходных степеней ('most effective') 'that' — предпочтительное относительное местоимение. Местоимение является ПОДЛЕЖАЩИМ — его нельзя опустить (только объектные местоимения можно опускать). 'What' используется в псевдо- и wh-расщеплённых, а не как относительное местоимение, определяющее существительное."
+        },
+        {
+            question: "Fill in the gap. The sentence requires a formal possessive relative structure.",
+            questionRu: "Заполните пропуск. Предложение требует формальной притяжательной структуры.",
+            sentence: "The measures introduced by the task force, the effectiveness ____ remains to be evaluated, have been welcomed by most stakeholders.",
+            correctAnswer: "of which",
+            options: ["of which", "of whom", "of that", "whose"],
+            correctFeedback: "Correct! 'The effectiveness of which' is a formal alternative to 'whose effectiveness'. Measures are things — use 'of which'. 'Of whom' is for people. 'Of that' is ungrammatical. 'Whose' is also correct but is placed differently: 'measures whose effectiveness remains...' — you cannot use 'whose' in the middle of this noun phrase structure.",
+            correctFeedbackRu: "Правильно! 'The effectiveness of which' — формальная альтернатива 'whose effectiveness'. Меры — предметы — используйте 'of which'. 'Of whom' — для людей. 'Of that' — неграмматично. 'Whose' тоже верно, но помещается иначе: 'measures whose effectiveness remains...' — нельзя использовать 'whose' в середине этой именной фразы.",
+            incorrectFeedback: "Try again. The structure is 'the + noun + of which' — a formal alternative to 'whose'. Measures are THINGS — use 'of which'. 'Of whom' is for people. 'Of that' is always ungrammatical after a preposition. Note that 'whose' placed here would require restructuring the noun phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Структура 'the + существительное + of which' — формальная альтернатива 'whose'. Меры — ПРЕДМЕТЫ — используйте 'of which'. 'Of whom' — для людей. 'Of that' всегда неграмматично после предлога. Обратите внимание, что использование 'whose' здесь потребовало бы реструктурирования именной группы."
+        },
+        {
+            question: "Choose the correct form. The sentence tests the distinction between active and passive reduced clauses.",
+            questionRu: "Выберите правильную форму. Предложение проверяет различие между активными и пассивными сокращёнными придаточными.",
+            sentence: "Countries ____ more heavily in renewable energy over the past decade are now experiencing significantly lower long-term energy costs.",
+            correctAnswer: "that have invested",
+            options: ["that have invested", "invested", "having invested", "to have invested"],
+            correctFeedback: "Correct! 'That have invested' is a full relative clause using the present perfect — it describes countries whose investment is an ongoing, relevant fact. 'Having invested' (perfect participle) is also grammatically possible and creates a reduced clause, but 'that have invested' is more explicit and natural here.",
+            correctFeedbackRu: "Правильно! 'That have invested' — полное придаточное предложение с настоящим перфектом — описывает страны, чьи инвестиции являются продолжающимся, актуальным фактом. 'Having invested' (перфектное причастие) тоже грамматически возможно и создаёт сокращённое придаточное, но 'that have invested' более явно и естественно здесь.",
+            incorrectFeedback: "Try again. The countries have invested (active — they performed the action). 'Invested' alone (passive -ed participle) would mean the countries were invested by something — illogical. 'To have invested' is a perfect infinitive — not used as a defining modifier here.",
+            incorrectFeedbackRu: "Попробуйте снова. Страны инвестировали (активное — они выполнили действие). 'Invested' в одиночку (пассивное причастие -ed) означало бы, что в страны кто-то инвестировал — нелогично. 'To have invested' — перфектный инфинитив — здесь не используется как ограничительное определение."
+        },
+        {
+            question: "Fill in the gap. The sentence requires the correct cleft connector.",
+            questionRu: "Заполните пропуск. Предложение требует правильного союза в расщеплённом предложении.",
+            sentence: "It is the sheer complexity of the regulatory environment ____ deters most small businesses from expanding into new markets.",
+            correctAnswer: "that",
+            options: ["that", "which", "what", "Ø (omitted)"],
+            correctFeedback: "Correct! In an It-cleft sentence, 'that' is the standard connector — not 'which'. The emphasised element is 'the sheer complexity of the regulatory environment'. 'What' is used in wh-clefts (What deters them is...). The connector in a cleft sentence cannot be omitted.",
+            correctFeedbackRu: "Правильно! В расщеплённом предложении с It 'that' — стандартный союз, а не 'which'. Акцентируемый элемент — 'the sheer complexity of the regulatory environment'. 'What' используется в wh-расщеплённых (What deters them is...). Союз в расщеплённом предложении нельзя опустить.",
+            incorrectFeedback: "Try again. In an It-cleft (It is + X + ___), always use 'that' as the connector. 'Which' is less natural and should be avoided in cleft sentences. 'What' belongs in pseudo-clefts (What... is...). The connector is obligatory — it cannot be omitted.",
+            incorrectFeedbackRu: "Попробуйте снова. В It-расщеплённом (It is + X + ___) всегда используйте 'that' как союз. 'Which' менее естественно и следует избегать в расщеплённых предложениях. 'What' относится к псевдо-расщеплённым (What... is...). Союз обязателен — его нельзя опустить."
+        },
+        {
+            question: "Complete the B2 challenge sentence. It combines a passive -ed clause and a quantifier structure.",
+            questionRu: "Заполните предложение уровня B2. Оно объединяет пассивное придаточное на -ed и структуру с квантификатором.",
+            sentence: "The measures ____ by the task force, the most ambitious of which targets carbon neutrality by 2035, have been praised by environmental groups.",
+            correctAnswer: "introduced",
+            options: ["introduced", "introducing", "to introduce", "that introduce"],
+            correctFeedback: "Correct! 'Introduced' reduces 'that were introduced by the task force' — a passive clause. The measures were introduced BY someone (passive). The sentence then uses 'the most ambitious of which' — a superlative quantifier + 'of which' structure referring back to 'measures' (things).",
+            correctFeedbackRu: "Правильно! 'Introduced' сокращает 'that were introduced by the task force' — пассивное придаточное. Меры были введены КЕМ-ТО (пассивное). Затем предложение использует 'the most ambitious of which' — структуру квантификатор в превосходной степени + 'of which', отсылающую к 'measures' (предметам).",
+            incorrectFeedback: "Try again. The measures were introduced (passive — the task force introduced them). Use the past participle for the passive reduced clause. 'Introducing' would mean the measures are actively introducing something (illogical). 'That introduce' is an active finite clause — wrong meaning.",
+            incorrectFeedbackRu: "Попробуйте снова. Меры были введены (пассивное — целевая группа их ввела). Используйте причастие прошедшего времени для пассивного сокращённого придаточного. 'Introducing' означало бы, что меры активно что-то вводят (нелогично). 'That introduce' — активное финитное придаточное — неверный смысл."
+        },
+        {
+            question: "Fill in the final gap. This is a B2 challenge combining four advanced structures in one sentence.",
+            questionRu: "Заполните последний пропуск. Это задание уровня B2, объединяющее четыре продвинутые структуры в одном предложении.",
+            sentence: "The delegation sent by the UN, all of ____ had prior experience in conflict resolution, reached an agreement the significance of which cannot be overstated.",
+            correctAnswer: "whom",
+            options: ["whom", "which", "who", "that"],
+            correctFeedback: "Correct! 'All of whom' refers back to 'delegation' members — people. After a preposition ('of'), use 'whom' for people, never 'who'. The sentence also correctly uses 'the significance of which' — a formal 'the + noun + of which' structure for things. Both structures are applied correctly.",
+            correctFeedbackRu: "Правильно! 'All of whom' отсылает к членам 'delegation' — людям. После предлога ('of') используйте 'whom' для людей, никогда не 'who'. Предложение также правильно использует 'the significance of which' — формальную структуру 'the + существительное + of which' для предметов. Обе структуры применены правильно.",
+            incorrectFeedback: "Try again. The delegation members are PEOPLE. After a preposition ('of'), always use 'whom' for people — 'who' cannot follow a preposition. 'Which' is for things. 'That' cannot follow a preposition. The rule: preposition + whom (people) / which (things).",
+            incorrectFeedbackRu: "Попробуйте снова. Члены делегации — ЛЮДИ. После предлога ('of') всегда используйте 'whom' для людей — 'who' не может следовать за предлогом. 'Which' — для предметов. 'That' не может следовать за предлогом. Правило: предлог + whom (люди) / which (предметы)."
+        }
+    ]
+};
 
 /* =============================================================================== */
 /* =========================Sentence Building Exercises=========================== */
