@@ -3979,7 +3979,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
             exercise.incorrectFeedbackRu;
 
         showExerciseFeedback(exerciseBox, state.isCorrect, feedbackText, feedbackTextRu);
-    }
+    } 
 
     return exerciseBox;
 }
