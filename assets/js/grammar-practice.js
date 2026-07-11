@@ -1174,7 +1174,7 @@ function createExerciseModal(topic, subtitle, exerciseType) {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(0,0,0,0.85);
+        background: var(--modal-overlay-bg);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1192,7 +1192,7 @@ function createExerciseModal(topic, subtitle, exerciseType) {
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+        box-shadow: var(--modal-shadow);
     `;
 
     // На мобильном — полный экран
@@ -1233,7 +1233,7 @@ function createExerciseModal(topic, subtitle, exerciseType) {
     const closeButton = document.createElement('button');
     closeButton.innerHTML = '&#10005;';
     closeButton.style.cssText = `
-        background: rgba(255,255,255,0.08);
+        background: var(--btn-ghost-bg);
         border: 1px solid var(--card-stroke);
         border-radius: 50%;
         min-width: 44px;
@@ -2046,9 +2046,9 @@ function showExerciseFeedback(exerciseBox, isCorrect, message, messageRu) {
             border-radius: 12px;
             font-size: 15px;
             line-height: 1.5;
-            background-color: rgba(56, 189, 142, 0.18);
-            border: 1.5px solid #34d399;
-            color: #a7f3d0;
+            background-color: var(--correct-bg);
+            border: 1.5px solid var(--correct-border);
+            color: var(--correct-text);
         `;
     } else {
         feedbackElement.style.cssText = `
@@ -2057,9 +2057,9 @@ function showExerciseFeedback(exerciseBox, isCorrect, message, messageRu) {
             border-radius: 12px;
             font-size: 15px;
             line-height: 1.5;
-            background-color: rgba(244, 67, 54, 0.18);
-            border: 1.5px solid #f87171;
-            color: #fca5a5;
+            background-color: var(--danger-bg);
+            border: 1.5px solid var(--danger-border);
+            color: var(--danger-text);
         `;
     }
 
@@ -2722,12 +2722,12 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
                 if (option.isCorrect) {
                     // Correct selected option - green background
                     optionButton.style.cssText = `
-                        background-color: #292a3e;
-                        border: 1.5px solid #353748;
+                        background-color: var(--correct-bg);
+                        border: 1.5px solid var(--correct-border);
                         border-radius: 12px;
                         padding: 14px 16px;
                         text-align: left;
-                        color: #f8fafc;
+                        color: var(--correct-text);
                         font-size: 17px;
                         cursor: pointer;
                         transition: all 0.2s ease;
@@ -2739,12 +2739,12 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
                 } else {
                     // Incorrect selected option - red background
                     optionButton.style.cssText = `
-                        background-color: rgba(244, 67, 54, 0.25);
-                        border: 1px solid #f87171;
+                        background-color: var(--danger-bg);
+                        border: 1px solid var(--danger-border);
                         border-radius: 8px;
                         padding: 12px 16px;
                         text-align: left;
-                        color: #fca5a5;
+                        color: var(--danger-text);
                         font-size: 1rem;
                         cursor: default;
                         width: 100%;
@@ -2753,12 +2753,12 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
             } else if (option.isCorrect && !selectedOptions[subtitle]) {
                 // If there's a correct answer that wasn't selected (when another incorrect option was chosen)
                 optionButton.style.cssText = `
-                    background-color: rgba(56, 189, 142, 0.2);
-                        border: 1.5px solid #34d399;
+                    background-color: var(--correct-bg);
+                        border: 1.5px solid var(--correct-border);
                         border-radius: 12px;
                         padding: 14px 16px;
                         text-align: left;
-                        color: #a7f3d0;
+                        color: var(--correct-text);
                         font-size: 17px;
                         cursor: default;
                         width: 100%;
@@ -2768,12 +2768,12 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
             } else {
                 // Incorrect selected option - red background
                 optionButton.style.cssText = `
-                        background-color: rgba(244, 67, 54, 0.2);
-                        border: 1.5px solid #f87171;
+                        background-color: var(--danger-bg);
+                        border: 1.5px solid var(--danger-border);
                         border-radius: 12px;
                         padding: 14px 16px;
                         text-align: left;
-                        color: #fca5a5;
+                        color: var(--danger-text);
                         font-size: 17px;
                         cursor: default;
                         width: 100%;
@@ -2787,12 +2787,12 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
         } else {
             // This is a fresh, unanswered question - all options look the same
             optionButton.style.cssText = `
-                background-color: #292a3e;
-                border: 1.5px solid #353748;
+                background-color: var(--card-bg);
+                border: 1.5px solid var(--card-stroke);
                 border-radius: 12px;
                 padding: 14px 16px;
                 text-align: left;
-                color: #f8fafc;
+                color: var(--body-1);
                 font-size: 17px;
                 cursor: pointer;
                 width: 100%;
@@ -2803,13 +2803,15 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
 
             // Add hover effect
             optionButton.addEventListener('mouseenter', function () {
+                if (this.disabled) return;
                 this.style.backgroundColor = 'var(--card-hover-secondary)';
                 this.style.borderColor = 'var(--accent-color)';
             });
 
             optionButton.addEventListener('mouseleave', function () {
-                this.style.backgroundColor = '#292a3e';
-                this.style.borderColor = '#353748';
+                if (this.disabled) return;
+                this.style.backgroundColor = 'var(--card-bg)';
+                this.style.borderColor = 'var(--card-stroke)';
             });
         }
 
@@ -2834,21 +2836,17 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
                     opt.disabled = true;
                     opt.style.cursor = 'default';
 
-                    // Remove hover effects
-                    opt.removeEventListener('mouseenter', null);
-                    opt.removeEventListener('mouseleave', null);
-
                     // Gray out non-selected options
-                    opt.style.backgroundColor = '#292a3e';
-                    opt.style.borderColor = '#353748';
-                    opt.style.color = '#6e7191';
+                    opt.style.backgroundColor = 'var(--card-bg-tertiary)';
+                    opt.style.borderColor = 'var(--card-stroke)';
+                    opt.style.color = 'var(--body-3)';
                 });
 
                 // Style selected option
                 if (isCorrect) {
-                    this.style.backgroundColor = 'rgba(56, 189, 142, 0.25)';
-                    this.style.borderColor = '#34d399';
-                    this.style.color = '#a7f3d0';
+                    this.style.backgroundColor = 'var(--correct-bg)';
+                    this.style.borderColor = 'var(--correct-border)';
+                    this.style.color = 'var(--correct-text)';
 
                     // Update status
                     const status = document.querySelector(`.exercise-status-${index}`);
@@ -2861,16 +2859,16 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
                     showExerciseFeedback(exerciseBox, true, exercise.correctFeedback, exercise.correctFeedbackRu);
                 } else {
                     // Style incorrect selected option
-                    this.style.backgroundColor = 'rgba(244, 67, 54, 0.25)';
-                    this.style.borderColor = '#f87171';
-                    this.style.color = '#fca5a5';
+                    this.style.backgroundColor = 'var(--danger-bg)';
+                    this.style.borderColor = 'var(--danger-border)';
+                    this.style.color = 'var(--danger-text)';
 
                     // Highlight correct answer
                     allOptions.forEach(opt => {
                         if (opt.dataset.correct === 'true') {
-                            opt.style.backgroundColor = 'rgba(56, 189, 142, 0.25)';
-                            opt.style.borderColor = '#34d399';
-                            opt.style.color = '#a7f3d0';
+                            opt.style.backgroundColor = 'var(--correct-bg)';
+                            opt.style.borderColor = 'var(--correct-border)';
+                            opt.style.color = 'var(--correct-text)';
                         }
                     });
 
@@ -3265,13 +3263,13 @@ function showMatchingFullPageExercise(topic, subtitle, exercise, index, currentS
 
                         if (isCorrect) {
                             // Mark as correctly connected with nice styles
-                            leftItem.style.borderColor = '#34d399';
+                            leftItem.style.borderColor = 'var(--correct-border)';
                             leftItem.style.backgroundColor = 'rgba(52, 211, 153, 0.1)';
-                            leftItem.style.boxShadow = '0 0 0 2px #34d399';
+                            leftItem.style.boxShadow = '0 0 0 2px var(--correct-border)';
 
-                            rightItem.style.borderColor = '#34d399';
+                            rightItem.style.borderColor = 'var(--correct-border)';
                             rightItem.style.backgroundColor = 'rgba(52, 211, 153, 0.1)';
-                            rightItem.style.boxShadow = '0 0 0 2px #34d399';
+                            rightItem.style.boxShadow = '0 0 0 2px var(--correct-border)';
 
                             // Add subtle success animation
                             leftItem.style.transition = 'all 0.3s ease-out';
@@ -3300,10 +3298,10 @@ function showMatchingFullPageExercise(topic, subtitle, exercise, index, currentS
                             checkCompletion();
                         } else {
                             // Mark as incorrectly connected with shake animation
-                            leftItem.style.borderColor = '#f87171';
-                            leftItem.style.boxShadow = '0 0 0 2px #f87171';
-                            rightItem.style.borderColor = '#f87171';
-                            rightItem.style.boxShadow = '0 0 0 2px #f87171';
+                            leftItem.style.borderColor = 'var(--danger-border)';
+                            leftItem.style.boxShadow = '0 0 0 2px var(--danger-border)';
+                            rightItem.style.borderColor = 'var(--danger-border)';
+                            rightItem.style.boxShadow = '0 0 0 2px var(--danger-border)';
 
                             // Shake animation for incorrect match
                             [leftItem, rightItem].forEach(item => {
@@ -3392,13 +3390,13 @@ function showMatchingFullPageExercise(topic, subtitle, exercise, index, currentS
                 const rightItem = document.querySelector(`.right-item-${index}-${conn.rightIndex}`);
 
                 if (leftItem && rightItem) {
-                    leftItem.style.borderColor = '#34d399';
+                    leftItem.style.borderColor = 'var(--correct-border)';
                     leftItem.style.backgroundColor = 'rgba(52, 211, 153, 0.1)';
-                    leftItem.style.boxShadow = '0 0 0 2px #34d399';
+                    leftItem.style.boxShadow = '0 0 0 2px var(--correct-border)';
 
-                    rightItem.style.borderColor = '#34d399';
+                    rightItem.style.borderColor = 'var(--correct-border)';
                     rightItem.style.backgroundColor = 'rgba(52, 211, 153, 0.1)';
-                    rightItem.style.boxShadow = '0 0 0 2px #34d399';
+                    rightItem.style.boxShadow = '0 0 0 2px var(--correct-border)';
                 }
             });
 
@@ -3492,13 +3490,13 @@ function showMatchingFullPageExercise(topic, subtitle, exercise, index, currentS
                         const rightItem = document.querySelector(`.right-item-${index}-${conn.rightIndex}`);
                         
                         if (leftItem && rightItem) {
-                            leftItem.style.borderColor = '#34d399';
+                            leftItem.style.borderColor = 'var(--correct-border)';
                             leftItem.style.backgroundColor = 'rgba(52, 211, 153, 0.1)';
-                            leftItem.style.boxShadow = '0 0 0 2px #34d399';
+                            leftItem.style.boxShadow = '0 0 0 2px var(--correct-border)';
                             
-                            rightItem.style.borderColor = '#34d399';
+                            rightItem.style.borderColor = 'var(--correct-border)';
                             rightItem.style.backgroundColor = 'rgba(52, 211, 153, 0.1)';
-                            rightItem.style.boxShadow = '0 0 0 2px #34d399';
+                            rightItem.style.boxShadow = '0 0 0 2px var(--correct-border)';
                         }
                     });
                     
@@ -3519,7 +3517,7 @@ function showMatchingFullPageExercise(topic, subtitle, exercise, index, currentS
             if (allCorrect) {
                 exerciseBox.animate([
                     { boxShadow: '0 0 0 2px transparent' },
-                    { boxShadow: '0 0 0 4px #34d399' },
+                    { boxShadow: '0 0 0 4px var(--correct-border)' },
                     { boxShadow: '0 0 0 2px transparent' }
                 ], {
                     duration: 1000,
@@ -3945,7 +3943,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
             if (isCorrect) {
                 exerciseBox.animate([
                     { boxShadow: '0 0 0 2px transparent' },
-                    { boxShadow: '0 0 0 4px #34d399' },
+                    { boxShadow: '0 0 0 4px var(--correct-border)' },
                     { boxShadow: '0 0 0 2px transparent' }
                 ], {
                     duration: 1000,

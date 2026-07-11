@@ -1505,3 +1505,2289 @@ window.grammarExercises['conditionals']['mixed-conditionals-advanced-page10'] = 
         }
     ]
 };
+
+/* =============================================================================== */
+/* ===========================Fill in the Gaps Exercises========================== */
+
+/* ===============================================================================
+Page 1: Mixed Conditionals – Corporate Business and Finance
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page1'] = {
+    title: "Mixed Conditionals (Advanced) – Corporate Business and Finance",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the board had approved the merger last spring, the two firms ____ a combined market share of over forty percent now.",
+            correctAnswer: "would command",
+            options: ["would command", "would have commanded", "commanded", "will command"],
+            correctFeedback: "Excellent! 'Would command' (would + base verb) is correct because 'now' signals a present result, while 'had approved' in the if-clause already establishes the past condition.",
+            correctFeedbackRu: "Отлично! 'Would command' (would + основной глагол) верно, потому что 'now' указывает на настоящий результат, а 'had approved' в придаточном уже устанавливает прошлое условие.",
+            incorrectFeedback: "Try again. Since 'now' marks a present result, use 'would + base verb'. 'Would have commanded' would describe a completed past result instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку 'now' обозначает настоящий результат, используйте 'would + основной глагол'. 'Would have commanded' описывало бы завершённый прошлый результат."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the CFO had diversified the investment portfolio in 2015, the fund ____ far less exposed to currency risk today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "had been", "will be"],
+            correctFeedback: "Excellent! 'Would be' expresses the present state of the fund's exposure. The time marker 'today' confirms this is a present, not past, result.",
+            correctFeedbackRu: "Отлично! 'Would be' выражает настоящее состояние подверженности фонда риску. Маркер времени 'today' подтверждает, что это настоящий, а не прошлый результат.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, so the result clause needs 'would + base verb'. 'Would have been' would place the result in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, поэтому главному предложению нужно 'would + основной глагол'. 'Would have been' поместило бы результат в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the startup had secured venture capital earlier, it ____ operating at full capacity right now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "would have"],
+            correctFeedback: "Excellent! 'Would be operating' (would + be + present participle) shows an ongoing present activity. 'Right now' confirms the continuous present result.",
+            correctFeedbackRu: "Отлично! 'Would be operating' (would + be + причастие настоящего времени) показывает продолжающуюся настоящую деятельность. 'Right now' подтверждает продолжательный настоящий результат.",
+            incorrectFeedback: "Try again. For an ongoing present activity, use 'would be + present participle'. 'Would have been operating' would refer to a past ongoing activity instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающейся настоящей деятельности используйте 'would be + причастие настоящего времени'. 'Would have been operating' относилось бы к прошлой продолжающейся деятельности."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the company invested in automation a decade ago, production costs ____ significantly lower today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "had been"],
+            correctFeedback: "Excellent! This inverted if-clause ('Had the company invested') pairs with 'would be' for the present result. 'Today' confirms the ongoing present state of production costs.",
+            correctFeedbackRu: "Отлично! Это инвертированное придаточное ('Had the company invested') сочетается с 'would be' для настоящего результата. 'Today' подтверждает продолжающееся настоящее состояние издержек производства.",
+            incorrectFeedback: "Try again. Even with the inverted if-clause, the present result still requires 'would + base verb'. 'Would have been' would be used for a past result instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Даже с инвертированным придаточным настоящий результат по-прежнему требует 'would + основной глагол'. 'Would have been' использовалось бы для прошлого результата."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the retailer hadn't expanded overseas so aggressively, it ____ a much stronger balance sheet now.",
+            correctAnswer: "would have",
+            options: ["would have", "would have had", "would had", "will have"],
+            correctFeedback: "Excellent! 'Would have' functions here as 'would + base verb (have)', meaning 'would possess'. This is the correct present-result form for a mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Would have' здесь функционирует как 'would + основной глагол (have)', означая 'обладал бы'. Это правильная форма настоящего результата в смешанном условном наклонении.",
+            incorrectFeedback: "Try again. 'Would have had' turns this into a past result (pure 3rd conditional). Since 'now' signals the present, use the simple 'would have'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Would have had' превращает это в прошлый результат (чистое 3-е условное наклонение). Поскольку 'now' указывает на настоящее, используйте простое 'would have'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the CEO ____ more risk-averse, the company would not have expanded into three volatile markets simultaneously.",
+            correctAnswer: "were",
+            options: ["were", "had been", "was being", "would be"],
+            correctFeedback: "Excellent! 'Were' (subjunctive) describes a present hypothetical character trait in a reverse mixed conditional. The result clause 'would not have expanded' shows the past consequence.",
+            correctFeedbackRu: "Отлично! 'Were' (сослагательное наклонение) описывает настоящую гипотетическую черту характера в обратном смешанном условном наклонении. Главное предложение 'would not have expanded' показывает прошлое последствие.",
+            incorrectFeedback: "Try again. Reverse mixed conditionals use 'were' in the if-clause to describe a present trait. 'Had been' would make this a pure 3rd conditional about a past state.",
+            incorrectFeedbackRu: "Попробуйте снова. Обратные смешанные условные наклонения используют 'were' в придаточном для описания настоящей черты. 'Had been' сделало бы это чистым 3-м условным наклонением о прошлом состоянии."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If she weren't such a decisive negotiator, the deal ____ collapsed during the final round of talks.",
+            correctAnswer: "would have",
+            options: ["would have", "would", "will have", "would have had"],
+            correctFeedback: "Excellent! 'Would have collapsed' (would have + past participle) is the correct past result in a reverse mixed conditional, explaining a past outcome through her present character trait.",
+            correctFeedbackRu: "Отлично! 'Would have collapsed' (would have + причастие прошедшего времени) — правильный прошлый результат в обратном смешанном условном наклонении, объясняющий прошлый исход через её нынешнюю черту характера.",
+            incorrectFeedback: "Try again. In a reverse mixed conditional, the result clause needs 'would have + past participle' for the past result. 'Would' alone would describe a present or future result.",
+            incorrectFeedbackRu: "Попробуйте снова. В обратном смешанном условном наклонении главному предложению нужно 'would have + причастие прошедшего времени' для прошлого результата. Одно 'would' описывало бы настоящий или будущий результат."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the auditors had flagged the irregularities sooner, the losses ____ considerably smaller than they are today.",
+            correctAnswer: "might be",
+            options: ["might be", "might have been", "would have", "will be"],
+            correctFeedback: "Excellent! 'Might be' expresses an uncertain present possibility. It is more cautious than 'would be', acknowledging that other factors could also have influenced the final losses.",
+            correctFeedbackRu: "Отлично! 'Might be' выражает неопределённую настоящую возможность. Это более осторожно, чем 'would be', признавая, что другие факторы также могли повлиять на итоговые убытки.",
+            incorrectFeedback: "Try again. 'Might be' is the present-result modal form. 'Might have been' would place this uncertain result in the past, which contradicts 'today'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Might be' — форма модального глагола для настоящего результата. 'Might have been' поместило бы этот неопределённый результат в прошлое, что противоречит 'today'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the manager were truly committed to compliance, he ____ reported the discrepancy immediately, back when it was first discovered.",
+            correctAnswer: "should have",
+            options: ["should have", "should", "would", "ought"],
+            correctFeedback: "Excellent! 'Should have reported' expresses a past obligation that wasn't fulfilled. It fits the reverse mixed conditional: present trait (were committed) → past expected action.",
+            correctFeedbackRu: "Отлично! 'Should have reported' выражает невыполненное прошлое обязательство. Это соответствует обратному смешанному условному наклонению: настоящая черта (were committed) → ожидаемое прошлое действие.",
+            incorrectFeedback: "Try again. 'Should have + past participle' expresses past obligation in the result clause of a reverse mixed conditional. 'Should' alone would refer to a present obligation.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Should have + причастие прошедшего времени' выражает прошлое обязательство в главном предложении обратного смешанного условного наклонения. Одно 'should' относилось бы к настоящему обязательству."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "But for the timely government bailout, the bank ____ insolvent today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "will be"],
+            correctFeedback: "Excellent! 'But for + noun phrase' is a formal substitute for 'if it hadn't been for'. 'Would be insolvent today' correctly expresses the present result.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' — формальная замена 'if it hadn't been for'. 'Would be insolvent today' правильно выражает настоящий результат.",
+            incorrectFeedback: "Try again. 'But for' introduces a past condition formally, but the result clause still needs 'would + base verb' for a present result like 'today'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'But for' формально вводит прошлое условие, но главному предложению всё ещё нужно 'would + основной глагол' для настоящего результата, такого как 'today'."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 2: Mixed Conditionals – Science and Medicine
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page2'] = {
+    title: "Mixed Conditionals (Advanced) – Science and Medicine",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the research team had secured funding in 2018, the vaccine ____ ready for clinical trials by now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "will be"],
+            correctFeedback: "Excellent! 'Would be ready by now' expresses the present state that would exist if the past funding had been secured. 'By now' is a clear present-time marker.",
+            correctFeedbackRu: "Отлично! 'Would be ready by now' выражает настоящее состояние, которое существовало бы, если бы прошлое финансирование было получено. 'By now' — чёткий маркер настоящего времени.",
+            incorrectFeedback: "Try again. 'By now' signals a present result, so use 'would + base verb'. 'Would have been' would describe a completed past state instead.",
+            incorrectFeedbackRu: "Попробуйте снова. 'By now' сигнализирует о настоящем результате, поэтому используйте 'would + основной глагол'. 'Would have been' описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the surgeon detected the tumour at the initial scan, the patient ____ a far better prognosis today.",
+            correctAnswer: "would have",
+            options: ["would have", "would have had", "would had", "will have"],
+            correctFeedback: "Excellent! 'Would have' (would + base verb 'have') means 'would possess'. This expresses the patient's present prognosis resulting from an earlier, unfulfilled diagnosis.",
+            correctFeedbackRu: "Отлично! 'Would have' (would + основной глагол 'have') означает 'обладал бы'. Это выражает настоящий прогноз пациента, вытекающий из более раннего невыполненного диагноза.",
+            incorrectFeedback: "Try again. 'Would have had' turns the result into a past one. Since 'today' marks the present, the simple 'would have' is required.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Would have had' превращает результат в прошлый. Поскольку 'today' обозначает настоящее, требуется простое 'would have'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the laboratory had adhered to stricter safety protocols, the contamination ____ have been prevented entirely.",
+            correctAnswer: "might",
+            options: ["might", "might have", "may have had", "would"],
+            correctFeedback: "Excellent! 'Might have been prevented' expresses an uncertain past possibility. Here the blank needs only 'might', since 'have been prevented' already follows.",
+            correctFeedbackRu: "Отлично! 'Might have been prevented' выражает неопределённую прошлую возможность. Здесь в пропуске нужно только 'might', поскольку 'have been prevented' уже следует далее.",
+            incorrectFeedback: "Try again. The sentence already provides 'have been prevented', so the blank needs the modal alone: 'might'. Adding 'have' again would be redundant.",
+            incorrectFeedbackRu: "Попробуйте снова. В предложении уже есть 'have been prevented', поэтому в пропуске нужен только модальный глагол 'might'. Повторное 'have' было бы избыточным."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If geneticists hadn't mapped the human genome so thoroughly, personalised medicine ____ still a distant fantasy now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "had been"],
+            correctFeedback: "Excellent! 'Would be still a distant fantasy now' correctly uses the present conditional form to show the ongoing present state that would exist without the genome mapping.",
+            correctFeedbackRu: "Отлично! 'Would be still a distant fantasy now' правильно использует форму настоящего условного наклонения для показа продолжающегося настоящего состояния.",
+            incorrectFeedback: "Try again. 'Now' signals a present result, requiring 'would + base verb'. 'Would have been' would place the result in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Now' сигнализирует о настоящем результате, требуя 'would + основной глагол'. 'Would have been' поместило бы результат в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the pharmaceutical company weren't so profit-driven, it ____ invested more heavily in research for rare diseases over the past decade.",
+            correctAnswer: "would have",
+            options: ["would have", "would", "will have", "would have had"],
+            correctFeedback: "Excellent! 'Would have invested' is the past result in a reverse mixed conditional: the company's present character (profit-driven) explains its past behaviour (not investing).",
+            correctFeedbackRu: "Отлично! 'Would have invested' — прошлый результат в обратном смешанном условном наклонении: нынешний характер компании (ориентация на прибыль) объясняет её прошлое поведение.",
+            incorrectFeedback: "Try again. Since the if-clause uses 'weren't' (present trait), the result clause needs 'would have + past participle' for the past consequence.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку придаточное использует 'weren't' (настоящая черта), главному предложению нужно 'would have + причастие прошедшего времени' для прошлого последствия."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the clinical trial had followed a double-blind design, the results ____ far more credible to the scientific community now.",
+            correctAnswer: "would seem",
+            options: ["would seem", "would have seemed", "seemed", "will seem"],
+            correctFeedback: "Excellent! 'Would seem' (would + base verb) expresses the present perception of credibility, which depends on a past methodological choice.",
+            correctFeedbackRu: "Отлично! 'Would seem' (would + основной глагол) выражает настоящее восприятие достоверности, зависящее от прошлого методологического выбора.",
+            incorrectFeedback: "Try again. Since the result concerns present credibility ('now'), use 'would + base verb'. 'Would have seemed' would refer to a past impression instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку результат касается настоящей достоверности ('now'), используйте 'would + основной глагол'. 'Would have seemed' относилось бы к прошлому впечатлению."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If epidemiologists had modelled the outbreak more accurately, hospitals ____ better prepared for the surge in admissions right now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "had been"],
+            correctFeedback: "Excellent! 'Would be better prepared right now' shows the present state of hospital readiness that depends on a more accurate past model.",
+            correctFeedbackRu: "Отлично! 'Would be better prepared right now' показывает настоящее состояние готовности больниц, зависящее от более точной прошлой модели.",
+            incorrectFeedback: "Try again. 'Right now' signals a present result. Use 'would + base verb'; 'would have been' would incorrectly place the readiness in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Right now' сигнализирует о настоящем результате. Используйте 'would + основной глагол'; 'would have been' неверно поместило бы готовность в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If she weren't so meticulous about data integrity, several flawed studies ____ already have been published under her supervision.",
+            correctAnswer: "might",
+            options: ["might", "might have", "would", "could have had"],
+            correctFeedback: "Excellent! 'Might already have been published' expresses an uncertain past result; the blank only needs the modal 'might' since 'have been published' follows.",
+            correctFeedbackRu: "Отлично! 'Might already have been published' выражает неопределённый прошлый результат; в пропуске нужен только модальный глагол 'might', поскольку далее следует 'have been published'.",
+            incorrectFeedback: "Try again. The sentence already contains 'have been published', so only the bare modal 'might' belongs in the blank.",
+            incorrectFeedbackRu: "Попробуйте снова. В предложении уже есть 'have been published', поэтому в пропуск подходит только модальный глагол 'might' без 'have'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the World Health Organization had issued the advisory a week earlier, far fewer regions ____ under strict quarantine at present.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'Would be under strict quarantine at present' expresses the present state that would exist had the advisory been issued sooner. 'At present' confirms the present result.",
+            correctFeedbackRu: "Отлично! 'Would be under strict quarantine at present' выражает настоящее состояние, которое существовало бы, если бы предупреждение было выпущено раньше. 'At present' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. 'At present' requires 'would + base verb' for the result. 'Would have been' would incorrectly describe a completed past state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'At present' требует 'would + основной глагол' для результата. 'Would have been' неверно описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Were the ethics committee less rigorous in its oversight, several dubious experiments ____ approved without proper scrutiny last year.",
+            correctAnswer: "would have been",
+            options: ["would have been", "would be", "will have been", "would having been"],
+            correctFeedback: "Excellent! 'Were the ethics committee less rigorous' (inverted reverse mixed if-clause) pairs with 'would have been approved' to show the past result of a present hypothetical trait.",
+            correctFeedbackRu: "Отлично! 'Were the ethics committee less rigorous' (инвертированное придаточное обратного смешанного) сочетается с 'would have been approved' для показа прошлого результата настоящей гипотетической черты.",
+            incorrectFeedback: "Try again. In a reverse mixed conditional, the past result requires 'would have been + past participle'. 'Would be' would describe a present result instead.",
+            incorrectFeedbackRu: "Попробуйте снова. В обратном смешанном условном наклонении прошлый результат требует 'would have been + причастие прошедшего времени'. 'Would be' описывало бы настоящий результат."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 3: Mixed Conditionals – Environmental Policy and Climate
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page3'] = {
+    title: "Mixed Conditionals (Advanced) – Environmental Policy and Climate",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If governments ____ carbon emissions in the 1990s, global temperatures would not be rising so sharply today.",
+            correctAnswer: "had capped",
+            options: ["had capped", "capped", "would cap", "have capped"],
+            correctFeedback: "Excellent! 'Had capped' (past perfect) is the correct if-clause form referring to a past decade. The present result 'would not be rising today' confirms this is a forward mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Had capped' (прошедшее совершённое) — правильная форма придаточного, относящаяся к прошлому десятилетию. Настоящий результат 'would not be rising today' подтверждает прямое смешанное условное наклонение.",
+            incorrectFeedback: "Try again. The if-clause of a mixed conditional never uses 'would'. For a past condition, use the past perfect: 'had capped'.",
+            incorrectFeedbackRu: "Попробуйте снова. Придаточное смешанного условного наклонения никогда не использует 'would'. Для прошлого условия используйте прошедшее совершённое: 'had capped'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the coastal city had built stronger flood defences after the last major storm, thousands of homes ____ safe today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'Would be safe today' expresses the present state resulting from a past infrastructure decision. 'Today' confirms the present result.",
+            correctFeedbackRu: "Отлично! 'Would be safe today' выражает настоящее состояние, вытекающее из прошлого инфраструктурного решения. 'Today' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, so use 'would + base verb'. 'Would have been' would describe a past, completed state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, поэтому используйте 'would + основной глагол'. 'Would have been' описывало бы прошлое, завершённое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the logging industry been regulated more strictly decades ago, the rainforest ____ far larger now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "had been"],
+            correctFeedback: "Excellent! The inverted if-clause 'Had the logging industry been regulated' pairs with 'would be' for the present state of the rainforest today.",
+            correctFeedbackRu: "Отлично! Инвертированное придаточное 'Had the logging industry been regulated' сочетается с 'would be' для настоящего состояния тропического леса.",
+            incorrectFeedback: "Try again. 'Now' marks a present result, requiring 'would + base verb'. 'Would have been' would place the result in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Now' обозначает настоящий результат, требуя 'would + основной глагол'. 'Would have been' поместило бы результат в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the government weren't so beholden to fossil fuel lobbyists, it ____ ratified the emissions treaty two years ago.",
+            correctAnswer: "would have",
+            options: ["would have", "would", "will have", "would have had"],
+            correctFeedback: "Excellent! 'Would have ratified' is the past result in a reverse mixed conditional: the government's present dependency explains its past inaction.",
+            correctFeedbackRu: "Отлично! 'Would have ratified' — прошлый результат в обратном смешанном условном наклонении: нынешняя зависимость правительства объясняет его прошлое бездействие.",
+            incorrectFeedback: "Try again. Since the if-clause describes a present trait ('weren't beholden'), the result clause needs 'would have + past participle' for the past outcome.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку придаточное описывает настоящую черту ('weren't beholden'), главному предложению нужно 'would have + причастие прошедшего времени' для прошлого результата."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the early conservation efforts hadn't been so poorly funded, several species ____ still thriving in the wild today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "had been"],
+            correctFeedback: "Excellent! 'Would be still thriving today' shows the present ecological state that depends on adequate funding decades ago.",
+            correctFeedbackRu: "Отлично! 'Would be still thriving today' показывает настоящее экологическое состояние, зависящее от адекватного финансирования десятилетия назад.",
+            incorrectFeedback: "Try again. 'Today' signals a present result. Use 'would + base verb'; 'would have been' would incorrectly place the state in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате. Используйте 'would + основной глагол'; 'would have been' неверно поместило бы состояние в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the transition to renewable energy ____ prioritised sooner, the region wouldn't still be so dependent on imported coal.",
+            correctAnswer: "had been",
+            options: ["had been", "was", "were", "has been"],
+            correctFeedback: "Excellent! 'Had been prioritised' (passive past perfect) is the correct if-clause form for a past condition. 'Wouldn't still be dependent' confirms the present result.",
+            correctFeedbackRu: "Отлично! 'Had been prioritised' (пассивное прошедшее совершённое) — правильная форма придаточного для прошлого условия. 'Wouldn't still be dependent' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. A past condition in the if-clause of a mixed conditional needs the past perfect: 'had been prioritised', not the simple past.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлое условие в придаточном смешанного условного наклонения требует прошедшего совершённого: 'had been prioritised', а не простого прошедшего."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the activists weren't so persistent in their campaigning, the plastics ban ____ passed into law last month.",
+            correctAnswer: "might not have",
+            options: ["might not have", "might have not", "might not had", "wouldn't"],
+            correctFeedback: "Excellent! 'Might not have passed' correctly places 'not' immediately after 'might'. Their present persistence explains why the law passed last month.",
+            correctFeedbackRu: "Отлично! 'Might not have passed' правильно размещает 'not' сразу после 'might'. Их нынешняя настойчивость объясняет, почему закон был принят в прошлом месяце.",
+            incorrectFeedback: "Try again. In negative perfect modals, 'not' always comes directly after the modal: 'might not have', never 'might have not'.",
+            incorrectFeedbackRu: "Попробуйте снова. В отрицательных перфектных модальных конструкциях 'not' всегда стоит сразу после модального глагола: 'might not have', а не 'might have not'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the industrial plants hadn't polluted the river so heavily in past decades, local fishing communities ____ far more prosperous now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'Would be far more prosperous now' shows the present economic state that depends on past environmental practices. 'Now' confirms the present result.",
+            correctFeedbackRu: "Отлично! 'Would be far more prosperous now' показывает настоящее экономическое состояние, зависящее от прошлой экологической практики. 'Now' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. 'Now' requires 'would + base verb' for the present result. 'Would have been' would incorrectly describe a completed past state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Now' требует 'would + основной глагол' для настоящего результата. 'Would have been' неверно описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Were the international community more unified on climate action, the recent summit ____ a binding agreement rather than another vague pledge.",
+            correctAnswer: "would have produced",
+            options: ["would have produced", "would produce", "will have produced", "would having produced"],
+            correctFeedback: "Excellent! 'Were the international community more unified' (inverted reverse mixed if-clause) pairs with 'would have produced' to show the past result of a present hypothetical unity.",
+            correctFeedbackRu: "Отлично! 'Were the international community more unified' (инвертированное придаточное обратного смешанного) сочетается с 'would have produced' для показа прошлого результата настоящего гипотетического единства.",
+            incorrectFeedback: "Try again. A reverse mixed conditional's result clause needs 'would have + past participle' for a past result. 'Would produce' would describe a present or future result.",
+            incorrectFeedbackRu: "Попробуйте снова. Главному предложению обратного смешанного условного наклонения нужно 'would have + причастие прошедшего времени' для прошлого результата."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If it hadn't been for the reforestation programme launched in the 1980s, this valley ____ barren today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "will be"],
+            correctFeedback: "Excellent! 'If it hadn't been for + noun phrase' introduces a past condition formally. 'Would be barren today' correctly expresses the present result.",
+            correctFeedbackRu: "Отлично! 'If it hadn't been for + именная группа' формально вводит прошлое условие. 'Would be barren today' правильно выражает настоящий результат.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, so the result clause needs 'would + base verb', not 'would have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, поэтому главному предложению нужно 'would + основной глагол', а не 'would have been'."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 4: Mixed Conditionals – Law, Government, and Politics
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page4'] = {
+    title: "Mixed Conditionals (Advanced) – Law, Government, and Politics",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the constitution had been amended in the 1960s, minority representation ____ far stronger in parliament today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "will be"],
+            correctFeedback: "Excellent! 'Would be far stronger today' expresses the present state of representation that depends on a past constitutional amendment.",
+            correctFeedbackRu: "Отлично! 'Would be far stronger today' выражает настоящее состояние представительства, зависящее от прошлой конституционной поправки.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, so use 'would + base verb'. 'Would have been' would describe a past, completed state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, поэтому используйте 'would + основной глагол'. 'Would have been' описывало бы прошлое завершённое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the senator not blocked the reform bill last year, healthcare access ____ considerably wider now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "had been"],
+            correctFeedback: "Excellent! The inverted negative if-clause 'Had the senator not blocked' pairs with 'would be' for the present state of healthcare access.",
+            correctFeedbackRu: "Отлично! Инвертированное отрицательное придаточное 'Had the senator not blocked' сочетается с 'would be' для настоящего состояния доступа к здравоохранению.",
+            incorrectFeedback: "Try again. 'Now' marks a present result, requiring 'would + base verb', not 'would have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Now' обозначает настоящий результат, требуя 'would + основной глагол', а не 'would have been'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the president weren't so averse to compromise, the budget deadlock ____ resolved weeks ago.",
+            correctAnswer: "would have been",
+            options: ["would have been", "would be", "will have been", "would having been"],
+            correctFeedback: "Excellent! 'Would have been resolved' is the passive past result in a reverse mixed conditional: his present character trait explains the past deadlock.",
+            correctFeedbackRu: "Отлично! 'Would have been resolved' — пассивный прошлый результат в обратном смешанном условном наклонении: его нынешняя черта характера объясняет прошлый тупик.",
+            incorrectFeedback: "Try again. Since the if-clause describes a present trait ('weren't averse'), the result clause needs 'would have been + past participle' for the past outcome.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку придаточное описывает настоящую черту ('weren't averse'), главному предложению нужно 'would have been + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the judiciary ____ fully independent at the time, the ruling would not still be so widely contested today.",
+            correctAnswer: "had been",
+            options: ["had been", "was", "were", "has been"],
+            correctFeedback: "Excellent! 'Had been fully independent' (past perfect) refers to a specific past time ('at the time'). The result 'would not still be contested today' confirms the present consequence.",
+            correctFeedbackRu: "Отлично! 'Had been fully independent' (прошедшее совершённое) относится к конкретному прошлому времени ('at the time'). Результат подтверждает настоящее последствие.",
+            incorrectFeedback: "Try again. 'At the time' points to a specific past moment, requiring the past perfect 'had been', not the simple past or subjunctive 'were'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'At the time' указывает на конкретный прошлый момент, требуя прошедшего совершённого 'had been', а не простого прошедшего или сослагательного 'were'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the coalition hadn't collapsed so abruptly, the country ____ a stable government right now.",
+            correctAnswer: "would have",
+            options: ["would have", "would have had", "would had", "will have"],
+            correctFeedback: "Excellent! 'Would have' (would + base verb 'have') means 'would possess'. This shows the country's present political stability depending on a past coalition surviving.",
+            correctFeedbackRu: "Отлично! 'Would have' (would + основной глагол 'have') означает 'обладала бы'. Это показывает настоящую политическую стабильность страны.",
+            incorrectFeedback: "Try again. 'Right now' signals a present result. 'Would have had' would incorrectly turn this into a past result.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Right now' сигнализирует о настоящем результате. 'Would have had' неверно превратило бы это в прошлый результат."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If she weren't so uncompromising in her politics, she ____ formed a coalition with the opposition after the last election.",
+            correctAnswer: "might have",
+            options: ["might have", "might", "would", "might had"],
+            correctFeedback: "Excellent! 'Might have formed' expresses an uncertain past possibility. Her present rigidity explains why the coalition didn't form in the past.",
+            correctFeedbackRu: "Отлично! 'Might have formed' выражает неопределённую прошлую возможность. Её нынешняя непримиримость объясняет, почему коалиция не была сформирована в прошлом.",
+            incorrectFeedback: "Try again. The past result in a reverse mixed conditional needs 'might have + past participle'. 'Might' alone would refer to a present possibility.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлый результат в обратном смешанном условном наклонении требует 'might have + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the treaty been ratified by all member states, the alliance ____ a much stronger negotiating position today.",
+            correctAnswer: "would hold",
+            options: ["would hold", "would have held", "held", "will hold"],
+            correctFeedback: "Excellent! 'Would hold today' (would + base verb) expresses the present diplomatic standing that depends on a past ratification. 'Today' confirms the present result.",
+            correctFeedbackRu: "Отлично! 'Would hold today' (would + основной глагол) выражает настоящую дипломатическую позицию, зависящую от прошлой ратификации. 'Today' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. 'Today' requires 'would + base verb'. 'Would have held' would describe a completed past state instead.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' требует 'would + основной глагол'. 'Would have held' описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the whistleblower hadn't exposed the corruption scandal, the minister ____ still be in office now.",
+            correctAnswer: "would",
+            options: ["would", "would have", "will", "would have been"],
+            correctFeedback: "Excellent! 'Would still be in office now' uses the bare modal 'would' before 'still be', correctly expressing the present result of a past revelation.",
+            correctFeedbackRu: "Отлично! 'Would still be in office now' использует простой модальный глагол 'would' перед 'still be', правильно выражая настоящий результат прошлого разоблачения.",
+            incorrectFeedback: "Try again. The sentence already contains 'be in office', so only the modal 'would' belongs in the blank, not 'would have'.",
+            incorrectFeedbackRu: "Попробуйте снова. В предложении уже есть 'be in office', поэтому в пропуск подходит только модальный глагол 'would', а не 'would have'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Provided that the electoral reform ____ enacted before the last cycle, turnout would be considerably higher today.",
+            correctAnswer: "had been",
+            options: ["had been", "was", "were", "would be"],
+            correctFeedback: "Excellent! 'Provided that + past perfect' functions like the if-clause of a forward mixed conditional. 'Would be higher today' confirms the present result.",
+            correctFeedbackRu: "Отлично! 'Provided that + прошедшее совершённое' функционирует как придаточное прямого смешанного условного наклонения. 'Would be higher today' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. 'Provided that' introducing a past hypothetical condition requires the past perfect 'had been', not the simple past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Provided that', вводящее прошлую гипотезу, требует прошедшего совершённого 'had been', а не простого прошедшего."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "But for the last-minute veto, the surveillance law ____ already in force today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "will be"],
+            correctFeedback: "Excellent! 'But for + noun phrase' formally replaces 'if it hadn't been for'. 'Would be already in force today' correctly shows the present result.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. 'Would be already in force today' правильно показывает настоящий результат.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, requiring 'would + base verb' rather than 'would have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, требуя 'would + основной глагол', а не 'would have been'."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 5: Mixed Conditionals – Education and Academia
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page5'] = {
+    title: "Mixed Conditionals (Advanced) – Education and Academia",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the university had invested in modern laboratories a decade ago, its research output ____ far more competitive globally now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "will be"],
+            correctFeedback: "Excellent! 'Would be far more competitive now' expresses the present academic standing that depends on a past investment decision.",
+            correctFeedbackRu: "Отлично! 'Would be far more competitive now' выражает нынешнее академическое положение, зависящее от прошлого инвестиционного решения.",
+            incorrectFeedback: "Try again. 'Now' signals a present result, so use 'would + base verb'. 'Would have been' would describe a past, completed state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Now' сигнализирует о настоящем результате, поэтому используйте 'would + основной глагол'. 'Would have been' описывало бы прошлое завершённое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had she pursued a doctorate straight after her master's, she ____ a tenured professor by now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "had been"],
+            correctFeedback: "Excellent! The inverted if-clause 'Had she pursued' pairs with 'would be' for her present academic status. 'By now' confirms the present result.",
+            correctFeedbackRu: "Отлично! Инвертированное придаточное 'Had she pursued' сочетается с 'would be' для её настоящего академического статуса. 'By now' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. 'By now' marks a present result, requiring 'would + base verb', not 'would have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'By now' обозначает настоящий результат, требуя 'would + основной глагол', а не 'would have been'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the department weren't so resistant to interdisciplinary work, it ____ launched a joint programme with the engineering faculty years ago.",
+            correctAnswer: "would have",
+            options: ["would have", "would", "will have", "would have had"],
+            correctFeedback: "Excellent! 'Would have launched' is the past result in a reverse mixed conditional: the department's present resistance explains its past inaction.",
+            correctFeedbackRu: "Отлично! 'Would have launched' — прошлый результат в обратном смешанном условном наклонении: нынешнее сопротивление отдела объясняет его прошлое бездействие.",
+            incorrectFeedback: "Try again. Since the if-clause describes a present trait ('weren't resistant'), the result clause needs 'would have + past participle' for the past outcome.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку придаточное описывает настоящую черту ('weren't resistant'), главному предложению нужно 'would have + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the scholarship programme hadn't been cut in 2010, hundreds more students ____ studying abroad this year.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'Would be studying' (would + be + present participle) shows an ongoing present activity resulting from a past funding decision.",
+            correctFeedbackRu: "Отлично! 'Would be studying' (would + be + причастие настоящего времени) показывает продолжающуюся настоящую деятельность, вытекающую из прошлого решения о финансировании.",
+            incorrectFeedback: "Try again. For an ongoing present activity, use 'would be + present participle'. 'Would have been' would refer to a past ongoing activity instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающейся настоящей деятельности используйте 'would be + причастие настоящего времени'. 'Would have been' относилось бы к прошлой деятельности."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the professor ____ more approachable, students would have sought his guidance far more often during their theses.",
+            correctAnswer: "were",
+            options: ["were", "had been", "was being", "would be"],
+            correctFeedback: "Excellent! 'Were' (subjunctive) describes a present hypothetical trait in a reverse mixed conditional. 'Would have sought' shows the past consequence of his current demeanour.",
+            correctFeedbackRu: "Отлично! 'Were' (сослагательное наклонение) описывает настоящую гипотетическую черту в обратном смешанном условном наклонении. 'Would have sought' показывает прошлое последствие.",
+            incorrectFeedback: "Try again. Reverse mixed conditionals use 'were' for a present trait. 'Had been' would make this a pure 3rd conditional about a past state.",
+            incorrectFeedbackRu: "Попробуйте снова. Обратные смешанные условные наклонения используют 'were' для настоящей черты. 'Had been' сделало бы это чистым 3-м условным наклонением."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the curriculum been reformed after the initial review, graduates ____ far better equipped for the modern job market today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! The inverted passive if-clause pairs with 'would be' to show graduates' present employability. 'Today' confirms this is a present result.",
+            correctFeedbackRu: "Отлично! Инвертированное пассивное придаточное сочетается с 'would be' для показа нынешней трудоустраиваемости выпускников. 'Today' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. 'Today' requires 'would + base verb'. 'Would have been' would incorrectly place the outcome in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' требует 'would + основной глагол'. 'Would have been' неверно поместило бы результат в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the institute weren't so underfunded, several groundbreaking studies ____ published by now.",
+            correctAnswer: "might have been",
+            options: ["might have been", "might be", "would be", "might been"],
+            correctFeedback: "Excellent! 'Might have been published' expresses an uncertain past passive result. The institute's present lack of funding explains why the studies weren't published.",
+            correctFeedbackRu: "Отлично! 'Might have been published' выражает неопределённый прошлый пассивный результат. Нынешнее недофинансирование института объясняет, почему исследования не были опубликованы.",
+            incorrectFeedback: "Try again. The past passive result in a reverse mixed conditional needs 'might have been + past participle'. 'Might be' would describe a present result.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлый пассивный результат в обратном смешанном условном наклонении требует 'might have been + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If only he had chosen linguistics instead of law, he ____ leading fieldwork in endangered-language communities right now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'If only + past perfect' expresses regret, and 'would be leading right now' (present continuous conditional) shows the current activity he would be engaged in.",
+            correctFeedbackRu: "Отлично! 'If only + прошедшее совершённое' выражает сожаление, а 'would be leading right now' (настоящее продолжательное в условном наклонении) показывает текущую деятельность.",
+            incorrectFeedback: "Try again. 'Right now' requires the present continuous conditional 'would be leading'. 'Would have been' would place the activity in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Right now' требует настоящего продолжательного условного наклонения 'would be leading'. 'Would have been' поместило бы деятельность в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Were the admissions process less opaque, far more first-generation students ____ accepted last year.",
+            correctAnswer: "would have been",
+            options: ["would have been", "would be", "will have been", "would having been"],
+            correctFeedback: "Excellent! 'Were the admissions process less opaque' (inverted reverse mixed if-clause) pairs with 'would have been accepted' for the past passive result.",
+            correctFeedbackRu: "Отлично! 'Were the admissions process less opaque' (инвертированное придаточное) сочетается с 'would have been accepted' для прошлого пассивного результата.",
+            incorrectFeedback: "Try again. A reverse mixed conditional's past result requires 'would have been + past participle'. 'Would be' would describe a present result instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлый результат обратного смешанного условного наклонения требует 'would have been + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "But for a single inspiring mentor in secondary school, she ____ never have considered a career in astrophysics.",
+            correctAnswer: "would",
+            options: ["would", "would have", "will", "would have had"],
+            correctFeedback: "Excellent! 'Would never have considered' is the past result following 'but for'. Only the modal 'would' belongs in the blank since 'never have considered' follows.",
+            correctFeedbackRu: "Отлично! 'Would never have considered' — прошлый результат после 'but for'. В пропуск подходит только модальный глагол 'would', поскольку далее следует 'never have considered'.",
+            incorrectFeedback: "Try again. The sentence already contains 'have considered', so the blank needs only the modal 'would', not 'would have'.",
+            incorrectFeedbackRu: "Попробуйте снова. В предложении уже есть 'have considered', поэтому в пропуск подходит только модальный глагол 'would', а не 'would have'."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 6: Mixed Conditionals – Technology and Innovation
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page6'] = {
+    title: "Mixed Conditionals (Advanced) – Technology and Innovation",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the engineers had patented the design in the 1990s, the company ____ the dominant player in the market today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "will be"],
+            correctFeedback: "Excellent! 'Would be the dominant player today' expresses the present market position resulting from a past patenting decision.",
+            correctFeedbackRu: "Отлично! 'Would be the dominant player today' выражает нынешнее положение на рынке, вытекающее из прошлого решения о патентовании.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, so use 'would + base verb'. 'Would have been' would describe a past, completed state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, поэтому используйте 'would + основной глагол'. 'Would have been' описывало бы прошлое завершённое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the developers tested the software more rigorously, the system ____ crashing under heavy load right now.",
+            correctAnswer: "wouldn't be",
+            options: ["wouldn't be", "wouldn't have been", "weren't", "won't be"],
+            correctFeedback: "Excellent! 'Wouldn't be crashing' (would + be + present participle, negated) shows the ongoing present malfunction resulting from insufficient past testing.",
+            correctFeedbackRu: "Отлично! 'Wouldn't be crashing' (would + be + причастие настоящего времени, отрицание) показывает продолжающуюся настоящую неисправность, вытекающую из недостаточного прошлого тестирования.",
+            incorrectFeedback: "Try again. 'Right now' signals an ongoing present state, requiring 'wouldn't be + present participle'. 'Wouldn't have been' would place this in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Right now' сигнализирует о продолжающемся настоящем состоянии, требуя 'wouldn't be + причастие настоящего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the founders weren't so averse to outside investment, the platform ____ scaled internationally by now.",
+            correctAnswer: "would have",
+            options: ["would have", "would", "will have", "would have had"],
+            correctFeedback: "Excellent! 'Would have scaled' is the past result in a reverse mixed conditional: the founders' present risk-aversion explains why the platform hasn't scaled.",
+            correctFeedbackRu: "Отлично! 'Would have scaled' — прошлый результат в обратном смешанном условном наклонении: нынешняя несклонность основателей к риску объясняет, почему платформа не масштабировалась.",
+            incorrectFeedback: "Try again. Since the if-clause describes a present trait ('weren't averse'), the result clause needs 'would have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку придаточное описывает настоящую черту ('weren't averse'), главному предложению нужно 'would have + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the algorithm hadn't been trained on biased data, the model ____ far more accurate predictions today.",
+            correctAnswer: "would generate",
+            options: ["would generate", "would have generated", "generated", "will generate"],
+            correctFeedback: "Excellent! 'Would generate' (would + base verb) expresses the model's present predictive performance, which depends on a past training decision.",
+            correctFeedbackRu: "Отлично! 'Would generate' (would + основной глагол) выражает нынешнюю прогностическую эффективность модели, зависящую от прошлого решения об обучении.",
+            incorrectFeedback: "Try again. Since the result concerns present performance ('today'), use 'would + base verb'. 'Would have generated' would refer to past output.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку результат касается настоящей эффективности ('today'), используйте 'would + основной глагол'. 'Would have generated' относилось бы к прошлому выводу."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Were the CEO less obsessed with secrecy, the firm's research ____ published in peer-reviewed journals years ago.",
+            correctAnswer: "would have been",
+            options: ["would have been", "would be", "will have been", "would having been"],
+            correctFeedback: "Excellent! 'Were the CEO less obsessed' (inverted reverse mixed if-clause) pairs with 'would have been published' for the past passive result.",
+            correctFeedbackRu: "Отлично! 'Were the CEO less obsessed' (инвертированное придаточное) сочетается с 'would have been published' для прошлого пассивного результата.",
+            incorrectFeedback: "Try again. A reverse mixed conditional's past result requires 'would have been + past participle'. 'Would be' would describe a present result instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлый результат обратного смешанного условного наклонения требует 'would have been + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the company had prioritised cybersecurity years ago, the recent breach ____ never have occurred.",
+            correctAnswer: "would",
+            options: ["would", "would have", "will", "would have had"],
+            correctFeedback: "Excellent! 'Would never have occurred' is the past result, and only the modal 'would' belongs in the blank since 'never have occurred' already follows.",
+            correctFeedbackRu: "Отлично! 'Would never have occurred' — прошлый результат, и в пропуск подходит только модальный глагол 'would', поскольку далее следует 'never have occurred'.",
+            incorrectFeedback: "Try again. The sentence already contains 'have occurred', so the blank needs only 'would', not 'would have'.",
+            incorrectFeedbackRu: "Попробуйте снова. В предложении уже есть 'have occurred', поэтому в пропуск подходит только 'would', а не 'would have'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If she hadn't dropped out to launch her startup, she ____ still coding for a large corporation now.",
+            correctAnswer: "might be",
+            options: ["might be", "might have been", "would have", "will be"],
+            correctFeedback: "Excellent! 'Might be still coding now' expresses an uncertain present alternative. It is more cautious than 'would be', acknowledging other possible career paths.",
+            correctFeedbackRu: "Отлично! 'Might be still coding now' выражает неопределённую настоящую альтернативу. Это более осторожно, чем 'would be', признавая другие возможные карьерные пути.",
+            incorrectFeedback: "Try again. 'Might be' is the present-result modal form. 'Might have been' would place this uncertain result in the past, contradicting 'now'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Might be' — форма модального глагола для настоящего результата. 'Might have been' поместило бы этот результат в прошлое, что противоречит 'now'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the regulators intervened earlier, the data breach ____ millions of users' privacy right now.",
+            correctAnswer: "wouldn't be threatening",
+            options: ["wouldn't be threatening", "wouldn't have threatened", "didn't threaten", "won't be threatening"],
+            correctFeedback: "Excellent! 'Wouldn't be threatening' (would + be + present participle, negated) shows the ongoing present danger that persists because of insufficient past intervention.",
+            correctFeedbackRu: "Отлично! 'Wouldn't be threatening' (would + be + причастие настоящего времени, отрицание) показывает продолжающуюся настоящую угрозу из-за недостаточного прошлого вмешательства.",
+            incorrectFeedback: "Try again. 'Right now' signals an ongoing present situation, requiring 'wouldn't be + present participle', not the past 'wouldn't have threatened'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Right now' сигнализирует о продолжающейся настоящей ситуации, требуя 'wouldn't be + причастие настоящего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the open-source community hadn't maintained the framework so diligently, thousands of applications ____ built on it today.",
+            correctAnswer: "wouldn't be",
+            options: ["wouldn't be", "wouldn't have been", "weren't", "won't be"],
+            correctFeedback: "Excellent! 'Wouldn't be built today' correctly uses the present passive conditional to show the current state of applications relying on the framework.",
+            correctFeedbackRu: "Отлично! 'Wouldn't be built today' правильно использует настоящее пассивное условное наклонение для показа текущего состояния приложений.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, so use 'wouldn't be + past participle'. 'Wouldn't have been' would place the result in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, используйте 'wouldn't be + причастие прошедшего времени'. 'Wouldn't have been' поместило бы результат в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "But for an anonymous tip from a security researcher, the vulnerability ____ exploited by hackers already.",
+            correctAnswer: "might have been",
+            options: ["might have been", "might be", "would be", "might been"],
+            correctFeedback: "Excellent! 'Might have been exploited' expresses an uncertain past passive possibility that was avoided thanks to the tip. 'Already' confirms this refers to the past.",
+            correctFeedbackRu: "Отлично! 'Might have been exploited' выражает неопределённую прошлую пассивную возможность, которой удалось избежать благодаря наводке. 'Already' подтверждает, что это относится к прошлому.",
+            incorrectFeedback: "Try again. The past passive possibility requires 'might have been + past participle'. 'Might be' would describe a present possibility instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлая пассивная возможность требует 'might have been + причастие прошедшего времени'. 'Might be' описывало бы настоящую возможность."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 7: Mixed Conditionals – Arts, Culture, and Media
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page7'] = {
+    title: "Mixed Conditionals (Advanced) – Arts, Culture, and Media",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the director had cast an unknown actor in the lead role, the film ____ regarded as a daring artistic statement today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "will be"],
+            correctFeedback: "Excellent! 'Would be regarded today' expresses the present critical reputation of the film, which depends on a past casting decision.",
+            correctFeedbackRu: "Отлично! 'Would be regarded today' выражает нынешнюю критическую репутацию фильма, зависящую от прошлого решения о кастинге.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, so use 'would + base verb'. 'Would have been' would describe a completed past state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, поэтому используйте 'would + основной глагол'. 'Would have been' описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the novelist not destroyed her early manuscripts, scholars ____ studying her creative evolution in far greater depth now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! The inverted negative if-clause 'Had the novelist not destroyed' pairs with 'would be studying' (present continuous conditional) for the ongoing present research.",
+            correctFeedbackRu: "Отлично! Инвертированное отрицательное придаточное сочетается с 'would be studying' (настоящее продолжательное в условном наклонении) для продолжающегося настоящего исследования.",
+            incorrectFeedback: "Try again. 'Now' marks a present ongoing activity, requiring 'would be + present participle'. 'Would have been' would place this in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Now' обозначает продолжающуюся настоящую деятельность, требуя 'would be + причастие настоящего времени'. 'Would have been' поместило бы это в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the gallery weren't so conservative in its programming, it ____ exhibited far more experimental work over the past few years.",
+            correctAnswer: "would have",
+            options: ["would have", "would", "will have", "would have had"],
+            correctFeedback: "Excellent! 'Would have exhibited' is the past result in a reverse mixed conditional: the gallery's present conservatism explains its past programming choices.",
+            correctFeedbackRu: "Отлично! 'Would have exhibited' — прошлый результат в обратном смешанном условном наклонении: нынешний консерватизм галереи объясняет её прошлые решения по программированию.",
+            incorrectFeedback: "Try again. Since the if-clause describes a present trait ('weren't conservative'), the result clause needs 'would have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку придаточное описывает настоящую черту ('weren't conservative'), главному предложению нужно 'would have + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the composer hadn't been so dismissive of critics early on, her reputation ____ far less controversial now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'Would be far less controversial now' expresses the present state of her reputation, which depends on a past attitude toward criticism.",
+            correctFeedbackRu: "Отлично! 'Would be far less controversial now' выражает нынешнее состояние её репутации, зависящее от прошлого отношения к критике.",
+            incorrectFeedback: "Try again. 'Now' signals a present result. 'Would have been' would incorrectly describe a completed past state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Now' сигнализирует о настоящем результате. 'Would have been' неверно описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the magazine ____ published the exposé sooner, the scandal would not still be tarnishing the studio's reputation today.",
+            correctAnswer: "had",
+            options: ["had", "has", "would have", "were"],
+            correctFeedback: "Excellent! 'Had published' (past perfect) is the correct if-clause form. 'Would not still be tarnishing today' confirms the ongoing present consequence.",
+            correctFeedbackRu: "Отлично! 'Had published' (прошедшее совершённое) — правильная форма придаточного. 'Would not still be tarnishing today' подтверждает продолжающееся настоящее последствие.",
+            incorrectFeedback: "Try again. The if-clause of a mixed conditional never uses 'would'. For a past condition, use the past perfect: 'had published'.",
+            incorrectFeedbackRu: "Попробуйте снова. Придаточное смешанного условного наклонения никогда не использует 'would'. Для прошлого условия используйте прошедшее совершённое: 'had published'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Were the streaming platform less risk-averse in its commissioning, several acclaimed series ____ greenlit years earlier.",
+            correctAnswer: "would have been",
+            options: ["would have been", "would be", "will have been", "would having been"],
+            correctFeedback: "Excellent! 'Were the platform less risk-averse' (inverted reverse mixed if-clause) pairs with 'would have been greenlit' for the past passive result.",
+            correctFeedbackRu: "Отлично! 'Were the platform less risk-averse' (инвертированное придаточное) сочетается с 'would have been greenlit' для прошлого пассивного результата.",
+            incorrectFeedback: "Try again. A reverse mixed conditional's past result requires 'would have been + past participle'. 'Would be' would describe a present result instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлый результат обратного смешанного условного наклонения требует 'would have been + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If only she had kept her original sketches, the museum ____ displaying an entire retrospective of her early work right now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'If only + past perfect' expresses deep regret. 'Would be displaying right now' (present continuous conditional) shows the current exhibition that would be taking place.",
+            correctFeedbackRu: "Отлично! 'If only + прошедшее совершённое' выражает глубокое сожаление. 'Would be displaying right now' показывает текущую выставку, которая проходила бы сейчас.",
+            incorrectFeedback: "Try again. 'Right now' requires the present continuous conditional 'would be displaying'. 'Would have been' would place the activity in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Right now' требует настоящего продолжательного условного наклонения 'would be displaying'. 'Would have been' поместило бы деятельность в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the journalist weren't so meticulous about sourcing, the exposé ____ dismissed as unreliable when it was first published.",
+            correctAnswer: "might have been",
+            options: ["might have been", "might be", "would be", "might been"],
+            correctFeedback: "Excellent! 'Might have been dismissed' expresses an uncertain past possibility. Her present meticulousness explains why the exposé was taken seriously in the past.",
+            correctFeedbackRu: "Отлично! 'Might have been dismissed' выражает неопределённую прошлую возможность. Её нынешняя тщательность объясняет, почему разоблачение восприняли серьёзно в прошлом.",
+            incorrectFeedback: "Try again. The past passive possibility requires 'might have been + past participle' in a reverse mixed conditional. 'Might be' would describe a present possibility.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлая пассивная возможность требует 'might have been + причастие прошедшего времени'. 'Might be' описывало бы настоящую возможность."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "But for a chance encounter with a talent scout, the singer ____ still performing in small local venues today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "was", "will be"],
+            correctFeedback: "Excellent! 'But for + noun phrase' formally replaces 'if it hadn't been for'. 'Would be still performing today' correctly expresses the ongoing present result.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. 'Would be still performing today' правильно выражает продолжающийся настоящий результат.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, requiring 'would + base verb' rather than 'would have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, требуя 'would + основной глагол', а не 'would have been'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the publisher hadn't rejected the manuscript five times, the author ____ a household name by now.",
+            correctAnswer: "might be",
+            options: ["might be", "might have been", "would have", "will be"],
+            correctFeedback: "Excellent! 'Might be a household name by now' expresses an uncertain present possibility, acknowledging that fame depends on many factors beyond a single publishing decision.",
+            correctFeedbackRu: "Отлично! 'Might be a household name by now' выражает неопределённую настоящую возможность, признавая, что известность зависит от многих факторов.",
+            incorrectFeedback: "Try again. 'Might be' is the present-result modal form. 'Might have been' would place this uncertain result in the past, contradicting 'by now'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Might be' — форма модального глагола для настоящего результата. 'Might have been' поместило бы этот результат в прошлое."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 8: Mixed Conditionals – Sports and Personal Achievement
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page8'] = {
+    title: "Mixed Conditionals (Advanced) – Sports and Personal Achievement",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the coach had spotted her potential earlier, she ____ competing at the international level right now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'Would be competing right now' (would + be + present participle) shows her ongoing present athletic career resulting from an earlier discovery.",
+            correctFeedbackRu: "Отлично! 'Would be competing right now' (would + be + причастие настоящего времени) показывает её продолжающуюся спортивную карьеру.",
+            incorrectFeedback: "Try again. For an ongoing present activity, use 'would be + present participle'. 'Would have been' would refer to a past ongoing activity instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающейся настоящей деятельности используйте 'would be + причастие настоящего времени'. 'Would have been' относилось бы к прошлой деятельности."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had he not torn his ligament during the final trial, he ____ a realistic chance of Olympic selection today.",
+            correctAnswer: "would have",
+            options: ["would have", "would have had", "would had", "will have"],
+            correctFeedback: "Excellent! 'Would have' (would + base verb 'have') means 'would possess'. This shows his present prospects depending on avoiding a past injury.",
+            correctFeedbackRu: "Отлично! 'Would have' (would + основной глагол 'have') означает 'обладал бы'. Это показывает его нынешние перспективы, зависящие от отсутствия прошлой травмы.",
+            incorrectFeedback: "Try again. 'Today' signals a present result. 'Would have had' would incorrectly turn this into a past result.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате. 'Would have had' неверно превратило бы это в прошлый результат."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If she weren't so disciplined about her training regime, she ____ qualified for the championship last season.",
+            correctAnswer: "wouldn't have",
+            options: ["wouldn't have", "wouldn't", "won't have", "wouldn't have had"],
+            correctFeedback: "Excellent! 'Wouldn't have qualified' is the past result in a reverse mixed conditional: her present discipline explains her past qualification.",
+            correctFeedbackRu: "Отлично! 'Wouldn't have qualified' — прошлый результат в обратном смешанном условном наклонении: её нынешняя дисциплина объясняет прошлую квалификацию.",
+            incorrectFeedback: "Try again. Since the if-clause describes a present trait ('weren't disciplined'), the result clause needs 'wouldn't have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку придаточное описывает настоящую черту ('weren't disciplined'), главному предложению нужно 'wouldn't have + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the federation hadn't banned him after the incident, he ____ still competing professionally today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'Would be still competing today' shows his present professional status, which depends on a past disciplinary decision.",
+            correctFeedbackRu: "Отлично! 'Would be still competing today' показывает его нынешний профессиональный статус, зависящий от прошлого дисциплинарного решения.",
+            incorrectFeedback: "Try again. 'Today' requires 'would + base verb' for the present result. 'Would have been' would incorrectly describe a completed past state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' требует 'would + основной глагол' для настоящего результата. 'Would have been' неверно описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Were he less obsessive about perfecting his technique, he ____ his rhythm during that crucial final match.",
+            correctAnswer: "wouldn't have lost",
+            options: ["wouldn't have lost", "wouldn't lose", "won't have lost", "wouldn't having lost"],
+            correctFeedback: "Excellent! 'Were he less obsessive' (inverted reverse mixed if-clause) pairs with 'wouldn't have lost' to show the past result of a present hypothetical trait.",
+            correctFeedbackRu: "Отлично! 'Were he less obsessive' (инвертированное придаточное) сочетается с 'wouldn't have lost' для показа прошлого результата настоящей гипотетической черты.",
+            incorrectFeedback: "Try again. A reverse mixed conditional's result clause needs 'would have + past participle' for a past result. 'Would lose' would describe a present or future result.",
+            incorrectFeedbackRu: "Попробуйте снова. Главному предложению обратного смешанного условного наклонения нужно 'would have + причастие прошедшего времени' для прошлого результата."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If she hadn't switched coaches after the injury, her technique ____ far less refined than it is now.",
+            correctAnswer: "might be",
+            options: ["might be", "might have been", "would have", "will be"],
+            correctFeedback: "Excellent! 'Might be far less refined now' expresses an uncertain present possibility. It is more cautious than 'would be', acknowledging that other factors also shaped her technique.",
+            correctFeedbackRu: "Отлично! 'Might be far less refined now' выражает неопределённую настоящую возможность. Это более осторожно, чем 'would be'.",
+            incorrectFeedback: "Try again. 'Might be' is the present-result modal form. 'Might have been' would place this uncertain result in the past, contradicting 'now'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Might be' — форма модального глагола для настоящего результата. 'Might have been' поместило бы этот результат в прошлое."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "But for a last-minute change of tactics, the team ____ eliminated in the first round last year.",
+            correctAnswer: "might have been",
+            options: ["might have been", "might be", "would be", "might been"],
+            correctFeedback: "Excellent! 'Might have been eliminated' expresses an uncertain past passive possibility that was avoided. 'Last year' confirms this refers to the past.",
+            correctFeedbackRu: "Отлично! 'Might have been eliminated' выражает неопределённую прошлую пассивную возможность, которой удалось избежать. 'Last year' подтверждает, что это относится к прошлому.",
+            incorrectFeedback: "Try again. The past passive possibility requires 'might have been + past participle'. 'Might be' would describe a present possibility instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлая пассивная возможность требует 'might have been + причастие прошедшего времени'. 'Might be' описывало бы настоящую возможность."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If only he had taken the injury seriously, he ____ playing at the highest level for years to come.",
+            correctAnswer: "would still be",
+            options: ["would still be", "would still have been", "will still be", "would still having been"],
+            correctFeedback: "Excellent! 'If only + past perfect' expresses regret, and 'would still be playing' (present continuous conditional) shows his ongoing career that this regret concerns.",
+            correctFeedbackRu: "Отлично! 'If only + прошедшее совершённое' выражает сожаление, а 'would still be playing' показывает его продолжающуюся карьеру.",
+            incorrectFeedback: "Try again. An ongoing present activity requires 'would still be + present participle'. 'Would still have been' would place the activity in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. Продолжающаяся настоящая деятельность требует 'would still be + причастие настоящего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the athlete weren't so mentally resilient, the early setbacks ____ have ended her career altogether.",
+            correctAnswer: "might",
+            options: ["might", "might have", "would", "might had"],
+            correctFeedback: "Excellent! 'Might have ended' expresses an uncertain past possibility; the blank needs only the modal 'might' since 'have ended' already follows.",
+            correctFeedbackRu: "Отлично! 'Might have ended' выражает неопределённую прошлую возможность; в пропуске нужен только модальный глагол 'might', поскольку далее следует 'have ended'.",
+            incorrectFeedback: "Try again. The sentence already contains 'have ended', so only the bare modal 'might' belongs in the blank.",
+            incorrectFeedbackRu: "Попробуйте снова. В предложении уже есть 'have ended', поэтому в пропуск подходит только модальный глагол 'might'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had she not taken a year off to recover, her ranking ____ considerably higher at present.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! The inverted negative if-clause 'Had she not taken' pairs with 'would be' for her present ranking. 'At present' confirms the present result.",
+            correctFeedbackRu: "Отлично! Инвертированное отрицательное придаточное сочетается с 'would be' для её нынешнего рейтинга. 'At present' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. 'At present' marks a present result, requiring 'would + base verb', not 'would have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'At present' обозначает настоящий результат, требуя 'would + основной глагол', а не 'would have been'."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 9: Mixed Conditionals – History and International Relations
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page9'] = {
+    title: "Mixed Conditionals (Advanced) – History and International Relations",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the two nations had signed the border agreement decades ago, tensions ____ far lower today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'Would be far lower today' expresses the present diplomatic climate, which depends on a past agreement never being signed.",
+            correctFeedbackRu: "Отлично! 'Would be far lower today' выражает нынешний дипломатический климат, зависящий от того, что прошлое соглашение не было подписано.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, so use 'would + base verb'. 'Would have been' would describe a completed past state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, поэтому используйте 'would + основной глагол'. 'Would have been' описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the empire not overextended its territory in the fourth century, its collapse ____ far more gradual.",
+            correctAnswer: "might have been",
+            options: ["might have been", "might be", "would be", "might been"],
+            correctFeedback: "Excellent! 'Might have been far more gradual' expresses an uncertain past possibility, appropriately hedging a historical counterfactual with 'might' rather than 'would'.",
+            correctFeedbackRu: "Отлично! 'Might have been far more gradual' выражает неопределённую прошлую возможность, уместно смягчая исторический контрфактуал 'might' вместо 'would'.",
+            incorrectFeedback: "Try again. This describes a past historical outcome, so the modal needs 'have been': 'might have been'. 'Might be' would refer to the present.",
+            incorrectFeedbackRu: "Попробуйте снова. Это описывает прошлый исторический исход, поэтому модальному глаголу нужно 'have been': 'might have been'. 'Might be' относилось бы к настоящему."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the diplomats weren't so entrenched in mutual distrust, the ceasefire ____ signed months ago.",
+            correctAnswer: "would have been",
+            options: ["would have been", "would be", "will have been", "would having been"],
+            correctFeedback: "Excellent! 'Would have been signed' is the passive past result in a reverse mixed conditional: the diplomats' present distrust explains why the ceasefire wasn't signed.",
+            correctFeedbackRu: "Отлично! 'Would have been signed' — пассивный прошлый результат в обратном смешанном условном наклонении: нынешнее недоверие дипломатов объясняет, почему перемирие не было подписано.",
+            incorrectFeedback: "Try again. Since the if-clause describes a present trait ('weren't entrenched'), the result clause needs 'would have been + past participle' for the past outcome.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку придаточное описывает настоящую черту ('weren't entrenched'), главному предложению нужно 'would have been + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the archive hadn't been destroyed during the war, historians ____ a far clearer picture of that era today.",
+            correctAnswer: "would have",
+            options: ["would have", "would have had", "would had", "will have"],
+            correctFeedback: "Excellent! 'Would have' (would + base verb 'have') means 'would possess'. This shows historians' present understanding depending on the archive's past survival.",
+            correctFeedbackRu: "Отлично! 'Would have' (would + основной глагол 'have') означает 'обладали бы'. Это показывает нынешнее понимание историков, зависящее от прошлого сохранения архива.",
+            incorrectFeedback: "Try again. 'Today' signals a present result. 'Would have had' would incorrectly turn this into a past result.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате. 'Would have had' неверно превратило бы это в прошлый результат."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Were the two leaders less obsessed with national pride, the summit ____ a genuine breakthrough rather than another stalemate.",
+            correctAnswer: "would have produced",
+            options: ["would have produced", "would produce", "will have produced", "would having produced"],
+            correctFeedback: "Excellent! 'Were the two leaders less obsessed' (inverted reverse mixed if-clause) pairs with 'would have produced' to show the past result of a present hypothetical attitude.",
+            correctFeedbackRu: "Отлично! 'Were the two leaders less obsessed' (инвертированное придаточное) сочетается с 'would have produced' для показа прошлого результата настоящей гипотетической черты.",
+            incorrectFeedback: "Try again. A reverse mixed conditional's result clause needs 'would have + past participle' for a past result. 'Would produce' would describe a present or future result.",
+            incorrectFeedbackRu: "Попробуйте снова. Главному предложению обратного смешанного условного наклонения нужно 'would have + причастие прошедшего времени' для прошлого результата."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If it hadn't been for the intervention of neutral mediators, the conflict ____ escalating even now.",
+            correctAnswer: "might still be",
+            options: ["might still be", "might still have been", "would still be", "might still having been"],
+            correctFeedback: "Excellent! 'Might still be escalating even now' (might + still + be + present participle) expresses an uncertain, ongoing present possibility that mediation prevented.",
+            correctFeedbackRu: "Отлично! 'Might still be escalating even now' выражает неопределённую продолжающуюся настоящую возможность, которую предотвратило посредничество.",
+            incorrectFeedback: "Try again. 'Even now' signals an ongoing present possibility, requiring 'might still be + present participle'. 'Might still have been' would place this in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Even now' сигнализирует о продолжающейся настоящей возможности, требуя 'might still be + причастие настоящего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had the explorers not charted the coastline so meticulously, that region ____ largely unmapped in modern atlases.",
+            correctAnswer: "would remain",
+            options: ["would remain", "would have remained", "remained", "will remain"],
+            correctFeedback: "Excellent! 'Would remain' (would + base verb) expresses the present state of modern cartography, which depends on a past exploratory achievement.",
+            correctFeedbackRu: "Отлично! 'Would remain' (would + основной глагол) выражает нынешнее состояние современной картографии, зависящее от прошлого исследовательского достижения.",
+            incorrectFeedback: "Try again. This describes a present cartographic state ('in modern atlases'), so use 'would + base verb'. 'Would have remained' would refer to a past state.",
+            incorrectFeedbackRu: "Попробуйте снова. Это описывает настоящее картографическое состояние, поэтому используйте 'would + основной глагол'. 'Would have remained' относилось бы к прошлому состоянию."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the reformist faction weren't so marginalised within the party, the policy shift ____ already have taken place.",
+            correctAnswer: "would",
+            options: ["would", "would have", "will", "would have had"],
+            correctFeedback: "Excellent! 'Would already have taken place' is the past result, and only the modal 'would' belongs in the blank since 'already have taken place' follows.",
+            correctFeedbackRu: "Отлично! 'Would already have taken place' — прошлый результат, и в пропуск подходит только модальный глагол 'would', поскольку далее следует 'already have taken place'.",
+            incorrectFeedback: "Try again. The sentence already contains 'have taken place', so the blank needs only 'would', not 'would have'.",
+            incorrectFeedbackRu: "Попробуйте снова. В предложении уже есть 'have taken place', поэтому в пропуск подходит только 'would', а не 'would have'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "But for the courage of a handful of dissidents, the regime ____ entirely unchallenged to this day.",
+            correctAnswer: "would remain",
+            options: ["would remain", "would have remained", "remained", "will remain"],
+            correctFeedback: "Excellent! 'Would remain unchallenged to this day' correctly uses 'would + base verb' for the present political state resulting from past acts of courage.",
+            correctFeedbackRu: "Отлично! 'Would remain unchallenged to this day' правильно использует 'would + основной глагол' для настоящего политического состояния.",
+            incorrectFeedback: "Try again. 'To this day' signals a present result. 'Would have remained' would incorrectly describe a completed past state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'To this day' сигнализирует о настоящем результате. 'Would have remained' неверно описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the treaty negotiations ____ concluded before the elections, the entire geopolitical landscape would look different now.",
+            correctAnswer: "had been",
+            options: ["had been", "were", "was", "have been"],
+            correctFeedback: "Excellent! 'Had been concluded' (passive past perfect) is the correct if-clause form for a past condition. 'Would look different now' confirms the present result.",
+            correctFeedbackRu: "Отлично! 'Had been concluded' (пассивное прошедшее совершённое) — правильная форма придаточного для прошлого условия. 'Would look different now' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. A past condition in the if-clause of a mixed conditional needs the past perfect: 'had been concluded', not the subjunctive 'were'.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлое условие в придаточном смешанного условного наклонения требует прошедшего совершённого: 'had been concluded', а не сослагательного 'were'."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 10: Mixed Conditionals – Personal Relationships and Career Development
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-gap-page10'] = {
+    title: "Mixed Conditionals (Advanced) – Personal Relationships and Career Development",
+    fillGaps: [
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If she had accepted the transfer to the overseas office, she ____ leading a much larger team today.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'Would be leading today' (would + be + present participle) shows the ongoing present role she would occupy had she accepted the transfer.",
+            correctFeedbackRu: "Отлично! 'Would be leading today' (would + be + причастие настоящего времени) показывает продолжающуюся настоящую роль, которую она занимала бы.",
+            incorrectFeedback: "Try again. For an ongoing present role, use 'would be + present participle'. 'Would have been' would refer to a past ongoing activity instead.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающейся настоящей роли используйте 'would be + причастие настоящего времени'. 'Would have been' относилось бы к прошлой деятельности."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had they not drifted apart after university, they ____ close friends to this day.",
+            correctAnswer: "would still be",
+            options: ["would still be", "would still have been", "will still be", "would still having been"],
+            correctFeedback: "Excellent! The inverted negative if-clause 'Had they not drifted apart' pairs with 'would still be' for their present friendship. 'To this day' confirms the present result.",
+            correctFeedbackRu: "Отлично! Инвертированное отрицательное придаточное сочетается с 'would still be' для их нынешней дружбы. 'To this day' подтверждает настоящий результат.",
+            incorrectFeedback: "Try again. 'To this day' marks a present result, requiring 'would still be', not 'would still have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. 'To this day' обозначает настоящий результат, требуя 'would still be', а не 'would still have been'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If he weren't so conflict-averse, he ____ addressed the tension with his business partner years ago.",
+            correctAnswer: "would have",
+            options: ["would have", "would", "will have", "would have had"],
+            correctFeedback: "Excellent! 'Would have addressed' is the past result in a reverse mixed conditional: his present conflict-avoidance explains his past inaction.",
+            correctFeedbackRu: "Отлично! 'Would have addressed' — прошлый результат в обратном смешанном условном наклонении: его нынешнее избегание конфликтов объясняет прошлое бездействие.",
+            incorrectFeedback: "Try again. Since the if-clause describes a present trait ('weren't conflict-averse'), the result clause needs 'would have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Поскольку придаточное описывает настоящую черту, главному предложению нужно 'would have + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If she hadn't mentored him so patiently early in his career, he ____ nearly as confident a leader today.",
+            correctAnswer: "wouldn't be",
+            options: ["wouldn't be", "wouldn't have been", "weren't", "won't be"],
+            correctFeedback: "Excellent! 'Wouldn't be nearly as confident today' expresses his present leadership qualities, which depend on past mentorship.",
+            correctFeedbackRu: "Отлично! 'Wouldn't be nearly as confident today' выражает его нынешние лидерские качества, зависящие от прошлого наставничества.",
+            incorrectFeedback: "Try again. 'Today' signals a present result, so use 'wouldn't be'. 'Wouldn't have been' would incorrectly describe a completed past state.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате, поэтому используйте 'wouldn't be'. 'Wouldn't have been' неверно описывало бы завершённое прошлое состояние."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Were she less fiercely independent, she ____ her family's advice and stayed in her hometown after graduating.",
+            correctAnswer: "might have taken",
+            options: ["might have taken", "might take", "would take", "might having taken"],
+            correctFeedback: "Excellent! 'Were she less fiercely independent' (inverted reverse mixed if-clause) pairs with 'might have taken' to show the uncertain past result of a present hypothetical trait.",
+            correctFeedbackRu: "Отлично! 'Were she less fiercely independent' (инвертированное придаточное) сочетается с 'might have taken' для показа неопределённого прошлого результата.",
+            incorrectFeedback: "Try again. A reverse mixed conditional's past result needs 'might have + past participle'. 'Might take' would describe a present or future possibility.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлый результат обратного смешанного условного наклонения требует 'might have + причастие прошедшего времени'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If only I had negotiated my starting salary more assertively, I ____ earning considerably more right now.",
+            correctAnswer: "would be",
+            options: ["would be", "would have been", "were", "will be"],
+            correctFeedback: "Excellent! 'If only + past perfect' expresses regret, and 'would be earning right now' (present continuous conditional) shows the current salary that would result.",
+            correctFeedbackRu: "Отлично! 'If only + прошедшее совершённое' выражает сожаление, а 'would be earning right now' показывает текущую зарплату, которая была бы результатом.",
+            incorrectFeedback: "Try again. 'Right now' requires the present continuous conditional 'would be earning'. 'Would have been' would place the situation in the past.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Right now' требует настоящего продолжательного условного наклонения 'would be earning'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "But for a chance meeting at a conference, they ____ met at all, and their long partnership would never have begun.",
+            correctAnswer: "might never have",
+            options: ["might never have", "might never", "would never", "might have never had"],
+            correctFeedback: "Excellent! 'Might never have met' expresses an uncertain past possibility. This shows how a chance event shaped a lasting professional relationship.",
+            correctFeedbackRu: "Отлично! 'Might never have met' выражает неопределённую прошлую возможность. Это показывает, как случайное событие сформировало длительные профессиональные отношения.",
+            incorrectFeedback: "Try again. The past possibility requires 'might have + past participle', with 'never' inserted between 'might' and 'have': 'might never have met'.",
+            incorrectFeedbackRu: "Попробуйте снова. Прошлая возможность требует 'might have + причастие прошедшего времени', с 'never', вставленным между 'might' и 'have'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If he weren't so reluctant to relocate, his family ____ already have settled into their new life abroad.",
+            correctAnswer: "would",
+            options: ["would", "would have", "will", "would have had"],
+            correctFeedback: "Excellent! 'Would already have settled' is the past result, and only the modal 'would' belongs in the blank since 'already have settled' follows.",
+            correctFeedbackRu: "Отлично! 'Would already have settled' — прошлый результат, и в пропуск подходит только модальный глагол 'would'.",
+            incorrectFeedback: "Try again. The sentence already contains 'have settled', so the blank needs only 'would', not 'would have'.",
+            incorrectFeedbackRu: "Попробуйте снова. В предложении уже есть 'have settled', поэтому в пропуск подходит только 'would'."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "Had she not confided in her closest friend during that difficult period, she ____ that support system today.",
+            correctAnswer: "wouldn't have",
+            options: ["wouldn't have", "wouldn't have had", "wouldn't had", "won't have"],
+            correctFeedback: "Excellent! 'Wouldn't have' (would + base verb 'have', negated) means 'wouldn't possess'. This shows her present support network depending on a past act of trust.",
+            correctFeedbackRu: "Отлично! 'Wouldn't have' (would + основной глагол 'have', отрицание) означает 'не обладала бы'. Это показывает её нынешнюю систему поддержки.",
+            incorrectFeedback: "Try again. 'Today' signals a present result. 'Wouldn't have had' would incorrectly turn this into a past result.",
+            incorrectFeedbackRu: "Попробуйте снова. 'Today' сигнализирует о настоящем результате. 'Wouldn't have had' неверно превратило бы это в прошлый результат."
+        },
+        {
+            question: "Complete the sentence with the correct mixed conditional form:",
+            questionRu: "Заполните предложение правильной формой смешанного условного наклонения:",
+            sentence: "If the couple ____ sought counselling earlier in their marriage, they wouldn't still be struggling to communicate today.",
+            correctAnswer: "had",
+            options: ["had", "have", "would have", "were"],
+            correctFeedback: "Excellent! 'Had sought' (past perfect) is the correct if-clause form. 'Wouldn't still be struggling today' confirms the ongoing present consequence.",
+            correctFeedbackRu: "Отлично! 'Had sought' (прошедшее совершённое) — правильная форма придаточного. 'Wouldn't still be struggling today' подтверждает продолжающееся настоящее последствие.",
+            incorrectFeedback: "Try again. The if-clause of a mixed conditional never uses 'would'. For a past condition, use the past perfect: 'had sought'.",
+            incorrectFeedbackRu: "Попробуйте снова. Придаточное смешанного условного наклонения никогда не использует 'would'. Для прошлого условия используйте прошедшее совершённое: 'had sought'."
+        }
+    ]
+};
+
+/* =============================================================================== */
+/* ===========================Sentence Building Exercises========================== */
+
+/* ===============================================================================
+Page 1: Mixed Conditionals – Startups and Entrepreneurship
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page1'] = {
+    title: "Mixed Conditionals (Advanced) – Startups and Entrepreneurship",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "founders", "had", "pitched", "to", "more", "investors,", "the", "startup", "would", "be", "thriving", "today."],
+            correctAnswer: "If the founders had pitched to more investors, the startup would be thriving today.",
+            correctFeedback: "Perfect! 'Had pitched' (past perfect) is the past condition, and 'would be thriving today' (would + be + present participle) is the present result of a forward mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Had pitched' (прошедшее совершённое) — прошлое условие, а 'would be thriving today' — настоящий результат прямого смешанного условного наклонения.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + would be + present participle + today.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + would be + причастие настоящего времени + today."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "company", "would", "be", "profitable", "now", "if", "it", "had", "cut", "costs", "sooner."],
+            correctAnswer: "The company would be profitable now if it had cut costs sooner.",
+            correctFeedback: "Perfect! When the result clause comes first, it still uses 'would + base verb' ('would be') for the present result, and the if-clause keeps the past perfect ('had cut').",
+            correctFeedbackRu: "Отлично! Когда главное предложение стоит первым, оно всё равно использует 'would + основной глагол' ('would be') для настоящего результата, а придаточное сохраняет past perfect.",
+            incorrectFeedback: "Try again. Use: subject + would be + adjective + now + if + subject + had + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + would be + прилагательное + now + if + подлежащее + had + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "she", "weren't", "so", "averse", "to", "debt,", "she", "would", "have", "taken", "out", "a", "business", "loan", "last", "year."],
+            correctAnswer: "If she weren't so averse to debt, she would have taken out a business loan last year.",
+            correctFeedback: "Perfect! 'Weren't' (subjunctive) describes her present trait, and 'would have taken' (would have + past participle) describes the past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't' (сослагательное наклонение) описывает её настоящую черту, а 'would have taken' описывает прошлый результат — обратное смешанное условное наклонение.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have + past participle + time expression.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have + причастие прошедшего времени + обстоятельство времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "the", "team", "launched", "the", "app", "a", "year", "earlier,", "it", "would", "dominate", "the", "market", "now."],
+            correctAnswer: "Had the team launched the app a year earlier, it would dominate the market now.",
+            correctFeedback: "Perfect! 'Had the team launched' is the inverted, formal alternative to 'if the team had launched'. The present result 'would dominate now' remains unchanged.",
+            correctFeedbackRu: "Отлично! 'Had the team launched' — инвертированная, формальная альтернатива 'if the team had launched'. Настоящий результат 'would dominate now' остаётся неизменным.",
+            incorrectFeedback: "Try again. Inverted mixed conditionals drop 'if' and start with 'Had + subject + past participle', followed by the present result clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные смешанные условные наклонения опускают 'if' и начинаются с 'Had + подлежащее + причастие прошедшего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "co-founders", "hadn't", "clashed", "over", "strategy,", "the", "company", "might", "be", "worth", "millions", "today."],
+            correctAnswer: "If the co-founders hadn't clashed over strategy, the company might be worth millions today.",
+            correctFeedback: "Perfect! 'Might be worth' expresses an uncertain present possibility, which is more cautious than the certain 'would be' and acknowledges other contributing factors.",
+            correctFeedbackRu: "Отлично! 'Might be worth' выражает неопределённую настоящую возможность, что более осторожно, чем уверенное 'would be'.",
+            incorrectFeedback: "Try again. For a hedged present result, use 'might be + noun phrase', not 'might have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. Для смягчённого настоящего результата используйте 'might be + именная группа', а не 'might have been'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "he", "weren't", "such", "a", "perfectionist,", "the", "product", "would", "have", "shipped", "months", "ago."],
+            correctAnswer: "If he weren't such a perfectionist, the product would have shipped months ago.",
+            correctFeedback: "Perfect! His present character ('weren't such a perfectionist') explains the past delay ('would have shipped'), forming a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! Его нынешний характер объясняет прошлую задержку ('would have shipped'), образуя обратное смешанное условное наклонение.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + noun phrase, subject + would have + past participle + past time marker.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + именная группа, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "a", "last-minute", "cash", "injection,", "the", "company", "would", "be", "bankrupt", "now."],
+            correctAnswer: "But for a last-minute cash injection, the company would be bankrupt now.",
+            correctFeedback: "Perfect! 'But for + noun phrase' is a formal substitute for 'if it hadn't been for'. The present result 'would be bankrupt now' follows correctly.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' — формальная замена 'if it hadn't been for'. Настоящий результат 'would be bankrupt now' следует правильно.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + would be + adjective + now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + would be + прилагательное + now."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "investors", "hadn't", "pulled", "out", "unexpectedly,", "the", "factory", "would", "be", "operating", "at", "full", "capacity."],
+            correctAnswer: "If the investors hadn't pulled out unexpectedly, the factory would be operating at full capacity.",
+            correctFeedback: "Perfect! 'Would be operating' (would + be + present participle) expresses the ongoing present activity resulting from the past condition.",
+            correctFeedbackRu: "Отлично! 'Would be operating' (would + be + причастие настоящего времени) выражает продолжающуюся настоящую деятельность.",
+            incorrectFeedback: "Try again. For an ongoing present result, use 'would be + present participle', placed after the past perfect if-clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающегося настоящего результата используйте 'would be + причастие настоящего времени' после придаточного в past perfect."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "she", "less", "risk-averse,", "she", "would", "have", "quit", "her", "job", "to", "pursue", "the", "venture", "full-time."],
+            correctAnswer: "Were she less risk-averse, she would have quit her job to pursue the venture full-time.",
+            correctFeedback: "Perfect! 'Were she less risk-averse' is the inverted form of 'If she were less risk-averse'. 'Would have quit' gives the past result of her present hypothetical trait.",
+            correctFeedbackRu: "Отлично! 'Were she less risk-averse' — инвертированная форма 'If she were less risk-averse'. 'Would have quit' даёт прошлый результат её настоящей гипотетической черты.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals start with 'Were + subject + adjective', followed by 'would have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения начинаются с 'Were + подлежащее + прилагательное'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "we", "had", "trademarked", "the", "brand", "name", "earlier,", "we", "wouldn't", "still", "be", "fighting", "the", "lawsuit."],
+            correctAnswer: "If only we had trademarked the brand name earlier, we wouldn't still be fighting the lawsuit.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses strong regret, and 'wouldn't still be fighting' (present continuous conditional) shows the ongoing present consequence.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сильное сожаление, а 'wouldn't still be fighting' показывает продолжающееся настоящее последствие.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + wouldn't still be + present participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + wouldn't still be + причастие настоящего времени."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 2: Mixed Conditionals – Public Health and Epidemiology
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page2'] = {
+    title: "Mixed Conditionals (Advanced) – Public Health and Epidemiology",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "health", "officials", "had", "acted", "faster,", "the", "outbreak", "wouldn't", "still", "be", "spreading", "today."],
+            correctAnswer: "If health officials had acted faster, the outbreak wouldn't still be spreading today.",
+            correctFeedback: "Perfect! 'Had acted' establishes the past condition, and 'wouldn't still be spreading today' (present continuous conditional) shows the ongoing present consequence.",
+            correctFeedbackRu: "Отлично! 'Had acted' устанавливает прошлое условие, а 'wouldn't still be spreading today' показывает продолжающееся настоящее последствие.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + wouldn't still be + present participle + today.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + wouldn't still be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "the", "vaccine", "been", "distributed", "more", "equitably,", "far", "fewer", "people", "would", "be", "at", "risk", "now."],
+            correctAnswer: "Had the vaccine been distributed more equitably, far fewer people would be at risk now.",
+            correctFeedback: "Perfect! 'Had the vaccine been distributed' is the inverted, passive past perfect if-clause, paired correctly with the present result 'would be at risk now'.",
+            correctFeedbackRu: "Отлично! 'Had the vaccine been distributed' — инвертированное пассивное придаточное в past perfect, правильно сочетающееся с настоящим результатом.",
+            incorrectFeedback: "Try again. Inverted passive if-clauses use: Had + subject + been + past participle, followed by the present result clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные пассивные придаточные используют: Had + подлежащее + been + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "agency", "weren't", "so", "underfunded,", "it", "would", "have", "responded", "to", "the", "crisis", "far", "sooner."],
+            correctAnswer: "If the agency weren't so underfunded, it would have responded to the crisis far sooner.",
+            correctFeedback: "Perfect! 'Weren't so underfunded' describes the agency's present state, and 'would have responded' gives the past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so underfunded' описывает нынешнее состояние агентства, а 'would have responded' даёт прошлый результат — обратное смешанное условное наклонение.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have + past participle + time expression.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "clinic", "hadn't", "closed", "during", "the", "budget", "cuts,", "the", "community", "might", "be", "considerably", "healthier", "now."],
+            correctAnswer: "If the clinic hadn't closed during the budget cuts, the community might be considerably healthier now.",
+            correctFeedback: "Perfect! 'Might be considerably healthier now' expresses an uncertain present possibility, acknowledging that community health depends on more than one clinic.",
+            correctFeedbackRu: "Отлично! 'Might be considerably healthier now' выражает неопределённую настоящую возможность.",
+            incorrectFeedback: "Try again. For a hedged present result, use 'might be + adjective + now', not 'might have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. Для смягчённого настоящего результата используйте 'might be + прилагательное + now'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "the", "rapid", "vaccine", "rollout,", "hospitals", "would", "be", "overwhelmed", "at", "this", "very", "moment."],
+            correctAnswer: "But for the rapid vaccine rollout, hospitals would be overwhelmed at this very moment.",
+            correctFeedback: "Perfect! 'But for + noun phrase' formally replaces 'if it hadn't been for'. 'Would be overwhelmed at this very moment' correctly expresses the present result.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. Настоящий результат выражен правильно.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + would be + past participle + present time expression.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + would be + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "government", "hadn't", "invested", "in", "genomic", "surveillance,", "new", "variants", "would", "be", "spreading", "undetected."],
+            correctAnswer: "If the government hadn't invested in genomic surveillance, new variants would be spreading undetected.",
+            correctFeedback: "Perfect! 'Would be spreading undetected' (would + be + present participle) expresses the ongoing present danger resulting from a past lack of investment.",
+            correctFeedbackRu: "Отлично! 'Would be spreading undetected' выражает продолжающуюся настоящую опасность.",
+            incorrectFeedback: "Try again. For an ongoing present result, use 'would be + present participle' after the past perfect if-clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающегося настоящего результата используйте 'would be + причастие настоящего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "the", "public", "health", "message", "clearer,", "compliance", "would", "have", "improved", "dramatically", "last", "winter."],
+            correctAnswer: "Were the public health message clearer, compliance would have improved dramatically last winter.",
+            correctFeedback: "Perfect! 'Were the message clearer' is the inverted form of 'If the message were clearer'. 'Would have improved' gives the past result of this present hypothetical clarity.",
+            correctFeedbackRu: "Отлично! 'Were the message clearer' — инвертированная форма 'If the message were clearer'. 'Would have improved' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals start with 'Were + subject + adjective', followed by 'would have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения начинаются с 'Were + подлежащее + прилагательное'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "she", "hadn't", "raised", "the", "alarm", "so", "early,", "the", "hospital", "might", "already", "have", "run", "out", "of", "beds."],
+            correctAnswer: "If she hadn't raised the alarm so early, the hospital might already have run out of beds.",
+            correctFeedback: "Perfect! 'Might already have run out' expresses an uncertain past possibility that was avoided because of her early warning.",
+            correctFeedbackRu: "Отлично! 'Might already have run out' выражает неопределённую прошлую возможность, которой удалось избежать.",
+            incorrectFeedback: "Try again. Use: If + subject + hadn't + past participle, subject + might already have + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + hadn't + причастие прошедшего времени, подлежащее + might already have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "the", "ministry", "had", "stockpiled", "protective", "equipment,", "frontline", "workers", "wouldn't", "be", "so", "vulnerable", "now."],
+            correctAnswer: "If only the ministry had stockpiled protective equipment, frontline workers wouldn't be so vulnerable now.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses regret about a past failure, and 'wouldn't be so vulnerable now' shows the present consequence.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сожаление о прошлой неудаче, а 'wouldn't be so vulnerable now' показывает настоящее последствие.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + wouldn't be + adjective + now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + wouldn't be + прилагательное + now."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "district", "would", "be", "reporting", "far", "fewer", "cases", "now", "if", "testing", "had", "been", "more", "widely", "available."],
+            correctAnswer: "The district would be reporting far fewer cases now if testing had been more widely available.",
+            correctFeedback: "Perfect! When the result clause comes first, it keeps 'would be + present participle' for the present result, while the if-clause uses the past perfect passive.",
+            correctFeedbackRu: "Отлично! Когда главное предложение стоит первым, оно сохраняет 'would be + причастие настоящего времени', а придаточное использует пассивное past perfect.",
+            incorrectFeedback: "Try again. Use: subject + would be + present participle + now + if + subject + had been + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + would be + причастие настоящего времени + now + if + подлежащее + had been + причастие прошедшего времени."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 3: Mixed Conditionals – Renewable Energy and Urban Planning
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page3'] = {
+    title: "Mixed Conditionals (Advanced) – Renewable Energy and Urban Planning",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "city", "had", "invested", "in", "solar", "power", "decades", "ago,", "energy", "bills", "would", "be", "far", "lower", "today."],
+            correctAnswer: "If the city had invested in solar power decades ago, energy bills would be far lower today.",
+            correctFeedback: "Perfect! 'Had invested' establishes the past condition, and 'would be far lower today' (would + base verb) gives the present result.",
+            correctFeedbackRu: "Отлично! 'Had invested' устанавливает прошлое условие, а 'would be far lower today' даёт настоящий результат.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + would be + adjective + today.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + would be + прилагательное + today."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "the", "planners", "widened", "the", "roads", "sooner,", "traffic", "wouldn't", "still", "be", "gridlocked", "every", "morning."],
+            correctAnswer: "Had the planners widened the roads sooner, traffic wouldn't still be gridlocked every morning.",
+            correctFeedback: "Perfect! 'Had the planners widened' is the inverted if-clause, and 'wouldn't still be gridlocked' (present continuous conditional) shows the ongoing present consequence.",
+            correctFeedbackRu: "Отлично! 'Had the planners widened' — инвертированное придаточное, а 'wouldn't still be gridlocked' показывает продолжающееся настоящее последствие.",
+            incorrectFeedback: "Try again. Inverted if-clauses use: Had + subject + past participle, followed by 'wouldn't still be + present participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные придаточные используют: Had + подлежащее + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "council", "weren't", "so", "resistant", "to", "change,", "the", "cycling", "network", "would", "have", "expanded", "years", "ago."],
+            correctAnswer: "If the council weren't so resistant to change, the cycling network would have expanded years ago.",
+            correctFeedback: "Perfect! 'Weren't so resistant' describes the council's present attitude, and 'would have expanded' gives the past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so resistant' описывает нынешнее отношение совета, а 'would have expanded' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have + past participle + past time marker.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "wind", "farm", "hadn't", "faced", "such", "fierce", "local", "opposition,", "it", "might", "be", "powering", "half", "the", "region", "now."],
+            correctAnswer: "If the wind farm hadn't faced such fierce local opposition, it might be powering half the region now.",
+            correctFeedback: "Perfect! 'Might be powering now' expresses an uncertain ongoing present possibility, more cautious than the certain 'would be powering'.",
+            correctFeedbackRu: "Отлично! 'Might be powering now' выражает неопределённую продолжающуюся настоящую возможность.",
+            incorrectFeedback: "Try again. For a hedged ongoing present result, use 'might be + present participle + now'.",
+            incorrectFeedbackRu: "Попробуйте снова. Для смягчённого продолжающегося настоящего результата используйте 'might be + причастие настоящего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "the", "new", "recycling", "plant,", "the", "landfill", "would", "already", "be", "full", "to", "capacity."],
+            correctAnswer: "But for the new recycling plant, the landfill would already be full to capacity.",
+            correctFeedback: "Perfect! 'But for + noun phrase' is a formal substitute for 'if it hadn't been for'. 'Would already be full' correctly expresses the present result.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' — формальная замена 'if it hadn't been for'. Настоящий результат выражен правильно.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + would already be + adjective phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + would already be + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "the", "mayor", "less", "beholden", "to", "developers,", "the", "green", "belt", "would", "have", "been", "protected", "long", "ago."],
+            correctAnswer: "Were the mayor less beholden to developers, the green belt would have been protected long ago.",
+            correctFeedback: "Perfect! 'Were the mayor less beholden' is the inverted form of 'If the mayor were less beholden'. 'Would have been protected' gives the past passive result.",
+            correctFeedbackRu: "Отлично! 'Were the mayor less beholden' — инвертированная форма. 'Would have been protected' даёт прошлый пассивный результат.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals start with 'Were + subject + adjective', followed by 'would have been + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения начинаются с 'Were + подлежащее + прилагательное'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "reservoir", "hadn't", "been", "built", "in", "the", "1970s,", "the", "valley", "would", "be", "suffering", "severe", "water", "shortages."],
+            correctAnswer: "If the reservoir hadn't been built in the 1970s, the valley would be suffering severe water shortages.",
+            correctFeedback: "Perfect! 'Would be suffering' (would + be + present participle) expresses the ongoing present state resulting from a past infrastructure decision.",
+            correctFeedbackRu: "Отлично! 'Would be suffering' выражает продолжающееся настоящее состояние, вытекающее из прошлого инфраструктурного решения.",
+            incorrectFeedback: "Try again. For an ongoing present result, use 'would be + present participle' after the past perfect passive if-clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающегося настоящего результата используйте 'would be + причастие настоящего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "residents", "weren't", "so", "attached", "to", "car", "ownership,", "the", "city", "might", "have", "banned", "traffic", "downtown", "already."],
+            correctAnswer: "If residents weren't so attached to car ownership, the city might have banned traffic downtown already.",
+            correctFeedback: "Perfect! 'Weren't so attached' describes residents' present attitude, and 'might have banned' expresses an uncertain past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so attached' описывает нынешнее отношение жителей, а 'might have banned' выражает неопределённый прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + might have + past participle + already.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + might have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "the", "district", "had", "adopted", "green", "building", "codes", "sooner,", "emissions", "wouldn't", "still", "be", "rising", "each", "year."],
+            correctAnswer: "If only the district had adopted green building codes sooner, emissions wouldn't still be rising each year.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses regret, and 'wouldn't still be rising' (present continuous conditional) shows the ongoing present trend.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сожаление, а 'wouldn't still be rising' показывает продолжающуюся настоящую тенденцию.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + wouldn't still be + present participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + wouldn't still be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "region", "would", "be", "self-sufficient", "in", "energy", "now", "if", "the", "grid", "had", "been", "modernised", "properly."],
+            correctAnswer: "The region would be self-sufficient in energy now if the grid had been modernised properly.",
+            correctFeedback: "Perfect! When the result clause comes first, it still uses 'would be + adjective phrase' for the present result, while the if-clause uses the past perfect passive.",
+            correctFeedbackRu: "Отлично! Когда главное предложение стоит первым, оно всё равно использует 'would be + прилагательное' для настоящего результата.",
+            incorrectFeedback: "Try again. Use: subject + would be + adjective phrase + now + if + subject + had been + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + would be + прилагательное + now + if + подлежащее + had been + причастие прошедшего времени."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 4: Mixed Conditionals – Criminal Justice and International Law
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page4'] = {
+    title: "Mixed Conditionals (Advanced) – Criminal Justice and International Law",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "detectives", "had", "reviewed", "the", "forensic", "evidence", "sooner,", "the", "real", "culprit", "would", "be", "behind", "bars", "now."],
+            correctAnswer: "If the detectives had reviewed the forensic evidence sooner, the real culprit would be behind bars now.",
+            correctFeedback: "Perfect! 'Had reviewed' establishes the past condition, and 'would be behind bars now' (would + base verb) gives the present result.",
+            correctFeedbackRu: "Отлично! 'Had reviewed' устанавливает прошлое условие, а 'would be behind bars now' даёт настоящий результат.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + would be + prepositional phrase + now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + would be + предложный оборот + now."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "the", "tribunal", "convicted", "him", "on", "the", "first", "charge,", "he", "wouldn't", "still", "be", "free", "today."],
+            correctAnswer: "Had the tribunal convicted him on the first charge, he wouldn't still be free today.",
+            correctFeedback: "Perfect! 'Had the tribunal convicted' is the inverted if-clause, and 'wouldn't still be free today' shows the ongoing present consequence of the acquittal.",
+            correctFeedbackRu: "Отлично! 'Had the tribunal convicted' — инвертированное придаточное, а 'wouldn't still be free today' показывает продолжающееся настоящее последствие.",
+            incorrectFeedback: "Try again. Inverted if-clauses use: Had + subject + past participle, followed by 'wouldn't still be + adjective + today'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные придаточные используют: Had + подлежащее + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "prosecution", "weren't", "so", "understaffed,", "the", "case", "would", "have", "gone", "to", "trial", "months", "ago."],
+            correctAnswer: "If the prosecution weren't so understaffed, the case would have gone to trial months ago.",
+            correctFeedback: "Perfect! 'Weren't so understaffed' describes the prosecution's present state, and 'would have gone' gives the past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so understaffed' описывает нынешнее состояние обвинения, а 'would have gone' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have + past participle + past time marker.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "treaty", "hadn't", "been", "ratified", "by", "every", "member", "state,", "the", "court", "might", "not", "have", "jurisdiction", "today."],
+            correctAnswer: "If the treaty hadn't been ratified by every member state, the court might not have jurisdiction today.",
+            correctFeedback: "Perfect! 'Might not have jurisdiction' expresses an uncertain present possibility, more cautious than the certain 'wouldn't have jurisdiction'.",
+            correctFeedbackRu: "Отлично! 'Might not have jurisdiction' выражает неопределённую настоящую возможность.",
+            incorrectFeedback: "Try again. For a hedged present result, use 'might not have + noun phrase + today', not the past form.",
+            incorrectFeedbackRu: "Попробуйте снова. Для смягчённого настоящего результата используйте 'might not have + именная группа + today'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "the", "whistleblower's", "testimony,", "the", "cartel", "would", "still", "be", "operating", "with", "impunity."],
+            correctAnswer: "But for the whistleblower's testimony, the cartel would still be operating with impunity.",
+            correctFeedback: "Perfect! 'But for + noun phrase' formally replaces 'if it hadn't been for'. 'Would still be operating' correctly expresses the ongoing present result.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. 'Would still be operating' правильно выражает продолжающийся результат.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + would still be + present participle + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + would still be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "the", "judge", "less", "sympathetic", "to", "corporate", "interests,", "the", "verdict", "would", "have", "been", "far", "harsher."],
+            correctAnswer: "Were the judge less sympathetic to corporate interests, the verdict would have been far harsher.",
+            correctFeedback: "Perfect! 'Were the judge less sympathetic' is the inverted form of 'If the judge were less sympathetic'. 'Would have been' gives the past result of this hypothetical trait.",
+            correctFeedbackRu: "Отлично! 'Were the judge less sympathetic' — инвертированная форма. 'Would have been' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals start with 'Were + subject + adjective', followed by 'would have been + adjective'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения начинаются с 'Were + подлежащее + прилагательное'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "border", "agreement", "hadn't", "collapsed", "in", "the", "1990s,", "the", "dispute", "wouldn't", "still", "be", "unresolved."],
+            correctAnswer: "If the border agreement hadn't collapsed in the 1990s, the dispute wouldn't still be unresolved.",
+            correctFeedback: "Perfect! 'Wouldn't still be unresolved' correctly uses the present conditional to show the ongoing present consequence of a past diplomatic failure.",
+            correctFeedbackRu: "Отлично! 'Wouldn't still be unresolved' правильно использует настоящее условное наклонение для показа продолжающегося последствия.",
+            incorrectFeedback: "Try again. For an ongoing present result, use 'wouldn't still be + adjective' after the past perfect if-clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающегося настоящего результата используйте 'wouldn't still be + прилагательное'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "defendant", "weren't", "so", "wealthy,", "he", "might", "have", "received", "a", "far", "harsher", "sentence", "last", "year."],
+            correctAnswer: "If the defendant weren't so wealthy, he might have received a far harsher sentence last year.",
+            correctFeedback: "Perfect! 'Weren't so wealthy' describes his present financial status, and 'might have received' expresses an uncertain past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so wealthy' описывает его нынешнее финансовое положение, а 'might have received' выражает неопределённый прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective, subject + might have + past participle + past time marker.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + might have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "the", "witnesses", "had", "come", "forward", "sooner,", "the", "wrongfully", "convicted", "man", "wouldn't", "still", "be", "in", "prison."],
+            correctAnswer: "If only the witnesses had come forward sooner, the wrongfully convicted man wouldn't still be in prison.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses regret, and 'wouldn't still be in prison' shows the ongoing present consequence of the delay.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сожаление, а 'wouldn't still be in prison' показывает продолжающееся настоящее последствие.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + wouldn't still be + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + wouldn't still be + предложный оборот."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "extradition", "would", "be", "proceeding", "smoothly", "now", "if", "both", "governments", "had", "signed", "the", "bilateral", "accord."],
+            correctAnswer: "The extradition would be proceeding smoothly now if both governments had signed the bilateral accord.",
+            correctFeedback: "Perfect! When the result clause comes first, it keeps 'would be + present participle' for the ongoing present result, while the if-clause uses the past perfect.",
+            correctFeedbackRu: "Отлично! Когда главное предложение стоит первым, оно сохраняет 'would be + причастие настоящего времени'.",
+            incorrectFeedback: "Try again. Use: subject + would be + present participle + now + if + subject + had + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + would be + причастие настоящего времени + now + if + подлежащее + had + причастие прошедшего времени."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 5: Mixed Conditionals – Higher Education and Research Funding
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page5'] = {
+    title: "Mixed Conditionals (Advanced) – Higher Education and Research Funding",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "grant", "committee", "had", "approved", "the", "proposal,", "the", "laboratory", "would", "be", "conducting", "groundbreaking", "research", "now."],
+            correctAnswer: "If the grant committee had approved the proposal, the laboratory would be conducting groundbreaking research now.",
+            correctFeedback: "Perfect! 'Had approved' establishes the past condition, and 'would be conducting now' (would + be + present participle) gives the ongoing present result.",
+            correctFeedbackRu: "Отлично! 'Had approved' устанавливает прошлое условие, а 'would be conducting now' даёт продолжающийся настоящий результат.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + would be + present participle + now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + would be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "the", "university", "hired", "more", "junior", "faculty,", "the", "department", "wouldn't", "be", "so", "overstretched", "today."],
+            correctAnswer: "Had the university hired more junior faculty, the department wouldn't be so overstretched today.",
+            correctFeedback: "Perfect! 'Had the university hired' is the inverted if-clause. 'Wouldn't be so overstretched today' correctly gives the present result.",
+            correctFeedbackRu: "Отлично! 'Had the university hired' — инвертированное придаточное. 'Wouldn't be so overstretched today' правильно даёт настоящий результат.",
+            incorrectFeedback: "Try again. Inverted if-clauses use: Had + subject + past participle, followed by 'wouldn't be + adjective + today'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные придаточные используют: Had + подлежащее + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "he", "weren't", "so", "reluctant", "to", "collaborate,", "he", "would", "have", "co-authored", "several", "influential", "papers", "by", "now."],
+            correctAnswer: "If he weren't so reluctant to collaborate, he would have co-authored several influential papers by now.",
+            correctFeedback: "Perfect! 'Weren't so reluctant' describes his present attitude, and 'would have co-authored' gives the past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so reluctant' описывает его нынешнее отношение, а 'would have co-authored' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have + past participle + by now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "scholarship", "fund", "hadn't", "been", "depleted,", "many", "more", "students", "might", "be", "studying", "abroad", "this", "semester."],
+            correctAnswer: "If the scholarship fund hadn't been depleted, many more students might be studying abroad this semester.",
+            correctFeedback: "Perfect! 'Might be studying' expresses an uncertain ongoing present possibility, more cautious than the certain 'would be studying'.",
+            correctFeedbackRu: "Отлично! 'Might be studying' выражает неопределённую продолжающуюся настоящую возможность.",
+            incorrectFeedback: "Try again. For a hedged ongoing present result, use 'might be + present participle', not the past form.",
+            incorrectFeedbackRu: "Попробуйте снова. Для смягчённого продолжающегося настоящего результата используйте 'might be + причастие настоящего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "a", "generous", "private", "endowment,", "the", "archive", "would", "have", "closed", "its", "doors", "years", "ago."],
+            correctAnswer: "But for a generous private endowment, the archive would have closed its doors years ago.",
+            correctFeedback: "Perfect! 'But for + noun phrase' formally replaces 'if it hadn't been for'. Since 'years ago' marks a past result, 'would have closed' is correctly used here.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. Поскольку 'years ago' обозначает прошлый результат, здесь правильно используется 'would have closed'.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + would have + past participle + past time marker.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "the", "dean", "less", "resistant", "to", "reform,", "the", "curriculum", "would", "already", "reflect", "current", "industry", "needs."],
+            correctAnswer: "Were the dean less resistant to reform, the curriculum would already reflect current industry needs.",
+            correctFeedback: "Perfect! 'Were the dean less resistant' is the inverted form of 'If the dean were less resistant'. 'Would already reflect' gives the present result of this hypothetical attitude.",
+            correctFeedbackRu: "Отлично! 'Were the dean less resistant' — инвертированная форма. 'Would already reflect' даёт настоящий результат.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals with present results use: Were + subject + adjective, subject + would already + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения с настоящим результатом используют: Were + подлежащее + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "professor", "hadn't", "mentored", "her", "so", "closely,", "she", "wouldn't", "have", "the", "confidence", "she", "shows", "today."],
+            correctAnswer: "If the professor hadn't mentored her so closely, she wouldn't have the confidence she shows today.",
+            correctFeedback: "Perfect! 'Wouldn't have' (would + base verb 'have', negated) means 'wouldn't possess'. This expresses her present confidence resulting from past mentorship.",
+            correctFeedbackRu: "Отлично! 'Wouldn't have' означает 'не обладала бы'. Это выражает её нынешнюю уверенность, вытекающую из прошлого наставничества.",
+            incorrectFeedback: "Try again. For a present possession result, use 'wouldn't have + noun phrase', not 'wouldn't have had'.",
+            incorrectFeedbackRu: "Попробуйте снова. Для результата в виде обладания используйте 'wouldn't have + именная группа', а не 'wouldn't have had'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "institute", "weren't", "so", "bureaucratic,", "the", "research", "grant", "might", "have", "been", "approved", "within", "weeks."],
+            correctAnswer: "If the institute weren't so bureaucratic, the research grant might have been approved within weeks.",
+            correctFeedback: "Perfect! 'Weren't so bureaucratic' describes the institute's present character, and 'might have been approved' expresses an uncertain past passive result.",
+            correctFeedbackRu: "Отлично! 'Weren't so bureaucratic' описывает нынешний характер института, а 'might have been approved' выражает неопределённый прошлый пассивный результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective, subject + might have been + past participle + time expression.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + might have been + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "the", "board", "had", "renewed", "the", "funding", "cycle,", "the", "project", "wouldn't", "be", "stalling", "at", "this", "critical", "stage."],
+            correctAnswer: "If only the board had renewed the funding cycle, the project wouldn't be stalling at this critical stage.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses regret, and 'wouldn't be stalling' (present continuous conditional) shows the ongoing present consequence.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сожаление, а 'wouldn't be stalling' показывает продолжающееся настоящее последствие.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + wouldn't be + present participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + wouldn't be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Enrollment", "would", "be", "far", "higher", "this", "year", "if", "tuition", "fees", "hadn't", "risen", "so", "steeply."],
+            correctAnswer: "Enrollment would be far higher this year if tuition fees hadn't risen so steeply.",
+            correctFeedback: "Perfect! When the result clause comes first, it still uses 'would be + adjective' for the present result, while the if-clause keeps the past perfect.",
+            correctFeedbackRu: "Отлично! Когда главное предложение стоит первым, оно всё равно использует 'would be + прилагательное' для настоящего результата.",
+            incorrectFeedback: "Try again. Use: subject + would be + adjective + time expression + if + subject + hadn't + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + would be + прилагательное + обстоятельство времени + if + подлежащее + hadn't + причастие прошедшего времени."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 6: Mixed Conditionals – Artificial Intelligence and Software Engineering
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page6'] = {
+    title: "Mixed Conditionals (Advanced) – Artificial Intelligence and Software Engineering",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "engineers", "had", "documented", "the", "codebase", "properly,", "new", "hires", "would", "be", "onboarding", "far", "more", "quickly", "now."],
+            correctAnswer: "If the engineers had documented the codebase properly, new hires would be onboarding far more quickly now.",
+            correctFeedback: "Perfect! 'Had documented' establishes the past condition, and 'would be onboarding now' (would + be + present participle) gives the ongoing present result.",
+            correctFeedbackRu: "Отлично! 'Had documented' устанавливает прошлое условие, а 'would be onboarding now' даёт продолжающийся настоящий результат.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + would be + present participle + now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + would be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "the", "team", "trained", "the", "model", "on", "balanced", "data,", "it", "wouldn't", "be", "producing", "biased", "outputs", "today."],
+            correctAnswer: "Had the team trained the model on balanced data, it wouldn't be producing biased outputs today.",
+            correctFeedback: "Perfect! 'Had the team trained' is the inverted if-clause, and 'wouldn't be producing today' (present continuous conditional) shows the ongoing present malfunction.",
+            correctFeedbackRu: "Отлично! 'Had the team trained' — инвертированное придаточное, а 'wouldn't be producing today' показывает продолжающуюся настоящую неисправность.",
+            incorrectFeedback: "Try again. Inverted if-clauses use: Had + subject + past participle, followed by 'wouldn't be + present participle + today'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные придаточные используют: Had + подлежащее + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "founders", "weren't", "so", "opposed", "to", "outside", "review,", "the", "codebase", "would", "have", "been", "audited", "long", "ago."],
+            correctAnswer: "If the founders weren't so opposed to outside review, the codebase would have been audited long ago.",
+            correctFeedback: "Perfect! 'Weren't so opposed' describes the founders' present attitude, and 'would have been audited' gives the past passive result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so opposed' описывает нынешнее отношение основателей, а 'would have been audited' даёт прошлый пассивный результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have been + past participle + past time marker.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have been + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "startup", "hadn't", "open-sourced", "its", "core", "library,", "adoption", "might", "be", "far", "slower", "across", "the", "industry", "now."],
+            correctAnswer: "If the startup hadn't open-sourced its core library, adoption might be far slower across the industry now.",
+            correctFeedback: "Perfect! 'Might be far slower now' expresses an uncertain present possibility, more cautious than the certain 'would be slower'.",
+            correctFeedbackRu: "Отлично! 'Might be far slower now' выражает неопределённую настоящую возможность.",
+            incorrectFeedback: "Try again. For a hedged present result, use 'might be + adjective + now', not the past form.",
+            incorrectFeedbackRu: "Попробуйте снова. Для смягчённого настоящего результата используйте 'might be + прилагательное + now'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "a", "diligent", "code", "reviewer,", "the", "vulnerability", "would", "already", "have", "been", "exploited", "by", "attackers."],
+            correctAnswer: "But for a diligent code reviewer, the vulnerability would already have been exploited by attackers.",
+            correctFeedback: "Perfect! 'But for + noun phrase' formally replaces 'if it hadn't been for'. 'Would already have been exploited' correctly expresses the past passive result.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. Прошлый пассивный результат выражен правильно.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + would already have been + past participle + agent phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + would already have been + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "the", "architecture", "less", "monolithic,", "the", "platform", "would", "already", "support", "seamless", "third-party", "integrations."],
+            correctAnswer: "Were the architecture less monolithic, the platform would already support seamless third-party integrations.",
+            correctFeedback: "Perfect! 'Were the architecture less monolithic' is the inverted form of 'If the architecture were less monolithic'. 'Would already support' gives the present result.",
+            correctFeedbackRu: "Отлично! 'Were the architecture less monolithic' — инвертированная форма. 'Would already support' даёт настоящий результат.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals with present results use: Were + subject + adjective, subject + would already + base verb.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения с настоящим результатом используют: Were + подлежащее + прилагательное."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "algorithm", "hadn't", "been", "patched", "in", "time,", "millions", "of", "accounts", "would", "be", "compromised", "right", "now."],
+            correctAnswer: "If the algorithm hadn't been patched in time, millions of accounts would be compromised right now.",
+            correctFeedback: "Perfect! 'Would be compromised right now' expresses the ongoing present danger that a timely patch prevented.",
+            correctFeedbackRu: "Отлично! 'Would be compromised right now' выражает продолжающуюся настоящую опасность.",
+            incorrectFeedback: "Try again. For an ongoing present result, use 'would be + past participle + right now', not 'would have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающегося настоящего результата используйте 'would be + причастие прошедшего времени + right now'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "she", "weren't", "so", "meticulous", "about", "testing,", "the", "release", "might", "have", "shipped", "with", "a", "critical", "bug."],
+            correctAnswer: "If she weren't so meticulous about testing, the release might have shipped with a critical bug.",
+            correctFeedback: "Perfect! 'Weren't so meticulous' describes her present character, and 'might have shipped' expresses an uncertain past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so meticulous' описывает её нынешний характер, а 'might have shipped' выражает неопределённый прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + might have + past participle + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + might have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "the", "team", "had", "adopted", "automated", "testing", "sooner,", "regressions", "wouldn't", "still", "be", "slipping", "into", "production."],
+            correctAnswer: "If only the team had adopted automated testing sooner, regressions wouldn't still be slipping into production.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses regret, and 'wouldn't still be slipping' (present continuous conditional) shows the ongoing present problem.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сожаление, а 'wouldn't still be slipping' показывает продолжающуюся настоящую проблему.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + wouldn't still be + present participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + wouldn't still be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "system", "would", "be", "handling", "peak", "traffic", "smoothly", "now", "if", "the", "servers", "had", "been", "scaled", "appropriately."],
+            correctAnswer: "The system would be handling peak traffic smoothly now if the servers had been scaled appropriately.",
+            correctFeedback: "Perfect! When the result clause comes first, it keeps 'would be + present participle' for the ongoing present result, while the if-clause uses the past perfect passive.",
+            correctFeedbackRu: "Отлично! Когда главное предложение стоит первым, оно сохраняет 'would be + причастие настоящего времени'.",
+            incorrectFeedback: "Try again. Use: subject + would be + present participle + now + if + subject + had been + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + would be + причастие настоящего времени + now + if + подлежащее + had been + причастие прошедшего времени."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 7: Mixed Conditionals – Film, Literature, and Journalism
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page7'] = {
+    title: "Mixed Conditionals (Advanced) – Film, Literature, and Journalism",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "editor", "had", "trusted", "her", "instincts,", "the", "story", "would", "be", "front-page", "news", "today."],
+            correctAnswer: "If the editor had trusted her instincts, the story would be front-page news today.",
+            correctFeedback: "Perfect! 'Had trusted' establishes the past condition, and 'would be front-page news today' (would + base verb) gives the present result.",
+            correctFeedbackRu: "Отлично! 'Had trusted' устанавливает прошлое условие, а 'would be front-page news today' даёт настоящий результат.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + would be + noun phrase + today.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + would be + именная группа + today."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "the", "author", "finished", "the", "trilogy,", "fans", "wouldn't", "still", "be", "debating", "the", "ending", "online."],
+            correctAnswer: "Had the author finished the trilogy, fans wouldn't still be debating the ending online.",
+            correctFeedback: "Perfect! 'Had the author finished' is the inverted if-clause, and 'wouldn't still be debating' (present continuous conditional) shows the ongoing present discussion.",
+            correctFeedbackRu: "Отлично! 'Had the author finished' — инвертированное придаточное, а 'wouldn't still be debating' показывает продолжающуюся настоящую дискуссию.",
+            incorrectFeedback: "Try again. Inverted if-clauses use: Had + subject + past participle, followed by 'wouldn't still be + present participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные придаточные используют: Had + подлежащее + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "studio", "weren't", "so", "risk-averse,", "it", "would", "have", "greenlit", "the", "script", "the", "moment", "it", "arrived."],
+            correctAnswer: "If the studio weren't so risk-averse, it would have greenlit the script the moment it arrived.",
+            correctFeedback: "Perfect! 'Weren't so risk-averse' describes the studio's present character, and 'would have greenlit' gives the past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so risk-averse' описывает нынешний характер студии, а 'would have greenlit' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have + past participle + time expression.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "journalist", "hadn't", "protected", "her", "source,", "the", "informant", "might", "be", "facing", "prosecution", "at", "this", "moment."],
+            correctAnswer: "If the journalist hadn't protected her source, the informant might be facing prosecution at this moment.",
+            correctFeedback: "Perfect! 'Might be facing' expresses an uncertain ongoing present possibility, more cautious than the certain 'would be facing'.",
+            correctFeedbackRu: "Отлично! 'Might be facing' выражает неопределённую продолжающуюся настоящую возможность.",
+            incorrectFeedback: "Try again. For a hedged ongoing present result, use 'might be + present participle', not the past form.",
+            incorrectFeedbackRu: "Попробуйте снова. Для смягчённого продолжающегося настоящего результата используйте 'might be + причастие настоящего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "a", "sharp-eyed", "fact-checker,", "the", "false", "story", "would", "already", "have", "gone", "viral."],
+            correctAnswer: "But for a sharp-eyed fact-checker, the false story would already have gone viral.",
+            correctFeedback: "Perfect! 'But for + noun phrase' formally replaces 'if it hadn't been for'. 'Would already have gone viral' correctly expresses the past result that was narrowly avoided.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. Прошлый результат выражен правильно.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + would already have + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + would already have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "the", "critic", "less", "cynical,", "the", "review", "would", "have", "praised", "the", "film's", "genuine", "originality."],
+            correctAnswer: "Were the critic less cynical, the review would have praised the film's genuine originality.",
+            correctFeedback: "Perfect! 'Were the critic less cynical' is the inverted form of 'If the critic were less cynical'. 'Would have praised' gives the past result of this hypothetical trait.",
+            correctFeedbackRu: "Отлично! 'Were the critic less cynical' — инвертированная форма. 'Would have praised' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals start with 'Were + subject + adjective', followed by 'would have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения начинаются с 'Were + подлежащее + прилагательное'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "magazine", "hadn't", "folded", "in", "the", "recession,", "her", "column", "would", "be", "reaching", "millions", "of", "readers", "weekly."],
+            correctAnswer: "If the magazine hadn't folded in the recession, her column would be reaching millions of readers weekly.",
+            correctFeedback: "Perfect! 'Would be reaching' (would + be + present participle) expresses the ongoing present readership resulting from a past economic event.",
+            correctFeedbackRu: "Отлично! 'Would be reaching' выражает продолжающуюся настоящую читательскую аудиторию.",
+            incorrectFeedback: "Try again. For an ongoing present result, use 'would be + present participle' after the past perfect if-clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающегося настоящего результата используйте 'would be + причастие настоящего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "he", "weren't", "so", "attached", "to", "the", "original", "manuscript,", "the", "publisher", "might", "have", "insisted", "on", "heavier", "edits."],
+            correctAnswer: "If he weren't so attached to the original manuscript, the publisher might have insisted on heavier edits.",
+            correctFeedback: "Perfect! 'Weren't so attached' describes his present sentiment, and 'might have insisted' expresses an uncertain past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so attached' описывает его нынешнее отношение, а 'might have insisted' выражает неопределённый прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + might have + past participle + prepositional phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + might have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "the", "network", "had", "invested", "in", "investigative", "journalism,", "the", "scandal", "wouldn't", "still", "be", "hidden", "from", "the", "public."],
+            correctAnswer: "If only the network had invested in investigative journalism, the scandal wouldn't still be hidden from the public.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses regret, and 'wouldn't still be hidden' shows the ongoing present consequence of the past underinvestment.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сожаление, а 'wouldn't still be hidden' показывает продолжающееся настоящее последствие.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + wouldn't still be + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + wouldn't still be + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "documentary", "would", "be", "winning", "major", "awards", "now", "if", "distributors", "had", "shown", "more", "confidence", "in", "it."],
+            correctAnswer: "The documentary would be winning major awards now if distributors had shown more confidence in it.",
+            correctFeedback: "Perfect! When the result clause comes first, it keeps 'would be + present participle' for the ongoing present result, while the if-clause uses the past perfect.",
+            correctFeedbackRu: "Отлично! Когда главное предложение стоит первым, оно сохраняет 'would be + причастие настоящего времени'.",
+            incorrectFeedback: "Try again. Use: subject + would be + present participle + now + if + subject + had + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + would be + причастие настоящего времени + now + if + подлежащее + had + причастие прошедшего времени."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 8: Mixed Conditionals – Athletics and Competitive Training
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page8'] = {
+    title: "Mixed Conditionals (Advanced) – Athletics and Competitive Training",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "coach", "had", "corrected", "her", "technique", "earlier,", "she", "would", "be", "competing", "at", "the", "elite", "level", "now."],
+            correctAnswer: "If the coach had corrected her technique earlier, she would be competing at the elite level now.",
+            correctFeedback: "Perfect! 'Had corrected' establishes the past condition, and 'would be competing now' (would + be + present participle) gives the ongoing present result.",
+            correctFeedbackRu: "Отлично! 'Had corrected' устанавливает прошлое условие, а 'would be competing now' даёт продолжающийся настоящий результат.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + would be + present participle + now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + would be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "he", "not", "suffered", "that", "injury", "last", "season,", "he", "would", "hold", "the", "national", "record", "today."],
+            correctAnswer: "Had he not suffered that injury last season, he would hold the national record today.",
+            correctFeedback: "Perfect! 'Had he not suffered' is the inverted negative if-clause, and 'would hold today' (would + base verb) gives the present result.",
+            correctFeedbackRu: "Отлично! 'Had he not suffered' — инвертированное отрицательное придаточное, а 'would hold today' даёт настоящий результат.",
+            incorrectFeedback: "Try again. Inverted negative if-clauses use: Had + subject + not + past participle, followed by 'would + base verb + today'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные отрицательные придаточные используют: Had + подлежащее + not + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "she", "weren't", "so", "disciplined", "about", "recovery,", "she", "would", "have", "burnt", "out", "long", "before", "the", "championship."],
+            correctAnswer: "If she weren't so disciplined about recovery, she would have burnt out long before the championship.",
+            correctFeedback: "Perfect! 'Weren't so disciplined' describes her present habit, and 'would have burnt out' gives the past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so disciplined' описывает её нынешнюю привычку, а 'would have burnt out' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have + past participle + time expression.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "federation", "hadn't", "banned", "him", "unfairly,", "he", "might", "be", "defending", "his", "title", "this", "weekend."],
+            correctAnswer: "If the federation hadn't banned him unfairly, he might be defending his title this weekend.",
+            correctFeedback: "Perfect! 'Might be defending' expresses an uncertain ongoing present possibility, more cautious than the certain 'would be defending'.",
+            correctFeedbackRu: "Отлично! 'Might be defending' выражает неопределённую продолжающуюся настоящую возможность.",
+            incorrectFeedback: "Try again. For a hedged ongoing present result, use 'might be + present participle', not the past form.",
+            incorrectFeedbackRu: "Попробуйте снова. Для смягчённого продолжающегося настоящего результата используйте 'might be + причастие настоящего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "a", "last-second", "change", "of", "strategy,", "the", "team", "would", "have", "lost", "the", "final", "match."],
+            correctAnswer: "But for a last-second change of strategy, the team would have lost the final match.",
+            correctFeedback: "Perfect! 'But for + noun phrase' formally replaces 'if it hadn't been for'. Since 'the final match' is a completed past event, 'would have lost' is the correct past result.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. Поскольку матч завершился в прошлом, правильный результат — 'would have lost'.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + would have + past participle + noun phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "he", "less", "obsessive", "about", "perfection,", "he", "wouldn't", "have", "lost", "his", "composure", "during", "that", "crucial", "point."],
+            correctAnswer: "Were he less obsessive about perfection, he wouldn't have lost his composure during that crucial point.",
+            correctFeedback: "Perfect! 'Were he less obsessive' is the inverted form of 'If he were less obsessive'. 'Wouldn't have lost' gives the past result of this hypothetical trait.",
+            correctFeedbackRu: "Отлично! 'Were he less obsessive' — инвертированная форма. 'Wouldn't have lost' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals start with 'Were + subject + adjective', followed by 'wouldn't have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения начинаются с 'Were + подлежащее + прилагательное'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "she", "hadn't", "switched", "coaches", "after", "the", "setback,", "her", "form", "wouldn't", "still", "be", "improving", "so", "steadily."],
+            correctAnswer: "If she hadn't switched coaches after the setback, her form wouldn't still be improving so steadily.",
+            correctFeedback: "Perfect! 'Wouldn't still be improving' (present continuous conditional) shows the ongoing present progress resulting from a past decision to change coaches.",
+            correctFeedbackRu: "Отлично! 'Wouldn't still be improving' показывает продолжающийся настоящий прогресс.",
+            incorrectFeedback: "Try again. For an ongoing present result, use 'wouldn't still be + present participle' after the past perfect if-clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающегося настоящего результата используйте 'wouldn't still be + причастие настоящего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "sponsor", "weren't", "so", "unpredictable,", "the", "athlete", "might", "have", "signed", "a", "long-term", "contract", "last", "spring."],
+            correctAnswer: "If the sponsor weren't so unpredictable, the athlete might have signed a long-term contract last spring.",
+            correctFeedback: "Perfect! 'Weren't so unpredictable' describes the sponsor's present character, and 'might have signed' expresses an uncertain past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so unpredictable' описывает нынешний характер спонсора, а 'might have signed' выражает неопределённый прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective, subject + might have + past participle + past time marker.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + might have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "he", "had", "taken", "the", "warning", "signs", "seriously,", "he", "would", "still", "be", "playing", "at", "the", "highest", "level."],
+            correctAnswer: "If only he had taken the warning signs seriously, he would still be playing at the highest level.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses regret, and 'would still be playing' (present continuous conditional) shows the ongoing present career he would have.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сожаление, а 'would still be playing' показывает продолжающуюся настоящую карьеру.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + would still be + present participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + would still be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Her", "ranking", "would", "be", "considerably", "higher", "at", "present", "if", "she", "hadn't", "taken", "a", "year", "off", "to", "recover."],
+            correctAnswer: "Her ranking would be considerably higher at present if she hadn't taken a year off to recover.",
+            correctFeedback: "Perfect! When the result clause comes first, it still uses 'would be + adjective' for the present result, while the if-clause keeps the past perfect.",
+            correctFeedbackRu: "Отлично! Когда главное предложение стоит первым, оно всё равно использует 'would be + прилагательное' для настоящего результата.",
+            incorrectFeedback: "Try again. Use: subject + would be + adjective + at present + if + subject + hadn't + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + would be + прилагательное + at present + if + подлежащее + hadn't + причастие прошедшего времени."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 9: Mixed Conditionals – Diplomacy and Historical Turning Points
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page9'] = {
+    title: "Mixed Conditionals (Advanced) – Diplomacy and Historical Turning Points",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "two", "nations", "had", "signed", "the", "accord", "decades", "ago,", "the", "border", "would", "be", "far", "more", "stable", "today."],
+            correctAnswer: "If the two nations had signed the accord decades ago, the border would be far more stable today.",
+            correctFeedback: "Perfect! 'Had signed' establishes the past condition, and 'would be far more stable today' (would + base verb) gives the present result.",
+            correctFeedbackRu: "Отлично! 'Had signed' устанавливает прошлое условие, а 'would be far more stable today' даёт настоящий результат.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + would be + adjective + today.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + would be + прилагательное + today."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "the", "empire", "not", "overextended", "its", "territory,", "its", "decline", "might", "have", "been", "far", "more", "gradual."],
+            correctAnswer: "Had the empire not overextended its territory, its decline might have been far more gradual.",
+            correctFeedback: "Perfect! 'Had the empire not overextended' is the inverted negative if-clause, and 'might have been' expresses an uncertain past result, appropriately hedged for a historical counterfactual.",
+            correctFeedbackRu: "Отлично! 'Had the empire not overextended' — инвертированное отрицательное придаточное, а 'might have been' выражает неопределённый прошлый результат.",
+            incorrectFeedback: "Try again. Inverted negative if-clauses use: Had + subject + not + past participle, followed by 'might have been + adjective'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные отрицательные придаточные используют: Had + подлежащее + not + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "diplomats", "weren't", "so", "entrenched", "in", "distrust,", "the", "ceasefire", "would", "have", "been", "signed", "months", "ago."],
+            correctAnswer: "If the diplomats weren't so entrenched in distrust, the ceasefire would have been signed months ago.",
+            correctFeedback: "Perfect! 'Weren't so entrenched' describes the diplomats' present attitude, and 'would have been signed' gives the past passive result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so entrenched' описывает нынешнее отношение дипломатов, а 'would have been signed' даёт прошлый пассивный результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have been + past participle + past time marker.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have been + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "archive", "hadn't", "been", "destroyed", "during", "the", "war,", "historians", "would", "be", "reconstructing", "that", "era", "far", "more", "precisely."],
+            correctAnswer: "If the archive hadn't been destroyed during the war, historians would be reconstructing that era far more precisely.",
+            correctFeedback: "Perfect! 'Would be reconstructing' (would + be + present participle) expresses the ongoing present research resulting from the past preservation of records.",
+            correctFeedbackRu: "Отлично! 'Would be reconstructing' выражает продолжающееся настоящее исследование.",
+            incorrectFeedback: "Try again. For an ongoing present result, use 'would be + present participle' after the past perfect passive if-clause.",
+            incorrectFeedbackRu: "Попробуйте снова. Для продолжающегося настоящего результата используйте 'would be + причастие настоящего времени'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "the", "intervention", "of", "neutral", "mediators,", "the", "conflict", "might", "still", "be", "escalating", "even", "now."],
+            correctAnswer: "But for the intervention of neutral mediators, the conflict might still be escalating even now.",
+            correctFeedback: "Perfect! 'But for + noun phrase' formally replaces 'if it hadn't been for'. 'Might still be escalating even now' correctly hedges the ongoing present possibility.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. Продолжающаяся настоящая возможность правильно смягчена.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + might still be + present participle + even now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + might still be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "the", "two", "leaders", "less", "obsessed", "with", "national", "pride,", "the", "summit", "would", "have", "produced", "a", "genuine", "breakthrough."],
+            correctAnswer: "Were the two leaders less obsessed with national pride, the summit would have produced a genuine breakthrough.",
+            correctFeedback: "Perfect! 'Were the two leaders less obsessed' is the inverted form of 'If the two leaders were less obsessed'. 'Would have produced' gives the past result.",
+            correctFeedbackRu: "Отлично! 'Were the two leaders less obsessed' — инвертированная форма. 'Would have produced' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals start with 'Were + subject + adjective', followed by 'would have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения начинаются с 'Were + подлежащее + прилагательное'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "reformist", "faction", "weren't", "so", "marginalised,", "the", "policy", "shift", "might", "already", "have", "taken", "place."],
+            correctAnswer: "If the reformist faction weren't so marginalised, the policy shift might already have taken place.",
+            correctFeedback: "Perfect! 'Weren't so marginalised' describes the faction's present political standing, and 'might already have taken place' expresses an uncertain past result.",
+            correctFeedbackRu: "Отлично! 'Weren't so marginalised' описывает нынешнее политическое положение фракции, а 'might already have taken place' выражает неопределённый прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective, subject + might already have + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + might already have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "the", "explorers", "had", "charted", "that", "coastline", "meticulously,", "the", "region", "wouldn't", "remain", "so", "poorly", "mapped."],
+            correctAnswer: "If only the explorers had charted that coastline meticulously, the region wouldn't remain so poorly mapped.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses regret, and 'wouldn't remain' (would + base verb) shows the present cartographic state that persists today.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сожаление, а 'wouldn't remain' показывает настоящее картографическое состояние.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + wouldn't + base verb + adjective phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + wouldn't + основной глагол."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "regime", "would", "remain", "entirely", "unchallenged", "to", "this", "day", "but", "for", "the", "courage", "of", "a", "handful", "of", "dissidents."],
+            correctAnswer: "The regime would remain entirely unchallenged to this day but for the courage of a handful of dissidents.",
+            correctFeedback: "Perfect! When 'but for' comes at the end of the sentence, the present result clause 'would remain unchallenged to this day' still precedes it correctly.",
+            correctFeedbackRu: "Отлично! Когда 'but for' стоит в конце предложения, главное предложение с настоящим результатом всё равно предшествует ему правильно.",
+            incorrectFeedback: "Try again. Use: subject + would remain + adjective + to this day + but for + noun phrase.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + would remain + прилагательное + to this day + but for + именная группа."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "the", "treaty", "negotiations", "had", "been", "concluded", "before", "the", "elections,", "the", "geopolitical", "landscape", "would", "look", "different", "now."],
+            correctAnswer: "If the treaty negotiations had been concluded before the elections, the geopolitical landscape would look different now.",
+            correctFeedback: "Perfect! 'Had been concluded' (passive past perfect) establishes the past condition, and 'would look different now' (would + base verb) gives the present result.",
+            correctFeedbackRu: "Отлично! 'Had been concluded' устанавливает прошлое условие, а 'would look different now' даёт настоящий результат.",
+            incorrectFeedback: "Try again. Use: If + subject + had been + past participle, subject + would + base verb + adjective + now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had been + причастие прошедшего времени, подлежащее + would + основной глагол."
+        }
+    ]
+};
+
+/* ===============================================================================
+Page 10: Mixed Conditionals – Family, Friendship, and Professional Mentorship
+=============================================================================== */
+window.grammarExercises['conditionals']['mixed-conditionals-advanced-sentence-page10'] = {
+    title: "Mixed Conditionals (Advanced) – Family, Friendship, and Professional Mentorship",
+    sentenceBuilding: [
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "she", "had", "accepted", "the", "overseas", "transfer,", "she", "would", "be", "leading", "a", "much", "larger", "team", "today."],
+            correctAnswer: "If she had accepted the overseas transfer, she would be leading a much larger team today.",
+            correctFeedback: "Perfect! 'Had accepted' establishes the past condition, and 'would be leading today' (would + be + present participle) gives the ongoing present result.",
+            correctFeedbackRu: "Отлично! 'Had accepted' устанавливает прошлое условие, а 'would be leading today' даёт продолжающийся настоящий результат.",
+            incorrectFeedback: "Try again. Use: If + subject + had + past participle, subject + would be + present participle + today.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + had + причастие прошедшего времени, подлежащее + would be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "they", "not", "drifted", "apart", "after", "university,", "they", "would", "still", "be", "close", "friends", "today."],
+            correctAnswer: "Had they not drifted apart after university, they would still be close friends today.",
+            correctFeedback: "Perfect! 'Had they not drifted apart' is the inverted negative if-clause, and 'would still be close friends today' (would + base verb) gives the present result.",
+            correctFeedbackRu: "Отлично! 'Had they not drifted apart' — инвертированное отрицательное придаточное, а 'would still be close friends today' даёт настоящий результат.",
+            incorrectFeedback: "Try again. Inverted negative if-clauses use: Had + subject + not + past participle, followed by 'would still be + noun phrase + today'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные отрицательные придаточные используют: Had + подлежащее + not + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "he", "weren't", "so", "conflict-averse,", "he", "would", "have", "addressed", "the", "tension", "with", "his", "partner", "years", "ago."],
+            correctAnswer: "If he weren't so conflict-averse, he would have addressed the tension with his partner years ago.",
+            correctFeedback: "Perfect! 'Weren't so conflict-averse' describes his present character, and 'would have addressed' gives the past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so conflict-averse' описывает его нынешний характер, а 'would have addressed' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would have + past participle + past time marker.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "she", "hadn't", "mentored", "him", "so", "patiently,", "he", "might", "not", "be", "nearly", "as", "confident", "a", "leader", "today."],
+            correctAnswer: "If she hadn't mentored him so patiently, he might not be nearly as confident a leader today.",
+            correctFeedback: "Perfect! 'Might not be nearly as confident' expresses an uncertain present possibility, more cautious than the certain 'wouldn't be'.",
+            correctFeedbackRu: "Отлично! 'Might not be nearly as confident' выражает неопределённую настоящую возможность.",
+            incorrectFeedback: "Try again. For a hedged present result, use 'might not be + noun phrase + today', not 'might not have been'.",
+            incorrectFeedbackRu: "Попробуйте снова. Для смягчённого настоящего результата используйте 'might not be + именная группа + today'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["But", "for", "a", "chance", "meeting", "at", "a", "conference,", "their", "long", "partnership", "would", "never", "have", "begun."],
+            correctAnswer: "But for a chance meeting at a conference, their long partnership would never have begun.",
+            correctFeedback: "Perfect! 'But for + noun phrase' formally replaces 'if it hadn't been for'. 'Would never have begun' correctly gives the past result of this chance encounter.",
+            correctFeedbackRu: "Отлично! 'But for + именная группа' формально заменяет 'if it hadn't been for'. 'Would never have begun' правильно даёт прошлый результат.",
+            incorrectFeedback: "Try again. Use: But for + noun phrase, subject + would never have + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: But for + именная группа, подлежащее + would never have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Were", "she", "less", "fiercely", "independent,", "she", "might", "have", "taken", "her", "family's", "advice", "and", "stayed", "in", "her", "hometown."],
+            correctAnswer: "Were she less fiercely independent, she might have taken her family's advice and stayed in her hometown.",
+            correctFeedback: "Perfect! 'Were she less fiercely independent' is the inverted form of 'If she were less fiercely independent'. 'Might have taken' gives the uncertain past result of this hypothetical trait.",
+            correctFeedbackRu: "Отлично! 'Were she less fiercely independent' — инвертированная форма. 'Might have taken' даёт неопределённый прошлый результат.",
+            incorrectFeedback: "Try again. Inverted reverse mixed conditionals start with 'Were + subject + adjective', followed by 'might have + past participle'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные обратные смешанные условные наклонения начинаются с 'Were + подлежащее + прилагательное'."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "only", "I", "had", "negotiated", "my", "starting", "salary", "more", "assertively,", "I", "would", "be", "earning", "considerably", "more", "right", "now."],
+            correctAnswer: "If only I had negotiated my starting salary more assertively, I would be earning considerably more right now.",
+            correctFeedback: "Perfect! 'If only + past perfect' expresses regret, and 'would be earning right now' (present continuous conditional) shows the current salary that would result.",
+            correctFeedbackRu: "Отлично! 'If only + past perfect' выражает сожаление, а 'would be earning right now' показывает текущую зарплату.",
+            incorrectFeedback: "Try again. Use: If only + subject + had + past participle, subject + would be + present participle + right now.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If only + подлежащее + had + причастие прошедшего времени, подлежащее + would be + причастие настоящего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["If", "he", "weren't", "so", "reluctant", "to", "relocate,", "his", "family", "would", "already", "have", "settled", "into", "their", "new", "life", "abroad."],
+            correctAnswer: "If he weren't so reluctant to relocate, his family would already have settled into their new life abroad.",
+            correctFeedback: "Perfect! 'Weren't so reluctant' describes his present attitude, and 'would already have settled' gives the past result — a reverse mixed conditional.",
+            correctFeedbackRu: "Отлично! 'Weren't so reluctant' описывает его нынешнее отношение, а 'would already have settled' даёт прошлый результат.",
+            incorrectFeedback: "Try again. Use: If + subject + weren't + adjective phrase, subject + would already have + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: If + подлежащее + weren't + прилагательное, подлежащее + would already have + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["Had", "she", "not", "confided", "in", "her", "closest", "friend,", "she", "wouldn't", "have", "that", "support", "system", "today."],
+            correctAnswer: "Had she not confided in her closest friend, she wouldn't have that support system today.",
+            correctFeedback: "Perfect! 'Had she not confided' is the inverted negative if-clause, and 'wouldn't have' (would + base verb 'have', negated) means 'wouldn't possess' in the present.",
+            correctFeedbackRu: "Отлично! 'Had she not confided' — инвертированное отрицательное придаточное, а 'wouldn't have' означает 'не обладала бы' в настоящем.",
+            incorrectFeedback: "Try again. Inverted negative if-clauses use: Had + subject + not + past participle, followed by 'wouldn't have + noun phrase + today'.",
+            incorrectFeedbackRu: "Попробуйте снова. Инвертированные отрицательные придаточные используют: Had + подлежащее + not + причастие прошедшего времени."
+        },
+        {
+            question: "Form a correct sentence using these words:",
+            questionRu: "Составьте правильное предложение, используя эти слова:",
+            words: ["The", "couple", "wouldn't", "still", "be", "struggling", "to", "communicate", "today", "if", "they", "had", "sought", "counselling", "earlier."],
+            correctAnswer: "The couple wouldn't still be struggling to communicate today if they had sought counselling earlier.",
+            correctFeedback: "Perfect! When the result clause comes first, it keeps 'wouldn't still be + present participle' for the ongoing present result, while the if-clause uses the past perfect.",
+            correctFeedbackRu: "Отлично! Когда главное предложение стоит первым, оно сохраняет 'wouldn't still be + причастие настоящего времени'.",
+            incorrectFeedback: "Try again. Use: subject + wouldn't still be + present participle + today + if + subject + had + past participle.",
+            incorrectFeedbackRu: "Попробуйте снова. Используйте: подлежащее + wouldn't still be + причастие настоящего времени + today + if + подлежащее + had + причастие прошедшего времени."
+        }
+    ]
+};

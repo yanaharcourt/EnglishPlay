@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function () {
+            var saved = localStorage.getItem('theme');
+            if (saved === 'light') document.documentElement.setAttribute('data-theme', 'light');
+        })();
+    </script>
     <title>Phrasal Verbs Practice — EnglishPlay</title>
     <meta name="description"
         content="Learn and practice the most common English phrasal verbs with interactive exercises. Improve your fluency at any level.">
@@ -57,7 +63,7 @@
             <li><a href="index.html">Grammar Practice</a></li>
         </ul>
 
-        <div class="nav-auth" id="navAuth">
+        <div class="nav-auth" id="navAuth" style="visibility:hidden;">
             <div id="navGuest">
                 <a href="auth.html" class="nav-btn-signin">Sign In</a>
                 <a href="auth.html" class="nav-btn-signup">Get Started</a>
@@ -71,7 +77,8 @@
         </div>
 
         <button class="theme-switcher" id="themeSwitcher" aria-label="Switch theme">
-            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+            <img src="./assets/img/light.svg" alt="Switch to light theme" class="theme-icon theme-icon-dark">
+            <img src="./assets/img/dark.svg" alt="Switch to dark theme" class="theme-icon theme-icon-light">
         </button>
 
         <button class="burger" id="burger" aria-label="Open menu">
@@ -94,7 +101,8 @@
         <a href="index.html" class="mob-link">Grammar Practice</a>
         <a href="auth.html" class="mob-link mob-link-signup">Get Started →</a>
         <button class="theme-switcher" id="themeSwitcherMob" aria-label="Switch theme" style="margin-top:1rem;">
-            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+            <img src="./assets/img/light.svg" alt="Switch to light theme" class="theme-icon theme-icon-dark">
+            <img src="./assets/img/dark.svg" alt="Switch to dark theme" class="theme-icon theme-icon-light">
         </button>
     </div>
     <!-- --------------------------------------------------------------
@@ -4553,6 +4561,7 @@
             document.getElementById('navAvatar').textContent = name.charAt(0).toUpperCase();
             document.getElementById('navUsername').textContent = name.split(' ')[0];
         }
+        document.getElementById('navAuth').style.visibility = 'visible';
 
         const FREE_CARDS = 5;
         async function applyFreemium() {
@@ -4582,12 +4591,18 @@
     </script>
 
     <script>
-        document.getElementById('themeSwitcher').addEventListener('click', function () {
-            window.location.href = 'Phrasal Verbs-light.html';
-        });
-        document.getElementById('themeSwitcherMob').addEventListener('click', function () {
-            window.location.href = 'Phrasal Verbs-light.html';
-        });
+        function toggleTheme() {
+            var isLight = document.documentElement.getAttribute('data-theme') === 'light';
+            if (isLight) {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+            }
+        }
+        document.getElementById('themeSwitcher').addEventListener('click', toggleTheme);
+        document.getElementById('themeSwitcherMob').addEventListener('click', toggleTheme);
     </script>
 </body>
 

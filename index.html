@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function () {
+            var saved = localStorage.getItem('theme');
+            if (saved === 'light') document.documentElement.setAttribute('data-theme', 'light');
+        })();
+    </script>
     <title>EnglishPlay — Master English Grammar Naturally</title>
     <meta name="description"
         content="Practice English grammar with interactive exercises at any level — A1 to С2. Multiple choice, fill in the gaps, sentence building. Free to start.">
@@ -46,7 +52,7 @@
             <li><a href="index.html" class="active">Grammar Practice</a></li>
         </ul>
 
-        <div class="nav-auth" id="navAuth">
+        <div class="nav-auth" id="navAuth" style="visibility:hidden;">
             <div id="navGuest">
                 <a href="auth.html" class="nav-btn-signin">Sign In</a>
                 <a href="auth.html" class="nav-btn-signup">Get Started</a>
@@ -60,7 +66,8 @@
         </div>
 
         <button class="theme-switcher" id="themeSwitcher" aria-label="Switch theme">
-            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+            <img src="./assets/img/light.svg" alt="Switch to light theme" class="theme-icon theme-icon-dark">
+            <img src="./assets/img/dark.svg" alt="Switch to dark theme" class="theme-icon theme-icon-light">
         </button>
 
         <button class="burger" id="burger" aria-label="Open menu">
@@ -83,7 +90,8 @@
         <a href="index.html" class="mob-link">Grammar Practice</a>
         <a href="auth.html" class="mob-link mob-link-signup">Get Started →</a>
         <button class="theme-switcher" id="themeSwitcherMob" aria-label="Switch theme" style="margin-top:1rem;">
-            <img src="./assets/img/light.svg" alt="Light theme" class="theme-icon">
+            <img src="./assets/img/light.svg" alt="Switch to light theme" class="theme-icon theme-icon-dark">
+            <img src="./assets/img/dark.svg" alt="Switch to dark theme" class="theme-icon theme-icon-light">
         </button>
     </div>
     <!-- --------------------------------------------------------------
@@ -226,6 +234,11 @@
                             <input type="checkbox" checked class="topic-checkbox" data-topic="comparison">
                             <span>Comparison & Quantity</span>
                         </label>
+
+                        <label class="topic-item">
+                            <input type="checkbox" checked class="topic-checkbox" data-topic="power-up-3">
+                            <span>Power-up-3</span>
+                        </label>
                         
                     </div>
                 </div>
@@ -238,6 +251,57 @@
                 </div>
 
                 <div class="grammar-topics">
+                    <!-- ============== "Power-up-3" ============== -->
+                    <div class="grammar-category" data-topic="power-up-3">
+                        <div class="category-header">
+                            <h2>Power Up 3</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="category-content active">
+                            <!-- power-up-3 -->
+                            <div class="grammar-card" data-level="a1-a2" data-audience="adults" data-topic="power-up-3"
+                                data-subtopic="power-up-3">
+                                <div class="card-header">
+                                    <h3>Power Up 3</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/power-up-3.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/power-up-3.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/power-up-3.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+
+                            <!-- power-up-3-2 -->
+                            <div class="grammar-card" data-level="a1-a2" data-audience="adults" data-topic="power-up-3"
+                                data-subtopic="power-up-3">
+                                <div class="card-header">
+                                    <h3>Power Up 3-2</h3>
+                                    <div class="level-tags">
+                                        <span class="level-tag">A1</span>
+                                        <span class="level-tag">A2</span>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer">
+                                    <a href="./assets/js/grammar-practice /A1/power-up-3-2.js" class="exercise-btn"
+                                        data-exercise="multiple-choice">Multiple Choice</a>
+                                    <a href="./assets/js/grammar-practice /A1/power-up-3-2.js" class="exercise-btn"
+                                        data-exercise="fill-gaps">Fill in the Gaps</a>
+                                    <a href="./assets/js/grammar-practice /A1/power-up-3-2.js" class="exercise-btn"
+                                        data-exercise="sentence-building">Sentence Building</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- ============== "To Be" ============== -->
                     <div class="grammar-category" data-topic="to-be">
                         <div class="category-header">
@@ -3892,6 +3956,11 @@
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/grammar-practice.js"></script>
 
+    <!-- ======================== Power Up ======================== -->
+    <!-- A1 Level -->
+    <script src="./assets/js/grammar-practice /A1/power-up-3.js"></script>
+    <script src="./assets/js/grammar-practice /A1/power-up-3-2.js"></script>
+
     <!-- ======================== To Be ======================== -->
     <!-- A1 Level -->
     <script src="./assets/js/grammar-practice /A1/To-be-with-names.js"></script>
@@ -4288,6 +4357,7 @@
             document.getElementById('navAvatar').textContent = name.charAt(0).toUpperCase();
             document.getElementById('navUsername').textContent = name.split(' ')[0];
         }
+        document.getElementById('navAuth').style.visibility = 'visible';
 
         const FREE_PER_LEVEL = 1;
 
@@ -4321,12 +4391,18 @@
     </script>
 
     <script>
-        document.getElementById('themeSwitcher').addEventListener('click', function () {
-            window.location.href = 'index-light.html';
-        });
-        document.getElementById('themeSwitcherMob').addEventListener('click', function () {
-            window.location.href = 'index-light.html';
-        });
+        function toggleTheme() {
+            var isLight = document.documentElement.getAttribute('data-theme') === 'light';
+            if (isLight) {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+            }
+        }
+        document.getElementById('themeSwitcher').addEventListener('click', toggleTheme);
+        document.getElementById('themeSwitcherMob').addEventListener('click', toggleTheme);
     </script>
 </body>
 
