@@ -32,7 +32,7 @@
     display: flex;
     margin-bottom: 1.5rem;
     background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     padding: 0.25rem;
     overflow: hidden;
 }
@@ -46,7 +46,7 @@
     font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
     font-size: var(--text-sm);
     cursor: pointer;
-    border-radius: 0.375rem;
+    border-radius: 0.5rem;
     transition: all 0.25s ease;
     text-align: center;
     text-decoration: none;
@@ -85,7 +85,7 @@
     border: 1px solid rgba(255, 255, 255, 0.07);
     color: var(--body-3);
     padding: 0.375rem 0.75rem;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     font-size: var(--text-sm);
     font-weight: 600;
     cursor: pointer;
@@ -132,7 +132,7 @@
     font-size: var(--text-sm);
     font-weight: 400;
     padding: 0.25rem 0;
-    border-radius: 0.375rem;
+    border-radius: 0.5rem;
 }
 
 .topic-item:hover,
@@ -146,7 +146,7 @@
     width: 1rem;
     height: 1rem;
     border: 1.5px solid rgba(255, 255, 255, 0.15);
-    border-radius: 0.25rem;
+    border-radius: 0.375rem;
     background-color: transparent;
     cursor: pointer;
     position: relative;
@@ -310,32 +310,53 @@
     position: relative;
 }
 
-/* Subtle shimmer line on hover */
+/* Cursor-tracked glow spot + shimmer line on hover */
 .grammar-card::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg,
-        transparent 0%,
-        rgba(124, 127, 245, 0.6) 50%,
-        transparent 100%);
+    inset: 0;
+    border-radius: inherit;
+    background:
+        radial-gradient(320px circle at var(--mx, 50%) var(--my, 50%), rgba(124, 127, 245, 0.16), transparent 55%),
+        linear-gradient(90deg, transparent 0%, rgba(124, 127, 245, 0.6) 50%, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 100% 1px;
+    background-position: 0 0, 0 0;
     opacity: 0;
     transition: opacity 0.3s ease;
+    pointer-events: none;
 }
 
 .grammar-card:hover {
     transform: translateY(-4px);
     border-color: rgba(124, 127, 245, 0.25);
     box-shadow:
-        0 8px 32px rgba(0, 0, 0, 0.3),
+        0 12px 36px rgba(20, 16, 60, 0.4),
         0 0 0 1px rgba(124, 127, 245, 0.08),
         0 4px 0 rgba(124, 127, 245, 0.1) inset;
 }
 
 .grammar-card:hover::before {
+    opacity: 1;
+}
+
+/* Cursor-tracked spotlight border */
+.grammar-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1.5px;
+    background: radial-gradient(220px circle at var(--mx, 50%) var(--my, 50%), rgba(124, 127, 245, 0.65), transparent 70%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    pointer-events: none;
+}
+
+.grammar-card:hover::after {
     opacity: 1;
 }
 
@@ -367,7 +388,7 @@
     font-size: 0.6875rem;
     font-weight: 700;
     padding: 0.1875rem 0.5rem;
-    border-radius: 0.3rem;
+    border-radius: 0.4rem;
     color: var(--accent-color);
     background: rgba(124, 127, 245, 0.1);
     border: 1px solid rgba(124, 127, 245, 0.2);
@@ -388,7 +409,7 @@
 .example {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 0.75rem;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     margin-top: 0.75rem;
     border-left: 2px solid rgba(124, 127, 245, 0.3);
 }
@@ -414,7 +435,7 @@
     color: var(--body-3);
     text-decoration: none;
     padding: 0.375rem 0.75rem;
-    border-radius: 0.375rem;
+    border-radius: 0.5rem;
     font-size: var(--text-xs);
     font-weight: 500;
     transition: all 0.2s ease;
@@ -662,7 +683,7 @@
     display: flex;
     margin-bottom: 1.5rem;
     background-color: var(--bg-color);
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     padding: 0.25rem;
     overflow: hidden;
 }
@@ -675,7 +696,7 @@
     font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
     font-size: var(--text-sm);
     cursor: pointer;
-    border-radius: 0.375rem;
+    border-radius: 0.5rem;
     transition: all 0.25s ease;
     text-align: center;
     text-decoration: none;
@@ -709,7 +730,7 @@
     border: 1px solid var(--card-stroke);
     color: var(--body-2);
     padding: 0.375rem 0.75rem;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     font-size: var(--text-sm);
     font-weight: 600;
     cursor: pointer;
@@ -763,7 +784,7 @@
     width: 1rem;
     height: 1rem;
     border: 1.5px solid var(--card-stroke-secondary);
-    border-radius: 0.25rem;
+    border-radius: 0.375rem;
     background-color: transparent;
     cursor: pointer;
     position: relative;
@@ -909,16 +930,17 @@
 [data-theme="light"] .grammar-card::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg,
-        transparent 0%,
-        rgba(82, 84, 232, 0.5) 50%,
-        transparent 100%);
+    inset: 0;
+    border-radius: inherit;
+    background:
+        radial-gradient(320px circle at var(--mx, 50%) var(--my, 50%), rgba(82, 84, 232, 0.12), transparent 55%),
+        linear-gradient(90deg, transparent 0%, rgba(82, 84, 232, 0.5) 50%, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 100% 1px;
+    background-position: 0 0, 0 0;
     opacity: 0;
     transition: opacity 0.3s ease;
+    pointer-events: none;
 }
 [data-theme="light"] .grammar-card:hover {
     transform: translateY(-4px);
@@ -953,7 +975,7 @@
     font-size: 0.6875rem;
     font-weight: 700;
     padding: 0.1875rem 0.5rem;
-    border-radius: 0.3rem;
+    border-radius: 0.4rem;
     color: var(--accent-color);
     background: var(--note);
     border: 1px solid rgba(82, 84, 232, 0.15);
@@ -971,7 +993,7 @@
 [data-theme="light"] .example {
     background-color: var(--card-bg-tertiary);
     padding: 0.75rem;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     margin-top: 0.75rem;
     border-left: 2px solid rgba(82, 84, 232, 0.2);
 }
@@ -995,7 +1017,7 @@
     color: var(--body-2);
     text-decoration: none;
     padding: 0.375rem 0.75rem;
-    border-radius: 0.375rem;
+    border-radius: 0.5rem;
     font-size: var(--text-xs);
     font-weight: 500;
     transition: all 0.2s ease;

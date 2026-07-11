@@ -760,14 +760,14 @@ function showNoResultsMessage() {
             padding: 20px;
             text-align: center;
             background-color: var(--card-bg);
-            border-radius: 12px;
+            border-radius: 16px;
             max-width: 600px;
         `;
 
         message.innerHTML = `
             <h3 style="color: var(--heading-color); margin-bottom: 12px;">No matching grammar topics found</h3>
             <p style="color: var(--body-2);">Try adjusting your filters or search criteria to see more content.</p>
-            <button id="reset-filters-btn" style="margin-top: 16px; padding: 8px 16px; background-color: var(--accent-color); color: white; border: none; border-radius: 6px; cursor: pointer;">Reset All Filters</button>
+            <button id="reset-filters-btn" style="margin-top: 16px; padding: 8px 16px; background-color: var(--accent-color); color: white; border: none; border-radius: 8px; cursor: pointer;">Reset All Filters</button>
         `;
 
         const grammarContent = document.querySelector('.grammar-content');
@@ -1188,7 +1188,7 @@ function createExerciseModal(topic, subtitle, exerciseType) {
         background: var(--bg-color);
         width: min(90vw, 1200px);
         max-height: 90svh;
-        border-radius: 16px;
+        border-radius: 20px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -1350,7 +1350,7 @@ function createExercisePagination(container, topic, subtitle, exerciseType) {
         background-color: var(--card-bg);
         color: var(--body-1);
         border: 1px solid var(--card-stroke);
-        border-radius: 6px;
+        border-radius: 8px;
         padding: 8px 16px;
         cursor: pointer;
         transition: all 0.2s ease;
@@ -1377,7 +1377,7 @@ function createExercisePagination(container, topic, subtitle, exerciseType) {
         background-color: var(--accent-color);
         color: white;
         border: none;
-        border-radius: 6px;
+        border-radius: 8px;
         padding: 8px 16px;
         cursor: pointer;
         transition: all 0.2s ease;
@@ -1528,7 +1528,7 @@ function showMultipleChoiceExercise(container, exercise) {
         sentenceContainer.style.cssText = `
             background-color: var(--card-bg-secondary);
             padding: 12px;
-            border-radius: 8px;
+            border-radius: 12px;
             margin-bottom: 20px;
         `;
 
@@ -1574,7 +1574,7 @@ function showMultipleChoiceExercise(container, exercise) {
         optionButton.style.cssText = `
             background: var(--card-bg);
             border: 1px solid var(--card-stroke);
-            border-radius: 8px;
+            border-radius: 12px;
             padding: 12px 15px;
             color: var(--body-1);
             cursor: pointer;
@@ -1720,7 +1720,7 @@ function showFeedback(container, isCorrect, htmlContent) {
     feedback.style.cssText = `
         margin-top: 20px;
         padding: 15px;
-        border-radius: 8px;
+        border-radius: 12px;
         font-size: 0.95rem;
         background-color: ${isCorrect ? 'var(--correct-bg)' : 'var(--danger-bg)'};
         border: 1px solid ${isCorrect ? 'var(--correct-border)' : 'var(--danger-border)'};
@@ -1922,7 +1922,7 @@ function loadFullExercisePage(container, topic, subtitle, exerciseType = 'multip
     scoreTracker.style.cssText = `
         background-color: var(--card-bg);
         padding: 14px 16px;
-        border-radius: 12px;
+        border-radius: 16px;
         margin-bottom: 16px;
         display: flex;
         justify-content: space-between;
@@ -2043,7 +2043,7 @@ function showExerciseFeedback(exerciseBox, isCorrect, message, messageRu) {
         feedbackElement.style.cssText = `
             margin-top: 14px;
             padding: 14px 16px;
-            border-radius: 12px;
+            border-radius: 16px;
             font-size: 15px;
             line-height: 1.5;
             background-color: var(--correct-bg);
@@ -2054,7 +2054,7 @@ function showExerciseFeedback(exerciseBox, isCorrect, message, messageRu) {
         feedbackElement.style.cssText = `
             margin-top: 14px;
             padding: 14px 16px;
-            border-radius: 12px;
+            border-radius: 16px;
             font-size: 15px;
             line-height: 1.5;
             background-color: var(--danger-bg);
@@ -2126,7 +2126,7 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
     exerciseBox.dataset.index = index;
     exerciseBox.style.cssText = `
         background-color: var(--card-bg);
-        border-radius: 14px;
+        border-radius: 18px;
         border: 1px solid var(--card-stroke);
         padding: 16px;
         box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
@@ -2224,7 +2224,7 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
     sentenceContainer.style.cssText = `
         background-color: var(--card-bg-secondary);
         padding: 12px 16px;
-        border-radius: 8px;
+        border-radius: 12px;
         margin-bottom: 20px;
     `;
 
@@ -2263,7 +2263,7 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
         background-color: var(--card-bg);
         color: var(--body-1);
         border: 1px solid var(--card-stroke);
-        border-radius: 6px;
+        border-radius: 8px;
         padding: 8px 14px;
         font-size: 1rem;
         cursor: pointer;
@@ -2304,7 +2304,7 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
         overflow-y: auto;
         background-color: var(--card-bg);
         border: 1px solid var(--card-stroke);
-        border-radius: 6px;
+        border-radius: 8px;
         margin-top: 3px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     `;
@@ -2432,7 +2432,7 @@ function showFillGapsFullPageExercise(topic, subtitle, exercise, index, currentS
         background-color: var(--accent-color);
         color: white;
         border: none;
-        border-radius: 4px;
+        border-radius: 6px;
         padding: 8px 16px;
         font-family: 'Poppins', sans-serif;
         font-size: 1rem;
@@ -2562,7 +2562,7 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
     exerciseBox.dataset.index = index;
     exerciseBox.style.cssText = `
         background-color: var(--card-bg);
-        border-radius: 12px;
+        border-radius: 16px;
         border: 1px solid var(--card-stroke);
         padding: 20px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -2724,7 +2724,7 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
                     optionButton.style.cssText = `
                         background-color: var(--correct-bg);
                         border: 1.5px solid var(--correct-border);
-                        border-radius: 12px;
+                        border-radius: 16px;
                         padding: 14px 16px;
                         text-align: left;
                         color: var(--correct-text);
@@ -2741,7 +2741,7 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
                     optionButton.style.cssText = `
                         background-color: var(--danger-bg);
                         border: 1px solid var(--danger-border);
-                        border-radius: 8px;
+                        border-radius: 12px;
                         padding: 12px 16px;
                         text-align: left;
                         color: var(--danger-text);
@@ -2755,7 +2755,7 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
                 optionButton.style.cssText = `
                     background-color: var(--correct-bg);
                         border: 1.5px solid var(--correct-border);
-                        border-radius: 12px;
+                        border-radius: 16px;
                         padding: 14px 16px;
                         text-align: left;
                         color: var(--correct-text);
@@ -2770,7 +2770,7 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
                 optionButton.style.cssText = `
                         background-color: var(--danger-bg);
                         border: 1.5px solid var(--danger-border);
-                        border-radius: 12px;
+                        border-radius: 16px;
                         padding: 14px 16px;
                         text-align: left;
                         color: var(--danger-text);
@@ -2789,7 +2789,7 @@ function showMultipleChoiceFullPageExercise(topic, subtitle, exercise, index, cu
             optionButton.style.cssText = `
                 background-color: var(--card-bg);
                 border: 1.5px solid var(--card-stroke);
-                border-radius: 12px;
+                border-radius: 16px;
                 padding: 14px 16px;
                 text-align: left;
                 color: var(--body-1);
@@ -2917,7 +2917,7 @@ function showMatchingFullPageExercise(topic, subtitle, exercise, index, currentS
     exerciseBox.dataset.index = index;
     exerciseBox.style.cssText = `
         background-color: var(--card-bg);
-        border-radius: 12px;
+        border-radius: 16px;
         border: 1px solid var(--card-stroke);
         padding: 20px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -3083,7 +3083,7 @@ function showMatchingFullPageExercise(topic, subtitle, exercise, index, currentS
             leftItem.style.cssText = `
                 background-color: var(--card-bg-secondary);
                 padding: 10px;
-                border-radius: 6px;
+                border-radius: 8px;
                 border: 1px solid var(--card-stroke);
                 cursor: pointer;
                 user-select: none;
@@ -3185,7 +3185,7 @@ function showMatchingFullPageExercise(topic, subtitle, exercise, index, currentS
             rightItem.style.cssText = `
                 background-color: var(--card-bg-secondary);
                 padding: 10px;
-                border-radius: 6px;
+                border-radius: 8px;
                 border: 1px solid var(--card-stroke);
                 cursor: pointer;
                 user-select: none;
@@ -3418,7 +3418,7 @@ function showMatchingFullPageExercise(topic, subtitle, exercise, index, currentS
             background-color: var(--accent-color);
             color: white;
             border: none;
-            border-radius: 6px;
+            border-radius: 8px;
             padding: 10px 20px;
             font-size: 1rem;
             cursor: pointer;
@@ -3543,7 +3543,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
     exerciseBox.dataset.index = index;
     exerciseBox.style.cssText = `
         background-color: var(--card-bg);
-        border-radius: 12px;
+        border-radius: 16px;
         border: 1px solid var(--card-stroke);
         padding: 20px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -3640,7 +3640,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
         min-height: 60px;
         padding: 15px;
         background-color: var(--card-bg-secondary);
-        border-radius: 8px;
+        border-radius: 12px;
         margin-bottom: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -3686,7 +3686,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
                 background-color: var(--card-bg);
                 color: var(--body-1);
                 padding: 8px 14px;
-                border-radius: 6px;
+                border-radius: 8px;
                 cursor: pointer;
                 user-select: none;
                 border: 1px solid var(--card-stroke);
@@ -3727,7 +3727,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
                     background-color: var(--accent-color);
                     color: white;
                     padding: 8px 14px;
-                    border-radius: 6px;
+                    border-radius: 8px;
                     user-select: none;
                     cursor: pointer;
                     transition: all 0.2s ease;
@@ -3787,7 +3787,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
                 background-color: ${state.isCorrect ? 'var(--correct-bg)' : 'var(--danger-bg)'};
                 color: ${state.isCorrect ? 'var(--correct-text)' : 'var(--danger-text)'};
                 padding: 8px 14px;
-                border-radius: 6px;
+                border-radius: 8px;
                 user-select: none;
                 border: 1px solid ${state.isCorrect ? 'var(--correct-border)' : 'var(--danger-border)'};
             `;
@@ -3801,7 +3801,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
                 margin-top: 10px;
                 padding: 10px;
                 background-color: var(--correct-bg);
-                border-radius: 6px;
+                border-radius: 8px;
                 color: var(--correct-text);
                 border: 1px solid var(--correct-border);
             `;
@@ -3821,7 +3821,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
         background-color: var(--accent-color);
         color: white;
         border: none;
-        border-radius: 6px;
+        border-radius: 8px;
         padding: 10px 20px;
         font-size: 1rem;
         cursor: pointer;
@@ -3906,7 +3906,7 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
                         margin-top: 10px;
                         padding: 10px;
                         background-color: var(--correct-bg);
-                        border-radius: 6px;
+                        border-radius: 8px;
                         color: var(--correct-text);
                         border: 1px solid var(--correct-border);
                     `;
@@ -3981,3 +3981,12 @@ function showSentenceBuildingFullPageExercise(topic, subtitle, exercise, index, 
 
     return exerciseBox;
 }
+
+// Cursor-tracked spotlight border on grammar cards
+document.addEventListener('mousemove', (e) => {
+    const card = e.target.closest('.grammar-card');
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty('--mx', (e.clientX - rect.left) + 'px');
+    card.style.setProperty('--my', (e.clientY - rect.top) + 'px');
+});

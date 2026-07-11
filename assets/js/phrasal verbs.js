@@ -908,7 +908,7 @@ Favorites
             bottom: 20px;
             right: 20px;
             padding: 10px 20px;
-            border-radius: 8px;
+            border-radius: 12px;
             z-index: 1001;
             background-color: ${type === 'success' ? themeColor('rgba(56, 189, 142, 0.25)', '#e1f2ec') : themeColor('rgba(100, 116, 139, 0.25)', 'rgba(100, 116, 139, 0.12)')};
             color: ${type === 'success' ? themeColor('#a7f3d0', '#0d9488') : themeColor('#cbd5e1', 'var(--neutral-text)')};
@@ -1664,7 +1664,7 @@ class PhraseTraining {
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+            background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1691,15 +1691,15 @@ class PhraseTraining {
                     appearance: none;
                     width: 20px !important;
                     height: 20px !important;
-                    border: 2px solid themeColor('#6366f1', 'var(--accent-color)');
-                    border-radius: 4px;
+                    border: 2px solid ${themeColor('#6366f1', 'var(--accent-color)')};
+                    border-radius: 6px;
                     background-color: transparent;
                     cursor: pointer;
                     position: relative;
                 }
 
                 .mode-checkbox:checked {
-                    background-color: themeColor('#6366f1', 'var(--accent-color)');
+                    background-color: ${themeColor('#6366f1', 'var(--accent-color)')};
                 }
 
                 .mode-checkbox:checked::after {
@@ -1716,9 +1716,9 @@ class PhraseTraining {
                     display: flex;
                     align-items: center;
                     gap: 16px;
-                    background: themeColor('#292a3e', 'var(--card-bg)');
+                    background: ${themeColor('#292a3e', 'var(--card-bg)')};
                     padding: 16px;
-                    border-radius: 8px;
+                    border-radius: 12px;
                     opacity: 0.7;
                     transition: all 0.3s ease;
                     border: 1px solid transparent;
@@ -1726,48 +1726,50 @@ class PhraseTraining {
 
                 .mode-item.active {
                     opacity: 1;
-                    border-color: themeColor('#6366f1', 'var(--accent-color)');
-                    background: themeColor('rgba', 'var')(themeColor('99, 102, 241, 0.1', '--card-hover-secondary'));
+                    border-color: ${themeColor('#6366f1', 'var(--accent-color)')};
+                    background: ${themeColor('rgba', 'var')}(${themeColor('99, 102, 241, 0.1', '--card-hover-secondary')});
                 }
                 
                 .settings-btn:hover {
-                    color: themeColor('#f8fafc', 'var(--body-1)') !important;
+                    color: ${themeColor('#f8fafc', 'var(--body-1)')} !important;
                 }
                 .settings-btn:hover svg {
-                    stroke: themeColor('#f8fafc', 'var(--body-1)');
+                    stroke: ${themeColor('#f8fafc', 'var(--body-1)')};
                 }
                 
                 .control-btn {
                     width: 40px;
                     height: 40px;
                     border-radius: 50%;
-                    background: themeColor('#292a3e', 'var(--card-bg)');
-                    color: themeColor('#f8fafc', 'var(--body-1)');
+                    background: ${themeColor('#292a3e', 'var(--card-bg)')};
+                    color: ${themeColor('#f8fafc', 'var(--body-1)')};
                     border: none;
                     cursor: pointer;
                     transition: background-color 0.3s ease;
                 }
                 
                 .control-btn:hover {
-                    background: themeColor('#6366f1', 'var(--accent-color)');
+                    background: ${themeColor('#6366f1', 'var(--accent-color)')};
                 }
                 
                 .start-training-btn, .save-modes-btn, .close-completion {
-                    background: themeColor('#6366f1', 'var(--accent-color)');
-                    color: themeColor('#f8fafc', 'var(--body-1)');
-                    padding: 12px 32px;
-                    border-radius: 8px;
+                    background: ${themeColor('#6366f1', 'var(--accent-color)')};
+                    color: #f8fafc;
+                    padding: 16px 32px;
+                    border-radius: 12px;
                     border: none;
                     cursor: pointer;
+                    font-size: 17px;
+                    font-weight: 600;
                     transition: background-color 0.3s ease;
                 }
                 
                 .start-training-btn:hover, .save-modes-btn:hover, .close-completion:hover {
-                    background: themeColor('#4f46e5', 'var(--accent-primary-hover)');
+                    background: ${themeColor('#4f46e5', 'var(--accent-primary-hover)')};
                 }
                 
                 .close-modal, .close-modes-modal {
-                    color: themeColor('#b6b9d0', 'var(--body-2)');
+                    color: ${themeColor('#b6b9d0', 'var(--body-2)')};
                     background: none;
                     border: none;
                     font-size: 32px;
@@ -1777,31 +1779,31 @@ class PhraseTraining {
                 }
                 
                 .close-modal:hover, .close-modes-modal:hover {
-                    color: themeColor('#f8fafc', 'var(--body-1)');
+                    color: ${themeColor('#f8fafc', 'var(--body-1)')};
                 }
             </style>
-            <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 95vw; height: 90vh; border-radius: 12px; padding: 24px; margin: 16px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; height: 90vh; border-radius: 16px; padding: 24px; margin: 16px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
                 <button class="close-modal" style="position: absolute; top: 60px; right: 60px;">×</button>
                 
-                <div style="text-align: center; max-width: 400px;">
+                <div style="text-align: center; max-width: 480px;">
                     <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
                         <div style="position: relative; text-align: center;">
                             <span style="position: absolute; top: -60px; left: 50%; transform: translateX(-50%); font-size: 70px;">📝</span>
-                            <h2 style="font-size: 30px; font-weight: 700; color: themeColor('#f8fafc', 'var(--body-1)'); margin-top: 45px;">Phrase Training</h2>
+                            <h2 style="font-size: 30px; font-weight: 700; color: ${themeColor('#f8fafc', 'var(--body-1)')}; margin-top: 45px;">Phrase Training</h2>
                         </div>
-                        <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); margin-top: 8px; font-size: 16px;">Выбрано фраз: ${selectedPhraseCount}</p>
+                        <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; margin-top: 8px; font-size: 16px;">Выбрано фраз: ${selectedPhraseCount}</p>
                     </div>
                     
                     <div style="margin-top: 64px;">
-                        <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); margin-bottom: 24px; font-size: 16px;">Выберите количество фраз</p>
+                        <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; margin-bottom: 24px; font-size: 16px;">Выберите количество фраз</p>
                         
                         <div class="phrase-count-controls" style="display: flex; align-items: center; justify-content: center; gap: 24px; margin-bottom: 64px;">
                             <button class="minus-btn control-btn">-</button>
-                            <span class="phrase-count" style="font-size: 24px; color: themeColor('#f8fafc', 'var(--body-1)');">${selectedPhrasesCount}</span>
+                            <span class="phrase-count" style="font-size: 24px; color: ${themeColor('#f8fafc', 'var(--body-1)')};">${selectedPhrasesCount}</span>
                             <button class="plus-btn control-btn">+</button>
                         </div>
 
-                        <button class="settings-btn" style="background: none; border: none; cursor: pointer; color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; display: flex; align-items: center; gap: 8px; margin: 0 auto 64px;">
+                        <button class="settings-btn" style="background: none; border: none; cursor: pointer; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; display: flex; align-items: center; gap: 8px; margin: 0 auto 64px;">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="3"></circle>
                                 <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
@@ -1872,7 +1874,7 @@ class PhraseTraining {
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.5', ' 0.45'));
+            background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.5', ' 0.45')});
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1882,11 +1884,11 @@ class PhraseTraining {
         const modesModal = document.createElement('div');
         modesModal.id = 'phraseModesModal';
         modesModal.style.cssText = `
-            background: themeColor('#1e1e2e', 'var(--bg-color)');
+            background: ${themeColor('#1e1e2e', 'var(--bg-color)')};
             width: 90vw;
             max-width: 650px;
             max-height: 80vh;
-            border-radius: 12px;
+            border-radius: 16px;
             padding: 24px;
             margin: 16px;
             overflow-y: auto;
@@ -1906,8 +1908,8 @@ class PhraseTraining {
 
         modesModal.innerHTML = `
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px;">Режимы тренировки</h2>
-                <button class="close-modes-modal" style="color: themeColor('#b6b9d0', 'var(--body-2)'); background: none; border: none; font-size: 32px; cursor: pointer; padding: 8px;">×</button>
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px;">Режимы тренировки</h2>
+                <button class="close-modes-modal" style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; background: none; border: none; font-size: 32px; cursor: pointer; padding: 8px;">×</button>
             </div>
             
             <div style="display: grid; grid-template-columns: 1fr; gap: 16px; max-width: 600px; margin: 0 auto;">
@@ -1915,18 +1917,18 @@ class PhraseTraining {
                     <label class="mode-item ${this.trainingModes[mode] ? 'active' : ''}" data-mode="${mode}">
                         <input type="checkbox" class="mode-checkbox" ${this.trainingModes[mode] ? 'checked' : ''}>
                         <div>
-                            <h3 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 18px; margin: 0 0 4px 0;">${this.getModeTitle(mode)}</h3>
-                            <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 14px; margin: 0;">${modeDescriptions[mode]}</p>
+                            <h3 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 18px; margin: 0 0 4px 0;">${this.getModeTitle(mode)}</h3>
+                            <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 14px; margin: 0;">${modeDescriptions[mode]}</p>
                         </div>
                     </label>
                 `).join('')}
             </div>
             
             <div style="display: flex; justify-content: center; gap: 16px; margin-top: 32px;">
-                <button class="cancel-modes-btn" style="background: themeColor('#292a3e', 'var(--card-bg)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; transition: background-color 0.3s ease; font-size: 16px;">
+                <button class="cancel-modes-btn" style="background: ${themeColor('#292a3e', 'var(--card-bg)')}; color: ${themeColor('#f8fafc', 'var(--body-1)')}; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; transition: background-color 0.3s ease; font-size: 16px;">
                     Отмена
                 </button>
-                <button class="save-modes-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; transition: background-color 0.3s ease; font-size: 16px;">
+                <button class="save-modes-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; transition: background-color 0.3s ease; font-size: 16px;">
                     Сохранить
                 </button>
             </div>
@@ -2108,11 +2110,11 @@ class PhraseTraining {
         return `
             <div style="margin-bottom: 24px; width: 100%;">
                 <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
-                    <span style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 14px;">${this.getModeTitle(mode)}</span>
-                    <span style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 14px;">${current}/${total}</span>
+                    <span style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 14px;">${this.getModeTitle(mode)}</span>
+                    <span style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 14px;">${current}/${total}</span>
                 </div>
-                <div style="width: 100%; height: 4px; background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 2px; overflow: hidden;">
-                    <div style="width: ${(current / total) * 100}%; height: 100%; background: themeColor('#6366f1', 'var(--accent-color)'); border-radius: 2px;"></div>
+                <div style="width: 100%; height: 4px; background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 2px; overflow: hidden;">
+                    <div style="width: ${(current / total) * 100}%; height: 100%; background: ${themeColor('#6366f1', 'var(--accent-color)')}; border-radius: 2px;"></div>
                 </div>
             </div>
         `;
@@ -2126,7 +2128,7 @@ class PhraseTraining {
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+            background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
             display: flex;
             align-items: center;
             justify-content: center;
@@ -2137,14 +2139,14 @@ class PhraseTraining {
         const totalPossibleAnswers = this.activeModesSequence.length * this.count;
 
         modal.innerHTML = `
-            <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 95vw; max-width: 500px; border-radius: 12px; padding: 32px; text-align: center;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 16px;">Все режимы тренировки завершены!</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 16px;">
+            <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; max-width: 500px; border-radius: 16px; padding: 32px; text-align: center;">
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 16px;">Все режимы тренировки завершены!</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 16px;">
                     Отличная работа! Вы успешно завершили все выбранные режимы тренировки.
-                </p><p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 32px;">
+                </p><p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 32px;">
                     Общее количество правильных ответов: ${this.totalCorrectAnswers} из ${totalPossibleAnswers}
                 </p>
-                <button class="close-completion" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; transition: background-color 0.3s ease;">
+                <button class="close-completion" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; transition: background-color 0.3s ease;">
                 Закрыть
                 </button>
             </div>
@@ -2330,7 +2332,7 @@ PhraseTraining.prototype.showCompletionModal = function () {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+        background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2369,17 +2371,17 @@ PhraseTraining.prototype.showCompletionModal = function () {
         : '';
 
     modal.innerHTML = `
-        <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 95vw; max-width: 500px; border-radius: 12px; padding: 32px; text-align: center;">
-            <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 16px;">Все режимы тренировки завершены!</h2>
-            <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 16px;">
+        <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; max-width: 500px; border-radius: 16px; padding: 32px; text-align: center;">
+            <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 16px;">Все режимы тренировки завершены!</h2>
+            <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 16px;">
                 Отличная работа! Вы успешно завершили все выбранные режимы тренировки.
             </p>
-            <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: ${autoMovedCount > 0 ? '8px' : '32px'};">
+            <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: ${autoMovedCount > 0 ? '8px' : '32px'};">
                 Общее количество правильных ответов: ${this.totalCorrectAnswers} из ${totalPossibleAnswers}
                 (${Math.round(successRate * 100)}%)
             </p>
             ${movedPhrasesText}
-            <button class="close-completion" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; transition: background-color 0.3s ease;">
+            <button class="close-completion" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; transition: background-color 0.3s ease;">
             Закрыть
             </button>
         </div>
@@ -2481,7 +2483,7 @@ function showNotification(message, type = 'info') {
         bottom: 20px;
         right: 20px;
         padding: 10px 20px;
-        border-radius: 8px;
+        border-radius: 12px;
         z-index: 1001;
         background-color: ${type === 'success' ? themeColor('rgba(56, 189, 142, 0.25)', '#e1f2ec') :
             type === 'warning' ? 'rgba(244, 67, 54, 0.25)' :
@@ -2540,7 +2542,7 @@ PhraseTraining.prototype.createMatchPicturesModal = function () {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+        background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2549,13 +2551,13 @@ PhraseTraining.prototype.createMatchPicturesModal = function () {
 
     // Начальная HTML-структура
     modal.innerHTML = `
-        <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 90vw; max-width: 900px; height: 90vh; border-radius: 12px; padding: 24px; overflow-y: auto; position: relative;">
-            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: themeColor('#b6b9d0', 'var(--body-2)'); background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
+        <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; height: 90vh; border-radius: 16px; padding: 24px; overflow-y: auto; position: relative;">
+            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
             
             <div style="margin-bottom: 32px; text-align: center;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 8px;">Match Pictures to Phrases</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Select the image that best matches the phrase</p>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Выберите изображение, которое лучше всего соответствует фразе</p>
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 8px;">Match Pictures to Phrases</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Select the image that best matches the phrase</p>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Выберите изображение, которое лучше всего соответствует фразе</p>
             </div>
             
             <div class="progress-indicator" style="width: 100%; margin-bottom: 24px;">
@@ -2617,11 +2619,11 @@ PhraseTraining.prototype.showNextMatchPicturesQuestion = function (modal) {
         // Показываем экран завершения для этого режима
         contentArea.innerHTML = `
             <div style="text-align: center; padding: 32px;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 24px;">
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 24px;">
                     You correctly matched ${this.matchPicturesCorrectCount} out of ${this.matchPicturesData.length} phrases.
                 </p>
-                <button class="continue-training-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px;">
+                <button class="continue-training-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -2656,10 +2658,10 @@ PhraseTraining.prototype.showNextMatchPicturesQuestion = function (modal) {
         // Генерируем контент для текущего вопроса
         contentArea.innerHTML = `
             <div style="margin-bottom: 24px;">
-                <div class="phrase-to-match" style="background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 8px; padding: 16px; margin-bottom: 16px;">
-                    <h3 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 20px; margin: 0 0 8px 0;">${currentPhrase.text}</h3>
-                    <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); margin: 0;">${currentPhrase.translation}</p>
-                    <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-style: italic; margin: 8px 0 0 0;">${currentPhrase.example}</p>
+                <div class="phrase-to-match" style="background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+                    <h3 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 20px; margin: 0 0 8px 0;">${currentPhrase.text}</h3>
+                    <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; margin: 0;">${currentPhrase.translation}</p>
+                    <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-style: italic; margin: 8px 0 0 0;">${currentPhrase.example}</p>
                 </div>
                 
                 <div class="feedback-message" style="min-height: 40px; display: flex; align-items: center; justify-content: center;">
@@ -2667,10 +2669,10 @@ PhraseTraining.prototype.showNextMatchPicturesQuestion = function (modal) {
                 </div>
             </div>
             
-            <div class="image-options-grid" style="display: flex; justify-content: space-between; width: 100%; margin: 0 auto; gap: 12px;">
+            <div class="image-options-grid" style="display: flex; justify-content: center; flex-wrap: wrap; width: 100%; margin: 0 auto; gap: 12px;">
                 ${shuffledOptions.map((option, index) => {
             return `
-                        <div class="image-option" data-id="${option.id}" data-correct="${option.id === currentPhrase.id}" style="position: relative; overflow: hidden; border-radius: 8px; aspect-ratio: 1/1; cursor: pointer; border: 3px solid transparent; flex: 1;">
+                        <div class="image-option" data-id="${option.id}" data-correct="${option.id === currentPhrase.id}" style="position: relative; overflow: hidden; border-radius: 12px; aspect-ratio: 1/1; cursor: pointer; border: 3px solid transparent; flex: 1 1 240px; max-width: 280px;">
                             <img src="${option.imageUrl}" alt="${option.text}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                     `;
@@ -2678,7 +2680,7 @@ PhraseTraining.prototype.showNextMatchPicturesQuestion = function (modal) {
             </div>
             
             <div style="display: flex; justify-content: center; margin-top: 32px;">
-                <button class="next-question-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
+                <button class="next-question-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
                     Next Question
                 </button>
             </div>
@@ -2738,9 +2740,9 @@ PhraseTraining.prototype.showNextMatchPicturesQuestion = function (modal) {
     } catch (error) {
         console.error('Error in showNextMatchPicturesQuestion:', error);
         contentArea.innerHTML = `
-            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 8px; text-align: center;">
+            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 12px; text-align: center;">
                 <p>An error occurred while preparing this question. Please try again.</p>
-                <button class="retry-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 8px 24px; border-radius: 8px; border: none; cursor: pointer; margin-top: 16px;">
+                <button class="retry-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 8px 24px; border-radius: 12px; border: none; cursor: pointer; margin-top: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -2842,11 +2844,11 @@ PhraseTraining.prototype.showNextMatchPicturesQuestion = function (modal) {
         // Показываем экран завершения для этого режима
         contentArea.innerHTML = `
             <div style="text-align: center; padding: 32px;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 24px;">
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 24px;">
                     You correctly matched ${this.matchPicturesCorrectCount} out of ${this.matchPicturesData.length} phrases.
                 </p>
-                <button class="continue-training-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px;">
+                <button class="continue-training-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -2875,10 +2877,10 @@ PhraseTraining.prototype.showNextMatchPicturesQuestion = function (modal) {
     // Генерируем контент для текущего вопроса
     contentArea.innerHTML = `
         <div style="margin-bottom: 24px;">
-            <div class="phrase-to-match" style="background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 8px; padding: 16px; margin-bottom: 16px;">
-                <h3 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 20px; margin: 0 0 8px 0;">${currentPhrase.text}</h3>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); margin: 0;">${currentPhrase.translation}</p>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-style: italic; margin: 8px 0 0 0;">${currentPhrase.example}</p>
+            <div class="phrase-to-match" style="background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+                <h3 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 20px; margin: 0 0 8px 0;">${currentPhrase.text}</h3>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; margin: 0;">${currentPhrase.translation}</p>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-style: italic; margin: 8px 0 0 0;">${currentPhrase.example}</p>
             </div>
             
             <div class="feedback-message" style="min-height: 40px; display: flex; align-items: center; justify-content: center;">
@@ -2886,10 +2888,10 @@ PhraseTraining.prototype.showNextMatchPicturesQuestion = function (modal) {
             </div>
         </div>
         
-        <div class="image-options-grid" style="display: flex; justify-content: space-between; width: 100%; margin: 0 auto; gap: 12px;">
+        <div class="image-options-grid" style="display: flex; justify-content: center; flex-wrap: wrap; width: 100%; margin: 0 auto; gap: 12px;">
             ${shuffledOptions.map((option, index) => {
         return `
-                    <div class="image-option" data-id="${option.id}" data-correct="${option.id === currentPhrase.id}" style="position: relative; overflow: hidden; border-radius: 8px; aspect-ratio: 1/1; cursor: pointer; border: 3px solid transparent; flex: 1;">
+                    <div class="image-option" data-id="${option.id}" data-correct="${option.id === currentPhrase.id}" style="position: relative; overflow: hidden; border-radius: 12px; aspect-ratio: 1/1; cursor: pointer; border: 3px solid transparent; flex: 1 1 240px; max-width: 280px;">
                         <img src="${option.imageUrl}" alt="${option.text}" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                 `;
@@ -2897,7 +2899,7 @@ PhraseTraining.prototype.showNextMatchPicturesQuestion = function (modal) {
         </div>
         
         <div style="display: flex; justify-content: center; margin-top: 32px;">
-            <button class="next-question-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
+            <button class="next-question-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
                 Next Question
             </button>
         </div>
@@ -2981,7 +2983,7 @@ PhraseTraining.prototype.createWritePhrasalVerbModal = function () {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+        background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2990,12 +2992,12 @@ PhraseTraining.prototype.createWritePhrasalVerbModal = function () {
 
     // Начальная HTML-структура
     modal.innerHTML = `
-        <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 90vw; max-width: 700px; height: 90vh; border-radius: 12px; padding: 24px; overflow-y: auto; position: relative;">
-            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: themeColor('#b6b9d0', 'var(--body-2)'); background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
+        <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; height: 90vh; border-radius: 16px; padding: 24px; overflow-y: auto; position: relative;">
+            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
             
             <div style="margin-bottom: 32px; text-align: center;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 8px;">Write the Correct Phrasal Verb</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Type the phrasal verb that matches the definition</p>
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 8px;">Write the Correct Phrasal Verb</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Type the phrasal verb that matches the definition</p>
             </div>
             
             ${this.createProgressIndicator('writePhrasalVerb', 1, phrasesToUse.length)}
@@ -3044,7 +3046,7 @@ PhraseTraining.prototype.createWritePhrasalVerbModal = function () {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+        background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
         display: flex;
         align-items: center;
         justify-content: center;
@@ -3053,13 +3055,13 @@ PhraseTraining.prototype.createWritePhrasalVerbModal = function () {
 
     // Начальная HTML-структура
     modal.innerHTML = `
-        <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 90vw; max-width: 700px; height: 90vh; border-radius: 12px; padding: 24px; overflow-y: auto; position: relative;">
-            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: themeColor('#b6b9d0', 'var(--body-2)'); background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
+        <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; height: 90vh; border-radius: 16px; padding: 24px; overflow-y: auto; position: relative;">
+            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
             
             <div style="margin-bottom: 32px; text-align: center;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 8px;">Write the Correct Phrasal Verb</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Type the phrasal verb that matches the definition</p>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Введите фразовый глагол, соответствующий определению.</p>
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 8px;">Write the Correct Phrasal Verb</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Type the phrasal verb that matches the definition</p>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Введите фразовый глагол, соответствующий определению.</p>
             </div>
             
             <div class="progress-indicator" style="width: 100%; margin-bottom: 24px;">
@@ -3121,11 +3123,11 @@ PhraseTraining.prototype.showNextWritePhrasalVerbQuestion = function (modal) {
         // Показываем экран завершения для этого режима
         contentArea.innerHTML = `
             <div style="text-align: center; padding: 32px;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 24px;">
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 24px;">
                     You correctly wrote ${this.writePhrasalVerbCorrectCount} out of ${this.writePhrasalVerbData.length} phrasal verbs.
                 </p>
-                <button class="continue-training-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px;">
+                <button class="continue-training-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -3153,22 +3155,22 @@ PhraseTraining.prototype.showNextWritePhrasalVerbQuestion = function (modal) {
 
         // Генерируем контент для текущего вопроса
         contentArea.innerHTML = `
-            <div style="margin-bottom: 32px; background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 8px; padding: 20px;">
-                <h3 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 20px; margin: 0 0 16px 0;">Definition:</h3>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin: 0;">${currentPhrase.translation}</p>
+            <div style="margin-bottom: 32px; background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 12px; padding: 20px;">
+                <h3 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 20px; margin: 0 0 16px 0;">Definition:</h3>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin: 0;">${currentPhrase.translation}</p>
             </div>
             
             <div class="answer-area" style="margin-bottom: 32px;">
-                <label for="phrasal-verb-answer" style="display: block; color: themeColor('#f8fafc', 'var(--body-1)'); margin-bottom: 8px; font-size: 16px;">Enter the phrasal verb:</label>
+                <label for="phrasal-verb-answer" style="display: block; color: ${themeColor('#f8fafc', 'var(--body-1)')}; margin-bottom: 8px; font-size: 16px;">Enter the phrasal verb:</label>
                 <div style="display: flex; gap: 16px;">
-                    <input type="text" id="phrasal-verb-answer" style="flex: 1; padding: 12px 16px; background: themeColor('#353748', 'var(--card-bg)'); border: 1px solid themeColor('#4a4d6b', 'var(--card-stroke)'); border-radius: 8px; color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 16px;" placeholder="Type the phrasal verb here...">
-                    <button class="check-answer-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 0 24px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px;">
+                    <input type="text" id="phrasal-verb-answer" style="flex: 1; padding: 12px 16px; background: ${themeColor('#353748', 'var(--card-bg)')}; border: 1px solid ${themeColor('#4a4d6b', 'var(--card-stroke)')}; border-radius: 12px; color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 16px;" placeholder="Type the phrasal verb here...">
+                    <button class="check-answer-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 0 24px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px;">
                         Check
                     </button>
                 </div>
             </div>
             
-            <div class="feedback-area" style="margin-bottom: 32px; min-height: 60px; display: none; background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 8px; padding: 20px;">
+            <div class="feedback-area" style="margin-bottom: 32px; min-height: 60px; display: none; background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 12px; padding: 20px;">
                 <div class="feedback-message" style="text-align: center;">
                     <!-- Feedback will appear here -->
                 </div>
@@ -3179,7 +3181,7 @@ PhraseTraining.prototype.showNextWritePhrasalVerbQuestion = function (modal) {
             </div>
             
             <div style="display: flex; justify-content: center; margin-top: 32px;">
-                <button class="next-question-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
+                <button class="next-question-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
                     Next Question
                 </button>
             </div>
@@ -3229,7 +3231,7 @@ PhraseTraining.prototype.showNextWritePhrasalVerbQuestion = function (modal) {
                     if (feedbackMessage) {
                         feedbackMessage.innerHTML = `
                             <p style="color: var(--correct-text); font-weight: bold; font-size: 18px;">Correct! Well done!</p>
-                            <p style="color: themeColor('#f8fafc', 'var(--body-1)'); margin-top: 8px;">${correctAnswer}</p>
+                            <p style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; margin-top: 8px;">${correctAnswer}</p>
                         `;
                     }
                     if (feedbackArea) {
@@ -3241,7 +3243,7 @@ PhraseTraining.prototype.showNextWritePhrasalVerbQuestion = function (modal) {
                     if (feedbackMessage) {
                         feedbackMessage.innerHTML = `
                             <p style="color: var(--danger-text); font-weight: bold; font-size: 18px;">Not quite right.</p>
-                            <p style="color: themeColor('#f8fafc', 'var(--body-1)'); margin-top: 8px;">The correct answer is: ${correctAnswer}</p>
+                            <p style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; margin-top: 8px;">The correct answer is: ${correctAnswer}</p>
                         `;
                     }
                     if (feedbackArea) {
@@ -3259,9 +3261,9 @@ PhraseTraining.prototype.showNextWritePhrasalVerbQuestion = function (modal) {
                     );
 
                     exampleContainer.innerHTML = `
-                        <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); margin-top: 16px; font-size: 16px;">Example:</p>
-                        <div style="background: themeColor('#353748', 'var(--card-bg)'); padding: 16px; border-radius: 8px; margin-top: 8px; display: inline-block;">
-                            <p style="color: themeColor('#f8fafc', 'var(--body-1)'); margin: 0;">${exampleWithHighlight}</p>
+                        <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; margin-top: 16px; font-size: 16px;">Example:</p>
+                        <div style="background: ${themeColor('#353748', 'var(--card-bg)')}; padding: 16px; border-radius: 12px; margin-top: 8px; display: inline-block;">
+                            <p style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; margin: 0;">${exampleWithHighlight}</p>
                         </div>
                     `;
                     exampleContainer.style.display = 'block';
@@ -3285,9 +3287,9 @@ PhraseTraining.prototype.showNextWritePhrasalVerbQuestion = function (modal) {
     } catch (error) {
         console.error('Error in showNextWritePhrasalVerbQuestion:', error);
         contentArea.innerHTML = `
-            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 8px; text-align: center;">
+            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 12px; text-align: center;">
                 <p>An error occurred while preparing this question. Please try again.</p>
-                <button class="retry-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 8px 24px; border-radius: 8px; border: none; cursor: pointer; margin-top: 16px;">
+                <button class="retry-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 8px 24px; border-radius: 12px; border: none; cursor: pointer; margin-top: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -3392,7 +3394,7 @@ PhraseTraining.prototype.createFillGapsModal = function () {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+        background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
         display: flex;
         align-items: center;
         justify-content: center;
@@ -3430,16 +3432,16 @@ PhraseTraining.prototype.createFillGapsModal = function () {
     if (preparedData.length === 0) {
         console.error('No phrases with data-extra-examples. Exiting training mode.');
         modal.innerHTML = `
-            <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 90vw; max-width: 700px; border-radius: 12px; padding: 24px; position: relative; text-align: center;">
-                <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: themeColor('#b6b9d0', 'var(--body-2)'); background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
+            <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 90vw; max-width: 700px; border-radius: 16px; padding: 24px; position: relative; text-align: center;">
+                <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
                 
                 <div style="margin: 32px 0;">
-                    <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 16px;">No Valid Examples Found</h2>
-                    <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); margin-bottom: 24px;">
+                    <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 16px;">No Valid Examples Found</h2>
+                    <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; margin-bottom: 24px;">
                         This training mode requires examples in data-extra-examples attributes. 
                         No phrases with examples were found.
                     </p>
-                    <button class="continue-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px;">
+                    <button class="continue-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px;">
                         Continue
                     </button>
                 </div>
@@ -3466,22 +3468,22 @@ PhraseTraining.prototype.createFillGapsModal = function () {
 
     // Initial HTML structure
     modal.innerHTML = `
-        <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 90vw; max-width: 700px; height: 90vh; border-radius: 12px; padding: 24px; overflow-y: auto; position: relative;">
-            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: themeColor('#b6b9d0', 'var(--body-2)'); background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
+        <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; height: 90vh; border-radius: 16px; padding: 24px; overflow-y: auto; position: relative;">
+            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
             
             <div style="margin-bottom: 32px; text-align: center;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 8px;">Fill in the Gaps</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Choose the correct phrasal verb to complete each sentence</p>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Выберите правильный фразовый глагол, чтобы закончить каждое предложение.</p>
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 8px;">Fill in the Gaps</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Choose the correct phrasal verb to complete each sentence</p>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Выберите правильный фразовый глагол, чтобы закончить каждое предложение.</p>
             </div>
             
             <div style="margin-bottom: 24px; width: 100%;">
                 <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
-                    <span style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 14px;">Fill in the Gaps with the Correct Phrasal Verb</span>
-                    <span style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 14px;" class="progress-indicator-label">1/${preparedData.length}</span>
+                    <span style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 14px;">Fill in the Gaps with the Correct Phrasal Verb</span>
+                    <span style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 14px;" class="progress-indicator-label">1/${preparedData.length}</span>
                 </div>
-                <div style="width: 100%; height: 4px; background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 2px; overflow: hidden;">
-                    <div class="progress-indicator-fill" style="width: ${(1 / preparedData.length) * 100}%; height: 100%; background: themeColor('#6366f1', 'var(--accent-color)'); border-radius: 2px;"></div>
+                <div style="width: 100%; height: 4px; background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 2px; overflow: hidden;">
+                    <div class="progress-indicator-fill" style="width: ${(1 / preparedData.length) * 100}%; height: 100%; background: ${themeColor('#6366f1', 'var(--accent-color)')}; border-radius: 2px;"></div>
                 </div>
             </div>
             
@@ -3571,7 +3573,7 @@ PhraseTraining.prototype.findAndCreateGap = function (sentence, phraseText) {
     const cleanPhrasalVerb = phraseText.replace(/\([^)]*\)/g, '').trim();
 
     // Create the gap placeholder element
-    const gapPlaceholder = '<span class="gap-placeholder" style="background-color: var(--card-bg-tertiary); padding: 2px 8px; border-radius: 4px; color: var(--body-1); font-weight: bold;">_____</span>';
+    const gapPlaceholder = '<span class="gap-placeholder" style="background-color: var(--card-bg-tertiary); padding: 2px 8px; border-radius: 6px; color: var(--body-1); font-weight: bold;">_____</span>';
 
     // First, let's look for exact matches to detect when the phrasal verb is already in the sentence
     const sentenceLower = sentence.toLowerCase();
@@ -3746,7 +3748,7 @@ PhraseTraining.prototype.findAndCreateGap = function (sentence, phraseText) {
 
 // Fixed function for filling in the gap with an answer
 PhraseTraining.prototype.fillGapWithAnswer = function (sentenceWithGap, answer, isCorrect, correctAnswer) {
-    const gapPlaceholder = '<span class="gap-placeholder" style="background-color: var(--card-bg-tertiary); padding: 2px 8px; border-radius: 4px; color: var(--body-1); font-weight: bold;">_____</span>';
+    const gapPlaceholder = '<span class="gap-placeholder" style="background-color: var(--card-bg-tertiary); padding: 2px 8px; border-radius: 6px; color: var(--body-1); font-weight: bold;">_____</span>';
 
     // Clean up answer text - remove any parentheses
     const cleanAnswer = answer.replace(/\([^)]*\)/g, '').trim();
@@ -3816,11 +3818,11 @@ PhraseTraining.prototype.showNextFillGapsQuestion = function (modal) {
         // Show completion screen
         contentArea.innerHTML = `
             <div style="text-align: center; padding: 32px;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 24px;">
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 24px;">
                     You correctly filled ${this.fillGapsCorrectCount} out of ${this.fillGapsData.length} gaps.
                 </p>
-                <button class="continue-training-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px;">
+                <button class="continue-training-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -3862,25 +3864,25 @@ PhraseTraining.prototype.showNextFillGapsQuestion = function (modal) {
         // Generate content for the current question
         contentArea.innerHTML = `
             <div style="margin-bottom: 32px;">
-                <div class="sentence-container" style="background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
-                    <p style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 18px; line-height: 1.6; margin: 0;" id="gapped-sentence">${exampleSentence.processedSentence}</p>
+                <div class="sentence-container" style="background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+                    <p style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 18px; line-height: 1.6; margin: 0;" id="gapped-sentence">${exampleSentence.processedSentence}</p>
                 </div>
                 
                 <div class="options-container" style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px;">
                     ${shuffledOptions.map((option, index) => `
-                        <button class="option-btn" data-text="${option.text}" data-correct="${option.isCorrect}" style="background: themeColor('#353748', 'var(--card-bg)'); border: 1px solid themeColor('#4a4d6b', 'var(--card-stroke)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 16px; border-radius: 8px; text-align: left; cursor: pointer; font-size: 16px; transition: all 0.3s;">
+                        <button class="option-btn" data-text="${option.text}" data-correct="${option.isCorrect}" style="background: ${themeColor('#353748', 'var(--card-bg)')}; border: 1px solid ${themeColor('#4a4d6b', 'var(--card-stroke)')}; color: ${themeColor('#f8fafc', 'var(--body-1)')}; padding: 12px 16px; border-radius: 12px; text-align: left; cursor: pointer; font-size: 16px; transition: all 0.3s;">
                             ${option.text}
                         </button>
                     `).join('')}
                 </div>
                 
-                <div class="feedback-message" style="min-height: 60px; margin-bottom: 24px; padding: 16px; border-radius: 8px; display: none;">
+                <div class="feedback-message" style="min-height: 60px; margin-bottom: 24px; padding: 16px; border-radius: 12px; display: none;">
                     <!-- Feedback will appear here -->
                 </div>
             </div>
             
             <div style="display: flex; justify-content: center;">
-                <button class="next-question-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
+                <button class="next-question-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
                     Next Question
                 </button>
             </div>
@@ -3979,9 +3981,9 @@ PhraseTraining.prototype.showNextFillGapsQuestion = function (modal) {
     } catch (error) {
         console.error('Error in showNextFillGapsQuestion:', error);
         contentArea.innerHTML = `
-            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 8px; text-align: center;">
+            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 12px; text-align: center;">
                 <p>An error occurred while preparing this question. Please try again.</p>
-                <button class="retry-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 8px 24px; border-radius: 8px; border: none; cursor: pointer; margin-top: 16px;">
+                <button class="retry-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 8px 24px; border-radius: 12px; border: none; cursor: pointer; margin-top: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -4022,7 +4024,7 @@ PhraseTraining.prototype.createChooseCorrectMeaningModal = function () {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+        background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
         display: flex;
         align-items: center;
         justify-content: center;
@@ -4031,13 +4033,13 @@ PhraseTraining.prototype.createChooseCorrectMeaningModal = function () {
 
     // Начальная HTML-структура
     modal.innerHTML = `
-        <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 90vw; max-width: 800px; height: 90vh; border-radius: 12px; padding: 24px; overflow-y: auto; position: relative;">
-            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: themeColor('#b6b9d0', 'var(--body-2)'); background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
+        <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; height: 90vh; border-radius: 16px; padding: 24px; overflow-y: auto; position: relative;">
+            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
             
             <div style="margin-bottom: 32px; text-align: center;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 8px;">Choose the Correct Meaning</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Read the statement and select the meaning of the highlighted phrasal verb</p>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Прочитайте утверждение и выберите значение выделенного фразового глагола.</p>
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 8px;">Choose the Correct Meaning</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Read the statement and select the meaning of the highlighted phrasal verb</p>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Прочитайте утверждение и выберите значение выделенного фразового глагола.</p>
             </div>
             
             <div class="progress-indicator" style="width: 100%; margin-bottom: 24px;">
@@ -4116,11 +4118,11 @@ PhraseTraining.prototype.showNextChooseMeaningQuestion = function (modal) {
         // Показываем экран завершения для этого режима
         contentArea.innerHTML = `
             <div style="text-align: center; padding: 32px;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 24px;">
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 24px;">
                     You correctly identified ${this.chooseMeaningCorrectCount} out of ${this.chooseMeaningData.length} meanings.
                 </p>
-                <button class="continue-training-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px;">
+                <button class="continue-training-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -4161,17 +4163,17 @@ PhraseTraining.prototype.showNextChooseMeaningQuestion = function (modal) {
         // Генерируем контент для текущего вопроса
         contentArea.innerHTML = `
             <div style="margin-bottom: 32px;">
-                <div class="statement-container" style="background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
-                    <p style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 18px; line-height: 1.6; margin: 0;">${exampleWithHighlight}</p>
+                <div class="statement-container" style="background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+                    <p style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 18px; line-height: 1.6; margin: 0;">${exampleWithHighlight}</p>
                 </div>
                 
                 <div class="feedback-message" style="min-height: 50px; text-align: center; margin-bottom: 16px;">
-                    <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">What does the highlighted phrasal verb mean?</p>
+                    <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">What does the highlighted phrasal verb mean?</p>
                 </div>
                 
                 <div class="meaning-options" style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px;">
                     ${options.map((option, index) => `
-                        <button class="meaning-option" data-correct="${option.isCorrect}" style="background: themeColor('#353748', 'var(--card-bg)'); border: 1px solid themeColor('#4a4d6b', 'var(--card-stroke)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 16px; border-radius: 8px; text-align: left; cursor: pointer; font-size: 16px; transition: all 0.3s;">
+                        <button class="meaning-option" data-correct="${option.isCorrect}" style="background: ${themeColor('#353748', 'var(--card-bg)')}; border: 1px solid ${themeColor('#4a4d6b', 'var(--card-stroke)')}; color: ${themeColor('#f8fafc', 'var(--body-1)')}; padding: 16px; border-radius: 12px; text-align: left; cursor: pointer; font-size: 16px; transition: all 0.3s;">
                             ${option.text}
                         </button>
                     `).join('')}
@@ -4179,7 +4181,7 @@ PhraseTraining.prototype.showNextChooseMeaningQuestion = function (modal) {
             </div>
             
             <div style="display: flex; justify-content: center;">
-                <button class="next-question-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
+                <button class="next-question-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
                     Next Question
                 </button>
             </div>
@@ -4244,9 +4246,9 @@ PhraseTraining.prototype.showNextChooseMeaningQuestion = function (modal) {
     } catch (error) {
         console.error('Error in showNextChooseMeaningQuestion:', error);
         contentArea.innerHTML = `
-            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 8px; text-align: center;">
+            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 12px; text-align: center;">
                 <p>An error occurred while preparing this question. Please try again.</p>
-                <button class="retry-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 8px 24px; border-radius: 8px; border: none; cursor: pointer; margin-top: 16px;">
+                <button class="retry-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 8px 24px; border-radius: 12px; border: none; cursor: pointer; margin-top: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -4275,7 +4277,7 @@ PhraseTraining.prototype.createHighlightedExample = function (phrase) {
 
     // If still no examples, create a standard one
     if (!examples[0] || examples[0].trim() === '') {
-        return `She <span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${phrase.text}</span> her colleagues at the meeting yesterday.`;
+        return `She <span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${phrase.text}</span> her colleagues at the meeting yesterday.`;
     }
 
     // Choose a random example
@@ -4355,7 +4357,7 @@ PhraseTraining.prototype.createHighlightedExample = function (phrase) {
                             const before = randomExample.substring(0, verbStartPos);
                             const after = randomExample.substring(particleEndPos);
 
-                            return `${before}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${phraseText}</span>${after}`;
+                            return `${before}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${phraseText}</span>${after}`;
                         }
                     }
                 }
@@ -4376,7 +4378,7 @@ PhraseTraining.prototype.createHighlightedExample = function (phrase) {
         const before = randomExample.substring(0, matchIndex);
         const after = randomExample.substring(matchIndex + matchText.length);
 
-        return `${before}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${matchText}</span>${after}`;
+        return `${before}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${matchText}</span>${after}`;
     }
 
     // Attempt 3: Last resort - manually check for common difficult verb forms
@@ -4407,7 +4409,7 @@ PhraseTraining.prototype.createHighlightedExample = function (phrase) {
                 const before = randomExample.substring(0, matchIndex);
                 const after = randomExample.substring(matchIndex + matchText.length);
 
-                return `${before}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${matchText}</span>${after}`;
+                return `${before}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${matchText}</span>${after}`;
             }
         }
     }
@@ -4425,7 +4427,7 @@ PhraseTraining.prototype.createHighlightedExample = function (phrase) {
             const before = randomExample.substring(0, matchIndex);
             const after = randomExample.substring(matchIndex + matchText.length);
 
-            return `${before}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${matchText}</span>${after}`;
+            return `${before}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${matchText}</span>${after}`;
         }
     }
 
@@ -4447,7 +4449,7 @@ PhraseTraining.prototype.createHighlightedExample = function (phrase) {
             const before = words.slice(0, i).join(' ');
             const after = words.slice(i + wordsToHighlight).join(' ');
 
-            return `${before ? before + ' ' : ''}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${highlightText}</span>${after ? ' ' + after : ''}`;
+            return `${before ? before + ' ' : ''}<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${highlightText}</span>${after ? ' ' + after : ''}`;
         }
     }
 
@@ -4549,7 +4551,7 @@ PhraseTraining.prototype.createTrueOrFalseModal = function () {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+        background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
         display: flex;
         align-items: center;
         justify-content: center;
@@ -4558,13 +4560,13 @@ PhraseTraining.prototype.createTrueOrFalseModal = function () {
 
     // Initial HTML structure with bilingual instructions
     modal.innerHTML = `
-        <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 90vw; max-width: 800px; height: 90vh; border-radius: 12px; padding: 24px; overflow-y: auto; position: relative;">
-            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: themeColor('#b6b9d0', 'var(--body-2)'); background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
+        <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; height: 90vh; border-radius: 16px; padding: 24px; overflow-y: auto; position: relative;">
+            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
             
             <div style="margin-bottom: 32px; text-align: center;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 8px;">True or False?</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); margin-bottom: 6px;">Is the phrasal verb used correctly in this sentence?</p>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Правильно ли использован фразовый глагол в этом предложении?</p>
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 8px;">True or False?</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; margin-bottom: 6px;">Is the phrasal verb used correctly in this sentence?</p>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Правильно ли использован фразовый глагол в этом предложении?</p>
             </div>
             
             <div class="progress-indicator" style="width: 100%; margin-bottom: 24px;">
@@ -4848,7 +4850,7 @@ PhraseTraining.prototype.highlightPhrasalVerbInSentence = function (sentence, ve
     }
 
     // Define highlight style once
-    const highlightStyle = 'color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;';
+    const highlightStyle = 'color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;';
 
     // Handle split phrasal verbs (separate highlighting for verb and particle)
     if (verbData.isSplit) {
@@ -4898,7 +4900,7 @@ PhraseTraining.prototype.replaceAndHighlightPhrasalVerb = function (sentence, in
     }
 
     // Define highlight style once
-    const highlightStyle = 'color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;';
+    const highlightStyle = 'color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;';
 
     // Make sure the incorrect verb is lowercase
     const incorrectVerbLower = incorrectVerb.toLowerCase();
@@ -4973,11 +4975,11 @@ PhraseTraining.prototype.showNextTrueFalseQuestion = function (modal) {
         // Show completion screen
         contentArea.innerHTML = `
             <div style="text-align: center; padding: 32px;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 24px;">
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 24px;">
                     You answered correctly ${this.trueFalseCorrectCount} out of ${this.trueFalseData.length} questions.
                 </p>
-                <button class="continue-training-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px;">
+                <button class="continue-training-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -5005,31 +5007,31 @@ PhraseTraining.prototype.showNextTrueFalseQuestion = function (modal) {
         // Generate content for current question
         contentArea.innerHTML = `
             <div style="margin-bottom: 32px;">
-                <div class="sentence-container" style="background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
-                    <p style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 18px; line-height: 1.6; margin: 0;">${currentQuestion.processedSentence}</p>
+                <div class="sentence-container" style="background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+                    <p style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 18px; line-height: 1.6; margin: 0;">${currentQuestion.processedSentence}</p>
                 </div>
                 
                 <div class="true-false-buttons" style="display: flex; justify-content: center; gap: 32px; margin-bottom: 32px;">
-                    <button class="true-btn" data-value="true" style="background: themeColor('#292a3e', 'var(--card-bg)'); color: themeColor('#f8fafc', 'var(--body-1)'); border: 2px solid themeColor('#4a4d6b', 'var(--card-stroke)'); border-radius: 8px; padding: 16px 48px; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
+                    <button class="true-btn" data-value="true" style="background: ${themeColor('#292a3e', 'var(--card-bg)')}; color: ${themeColor('#f8fafc', 'var(--body-1)')}; border: 2px solid ${themeColor('#4a4d6b', 'var(--card-stroke)')}; border-radius: 12px; padding: 16px 48px; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
                         TRUE
                     </button>
-                    <button class="false-btn" data-value="false" style="background: themeColor('#292a3e', 'var(--card-bg)'); color: themeColor('#f8fafc', 'var(--body-1)'); border: 2px solid themeColor('#4a4d6b', 'var(--card-stroke)'); border-radius: 8px; padding: 16px 48px; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
+                    <button class="false-btn" data-value="false" style="background: ${themeColor('#292a3e', 'var(--card-bg)')}; color: ${themeColor('#f8fafc', 'var(--body-1)')}; border: 2px solid ${themeColor('#4a4d6b', 'var(--card-stroke)')}; border-radius: 12px; padding: 16px 48px; font-size: 18px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
                         FALSE
                     </button>
                 </div>
                 
-                <div class="feedback-message" style="min-height: 60px; display: none; padding: 16px; border-radius: 8px; margin-bottom: 24px; text-align: center;">
+                <div class="feedback-message" style="min-height: 60px; display: none; padding: 16px; border-radius: 12px; margin-bottom: 24px; text-align: center;">
                     <!-- Feedback will appear here -->
                 </div>
                 
-                <div class="correct-sentence" style="display: none; background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 8px; padding: 20px; margin-top: 16px; margin-bottom: 24px;">
+                <div class="correct-sentence" style="display: none; background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 12px; padding: 20px; margin-top: 16px; margin-bottom: 24px;">
                     <p style="color: var(--correct-text); font-size: 14px; margin: 0 0 8px 0;">Correct sentence:</p>
-                    <p style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 18px; line-height: 1.6; margin: 0;">${correctSentenceHighlighted}</p>
+                    <p style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 18px; line-height: 1.6; margin: 0;">${correctSentenceHighlighted}</p>
                 </div>
             </div>
             
             <div style="display: flex; justify-content: center;">
-                <button class="next-question-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
+                <button class="next-question-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
                     Next Question
                 </button>
             </div>
@@ -5131,9 +5133,9 @@ PhraseTraining.prototype.showNextTrueFalseQuestion = function (modal) {
 
         // Show error message
         contentArea.innerHTML = `
-            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 8px; text-align: center;">
+            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 12px; text-align: center;">
                 <p>An error occurred while preparing this question. Please try again.</p>
-                <button class="retry-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 8px 24px; border-radius: 8px; border: none; cursor: pointer; margin-top: 16px;">
+                <button class="retry-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 8px 24px; border-radius: 12px; border: none; cursor: pointer; margin-top: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -5220,7 +5222,7 @@ PhraseTraining.prototype.createFindMistakeModal = function () {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(themeColor('0', '80'),themeColor('0', ' 80'),themeColor('0', ' 120'),themeColor('0.9', ' 0.5'));
+        background: rgba(${themeColor('0', '80')},${themeColor('0', ' 80')},${themeColor('0', ' 120')},${themeColor('0.9', ' 0.5')});
         display: flex;
         align-items: center;
         justify-content: center;
@@ -5229,13 +5231,13 @@ PhraseTraining.prototype.createFindMistakeModal = function () {
 
     // Initial HTML structure with bilingual instructions
     modal.innerHTML = `
-        <div style="background: themeColor('#1e1e2e', 'var(--bg-color)'); width: 90vw; max-width: 800px; height: 90vh; border-radius: 12px; padding: 24px; overflow-y: auto; position: relative;">
-            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: themeColor('#b6b9d0', 'var(--body-2)'); background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
+        <div style="background: ${themeColor('#1e1e2e', 'var(--bg-color)')}; width: 95vw; height: 90vh; border-radius: 16px; padding: 24px; overflow-y: auto; position: relative;">
+            <button class="close-modal" style="position: absolute; top: 16px; right: 16px; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
             
             <div style="margin-bottom: 32px; text-align: center;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 24px; margin-bottom: 8px;">Find the Mistake</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); margin-bottom: 6px;">Correct the highlighted phrasal verb in the sentence below</p>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)');">Исправьте выделенный фразовый глагол в предложении ниже</p>
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 24px; margin-bottom: 8px;">Find the Mistake</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; margin-bottom: 6px;">Correct the highlighted phrasal verb in the sentence below</p>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')};">Исправьте выделенный фразовый глагол в предложении ниже</p>
             </div>
             
             <div class="progress-indicator" style="width: 100%; margin-bottom: 24px;">
@@ -5580,7 +5582,7 @@ PhraseTraining.prototype.replacePhrasalVerbWithMistake = function (example, corr
         const after = example.substring(verbDetails.matchIndex + verbDetails.fullMatch.length);
 
         // Create highlighted version with gold color and incorrect verb
-        const highlightedIncorrect = `<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${incorrectVerb}</span>`;
+        const highlightedIncorrect = `<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${incorrectVerb}</span>`;
 
         return {
             processedExample: `${before}${highlightedIncorrect}${after}`,
@@ -5615,7 +5617,7 @@ PhraseTraining.prototype.replacePhrasalVerbWithMistake = function (example, corr
         const after = example.substring(matchIndex + matchedText.length);
 
         // Create highlighted version with gold color and incorrect verb
-        const highlightedIncorrect = `<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${incorrectVerb}</span>`;
+        const highlightedIncorrect = `<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${incorrectVerb}</span>`;
 
         return {
             processedExample: `${before}${highlightedIncorrect}${after}`,
@@ -5633,7 +5635,7 @@ PhraseTraining.prototype.replacePhrasalVerbWithMistake = function (example, corr
         const after = example.substring(exactMatch + baseForm.length);
 
         // Create highlighted version with gold color and incorrect verb
-        const highlightedIncorrect = `<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${incorrectVerb}</span>`;
+        const highlightedIncorrect = `<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${incorrectVerb}</span>`;
 
         return {
             processedExample: `${before}${highlightedIncorrect}${after}`,
@@ -5648,7 +5650,7 @@ PhraseTraining.prototype.replacePhrasalVerbWithMistake = function (example, corr
 
     const processedExample = example.replace(
         correctVerb,
-        `<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 4px;">${incorrectVerb}</span>`
+        `<span style="color: var(--accent-gold); font-weight: bold; background: rgba(245, 158, 11, 0.15); padding: 0 4px; border-radius: 6px;">${incorrectVerb}</span>`
     );
 
     return {
@@ -5682,11 +5684,11 @@ PhraseTraining.prototype.showNextFindMistakeQuestion = function (modal) {
         // Show completion screen
         contentArea.innerHTML = `
             <div style="text-align: center; padding: 32px;">
-                <h2 style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
-                <p style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 18px; margin-bottom: 24px;">
+                <h2 style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 28px; margin-bottom: 16px;">Training Complete!</h2>
+                <p style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 18px; margin-bottom: 24px;">
                     You correctly fixed ${this.findMistakeCorrectCount} out of ${this.findMistakeData.length} mistakes.
                 </p>
-                <button class="continue-training-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px;">
+                <button class="continue-training-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -5708,36 +5710,36 @@ PhraseTraining.prototype.showNextFindMistakeQuestion = function (modal) {
         // Generate content for current question
         contentArea.innerHTML = `
             <div style="margin-bottom: 32px;">
-                <div class="sentence-container" style="background: themeColor('#292a3e', 'var(--card-bg)'); border-radius: 8px; padding: 20px; margin-bottom: 24px;">
-                    <p style="color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 18px; line-height: 1.6; margin: 0;">${currentQuestion.processedExample}</p>
+                <div class="sentence-container" style="background: ${themeColor('#292a3e', 'var(--card-bg)')}; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+                    <p style="color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 18px; line-height: 1.6; margin: 0;">${currentQuestion.processedExample}</p>
                 </div>
                 
                 <div class="correction-container" style="margin-bottom: 24px;">
-                    <label for="correction-input" style="display: block; color: themeColor('#f8fafc', 'var(--body-1)'); margin-bottom: 8px; font-size: 16px;">
-                        Correct the sentence <span style="color: themeColor('#b6b9d0', 'var(--body-2)'); font-size: 14px;">(you can write just the correct phrasal verb or the entire sentence)</span>:
+                    <label for="correction-input" style="display: block; color: ${themeColor('#f8fafc', 'var(--body-1)')}; margin-bottom: 8px; font-size: 16px;">
+                        Correct the sentence <span style="color: ${themeColor('#b6b9d0', 'var(--body-2)')}; font-size: 14px;">(you can write just the correct phrasal verb or the entire sentence)</span>:
                     </label>
                     <div style="display: flex; gap: 12px; align-items: center;">
-                        <input type="text" id="correction-input" style="flex-grow: 1; padding: 12px 16px; background: themeColor('#353748', 'var(--card-bg)'); border: 1px solid themeColor('#4a4d6b', 'var(--card-stroke)'); border-radius: 8px; color: themeColor('#f8fafc', 'var(--body-1)'); font-size: 16px;" 
+                        <input type="text" id="correction-input" style="flex-grow: 1; padding: 12px 16px; background: ${themeColor('#353748', 'var(--card-bg)')}; border: 1px solid ${themeColor('#4a4d6b', 'var(--card-stroke)')}; border-radius: 12px; color: ${themeColor('#f8fafc', 'var(--body-1)')}; font-size: 16px;" 
                             placeholder="Type the corrected phrasal verb or full sentence...">
-                        <button class="check-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 24px; height: 48px; border-radius: 8px; border: none; cursor: pointer; font-size: 16px; white-space: nowrap;">
+                        <button class="check-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 24px; height: 48px; border-radius: 12px; border: none; cursor: pointer; font-size: 16px; white-space: nowrap;">
                             Check
                         </button>
                     </div>
                 </div>
                 
-                <div class="feedback-message" style="min-height: 60px; display: none; padding: 16px; border-radius: 8px; margin-bottom: 24px;">
+                <div class="feedback-message" style="min-height: 60px; display: none; padding: 16px; border-radius: 12px; margin-bottom: 24px;">
                     <!-- Feedback will appear here -->
                 </div>
                 
                 <div class="hint-container" style="text-align: center; margin-bottom: 16px; display: none;">
-                    <button class="hint-btn" style="background: none; border: none; color: themeColor('#b6b9d0', 'var(--body-2)'); text-decoration: underline; cursor: pointer; font-size: 14px;">
+                    <button class="hint-btn" style="background: none; border: none; color: ${themeColor('#b6b9d0', 'var(--body-2)')}; text-decoration: underline; cursor: pointer; font-size: 14px;">
                         Show Hint
                     </button>
                 </div>
             </div>
             
             <div style="display: flex; justify-content: center;">
-                <button class="next-question-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 12px 32px; border-radius: 8px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
+                <button class="next-question-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 12px 32px; border-radius: 12px; border: none; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; font-size: 16px;">
                     Next Question
                 </button>
             </div>
@@ -5876,9 +5878,9 @@ PhraseTraining.prototype.showNextFindMistakeQuestion = function (modal) {
 
         // Show error message
         contentArea.innerHTML = `
-            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 8px; text-align: center;">
+            <div style="color: #f87171; background: var(--danger-bg); padding: 20px; border-radius: 12px; text-align: center;">
                 <p>An error occurred while preparing this question. Please try again.</p>
-                <button class="retry-btn" style="background: themeColor('#6366f1', 'var(--accent-color)'); color: themeColor('#f8fafc', 'var(--body-1)'); padding: 8px 24px; border-radius: 8px; border: none; cursor: pointer; margin-top: 16px;">
+                <button class="retry-btn" style="background: ${themeColor('#6366f1', 'var(--accent-color)')}; color: #f8fafc; padding: 8px 24px; border-radius: 12px; border: none; cursor: pointer; margin-top: 16px;">
                     Continue to Next Training
                 </button>
             </div>
@@ -6313,4 +6315,13 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.classList.remove('is-mobile');
         }
     });
+});
+
+// Cursor-tracked spotlight border on phrase/idiom cards
+document.addEventListener('mousemove', (e) => {
+    const card = e.target.closest('.phrase-card, .idiom-card');
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty('--mx', (e.clientX - rect.left) + 'px');
+    card.style.setProperty('--my', (e.clientY - rect.top) + 'px');
 });
