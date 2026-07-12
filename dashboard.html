@@ -521,7 +521,7 @@
         .plan-badge .dot {
             width: 0.4rem;
             height: 0.4rem;
-            border-radius: 50;
+            border-radius: 50%;
             background: currentColor;
         }
 
@@ -3042,173 +3042,6 @@
                 to Premium →</button>
         </div>
 
-        <!-- STATS -->
-        <div class="stats-row">
-            <div class="stat-card">
-                <span class="stat-icon">📝</span>
-                <div class="stat-value" id="statExercises">0</div>
-                <div class="stat-label">Exercises<br>completed</div>
-                <div class="stat-glow" style="background: radial-gradient(circle, rgba(99,102,241,0.15), transparent)">
-                </div>
-            </div>
-            <div class="stat-card">
-                <span class="stat-icon">🔥</span>
-                <div class="stat-value" id="statStreak">0</div>
-                <div class="stat-label">Day<br>streak</div>
-                <div class="stat-glow" style="background: radial-gradient(circle, rgba(255,192,77,0.15), transparent)">
-                </div>
-            </div>
-            <div class="stat-card">
-                <span class="stat-icon">⭐</span>
-                <div class="stat-value" id="statScore">–</div>
-                <div class="stat-label">Average<br>score</div>
-                <div class="stat-glow" style="background: radial-gradient(circle, rgba(52,211,153,0.12), transparent)">
-                </div>
-            </div>
-            <div class="stat-card">
-                <span class="stat-icon">🏆</span>
-                <div class="stat-value" id="statTopics">0</div>
-                <div class="stat-label">Topics<br>mastered</div>
-                <div class="stat-glow" style="background: radial-gradient(circle, rgba(248,113,113,0.12), transparent)">
-                </div>
-            </div>
-        </div>
-
-        <!-- PROGRESS BY LEVEL -->
-        <div class="progress-section">
-            <div class="section-heading">Progress by Level</div>
-            <div class="level-progress-grid">
-
-                <div class="level-block">
-                    <div class="level-block-header">
-                        <div class="level-label">
-                            <span class="level-tag a1">A1</span>
-                            <span class="level-block-name">Beginner</span>
-                        </div>
-                        <span class="level-pct" id="pctA1">0%</span>
-                    </div>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar-fill a1" id="barA1" style="width:0%"></div>
-                    </div>
-                    <div class="topic-chips" id="chipsA1">
-                        <span class="topic-chip">To Be</span>
-                        <span class="topic-chip">Present Simple</span>
-                        <span class="topic-chip">Articles</span>
-                        <span class="topic-chip">Pronouns</span>
-                        <span class="topic-chip">Can/Can't</span>
-                    </div>
-                </div>
-
-                <div class="level-block">
-                    <div class="level-block-header">
-                        <div class="level-label">
-                            <span class="level-tag a2">A2</span>
-                            <span class="level-block-name">Elementary</span>
-                        </div>
-                        <span class="level-pct" id="pctA2">0%</span>
-                    </div>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar-fill a2" id="barA2" style="width:0%"></div>
-                    </div>
-                    <div class="topic-chips" id="chipsA2">
-                        <span class="topic-chip">Present Continuous</span>
-                        <span class="topic-chip">Past Simple</span>
-                        <span class="topic-chip">Future Will</span>
-                        <span class="topic-chip">Comparatives</span>
-                    </div>
-                </div>
-
-                <div class="level-block">
-                    <div class="level-block-header">
-                        <div class="level-label">
-                            <span class="level-tag b1">B1</span>
-                            <span class="level-block-name">Intermediate</span>
-                        </div>
-                        <span class="level-pct" id="pctB1">0%</span>
-                    </div>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar-fill b1" id="barB1" style="width:0%"></div>
-                    </div>
-                    <div class="topic-chips" id="chipsB1">
-                        <span class="topic-chip">Present Perfect</span>
-                        <span class="topic-chip">Conditionals</span>
-                        <span class="topic-chip">Modal Verbs</span>
-                        <span class="topic-chip">Question Tags</span>
-                    </div>
-                </div>
-
-                <div class="level-block">
-                    <div class="level-block-header">
-                        <div class="level-label">
-                            <span class="level-tag b2">B2</span>
-                            <span class="level-block-name">Upper-Intermediate</span>
-                        </div>
-                        <span class="level-pct" id="pctB2">0%</span>
-                    </div>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar-fill b2" id="barB2" style="width:0%"></div>
-                    </div>
-                    <div class="topic-chips" id="chipsB2">
-                        <span class="topic-chip">Past Perfect</span>
-                        <span class="topic-chip">Third Conditional</span>
-                        <span class="topic-chip">Modal Deduction</span>
-                        <span class="topic-chip">Passive Voice</span>
-                    </div>
-                </div>
-
-                <div class="level-block">
-                    <div class="level-block-header">
-                        <div class="level-label">
-                            <span class="level-tag c1">C1</span>
-                            <span class="level-block-name">Advanced</span>
-                        </div>
-                        <span class="level-pct" id="pctC1">0%</span>
-                    </div>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar-fill c1" id="barC1" style="width:0%"></div>
-                    </div>
-                    <div class="topic-chips" id="chipsC1">
-                        <span class="topic-chip">Mixed Conditionals</span>
-                        <span class="topic-chip">Inversion</span>
-                        <span class="topic-chip">Cleft Sentences</span>
-                        <span class="topic-chip">Subjunctive</span>
-                    </div>
-                </div>
-
-                <div class="level-block">
-                    <div class="level-block-header">
-                        <div class="level-label">
-                            <span class="level-tag c2">C2</span>
-                            <span class="level-block-name">Mastery</span>
-                        </div>
-                        <span class="level-pct" id="pctC2">0%</span>
-                    </div>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar-fill c2" id="barC2" style="width:0%"></div>
-                    </div>
-                    <div class="topic-chips" id="chipsC2">
-                        <span class="topic-chip">Advanced Discourse</span>
-                        <span class="topic-chip">Ellipsis</span>
-                        <span class="topic-chip">Nominalization</span>
-                        <span class="topic-chip">Register & Style</span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- RECENT ACTIVITY -->
-        <div class="activity-section">
-            <div class="section-heading">Recent Activity</div>
-            <div class="activity-list" id="activityList">
-                <!-- Populated by JS or Supabase -->
-                <div class="empty-activity" id="emptyActivity">
-                    <div class="empty-icon"></div>
-                    <div>No exercises completed yet.<br>Start practicing to see your activity here!</div>
-                </div>
-            </div>
-        </div>
-
         <!-- PLAN SECTION -->
         <div class="plan-section">
             <div class="section-heading">Your Plan</div>
@@ -3452,60 +3285,6 @@
                 document.getElementById('manageBtn').style.display = 'block';
             }
 
-            animateCount('statExercises', user.exercises || 0);
-            animateCount('statStreak', user.streak || 0);
-            document.getElementById('statScore').textContent = user.exercises > 0 ? (user.avgScore || 0) + '%' : '–';
-            animateCount('statTopics', user.topicsMastered || 0);
-
-            setTimeout(() => {
-                ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(lv => {
-                    const key = lv.toLowerCase();
-                    const pct = (user.progress && user.progress[key]) || 0;
-                    document.getElementById('bar' + lv).style.width = pct + '%';
-                    document.getElementById('pct' + lv).textContent = pct + '%';
-                    const done = (user.completedTopics && user.completedTopics[key]) || [];
-                    document.querySelectorAll('#chips' + lv + ' .topic-chip').forEach(chip => {
-                        if (done.includes(chip.textContent.replace('✓ ', ''))) chip.classList.add('done');
-                    });
-                });
-            }, 200);
-
-            renderActivity(user.recentActivity || []);
-        }
-
-        function renderActivity(items) {
-            const list = document.getElementById('activityList');
-            const empty = document.getElementById('emptyActivity');
-            if (!items || items.length === 0) {
-                empty.style.display = 'block';
-                return;
-            }
-            empty.style.display = 'none';
-            items.forEach(item => {
-                const el = document.createElement('div');
-                el.className = 'activity-item';
-                el.innerHTML = `
-                    <div class="activity-icon" style="background:rgba(99,102,241,0.1)">${item.icon || '📝'}</div>
-                    <div class="activity-body">
-                        <div class="activity-title">${item.title}</div>
-                        <div class="activity-meta">${item.type} · <span class="level-tag ${item.level.toLowerCase()}" style="padding:0.1rem 0.4rem;font-size:0.625rem">${item.level}</span> · ${item.time}</div>
-                    </div>
-                    <span class="activity-score ${item.scoreClass}">${item.score}%</span>
-                `;
-                list.appendChild(el);
-            });
-        }
-
-        function animateCount(id, target) {
-            const el = document.getElementById(id);
-            if (!el) return;
-            let current = 0;
-            const step = Math.ceil(target / 30) || 1;
-            const timer = setInterval(() => {
-                current = Math.min(current + step, target);
-                el.textContent = current;
-                if (current >= target) clearInterval(timer);
-            }, 30);
         }
 
         /* ================================================================
@@ -3543,47 +3322,9 @@
                 name: profile?.full_name || user.user_metadata?.full_name || user.email.split('@')[0],
                 email: user.email,
                 plan: profile?.plan || 'free',
-                exercises: profile?.exercises_count || 0,
-                streak: profile?.streak || 0,
-                avgScore: profile?.avg_score || 0,
-                topicsMastered: profile?.topics_mastered || 0,
-                progress: profile?.progress || { a1: 0, a2: 0, b1: 0, b2: 0 },
-                completedTopics: profile?.completed_topics || { a1: [], a2: [], b1: [], b2: [] },
-                recentActivity: []
             };
 
-            /* Загружаем последние 5 упражнений из таблицы progress */
-            const { data: activity } = await supabase
-                .from('progress')
-                .select('*')
-                .eq('user_id', user.id)
-                .order('completed_at', { ascending: false })
-                .limit(5);
-
-            if (activity && activity.length > 0) {
-                userData.recentActivity = activity.map(row => ({
-                    icon: '📝',
-                    title: row.topic_id,
-                    type: row.exercise_type,
-                    level: row.level || 'A1',
-                    time: timeAgo(row.completed_at),
-                    score: row.score,
-                    scoreClass: row.score >= 90 ? 'great' : row.score >= 70 ? 'good' : 'ok'
-                }));
-            }
-
             renderDashboard(userData);
-        }
-
-        function timeAgo(dateStr) {
-            const diff = Date.now() - new Date(dateStr).getTime();
-            const mins = Math.floor(diff / 60000);
-            if (mins < 60) return mins + 'm ago';
-            const hrs = Math.floor(mins / 60);
-            if (hrs < 24) return hrs + 'h ago';
-            const days = Math.floor(hrs / 24);
-            if (days === 1) return 'Yesterday';
-            return days + ' days ago';
         }
 
         init();
