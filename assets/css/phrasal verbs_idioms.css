@@ -29,7 +29,7 @@
 # Hero (page-level override)
 --------------------------------------------------------------*/
 .hero {
-    padding: 4rem 0 2rem;
+    padding: 5rem 1rem 3rem;
     text-align: center;
 }
 
@@ -1444,7 +1444,7 @@ body:has(#phraseTrainingModal) {
 # Hero (page-level override)
 --------------------------------------------------------------*/
 [data-theme="light"] .hero {
-    padding: 4rem 0 2rem;
+    padding: 5rem 1rem 3rem;
     text-align: center;
 }
 
