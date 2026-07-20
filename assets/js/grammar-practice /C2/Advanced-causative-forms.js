@@ -179,7 +179,7 @@ window.grammarExercises['verb-patterns']['advanced-causative-forms-page2'] = {
             correctAnswer: 0,
             correctFeedback: "Correct! 'Let someone do something' means to permit, which fits being denied entry.",
             correctFeedbackRu: "Правильно! 'Let someone do something' означает разрешить что-то, что подходит по смыслу отказа во входе.",
-            incorrectFeedback: "Incorrect. 'Have' and 'make' don't express permission here, and 'get' would need 'to' before 'in' doesn't work grammatically - 'let' is the verb of permission.",
+            incorrectFeedback: "Incorrect. 'Have' and 'make' don't express permission here, and 'get' would need a to-infinitive, which doesn't work with 'in' - 'let' is the verb of permission.",
             incorrectFeedbackRu: "Неправильно. 'Have' и 'make' не выражают здесь разрешение, а конструкция с 'get' грамматически не подходит - глагол разрешения именно 'let'."
         },
         {
@@ -2111,11 +2111,11 @@ window.grammarExercises['verb-patterns']['advanced-causative-forms-gap-page8'] =
             questionRu: "Заполните пропуск правильной каузативной формой:",
             sentence: "I simply can't ____ this kind of behavior continue unchecked.",
             correctAnswer: "have",
-            options: ["have", "let", "make", "get"],
+            options: ["have", "do", "make", "get"],
             correctFeedback: "Correct! 'Can't have' idiomatically means 'can't allow/tolerate', followed by an object and bare infinitive.",
             correctFeedbackRu: "Правильно! 'Can't have' идиоматически означает 'не могу допустить/потерпеть', после чего следует объект и инфинитив без 'to'.",
-            incorrectFeedback: "Incorrect. 'Let' would work grammatically but doesn't carry the same idiomatic force of firm refusal as 'can't have' in this register.",
-            incorrectFeedbackRu: "Неправильно. 'Let' было бы грамматически возможно, но не передаёт той же идиоматической силы категоричного отказа, что и 'can't have' в этом регистре."
+            incorrectFeedback: "Incorrect. 'Do' isn't used this way, 'get' would need a to-infinitive ('get ... to continue'), and 'make' would wrongly suggest forcing the behavior to continue; only 'have' expresses refusing to tolerate something.",
+            incorrectFeedbackRu: "Неправильно. 'Do' здесь не употребляется, после 'get' нужен инфинитив с 'to' ('get ... to continue'), а 'make' ошибочно подразумевало бы принуждение к продолжению такого поведения; отказ мириться с чем-либо выражает только 'have'."
         },
         {
             question: "Fill in the gap with the correct causative form:",
@@ -2152,22 +2152,22 @@ window.grammarExercises['verb-patterns']['advanced-causative-forms-gap-page9'] =
             questionRu: "Заполните пропуск правильной каузативной формой:",
             sentence: "She finally ____ him into accepting the settlement offer.",
             correctAnswer: "talked",
-            options: ["talked", "persuaded", "convinced", "let"],
+            options: ["talked", "made", "convinced", "let"],
             correctFeedback: "Correct! 'Talk someone into doing something' is a fixed phrasal pattern meaning to persuade through sustained conversation.",
             correctFeedbackRu: "Правильно! 'Talk someone into doing something' - устойчивая фразовая конструкция, означающая убедить посредством продолжительного разговора.",
-            incorrectFeedback: "Incorrect. 'Persuaded' and 'convinced' don't combine with 'into' in this fixed phrasal pattern, and 'let' doesn't fit; 'talked' is correct.",
-            incorrectFeedbackRu: "Неправильно. 'Persuaded' и 'convinced' не сочетаются с 'into' в этой устойчивой фразовой конструкции, а 'let' не подходит; правильно - 'talked'."
+            incorrectFeedback: "Incorrect. 'Made' and 'let' need a bare infinitive, not 'into', and 'convinced' doesn't combine with 'into' in this fixed phrasal pattern; 'talked' is correct.",
+            incorrectFeedbackRu: "Неправильно. После 'made' и 'let' нужен инфинитив без 'to', а не 'into', а 'convinced' не сочетается с 'into' в этой устойчивой фразовой конструкции; правильно - 'talked'."
         },
         {
             question: "Fill in the gap with the correct causative form:",
             questionRu: "Заполните пропуск правильной каузативной формой:",
             sentence: "Nothing could ____ her that the risk was worth taking.",
             correctAnswer: "convince",
-            options: ["convince", "persuade", "talk", "induce"],
+            options: ["convince", "force", "talk", "induce"],
             correctFeedback: "Correct! 'Convince someone that...' is the standard pattern for changing someone's belief, followed by a that-clause.",
             correctFeedbackRu: "Правильно! 'Convince someone that...' - стандартная конструкция для изменения чьего-то убеждения, за которой следует придаточное с 'that'.",
-            incorrectFeedback: "Incorrect. 'Persuade', 'talk' and 'induce' don't pair naturally with a direct that-clause here; 'convince' is the correct choice.",
-            incorrectFeedbackRu: "Неправильно. 'Persuade', 'talk' и 'induce' не сочетаются здесь напрямую с придаточным 'that'; правильный вариант - 'convince'."
+            incorrectFeedback: "Incorrect. 'Force', 'talk' and 'induce' don't pair naturally with a direct that-clause here; 'convince' is the correct choice.",
+            incorrectFeedbackRu: "Неправильно. 'Force', 'talk' и 'induce' не сочетаются здесь напрямую с придаточным 'that'; правильный вариант - 'convince'."
         },
         {
             question: "Fill in the gap with the correct causative form:",
@@ -2218,22 +2218,22 @@ window.grammarExercises['verb-patterns']['advanced-causative-forms-gap-page9'] =
             questionRu: "Заполните пропуск правильной каузативной формой:",
             sentence: "I couldn't ____ him into changing his travel plans no matter what I said.",
             correctAnswer: "talk",
-            options: ["talk", "persuade", "convince", "induce"],
+            options: ["talk", "make", "convince", "induce"],
             correctFeedback: "Correct! 'Talk someone into doing something' is the fixed phrasal pattern that combines with 'into' here.",
             correctFeedbackRu: "Правильно! 'Talk someone into doing something' - устойчивая фразовая конструкция, которая здесь сочетается с 'into'.",
-            incorrectFeedback: "Incorrect. 'Persuade', 'convince' and 'induce' don't combine naturally with 'into' in this fixed pattern; 'talk' is correct.",
-            incorrectFeedbackRu: "Неправильно. 'Persuade', 'convince' и 'induce' не сочетаются естественно с 'into' в этой устойчивой конструкции; правильно - 'talk'."
+            incorrectFeedback: "Incorrect. 'Make' needs a bare infinitive, not 'into', and 'convince'/'induce' don't combine naturally with 'into' in this fixed pattern; 'talk' is correct.",
+            incorrectFeedbackRu: "Неправильно. После 'make' нужен инфинитив без 'to', а не 'into', а 'convince'/'induce' не сочетаются естественно с 'into' в этой устойчивой конструкции; правильно - 'talk'."
         },
         {
             question: "Fill in the gap with the correct causative form:",
             questionRu: "Заполните пропуск правильной каузативной формой:",
             sentence: "The evidence eventually ____ the jury of the defendant's innocence.",
             correctAnswer: "convinced",
-            options: ["convinced", "persuaded", "talked", "induced"],
+            options: ["convinced", "forced", "talked", "induced"],
             correctFeedback: "Correct! 'Convince someone of something' is the standard pattern for establishing belief through evidence.",
             correctFeedbackRu: "Правильно! 'Convince someone of something' - стандартная конструкция для формирования убеждения посредством доказательств.",
-            incorrectFeedback: "Incorrect. 'Persuaded', 'talked' and 'induced' don't pair naturally with 'of' in this pattern; 'convinced' is the correct verb.",
-            incorrectFeedbackRu: "Неправильно. 'Persuaded', 'talked' и 'induced' не сочетаются естественно с 'of' в этой конструкции; правильный глагол - 'convinced'."
+            incorrectFeedback: "Incorrect. 'Forced', 'talked' and 'induced' don't pair naturally with 'of' in this pattern; 'convinced' is the correct verb.",
+            incorrectFeedbackRu: "Неправильно. 'Forced', 'talked' и 'induced' не сочетаются естественно с 'of' в этой конструкции; правильный глагол - 'convinced'."
         },
         {
             question: "Fill in the gap with the correct causative form:",
@@ -2347,11 +2347,11 @@ window.grammarExercises['verb-patterns']['advanced-causative-forms-gap-page10'] 
             questionRu: "Заполните пропуск правильной каузативной формой:",
             sentence: "The consultant ____ the executives into adopting a completely new strategy.",
             correctAnswer: "talked",
-            options: ["talked", "persuaded", "convinced", "let"],
+            options: ["talked", "made", "convinced", "let"],
             correctFeedback: "Correct! 'Talk someone into doing something' is the fixed phrasal pattern that combines with 'into' here.",
             correctFeedbackRu: "Правильно! 'Talk someone into doing something' - устойчивая фразовая конструкция, которая здесь сочетается с 'into'.",
-            incorrectFeedback: "Incorrect. 'Persuaded' and 'convinced' don't combine naturally with 'into' in this fixed pattern, and 'let' doesn't fit; 'talked' is correct.",
-            incorrectFeedbackRu: "Неправильно. 'Persuaded' и 'convinced' не сочетаются естественно с 'into' в этой устойчивой конструкции, а 'let' не подходит; правильно - 'talked'."
+            incorrectFeedback: "Incorrect. 'Made' and 'let' need a bare infinitive, not 'into', and 'convinced' doesn't combine naturally with 'into' in this fixed pattern; 'talked' is correct.",
+            incorrectFeedbackRu: "Неправильно. После 'made' и 'let' нужен инфинитив без 'to', а не 'into', а 'convinced' не сочетается естественно с 'into' в этой устойчивой конструкции; правильно - 'talked'."
         },
         {
             question: "Fill in the gap with the correct causative form:",
@@ -2363,6 +2363,1089 @@ window.grammarExercises['verb-patterns']['advanced-causative-forms-gap-page10'] 
             correctFeedbackRu: "Правильно! Отрицательное 'won't have' - идиома, означающая 'не потерплю', после чего следует объект и причастие.",
             incorrectFeedback: "Incorrect. 'Make', 'let' and 'do' don't carry this idiomatic meaning of refusing to tolerate something; only 'have' fits.",
             incorrectFeedbackRu: "Неправильно. 'Make', 'let' и 'do' не передают это идиоматическое значение отказа мириться с чем-либо; подходит только 'have'."
+        }
+    ]
+};
+
+/* =============================================================================== */
+/* ===========================Sentence Building Exercises========================== */
+
+/* =============================================================================== 
+sPage 1: Causative Passive - Have/Get Something Done =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page1'] = {
+    title: "Causative Passive - Have/Get Something Done",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "museum", "had", "the", "ancient", "sculpture", "cleaned", "by", "specialist", "conservators."],
+            correctAnswer: "The museum had the ancient sculpture cleaned by specialist conservators.",
+            correctFeedback: "Correct! The causative passive word order is: subject + have/get + object + past participle + (agent).",
+            correctFeedbackRu: "Правильно! Порядок слов в каузативном пассиве: подлежащее + have/get + объект + причастие прошедшего времени + (исполнитель).",
+            incorrectFeedback: "Not quite. Remember the causative passive order: subject + had + object + past participle, with the agent introduced by 'by' at the end.",
+            incorrectFeedbackRu: "Не совсем. Помните порядок слов в каузативном пассиве: подлежащее + had + объект + причастие прошедшего времени, а исполнитель вводится предлогом 'by' в конце."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["She", "gets", "her", "hair", "colored", "every", "six", "weeks", "at", "that", "salon."],
+            correctAnswer: "She gets her hair colored every six weeks at that salon.",
+            correctFeedback: "Correct! 'Gets' + object + past participle shows a regularly repeated causative arrangement.",
+            correctFeedbackRu: "Правильно! 'Gets' + объект + причастие прошедшего времени показывает регулярно повторяющуюся каузативную договорённость.",
+            incorrectFeedback: "Not quite. The object must come directly after 'gets', followed by the past participle: gets + her hair + colored.",
+            incorrectFeedbackRu: "Не совсем. Объект должен стоять сразу после 'gets', а за ним - причастие: gets + her hair + colored."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["They", "had", "the", "entire", "office", "repainted", "over", "the", "weekend."],
+            correctAnswer: "They had the entire office repainted over the weekend.",
+            correctFeedback: "Correct! Past causative passive: had + object + past participle, with the time expression placed at the end.",
+            correctFeedbackRu: "Правильно! Каузативный пассив в прошедшем времени: had + объект + причастие, а обстоятельство времени ставится в конце.",
+            incorrectFeedback: "Not quite. Keep 'had' directly before the object, and the past participle 'repainted' right after it.",
+            incorrectFeedbackRu: "Не совсем. 'Had' должно стоять непосредственно перед объектом, а причастие 'repainted' - сразу после него."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["We're", "going", "to", "have", "the", "contract", "reviewed", "by", "our", "legal", "team."],
+            correctAnswer: "We're going to have the contract reviewed by our legal team.",
+            correctFeedback: "Correct! 'Going to have' + object + past participle expresses a planned causative action in the near future.",
+            correctFeedbackRu: "Правильно! 'Going to have' + объект + причастие выражает запланированное каузативное действие в ближайшем будущем.",
+            incorrectFeedback: "Not quite. The past participle 'reviewed' must follow the object directly, not precede it.",
+            incorrectFeedbackRu: "Не совсем. Причастие 'reviewed' должно стоять сразу после объекта, а не перед ним."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "company", "has", "its", "servers", "backed", "up", "automatically", "every", "night."],
+            correctAnswer: "The company has its servers backed up automatically every night.",
+            correctFeedback: "Correct! Present simple causative passive: has + object + past participle, with the adverb of manner before the time expression.",
+            correctFeedbackRu: "Правильно! Каузативный пассив в Present Simple: has + объект + причастие, а наречие образа действия стоит перед обстоятельством времени.",
+            incorrectFeedback: "Not quite. 'Has' needs the object immediately after it, then the past participle 'backed up'.",
+            incorrectFeedbackRu: "Не совсем. После 'has' сразу должен идти объект, а затем причастие 'backed up'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["He", "got", "his", "passport", "renewed", "just", "before", "the", "trip."],
+            correctAnswer: "He got his passport renewed just before the trip.",
+            correctFeedback: "Correct! Past informal causative passive: got + object + past participle, followed by the time expression.",
+            correctFeedbackRu: "Правильно! Неформальный каузативный пассив в прошедшем времени: got + объект + причастие, за которым следует обстоятельство времени.",
+            incorrectFeedback: "Not quite. 'Got' must be followed directly by the object 'his passport', then the past participle 'renewed'.",
+            incorrectFeedbackRu: "Не совсем. После 'got' сразу должен идти объект 'his passport', а затем причастие 'renewed'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "family", "had", "their", "portrait", "painted", "by", "a", "renowned", "artist."],
+            correctAnswer: "The family had their portrait painted by a renowned artist.",
+            correctFeedback: "Correct! The causative passive ends with the agent introduced by 'by' when it's important who performed the action.",
+            correctFeedbackRu: "Правильно! Каузативный пассив заканчивается исполнителем, вводимым предлогом 'by', когда важно, кто выполнил действие.",
+            incorrectFeedback: "Not quite. The agent phrase 'by a renowned artist' belongs at the very end, after the past participle.",
+            incorrectFeedbackRu: "Не совсем. Фраза с исполнителем 'by a renowned artist' должна стоять в самом конце, после причастия."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "airline", "gets", "its", "aircraft", "inspected", "after", "every", "long-haul", "flight."],
+            correctAnswer: "The airline gets its aircraft inspected after every long-haul flight.",
+            correctFeedback: "Correct! Habitual present causative passive: gets + object + past participle + time phrase.",
+            correctFeedbackRu: "Правильно! Каузативный пассив в привычном настоящем времени: gets + объект + причастие + обстоятельство времени.",
+            incorrectFeedback: "Not quite. 'Gets' takes the object immediately, then the past participle 'inspected', with the time phrase last.",
+            incorrectFeedbackRu: "Не совсем. После 'gets' сразу идёт объект, затем причастие 'inspected', а обстоятельство времени - в конце."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "tenants", "had", "the", "broken", "heater", "replaced", "within", "a", "week."],
+            correctAnswer: "The tenants had the broken heater replaced within a week.",
+            correctFeedback: "Correct! Past causative passive: had + object + past participle, followed by the time frame.",
+            correctFeedbackRu: "Правильно! Каузативный пассив в прошедшем времени: had + объект + причастие, за которым следуют временные рамки.",
+            incorrectFeedback: "Not quite. 'Had' must precede the object 'the broken heater', with the past participle 'replaced' right after.",
+            incorrectFeedbackRu: "Не совсем. 'Had' должно стоять перед объектом 'the broken heater', а причастие 'replaced' - сразу после него."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["She", "had", "her", "thesis", "proofread", "by", "three", "different", "colleagues."],
+            correctAnswer: "She had her thesis proofread by three different colleagues.",
+            correctFeedback: "Correct! The agent 'by three different colleagues' comes last, after the past participle 'proofread'.",
+            correctFeedbackRu: "Правильно! Исполнитель 'by three different colleagues' стоит в конце, после причастия 'proofread'.",
+            incorrectFeedback: "Not quite. Keep the order: had + her thesis + proofread + by three different colleagues.",
+            incorrectFeedbackRu: "Не совсем. Соблюдайте порядок: had + her thesis + proofread + by three different colleagues."
+        }
+    ]
+};
+
+/* =============================================================================== 
+sPage 2: Make/Let/Have + Bare Infinitive =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page2'] = {
+    title: "Make/Let/Have + Bare Infinitive",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "instructor", "made", "the", "trainees", "repeat", "the", "drill", "several", "times."],
+            correctAnswer: "The instructor made the trainees repeat the drill several times.",
+            correctFeedback: "Correct! 'Made' + object + bare infinitive expresses forcing someone to do something.",
+            correctFeedbackRu: "Правильно! 'Made' + объект + инфинитив без 'to' выражает принуждение кого-то к действию.",
+            incorrectFeedback: "Not quite. After 'made', use the object followed by the bare infinitive 'repeat', not a to-infinitive.",
+            incorrectFeedbackRu: "Не совсем. После 'made' используется объект, а затем инфинитив без 'to' - 'repeat', а не инфинитив с 'to'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Her", "boss", "let", "her", "leave", "early", "for", "the", "appointment."],
+            correctAnswer: "Her boss let her leave early for the appointment.",
+            correctFeedback: "Correct! 'Let' + object + bare infinitive expresses giving permission.",
+            correctFeedbackRu: "Правильно! 'Let' + объект + инфинитив без 'to' выражает разрешение.",
+            incorrectFeedback: "Not quite. 'Let' takes a bare infinitive: let + her + leave, not 'to leave'.",
+            incorrectFeedbackRu: "Не совсем. После 'let' используется инфинитив без 'to': let + her + leave, а не 'to leave'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "captain", "had", "the", "crew", "check", "every", "safety", "measure", "twice."],
+            correctAnswer: "The captain had the crew check every safety measure twice.",
+            correctFeedback: "Correct! 'Had' + object + bare infinitive expresses a neutral instruction or arrangement.",
+            correctFeedbackRu: "Правильно! 'Had' + объект + инфинитив без 'to' выражает нейтральное указание или распоряжение.",
+            incorrectFeedback: "Not quite. Keep the bare infinitive 'check' directly after the object 'the crew', without 'to'.",
+            incorrectFeedbackRu: "Не совсем. Инфинитив без 'to' - 'check' - должен стоять сразу после объекта 'the crew', без 'to'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Nothing", "would", "make", "him", "abandon", "his", "principles."],
+            correctAnswer: "Nothing would make him abandon his principles.",
+            correctFeedback: "Correct! After the modal 'would', the causative verb 'make' stays bare, followed by object + bare infinitive.",
+            correctFeedbackRu: "Правильно! После модального 'would' каузативный глагол 'make' остаётся в базовой форме, за ним следует объект + инфинитив без 'to'.",
+            incorrectFeedback: "Not quite. The structure is: would + make + him + abandon, with no 'to' before 'abandon'.",
+            incorrectFeedbackRu: "Не совсем. Структура такая: would + make + him + abandon, без 'to' перед 'abandon'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "strict", "teacher", "never", "lets", "students", "use", "their", "phones", "in", "class."],
+            correctAnswer: "The strict teacher never lets students use their phones in class.",
+            correctFeedback: "Correct! Present simple 'lets' + object + bare infinitive expresses a habitual refusal of permission.",
+            correctFeedbackRu: "Правильно! 'Lets' в Present Simple + объект + инфинитив без 'to' выражает привычный отказ в разрешении.",
+            incorrectFeedback: "Not quite. 'Lets' requires a bare infinitive: lets + students + use, not 'to use'.",
+            incorrectFeedbackRu: "Не совсем. После 'lets' нужен инфинитив без 'to': lets + students + use, а не 'to use'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "alarm", "made", "everyone", "jump", "out", "of", "their", "seats."],
+            correctAnswer: "The alarm made everyone jump out of their seats.",
+            correctFeedback: "Correct! 'Made' + object + bare infinitive describes an involuntary reaction caused by something.",
+            correctFeedbackRu: "Правильно! 'Made' + объект + инфинитив без 'to' описывает непроизвольную реакцию, вызванную чем-либо.",
+            incorrectFeedback: "Not quite. Place the bare infinitive 'jump' directly after the object 'everyone', without 'to'.",
+            incorrectFeedbackRu: "Не совсем. Инфинитив без 'to' - 'jump' - должен стоять сразу после объекта 'everyone', без 'to'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "director", "had", "the", "actors", "rehearse", "the", "scene", "until", "midnight."],
+            correctAnswer: "The director had the actors rehearse the scene until midnight.",
+            correctFeedback: "Correct! 'Had' + object + bare infinitive expresses a directed activity, with the time limit placed at the end.",
+            correctFeedbackRu: "Правильно! 'Had' + объект + инфинитив без 'to' выражает направленную деятельность, а временной предел ставится в конце.",
+            incorrectFeedback: "Not quite. Keep the order: had + the actors + rehearse + the scene, then the time expression.",
+            incorrectFeedbackRu: "Не совсем. Соблюдайте порядок: had + the actors + rehearse + the scene, а затем обстоятельство времени."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["I", "won't", "let", "anyone", "speak", "to", "my", "colleagues", "like", "that."],
+            correctAnswer: "I won't let anyone speak to my colleagues like that.",
+            correctFeedback: "Correct! Negative 'won't let' + object + bare infinitive expresses refusing to permit something.",
+            correctFeedbackRu: "Правильно! Отрицательное 'won't let' + объект + инфинитив без 'to' выражает отказ разрешить что-либо.",
+            incorrectFeedback: "Not quite. 'Let' takes a bare infinitive: let + anyone + speak, not 'to speak'.",
+            incorrectFeedbackRu: "Не совсем. После 'let' используется инфинитив без 'to': let + anyone + speak, а не 'to speak'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "manager", "had", "the", "interns", "compile", "the", "quarterly", "report."],
+            correctAnswer: "The manager had the interns compile the quarterly report.",
+            correctFeedback: "Correct! 'Had' + object + bare infinitive expresses a straightforward work assignment.",
+            correctFeedbackRu: "Правильно! 'Had' + объект + инфинитив без 'to' выражает прямое рабочее поручение.",
+            incorrectFeedback: "Not quite. The bare infinitive 'compile' must follow the object 'the interns' directly, without 'to'.",
+            incorrectFeedbackRu: "Не совсем. Инфинитив без 'to' - 'compile' - должен стоять сразу после объекта 'the interns', без 'to'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "sudden", "noise", "made", "the", "dog", "bark", "furiously."],
+            correctAnswer: "The sudden noise made the dog bark furiously.",
+            correctFeedback: "Correct! 'Made' + object + bare infinitive expresses an external cause producing an automatic reaction.",
+            correctFeedbackRu: "Правильно! 'Made' + объект + инфинитив без 'to' выражает внешнюю причину, вызвавшую автоматическую реакцию.",
+            incorrectFeedback: "Not quite. Place the bare infinitive 'bark' directly after 'the dog', with the adverb 'furiously' after it.",
+            incorrectFeedbackRu: "Не совсем. Инфинитив без 'to' - 'bark' - должен стоять сразу после 'the dog', а наречие 'furiously' - после него."
+        }
+    ]
+};
+
+/* =============================================================================== 
+sPage 3: Get Someone To Do Something =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page3'] = {
+    title: "Get Someone To Do Something",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["It", "took", "hours", "to", "get", "the", "technician", "to", "fix", "the", "printer."],
+            correctAnswer: "It took hours to get the technician to fix the printer.",
+            correctFeedback: "Correct! 'Get' + object + to-infinitive expresses persuading someone to do something.",
+            correctFeedbackRu: "Правильно! 'Get' + объект + инфинитив с 'to' выражает убеждение кого-то сделать что-либо.",
+            incorrectFeedback: "Not quite. 'Get' requires a to-infinitive: get + the technician + to fix, not a bare infinitive.",
+            incorrectFeedbackRu: "Не совсем. После 'get' нужен инфинитив с 'to': get + the technician + to fix, а не инфинитив без 'to'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["She", "finally", "got", "her", "landlord", "to", "repair", "the", "leaking", "roof."],
+            correctAnswer: "She finally got her landlord to repair the leaking roof.",
+            correctFeedback: "Correct! 'Got' + object + to-infinitive shows successful persuasion after effort, matching 'finally'.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + инфинитив с 'to' показывает успешное убеждение после усилий, что соответствует слову 'finally'.",
+            incorrectFeedback: "Not quite. Keep the object right after 'got', then the to-infinitive: got + her landlord + to repair.",
+            incorrectFeedbackRu: "Не совсем. Объект должен стоять сразу после 'got', а затем инфинитив с 'to': got + her landlord + to repair."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["How", "did", "you", "get", "the", "airline", "to", "refund", "your", "ticket?"],
+            correctAnswer: "How did you get the airline to refund your ticket?",
+            correctFeedback: "Correct! In questions, 'get' + object + to-infinitive follows the auxiliary 'did' at the start.",
+            correctFeedbackRu: "Правильно! В вопросах 'get' + объект + инфинитив с 'to' стоит после вспомогательного глагола 'did' в начале.",
+            incorrectFeedback: "Not quite. After 'did you get', the object comes first, then the to-infinitive: the airline + to refund.",
+            incorrectFeedbackRu: "Не совсем. После 'did you get' сначала идёт объект, а затем инфинитив с 'to': the airline + to refund."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "coach", "got", "the", "whole", "team", "to", "believe", "in", "themselves", "again."],
+            correctAnswer: "The coach got the whole team to believe in themselves again.",
+            correctFeedback: "Correct! 'Got' + object + to-infinitive expresses successfully changing someone's mindset.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + инфинитив с 'to' выражает успешное изменение чьего-то настроя.",
+            incorrectFeedback: "Not quite. Place the object 'the whole team' right after 'got', then the to-infinitive 'to believe'.",
+            incorrectFeedbackRu: "Не совсем. Объект 'the whole team' должен стоять сразу после 'got', а затем инфинитив с 'to' - 'to believe'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["We", "need", "to", "get", "the", "supplier", "to", "lower", "their", "prices."],
+            correctAnswer: "We need to get the supplier to lower their prices.",
+            correctFeedback: "Correct! After 'need to', the causative verb 'get' stays bare, followed by object + to-infinitive.",
+            correctFeedbackRu: "Правильно! После 'need to' каузативный глагол 'get' остаётся в базовой форме, за ним следует объект + инфинитив с 'to'.",
+            incorrectFeedback: "Not quite. Keep the order: need to + get + the supplier + to lower, with 'to' before 'lower'.",
+            incorrectFeedbackRu: "Не совсем. Соблюдайте порядок: need to + get + the supplier + to lower, с 'to' перед 'lower'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["He", "got", "his", "colleague", "to", "cover", "his", "shift", "on", "Friday."],
+            correctAnswer: "He got his colleague to cover his shift on Friday.",
+            correctFeedback: "Correct! 'Got' + object + to-infinitive expresses persuading a colleague to help.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + инфинитив с 'to' выражает убеждение коллеги помочь.",
+            incorrectFeedback: "Not quite. The to-infinitive 'to cover' must follow the object 'his colleague' directly.",
+            incorrectFeedbackRu: "Не совсем. Инфинитив с 'to' - 'to cover' - должен стоять сразу после объекта 'his colleague'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "charity", "got", "several", "sponsors", "to", "fund", "the", "new", "shelter."],
+            correctAnswer: "The charity got several sponsors to fund the new shelter.",
+            correctFeedback: "Correct! 'Got' + object + to-infinitive expresses successfully persuading multiple parties.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + инфинитив с 'to' выражает успешное убеждение нескольких сторон.",
+            incorrectFeedback: "Not quite. Keep 'several sponsors' right after 'got', then the to-infinitive 'to fund'.",
+            incorrectFeedbackRu: "Не совсем. 'Several sponsors' должно стоять сразу после 'got', а затем инфинитив с 'to' - 'to fund'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["I'll", "try", "to", "get", "him", "to", "reconsider", "his", "decision."],
+            correctAnswer: "I'll try to get him to reconsider his decision.",
+            correctFeedback: "Correct! After 'try to', the causative verb 'get' stays bare: get + him + to reconsider.",
+            correctFeedbackRu: "Правильно! После 'try to' каузативный глагол 'get' остаётся в базовой форме: get + him + to reconsider.",
+            incorrectFeedback: "Not quite. The structure is try to + get + him + to reconsider, with 'to' before 'reconsider'.",
+            incorrectFeedbackRu: "Не совсем. Структура такая: try to + get + him + to reconsider, с 'to' перед 'reconsider'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "lawyer", "got", "the", "witness", "to", "admit", "the", "truth."],
+            correctAnswer: "The lawyer got the witness to admit the truth.",
+            correctFeedback: "Correct! 'Got' + object + to-infinitive expresses successfully persuading a witness during questioning.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + инфинитив с 'to' выражает успешное убеждение свидетеля во время допроса.",
+            incorrectFeedback: "Not quite. Place the object 'the witness' right after 'got', then the to-infinitive 'to admit'.",
+            incorrectFeedbackRu: "Не совсем. Объект 'the witness' должен стоять сразу после 'got', а затем инфинитив с 'to' - 'to admit'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["They", "got", "the", "council", "to", "approve", "the", "new", "bike", "lanes."],
+            correctAnswer: "They got the council to approve the new bike lanes.",
+            correctFeedback: "Correct! 'Got' + object + to-infinitive expresses persuading an authority to take formal action.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + инфинитив с 'to' выражает убеждение органа власти принять официальное решение.",
+            incorrectFeedback: "Not quite. Keep 'the council' right after 'got', then the to-infinitive 'to approve'.",
+            incorrectFeedbackRu: "Не совсем. 'The council' должно стоять сразу после 'got', а затем инфинитив с 'to' - 'to approve'."
+        }
+    ]
+};
+
+/* =============================================================================== 
+sPage 4: Verbs of Force and Compulsion =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page4'] = {
+    title: "Verbs of Force and Compulsion",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "looming", "deadline", "forced", "the", "team", "to", "cancel", "their", "vacation", "plans."],
+            correctAnswer: "The looming deadline forced the team to cancel their vacation plans.",
+            correctFeedback: "Correct! 'Force' + object + to-infinitive expresses circumstances leaving no real alternative.",
+            correctFeedbackRu: "Правильно! 'Force' + объект + инфинитив с 'to' выражает обстоятельства, не оставляющие реального выбора.",
+            incorrectFeedback: "Not quite. 'Forced' needs a to-infinitive: forced + the team + to cancel, with the object right after the verb.",
+            incorrectFeedbackRu: "Не совсем. После 'forced' нужен инфинитив с 'to': forced + the team + to cancel, а объект должен стоять сразу после глагола."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Financial", "pressure", "compelled", "the", "company", "to", "lay", "off", "dozens", "of", "workers."],
+            correctAnswer: "Financial pressure compelled the company to lay off dozens of workers.",
+            correctFeedback: "Correct! 'Compel' + object + to-infinitive is a formal verb for being driven by circumstance rather than choice.",
+            correctFeedbackRu: "Правильно! 'Compel' + объект + инфинитив с 'to' - формальный глагол, описывающий вынужденное действие под давлением обстоятельств.",
+            incorrectFeedback: "Not quite. Keep the object 'the company' right after 'compelled', then the to-infinitive 'to lay off'.",
+            incorrectFeedbackRu: "Не совсем. Объект 'the company' должен стоять сразу после 'compelled', а затем инфинитив с 'to' - 'to lay off'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "witness", "was", "coerced", "into", "signing", "a", "false", "statement."],
+            correctAnswer: "The witness was coerced into signing a false statement.",
+            correctFeedback: "Correct! Passive 'was coerced into' + gerund describes being forced through threats or pressure.",
+            correctFeedbackRu: "Правильно! Пассивная форма 'was coerced into' + герундий описывает принуждение посредством угроз или давления.",
+            incorrectFeedback: "Not quite. 'Coerced' pairs with 'into' + gerund, not a to-infinitive: coerced into signing, not coerced to sign.",
+            incorrectFeedbackRu: "Не совсем. 'Coerced' сочетается с 'into' + герундием, а не с инфинитивом с 'to': coerced into signing, а не coerced to sign."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Company", "policy", "obliges", "employees", "to", "report", "any", "conflicts", "of", "interest."],
+            correctAnswer: "Company policy obliges employees to report any conflicts of interest.",
+            correctFeedback: "Correct! 'Obliges' + object + to-infinitive expresses a formal, rule-based requirement.",
+            correctFeedbackRu: "Правильно! 'Obliges' + объект + инфинитив с 'to' выражает формальное требование, закреплённое правилами.",
+            incorrectFeedback: "Not quite. Place the object 'employees' directly after 'obliges', then the to-infinitive 'to report'.",
+            incorrectFeedbackRu: "Не совсем. Объект 'employees' должен стоять сразу после 'obliges', а затем инфинитив с 'to' - 'to report'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Desperation", "drove", "her", "to", "sell", "most", "of", "her", "belongings."],
+            correctAnswer: "Desperation drove her to sell most of her belongings.",
+            correctFeedback: "Correct! 'Drove' + object + to-infinitive describes emotional or circumstantial pressure pushing someone to act.",
+            correctFeedbackRu: "Правильно! 'Drove' + объект + инфинитив с 'to' описывает эмоциональное или ситуативное давление, толкающее к действию.",
+            incorrectFeedback: "Not quite. Keep the order: drove + her + to sell, with the to-infinitive right after the object.",
+            incorrectFeedbackRu: "Не совсем. Соблюдайте порядок: drove + her + to sell, с инфинитивом с 'to' сразу после объекта."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "board", "was", "pressured", "into", "accepting", "the", "takeover", "bid."],
+            correctAnswer: "The board was pressured into accepting the takeover bid.",
+            correctFeedback: "Correct! Passive 'was pressured into' + gerund describes forcing a decision through sustained pressure.",
+            correctFeedbackRu: "Правильно! Пассивная форма 'was pressured into' + герундий описывает вынуждение к решению посредством постоянного давления.",
+            incorrectFeedback: "Not quite. 'Pressured' pairs with 'into' + gerund: pressured into accepting, not pressured to accept.",
+            incorrectFeedbackRu: "Не совсем. 'Pressured' сочетается с 'into' + герундием: pressured into accepting, а не pressured to accept."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Regulators", "can", "compel", "firms", "to", "disclose", "their", "financial", "records."],
+            correctAnswer: "Regulators can compel firms to disclose their financial records.",
+            correctFeedback: "Correct! After the modal 'can', 'compel' stays bare, followed by object + to-infinitive.",
+            correctFeedbackRu: "Правильно! После модального 'can' 'compel' остаётся в базовой форме, за ним следует объект + инфинитив с 'to'.",
+            incorrectFeedback: "Not quite. The structure is: can + compel + firms + to disclose, with 'to' before 'disclose'.",
+            incorrectFeedbackRu: "Не совсем. Структура такая: can + compel + firms + to disclose, с 'to' перед 'disclose'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "general", "forced", "his", "troops", "to", "retreat", "under", "heavy", "fire."],
+            correctAnswer: "The general forced his troops to retreat under heavy fire.",
+            correctFeedback: "Correct! 'Forced' + object + to-infinitive fits an order given regardless of the soldiers' own wishes.",
+            correctFeedbackRu: "Правильно! 'Forced' + объект + инфинитив с 'to' подходит для приказа, отданного независимо от желания солдат.",
+            incorrectFeedback: "Not quite. Keep 'his troops' right after 'forced', then the to-infinitive 'to retreat'.",
+            incorrectFeedbackRu: "Не совсем. 'His troops' должно стоять сразу после 'forced', а затем инфинитив с 'to' - 'to retreat'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Nothing", "could", "have", "pressured", "her", "into", "betraying", "her", "principles."],
+            correctAnswer: "Nothing could have pressured her into betraying her principles.",
+            correctFeedback: "Correct! 'Pressured ... into' + gerund fits the context of resisting coercion, even under strong pressure.",
+            correctFeedbackRu: "Правильно! 'Pressured ... into' + герундий подходит для контекста сопротивления принуждению, даже под сильным давлением.",
+            incorrectFeedback: "Not quite. 'Pressured' takes 'into' + gerund: into betraying, not the to-infinitive 'to betray'.",
+            incorrectFeedbackRu: "Не совсем. После 'pressured' идёт 'into' + герундий: into betraying, а не инфинитив с 'to' - 'to betray'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "lease", "legally", "obliges", "tenants", "to", "maintain", "the", "garden."],
+            correctAnswer: "The lease legally obliges tenants to maintain the garden.",
+            correctFeedback: "Correct! 'Obliges' + object + to-infinitive describes a legally binding duty stated in a contract.",
+            correctFeedbackRu: "Правильно! 'Obliges' + объект + инфинитив с 'to' описывает юридически обязательную обязанность, закреплённую в договоре.",
+            incorrectFeedback: "Not quite. Place the adverb 'legally' before 'obliges', then the object 'tenants' and the to-infinitive 'to maintain'.",
+            incorrectFeedbackRu: "Не совсем. Наречие 'legally' должно стоять перед 'obliges', затем объект 'tenants' и инфинитив с 'to' - 'to maintain'."
+        }
+    ]
+};
+
+/* =============================================================================== 
+sPage 5: Verbs of Permission and Enablement =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page5'] = {
+    title: "Verbs of Permission and Enablement",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "new", "law", "allows", "citizens", "to", "access", "their", "medical", "records", "online."],
+            correctAnswer: "The new law allows citizens to access their medical records online.",
+            correctFeedback: "Correct! 'Allows' + object + to-infinitive expresses granting permission for an action.",
+            correctFeedbackRu: "Правильно! 'Allows' + объект + инфинитив с 'to' выражает предоставление разрешения на действие.",
+            incorrectFeedback: "Not quite. Keep 'citizens' right after 'allows', then the to-infinitive 'to access'.",
+            incorrectFeedbackRu: "Не совсем. 'Citizens' должно стоять сразу после 'allows', а затем инфинитив с 'to' - 'to access'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Her", "scholarship", "enabled", "her", "to", "study", "abroad", "for", "a", "year."],
+            correctAnswer: "Her scholarship enabled her to study abroad for a year.",
+            correctFeedback: "Correct! 'Enabled' + object + to-infinitive expresses giving someone the means or opportunity to act.",
+            correctFeedbackRu: "Правильно! 'Enabled' + объект + инфинитив с 'to' выражает предоставление средств или возможности действовать.",
+            incorrectFeedback: "Not quite. Place the object 'her' directly after 'enabled', then the to-infinitive 'to study'.",
+            incorrectFeedbackRu: "Не совсем. Объект 'her' должен стоять сразу после 'enabled', а затем инфинитив с 'to' - 'to study'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Visitors", "are", "not", "permitted", "to", "touch", "the", "exhibits."],
+            correctAnswer: "Visitors are not permitted to touch the exhibits.",
+            correctFeedback: "Correct! Passive 'are not permitted to' is the standard formal way to state a prohibition.",
+            correctFeedbackRu: "Правильно! Пассивная форма 'are not permitted to' - стандартный формальный способ выразить запрет.",
+            incorrectFeedback: "Not quite. The negative auxiliary comes before 'permitted': are not permitted to touch, not permitted are not to touch.",
+            incorrectFeedbackRu: "Не совсем. Отрицательный вспомогательный глагол стоит перед 'permitted': are not permitted to touch."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "security", "guard", "reluctantly", "let", "the", "reporters", "enter", "the", "building."],
+            correctAnswer: "The security guard reluctantly let the reporters enter the building.",
+            correctFeedback: "Correct! 'Let' + object + bare infinitive is used here, since 'enter' has no 'to' before it.",
+            correctFeedbackRu: "Правильно! 'Let' + объект + инфинитив без 'to' используется здесь, поскольку перед 'enter' нет 'to'.",
+            incorrectFeedback: "Not quite. Place the adverb 'reluctantly' before 'let', then the object 'the reporters' and the bare infinitive 'enter'.",
+            incorrectFeedbackRu: "Не совсем. Наречие 'reluctantly' должно стоять перед 'let', затем объект 'the reporters' и инфинитив без 'to' - 'enter'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Only", "senior", "partners", "are", "authorized", "to", "sign", "major", "contracts."],
+            correctAnswer: "Only senior partners are authorized to sign major contracts.",
+            correctFeedback: "Correct! 'Are authorized to' is the formal passive structure for granting official permission.",
+            correctFeedbackRu: "Правильно! 'Are authorized to' - формальная пассивная конструкция для предоставления официального разрешения.",
+            incorrectFeedback: "Not quite. Keep 'only senior partners' as the subject, followed by 'are authorized to sign'.",
+            incorrectFeedbackRu: "Не совсем. 'Only senior partners' должно быть подлежащим, за которым следует 'are authorized to sign'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["This", "update", "enables", "users", "to", "customize", "the", "entire", "interface."],
+            correctAnswer: "This update enables users to customize the entire interface.",
+            correctFeedback: "Correct! 'Enables' + object + to-infinitive fits a feature that gives users a new capability.",
+            correctFeedbackRu: "Правильно! 'Enables' + объект + инфинитив с 'to' подходит для функции, дающей пользователям новую возможность.",
+            incorrectFeedback: "Not quite. Place 'users' directly after 'enables', then the to-infinitive 'to customize'.",
+            incorrectFeedbackRu: "Не совсем. 'Users' должно стоять сразу после 'enables', а затем инфинитив с 'to' - 'to customize'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "judge", "allowed", "the", "witness", "to", "leave", "the", "courtroom", "early."],
+            correctAnswer: "The judge allowed the witness to leave the courtroom early.",
+            correctFeedback: "Correct! 'Allowed' + object + to-infinitive fits the judge granting permission during proceedings.",
+            correctFeedbackRu: "Правильно! 'Allowed' + объект + инфинитив с 'to' подходит для разрешения, предоставленного судьёй во время заседания.",
+            incorrectFeedback: "Not quite. Keep 'the witness' right after 'allowed', then the to-infinitive 'to leave'.",
+            incorrectFeedbackRu: "Не совсем. 'The witness' должно стоять сразу после 'allowed', а затем инфинитив с 'to' - 'to leave'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Under", "the", "agreement,", "both", "countries", "are", "empowered", "to", "inspect", "the", "facilities."],
+            correctAnswer: "Under the agreement, both countries are empowered to inspect the facilities.",
+            correctFeedback: "Correct! 'Are empowered to' is a formal way of saying official authority has been granted for an action.",
+            correctFeedbackRu: "Правильно! 'Are empowered to' - формальный способ сказать, что для действия предоставлены официальные полномочия.",
+            incorrectFeedback: "Not quite. The introductory phrase 'Under the agreement' comes first, followed by the subject and 'are empowered to inspect'.",
+            incorrectFeedbackRu: "Не совсем. Вводная фраза 'Under the agreement' стоит в начале, за ней - подлежащее и 'are empowered to inspect'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Her", "guardian", "would", "never", "allow", "her", "to", "travel", "unaccompanied."],
+            correctAnswer: "Her guardian would never allow her to travel unaccompanied.",
+            correctFeedback: "Correct! 'Allow' + object + to-infinitive fits the to-infinitive 'to travel'; permission is being withheld here.",
+            correctFeedbackRu: "Правильно! 'Allow' + объект + инфинитив с 'to' соответствует инфинитиву 'to travel'; здесь речь идёт об отказе в разрешении.",
+            incorrectFeedback: "Not quite. Place 'never' between 'would' and 'allow': would never allow, then the object and to-infinitive.",
+            incorrectFeedbackRu: "Не совсем. 'Never' должно стоять между 'would' и 'allow': would never allow, затем объект и инфинитив с 'to'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "revised", "charter", "permits", "members", "to", "vote", "remotely."],
+            correctAnswer: "The revised charter permits members to vote remotely.",
+            correctFeedback: "Correct! 'Permits' + object + to-infinitive fits a rule change that grants a new option to members.",
+            correctFeedbackRu: "Правильно! 'Permits' + объект + инфинитив с 'to' подходит для изменения устава, предоставляющего членам новую возможность.",
+            incorrectFeedback: "Not quite. Keep 'members' directly after 'permits', then the to-infinitive 'to vote'.",
+            incorrectFeedbackRu: "Не совсем. 'Members' должно стоять сразу после 'permits', а затем инфинитив с 'to' - 'to vote'."
+        }
+    ]
+};
+
+/* =============================================================================== 
+sPage 6: Have/Get + Object + Present Participle =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page6'] = {
+    title: "Have/Get + Object + Present Participle",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["She", "always", "has", "her", "students", "working", "in", "small", "collaborative", "groups."],
+            correctAnswer: "She always has her students working in small collaborative groups.",
+            correctFeedback: "Correct! 'Has' + object + present participle describes keeping people engaged in an ongoing activity.",
+            correctFeedbackRu: "Правильно! 'Has' + объект + причастие настоящего времени описывает вовлечённость людей в продолжающееся действие.",
+            incorrectFeedback: "Not quite. Place 'always' before 'has', then the object 'her students' and the present participle 'working'.",
+            incorrectFeedbackRu: "Не совсем. 'Always' должно стоять перед 'has', затем объект 'her students' и причастие 'working'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["By", "midnight,", "they", "had", "the", "whole", "factory", "running", "at", "full", "capacity."],
+            correctAnswer: "By midnight, they had the whole factory running at full capacity.",
+            correctFeedback: "Correct! 'Had' + object + present participle in the past describes achieving an ongoing state by a certain time.",
+            correctFeedbackRu: "Правильно! 'Had' + объект + причастие настоящего времени в прошедшем времени описывает достижение продолжающегося состояния к определённому моменту.",
+            incorrectFeedback: "Not quite. The time phrase 'By midnight' opens the sentence, followed by 'they had the whole factory running'.",
+            incorrectFeedbackRu: "Не совсем. Обстоятельство времени 'By midnight' стоит в начале предложения, за ним - 'they had the whole factory running'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "mechanic", "finally", "got", "the", "old", "generator", "running", "smoothly", "again."],
+            correctAnswer: "The mechanic finally got the old generator running smoothly again.",
+            correctFeedback: "Correct! 'Got' + object + present participle describes achieving a result through effort.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + причастие настоящего времени описывает достижение результата усилиями.",
+            incorrectFeedback: "Not quite. Place 'finally' before 'got', then the object 'the old generator' and the present participle 'running'.",
+            incorrectFeedbackRu: "Не совсем. 'Finally' должно стоять перед 'got', затем объект 'the old generator' и причастие 'running'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "coach", "had", "the", "entire", "squad", "training", "before", "sunrise."],
+            correctAnswer: "The coach had the entire squad training before sunrise.",
+            correctFeedback: "Correct! 'Had' + object + present participle describes an arranged, ongoing routine.",
+            correctFeedbackRu: "Правильно! 'Had' + объект + причастие настоящего времени описывает организованный, продолжающийся распорядок.",
+            incorrectFeedback: "Not quite. Keep 'the entire squad' right after 'had', then the present participle 'training' and the time phrase.",
+            incorrectFeedbackRu: "Не совсем. 'The entire squad' должно стоять сразу после 'had', затем причастие 'training' и обстоятельство времени."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Her", "proposal", "got", "the", "board", "members", "seriously", "discussing", "the", "merger."],
+            correctAnswer: "Her proposal got the board members seriously discussing the merger.",
+            correctFeedback: "Correct! 'Got' + object + present participle describes setting a large-scale discussion in motion.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + причастие настоящего времени описывает запуск масштабного обсуждения.",
+            incorrectFeedback: "Not quite. Place the adverb 'seriously' between the object and the present participle: 'board members seriously discussing'.",
+            incorrectFeedbackRu: "Не совсем. Наречие 'seriously' должно стоять между объектом и причастием: 'board members seriously discussing'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "manager", "quickly", "got", "the", "department", "functioning", "far", "more", "efficiently."],
+            correctAnswer: "The manager quickly got the department functioning far more efficiently.",
+            correctFeedback: "Correct! 'Got' + object + present participle describes bringing about a changed, ongoing state through effort.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + причастие настоящего времени описывает достижение изменённого, продолжающегося состояния.",
+            incorrectFeedback: "Not quite. Place 'quickly' before 'got', then the object 'the department' and the present participle 'functioning'.",
+            incorrectFeedbackRu: "Не совсем. 'Quickly' должно стоять перед 'got', затем объект 'the department' и причастие 'functioning'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["By", "the", "end", "of", "the", "lecture,", "she", "had", "the", "students", "debating", "passionately."],
+            correctAnswer: "By the end of the lecture, she had the students debating passionately.",
+            correctFeedback: "Correct! 'Had' + object + present participle describes a gradual effect achieved by the end of an event.",
+            correctFeedbackRu: "Правильно! 'Had' + объект + причастие настоящего времени описывает постепенный эффект, достигнутый к концу мероприятия.",
+            incorrectFeedback: "Not quite. The time clause 'By the end of the lecture' opens the sentence, followed by 'she had the students debating'.",
+            incorrectFeedbackRu: "Не совсем. Придаточное времени 'By the end of the lecture' стоит в начале предложения, за ним - 'she had the students debating'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "comedian", "had", "the", "whole", "audience", "laughing", "within", "seconds."],
+            correctAnswer: "The comedian had the whole audience laughing within seconds.",
+            correctFeedback: "Correct! 'Had' + object + present participle describes producing an ongoing reaction in an audience with ease.",
+            correctFeedbackRu: "Правильно! 'Had' + объект + причастие настоящего времени описывает лёгкое достижение продолжающейся реакции аудитории.",
+            incorrectFeedback: "Not quite. Keep 'the whole audience' right after 'had', then the present participle 'laughing' and the time phrase.",
+            incorrectFeedbackRu: "Не совсем. 'The whole audience' должно стоять сразу после 'had', затем причастие 'laughing' и обстоятельство времени."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "founder", "got", "investors", "actively", "competing", "for", "a", "stake."],
+            correctAnswer: "The founder got investors actively competing for a stake.",
+            correctFeedback: "Correct! 'Got' + object + present participle describes persuading investors into an ongoing state of competition.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + причастие настоящего времени описывает убеждение инвесторов, приведшее к продолжающейся конкуренции.",
+            incorrectFeedback: "Not quite. Place the adverb 'actively' between the object and the present participle: 'investors actively competing'.",
+            incorrectFeedbackRu: "Не совсем. Наречие 'actively' должно стоять между объектом и причастием: 'investors actively competing'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Through", "patience,", "he", "got", "the", "committee", "genuinely", "reconsidering", "the", "proposal."],
+            correctAnswer: "Through patience, he got the committee genuinely reconsidering the proposal.",
+            correctFeedback: "Correct! 'Got' + object + present participle fits achieving a change of stance through sustained effort.",
+            correctFeedbackRu: "Правильно! 'Got' + объект + причастие настоящего времени подходит для достижения изменения позиции благодаря упорству.",
+            incorrectFeedback: "Not quite. The introductory phrase 'Through patience' opens the sentence, followed by 'he got the committee genuinely reconsidering'.",
+            incorrectFeedbackRu: "Не совсем. Вводная фраза 'Through patience' стоит в начале предложения, за ней - 'he got the committee genuinely reconsidering'."
+        }
+    ]
+};
+
+/* =============================================================================== 
+sPage 7: Causative Passive in Perfect and Modal Forms =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page7'] = {
+    title: "Causative Passive in Perfect and Modal Forms",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["By", "the", "time", "we", "arrived,", "they", "had", "had", "the", "entire", "hall", "decorated."],
+            correctAnswer: "By the time we arrived, they had had the entire hall decorated.",
+            correctFeedback: "Correct! Past perfect + causative 'have' gives 'had had ... decorated' - completed before another past point.",
+            correctFeedbackRu: "Правильно! Past Perfect + каузативное 'have' даёт форму 'had had ... decorated' - действие завершилось до другого момента в прошлом.",
+            incorrectFeedback: "Not quite. The time clause 'By the time we arrived' opens the sentence, followed by 'they had had the entire hall decorated'.",
+            incorrectFeedbackRu: "Не совсем. Придаточное времени 'By the time we arrived' стоит в начале, за ним - 'they had had the entire hall decorated'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["She", "must", "have", "her", "manuscript", "edited", "before", "submitting", "it."],
+            correctAnswer: "She must have her manuscript edited before submitting it.",
+            correctFeedback: "Correct! 'Must have' + object + past participle expresses a strong present obligation to arrange something.",
+            correctFeedbackRu: "Правильно! 'Must have' + объект + причастие выражает сильную обязанность в настоящем организовать что-либо.",
+            incorrectFeedback: "Not quite. Keep 'her manuscript' right after 'have', then the past participle 'edited' and the time clause.",
+            incorrectFeedbackRu: "Не совсем. 'Her manuscript' должно стоять сразу после 'have', затем причастие 'edited' и придаточное времени."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["By", "next", "year,", "we", "will", "have", "had", "the", "whole", "building", "renovated."],
+            correctAnswer: "By next year, we will have had the whole building renovated.",
+            correctFeedback: "Correct! Future perfect + causative 'have' gives 'will have had ... renovated' - completed by a future point.",
+            correctFeedbackRu: "Правильно! Future Perfect + каузативное 'have' даёт форму 'will have had ... renovated' - действие завершится к будущему моменту.",
+            incorrectFeedback: "Not quite. The time phrase 'By next year' opens the sentence, followed by 'we will have had the whole building renovated'.",
+            incorrectFeedbackRu: "Не совсем. Обстоятельство времени 'By next year' стоит в начале, за ним - 'we will have had the whole building renovated'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["They", "should", "have", "had", "the", "wiring", "checked", "long", "before", "the", "fire."],
+            correctAnswer: "They should have had the wiring checked long before the fire.",
+            correctFeedback: "Correct! 'Should have had' + object + past participle expresses a past obligation that was not fulfilled.",
+            correctFeedbackRu: "Правильно! 'Should have had' + объект + причастие выражает невыполненную обязанность в прошлом.",
+            incorrectFeedback: "Not quite. Keep 'the wiring' right after 'had', then the past participle 'checked' and 'long before the fire' at the end.",
+            incorrectFeedbackRu: "Не совсем. 'The wiring' должно стоять сразу после 'had', затем причастие 'checked' и 'long before the fire' в конце."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "firm", "had", "already", "had", "its", "accounts", "audited", "by", "the", "deadline."],
+            correctAnswer: "The firm had already had its accounts audited by the deadline.",
+            correctFeedback: "Correct! Past perfect 'had already had ... audited' shows the action was completed before the deadline.",
+            correctFeedbackRu: "Правильно! Past Perfect 'had already had ... audited' показывает, что действие завершилось до дедлайна.",
+            incorrectFeedback: "Not quite. Place 'already' between the two instances of 'had': had already had.",
+            incorrectFeedbackRu: "Не совсем. 'Already' должно стоять между двумя формами 'had': had already had."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Having", "had", "the", "necessary", "approvals", "secured,", "they", "finally", "began", "construction."],
+            correctAnswer: "Having had the necessary approvals secured, they finally began construction.",
+            correctFeedback: "Correct! 'Having had' + object + past participle opens a participle clause showing a completed prior action.",
+            correctFeedbackRu: "Правильно! 'Having had' + объект + причастие открывает причастный оборот, показывающий завершённое предшествующее действие.",
+            incorrectFeedback: "Not quite. The participle clause 'Having had the necessary approvals secured' must open the sentence, followed by a comma.",
+            incorrectFeedbackRu: "Не совсем. Причастный оборот 'Having had the necessary approvals secured' должен стоять в начале предложения, за ним - запятая."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["He", "might", "have", "had", "the", "results", "verified", "by", "another", "laboratory."],
+            correctAnswer: "He might have had the results verified by another laboratory.",
+            correctFeedback: "Correct! 'Might have had' + object + past participle expresses a possible past action, softened by the modal 'might'.",
+            correctFeedbackRu: "Правильно! 'Might have had' + объект + причастие выражает возможное действие в прошлом, смягчённое модальным глаголом 'might'.",
+            incorrectFeedback: "Not quite. Keep 'the results' right after 'had', then the past participle 'verified' and the agent 'by another laboratory'.",
+            incorrectFeedbackRu: "Не совсем. 'The results' должно стоять сразу после 'had', затем причастие 'verified' и исполнитель 'by another laboratory'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["You", "really", "should", "have", "had", "that", "engine", "serviced", "months", "ago."],
+            correctAnswer: "You really should have had that engine serviced months ago.",
+            correctFeedback: "Correct! 'Should have had' + object + past participle expresses criticism of a past failure to arrange something.",
+            correctFeedbackRu: "Правильно! 'Should have had' + объект + причастие выражает упрёк за невыполненное в прошлом действие.",
+            incorrectFeedback: "Not quite. Place 'really' between 'you' and 'should', then 'have had that engine serviced' and the time phrase.",
+            incorrectFeedbackRu: "Не совсем. 'Really' должно стоять между 'you' и 'should', затем 'have had that engine serviced' и обстоятельство времени."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["By", "2035,", "cities", "will", "have", "had", "most", "transport", "systems", "electrified."],
+            correctAnswer: "By 2035, cities will have had most transport systems electrified.",
+            correctFeedback: "Correct! Future perfect causative 'will have had ... electrified' shows completion by a specific future date.",
+            correctFeedbackRu: "Правильно! Каузативный Future Perfect 'will have had ... electrified' показывает завершение действия к определённой дате в будущем.",
+            incorrectFeedback: "Not quite. The time phrase 'By 2035' opens the sentence, followed by 'cities will have had most transport systems electrified'.",
+            incorrectFeedbackRu: "Не совсем. Обстоятельство времени 'By 2035' стоит в начале, за ним - 'cities will have had most transport systems electrified'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["If", "she", "had", "had", "her", "documents", "translated", "sooner,", "she", "wouldn't", "have", "missed", "the", "deadline."],
+            correctAnswer: "If she had had her documents translated sooner, she wouldn't have missed the deadline.",
+            correctFeedback: "Correct! Third conditional 'had had ... translated' combines past perfect with causative 'have' for an unreal past situation.",
+            correctFeedbackRu: "Правильно! Третье условное предложение 'had had ... translated' сочетает Past Perfect с каузативным 'have' для нереальной ситуации в прошлом.",
+            incorrectFeedback: "Not quite. The 'if' clause with 'had had her documents translated sooner' comes first, followed by the main clause with 'wouldn't have'.",
+            incorrectFeedbackRu: "Не совсем. Придаточное с 'if' и 'had had her documents translated sooner' стоит первым, за ним - главное предложение с 'wouldn't have'."
+        }
+    ]
+};
+
+/* =============================================================================== 
+sPage 8: Idiomatic Causative Expressions =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page8'] = {
+    title: "Idiomatic Causative Expressions",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Could", "you", "please", "see", "to", "it", "that", "the", "doors", "are", "locked", "tonight?"],
+            correctAnswer: "Could you please see to it that the doors are locked tonight?",
+            correctFeedback: "Correct! 'See to it that...' is a fixed idiom meaning to make sure something happens.",
+            correctFeedbackRu: "Правильно! 'See to it that...' - устойчивая идиома, означающая проследить, чтобы что-то произошло.",
+            incorrectFeedback: "Not quite. The idiom is fixed: see + to it + that, with 'see' immediately after 'please'.",
+            incorrectFeedbackRu: "Не совсем. Идиома устойчива: see + to it + that, причём 'see' стоит сразу после 'please'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["I'll", "make", "arrangements", "for", "the", "shipment", "to", "be", "delivered", "early."],
+            correctAnswer: "I'll make arrangements for the shipment to be delivered early.",
+            correctFeedback: "Correct! 'Make arrangements for something to be done' is the fixed collocation for organizing something in advance.",
+            correctFeedbackRu: "Правильно! 'Make arrangements for something to be done' - устойчивое сочетание для заблаговременной организации чего-либо.",
+            incorrectFeedback: "Not quite. Keep 'arrangements' directly after 'make', then 'for the shipment to be delivered'.",
+            incorrectFeedbackRu: "Не совсем. 'Arrangements' должно стоять сразу после 'make', затем 'for the shipment to be delivered'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "chairman", "won't", "have", "any", "interruptions", "during", "his", "presentation."],
+            correctAnswer: "The chairman won't have any interruptions during his presentation.",
+            correctFeedback: "Correct! Negative 'won't have' is an idiom meaning 'won't tolerate/allow'.",
+            correctFeedbackRu: "Правильно! Отрицательное 'won't have' - идиома, означающая 'не потерплю/не допущу'.",
+            incorrectFeedback: "Not quite. Place the object 'any interruptions' directly after 'have', then the time phrase 'during his presentation'.",
+            incorrectFeedbackRu: "Не совсем. Объект 'any interruptions' должен стоять сразу после 'have', затем обстоятельство времени 'during his presentation'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Please", "ensure", "that", "every", "invoice", "is", "checked", "before", "it's", "sent."],
+            correctAnswer: "Please ensure that every invoice is checked before it's sent.",
+            correctFeedback: "Correct! 'Ensure that...' is the standard formal verb for guaranteeing an outcome.",
+            correctFeedbackRu: "Правильно! 'Ensure that...' - стандартный формальный глагол для гарантирования результата.",
+            incorrectFeedback: "Not quite. 'Ensure' is followed directly by 'that', without 'sure' in between, unlike 'make sure that'.",
+            incorrectFeedbackRu: "Не совсем. После 'ensure' сразу идёт 'that', без 'sure' между ними, в отличие от 'make sure that'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["She", "arranged", "for", "a", "translator", "to", "be", "present", "at", "the", "meeting."],
+            correctAnswer: "She arranged for a translator to be present at the meeting.",
+            correctFeedback: "Correct! 'Arrange for something to be done' is the fixed pattern for organizing something for someone else.",
+            correctFeedbackRu: "Правильно! 'Arrange for something to be done' - устойчивая конструкция для заблаговременной организации чего-либо для другого лица.",
+            incorrectFeedback: "Not quite. Keep 'for a translator to be present' together as a fixed pattern after 'arranged'.",
+            incorrectFeedbackRu: "Не совсем. 'For a translator to be present' должно идти единым блоком после 'arranged'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["He", "simply", "won't", "have", "his", "judgment", "questioned", "by", "outsiders."],
+            correctAnswer: "He simply won't have his judgment questioned by outsiders.",
+            correctFeedback: "Correct! 'Won't have' here idiomatically means 'won't tolerate', followed by object + past participle.",
+            correctFeedbackRu: "Правильно! 'Won't have' здесь идиоматически означает 'не потерплю', после чего следует объект и причастие.",
+            incorrectFeedback: "Not quite. Place 'simply' before 'won't', then 'have his judgment questioned by outsiders'.",
+            incorrectFeedbackRu: "Не совсем. 'Simply' должно стоять перед 'won't', затем 'have his judgment questioned by outsiders'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["You'd", "better", "make", "sure", "the", "contract", "is", "signed", "before", "Friday."],
+            correctAnswer: "You'd better make sure the contract is signed before Friday.",
+            correctFeedback: "Correct! 'Make sure' is the fixed idiom for checking or guaranteeing that something is the case.",
+            correctFeedbackRu: "Правильно! 'Make sure' - устойчивая идиома для проверки или гарантии того, что что-то соответствует действительности.",
+            incorrectFeedback: "Not quite. Keep 'sure' directly after 'make': make sure, not sure make.",
+            incorrectFeedbackRu: "Не совсем. 'Sure' должно стоять сразу после 'make': make sure, а не sure make."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "director", "insisted", "on", "having", "the", "footage", "reviewed", "twice."],
+            correctAnswer: "The director insisted on having the footage reviewed twice.",
+            correctFeedback: "Correct! After the preposition 'on', the causative verb takes the gerund form: 'insist on having something done'.",
+            correctFeedbackRu: "Правильно! После предлога 'on' каузативный глагол принимает форму герундия: 'insist on having something done'.",
+            incorrectFeedback: "Not quite. After 'insisted on', use the gerund 'having', not the base form 'have'.",
+            incorrectFeedbackRu: "Не совсем. После 'insisted on' используется герундий 'having', а не базовая форма 'have'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["I", "can't", "have", "this", "kind", "of", "negligence", "continuing", "unchecked."],
+            correctAnswer: "I can't have this kind of negligence continuing unchecked.",
+            correctFeedback: "Correct! 'Can't have' idiomatically means 'can't allow/tolerate', followed by object + present participle.",
+            correctFeedbackRu: "Правильно! 'Can't have' идиоматически означает 'не могу допустить/потерпеть', после чего следует объект и причастие.",
+            incorrectFeedback: "Not quite. Keep 'this kind of negligence' right after 'have', then the present participle 'continuing'.",
+            incorrectFeedbackRu: "Не совсем. 'This kind of negligence' должно стоять сразу после 'have', затем причастие 'continuing'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Leave", "it", "to", "me", "-", "I'll", "see", "to", "it", "that", "everyone", "is", "informed."],
+            correctAnswer: "Leave it to me - I'll see to it that everyone is informed.",
+            correctFeedback: "Correct! 'See to it that...' is the fixed idiom for personally guaranteeing an outcome.",
+            correctFeedbackRu: "Правильно! 'See to it that...' - устойчивая идиома для личной гарантии результата.",
+            incorrectFeedback: "Not quite. The phrase 'Leave it to me' opens the sentence, followed by 'I'll see to it that everyone is informed'.",
+            incorrectFeedbackRu: "Не совсем. Фраза 'Leave it to me' стоит в начале предложения, за ней - 'I'll see to it that everyone is informed'."
+        }
+    ]
+};
+
+/* =============================================================================== 
+sPage 9: Verbs of Persuasion and Influence =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page9'] = {
+    title: "Verbs of Persuasion and Influence",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["It", "took", "real", "effort", "to", "persuade", "the", "board", "to", "approve", "the", "plan."],
+            correctAnswer: "It took real effort to persuade the board to approve the plan.",
+            correctFeedback: "Correct! 'Persuade' + object + to-infinitive is the standard pattern for winning agreement through argument.",
+            correctFeedbackRu: "Правильно! 'Persuade' + объект + инфинитив с 'to' - стандартная конструкция для достижения согласия посредством убеждения.",
+            incorrectFeedback: "Not quite. Keep 'the board' right after 'persuade', then the to-infinitive 'to approve'.",
+            incorrectFeedbackRu: "Не совсем. 'The board' должно стоять сразу после 'persuade', а затем инфинитив с 'to' - 'to approve'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["She", "eventually", "talked", "her", "partner", "into", "accepting", "the", "compromise."],
+            correctAnswer: "She eventually talked her partner into accepting the compromise.",
+            correctFeedback: "Correct! 'Talk someone into doing something' is a fixed phrasal pattern meaning to persuade through conversation.",
+            correctFeedbackRu: "Правильно! 'Talk someone into doing something' - устойчивая фразовая конструкция, означающая убедить посредством разговора.",
+            incorrectFeedback: "Not quite. 'Talked' pairs with 'into' + gerund: talked into accepting, not talked to accept.",
+            incorrectFeedbackRu: "Не совсем. 'Talked' сочетается с 'into' + герундием: talked into accepting, а не talked to accept."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Nothing", "could", "convince", "him", "that", "the", "plan", "was", "flawed."],
+            correctAnswer: "Nothing could convince him that the plan was flawed.",
+            correctFeedback: "Correct! 'Convince someone that...' is the standard pattern for changing someone's belief.",
+            correctFeedbackRu: "Правильно! 'Convince someone that...' - стандартная конструкция для изменения чьего-то убеждения.",
+            incorrectFeedback: "Not quite. Keep 'him' right after 'convince', then the that-clause 'that the plan was flawed'.",
+            incorrectFeedbackRu: "Не совсем. 'Him' должно стоять сразу после 'convince', затем придаточное с 'that the plan was flawed'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "bonus", "induced", "several", "employees", "to", "postpone", "their", "resignations."],
+            correctAnswer: "The bonus induced several employees to postpone their resignations.",
+            correctFeedback: "Correct! 'Induce' + object + to-infinitive is a formal verb for persuading through incentive.",
+            correctFeedbackRu: "Правильно! 'Induce' + объект + инфинитив с 'to' - формальный глагол для убеждения посредством стимула.",
+            incorrectFeedback: "Not quite. Keep 'several employees' right after 'induced', then the to-infinitive 'to postpone'.",
+            incorrectFeedbackRu: "Не совсем. 'Several employees' должно стоять сразу после 'induced', а затем инфинитив с 'to' - 'to postpone'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["They", "finally", "managed", "to", "prevail", "upon", "the", "minister", "to", "intervene."],
+            correctAnswer: "They finally managed to prevail upon the minister to intervene.",
+            correctFeedback: "Correct! 'Prevail upon someone to do something' is a formal, literary idiom meaning to successfully persuade after resistance.",
+            correctFeedbackRu: "Правильно! 'Prevail upon someone to do something' - формальная, книжная идиома, означающая успешно убедить после сопротивления.",
+            incorrectFeedback: "Not quite. 'Prevail' pairs with 'upon', not 'on': prevail upon the minister, not prevail on the minister.",
+            incorrectFeedbackRu: "Не совсем. 'Prevail' сочетается с 'upon', а не с 'on': prevail upon the minister, а не prevail on the minister."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Her", "patience", "gradually", "won", "over", "even", "her", "fiercest", "opponents."],
+            correctAnswer: "Her patience gradually won over even her fiercest opponents.",
+            correctFeedback: "Correct! 'Win someone over' is a fixed phrasal verb meaning to gradually gain someone's support.",
+            correctFeedbackRu: "Правильно! 'Win someone over' - устойчивый фразовый глагол, означающий постепенно завоевать чью-то поддержку.",
+            incorrectFeedback: "Not quite. Place 'gradually' before 'won', not between 'won' and 'over': it should be 'gradually won over'.",
+            incorrectFeedbackRu: "Не совсем. 'Gradually' должно стоять перед 'won': 'gradually won over', а не после."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "lawyer", "persuaded", "the", "client", "to", "settle", "out", "of", "court."],
+            correctAnswer: "The lawyer persuaded the client to settle out of court.",
+            correctFeedback: "Correct! 'Persuaded' + object + to-infinitive fits the lawyer's use of argument rather than force.",
+            correctFeedbackRu: "Правильно! 'Persuaded' + объект + инфинитив с 'to' соответствует убеждению доводами, а не принуждению.",
+            incorrectFeedback: "Not quite. Keep 'the client' right after 'persuaded', then the to-infinitive 'to settle'.",
+            incorrectFeedbackRu: "Не совсем. 'The client' должно стоять сразу после 'persuaded', а затем инфинитив с 'to' - 'to settle'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["I", "couldn't", "talk", "her", "into", "changing", "her", "travel", "plans."],
+            correctAnswer: "I couldn't talk her into changing her travel plans.",
+            correctFeedback: "Correct! 'Talk someone into doing something' is the fixed phrasal pattern that combines with 'into'.",
+            correctFeedbackRu: "Правильно! 'Talk someone into doing something' - устойчивая фразовая конструкция, которая сочетается с 'into'.",
+            incorrectFeedback: "Not quite. 'Talk' pairs with 'into' + gerund: talk into changing, not talk to change.",
+            incorrectFeedbackRu: "Не совсем. 'Talk' сочетается с 'into' + герундием: talk into changing, а не talk to change."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "data", "eventually", "convinced", "the", "panel", "of", "the", "theory's", "validity."],
+            correctAnswer: "The data eventually convinced the panel of the theory's validity.",
+            correctFeedback: "Correct! 'Convince someone of something' is the standard pattern for establishing belief through evidence.",
+            correctFeedbackRu: "Правильно! 'Convince someone of something' - стандартная конструкция для формирования убеждения посредством доказательств.",
+            incorrectFeedback: "Not quite. Keep 'the panel' right after 'convinced', then 'of the theory's validity'.",
+            incorrectFeedbackRu: "Не совсем. 'The panel' должно стоять сразу после 'convinced', затем 'of the theory's validity'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["It", "took", "a", "formal", "letter", "to", "persuade", "the", "agency", "to", "respond."],
+            correctAnswer: "It took a formal letter to persuade the agency to respond.",
+            correctFeedback: "Correct! 'Persuade' + object + to-infinitive fits the to-infinitive 'to respond' after a formal appeal.",
+            correctFeedbackRu: "Правильно! 'Persuade' + объект + инфинитив с 'to' соответствует инфинитиву 'to respond' после официального обращения.",
+            incorrectFeedback: "Not quite. Keep 'the agency' right after 'persuade', then the to-infinitive 'to respond'.",
+            incorrectFeedbackRu: "Не совсем. 'The agency' должно стоять сразу после 'persuade', а затем инфинитив с 'to' - 'to respond'."
+        }
+    ]
+};
+
+/* =============================================================================== 
+sPage 10: Mixed Advanced Review =============================================================================== */
+window.grammarExercises['verb-patterns']['advanced-causative-forms-sentence-page10'] = {
+    title: "Mixed Advanced Review",
+    sentenceBuilding: [
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "firm", "had", "its", "entire", "warehouse", "inspected", "before", "the", "audit."],
+            correctAnswer: "The firm had its entire warehouse inspected before the audit.",
+            correctFeedback: "Correct! Past causative passive: had + object + past participle, showing the firm arranged the inspection.",
+            correctFeedbackRu: "Правильно! Каузативный пассив в прошедшем времени: had + объект + причастие, показывающий, что фирма организовала осмотр.",
+            incorrectFeedback: "Not quite. Keep 'its entire warehouse' right after 'had', then the past participle 'inspected'.",
+            incorrectFeedbackRu: "Не совсем. 'Its entire warehouse' должно стоять сразу после 'had', затем причастие 'inspected'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "siren", "made", "everyone", "evacuate", "the", "building", "immediately."],
+            correctAnswer: "The siren made everyone evacuate the building immediately.",
+            correctFeedback: "Correct! 'Made' + object + bare infinitive shows an external cause forcing an immediate reaction.",
+            correctFeedbackRu: "Правильно! 'Made' + объект + инфинитив без 'to' показывает внешнюю причину, вызвавшую немедленную реакцию.",
+            incorrectFeedback: "Not quite. The bare infinitive 'evacuate' must follow 'everyone' directly, without 'to'.",
+            incorrectFeedbackRu: "Не совсем. Инфинитив без 'to' - 'evacuate' - должен стоять сразу после 'everyone', без 'to'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["It", "took", "persistence", "to", "get", "the", "contractor", "to", "finish", "on", "time."],
+            correctAnswer: "It took persistence to get the contractor to finish on time.",
+            correctFeedback: "Correct! 'Get' + object + to-infinitive expresses persuading someone after sustained effort.",
+            correctFeedbackRu: "Правильно! 'Get' + объект + инфинитив с 'to' выражает убеждение кого-то после продолжительных усилий.",
+            incorrectFeedback: "Not quite. Keep 'the contractor' right after 'get', then the to-infinitive 'to finish'.",
+            incorrectFeedbackRu: "Не совсем. 'The contractor' должно стоять сразу после 'get', а затем инфинитив с 'to' - 'to finish'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "court", "order", "compelled", "the", "company", "to", "release", "its", "records."],
+            correctAnswer: "The court order compelled the company to release its records.",
+            correctFeedback: "Correct! 'Compelled' + object + to-infinitive fits a legally binding order.",
+            correctFeedbackRu: "Правильно! 'Compelled' + объект + инфинитив с 'to' соответствует юридически обязывающему постановлению.",
+            incorrectFeedback: "Not quite. Keep 'the company' right after 'compelled', then the to-infinitive 'to release'.",
+            incorrectFeedbackRu: "Не совсем. 'The company' должно стоять сразу после 'compelled', а затем инфинитив с 'to' - 'to release'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "revised", "policy", "now", "allows", "staff", "to", "work", "remotely", "full-time."],
+            correctAnswer: "The revised policy now allows staff to work remotely full-time.",
+            correctFeedback: "Correct! 'Allows' + object + to-infinitive fits a policy that grants a new option.",
+            correctFeedbackRu: "Правильно! 'Allows' + объект + инфинитив с 'to' подходит для политики, предоставляющей новую возможность.",
+            incorrectFeedback: "Not quite. Place 'now' between 'policy' and 'allows', then the object 'staff' and the to-infinitive 'to work'.",
+            incorrectFeedbackRu: "Не совсем. 'Now' должно стоять между 'policy' и 'allows', затем объект 'staff' и инфинитив с 'to' - 'to work'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "crisis", "had", "the", "whole", "department", "scrambling", "for", "solutions."],
+            correctAnswer: "The crisis had the whole department scrambling for solutions.",
+            correctFeedback: "Correct! 'Had' + object + present participle describes an ongoing state of activity triggered by the crisis.",
+            correctFeedbackRu: "Правильно! 'Had' + объект + причастие настоящего времени описывает продолжающееся состояние активности, вызванное кризисом.",
+            incorrectFeedback: "Not quite. Keep 'the whole department' right after 'had', then the present participle 'scrambling'.",
+            incorrectFeedbackRu: "Не совсем. 'The whole department' должно стоять сразу после 'had', затем причастие 'scrambling'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["By", "the", "time", "the", "inspector", "came,", "they", "had", "had", "the", "report", "revised."],
+            correctAnswer: "By the time the inspector came, they had had the report revised.",
+            correctFeedback: "Correct! Past perfect + causative 'have' gives 'had had ... revised' - completed before another past point.",
+            correctFeedbackRu: "Правильно! Past Perfect + каузативное 'have' даёт форму 'had had ... revised' - действие завершилось до другого момента в прошлом.",
+            incorrectFeedback: "Not quite. The time clause 'By the time the inspector came' opens the sentence, followed by 'they had had the report revised'.",
+            incorrectFeedbackRu: "Не совсем. Придаточное времени 'By the time the inspector came' стоит в начале, за ним - 'they had had the report revised'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["Rest", "assured,", "I'll", "see", "to", "it", "that", "everything", "runs", "smoothly."],
+            correctAnswer: "Rest assured, I'll see to it that everything runs smoothly.",
+            correctFeedback: "Correct! 'See to it that...' is the fixed idiom for personally guaranteeing an outcome.",
+            correctFeedbackRu: "Правильно! 'See to it that...' - устойчивая идиома для личной гарантии результата.",
+            incorrectFeedback: "Not quite. The phrase 'Rest assured' opens the sentence, followed by 'I'll see to it that everything runs smoothly'.",
+            incorrectFeedbackRu: "Не совсем. Фраза 'Rest assured' стоит в начале предложения, за ней - 'I'll see to it that everything runs smoothly'."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "consultant", "talked", "the", "executives", "into", "adopting", "a", "bold", "new", "strategy."],
+            correctAnswer: "The consultant talked the executives into adopting a bold new strategy.",
+            correctFeedback: "Correct! 'Talk someone into doing something' is the fixed phrasal pattern that combines with 'into'.",
+            correctFeedbackRu: "Правильно! 'Talk someone into doing something' - устойчивая фразовая конструкция, которая сочетается с 'into'.",
+            incorrectFeedback: "Not quite. 'Talked' pairs with 'into' + gerund: talked into adopting, not talked to adopt.",
+            incorrectFeedbackRu: "Не совсем. 'Talked' сочетается с 'into' + герундием: talked into adopting, а не talked to adopt."
+        },
+        {
+            question: "Put the words in the correct order to form a sentence:",
+            questionRu: "Расставьте слова в правильном порядке, чтобы составить предложение:",
+            words: ["The", "supervisor", "simply", "won't", "have", "deadlines", "missed", "on", "her", "team."],
+            correctAnswer: "The supervisor simply won't have deadlines missed on her team.",
+            correctFeedback: "Correct! Negative 'won't have' is an idiom meaning 'won't tolerate', followed by object + past participle.",
+            correctFeedbackRu: "Правильно! Отрицательное 'won't have' - идиома, означающая 'не потерплю', после чего следует объект и причастие.",
+            incorrectFeedback: "Not quite. Place 'simply' before 'won't', then 'have deadlines missed on her team'.",
+            incorrectFeedbackRu: "Не совсем. 'Simply' должно стоять перед 'won't', затем 'have deadlines missed on her team'."
         }
     ]
 };
