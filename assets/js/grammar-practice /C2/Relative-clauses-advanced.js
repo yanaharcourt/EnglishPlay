@@ -1,8 +1,8 @@
 window.grammarExercises = window.grammarExercises || {};
 window.grammarExercises['clauses-structure'] = window.grammarExercises['clauses-structure'] || {};
+
 /* =============================================================================== */
 /* =========================Multiple Choice Exercises============================= */
-/* =========== Grammar Card: Relative Clauses (Advanced) | Level: C2 ============== */
 
 /* ===============================================================================  
 Page 1: Defining vs Non-Defining Relative Clauses =============================================================================== */
